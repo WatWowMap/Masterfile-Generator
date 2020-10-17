@@ -90,6 +90,20 @@ function get_evolutions(type, evolutions, id) {
               evolution_branch.form_id = Form_List[evolution.form];
             }
             list.push(evolution_branch);
+          } else if (evolution.tempEvolution) {
+            let evolution_branch = {
+              temp_evolution: capitalize(evolution.tempEvolution),
+            };
+            if (evolution.firstTempEvolutionCandyCost) {
+              evolution_branch.first_candy_cost = evolution.firstTempEvolutionCandyCost;
+            }
+            if (evolution.subsequentTempEvolutionCandyCost) {
+              evolution_branch.subsequent_candy_cost = evolution.subsequentTempEvolutionCandyCost;
+            }
+            if (evolution.form) {
+              evolution_branch.form_id = Form_List[evolution.form];
+            }
+            list.push(evolution_branch);
           } else {
             list.push(capitalize(evolution));
           }
@@ -375,7 +389,7 @@ function Compile_Data(GameMaster, MasterArray) {
 }
 
 
-async function compile_master() {
+(async function () {
   await Fetch_Enum("moves", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Enums/PokemonMove.proto", 4, -2);
   Move_List = Ini.parse(Fs.readFileSync(__dirname + "/data/moves.ini", "utf-8"));
   await Fetch_Enum("forms", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Enums/Form.proto", 4, -2);
@@ -408,5 +422,4 @@ async function compile_master() {
     spaces: "\t",
     EOL: "\n"
   });
-}
-compile_master();
+})();
