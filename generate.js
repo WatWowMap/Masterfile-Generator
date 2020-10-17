@@ -1,5 +1,6 @@
+const protobuf = require("protobufjs");
+
 const Fetch = require("node-fetch");
-const Ini = require("ini");
 const Fs = require("fs-extra");
 
 var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types;
@@ -10,23 +11,6 @@ function Fetch_Json(url) {
       .then(res => res.json())
       .then(json => {
         return resolve(json);
-      });
-  });
-}
-
-function Fetch_Enum(type, url, front, back) {
-  return new Promise(resolve => {
-    Fetch(url)
-      .then(res => res.text())
-      .then(body => {
-        let result = body.split("\n")
-          .slice(front, back)
-          .join("\n")
-          .replace("\t", "")
-          .replace(" ", "")
-          .replace(";", "");
-        Fs.writeFileSync("./data/" + type + ".ini", result);
-        return resolve();
       });
   });
 }
@@ -390,16 +374,13 @@ function Compile_Data(GameMaster, MasterArray) {
 
 
 (async function () {
-  await Fetch_Enum("moves", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Enums/PokemonMove.proto", 4, -2);
-  Move_List = Ini.parse(Fs.readFileSync(__dirname + "/data/moves.ini", "utf-8"));
-  await Fetch_Enum("forms", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Enums/Form.proto", 4, -2);
-  Form_List = Ini.parse(Fs.readFileSync(__dirname + "/data/forms.ini", "utf-8"));
-  await Fetch_Enum("pokemon", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Enums/PokemonId.proto", 4, -2);
-  Pokemon_List = Ini.parse(Fs.readFileSync(__dirname + "/data/pokemon.ini", "utf-8"));
-  await Fetch_Enum("quests", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Enums/QuestType.proto", 4, -2);
-  Quest_Types = Ini.parse(Fs.readFileSync(__dirname + "/data/quests.ini", "utf-8"));
-  await Fetch_Enum("items", "https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Inventory/Item/ItemId.proto", 4, -2);
-  Item_List = Ini.parse(Fs.readFileSync(__dirname + "/data/items.ini", "utf-8"));
+  const protoResponse = await Fetch("https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Rpc/Rpc.proto");
+  const rpc = protobuf.parse(await protoResponse.text()).root.POGOProtos.Rpc;
+  Move_List = rpc.HoloPokemonMove;
+  Form_List = rpc.PokemonDisplayProto.Form;
+  Pokemon_List = rpc.HoloPokemonId;
+  Quest_Types = rpc.QuestType;
+  Item_List = rpc.Item;
 
   let GameMaster = {};
 
