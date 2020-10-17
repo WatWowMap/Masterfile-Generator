@@ -181,20 +181,14 @@ function Generate_Forms(GameMaster, MasterArray) {
     for (let f = 0, flen = FormArray.length; f < flen; f++) {
 
       let data = FormArray[f].split("_");
-      let pokemon_name = capitalize(data[0]);
-      let pokemon_id = Pokemon_List[data[0]] || 0;
+      let pokemon_id = Pokemon_List[data[0]];
+      if (!pokemon_id) {
+        console.warn('Unknown form', FormArray[f]);
+        continue;
+      }
       let form_name = capitalize(data[1]);
       let form_id = Form_List[FormArray[f]];
 
-      if (!GameMaster.pokemon[pokemon_id]) {
-        GameMaster.pokemon[pokemon_id] = { 'name': 'Egg' };
-      }
-	  if (pokemon_id === 0) {
-		  continue;
-	  }
-	  if (pokemon_id === 0 && !GameMaster.pokemon[pokemon_id].name) {
-		GameMaster.pokemon[pokemon_id].name = "Egg";
-	  }
       if (!GameMaster.pokemon[pokemon_id].forms) {
         GameMaster.pokemon[pokemon_id].forms = {}
       }
