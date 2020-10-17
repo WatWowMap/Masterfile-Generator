@@ -76,7 +76,7 @@ function get_evolutions(type, evolutions, id) {
             list.push(evolution_branch);
           } else if (evolution.tempEvolution) {
             let evolution_branch = {
-              temp_evolution: capitalize(evolution.tempEvolution),
+              temp_evolution: evolution.tempEvolution,
             };
             if (evolution.firstTempEvolutionCandyCost) {
               evolution_branch.first_candy_cost = evolution.firstTempEvolutionCandyCost;
@@ -334,17 +334,17 @@ function Compile_Data(GameMaster, MasterArray) {
           }
         } else if (object.data.item) {
           let item_name = "";
-          object.templateId.split("_").slice(1).forEach((word) => {
+          object.data.item.uniqueId.split("_").forEach((word) => {
             item_name += " " + capitalize(word);
           });
-          let item_id = Item_List[object.templateId];
+          let item_id = Item_List[object.data.item.uniqueId];
           if (!GameMaster.items[item_id]) {
             GameMaster.items[item_id] = {}
           }
           GameMaster.items[item_id].name = item_name.slice(1);
-          GameMaster.items[item_id].proto = object.data.templateId;
-          GameMaster.items[item_id].type = capitalize(object.data.item.itemType.replace("ITEM_TYPE_", ""));
-          GameMaster.items[item_id].category = capitalize(object.data.item.category.replace("ITEM_CATEGORY_", ""));
+          GameMaster.items[item_id].proto = object.data.item.uniqueId;
+          GameMaster.items[item_id].type = capitalize(object.data.item.itemType.replace("HOLO_ITEM_TYPE_ITEM_TYPE_", ""));
+          GameMaster.items[item_id].category = capitalize(object.data.item.category.replace("HOLO_ITEM_CATEGORY_ITEM_CATEGORY_", ""));
           if (object.data.item.dropTrainerLevel && object.data.item.dropTrainerLevel < 60) {
             GameMaster.items[item_id].min_trainer_level = object.data.item.dropTrainerLevel;
           }
