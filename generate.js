@@ -112,7 +112,7 @@ function Generate_Moves(GameMaster) {
     for (let n = 0, len = MoveArray.length; n < len; n++) {
       let id = Move_List[MoveArray[n]];
       GameMaster.moves[id] = {};
-      GameMaster.moves[id].name = capitalize(MoveArray[n].replace("_FAST", ""));
+      GameMaster.moves[id].name = capitalize(MoveArray[n].substr(11).replace("_FAST", ""));
     }
     return resolve(GameMaster);
   });
@@ -140,9 +140,6 @@ function Generate_Forms(GameMaster, MasterArray) {
         try {
           if (object.data.formSettings) {
             ensure_pokemon(pokemon_id);
-            if (!GameMaster.pokemon[pokemon_id].default_form) {
-              GameMaster.pokemon[pokemon_id].default_form = "";
-            }
             if (!GameMaster.pokemon[pokemon_id].forms) {
               GameMaster.pokemon[pokemon_id].forms = {};
             }
@@ -227,7 +224,6 @@ function Compile_Data(GameMaster, MasterArray) {
           let form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]]
           if (/^V\d{4}_POKEMON_/.test(object.templateId)) {
             Pokemon.pokedex_id = pokemon_id;
-            Pokemon.default_form_id = Form_List[object.data.pokemonSettings.uniqueId + "_NORMAL"];
             Pokemon.types = [];
             Pokemon.attack = object.data.pokemonSettings.stats.baseAttack;
             Pokemon.defense = object.data.pokemonSettings.stats.baseDefense;
@@ -332,15 +328,13 @@ function Compile_Data(GameMaster, MasterArray) {
             GameMaster.items[item_id].min_trainer_level = object.data.itemSettings.dropTrainerLevel;
           }
         } else if (object.data.combatMove) {
-          let move_id = Move_List[object.data.combatMove.uniqueId];
+          let move_id = Move_List[object.data.templateId.substr(7)];
           if (!GameMaster.moves[move_id]) {
             GameMaster.moves[move_id] = {}
           }
           let Move = GameMaster.moves[move_id];
-          if (!Move.name) {
-            Move.name = capitalize(object.data.combatMove.uniqueId.replace("_FAST", ""));
-          }
-          Move.proto = object.templateId;
+          Move.name = capitalize(object.data.combatMove.uniqueId.replace("_FAST", ""));
+          Move.proto = object.templateId.substr(7);
           Move.type = capitalize(object.data.combatMove.type.replace("POKEMON_TYPE_", ""));
           Move.power = object.data.combatMove.power;
         }
