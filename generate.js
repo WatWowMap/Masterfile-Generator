@@ -1,5 +1,3 @@
-const protobuf = require("protobufjs");
-
 const Fetch = require("node-fetch");
 const Fs = require("fs-extra");
 
