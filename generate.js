@@ -33,6 +33,15 @@ function capitalize(string) {
   }
 }
 
+function ensure_pokemon(pokemon_id) {
+  if (!GameMaster.pokemon[pokemon_id]) {
+    GameMaster.pokemon[pokemon_id] = {};
+  }
+  if (!GameMaster.pokemon[pokemon_id].name) {
+    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Object.keys(Pokemon_List)[pokemon_id].substr(36));
+  }
+}
+
 function get_moves(moves) {
   return new Promise(async resolve => {
     let list = [];
@@ -130,12 +139,7 @@ function Generate_Forms(GameMaster, MasterArray) {
         let pokemon_id = Number(object.templateId.split("_")[1].slice(1));
         try {
           if (object.data.formSettings) {
-            if (!GameMaster.pokemon[pokemon_id]) {
-              GameMaster.pokemon[pokemon_id] = {};
-            }
-            if (!GameMaster.pokemon[pokemon_id].name) {
-              GameMaster.pokemon[pokemon_id].name = "";
-            }
+            ensure_pokemon(pokemon_id);
             if (!GameMaster.pokemon[pokemon_id].default_form) {
               GameMaster.pokemon[pokemon_id].default_form = "";
             }
@@ -195,12 +199,7 @@ function Generate_Forms(GameMaster, MasterArray) {
       let form_name = capitalize(data[1]);
       let form_id = Form_List[FormArray[f]];
 
-      if (!GameMaster.pokemon[pokemon_id]) {
-        GameMaster.pokemon[pokemon_id] = {};
-      }
-      if (!GameMaster.pokemon[pokemon_id].forms) {
-        GameMaster.pokemon[pokemon_id].forms = {}
-      }
+      ensure_pokemon(pokemon_id);
       if (!GameMaster.pokemon[pokemon_id].forms[form_id]) {
         GameMaster.pokemon[pokemon_id].forms[form_id] = {};
       }
@@ -218,59 +217,42 @@ function Generate_Forms(GameMaster, MasterArray) {
 
 function Compile_Data(GameMaster, MasterArray) {
   return new Promise(async resolve => {
-    let oddballs = [
-      "V0122_POKEMON_MR_MIME",
-      "V0250_POKEMON_HO_OH",
-      "V0439_POKEMON_MIME_JR",
-      "V0474_POKEMON_PORYGON_Z"
-    ];
     for (let o = 0, len = MasterArray.length; o < len; o++) {
       let object = MasterArray[o];
       try {
-        if (object.data.pokemon) {
+        if (object.data.pokemonSettings) {
           let pokemon_id = Number(object.templateId.split("_")[0].slice(1));
-          if (!GameMaster.pokemon[pokemon_id]) {
-            GameMaster.pokemon[pokemon_id] = {};
-          }
+          ensure_pokemon(pokemon_id);
           let Pokemon = GameMaster.pokemon[pokemon_id];
           let form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]]
-          if (object.templateId.split("_").length == 3 || oddballs.indexOf(object.templateId) >= 0) {
-            Pokemon.name = capitalize(object.data.pokemon.uniqueId);
-            switch (Pokemon.name) {
-              case "Nidoran Female":
-                Pokemon.name = "Nidoran♀";
-                break;
-              case "Nidoran Male":
-                Pokemon.name = "Nidoran♂";
-                break;
-            }
+          if (/^V\d{4}_POKEMON_/.test(object.templateId)) {
             Pokemon.pokedex_id = pokemon_id;
-            Pokemon.default_form_id = Form_List[object.data.pokemon.uniqueId + "_NORMAL"];
+            Pokemon.default_form_id = Form_List[object.data.pokemonSettings.uniqueId + "_NORMAL"];
             Pokemon.types = [];
-            Pokemon.attack = object.data.pokemon.stats.baseAttack;
-            Pokemon.defense = object.data.pokemon.stats.baseDefense;
-            Pokemon.stamina = object.data.pokemon.stats.baseStamina;
-            Pokemon.height = object.data.pokemon.pokedexHeightM;
-            Pokemon.weight = object.data.pokemon.pokedexWeightKg
-            Pokemon.flee_rate = object.data.pokemon.encounter.baseFleeRate;
-            Pokemon.capture_rate = object.data.pokemon.encounter.baseCaptureRate;
-            Pokemon.quick_moves = await get_moves(object.data.pokemon.quickMoves);
-            Pokemon.charged_moves = await get_moves(object.data.pokemon.cinematicMoves);
-            Pokemon.evolutions = await get_evolutions("names", object.data.pokemon.evolution, pokemon_id);
-            Pokemon.evolution_branch = await get_evolutions("names", object.data.pokemon.evolutionBranch, pokemon_id);
-            Pokemon.legendary = object.data.pokemon.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
-            Pokemon.mythic = object.data.pokemon.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
-            Pokemon.candy_to_evolve = object.data.pokemon.candyToEvolve;
-            Pokemon.buddy_group_number = object.data.pokemon.buddyGroupNumber;
-            Pokemon.buddy_distance = object.data.pokemon.kmBuddyDistance;
-            Pokemon.third_move_stardust = object.data.pokemon.thirdMove.stardustToUnlock;
-            Pokemon.third_move_candy = object.data.pokemon.thirdMove.candyToUnlock;
-            Pokemon.gym_defender_eligible = object.data.pokemon.isDeployable;
-            if (object.data.pokemon.type1) {
-              Pokemon.types.push(capitalize(object.data.pokemon.type1.replace("POKEMON_TYPE_", "")));
+            Pokemon.attack = object.data.pokemonSettings.stats.baseAttack;
+            Pokemon.defense = object.data.pokemonSettings.stats.baseDefense;
+            Pokemon.stamina = object.data.pokemonSettings.stats.baseStamina;
+            Pokemon.height = object.data.pokemonSettings.pokedexHeightM;
+            Pokemon.weight = object.data.pokemonSettings.pokedexWeightKg
+            Pokemon.flee_rate = object.data.pokemonSettings.encounter.baseFleeRate;
+            Pokemon.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
+            Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
+            Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
+            Pokemon.evolutions = await get_evolutions("names", object.data.pokemonSettings.evolutionIds, pokemon_id);
+            Pokemon.evolution_branch = await get_evolutions("names", object.data.pokemonSettings.evolutionBranch, pokemon_id);
+            Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
+            Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
+            Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
+            Pokemon.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
+            Pokemon.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
+            Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
+            Pokemon.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
+            Pokemon.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
+            if (object.data.pokemonSettings.type) {
+              Pokemon.types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
             }
-            if (object.data.pokemon.type2) {
-              Pokemon.types.push(capitalize(object.data.pokemon.type2.replace("POKEMON_TYPE_", "")));
+            if (object.data.pokemonSettings.type2) {
+              Pokemon.types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
             }
           } else if (form_id) {
             if (!Pokemon.forms[form_id]) {
@@ -278,76 +260,76 @@ function Compile_Data(GameMaster, MasterArray) {
             }
             let Form = Pokemon.forms[form_id];
             // ADD TO POKEMON FORMS
-            //Form.name = capitalize(object.data.pokemon.uniqueId);
+            //Form.name = capitalize(object.data.pokemonSettings.uniqueId);
             if (!Form.name) {
               Form.name = capitalize(object.templateId.split("_")[3]);
             }
-            if (object.data.pokemon.evolution) {
-              Form.evolved_form = Form_List[object.data.pokemon.evolution[0] + "_" + object.templateId.split("_")[3]];
+            if (object.data.pokemonSettings.evolutionIds) {
+              Form.evolved_form = Form_List[object.data.pokemonSettings.evolutionIds[0] + "_" + object.templateId.split("_")[3]];
             }
 
             switch (true) {
-              case object.data.pokemon.stats.baseAttack != Pokemon.attack:
-              case object.data.pokemon.stats.baseDefense != Pokemon.defense:
-              case object.data.pokemon.stats.baseStamina != Pokemon.stamina:
-                Form.attack = object.data.pokemon.stats.baseAttack;
-                Form.defense = object.data.pokemon.stats.baseDefense;
-                Form.stamina = object.data.pokemon.stats.baseStamina;
+              case object.data.pokemonSettings.stats.baseAttack != Pokemon.attack:
+              case object.data.pokemonSettings.stats.baseDefense != Pokemon.defense:
+              case object.data.pokemonSettings.stats.baseStamina != Pokemon.stamina:
+                Form.attack = object.data.pokemonSettings.stats.baseAttack;
+                Form.defense = object.data.pokemonSettings.stats.baseDefense;
+                Form.stamina = object.data.pokemonSettings.stats.baseStamina;
             }
             switch (true) {
-              case object.data.pokemon.pokedexHeightM != Pokemon.height:
-              case object.data.pokemon.pokedexWeightKg != Pokemon.weight:
-                Form.height = object.data.pokemon.pokedexHeightM;
-                Form.weight = object.data.pokemon.pokedexWeightKg;
+              case object.data.pokemonSettings.pokedexHeightM != Pokemon.height:
+              case object.data.pokemonSettings.pokedexWeightKg != Pokemon.weight:
+                Form.height = object.data.pokemonSettings.pokedexHeightM;
+                Form.weight = object.data.pokemonSettings.pokedexWeightKg;
             }
-            //Form.flee_rate = object.data.pokemon.encounter.baseFleeRate;
-            //Form.capture_rate = object.data.pokemon.encounter.baseCaptureRate;
-            //Form.quick_moves = await get_moves(object.data.pokemon.quickMoves);
-            //Form.charged_moves = await get_moves(object.data.pokemon.cinematicMoves);
-            //Form.evolutions = await get_evolutions("names", object.data.pokemon.evolution, pokemon_id);
-            //Form.evolution_branch = await get_evolutions("names", object.data.pokemon.evolutionBranch, pokemon_id);
-            //Form.legendary = object.data.pokemon.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
-            //Form.mythic = object.data.pokemon.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
-            //Form.candy_to_evolve = object.data.pokemon.candyToEvolve;
-            //Form.buddy_group_number = object.data.pokemon.buddyGroupNumber;
-            //Form.buddy_distance = object.data.pokemon.kmBuddyDistance;
-            //Form.third_move_stardust = object.data.pokemon.thirdMove.stardustToUnlock;
-            //Form.third_move_candy = object.data.pokemon.thirdMove.candyToUnlock;
-            //Form.gym_defender_eligible = object.data.pokemon.isDeployable;
-            let quick_moves = await get_moves(object.data.pokemon.quickMoves);
+            //Form.flee_rate = object.data.pokemonSettings.encounter.baseFleeRate;
+            //Form.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
+            //Form.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
+            //Form.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
+            //Form.evolutions = await get_evolutions("names", object.data.pokemonSettings.evolutionIds, pokemon_id);
+            //Form.evolution_branch = await get_evolutions("names", object.data.pokemonSettings.evolutionBranch, pokemon_id);
+            //Form.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
+            //Form.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
+            //Form.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
+            //Form.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
+            //Form.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
+            //Form.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
+            //Form.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
+            //Form.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
+            let quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             if (quick_moves.toString() != Pokemon.quick_moves.toString()) {
               Form.quick_moves = quick_moves;
             }
-            let charged_moves = await get_moves(object.data.pokemon.cinematicMoves);
+            let charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
             if (charged_moves.toString() != Pokemon.charged_moves.toString()) {
               Form.charged_moves = charged_moves;
             }
             let types = [];
-            if (object.data.pokemon.type1) {
-              types.push(capitalize(object.data.pokemon.type1.replace("POKEMON_TYPE_", "")));
+            if (object.data.pokemonSettings.type) {
+              types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
             }
-            if (object.data.pokemon.type2) {
-              types.push(capitalize(object.data.pokemon.type2.replace("POKEMON_TYPE_", "")));
+            if (object.data.pokemonSettings.type2) {
+              types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
             }
             if (types.toString() != Pokemon.types.toString()) {
               Form.types = types;
             }
           }
-        } else if (object.data.item) {
+        } else if (object.data.itemSettings) {
           let item_name = "";
-          object.data.item.uniqueId.split("_").forEach((word) => {
+          object.data.itemSettings.itemId.split("_").splice(1).forEach((word) => {
             item_name += " " + capitalize(word);
           });
-          let item_id = Item_List[object.data.item.uniqueId];
+          let item_id = Item_List[object.data.itemSettings.itemId];
           if (!GameMaster.items[item_id]) {
             GameMaster.items[item_id] = {}
           }
           GameMaster.items[item_id].name = item_name.slice(1);
-          GameMaster.items[item_id].proto = object.data.item.uniqueId;
-          GameMaster.items[item_id].type = capitalize(object.data.item.itemType.replace("HOLO_ITEM_TYPE_ITEM_TYPE_", ""));
-          GameMaster.items[item_id].category = capitalize(object.data.item.category.replace("HOLO_ITEM_CATEGORY_ITEM_CATEGORY_", ""));
-          if (object.data.item.dropTrainerLevel && object.data.item.dropTrainerLevel < 60) {
-            GameMaster.items[item_id].min_trainer_level = object.data.item.dropTrainerLevel;
+          GameMaster.items[item_id].proto = object.data.itemSettings.itemId;
+          GameMaster.items[item_id].type = capitalize(object.data.itemSettings.itemType.replace("ITEM_TYPE_", ""));
+          GameMaster.items[item_id].category = capitalize(object.data.itemSettings.category.replace("ITEM_CATEGORY_", ""));
+          if (object.data.itemSettings.dropTrainerLevel && object.data.itemSettings.dropTrainerLevel < 60) {
+            GameMaster.items[item_id].min_trainer_level = object.data.itemSettings.dropTrainerLevel;
           }
         } else if (object.data.combatMove) {
           let move_id = Move_List[object.data.combatMove.uniqueId];
@@ -382,10 +364,9 @@ function Compile_Data(GameMaster, MasterArray) {
   Quest_Types = rpc.QuestType;
   Item_List = rpc.Item;
 
-  let GameMaster = {};
+  GameMaster = {};
 
-  let MasterArray = await Fetch_Json("https://raw.githubusercontent.com/pokemongo-dev-contrib/pokemongo-game-master/master/versions/latest/V2_GAME_MASTER.json");
-  MasterArray = MasterArray.template;
+  let MasterArray = await Fetch_Json("https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json");
 
   GameMaster.pokemon = {};
   GameMaster = await Generate_Forms(GameMaster, MasterArray);
