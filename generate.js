@@ -175,31 +175,6 @@ function Compile_Data(GameMaster, MasterArray) {
           let form_id = null;
           if (/^V\d{4}_POKEMON_/.test(object.templateId)) {
             form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]];
-            Pokemon.pokedex_id = pokemon_id;
-            Pokemon.types = [];
-            Pokemon.attack = object.data.pokemonSettings.stats.baseAttack;
-            Pokemon.defense = object.data.pokemonSettings.stats.baseDefense;
-            Pokemon.stamina = object.data.pokemonSettings.stats.baseStamina;
-            Pokemon.height = object.data.pokemonSettings.pokedexHeightM;
-            Pokemon.weight = object.data.pokemonSettings.pokedexWeightKg
-            Pokemon.flee_rate = object.data.pokemonSettings.encounter.baseFleeRate;
-            Pokemon.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
-            Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
-            Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
-            Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
-            Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
-            Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
-            Pokemon.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
-            Pokemon.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
-            Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
-            Pokemon.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
-            Pokemon.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
-            if (object.data.pokemonSettings.type) {
-              Pokemon.types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
-            }
-            if (object.data.pokemonSettings.type2) {
-              Pokemon.types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
-            }
           }
           if (form_id) {
             if (!Pokemon.forms[form_id]) {
@@ -259,8 +234,35 @@ function Compile_Data(GameMaster, MasterArray) {
             if (types.toString() != Pokemon.types.toString()) {
               Form.types = types;
             }
-          } else if (object.data.pokemonSettings.evolutionIds) {
-            Pokemon.evolutions = object.data.pokemonSettings.evolutionIds.map(capitalize);
+          } else {
+            Pokemon.pokedex_id = pokemon_id;
+            Pokemon.types = [];
+            Pokemon.attack = object.data.pokemonSettings.stats.baseAttack;
+            Pokemon.defense = object.data.pokemonSettings.stats.baseDefense;
+            Pokemon.stamina = object.data.pokemonSettings.stats.baseStamina;
+            Pokemon.height = object.data.pokemonSettings.pokedexHeightM;
+            Pokemon.weight = object.data.pokemonSettings.pokedexWeightKg
+            Pokemon.flee_rate = object.data.pokemonSettings.encounter.baseFleeRate;
+            Pokemon.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
+            Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
+            Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
+            if (object.data.pokemonSettings.evolutionIds) {
+              Pokemon.evolutions = object.data.pokemonSettings.evolutionIds.map(capitalize);
+            }
+            Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
+            Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
+            Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
+            Pokemon.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
+            Pokemon.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
+            Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
+            Pokemon.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
+            Pokemon.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
+            if (object.data.pokemonSettings.type) {
+              Pokemon.types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
+            }
+            if (object.data.pokemonSettings.type2) {
+              Pokemon.types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
+            }
           }
         } else if (object.data.itemSettings) {
           let item_name = "";
