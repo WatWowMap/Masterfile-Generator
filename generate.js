@@ -368,8 +368,7 @@ function Compile_Data(GameMaster, MasterArray) {
 
 
 (async function () {
-  const protoResponse = await Fetch("https://raw.githubusercontent.com/Furtif/POGOProtos/master/src/POGOProtos/Rpc/Rpc.proto");
-  const rpc = protobuf.parse(await protoResponse.text()).root.POGOProtos.Rpc;
+  const rpc = await require('purified-protos')();
   Move_List = rpc.HoloPokemonMove;
   Form_List = rpc.PokemonDisplayProto.Form;
   Pokemon_List = rpc.HoloPokemonId;
