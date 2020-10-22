@@ -57,53 +57,6 @@ function get_moves(moves) {
   });
 }
 
-function get_evolutions(type, evolutions, id) {
-  return new Promise(async resolve => {
-    let list = [];
-    if (type == "names") {
-      if (evolutions) {
-        await evolutions.forEach(evolution => {
-          if (evolution.evolution || evolution.candyCost) {
-            let evolution_branch = {};
-            if (evolution.evolution) {
-              evolution_branch.evolution = capitalize(evolution.evolution);
-            }
-            if (evolution.candyCost) {
-              evolution_branch.candy_cost = evolution.candyCost;
-            }
-            if (evolution.evolutionItemRequirement) {
-              evolution_branch.evolution_item = capitalize(evolution.evolutionItemRequirement.replace("ITEM_", ""));
-              evolution_branch.evolution_item_id = Item_List[evolution.evolutionItemRequirement.replace("ITEM_", "")]
-            }
-            if (evolution_branch.name) {
-              evolution_branch.name = evolution.form.split("_")[1];
-              evolution_branch.form_id = Form_List[evolution.form];
-            }
-            list.push(evolution_branch);
-          } else if (evolution.tempEvolution) {
-            let evolution_branch = {
-              temp_evolution: evolution.tempEvolution,
-            };
-            if (evolution.firstTempEvolutionCandyCost) {
-              evolution_branch.first_candy_cost = evolution.firstTempEvolutionCandyCost;
-            }
-            if (evolution.subsequentTempEvolutionCandyCost) {
-              evolution_branch.subsequent_candy_cost = evolution.subsequentTempEvolutionCandyCost;
-            }
-            if (evolution.form) {
-              evolution_branch.form_id = Form_List[evolution.form];
-            }
-            list.push(evolution_branch);
-          } else {
-            list.push(capitalize(evolution));
-          }
-        });
-      }
-    }
-    return resolve(list);
-  });
-}
-
 function Generate_Moves(GameMaster) {
   return new Promise(resolve => {
     let MoveArray = Object.keys(Move_List).map(i => i);
@@ -233,8 +186,6 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
             Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
-            Pokemon.evolutions = await get_evolutions("names", object.data.pokemonSettings.evolutionIds, pokemon_id);
-            Pokemon.evolution_branch = await get_evolutions("names", object.data.pokemonSettings.evolutionBranch, pokemon_id);
             Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
             Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
             Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
@@ -260,8 +211,8 @@ function Compile_Data(GameMaster, MasterArray) {
             if (!Form.name) {
               Form.name = capitalize(object.templateId.split("_")[3]);
             }
-            if (object.data.pokemonSettings.evolutionIds) {
-              Form.evolved_form = Form_List[object.data.pokemonSettings.evolutionIds[0] + "_" + object.templateId.split("_")[3]];
+            if (object.data.pokemonSettings.evolutionBranch) {
+              Form.evolved_forms = object.data.pokemonSettings.evolutionBranch.map(branch => Form_List[branch.form]);
             }
 
             switch (true) {
@@ -282,8 +233,6 @@ function Compile_Data(GameMaster, MasterArray) {
             //Form.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
             //Form.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             //Form.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
-            //Form.evolutions = await get_evolutions("names", object.data.pokemonSettings.evolutionIds, pokemon_id);
-            //Form.evolution_branch = await get_evolutions("names", object.data.pokemonSettings.evolutionBranch, pokemon_id);
             //Form.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
             //Form.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
             //Form.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
@@ -310,6 +259,8 @@ function Compile_Data(GameMaster, MasterArray) {
             if (types.toString() != Pokemon.types.toString()) {
               Form.types = types;
             }
+          } else if (object.data.pokemonSettings.evolutionIds) {
+            Pokemon.evolutions = object.data.pokemonSettings.evolutionIds.map(capitalize);
           }
         } else if (object.data.itemSettings) {
           let item_name = "";
