@@ -219,8 +219,9 @@ function Compile_Data(GameMaster, MasterArray) {
           let pokemon_id = Number(object.templateId.split("_")[0].slice(1));
           ensure_pokemon(pokemon_id);
           let Pokemon = GameMaster.pokemon[pokemon_id];
-          let form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]]
+          let form_id = null;
           if (/^V\d{4}_POKEMON_/.test(object.templateId)) {
+            form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]];
             Pokemon.pokedex_id = pokemon_id;
             Pokemon.types = [];
             Pokemon.attack = object.data.pokemonSettings.stats.baseAttack;
@@ -248,7 +249,8 @@ function Compile_Data(GameMaster, MasterArray) {
             if (object.data.pokemonSettings.type2) {
               Pokemon.types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
             }
-          } else if (form_id) {
+          }
+          if (form_id) {
             if (!Pokemon.forms[form_id]) {
               Pokemon.forms[form_id] = {};
             }
