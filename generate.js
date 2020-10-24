@@ -136,6 +136,8 @@ function Generate_Forms(GameMaster, MasterArray) {
                   GameMaster.pokemon[pokemon_id].forms[id].proto = object.data.formSettings.forms[f].name;
                 }
               }
+            } else {
+              GameMaster.pokemon[pokemon_id].default_form_id = Form_List[Object.keys(Pokemon_List)[pokemon_id].substr(36) + "_NORMAL"];
             }
           }
         } catch (e) {
