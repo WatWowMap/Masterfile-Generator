@@ -214,10 +214,10 @@ function Compile_Evolutions(target, object, pokemon = target) {
         result.stamina = tempEvolution.stats.baseStamina;
       }
       if (tempEvolution.obPokedexHeightM !== compared.height && tempEvolution.obPokedexHeightM !== pokemon.height) {
-        result.height = tempEvolution.height;
+        result.height = tempEvolution.obPokedexHeightM;
       }
       if (tempEvolution.obPokedexWeightKg !== compared.weight && tempEvolution.obPokedexWeightKg !== pokemon.weight) {
-        result.weight = tempEvolution.weight;
+        result.weight = tempEvolution.obPokedexWeightKg;
       }
       let types = [];
       if (tempEvolution.type) {
