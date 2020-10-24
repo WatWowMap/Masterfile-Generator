@@ -279,7 +279,6 @@ function Compile_Data(GameMaster, MasterArray) {
             //Form.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
             //Form.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
             //Form.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
-            //Form.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
             //Form.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
             //Form.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
             //Form.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
@@ -324,7 +323,6 @@ function Compile_Data(GameMaster, MasterArray) {
             Compile_Evolutions(Pokemon, object);
             Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
             Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
-            Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
             Pokemon.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
             Pokemon.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
             Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
