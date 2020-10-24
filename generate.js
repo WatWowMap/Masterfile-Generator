@@ -99,6 +99,9 @@ function Generate_Forms(GameMaster, MasterArray) {
               GameMaster.pokemon[pokemon_id].forms = {};
               for (let f = 0, flen = forms.length; f < flen; f++) {
                 let id = Form_List[object.data.formSettings.forms[f].form];
+                if (f === 0) {
+                  GameMaster.pokemon[pokemon_id].default_form_id = id;
+                }
                 if (!GameMaster.pokemon[pokemon_id].forms[id]) {
                   GameMaster.pokemon[pokemon_id].forms[id] = {};
                 }
