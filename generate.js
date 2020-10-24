@@ -1,7 +1,7 @@
 const Fetch = require("node-fetch");
 const Fs = require("fs-extra");
 
-var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types;
+var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions;
 
 function Fetch_Json(url) {
   return new Promise(resolve => {
@@ -82,6 +82,28 @@ function Generate_Quest_Types(GameMaster) {
   });
 }
 
+function Lookup_Pokemon(name) {
+  let pokemon_id = null;
+  for (const key of Object.keys(Pokemon_List)) {
+    if (!key.startsWith('V') || !name.startsWith(key.substr('V9999_POKEMON_'.length) + '_') && name !== key.substr('V9999_POKEMON_'.length)) {
+      continue;
+    }
+    if (pokemon_id !== null) {
+      if (pokemon_id.length > key.length) {
+        continue;
+      }
+      if (pokemon_id.length === key.length) {
+        console.warn('Ambiguous form', name, pokemon_id, key);
+      }
+    }
+    pokemon_id = key;
+  }
+  if (pokemon_id === null) {
+    console.warn('Unknown form', name);
+  }
+  return pokemon_id;
+}
+
 function Generate_Forms(GameMaster, MasterArray) {
   return new Promise(async resolve => {
     for (let o = 0, len = MasterArray.length; o < len; o++) {
@@ -127,26 +149,11 @@ function Generate_Forms(GameMaster, MasterArray) {
     for (let f = 0, flen = FormArray.length; f < flen; f++) {
 
       let data = FormArray[f].split("_");
-      let pokemon_id = null;
-      for (const key of Object.keys(Pokemon_List)) {
-        if (!key.startsWith('V') || !FormArray[f].startsWith(key.substr('V9999_POKEMON_'.length) + '_')) {
-          continue;
-        }
-        if (pokemon_id !== null) {
-          if (pokemon_id.length > key.length) {
-            continue;
-          }
-          if (pokemon_id.length === key.length) {
-            console.warn('Ambiguous form', FormArray[f], pokemon_id, key);
-          }
-        }
-        pokemon_id = key;
-      }
+      let pokemon_id = Lookup_Pokemon(FormArray[f]);
       if (pokemon_id === null) {
-        console.warn('Unknown form', FormArray[f]);
         continue;
       }
-      pokemon_id = parseInt(pokemon_id.substr(1, 4));
+      pokemon_id = Pokemon_List[pokemon_id];
       let form_name = capitalize(data[1]);
       let form_id = Form_List[FormArray[f]];
 
@@ -163,6 +170,27 @@ function Generate_Forms(GameMaster, MasterArray) {
     }
 
     return resolve(GameMaster);
+  });
+}
+
+function Compile_Evolutions(evolutionBranch) {
+  return evolutionBranch.map(branch => {
+    const result = {};
+    if (branch.tempEvolution) {
+      result.temp_evolution = Temp_Evolutions[branch.tempEvolution];
+      result.form = Form_List[branch.form];
+    } else if (branch.evolution) {
+      result.evolution = Pokemon_List[Lookup_Pokemon(branch.evolution)];
+      if (branch.form) {
+        result.form = Form_List[branch.form];
+      }
+      if (branch.genderRequirement) {
+        result.gender_requirement = Gender_List[branch.genderRequirement];
+      }
+    } else {
+      console.warn('Unrecognized evolutionBranch', branch);
+    }
+    return result;
   });
 }
 
@@ -190,7 +218,7 @@ function Compile_Data(GameMaster, MasterArray) {
               Form.name = capitalize(object.templateId.split("_")[3]);
             }
             if (object.data.pokemonSettings.evolutionBranch) {
-              Form.evolved_forms = object.data.pokemonSettings.evolutionBranch.map(branch => Form_List[branch.form]);
+              Form.evolutions = Compile_Evolutions(object.data.pokemonSettings.evolutionBranch);
             }
 
             switch (true) {
@@ -249,8 +277,8 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
             Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
-            if (object.data.pokemonSettings.evolutionIds) {
-              Pokemon.evolutions = object.data.pokemonSettings.evolutionIds.map(capitalize);
+            if (object.data.pokemonSettings.evolutionBranch) {
+              Pokemon.evolutions = Compile_Evolutions(object.data.pokemonSettings.evolutionBranch);
             }
             Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
             Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
@@ -313,6 +341,8 @@ function Compile_Data(GameMaster, MasterArray) {
   Pokemon_List = rpc.HoloPokemonId;
   Quest_Types = rpc.QuestType;
   Item_List = rpc.Item;
+  Gender_List = rpc.PokemonDisplayProto.Gender;
+  Temp_Evolutions = rpc.TempEvolution;
 
   GameMaster = {};
 
