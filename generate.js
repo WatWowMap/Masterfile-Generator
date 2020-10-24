@@ -245,7 +245,7 @@ function Compile_Data(GameMaster, MasterArray) {
           let Pokemon = GameMaster.pokemon[pokemon_id];
           let form_id = null;
           if (/^V\d{4}_POKEMON_/.test(object.templateId)) {
-            form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]];
+            form_id = Form_List[object.templateId.substr('V9999_POKEMON_'.length)];
           }
           if (form_id) {
             if (!Pokemon.forms[form_id]) {
