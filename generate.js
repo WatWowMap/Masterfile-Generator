@@ -36,7 +36,7 @@ function ensure_pokemon(pokemon_id) {
     GameMaster.pokemon[pokemon_id] = {};
   }
   if (!GameMaster.pokemon[pokemon_id].name) {
-    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Object.keys(Pokemon_List)[pokemon_id].substr(36));
+    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Pokemon_List[pokemon_id].substr(36));
   }
 }
 
