@@ -173,25 +173,65 @@ function Generate_Forms(GameMaster, MasterArray) {
   });
 }
 
-function Compile_Evolutions(evolutionBranch) {
-  return evolutionBranch.map(branch => {
-    const result = {};
-    if (branch.tempEvolution) {
-      result.temp_evolution = Temp_Evolutions[branch.tempEvolution];
-      result.form = Form_List[branch.form];
-    } else if (branch.evolution) {
-      result.evolution = Pokemon_List[Lookup_Pokemon(branch.evolution)];
-      if (branch.form) {
-        result.form = Form_List[branch.form];
+function Compile_Evolutions(target, object, pokemon = target) {
+  if (object.data.pokemonSettings.evolutionBranch) {
+    object.data.pokemonSettings.evolutionBranch.forEach(branch => {
+      if (branch.tempEvolution) {
+        // ignored: handled below
+        // const result = {};
+        // result.temp_evolution = Temp_Evolutions[branch.tempEvolution];
+        // result.form = Form_List[branch.form];
+      } else if (branch.evolution) {
+        if (!target.evolutions) {
+          target.evolutions = {};
+        }
+        const evolution = {};
+        if (branch.form) {
+          evolution.form = Form_List[branch.form];
+        }
+        if (branch.genderRequirement) {
+          evolution.gender_requirement = Gender_List[branch.genderRequirement];
+        }
+        target.evolutions[Pokemon_List[Lookup_Pokemon(branch.evolution)]] = evolution;
+      } else {
+        console.warn('Unrecognized evolutionBranch', branch);
       }
-      if (branch.genderRequirement) {
-        result.gender_requirement = Gender_List[branch.genderRequirement];
-      }
-    } else {
-      console.warn('Unrecognized evolutionBranch', branch);
+    });
+  }
+  if (object.data.pokemonSettings.obTemporaryEvolutions) {
+    if (!target.temp_evolutions) {
+      target.temp_evolutions = {};
     }
-    return result;
-  });
+    for (const tempEvolution of object.data.pokemonSettings.obTemporaryEvolutions) {
+      const key = Temp_Evolutions[tempEvolution.obTemporaryEvolution];
+      const result = {};
+      const compared = pokemon === target ? {} : pokemon.temp_evolutions[key];
+      if (tempEvolution.stats.baseAttack !== compared.attack && tempEvolution.stats.baseAttack !== pokemon.attack ||
+          tempEvolution.stats.baseDefense !== compared.defense && tempEvolution.stats.baseDefense !== pokemon.defense ||
+          tempEvolution.stats.baseStamina !== compared.stamina && tempEvolution.stats.baseStamina !== pokemon.stamina) {
+        result.attack = tempEvolution.stats.baseAttack;
+        result.defense = tempEvolution.stats.baseDefense;
+        result.stamina = tempEvolution.stats.baseStamina;
+      }
+      if (tempEvolution.obPokedexHeightM !== compared.height && tempEvolution.obPokedexHeightM !== pokemon.height) {
+        result.height = tempEvolution.height;
+      }
+      if (tempEvolution.obPokedexWeightKg !== compared.weight && tempEvolution.obPokedexWeightKg !== pokemon.weight) {
+        result.weight = tempEvolution.weight;
+      }
+      let types = [];
+      if (tempEvolution.type) {
+        types.push(capitalize(tempEvolution.type.replace("POKEMON_TYPE_", "")));
+      }
+      if (tempEvolution.type2) {
+        types.push(capitalize(tempEvolution.type2.replace("POKEMON_TYPE_", "")));
+      }
+      if (types.toString() !== (compared.types || []).toString() && types.toString() !== pokemon.types.toString()) {
+        result.types = types;
+      }
+      target.temp_evolutions[key] = result;
+    }
+  }
 }
 
 function Compile_Data(GameMaster, MasterArray) {
@@ -217,9 +257,7 @@ function Compile_Data(GameMaster, MasterArray) {
             if (!Form.name) {
               Form.name = capitalize(object.templateId.split("_")[3]);
             }
-            if (object.data.pokemonSettings.evolutionBranch) {
-              Form.evolutions = Compile_Evolutions(object.data.pokemonSettings.evolutionBranch);
-            }
+            Compile_Evolutions(Form, object, Pokemon);
 
             switch (true) {
               case object.data.pokemonSettings.stats.baseAttack != Pokemon.attack:
@@ -268,6 +306,12 @@ function Compile_Data(GameMaster, MasterArray) {
           } else {
             Pokemon.pokedex_id = pokemon_id;
             Pokemon.types = [];
+            if (object.data.pokemonSettings.type) {
+              Pokemon.types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
+            }
+            if (object.data.pokemonSettings.type2) {
+              Pokemon.types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
+            }
             Pokemon.attack = object.data.pokemonSettings.stats.baseAttack;
             Pokemon.defense = object.data.pokemonSettings.stats.baseDefense;
             Pokemon.stamina = object.data.pokemonSettings.stats.baseStamina;
@@ -277,9 +321,7 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
             Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
-            if (object.data.pokemonSettings.evolutionBranch) {
-              Pokemon.evolutions = Compile_Evolutions(object.data.pokemonSettings.evolutionBranch);
-            }
+            Compile_Evolutions(Pokemon, object);
             Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
             Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
             Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
@@ -288,12 +330,6 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
             Pokemon.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
             Pokemon.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
-            if (object.data.pokemonSettings.type) {
-              Pokemon.types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
-            }
-            if (object.data.pokemonSettings.type2) {
-              Pokemon.types.push(capitalize(object.data.pokemonSettings.type2.replace("POKEMON_TYPE_", "")));
-            }
           }
         } else if (object.data.itemSettings) {
           let item_name = "";
