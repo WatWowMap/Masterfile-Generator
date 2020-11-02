@@ -40,6 +40,12 @@ function ensure_pokemon(pokemon_id) {
   }
 }
 
+function ensure_form_name(form, pokemon_id, form_name) {
+  if (!form.name) {
+    form.name = capitalize(form_name.substr(Pokemon_List[pokemon_id].length - 13));
+  }
+}
+
 function get_moves(moves) {
   return new Promise(async resolve => {
     let list = [];
@@ -127,11 +133,7 @@ function Generate_Forms(GameMaster, MasterArray) {
                 if (!GameMaster.pokemon[pokemon_id].forms[id]) {
                   GameMaster.pokemon[pokemon_id].forms[id] = {};
                 }
-                if (forms[f].form.split("_")[2] && !GameMaster.pokemon[pokemon_id].forms[id].name) {
-                  GameMaster.pokemon[pokemon_id].forms[id].name = capitalize(forms[f].form.split("_")[1] + " " + forms[f].form.split("_")[2]);
-                } else if (!GameMaster.pokemon[pokemon_id].forms[id].name) {
-                  GameMaster.pokemon[pokemon_id].forms[id].name = capitalize(forms[f].form.split("_")[1]);
-                }
+                ensure_form_name(GameMaster.pokemon[pokemon_id].forms[id], pokemon_id, forms[f].form);
                 if (!GameMaster.pokemon[pokemon_id].forms[id].proto) {
                   GameMaster.pokemon[pokemon_id].forms[id].proto = object.data.formSettings.forms[f].name;
                 }
@@ -150,13 +152,11 @@ function Generate_Forms(GameMaster, MasterArray) {
     let FormArray = Object.keys(Form_List).map(i => i);
     for (let f = 0, flen = FormArray.length; f < flen; f++) {
 
-      let data = FormArray[f].split("_");
       let pokemon_id = Lookup_Pokemon(FormArray[f]);
       if (pokemon_id === null) {
         continue;
       }
       pokemon_id = Pokemon_List[pokemon_id];
-      let form_name = capitalize(data[1]);
       let form_id = Form_List[FormArray[f]];
 
       ensure_pokemon(pokemon_id);
@@ -166,9 +166,7 @@ function Generate_Forms(GameMaster, MasterArray) {
       if (!GameMaster.pokemon[pokemon_id].forms[form_id]) {
         GameMaster.pokemon[pokemon_id].forms[form_id] = {};
       }
-      if (!GameMaster.pokemon[pokemon_id].forms[form_id].name) {
-        GameMaster.pokemon[pokemon_id].forms[form_id].name = form_name;
-      }
+      ensure_form_name(GameMaster.pokemon[pokemon_id].forms[form_id], pokemon_id, FormArray[f]);
       if (!GameMaster.pokemon[pokemon_id].forms[form_id].proto) {
         GameMaster.pokemon[pokemon_id].forms[form_id].proto = FormArray[f];
       }
@@ -258,10 +256,7 @@ function Compile_Data(GameMaster, MasterArray) {
             }
             let Form = Pokemon.forms[form_id];
             // ADD TO POKEMON FORMS
-            //Form.name = capitalize(object.data.pokemonSettings.uniqueId);
-            if (!Form.name) {
-              Form.name = capitalize(object.templateId.split("_")[3]);
-            }
+            // ensure_form_name()
             Compile_Evolutions(Form, object, Pokemon);
 
             switch (true) {
