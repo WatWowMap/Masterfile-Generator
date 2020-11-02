@@ -36,7 +36,7 @@ function ensure_pokemon(pokemon_id) {
     GameMaster.pokemon[pokemon_id] = {};
   }
   if (!GameMaster.pokemon[pokemon_id].name) {
-    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Object.keys(Pokemon_List)[pokemon_id].substr(36));
+    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Pokemon_List[pokemon_id].substr(36));
   }
 }
 
@@ -247,7 +247,7 @@ function Compile_Data(GameMaster, MasterArray) {
           let Pokemon = GameMaster.pokemon[pokemon_id];
           let form_id = null;
           if (/^V\d{4}_POKEMON_/.test(object.templateId)) {
-            form_id = Form_List[object.templateId.split("_")[2] + "_" + object.templateId.split("_")[3]];
+            form_id = Form_List[object.templateId.substr('V9999_POKEMON_'.length)];
           }
           if (form_id) {
             if (!Pokemon.forms[form_id]) {
@@ -279,9 +279,8 @@ function Compile_Data(GameMaster, MasterArray) {
             //Form.capture_rate = object.data.pokemonSettings.encounter.baseCaptureRate;
             //Form.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             //Form.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
-            //Form.legendary = object.data.pokemonSettings.rarity == "POKEMON_RARITY_LEGENDARY" ? true : false;
-            //Form.mythic = object.data.pokemonSettings.rarity == "POKEMON_RARITY_MYTHIC" ? true : false;
-            //Form.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
+            //Form.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
+            //Form.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
             //Form.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
             //Form.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
             //Form.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
@@ -324,9 +323,8 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.quick_moves = await get_moves(object.data.pokemonSettings.quickMoves);
             Pokemon.charged_moves = await get_moves(object.data.pokemonSettings.cinematicMoves);
             Compile_Evolutions(Pokemon, object);
-            Pokemon.legendary = object.data.pokemonSettings.rarity == "POKEMON_RARITY_LEGENDARY" ? true : false;
-            Pokemon.mythic = object.data.pokemonSettings.rarity == "POKEMON_RARITY_MYTHIC" ? true : false;
-            Pokemon.candy_to_evolve = object.data.pokemonSettings.candyToEvolve;
+            Pokemon.legendary = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_LEGENDARY" ? true : false;
+            Pokemon.mythic = object.data.pokemonSettings.pokemonClass == "POKEMON_CLASS_MYTHIC" ? true : false;
             Pokemon.buddy_group_number = object.data.pokemonSettings.buddyGroupNumber;
             Pokemon.buddy_distance = object.data.pokemonSettings.kmBuddyDistance;
             Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
