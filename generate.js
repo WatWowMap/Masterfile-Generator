@@ -36,7 +36,7 @@ function ensure_pokemon(pokemon_id) {
     GameMaster.pokemon[pokemon_id] = {};
   }
   if (!GameMaster.pokemon[pokemon_id].name) {
-    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Pokemon_List[pokemon_id].substr(36));
+    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Pokemon_List[pokemon_id].substr(14));
   }
 }
 
@@ -137,7 +137,7 @@ function Generate_Forms(GameMaster, MasterArray) {
                 }
               }
             } else {
-              GameMaster.pokemon[pokemon_id].default_form_id = Form_List[Object.keys(Pokemon_List)[pokemon_id].substr(36) + "_NORMAL"];
+              GameMaster.pokemon[pokemon_id].default_form_id = Form_List[Pokemon_List[pokemon_id].substr(14) + "_NORMAL"];
             }
           }
         } catch (e) {
@@ -160,6 +160,9 @@ function Generate_Forms(GameMaster, MasterArray) {
       let form_id = Form_List[FormArray[f]];
 
       ensure_pokemon(pokemon_id);
+      if (!GameMaster.pokemon[pokemon_id].forms) {
+        GameMaster.pokemon[pokemon_id].forms = {};
+      }
       if (!GameMaster.pokemon[pokemon_id].forms[form_id]) {
         GameMaster.pokemon[pokemon_id].forms[form_id] = {};
       }
