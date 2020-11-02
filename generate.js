@@ -367,6 +367,18 @@ function Compile_Data(GameMaster, MasterArray) {
   });
 }
 
+function Add_Missing_Pokemon() {
+  for (const [key, pokemon_id] of Object.entries(Pokemon_List)) {
+    if (!key.startsWith('V')) {
+      continue;
+    }
+    ensure_pokemon(pokemon_id);
+    if (!GameMaster.pokemon[pokemon_id].forms) {
+      GameMaster.pokemon[pokemon_id].forms = {0: {}};
+    }
+  }
+}
+
 
 (async function () {
   const rpc = await require('purified-protos')();
@@ -394,6 +406,7 @@ function Compile_Data(GameMaster, MasterArray) {
   GameMaster.grunt_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/master/static/data/grunttype.json");
   GameMaster.items = {};
   GameMaster = await Compile_Data(GameMaster, MasterArray);
+  Add_Missing_Pokemon();
   Fs.writeJSONSync("master-latest.json", GameMaster, {
     spaces: "\t",
     EOL: "\n"
