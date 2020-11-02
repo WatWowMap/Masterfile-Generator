@@ -1209,7 +1209,7 @@
 					"proto": "RATICATE_PURIFIED"
 				},
 				"2329": {
-					"name": "Spring",
+					"name": "Spring 2020",
 					"proto": "RATICATE_SPRING_2020"
 				}
 			},
@@ -5841,7 +5841,7 @@
 					}
 				},
 				"2334": {
-					"name": "Costume",
+					"name": "Costume 2020",
 					"proto": "ONIX_COSTUME_2020"
 				}
 			},
@@ -7299,19 +7299,19 @@
 			"name": "Mr Mime",
 			"forms": {
 				"1080": {
-					"name": "Mime",
+					"name": "Normal",
 					"proto": "MR_MIME_NORMAL"
 				},
 				"1081": {
-					"name": "Mime",
+					"name": "Shadow",
 					"proto": "MR_MIME_SHADOW"
 				},
 				"1082": {
-					"name": "Mime",
+					"name": "Purified",
 					"proto": "MR_MIME_PURIFIED"
 				},
 				"2339": {
-					"name": "Mime",
+					"name": "Galarian",
 					"proto": "MR_MIME_GALARIAN"
 				}
 			},
@@ -7806,7 +7806,7 @@
 					"proto": "LAPRAS_PURIFIED"
 				},
 				"2585": {
-					"name": "Costume",
+					"name": "Costume 2020",
 					"proto": "LAPRAS_COSTUME_2020"
 				}
 			},
@@ -8742,7 +8742,7 @@
 					"proto": "DRAGONITE_PURIFIED"
 				},
 				"2333": {
-					"name": "Costume",
+					"name": "Costume 2020",
 					"proto": "DRAGONITE_COSTUME_2020"
 				}
 			},
@@ -11456,11 +11456,11 @@
 					"proto": "UNOWN_Z"
 				},
 				"27": {
-					"name": "Exclamation point",
+					"name": "Exclamation Point",
 					"proto": "UNOWN_EXCLAMATION_POINT"
 				},
 				"28": {
-					"name": "Question mark",
+					"name": "Question Mark",
 					"proto": "UNOWN_QUESTION_MARK"
 				}
 			},
@@ -11506,7 +11506,7 @@
 					"proto": "WOBBUFFET_PURIFIED"
 				},
 				"2328": {
-					"name": "Spring",
+					"name": "Spring 2020",
 					"proto": "WOBBUFFET_SPRING_2020"
 				}
 			},
@@ -13898,15 +13898,15 @@
 			"name": "Ho Oh",
 			"forms": {
 				"1343": {
-					"name": "Oh",
+					"name": "Normal",
 					"proto": "HO_OH_NORMAL"
 				},
 				"1344": {
-					"name": "Oh",
+					"name": "Shadow",
 					"proto": "HO_OH_SHADOW"
 				},
 				"1345": {
-					"name": "Oh",
+					"name": "Purified",
 					"proto": "HO_OH_PURIFIED"
 				}
 			},
@@ -14714,7 +14714,7 @@
 					"proto": "WURMPLE_PURIFIED"
 				},
 				"2327": {
-					"name": "Spring",
+					"name": "Spring 2020",
 					"proto": "WURMPLE_SPRING_2020"
 				}
 			},
@@ -16552,6 +16552,10 @@
 				"925": {
 					"name": "Purified",
 					"proto": "SABLEYE_PURIFIED"
+				},
+				"2666": {
+					"name": "Costume 2020 Deprecated",
+					"proto": "SABLEYE_COSTUME_2020_DEPRECATED"
 				},
 				"2668": {
 					"name": "Costume 2020",
@@ -22679,7 +22683,7 @@
 			"name": "Shellos",
 			"forms": {
 				"96": {
-					"name": "West sea",
+					"name": "West Sea",
 					"proto": "SHELLOS_WEST_SEA",
 					"evolutions": {
 						"423": {
@@ -22688,7 +22692,7 @@
 					}
 				},
 				"97": {
-					"name": "East sea",
+					"name": "East Sea",
 					"proto": "SHELLOS_EAST_SEA",
 					"evolutions": {
 						"423": {
@@ -22747,11 +22751,11 @@
 			"name": "Gastrodon",
 			"forms": {
 				"98": {
-					"name": "West sea",
+					"name": "West Sea",
 					"proto": "GASTRODON_WEST_SEA"
 				},
 				"99": {
-					"name": "East sea",
+					"name": "East Sea",
 					"proto": "GASTRODON_EAST_SEA"
 				},
 				"1739": {
@@ -23523,15 +23527,15 @@
 			"name": "Mime Jr",
 			"forms": {
 				"1775": {
-					"name": "Jr",
+					"name": "Normal",
 					"proto": "MIME_JR_NORMAL"
 				},
 				"1776": {
-					"name": "Jr",
+					"name": "Shadow",
 					"proto": "MIME_JR_SHADOW"
 				},
 				"1777": {
-					"name": "Jr",
+					"name": "Purified",
 					"proto": "MIME_JR_PURIFIED"
 				}
 			},
@@ -25242,15 +25246,15 @@
 			"name": "Porygon Z",
 			"forms": {
 				"683": {
-					"name": "Z normal",
+					"name": "Normal",
 					"proto": "PORYGON_Z_NORMAL"
 				},
 				"684": {
-					"name": "Z shadow",
+					"name": "Shadow",
 					"proto": "PORYGON_Z_SHADOW"
 				},
 				"685": {
-					"name": "Z purified",
+					"name": "Purified",
 					"proto": "PORYGON_Z_PURIFIED"
 				}
 			},
@@ -28983,11 +28987,11 @@
 			"name": "Basculin",
 			"forms": {
 				"136": {
-					"name": "Red striped",
+					"name": "Red Striped",
 					"proto": "BASCULIN_RED_STRIPED"
 				},
 				"137": {
-					"name": "Blue striped",
+					"name": "Blue Striped",
 					"proto": "BASCULIN_BLUE_STRIPED"
 				}
 			},
@@ -29259,7 +29263,7 @@
 					]
 				},
 				"2342": {
-					"name": "Galarian standard",
+					"name": "Galarian Standard",
 					"proto": "DARMANITAN_GALARIAN_STANDARD",
 					"height": 1.7,
 					"weight": 120,
@@ -29278,7 +29282,7 @@
 					]
 				},
 				"2343": {
-					"name": "Galarian zen",
+					"name": "Galarian Zen",
 					"proto": "DARMANITAN_GALARIAN_ZEN",
 					"attack": 323,
 					"defense": 123,
@@ -33901,6 +33905,689 @@
 			"third_move_stardust": 100000,
 			"third_move_candy": 100
 		},
+		"650": {
+			"name": "Chespin",
+			"forms": {
+				"0": {}
+			}
+		},
+		"651": {
+			"name": "Quilladin",
+			"forms": {
+				"0": {}
+			}
+		},
+		"652": {
+			"name": "Chesnaught",
+			"forms": {
+				"0": {}
+			}
+		},
+		"653": {
+			"name": "Fennekin",
+			"forms": {
+				"0": {}
+			}
+		},
+		"654": {
+			"name": "Braixen",
+			"forms": {
+				"0": {}
+			}
+		},
+		"655": {
+			"name": "Delphox",
+			"forms": {
+				"0": {}
+			}
+		},
+		"656": {
+			"name": "Froakie",
+			"forms": {
+				"0": {}
+			}
+		},
+		"657": {
+			"name": "Frogadier",
+			"forms": {
+				"0": {}
+			}
+		},
+		"658": {
+			"name": "Greninja",
+			"forms": {
+				"0": {}
+			}
+		},
+		"659": {
+			"name": "Bunnelby",
+			"forms": {
+				"0": {}
+			}
+		},
+		"660": {
+			"name": "Diggersby",
+			"forms": {
+				"0": {}
+			}
+		},
+		"661": {
+			"name": "Fletchling",
+			"forms": {
+				"0": {}
+			}
+		},
+		"662": {
+			"name": "Fletchinder",
+			"forms": {
+				"0": {}
+			}
+		},
+		"663": {
+			"name": "Talonflame",
+			"forms": {
+				"0": {}
+			}
+		},
+		"664": {
+			"name": "Scatterbug",
+			"forms": {
+				"0": {}
+			}
+		},
+		"665": {
+			"name": "Spewpa",
+			"forms": {
+				"0": {}
+			}
+		},
+		"666": {
+			"name": "Vivillon",
+			"forms": {
+				"2594": {
+					"name": "Archipelago",
+					"proto": "VIVILLON_ARCHIPELAGO"
+				},
+				"2595": {
+					"name": "Continental",
+					"proto": "VIVILLON_CONTINENTAL"
+				},
+				"2596": {
+					"name": "Elegant",
+					"proto": "VIVILLON_ELEGANT"
+				},
+				"2597": {
+					"name": "Fancy",
+					"proto": "VIVILLON_FANCY"
+				},
+				"2598": {
+					"name": "Garden",
+					"proto": "VIVILLON_GARDEN"
+				},
+				"2599": {
+					"name": "High Plains",
+					"proto": "VIVILLON_HIGH_PLAINS"
+				},
+				"2600": {
+					"name": "Icy Snow",
+					"proto": "VIVILLON_ICY_SNOW"
+				},
+				"2601": {
+					"name": "Jungle",
+					"proto": "VIVILLON_JUNGLE"
+				},
+				"2602": {
+					"name": "Marine",
+					"proto": "VIVILLON_MARINE"
+				},
+				"2603": {
+					"name": "Meadow",
+					"proto": "VIVILLON_MEADOW"
+				},
+				"2604": {
+					"name": "Modern",
+					"proto": "VIVILLON_MODERN"
+				},
+				"2605": {
+					"name": "Monsoon",
+					"proto": "VIVILLON_MONSOON"
+				},
+				"2606": {
+					"name": "Ocean",
+					"proto": "VIVILLON_OCEAN"
+				},
+				"2607": {
+					"name": "Pokeball",
+					"proto": "VIVILLON_POKEBALL"
+				},
+				"2608": {
+					"name": "Polar",
+					"proto": "VIVILLON_POLAR"
+				},
+				"2609": {
+					"name": "River",
+					"proto": "VIVILLON_RIVER"
+				},
+				"2610": {
+					"name": "Sandstorm",
+					"proto": "VIVILLON_SANDSTORM"
+				},
+				"2611": {
+					"name": "Savanna",
+					"proto": "VIVILLON_SAVANNA"
+				},
+				"2612": {
+					"name": "Sun",
+					"proto": "VIVILLON_SUN"
+				},
+				"2613": {
+					"name": "Tundra",
+					"proto": "VIVILLON_TUNDRA"
+				}
+			}
+		},
+		"667": {
+			"name": "Litleo",
+			"forms": {
+				"0": {}
+			}
+		},
+		"668": {
+			"name": "Pyroar",
+			"forms": {
+				"2587": {
+					"name": "Normal",
+					"proto": "PYROAR_NORMAL"
+				},
+				"2588": {
+					"name": "Female",
+					"proto": "PYROAR_FEMALE"
+				}
+			}
+		},
+		"669": {
+			"name": "Flabebe",
+			"forms": {
+				"2614": {
+					"name": "Red",
+					"proto": "FLABEBE_RED"
+				},
+				"2615": {
+					"name": "Yellow",
+					"proto": "FLABEBE_YELLOW"
+				},
+				"2616": {
+					"name": "Orange",
+					"proto": "FLABEBE_ORANGE"
+				},
+				"2617": {
+					"name": "Blue",
+					"proto": "FLABEBE_BLUE"
+				},
+				"2618": {
+					"name": "White",
+					"proto": "FLABEBE_WHITE"
+				}
+			}
+		},
+		"670": {
+			"name": "Floette",
+			"forms": {
+				"2619": {
+					"name": "Red",
+					"proto": "FLOETTE_RED"
+				},
+				"2620": {
+					"name": "Yellow",
+					"proto": "FLOETTE_YELLOW"
+				},
+				"2621": {
+					"name": "Orange",
+					"proto": "FLOETTE_ORANGE"
+				},
+				"2622": {
+					"name": "Blue",
+					"proto": "FLOETTE_BLUE"
+				},
+				"2623": {
+					"name": "White",
+					"proto": "FLOETTE_WHITE"
+				}
+			}
+		},
+		"671": {
+			"name": "Florges",
+			"forms": {
+				"2624": {
+					"name": "Red",
+					"proto": "FLORGES_RED"
+				},
+				"2625": {
+					"name": "Yellow",
+					"proto": "FLORGES_YELLOW"
+				},
+				"2626": {
+					"name": "Orange",
+					"proto": "FLORGES_ORANGE"
+				},
+				"2627": {
+					"name": "Blue",
+					"proto": "FLORGES_BLUE"
+				},
+				"2628": {
+					"name": "White",
+					"proto": "FLORGES_WHITE"
+				}
+			}
+		},
+		"672": {
+			"name": "Skiddo",
+			"forms": {
+				"0": {}
+			}
+		},
+		"673": {
+			"name": "Gogoat",
+			"forms": {
+				"0": {}
+			}
+		},
+		"674": {
+			"name": "Pancham",
+			"forms": {
+				"0": {}
+			}
+		},
+		"675": {
+			"name": "Pangoro",
+			"forms": {
+				"0": {}
+			}
+		},
+		"676": {
+			"name": "Furfrou",
+			"forms": {
+				"2629": {
+					"name": "Natural",
+					"proto": "FURFROU_NATURAL"
+				},
+				"2630": {
+					"name": "Heart",
+					"proto": "FURFROU_HEART"
+				},
+				"2631": {
+					"name": "Star",
+					"proto": "FURFROU_STAR"
+				},
+				"2632": {
+					"name": "Diamond",
+					"proto": "FURFROU_DIAMOND"
+				},
+				"2633": {
+					"name": "Debutante",
+					"proto": "FURFROU_DEBUTANTE"
+				},
+				"2634": {
+					"name": "Matron",
+					"proto": "FURFROU_MATRON"
+				},
+				"2635": {
+					"name": "Dandy",
+					"proto": "FURFROU_DANDY"
+				},
+				"2636": {
+					"name": "La Reine",
+					"proto": "FURFROU_LA_REINE"
+				},
+				"2637": {
+					"name": "Kabuki",
+					"proto": "FURFROU_KABUKI"
+				},
+				"2638": {
+					"name": "Pharaoh",
+					"proto": "FURFROU_PHARAOH"
+				}
+			}
+		},
+		"677": {
+			"name": "Espurr",
+			"forms": {
+				"0": {}
+			}
+		},
+		"678": {
+			"name": "Meowstic",
+			"forms": {
+				"2589": {
+					"name": "Normal",
+					"proto": "MEOWSTIC_NORMAL"
+				},
+				"2590": {
+					"name": "Female",
+					"proto": "MEOWSTIC_FEMALE"
+				}
+			}
+		},
+		"679": {
+			"name": "Honedge",
+			"forms": {
+				"0": {}
+			}
+		},
+		"680": {
+			"name": "Doublade",
+			"forms": {
+				"0": {}
+			}
+		},
+		"681": {
+			"name": "Aegislash",
+			"forms": {
+				"2639": {
+					"name": "Shield",
+					"proto": "AEGISLASH_SHIELD"
+				},
+				"2640": {
+					"name": "Blade",
+					"proto": "AEGISLASH_BLADE"
+				}
+			}
+		},
+		"682": {
+			"name": "Spritzee",
+			"forms": {
+				"0": {}
+			}
+		},
+		"683": {
+			"name": "Aromatisse",
+			"forms": {
+				"0": {}
+			}
+		},
+		"684": {
+			"name": "Swirlix",
+			"forms": {
+				"0": {}
+			}
+		},
+		"685": {
+			"name": "Slurpuff",
+			"forms": {
+				"0": {}
+			}
+		},
+		"686": {
+			"name": "Inkay",
+			"forms": {
+				"0": {}
+			}
+		},
+		"687": {
+			"name": "Malamar",
+			"forms": {
+				"0": {}
+			}
+		},
+		"688": {
+			"name": "Binacle",
+			"forms": {
+				"0": {}
+			}
+		},
+		"689": {
+			"name": "Barbaracle",
+			"forms": {
+				"0": {}
+			}
+		},
+		"690": {
+			"name": "Skrelp",
+			"forms": {
+				"0": {}
+			}
+		},
+		"691": {
+			"name": "Dragalge",
+			"forms": {
+				"0": {}
+			}
+		},
+		"692": {
+			"name": "Clauncher",
+			"forms": {
+				"0": {}
+			}
+		},
+		"693": {
+			"name": "Clawitzer",
+			"forms": {
+				"0": {}
+			}
+		},
+		"694": {
+			"name": "Helioptile",
+			"forms": {
+				"0": {}
+			}
+		},
+		"695": {
+			"name": "Heliolisk",
+			"forms": {
+				"0": {}
+			}
+		},
+		"696": {
+			"name": "Tyrunt",
+			"forms": {
+				"0": {}
+			}
+		},
+		"697": {
+			"name": "Tyrantrum",
+			"forms": {
+				"0": {}
+			}
+		},
+		"698": {
+			"name": "Amaura",
+			"forms": {
+				"0": {}
+			}
+		},
+		"699": {
+			"name": "Aurorus",
+			"forms": {
+				"0": {}
+			}
+		},
+		"700": {
+			"name": "Sylveon",
+			"forms": {
+				"0": {}
+			}
+		},
+		"701": {
+			"name": "Hawlucha",
+			"forms": {
+				"0": {}
+			}
+		},
+		"702": {
+			"name": "Dedenne",
+			"forms": {
+				"0": {}
+			}
+		},
+		"703": {
+			"name": "Carbink",
+			"forms": {
+				"0": {}
+			}
+		},
+		"704": {
+			"name": "Goomy",
+			"forms": {
+				"0": {}
+			}
+		},
+		"705": {
+			"name": "Sliggoo",
+			"forms": {
+				"0": {}
+			}
+		},
+		"706": {
+			"name": "Goodra",
+			"forms": {
+				"0": {}
+			}
+		},
+		"707": {
+			"name": "Klefki",
+			"forms": {
+				"0": {}
+			}
+		},
+		"708": {
+			"name": "Phantump",
+			"forms": {
+				"0": {}
+			}
+		},
+		"709": {
+			"name": "Trevenant",
+			"forms": {
+				"0": {}
+			}
+		},
+		"710": {
+			"name": "Pumpkaboo",
+			"forms": {
+				"2641": {
+					"name": "Small",
+					"proto": "PUMPKABOO_SMALL"
+				},
+				"2642": {
+					"name": "Average",
+					"proto": "PUMPKABOO_AVERAGE"
+				},
+				"2643": {
+					"name": "Large",
+					"proto": "PUMPKABOO_LARGE"
+				},
+				"2644": {
+					"name": "Super",
+					"proto": "PUMPKABOO_SUPER"
+				}
+			}
+		},
+		"711": {
+			"name": "Gourgeist",
+			"forms": {
+				"2645": {
+					"name": "Small",
+					"proto": "GOURGEIST_SMALL"
+				},
+				"2646": {
+					"name": "Average",
+					"proto": "GOURGEIST_AVERAGE"
+				},
+				"2647": {
+					"name": "Large",
+					"proto": "GOURGEIST_LARGE"
+				},
+				"2648": {
+					"name": "Super",
+					"proto": "GOURGEIST_SUPER"
+				}
+			}
+		},
+		"712": {
+			"name": "Bergmite",
+			"forms": {
+				"0": {}
+			}
+		},
+		"713": {
+			"name": "Avalugg",
+			"forms": {
+				"0": {}
+			}
+		},
+		"714": {
+			"name": "Noibat",
+			"forms": {
+				"0": {}
+			}
+		},
+		"715": {
+			"name": "Noivern",
+			"forms": {
+				"0": {}
+			}
+		},
+		"716": {
+			"name": "Xerneas",
+			"forms": {
+				"2649": {
+					"name": "Neutral",
+					"proto": "XERNEAS_NEUTRAL"
+				},
+				"2650": {
+					"name": "Active",
+					"proto": "XERNEAS_ACTIVE"
+				}
+			}
+		},
+		"717": {
+			"name": "Yveltal",
+			"forms": {
+				"0": {}
+			}
+		},
+		"718": {
+			"name": "Zygarde",
+			"forms": {
+				"2591": {
+					"name": "Ten Percent",
+					"proto": "ZYGARDE_TEN_PERCENT"
+				},
+				"2592": {
+					"name": "Fifty Percent",
+					"proto": "ZYGARDE_FIFTY_PERCENT"
+				},
+				"2593": {
+					"name": "Complete",
+					"proto": "ZYGARDE_COMPLETE"
+				}
+			}
+		},
+		"719": {
+			"name": "Diancie",
+			"forms": {
+				"0": {}
+			}
+		},
+		"720": {
+			"name": "Hoopa",
+			"forms": {
+				"2651": {
+					"name": "Confined",
+					"proto": "HOOPA_CONFINED"
+				},
+				"2652": {
+					"name": "Unbound",
+					"proto": "HOOPA_UNBOUND"
+				}
+			}
+		},
+		"721": {
+			"name": "Volcanion",
+			"forms": {
+				"0": {}
+			}
+		},
 		"808": {
 			"name": "Meltan",
 			"forms": {
@@ -33917,6 +34604,7 @@
 					"proto": "MELTAN_PURIFIED"
 				}
 			},
+			"default_form_id": 2321,
 			"pokedex_id": 808,
 			"types": [
 				"Steel"
@@ -33961,6 +34649,7 @@
 					"proto": "MELMETAL_PURIFIED"
 				}
 			},
+			"default_form_id": 2324,
 			"pokedex_id": 809,
 			"types": [
 				"Steel"
@@ -36003,7 +36692,10 @@
 			"power": 110
 		},
 		"335": {
-			"name": "Aeroblast"
+			"name": "Aeroblast",
+			"proto": "V0335_MOVE_AEROBLAST",
+			"type": "Flying",
+			"power": 180
 		},
 		"336": {
 			"name": "Techno Blast Normal"
