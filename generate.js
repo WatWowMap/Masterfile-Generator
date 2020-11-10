@@ -376,6 +376,11 @@ function Add_Missing_Pokemon() {
     if (!GameMaster.pokemon[pokemon_id].forms) {
       GameMaster.pokemon[pokemon_id].forms = {0: {}};
     }
+    if (pokemon_id === 29) {
+      for (let i = 776; i < 779; i++) {
+        GameMaster.pokemon[pokemon_id].forms[i].proto = GameMaster.pokemon[32].forms[i].proto;
+      }
+    }
   }
 }
 
