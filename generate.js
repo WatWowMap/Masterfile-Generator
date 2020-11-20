@@ -179,11 +179,8 @@ function Generate_Forms(GameMaster, MasterArray) {
 function Compile_Evolutions(target, object, pokemon = target) {
   if (object.data.pokemonSettings.evolutionBranch) {
     object.data.pokemonSettings.evolutionBranch.forEach(branch => {
-      if (branch.tempEvolution) {
+      if (branch.temporaryEvolution) {
         // ignored: handled below
-        // const result = {};
-        // result.temp_evolution = Temp_Evolutions[branch.tempEvolution];
-        // result.form = Form_List[branch.form];
       } else if (branch.evolution) {
         if (!target.evolutions) {
           target.evolutions = {};
@@ -201,12 +198,12 @@ function Compile_Evolutions(target, object, pokemon = target) {
       }
     });
   }
-  if (object.data.pokemonSettings.obTemporaryEvolutions) {
+  if (object.data.pokemonSettings.tempEvoOverrides) {
     if (!target.temp_evolutions) {
       target.temp_evolutions = {};
     }
-    for (const tempEvolution of object.data.pokemonSettings.obTemporaryEvolutions) {
-      const key = Temp_Evolutions[tempEvolution.obTemporaryEvolution];
+    for (const tempEvolution of object.data.pokemonSettings.tempEvoOverrides) {
+      const key = Temp_Evolutions[tempEvolution.tempEvoId];
       const result = {};
       const compared = pokemon === target ? {} : pokemon.temp_evolutions[key];
       if (tempEvolution.stats.baseAttack !== compared.attack && tempEvolution.stats.baseAttack !== pokemon.attack ||
@@ -216,18 +213,18 @@ function Compile_Evolutions(target, object, pokemon = target) {
         result.defense = tempEvolution.stats.baseDefense;
         result.stamina = tempEvolution.stats.baseStamina;
       }
-      if (tempEvolution.obPokedexHeightM !== compared.height && tempEvolution.obPokedexHeightM !== pokemon.height) {
-        result.height = tempEvolution.obPokedexHeightM;
+      if (tempEvolution.averageHeightM !== compared.height && tempEvolution.averageHeightM !== pokemon.height) {
+        result.height = tempEvolution.averageHeightM;
       }
-      if (tempEvolution.obPokedexWeightKg !== compared.weight && tempEvolution.obPokedexWeightKg !== pokemon.weight) {
-        result.weight = tempEvolution.obPokedexWeightKg;
+      if (tempEvolution.averageWeightKg !== compared.weight && tempEvolution.averageWeightKg !== pokemon.weight) {
+        result.weight = tempEvolution.averageWeightKg;
       }
       let types = [];
-      if (tempEvolution.type) {
-        types.push(capitalize(tempEvolution.type.replace("POKEMON_TYPE_", "")));
+      if (tempEvolution.typeOverride1) {
+        types.push(capitalize(tempEvolution.typeOverride1.replace("POKEMON_TYPE_", "")));
       }
-      if (tempEvolution.type2) {
-        types.push(capitalize(tempEvolution.type2.replace("POKEMON_TYPE_", "")));
+      if (tempEvolution.typeOverride2) {
+        types.push(capitalize(tempEvolution.typeOverride2.replace("POKEMON_TYPE_", "")));
       }
       if (types.toString() !== (compared.types || []).toString() && types.toString() !== pokemon.types.toString()) {
         result.types = types;
@@ -393,7 +390,7 @@ function Add_Missing_Pokemon() {
   Quest_Types = rpc.QuestType;
   Item_List = rpc.Item;
   Gender_List = rpc.PokemonDisplayProto.Gender;
-  Temp_Evolutions = rpc.TempEvolution;
+  Temp_Evolutions = rpc.HoloTemporaryEvolutionId;
 
   GameMaster = {};
 
