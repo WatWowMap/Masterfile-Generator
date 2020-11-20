@@ -352,6 +352,8 @@ function Compile_Data(GameMaster, MasterArray) {
           Move.proto = object.templateId.substr(7);
           Move.type = capitalize(object.data.combatMove.type.replace("POKEMON_TYPE_", ""));
           Move.power = object.data.combatMove.power;
+        } else if (object.data.playerLevel) {
+          GameMaster.cp_multiplier = object.data.playerLevel.cpMultiplier;
         }
       } catch (e) {
         console.error(e);
