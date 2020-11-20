@@ -396,7 +396,7 @@ function Add_Missing_Pokemon() {
 
   GameMaster = {};
 
-  let MasterArray = await Fetch_Json("https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json");
+  let MasterArray = await Fetch_Json("https://raw.githubusercontent.com/PokeMiners/game_masters/master/level_50_game_master/game_master.json");
 
   GameMaster.pokemon = {};
   GameMaster = await Generate_Forms(GameMaster, MasterArray);
