@@ -352,11 +352,6 @@ function Compile_Data(GameMaster, MasterArray) {
           Move.proto = object.templateId.substr(7);
           Move.type = capitalize(object.data.combatMove.type.replace("POKEMON_TYPE_", ""));
           Move.power = object.data.combatMove.power;
-        } else if (object.data.playerLevel) {
-          GameMaster.cp_multiplier = {};
-          for (let i = 1; i <= object.data.playerLevel.cpMultiplier.length; i++) {
-            GameMaster.cp_multiplier[i] = object.data.playerLevel.cpMultiplier[i-1]
-          }
         }
       } catch (e) {
         console.error(e);
