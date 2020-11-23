@@ -1497,6 +1497,14 @@
 						"Wild Charge",
 						"Fly"
 					]
+				},
+				"2669": {
+					"name": "Adventure Hat 2020",
+					"proto": "PIKACHU_ADVENTURE_HAT_2020"
+				},
+				"2670": {
+					"name": "Winter 2020",
+					"proto": "PIKACHU_WINTER_2020"
 				}
 			},
 			"default_form_id": 598,
@@ -12669,6 +12677,10 @@
 				"940": {
 					"name": "Purified",
 					"proto": "DELIBIRD_PURIFIED"
+				},
+				"2671": {
+					"name": "Winter 2020",
+					"proto": "DELIBIRD_WINTER_2020"
 				}
 			},
 			"default_form_id": 938,
@@ -32132,6 +32144,10 @@
 				"2233": {
 					"name": "Purified",
 					"proto": "CUBCHOO_PURIFIED"
+				},
+				"2672": {
+					"name": "Winter 2020",
+					"proto": "CUBCHOO_WINTER_2020"
 				}
 			},
 			"default_form_id": 2231,
@@ -34828,6 +34844,23 @@
 			"third_move_stardust": 50000,
 			"third_move_candy": 50,
 			"gym_defender_eligible": true
+		},
+		"866": {
+			"name": "Mr Rime",
+			"forms": {
+				"2513": {
+					"name": "Normal",
+					"proto": "MR_RIME_NORMAL"
+				},
+				"2514": {
+					"name": "Shadow",
+					"proto": "MR_RIME_SHADOW"
+				},
+				"2515": {
+					"name": "Purified",
+					"proto": "MR_RIME_PURIFIED"
+				}
+			}
 		},
 		"867": {
 			"name": "Runerigus",
