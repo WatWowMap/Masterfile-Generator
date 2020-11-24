@@ -1,4 +1,5 @@
 const Fetch = require("node-fetch");
+const fs = require("fs");
 const Fs = require("fs-extra");
 
 var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions;
@@ -365,6 +366,27 @@ function Compile_Data(GameMaster, MasterArray) {
 }
 
 function Add_Missing_Pokemon() {
+  const megaStats = {};
+  const megaLookup = {
+    undefined: Temp_Evolutions.TEMP_EVOLUTION_MEGA,
+    '_X': Temp_Evolutions.TEMP_EVOLUTION_MEGA_X,
+    '_Y': Temp_Evolutions.TEMP_EVOLUTION_MEGA_Y,
+  };
+  for (const { data } of require('./data/megas.json').items) {
+    const match = /^V(\d{4})_POKEMON_.*_MEGA(_[XY])?$/.exec(data.templateId);
+    const pokemonId = parseInt(match[1]);
+    if (!megaStats[pokemonId]) {
+      megaStats[pokemonId] = [];
+    }
+    megaStats[pokemonId].push({
+      tempEvoId: megaLookup[match[2]],
+      attack: data.pokemon.stats.baseAttack,
+      defense: data.pokemon.stats.baseDefense,
+      stamina: data.pokemon.stats.baseStamina,
+      type1: data.pokemon.type1,
+      type2: data.pokemon.type2,
+    });
+  }
   for (const [key, pokemon_id] of Object.entries(Pokemon_List)) {
     if (!key.startsWith('V')) {
       continue;
@@ -372,6 +394,22 @@ function Add_Missing_Pokemon() {
     ensure_pokemon(pokemon_id);
     if (!GameMaster.pokemon[pokemon_id].forms) {
       GameMaster.pokemon[pokemon_id].forms = {0: {}};
+    }
+    const guessedMega = megaStats[pokemon_id];
+    if (guessedMega) {
+      let evos = GameMaster.pokemon[pokemon_id].temp_evolutions;
+      if (!evos) {
+        evos = GameMaster.pokemon[pokemon_id].temp_evolutions = {};
+      }
+      for (const {tempEvoId, attack, defense, stamina} of guessedMega) {
+        if (!evos[tempEvoId]) {
+          evos[tempEvoId] = {attack, defense, stamina};
+        } else if (evos[tempEvoId].attack !== attack ||
+            evos[tempEvoId].defense !== defense ||
+            evos[tempEvoId].stamina !== stamina) {
+          console.warn('Inconsistent guessed mega stats for', pokemon_id, tempEvoId);
+        }
+      }
     }
     if (pokemon_id === 29) {
       for (let i = 776; i < 779; i++) {
