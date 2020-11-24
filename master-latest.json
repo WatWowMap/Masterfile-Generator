@@ -3970,7 +3970,10 @@
 			"forms": {
 				"310": {
 					"name": "Normal",
-					"proto": "ALAKAZAM_NORMAL"
+					"proto": "ALAKAZAM_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"311": {
 					"name": "Shadow",
@@ -3978,7 +3981,10 @@
 				},
 				"312": {
 					"name": "Purified",
-					"proto": "ALAKAZAM_PURIFIED"
+					"proto": "ALAKAZAM_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 310,
@@ -4014,7 +4020,8 @@
 				"1": {
 					"attack": 367,
 					"defense": 207,
-					"stamina": 146
+					"stamina": 146,
+					"unreleased": true
 				}
 			}
 		},
@@ -4959,7 +4966,10 @@
 			"forms": {
 				"1020": {
 					"name": "Normal",
-					"proto": "SLOWBRO_NORMAL"
+					"proto": "SLOWBRO_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1021": {
 					"name": "Shadow",
@@ -4967,7 +4977,10 @@
 				},
 				"1022": {
 					"name": "Purified",
-					"proto": "SLOWBRO_PURIFIED"
+					"proto": "SLOWBRO_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"2583": {
 					"name": "Galarian",
@@ -5007,7 +5020,8 @@
 				"1": {
 					"attack": 224,
 					"defense": 259,
-					"stamina": 216
+					"stamina": 216,
+					"unreleased": true
 				}
 			}
 		},
@@ -6996,7 +7010,10 @@
 			"forms": {
 				"839": {
 					"name": "Normal",
-					"proto": "KANGASKHAN_NORMAL"
+					"proto": "KANGASKHAN_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"840": {
 					"name": "Shadow",
@@ -7004,7 +7021,10 @@
 				},
 				"841": {
 					"name": "Purified",
-					"proto": "KANGASKHAN_PURIFIED"
+					"proto": "KANGASKHAN_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 839,
@@ -7040,7 +7060,8 @@
 				"1": {
 					"attack": 246,
 					"defense": 210,
-					"stamina": 233
+					"stamina": 233,
+					"unreleased": true
 				}
 			}
 		},
@@ -7627,7 +7648,10 @@
 			"forms": {
 				"898": {
 					"name": "Normal",
-					"proto": "PINSIR_NORMAL"
+					"proto": "PINSIR_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"899": {
 					"name": "Shadow",
@@ -7635,7 +7659,10 @@
 				},
 				"900": {
 					"name": "Purified",
-					"proto": "PINSIR_PURIFIED"
+					"proto": "PINSIR_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 898,
@@ -7672,7 +7699,12 @@
 				"1": {
 					"attack": 305,
 					"defense": 231,
-					"stamina": 163
+					"stamina": 163,
+					"unreleased": true,
+					"types": [
+						"Bug",
+						"Flying"
+					]
 				}
 			}
 		},
@@ -7788,7 +7820,10 @@
 			"forms": {
 				"256": {
 					"name": "Normal",
-					"proto": "GYARADOS_NORMAL"
+					"proto": "GYARADOS_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"257": {
 					"name": "Shadow",
@@ -7796,7 +7831,10 @@
 				},
 				"258": {
 					"name": "Purified",
-					"proto": "GYARADOS_PURIFIED"
+					"proto": "GYARADOS_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 256,
@@ -7834,7 +7872,12 @@
 				"1": {
 					"attack": 292,
 					"defense": 247,
-					"stamina": 216
+					"stamina": 216,
+					"unreleased": true,
+					"types": [
+						"Water",
+						"Dark"
+					]
 				}
 			}
 		},
@@ -8413,7 +8456,10 @@
 			"forms": {
 				"1110": {
 					"name": "Normal",
-					"proto": "AERODACTYL_NORMAL"
+					"proto": "AERODACTYL_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1111": {
 					"name": "Shadow",
@@ -8421,7 +8467,10 @@
 				},
 				"1112": {
 					"name": "Purified",
-					"proto": "AERODACTYL_PURIFIED"
+					"proto": "AERODACTYL_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1110,
@@ -8460,7 +8509,8 @@
 				"1": {
 					"attack": 292,
 					"defense": 210,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -8855,7 +8905,11 @@
 				},
 				"135": {
 					"name": "Normal",
-					"proto": "MEWTWO_NORMAL"
+					"proto": "MEWTWO_NORMAL",
+					"temp_evolutions": {
+						"2": {},
+						"3": {}
+					}
 				},
 				"1113": {
 					"name": "Shadow",
@@ -8863,7 +8917,11 @@
 				},
 				"1114": {
 					"name": "Purified",
-					"proto": "MEWTWO_PURIFIED"
+					"proto": "MEWTWO_PURIFIED",
+					"temp_evolutions": {
+						"2": {},
+						"3": {}
+					}
 				}
 			},
 			"default_form_id": 135,
@@ -8899,12 +8957,18 @@
 				"2": {
 					"attack": 412,
 					"defense": 222,
-					"stamina": 235
+					"stamina": 235,
+					"unreleased": true,
+					"types": [
+						"Psychic",
+						"Fighting"
+					]
 				},
 				"3": {
 					"attack": 426,
 					"defense": 229,
-					"stamina": 235
+					"stamina": 235,
+					"unreleased": true
 				}
 			}
 		},
@@ -10397,7 +10461,10 @@
 			"forms": {
 				"652": {
 					"name": "Normal",
-					"proto": "AMPHAROS_NORMAL"
+					"proto": "AMPHAROS_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"653": {
 					"name": "Shadow",
@@ -10405,7 +10472,10 @@
 				},
 				"654": {
 					"name": "Purified",
-					"proto": "AMPHAROS_PURIFIED"
+					"proto": "AMPHAROS_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 652,
@@ -10442,7 +10512,12 @@
 				"1": {
 					"attack": 294,
 					"defense": 203,
-					"stamina": 207
+					"stamina": 207,
+					"unreleased": true,
+					"types": [
+						"Electric",
+						"Dragon"
+					]
 				}
 			}
 		},
@@ -11888,7 +11963,10 @@
 			"forms": {
 				"905": {
 					"name": "Normal",
-					"proto": "STEELIX_NORMAL"
+					"proto": "STEELIX_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"906": {
 					"name": "Shadow",
@@ -11896,7 +11974,10 @@
 				},
 				"907": {
 					"name": "Purified",
-					"proto": "STEELIX_PURIFIED"
+					"proto": "STEELIX_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 905,
@@ -11933,7 +12014,8 @@
 				"1": {
 					"attack": 212,
 					"defense": 327,
-					"stamina": 181
+					"stamina": 181,
+					"unreleased": true
 				}
 			}
 		},
@@ -12084,7 +12166,10 @@
 			"forms": {
 				"250": {
 					"name": "Normal",
-					"proto": "SCIZOR_NORMAL"
+					"proto": "SCIZOR_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"251": {
 					"name": "Shadow",
@@ -12092,7 +12177,10 @@
 				},
 				"252": {
 					"name": "Purified",
-					"proto": "SCIZOR_PURIFIED"
+					"proto": "SCIZOR_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 250,
@@ -12128,7 +12216,8 @@
 				"1": {
 					"attack": 279,
 					"defense": 250,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true
 				}
 			}
 		},
@@ -12183,7 +12272,10 @@
 			"forms": {
 				"1262": {
 					"name": "Normal",
-					"proto": "HERACROSS_NORMAL"
+					"proto": "HERACROSS_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1263": {
 					"name": "Shadow",
@@ -12191,7 +12283,10 @@
 				},
 				"1264": {
 					"name": "Purified",
-					"proto": "HERACROSS_PURIFIED"
+					"proto": "HERACROSS_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1262,
@@ -12227,7 +12322,8 @@
 				"1": {
 					"attack": 334,
 					"defense": 223,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -13909,7 +14005,10 @@
 			"forms": {
 				"319": {
 					"name": "Normal",
-					"proto": "TYRANITAR_NORMAL"
+					"proto": "TYRANITAR_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"320": {
 					"name": "Shadow",
@@ -13917,7 +14016,10 @@
 				},
 				"321": {
 					"name": "Purified",
-					"proto": "TYRANITAR_PURIFIED"
+					"proto": "TYRANITAR_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 319,
@@ -13953,7 +14055,8 @@
 				"1": {
 					"attack": 309,
 					"defense": 276,
-					"stamina": 225
+					"stamina": 225,
+					"unreleased": true
 				}
 			}
 		},
@@ -14195,7 +14298,10 @@
 			"forms": {
 				"1355": {
 					"name": "Normal",
-					"proto": "SCEPTILE_NORMAL"
+					"proto": "SCEPTILE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1356": {
 					"name": "Shadow",
@@ -14203,7 +14309,10 @@
 				},
 				"1357": {
 					"name": "Purified",
-					"proto": "SCEPTILE_PURIFIED"
+					"proto": "SCEPTILE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1355,
@@ -14239,7 +14348,12 @@
 				"1": {
 					"attack": 320,
 					"defense": 186,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true,
+					"types": [
+						"Grass",
+						"Dragon"
+					]
 				}
 			}
 		},
@@ -14345,7 +14459,10 @@
 			"forms": {
 				"1364": {
 					"name": "Normal",
-					"proto": "BLAZIKEN_NORMAL"
+					"proto": "BLAZIKEN_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1365": {
 					"name": "Shadow",
@@ -14353,7 +14470,10 @@
 				},
 				"1366": {
 					"name": "Purified",
-					"proto": "BLAZIKEN_PURIFIED"
+					"proto": "BLAZIKEN_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1364,
@@ -14390,7 +14510,8 @@
 				"1": {
 					"attack": 329,
 					"defense": 168,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -14530,7 +14651,10 @@
 			"forms": {
 				"211": {
 					"name": "Normal",
-					"proto": "SWAMPERT_NORMAL"
+					"proto": "SWAMPERT_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"212": {
 					"name": "Shadow",
@@ -14538,7 +14662,10 @@
 				},
 				"213": {
 					"name": "Purified",
-					"proto": "SWAMPERT_PURIFIED"
+					"proto": "SWAMPERT_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 211,
@@ -14575,7 +14702,8 @@
 				"1": {
 					"attack": 283,
 					"defense": 218,
-					"stamina": 225
+					"stamina": 225,
+					"unreleased": true
 				}
 			}
 		},
@@ -15729,7 +15857,10 @@
 			"forms": {
 				"298": {
 					"name": "Normal",
-					"proto": "GARDEVOIR_NORMAL"
+					"proto": "GARDEVOIR_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"299": {
 					"name": "Shadow",
@@ -15737,7 +15868,10 @@
 				},
 				"300": {
 					"name": "Purified",
-					"proto": "GARDEVOIR_PURIFIED"
+					"proto": "GARDEVOIR_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 298,
@@ -15774,7 +15908,8 @@
 				"1": {
 					"attack": 326,
 					"defense": 229,
-					"stamina": 169
+					"stamina": 169,
+					"unreleased": true
 				}
 			}
 		},
@@ -16680,7 +16815,10 @@
 			"forms": {
 				"923": {
 					"name": "Normal",
-					"proto": "SABLEYE_NORMAL"
+					"proto": "SABLEYE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"924": {
 					"name": "Shadow",
@@ -16688,7 +16826,10 @@
 				},
 				"925": {
 					"name": "Purified",
-					"proto": "SABLEYE_PURIFIED"
+					"proto": "SABLEYE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"2666": {
 					"name": "Costume 2020 Deprecated",
@@ -16732,7 +16873,8 @@
 				"1": {
 					"attack": 151,
 					"defense": 216,
-					"stamina": 137
+					"stamina": 137,
+					"unreleased": true
 				}
 			}
 		},
@@ -16741,7 +16883,10 @@
 			"forms": {
 				"833": {
 					"name": "Normal",
-					"proto": "MAWILE_NORMAL"
+					"proto": "MAWILE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"834": {
 					"name": "Shadow",
@@ -16749,7 +16894,10 @@
 				},
 				"835": {
 					"name": "Purified",
-					"proto": "MAWILE_PURIFIED"
+					"proto": "MAWILE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 833,
@@ -16788,7 +16936,8 @@
 				"1": {
 					"attack": 188,
 					"defense": 217,
-					"stamina": 137
+					"stamina": 137,
+					"unreleased": true
 				}
 			}
 		},
@@ -16895,7 +17044,10 @@
 			"forms": {
 				"1475": {
 					"name": "Normal",
-					"proto": "AGGRON_NORMAL"
+					"proto": "AGGRON_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1476": {
 					"name": "Shadow",
@@ -16903,7 +17055,10 @@
 				},
 				"1477": {
 					"name": "Purified",
-					"proto": "AGGRON_PURIFIED"
+					"proto": "AGGRON_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1475,
@@ -16940,7 +17095,11 @@
 				"1": {
 					"attack": 247,
 					"defense": 331,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true,
+					"types": [
+						"Steel"
+					]
 				}
 			}
 		},
@@ -16998,7 +17157,10 @@
 			"forms": {
 				"1481": {
 					"name": "Normal",
-					"proto": "MEDICHAM_NORMAL"
+					"proto": "MEDICHAM_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1482": {
 					"name": "Shadow",
@@ -17006,7 +17168,10 @@
 				},
 				"1483": {
 					"name": "Purified",
-					"proto": "MEDICHAM_PURIFIED"
+					"proto": "MEDICHAM_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1481,
@@ -17043,7 +17208,8 @@
 				"1": {
 					"attack": 205,
 					"defense": 179,
-					"stamina": 155
+					"stamina": 155,
+					"unreleased": true
 				}
 			}
 		},
@@ -17100,7 +17266,10 @@
 			"forms": {
 				"1487": {
 					"name": "Normal",
-					"proto": "MANECTRIC_NORMAL"
+					"proto": "MANECTRIC_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1488": {
 					"name": "Shadow",
@@ -17108,7 +17277,10 @@
 				},
 				"1489": {
 					"name": "Purified",
-					"proto": "MANECTRIC_PURIFIED"
+					"proto": "MANECTRIC_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1487,
@@ -17143,7 +17315,8 @@
 				"1": {
 					"attack": 286,
 					"defense": 179,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true
 				}
 			}
 		},
@@ -17543,7 +17716,10 @@
 			"forms": {
 				"737": {
 					"name": "Normal",
-					"proto": "SHARPEDO_NORMAL"
+					"proto": "SHARPEDO_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"738": {
 					"name": "Shadow",
@@ -17551,7 +17727,10 @@
 				},
 				"739": {
 					"name": "Purified",
-					"proto": "SHARPEDO_PURIFIED"
+					"proto": "SHARPEDO_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 737,
@@ -17587,7 +17766,8 @@
 				"1": {
 					"attack": 289,
 					"defense": 144,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true
 				}
 			}
 		},
@@ -17738,7 +17918,10 @@
 			"forms": {
 				"1520": {
 					"name": "Normal",
-					"proto": "CAMERUPT_NORMAL"
+					"proto": "CAMERUPT_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1521": {
 					"name": "Shadow",
@@ -17746,7 +17929,10 @@
 				},
 				"1522": {
 					"name": "Purified",
-					"proto": "CAMERUPT_PURIFIED"
+					"proto": "CAMERUPT_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1520,
@@ -17783,7 +17969,8 @@
 				"1": {
 					"attack": 253,
 					"defense": 183,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true
 				}
 			}
 		},
@@ -18380,7 +18567,10 @@
 			"forms": {
 				"1535": {
 					"name": "Normal",
-					"proto": "ALTARIA_NORMAL"
+					"proto": "ALTARIA_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1536": {
 					"name": "Shadow",
@@ -18388,7 +18578,10 @@
 				},
 				"1537": {
 					"name": "Purified",
-					"proto": "ALTARIA_PURIFIED"
+					"proto": "ALTARIA_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1535,
@@ -18424,7 +18617,12 @@
 				"1": {
 					"attack": 222,
 					"defense": 218,
-					"stamina": 181
+					"stamina": 181,
+					"unreleased": true,
+					"types": [
+						"Dragon",
+						"Fairy"
+					]
 				}
 			}
 		},
@@ -19386,7 +19584,10 @@
 			"forms": {
 				"911": {
 					"name": "Normal",
-					"proto": "BANETTE_NORMAL"
+					"proto": "BANETTE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"912": {
 					"name": "Shadow",
@@ -19394,7 +19595,10 @@
 				},
 				"913": {
 					"name": "Purified",
-					"proto": "BANETTE_PURIFIED"
+					"proto": "BANETTE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 911,
@@ -19429,7 +19633,8 @@
 				"1": {
 					"attack": 312,
 					"defense": 160,
-					"stamina": 162
+					"stamina": 162,
+					"unreleased": true
 				}
 			}
 		},
@@ -19660,7 +19865,10 @@
 			"forms": {
 				"830": {
 					"name": "Normal",
-					"proto": "ABSOL_NORMAL"
+					"proto": "ABSOL_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"831": {
 					"name": "Shadow",
@@ -19668,7 +19876,10 @@
 				},
 				"832": {
 					"name": "Purified",
-					"proto": "ABSOL_PURIFIED"
+					"proto": "ABSOL_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 830,
@@ -19703,7 +19914,8 @@
 				"1": {
 					"attack": 314,
 					"defense": 130,
-					"stamina": 163
+					"stamina": 163,
+					"unreleased": true
 				}
 			}
 		},
@@ -19809,7 +20021,10 @@
 			"forms": {
 				"929": {
 					"name": "Normal",
-					"proto": "GLALIE_NORMAL"
+					"proto": "GLALIE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"930": {
 					"name": "Shadow",
@@ -19817,7 +20032,10 @@
 				},
 				"931": {
 					"name": "Purified",
-					"proto": "GLALIE_PURIFIED"
+					"proto": "GLALIE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 929,
@@ -19852,7 +20070,8 @@
 				"1": {
 					"attack": 252,
 					"defense": 168,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -20364,7 +20583,10 @@
 			"forms": {
 				"761": {
 					"name": "Normal",
-					"proto": "SALAMENCE_NORMAL"
+					"proto": "SALAMENCE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"762": {
 					"name": "Shadow",
@@ -20372,7 +20594,10 @@
 				},
 				"763": {
 					"name": "Purified",
-					"proto": "SALAMENCE_PURIFIED"
+					"proto": "SALAMENCE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 761,
@@ -20409,7 +20634,8 @@
 				"1": {
 					"attack": 310,
 					"defense": 251,
-					"stamina": 216
+					"stamina": 216,
+					"unreleased": true
 				}
 			}
 		},
@@ -20545,7 +20771,10 @@
 			"forms": {
 				"770": {
 					"name": "Normal",
-					"proto": "METAGROSS_NORMAL"
+					"proto": "METAGROSS_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"771": {
 					"name": "Shadow",
@@ -20553,7 +20782,10 @@
 				},
 				"772": {
 					"name": "Purified",
-					"proto": "METAGROSS_PURIFIED"
+					"proto": "METAGROSS_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 770,
@@ -20589,7 +20821,8 @@
 				"1": {
 					"attack": 300,
 					"defense": 289,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -20733,7 +20966,10 @@
 			"forms": {
 				"1631": {
 					"name": "Normal",
-					"proto": "LATIAS_NORMAL"
+					"proto": "LATIAS_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1632": {
 					"name": "Shadow",
@@ -20741,7 +20977,10 @@
 				},
 				"1633": {
 					"name": "Purified",
-					"proto": "LATIAS_PURIFIED"
+					"proto": "LATIAS_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1631,
@@ -20777,7 +21016,8 @@
 				"1": {
 					"attack": 289,
 					"defense": 297,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -20786,7 +21026,10 @@
 			"forms": {
 				"1634": {
 					"name": "Normal",
-					"proto": "LATIOS_NORMAL"
+					"proto": "LATIOS_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1635": {
 					"name": "Shadow",
@@ -20794,7 +21037,10 @@
 				},
 				"1636": {
 					"name": "Purified",
-					"proto": "LATIOS_PURIFIED"
+					"proto": "LATIOS_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1634,
@@ -20829,7 +21075,8 @@
 				"1": {
 					"attack": 335,
 					"defense": 241,
-					"stamina": 190
+					"stamina": 190,
+					"unreleased": true
 				}
 			}
 		},
@@ -20926,7 +21173,10 @@
 			"forms": {
 				"1643": {
 					"name": "Normal",
-					"proto": "RAYQUAZA_NORMAL"
+					"proto": "RAYQUAZA_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1644": {
 					"name": "Shadow",
@@ -20934,7 +21184,10 @@
 				},
 				"1645": {
 					"name": "Purified",
-					"proto": "RAYQUAZA_PURIFIED"
+					"proto": "RAYQUAZA_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1643,
@@ -20969,7 +21222,8 @@
 				"1": {
 					"attack": 389,
 					"defense": 216,
-					"stamina": 233
+					"stamina": 233,
+					"unreleased": true
 				}
 			}
 		},
@@ -23242,7 +23496,10 @@
 			"forms": {
 				"1754": {
 					"name": "Normal",
-					"proto": "LOPUNNY_NORMAL"
+					"proto": "LOPUNNY_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1755": {
 					"name": "Shadow",
@@ -23250,7 +23507,10 @@
 				},
 				"1756": {
 					"name": "Purified",
-					"proto": "LOPUNNY_PURIFIED"
+					"proto": "LOPUNNY_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1754,
@@ -23285,7 +23545,12 @@
 				"1": {
 					"attack": 282,
 					"defense": 214,
-					"stamina": 163
+					"stamina": 163,
+					"unreleased": true,
+					"types": [
+						"Normal",
+						"Fighting"
+					]
 				}
 			}
 		},
@@ -24103,7 +24368,10 @@
 			"forms": {
 				"867": {
 					"name": "Normal",
-					"proto": "GARCHOMP_NORMAL"
+					"proto": "GARCHOMP_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"868": {
 					"name": "Shadow",
@@ -24111,7 +24379,10 @@
 				},
 				"869": {
 					"name": "Purified",
-					"proto": "GARCHOMP_PURIFIED"
+					"proto": "GARCHOMP_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 867,
@@ -24148,7 +24419,8 @@
 				"1": {
 					"attack": 339,
 					"defense": 222,
-					"stamina": 239
+					"stamina": 239,
+					"unreleased": true
 				}
 			}
 		},
@@ -24252,7 +24524,10 @@
 			"forms": {
 				"1793": {
 					"name": "Normal",
-					"proto": "LUCARIO_NORMAL"
+					"proto": "LUCARIO_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1794": {
 					"name": "Shadow",
@@ -24260,7 +24535,10 @@
 				},
 				"1795": {
 					"name": "Purified",
-					"proto": "LUCARIO_PURIFIED"
+					"proto": "LUCARIO_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1793,
@@ -24298,7 +24576,8 @@
 				"1": {
 					"attack": 310,
 					"defense": 175,
-					"stamina": 172
+					"stamina": 172,
+					"unreleased": true
 				}
 			}
 		},
@@ -24866,7 +25145,10 @@
 			"forms": {
 				"935": {
 					"name": "Normal",
-					"proto": "ABOMASNOW_NORMAL"
+					"proto": "ABOMASNOW_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"936": {
 					"name": "Shadow",
@@ -24874,7 +25156,10 @@
 				},
 				"937": {
 					"name": "Purified",
-					"proto": "ABOMASNOW_PURIFIED"
+					"proto": "ABOMASNOW_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 935,
@@ -24911,7 +25196,8 @@
 				"1": {
 					"attack": 240,
 					"defense": 191,
-					"stamina": 207
+					"stamina": 207,
+					"unreleased": true
 				}
 			}
 		},
@@ -25571,7 +25857,10 @@
 			"forms": {
 				"301": {
 					"name": "Normal",
-					"proto": "GALLADE_NORMAL"
+					"proto": "GALLADE_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"302": {
 					"name": "Shadow",
@@ -25579,7 +25868,10 @@
 				},
 				"303": {
 					"name": "Purified",
-					"proto": "GALLADE_PURIFIED"
+					"proto": "GALLADE_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 301,
@@ -25616,7 +25908,8 @@
 				"1": {
 					"attack": 326,
 					"defense": 230,
-					"stamina": 169
+					"stamina": 169,
+					"unreleased": true
 				}
 			}
 		},
@@ -28378,7 +28671,10 @@
 			"forms": {
 				"1997": {
 					"name": "Normal",
-					"proto": "AUDINO_NORMAL"
+					"proto": "AUDINO_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1998": {
 					"name": "Shadow",
@@ -28386,7 +28682,10 @@
 				},
 				"1999": {
 					"name": "Purified",
-					"proto": "AUDINO_PURIFIED"
+					"proto": "AUDINO_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1997,
@@ -28421,7 +28720,12 @@
 				"1": {
 					"attack": 147,
 					"defense": 239,
-					"stamina": 230
+					"stamina": 230,
+					"unreleased": true,
+					"types": [
+						"Normal",
+						"Fairy"
+					]
 				}
 			}
 		},
@@ -34871,7 +35175,12 @@
 				"1": {
 					"attack": 342,
 					"defense": 235,
-					"stamina": 137
+					"stamina": 137,
+					"unreleased": true,
+					"types": [
+						"Fairy",
+						"Rock"
+					]
 				}
 			}
 		},
