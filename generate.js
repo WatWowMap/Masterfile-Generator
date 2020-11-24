@@ -1,4 +1,5 @@
 const Fetch = require("node-fetch");
+const fs = require("fs");
 const Fs = require("fs-extra");
 
 var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions;
@@ -365,6 +366,27 @@ function Compile_Data(GameMaster, MasterArray) {
 }
 
 function Add_Missing_Pokemon() {
+  const megaStats = {};
+  const megaLookup = {
+    undefined: Temp_Evolutions.TEMP_EVOLUTION_MEGA,
+    '_X': Temp_Evolutions.TEMP_EVOLUTION_MEGA_X,
+    '_Y': Temp_Evolutions.TEMP_EVOLUTION_MEGA_Y,
+  };
+  for (const { data } of require('./data/megas.json').items) {
+    const match = /^V(\d{4})_POKEMON_.*_MEGA(_[XY])?$/.exec(data.templateId);
+    const pokemonId = parseInt(match[1]);
+    if (!megaStats[pokemonId]) {
+      megaStats[pokemonId] = [];
+    }
+    megaStats[pokemonId].push({
+      tempEvoId: megaLookup[match[2]],
+      attack: data.pokemon.stats.baseAttack,
+      defense: data.pokemon.stats.baseDefense,
+      stamina: data.pokemon.stats.baseStamina,
+      type1: data.pokemon.type1,
+      type2: data.pokemon.type2,
+    });
+  }
   for (const [key, pokemon_id] of Object.entries(Pokemon_List)) {
     if (!key.startsWith('V')) {
       continue;
@@ -376,6 +398,45 @@ function Add_Missing_Pokemon() {
     if (pokemon_id === 29) {
       for (let i = 776; i < 779; i++) {
         GameMaster.pokemon[pokemon_id].forms[i].proto = GameMaster.pokemon[32].forms[i].proto;
+      }
+    }
+    const guessedMega = megaStats[pokemon_id];
+    if (guessedMega) {
+      let evos = GameMaster.pokemon[pokemon_id].temp_evolutions;
+      if (!evos) {
+        evos = GameMaster.pokemon[pokemon_id].temp_evolutions = {};
+      }
+      for (const {tempEvoId, attack, defense, stamina, type1, type2} of guessedMega) {
+        if (!evos[tempEvoId]) {
+          let types = [];
+          if (type1) {
+            types.push(capitalize(type1.replace("POKEMON_TYPE_", "")));
+          }
+          if (type2) {
+            types.push(capitalize(type2.replace("POKEMON_TYPE_", "")));
+          }
+          const evo = {attack, defense, stamina, unreleased: true};
+          if (types.toString() != (GameMaster.pokemon[pokemon_id].types || {}).toString()) {
+            evo.types = types;
+          }
+          evos[tempEvoId] = evo;
+          for (const form of Object.values(GameMaster.pokemon[pokemon_id].forms)) {
+            const proto = form.proto || '';
+            if (proto.endsWith('_NORMAL') || proto.endsWith('_PURIFIED')) {
+              if (!form.temp_evolutions) {
+                form.temp_evolutions = {};
+              }
+              form.temp_evolutions[tempEvoId] = {};
+            }
+          }
+        } else if (evos[tempEvoId].attack !== attack ||
+            evos[tempEvoId].defense !== defense ||
+            evos[tempEvoId].stamina !== stamina) {
+          console.warn('Inconsistent guessed mega stats for', pokemon_id, tempEvoId);
+        }
+        if (evos[tempEvoId].stamina !== GameMaster.pokemon[pokemon_id].stamina) {
+          console.warn('Stamina does not match existing values for', pokemon_id, tempEvoId);
+        }
       }
     }
   }
