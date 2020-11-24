@@ -395,6 +395,11 @@ function Add_Missing_Pokemon() {
     if (!GameMaster.pokemon[pokemon_id].forms) {
       GameMaster.pokemon[pokemon_id].forms = {0: {}};
     }
+    if (pokemon_id === 29) {
+      for (let i = 776; i < 779; i++) {
+        GameMaster.pokemon[pokemon_id].forms[i].proto = GameMaster.pokemon[32].forms[i].proto;
+      }
+    }
     const guessedMega = megaStats[pokemon_id];
     if (guessedMega) {
       let evos = GameMaster.pokemon[pokemon_id].temp_evolutions;
@@ -415,6 +420,15 @@ function Add_Missing_Pokemon() {
             evo.types = types;
           }
           evos[tempEvoId] = evo;
+          for (const form of Object.values(GameMaster.pokemon[pokemon_id].forms)) {
+            const proto = form.proto || '';
+            if (proto.endsWith('_NORMAL') || proto.endsWith('_PURIFIED')) {
+              if (!form.temp_evolutions) {
+                form.temp_evolutions = {};
+              }
+              form.temp_evolutions[tempEvoId] = {};
+            }
+          }
         } else if (evos[tempEvoId].attack !== attack ||
             evos[tempEvoId].defense !== defense ||
             evos[tempEvoId].stamina !== stamina) {
@@ -423,11 +437,6 @@ function Add_Missing_Pokemon() {
         if (evos[tempEvoId].stamina !== GameMaster.pokemon[pokemon_id].stamina) {
           console.warn('Stamina does not match existing values for', pokemon_id, tempEvoId);
         }
-      }
-    }
-    if (pokemon_id === 29) {
-      for (let i = 776; i < 779; i++) {
-        GameMaster.pokemon[pokemon_id].forms[i].proto = GameMaster.pokemon[32].forms[i].proto;
       }
     }
   }
