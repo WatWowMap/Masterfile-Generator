@@ -409,6 +409,9 @@ function Add_Missing_Pokemon() {
             evos[tempEvoId].stamina !== stamina) {
           console.warn('Inconsistent guessed mega stats for', pokemon_id, tempEvoId);
         }
+        if (evos[tempEvoId].stamina !== GameMaster.pokemon[pokemon_id].stamina) {
+          console.warn('Stamina does not match existing values for', pokemon_id, tempEvoId);
+        }
       }
     }
     if (pokemon_id === 29) {
