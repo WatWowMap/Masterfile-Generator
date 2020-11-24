@@ -401,9 +401,20 @@ function Add_Missing_Pokemon() {
       if (!evos) {
         evos = GameMaster.pokemon[pokemon_id].temp_evolutions = {};
       }
-      for (const {tempEvoId, attack, defense, stamina} of guessedMega) {
+      for (const {tempEvoId, attack, defense, stamina, type1, type2} of guessedMega) {
         if (!evos[tempEvoId]) {
-          evos[tempEvoId] = {attack, defense, stamina, unreleased: true};
+          let types = [];
+          if (type1) {
+            types.push(capitalize(type1.replace("POKEMON_TYPE_", "")));
+          }
+          if (type2) {
+            types.push(capitalize(type2.replace("POKEMON_TYPE_", "")));
+          }
+          const evo = {attack, defense, stamina, unreleased: true};
+          if (types.toString() != (GameMaster.pokemon[pokemon_id].types || {}).toString()) {
+            evo.types = types;
+          }
+          evos[tempEvoId] = evo;
         } else if (evos[tempEvoId].attack !== attack ||
             evos[tempEvoId].defense !== defense ||
             evos[tempEvoId].stamina !== stamina) {
