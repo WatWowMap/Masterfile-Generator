@@ -403,7 +403,7 @@ function Add_Missing_Pokemon() {
       }
       for (const {tempEvoId, attack, defense, stamina} of guessedMega) {
         if (!evos[tempEvoId]) {
-          evos[tempEvoId] = {attack, defense, stamina};
+          evos[tempEvoId] = {attack, defense, stamina, unreleased: true};
         } else if (evos[tempEvoId].attack !== attack ||
             evos[tempEvoId].defense !== defense ||
             evos[tempEvoId].stamina !== stamina) {
