@@ -393,7 +393,9 @@ function Add_Missing_Pokemon() {
     }
     ensure_pokemon(pokemon_id);
     if (!GameMaster.pokemon[pokemon_id].forms) {
-      GameMaster.pokemon[pokemon_id].forms = {};
+      GameMaster.pokemon[pokemon_id].forms = {0:{}};
+    } else if (Object.keys(GameMaster.pokemon[pokemon_id].forms).length === 0) {
+        GameMaster.pokemon[pokemon_id].forms[0] = {};
     }
     if (pokemon_id === 29) {
       for (let i = 776; i < 779; i++) {
