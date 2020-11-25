@@ -25185,21 +25185,22 @@
 				"Outrage",
 				"Weather Ball"
 			],
+			"temp_evolutions": {
+				"1": {
+					"attack": 240,
+					"defense": 191,
+					"stamina": 207,
+					"height": 2.7,
+					"weight": 185
+				}
+			},
 			"legendary": false,
 			"mythic": false,
 			"buddy_group_number": 2,
 			"buddy_distance": 3,
 			"third_move_stardust": 50000,
 			"third_move_candy": 50,
-			"gym_defender_eligible": true,
-			"temp_evolutions": {
-				"1": {
-					"attack": 240,
-					"defense": 191,
-					"stamina": 207,
-					"unreleased": true
-				}
-			}
+			"gym_defender_eligible": true
 		},
 		"461": {
 			"name": "Weavile",
@@ -34510,99 +34511,542 @@
 		},
 		"650": {
 			"name": "Chespin",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 650,
+			"types": [
+				"Grass"
+			],
+			"attack": 110,
+			"defense": 106,
+			"stamina": 148,
+			"height": 0.4,
+			"weight": 9,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Take Down",
+				"Vine Whip"
+			],
+			"charged_moves": [
+				"Gyro Ball",
+				"Seed Bomb",
+				"Body Slam"
+			],
+			"evolutions": {
+				"651": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 1,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"651": {
 			"name": "Quilladin",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 651,
+			"types": [
+				"Grass"
+			],
+			"attack": 146,
+			"defense": 156,
+			"stamina": 156,
+			"height": 0.7,
+			"weight": 29,
+			"flee_rate": 0.1,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Low Kick",
+				"Razor Leaf"
+			],
+			"charged_moves": [
+				"Gyro Ball",
+				"Energy Ball",
+				"Body Slam"
+			],
+			"evolutions": {
+				"652": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 2,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"652": {
 			"name": "Chesnaught",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 652,
+			"types": [
+				"Grass",
+				"Fighting"
+			],
+			"attack": 201,
+			"defense": 204,
+			"stamina": 204,
+			"height": 1.6,
+			"weight": 90,
+			"flee_rate": 0.1,
+			"capture_rate": 0.05,
+			"quick_moves": [
+				"Low Kick",
+				"Razor Leaf",
+				"Vine Whip"
+			],
+			"charged_moves": [
+				"Gyro Ball",
+				"Energy Ball",
+				"Super Power",
+				"Solar Beam"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 3,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"653": {
 			"name": "Fennekin",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 653,
+			"types": [
+				"Fire"
+			],
+			"attack": 116,
+			"defense": 102,
+			"stamina": 120,
+			"height": 0.4,
+			"weight": 9.4,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Scratch",
+				"Ember"
+			],
+			"charged_moves": [
+				"Psyshock",
+				"Flamethrower",
+				"Flame Charge"
+			],
+			"evolutions": {
+				"654": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 1,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"654": {
 			"name": "Braixen",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 654,
+			"types": [
+				"Fire"
+			],
+			"attack": 171,
+			"defense": 130,
+			"stamina": 153,
+			"height": 1,
+			"weight": 14.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Scratch",
+				"Ember"
+			],
+			"charged_moves": [
+				"Psyshock",
+				"Flamethrower",
+				"Flame Charge"
+			],
+			"evolutions": {
+				"655": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 2,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"655": {
 			"name": "Delphox",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 655,
+			"types": [
+				"Fire",
+				"Psychic"
+			],
+			"attack": 230,
+			"defense": 189,
+			"stamina": 181,
+			"height": 1.5,
+			"weight": 39,
+			"flee_rate": 0.1,
+			"capture_rate": 0.05,
+			"quick_moves": [
+				"Scratch",
+				"Fire Spin",
+				"Zen Headbutt"
+			],
+			"charged_moves": [
+				"Psychic",
+				"Flamethrower",
+				"Flame Charge",
+				"Fire Blast"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 3,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"656": {
 			"name": "Froakie",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 656,
+			"types": [
+				"Water"
+			],
+			"attack": 122,
+			"defense": 84,
+			"stamina": 121,
+			"height": 0.3,
+			"weight": 7,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Pound",
+				"Bubble"
+			],
+			"charged_moves": [
+				"Water Pulse",
+				"Aerial Ace",
+				"Surf"
+			],
+			"evolutions": {
+				"657": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 1,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"657": {
 			"name": "Frogadier",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 657,
+			"types": [
+				"Water"
+			],
+			"attack": 168,
+			"defense": 114,
+			"stamina": 144,
+			"height": 0.6,
+			"weight": 10.9,
+			"flee_rate": 0.1,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Pound",
+				"Bubble"
+			],
+			"charged_moves": [
+				"Night Slash",
+				"Aerial Ace",
+				"Surf"
+			],
+			"evolutions": {
+				"658": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 2,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"658": {
 			"name": "Greninja",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 658,
+			"types": [
+				"Water",
+				"Dark"
+			],
+			"attack": 223,
+			"defense": 152,
+			"stamina": 176,
+			"height": 1.5,
+			"weight": 40,
+			"flee_rate": 0.1,
+			"capture_rate": 0.05,
+			"quick_moves": [
+				"Feint Attack",
+				"Bubble"
+			],
+			"charged_moves": [
+				"Night Slash",
+				"Aerial Ace",
+				"Surf",
+				"Hydro Pump"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 3,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"659": {
 			"name": "Bunnelby",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 659,
+			"types": [
+				"Normal"
+			],
+			"attack": 68,
+			"defense": 72,
+			"stamina": 116,
+			"height": 0.4,
+			"weight": 5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Mud Slap",
+				"Quick Attack"
+			],
+			"charged_moves": [
+				"Dig",
+				"Bulldoze",
+				"Earthquake"
+			],
+			"evolutions": {
+				"660": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 2,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"660": {
 			"name": "Diggersby",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 660,
+			"types": [
+				"Normal",
+				"Ground"
+			],
+			"attack": 112,
+			"defense": 155,
+			"stamina": 198,
+			"height": 1,
+			"weight": 42.4,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Mud Shot",
+				"Quick Attack"
+			],
+			"charged_moves": [
+				"Dig",
+				"Hyper Beam",
+				"Earthquake",
+				"Fire Punch"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 3,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"661": {
 			"name": "Fletchling",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 661,
+			"types": [
+				"Normal",
+				"Flying"
+			],
+			"attack": 95,
+			"defense": 80,
+			"stamina": 128,
+			"height": 0.3,
+			"weight": 1.7,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Peck",
+				"Quick Attack"
+			],
+			"charged_moves": [
+				"Aerial Ace",
+				"Heat Wave",
+				"Swift"
+			],
+			"evolutions": {
+				"662": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 4,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"662": {
 			"name": "Fletchinder",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 662,
+			"types": [
+				"Fire",
+				"Flying"
+			],
+			"attack": 145,
+			"defense": 110,
+			"stamina": 158,
+			"height": 0.7,
+			"weight": 16,
+			"flee_rate": 0.1,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Peck",
+				"Ember",
+				"Steel Wing"
+			],
+			"charged_moves": [
+				"Aerial Ace",
+				"Heat Wave",
+				"Flame Charge"
+			],
+			"evolutions": {
+				"663": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 4,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"663": {
 			"name": "Talonflame",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 663,
+			"types": [
+				"Fire",
+				"Flying"
+			],
+			"attack": 176,
+			"defense": 155,
+			"stamina": 186,
+			"height": 1.2,
+			"weight": 24.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.05,
+			"quick_moves": [
+				"Peck",
+				"Fire Spin",
+				"Steel Wing"
+			],
+			"charged_moves": [
+				"Brave Bird",
+				"Fire Blast",
+				"Flame Charge",
+				"Hurricane"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 5,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"664": {
 			"name": "Scatterbug",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 664,
+			"types": [
+				"Bug"
+			],
+			"attack": 63,
+			"defense": 63,
+			"stamina": 116,
+			"height": 0.3,
+			"weight": 2.5,
+			"flee_rate": 0.2,
+			"capture_rate": 0.5,
+			"quick_moves": [
+				"Bug Bite",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Struggle"
+			],
+			"evolutions": {
+				"665": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"665": {
 			"name": "Spewpa",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 665,
+			"types": [
+				"Bug"
+			],
+			"attack": 48,
+			"defense": 89,
+			"stamina": 128,
+			"height": 0.3,
+			"weight": 8.4,
+			"flee_rate": 0.09,
+			"capture_rate": 0.25,
+			"quick_moves": [
+				"Bug Bite",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Struggle"
+			],
+			"evolutions": {
+				"666": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"666": {
 			"name": "Vivillon",
@@ -34687,26 +35131,126 @@
 					"name": "Tundra",
 					"proto": "VIVILLON_TUNDRA"
 				}
-			}
+			},
+			"pokedex_id": 666,
+			"types": [
+				"Bug",
+				"Flying"
+			],
+			"attack": 176,
+			"defense": 103,
+			"stamina": 190,
+			"height": 1.2,
+			"weight": 17,
+			"flee_rate": 0.06,
+			"capture_rate": 0.125,
+			"quick_moves": [
+				"Bug Bite",
+				"Gust",
+				"Struggle Bug"
+			],
+			"charged_moves": [
+				"Bug Buzz",
+				"Aerial Ace",
+				"Energy Ball",
+				"Hurricane"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 1,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"667": {
 			"name": "Litleo",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 667,
+			"types": [
+				"Fire",
+				"Normal"
+			],
+			"attack": 139,
+			"defense": 112,
+			"stamina": 158,
+			"height": 0.6,
+			"weight": 13.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.3,
+			"quick_moves": [
+				"Fire Fang",
+				"Tackle",
+				"Ember"
+			],
+			"charged_moves": [
+				"Flame Charge",
+				"Flamethrower",
+				"Crunch"
+			],
+			"evolutions": {
+				"668": {
+					"form": 2588,
+					"gender_requirement": 2
+				}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 1,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"668": {
 			"name": "Pyroar",
 			"forms": {
 				"2587": {
 					"name": "Normal",
-					"proto": "PYROAR_NORMAL"
+					"proto": "PYROAR_NORMAL",
+					"quick_moves": [
+						"Fire Fang",
+						"Take Down"
+					]
 				},
 				"2588": {
 					"name": "Female",
-					"proto": "PYROAR_FEMALE"
+					"proto": "PYROAR_FEMALE",
+					"quick_moves": [
+						"Fire Fang",
+						"Take Down"
+					]
 				}
-			}
+			},
+			"default_form_id": 2587,
+			"pokedex_id": 668,
+			"types": [
+				"Fire",
+				"Normal"
+			],
+			"attack": 221,
+			"defense": 149,
+			"stamina": 200,
+			"height": 1.5,
+			"weight": 81.5,
+			"flee_rate": 0.07,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Fire Fang",
+				"Take Down",
+				"Ember"
+			],
+			"charged_moves": [
+				"Flame Charge",
+				"Solar Beam",
+				"Dark Pulse",
+				"Overheat"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 10000,
+			"third_move_candy": 25,
+			"gym_defender_eligible": true
 		},
 		"669": {
 			"name": "Flabebe",
@@ -34731,7 +35275,36 @@
 					"name": "White",
 					"proto": "FLABEBE_WHITE"
 				}
-			}
+			},
+			"pokedex_id": 669,
+			"types": [
+				"Fairy"
+			],
+			"attack": 108,
+			"defense": 120,
+			"stamina": 127,
+			"height": 0.1,
+			"weight": 0.1,
+			"flee_rate": 0.15,
+			"capture_rate": 0.5,
+			"quick_moves": [
+				"Vine Whip",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Dazzling Gleam",
+				"Petal Blizzard",
+				"Psychic"
+			],
+			"evolutions": {
+				"670": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"670": {
 			"name": "Floette",
@@ -34756,7 +35329,36 @@
 					"name": "White",
 					"proto": "FLOETTE_WHITE"
 				}
-			}
+			},
+			"pokedex_id": 670,
+			"types": [
+				"Fairy"
+			],
+			"attack": 136,
+			"defense": 151,
+			"stamina": 144,
+			"height": 0.2,
+			"weight": 0.9,
+			"flee_rate": 0.07,
+			"capture_rate": 0.25,
+			"quick_moves": [
+				"Vine Whip",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Dazzling Gleam",
+				"Petal Blizzard",
+				"Psychic"
+			],
+			"evolutions": {
+				"671": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"671": {
 			"name": "Florges",
@@ -34781,31 +35383,166 @@
 					"name": "White",
 					"proto": "FLORGES_WHITE"
 				}
-			}
+			},
+			"pokedex_id": 671,
+			"types": [
+				"Fairy"
+			],
+			"attack": 212,
+			"defense": 244,
+			"stamina": 186,
+			"height": 1.1,
+			"weight": 10,
+			"flee_rate": 0.05,
+			"capture_rate": 0.125,
+			"quick_moves": [
+				"Vine Whip",
+				"Tackle",
+				"Razor Leaf"
+			],
+			"charged_moves": [
+				"Moonblast",
+				"Petal Blizzard",
+				"Psychic",
+				"Disarming Voice"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"672": {
 			"name": "Skiddo",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 672,
+			"types": [
+				"Grass"
+			],
+			"attack": 123,
+			"defense": 102,
+			"stamina": 165,
+			"height": 0.9,
+			"weight": 31,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Zen Headbutt",
+				"Rock Smash"
+			],
+			"charged_moves": [
+				"Brick Break",
+				"Rock Slide",
+				"Seed Bomb"
+			],
+			"evolutions": {
+				"673": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"673": {
 			"name": "Gogoat",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 673,
+			"types": [
+				"Grass"
+			],
+			"attack": 196,
+			"defense": 146,
+			"stamina": 265,
+			"height": 1.7,
+			"weight": 91,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Zen Headbutt",
+				"Rock Smash",
+				"Vine Whip"
+			],
+			"charged_moves": [
+				"Brick Break",
+				"Rock Slide",
+				"Leaf Blade",
+				"Seed Bomb"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"674": {
 			"name": "Pancham",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 674,
+			"types": [
+				"Fighting"
+			],
+			"attack": 145,
+			"defense": 107,
+			"stamina": 167,
+			"height": 0.6,
+			"weight": 8,
+			"flee_rate": 0.09,
+			"capture_rate": 0.3,
+			"quick_moves": [
+				"Low Kick",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Low Sweep",
+				"Crunch",
+				"Body Slam"
+			],
+			"evolutions": {
+				"675": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"675": {
 			"name": "Pangoro",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 675,
+			"types": [
+				"Fighting",
+				"Dark"
+			],
+			"attack": 226,
+			"defense": 146,
+			"stamina": 216,
+			"height": 2.1,
+			"weight": 136,
+			"flee_rate": 0.07,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Low Kick",
+				"Snarl",
+				"Bullet Punch"
+			],
+			"charged_moves": [
+				"Close Combat",
+				"Night Slash",
+				"Iron Head",
+				"Rock Slide"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"676": {
 			"name": "Furfrou",
@@ -34850,13 +35587,71 @@
 					"name": "Pharaoh",
 					"proto": "FURFROU_PHARAOH"
 				}
-			}
+			},
+			"pokedex_id": 676,
+			"types": [
+				"Normal"
+			],
+			"attack": 164,
+			"defense": 167,
+			"stamina": 181,
+			"height": 1.2,
+			"weight": 28,
+			"flee_rate": 0.07,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Take Down",
+				"Bite",
+				"Sucker Punch"
+			],
+			"charged_moves": [
+				"Surf",
+				"Dark Pulse",
+				"Grass Knot"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"677": {
 			"name": "Espurr",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 677,
+			"types": [
+				"Psychic"
+			],
+			"attack": 120,
+			"defense": 114,
+			"stamina": 158,
+			"height": 0.3,
+			"weight": 3.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.4,
+			"quick_moves": [
+				"Confusion",
+				"Scratch"
+			],
+			"charged_moves": [
+				"Psyshock",
+				"Energy Ball",
+				"Psychic"
+			],
+			"evolutions": {
+				"678": {
+					"form": 2590,
+					"gender_requirement": 2
+				}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 1,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"678": {
 			"name": "Meowstic",
@@ -34867,21 +35662,108 @@
 				},
 				"2590": {
 					"name": "Female",
-					"proto": "MEOWSTIC_FEMALE"
+					"proto": "MEOWSTIC_FEMALE",
+					"quick_moves": [
+						"Confusion",
+						"Charm"
+					],
+					"charged_moves": [
+						"Psychic",
+						"Energy Ball",
+						"Shadow Ball"
+					]
 				}
-			}
+			},
+			"default_form_id": 2589,
+			"pokedex_id": 678,
+			"types": [
+				"Psychic"
+			],
+			"attack": 166,
+			"defense": 167,
+			"stamina": 179,
+			"height": 0.6,
+			"weight": 8.5,
+			"flee_rate": 0.07,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Confusion",
+				"Sucker Punch"
+			],
+			"charged_moves": [
+				"Psychic",
+				"Energy Ball",
+				"Thunderbolt"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 2,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"679": {
 			"name": "Honedge",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 679,
+			"types": [
+				"Steel",
+				"Ghost"
+			],
+			"height": 0.8,
+			"weight": 2,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Tackle",
+				"Fury Cutter"
+			],
+			"charged_moves": [
+				"Night Slash",
+				"Iron Head",
+				"Gyro Ball"
+			],
+			"evolutions": {
+				"680": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"680": {
 			"name": "Doublade",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 680,
+			"types": [
+				"Steel",
+				"Ghost"
+			],
+			"height": 0.8,
+			"weight": 4.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Psycho Cut",
+				"Fury Cutter"
+			],
+			"charged_moves": [
+				"Night Slash",
+				"Iron Head",
+				"Gyro Ball"
+			],
+			"evolutions": {
+				"681": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"681": {
 			"name": "Aegislash",
@@ -34894,175 +35776,947 @@
 					"name": "Blade",
 					"proto": "AEGISLASH_BLADE"
 				}
-			}
+			},
+			"pokedex_id": 681,
+			"types": [
+				"Steel",
+				"Ghost"
+			],
+			"height": 1.7,
+			"weight": 53,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Psycho Cut",
+				"Fury Cutter"
+			],
+			"charged_moves": [
+				"Night Slash",
+				"Flash Cannon",
+				"Gyro Ball",
+				"Shadow Ball"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"682": {
 			"name": "Spritzee",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 682,
+			"types": [
+				"Fairy"
+			],
+			"attack": 110,
+			"defense": 113,
+			"stamina": 186,
+			"height": 0.2,
+			"weight": 0.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Charm",
+				"Charge Beam"
+			],
+			"charged_moves": [
+				"Draining Kiss",
+				"Thunderbolt"
+			],
+			"evolutions": {
+				"683": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"683": {
 			"name": "Aromatisse",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 683,
+			"types": [
+				"Fairy"
+			],
+			"attack": 173,
+			"defense": 150,
+			"stamina": 226,
+			"height": 0.8,
+			"weight": 15.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Charm",
+				"Charge Beam"
+			],
+			"charged_moves": [
+				"Moonblast",
+				"Thunderbolt",
+				"Psychic",
+				"Draining Kiss"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"684": {
 			"name": "Swirlix",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 684,
+			"types": [
+				"Fairy"
+			],
+			"attack": 109,
+			"defense": 119,
+			"stamina": 158,
+			"height": 0.4,
+			"weight": 2.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Tackle"
+			],
+			"charged_moves": [
+				"Draining Kiss",
+				"Energy Ball"
+			],
+			"evolutions": {
+				"685": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"685": {
 			"name": "Slurpuff",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 685,
+			"types": [
+				"Fairy"
+			],
+			"attack": 168,
+			"defense": 163,
+			"stamina": 193,
+			"height": 0.8,
+			"weight": 5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Tackle",
+				"Charm"
+			],
+			"charged_moves": [
+				"Play Rough",
+				"Energy Ball",
+				"Flamethrower",
+				"Draining Kiss"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"686": {
 			"name": "Inkay",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 686,
+			"types": [
+				"Dark",
+				"Psychic"
+			],
+			"attack": 98,
+			"defense": 95,
+			"stamina": 142,
+			"height": 0.4,
+			"weight": 3.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Peck",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Psybeam",
+				"Night Slash"
+			],
+			"evolutions": {
+				"687": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"687": {
 			"name": "Malamar",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 687,
+			"types": [
+				"Dark",
+				"Psychic"
+			],
+			"attack": 177,
+			"defense": 165,
+			"stamina": 200,
+			"height": 1.5,
+			"weight": 47,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Peck",
+				"Psycho Cut"
+			],
+			"charged_moves": [
+				"Psybeam",
+				"Foul Play",
+				"Super Power",
+				"Hyper Beam"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"688": {
 			"name": "Binacle",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 688,
+			"types": [
+				"Rock",
+				"Water"
+			],
+			"attack": 96,
+			"defense": 120,
+			"stamina": 123,
+			"height": 0.5,
+			"weight": 31,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Scratch",
+				"Mud Slap"
+			],
+			"charged_moves": [
+				"Ancient Power",
+				"Cross Chop",
+				"Dig"
+			],
+			"evolutions": {
+				"689": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"689": {
 			"name": "Barbaracle",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 689,
+			"types": [
+				"Rock",
+				"Water"
+			],
+			"attack": 194,
+			"defense": 205,
+			"stamina": 176,
+			"height": 1.3,
+			"weight": 96,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Water Gun",
+				"Mud Slap",
+				"Fury Cutter"
+			],
+			"charged_moves": [
+				"Skull Bash",
+				"Cross Chop",
+				"Stone Edge",
+				"Grass Knot"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"690": {
 			"name": "Skrelp",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 690,
+			"types": [
+				"Poison",
+				"Water"
+			],
+			"attack": 109,
+			"defense": 109,
+			"stamina": 137,
+			"height": 0.5,
+			"weight": 7.3,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Water Gun",
+				"Acid"
+			],
+			"charged_moves": [
+				"Aqua Tail",
+				"Water Pulse",
+				"Twister",
+				"Sludge Bomb"
+			],
+			"evolutions": {
+				"691": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"691": {
 			"name": "Dragalge",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 691,
+			"types": [
+				"Poison",
+				"Dragon"
+			],
+			"attack": 177,
+			"defense": 207,
+			"stamina": 163,
+			"height": 1.8,
+			"weight": 81.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Water Gun",
+				"Acid",
+				"Dragon Tail"
+			],
+			"charged_moves": [
+				"Hydro Pump",
+				"Aqua Tail",
+				"Outrage",
+				"Gunk Shot"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"692": {
 			"name": "Clauncher",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 692,
+			"types": [
+				"Water"
+			],
+			"attack": 108,
+			"defense": 117,
+			"stamina": 137,
+			"height": 0.5,
+			"weight": 8.3,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Water Gun",
+				"Smack Down"
+			],
+			"charged_moves": [
+				"Water Pulse",
+				"Crabhammer",
+				"Aqua Jet"
+			],
+			"evolutions": {
+				"693": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"693": {
 			"name": "Clawitzer",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 693,
+			"types": [
+				"Water"
+			],
+			"attack": 221,
+			"defense": 171,
+			"stamina": 174,
+			"height": 1.3,
+			"weight": 35.3,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Water Gun",
+				"Smack Down"
+			],
+			"charged_moves": [
+				"Water Pulse",
+				"Dark Pulse",
+				"Ice Beam",
+				"Crabhammer"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"694": {
 			"name": "Helioptile",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 694,
+			"types": [
+				"Electric",
+				"Normal"
+			],
+			"attack": 115,
+			"defense": 78,
+			"stamina": 127,
+			"height": 0.5,
+			"weight": 6,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Quick Attack",
+				"Thunder Shock"
+			],
+			"charged_moves": [
+				"Parabolic Charge",
+				"Bulldoze",
+				"Discharge"
+			],
+			"evolutions": {
+				"695": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"695": {
 			"name": "Heliolisk",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 695,
+			"types": [
+				"Electric",
+				"Normal"
+			],
+			"attack": 219,
+			"defense": 168,
+			"stamina": 158,
+			"height": 1,
+			"weight": 21,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Quick Attack",
+				"Volt Switch",
+				"Mud Slap"
+			],
+			"charged_moves": [
+				"Parabolic Charge",
+				"Bulldoze",
+				"Thunderbolt",
+				"Grass Knot"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"696": {
 			"name": "Tyrunt",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 696,
+			"types": [
+				"Rock",
+				"Dragon"
+			],
+			"attack": 158,
+			"defense": 123,
+			"stamina": 151,
+			"height": 0.8,
+			"weight": 26,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Dragon Tail",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Stomp",
+				"Ancient Power",
+				"Dragon Claw"
+			],
+			"evolutions": {
+				"697": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"697": {
 			"name": "Tyrantrum",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 697,
+			"types": [
+				"Rock",
+				"Dragon"
+			],
+			"attack": 227,
+			"defense": 191,
+			"stamina": 193,
+			"height": 2.5,
+			"weight": 270,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Dragon Tail",
+				"Charm",
+				"Rock Throw"
+			],
+			"charged_moves": [
+				"Crunch",
+				"Stone Edge",
+				"Outrage",
+				"Earthquake"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"698": {
 			"name": "Amaura",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 698,
+			"types": [
+				"Rock",
+				"Ice"
+			],
+			"attack": 124,
+			"defense": 109,
+			"stamina": 184,
+			"height": 1.3,
+			"weight": 25.2,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Powder Snow",
+				"Frost Breath",
+				"Mirror Coat"
+			],
+			"charged_moves": [
+				"Weather Ball",
+				"Ancient Power",
+				"Aurora Beam",
+				"Thunderbolt"
+			],
+			"evolutions": {
+				"699": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"699": {
 			"name": "Aurorus",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 699,
+			"types": [
+				"Rock",
+				"Ice"
+			],
+			"attack": 186,
+			"defense": 163,
+			"stamina": 265,
+			"height": 2.7,
+			"weight": 225,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Powder Snow",
+				"Frost Breath",
+				"Mirror Coat",
+				"Rock Throw"
+			],
+			"charged_moves": [
+				"Weather Ball",
+				"Ancient Power",
+				"Blizzard",
+				"Thunderbolt",
+				"Hyper Beam"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"700": {
 			"name": "Sylveon",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 700,
+			"types": [
+				"Fairy"
+			],
+			"attack": 203,
+			"defense": 205,
+			"stamina": 216,
+			"height": 1,
+			"weight": 23.5,
+			"flee_rate": 0.06,
+			"capture_rate": 0.125,
+			"quick_moves": [
+				"Charm",
+				"Quick Attack"
+			],
+			"charged_moves": [
+				"Moonblast",
+				"Dazzling Gleam",
+				"Draining Kiss"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"701": {
 			"name": "Hawlucha",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 701,
+			"types": [
+				"Fighting",
+				"Flying"
+			],
+			"attack": 195,
+			"defense": 153,
+			"stamina": 186,
+			"height": 0.8,
+			"weight": 21.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Wing Attack",
+				"Low Kick",
+				"Poison Jab"
+			],
+			"charged_moves": [
+				"Flying Press",
+				"Sky Attack",
+				"X Scissor",
+				"Power Up"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"702": {
 			"name": "Dedenne",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 702,
+			"types": [
+				"Electric",
+				"Fairy"
+			],
+			"attack": 164,
+			"defense": 134,
+			"stamina": 167,
+			"height": 0.2,
+			"weight": 2.2,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Tackle",
+				"Thunder Shock"
+			],
+			"charged_moves": [
+				"Parabolic Charge",
+				"Discharge",
+				"Play Rough"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"703": {
 			"name": "Carbink",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 703,
+			"types": [
+				"Rock",
+				"Fairy"
+			],
+			"attack": 95,
+			"defense": 285,
+			"stamina": 137,
+			"height": 0.3,
+			"weight": 5.7,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Tackle",
+				"Rock Throw"
+			],
+			"charged_moves": [
+				"Rock Slide",
+				"Moonblast",
+				"Power Gem"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"704": {
 			"name": "Goomy",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 704,
+			"types": [
+				"Dragon"
+			],
+			"attack": 101,
+			"defense": 112,
+			"stamina": 128,
+			"height": 0.3,
+			"weight": 2.8,
+			"flee_rate": 0.09,
+			"capture_rate": 0.4,
+			"quick_moves": [
+				"Water Gun",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Dragon Pulse",
+				"Sludge Wave",
+				"Muddy Water"
+			],
+			"evolutions": {
+				"705": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"705": {
 			"name": "Sliggoo",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 705,
+			"types": [
+				"Dragon"
+			],
+			"attack": 159,
+			"defense": 176,
+			"stamina": 169,
+			"height": 0.8,
+			"weight": 17.5,
+			"flee_rate": 0.07,
+			"capture_rate": 0.1,
+			"quick_moves": [
+				"Water Gun",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Dragon Pulse",
+				"Sludge Wave",
+				"Muddy Water",
+				"Water Pulse"
+			],
+			"evolutions": {
+				"706": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"706": {
 			"name": "Goodra",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 706,
+			"types": [
+				"Dragon"
+			],
+			"attack": 220,
+			"defense": 242,
+			"stamina": 207,
+			"height": 2,
+			"weight": 150.5,
+			"flee_rate": 0.05,
+			"capture_rate": 0.05,
+			"quick_moves": [
+				"Water Gun",
+				"Dragon Breath"
+			],
+			"charged_moves": [
+				"Draco Meteor",
+				"Sludge Wave",
+				"Muddy Water",
+				"Power Whip"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"707": {
 			"name": "Klefki",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 707,
+			"types": [
+				"Steel",
+				"Fairy"
+			],
+			"attack": 160,
+			"defense": 179,
+			"stamina": 149,
+			"height": 0.2,
+			"weight": 3,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Astonish",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Flash Cannon",
+				"Play Rough",
+				"Draining Kiss",
+				"Foul Play"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 4,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"708": {
 			"name": "Phantump",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 708,
+			"types": [
+				"Ghost",
+				"Grass"
+			],
+			"attack": 125,
+			"defense": 103,
+			"stamina": 125,
+			"height": 0.4,
+			"weight": 7,
+			"flee_rate": 0.1,
+			"capture_rate": 0.3,
+			"quick_moves": [
+				"Astonish",
+				"Tackle"
+			],
+			"charged_moves": [
+				"Seed Bomb",
+				"Shadow Ball",
+				"Foul Play"
+			],
+			"evolutions": {
+				"709": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"709": {
 			"name": "Trevenant",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 709,
+			"types": [
+				"Ghost",
+				"Grass"
+			],
+			"attack": 201,
+			"defense": 154,
+			"stamina": 198,
+			"height": 1.5,
+			"weight": 71,
+			"flee_rate": 0.05,
+			"capture_rate": 0.15,
+			"quick_moves": [
+				"Shadow Claw",
+				"Sucker Punch"
+			],
+			"charged_moves": [
+				"Seed Bomb",
+				"Shadow Ball",
+				"Foul Play"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"710": {
 			"name": "Pumpkaboo",
@@ -35083,7 +36737,32 @@
 					"name": "Super",
 					"proto": "PUMPKABOO_SUPER"
 				}
-			}
+			},
+			"pokedex_id": 710,
+			"types": [
+				"Ghost",
+				"Grass"
+			],
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Astonish",
+				"Razor Leaf"
+			],
+			"charged_moves": [
+				"Grass Knot",
+				"Shadow Sneak",
+				"Foul Play",
+				"Earthquake"
+			],
+			"evolutions": {
+				"711": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75
 		},
 		"711": {
 			"name": "Gourgeist",
@@ -35104,31 +36783,161 @@
 					"name": "Super",
 					"proto": "GOURGEIST_SUPER"
 				}
-			}
+			},
+			"pokedex_id": 711,
+			"types": [
+				"Ghost",
+				"Grass"
+			],
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Hex",
+				"Razor Leaf"
+			],
+			"charged_moves": [
+				"Seed Bomb",
+				"Shadow Ball",
+				"Foul Play",
+				"Fire Blast"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75
 		},
 		"712": {
 			"name": "Bergmite",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 712,
+			"types": [
+				"Ice"
+			],
+			"attack": 117,
+			"defense": 120,
+			"stamina": 146,
+			"height": 1,
+			"weight": 99.5,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Bite",
+				"Mirror Coat"
+			],
+			"charged_moves": [
+				"Crunch",
+				"Icy Wind"
+			],
+			"evolutions": {
+				"713": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"713": {
 			"name": "Avalugg",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 713,
+			"types": [
+				"Ice"
+			],
+			"attack": 196,
+			"defense": 240,
+			"stamina": 216,
+			"height": 2,
+			"weight": 505,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Bite",
+				"Ice Fang",
+				"Mirror Coat"
+			],
+			"charged_moves": [
+				"Crunch",
+				"Avalanche",
+				"Earthquake",
+				"Body Slam"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_distance": 3,
+			"third_move_stardust": 50000,
+			"third_move_candy": 50,
+			"gym_defender_eligible": true
 		},
 		"714": {
 			"name": "Noibat",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 714,
+			"types": [
+				"Flying",
+				"Dragon"
+			],
+			"attack": 83,
+			"defense": 73,
+			"stamina": 120,
+			"height": 0.5,
+			"weight": 8,
+			"flee_rate": 0.1,
+			"capture_rate": 0.3,
+			"quick_moves": [
+				"Wing Attack",
+				"Bite"
+			],
+			"charged_moves": [
+				"Dragon Pulse",
+				"Air Cutter",
+				"Heat Wave"
+			],
+			"evolutions": {
+				"715": {}
+			},
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 4,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"715": {
 			"name": "Noivern",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 715,
+			"types": [
+				"Flying",
+				"Dragon"
+			],
+			"attack": 205,
+			"defense": 175,
+			"stamina": 198,
+			"height": 1.5,
+			"weight": 85,
+			"flee_rate": 0.05,
+			"capture_rate": 0.15,
+			"quick_moves": [
+				"Air Slash",
+				"Bite"
+			],
+			"charged_moves": [
+				"Draco Meteor",
+				"Hurricane",
+				"Heat Wave",
+				"Psychic"
+			],
+			"legendary": false,
+			"mythic": false,
+			"buddy_group_number": 6,
+			"buddy_distance": 5,
+			"third_move_stardust": 75000,
+			"third_move_candy": 75,
+			"gym_defender_eligible": true
 		},
 		"716": {
 			"name": "Xerneas",
@@ -35141,13 +36950,67 @@
 					"name": "Active",
 					"proto": "XERNEAS_ACTIVE"
 				}
-			}
+			},
+			"pokedex_id": 716,
+			"types": [
+				"Fairy"
+			],
+			"attack": 275,
+			"defense": 203,
+			"stamina": 270,
+			"height": 3,
+			"weight": 215,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Tackle",
+				"Zen Headbutt"
+			],
+			"charged_moves": [
+				"Moonblast",
+				"Megahorn",
+				"Close Combat",
+				"Giga Impact",
+				"Thunder"
+			],
+			"legendary": true,
+			"mythic": false,
+			"buddy_distance": 20,
+			"third_move_stardust": 100000,
+			"third_move_candy": 100
 		},
 		"717": {
 			"name": "Yveltal",
-			"forms": {
-				"0": {}
-			}
+			"forms": {},
+			"pokedex_id": 717,
+			"types": [
+				"Dark",
+				"Flying"
+			],
+			"attack": 275,
+			"defense": 203,
+			"stamina": 270,
+			"height": 5.8,
+			"weight": 203,
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Sucker Punch",
+				"Snarl",
+				"Gust"
+			],
+			"charged_moves": [
+				"Dark Pulse",
+				"Hurricane",
+				"Focus Blast",
+				"Hyper Beam",
+				"Psychic"
+			],
+			"legendary": true,
+			"mythic": false,
+			"buddy_distance": 20,
+			"third_move_stardust": 100000,
+			"third_move_candy": 100
 		},
 		"718": {
 			"name": "Zygarde",
@@ -35164,13 +37027,35 @@
 					"name": "Complete",
 					"proto": "ZYGARDE_COMPLETE"
 				}
-			}
+			},
+			"pokedex_id": 718,
+			"types": [
+				"Dragon",
+				"Ground"
+			],
+			"flee_rate": 0.1,
+			"capture_rate": 0.2,
+			"quick_moves": [
+				"Dragon Tail",
+				"Bite",
+				"Zen Headbutt"
+			],
+			"charged_moves": [
+				"Outrage",
+				"Earthquake",
+				"Crunch",
+				"Hyper Beam",
+				"Bulldoze"
+			],
+			"legendary": true,
+			"mythic": false,
+			"buddy_distance": 20,
+			"third_move_stardust": 100000,
+			"third_move_candy": 100
 		},
 		"719": {
 			"name": "Diancie",
-			"forms": {
-				"0": {}
-			},
+			"forms": {},
 			"temp_evolutions": {
 				"1": {
 					"attack": 342,
@@ -35199,9 +37084,7 @@
 		},
 		"721": {
 			"name": "Volcanion",
-			"forms": {
-				"0": {}
-			}
+			"forms": {}
 		},
 		"808": {
 			"name": "Meltan",
