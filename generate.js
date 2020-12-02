@@ -184,16 +184,16 @@ function Compile_Evolutions(target, object, pokemon = target) {
         // ignored: handled below
       } else if (branch.evolution) {
         if (!target.evolutions) {
-          target.evolutions = {};
+          target.evolutions = [];
         }
-        const evolution = {};
+        const evolution = { pokemon: Pokemon_List[Lookup_Pokemon(branch.evolution)] };
         if (branch.form) {
           evolution.form = Form_List[branch.form];
         }
         if (branch.genderRequirement) {
           evolution.gender_requirement = Gender_List[branch.genderRequirement];
         }
-        target.evolutions[Pokemon_List[Lookup_Pokemon(branch.evolution)]] = evolution;
+        target.evolutions.push(evolution);
       } else {
         console.warn('Unrecognized evolutionBranch', branch);
       }
