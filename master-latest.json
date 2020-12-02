@@ -34563,7 +34563,7 @@
 			"capture_rate": 0.1,
 			"quick_moves": [
 				"Low Kick",
-				"Razor Leaf"
+				"Vine Whip"
 			],
 			"charged_moves": [
 				"Gyro Ball",
@@ -34600,8 +34600,8 @@
 			"capture_rate": 0.05,
 			"quick_moves": [
 				"Low Kick",
-				"Razor Leaf",
-				"Vine Whip"
+				"Vine Whip",
+				"Smack Down"
 			],
 			"charged_moves": [
 				"Gyro Ball",
@@ -34782,7 +34782,7 @@
 				"Bubble"
 			],
 			"charged_moves": [
-				"Night Slash",
+				"Water Pulse",
 				"Aerial Ace",
 				"Surf"
 			],
@@ -35766,7 +35766,6 @@
 				"Fury Cutter"
 			],
 			"charged_moves": [
-				"Night Slash",
 				"Iron Head",
 				"Gyro Ball"
 			],
@@ -35799,7 +35798,6 @@
 				"Fury Cutter"
 			],
 			"charged_moves": [
-				"Night Slash",
 				"Iron Head",
 				"Gyro Ball"
 			],
@@ -35839,7 +35837,6 @@
 				"Fury Cutter"
 			],
 			"charged_moves": [
-				"Night Slash",
 				"Flash Cannon",
 				"Gyro Ball",
 				"Shadow Ball"
@@ -36425,8 +36422,7 @@
 			"capture_rate": 0.2,
 			"quick_moves": [
 				"Powder Snow",
-				"Frost Breath",
-				"Mirror Coat"
+				"Frost Breath"
 			],
 			"charged_moves": [
 				"Weather Ball",
@@ -36464,7 +36460,6 @@
 			"quick_moves": [
 				"Powder Snow",
 				"Frost Breath",
-				"Mirror Coat",
 				"Rock Throw"
 			],
 			"charged_moves": [
@@ -36929,11 +36924,12 @@
 			"capture_rate": 0.2,
 			"quick_moves": [
 				"Bite",
-				"Mirror Coat"
+				"Tackle"
 			],
 			"charged_moves": [
 				"Crunch",
-				"Icy Wind"
+				"Icy Wind",
+				"Mirror Coat"
 			],
 			"evolutions": {
 				"713": {}
@@ -36963,14 +36959,14 @@
 			"capture_rate": 0.2,
 			"quick_moves": [
 				"Bite",
-				"Ice Fang",
-				"Mirror Coat"
+				"Ice Fang"
 			],
 			"charged_moves": [
 				"Crunch",
 				"Avalanche",
 				"Earthquake",
-				"Body Slam"
+				"Body Slam",
+				"Mirror Coat"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -40592,6 +40588,13 @@
 			"type": "Candy",
 			"category": "Candy",
 			"min_trainer_level": 5
+		},
+		"1302": {
+			"name": "Xl Rare Candy",
+			"proto": "ITEM_XL_RARE_CANDY",
+			"type": "Candy",
+			"category": "Candy",
+			"min_trainer_level": 40
 		},
 		"1401": {
 			"name": "Free Raid Ticket",
