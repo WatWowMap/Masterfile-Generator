@@ -264,6 +264,9 @@ function Compile_Data(GameMaster, MasterArray) {
                 Form.attack = object.data.pokemonSettings.stats.baseAttack;
                 Form.defense = object.data.pokemonSettings.stats.baseDefense;
                 Form.stamina = object.data.pokemonSettings.stats.baseStamina;
+                if (['_NORMAL', '_SHADOW', '_PURIFIED'].some(suffix => object.templateId.endsWith(suffix))) {
+                  console.warn('eMbArRaSsInG', object.templateId);
+                }
             }
             switch (true) {
               case object.data.pokemonSettings.pokedexHeightM != Pokemon.height:
