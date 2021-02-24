@@ -1,6 +1,7 @@
 const Fetch = require("node-fetch");
 const fs = require("fs");
 const Fs = require("fs-extra");
+const POGOProtos = require("pogo-protos");
 
 var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions;
 
@@ -37,13 +38,15 @@ function ensure_pokemon(pokemon_id) {
     GameMaster.pokemon[pokemon_id] = {};
   }
   if (!GameMaster.pokemon[pokemon_id].name) {
-    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Pokemon_List[pokemon_id].substr(14));
+    GameMaster.pokemon[pokemon_id].name = pokemon_id === 29 ? "Nidoran♀" : pokemon_id === 32 ? "Nidoran♂" : capitalize(Pokemon_List[pokemon_id]);
   }
 }
 
 function ensure_form_name(form, pokemon_id, form_name) {
   if (!form.name) {
-    form.name = capitalize(form_name.substr(Pokemon_List[pokemon_id].length - 13));
+    form.name = capitalize(form_name.substr(
+        pokemon_id === Pokemon_List.NIDORAN_FEMALE || pokemon_id === Pokemon_List.NIDORAN_MALE ? 8
+            : Pokemon_List[pokemon_id].length + 1));
   }
 }
 
@@ -70,7 +73,7 @@ function Generate_Moves(GameMaster) {
     for (let n = 0, len = MoveArray.length; n < len; n++) {
       let id = Move_List[MoveArray[n]];
       GameMaster.moves[id] = {};
-      GameMaster.moves[id].name = capitalize(MoveArray[n].substr(11).replace("_FAST", ""));
+      GameMaster.moves[id].name = capitalize(MoveArray[n].replace("_FAST", ""));
     }
     return resolve(GameMaster);
   });
@@ -92,7 +95,7 @@ function Generate_Quest_Types(GameMaster) {
 function Lookup_Pokemon(name) {
   let pokemon_id = null;
   for (const key of Object.keys(Pokemon_List)) {
-    if (!key.startsWith('V') || !name.startsWith(key.substr('V9999_POKEMON_'.length) + '_') && name !== key.substr('V9999_POKEMON_'.length)) {
+    if (!name.startsWith(key + '_') && name !== key) {
       continue;
     }
     if (pokemon_id !== null) {
@@ -105,7 +108,7 @@ function Lookup_Pokemon(name) {
     }
     pokemon_id = key;
   }
-  if (pokemon_id === null) {
+  if (pokemon_id === null && name !== 'FORM_UNSET') {
     console.warn('Unknown form', name);
   }
   return pokemon_id;
@@ -140,7 +143,7 @@ function Generate_Forms(GameMaster, MasterArray) {
                 }
               }
             } else {
-              GameMaster.pokemon[pokemon_id].default_form_id = Form_List[Pokemon_List[pokemon_id].substr(14) + "_NORMAL"];
+              GameMaster.pokemon[pokemon_id].default_form_id = Form_List[Pokemon_List[pokemon_id] + "_NORMAL"];
             }
           }
         } catch (e) {
@@ -152,24 +155,31 @@ function Generate_Forms(GameMaster, MasterArray) {
 
     let FormArray = Object.keys(Form_List).map(i => i);
     for (let f = 0, flen = FormArray.length; f < flen; f++) {
+      let pokemon;
+      if (FormArray[f].startsWith('NIDORAN_')) {
+        pokemon = ['NIDORAN_FEMALE', 'NIDORAN_MALE'];
+      } else {
+        let pokemon_id = Lookup_Pokemon(FormArray[f]);
+        if (pokemon_id === null) {
+          continue;
+        }
+        pokemon = [pokemon_id];
+      }
+      for (let pokemon_id of pokemon) {
+        pokemon_id = Pokemon_List[pokemon_id];
+        let form_id = Form_List[FormArray[f]];
 
-      let pokemon_id = Lookup_Pokemon(FormArray[f]);
-      if (pokemon_id === null) {
-        continue;
-      }
-      pokemon_id = Pokemon_List[pokemon_id];
-      let form_id = Form_List[FormArray[f]];
-
-      ensure_pokemon(pokemon_id);
-      if (!GameMaster.pokemon[pokemon_id].forms) {
-        GameMaster.pokemon[pokemon_id].forms = {};
-      }
-      if (!GameMaster.pokemon[pokemon_id].forms[form_id]) {
-        GameMaster.pokemon[pokemon_id].forms[form_id] = {};
-      }
-      ensure_form_name(GameMaster.pokemon[pokemon_id].forms[form_id], pokemon_id, FormArray[f]);
-      if (!GameMaster.pokemon[pokemon_id].forms[form_id].proto) {
-        GameMaster.pokemon[pokemon_id].forms[form_id].proto = FormArray[f];
+        ensure_pokemon(pokemon_id);
+        if (!GameMaster.pokemon[pokemon_id].forms) {
+          GameMaster.pokemon[pokemon_id].forms = {};
+        }
+        if (!GameMaster.pokemon[pokemon_id].forms[form_id]) {
+          GameMaster.pokemon[pokemon_id].forms[form_id] = {};
+        }
+        ensure_form_name(GameMaster.pokemon[pokemon_id].forms[form_id], pokemon_id, FormArray[f]);
+        if (!GameMaster.pokemon[pokemon_id].forms[form_id].proto) {
+          GameMaster.pokemon[pokemon_id].forms[form_id].proto = FormArray[f];
+        }
       }
     }
 
@@ -347,7 +357,7 @@ function Compile_Data(GameMaster, MasterArray) {
             GameMaster.items[item_id].min_trainer_level = object.data.itemSettings.dropTrainerLevel;
           }
         } else if (object.data.combatMove) {
-          let move_id = Move_List[object.data.templateId.substr(7)];
+          let move_id = Move_List[object.data.templateId.substr(18)];
           if (!GameMaster.moves[move_id]) {
             GameMaster.moves[move_id] = {}
           }
@@ -391,7 +401,7 @@ function Add_Missing_Pokemon() {
     });
   }
   for (const [key, pokemon_id] of Object.entries(Pokemon_List)) {
-    if (!key.startsWith('V')) {
+    if (!pokemon_id) {  // please stop adding random Pokemon :angryeyes:
       continue;
     }
     ensure_pokemon(pokemon_id);
@@ -399,11 +409,6 @@ function Add_Missing_Pokemon() {
       GameMaster.pokemon[pokemon_id].forms = {0:{}};
     } else if (Object.keys(GameMaster.pokemon[pokemon_id].forms).length === 0) {
         GameMaster.pokemon[pokemon_id].forms[0] = {};
-    }
-    if (pokemon_id === 29) {
-      for (let i = 776; i < 779; i++) {
-        GameMaster.pokemon[pokemon_id].forms[i].proto = GameMaster.pokemon[32].forms[i].proto;
-      }
     }
     const guessedMega = megaStats[pokemon_id];
     if (guessedMega) {
@@ -449,14 +454,13 @@ function Add_Missing_Pokemon() {
 
 
 (async function () {
-  const rpc = await require('purified-protos')();
-  Move_List = rpc.HoloPokemonMove;
-  Form_List = rpc.PokemonDisplayProto.Form;
-  Pokemon_List = rpc.HoloPokemonId;
-  Quest_Types = rpc.QuestType;
-  Item_List = rpc.Item;
-  Gender_List = rpc.PokemonDisplayProto.Gender;
-  Temp_Evolutions = rpc.HoloTemporaryEvolutionId;
+  Move_List = POGOProtos.Rpc.HoloPokemonMove;
+  Form_List = POGOProtos.Rpc.PokemonDisplayProto.Form;
+  Pokemon_List = POGOProtos.Rpc.HoloPokemonId;
+  Quest_Types = POGOProtos.Rpc.QuestType;
+  Item_List = POGOProtos.Rpc.Item;
+  Gender_List = POGOProtos.Rpc.PokemonDisplayProto.Gender;
+  Temp_Evolutions = POGOProtos.Rpc.HoloTemporaryEvolutionId;
 
   GameMaster = {};
 

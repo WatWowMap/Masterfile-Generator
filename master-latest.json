@@ -11845,6 +11845,10 @@
 				"1240": {
 					"name": "Purified",
 					"proto": "SLOWKING_PURIFIED"
+				},
+				"2584": {
+					"name": "Galarian",
+					"proto": "SLOWKING_GALARIAN"
 				}
 			},
 			"default_form_id": 1238,
@@ -38577,6 +38581,23 @@
 			"third_move_candy": 50,
 			"gym_defender_eligible": true
 		},
+		"864": {
+			"name": "Cursola",
+			"forms": {
+				"2507": {
+					"name": "Normal",
+					"proto": "CURSOLA_NORMAL"
+				},
+				"2508": {
+					"name": "Shadow",
+					"proto": "CURSOLA_SHADOW"
+				},
+				"2509": {
+					"name": "Purified",
+					"proto": "CURSOLA_PURIFIED"
+				}
+			}
+		},
 		"865": {
 			"name": "Sirfetchd",
 			"forms": {
@@ -39061,7 +39082,7 @@
 	},
 	"moves": {
 		"0": {
-			"name": ""
+			"name": "Move Unset"
 		},
 		"1": {
 			"name": "Thunder Shock"
@@ -40619,6 +40640,9 @@
 		},
 		"347": {
 			"name": "Dark Void"
+		},
+		"348": {
+			"name": "Feather Dance"
 		}
 	},
 	"throw_types": {
