@@ -315,6 +315,12 @@ function Compile_Data(GameMaster, MasterArray) {
             }
           } else {
             Pokemon.pokedex_id = pokemon_id;
+            for (const [i, gen] of Object.entries(require('./data/generations.json'))) {
+              if (pokemon_id >= gen.start && pokemon_id <= gen.end) {
+                GameMaster.pokemon[pokemon_id].genId = i;
+                GameMaster.pokemon[pokemon_id].generation = gen.name;
+              }
+            }
             Pokemon.types = [];
             if (object.data.pokemonSettings.type) {
               Pokemon.types.push(capitalize(object.data.pokemonSettings.type.replace("POKEMON_TYPE_", "")));
