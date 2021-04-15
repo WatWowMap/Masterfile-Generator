@@ -3513,7 +3513,8 @@
 					"charged_moves": [
 						"Foul Play",
 						"Dark Pulse",
-						"Play Rough"
+						"Play Rough",
+						"Payback"
 					],
 					"types": [
 						"Dark"
@@ -3549,7 +3550,8 @@
 			"charged_moves": [
 				"Foul Play",
 				"Power Gem",
-				"Play Rough"
+				"Play Rough",
+				"Payback"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -11878,7 +11880,8 @@
 			"charged_moves": [
 				"Solar Beam",
 				"Petal Blizzard",
-				"Sludge Bomb"
+				"Sludge Bomb",
+				"Leaf Storm"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -15236,7 +15239,8 @@
 				"Hyper Beam",
 				"Psychic",
 				"Dazzling Gleam",
-				"Seed Bomb"
+				"Seed Bomb",
+				"Leaf Storm"
 			],
 			"legendary": false,
 			"mythic": true,
@@ -16452,7 +16456,8 @@
 				"Blizzard",
 				"Solar Beam",
 				"Ice Beam",
-				"Energy Ball"
+				"Energy Ball",
+				"Leaf Storm"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -19826,7 +19831,8 @@
 			"charged_moves": [
 				"Grass Knot",
 				"Brick Break",
-				"Seed Bomb"
+				"Seed Bomb",
+				"Payback"
 			],
 			"evolutions": [
 				{
@@ -19880,7 +19886,8 @@
 			"charged_moves": [
 				"Dark Pulse",
 				"Dynamic Punch",
-				"Grass Knot"
+				"Grass Knot",
+				"Payback"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -21398,7 +21405,8 @@
 			"charged_moves": [
 				"Dark Pulse",
 				"Thunder",
-				"Megahorn"
+				"Megahorn",
+				"Payback"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -24104,7 +24112,8 @@
 				"Solar Beam",
 				"Sludge Bomb",
 				"Dazzling Gleam",
-				"Grass Knot"
+				"Grass Knot",
+				"Leaf Storm"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -25259,10 +25268,7 @@
 			"forms": {
 				"1754": {
 					"name": "Normal",
-					"proto": "LOPUNNY_NORMAL",
-					"temp_evolutions": {
-						"1": {}
-					}
+					"proto": "LOPUNNY_NORMAL"
 				},
 				"1755": {
 					"name": "Shadow",
@@ -25270,10 +25276,7 @@
 				},
 				"1756": {
 					"name": "Purified",
-					"proto": "LOPUNNY_PURIFIED",
-					"temp_evolutions": {
-						"1": {}
-					}
+					"proto": "LOPUNNY_PURIFIED"
 				}
 			},
 			"default_form_id": 1754,
@@ -25299,25 +25302,26 @@
 				"Hyper Beam",
 				"Focus Blast"
 			],
+			"temp_evolutions": {
+				"1": {
+					"attack": 282,
+					"defense": 214,
+					"stamina": 163,
+					"height": 1.3,
+					"weight": 28.3,
+					"types": [
+						"Normal",
+						"Fighting"
+					]
+				}
+			},
 			"legendary": false,
 			"mythic": false,
 			"buddy_group_number": 3,
 			"buddy_distance": 3,
 			"third_move_stardust": 50000,
 			"third_move_candy": 50,
-			"gym_defender_eligible": true,
-			"temp_evolutions": {
-				"1": {
-					"attack": 282,
-					"defense": 214,
-					"stamina": 163,
-					"unreleased": true,
-					"types": [
-						"Normal",
-						"Fighting"
-					]
-				}
-			}
+			"gym_defender_eligible": true
 		},
 		"429": {
 			"name": "Mismagius",
@@ -25724,7 +25728,8 @@
 			"charged_moves": [
 				"Gyro Ball",
 				"Psyshock",
-				"Heavy Slam"
+				"Heavy Slam",
+				"Payback"
 			],
 			"evolutions": [
 				{
@@ -25779,7 +25784,8 @@
 				"Psychic",
 				"Heavy Slam",
 				"Bulldoze",
-				"Psyshock"
+				"Psyshock",
+				"Payback"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -29709,7 +29715,8 @@
 			"charged_moves": [
 				"Gunk Shot",
 				"Play Rough",
-				"Dark Pulse"
+				"Dark Pulse",
+				"Payback"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -31330,7 +31337,8 @@
 			"charged_moves": [
 				"Leaf Blade",
 				"X Scissor",
-				"Silver Wind"
+				"Silver Wind",
+				"Leaf Storm"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -36449,7 +36457,19 @@
 					"proto": "TORNADUS_THERIAN",
 					"attack": 238,
 					"defense": 189,
-					"stamina": 188
+					"stamina": 188,
+					"height": 1.4,
+					"weight": 63,
+					"quick_moves": [
+						"Astonish",
+						"Gust"
+					],
+					"charged_moves": [
+						"Heat Wave",
+						"Psychic",
+						"Focus Blast",
+						"Hurricane"
+					]
 				}
 			},
 			"default_form_id": 140,
@@ -36650,7 +36670,19 @@
 					"proto": "LANDORUS_THERIAN",
 					"attack": 289,
 					"defense": 179,
-					"stamina": 205
+					"stamina": 205,
+					"height": 1.3,
+					"weight": 68,
+					"quick_moves": [
+						"Mud Shot",
+						"Extrasensory"
+					],
+					"charged_moves": [
+						"Earthquake",
+						"Bulldoze",
+						"Stone Edge",
+						"Super Power"
+					]
 				}
 			},
 			"default_form_id": 144,
@@ -38716,6 +38748,7 @@
 			],
 			"legendary": false,
 			"mythic": false,
+			"buddy_group_number": 2,
 			"buddy_distance": 3,
 			"third_move_stardust": 50000,
 			"third_move_candy": 50,
@@ -38753,6 +38786,7 @@
 			],
 			"legendary": false,
 			"mythic": false,
+			"buddy_group_number": 3,
 			"buddy_distance": 3,
 			"third_move_stardust": 50000,
 			"third_move_candy": 50,
@@ -42075,7 +42109,10 @@
 			"power": 95
 		},
 		"343": {
-			"name": "Leaf Storm"
+			"name": "Leaf Storm",
+			"proto": "V0343_MOVE_LEAF_STORM",
+			"type": "Grass",
+			"power": 130
 		},
 		"344": {
 			"name": "Tri Attack",
@@ -42261,16 +42298,56 @@
 			"text": "Earn {0} Souvenirs from your Buddy"
 		},
 		"39": {
-			"prototext": "",
+			"prototext": "QUEST_USE_INCENSE",
 			"text": "Use Incense {0} times"
 		},
+		"40": {
+			"prototext": "QUEST_BUDDY_FIND_SOUVENIR",
+			"text": "QUEST_BUDDY_FIND_SOUVENIR"
+		},
+		"41": {
+			"prototext": "QUEST_COLLECT_AS_REWARDS",
+			"text": "QUEST_COLLECT_AS_REWARDS"
+		},
+		"42": {
+			"prototext": "QUEST_WALK",
+			"text": "QUEST_WALK"
+		},
 		"43": {
-			"prototext": "",
+			"prototext": "QUEST_MEGA_EVOLVE_POKEMON",
 			"text": "Mega-Evolve {0} Pokemon"
 		},
+		"44": {
+			"prototext": "QUEST_GET_STARDUST",
+			"text": "QUEST_GET_STARDUST"
+		},
+		"45": {
+			"prototext": "QUEST_MINI_COLLECTION",
+			"text": "QUEST_MINI_COLLECTION"
+		},
 		"46": {
-			"prototext": "",
+			"prototext": "QUEST_GEOTARGETED_AR_SCAN",
 			"text": "AR-Scan {0} pokéstop(s)"
+		},
+		"50": {
+			"prototext": "QUEST_BUDDY_EVOLUTION_WALK",
+			"text": "QUEST_BUDDY_EVOLUTION_WALK"
+		},
+		"51": {
+			"prototext": "QUEST_GBL_RANK",
+			"text": "QUEST_GBL_RANK"
+		},
+		"53": {
+			"prototext": "QUEST_CHARGE_ATTACK",
+			"text": "QUEST_CHARGE_ATTACK"
+		},
+		"54": {
+			"prototext": "QUEST_CHANGE_POKEMON_FORM",
+			"text": "QUEST_CHANGE_POKEMON_FORM"
+		},
+		"55": {
+			"prototext": "QUEST_BATTLE_EVENT_NPC",
+			"text": "QUEST_BATTLE_EVENT_NPC"
 		}
 	},
 	"quest_conditions": {
@@ -42580,8 +42657,7 @@
 			"encounters": {
 				"first": [
 					"107_00",
-					"066_00",
-					"106_00"
+					"066_00"
 				],
 				"second": [
 					"067_00"
@@ -42657,19 +42733,14 @@
 			"second_reward": "true",
 			"encounters": {
 				"first": [
-					"345_00",
-					"187_00",
-					"043_00"
+					"102_00"
 				],
 				"second": [
-					"044_00",
-					"002_00",
-					"070_00"
+					"102_00",
+					"103_00"
 				],
 				"third": [
-					"275_00",
-					"071_00",
-					"045_00"
+					"103_00"
 				]
 			}
 		},
@@ -42708,8 +42779,8 @@
 				],
 				"second": [
 					"091_00",
-					"364_00",
-					"220_00"
+					"220_00",
+					"364_00"
 				],
 				"third": [
 					"091_00",
@@ -42787,19 +42858,14 @@
 			"second_reward": "false",
 			"encounters": {
 				"first": [
-					"102_00",
-					"202_00",
-					"079_00"
+					"102_00"
 				],
 				"second": [
-					"064_00",
-					"096_00",
-					"281_00"
+					"102_00",
+					"103_00"
 				],
 				"third": [
-					"103_00",
-					"281_00",
-					"097_00"
+					"103_00"
 				]
 			}
 		},
@@ -42935,7 +43001,7 @@
 			"second_reward": "false",
 			"encounters": {
 				"first": [
-					"150_00"
+					"145_00"
 				]
 			}
 		},
@@ -42996,6 +43062,42 @@
 		"50": {
 			"type": "Electric",
 			"grunt": "Male"
+		},
+		"500": {
+			"type": "LenTao9",
+			"grunt": ""
+		},
+		"501": {
+			"type": "oneslapguy",
+			"grunt": ""
+		},
+		"502": {
+			"type": "DieCurryWurst",
+			"grunt": ""
+		},
+		"503": {
+			"type": "DieCurryWurst",
+			"grunt": ""
+		},
+		"504": {
+			"type": "Juanevoli",
+			"grunt": ""
+		},
+		"506": {
+			"type": "CashmereFeline",
+			"grunt": ""
+		},
+		"507": {
+			"type": "enjoyryde",
+			"grunt": ""
+		},
+		"509": {
+			"type": "Telli997",
+			"grunt": ""
+		},
+		"510": {
+			"type": "malibuleo",
+			"grunt": ""
 		}
 	},
 	"items": {
