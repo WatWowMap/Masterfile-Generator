@@ -7467,15 +7467,33 @@
 			"forms": {
 				"1059": {
 					"name": "Normal",
-					"proto": "TANGELA_NORMAL"
+					"proto": "TANGELA_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 465,
+							"form": 1823
+						}
+					]
 				},
 				"1060": {
 					"name": "Shadow",
-					"proto": "TANGELA_SHADOW"
+					"proto": "TANGELA_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 465,
+							"form": 1824
+						}
+					]
 				},
 				"1061": {
 					"name": "Purified",
-					"proto": "TANGELA_PURIFIED"
+					"proto": "TANGELA_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 465,
+							"form": 1825
+						}
+					]
 				}
 			},
 			"default_form_id": 1059,
@@ -7503,7 +7521,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 465
+					"pokemon": 465,
+					"form": 1823
 				}
 			],
 			"legendary": false,
@@ -7581,15 +7600,33 @@
 			"forms": {
 				"1062": {
 					"name": "Normal",
-					"proto": "HORSEA_NORMAL"
+					"proto": "HORSEA_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 117,
+							"form": 1065
+						}
+					]
 				},
 				"1063": {
 					"name": "Shadow",
-					"proto": "HORSEA_SHADOW"
+					"proto": "HORSEA_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 117,
+							"form": 1066
+						}
+					]
 				},
 				"1064": {
 					"name": "Purified",
-					"proto": "HORSEA_PURIFIED"
+					"proto": "HORSEA_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 117,
+							"form": 1067
+						}
+					]
 				}
 			},
 			"default_form_id": 1062,
@@ -7617,7 +7654,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 117
+					"pokemon": 117,
+					"form": 1065
 				}
 			],
 			"legendary": false,
@@ -7633,15 +7671,33 @@
 			"forms": {
 				"1065": {
 					"name": "Normal",
-					"proto": "SEADRA_NORMAL"
+					"proto": "SEADRA_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 230,
+							"form": 1298
+						}
+					]
 				},
 				"1066": {
 					"name": "Shadow",
-					"proto": "SEADRA_SHADOW"
+					"proto": "SEADRA_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 230,
+							"form": 1299
+						}
+					]
 				},
 				"1067": {
 					"name": "Purified",
-					"proto": "SEADRA_PURIFIED"
+					"proto": "SEADRA_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 230,
+							"form": 1300
+						}
+					]
 				}
 			},
 			"default_form_id": 1065,
@@ -7669,7 +7725,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 230
+					"pokemon": 230,
+					"form": 1298
 				}
 			],
 			"legendary": false,
@@ -12902,15 +12959,33 @@
 			"forms": {
 				"1253": {
 					"name": "Normal",
-					"proto": "SNUBBULL_NORMAL"
+					"proto": "SNUBBULL_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 210,
+							"form": 1256
+						}
+					]
 				},
 				"1254": {
 					"name": "Shadow",
-					"proto": "SNUBBULL_SHADOW"
+					"proto": "SNUBBULL_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 210,
+							"form": 1257
+						}
+					]
 				},
 				"1255": {
 					"name": "Purified",
-					"proto": "SNUBBULL_PURIFIED"
+					"proto": "SNUBBULL_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 210,
+							"form": 1258
+						}
+					]
 				}
 			},
 			"default_form_id": 1253,
@@ -12938,7 +13013,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 210
+					"pokemon": 210,
+					"form": 1256
 				}
 			],
 			"legendary": false,
@@ -15424,15 +15500,33 @@
 			"forms": {
 				"1358": {
 					"name": "Normal",
-					"proto": "TORCHIC_NORMAL"
+					"proto": "TORCHIC_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 256,
+							"form": 1361
+						}
+					]
 				},
 				"1359": {
 					"name": "Shadow",
-					"proto": "TORCHIC_SHADOW"
+					"proto": "TORCHIC_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 256,
+							"form": 1362
+						}
+					]
 				},
 				"1360": {
 					"name": "Purified",
-					"proto": "TORCHIC_PURIFIED"
+					"proto": "TORCHIC_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 256,
+							"form": 1363
+						}
+					]
 				}
 			},
 			"default_form_id": 1358,
@@ -15460,7 +15554,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 256
+					"pokemon": 256,
+					"form": 1361
 				}
 			],
 			"legendary": false,
@@ -15476,15 +15571,33 @@
 			"forms": {
 				"1361": {
 					"name": "Normal",
-					"proto": "COMBUSKEN_NORMAL"
+					"proto": "COMBUSKEN_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 257,
+							"form": 1364
+						}
+					]
 				},
 				"1362": {
 					"name": "Shadow",
-					"proto": "COMBUSKEN_SHADOW"
+					"proto": "COMBUSKEN_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 257,
+							"form": 1365
+						}
+					]
 				},
 				"1363": {
 					"name": "Purified",
-					"proto": "COMBUSKEN_PURIFIED"
+					"proto": "COMBUSKEN_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 257,
+							"form": 1366
+						}
+					]
 				}
 			},
 			"default_form_id": 1361,
@@ -15513,7 +15626,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 257
+					"pokemon": 257,
+					"form": 1364
 				}
 			],
 			"legendary": false,
@@ -15798,15 +15912,33 @@
 			"forms": {
 				"1367": {
 					"name": "Normal",
-					"proto": "POOCHYENA_NORMAL"
+					"proto": "POOCHYENA_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 262,
+							"form": 1370
+						}
+					]
 				},
 				"1368": {
 					"name": "Shadow",
-					"proto": "POOCHYENA_SHADOW"
+					"proto": "POOCHYENA_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 262,
+							"form": 1371
+						}
+					]
 				},
 				"1369": {
 					"name": "Purified",
-					"proto": "POOCHYENA_PURIFIED"
+					"proto": "POOCHYENA_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 262,
+							"form": 1372
+						}
+					]
 				}
 			},
 			"default_form_id": 1367,
@@ -15834,7 +15966,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 262
+					"pokemon": 262,
+					"form": 1370
 				}
 			],
 			"legendary": false,
@@ -17745,15 +17878,33 @@
 			"forms": {
 				"1451": {
 					"name": "Normal",
-					"proto": "MAKUHITA_NORMAL"
+					"proto": "MAKUHITA_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 297,
+							"form": 1454
+						}
+					]
 				},
 				"1452": {
 					"name": "Shadow",
-					"proto": "MAKUHITA_SHADOW"
+					"proto": "MAKUHITA_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 297,
+							"form": 1455
+						}
+					]
 				},
 				"1453": {
 					"name": "Purified",
-					"proto": "MAKUHITA_PURIFIED"
+					"proto": "MAKUHITA_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 297,
+							"form": 1456
+						}
+					]
 				}
 			},
 			"default_form_id": 1451,
@@ -17781,7 +17932,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 297
+					"pokemon": 297,
+					"form": 1454
 				}
 			],
 			"legendary": false,
@@ -18529,15 +18681,33 @@
 			"forms": {
 				"1484": {
 					"name": "Normal",
-					"proto": "ELECTRIKE_NORMAL"
+					"proto": "ELECTRIKE_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 310,
+							"form": 1487
+						}
+					]
 				},
 				"1485": {
 					"name": "Shadow",
-					"proto": "ELECTRIKE_SHADOW"
+					"proto": "ELECTRIKE_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 310,
+							"form": 1488
+						}
+					]
 				},
 				"1486": {
 					"name": "Purified",
-					"proto": "ELECTRIKE_PURIFIED"
+					"proto": "ELECTRIKE_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 310,
+							"form": 1489
+						}
+					]
 				}
 			},
 			"default_form_id": 1484,
@@ -18565,7 +18735,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 310
+					"pokemon": 310,
+					"form": 1487
 				}
 			],
 			"legendary": false,
@@ -18581,7 +18752,10 @@
 			"forms": {
 				"1487": {
 					"name": "Normal",
-					"proto": "MANECTRIC_NORMAL"
+					"proto": "MANECTRIC_NORMAL",
+					"temp_evolutions": {
+						"1": {}
+					}
 				},
 				"1488": {
 					"name": "Shadow",
@@ -18589,7 +18763,10 @@
 				},
 				"1489": {
 					"name": "Purified",
-					"proto": "MANECTRIC_PURIFIED"
+					"proto": "MANECTRIC_PURIFIED",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1487,
@@ -19955,10 +20132,7 @@
 			"forms": {
 				"1535": {
 					"name": "Normal",
-					"proto": "ALTARIA_NORMAL",
-					"temp_evolutions": {
-						"1": {}
-					}
+					"proto": "ALTARIA_NORMAL"
 				},
 				"1536": {
 					"name": "Shadow",
@@ -19966,10 +20140,7 @@
 				},
 				"1537": {
 					"name": "Purified",
-					"proto": "ALTARIA_PURIFIED",
-					"temp_evolutions": {
-						"1": {}
-					}
+					"proto": "ALTARIA_PURIFIED"
 				}
 			},
 			"default_form_id": 1535,
@@ -19996,25 +20167,25 @@
 				"Dazzling Gleam",
 				"Dragon Pulse"
 			],
+			"temp_evolutions": {
+				"1": {
+					"attack": 222,
+					"defense": 218,
+					"stamina": 181,
+					"height": 1.5,
+					"types": [
+						"Dragon",
+						"Fairy"
+					]
+				}
+			},
 			"legendary": false,
 			"mythic": false,
 			"buddy_group_number": 3,
 			"buddy_distance": 1,
 			"third_move_stardust": 10000,
 			"third_move_candy": 25,
-			"gym_defender_eligible": true,
-			"temp_evolutions": {
-				"1": {
-					"attack": 222,
-					"defense": 218,
-					"stamina": 181,
-					"unreleased": true,
-					"types": [
-						"Dragon",
-						"Fairy"
-					]
-				}
-			}
+			"gym_defender_eligible": true
 		},
 		"335": {
 			"name": "Zangoose",
@@ -23524,15 +23695,33 @@
 			"forms": {
 				"1658": {
 					"name": "Normal",
-					"proto": "STARLY_NORMAL"
+					"proto": "STARLY_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 397,
+							"form": 1661
+						}
+					]
 				},
 				"1659": {
 					"name": "Shadow",
-					"proto": "STARLY_SHADOW"
+					"proto": "STARLY_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 397,
+							"form": 1662
+						}
+					]
 				},
 				"1660": {
 					"name": "Purified",
-					"proto": "STARLY_PURIFIED"
+					"proto": "STARLY_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 397,
+							"form": 1663
+						}
+					]
 				}
 			},
 			"default_form_id": 1658,
@@ -23560,7 +23749,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 397
+					"pokemon": 397,
+					"form": 1661
 				}
 			],
 			"legendary": false,
@@ -23576,15 +23766,33 @@
 			"forms": {
 				"1661": {
 					"name": "Normal",
-					"proto": "STARAVIA_NORMAL"
+					"proto": "STARAVIA_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 398,
+							"form": 1664
+						}
+					]
 				},
 				"1662": {
 					"name": "Shadow",
-					"proto": "STARAVIA_SHADOW"
+					"proto": "STARAVIA_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 398,
+							"form": 1665
+						}
+					]
 				},
 				"1663": {
 					"name": "Purified",
-					"proto": "STARAVIA_PURIFIED"
+					"proto": "STARAVIA_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 398,
+							"form": 1666
+						}
+					]
 				}
 			},
 			"default_form_id": 1661,
@@ -23613,7 +23821,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 398
+					"pokemon": 398,
+					"form": 1664
 				}
 			],
 			"legendary": false,
@@ -23677,15 +23886,33 @@
 			"forms": {
 				"1667": {
 					"name": "Normal",
-					"proto": "BIDOOF_NORMAL"
+					"proto": "BIDOOF_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 400,
+							"form": 1670
+						}
+					]
 				},
 				"1668": {
 					"name": "Shadow",
-					"proto": "BIDOOF_SHADOW"
+					"proto": "BIDOOF_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 400,
+							"form": 1671
+						}
+					]
 				},
 				"1669": {
 					"name": "Purified",
-					"proto": "BIDOOF_PURIFIED"
+					"proto": "BIDOOF_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 400,
+							"form": 1672
+						}
+					]
 				}
 			},
 			"default_form_id": 1667,
@@ -23713,7 +23940,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 400
+					"pokemon": 400,
+					"form": 1670
 				}
 			],
 			"legendary": false,
@@ -26546,15 +26774,33 @@
 			"forms": {
 				"1796": {
 					"name": "Normal",
-					"proto": "SKORUPI_NORMAL"
+					"proto": "SKORUPI_NORMAL",
+					"evolutions": [
+						{
+							"pokemon": 452,
+							"form": 1799
+						}
+					]
 				},
 				"1797": {
 					"name": "Shadow",
-					"proto": "SKORUPI_SHADOW"
+					"proto": "SKORUPI_SHADOW",
+					"evolutions": [
+						{
+							"pokemon": 452,
+							"form": 1800
+						}
+					]
 				},
 				"1798": {
 					"name": "Purified",
-					"proto": "SKORUPI_PURIFIED"
+					"proto": "SKORUPI_PURIFIED",
+					"evolutions": [
+						{
+							"pokemon": 452,
+							"form": 1801
+						}
+					]
 				}
 			},
 			"default_form_id": 1796,
@@ -26583,7 +26829,8 @@
 			],
 			"evolutions": [
 				{
-					"pokemon": 452
+					"pokemon": 452,
+					"form": 1799
 				}
 			],
 			"legendary": false,
@@ -39753,6 +40000,7 @@
 			],
 			"legendary": true,
 			"mythic": false,
+			"buddy_group_number": 3,
 			"buddy_distance": 20,
 			"third_move_stardust": 100000,
 			"third_move_candy": 100
@@ -39790,6 +40038,7 @@
 			],
 			"legendary": true,
 			"mythic": false,
+			"buddy_group_number": 7,
 			"buddy_distance": 20,
 			"third_move_stardust": 100000,
 			"third_move_candy": 100
@@ -42349,6 +42598,10 @@
 		"55": {
 			"prototext": "QUEST_BATTLE_EVENT_NPC",
 			"text": "QUEST_BATTLE_EVENT_NPC"
+		},
+		"57": {
+			"prototext": "QUEST_TAKE_WILD_SNAPSHOT",
+			"text": "Take {0} snapshot(s) of wild pokémon"
 		}
 	},
 	"quest_conditions": {
