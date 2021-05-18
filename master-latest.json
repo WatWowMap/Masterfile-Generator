@@ -39741,6 +39741,11 @@
 				"Ghost",
 				"Grass"
 			],
+			"attack": 121,
+			"defense": 123,
+			"stamina": 135,
+			"height": 0.4,
+			"weight": 5,
 			"flee_rate": 0.1,
 			"capture_rate": 0.2,
 			"quick_moves": [
@@ -39791,6 +39796,11 @@
 				"Ghost",
 				"Grass"
 			],
+			"attack": 175,
+			"defense": 213,
+			"stamina": 163,
+			"height": 0.9,
+			"weight": 12.5,
 			"flee_rate": 0.1,
 			"capture_rate": 0.2,
 			"quick_moves": [
@@ -39986,7 +39996,7 @@
 			"height": 3,
 			"weight": 215,
 			"flee_rate": 0.1,
-			"capture_rate": 0.2,
+			"capture_rate": 0.02,
 			"quick_moves": [
 				"Tackle",
 				"Zen Headbutt"
@@ -40023,7 +40033,7 @@
 			"height": 5.8,
 			"weight": 203,
 			"flee_rate": 0.1,
-			"capture_rate": 0.2,
+			"capture_rate": 0.02,
 			"quick_moves": [
 				"Sucker Punch",
 				"Snarl",
@@ -40067,7 +40077,7 @@
 				"Ground"
 			],
 			"flee_rate": 0.1,
-			"capture_rate": 0.2,
+			"capture_rate": 0.02,
 			"quick_moves": [
 				"Dragon Tail",
 				"Bite",
@@ -43475,6 +43485,13 @@
 		"504": {
 			"name": "Troy Disk Magnetic",
 			"proto": "ITEM_TROY_DISK_MAGNETIC",
+			"type": "Disk",
+			"category": "Disk",
+			"min_trainer_level": 1
+		},
+		"505": {
+			"name": "Troy Disk Rainy",
+			"proto": "ITEM_TROY_DISK_RAINY",
 			"type": "Disk",
 			"category": "Disk",
 			"min_trainer_level": 1
