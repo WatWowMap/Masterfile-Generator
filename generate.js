@@ -5,6 +5,9 @@ const POGOProtos = require("pogo-protos");
 
 var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions;
 
+const evolvedPokemon = new Set();
+let littleCupBannedPokemon;
+
 function Fetch_Json(url) {
   return new Promise(resolve => {
     Fetch(url)
@@ -196,7 +199,9 @@ function Compile_Evolutions(target, object, pokemon = target) {
         if (!target.evolutions) {
           target.evolutions = [];
         }
-        const evolution = { pokemon: Pokemon_List[Lookup_Pokemon(branch.evolution)] };
+        const pokemonId = Pokemon_List[Lookup_Pokemon(branch.evolution)];
+        const evolution = { pokemon: pokemonId };
+        evolvedPokemon.add(pokemonId);
         if (branch.form) {
           evolution.form = Form_List[branch.form];
         }
@@ -372,6 +377,8 @@ function Compile_Data(GameMaster, MasterArray) {
           Move.proto = object.templateId.substr(7);
           Move.type = capitalize(object.data.combatMove.type.replace("POKEMON_TYPE_", ""));
           Move.power = object.data.combatMove.power;
+        } else if (object.templateId === "COMBAT_LEAGUE_VS_SEEKER_GREAT_LITTLE") {
+          littleCupBannedPokemon = new Set(object.data.combatLeague.bannedPokemon);
         }
       } catch (e) {
         console.error(e);
@@ -458,6 +465,26 @@ function Add_Missing_Pokemon() {
   }
 }
 
+function Add_Little_Cup() {
+  if (littleCupBannedPokemon === undefined) {
+    console.warn("Missing little cup ban list from Masterfile");
+  } else {
+    littleCupBannedPokemon.add("FARFETCHD");
+    GameMaster.pokemon[Pokemon_List.FARFETCHD].forms[Form_List.FARFETCHD_GALARIAN].little = true;
+  }
+  for (const [pokemonId, pokemon] of Object.entries(GameMaster.pokemon)) {
+    const allowed = pokemonId != Pokemon_List.OMANYTE && (  // OMANYTE was banned due to an exploit
+        pokemonId == Pokemon_List.DEERLING ||               // for some reason FORM_UNSET DEERLING cannot evolve
+        !evolvedPokemon.has(parseInt(pokemonId)) && pokemon.evolutions !== undefined);
+    if (allowed) {
+      pokemon.little = true;
+    }
+    if (allowed === littleCupBannedPokemon.has(Pokemon_List[pokemonId])) {
+      console.warn(`Inconsistent resolution of little cup ban for ${Pokemon_List[pokemonId]} ${allowed}`);
+    }
+  }
+}
+
 
 (async function () {
   Move_List = POGOProtos.Rpc.HoloPokemonMove;
@@ -485,6 +512,7 @@ function Add_Missing_Pokemon() {
   GameMaster.items = {};
   GameMaster = await Compile_Data(GameMaster, MasterArray);
   Add_Missing_Pokemon();
+  Add_Little_Cup();
   Fs.writeJSONSync("master-latest.json", GameMaster, {
     spaces: "\t",
     EOL: "\n"
