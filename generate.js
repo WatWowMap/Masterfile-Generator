@@ -473,9 +473,8 @@ function Add_Little_Cup() {
     GameMaster.pokemon[Pokemon_List.FARFETCHD].forms[Form_List.FARFETCHD_GALARIAN].little = true;
   }
   for (const [pokemonId, pokemon] of Object.entries(GameMaster.pokemon)) {
-    const allowed = pokemonId != Pokemon_List.OMANYTE && (  // OMANYTE was banned due to an exploit
-        pokemonId == Pokemon_List.DEERLING ||               // for some reason FORM_UNSET DEERLING cannot evolve
-        !evolvedPokemon.has(parseInt(pokemonId)) && pokemon.evolutions !== undefined);
+    const allowed = pokemonId == Pokemon_List.DEERLING ||   // for some reason FORM_UNSET DEERLING cannot evolve
+        !evolvedPokemon.has(parseInt(pokemonId)) && pokemon.evolutions !== undefined;
     if (allowed) {
       pokemon.little = true;
     }
