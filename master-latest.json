@@ -1153,7 +1153,8 @@
 			"charged_moves": [
 				"Hurricane",
 				"Aerial Ace",
-				"Brave Bird"
+				"Brave Bird",
+				"Feather Dance"
 			],
 			"temp_evolutions": {
 				"1": {
@@ -2079,7 +2080,8 @@
 				"Earthquake",
 				"Sludge Wave",
 				"Stone Edge",
-				"Earth Power"
+				"Earth Power",
+				"Poison Fang"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -5303,7 +5305,25 @@
 				},
 				"2582": {
 					"name": "Galarian",
-					"proto": "SLOWPOKE_GALARIAN"
+					"proto": "SLOWPOKE_GALARIAN",
+					"evolutions": [
+						{
+							"pokemon": 80,
+							"form": 2583
+						}
+					],
+					"quick_moves": [
+						"Confusion",
+						"Iron Tail"
+					],
+					"charged_moves": [
+						"Surf",
+						"Psyshock",
+						"Psychic"
+					],
+					"types": [
+						"Psychic"
+					]
 				},
 				"2673": {
 					"name": "2020",
@@ -5382,11 +5402,33 @@
 				},
 				"2583": {
 					"name": "Galarian",
-					"proto": "SLOWBRO_GALARIAN"
+					"proto": "SLOWBRO_GALARIAN",
+					"attack": 182,
+					"defense": 156,
+					"stamina": 216,
+					"height": 1.6,
+					"weight": 70.5,
+					"quick_moves": [
+						"Water Gun",
+						"Confusion",
+						"Poison Jab"
+					],
+					"charged_moves": [
+						"Focus Blast",
+						"Psychic",
+						"Sludge Bomb"
+					],
+					"types": [
+						"Poison",
+						"Psychic"
+					]
 				},
 				"2674": {
 					"name": "2021",
-					"proto": "SLOWBRO_2021"
+					"proto": "SLOWBRO_2021",
+					"temp_evolutions": {
+						"1": {}
+					}
 				}
 			},
 			"default_form_id": 1020,
@@ -5413,21 +5455,22 @@
 				"Psychic",
 				"Ice Beam"
 			],
+			"temp_evolutions": {
+				"1": {
+					"attack": 224,
+					"defense": 259,
+					"stamina": 216,
+					"height": 2,
+					"weight": 120
+				}
+			},
 			"legendary": false,
 			"mythic": false,
 			"buddy_group_number": 3,
 			"buddy_distance": 3,
 			"third_move_stardust": 50000,
 			"third_move_candy": 50,
-			"gym_defender_eligible": true,
-			"temp_evolutions": {
-				"1": {
-					"attack": 224,
-					"defense": 259,
-					"stamina": 216,
-					"unreleased": true
-				}
-			}
+			"gym_defender_eligible": true
 		},
 		"81": {
 			"name": "Magnemite",
@@ -10681,7 +10724,8 @@
 			"charged_moves": [
 				"Shadow Sneak",
 				"Megahorn",
-				"Cross Poison"
+				"Cross Poison",
+				"Lunge"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -10729,7 +10773,9 @@
 			"charged_moves": [
 				"Shadow Ball",
 				"Air Cutter",
-				"Sludge Bomb"
+				"Sludge Bomb",
+				"Poison Fang",
+				"Cross Poison"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -12384,7 +12430,26 @@
 				},
 				"2584": {
 					"name": "Galarian",
-					"proto": "SLOWKING_GALARIAN"
+					"proto": "SLOWKING_GALARIAN",
+					"attack": 190,
+					"defense": 180,
+					"stamina": 216,
+					"height": 1.8,
+					"weight": 79.5,
+					"quick_moves": [
+						"Hex",
+						"Confusion",
+						"Acid"
+					],
+					"charged_moves": [
+						"Futuresight",
+						"Shadow Ball",
+						"Sludge Wave"
+					],
+					"types": [
+						"Poison",
+						"Psychic"
+					]
 				}
 			},
 			"default_form_id": 1238,
@@ -26928,7 +26993,8 @@
 				"Earthquake",
 				"Stone Edge",
 				"Body Slam",
-				"Earth Power"
+				"Earth Power",
+				"Weather Ball"
 			],
 			"legendary": false,
 			"mythic": false,
@@ -41530,7 +41596,7 @@
 			"name": "Cross Poison",
 			"proto": "V0089_MOVE_CROSS_POISON",
 			"type": "Poison",
-			"power": 40
+			"power": 50
 		},
 		"90": {
 			"name": "Sludge Bomb",
@@ -41935,7 +42001,7 @@
 			"name": "Poison Jab",
 			"proto": "V0224_MOVE_POISON_JAB_FAST",
 			"type": "Poison",
-			"power": 6
+			"power": 7
 		},
 		"225": {
 			"name": "Acid",
@@ -42071,7 +42137,7 @@
 			"name": "Focus Blast",
 			"proto": "V0247_MOVE_FOCUS_BLAST",
 			"type": "Fighting",
-			"power": 140
+			"power": 150
 		},
 		"248": {
 			"name": "Aurora Beam",
@@ -42107,7 +42173,7 @@
 			"name": "Dragon Tail",
 			"proto": "V0253_MOVE_DRAGON_TAIL_FAST",
 			"type": "Dragon",
-			"power": 9
+			"power": 13
 		},
 		"254": {
 			"name": "Avalanche",
@@ -42351,7 +42417,7 @@
 		"294": {
 			"name": "Weather Ball Rock",
 			"proto": "V0294_MOVE_WEATHER_BALL_ROCK",
-			"type": "Normal",
+			"type": "Rock",
 			"power": 60
 		},
 		"295": {
@@ -42652,7 +42718,10 @@
 			"name": "Dark Void"
 		},
 		"348": {
-			"name": "Feather Dance"
+			"name": "Feather Dance",
+			"proto": "V0348_MOVE_FEATHER_DANCE",
+			"type": "Flying",
+			"power": 35
 		}
 	},
 	"throw_types": {
