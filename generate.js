@@ -3,7 +3,7 @@ const fs = require("fs");
 const Fs = require("fs-extra");
 const POGOProtos = require("pogo-protos");
 
-var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions;
+var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions, Family_id;
 
 const evolvedPokemon = new Set();
 let littleCupBannedPokemon;
@@ -350,7 +350,7 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
             Pokemon.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
             Pokemon.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
-            Pokemon.family = object.data.pokemonSettings.familyId.split('_')[1];
+            Pokemon.family = Family_id[object.data.pokemonSettings.familyId];
           }
         } else if (object.data.itemSettings) {
           let item_name = "";
@@ -494,6 +494,7 @@ function Add_Little_Cup() {
   Item_List = POGOProtos.Rpc.Item;
   Gender_List = POGOProtos.Rpc.PokemonDisplayProto.Gender;
   Temp_Evolutions = POGOProtos.Rpc.HoloTemporaryEvolutionId;
+  Family_id = POGOProtos.Rpc.HoloPokemonFamilyId;
 
   GameMaster = {};
 
