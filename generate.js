@@ -350,6 +350,7 @@ function Compile_Data(GameMaster, MasterArray) {
             Pokemon.third_move_stardust = object.data.pokemonSettings.thirdMove.stardustToUnlock;
             Pokemon.third_move_candy = object.data.pokemonSettings.thirdMove.candyToUnlock;
             Pokemon.gym_defender_eligible = object.data.pokemonSettings.isDeployable;
+            Pokemon.family = object.data.pokemonSettings.familyId.split('_')[1];
           }
         } else if (object.data.itemSettings) {
           let item_name = "";
