@@ -318,6 +318,10 @@ function Compile_Data(GameMaster, MasterArray) {
             if (types.toString() != Pokemon.types.toString()) {
               Form.types = types;
             }
+            const family = Family_id[object.data.pokemonSettings.familyId]
+            if (family !== Pokemon.family) {
+              Form.family = family;
+            }
           } else {
             Pokemon.pokedex_id = pokemon_id;
             for (const [i, gen] of Object.entries(require('./data/generations.json'))) {
