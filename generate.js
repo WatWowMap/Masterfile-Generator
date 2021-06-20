@@ -512,7 +512,7 @@ function Add_Little_Cup() {
   GameMaster.throw_types = JSON.parse(`{"10": "Nice", "11": "Great", "12": "Excellent"}`)
   GameMaster.quest_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json");
   GameMaster.quest_conditions = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/conditiontype.json");
-  GameMaster.quest_reward_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/master/static/data/rewardtype.json");
+  GameMaster.quest_reward_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/main/static/data/rewardtype.json");
   GameMaster.grunt_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/grunttype.json");
   GameMaster.items = {};
   GameMaster = await Compile_Data(GameMaster, MasterArray);
