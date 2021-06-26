@@ -1640,6 +1640,22 @@
 				"2670": {
 					"name": "Winter 2020",
 					"proto": "PIKACHU_WINTER_2020"
+				},
+				"2675": {
+					"name": "Kariyushi",
+					"proto": "PIKACHU_KARIYUSHI"
+				},
+				"2676": {
+					"name": "Pop Star",
+					"proto": "PIKACHU_POP_STAR"
+				},
+				"2677": {
+					"name": "Rock Star",
+					"proto": "PIKACHU_ROCK_STAR"
+				},
+				"2678": {
+					"name": "Flying 5th Anniv",
+					"proto": "PIKACHU_FLYING_5TH_ANNIV"
 				}
 			},
 			"default_form_id": 598,
@@ -43446,6 +43462,12 @@
 			"proto": "V0348_MOVE_FEATHER_DANCE",
 			"type": "Flying",
 			"power": 35
+		},
+		"349": {
+			"name": "Fiery Dance"
+		},
+		"350": {
+			"name": "Fairy Wind"
 		}
 	},
 	"throw_types": {
@@ -44856,6 +44878,10 @@
 		"42": {
 			"prototext": "WITH_GEOTARGETED_POI",
 			"text": "With Geotargeted Poi"
+		},
+		"43": {
+			"prototext": "WITH_ITEM_TYPE",
+			"text": "With Item Type"
 		}
 	}
 }
