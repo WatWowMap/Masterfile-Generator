@@ -19,12 +19,17 @@ function Fetch_Json(url) {
 }
 
 function capitalize(string) {
+  const capitalizeList = ['pvp', 'xl', 'npc', 'cp', 'poi', 'gbl', ]
   try {
     string = string.toLowerCase();
     if (string.split("_").length > 1) {
       let processed = "";
       string.split("_").forEach((word) => {
-        processed += " " + word.charAt(0).toUpperCase() + word.slice(1)
+        if (capitalizeList.includes(word)) {
+          processed += " " + word.toUpperCase()
+        } else {
+          processed += " " + word.charAt(0).toUpperCase() + word.slice(1)
+        }
       });
       return processed.slice(1);
     } else {
