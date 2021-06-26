@@ -43633,145 +43633,6 @@
 			"text": "Take {0} snapshot(s) of wild pokémon"
 		}
 	},
-	"quest_conditions": {
-		"0": {
-			"text": "Unset"
-		},
-		"1": {
-			"text": "Pokémon Type"
-		},
-		"2": {
-			"text": "Pokémon"
-		},
-		"3": {
-			"text": "Weatherboosted"
-		},
-		"4": {
-			"text": "Daily capture bonus"
-		},
-		"5": {
-			"text": "Daily spin bonus"
-		},
-		"6": {
-			"text": "Win raid"
-		},
-		"7": {
-			"text": "With raid level"
-		},
-		"8": {
-			"text": "Throw type"
-		},
-		"9": {
-			"text": "Win gym battle(s)"
-		},
-		"10": {
-			"text": "Super effective charge move"
-		},
-		"11": {
-			"text": "Item"
-		},
-		"12": {
-			"text": "Unique pokéstop(s)"
-		},
-		"13": {
-			"text": "Quest context"
-		},
-		"14": {
-			"text": "Throw type(s) in a row"
-		},
-		"15": {
-			"text": "Curve ball"
-		},
-		"16": {
-			"text": "Badge type"
-		},
-		"17": {
-			"text": "Player level"
-		},
-		"18": {
-			"text": "Win battle status"
-		},
-		"19": {
-			"text": "New friend"
-		},
-		"20": {
-			"text": "Days in a row"
-		},
-		"21": {
-			"prototext": "WITH_UNIQUE_POKEMON",
-			"text": ""
-		},
-		"22": {
-			"prototext": "WITH_NPC_COMBAT",
-			"text": ""
-		},
-		"23": {
-			"prototext": "WITH_PVP_COMBAT",
-			"text": ""
-		},
-		"24": {
-			"prototext": "WITH_LOCATION",
-			"text": ""
-		},
-		"25": {
-			"prototext": "WITH_DISTANCE",
-			"text": ""
-		},
-		"26": {
-			"prototext": "WITH_POKEMON_ALIGNMENT",
-			"text": ""
-		},
-		"27": {
-			"prototext": "WITH_INVASION_CHARACTER",
-			"text": ""
-		},
-		"28": {
-			"prototext": "WITH_BUDDY",
-			"text": ""
-		},
-		"29": {
-			"prototext": "WITH_BUDDY_INTERESTING_POI",
-			"text": ""
-		},
-		"30": {
-			"prototext": "WITH_DAILY_BUDDY_EFFECTION",
-			"text": ""
-		}
-	},
-	"quest_reward_types": {
-		"0": {
-			"prototext": "UNSET",
-			"text": "Unset"
-		},
-		"1": {
-			"prototext": "EXPERIENCE",
-			"text": "Experience points"
-		},
-		"2": {
-			"prototext": "ITEM",
-			"text": "Items"
-		},
-		"3": {
-			"prototext": "STARDUST",
-			"text": "Stardust"
-		},
-		"4": {
-			"prototext": "CANDY",
-			"text": "Candy"
-		},
-		"5": {
-			"prototext": "AVATAR_CLOTHING",
-			"text": "Avatar clothing"
-		},
-		"6": {
-			"prototext": "QUEST",
-			"text": "Quest"
-		},
-		"7": {
-			"prototext": "POKEMON_ENCOUNTER",
-			"text": "Pokémon encounter"
-		}
-	},
 	"grunt_types": {
 		"1": {
 			"type": "Blanche",
@@ -44789,6 +44650,238 @@
 			"proto": "ITEM_EVENT_TICKET_PINK",
 			"type": "Global Event Ticket",
 			"category": "Global Event Ticket"
+		}
+	},
+	"quest_reward_types": {
+		"0": {
+			"prototext": "UNSET",
+			"text": "Unset"
+		},
+		"1": {
+			"prototext": "EXPERIENCE",
+			"text": "Experience"
+		},
+		"2": {
+			"prototext": "ITEM",
+			"text": "Item"
+		},
+		"3": {
+			"prototext": "STARDUST",
+			"text": "Stardust"
+		},
+		"4": {
+			"prototext": "CANDY",
+			"text": "Candy"
+		},
+		"5": {
+			"prototext": "AVATAR_CLOTHING",
+			"text": "Avatar Clothing"
+		},
+		"6": {
+			"prototext": "QUEST",
+			"text": "Quest"
+		},
+		"7": {
+			"prototext": "POKEMON_ENCOUNTER",
+			"text": "Pokemon Encounter"
+		},
+		"8": {
+			"prototext": "POKECOIN",
+			"text": "Pokecoin"
+		},
+		"9": {
+			"prototext": "XL_CANDY",
+			"text": "XL Candy"
+		},
+		"10": {
+			"prototext": "LEVEL_CAP",
+			"text": "Level Cap"
+		},
+		"11": {
+			"prototext": "STICKER",
+			"text": "Sticker"
+		},
+		"12": {
+			"prototext": "MEGA_RESOURCE",
+			"text": "Mega Resource"
+		}
+	},
+	"quest_conditions": {
+		"0": {
+			"prototext": "UNSET",
+			"text": "Unset"
+		},
+		"1": {
+			"prototext": "WITH_POKEMON_TYPE",
+			"text": "With Pokemon Type"
+		},
+		"2": {
+			"prototext": "WITH_POKEMON_CATEGORY",
+			"text": "With Pokemon Category"
+		},
+		"3": {
+			"prototext": "WITH_WEATHER_BOOST",
+			"text": "With Weather Boost"
+		},
+		"4": {
+			"prototext": "WITH_DAILY_CAPTURE_BONUS",
+			"text": "With Daily Capture Bonus"
+		},
+		"5": {
+			"prototext": "WITH_DAILY_SPIN_BONUS",
+			"text": "With Daily Spin Bonus"
+		},
+		"6": {
+			"prototext": "WITH_WIN_RAID_STATUS",
+			"text": "With Win Raid Status"
+		},
+		"7": {
+			"prototext": "WITH_RAID_LEVEL",
+			"text": "With Raid Level"
+		},
+		"8": {
+			"prototext": "WITH_THROW_TYPE",
+			"text": "With Throw Type"
+		},
+		"9": {
+			"prototext": "WITH_WIN_GYM_BATTLE_STATUS",
+			"text": "With Win Gym Battle Status"
+		},
+		"10": {
+			"prototext": "WITH_SUPER_EFFECTIVE_CHARGE",
+			"text": "With Super Effective Charge"
+		},
+		"11": {
+			"prototext": "WITH_ITEM",
+			"text": "With Item"
+		},
+		"12": {
+			"prototext": "WITH_UNIQUE_POKESTOP",
+			"text": "With Unique Pokestop"
+		},
+		"13": {
+			"prototext": "WITH_QUEST_CONTEXT",
+			"text": "With Quest Context"
+		},
+		"14": {
+			"prototext": "WITH_THROW_TYPE_IN_A_ROW",
+			"text": "With Throw Type In A Row"
+		},
+		"15": {
+			"prototext": "WITH_CURVE_BALL",
+			"text": "With Curve Ball"
+		},
+		"16": {
+			"prototext": "WITH_BADGE_TYPE",
+			"text": "With Badge Type"
+		},
+		"17": {
+			"prototext": "WITH_PLAYER_LEVEL",
+			"text": "With Player Level"
+		},
+		"18": {
+			"prototext": "WITH_WIN_BATTLE_STATUS",
+			"text": "With Win Battle Status"
+		},
+		"19": {
+			"prototext": "WITH_NEW_FRIEND",
+			"text": "With New Friend"
+		},
+		"20": {
+			"prototext": "WITH_DAYS_IN_A_ROW",
+			"text": "With Days In A Row"
+		},
+		"21": {
+			"prototext": "WITH_UNIQUE_POKEMON",
+			"text": "With Unique Pokemon"
+		},
+		"22": {
+			"prototext": "WITH_NPC_COMBAT",
+			"text": "With NPC Combat"
+		},
+		"23": {
+			"prototext": "WITH_PVP_COMBAT",
+			"text": "With PVP Combat"
+		},
+		"24": {
+			"prototext": "WITH_LOCATION",
+			"text": "With Location"
+		},
+		"25": {
+			"prototext": "WITH_DISTANCE",
+			"text": "With Distance"
+		},
+		"26": {
+			"prototext": "WITH_POKEMON_ALIGNMENT",
+			"text": "With Pokemon Alignment"
+		},
+		"27": {
+			"prototext": "WITH_INVASION_CHARACTER",
+			"text": "With Invasion Character"
+		},
+		"28": {
+			"prototext": "WITH_BUDDY",
+			"text": "With Buddy"
+		},
+		"29": {
+			"prototext": "WITH_BUDDY_INTERESTING_POI",
+			"text": "With Buddy Interesting POI"
+		},
+		"30": {
+			"prototext": "WITH_DAILY_BUDDY_AFFECTION",
+			"text": "With Daily Buddy Affection"
+		},
+		"31": {
+			"prototext": "WITH_POKEMON_LEVEL",
+			"text": "With Pokemon Level"
+		},
+		"32": {
+			"prototext": "WITH_SINGLE_DAY",
+			"text": "With Single Day"
+		},
+		"33": {
+			"prototext": "WITH_UNIQUE_POKEMON_TEAM",
+			"text": "With Unique Pokemon Team"
+		},
+		"34": {
+			"prototext": "WITH_MAX_CP",
+			"text": "With Max CP"
+		},
+		"35": {
+			"prototext": "WITH_LUCKY_POKEMON",
+			"text": "With Lucky Pokemon"
+		},
+		"36": {
+			"prototext": "WITH_LEGENDARY_POKEMON",
+			"text": "With Legendary Pokemon"
+		},
+		"37": {
+			"prototext": "WITH_TEMP_EVO_POKEMON",
+			"text": "With Temp Evo Pokemon"
+		},
+		"38": {
+			"prototext": "WITH_GBL_RANK",
+			"text": "With GBL Rank"
+		},
+		"39": {
+			"prototext": "WITH_CATCHES_IN_A_ROW",
+			"text": "With Catches In A Row"
+		},
+		"40": {
+			"prototext": "WITH_ENCOUNTER_TYPE",
+			"text": "With Encounter Type"
+		},
+		"41": {
+			"prototext": "WITH_COMBAT_TYPE",
+			"text": "With Combat Type"
+		},
+		"42": {
+			"prototext": "WITH_GEOTARGETED_POI",
+			"text": "With Geotargeted POI"
+		},
+		"43": {
+			"prototext": "WITH_ITEM_TYPE",
+			"text": "With Item Type"
 		}
 	}
 }

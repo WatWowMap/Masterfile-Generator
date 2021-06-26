@@ -3,7 +3,7 @@ const fs = require("fs");
 const Fs = require("fs-extra");
 const POGOProtos = require("pogo-protos");
 
-var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions, Family_id;
+var MasterArray, GameMaster, Form_List, Pokemon_List, Item_List, Quest_Types, Gender_List, Temp_Evolutions, Family_id, Quest_Reward_Types, Quest_Conditions;
 
 const evolvedPokemon = new Set();
 let littleCupBannedPokemon;
@@ -19,12 +19,17 @@ function Fetch_Json(url) {
 }
 
 function capitalize(string) {
+  const capitalizeList = ['pvp', 'xl', 'npc', 'cp', 'poi', 'gbl', ]
   try {
     string = string.toLowerCase();
     if (string.split("_").length > 1) {
       let processed = "";
       string.split("_").forEach((word) => {
-        processed += " " + word.charAt(0).toUpperCase() + word.slice(1)
+        if (capitalizeList.includes(word)) {
+          processed += " " + word.toUpperCase()
+        } else {
+          processed += " " + word.charAt(0).toUpperCase() + word.slice(1)
+        }
       });
       return processed.slice(1);
     } else {
@@ -489,6 +494,21 @@ function Add_Little_Cup() {
   }
 }
 
+function Add_Quest_Reward_Types() {
+  GameMaster.quest_reward_types = {};
+  Object.entries(Quest_Reward_Types).forEach(type => {
+    const [proto, id] = type;
+    GameMaster.quest_reward_types[id] = { prototext: proto, text: capitalize(proto) };
+  })
+}
+
+function Add_Quest_Conditions() {
+  GameMaster.quest_conditions = {};
+  Object.entries(Quest_Conditions).forEach(type => {
+    const [proto, id] = type;
+    GameMaster.quest_conditions[id] = { prototext: proto, text: capitalize(proto) };
+  })
+}
 
 (async function () {
   Move_List = POGOProtos.Rpc.HoloPokemonMove;
@@ -499,11 +519,11 @@ function Add_Little_Cup() {
   Gender_List = POGOProtos.Rpc.PokemonDisplayProto.Gender;
   Temp_Evolutions = POGOProtos.Rpc.HoloTemporaryEvolutionId;
   Family_id = POGOProtos.Rpc.HoloPokemonFamilyId;
-
+  Quest_Reward_Types = POGOProtos.Rpc.QuestRewardProto.Type
+  Quest_Conditions = POGOProtos.Rpc.QuestConditionProto.ConditionType
   GameMaster = {};
 
   let MasterArray = await Fetch_Json("https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json");
-
   GameMaster.pokemon = {};
   GameMaster = await Generate_Forms(GameMaster, MasterArray);
   GameMaster.pokemon_types = require(__dirname + "/data/pokemonTypes.json");
@@ -511,13 +531,13 @@ function Add_Little_Cup() {
   GameMaster = await Generate_Moves(GameMaster);
   GameMaster.throw_types = JSON.parse(`{"10": "Nice", "11": "Great", "12": "Excellent"}`)
   GameMaster.quest_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json");
-  GameMaster.quest_conditions = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/conditiontype.json");
-  GameMaster.quest_reward_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/main/static/data/rewardtype.json");
   GameMaster.grunt_types = await Fetch_Json("https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/grunttype.json");
   GameMaster.items = {};
   GameMaster = await Compile_Data(GameMaster, MasterArray);
   Add_Missing_Pokemon();
   Add_Little_Cup();
+  Add_Quest_Reward_Types();
+  Add_Quest_Conditions();
   Fs.writeJSONSync("master-latest.json", GameMaster, {
     spaces: "\t",
     EOL: "\n"
