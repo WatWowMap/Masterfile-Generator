@@ -1647,15 +1647,39 @@
 				},
 				"2676": {
 					"name": "Pop Star",
-					"proto": "PIKACHU_POP_STAR"
+					"proto": "PIKACHU_POP_STAR",
+					"quick_moves": [
+						"Thunder Shock",
+						"Charm"
+					],
+					"charged_moves": [
+						"Draining Kiss",
+						"Thunder Punch",
+						"Play Rough"
+					]
 				},
 				"2677": {
 					"name": "Rock Star",
-					"proto": "PIKACHU_ROCK_STAR"
+					"proto": "PIKACHU_ROCK_STAR",
+					"quick_moves": [
+						"Thunder Shock",
+						"Charm"
+					],
+					"charged_moves": [
+						"Meteor Mash",
+						"Thunder Punch",
+						"Play Rough"
+					]
 				},
 				"2678": {
 					"name": "Flying 5th Anniv",
-					"proto": "PIKACHU_FLYING_5TH_ANNIV"
+					"proto": "PIKACHU_FLYING_5TH_ANNIV",
+					"charged_moves": [
+						"Discharge",
+						"Thunderbolt",
+						"Wild Charge",
+						"Fly"
+					]
 				}
 			},
 			"default_form_id": 598,
@@ -43631,6 +43655,9 @@
 		},
 		"57": {
 			"text": "Take {0} snapshot(s) of wild pokémon"
+		},
+		"58": {
+			"text": "QUEST_USE_POKEMON_ITEM"
 		}
 	},
 	"grunt_types": {
