@@ -35,7 +35,8 @@
 				},
 				"897": {
 					"name": "Fall 2019",
-					"proto": "BULBASAUR_FALL_2019"
+					"proto": "BULBASAUR_FALL_2019",
+					"isCostume": true
 				}
 			},
 			"default_form_id": 163,
@@ -254,7 +255,8 @@
 				},
 				"896": {
 					"name": "Fall 2019",
-					"proto": "CHARMANDER_FALL_2019"
+					"proto": "CHARMANDER_FALL_2019",
+					"isCostume": true
 				}
 			},
 			"default_form_id": 172,
@@ -482,7 +484,8 @@
 				},
 				"895": {
 					"name": "Fall 2019",
-					"proto": "SQUIRTLE_FALL_2019"
+					"proto": "SQUIRTLE_FALL_2019",
+					"isCostume": true
 				}
 			},
 			"default_form_id": 181,
@@ -1596,11 +1599,13 @@
 				},
 				"894": {
 					"name": "Fall 2019",
-					"proto": "PIKACHU_FALL_2019"
+					"proto": "PIKACHU_FALL_2019",
+					"isCostume": true
 				},
 				"901": {
 					"name": "Vs 2019",
 					"proto": "PIKACHU_VS_2019",
+					"isCostume": true,
 					"quick_moves": [
 						"Thunder Shock",
 						"Charm"
@@ -1626,6 +1631,7 @@
 				"2332": {
 					"name": "Costume 2020",
 					"proto": "PIKACHU_COSTUME_2020",
+					"isCostume": true,
 					"charged_moves": [
 						"Discharge",
 						"Thunderbolt",
@@ -1635,19 +1641,23 @@
 				},
 				"2669": {
 					"name": "Adventure Hat 2020",
-					"proto": "PIKACHU_ADVENTURE_HAT_2020"
+					"proto": "PIKACHU_ADVENTURE_HAT_2020",
+					"isCostume": true
 				},
 				"2670": {
 					"name": "Winter 2020",
-					"proto": "PIKACHU_WINTER_2020"
+					"proto": "PIKACHU_WINTER_2020",
+					"isCostume": true
 				},
 				"2675": {
 					"name": "Kariyushi",
-					"proto": "PIKACHU_KARIYUSHI"
+					"proto": "PIKACHU_KARIYUSHI",
+					"isCostume": true
 				},
 				"2676": {
 					"name": "Pop Star",
 					"proto": "PIKACHU_POP_STAR",
+					"isCostume": true,
 					"quick_moves": [
 						"Thunder Shock",
 						"Charm"
@@ -1661,6 +1671,7 @@
 				"2677": {
 					"name": "Rock Star",
 					"proto": "PIKACHU_ROCK_STAR",
+					"isCostume": true,
 					"quick_moves": [
 						"Thunder Shock",
 						"Charm"
@@ -1674,6 +1685,7 @@
 				"2678": {
 					"name": "Flying 5th Anniv",
 					"proto": "PIKACHU_FLYING_5TH_ANNIV",
+					"isCostume": true,
 					"charged_moves": [
 						"Discharge",
 						"Thunderbolt",
@@ -5446,6 +5458,7 @@
 				"2673": {
 					"name": "2020",
 					"proto": "SLOWPOKE_2020",
+					"isCostume": true,
 					"evolutions": [
 						{
 							"pokemon": 80,
@@ -5544,6 +5557,7 @@
 				"2674": {
 					"name": "2021",
 					"proto": "SLOWBRO_2021",
+					"isCostume": true,
 					"temp_evolutions": {
 						"1": {}
 					}
@@ -6446,6 +6460,7 @@
 				"2586": {
 					"name": "Costume 2020",
 					"proto": "GENGAR_COSTUME_2020",
+					"isCostume": true,
 					"temp_evolutions": {
 						"1": {}
 					}
@@ -9894,6 +9909,7 @@
 				"133": {
 					"name": "A",
 					"proto": "MEWTWO_A",
+					"isCostume": true,
 					"attack": 182,
 					"defense": 278,
 					"stamina": 214,
@@ -14317,7 +14333,8 @@
 				},
 				"2671": {
 					"name": "Winter 2020",
-					"proto": "DELIBIRD_WINTER_2020"
+					"proto": "DELIBIRD_WINTER_2020",
+					"isCostume": true
 				}
 			},
 			"default_form_id": 938,
@@ -18763,7 +18780,8 @@
 				},
 				"2668": {
 					"name": "Costume 2020",
-					"proto": "SABLEYE_COSTUME_2020"
+					"proto": "SABLEYE_COSTUME_2020",
+					"isCostume": true
 				}
 			},
 			"default_form_id": 923,
@@ -36234,7 +36252,8 @@
 				},
 				"2672": {
 					"name": "Winter 2020",
-					"proto": "CUBCHOO_WINTER_2020"
+					"proto": "CUBCHOO_WINTER_2020",
+					"isCostume": true
 				}
 			},
 			"default_form_id": 2231,

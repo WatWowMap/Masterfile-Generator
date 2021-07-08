@@ -149,6 +149,9 @@ function Generate_Forms(GameMaster, MasterArray) {
                 if (!GameMaster.pokemon[pokemon_id].forms[id].proto) {
                   GameMaster.pokemon[pokemon_id].forms[id].proto = object.data.formSettings.forms[f].name;
                 }
+                if (object.data.formSettings.forms[f].isCostume) {
+                  GameMaster.pokemon[pokemon_id].forms[id].isCostume = true;
+                }
               }
             } else {
               GameMaster.pokemon[pokemon_id].default_form_id = Form_List[Pokemon_List[pokemon_id] + "_NORMAL"];
