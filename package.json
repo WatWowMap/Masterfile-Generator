@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "node-fetch": "^2.6.1",
-    "pogo-data-generator": "^1.0.6"
+    "pogo-data-generator": "^1.0.8"
   },
   "scripts": {
     "generate": "node -e 'require(\"./generate\").generate()'"

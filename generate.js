@@ -13,7 +13,7 @@ const fetch = async (url) => {
   })
 }
 
-module.exports.generate = async function () {
+module.exports.generate = async function update() {
   const template = {
     globalOptions: {
       keyJoiner: "_",
@@ -207,17 +207,14 @@ module.exports.generate = async function () {
       }
     },
   }
-
-  const data = await generate({ template })
   const rawData = await generate({ template, raw: true })
+
+  template.questRewardTypes.options.topLevelName = 'quest_reward_types'
+  template.questConditions.options.topLevelName = 'quest_conditions'
+  const data = await generate({ template })
+
   data.quest_types = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
   data.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
-
-  data.quest_reward_types = data.questRewardTypes
-  data.quest_conditions = data.questConditions
-  delete data.questRewardTypes
-  delete data.questConditions
-  delete data.questTypes
 
   Object.keys(pokemonTypes).forEach(type => {
     Object.keys(data.types).forEach(mfType => {
@@ -232,5 +229,4 @@ module.exports.generate = async function () {
 
   fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-v2.json', JSON.stringify(rawData, null, 2), 'utf8', () => { })
-
 }
