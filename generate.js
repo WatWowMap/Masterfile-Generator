@@ -38,6 +38,7 @@ module.exports.generate = async function update() {
           pokemonName: 'name'
         },
         includeEstimatedPokemon: true,
+        skipUnset: true,
       },
       template: {
         pokedexId: true,
