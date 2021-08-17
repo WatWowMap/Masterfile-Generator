@@ -38,7 +38,6 @@ module.exports.generate = async function update() {
           pokemonName: 'name'
         },
         includeEstimatedPokemon: true,
-        skipUnset: true,
       },
       template: {
         pokedexId: true,
@@ -63,7 +62,8 @@ module.exports.generate = async function update() {
           types: 'typeName',
           quickMoves: 'moveName',
           chargedMoves: 'moveName',
-          family: true
+          family: true,
+          little: true,
         },
         defaultFormId: true,
         genId: true,
@@ -208,7 +208,6 @@ module.exports.generate = async function update() {
       }
     },
   }
-  const rawData = await generate({ template, raw: true })
 
   template.questRewardTypes.options.topLevelName = 'quest_reward_types'
   template.questConditions.options.topLevelName = 'quest_conditions'
@@ -227,6 +226,11 @@ module.exports.generate = async function update() {
       }
     })
   })
+
+  template.pokemon.options.includeUnset = true
+  template.pokemon.options.unsetDetailForm = true
+
+  const rawData = await generate({ template, raw: true })
 
   fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-v2.json', JSON.stringify(rawData, null, 2), 'utf8', () => { })
