@@ -43306,7 +43306,7 @@
   "types": {
     "0": "None",
     "1": {
-      "name": "1",
+      "name": "Normal",
       "immunes": [
         "Ghost"
       ],
@@ -43319,7 +43319,7 @@
       "strengths": []
     },
     "2": {
-      "name": "2",
+      "name": "Fighting",
       "immunes": [],
       "weaknesses": [
         "Flying",
@@ -43340,7 +43340,7 @@
       ]
     },
     "3": {
-      "name": "3",
+      "name": "Flying",
       "immunes": [
         "Flying"
       ],
@@ -43361,7 +43361,7 @@
       ]
     },
     "4": {
-      "name": "4",
+      "name": "Poison",
       "immunes": [],
       "weaknesses": [
         "Ground",
@@ -43380,7 +43380,7 @@
       ]
     },
     "5": {
-      "name": "5",
+      "name": "Ground",
       "immunes": [
         "Flying"
       ],
@@ -43402,7 +43402,7 @@
       ]
     },
     "6": {
-      "name": "6",
+      "name": "Rock",
       "immunes": [],
       "weaknesses": [
         "Water",
@@ -43425,7 +43425,7 @@
       ]
     },
     "7": {
-      "name": "7",
+      "name": "Bug",
       "immunes": [],
       "weaknesses": [
         "Fire",
@@ -43444,7 +43444,7 @@
       ]
     },
     "8": {
-      "name": "8",
+      "name": "Ghost",
       "immunes": [
         "Normal",
         "Fighting"
@@ -43463,7 +43463,7 @@
       ]
     },
     "9": {
-      "name": "9",
+      "name": "Steel",
       "immunes": [
         "Poison"
       ],
@@ -43491,7 +43491,7 @@
       ]
     },
     "10": {
-      "name": "10",
+      "name": "Fire",
       "immunes": [],
       "weaknesses": [
         "Water",
@@ -43514,7 +43514,7 @@
       ]
     },
     "11": {
-      "name": "11",
+      "name": "Water",
       "immunes": [],
       "weaknesses": [
         "Grass",
@@ -43533,7 +43533,7 @@
       ]
     },
     "12": {
-      "name": "12",
+      "name": "Grass",
       "immunes": [],
       "weaknesses": [
         "Fire",
@@ -43555,7 +43555,7 @@
       ]
     },
     "13": {
-      "name": "13",
+      "name": "Electric",
       "immunes": [],
       "weaknesses": [
         "Ground"
@@ -43571,7 +43571,7 @@
       ]
     },
     "14": {
-      "name": "14",
+      "name": "Psychic",
       "immunes": [],
       "weaknesses": [
         "Bug",
@@ -43588,7 +43588,7 @@
       ]
     },
     "15": {
-      "name": "15",
+      "name": "Ice",
       "immunes": [],
       "weaknesses": [
         "Fire",
@@ -43607,7 +43607,7 @@
       ]
     },
     "16": {
-      "name": "16",
+      "name": "Dragon",
       "immunes": [],
       "weaknesses": [
         "Ice",
@@ -43625,7 +43625,7 @@
       ]
     },
     "17": {
-      "name": "17",
+      "name": "Dark",
       "immunes": [
         "Psychic"
       ],
@@ -43644,7 +43644,7 @@
       ]
     },
     "18": {
-      "name": "18",
+      "name": "Fairy",
       "immunes": [
         "Dragon"
       ],
@@ -43685,6 +43685,20 @@
       "type": "Pokeball",
       "category": "Pokeball",
       "min_trainer_level": 20
+    },
+    "4": {
+      "name": "Master Ball",
+      "proto": "ITEM_MASTER_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "min_trainer_level": 100
+    },
+    "5": {
+      "name": "Premier Ball",
+      "proto": "ITEM_PREMIER_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "min_trainer_level": 100
     },
     "101": {
       "name": "Potion",
@@ -43784,6 +43798,27 @@
       "category": "Disk",
       "min_trainer_level": 1
     },
+    "602": {
+      "name": "X Attack",
+      "proto": "ITEM_X_ATTACK",
+      "type": "Battle",
+      "category": "Boost",
+      "min_trainer_level": 100
+    },
+    "603": {
+      "name": "X Defense",
+      "proto": "ITEM_X_DEFENSE",
+      "type": "Battle",
+      "category": "Boost",
+      "min_trainer_level": 100
+    },
+    "604": {
+      "name": "X Miracle",
+      "proto": "ITEM_X_MIRACLE",
+      "type": "Battle",
+      "category": "Boost",
+      "min_trainer_level": 100
+    },
     "701": {
       "name": "Razz Berry",
       "proto": "ITEM_RAZZ_BERRY",
@@ -43791,12 +43826,26 @@
       "category": "Food",
       "min_trainer_level": 8
     },
+    "702": {
+      "name": "Bluk Berry",
+      "proto": "ITEM_BLUK_BERRY",
+      "type": "Food",
+      "category": "Food",
+      "min_trainer_level": 100
+    },
     "703": {
       "name": "Nanab Berry",
       "proto": "ITEM_NANAB_BERRY",
       "type": "Food",
       "category": "Food",
       "min_trainer_level": 4
+    },
+    "704": {
+      "name": "Wepar Berry",
+      "proto": "ITEM_WEPAR_BERRY",
+      "type": "Food",
+      "category": "Food",
+      "min_trainer_level": 100
     },
     "705": {
       "name": "Pinap Berry",
@@ -43819,6 +43868,27 @@
       "category": "Food",
       "min_trainer_level": 20
     },
+    "801": {
+      "name": "Special Camera",
+      "proto": "ITEM_SPECIAL_CAMERA",
+      "type": "Camera",
+      "category": "Camera",
+      "min_trainer_level": 100
+    },
+    "802": {
+      "name": "Sticker Inventory",
+      "proto": "ITEM_STICKER_INVENTORY",
+      "type": "Sticker Inventory",
+      "category": "Sticker",
+      "min_trainer_level": 100
+    },
+    "901": {
+      "name": "Incubator Basic Unlimited",
+      "proto": "ITEM_INCUBATOR_BASIC_UNLIMITED",
+      "type": "Incubator",
+      "category": "Incubator",
+      "min_trainer_level": 100
+    },
     "902": {
       "name": "Incubator Basic",
       "proto": "ITEM_INCUBATOR_BASIC",
@@ -43832,6 +43902,20 @@
       "type": "Incubator",
       "category": "Incubator",
       "min_trainer_level": 1
+    },
+    "1001": {
+      "name": "Pokemon Storage Upgrade",
+      "proto": "ITEM_POKEMON_STORAGE_UPGRADE",
+      "type": "Inventory Upgrade",
+      "category": "Inventory Upgrade",
+      "min_trainer_level": 100
+    },
+    "1002": {
+      "name": "Item Storage Upgrade",
+      "proto": "ITEM_ITEM_STORAGE_UPGRADE",
+      "type": "Inventory Upgrade",
+      "category": "Inventory Upgrade",
+      "min_trainer_level": 100
     },
     "1101": {
       "name": "Sun Stone",
@@ -43924,6 +44008,13 @@
       "category": "Candy",
       "min_trainer_level": 40
     },
+    "1401": {
+      "name": "Free Raid Ticket",
+      "proto": "ITEM_FREE_RAID_TICKET",
+      "type": "Raid Ticket",
+      "category": "Raid Ticket",
+      "min_trainer_level": 100
+    },
     "1402": {
       "name": "Paid Raid Ticket",
       "proto": "ITEM_PAID_RAID_TICKET",
@@ -43931,12 +44022,33 @@
       "category": "Raid Ticket",
       "min_trainer_level": 1
     },
+    "1403": {
+      "name": "Legendary Raid Ticket",
+      "proto": "ITEM_LEGENDARY_RAID_TICKET",
+      "type": "Raid Ticket",
+      "category": "Raid Ticket",
+      "min_trainer_level": 100
+    },
     "1404": {
       "name": "Star Piece",
       "proto": "ITEM_STAR_PIECE",
       "type": "Stardust Boost",
       "category": "Stardust Boost",
       "min_trainer_level": 1
+    },
+    "1405": {
+      "name": "Friend Gift Box",
+      "proto": "ITEM_FRIEND_GIFT_BOX",
+      "type": "Friend Gift Box",
+      "category": "Friend Gift Box",
+      "min_trainer_level": 100
+    },
+    "1406": {
+      "name": "Team Change",
+      "proto": "ITEM_TEAM_CHANGE",
+      "type": "Team Change",
+      "category": "Team Change",
+      "min_trainer_level": 100
     },
     "1408": {
       "name": "Remote Raid Ticket",

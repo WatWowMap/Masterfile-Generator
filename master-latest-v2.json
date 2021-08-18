@@ -49479,6 +49479,22 @@
       "category": "Pokeball",
       "minTrainerLevel": 20
     },
+    "4": {
+      "itemId": 4,
+      "itemName": "Master Ball",
+      "proto": "ITEM_MASTER_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 100
+    },
+    "5": {
+      "itemId": 5,
+      "itemName": "Premier Ball",
+      "proto": "ITEM_PREMIER_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 100
+    },
     "101": {
       "itemId": 101,
       "itemName": "Potion",
@@ -49591,6 +49607,30 @@
       "category": "Disk",
       "minTrainerLevel": 1
     },
+    "602": {
+      "itemId": 602,
+      "itemName": "X Attack",
+      "proto": "ITEM_X_ATTACK",
+      "type": "Battle",
+      "category": "Boost",
+      "minTrainerLevel": 100
+    },
+    "603": {
+      "itemId": 603,
+      "itemName": "X Defense",
+      "proto": "ITEM_X_DEFENSE",
+      "type": "Battle",
+      "category": "Boost",
+      "minTrainerLevel": 100
+    },
+    "604": {
+      "itemId": 604,
+      "itemName": "X Miracle",
+      "proto": "ITEM_X_MIRACLE",
+      "type": "Battle",
+      "category": "Boost",
+      "minTrainerLevel": 100
+    },
     "701": {
       "itemId": 701,
       "itemName": "Razz Berry",
@@ -49599,6 +49639,14 @@
       "category": "Food",
       "minTrainerLevel": 8
     },
+    "702": {
+      "itemId": 702,
+      "itemName": "Bluk Berry",
+      "proto": "ITEM_BLUK_BERRY",
+      "type": "Food",
+      "category": "Food",
+      "minTrainerLevel": 100
+    },
     "703": {
       "itemId": 703,
       "itemName": "Nanab Berry",
@@ -49606,6 +49654,14 @@
       "type": "Food",
       "category": "Food",
       "minTrainerLevel": 4
+    },
+    "704": {
+      "itemId": 704,
+      "itemName": "Wepar Berry",
+      "proto": "ITEM_WEPAR_BERRY",
+      "type": "Food",
+      "category": "Food",
+      "minTrainerLevel": 100
     },
     "705": {
       "itemId": 705,
@@ -49631,6 +49687,30 @@
       "category": "Food",
       "minTrainerLevel": 20
     },
+    "801": {
+      "itemId": 801,
+      "itemName": "Special Camera",
+      "proto": "ITEM_SPECIAL_CAMERA",
+      "type": "Camera",
+      "category": "Camera",
+      "minTrainerLevel": 100
+    },
+    "802": {
+      "itemId": 802,
+      "itemName": "Sticker Inventory",
+      "proto": "ITEM_STICKER_INVENTORY",
+      "type": "Sticker Inventory",
+      "category": "Sticker",
+      "minTrainerLevel": 100
+    },
+    "901": {
+      "itemId": 901,
+      "itemName": "Incubator Basic Unlimited",
+      "proto": "ITEM_INCUBATOR_BASIC_UNLIMITED",
+      "type": "Incubator",
+      "category": "Incubator",
+      "minTrainerLevel": 100
+    },
     "902": {
       "itemId": 902,
       "itemName": "Incubator Basic",
@@ -49646,6 +49726,22 @@
       "type": "Incubator",
       "category": "Incubator",
       "minTrainerLevel": 1
+    },
+    "1001": {
+      "itemId": 1001,
+      "itemName": "Pokemon Storage Upgrade",
+      "proto": "ITEM_POKEMON_STORAGE_UPGRADE",
+      "type": "Inventory Upgrade",
+      "category": "Inventory Upgrade",
+      "minTrainerLevel": 100
+    },
+    "1002": {
+      "itemId": 1002,
+      "itemName": "Item Storage Upgrade",
+      "proto": "ITEM_ITEM_STORAGE_UPGRADE",
+      "type": "Inventory Upgrade",
+      "category": "Inventory Upgrade",
+      "minTrainerLevel": 100
     },
     "1101": {
       "itemId": 1101,
@@ -49751,6 +49847,14 @@
       "category": "Candy",
       "minTrainerLevel": 40
     },
+    "1401": {
+      "itemId": 1401,
+      "itemName": "Free Raid Ticket",
+      "proto": "ITEM_FREE_RAID_TICKET",
+      "type": "Raid Ticket",
+      "category": "Raid Ticket",
+      "minTrainerLevel": 100
+    },
     "1402": {
       "itemId": 1402,
       "itemName": "Paid Raid Ticket",
@@ -49759,6 +49863,14 @@
       "category": "Raid Ticket",
       "minTrainerLevel": 1
     },
+    "1403": {
+      "itemId": 1403,
+      "itemName": "Legendary Raid Ticket",
+      "proto": "ITEM_LEGENDARY_RAID_TICKET",
+      "type": "Raid Ticket",
+      "category": "Raid Ticket",
+      "minTrainerLevel": 100
+    },
     "1404": {
       "itemId": 1404,
       "itemName": "Star Piece",
@@ -49766,6 +49878,22 @@
       "type": "Stardust Boost",
       "category": "Stardust Boost",
       "minTrainerLevel": 1
+    },
+    "1405": {
+      "itemId": 1405,
+      "itemName": "Friend Gift Box",
+      "proto": "ITEM_FRIEND_GIFT_BOX",
+      "type": "Friend Gift Box",
+      "category": "Friend Gift Box",
+      "minTrainerLevel": 100
+    },
+    "1406": {
+      "itemId": 1406,
+      "itemName": "Team Change",
+      "proto": "ITEM_TEAM_CHANGE",
+      "type": "Team Change",
+      "category": "Team Change",
+      "minTrainerLevel": 100
     },
     "1408": {
       "itemId": 1408,

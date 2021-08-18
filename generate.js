@@ -141,7 +141,7 @@ module.exports.generate = async function update() {
           itemId: 'id',
           itemName: 'name'
         },
-        minTrainerLevel: 50
+        minTrainerLevel: 100
       },
       template: {
         itemName: true,
@@ -220,7 +220,7 @@ module.exports.generate = async function update() {
     Object.keys(data.types).forEach(mfType => {
       if (data.types[mfType] === type) {
         data.types[mfType] = {
-          name: mfType,
+          name: data.types[mfType],
           ...pokemonTypes[type]
         }
       }
