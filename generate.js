@@ -228,7 +228,7 @@ module.exports.generate = async function update() {
   })
 
   template.pokemon.options.includeUnset = true
-  template.pokemon.options.unsetDetailForm = true
+  template.pokemon.options.unsetDefaultForm = true
 
   const rawData = await generate({ template, raw: true })
 
