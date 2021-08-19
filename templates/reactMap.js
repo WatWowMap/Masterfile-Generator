@@ -111,4 +111,21 @@ module.exports = {
       types: 'typeId'
     }
   },
+  invasions: {
+    enabled: true,
+    options: {
+      keys: {
+        main: 'id',
+        encounters: 'position'
+      },
+      placeholderData: true
+    },
+    template: {
+      type: true,
+      gender: true,
+      grunt: true,
+      secondReward: true,
+      encounters: 'id'
+    }
+  },
 }
