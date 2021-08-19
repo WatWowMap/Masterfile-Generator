@@ -1,7 +1,9 @@
 {
   "dependencies": {
-    "fs-extra": "^9.1.0",
     "node-fetch": "^2.6.1",
-    "pogo-protos": "github:Furtif/pogo-protos"
+    "pogo-data-generator": "^1.1.3"
+  },
+  "scripts": {
+    "generate": "node -e 'require(\"./generate\").generate()'"
   }
 }
