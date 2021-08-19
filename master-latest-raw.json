@@ -31742,6 +31742,32 @@
       ],
       "genId": 6,
       "generation": "Kalos",
+      "types": [
+        6,
+        18
+      ],
+      "attack": 190,
+      "defense": 285,
+      "stamina": 137,
+      "height": 0.7,
+      "weight": 8.8,
+      "quickMoves": [
+        221,
+        227
+      ],
+      "chargedMoves": [
+        64,
+        87,
+        65
+      ],
+      "family": 719,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": false,
+      "mythic": true,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -31759,12 +31785,36 @@
     "720": {
       "pokemonName": "Hoopa",
       "pokedexId": 720,
-      "defaultFormId": 0,
+      "defaultFormId": 2651,
       "forms": [
-        0,
         2651,
         2652
       ],
+      "types": [
+        14,
+        8
+      ],
+      "attack": 261,
+      "defense": 187,
+      "stamina": 173,
+      "height": 0.5,
+      "weight": 9,
+      "quickMoves": [
+        235,
+        263
+      ],
+      "chargedMoves": [
+        70,
+        30,
+        108
+      ],
+      "family": 720,
+      "fleeRate": 1,
+      "legendary": false,
+      "mythic": true,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "genId": 6,
       "generation": "Kalos"
     },
@@ -31776,7 +31826,35 @@
         0
       ],
       "genId": 6,
-      "generation": "Kalos"
+      "generation": "Kalos",
+      "types": [
+        10,
+        11
+      ],
+      "attack": 252,
+      "defense": 216,
+      "stamina": 190,
+      "height": 1.7,
+      "weight": 195,
+      "quickMoves": [
+        346,
+        230,
+        282
+      ],
+      "chargedMoves": [
+        107,
+        270,
+        304,
+        90
+      ],
+      "family": 721,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": false,
+      "mythic": true,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
     },
     "722": {
       "pokemonName": "Rowlet",
@@ -32769,401 +32847,1622 @@
       "pokemonName": "Grookey",
       "pokedexId": 810,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12
+      ],
+      "attack": 122,
+      "defense": 91,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 5,
+      "quickMoves": [
+        220,
+        215
+      ],
+      "chargedMoves": [
+        273,
+        272
+      ],
+      "family": 810,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 811,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "811": {
       "pokemonName": "Thwackey",
       "pokedexId": 811,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12
+      ],
+      "attack": 165,
+      "defense": 134,
+      "stamina": 172,
+      "height": 0.7,
+      "weight": 14,
+      "quickMoves": [
+        220,
+        215
+      ],
+      "chargedMoves": [
+        273,
+        272
+      ],
+      "family": 810,
+      "fleeRate": 0.1,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 812,
+          "formId": 0
+        }
       ]
     },
     "812": {
       "pokemonName": "Rillaboom",
       "pokedexId": 812,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12
+      ],
+      "attack": 239,
+      "defense": 168,
+      "stamina": 225,
+      "height": 2.1,
+      "weight": 90,
+      "quickMoves": [
+        220,
+        215
+      ],
+      "chargedMoves": [
+        273,
+        272,
+        304
+      ],
+      "family": 810,
+      "fleeRate": 0.1,
+      "captureRate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "813": {
       "pokemonName": "Scorbunny",
       "pokedexId": 813,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        10
+      ],
+      "attack": 132,
+      "defense": 79,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 4.5,
+      "quickMoves": [
+        221,
+        209
+      ],
+      "chargedMoves": [
+        101,
+        24
+      ],
+      "family": 813,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 814,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "814": {
       "pokemonName": "Raboot",
       "pokedexId": 814,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        10
+      ],
+      "attack": 170,
+      "defense": 125,
+      "stamina": 163,
+      "height": 0.6,
+      "weight": 9,
+      "quickMoves": [
+        221,
+        209
+      ],
+      "chargedMoves": [
+        101,
+        24
+      ],
+      "family": 813,
+      "fleeRate": 0.1,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 815,
+          "formId": 0
+        }
       ]
     },
     "815": {
       "pokemonName": "Cinderace",
       "pokedexId": 815,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        10
+      ],
+      "attack": 238,
+      "defense": 163,
+      "stamina": 190,
+      "height": 1.4,
+      "weight": 33,
+      "quickMoves": [
+        221,
+        209
+      ],
+      "chargedMoves": [
+        101,
+        24,
+        247
+      ],
+      "family": 813,
+      "fleeRate": 0.1,
+      "captureRate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "816": {
       "pokemonName": "Sobble",
       "pokedexId": 816,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11
+      ],
+      "attack": 132,
+      "defense": 79,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 4,
+      "quickMoves": [
+        222,
+        230
+      ],
+      "chargedMoves": [
+        105,
+        284
+      ],
+      "family": 816,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 817,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "817": {
       "pokemonName": "Drizzile",
       "pokedexId": 817,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11
+      ],
+      "attack": 186,
+      "defense": 113,
+      "stamina": 163,
+      "height": 0.7,
+      "weight": 11.5,
+      "quickMoves": [
+        222,
+        230
+      ],
+      "chargedMoves": [
+        105,
+        284
+      ],
+      "family": 816,
+      "fleeRate": 0.1,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 818,
+          "formId": 0
+        }
       ]
     },
     "818": {
       "pokemonName": "Inteleon",
       "pokedexId": 818,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11
+      ],
+      "attack": 262,
+      "defense": 142,
+      "stamina": 172,
+      "height": 1.9,
+      "weight": 45.2,
+      "quickMoves": [
+        222,
+        230
+      ],
+      "chargedMoves": [
+        105,
+        284,
+        70
+      ],
+      "family": 816,
+      "fleeRate": 0.1,
+      "captureRate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "819": {
       "pokemonName": "Skwovet",
       "pokedexId": 819,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        1
+      ],
+      "attack": 95,
+      "defense": 86,
+      "stamina": 172,
+      "height": 0.3,
+      "weight": 2.5,
+      "quickMoves": [
+        221,
+        202,
+        271
+      ],
+      "chargedMoves": [
+        131,
+        279
+      ],
+      "family": 819,
+      "fleeRate": 0.1,
+      "captureRate": 0.6,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 820,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "820": {
       "pokemonName": "Greedent",
       "pokedexId": 820,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        1
+      ],
+      "attack": 160,
+      "defense": 156,
+      "stamina": 260,
+      "height": 0.6,
+      "weight": 6,
+      "quickMoves": [
+        221,
+        202,
+        271
+      ],
+      "chargedMoves": [
+        131,
+        279
+      ],
+      "family": 819,
+      "fleeRate": 0.07,
+      "captureRate": 0.3,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "821": {
       "pokemonName": "Rookidee",
       "pokedexId": 821,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        3
+      ],
+      "attack": 88,
+      "defense": 67,
+      "stamina": 116,
+      "height": 0.2,
+      "weight": 1.8,
+      "quickMoves": [
+        211,
+        255
+      ],
+      "chargedMoves": [
+        38,
+        256
+      ],
+      "family": 821,
+      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 822,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "822": {
       "pokemonName": "Corvisquire",
       "pokedexId": 822,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        3
+      ],
+      "attack": 129,
+      "defense": 110,
+      "stamina": 169,
+      "height": 0.8,
+      "weight": 16,
+      "quickMoves": [
+        211,
+        255
+      ],
+      "chargedMoves": [
+        38,
+        256
+      ],
+      "family": 821,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 823,
+          "formId": 0
+        }
       ]
     },
     "823": {
       "pokemonName": "Corviknight",
       "pokedexId": 823,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        3,
+        9
+      ],
+      "attack": 163,
+      "defense": 192,
+      "stamina": 221,
+      "height": 2.2,
+      "weight": 75,
+      "quickMoves": [
+        239,
+        255
+      ],
+      "chargedMoves": [
+        38,
+        256,
+        74
+      ],
+      "family": 821,
+      "fleeRate": 0.05,
+      "captureRate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "824": {
       "pokemonName": "Blipbug",
       "pokedexId": 824,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        7
+      ],
+      "attack": 46,
+      "defense": 67,
+      "stamina": 93,
+      "height": 0.4,
+      "weight": 8,
+      "quickMoves": [
+        261
+      ],
+      "chargedMoves": [],
+      "family": 824,
+      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 825,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "825": {
       "pokemonName": "Dottler",
       "pokedexId": 825,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        7,
+        14
+      ],
+      "attack": 87,
+      "defense": 157,
+      "stamina": 137,
+      "height": 0.4,
+      "weight": 19.5,
+      "quickMoves": [
+        261,
+        235
+      ],
+      "chargedMoves": [
+        49,
+        108
+      ],
+      "family": 824,
+      "fleeRate": 0.07,
+      "captureRate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 826,
+          "formId": 0
+        }
       ]
     },
     "826": {
       "pokemonName": "Orbeetle",
       "pokedexId": 826,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        7,
+        14
+      ],
+      "attack": 156,
+      "defense": 240,
+      "stamina": 155,
+      "height": 0.4,
+      "weight": 40.8,
+      "quickMoves": [
+        261,
+        235
+      ],
+      "chargedMoves": [
+        49,
+        108
+      ],
+      "family": 824,
+      "fleeRate": 0.05,
+      "captureRate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "827": {
       "pokemonName": "Nickit",
       "pokedexId": 827,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        17
+      ],
+      "attack": 85,
+      "defense": 82,
+      "stamina": 120,
+      "height": 0.6,
+      "weight": 8.9,
+      "quickMoves": [
+        219,
+        278
+      ],
+      "chargedMoves": [
+        51,
+        88
+      ],
+      "family": 827,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 828,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "828": {
       "pokemonName": "Thievul",
       "pokedexId": 828,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        17
+      ],
+      "attack": 172,
+      "defense": 164,
+      "stamina": 172,
+      "height": 1.2,
+      "weight": 19.9,
+      "quickMoves": [
+        219,
+        278
+      ],
+      "chargedMoves": [
+        51,
+        88
+      ],
+      "family": 827,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "829": {
       "pokemonName": "Gossifleur",
       "pokedexId": 829,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12
+      ],
+      "attack": 70,
+      "defense": 104,
+      "stamina": 120,
+      "height": 0.4,
+      "weight": 2.2,
+      "quickMoves": [
+        215,
+        271
+      ],
+      "chargedMoves": [
+        273,
+        272
+      ],
+      "family": 829,
+      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 830,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "830": {
       "pokemonName": "Eldegoss",
       "pokedexId": 830,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12
+      ],
+      "attack": 148,
+      "defense": 211,
+      "stamina": 155,
+      "height": 0.5,
+      "weight": 2.5,
+      "quickMoves": [
+        215,
+        271
+      ],
+      "chargedMoves": [
+        273,
+        272
+      ],
+      "family": 829,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "831": {
       "pokemonName": "Wooloo",
       "pokedexId": 831,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        1
+      ],
+      "attack": 76,
+      "defense": 97,
+      "stamina": 123,
+      "height": 0.6,
+      "weight": 6,
+      "quickMoves": [
+        221,
+        282
+      ],
+      "chargedMoves": [
+        251,
+        333,
+        127
+      ],
+      "family": 831,
+      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 832,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "832": {
       "pokemonName": "Dubwool",
       "pokedexId": 832,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        1
+      ],
+      "attack": 159,
+      "defense": 198,
+      "stamina": 176,
+      "height": 1.3,
+      "weight": 43,
+      "quickMoves": [
+        221,
+        282
+      ],
+      "chargedMoves": [
+        251,
+        333,
+        131
+      ],
+      "family": 831,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "833": {
       "pokemonName": "Chewtle",
       "pokedexId": 833,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11
+      ],
+      "attack": 114,
+      "defense": 85,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 8.5,
+      "quickMoves": [
+        230,
+        202
+      ],
+      "chargedMoves": [
+        131,
+        284
+      ],
+      "family": 833,
+      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 834,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "834": {
       "pokemonName": "Drednaw",
       "pokedexId": 834,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11,
+        6
+      ],
+      "attack": 213,
+      "defense": 164,
+      "stamina": 207,
+      "height": 1,
+      "weight": 115.5,
+      "quickMoves": [
+        283,
+        202
+      ],
+      "chargedMoves": [
+        131,
+        284,
+        259
+      ],
+      "family": 833,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "835": {
       "pokemonName": "Yamper",
       "pokedexId": 835,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13
+      ],
+      "attack": 80,
+      "defense": 90,
+      "stamina": 153,
+      "height": 0.3,
+      "weight": 13.5,
+      "quickMoves": [
+        206,
+        202
+      ],
+      "chargedMoves": [
+        279,
+        78
+      ],
+      "family": 835,
+      "fleeRate": 0.1,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 836,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "836": {
       "pokemonName": "Boltund",
       "pokedexId": 836,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13
+      ],
+      "attack": 197,
+      "defense": 131,
+      "stamina": 170,
+      "height": 1,
+      "weight": 34,
+      "quickMoves": [
+        206,
+        202
+      ],
+      "chargedMoves": [
+        279,
+        78
+      ],
+      "family": 835,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 1,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "837": {
       "pokemonName": "Rolycoly",
       "pokedexId": 837,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        6
+      ],
+      "attack": 73,
+      "defense": 91,
+      "stamina": 102,
+      "height": 0.3,
+      "weight": 12,
+      "quickMoves": [
+        297,
+        221
+      ],
+      "chargedMoves": [
+        259,
+        64
+      ],
+      "family": 837,
+      "fleeRate": 0.15,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 838,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "838": {
       "pokemonName": "Carkol",
       "pokedexId": 838,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        6,
+        10
+      ],
+      "attack": 114,
+      "defense": 157,
+      "stamina": 190,
+      "height": 1.1,
+      "weight": 78,
+      "quickMoves": [
+        297,
+        346
+      ],
+      "chargedMoves": [
+        259,
+        64,
+        101
+      ],
+      "family": 837,
+      "fleeRate": 0.07,
+      "captureRate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 839,
+          "formId": 0
+        }
       ]
     },
     "839": {
       "pokemonName": "Coalossal",
       "pokedexId": 839,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        6,
+        10
+      ],
+      "attack": 146,
+      "defense": 198,
+      "stamina": 242,
+      "height": 2.8,
+      "weight": 310.5,
+      "quickMoves": [
+        297,
+        346
+      ],
+      "chargedMoves": [
+        259,
+        64,
+        101
+      ],
+      "family": 837,
+      "fleeRate": 0.05,
+      "captureRate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
+      "gymDefenderEligible": true
     },
     "840": {
       "pokemonName": "Applin",
       "pokedexId": 840,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12,
+        16
+      ],
+      "attack": 71,
+      "defense": 116,
+      "stamina": 120,
+      "height": 0.2,
+      "weight": 0.5,
+      "quickMoves": [
+        263
+      ],
+      "chargedMoves": [],
+      "family": 840,
+      "fleeRate": 0.09,
+      "captureRate": 0.4,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 841,
+          "formId": 0
+        },
+        {
+          "evoId": 842,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "841": {
       "pokemonName": "Flapple",
       "pokedexId": 841,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12,
+        16
+      ],
+      "attack": 214,
+      "defense": 144,
+      "stamina": 172,
+      "height": 0.3,
+      "weight": 1,
+      "quickMoves": [
+        271,
+        204
+      ],
+      "chargedMoves": [
+        82,
+        341,
+        277,
+        59
+      ],
+      "family": 840,
+      "fleeRate": 0.07,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "842": {
       "pokemonName": "Appletun",
       "pokedexId": 842,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        12,
+        16
+      ],
+      "attack": 214,
+      "defense": 144,
+      "stamina": 172,
+      "height": 0.4,
+      "weight": 13,
+      "quickMoves": [
+        271,
+        263
+      ],
+      "chargedMoves": [
+        82,
+        273,
+        277,
+        59
+      ],
+      "family": 840,
+      "fleeRate": 0.07,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "843": {
       "pokemonName": "Silicobra",
       "pokedexId": 843,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        5
+      ],
+      "attack": 103,
+      "defense": 123,
+      "stamina": 141,
+      "height": 2.2,
+      "weight": 7.6,
+      "quickMoves": [
+        233,
+        216
+      ],
+      "chargedMoves": [
+        26,
+        95,
+        304
+      ],
+      "family": 843,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 844,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "844": {
       "pokemonName": "Sandaconda",
       "pokedexId": 844,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        5
+      ],
+      "attack": 202,
+      "defense": 207,
+      "stamina": 176,
+      "height": 3.8,
+      "weight": 65.5,
+      "quickMoves": [
+        233,
+        216
+      ],
+      "chargedMoves": [
+        26,
+        95,
+        304
+      ],
+      "family": 843,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "845": {
       "pokemonName": "Cramorant",
       "pokedexId": 845,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        3,
+        11
+      ],
+      "attack": 173,
+      "defense": 163,
+      "stamina": 172,
+      "height": 0.8,
+      "weight": 18,
+      "quickMoves": [
+        211,
+        230
+      ],
+      "chargedMoves": [
+        38,
+        341,
+        107
+      ],
+      "family": 845,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "846": {
       "pokemonName": "Arrokuda",
       "pokedexId": 846,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11
+      ],
+      "attack": 118,
+      "defense": 72,
+      "stamina": 121,
+      "height": 0.5,
+      "weight": 1,
+      "quickMoves": [
+        283,
+        202,
+        211
+      ],
+      "chargedMoves": [
+        279,
+        57,
+        245
+      ],
+      "family": 846,
+      "fleeRate": 0.15,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 847,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "847": {
       "pokemonName": "Barraskewda",
       "pokedexId": 847,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11
+      ],
+      "attack": 258,
+      "defense": 127,
+      "stamina": 156,
+      "height": 1.3,
+      "weight": 30,
+      "quickMoves": [
+        283,
+        202,
+        211
+      ],
+      "chargedMoves": [
+        279,
+        57,
+        245
+      ],
+      "family": 846,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "848": {
       "pokemonName": "Toxel",
       "pokedexId": 848,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13,
+        4
+      ],
+      "attack": 97,
+      "defense": 65,
+      "stamina": 120,
+      "height": 0.4,
+      "weight": 11,
+      "quickMoves": [
+        225
+      ],
+      "chargedMoves": [
+        319
+      ],
+      "family": 848,
+      "fleeRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 849,
+          "formId": 2463
+        },
+        {
+          "evoId": 849,
+          "formId": 2464
+        }
+      ],
+      "little": true
     },
     "849": {
       "pokemonName": "Toxtricity",
       "pokedexId": 849,
-      "defaultFormId": 0,
+      "defaultFormId": 2463,
       "forms": [
-        0,
-        2463,
-        2464
+        2464,
+        2463
       ],
+      "types": [
+        13,
+        4
+      ],
+      "attack": 224,
+      "defense": 140,
+      "stamina": 181,
+      "height": 1.6,
+      "weight": 40,
+      "quickMoves": [
+        225,
+        206,
+        224
+      ],
+      "chargedMoves": [
+        303,
+        35,
+        251,
+        319
+      ],
+      "family": 848,
+      "fleeRate": 0.05,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
       "genId": 8,
       "generation": "Galar"
     },
@@ -33171,63 +34470,248 @@
       "pokemonName": "Sizzlipede",
       "pokedexId": 850,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        10,
+        7
+      ],
+      "attack": 118,
+      "defense": 90,
+      "stamina": 137,
+      "height": 0.7,
+      "weight": 1,
+      "quickMoves": [
+        201,
+        209
+      ],
+      "chargedMoves": [
+        42,
+        49,
+        279
+      ],
+      "family": 850,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 851,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "851": {
       "pokemonName": "Centiskorch",
       "pokedexId": 851,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        10,
+        7
+      ],
+      "attack": 220,
+      "defense": 158,
+      "stamina": 225,
+      "height": 3,
+      "weight": 120,
+      "quickMoves": [
+        201,
+        209
+      ],
+      "chargedMoves": [
+        42,
+        49,
+        279,
+        306
+      ],
+      "family": 850,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "852": {
       "pokemonName": "Clobbopus",
       "pokedexId": 852,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        2
+      ],
+      "attack": 121,
+      "defense": 103,
+      "stamina": 137,
+      "height": 0.6,
+      "weight": 4,
+      "quickMoves": [
+        241
+      ],
+      "chargedMoves": [
+        123,
+        310,
+        33
+      ],
+      "family": 852,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 853,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "853": {
       "pokemonName": "Grapploct",
       "pokedexId": 853,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        2
+      ],
+      "attack": 209,
+      "defense": 162,
+      "stamina": 190,
+      "height": 1.6,
+      "weight": 39,
+      "quickMoves": [
+        241,
+        283
+      ],
+      "chargedMoves": [
+        123,
+        310,
+        33,
+        284
+      ],
+      "family": 852,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "854": {
       "pokemonName": "Sinistea",
       "pokedexId": 854,
-      "defaultFormId": 0,
+      "defaultFormId": 2477,
       "forms": [
-        0,
-        2477,
-        2478
+        2478,
+        2477
       ],
+      "types": [
+        8
+      ],
+      "attack": 134,
+      "defense": 96,
+      "stamina": 120,
+      "height": 0.1,
+      "weight": 0.2,
+      "quickMoves": [
+        263,
+        203
+      ],
+      "chargedMoves": [
+        70,
+        16,
+        108
+      ],
+      "family": 854,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
       "genId": 8,
-      "generation": "Galar"
+      "generation": "Galar",
+      "evolutions": [
+        {
+          "evoId": 855,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "855": {
       "pokemonName": "Polteageist",
       "pokedexId": 855,
-      "defaultFormId": 0,
+      "defaultFormId": 2480,
       "forms": [
-        0,
-        2480,
-        2481
+        2481,
+        2480
       ],
+      "types": [
+        8
+      ],
+      "attack": 248,
+      "defense": 189,
+      "stamina": 155,
+      "height": 0.2,
+      "weight": 0.4,
+      "quickMoves": [
+        263,
+        203,
+        264
+      ],
+      "chargedMoves": [
+        70,
+        16,
+        108
+      ],
+      "family": 854,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
       "genId": 8,
       "generation": "Galar"
     },
@@ -33235,61 +34719,257 @@
       "pokemonName": "Hatenna",
       "pokedexId": 856,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        14
+      ],
+      "attack": 98,
+      "defense": 93,
+      "stamina": 123,
+      "height": 0.4,
+      "weight": 3.4,
+      "quickMoves": [
+        235,
+        320
+      ],
+      "chargedMoves": [
+        30,
+        108,
+        86
+      ],
+      "family": 856,
+      "fleeRate": 0.15,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 857,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "857": {
       "pokemonName": "Hattrem",
       "pokedexId": 857,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        14
+      ],
+      "attack": 153,
+      "defense": 133,
+      "stamina": 149,
+      "height": 0.6,
+      "weight": 4.8,
+      "quickMoves": [
+        235,
+        320
+      ],
+      "chargedMoves": [
+        30,
+        108,
+        86
+      ],
+      "family": 856,
+      "fleeRate": 0.07,
+      "captureRate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 858,
+          "formId": 0
+        }
       ]
     },
     "858": {
       "pokemonName": "Hatterene",
       "pokedexId": 858,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        14,
+        18
+      ],
+      "attack": 237,
+      "defense": 182,
+      "stamina": 149,
+      "height": 2.1,
+      "weight": 5.1,
+      "quickMoves": [
+        235,
+        320,
+        226
+      ],
+      "chargedMoves": [
+        30,
+        108,
+        86,
+        118
+      ],
+      "family": 856,
+      "fleeRate": 0.05,
+      "captureRate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "859": {
       "pokemonName": "Impidimp",
       "pokedexId": 859,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        17,
+        18
+      ],
+      "attack": 103,
+      "defense": 69,
+      "stamina": 128,
+      "height": 0.4,
+      "weight": 5.5,
+      "quickMoves": [
+        202,
+        203
+      ],
+      "chargedMoves": [
+        280,
+        16,
+        88
+      ],
+      "family": 859,
+      "fleeRate": 0.15,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 860,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "860": {
       "pokemonName": "Morgrem",
       "pokedexId": 860,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        17,
+        18
+      ],
+      "attack": 145,
+      "defense": 102,
+      "stamina": 163,
+      "height": 0.8,
+      "weight": 12.5,
+      "quickMoves": [
+        202,
+        203
+      ],
+      "chargedMoves": [
+        280,
+        16,
+        88
+      ],
+      "family": 859,
+      "fleeRate": 0.07,
+      "captureRate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 861,
+          "formId": 0
+        }
       ]
     },
     "861": {
       "pokemonName": "Grimmsnarl",
       "pokedexId": 861,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        17,
+        18
+      ],
+      "attack": 227,
+      "defense": 139,
+      "stamina": 216,
+      "height": 1.5,
+      "weight": 61,
+      "quickMoves": [
+        202,
+        203,
+        207
+      ],
+      "chargedMoves": [
+        280,
+        16,
+        88,
+        319
+      ],
+      "family": 859,
+      "fleeRate": 0.05,
+      "captureRate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "862": {
       "pokemonName": "Obstagoon",
@@ -33375,13 +35055,40 @@
     "864": {
       "pokemonName": "Cursola",
       "pokedexId": 864,
-      "defaultFormId": 0,
+      "defaultFormId": 2507,
       "forms": [
-        0,
         2507,
-        2508,
-        2509
+        2509,
+        2508
       ],
+      "types": [
+        8
+      ],
+      "attack": 253,
+      "defense": 182,
+      "stamina": 155,
+      "height": 1,
+      "weight": 0.4,
+      "quickMoves": [
+        263,
+        264
+      ],
+      "chargedMoves": [
+        259,
+        104,
+        265,
+        70
+      ],
+      "family": 222,
+      "fleeRate": 0.07,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
       "genId": 8,
       "generation": "Galar"
     },
@@ -33510,105 +35217,387 @@
       "pokemonName": "Milcery",
       "pokedexId": 868,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        18
+      ],
+      "attack": 90,
+      "defense": 97,
+      "stamina": 128,
+      "height": 0.2,
+      "weight": 0.3,
+      "quickMoves": [
+        221,
+        320
+      ],
+      "chargedMoves": [
+        86
+      ],
+      "family": 868,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 869,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "869": {
       "pokemonName": "Alcremie",
       "pokedexId": 869,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        18
+      ],
+      "attack": 203,
+      "defense": 203,
+      "stamina": 163,
+      "height": 0.3,
+      "weight": 0.5,
+      "quickMoves": [
+        221,
+        320
+      ],
+      "chargedMoves": [
+        86,
+        60,
+        273
+      ],
+      "family": 868,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true
     },
     "870": {
       "pokemonName": "Falinks",
       "pokedexId": 870,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        2
+      ],
+      "attack": 193,
+      "defense": 170,
+      "stamina": 163,
+      "height": 3,
+      "weight": 62,
+      "quickMoves": [
+        241,
+        243
+      ],
+      "chargedMoves": [
+        310,
+        123,
+        22
+      ],
+      "family": 870,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "871": {
       "pokemonName": "Pincurchin",
       "pokedexId": 871,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13
+      ],
+      "attack": 176,
+      "defense": 161,
+      "stamina": 134,
+      "height": 0.3,
+      "weight": 1,
+      "quickMoves": [
+        205,
+        230,
+        224
+      ],
+      "chargedMoves": [
+        35,
+        79,
+        53
+      ],
+      "family": 871,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "872": {
       "pokemonName": "Snom",
       "pokedexId": 872,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        15,
+        7
+      ],
+      "attack": 76,
+      "defense": 59,
+      "stamina": 102,
+      "height": 0.3,
+      "weight": 3.8,
+      "quickMoves": [
+        244,
+        261
+      ],
+      "chargedMoves": [
+        111,
+        49
+      ],
+      "family": 872,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 873,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "873": {
       "pokemonName": "Frosmoth",
       "pokedexId": 873,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        15,
+        7
+      ],
+      "attack": 230,
+      "defense": 155,
+      "stamina": 172,
+      "height": 1.3,
+      "weight": 42,
+      "quickMoves": [
+        244,
+        201
+      ],
+      "chargedMoves": [
+        111,
+        49,
+        39,
+        122
+      ],
+      "family": 872,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "874": {
       "pokemonName": "Stonjourner",
       "pokedexId": 874,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        6
+      ],
+      "attack": 222,
+      "defense": 182,
+      "stamina": 225,
+      "height": 2.5,
+      "weight": 520,
+      "quickMoves": [
+        227
+      ],
+      "chargedMoves": [
+        32,
+        64,
+        127
+      ],
+      "family": 874,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "875": {
       "pokemonName": "Eiscue",
       "pokedexId": 875,
-      "defaultFormId": 0,
+      "defaultFormId": 2540,
       "forms": [
-        0,
         2540,
         2541
       ],
+      "types": [
+        15
+      ],
+      "attack": 148,
+      "defense": 195,
+      "stamina": 181,
+      "height": 1.4,
+      "weight": 89,
+      "quickMoves": [
+        244
+      ],
+      "chargedMoves": [
+        111,
+        293,
+        284
+      ],
+      "family": 875,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
       "genId": 8,
       "generation": "Galar"
     },
     "876": {
       "pokemonName": "Indeedee",
       "pokedexId": 876,
-      "defaultFormId": 0,
+      "defaultFormId": 2542,
       "forms": [
-        0,
-        2542,
-        2543
+        2543,
+        2542
       ],
+      "types": [
+        14,
+        1
+      ],
+      "attack": 208,
+      "defense": 166,
+      "stamina": 155,
+      "height": 0.9,
+      "weight": 28,
+      "quickMoves": [
+        274
+      ],
+      "chargedMoves": [
+        30,
+        108,
+        70
+      ],
+      "family": 876,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
       "genId": 8,
       "generation": "Galar"
     },
     "877": {
       "pokemonName": "Morpeko",
       "pokedexId": 877,
-      "defaultFormId": 0,
+      "defaultFormId": 2544,
       "forms": [
-        0,
         2544,
         2545
       ],
+      "types": [
+        13,
+        17
+      ],
+      "attack": 192,
+      "defense": 121,
+      "stamina": 151,
+      "height": 0.3,
+      "weight": 3,
+      "quickMoves": [
+        205,
+        202
+      ],
+      "chargedMoves": [
+        279,
+        333,
+        79,
+        251
+      ],
+      "family": 877,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
       "genId": 8,
       "generation": "Galar"
     },
@@ -33616,135 +35605,514 @@
       "pokemonName": "Cufant",
       "pokedexId": 878,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        9
+      ],
+      "attack": 140,
+      "defense": 91,
+      "stamina": 176,
+      "height": 1.2,
+      "weight": 100,
+      "quickMoves": [
+        221,
+        241
+      ],
+      "chargedMoves": [
+        74,
+        26,
+        88
+      ],
+      "family": 878,
+      "fleeRate": 0.2,
+      "captureRate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 879,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "879": {
       "pokemonName": "Copperajah",
       "pokedexId": 879,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        9
+      ],
+      "attack": 226,
+      "defense": 126,
+      "stamina": 263,
+      "height": 1.2,
+      "weight": 100,
+      "quickMoves": [
+        221,
+        241
+      ],
+      "chargedMoves": [
+        74,
+        26,
+        88,
+        268
+      ],
+      "family": 878,
+      "fleeRate": 0.07,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "880": {
       "pokemonName": "Dracozolt",
       "pokedexId": 880,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13,
+        16
+      ],
+      "attack": 195,
+      "defense": 165,
+      "stamina": 207,
+      "height": 1.8,
+      "weight": 190,
+      "quickMoves": [
+        253,
+        205
+      ],
+      "chargedMoves": [
+        35,
+        82,
+        62
+      ],
+      "family": 880,
+      "fleeRate": 0.09,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "881": {
       "pokemonName": "Arctozolt",
       "pokedexId": 881,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13,
+        15
+      ],
+      "attack": 190,
+      "defense": 166,
+      "stamina": 207,
+      "height": 2.3,
+      "weight": 150,
+      "quickMoves": [
+        244,
+        205
+      ],
+      "chargedMoves": [
+        35,
+        254,
+        62
+      ],
+      "family": 881,
+      "fleeRate": 0.09,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "882": {
       "pokemonName": "Dracovish",
       "pokedexId": 882,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11,
+        16
+      ],
+      "attack": 175,
+      "defense": 185,
+      "stamina": 207,
+      "height": 2.3,
+      "weight": 215,
+      "quickMoves": [
+        204,
+        230
+      ],
+      "chargedMoves": [
+        104,
+        82,
+        62
+      ],
+      "family": 882,
+      "fleeRate": 0.09,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "883": {
       "pokemonName": "Arctovish",
       "pokedexId": 883,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        11,
+        15
+      ],
+      "attack": 171,
+      "defense": 185,
+      "stamina": 207,
+      "height": 2,
+      "weight": 175,
+      "quickMoves": [
+        244,
+        230
+      ],
+      "chargedMoves": [
+        104,
+        254,
+        62
+      ],
+      "family": 883,
+      "fleeRate": 0.09,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "884": {
       "pokemonName": "Duraludon",
       "pokedexId": 884,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        9,
+        16
+      ],
+      "attack": 239,
+      "defense": 185,
+      "stamina": 172,
+      "height": 1.8,
+      "weight": 40,
+      "quickMoves": [
+        253,
+        228
+      ],
+      "chargedMoves": [
+        36,
+        83,
+        14
+      ],
+      "family": 884,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "885": {
       "pokemonName": "Dreepy",
       "pokedexId": 885,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        16,
+        8
+      ],
+      "attack": 117,
+      "defense": 61,
+      "stamina": 99,
+      "height": 0.5,
+      "weight": 2,
+      "quickMoves": [
+        263,
+        219
+      ],
+      "chargedMoves": [],
+      "family": 885,
+      "fleeRate": 0.09,
+      "captureRate": 0.4,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 886,
+          "formId": 0
+        }
+      ],
+      "little": true
     },
     "886": {
       "pokemonName": "Drakloak",
       "pokedexId": 886,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        16,
+        8
+      ],
+      "attack": 163,
+      "defense": 105,
+      "stamina": 169,
+      "height": 1.4,
+      "weight": 11,
+      "quickMoves": [
+        263,
+        253
+      ],
+      "chargedMoves": [
+        82,
+        70,
+        277
+      ],
+      "family": 885,
+      "fleeRate": 0.07,
+      "captureRate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "evolutions": [
+        {
+          "evoId": 887,
+          "formId": 0
+        }
       ]
     },
     "887": {
       "pokemonName": "Dragapult",
       "pokedexId": 887,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        16,
+        8
+      ],
+      "attack": 266,
+      "defense": 170,
+      "stamina": 204,
+      "height": 3,
+      "weight": 50,
+      "quickMoves": [
+        264,
+        253
+      ],
+      "chargedMoves": [
+        82,
+        70,
+        277
+      ],
+      "family": 885,
+      "fleeRate": 0.05,
+      "captureRate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true
     },
     "888": {
       "pokemonName": "Zacian",
       "pokedexId": 888,
-      "defaultFormId": 0,
+      "defaultFormId": 2577,
       "forms": [
-        0,
         2576,
         2577
       ],
+      "types": [
+        18,
+        9
+      ],
+      "attack": 254,
+      "defense": 236,
+      "stamina": 192,
+      "height": 2.8,
+      "weight": 110,
+      "quickMoves": [
+        228,
+        278,
+        219,
+        240
+      ],
+      "chargedMoves": [
+        88,
+        74,
+        251,
+        245
+      ],
+      "family": 888,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 3,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "genId": 8,
       "generation": "Galar"
     },
     "889": {
       "pokemonName": "Zamazenta",
       "pokedexId": 889,
-      "defaultFormId": 0,
+      "defaultFormId": 2579,
       "forms": [
-        0,
         2578,
         2579
       ],
+      "types": [
+        2,
+        9
+      ],
+      "attack": 254,
+      "defense": 236,
+      "stamina": 192,
+      "height": 2.9,
+      "weight": 210,
+      "quickMoves": [
+        228,
+        278,
+        219,
+        327
+      ],
+      "chargedMoves": [
+        87,
+        74,
+        279,
+        245
+      ],
+      "family": 889,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 3,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "genId": 8,
       "generation": "Galar"
     },
     "890": {
       "pokemonName": "Eternatus",
       "pokedexId": 890,
-      "defaultFormId": 0,
+      "defaultFormId": 2581,
       "forms": [
-        0,
         2580,
         2581
       ],
+      "types": [
+        4,
+        16
+      ],
+      "attack": 278,
+      "defense": 192,
+      "stamina": 268,
+      "height": 20,
+      "weight": 950,
+      "quickMoves": [
+        253,
+        224
+      ],
+      "chargedMoves": [
+        89,
+        82,
+        24
+      ],
+      "family": 890,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "genId": 8,
       "generation": "Galar"
     },
@@ -33752,21 +36120,83 @@
       "pokemonName": "Kubfu",
       "pokedexId": 891,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        2
+      ],
+      "attack": 170,
+      "defense": 112,
+      "stamina": 155,
+      "height": 0.6,
+      "weight": 12,
+      "quickMoves": [
+        241,
+        243
+      ],
+      "chargedMoves": [
+        123,
+        246,
+        245
+      ],
+      "family": 891,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 892,
+          "formId": 2723
+        },
+        {
+          "evoId": 892,
+          "formId": 2724
+        }
+      ],
+      "little": true
     },
     "892": {
       "pokemonName": "Urshifu",
       "pokedexId": 892,
-      "defaultFormId": 0,
+      "defaultFormId": 2723,
       "forms": [
-        0,
-        2723,
-        2724
+        2724,
+        2723
       ],
+      "types": [
+        2
+      ],
+      "attack": 231,
+      "defense": 162,
+      "stamina": 205,
+      "height": 1.9,
+      "weight": 105,
+      "quickMoves": [
+        241,
+        243
+      ],
+      "chargedMoves": [
+        123,
+        246,
+        245
+      ],
+      "family": 891,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "genId": 8,
       "generation": "Galar"
     },
@@ -33774,62 +36204,219 @@
       "pokemonName": "Zarude",
       "pokedexId": 893,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        17,
+        12
+      ],
+      "attack": 242,
+      "defense": 215,
+      "stamina": 233,
+      "height": 1.8,
+      "weight": 70,
+      "quickMoves": [
+        214,
+        202
+      ],
+      "chargedMoves": [
+        118,
+        273,
+        16
+      ],
+      "family": 893,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": false,
+      "mythic": true,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
     },
     "894": {
       "pokemonName": "Regieleki",
       "pokedexId": 894,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        13
+      ],
+      "attack": 228,
+      "defense": 114,
+      "stamina": 173,
+      "height": 1.2,
+      "weight": 145,
+      "quickMoves": [
+        205,
+        325
+      ],
+      "chargedMoves": [
+        79,
+        78,
+        251
+      ],
+      "family": 894,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
     },
     "895": {
       "pokemonName": "Regidrago",
       "pokedexId": 895,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        16
+      ],
+      "attack": 184,
+      "defense": 92,
+      "stamina": 364,
+      "height": 2.1,
+      "weight": 200,
+      "quickMoves": [
+        202,
+        325
+      ],
+      "chargedMoves": [
+        83,
+        277,
+        82
+      ],
+      "family": 895,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
     },
     "896": {
       "pokemonName": "Glastrier",
       "pokedexId": 896,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        15
+      ],
+      "attack": 224,
+      "defense": 203,
+      "stamina": 205,
+      "height": 2.2,
+      "weight": 800,
+      "quickMoves": [
+        221,
+        282
+      ],
+      "chargedMoves": [
+        254,
+        111,
+        95
+      ],
+      "family": 896,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
     },
     "897": {
       "pokemonName": "Spectrier",
       "pokedexId": 897,
       "defaultFormId": 0,
-      "genId": 8,
-      "generation": "Galar",
       "forms": [
         0
-      ]
+      ],
+      "genId": 8,
+      "generation": "Galar",
+      "types": [
+        8
+      ],
+      "attack": 273,
+      "defense": 146,
+      "stamina": 205,
+      "height": 2,
+      "weight": 44.5,
+      "quickMoves": [
+        221,
+        282
+      ],
+      "chargedMoves": [
+        70,
+        280,
+        95
+      ],
+      "family": 897,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
     },
     "898": {
       "pokemonName": "Calyrex",
       "pokedexId": 898,
-      "defaultFormId": 0,
+      "defaultFormId": 2725,
       "forms": [
-        0,
-        2725,
         2726,
+        2725,
         2727
       ],
+      "types": [
+        14,
+        12
+      ],
+      "attack": 147,
+      "defense": 147,
+      "stamina": 205,
+      "height": 1.1,
+      "weight": 7.7,
+      "quickMoves": [
+        222,
+        235
+      ],
+      "chargedMoves": [
+        60,
+        108,
+        273
+      ],
+      "family": 898,
+      "fleeRate": 0.1,
+      "captureRate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddyGroupNumber": 2,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "genId": 8,
       "generation": "Galar"
     }
@@ -48420,12 +51007,24 @@
     "2477": {
       "formName": "Phony",
       "proto": "SINISTEA_PHONY",
-      "formId": 2477
+      "formId": 2477,
+      "evolutions": [
+        {
+          "evoId": 855,
+          "formId": 2480
+        }
+      ]
     },
     "2478": {
       "formName": "Antique",
       "proto": "SINISTEA_ANTIQUE",
-      "formId": 2478
+      "formId": 2478,
+      "evolutions": [
+        {
+          "evoId": 855,
+          "formId": 2481
+        }
+      ]
     },
     "2480": {
       "formName": "Phony",
@@ -48535,7 +51134,10 @@
     "2541": {
       "formName": "Noice",
       "proto": "EISCUE_NOICE",
-      "formId": 2541
+      "formId": 2541,
+      "attack": 173,
+      "defense": 139,
+      "stamina": 181
     },
     "2542": {
       "formName": "Male",
@@ -48545,7 +51147,15 @@
     "2543": {
       "formName": "Female",
       "proto": "INDEEDEE_FEMALE",
-      "formId": 2543
+      "formId": 2543,
+      "attack": 184,
+      "defense": 184,
+      "stamina": 172,
+      "chargedMoves": [
+        30,
+        108,
+        273
+      ]
     },
     "2544": {
       "formName": "Full Belly",
@@ -48560,27 +51170,48 @@
     "2576": {
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
-      "formId": 2576
+      "formId": 2576,
+      "attack": 332,
+      "defense": 240,
+      "stamina": 192
     },
     "2577": {
       "formName": "Hero",
       "proto": "ZACIAN_HERO",
-      "formId": 2577
+      "formId": 2577,
+      "types": [
+        18
+      ]
     },
     "2578": {
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
-      "formId": 2578
+      "formId": 2578,
+      "attack": 250,
+      "defense": 292,
+      "stamina": 192
     },
     "2579": {
       "formName": "Hero",
       "proto": "ZAMAZENTA_HERO",
-      "formId": 2579
+      "formId": 2579,
+      "types": [
+        2
+      ]
     },
     "2580": {
       "formName": "Eternamax",
       "proto": "ETERNATUS_ETERNAMAX",
-      "formId": 2580
+      "formId": 2580,
+      "attack": 251,
+      "defense": 505,
+      "stamina": 452,
+      "chargedMoves": [
+        89,
+        82,
+        24,
+        14
+      ]
     },
     "2581": {
       "formName": "Normal",
@@ -49022,7 +51653,21 @@
     "2652": {
       "formName": "Unbound",
       "proto": "HOOPA_UNBOUND",
-      "formId": 2652
+      "formId": 2652,
+      "attack": 311,
+      "defense": 191,
+      "stamina": 173,
+      "height": 6.5,
+      "weight": 490,
+      "chargedMoves": [
+        70,
+        16,
+        108
+      ],
+      "types": [
+        14,
+        17
+      ]
     },
     "2666": {
       "formName": "Costume 2020 Deprecated",
@@ -49353,12 +51998,42 @@
     "2723": {
       "formName": "Single Strike",
       "proto": "URSHIFU_SINGLE_STRIKE",
-      "formId": 2723
+      "formId": 2723,
+      "quickMoves": [
+        241,
+        243,
+        203
+      ],
+      "chargedMoves": [
+        123,
+        246,
+        245,
+        333
+      ],
+      "types": [
+        2,
+        17
+      ]
     },
     "2724": {
       "formName": "Rapid Strike",
       "proto": "URSHIFU_RAPID_STRIKE",
-      "formId": 2724
+      "formId": 2724,
+      "quickMoves": [
+        241,
+        243,
+        283
+      ],
+      "chargedMoves": [
+        123,
+        246,
+        245,
+        57
+      ],
+      "types": [
+        2,
+        11
+      ]
     },
     "2725": {
       "formName": "Normal",
@@ -49368,12 +52043,50 @@
     "2726": {
       "formName": "Ice Rider",
       "proto": "CALYREX_ICE_RIDER",
-      "formId": 2726
+      "formId": 2726,
+      "attack": 268,
+      "defense": 246,
+      "stamina": 205,
+      "height": 2.4,
+      "weight": 809.1,
+      "quickMoves": [
+        235,
+        282
+      ],
+      "chargedMoves": [
+        60,
+        108,
+        273,
+        254
+      ],
+      "types": [
+        14,
+        15
+      ]
     },
     "2727": {
       "formName": "Shadow Rider",
       "proto": "CALYREX_SHADOW_RIDER",
-      "formId": 2727
+      "formId": 2727,
+      "attack": 324,
+      "defense": 194,
+      "stamina": 205,
+      "height": 2.4,
+      "weight": 53.6,
+      "quickMoves": [
+        235,
+        282
+      ],
+      "chargedMoves": [
+        60,
+        108,
+        273,
+        70
+      ],
+      "types": [
+        14,
+        8
+      ]
     }
   },
   "types": {
@@ -51856,7 +54569,279 @@
       "proto": "WEATHER_BALL_NORMAL"
     }
   },
-  "quest_reward_types": {
+  "questTypes": {
+    "0": {
+      "id": 0,
+      "proto": "QUEST_UNSET",
+      "formatted": "Unset"
+    },
+    "1": {
+      "id": 1,
+      "proto": "QUEST_FIRST_CATCH_OF_THE_DAY",
+      "formatted": "First Catch Of The Day"
+    },
+    "2": {
+      "id": 2,
+      "proto": "QUEST_FIRST_POKESTOP_OF_THE_DAY",
+      "formatted": "First Pokestop Of The Day"
+    },
+    "3": {
+      "id": 3,
+      "proto": "QUEST_MULTI_PART",
+      "formatted": "Multi Part"
+    },
+    "4": {
+      "id": 4,
+      "proto": "QUEST_CATCH_POKEMON",
+      "formatted": "Catch Pokemon"
+    },
+    "5": {
+      "id": 5,
+      "proto": "QUEST_SPIN_POKESTOP",
+      "formatted": "Spin Pokestop"
+    },
+    "6": {
+      "id": 6,
+      "proto": "QUEST_HATCH_EGG",
+      "formatted": "Hatch Egg"
+    },
+    "7": {
+      "id": 7,
+      "proto": "QUEST_COMPLETE_GYM_BATTLE",
+      "formatted": "Complete Gym Battle"
+    },
+    "8": {
+      "id": 8,
+      "proto": "QUEST_COMPLETE_RAID_BATTLE",
+      "formatted": "Complete Raid Battle"
+    },
+    "9": {
+      "id": 9,
+      "proto": "QUEST_COMPLETE_QUEST",
+      "formatted": "Complete Quest"
+    },
+    "10": {
+      "id": 10,
+      "proto": "QUEST_TRANSFER_POKEMON",
+      "formatted": "Transfer Pokemon"
+    },
+    "11": {
+      "id": 11,
+      "proto": "QUEST_FAVORITE_POKEMON",
+      "formatted": "Favorite Pokemon"
+    },
+    "12": {
+      "id": 12,
+      "proto": "QUEST_AUTOCOMPLETE",
+      "formatted": "Autocomplete"
+    },
+    "13": {
+      "id": 13,
+      "proto": "QUEST_USE_BERRY_IN_ENCOUNTER",
+      "formatted": "Use Berry In Encounter"
+    },
+    "14": {
+      "id": 14,
+      "proto": "QUEST_UPGRADE_POKEMON",
+      "formatted": "Upgrade Pokemon"
+    },
+    "15": {
+      "id": 15,
+      "proto": "QUEST_EVOLVE_POKEMON",
+      "formatted": "Evolve Pokemon"
+    },
+    "16": {
+      "id": 16,
+      "proto": "QUEST_LAND_THROW",
+      "formatted": "Land Throw"
+    },
+    "17": {
+      "id": 17,
+      "proto": "QUEST_GET_BUDDY_CANDY",
+      "formatted": "Get Buddy Candy"
+    },
+    "18": {
+      "id": 18,
+      "proto": "QUEST_BADGE_RANK",
+      "formatted": "Badge Rank"
+    },
+    "19": {
+      "id": 19,
+      "proto": "QUEST_PLAYER_LEVEL",
+      "formatted": "Player Level"
+    },
+    "20": {
+      "id": 20,
+      "proto": "QUEST_JOIN_RAID",
+      "formatted": "Join Raid"
+    },
+    "21": {
+      "id": 21,
+      "proto": "QUEST_COMPLETE_BATTLE",
+      "formatted": "Complete Battle"
+    },
+    "22": {
+      "id": 22,
+      "proto": "QUEST_ADD_FRIEND",
+      "formatted": "Add Friend"
+    },
+    "23": {
+      "id": 23,
+      "proto": "QUEST_TRADE_POKEMON",
+      "formatted": "Trade Pokemon"
+    },
+    "24": {
+      "id": 24,
+      "proto": "QUEST_SEND_GIFT",
+      "formatted": "Send Gift"
+    },
+    "25": {
+      "id": 25,
+      "proto": "QUEST_EVOLVE_INTO_POKEMON",
+      "formatted": "Evolve Into Pokemon"
+    },
+    "27": {
+      "id": 27,
+      "proto": "QUEST_COMPLETE_COMBAT",
+      "formatted": "Complete Combat"
+    },
+    "28": {
+      "id": 28,
+      "proto": "QUEST_TAKE_SNAPSHOT",
+      "formatted": "Take Snapshot"
+    },
+    "29": {
+      "id": 29,
+      "proto": "QUEST_BATTLE_TEAM_ROCKET",
+      "formatted": "Battle Team Rocket"
+    },
+    "30": {
+      "id": 30,
+      "proto": "QUEST_PURIFY_POKEMON",
+      "formatted": "Purify Pokemon"
+    },
+    "31": {
+      "id": 31,
+      "proto": "QUEST_FIND_TEAM_ROCKET",
+      "formatted": "Find Team Rocket"
+    },
+    "32": {
+      "id": 32,
+      "proto": "QUEST_FIRST_GRUNT_OF_THE_DAY",
+      "formatted": "First Grunt Of The Day"
+    },
+    "33": {
+      "id": 33,
+      "proto": "QUEST_BUDDY_FEED",
+      "formatted": "Buddy Feed"
+    },
+    "34": {
+      "id": 34,
+      "proto": "QUEST_BUDDY_EARN_AFFECTION_POINTS",
+      "formatted": "Buddy Earn Affection Points"
+    },
+    "35": {
+      "id": 35,
+      "proto": "QUEST_BUDDY_PET",
+      "formatted": "Buddy Pet"
+    },
+    "36": {
+      "id": 36,
+      "proto": "QUEST_BUDDY_LEVEL",
+      "formatted": "Buddy Level"
+    },
+    "37": {
+      "id": 37,
+      "proto": "QUEST_BUDDY_WALK",
+      "formatted": "Buddy Walk"
+    },
+    "38": {
+      "id": 38,
+      "proto": "QUEST_BUDDY_YATTA",
+      "formatted": "Buddy Yatta"
+    },
+    "39": {
+      "id": 39,
+      "proto": "QUEST_USE_INCENSE",
+      "formatted": "Use Incense"
+    },
+    "40": {
+      "id": 40,
+      "proto": "QUEST_BUDDY_FIND_SOUVENIR",
+      "formatted": "Buddy Find Souvenir"
+    },
+    "41": {
+      "id": 41,
+      "proto": "QUEST_COLLECT_AS_REWARDS",
+      "formatted": "Collect As Rewards"
+    },
+    "42": {
+      "id": 42,
+      "proto": "QUEST_WALK",
+      "formatted": "Walk"
+    },
+    "43": {
+      "id": 43,
+      "proto": "QUEST_MEGA_EVOLVE_POKEMON",
+      "formatted": "Mega Evolve Pokemon"
+    },
+    "44": {
+      "id": 44,
+      "proto": "QUEST_GET_STARDUST",
+      "formatted": "Get Stardust"
+    },
+    "45": {
+      "id": 45,
+      "proto": "QUEST_MINI_COLLECTION",
+      "formatted": "Mini Collection"
+    },
+    "46": {
+      "id": 46,
+      "proto": "QUEST_GEOTARGETED_AR_SCAN",
+      "formatted": "Geotargeted Ar Scan"
+    },
+    "50": {
+      "id": 50,
+      "proto": "QUEST_BUDDY_EVOLUTION_WALK",
+      "formatted": "Buddy Evolution Walk"
+    },
+    "51": {
+      "id": 51,
+      "proto": "QUEST_GBL_RANK",
+      "formatted": "GBL Rank"
+    },
+    "53": {
+      "id": 53,
+      "proto": "QUEST_CHARGE_ATTACK",
+      "formatted": "Charge Attack"
+    },
+    "54": {
+      "id": 54,
+      "proto": "QUEST_CHANGE_POKEMON_FORM",
+      "formatted": "Change Pokemon Form"
+    },
+    "55": {
+      "id": 55,
+      "proto": "QUEST_BATTLE_EVENT_NPC",
+      "formatted": "Battle Event NPC"
+    },
+    "56": {
+      "id": 56,
+      "proto": "QUEST_EARN_FORT_POWER_UP_POINTS",
+      "formatted": "Earn Fort Power Up Points"
+    },
+    "57": {
+      "id": 57,
+      "proto": "QUEST_TAKE_WILD_SNAPSHOT",
+      "formatted": "Take Wild Snapshot"
+    },
+    "58": {
+      "id": 58,
+      "proto": "QUEST_USE_POKEMON_ITEM",
+      "formatted": "Use Pokemon Item"
+    }
+  },
+  "questRewardTypes": {
     "0": {
       "id": 0,
       "proto": "UNSET",
@@ -51923,7 +54908,7 @@
       "formatted": "Mega Resource"
     }
   },
-  "quest_conditions": {
+  "questConditions": {
     "0": {
       "id": 0,
       "proto": "UNSET",
@@ -52927,13 +55912,13 @@
           "position": "second"
         },
         {
-          "id": 97,
-          "formId": 218,
+          "id": 103,
+          "formId": 732,
           "position": "third"
         },
         {
-          "id": 103,
-          "formId": 732,
+          "id": 97,
+          "formId": 218,
           "position": "third"
         },
         {
@@ -53325,13 +56310,13 @@
           "position": "second"
         },
         {
-          "id": 477,
-          "formId": 921,
+          "id": 354,
+          "formId": 912,
           "position": "third"
         },
         {
-          "id": 354,
-          "formId": 912,
+          "id": 477,
+          "formId": 921,
           "position": "third"
         },
         {

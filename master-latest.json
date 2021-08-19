@@ -40665,6 +40665,31 @@
       },
       "gen_id": 6,
       "generation": "Kalos",
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "attack": 190,
+      "defense": 285,
+      "stamina": 137,
+      "height": 0.7,
+      "weight": 8.8,
+      "quick_moves": [
+        "Tackle",
+        "Rock Throw"
+      ],
+      "charged_moves": [
+        "Rock Slide",
+        "Moonblast",
+        "Power Gem"
+      ],
+      "family": 719,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": false,
+      "mythic": true,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "temp_evolutions": {
         "1": {
           "attack": 342,
@@ -40689,9 +40714,47 @@
         },
         "2652": {
           "name": "Unbound",
-          "proto": "HOOPA_UNBOUND"
+          "proto": "HOOPA_UNBOUND",
+          "attack": 311,
+          "defense": 191,
+          "stamina": 173,
+          "height": 6.5,
+          "weight": 490,
+          "charged_moves": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Psychic"
+          ],
+          "types": [
+            "Psychic",
+            "Dark"
+          ]
         }
       },
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "attack": 261,
+      "defense": 187,
+      "stamina": 173,
+      "height": 0.5,
+      "weight": 9,
+      "quick_moves": [
+        "Confusion",
+        "Astonish"
+      ],
+      "charged_moves": [
+        "Shadow Ball",
+        "Psybeam",
+        "Psychic"
+      ],
+      "family": 720,
+      "flee_rate": 1,
+      "legendary": false,
+      "mythic": true,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "gen_id": 6,
       "generation": "Kalos"
     },
@@ -40705,7 +40768,34 @@
         }
       },
       "gen_id": 6,
-      "generation": "Kalos"
+      "generation": "Kalos",
+      "types": [
+        "Fire",
+        "Water"
+      ],
+      "attack": 252,
+      "defense": 216,
+      "stamina": 190,
+      "height": 1.7,
+      "weight": 195,
+      "quick_moves": [
+        "Incinerate",
+        "Water Gun",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Hydro Pump",
+        "Overheat",
+        "Earth Power",
+        "Sludge Bomb"
+      ],
+      "family": 721,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": false,
+      "mythic": true,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "722": {
       "name": "Rowlet",
@@ -41988,469 +42078,1600 @@
       "name": "Grookey",
       "pokedex_id": 810,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass"
+      ],
+      "attack": 122,
+      "defense": 91,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 5,
+      "quick_moves": [
+        "Scratch",
+        "Razor Leaf"
+      ],
+      "charged_moves": [
+        "Energy Ball",
+        "Grass Knot"
+      ],
+      "family": 810,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 811
+        }
+      ],
+      "little": true
     },
     "811": {
       "name": "Thwackey",
       "pokedex_id": 811,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass"
+      ],
+      "attack": 165,
+      "defense": 134,
+      "stamina": 172,
+      "height": 0.7,
+      "weight": 14,
+      "quick_moves": [
+        "Scratch",
+        "Razor Leaf"
+      ],
+      "charged_moves": [
+        "Energy Ball",
+        "Grass Knot"
+      ],
+      "family": 810,
+      "flee_rate": 0.1,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 812
+        }
+      ]
     },
     "812": {
       "name": "Rillaboom",
       "pokedex_id": 812,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass"
+      ],
+      "attack": 239,
+      "defense": 168,
+      "stamina": 225,
+      "height": 2.1,
+      "weight": 90,
+      "quick_moves": [
+        "Scratch",
+        "Razor Leaf"
+      ],
+      "charged_moves": [
+        "Energy Ball",
+        "Grass Knot",
+        "Earth Power"
+      ],
+      "family": 810,
+      "flee_rate": 0.1,
+      "capture_rate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "813": {
       "name": "Scorbunny",
       "pokedex_id": 813,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fire"
+      ],
+      "attack": 132,
+      "defense": 79,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 4.5,
+      "quick_moves": [
+        "Tackle",
+        "Ember"
+      ],
+      "charged_moves": [
+        "Flame Charge",
+        "Flamethrower"
+      ],
+      "family": 813,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 814
+        }
+      ],
+      "little": true
     },
     "814": {
       "name": "Raboot",
       "pokedex_id": 814,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fire"
+      ],
+      "attack": 170,
+      "defense": 125,
+      "stamina": 163,
+      "height": 0.6,
+      "weight": 9,
+      "quick_moves": [
+        "Tackle",
+        "Ember"
+      ],
+      "charged_moves": [
+        "Flame Charge",
+        "Flamethrower"
+      ],
+      "family": 813,
+      "flee_rate": 0.1,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 815
+        }
+      ]
     },
     "815": {
       "name": "Cinderace",
       "pokedex_id": 815,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fire"
+      ],
+      "attack": 238,
+      "defense": 163,
+      "stamina": 190,
+      "height": 1.4,
+      "weight": 33,
+      "quick_moves": [
+        "Tackle",
+        "Ember"
+      ],
+      "charged_moves": [
+        "Flame Charge",
+        "Flamethrower",
+        "Focus Blast"
+      ],
+      "family": 813,
+      "flee_rate": 0.1,
+      "capture_rate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "816": {
       "name": "Sobble",
       "pokedex_id": 816,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water"
+      ],
+      "attack": 132,
+      "defense": 79,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 4,
+      "quick_moves": [
+        "Pound",
+        "Water Gun"
+      ],
+      "charged_moves": [
+        "Water Pulse",
+        "Surf"
+      ],
+      "family": 816,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 817
+        }
+      ],
+      "little": true
     },
     "817": {
       "name": "Drizzile",
       "pokedex_id": 817,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water"
+      ],
+      "attack": 186,
+      "defense": 113,
+      "stamina": 163,
+      "height": 0.7,
+      "weight": 11.5,
+      "quick_moves": [
+        "Pound",
+        "Water Gun"
+      ],
+      "charged_moves": [
+        "Water Pulse",
+        "Surf"
+      ],
+      "family": 816,
+      "flee_rate": 0.1,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 818
+        }
+      ]
     },
     "818": {
       "name": "Inteleon",
       "pokedex_id": 818,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water"
+      ],
+      "attack": 262,
+      "defense": 142,
+      "stamina": 172,
+      "height": 1.9,
+      "weight": 45.2,
+      "quick_moves": [
+        "Pound",
+        "Water Gun"
+      ],
+      "charged_moves": [
+        "Water Pulse",
+        "Surf",
+        "Shadow Ball"
+      ],
+      "family": 816,
+      "flee_rate": 0.1,
+      "capture_rate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "819": {
       "name": "Skwovet",
       "pokedex_id": 819,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Normal"
+      ],
+      "attack": 95,
+      "defense": 86,
+      "stamina": 172,
+      "height": 0.3,
+      "weight": 2.5,
+      "quick_moves": [
+        "Tackle",
+        "Bite",
+        "Bullet Seed"
+      ],
+      "charged_moves": [
+        "Body Slam",
+        "Crunch"
+      ],
+      "family": 819,
+      "flee_rate": 0.1,
+      "capture_rate": 0.6,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 820
+        }
+      ],
+      "little": true
     },
     "820": {
       "name": "Greedent",
       "pokedex_id": 820,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Normal"
+      ],
+      "attack": 160,
+      "defense": 156,
+      "stamina": 260,
+      "height": 0.6,
+      "weight": 6,
+      "quick_moves": [
+        "Tackle",
+        "Bite",
+        "Bullet Seed"
+      ],
+      "charged_moves": [
+        "Body Slam",
+        "Crunch"
+      ],
+      "family": 819,
+      "flee_rate": 0.07,
+      "capture_rate": 0.3,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "821": {
       "name": "Rookidee",
       "pokedex_id": 821,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Flying"
+      ],
+      "attack": 88,
+      "defense": 67,
+      "stamina": 116,
+      "height": 0.2,
+      "weight": 1.8,
+      "quick_moves": [
+        "Peck",
+        "Air Slash"
+      ],
+      "charged_moves": [
+        "Drill Peck",
+        "Brave Bird"
+      ],
+      "family": 821,
+      "flee_rate": 0.1,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 822
+        }
+      ],
+      "little": true
     },
     "822": {
       "name": "Corvisquire",
       "pokedex_id": 822,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Flying"
+      ],
+      "attack": 129,
+      "defense": 110,
+      "stamina": 169,
+      "height": 0.8,
+      "weight": 16,
+      "quick_moves": [
+        "Peck",
+        "Air Slash"
+      ],
+      "charged_moves": [
+        "Drill Peck",
+        "Brave Bird"
+      ],
+      "family": 821,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 823
+        }
+      ]
     },
     "823": {
       "name": "Corviknight",
       "pokedex_id": 823,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Flying",
+        "Steel"
+      ],
+      "attack": 163,
+      "defense": 192,
+      "stamina": 221,
+      "height": 2.2,
+      "weight": 75,
+      "quick_moves": [
+        "Steel Wing",
+        "Air Slash"
+      ],
+      "charged_moves": [
+        "Drill Peck",
+        "Brave Bird",
+        "Iron Head"
+      ],
+      "family": 821,
+      "flee_rate": 0.05,
+      "capture_rate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "824": {
       "name": "Blipbug",
       "pokedex_id": 824,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Bug"
+      ],
+      "attack": 46,
+      "defense": 67,
+      "stamina": 93,
+      "height": 0.4,
+      "weight": 8,
+      "quick_moves": [
+        "Struggle Bug"
+      ],
+      "charged_moves": [],
+      "family": 824,
+      "flee_rate": 0.1,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 825
+        }
+      ],
+      "little": true
     },
     "825": {
       "name": "Dottler",
       "pokedex_id": 825,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Bug",
+        "Psychic"
+      ],
+      "attack": 87,
+      "defense": 157,
+      "stamina": 137,
+      "height": 0.4,
+      "weight": 19.5,
+      "quick_moves": [
+        "Struggle Bug",
+        "Confusion"
+      ],
+      "charged_moves": [
+        "Bug Buzz",
+        "Psychic"
+      ],
+      "family": 824,
+      "flee_rate": 0.07,
+      "capture_rate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 826
+        }
+      ]
     },
     "826": {
       "name": "Orbeetle",
       "pokedex_id": 826,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Bug",
+        "Psychic"
+      ],
+      "attack": 156,
+      "defense": 240,
+      "stamina": 155,
+      "height": 0.4,
+      "weight": 40.8,
+      "quick_moves": [
+        "Struggle Bug",
+        "Confusion"
+      ],
+      "charged_moves": [
+        "Bug Buzz",
+        "Psychic"
+      ],
+      "family": 824,
+      "flee_rate": 0.05,
+      "capture_rate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "827": {
       "name": "Nickit",
       "pokedex_id": 827,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dark"
+      ],
+      "attack": 85,
+      "defense": 82,
+      "stamina": 120,
+      "height": 0.6,
+      "weight": 8.9,
+      "quick_moves": [
+        "Quick Attack",
+        "Snarl"
+      ],
+      "charged_moves": [
+        "Night Slash",
+        "Play Rough"
+      ],
+      "family": 827,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 828
+        }
+      ],
+      "little": true
     },
     "828": {
       "name": "Thievul",
       "pokedex_id": 828,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dark"
+      ],
+      "attack": 172,
+      "defense": 164,
+      "stamina": 172,
+      "height": 1.2,
+      "weight": 19.9,
+      "quick_moves": [
+        "Quick Attack",
+        "Snarl"
+      ],
+      "charged_moves": [
+        "Night Slash",
+        "Play Rough"
+      ],
+      "family": 827,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "829": {
       "name": "Gossifleur",
       "pokedex_id": 829,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass"
+      ],
+      "attack": 70,
+      "defense": 104,
+      "stamina": 120,
+      "height": 0.4,
+      "weight": 2.2,
+      "quick_moves": [
+        "Razor Leaf",
+        "Bullet Seed"
+      ],
+      "charged_moves": [
+        "Energy Ball",
+        "Grass Knot"
+      ],
+      "family": 829,
+      "flee_rate": 0.1,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 830
+        }
+      ],
+      "little": true
     },
     "830": {
       "name": "Eldegoss",
       "pokedex_id": 830,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass"
+      ],
+      "attack": 148,
+      "defense": 211,
+      "stamina": 155,
+      "height": 0.5,
+      "weight": 2.5,
+      "quick_moves": [
+        "Razor Leaf",
+        "Bullet Seed"
+      ],
+      "charged_moves": [
+        "Energy Ball",
+        "Grass Knot"
+      ],
+      "family": 829,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "831": {
       "name": "Wooloo",
       "pokedex_id": 831,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Normal"
+      ],
+      "attack": 76,
+      "defense": 97,
+      "stamina": 123,
+      "height": 0.6,
+      "weight": 6,
+      "quick_moves": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Wild Charge",
+        "Payback",
+        "Stomp"
+      ],
+      "family": 831,
+      "flee_rate": 0.1,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 832
+        }
+      ],
+      "little": true
     },
     "832": {
       "name": "Dubwool",
       "pokedex_id": 832,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Normal"
+      ],
+      "attack": 159,
+      "defense": 198,
+      "stamina": 176,
+      "height": 1.3,
+      "weight": 43,
+      "quick_moves": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Wild Charge",
+        "Payback",
+        "Body Slam"
+      ],
+      "family": 831,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "833": {
       "name": "Chewtle",
       "pokedex_id": 833,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water"
+      ],
+      "attack": 114,
+      "defense": 85,
+      "stamina": 137,
+      "height": 0.3,
+      "weight": 8.5,
+      "quick_moves": [
+        "Water Gun",
+        "Bite"
+      ],
+      "charged_moves": [
+        "Body Slam",
+        "Surf"
+      ],
+      "family": 833,
+      "flee_rate": 0.1,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 834
+        }
+      ],
+      "little": true
     },
     "834": {
       "name": "Drednaw",
       "pokedex_id": 834,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "attack": 213,
+      "defense": 164,
+      "stamina": 207,
+      "height": 1,
+      "weight": 115.5,
+      "quick_moves": [
+        "Waterfall",
+        "Bite"
+      ],
+      "charged_moves": [
+        "Body Slam",
+        "Surf",
+        "Rock Blast"
+      ],
+      "family": 833,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "835": {
       "name": "Yamper",
       "pokedex_id": 835,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric"
+      ],
+      "attack": 80,
+      "defense": 90,
+      "stamina": 153,
+      "height": 0.3,
+      "weight": 13.5,
+      "quick_moves": [
+        "Spark",
+        "Bite"
+      ],
+      "charged_moves": [
+        "Crunch",
+        "Thunder"
+      ],
+      "family": 835,
+      "flee_rate": 0.1,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 836
+        }
+      ],
+      "little": true
     },
     "836": {
       "name": "Boltund",
       "pokedex_id": 836,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric"
+      ],
+      "attack": 197,
+      "defense": 131,
+      "stamina": 170,
+      "height": 1,
+      "weight": 34,
+      "quick_moves": [
+        "Spark",
+        "Bite"
+      ],
+      "charged_moves": [
+        "Crunch",
+        "Thunder"
+      ],
+      "family": 835,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "837": {
       "name": "Rolycoly",
       "pokedex_id": 837,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Rock"
+      ],
+      "attack": 73,
+      "defense": 91,
+      "stamina": 102,
+      "height": 0.3,
+      "weight": 12,
+      "quick_moves": [
+        "Smack Down",
+        "Tackle"
+      ],
+      "charged_moves": [
+        "Rock Blast",
+        "Rock Slide"
+      ],
+      "family": 837,
+      "flee_rate": 0.15,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 838
+        }
+      ],
+      "little": true
     },
     "838": {
       "name": "Carkol",
       "pokedex_id": 838,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Rock",
+        "Fire"
+      ],
+      "attack": 114,
+      "defense": 157,
+      "stamina": 190,
+      "height": 1.1,
+      "weight": 78,
+      "quick_moves": [
+        "Smack Down",
+        "Incinerate"
+      ],
+      "charged_moves": [
+        "Rock Blast",
+        "Rock Slide",
+        "Flame Charge"
+      ],
+      "family": 837,
+      "flee_rate": 0.07,
+      "capture_rate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 839
+        }
+      ]
     },
     "839": {
       "name": "Coalossal",
       "pokedex_id": 839,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Rock",
+        "Fire"
+      ],
+      "attack": 146,
+      "defense": 198,
+      "stamina": 242,
+      "height": 2.8,
+      "weight": 310.5,
+      "quick_moves": [
+        "Smack Down",
+        "Incinerate"
+      ],
+      "charged_moves": [
+        "Rock Blast",
+        "Rock Slide",
+        "Flame Charge"
+      ],
+      "family": 837,
+      "flee_rate": 0.05,
+      "capture_rate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "840": {
       "name": "Applin",
       "pokedex_id": 840,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "attack": 71,
+      "defense": 116,
+      "stamina": 120,
+      "height": 0.2,
+      "weight": 0.5,
+      "quick_moves": [
+        "Astonish"
+      ],
+      "charged_moves": [],
+      "family": 840,
+      "flee_rate": 0.09,
+      "capture_rate": 0.4,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 841
+        },
+        {
+          "pokemon": 842
+        }
+      ],
+      "little": true
     },
     "841": {
       "name": "Flapple",
       "pokedex_id": 841,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "attack": 214,
+      "defense": 144,
+      "stamina": 172,
+      "height": 0.3,
+      "weight": 1,
+      "quick_moves": [
+        "Bullet Seed",
+        "Dragon Breath"
+      ],
+      "charged_moves": [
+        "Dragon Pulse",
+        "Fly",
+        "Outrage",
+        "Seed Bomb"
+      ],
+      "family": 840,
+      "flee_rate": 0.07,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "842": {
       "name": "Appletun",
       "pokedex_id": 842,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "attack": 214,
+      "defense": 144,
+      "stamina": 172,
+      "height": 0.4,
+      "weight": 13,
+      "quick_moves": [
+        "Bullet Seed",
+        "Astonish"
+      ],
+      "charged_moves": [
+        "Dragon Pulse",
+        "Energy Ball",
+        "Outrage",
+        "Seed Bomb"
+      ],
+      "family": 840,
+      "flee_rate": 0.07,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "843": {
       "name": "Silicobra",
       "pokedex_id": 843,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Ground"
+      ],
+      "attack": 103,
+      "defense": 123,
+      "stamina": 141,
+      "height": 2.2,
+      "weight": 7.6,
+      "quick_moves": [
+        "Mud Slap",
+        "Mud Shot"
+      ],
+      "charged_moves": [
+        "Dig",
+        "Bulldoze",
+        "Earth Power"
+      ],
+      "family": 843,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 844
+        }
+      ],
+      "little": true
     },
     "844": {
       "name": "Sandaconda",
       "pokedex_id": 844,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Ground"
+      ],
+      "attack": 202,
+      "defense": 207,
+      "stamina": 176,
+      "height": 3.8,
+      "weight": 65.5,
+      "quick_moves": [
+        "Mud Slap",
+        "Mud Shot"
+      ],
+      "charged_moves": [
+        "Dig",
+        "Bulldoze",
+        "Earth Power"
+      ],
+      "family": 843,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "845": {
       "name": "Cramorant",
       "pokedex_id": 845,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Flying",
+        "Water"
+      ],
+      "attack": 173,
+      "defense": 163,
+      "stamina": 172,
+      "height": 0.8,
+      "weight": 18,
+      "quick_moves": [
+        "Peck",
+        "Water Gun"
+      ],
+      "charged_moves": [
+        "Drill Peck",
+        "Fly",
+        "Hydro Pump"
+      ],
+      "family": 845,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "846": {
       "name": "Arrokuda",
       "pokedex_id": 846,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water"
+      ],
+      "attack": 118,
+      "defense": 72,
+      "stamina": 121,
+      "height": 0.5,
+      "weight": 1,
+      "quick_moves": [
+        "Waterfall",
+        "Bite",
+        "Peck"
+      ],
+      "charged_moves": [
+        "Crunch",
+        "Aqua Jet",
+        "Close Combat"
+      ],
+      "family": 846,
+      "flee_rate": 0.15,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 847
+        }
+      ],
+      "little": true
     },
     "847": {
       "name": "Barraskewda",
       "pokedex_id": 847,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water"
+      ],
+      "attack": 258,
+      "defense": 127,
+      "stamina": 156,
+      "height": 1.3,
+      "weight": 30,
+      "quick_moves": [
+        "Waterfall",
+        "Bite",
+        "Peck"
+      ],
+      "charged_moves": [
+        "Crunch",
+        "Aqua Jet",
+        "Close Combat"
+      ],
+      "family": 846,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "848": {
       "name": "Toxel",
       "pokedex_id": 848,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric",
+        "Poison"
+      ],
+      "attack": 97,
+      "defense": 65,
+      "stamina": 120,
+      "height": 0.4,
+      "weight": 11,
+      "quick_moves": [
+        "Acid"
+      ],
+      "charged_moves": [
+        "Power Up Punch"
+      ],
+      "family": 848,
+      "flee_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 849,
+          "form": 2463
+        },
+        {
+          "pokemon": 849,
+          "form": 2464
+        }
+      ],
+      "little": true
     },
     "849": {
       "name": "Toxtricity",
@@ -42466,6 +43687,35 @@
           "proto": "TOXTRICITY_AMPED"
         }
       },
+      "types": [
+        "Electric",
+        "Poison"
+      ],
+      "attack": 224,
+      "defense": 140,
+      "stamina": 181,
+      "height": 1.6,
+      "weight": 40,
+      "quick_moves": [
+        "Acid",
+        "Spark",
+        "Poison Jab"
+      ],
+      "charged_moves": [
+        "Acid Spray",
+        "Discharge",
+        "Wild Charge",
+        "Power Up Punch"
+      ],
+      "family": 848,
+      "flee_rate": 0.05,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -42473,49 +43723,168 @@
       "name": "Sizzlipede",
       "pokedex_id": 850,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fire",
+        "Bug"
+      ],
+      "attack": 118,
+      "defense": 90,
+      "stamina": 137,
+      "height": 0.7,
+      "weight": 1,
+      "quick_moves": [
+        "Bug Bite",
+        "Ember"
+      ],
+      "charged_moves": [
+        "Heat Wave",
+        "Bug Buzz",
+        "Crunch"
+      ],
+      "family": 850,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 851
+        }
+      ],
+      "little": true
     },
     "851": {
       "name": "Centiskorch",
       "pokedex_id": 851,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fire",
+        "Bug"
+      ],
+      "attack": 220,
+      "defense": 158,
+      "stamina": 225,
+      "height": 3,
+      "weight": 120,
+      "quick_moves": [
+        "Bug Bite",
+        "Ember"
+      ],
+      "charged_moves": [
+        "Heat Wave",
+        "Bug Buzz",
+        "Crunch",
+        "Lunge"
+      ],
+      "family": 850,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "852": {
       "name": "Clobbopus",
       "pokedex_id": 852,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fighting"
+      ],
+      "attack": 121,
+      "defense": 103,
+      "stamina": 137,
+      "height": 0.6,
+      "weight": 4,
+      "quick_moves": [
+        "Rock Smash"
+      ],
+      "charged_moves": [
+        "Brick Break",
+        "Super Power",
+        "Ice Punch"
+      ],
+      "family": 852,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 853
+        }
+      ],
+      "little": true
     },
     "853": {
       "name": "Grapploct",
       "pokedex_id": 853,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fighting"
+      ],
+      "attack": 209,
+      "defense": 162,
+      "stamina": 190,
+      "height": 1.6,
+      "weight": 39,
+      "quick_moves": [
+        "Rock Smash",
+        "Waterfall"
+      ],
+      "charged_moves": [
+        "Brick Break",
+        "Super Power",
+        "Ice Punch",
+        "Surf"
+      ],
+      "family": 852,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "854": {
       "name": "Sinistea",
@@ -42524,15 +43893,59 @@
       "forms": {
         "2477": {
           "name": "Phony",
-          "proto": "SINISTEA_PHONY"
+          "proto": "SINISTEA_PHONY",
+          "evolutions": [
+            {
+              "pokemon": 855,
+              "form": 2480
+            }
+          ]
         },
         "2478": {
           "name": "Antique",
-          "proto": "SINISTEA_ANTIQUE"
+          "proto": "SINISTEA_ANTIQUE",
+          "evolutions": [
+            {
+              "pokemon": 855,
+              "form": 2481
+            }
+          ]
         }
       },
+      "types": [
+        "Ghost"
+      ],
+      "attack": 134,
+      "defense": 96,
+      "stamina": 120,
+      "height": 0.1,
+      "weight": 0.2,
+      "quick_moves": [
+        "Astonish",
+        "Sucker Punch"
+      ],
+      "charged_moves": [
+        "Shadow Ball",
+        "Dark Pulse",
+        "Psychic"
+      ],
+      "family": 854,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "gen_id": 8,
-      "generation": "Galar"
+      "generation": "Galar",
+      "evolutions": [
+        {
+          "pokemon": 855
+        }
+      ],
+      "little": true
     },
     "855": {
       "name": "Polteageist",
@@ -42548,6 +43961,33 @@
           "proto": "POLTEAGEIST_ANTIQUE"
         }
       },
+      "types": [
+        "Ghost"
+      ],
+      "attack": 248,
+      "defense": 189,
+      "stamina": 155,
+      "height": 0.2,
+      "weight": 0.4,
+      "quick_moves": [
+        "Astonish",
+        "Sucker Punch",
+        "Hex"
+      ],
+      "charged_moves": [
+        "Shadow Ball",
+        "Dark Pulse",
+        "Psychic"
+      ],
+      "family": 854,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -42555,73 +43995,259 @@
       "name": "Hatenna",
       "pokedex_id": 856,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Psychic"
+      ],
+      "attack": 98,
+      "defense": 93,
+      "stamina": 123,
+      "height": 0.4,
+      "weight": 3.4,
+      "quick_moves": [
+        "Confusion",
+        "Charm"
+      ],
+      "charged_moves": [
+        "Psybeam",
+        "Psychic",
+        "Dazzling Gleam"
+      ],
+      "family": 856,
+      "flee_rate": 0.15,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 857
+        }
+      ],
+      "little": true
     },
     "857": {
       "name": "Hattrem",
       "pokedex_id": 857,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Psychic"
+      ],
+      "attack": 153,
+      "defense": 133,
+      "stamina": 149,
+      "height": 0.6,
+      "weight": 4.8,
+      "quick_moves": [
+        "Confusion",
+        "Charm"
+      ],
+      "charged_moves": [
+        "Psybeam",
+        "Psychic",
+        "Dazzling Gleam"
+      ],
+      "family": 856,
+      "flee_rate": 0.07,
+      "capture_rate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 858
+        }
+      ]
     },
     "858": {
       "name": "Hatterene",
       "pokedex_id": 858,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "attack": 237,
+      "defense": 182,
+      "stamina": 149,
+      "height": 2.1,
+      "weight": 5.1,
+      "quick_moves": [
+        "Confusion",
+        "Charm",
+        "Psycho Cut"
+      ],
+      "charged_moves": [
+        "Psybeam",
+        "Psychic",
+        "Dazzling Gleam",
+        "Power Whip"
+      ],
+      "family": 856,
+      "flee_rate": 0.05,
+      "capture_rate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "859": {
       "name": "Impidimp",
       "pokedex_id": 859,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dark",
+        "Fairy"
+      ],
+      "attack": 103,
+      "defense": 69,
+      "stamina": 128,
+      "height": 0.4,
+      "weight": 5.5,
+      "quick_moves": [
+        "Bite",
+        "Sucker Punch"
+      ],
+      "charged_moves": [
+        "Foul Play",
+        "Dark Pulse",
+        "Play Rough"
+      ],
+      "family": 859,
+      "flee_rate": 0.15,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 860
+        }
+      ],
+      "little": true
     },
     "860": {
       "name": "Morgrem",
       "pokedex_id": 860,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dark",
+        "Fairy"
+      ],
+      "attack": 145,
+      "defense": 102,
+      "stamina": 163,
+      "height": 0.8,
+      "weight": 12.5,
+      "quick_moves": [
+        "Bite",
+        "Sucker Punch"
+      ],
+      "charged_moves": [
+        "Foul Play",
+        "Dark Pulse",
+        "Play Rough"
+      ],
+      "family": 859,
+      "flee_rate": 0.07,
+      "capture_rate": 0.25,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 861
+        }
+      ]
     },
     "861": {
       "name": "Grimmsnarl",
       "pokedex_id": 861,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dark",
+        "Fairy"
+      ],
+      "attack": 227,
+      "defense": 139,
+      "stamina": 216,
+      "height": 1.5,
+      "weight": 61,
+      "quick_moves": [
+        "Bite",
+        "Sucker Punch",
+        "Low Kick"
+      ],
+      "charged_moves": [
+        "Foul Play",
+        "Dark Pulse",
+        "Play Rough",
+        "Power Up Punch"
+      ],
+      "family": 859,
+      "flee_rate": 0.05,
+      "capture_rate": 0.125,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "862": {
       "name": "Obstagoon",
@@ -42738,6 +44364,33 @@
           "proto": "CURSOLA_PURIFIED"
         }
       },
+      "types": [
+        "Ghost"
+      ],
+      "attack": 253,
+      "defense": 182,
+      "stamina": 155,
+      "height": 1,
+      "weight": 0.4,
+      "quick_moves": [
+        "Astonish",
+        "Hex"
+      ],
+      "charged_moves": [
+        "Rock Blast",
+        "Brine",
+        "Night Shade",
+        "Shadow Ball"
+      ],
+      "family": 222,
+      "flee_rate": 0.07,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -42890,85 +44543,279 @@
       "name": "Milcery",
       "pokedex_id": 868,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fairy"
+      ],
+      "attack": 90,
+      "defense": 97,
+      "stamina": 128,
+      "height": 0.2,
+      "weight": 0.3,
+      "quick_moves": [
+        "Tackle",
+        "Charm"
+      ],
+      "charged_moves": [
+        "Dazzling Gleam"
+      ],
+      "family": 868,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 869
+        }
+      ],
+      "little": true
     },
     "869": {
       "name": "Alcremie",
       "pokedex_id": 869,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fairy"
+      ],
+      "attack": 203,
+      "defense": 203,
+      "stamina": 163,
+      "height": 0.3,
+      "weight": 0.5,
+      "quick_moves": [
+        "Tackle",
+        "Charm"
+      ],
+      "charged_moves": [
+        "Dazzling Gleam",
+        "Psyshock",
+        "Energy Ball"
+      ],
+      "family": 868,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "870": {
       "name": "Falinks",
       "pokedex_id": 870,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fighting"
+      ],
+      "attack": 193,
+      "defense": 170,
+      "stamina": 163,
+      "height": 3,
+      "weight": 62,
+      "quick_moves": [
+        "Rock Smash",
+        "Counter"
+      ],
+      "charged_moves": [
+        "Super Power",
+        "Brick Break",
+        "Megahorn"
+      ],
+      "family": 870,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "871": {
       "name": "Pincurchin",
       "pokedex_id": 871,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric"
+      ],
+      "attack": 176,
+      "defense": 161,
+      "stamina": 134,
+      "height": 0.3,
+      "weight": 1,
+      "quick_moves": [
+        "Thunder Shock",
+        "Water Gun",
+        "Poison Jab"
+      ],
+      "charged_moves": [
+        "Discharge",
+        "Thunderbolt",
+        "Bubble Beam"
+      ],
+      "family": 871,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "872": {
       "name": "Snom",
       "pokedex_id": 872,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Ice",
+        "Bug"
+      ],
+      "attack": 76,
+      "defense": 59,
+      "stamina": 102,
+      "height": 0.3,
+      "weight": 3.8,
+      "quick_moves": [
+        "Powder Snow",
+        "Struggle Bug"
+      ],
+      "charged_moves": [
+        "Icy Wind",
+        "Bug Buzz"
+      ],
+      "family": 872,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 873
+        }
+      ],
+      "little": true
     },
     "873": {
       "name": "Frosmoth",
       "pokedex_id": 873,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Ice",
+        "Bug"
+      ],
+      "attack": 230,
+      "defense": 155,
+      "stamina": 172,
+      "height": 1.3,
+      "weight": 42,
+      "quick_moves": [
+        "Powder Snow",
+        "Bug Bite"
+      ],
+      "charged_moves": [
+        "Icy Wind",
+        "Bug Buzz",
+        "Ice Beam",
+        "Hurricane"
+      ],
+      "family": 872,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "874": {
       "name": "Stonjourner",
       "pokedex_id": 874,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Rock"
+      ],
+      "attack": 222,
+      "defense": 182,
+      "stamina": 225,
+      "height": 2.5,
+      "weight": 520,
+      "quick_moves": [
+        "Rock Throw"
+      ],
+      "charged_moves": [
+        "Stone Edge",
+        "Rock Slide",
+        "Stomp"
+      ],
+      "family": 874,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "875": {
       "name": "Eiscue",
@@ -42981,9 +44828,37 @@
         },
         "2541": {
           "name": "Noice",
-          "proto": "EISCUE_NOICE"
+          "proto": "EISCUE_NOICE",
+          "attack": 173,
+          "defense": 139,
+          "stamina": 181
         }
       },
+      "types": [
+        "Ice"
+      ],
+      "attack": 148,
+      "defense": 195,
+      "stamina": 181,
+      "height": 1.4,
+      "weight": 89,
+      "quick_moves": [
+        "Powder Snow"
+      ],
+      "charged_moves": [
+        "Icy Wind",
+        "Weather Ball Ice",
+        "Surf"
+      ],
+      "family": 875,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -42998,9 +44873,43 @@
         },
         "2543": {
           "name": "Female",
-          "proto": "INDEEDEE_FEMALE"
+          "proto": "INDEEDEE_FEMALE",
+          "attack": 184,
+          "defense": 184,
+          "stamina": 172,
+          "charged_moves": [
+            "Psybeam",
+            "Psychic",
+            "Energy Ball"
+          ]
         }
       },
+      "types": [
+        "Psychic",
+        "Normal"
+      ],
+      "attack": 208,
+      "defense": 166,
+      "stamina": 155,
+      "height": 0.9,
+      "weight": 28,
+      "quick_moves": [
+        "Extrasensory"
+      ],
+      "charged_moves": [
+        "Psybeam",
+        "Psychic",
+        "Shadow Ball"
+      ],
+      "family": 876,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -43018,6 +44927,34 @@
           "proto": "MORPEKO_HANGRY"
         }
       },
+      "types": [
+        "Electric",
+        "Dark"
+      ],
+      "attack": 192,
+      "defense": 121,
+      "stamina": 151,
+      "height": 0.3,
+      "weight": 3,
+      "quick_moves": [
+        "Thunder Shock",
+        "Bite"
+      ],
+      "charged_moves": [
+        "Crunch",
+        "Payback",
+        "Thunderbolt",
+        "Wild Charge"
+      ],
+      "family": 877,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -43025,170 +44962,557 @@
       "name": "Cufant",
       "pokedex_id": 878,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Steel"
+      ],
+      "attack": 140,
+      "defense": 91,
+      "stamina": 176,
+      "height": 1.2,
+      "weight": 100,
+      "quick_moves": [
+        "Tackle",
+        "Rock Smash"
+      ],
+      "charged_moves": [
+        "Iron Head",
+        "Dig",
+        "Play Rough"
+      ],
+      "family": 878,
+      "flee_rate": 0.2,
+      "capture_rate": 0.5,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 879
+        }
+      ],
+      "little": true
     },
     "879": {
       "name": "Copperajah",
       "pokedex_id": 879,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Steel"
+      ],
+      "attack": 226,
+      "defense": 126,
+      "stamina": 263,
+      "height": 1.2,
+      "weight": 100,
+      "quick_moves": [
+        "Tackle",
+        "Rock Smash"
+      ],
+      "charged_moves": [
+        "Iron Head",
+        "Dig",
+        "Play Rough",
+        "Heavy Slam"
+      ],
+      "family": 878,
+      "flee_rate": 0.07,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "880": {
       "name": "Dracozolt",
       "pokedex_id": 880,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "attack": 195,
+      "defense": 165,
+      "stamina": 207,
+      "height": 1.8,
+      "weight": 190,
+      "quick_moves": [
+        "Dragon Tail",
+        "Thunder Shock"
+      ],
+      "charged_moves": [
+        "Discharge",
+        "Dragon Pulse",
+        "Ancient Power"
+      ],
+      "family": 880,
+      "flee_rate": 0.09,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "881": {
       "name": "Arctozolt",
       "pokedex_id": 881,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "attack": 190,
+      "defense": 166,
+      "stamina": 207,
+      "height": 2.3,
+      "weight": 150,
+      "quick_moves": [
+        "Powder Snow",
+        "Thunder Shock"
+      ],
+      "charged_moves": [
+        "Discharge",
+        "Avalanche",
+        "Ancient Power"
+      ],
+      "family": 881,
+      "flee_rate": 0.09,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "882": {
       "name": "Dracovish",
       "pokedex_id": 882,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "attack": 175,
+      "defense": 185,
+      "stamina": 207,
+      "height": 2.3,
+      "weight": 215,
+      "quick_moves": [
+        "Dragon Breath",
+        "Water Gun"
+      ],
+      "charged_moves": [
+        "Brine",
+        "Dragon Pulse",
+        "Ancient Power"
+      ],
+      "family": 882,
+      "flee_rate": 0.09,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "883": {
       "name": "Arctovish",
       "pokedex_id": 883,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "attack": 171,
+      "defense": 185,
+      "stamina": 207,
+      "height": 2,
+      "weight": 175,
+      "quick_moves": [
+        "Powder Snow",
+        "Water Gun"
+      ],
+      "charged_moves": [
+        "Brine",
+        "Avalanche",
+        "Ancient Power"
+      ],
+      "family": 883,
+      "flee_rate": 0.09,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "884": {
       "name": "Duraludon",
       "pokedex_id": 884,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Steel",
+        "Dragon"
+      ],
+      "attack": 239,
+      "defense": 185,
+      "stamina": 172,
+      "height": 1.8,
+      "weight": 40,
+      "quick_moves": [
+        "Dragon Tail",
+        "Metal Claw"
+      ],
+      "charged_moves": [
+        "Flash Cannon",
+        "Dragon Claw",
+        "Hyper Beam"
+      ],
+      "family": 884,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "885": {
       "name": "Dreepy",
       "pokedex_id": 885,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
+      "attack": 117,
+      "defense": 61,
+      "stamina": 99,
+      "height": 0.5,
+      "weight": 2,
+      "quick_moves": [
+        "Astonish",
+        "Quick Attack"
+      ],
+      "charged_moves": [],
+      "family": 885,
+      "flee_rate": 0.09,
+      "capture_rate": 0.4,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 886
+        }
+      ],
+      "little": true
     },
     "886": {
       "name": "Drakloak",
       "pokedex_id": 886,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
+      "attack": 163,
+      "defense": 105,
+      "stamina": 169,
+      "height": 1.4,
+      "weight": 11,
+      "quick_moves": [
+        "Astonish",
+        "Dragon Tail"
+      ],
+      "charged_moves": [
+        "Dragon Pulse",
+        "Shadow Ball",
+        "Outrage"
+      ],
+      "family": 885,
+      "flee_rate": 0.07,
+      "capture_rate": 0.1,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 887
+        }
+      ]
     },
     "887": {
       "name": "Dragapult",
       "pokedex_id": 887,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
+      "attack": 266,
+      "defense": 170,
+      "stamina": 204,
+      "height": 3,
+      "weight": 50,
+      "quick_moves": [
+        "Hex",
+        "Dragon Tail"
+      ],
+      "charged_moves": [
+        "Dragon Pulse",
+        "Shadow Ball",
+        "Outrage"
+      ],
+      "family": 885,
+      "flee_rate": 0.05,
+      "capture_rate": 0.05,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "888": {
       "name": "Zacian",
       "pokedex_id": 888,
-      "default_form_id": 2576,
+      "default_form_id": 2577,
       "forms": {
         "2576": {
           "name": "Crowned Sword",
-          "proto": "ZACIAN_CROWNED_SWORD"
+          "proto": "ZACIAN_CROWNED_SWORD",
+          "attack": 332,
+          "defense": 240,
+          "stamina": 192
         },
         "2577": {
           "name": "Hero",
-          "proto": "ZACIAN_HERO"
+          "proto": "ZACIAN_HERO",
+          "types": [
+            "Fairy"
+          ]
         }
       },
+      "types": [
+        "Fairy",
+        "Steel"
+      ],
+      "attack": 254,
+      "defense": 236,
+      "stamina": 192,
+      "height": 2.8,
+      "weight": 110,
+      "quick_moves": [
+        "Metal Claw",
+        "Snarl",
+        "Quick Attack",
+        "Fire Fang"
+      ],
+      "charged_moves": [
+        "Play Rough",
+        "Iron Head",
+        "Wild Charge",
+        "Close Combat"
+      ],
+      "family": 888,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 3,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "gen_id": 8,
       "generation": "Galar"
     },
     "889": {
       "name": "Zamazenta",
       "pokedex_id": 889,
-      "default_form_id": 2578,
+      "default_form_id": 2579,
       "forms": {
         "2578": {
           "name": "Crowned Shield",
-          "proto": "ZAMAZENTA_CROWNED_SHIELD"
+          "proto": "ZAMAZENTA_CROWNED_SHIELD",
+          "attack": 250,
+          "defense": 292,
+          "stamina": 192
         },
         "2579": {
           "name": "Hero",
-          "proto": "ZAMAZENTA_HERO"
+          "proto": "ZAMAZENTA_HERO",
+          "types": [
+            "Fighting"
+          ]
         }
       },
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "attack": 254,
+      "defense": 236,
+      "stamina": 192,
+      "height": 2.9,
+      "weight": 210,
+      "quick_moves": [
+        "Metal Claw",
+        "Snarl",
+        "Quick Attack",
+        "Ice Fang"
+      ],
+      "charged_moves": [
+        "Moonblast",
+        "Iron Head",
+        "Crunch",
+        "Close Combat"
+      ],
+      "family": 889,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 3,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "gen_id": 8,
       "generation": "Galar"
     },
     "890": {
       "name": "Eternatus",
       "pokedex_id": 890,
-      "default_form_id": 2580,
+      "default_form_id": 2581,
       "forms": {
         "2580": {
           "name": "Eternamax",
-          "proto": "ETERNATUS_ETERNAMAX"
+          "proto": "ETERNATUS_ETERNAMAX",
+          "attack": 251,
+          "defense": 505,
+          "stamina": 452,
+          "charged_moves": [
+            "Cross Poison",
+            "Dragon Pulse",
+            "Flamethrower",
+            "Hyper Beam"
+          ]
         },
         "2581": {
           "name": "Normal",
           "proto": "ETERNATUS_NORMAL"
         }
       },
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "attack": 278,
+      "defense": 192,
+      "stamina": 268,
+      "height": 20,
+      "weight": 950,
+      "quick_moves": [
+        "Dragon Tail",
+        "Poison Jab"
+      ],
+      "charged_moves": [
+        "Cross Poison",
+        "Dragon Pulse",
+        "Flamethrower"
+      ],
+      "family": 890,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -43196,13 +45520,49 @@
       "name": "Kubfu",
       "pokedex_id": 891,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Fighting"
+      ],
+      "attack": 170,
+      "defense": 112,
+      "stamina": 155,
+      "height": 0.6,
+      "weight": 12,
+      "quick_moves": [
+        "Rock Smash",
+        "Counter"
+      ],
+      "charged_moves": [
+        "Brick Break",
+        "Dynamic Punch",
+        "Close Combat"
+      ],
+      "family": 891,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "evolutions": [
+        {
+          "pokemon": 892,
+          "form": 2723
+        },
+        {
+          "pokemon": 892,
+          "form": 2724
+        }
+      ],
+      "little": true
     },
     "892": {
       "name": "Urshifu",
@@ -43211,13 +45571,68 @@
       "forms": {
         "2723": {
           "name": "Single Strike",
-          "proto": "URSHIFU_SINGLE_STRIKE"
+          "proto": "URSHIFU_SINGLE_STRIKE",
+          "quick_moves": [
+            "Rock Smash",
+            "Counter",
+            "Sucker Punch"
+          ],
+          "charged_moves": [
+            "Brick Break",
+            "Dynamic Punch",
+            "Close Combat",
+            "Payback"
+          ],
+          "types": [
+            "Fighting",
+            "Dark"
+          ]
         },
         "2724": {
           "name": "Rapid Strike",
-          "proto": "URSHIFU_RAPID_STRIKE"
+          "proto": "URSHIFU_RAPID_STRIKE",
+          "quick_moves": [
+            "Rock Smash",
+            "Counter",
+            "Waterfall"
+          ],
+          "charged_moves": [
+            "Brick Break",
+            "Dynamic Punch",
+            "Close Combat",
+            "Aqua Jet"
+          ],
+          "types": [
+            "Fighting",
+            "Water"
+          ]
         }
       },
+      "types": [
+        "Fighting"
+      ],
+      "attack": 231,
+      "defense": 162,
+      "stamina": 205,
+      "height": 1.9,
+      "weight": 105,
+      "quick_moves": [
+        "Rock Smash",
+        "Counter"
+      ],
+      "charged_moves": [
+        "Brick Break",
+        "Dynamic Punch",
+        "Close Combat"
+      ],
+      "family": 891,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "gen_id": 8,
       "generation": "Galar"
     },
@@ -43225,61 +45640,187 @@
       "name": "Zarude",
       "pokedex_id": 893,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dark",
+        "Grass"
+      ],
+      "attack": 242,
+      "defense": 215,
+      "stamina": 233,
+      "height": 1.8,
+      "weight": 70,
+      "quick_moves": [
+        "Vine Whip",
+        "Bite"
+      ],
+      "charged_moves": [
+        "Power Whip",
+        "Energy Ball",
+        "Dark Pulse"
+      ],
+      "family": 893,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": false,
+      "mythic": true,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "894": {
       "name": "Regieleki",
       "pokedex_id": 894,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Electric"
+      ],
+      "attack": 228,
+      "defense": 114,
+      "stamina": 173,
+      "height": 1.2,
+      "weight": 145,
+      "quick_moves": [
+        "Thunder Shock",
+        "Lock On"
+      ],
+      "charged_moves": [
+        "Thunderbolt",
+        "Thunder",
+        "Wild Charge"
+      ],
+      "family": 894,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "895": {
       "name": "Regidrago",
       "pokedex_id": 895,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Dragon"
+      ],
+      "attack": 184,
+      "defense": 92,
+      "stamina": 364,
+      "height": 2.1,
+      "weight": 200,
+      "quick_moves": [
+        "Bite",
+        "Lock On"
+      ],
+      "charged_moves": [
+        "Dragon Claw",
+        "Outrage",
+        "Dragon Pulse"
+      ],
+      "family": 895,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "896": {
       "name": "Glastrier",
       "pokedex_id": 896,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Ice"
+      ],
+      "attack": 224,
+      "defense": 203,
+      "stamina": 205,
+      "height": 2.2,
+      "weight": 800,
+      "quick_moves": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Avalanche",
+        "Icy Wind",
+        "Bulldoze"
+      ],
+      "family": 896,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "897": {
       "name": "Spectrier",
       "pokedex_id": 897,
       "default_form_id": 0,
-      "gen_id": 8,
-      "generation": "Galar",
       "forms": {
         "0": {
           "proto": "FORM_UNSET"
         }
-      }
+      },
+      "gen_id": 8,
+      "generation": "Galar",
+      "types": [
+        "Ghost"
+      ],
+      "attack": 273,
+      "defense": 146,
+      "stamina": 205,
+      "height": 2,
+      "weight": 44.5,
+      "quick_moves": [
+        "Tackle",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Shadow Ball",
+        "Foul Play",
+        "Bulldoze"
+      ],
+      "family": 897,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "898": {
       "name": "Calyrex",
@@ -43292,13 +45833,77 @@
         },
         "2726": {
           "name": "Ice Rider",
-          "proto": "CALYREX_ICE_RIDER"
+          "proto": "CALYREX_ICE_RIDER",
+          "attack": 268,
+          "defense": 246,
+          "stamina": 205,
+          "height": 2.4,
+          "weight": 809.1,
+          "quick_moves": [
+            "Confusion",
+            "Take Down"
+          ],
+          "charged_moves": [
+            "Psyshock",
+            "Psychic",
+            "Energy Ball",
+            "Avalanche"
+          ],
+          "types": [
+            "Psychic",
+            "Ice"
+          ]
         },
         "2727": {
           "name": "Shadow Rider",
-          "proto": "CALYREX_SHADOW_RIDER"
+          "proto": "CALYREX_SHADOW_RIDER",
+          "attack": 324,
+          "defense": 194,
+          "stamina": 205,
+          "height": 2.4,
+          "weight": 53.6,
+          "quick_moves": [
+            "Confusion",
+            "Take Down"
+          ],
+          "charged_moves": [
+            "Psyshock",
+            "Psychic",
+            "Energy Ball",
+            "Shadow Ball"
+          ],
+          "types": [
+            "Psychic",
+            "Ghost"
+          ]
         }
       },
+      "types": [
+        "Psychic",
+        "Grass"
+      ],
+      "attack": 147,
+      "defense": 147,
+      "stamina": 205,
+      "height": 1.1,
+      "weight": 7.7,
+      "quick_moves": [
+        "Pound",
+        "Confusion"
+      ],
+      "charged_moves": [
+        "Psyshock",
+        "Psychic",
+        "Energy Ball"
+      ],
+      "family": 898,
+      "flee_rate": 0.1,
+      "capture_rate": 0.02,
+      "legendary": true,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
       "gen_id": 8,
       "generation": "Galar"
     }
@@ -46395,8 +49000,8 @@
           96
         ],
         "third": [
-          97,
           103,
+          97,
           281
         ]
       }
@@ -46606,8 +49211,8 @@
           356
         ],
         "third": [
-          477,
           354,
+          477,
           302
         ]
       }
