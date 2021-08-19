@@ -80,6 +80,7 @@ module.exports = {
       legendary: true,
       mythic: true,
       buddyGroupNumber: true,
+      buddyDistance: true,
       kmBuddyDistance: true,
       thirdMoveStardust: true,
       thirdMoveCandy: true,
