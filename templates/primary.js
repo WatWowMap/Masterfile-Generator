@@ -142,7 +142,10 @@ module.exports = {
       keys: {
         main: 'id'
       },
-      topLevelName: 'quest_conditions'
+      customFields: {
+        formatted: 'text',
+      },
+      topLevelName: 'quest_conditions',
     },
     template: {
       proto: true,
@@ -154,6 +157,9 @@ module.exports = {
     options: {
       keys: {
         main: 'id'
+      },
+      customFields: {
+        formatted: 'text',
       },
       topLevelName: 'quest_reward_types',
     },
