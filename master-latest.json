@@ -46727,8 +46727,25 @@
   },
   "types": {
     "0": "None",
-    "1": {
-      "name": "Normal",
+    "1": "Normal",
+    "2": "Fighting",
+    "3": "Flying",
+    "4": "Poison",
+    "5": "Ground",
+    "6": "Rock",
+    "7": "Bug",
+    "8": "Ghost",
+    "9": "Steel",
+    "10": "Fire",
+    "11": "Water",
+    "12": "Grass",
+    "13": "Electric",
+    "14": "Psychic",
+    "15": "Ice",
+    "16": "Dragon",
+    "17": "Dark",
+    "18": "Fairy",
+    "Normal": {
       "immunes": [
         "Ghost"
       ],
@@ -46740,8 +46757,7 @@
       ],
       "strengths": []
     },
-    "2": {
-      "name": "Fighting",
+    "Fighting": {
       "immunes": [],
       "weaknesses": [
         "Flying",
@@ -46761,8 +46777,7 @@
         "Steel"
       ]
     },
-    "3": {
-      "name": "Flying",
+    "Flying": {
       "immunes": [
         "Flying"
       ],
@@ -46782,8 +46797,7 @@
         "Bug"
       ]
     },
-    "4": {
-      "name": "Poison",
+    "Poison": {
       "immunes": [],
       "weaknesses": [
         "Ground",
@@ -46801,8 +46815,7 @@
         "Fairy"
       ]
     },
-    "5": {
-      "name": "Ground",
+    "Ground": {
       "immunes": [
         "Flying"
       ],
@@ -46823,8 +46836,7 @@
         "Steel"
       ]
     },
-    "6": {
-      "name": "Rock",
+    "Rock": {
       "immunes": [],
       "weaknesses": [
         "Water",
@@ -46846,8 +46858,7 @@
         "Bug"
       ]
     },
-    "7": {
-      "name": "Bug",
+    "Bug": {
       "immunes": [],
       "weaknesses": [
         "Fire",
@@ -46865,8 +46876,7 @@
         "Dark"
       ]
     },
-    "8": {
-      "name": "Ghost",
+    "Ghost": {
       "immunes": [
         "Normal",
         "Fighting"
@@ -46884,8 +46894,7 @@
         "Ghost"
       ]
     },
-    "9": {
-      "name": "Steel",
+    "Steel": {
       "immunes": [
         "Poison"
       ],
@@ -46912,8 +46921,7 @@
         "Fairy"
       ]
     },
-    "10": {
-      "name": "Fire",
+    "Fire": {
       "immunes": [],
       "weaknesses": [
         "Water",
@@ -46935,8 +46943,7 @@
         "Steel"
       ]
     },
-    "11": {
-      "name": "Water",
+    "Water": {
       "immunes": [],
       "weaknesses": [
         "Grass",
@@ -46954,8 +46961,7 @@
         "Rock"
       ]
     },
-    "12": {
-      "name": "Grass",
+    "Grass": {
       "immunes": [],
       "weaknesses": [
         "Fire",
@@ -46976,8 +46982,7 @@
         "Rock"
       ]
     },
-    "13": {
-      "name": "Electric",
+    "Electric": {
       "immunes": [],
       "weaknesses": [
         "Ground"
@@ -46992,8 +46997,7 @@
         "Flying"
       ]
     },
-    "14": {
-      "name": "Psychic",
+    "Psychic": {
       "immunes": [],
       "weaknesses": [
         "Bug",
@@ -47009,8 +47013,7 @@
         "Poison"
       ]
     },
-    "15": {
-      "name": "Ice",
+    "Ice": {
       "immunes": [],
       "weaknesses": [
         "Fire",
@@ -47028,8 +47031,7 @@
         "Dragon"
       ]
     },
-    "16": {
-      "name": "Dragon",
+    "Dragon": {
       "immunes": [],
       "weaknesses": [
         "Ice",
@@ -47046,8 +47048,7 @@
         "Dragon"
       ]
     },
-    "17": {
-      "name": "Dark",
+    "Dark": {
       "immunes": [
         "Psychic"
       ],
@@ -47065,8 +47066,7 @@
         "Ghost"
       ]
     },
-    "18": {
-      "name": "Fairy",
+    "Fairy": {
       "immunes": [
         "Dragon"
       ],

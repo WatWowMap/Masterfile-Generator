@@ -26,17 +26,7 @@ module.exports.generate = async function update() {
 
   data.quest_types = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
   data.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
-
-  Object.keys(pokemonTypes).forEach(type => {
-    Object.keys(data.types).forEach(mfType => {
-      if (data.types[mfType] === type) {
-        data.types[mfType] = {
-          name: data.types[mfType],
-          ...pokemonTypes[type]
-        }
-      }
-    })
-  })
+  data.types = { ...data.types, ...pokemonTypes }
 
   const rawData = await generate({ template: rawTemplate, raw: true })
   const poracleData = await generate({ template: poracleTemplate })
