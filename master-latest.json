@@ -43408,7 +43408,9 @@
       "quick_moves": [
         "Struggle Bug"
       ],
-      "charged_moves": [],
+      "charged_moves": [
+        "Struggle"
+      ],
       "family": 824,
       "flee_rate": 0.1,
       "capture_rate": 0.5,
@@ -44075,7 +44077,9 @@
       "quick_moves": [
         "Astonish"
       ],
-      "charged_moves": [],
+      "charged_moves": [
+        "Struggle"
+      ],
       "family": 840,
       "flee_rate": 0.09,
       "capture_rate": 0.4,
@@ -44152,9 +44156,9 @@
         "Grass",
         "Dragon"
       ],
-      "attack": 214,
-      "defense": 144,
-      "stamina": 172,
+      "attack": 178,
+      "defense": 146,
+      "stamina": 242,
       "height": 0.4,
       "weight": 13,
       "quick_moves": [
@@ -46058,7 +46062,9 @@
         "Astonish",
         "Quick Attack"
       ],
-      "charged_moves": [],
+      "charged_moves": [
+        "Struggle"
+      ],
       "family": 885,
       "flee_rate": 0.09,
       "capture_rate": 0.4,
@@ -46416,9 +46422,9 @@
       "types": [
         "Fighting"
       ],
-      "attack": 231,
-      "defense": 162,
-      "stamina": 205,
+      "attack": 254,
+      "defense": 177,
+      "stamina": 225,
       "height": 1.9,
       "weight": 105,
       "quick_moves": [
@@ -46495,9 +46501,9 @@
       "types": [
         "Electric"
       ],
-      "attack": 228,
-      "defense": 114,
-      "stamina": 173,
+      "attack": 250,
+      "defense": 125,
+      "stamina": 190,
       "height": 1.2,
       "weight": 145,
       "quick_moves": [
@@ -46505,9 +46511,9 @@
         "Lock On"
       ],
       "charged_moves": [
-        "Thunderbolt",
+        "Hyper Beam",
         "Thunder",
-        "Wild Charge"
+        "Zap Cannon"
       ],
       "family": 894,
       "flee_rate": 0.1,
@@ -46533,17 +46539,16 @@
       "types": [
         "Dragon"
       ],
-      "attack": 184,
-      "defense": 92,
-      "stamina": 364,
+      "attack": 202,
+      "defense": 101,
+      "stamina": 400,
       "height": 2.1,
       "weight": 200,
       "quick_moves": [
-        "Bite",
-        "Lock On"
+        "Bite"
       ],
       "charged_moves": [
-        "Dragon Claw",
+        "Hyper Beam",
         "Outrage",
         "Dragon Pulse"
       ],
@@ -46571,9 +46576,9 @@
       "types": [
         "Ice"
       ],
-      "attack": 224,
-      "defense": 203,
-      "stamina": 205,
+      "attack": 246,
+      "defense": 223,
+      "stamina": 225,
       "height": 2.2,
       "weight": 800,
       "quick_moves": [
@@ -46693,9 +46698,9 @@
         "Psychic",
         "Grass"
       ],
-      "attack": 147,
-      "defense": 147,
-      "stamina": 205,
+      "attack": 162,
+      "defense": 162,
+      "stamina": 225,
       "height": 1.1,
       "weight": 7.7,
       "quick_moves": [
