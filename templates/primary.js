@@ -94,7 +94,8 @@ module.exports = {
     options: {
       keys: {
         main: 'typeId'
-      }
+      },
+      topLevelName: 'type_ids',
     },
     template: 'typeName'
   },
