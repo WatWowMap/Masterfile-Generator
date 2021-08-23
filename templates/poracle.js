@@ -28,7 +28,9 @@ module.exports = {
       skipNormalIfUnset: true,
       unsetDefaultForm: true,
       processFormsSeparately: true,
-      skipForms: ['Shadow', 'Purified']
+      skipForms: ['Shadow', 'Purified'],
+      allUnset: true,
+      includeEstimatedPokemon: true,
     },
     template: {
       pokemonName: true,

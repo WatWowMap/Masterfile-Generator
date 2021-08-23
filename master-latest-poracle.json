@@ -1,5 +1,27 @@
 {
   "monsters": {
+    "1_0": {
+      "name": "Bulbasaur",
+      "id": 1,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 118,
+        "baseDefense": 111,
+        "baseStamina": 128
+      }
+    },
     "1_897": {
       "name": "Bulbasaur",
       "id": 1,
@@ -46,6 +68,28 @@
         "baseStamina": 128
       }
     },
+    "2_0": {
+      "name": "Ivysaur",
+      "id": 2,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 151,
+        "baseDefense": 143,
+        "baseStamina": 155
+      }
+    },
     "2_166": {
       "name": "Ivysaur",
       "id": 2,
@@ -67,6 +111,28 @@
         "baseAttack": 151,
         "baseDefense": 143,
         "baseStamina": 155
+      }
+    },
+    "3_0": {
+      "name": "Venusaur",
+      "id": 3,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 189,
+        "baseStamina": 190
       }
     },
     "3_950": {
@@ -115,6 +181,24 @@
         "baseStamina": 190
       }
     },
+    "4_0": {
+      "name": "Charmander",
+      "id": 4,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 93,
+        "baseStamina": 118
+      }
+    },
     "4_896": {
       "name": "Charmander",
       "id": 4,
@@ -153,6 +237,24 @@
         "baseStamina": 118
       }
     },
+    "5_0": {
+      "name": "Charmeleon",
+      "id": 5,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 158,
+        "baseDefense": 126,
+        "baseStamina": 151
+      }
+    },
     "5_175": {
       "name": "Charmeleon",
       "id": 5,
@@ -170,6 +272,28 @@
         "baseAttack": 158,
         "baseDefense": 126,
         "baseStamina": 151
+      }
+    },
+    "6_0": {
+      "name": "Charizard",
+      "id": 6,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 223,
+        "baseDefense": 173,
+        "baseStamina": 186
       }
     },
     "6_951": {
@@ -218,6 +342,24 @@
         "baseStamina": 186
       }
     },
+    "7_0": {
+      "name": "Squirtle",
+      "id": 7,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 94,
+        "baseDefense": 121,
+        "baseStamina": 127
+      }
+    },
     "7_895": {
       "name": "Squirtle",
       "id": 7,
@@ -256,6 +398,24 @@
         "baseStamina": 127
       }
     },
+    "8_0": {
+      "name": "Wartortle",
+      "id": 8,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 155,
+        "baseStamina": 153
+      }
+    },
     "8_184": {
       "name": "Wartortle",
       "id": 8,
@@ -273,6 +433,24 @@
         "baseAttack": 126,
         "baseDefense": 155,
         "baseStamina": 153
+      }
+    },
+    "9_0": {
+      "name": "Blastoise",
+      "id": 9,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 171,
+        "baseDefense": 207,
+        "baseStamina": 188
       }
     },
     "9_952": {
@@ -371,6 +549,28 @@
         "baseStamina": 155
       }
     },
+    "13_0": {
+      "name": "Weedle",
+      "id": 13,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 63,
+        "baseDefense": 50,
+        "baseStamina": 120
+      }
+    },
     "13_616": {
       "name": "Weedle",
       "id": 13,
@@ -394,6 +594,28 @@
         "baseStamina": 120
       }
     },
+    "14_0": {
+      "name": "Kakuna",
+      "id": 14,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 46,
+        "baseDefense": 75,
+        "baseStamina": 128
+      }
+    },
     "14_619": {
       "name": "Kakuna",
       "id": 14,
@@ -415,6 +637,28 @@
         "baseAttack": 46,
         "baseDefense": 75,
         "baseStamina": 128
+      }
+    },
+    "15_0": {
+      "name": "Beedrill",
+      "id": 15,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 169,
+        "baseDefense": 130,
+        "baseStamina": 163
       }
     },
     "15_622": {
@@ -506,6 +750,24 @@
         "baseStamina": 195
       }
     },
+    "19_0": {
+      "name": "Rattata",
+      "id": 19,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 103,
+        "baseDefense": 70,
+        "baseStamina": 102
+      }
+    },
     "19_46": {
       "name": "Rattata",
       "id": 19,
@@ -546,6 +808,24 @@
         "baseAttack": 103,
         "baseDefense": 70,
         "baseStamina": 102
+      }
+    },
+    "20_0": {
+      "name": "Raticate",
+      "id": 20,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 161,
+        "baseDefense": 139,
+        "baseStamina": 146
       }
     },
     "20_48": {
@@ -653,6 +933,24 @@
         "baseStamina": 163
       }
     },
+    "23_0": {
+      "name": "Ekans",
+      "id": 23,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 110,
+        "baseDefense": 97,
+        "baseStamina": 111
+      }
+    },
     "23_697": {
       "name": "Ekans",
       "id": 23,
@@ -672,6 +970,24 @@
         "baseStamina": 111
       }
     },
+    "24_0": {
+      "name": "Arbok",
+      "id": 24,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 167,
+        "baseDefense": 153,
+        "baseStamina": 155
+      }
+    },
     "24_700": {
       "name": "Arbok",
       "id": 24,
@@ -689,6 +1005,24 @@
         "baseAttack": 167,
         "baseDefense": 153,
         "baseStamina": 155
+      }
+    },
+    "25_0": {
+      "name": "Pikachu",
+      "id": 25,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
       }
     },
     "25_2669": {
@@ -900,6 +1234,24 @@
         "baseStamina": 111
       }
     },
+    "26_0": {
+      "name": "Raichu",
+      "id": 26,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 193,
+        "baseDefense": 151,
+        "baseStamina": 155
+      }
+    },
     "26_50": {
       "name": "Raichu",
       "id": 26,
@@ -940,6 +1292,24 @@
         "baseAttack": 193,
         "baseDefense": 151,
         "baseStamina": 155
+      }
+    },
+    "27_0": {
+      "name": "Sandshrew",
+      "id": 27,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 120,
+        "baseStamina": 137
       }
     },
     "27_52": {
@@ -984,6 +1354,24 @@
         "baseStamina": 137
       }
     },
+    "28_0": {
+      "name": "Sandslash",
+      "id": 28,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 182,
+        "baseDefense": 175,
+        "baseStamina": 181
+      }
+    },
     "28_54": {
       "name": "Sandslash",
       "id": 28,
@@ -1026,6 +1414,24 @@
         "baseStamina": 181
       }
     },
+    "29_0": {
+      "name": "Nidoran♀",
+      "id": 29,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 86,
+        "baseDefense": 89,
+        "baseStamina": 146
+      }
+    },
     "29_776": {
       "name": "Nidoran♀",
       "id": 29,
@@ -1045,6 +1451,24 @@
         "baseStamina": 146
       }
     },
+    "30_0": {
+      "name": "Nidorina",
+      "id": 30,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 117,
+        "baseDefense": 120,
+        "baseStamina": 172
+      }
+    },
     "30_779": {
       "name": "Nidorina",
       "id": 30,
@@ -1062,6 +1486,28 @@
         "baseAttack": 117,
         "baseDefense": 120,
         "baseStamina": 172
+      }
+    },
+    "31_0": {
+      "name": "Nidoqueen",
+      "id": 31,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 180,
+        "baseDefense": 173,
+        "baseStamina": 207
       }
     },
     "31_782": {
@@ -1087,6 +1533,24 @@
         "baseStamina": 207
       }
     },
+    "32_0": {
+      "name": "Nidoran♂",
+      "id": 32,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 105,
+        "baseDefense": 76,
+        "baseStamina": 130
+      }
+    },
     "32_776": {
       "name": "Nidoran♂",
       "id": 32,
@@ -1106,6 +1570,24 @@
         "baseStamina": 130
       }
     },
+    "33_0": {
+      "name": "Nidorino",
+      "id": 33,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 137,
+        "baseDefense": 111,
+        "baseStamina": 156
+      }
+    },
     "33_785": {
       "name": "Nidorino",
       "id": 33,
@@ -1123,6 +1605,28 @@
         "baseAttack": 137,
         "baseDefense": 111,
         "baseStamina": 156
+      }
+    },
+    "34_0": {
+      "name": "Nidoking",
+      "id": 34,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 204,
+        "baseDefense": 156,
+        "baseStamina": 191
       }
     },
     "34_788": {
@@ -1184,6 +1688,24 @@
         "baseStamina": 216
       }
     },
+    "37_0": {
+      "name": "Vulpix",
+      "id": 37,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 96,
+        "baseDefense": 109,
+        "baseStamina": 116
+      }
+    },
     "37_56": {
       "name": "Vulpix",
       "id": 37,
@@ -1220,6 +1742,24 @@
         "baseAttack": 96,
         "baseDefense": 109,
         "baseStamina": 116
+      }
+    },
+    "38_0": {
+      "name": "Ninetales",
+      "id": 38,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 169,
+        "baseDefense": 190,
+        "baseStamina": 177
       }
     },
     "38_58": {
@@ -1308,6 +1848,28 @@
         "baseStamina": 295
       }
     },
+    "41_0": {
+      "name": "Zubat",
+      "id": 41,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 83,
+        "baseDefense": 73,
+        "baseStamina": 120
+      }
+    },
     "41_157": {
       "name": "Zubat",
       "id": 41,
@@ -1329,6 +1891,28 @@
         "baseAttack": 83,
         "baseDefense": 73,
         "baseStamina": 120
+      }
+    },
+    "42_0": {
+      "name": "Golbat",
+      "id": 42,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 161,
+        "baseDefense": 150,
+        "baseStamina": 181
       }
     },
     "42_160": {
@@ -1354,6 +1938,28 @@
         "baseStamina": 181
       }
     },
+    "43_0": {
+      "name": "Oddish",
+      "id": 43,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 131,
+        "baseDefense": 112,
+        "baseStamina": 128
+      }
+    },
     "43_265": {
       "name": "Oddish",
       "id": 43,
@@ -1377,6 +1983,28 @@
         "baseStamina": 128
       }
     },
+    "44_0": {
+      "name": "Gloom",
+      "id": 44,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 153,
+        "baseDefense": 136,
+        "baseStamina": 155
+      }
+    },
     "44_268": {
       "name": "Gloom",
       "id": 44,
@@ -1398,6 +2026,28 @@
         "baseAttack": 153,
         "baseDefense": 136,
         "baseStamina": 155
+      }
+    },
+    "45_0": {
+      "name": "Vileplume",
+      "id": 45,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 202,
+        "baseDefense": 167,
+        "baseStamina": 181
       }
     },
     "45_271": {
@@ -1467,6 +2117,28 @@
         "baseStamina": 155
       }
     },
+    "48_0": {
+      "name": "Venonat",
+      "id": 48,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 100,
+        "baseDefense": 100,
+        "baseStamina": 155
+      }
+    },
     "48_259": {
       "name": "Venonat",
       "id": 48,
@@ -1490,6 +2162,28 @@
         "baseStamina": 155
       }
     },
+    "49_0": {
+      "name": "Venomoth",
+      "id": 49,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 179,
+        "baseDefense": 143,
+        "baseStamina": 172
+      }
+    },
     "49_262": {
       "name": "Venomoth",
       "id": 49,
@@ -1511,6 +2205,24 @@
         "baseAttack": 179,
         "baseDefense": 143,
         "baseStamina": 172
+      }
+    },
+    "50_0": {
+      "name": "Diglett",
+      "id": 50,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 109,
+        "baseDefense": 78,
+        "baseStamina": 67
       }
     },
     "50_60": {
@@ -1555,6 +2267,24 @@
         "baseStamina": 67
       }
     },
+    "51_0": {
+      "name": "Dugtrio",
+      "id": 51,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 167,
+        "baseDefense": 134,
+        "baseStamina": 111
+      }
+    },
     "51_62": {
       "name": "Dugtrio",
       "id": 51,
@@ -1595,6 +2325,24 @@
         "baseAttack": 167,
         "baseDefense": 136,
         "baseStamina": 111
+      }
+    },
+    "52_0": {
+      "name": "Meowth",
+      "id": 52,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 92,
+        "baseDefense": 78,
+        "baseStamina": 120
       }
     },
     "52_64": {
@@ -1654,6 +2402,24 @@
         "baseStamina": 120
       }
     },
+    "53_0": {
+      "name": "Persian",
+      "id": 53,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 150,
+        "baseDefense": 136,
+        "baseStamina": 163
+      }
+    },
     "53_66": {
       "name": "Persian",
       "id": 53,
@@ -1692,6 +2458,24 @@
         "baseStamina": 163
       }
     },
+    "54_0": {
+      "name": "Psyduck",
+      "id": 54,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 122,
+        "baseDefense": 95,
+        "baseStamina": 137
+      }
+    },
     "54_286": {
       "name": "Psyduck",
       "id": 54,
@@ -1709,6 +2493,24 @@
         "baseAttack": 122,
         "baseDefense": 95,
         "baseStamina": 137
+      }
+    },
+    "55_0": {
+      "name": "Golduck",
+      "id": 55,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 191,
+        "baseDefense": 162,
+        "baseStamina": 190
       }
     },
     "55_289": {
@@ -1766,6 +2568,24 @@
         "baseStamina": 163
       }
     },
+    "58_0": {
+      "name": "Growlithe",
+      "id": 58,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 136,
+        "baseDefense": 93,
+        "baseStamina": 146
+      }
+    },
     "58_280": {
       "name": "Growlithe",
       "id": 58,
@@ -1783,6 +2603,24 @@
         "baseAttack": 136,
         "baseDefense": 93,
         "baseStamina": 146
+      }
+    },
+    "59_0": {
+      "name": "Arcanine",
+      "id": 59,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 227,
+        "baseDefense": 166,
+        "baseStamina": 207
       }
     },
     "59_283": {
@@ -1804,6 +2642,24 @@
         "baseStamina": 207
       }
     },
+    "60_0": {
+      "name": "Poliwag",
+      "id": 60,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 101,
+        "baseDefense": 82,
+        "baseStamina": 120
+      }
+    },
     "60_235": {
       "name": "Poliwag",
       "id": 60,
@@ -1823,6 +2679,24 @@
         "baseStamina": 120
       }
     },
+    "61_0": {
+      "name": "Poliwhirl",
+      "id": 61,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 130,
+        "baseDefense": 123,
+        "baseStamina": 163
+      }
+    },
     "61_238": {
       "name": "Poliwhirl",
       "id": 61,
@@ -1840,6 +2714,28 @@
         "baseAttack": 130,
         "baseDefense": 123,
         "baseStamina": 163
+      }
+    },
+    "62_0": {
+      "name": "Poliwrath",
+      "id": 62,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 182,
+        "baseDefense": 184,
+        "baseStamina": 207
       }
     },
     "62_241": {
@@ -1865,6 +2761,24 @@
         "baseStamina": 207
       }
     },
+    "63_0": {
+      "name": "Abra",
+      "id": 63,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 195,
+        "baseDefense": 82,
+        "baseStamina": 93
+      }
+    },
     "63_304": {
       "name": "Abra",
       "id": 63,
@@ -1882,6 +2796,24 @@
         "baseAttack": 195,
         "baseDefense": 82,
         "baseStamina": 93
+      }
+    },
+    "64_0": {
+      "name": "Kadabra",
+      "id": 64,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 232,
+        "baseDefense": 117,
+        "baseStamina": 120
       }
     },
     "64_307": {
@@ -1903,6 +2835,24 @@
         "baseStamina": 120
       }
     },
+    "65_0": {
+      "name": "Alakazam",
+      "id": 65,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 271,
+        "baseDefense": 167,
+        "baseStamina": 146
+      }
+    },
     "65_310": {
       "name": "Alakazam",
       "id": 65,
@@ -1920,6 +2870,24 @@
         "baseAttack": 271,
         "baseDefense": 167,
         "baseStamina": 146
+      }
+    },
+    "66_0": {
+      "name": "Machop",
+      "id": 66,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 137,
+        "baseDefense": 82,
+        "baseStamina": 172
       }
     },
     "66_809": {
@@ -1941,6 +2909,24 @@
         "baseStamina": 172
       }
     },
+    "67_0": {
+      "name": "Machoke",
+      "id": 67,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 177,
+        "baseDefense": 125,
+        "baseStamina": 190
+      }
+    },
     "67_812": {
       "name": "Machoke",
       "id": 67,
@@ -1960,6 +2946,24 @@
         "baseStamina": 190
       }
     },
+    "68_0": {
+      "name": "Machamp",
+      "id": 68,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 234,
+        "baseDefense": 159,
+        "baseStamina": 207
+      }
+    },
     "68_815": {
       "name": "Machamp",
       "id": 68,
@@ -1977,6 +2981,28 @@
         "baseAttack": 234,
         "baseDefense": 159,
         "baseStamina": 207
+      }
+    },
+    "69_0": {
+      "name": "Bellsprout",
+      "id": 69,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 139,
+        "baseDefense": 61,
+        "baseStamina": 137
       }
     },
     "69_664": {
@@ -2002,6 +3028,28 @@
         "baseStamina": 137
       }
     },
+    "70_0": {
+      "name": "Weepinbell",
+      "id": 70,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 172,
+        "baseDefense": 92,
+        "baseStamina": 163
+      }
+    },
     "70_667": {
       "name": "Weepinbell",
       "id": 70,
@@ -2023,6 +3071,28 @@
         "baseAttack": 172,
         "baseDefense": 92,
         "baseStamina": 163
+      }
+    },
+    "71_0": {
+      "name": "Victreebel",
+      "id": 71,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 207,
+        "baseDefense": 135,
+        "baseStamina": 190
       }
     },
     "71_670": {
@@ -2092,6 +3162,28 @@
         "baseStamina": 190
       }
     },
+    "74_0": {
+      "name": "Geodude",
+      "id": 74,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 132,
+        "baseDefense": 132,
+        "baseStamina": 120
+      }
+    },
     "74_68": {
       "name": "Geodude",
       "id": 74,
@@ -2136,6 +3228,28 @@
         "baseAttack": 132,
         "baseDefense": 132,
         "baseStamina": 120
+      }
+    },
+    "75_0": {
+      "name": "Graveler",
+      "id": 75,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 164,
+        "baseDefense": 164,
+        "baseStamina": 146
       }
     },
     "75_70": {
@@ -2184,6 +3298,28 @@
         "baseStamina": 146
       }
     },
+    "76_0": {
+      "name": "Golem",
+      "id": 76,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 211,
+        "baseDefense": 198,
+        "baseStamina": 190
+      }
+    },
     "76_72": {
       "name": "Golem",
       "id": 76,
@@ -2230,6 +3366,24 @@
         "baseStamina": 190
       }
     },
+    "77_0": {
+      "name": "Ponyta",
+      "id": 77,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 170,
+        "baseDefense": 127,
+        "baseStamina": 137
+      }
+    },
     "77_2336": {
       "name": "Ponyta",
       "id": 77,
@@ -2266,6 +3420,24 @@
         "baseAttack": 170,
         "baseDefense": 127,
         "baseStamina": 137
+      }
+    },
+    "78_0": {
+      "name": "Rapidash",
+      "id": 78,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 207,
+        "baseDefense": 162,
+        "baseStamina": 163
       }
     },
     "78_2337": {
@@ -2308,6 +3480,28 @@
         "baseAttack": 207,
         "baseDefense": 162,
         "baseStamina": 163
+      }
+    },
+    "79_0": {
+      "name": "Slowpoke",
+      "id": 79,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 109,
+        "baseDefense": 98,
+        "baseStamina": 207
       }
     },
     "79_2673": {
@@ -2373,6 +3567,28 @@
         "baseAttack": 109,
         "baseDefense": 98,
         "baseStamina": 207
+      }
+    },
+    "80_0": {
+      "name": "Slowbro",
+      "id": 80,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 177,
+        "baseDefense": 180,
+        "baseStamina": 216
       }
     },
     "80_2674": {
@@ -2444,6 +3660,28 @@
         "baseStamina": 216
       }
     },
+    "81_0": {
+      "name": "Magnemite",
+      "id": 81,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 165,
+        "baseDefense": 121,
+        "baseStamina": 93
+      }
+    },
     "81_655": {
       "name": "Magnemite",
       "id": 81,
@@ -2467,6 +3705,28 @@
         "baseStamina": 93
       }
     },
+    "82_0": {
+      "name": "Magneton",
+      "id": 82,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 223,
+        "baseDefense": 169,
+        "baseStamina": 137
+      }
+    },
     "82_658": {
       "name": "Magneton",
       "id": 82,
@@ -2488,6 +3748,28 @@
         "baseAttack": 223,
         "baseDefense": 169,
         "baseStamina": 137
+      }
+    },
+    "83_0": {
+      "name": "Farfetchd",
+      "id": 83,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 124,
+        "baseDefense": 115,
+        "baseStamina": 141
       }
     },
     "83_2338": {
@@ -2616,6 +3898,24 @@
         "baseStamina": 207
       }
     },
+    "88_0": {
+      "name": "Grimer",
+      "id": 88,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 135,
+        "baseDefense": 90,
+        "baseStamina": 190
+      }
+    },
     "88_74": {
       "name": "Grimer",
       "id": 88,
@@ -2656,6 +3956,24 @@
         "baseAttack": 135,
         "baseDefense": 90,
         "baseStamina": 190
+      }
+    },
+    "89_0": {
+      "name": "Muk",
+      "id": 89,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 190,
+        "baseDefense": 172,
+        "baseStamina": 233
       }
     },
     "89_76": {
@@ -2700,6 +4018,24 @@
         "baseStamina": 233
       }
     },
+    "90_0": {
+      "name": "Shellder",
+      "id": 90,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 134,
+        "baseStamina": 102
+      }
+    },
     "90_876": {
       "name": "Shellder",
       "id": 90,
@@ -2717,6 +4053,28 @@
         "baseAttack": 116,
         "baseDefense": 134,
         "baseStamina": 102
+      }
+    },
+    "91_0": {
+      "name": "Cloyster",
+      "id": 91,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 186,
+        "baseDefense": 256,
+        "baseStamina": 137
       }
     },
     "91_879": {
@@ -2786,6 +4144,28 @@
         "baseStamina": 128
       }
     },
+    "94_0": {
+      "name": "Gengar",
+      "id": 94,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 261,
+        "baseDefense": 149,
+        "baseStamina": 155
+      }
+    },
     "94_2586": {
       "name": "Gengar",
       "id": 94,
@@ -2830,6 +4210,28 @@
         "baseAttack": 261,
         "baseDefense": 149,
         "baseStamina": 155
+      }
+    },
+    "95_0": {
+      "name": "Onix",
+      "id": 95,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 85,
+        "baseDefense": 232,
+        "baseStamina": 111
       }
     },
     "95_902": {
@@ -2878,6 +4280,24 @@
         "baseStamina": 111
       }
     },
+    "96_0": {
+      "name": "Drowzee",
+      "id": 96,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 89,
+        "baseDefense": 136,
+        "baseStamina": 155
+      }
+    },
     "96_214": {
       "name": "Drowzee",
       "id": 96,
@@ -2895,6 +4315,24 @@
         "baseAttack": 89,
         "baseDefense": 136,
         "baseStamina": 155
+      }
+    },
+    "97_0": {
+      "name": "Hypno",
+      "id": 97,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 144,
+        "baseDefense": 193,
+        "baseStamina": 198
       }
     },
     "97_217": {
@@ -2916,6 +4354,24 @@
         "baseStamina": 198
       }
     },
+    "98_0": {
+      "name": "Krabby",
+      "id": 98,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 181,
+        "baseDefense": 124,
+        "baseStamina": 102
+      }
+    },
     "98_870": {
       "name": "Krabby",
       "id": 98,
@@ -2933,6 +4389,24 @@
         "baseAttack": 181,
         "baseDefense": 124,
         "baseStamina": 102
+      }
+    },
+    "99_0": {
+      "name": "Kingler",
+      "id": 99,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 240,
+        "baseDefense": 181,
+        "baseStamina": 146
       }
     },
     "99_873": {
@@ -2990,6 +4464,28 @@
         "baseStamina": 155
       }
     },
+    "102_0": {
+      "name": "Exeggcute",
+      "id": 102,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 107,
+        "baseDefense": 125,
+        "baseStamina": 155
+      }
+    },
     "102_729": {
       "name": "Exeggcute",
       "id": 102,
@@ -3011,6 +4507,28 @@
         "baseAttack": 107,
         "baseDefense": 125,
         "baseStamina": 155
+      }
+    },
+    "103_0": {
+      "name": "Exeggutor",
+      "id": 103,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 233,
+        "baseDefense": 149,
+        "baseStamina": 216
       }
     },
     "103_78": {
@@ -3059,6 +4577,24 @@
         "baseStamina": 216
       }
     },
+    "104_0": {
+      "name": "Cubone",
+      "id": 104,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 90,
+        "baseDefense": 144,
+        "baseStamina": 137
+      }
+    },
     "104_224": {
       "name": "Cubone",
       "id": 104,
@@ -3076,6 +4612,24 @@
         "baseAttack": 90,
         "baseDefense": 144,
         "baseStamina": 137
+      }
+    },
+    "105_0": {
+      "name": "Marowak",
+      "id": 105,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 144,
+        "baseDefense": 186,
+        "baseStamina": 155
       }
     },
     "105_80": {
@@ -3120,6 +4674,24 @@
         "baseStamina": 155
       }
     },
+    "106_0": {
+      "name": "Hitmonlee",
+      "id": 106,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 224,
+        "baseDefense": 181,
+        "baseStamina": 137
+      }
+    },
     "106_713": {
       "name": "Hitmonlee",
       "id": 106,
@@ -3136,6 +4708,24 @@
       "stats": {
         "baseAttack": 224,
         "baseDefense": 181,
+        "baseStamina": 137
+      }
+    },
+    "107_0": {
+      "name": "Hitmonchan",
+      "id": 107,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 193,
+        "baseDefense": 197,
         "baseStamina": 137
       }
     },
@@ -3176,6 +4766,24 @@
         "baseStamina": 207
       }
     },
+    "109_0": {
+      "name": "Koffing",
+      "id": 109,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 119,
+        "baseDefense": 141,
+        "baseStamina": 120
+      }
+    },
     "109_703": {
       "name": "Koffing",
       "id": 109,
@@ -3193,6 +4801,24 @@
         "baseAttack": 119,
         "baseDefense": 141,
         "baseStamina": 120
+      }
+    },
+    "110_0": {
+      "name": "Weezing",
+      "id": 110,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 174,
+        "baseDefense": 197,
+        "baseStamina": 163
       }
     },
     "110_944": {
@@ -3237,6 +4863,28 @@
         "baseStamina": 163
       }
     },
+    "111_0": {
+      "name": "Rhyhorn",
+      "id": 111,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 140,
+        "baseDefense": 127,
+        "baseStamina": 190
+      }
+    },
     "111_846": {
       "name": "Rhyhorn",
       "id": 111,
@@ -3258,6 +4906,28 @@
         "baseAttack": 140,
         "baseDefense": 127,
         "baseStamina": 190
+      }
+    },
+    "112_0": {
+      "name": "Rhydon",
+      "id": 112,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 171,
+        "baseStamina": 233
       }
     },
     "112_849": {
@@ -3301,6 +4971,24 @@
         "baseStamina": 487
       }
     },
+    "114_0": {
+      "name": "Tangela",
+      "id": 114,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 183,
+        "baseDefense": 169,
+        "baseStamina": 163
+      }
+    },
     "114_1059": {
       "name": "Tangela",
       "id": 114,
@@ -3318,6 +5006,24 @@
         "baseAttack": 183,
         "baseDefense": 169,
         "baseStamina": 163
+      }
+    },
+    "115_0": {
+      "name": "Kangaskhan",
+      "id": 115,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 181,
+        "baseDefense": 165,
+        "baseStamina": 233
       }
     },
     "115_839": {
@@ -3339,6 +5045,24 @@
         "baseStamina": 233
       }
     },
+    "116_0": {
+      "name": "Horsea",
+      "id": 116,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 129,
+        "baseDefense": 103,
+        "baseStamina": 102
+      }
+    },
     "116_1062": {
       "name": "Horsea",
       "id": 116,
@@ -3356,6 +5080,24 @@
         "baseAttack": 129,
         "baseDefense": 103,
         "baseStamina": 102
+      }
+    },
+    "117_0": {
+      "name": "Seadra",
+      "id": 117,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 187,
+        "baseDefense": 156,
+        "baseStamina": 146
       }
     },
     "117_1065": {
@@ -3453,6 +5195,28 @@
         "baseStamina": 155
       }
     },
+    "122_0": {
+      "name": "Mr Mime",
+      "id": 122,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 192,
+        "baseDefense": 205,
+        "baseStamina": 120
+      }
+    },
     "122_2339": {
       "name": "Mr Mime",
       "id": 122,
@@ -3497,6 +5261,28 @@
         "baseAttack": 192,
         "baseDefense": 205,
         "baseStamina": 120
+      }
+    },
+    "123_0": {
+      "name": "Scyther",
+      "id": 123,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 218,
+        "baseDefense": 170,
+        "baseStamina": 172
       }
     },
     "123_247": {
@@ -3544,6 +5330,24 @@
         "baseStamina": 163
       }
     },
+    "125_0": {
+      "name": "Electabuzz",
+      "id": 125,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 158,
+        "baseStamina": 163
+      }
+    },
     "125_640": {
       "name": "Electabuzz",
       "id": 125,
@@ -3563,6 +5367,24 @@
         "baseStamina": 163
       }
     },
+    "126_0": {
+      "name": "Magmar",
+      "id": 126,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 206,
+        "baseDefense": 154,
+        "baseStamina": 163
+      }
+    },
     "126_634": {
       "name": "Magmar",
       "id": 126,
@@ -3579,6 +5401,24 @@
       "stats": {
         "baseAttack": 206,
         "baseDefense": 154,
+        "baseStamina": 163
+      }
+    },
+    "127_0": {
+      "name": "Pinsir",
+      "id": 127,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "stats": {
+        "baseAttack": 238,
+        "baseDefense": 182,
         "baseStamina": 163
       }
     },
@@ -3619,6 +5459,24 @@
         "baseStamina": 181
       }
     },
+    "129_0": {
+      "name": "Magikarp",
+      "id": 129,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 29,
+        "baseDefense": 85,
+        "baseStamina": 85
+      }
+    },
     "129_253": {
       "name": "Magikarp",
       "id": 129,
@@ -3636,6 +5494,28 @@
         "baseAttack": 29,
         "baseDefense": 85,
         "baseStamina": 85
+      }
+    },
+    "130_0": {
+      "name": "Gyarados",
+      "id": 130,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 237,
+        "baseDefense": 186,
+        "baseStamina": 216
       }
     },
     "130_256": {
@@ -3659,6 +5539,28 @@
         "baseAttack": 237,
         "baseDefense": 186,
         "baseStamina": 216
+      }
+    },
+    "131_0": {
+      "name": "Lapras",
+      "id": 131,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 165,
+        "baseDefense": 174,
+        "baseStamina": 277
       }
     },
     "131_322": {
@@ -3797,6 +5699,24 @@
         "baseStamina": 163
       }
     },
+    "137_0": {
+      "name": "Porygon",
+      "id": 137,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 153,
+        "baseDefense": 136,
+        "baseStamina": 163
+      }
+    },
     "137_677": {
       "name": "Porygon",
       "id": 137,
@@ -3814,6 +5734,28 @@
         "baseAttack": 153,
         "baseDefense": 136,
         "baseStamina": 163
+      }
+    },
+    "138_0": {
+      "name": "Omanyte",
+      "id": 138,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 155,
+        "baseDefense": 153,
+        "baseStamina": 111
       }
     },
     "138_740": {
@@ -3839,6 +5781,28 @@
         "baseStamina": 111
       }
     },
+    "139_0": {
+      "name": "Omastar",
+      "id": 139,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 207,
+        "baseDefense": 201,
+        "baseStamina": 172
+      }
+    },
     "139_743": {
       "name": "Omastar",
       "id": 139,
@@ -3860,6 +5824,28 @@
         "baseAttack": 207,
         "baseDefense": 201,
         "baseStamina": 172
+      }
+    },
+    "140_0": {
+      "name": "Kabuto",
+      "id": 140,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 148,
+        "baseDefense": 140,
+        "baseStamina": 102
       }
     },
     "140_1104": {
@@ -3885,6 +5871,28 @@
         "baseStamina": 102
       }
     },
+    "141_0": {
+      "name": "Kabutops",
+      "id": 141,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 220,
+        "baseDefense": 186,
+        "baseStamina": 155
+      }
+    },
     "141_1107": {
       "name": "Kabutops",
       "id": 141,
@@ -3906,6 +5914,28 @@
         "baseAttack": 220,
         "baseDefense": 186,
         "baseStamina": 155
+      }
+    },
+    "142_0": {
+      "name": "Aerodactyl",
+      "id": 142,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 221,
+        "baseDefense": 159,
+        "baseStamina": 190
       }
     },
     "142_1110": {
@@ -3931,6 +5961,24 @@
         "baseStamina": 190
       }
     },
+    "143_0": {
+      "name": "Snorlax",
+      "id": 143,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 190,
+        "baseDefense": 169,
+        "baseStamina": 330
+      }
+    },
     "143_199": {
       "name": "Snorlax",
       "id": 143,
@@ -3948,6 +5996,28 @@
         "baseAttack": 190,
         "baseDefense": 169,
         "baseStamina": 330
+      }
+    },
+    "144_0": {
+      "name": "Articuno",
+      "id": 144,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 192,
+        "baseDefense": 236,
+        "baseStamina": 207
       }
     },
     "144_716": {
@@ -3970,6 +6040,28 @@
       "stats": {
         "baseAttack": 192,
         "baseDefense": 236,
+        "baseStamina": 207
+      }
+    },
+    "145_0": {
+      "name": "Zapdos",
+      "id": 145,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 253,
+        "baseDefense": 185,
         "baseStamina": 207
       }
     },
@@ -3996,6 +6088,28 @@
         "baseStamina": 207
       }
     },
+    "146_0": {
+      "name": "Moltres",
+      "id": 146,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 251,
+        "baseDefense": 181,
+        "baseStamina": 207
+      }
+    },
     "146_836": {
       "name": "Moltres",
       "id": 146,
@@ -4019,6 +6133,24 @@
         "baseStamina": 207
       }
     },
+    "147_0": {
+      "name": "Dratini",
+      "id": 147,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 119,
+        "baseDefense": 91,
+        "baseStamina": 121
+      }
+    },
     "147_190": {
       "name": "Dratini",
       "id": 147,
@@ -4038,6 +6170,24 @@
         "baseStamina": 121
       }
     },
+    "148_0": {
+      "name": "Dragonair",
+      "id": 148,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 163,
+        "baseDefense": 135,
+        "baseStamina": 156
+      }
+    },
     "148_193": {
       "name": "Dragonair",
       "id": 148,
@@ -4055,6 +6205,28 @@
         "baseAttack": 163,
         "baseDefense": 135,
         "baseStamina": 156
+      }
+    },
+    "149_0": {
+      "name": "Dragonite",
+      "id": 149,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 263,
+        "baseDefense": 198,
+        "baseStamina": 209
       }
     },
     "149_196": {
@@ -4101,6 +6273,24 @@
         "baseAttack": 263,
         "baseDefense": 198,
         "baseStamina": 209
+      }
+    },
+    "150_0": {
+      "name": "Mewtwo",
+      "id": 150,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 300,
+        "baseDefense": 182,
+        "baseStamina": 214
       }
     },
     "150_133": {
@@ -4489,6 +6679,28 @@
         "baseStamina": 172
       }
     },
+    "169_0": {
+      "name": "Crobat",
+      "id": 169,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 194,
+        "baseDefense": 178,
+        "baseStamina": 198
+      }
+    },
     "169_202": {
       "name": "Crobat",
       "id": 169,
@@ -4698,6 +6910,24 @@
         "baseStamina": 163
       }
     },
+    "179_0": {
+      "name": "Mareep",
+      "id": 179,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 114,
+        "baseDefense": 79,
+        "baseStamina": 146
+      }
+    },
     "179_646": {
       "name": "Mareep",
       "id": 179,
@@ -4715,6 +6945,24 @@
         "baseAttack": 114,
         "baseDefense": 79,
         "baseStamina": 146
+      }
+    },
+    "180_0": {
+      "name": "Flaaffy",
+      "id": 180,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 145,
+        "baseDefense": 109,
+        "baseStamina": 172
       }
     },
     "180_649": {
@@ -4736,6 +6984,24 @@
         "baseStamina": 172
       }
     },
+    "181_0": {
+      "name": "Ampharos",
+      "id": 181,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 211,
+        "baseDefense": 169,
+        "baseStamina": 207
+      }
+    },
     "181_652": {
       "name": "Ampharos",
       "id": 181,
@@ -4753,6 +7019,24 @@
         "baseAttack": 211,
         "baseDefense": 169,
         "baseStamina": 207
+      }
+    },
+    "182_0": {
+      "name": "Bellossom",
+      "id": 182,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 169,
+        "baseDefense": 186,
+        "baseStamina": 181
       }
     },
     "182_274": {
@@ -4836,6 +7120,24 @@
         "baseStamina": 172
       }
     },
+    "186_0": {
+      "name": "Politoed",
+      "id": 186,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 174,
+        "baseDefense": 179,
+        "baseStamina": 207
+      }
+    },
     "186_244": {
       "name": "Politoed",
       "id": 186,
@@ -4853,6 +7155,28 @@
         "baseAttack": 174,
         "baseDefense": 179,
         "baseStamina": 207
+      }
+    },
+    "187_0": {
+      "name": "Hoppip",
+      "id": 187,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 67,
+        "baseDefense": 94,
+        "baseStamina": 111
       }
     },
     "187_1205": {
@@ -4878,6 +7202,28 @@
         "baseStamina": 111
       }
     },
+    "188_0": {
+      "name": "Skiploom",
+      "id": 188,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 91,
+        "baseDefense": 120,
+        "baseStamina": 146
+      }
+    },
     "188_1208": {
       "name": "Skiploom",
       "id": 188,
@@ -4901,6 +7247,28 @@
         "baseStamina": 146
       }
     },
+    "189_0": {
+      "name": "Jumpluff",
+      "id": 189,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 118,
+        "baseDefense": 183,
+        "baseStamina": 181
+      }
+    },
     "189_1211": {
       "name": "Jumpluff",
       "id": 189,
@@ -4922,6 +7290,24 @@
         "baseAttack": 118,
         "baseDefense": 183,
         "baseStamina": 181
+      }
+    },
+    "190_0": {
+      "name": "Aipom",
+      "id": 190,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 136,
+        "baseDefense": 112,
+        "baseStamina": 146
       }
     },
     "190_1214": {
@@ -5001,6 +7387,28 @@
         "baseStamina": 163
       }
     },
+    "194_0": {
+      "name": "Wooper",
+      "id": 194,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 75,
+        "baseDefense": 66,
+        "baseStamina": 146
+      }
+    },
     "194_1226": {
       "name": "Wooper",
       "id": 194,
@@ -5022,6 +7430,28 @@
         "baseAttack": 75,
         "baseDefense": 66,
         "baseStamina": 146
+      }
+    },
+    "195_0": {
+      "name": "Quagsire",
+      "id": 195,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 152,
+        "baseDefense": 143,
+        "baseStamina": 216
       }
     },
     "195_1229": {
@@ -5083,6 +7513,28 @@
         "baseStamina": 216
       }
     },
+    "198_0": {
+      "name": "Murkrow",
+      "id": 198,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 175,
+        "baseDefense": 87,
+        "baseStamina": 155
+      }
+    },
     "198_855": {
       "name": "Murkrow",
       "id": 198,
@@ -5104,6 +7556,28 @@
         "baseAttack": 175,
         "baseDefense": 87,
         "baseStamina": 155
+      }
+    },
+    "199_0": {
+      "name": "Slowking",
+      "id": 199,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 177,
+        "baseDefense": 180,
+        "baseStamina": 216
       }
     },
     "199_2584": {
@@ -5152,6 +7626,24 @@
         "baseStamina": 216
       }
     },
+    "200_0": {
+      "name": "Misdreavus",
+      "id": 200,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 167,
+        "baseDefense": 154,
+        "baseStamina": 155
+      }
+    },
     "200_719": {
       "name": "Misdreavus",
       "id": 200,
@@ -5169,6 +7661,24 @@
         "baseAttack": 167,
         "baseDefense": 154,
         "baseStamina": 155
+      }
+    },
+    "201_0": {
+      "name": "Unown",
+      "id": 201,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 136,
+        "baseDefense": 91,
+        "baseStamina": 134
       }
     },
     "201_1": {
@@ -5703,6 +8213,24 @@
         "baseStamina": 134
       }
     },
+    "202_0": {
+      "name": "Wobbuffet",
+      "id": 202,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 60,
+        "baseDefense": 106,
+        "baseStamina": 382
+      }
+    },
     "202_602": {
       "name": "Wobbuffet",
       "id": 202,
@@ -5763,6 +8291,24 @@
         "baseStamina": 172
       }
     },
+    "204_0": {
+      "name": "Pineco",
+      "id": 204,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "stats": {
+        "baseAttack": 108,
+        "baseDefense": 122,
+        "baseStamina": 137
+      }
+    },
     "204_1244": {
       "name": "Pineco",
       "id": 204,
@@ -5780,6 +8326,28 @@
         "baseAttack": 108,
         "baseDefense": 122,
         "baseStamina": 137
+      }
+    },
+    "205_0": {
+      "name": "Forretress",
+      "id": 205,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 161,
+        "baseDefense": 205,
+        "baseStamina": 181
       }
     },
     "205_1247": {
@@ -5823,6 +8391,28 @@
         "baseStamina": 225
       }
     },
+    "207_0": {
+      "name": "Gligar",
+      "id": 207,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 143,
+        "baseDefense": 184,
+        "baseStamina": 163
+      }
+    },
     "207_803": {
       "name": "Gligar",
       "id": 207,
@@ -5844,6 +8434,28 @@
         "baseAttack": 143,
         "baseDefense": 184,
         "baseStamina": 163
+      }
+    },
+    "208_0": {
+      "name": "Steelix",
+      "id": 208,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 148,
+        "baseDefense": 272,
+        "baseStamina": 181
       }
     },
     "208_905": {
@@ -5869,6 +8481,24 @@
         "baseStamina": 181
       }
     },
+    "209_0": {
+      "name": "Snubbull",
+      "id": 209,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 137,
+        "baseDefense": 85,
+        "baseStamina": 155
+      }
+    },
     "209_1253": {
       "name": "Snubbull",
       "id": 209,
@@ -5886,6 +8516,24 @@
         "baseAttack": 137,
         "baseDefense": 85,
         "baseStamina": 155
+      }
+    },
+    "210_0": {
+      "name": "Granbull",
+      "id": 210,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 212,
+        "baseDefense": 131,
+        "baseStamina": 207
       }
     },
     "210_1256": {
@@ -5929,6 +8577,28 @@
         "baseStamina": 163
       }
     },
+    "212_0": {
+      "name": "Scizor",
+      "id": 212,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 236,
+        "baseDefense": 181,
+        "baseStamina": 172
+      }
+    },
     "212_250": {
       "name": "Scizor",
       "id": 212,
@@ -5950,6 +8620,28 @@
         "baseAttack": 236,
         "baseDefense": 181,
         "baseStamina": 172
+      }
+    },
+    "213_0": {
+      "name": "Shuckle",
+      "id": 213,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 17,
+        "baseDefense": 396,
+        "baseStamina": 85
       }
     },
     "213_827": {
@@ -5997,6 +8689,28 @@
         "baseStamina": 190
       }
     },
+    "215_0": {
+      "name": "Sneasel",
+      "id": 215,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 189,
+        "baseDefense": 146,
+        "baseStamina": 146
+      }
+    },
     "215_797": {
       "name": "Sneasel",
       "id": 215,
@@ -6020,6 +8734,24 @@
         "baseStamina": 146
       }
     },
+    "216_0": {
+      "name": "Teddiursa",
+      "id": 216,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 142,
+        "baseDefense": 93,
+        "baseStamina": 155
+      }
+    },
     "216_1265": {
       "name": "Teddiursa",
       "id": 216,
@@ -6037,6 +8769,24 @@
         "baseAttack": 142,
         "baseDefense": 93,
         "baseStamina": 155
+      }
+    },
+    "217_0": {
+      "name": "Ursaring",
+      "id": 217,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 236,
+        "baseDefense": 144,
+        "baseStamina": 207
       }
     },
     "217_1268": {
@@ -6098,6 +8848,28 @@
         "baseStamina": 137
       }
     },
+    "220_0": {
+      "name": "Swinub",
+      "id": 220,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 90,
+        "baseDefense": 69,
+        "baseStamina": 137
+      }
+    },
     "220_1277": {
       "name": "Swinub",
       "id": 220,
@@ -6119,6 +8891,28 @@
         "baseAttack": 90,
         "baseDefense": 69,
         "baseStamina": 137
+      }
+    },
+    "221_0": {
+      "name": "Piloswine",
+      "id": 221,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 181,
+        "baseDefense": 138,
+        "baseStamina": 225
       }
     },
     "221_1280": {
@@ -6225,6 +9019,28 @@
         "baseStamina": 181
       }
     },
+    "225_0": {
+      "name": "Delibird",
+      "id": 225,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 128,
+        "baseDefense": 90,
+        "baseStamina": 128
+      }
+    },
     "225_938": {
       "name": "Delibird",
       "id": 225,
@@ -6293,6 +9109,28 @@
         "baseStamina": 163
       }
     },
+    "227_0": {
+      "name": "Skarmory",
+      "id": 227,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 148,
+        "baseDefense": 226,
+        "baseStamina": 163
+      }
+    },
     "227_1295": {
       "name": "Skarmory",
       "id": 227,
@@ -6314,6 +9152,28 @@
         "baseAttack": 148,
         "baseDefense": 226,
         "baseStamina": 163
+      }
+    },
+    "228_0": {
+      "name": "Houndour",
+      "id": 228,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 152,
+        "baseDefense": 83,
+        "baseStamina": 128
       }
     },
     "228_229": {
@@ -6339,6 +9199,28 @@
         "baseStamina": 128
       }
     },
+    "229_0": {
+      "name": "Houndoom",
+      "id": 229,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 224,
+        "baseDefense": 144,
+        "baseStamina": 181
+      }
+    },
     "229_232": {
       "name": "Houndoom",
       "id": 229,
@@ -6359,6 +9241,28 @@
       "stats": {
         "baseAttack": 224,
         "baseDefense": 144,
+        "baseStamina": 181
+      }
+    },
+    "230_0": {
+      "name": "Kingdra",
+      "id": 230,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 194,
+        "baseDefense": 194,
         "baseStamina": 181
       }
     },
@@ -6421,6 +9325,24 @@
         "baseStamina": 207
       }
     },
+    "233_0": {
+      "name": "Porygon2",
+      "id": 233,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 180,
+        "baseStamina": 198
+      }
+    },
     "233_680": {
       "name": "Porygon2",
       "id": 233,
@@ -6438,6 +9360,24 @@
         "baseAttack": 198,
         "baseDefense": 180,
         "baseStamina": 198
+      }
+    },
+    "234_0": {
+      "name": "Stantler",
+      "id": 234,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 192,
+        "baseDefense": 131,
+        "baseStamina": 177
       }
     },
     "234_941": {
@@ -6607,6 +9547,24 @@
         "baseStamina": 496
       }
     },
+    "243_0": {
+      "name": "Raikou",
+      "id": 243,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 195,
+        "baseStamina": 207
+      }
+    },
     "243_1331": {
       "name": "Raikou",
       "id": 243,
@@ -6624,6 +9582,24 @@
         "baseAttack": 241,
         "baseDefense": 195,
         "baseStamina": 207
+      }
+    },
+    "244_0": {
+      "name": "Entei",
+      "id": 244,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 235,
+        "baseDefense": 171,
+        "baseStamina": 251
       }
     },
     "244_1334": {
@@ -6645,6 +9621,24 @@
         "baseStamina": 251
       }
     },
+    "245_0": {
+      "name": "Suicune",
+      "id": 245,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 180,
+        "baseDefense": 235,
+        "baseStamina": 225
+      }
+    },
     "245_1337": {
       "name": "Suicune",
       "id": 245,
@@ -6662,6 +9656,28 @@
         "baseAttack": 180,
         "baseDefense": 235,
         "baseStamina": 225
+      }
+    },
+    "246_0": {
+      "name": "Larvitar",
+      "id": 246,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 115,
+        "baseDefense": 93,
+        "baseStamina": 137
       }
     },
     "246_313": {
@@ -6687,6 +9703,28 @@
         "baseStamina": 137
       }
     },
+    "247_0": {
+      "name": "Pupitar",
+      "id": 247,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 155,
+        "baseDefense": 133,
+        "baseStamina": 172
+      }
+    },
     "247_316": {
       "name": "Pupitar",
       "id": 247,
@@ -6708,6 +9746,28 @@
         "baseAttack": 155,
         "baseDefense": 133,
         "baseStamina": 172
+      }
+    },
+    "248_0": {
+      "name": "Tyranitar",
+      "id": 248,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 251,
+        "baseDefense": 207,
+        "baseStamina": 225
       }
     },
     "248_319": {
@@ -6753,6 +9813,28 @@
         "baseAttack": 193,
         "baseDefense": 310,
         "baseStamina": 235
+      }
+    },
+    "250_0": {
+      "name": "Ho Oh",
+      "id": 250,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 239,
+        "baseDefense": 244,
+        "baseStamina": 214
       }
     },
     "250_1343": {
@@ -6854,6 +9936,24 @@
         "baseStamina": 172
       }
     },
+    "255_0": {
+      "name": "Torchic",
+      "id": 255,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 130,
+        "baseDefense": 87,
+        "baseStamina": 128
+      }
+    },
     "255_1358": {
       "name": "Torchic",
       "id": 255,
@@ -6871,6 +9971,28 @@
         "baseAttack": 130,
         "baseDefense": 87,
         "baseStamina": 128
+      }
+    },
+    "256_0": {
+      "name": "Combusken",
+      "id": 256,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 163,
+        "baseDefense": 115,
+        "baseStamina": 155
       }
     },
     "256_1361": {
@@ -6896,6 +10018,28 @@
         "baseStamina": 155
       }
     },
+    "257_0": {
+      "name": "Blaziken",
+      "id": 257,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 240,
+        "baseDefense": 141,
+        "baseStamina": 190
+      }
+    },
     "257_1364": {
       "name": "Blaziken",
       "id": 257,
@@ -6919,6 +10063,24 @@
         "baseStamina": 190
       }
     },
+    "258_0": {
+      "name": "Mudkip",
+      "id": 258,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 93,
+        "baseStamina": 137
+      }
+    },
     "258_205": {
       "name": "Mudkip",
       "id": 258,
@@ -6936,6 +10098,28 @@
         "baseAttack": 126,
         "baseDefense": 93,
         "baseStamina": 137
+      }
+    },
+    "259_0": {
+      "name": "Marshtomp",
+      "id": 259,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 156,
+        "baseDefense": 133,
+        "baseStamina": 172
       }
     },
     "259_208": {
@@ -6961,6 +10145,28 @@
         "baseStamina": 172
       }
     },
+    "260_0": {
+      "name": "Swampert",
+      "id": 260,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 208,
+        "baseDefense": 175,
+        "baseStamina": 225
+      }
+    },
     "260_211": {
       "name": "Swampert",
       "id": 260,
@@ -6984,6 +10190,24 @@
         "baseStamina": 225
       }
     },
+    "261_0": {
+      "name": "Poochyena",
+      "id": 261,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 96,
+        "baseDefense": 61,
+        "baseStamina": 111
+      }
+    },
     "261_1367": {
       "name": "Poochyena",
       "id": 261,
@@ -7003,6 +10227,24 @@
         "baseStamina": 111
       }
     },
+    "262_0": {
+      "name": "Mightyena",
+      "id": 262,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 171,
+        "baseDefense": 132,
+        "baseStamina": 172
+      }
+    },
     "262_1370": {
       "name": "Mightyena",
       "id": 262,
@@ -7020,6 +10262,24 @@
         "baseAttack": 171,
         "baseDefense": 132,
         "baseStamina": 172
+      }
+    },
+    "263_0": {
+      "name": "Zigzagoon",
+      "id": 263,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 58,
+        "baseDefense": 80,
+        "baseStamina": 116
       }
     },
     "263_946": {
@@ -7062,6 +10322,24 @@
         "baseAttack": 58,
         "baseDefense": 80,
         "baseStamina": 116
+      }
+    },
+    "264_0": {
+      "name": "Linoone",
+      "id": 264,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 142,
+        "baseDefense": 128,
+        "baseStamina": 186
       }
     },
     "264_948": {
@@ -7289,6 +10567,24 @@
         "baseStamina": 190
       }
     },
+    "273_0": {
+      "name": "Seedot",
+      "id": 273,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 71,
+        "baseDefense": 77,
+        "baseStamina": 120
+      }
+    },
     "273_625": {
       "name": "Seedot",
       "id": 273,
@@ -7306,6 +10602,28 @@
         "baseAttack": 71,
         "baseDefense": 77,
         "baseStamina": 120
+      }
+    },
+    "274_0": {
+      "name": "Nuzleaf",
+      "id": 274,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 78,
+        "baseStamina": 172
       }
     },
     "274_628": {
@@ -7329,6 +10647,28 @@
         "baseAttack": 134,
         "baseDefense": 78,
         "baseStamina": 172
+      }
+    },
+    "275_0": {
+      "name": "Shiftry",
+      "id": 275,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 200,
+        "baseDefense": 121,
+        "baseStamina": 207
       }
     },
     "275_631": {
@@ -7442,6 +10782,28 @@
         "baseStamina": 155
       }
     },
+    "280_0": {
+      "name": "Ralts",
+      "id": 280,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 79,
+        "baseDefense": 59,
+        "baseStamina": 99
+      }
+    },
     "280_292": {
       "name": "Ralts",
       "id": 280,
@@ -7465,6 +10827,28 @@
         "baseStamina": 99
       }
     },
+    "281_0": {
+      "name": "Kirlia",
+      "id": 281,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 117,
+        "baseDefense": 90,
+        "baseStamina": 116
+      }
+    },
     "281_295": {
       "name": "Kirlia",
       "id": 281,
@@ -7486,6 +10870,28 @@
         "baseAttack": 117,
         "baseDefense": 90,
         "baseStamina": 116
+      }
+    },
+    "282_0": {
+      "name": "Gardevoir",
+      "id": 282,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 237,
+        "baseDefense": 195,
+        "baseStamina": 169
       }
     },
     "282_298": {
@@ -7769,6 +11175,24 @@
         "baseStamina": 232
       }
     },
+    "296_0": {
+      "name": "Makuhita",
+      "id": 296,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 99,
+        "baseDefense": 54,
+        "baseStamina": 176
+      }
+    },
     "296_1451": {
       "name": "Makuhita",
       "id": 296,
@@ -7786,6 +11210,24 @@
         "baseAttack": 99,
         "baseDefense": 54,
         "baseStamina": 176
+      }
+    },
+    "297_0": {
+      "name": "Hariyama",
+      "id": 297,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 209,
+        "baseDefense": 114,
+        "baseStamina": 302
       }
     },
     "297_1454": {
@@ -7827,6 +11269,24 @@
         "baseAttack": 36,
         "baseDefense": 71,
         "baseStamina": 137
+      }
+    },
+    "299_0": {
+      "name": "Nosepass",
+      "id": 299,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 82,
+        "baseDefense": 215,
+        "baseStamina": 102
       }
     },
     "299_1460": {
@@ -7882,6 +11342,28 @@
         "baseAttack": 132,
         "baseDefense": 127,
         "baseStamina": 172
+      }
+    },
+    "302_0": {
+      "name": "Sableye",
+      "id": 302,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 141,
+        "baseDefense": 136,
+        "baseStamina": 137
       }
     },
     "302_2668": {
@@ -7953,6 +11435,28 @@
         "baseStamina": 137
       }
     },
+    "303_0": {
+      "name": "Mawile",
+      "id": 303,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 155,
+        "baseDefense": 141,
+        "baseStamina": 137
+      }
+    },
     "303_833": {
       "name": "Mawile",
       "id": 303,
@@ -7972,6 +11476,28 @@
       ],
       "stats": {
         "baseAttack": 155,
+        "baseDefense": 141,
+        "baseStamina": 137
+      }
+    },
+    "304_0": {
+      "name": "Aron",
+      "id": 304,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 121,
         "baseDefense": 141,
         "baseStamina": 137
       }
@@ -7999,6 +11525,28 @@
         "baseStamina": 137
       }
     },
+    "305_0": {
+      "name": "Lairon",
+      "id": 305,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 158,
+        "baseDefense": 198,
+        "baseStamina": 155
+      }
+    },
     "305_1472": {
       "name": "Lairon",
       "id": 305,
@@ -8020,6 +11568,28 @@
         "baseAttack": 158,
         "baseDefense": 198,
         "baseStamina": 155
+      }
+    },
+    "306_0": {
+      "name": "Aggron",
+      "id": 306,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 257,
+        "baseStamina": 172
       }
     },
     "306_1475": {
@@ -8089,6 +11659,24 @@
         "baseStamina": 155
       }
     },
+    "309_0": {
+      "name": "Electrike",
+      "id": 309,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 123,
+        "baseDefense": 78,
+        "baseStamina": 120
+      }
+    },
     "309_1484": {
       "name": "Electrike",
       "id": 309,
@@ -8106,6 +11694,24 @@
         "baseAttack": 123,
         "baseDefense": 78,
         "baseStamina": 120
+      }
+    },
+    "310_0": {
+      "name": "Manectric",
+      "id": 310,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 215,
+        "baseDefense": 127,
+        "baseStamina": 172
       }
     },
     "310_1487": {
@@ -8257,6 +11863,28 @@
         "baseStamina": 225
       }
     },
+    "318_0": {
+      "name": "Carvanha",
+      "id": 318,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 171,
+        "baseDefense": 39,
+        "baseStamina": 128
+      }
+    },
     "318_734": {
       "name": "Carvanha",
       "id": 318,
@@ -8278,6 +11906,28 @@
         "baseAttack": 171,
         "baseDefense": 39,
         "baseStamina": 128
+      }
+    },
+    "319_0": {
+      "name": "Sharpedo",
+      "id": 319,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 243,
+        "baseDefense": 83,
+        "baseStamina": 172
       }
     },
     "319_737": {
@@ -8435,6 +12085,24 @@
         "baseAttack": 171,
         "baseDefense": 188,
         "baseStamina": 190
+      }
+    },
+    "327_0": {
+      "name": "Spinda",
+      "id": 327,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 116,
+        "baseStamina": 155
       }
     },
     "327_37": {
@@ -8817,6 +12485,24 @@
         "baseStamina": 155
       }
     },
+    "328_0": {
+      "name": "Trapinch",
+      "id": 328,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 162,
+        "baseDefense": 78,
+        "baseStamina": 128
+      }
+    },
     "328_746": {
       "name": "Trapinch",
       "id": 328,
@@ -8834,6 +12520,28 @@
         "baseAttack": 162,
         "baseDefense": 78,
         "baseStamina": 128
+      }
+    },
+    "329_0": {
+      "name": "Vibrava",
+      "id": 329,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 99,
+        "baseStamina": 137
       }
     },
     "329_749": {
@@ -8859,6 +12567,28 @@
         "baseStamina": 137
       }
     },
+    "330_0": {
+      "name": "Flygon",
+      "id": 330,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 205,
+        "baseDefense": 168,
+        "baseStamina": 190
+      }
+    },
     "330_752": {
       "name": "Flygon",
       "id": 330,
@@ -8882,6 +12612,24 @@
         "baseStamina": 190
       }
     },
+    "331_0": {
+      "name": "Cacnea",
+      "id": 331,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 156,
+        "baseDefense": 74,
+        "baseStamina": 137
+      }
+    },
     "331_610": {
       "name": "Cacnea",
       "id": 331,
@@ -8899,6 +12647,28 @@
         "baseAttack": 156,
         "baseDefense": 74,
         "baseStamina": 137
+      }
+    },
+    "332_0": {
+      "name": "Cacturne",
+      "id": 332,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 221,
+        "baseDefense": 115,
+        "baseStamina": 172
       }
     },
     "332_613": {
@@ -9176,6 +12946,28 @@
         "baseStamina": 155
       }
     },
+    "345_0": {
+      "name": "Lileep",
+      "id": 345,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 105,
+        "baseDefense": 150,
+        "baseStamina": 165
+      }
+    },
     "345_1568": {
       "name": "Lileep",
       "id": 345,
@@ -9197,6 +12989,28 @@
         "baseAttack": 105,
         "baseDefense": 150,
         "baseStamina": 165
+      }
+    },
+    "346_0": {
+      "name": "Cradily",
+      "id": 346,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 152,
+        "baseDefense": 194,
+        "baseStamina": 200
       }
     },
     "346_1571": {
@@ -9222,6 +13036,28 @@
         "baseStamina": 200
       }
     },
+    "347_0": {
+      "name": "Anorith",
+      "id": 347,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "stats": {
+        "baseAttack": 176,
+        "baseDefense": 100,
+        "baseStamina": 128
+      }
+    },
     "347_1574": {
       "name": "Anorith",
       "id": 347,
@@ -9243,6 +13079,28 @@
         "baseAttack": 176,
         "baseDefense": 100,
         "baseStamina": 128
+      }
+    },
+    "348_0": {
+      "name": "Armaldo",
+      "id": 348,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 174,
+        "baseStamina": 181
       }
     },
     "348_1577": {
@@ -9302,6 +13160,24 @@
         "baseAttack": 192,
         "baseDefense": 219,
         "baseStamina": 216
+      }
+    },
+    "351_0": {
+      "name": "Castform",
+      "id": 351,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 139,
+        "baseDefense": 139,
+        "baseStamina": 172
       }
     },
     "351_29": {
@@ -9398,6 +13274,24 @@
         "baseStamina": 155
       }
     },
+    "353_0": {
+      "name": "Shuppet",
+      "id": 353,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 138,
+        "baseDefense": 65,
+        "baseStamina": 127
+      }
+    },
     "353_908": {
       "name": "Shuppet",
       "id": 353,
@@ -9415,6 +13309,24 @@
         "baseAttack": 138,
         "baseDefense": 65,
         "baseStamina": 127
+      }
+    },
+    "354_0": {
+      "name": "Banette",
+      "id": 354,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 218,
+        "baseDefense": 126,
+        "baseStamina": 162
       }
     },
     "354_911": {
@@ -9436,6 +13348,24 @@
         "baseStamina": 162
       }
     },
+    "355_0": {
+      "name": "Duskull",
+      "id": 355,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 70,
+        "baseDefense": 162,
+        "baseStamina": 85
+      }
+    },
     "355_914": {
       "name": "Duskull",
       "id": 355,
@@ -9453,6 +13383,24 @@
         "baseAttack": 70,
         "baseDefense": 162,
         "baseStamina": 85
+      }
+    },
+    "356_0": {
+      "name": "Dusclops",
+      "id": 356,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 124,
+        "baseDefense": 234,
+        "baseStamina": 120
       }
     },
     "356_917": {
@@ -9512,6 +13460,24 @@
         "baseAttack": 175,
         "baseDefense": 170,
         "baseStamina": 181
+      }
+    },
+    "359_0": {
+      "name": "Absol",
+      "id": 359,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 246,
+        "baseDefense": 120,
+        "baseStamina": 163
       }
     },
     "359_830": {
@@ -9587,6 +13553,28 @@
         "baseStamina": 190
       }
     },
+    "363_0": {
+      "name": "Spheal",
+      "id": 363,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 95,
+        "baseDefense": 90,
+        "baseStamina": 172
+      }
+    },
     "363_1598": {
       "name": "Spheal",
       "id": 363,
@@ -9610,6 +13598,28 @@
         "baseStamina": 172
       }
     },
+    "364_0": {
+      "name": "Sealeo",
+      "id": 364,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 137,
+        "baseDefense": 132,
+        "baseStamina": 207
+      }
+    },
     "364_1601": {
       "name": "Sealeo",
       "id": 364,
@@ -9631,6 +13641,28 @@
         "baseAttack": 137,
         "baseDefense": 132,
         "baseStamina": 207
+      }
+    },
+    "365_0": {
+      "name": "Walrein",
+      "id": 365,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 182,
+        "baseDefense": 176,
+        "baseStamina": 242
       }
     },
     "365_1604": {
@@ -9750,6 +13782,24 @@
         "baseStamina": 125
       }
     },
+    "371_0": {
+      "name": "Bagon",
+      "id": 371,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 93,
+        "baseStamina": 128
+      }
+    },
     "371_755": {
       "name": "Bagon",
       "id": 371,
@@ -9769,6 +13819,24 @@
         "baseStamina": 128
       }
     },
+    "372_0": {
+      "name": "Shelgon",
+      "id": 372,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 172,
+        "baseDefense": 155,
+        "baseStamina": 163
+      }
+    },
     "372_758": {
       "name": "Shelgon",
       "id": 372,
@@ -9786,6 +13854,28 @@
         "baseAttack": 172,
         "baseDefense": 155,
         "baseStamina": 163
+      }
+    },
+    "373_0": {
+      "name": "Salamence",
+      "id": 373,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 277,
+        "baseDefense": 168,
+        "baseStamina": 216
       }
     },
     "373_761": {
@@ -9811,6 +13901,28 @@
         "baseStamina": 216
       }
     },
+    "374_0": {
+      "name": "Beldum",
+      "id": 374,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 96,
+        "baseDefense": 132,
+        "baseStamina": 120
+      }
+    },
     "374_764": {
       "name": "Beldum",
       "id": 374,
@@ -9834,6 +13946,28 @@
         "baseStamina": 120
       }
     },
+    "375_0": {
+      "name": "Metang",
+      "id": 375,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 138,
+        "baseDefense": 176,
+        "baseStamina": 155
+      }
+    },
     "375_767": {
       "name": "Metang",
       "id": 375,
@@ -9855,6 +13989,28 @@
         "baseAttack": 138,
         "baseDefense": 176,
         "baseStamina": 155
+      }
+    },
+    "376_0": {
+      "name": "Metagross",
+      "id": 376,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 257,
+        "baseDefense": 228,
+        "baseStamina": 190
       }
     },
     "376_770": {
@@ -10058,6 +14214,24 @@
         "baseStamina": 225
       }
     },
+    "386_0": {
+      "name": "Deoxys",
+      "id": 386,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 345,
+        "baseDefense": 115,
+        "baseStamina": 137
+      }
+    },
     "386_34": {
       "name": "Deoxys",
       "id": 386,
@@ -10134,6 +14308,24 @@
         "baseStamina": 137
       }
     },
+    "387_0": {
+      "name": "Turtwig",
+      "id": 387,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 119,
+        "baseDefense": 110,
+        "baseStamina": 146
+      }
+    },
     "387_688": {
       "name": "Turtwig",
       "id": 387,
@@ -10153,6 +14345,24 @@
         "baseStamina": 146
       }
     },
+    "388_0": {
+      "name": "Grotle",
+      "id": 388,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 157,
+        "baseDefense": 143,
+        "baseStamina": 181
+      }
+    },
     "388_691": {
       "name": "Grotle",
       "id": 388,
@@ -10170,6 +14380,28 @@
         "baseAttack": 157,
         "baseDefense": 143,
         "baseStamina": 181
+      }
+    },
+    "389_0": {
+      "name": "Torterra",
+      "id": 389,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 202,
+        "baseDefense": 188,
+        "baseStamina": 216
       }
     },
     "389_694": {
@@ -10195,6 +14427,24 @@
         "baseStamina": 216
       }
     },
+    "390_0": {
+      "name": "Chimchar",
+      "id": 390,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 113,
+        "baseDefense": 86,
+        "baseStamina": 127
+      }
+    },
     "390_818": {
       "name": "Chimchar",
       "id": 390,
@@ -10212,6 +14462,28 @@
         "baseAttack": 113,
         "baseDefense": 86,
         "baseStamina": 127
+      }
+    },
+    "391_0": {
+      "name": "Monferno",
+      "id": 391,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 158,
+        "baseDefense": 105,
+        "baseStamina": 162
       }
     },
     "391_821": {
@@ -10235,6 +14507,28 @@
         "baseAttack": 158,
         "baseDefense": 105,
         "baseStamina": 162
+      }
+    },
+    "392_0": {
+      "name": "Infernape",
+      "id": 392,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 151,
+        "baseStamina": 183
       }
     },
     "392_824": {
@@ -10318,6 +14612,28 @@
         "baseStamina": 197
       }
     },
+    "396_0": {
+      "name": "Starly",
+      "id": 396,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 101,
+        "baseDefense": 58,
+        "baseStamina": 120
+      }
+    },
     "396_1658": {
       "name": "Starly",
       "id": 396,
@@ -10339,6 +14655,28 @@
         "baseAttack": 101,
         "baseDefense": 58,
         "baseStamina": 120
+      }
+    },
+    "397_0": {
+      "name": "Staravia",
+      "id": 397,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 142,
+        "baseDefense": 94,
+        "baseStamina": 146
       }
     },
     "397_1661": {
@@ -10364,6 +14702,28 @@
         "baseStamina": 146
       }
     },
+    "398_0": {
+      "name": "Staraptor",
+      "id": 398,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 234,
+        "baseDefense": 140,
+        "baseStamina": 198
+      }
+    },
     "398_1664": {
       "name": "Staraptor",
       "id": 398,
@@ -10387,6 +14747,24 @@
         "baseStamina": 198
       }
     },
+    "399_0": {
+      "name": "Bidoof",
+      "id": 399,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 80,
+        "baseDefense": 73,
+        "baseStamina": 153
+      }
+    },
     "399_1667": {
       "name": "Bidoof",
       "id": 399,
@@ -10404,6 +14782,28 @@
         "baseAttack": 80,
         "baseDefense": 73,
         "baseStamina": 153
+      }
+    },
+    "400_0": {
+      "name": "Bibarel",
+      "id": 400,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 162,
+        "baseDefense": 119,
+        "baseStamina": 188
       }
     },
     "400_1670": {
@@ -10643,6 +15043,24 @@
         "baseStamina": 155
       }
     },
+    "412_0": {
+      "name": "Burmy",
+      "id": 412,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "stats": {
+        "baseAttack": 53,
+        "baseDefense": 83,
+        "baseStamina": 120
+      }
+    },
     "412_118": {
       "name": "Burmy",
       "id": 412,
@@ -10717,6 +15135,28 @@
         "baseAttack": 53,
         "baseDefense": 83,
         "baseStamina": 120
+      }
+    },
+    "413_0": {
+      "name": "Wormadam",
+      "id": 413,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 141,
+        "baseDefense": 180,
+        "baseStamina": 155
       }
     },
     "413_87": {
@@ -10949,6 +15389,24 @@
         "baseStamina": 128
       }
     },
+    "421_0": {
+      "name": "Cherrim",
+      "id": 421,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 170,
+        "baseDefense": 153,
+        "baseStamina": 172
+      }
+    },
     "421_94": {
       "name": "Cherrim",
       "id": 421,
@@ -11006,6 +15464,24 @@
         "baseStamina": 172
       }
     },
+    "422_0": {
+      "name": "Shellos",
+      "id": 422,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 103,
+        "baseDefense": 105,
+        "baseStamina": 183
+      }
+    },
     "422_97": {
       "name": "Shellos",
       "id": 422,
@@ -11061,6 +15537,28 @@
         "baseAttack": 103,
         "baseDefense": 105,
         "baseStamina": 183
+      }
+    },
+    "423_0": {
+      "name": "Gastrodon",
+      "id": 423,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 169,
+        "baseDefense": 143,
+        "baseStamina": 244
       }
     },
     "423_99": {
@@ -11130,6 +15628,24 @@
         "baseAttack": 169,
         "baseDefense": 143,
         "baseStamina": 244
+      }
+    },
+    "424_0": {
+      "name": "Ambipom",
+      "id": 424,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 205,
+        "baseDefense": 143,
+        "baseStamina": 181
       }
     },
     "424_1742": {
@@ -11231,6 +15747,24 @@
         "baseStamina": 163
       }
     },
+    "429_0": {
+      "name": "Mismagius",
+      "id": 429,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 211,
+        "baseDefense": 187,
+        "baseStamina": 155
+      }
+    },
     "429_722": {
       "name": "Mismagius",
       "id": 429,
@@ -11248,6 +15782,28 @@
         "baseAttack": 211,
         "baseDefense": 187,
         "baseStamina": 155
+      }
+    },
+    "430_0": {
+      "name": "Honchkrow",
+      "id": 430,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 243,
+        "baseDefense": 103,
+        "baseStamina": 225
       }
     },
     "430_858": {
@@ -11327,6 +15883,28 @@
         "baseStamina": 128
       }
     },
+    "434_0": {
+      "name": "Stunky",
+      "id": 434,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 121,
+        "baseDefense": 90,
+        "baseStamina": 160
+      }
+    },
     "434_791": {
       "name": "Stunky",
       "id": 434,
@@ -11348,6 +15926,28 @@
         "baseAttack": 121,
         "baseDefense": 90,
         "baseStamina": 160
+      }
+    },
+    "435_0": {
+      "name": "Skuntank",
+      "id": 435,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 184,
+        "baseDefense": 132,
+        "baseStamina": 230
       }
     },
     "435_794": {
@@ -11519,6 +16119,28 @@
         "baseStamina": 137
       }
     },
+    "443_0": {
+      "name": "Gible",
+      "id": 443,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 124,
+        "baseDefense": 84,
+        "baseStamina": 151
+      }
+    },
     "443_861": {
       "name": "Gible",
       "id": 443,
@@ -11542,6 +16164,28 @@
         "baseStamina": 151
       }
     },
+    "444_0": {
+      "name": "Gabite",
+      "id": 444,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 172,
+        "baseDefense": 125,
+        "baseStamina": 169
+      }
+    },
     "444_864": {
       "name": "Gabite",
       "id": 444,
@@ -11563,6 +16207,28 @@
         "baseAttack": 172,
         "baseDefense": 125,
         "baseStamina": 169
+      }
+    },
+    "445_0": {
+      "name": "Garchomp",
+      "id": 445,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 261,
+        "baseDefense": 193,
+        "baseStamina": 239
       }
     },
     "445_867": {
@@ -11646,6 +16312,24 @@
         "baseStamina": 172
       }
     },
+    "449_0": {
+      "name": "Hippopotas",
+      "id": 449,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 124,
+        "baseDefense": 118,
+        "baseStamina": 169
+      }
+    },
     "449_888": {
       "name": "Hippopotas",
       "id": 449,
@@ -11665,6 +16349,24 @@
         "baseStamina": 169
       }
     },
+    "450_0": {
+      "name": "Hippowdon",
+      "id": 450,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 201,
+        "baseDefense": 191,
+        "baseStamina": 239
+      }
+    },
     "450_891": {
       "name": "Hippowdon",
       "id": 450,
@@ -11682,6 +16384,28 @@
         "baseAttack": 201,
         "baseDefense": 191,
         "baseStamina": 239
+      }
+    },
+    "451_0": {
+      "name": "Skorupi",
+      "id": 451,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "stats": {
+        "baseAttack": 93,
+        "baseDefense": 151,
+        "baseStamina": 120
       }
     },
     "451_1796": {
@@ -11705,6 +16429,28 @@
         "baseAttack": 93,
         "baseDefense": 151,
         "baseStamina": 120
+      }
+    },
+    "452_0": {
+      "name": "Drapion",
+      "id": 452,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 180,
+        "baseDefense": 202,
+        "baseStamina": 172
       }
     },
     "452_1799": {
@@ -11850,6 +16596,28 @@
         "baseStamina": 128
       }
     },
+    "459_0": {
+      "name": "Snover",
+      "id": 459,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 115,
+        "baseDefense": 105,
+        "baseStamina": 155
+      }
+    },
     "459_932": {
       "name": "Snover",
       "id": 459,
@@ -11871,6 +16639,28 @@
         "baseAttack": 115,
         "baseDefense": 105,
         "baseStamina": 155
+      }
+    },
+    "460_0": {
+      "name": "Abomasnow",
+      "id": 460,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 178,
+        "baseDefense": 158,
+        "baseStamina": 207
       }
     },
     "460_935": {
@@ -11896,6 +16686,28 @@
         "baseStamina": 207
       }
     },
+    "461_0": {
+      "name": "Weavile",
+      "id": 461,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 243,
+        "baseDefense": 171,
+        "baseStamina": 172
+      }
+    },
     "461_800": {
       "name": "Weavile",
       "id": 461,
@@ -11916,6 +16728,28 @@
       "stats": {
         "baseAttack": 243,
         "baseDefense": 171,
+        "baseStamina": 172
+      }
+    },
+    "462_0": {
+      "name": "Magnezone",
+      "id": 462,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 238,
+        "baseDefense": 205,
         "baseStamina": 172
       }
     },
@@ -11960,6 +16794,28 @@
         "baseStamina": 242
       }
     },
+    "464_0": {
+      "name": "Rhyperior",
+      "id": 464,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 190,
+        "baseStamina": 251
+      }
+    },
     "464_852": {
       "name": "Rhyperior",
       "id": 464,
@@ -11983,6 +16839,24 @@
         "baseStamina": 251
       }
     },
+    "465_0": {
+      "name": "Tangrowth",
+      "id": 465,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 207,
+        "baseDefense": 184,
+        "baseStamina": 225
+      }
+    },
     "465_1823": {
       "name": "Tangrowth",
       "id": 465,
@@ -12002,6 +16876,24 @@
         "baseStamina": 225
       }
     },
+    "466_0": {
+      "name": "Electivire",
+      "id": 466,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 249,
+        "baseDefense": 163,
+        "baseStamina": 181
+      }
+    },
     "466_643": {
       "name": "Electivire",
       "id": 466,
@@ -12018,6 +16910,24 @@
       "stats": {
         "baseAttack": 249,
         "baseDefense": 163,
+        "baseStamina": 181
+      }
+    },
+    "467_0": {
+      "name": "Magmortar",
+      "id": 467,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 247,
+        "baseDefense": 172,
         "baseStamina": 181
       }
     },
@@ -12120,6 +17030,28 @@
         "baseStamina": 163
       }
     },
+    "472_0": {
+      "name": "Gliscor",
+      "id": 472,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 222,
+        "baseStamina": 181
+      }
+    },
     "472_806": {
       "name": "Gliscor",
       "id": 472,
@@ -12141,6 +17073,28 @@
         "baseAttack": 185,
         "baseDefense": 222,
         "baseStamina": 181
+      }
+    },
+    "473_0": {
+      "name": "Mamoswine",
+      "id": 473,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "stats": {
+        "baseAttack": 247,
+        "baseDefense": 146,
+        "baseStamina": 242
       }
     },
     "473_1838": {
@@ -12166,6 +17120,24 @@
         "baseStamina": 242
       }
     },
+    "474_0": {
+      "name": "Porygon Z",
+      "id": 474,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 264,
+        "baseDefense": 150,
+        "baseStamina": 198
+      }
+    },
     "474_683": {
       "name": "Porygon Z",
       "id": 474,
@@ -12183,6 +17155,28 @@
         "baseAttack": 264,
         "baseDefense": 150,
         "baseStamina": 198
+      }
+    },
+    "475_0": {
+      "name": "Gallade",
+      "id": 475,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 237,
+        "baseDefense": 195,
+        "baseStamina": 169
       }
     },
     "475_301": {
@@ -12208,6 +17202,28 @@
         "baseStamina": 169
       }
     },
+    "476_0": {
+      "name": "Probopass",
+      "id": 476,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 135,
+        "baseDefense": 275,
+        "baseStamina": 155
+      }
+    },
     "476_1841": {
       "name": "Probopass",
       "id": 476,
@@ -12229,6 +17245,24 @@
         "baseAttack": 135,
         "baseDefense": 275,
         "baseStamina": 155
+      }
+    },
+    "477_0": {
+      "name": "Dusknoir",
+      "id": 477,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 180,
+        "baseDefense": 254,
+        "baseStamina": 128
       }
     },
     "477_920": {
@@ -12270,6 +17304,28 @@
         "baseAttack": 171,
         "baseDefense": 150,
         "baseStamina": 172
+      }
+    },
+    "479_0": {
+      "name": "Rotom",
+      "id": 479,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 159,
+        "baseStamina": 137
       }
     },
     "479_83": {
@@ -12548,6 +17604,28 @@
         "baseStamina": 221
       }
     },
+    "487_0": {
+      "name": "Giratina",
+      "id": 487,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 187,
+        "baseDefense": 225,
+        "baseStamina": 284
+      }
+    },
     "487_90": {
       "name": "Giratina",
       "id": 487,
@@ -12689,6 +17767,24 @@
         "baseStamina": 172
       }
     },
+    "492_0": {
+      "name": "Shaymin",
+      "id": 492,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 210,
+        "baseDefense": 210,
+        "baseStamina": 225
+      }
+    },
     "492_93": {
       "name": "Shaymin",
       "id": 492,
@@ -12748,6 +17844,24 @@
         "baseAttack": 210,
         "baseDefense": 210,
         "baseStamina": 225
+      }
+    },
+    "493_0": {
+      "name": "Arceus",
+      "id": 493,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 238,
+        "baseDefense": 238,
+        "baseStamina": 237
       }
     },
     "493_106": {
@@ -14176,6 +19290,24 @@
         "baseStamina": 172
       }
     },
+    "550_0": {
+      "name": "Basculin",
+      "id": 550,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "stats": {
+        "baseAttack": 189,
+        "baseDefense": 129,
+        "baseStamina": 172
+      }
+    },
     "550_137": {
       "name": "Basculin",
       "id": 550,
@@ -14280,6 +19412,24 @@
         "baseStamina": 216
       }
     },
+    "554_0": {
+      "name": "Darumaka",
+      "id": 554,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 153,
+        "baseDefense": 86,
+        "baseStamina": 172
+      }
+    },
     "554_2341": {
       "name": "Darumaka",
       "id": 554,
@@ -14316,6 +19466,24 @@
         "baseAttack": 153,
         "baseDefense": 86,
         "baseStamina": 172
+      }
+    },
+    "555_0": {
+      "name": "Darmanitan",
+      "id": 555,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "stats": {
+        "baseAttack": 263,
+        "baseDefense": 114,
+        "baseStamina": 233
       }
     },
     "555_2342": {
@@ -14530,6 +19698,24 @@
         "baseStamina": 176
       }
     },
+    "562_0": {
+      "name": "Yamask",
+      "id": 562,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 95,
+        "baseDefense": 141,
+        "baseStamina": 116
+      }
+    },
     "562_2344": {
       "name": "Yamask",
       "id": 562,
@@ -14570,6 +19756,24 @@
         "baseAttack": 95,
         "baseDefense": 141,
         "baseStamina": 116
+      }
+    },
+    "563_0": {
+      "name": "Cofagrigus",
+      "id": 563,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 163,
+        "baseDefense": 237,
+        "baseStamina": 151
       }
     },
     "563_2087": {
@@ -14993,6 +20197,28 @@
         "baseStamina": 174
       }
     },
+    "585_0": {
+      "name": "Deerling",
+      "id": 585,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 115,
+        "baseDefense": 100,
+        "baseStamina": 155
+      }
+    },
     "585_587": {
       "name": "Deerling",
       "id": 585,
@@ -15083,6 +20309,28 @@
         "baseAttack": 115,
         "baseDefense": 100,
         "baseStamina": 155
+      }
+    },
+    "586_0": {
+      "name": "Sawsbuck",
+      "id": 586,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 146,
+        "baseStamina": 190
       }
     },
     "586_591": {
@@ -15283,6 +20531,28 @@
         "baseStamina": 249
       }
     },
+    "592_0": {
+      "name": "Frillish",
+      "id": 592,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 115,
+        "baseDefense": 134,
+        "baseStamina": 146
+      }
+    },
     "592_2330": {
       "name": "Frillish",
       "id": 592,
@@ -15327,6 +20597,28 @@
         "baseAttack": 115,
         "baseDefense": 134,
         "baseStamina": 146
+      }
+    },
+    "593_0": {
+      "name": "Jellicent",
+      "id": 593,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 159,
+        "baseDefense": 178,
+        "baseStamina": 225
       }
     },
     "593_2331": {
@@ -15745,6 +21037,24 @@
         "baseStamina": 183
       }
     },
+    "613_0": {
+      "name": "Cubchoo",
+      "id": 613,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 128,
+        "baseDefense": 74,
+        "baseStamina": 146
+      }
+    },
     "613_2231": {
       "name": "Cubchoo",
       "id": 613,
@@ -15853,6 +21163,28 @@
         "baseAttack": 220,
         "baseDefense": 120,
         "baseStamina": 190
+      }
+    },
+    "618_0": {
+      "name": "Stunfisk",
+      "id": 618,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "stats": {
+        "baseAttack": 144,
+        "baseDefense": 171,
+        "baseStamina": 240
       }
     },
     "618_2345": {
@@ -16365,6 +21697,24 @@
         "baseStamina": 209
       }
     },
+    "641_0": {
+      "name": "Tornadus",
+      "id": 641,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 266,
+        "baseDefense": 164,
+        "baseStamina": 188
+      }
+    },
     "641_140": {
       "name": "Tornadus",
       "id": 641,
@@ -16400,6 +21750,28 @@
       "stats": {
         "baseAttack": 238,
         "baseDefense": 189,
+        "baseStamina": 188
+      }
+    },
+    "642_0": {
+      "name": "Thundurus",
+      "id": 642,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 266,
+        "baseDefense": 164,
         "baseStamina": 188
       }
     },
@@ -16493,6 +21865,28 @@
         "baseStamina": 205
       }
     },
+    "645_0": {
+      "name": "Landorus",
+      "id": 645,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "stats": {
+        "baseAttack": 261,
+        "baseDefense": 182,
+        "baseStamina": 205
+      }
+    },
     "645_144": {
       "name": "Landorus",
       "id": 645,
@@ -16537,6 +21931,28 @@
         "baseAttack": 289,
         "baseDefense": 179,
         "baseStamina": 205
+      }
+    },
+    "646_0": {
+      "name": "Kyurem",
+      "id": 646,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 246,
+        "baseDefense": 170,
+        "baseStamina": 245
       }
     },
     "646_147": {
@@ -16608,6 +22024,28 @@
         "baseStamina": 245
       }
     },
+    "647_0": {
+      "name": "Keldeo",
+      "id": 647,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 260,
+        "baseDefense": 192,
+        "baseStamina": 209
+      }
+    },
     "647_149": {
       "name": "Keldeo",
       "id": 647,
@@ -16654,6 +22092,28 @@
         "baseStamina": 209
       }
     },
+    "648_0": {
+      "name": "Meloetta",
+      "id": 648,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 250,
+        "baseDefense": 225,
+        "baseStamina": 225
+      }
+    },
     "648_151": {
       "name": "Meloetta",
       "id": 648,
@@ -16698,6 +22158,28 @@
         "baseAttack": 269,
         "baseDefense": 188,
         "baseStamina": 225
+      }
+    },
+    "649_0": {
+      "name": "Genesect",
+      "id": 649,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 252,
+        "baseDefense": 199,
+        "baseStamina": 174
       }
     },
     "649_595": {
@@ -17635,6 +23117,28 @@
         "baseStamina": 158
       }
     },
+    "668_0": {
+      "name": "Pyroar",
+      "id": 668,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 221,
+        "baseDefense": 149,
+        "baseStamina": 200
+      }
+    },
     "668_2588": {
       "name": "Pyroar",
       "id": 668,
@@ -18096,6 +23600,24 @@
         "baseStamina": 216
       }
     },
+    "676_0": {
+      "name": "Furfrou",
+      "id": 676,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 164,
+        "baseDefense": 167,
+        "baseStamina": 181
+      }
+    },
     "676_2635": {
       "name": "Furfrou",
       "id": 676,
@@ -18304,6 +23826,24 @@
         "baseStamina": 158
       }
     },
+    "678_0": {
+      "name": "Meowstic",
+      "id": 678,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 166,
+        "baseDefense": 167,
+        "baseStamina": 179
+      }
+    },
     "678_2590": {
       "name": "Meowstic",
       "id": 678,
@@ -18357,7 +23897,12 @@
           "id": 8,
           "name": "Ghost"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 135,
+        "baseDefense": 139,
+        "baseStamina": 128
+      }
     },
     "680_0": {
       "name": "Doublade",
@@ -18374,7 +23919,12 @@
           "id": 8,
           "name": "Ghost"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 188,
+        "baseDefense": 206,
+        "baseStamina": 153
+      }
     },
     "681_0": {
       "name": "Aegislash",
@@ -18391,7 +23941,12 @@
           "id": 8,
           "name": "Ghost"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 97,
+        "baseDefense": 272,
+        "baseStamina": 155
+      }
     },
     "681_2639": {
       "name": "Aegislash",
@@ -18409,7 +23964,12 @@
           "id": 8,
           "name": "Ghost"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 97,
+        "baseDefense": 272,
+        "baseStamina": 155
+      }
     },
     "681_2640": {
       "name": "Aegislash",
@@ -18427,7 +23987,12 @@
           "id": 8,
           "name": "Ghost"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 97,
+        "baseDefense": 272,
+        "baseStamina": 155
+      }
     },
     "682_0": {
       "name": "Spritzee",
@@ -19406,7 +24971,12 @@
           "id": 5,
           "name": "Ground"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 203,
+        "baseDefense": 232,
+        "baseStamina": 239
+      }
     },
     "718_2591": {
       "name": "Zygarde",
@@ -19424,7 +24994,12 @@
           "id": 5,
           "name": "Ground"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 203,
+        "baseDefense": 232,
+        "baseStamina": 239
+      }
     },
     "718_2592": {
       "name": "Zygarde",
@@ -19442,7 +25017,12 @@
           "id": 5,
           "name": "Ground"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 203,
+        "baseDefense": 232,
+        "baseStamina": 239
+      }
     },
     "718_2593": {
       "name": "Zygarde",
@@ -19460,7 +25040,12 @@
           "id": 5,
           "name": "Ground"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 203,
+        "baseDefense": 232,
+        "baseStamina": 239
+      }
     },
     "719_0": {
       "name": "Diancie",
@@ -19482,6 +25067,28 @@
         "baseAttack": 190,
         "baseDefense": 285,
         "baseStamina": 137
+      }
+    },
+    "720_0": {
+      "name": "Hoopa",
+      "id": 720,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 261,
+        "baseDefense": 187,
+        "baseStamina": 173
       }
     },
     "720_2651": {
@@ -19557,140 +25164,408 @@
       "id": 722,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 102,
+        "baseDefense": 99,
+        "baseStamina": 169
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "723_0": {
       "name": "Dartrix",
       "id": 723,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 142,
+        "baseDefense": 139,
+        "baseStamina": 186
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "724_0": {
       "name": "Decidueye",
       "id": 724,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 210,
+        "baseDefense": 179,
+        "baseStamina": 186
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ]
     },
     "725_0": {
       "name": "Litten",
       "id": 725,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 128,
+        "baseDefense": 79,
+        "baseStamina": 128
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ]
     },
     "726_0": {
       "name": "Torracat",
       "id": 726,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 174,
+        "baseDefense": 103,
+        "baseStamina": 163
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ]
     },
     "727_0": {
       "name": "Incineroar",
       "id": 727,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 214,
+        "baseDefense": 175,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ]
     },
     "728_0": {
       "name": "Popplio",
       "id": 728,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 120,
+        "baseDefense": 103,
+        "baseStamina": 137
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "729_0": {
       "name": "Brionne",
       "id": 729,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 168,
+        "baseDefense": 145,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "730_0": {
       "name": "Primarina",
       "id": 730,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 232,
+        "baseDefense": 195,
+        "baseStamina": 190
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "731_0": {
       "name": "Pikipek",
       "id": 731,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 136,
+        "baseDefense": 59,
+        "baseStamina": 111
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "732_0": {
       "name": "Trumbeak",
       "id": 732,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 159,
+        "baseDefense": 100,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "733_0": {
       "name": "Toucannon",
       "id": 733,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 146,
+        "baseStamina": 190
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "734_0": {
       "name": "Yungoos",
       "id": 734,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 122,
+        "baseDefense": 56,
+        "baseStamina": 134
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "735_0": {
       "name": "Gumshoos",
       "id": 735,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 194,
+        "baseDefense": 113,
+        "baseStamina": 204
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "736_0": {
       "name": "Grubbin",
       "id": 736,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 115,
+        "baseDefense": 85,
+        "baseStamina": 132
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ]
     },
     "737_0": {
       "name": "Charjabug",
       "id": 737,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 145,
+        "baseDefense": 161,
+        "baseStamina": 149
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ]
     },
     "738_0": {
       "name": "Vikavolt",
       "id": 738,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 254,
+        "baseDefense": 158,
+        "baseStamina": 184
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ]
     },
     "739_0": {
       "name": "Crabrawler",
       "id": 739,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 150,
+        "baseDefense": 104,
+        "baseStamina": 132
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "740_0": {
       "name": "Crabominable",
       "id": 740,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 231,
+        "baseDefense": 138,
+        "baseStamina": 219
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        },
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ]
     },
     "741_0": {
       "name": "Oricorio",
       "id": 741,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 196,
+        "baseDefense": 145,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "741_2679": {
       "name": "Oricorio",
@@ -19698,7 +25573,22 @@
       "form": {
         "name": "Baile",
         "id": 2679
-      }
+      },
+      "stats": {
+        "baseAttack": 196,
+        "baseDefense": 145,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "741_2680": {
       "name": "Oricorio",
@@ -19706,7 +25596,22 @@
       "form": {
         "name": "Pompom",
         "id": 2680
-      }
+      },
+      "stats": {
+        "baseAttack": 196,
+        "baseDefense": 145,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "741_2681": {
       "name": "Oricorio",
@@ -19714,7 +25619,22 @@
       "form": {
         "name": "Pau",
         "id": 2681
-      }
+      },
+      "stats": {
+        "baseAttack": 196,
+        "baseDefense": 145,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "741_2683": {
       "name": "Oricorio",
@@ -19722,35 +25642,102 @@
       "form": {
         "name": "Sensu",
         "id": 2683
-      }
+      },
+      "stats": {
+        "baseAttack": 196,
+        "baseDefense": 145,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "742_0": {
       "name": "Cutiefly",
       "id": 742,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 110,
+        "baseDefense": 81,
+        "baseStamina": 120
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "743_0": {
       "name": "Ribombee",
       "id": 743,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 146,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "744_0": {
       "name": "Rockruff",
       "id": 744,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 117,
+        "baseDefense": 78,
+        "baseStamina": 128
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ]
     },
     "745_0": {
       "name": "Lycanroc",
       "id": 745,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 231,
+        "baseDefense": 140,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ]
     },
     "745_2684": {
       "name": "Lycanroc",
@@ -19758,7 +25745,18 @@
       "form": {
         "name": "Midday",
         "id": 2684
-      }
+      },
+      "stats": {
+        "baseAttack": 231,
+        "baseDefense": 140,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ]
     },
     "745_2685": {
       "name": "Lycanroc",
@@ -19766,7 +25764,18 @@
       "form": {
         "name": "Midnight",
         "id": 2685
-      }
+      },
+      "stats": {
+        "baseAttack": 231,
+        "baseDefense": 140,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ]
     },
     "745_2686": {
       "name": "Lycanroc",
@@ -19774,14 +25783,36 @@
       "form": {
         "name": "Dusk",
         "id": 2686
-      }
+      },
+      "stats": {
+        "baseAttack": 231,
+        "baseDefense": 140,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ]
     },
     "746_0": {
       "name": "Wishiwashi",
       "id": 746,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 46,
+        "baseDefense": 43,
+        "baseStamina": 128
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "746_2687": {
       "name": "Wishiwashi",
@@ -19789,7 +25820,18 @@
       "form": {
         "name": "Solo",
         "id": 2687
-      }
+      },
+      "stats": {
+        "baseAttack": 46,
+        "baseDefense": 43,
+        "baseStamina": 128
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "746_2688": {
       "name": "Wishiwashi",
@@ -19797,196 +25839,564 @@
       "form": {
         "name": "School",
         "id": 2688
-      }
+      },
+      "stats": {
+        "baseAttack": 46,
+        "baseDefense": 43,
+        "baseStamina": 128
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "747_0": {
       "name": "Mareanie",
       "id": 747,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 98,
+        "baseDefense": 110,
+        "baseStamina": 137
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "748_0": {
       "name": "Toxapex",
       "id": 748,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 114,
+        "baseDefense": 273,
+        "baseStamina": 137
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "749_0": {
       "name": "Mudbray",
       "id": 749,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 175,
+        "baseDefense": 121,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ]
     },
     "750_0": {
       "name": "Mudsdale",
       "id": 750,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 214,
+        "baseDefense": 174,
+        "baseStamina": 225
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ]
     },
     "751_0": {
       "name": "Dewpider",
       "id": 751,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 72,
+        "baseDefense": 117,
+        "baseStamina": 116
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ]
     },
     "752_0": {
       "name": "Araquanid",
       "id": 752,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 219,
+        "baseStamina": 169
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ]
     },
     "753_0": {
       "name": "Fomantis",
       "id": 753,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 100,
+        "baseDefense": 64,
+        "baseStamina": 120
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ]
     },
     "754_0": {
       "name": "Lurantis",
       "id": 754,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 192,
+        "baseDefense": 169,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ]
     },
     "755_0": {
       "name": "Morelull",
       "id": 755,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 108,
+        "baseDefense": 119,
+        "baseStamina": 120
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "756_0": {
       "name": "Shiinotic",
       "id": 756,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 154,
+        "baseDefense": 168,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "757_0": {
       "name": "Salandit",
       "id": 757,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 136,
+        "baseDefense": 80,
+        "baseStamina": 134
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ]
     },
     "758_0": {
       "name": "Salazzle",
       "id": 758,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 228,
+        "baseDefense": 130,
+        "baseStamina": 169
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ]
     },
     "759_0": {
       "name": "Stufful",
       "id": 759,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 136,
+        "baseDefense": 95,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "760_0": {
       "name": "Bewear",
       "id": 760,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 226,
+        "baseDefense": 141,
+        "baseStamina": 260
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "761_0": {
       "name": "Bounsweet",
       "id": 761,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 55,
+        "baseDefense": 69,
+        "baseStamina": 123
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ]
     },
     "762_0": {
       "name": "Steenee",
       "id": 762,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 78,
+        "baseDefense": 94,
+        "baseStamina": 141
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ]
     },
     "763_0": {
       "name": "Tsareena",
       "id": 763,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 195,
+        "baseStamina": 176
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ]
     },
     "764_0": {
       "name": "Comfey",
       "id": 764,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 165,
+        "baseDefense": 215,
+        "baseStamina": 139
+      },
+      "types": [
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "765_0": {
       "name": "Oranguru",
       "id": 765,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 168,
+        "baseDefense": 192,
+        "baseStamina": 207
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "766_0": {
       "name": "Passimian",
       "id": 766,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 160,
+        "baseStamina": 225
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "767_0": {
       "name": "Wimpod",
       "id": 767,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 67,
+        "baseDefense": 74,
+        "baseStamina": 93
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "768_0": {
       "name": "Golisopod",
       "id": 768,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 218,
+        "baseDefense": 226,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "769_0": {
       "name": "Sandygast",
       "id": 769,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 120,
+        "baseDefense": 118,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ]
     },
     "770_0": {
       "name": "Palossand",
       "id": 770,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 178,
+        "baseDefense": 178,
+        "baseStamina": 198
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ]
     },
     "771_0": {
       "name": "Pyukumuku",
       "id": 771,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 97,
+        "baseDefense": 224,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ]
     },
     "772_0": {
       "name": "Type Null",
       "id": 772,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 184,
+        "baseDefense": 184,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_0": {
       "name": "Silvally",
       "id": 773,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2690": {
       "name": "Silvally",
@@ -19994,7 +26404,18 @@
       "form": {
         "name": "Bug",
         "id": 2690
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2691": {
       "name": "Silvally",
@@ -20002,7 +26423,18 @@
       "form": {
         "name": "Dark",
         "id": 2691
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2692": {
       "name": "Silvally",
@@ -20010,7 +26442,18 @@
       "form": {
         "name": "Dragon",
         "id": 2692
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2693": {
       "name": "Silvally",
@@ -20018,7 +26461,18 @@
       "form": {
         "name": "Electric",
         "id": 2693
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2694": {
       "name": "Silvally",
@@ -20026,7 +26480,18 @@
       "form": {
         "name": "Fairy",
         "id": 2694
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2695": {
       "name": "Silvally",
@@ -20034,7 +26499,18 @@
       "form": {
         "name": "Fighting",
         "id": 2695
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2696": {
       "name": "Silvally",
@@ -20042,7 +26518,18 @@
       "form": {
         "name": "Fire",
         "id": 2696
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2697": {
       "name": "Silvally",
@@ -20050,7 +26537,18 @@
       "form": {
         "name": "Flying",
         "id": 2697
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2698": {
       "name": "Silvally",
@@ -20058,7 +26556,18 @@
       "form": {
         "name": "Ghost",
         "id": 2698
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2699": {
       "name": "Silvally",
@@ -20066,7 +26575,18 @@
       "form": {
         "name": "Grass",
         "id": 2699
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2700": {
       "name": "Silvally",
@@ -20074,7 +26594,18 @@
       "form": {
         "name": "Ground",
         "id": 2700
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2701": {
       "name": "Silvally",
@@ -20082,7 +26613,18 @@
       "form": {
         "name": "Ice",
         "id": 2701
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2702": {
       "name": "Silvally",
@@ -20090,7 +26632,18 @@
       "form": {
         "name": "Poison",
         "id": 2702
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2703": {
       "name": "Silvally",
@@ -20098,7 +26651,18 @@
       "form": {
         "name": "Psychic",
         "id": 2703
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2704": {
       "name": "Silvally",
@@ -20106,7 +26670,18 @@
       "form": {
         "name": "Rock",
         "id": 2704
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2705": {
       "name": "Silvally",
@@ -20114,7 +26689,18 @@
       "form": {
         "name": "Steel",
         "id": 2705
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "773_2706": {
       "name": "Silvally",
@@ -20122,14 +26708,40 @@
       "form": {
         "name": "Water",
         "id": 2706
-      }
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 198,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "774_0": {
       "name": "Minior",
       "id": 774,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2707": {
       "name": "Minior",
@@ -20137,7 +26749,22 @@
       "form": {
         "name": "Meteor",
         "id": 2707
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2708": {
       "name": "Minior",
@@ -20145,7 +26772,22 @@
       "form": {
         "name": "Blue",
         "id": 2708
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2709": {
       "name": "Minior",
@@ -20153,7 +26795,22 @@
       "form": {
         "name": "Green",
         "id": 2709
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2710": {
       "name": "Minior",
@@ -20161,7 +26818,22 @@
       "form": {
         "name": "Indigo",
         "id": 2710
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2711": {
       "name": "Minior",
@@ -20169,7 +26841,22 @@
       "form": {
         "name": "Orange",
         "id": 2711
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2712": {
       "name": "Minior",
@@ -20177,7 +26864,22 @@
       "form": {
         "name": "Red",
         "id": 2712
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2713": {
       "name": "Minior",
@@ -20185,7 +26887,22 @@
       "form": {
         "name": "Violet",
         "id": 2713
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "774_2714": {
       "name": "Minior",
@@ -20193,35 +26910,106 @@
       "form": {
         "name": "Yellow",
         "id": 2714
-      }
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 194,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "775_0": {
       "name": "Komala",
       "id": 775,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 216,
+        "baseDefense": 165,
+        "baseStamina": 163
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ]
     },
     "776_0": {
       "name": "Turtonator",
       "id": 776,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 165,
+        "baseDefense": 215,
+        "baseStamina": 155
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ]
     },
     "777_0": {
       "name": "Togedemaru",
       "id": 777,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 190,
+        "baseDefense": 145,
+        "baseStamina": 163
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ]
     },
     "778_0": {
       "name": "Mimikyu",
       "id": 778,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 177,
+        "baseDefense": 199,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "778_2715": {
       "name": "Mimikyu",
@@ -20229,7 +27017,22 @@
       "form": {
         "name": "Busted",
         "id": 2715
-      }
+      },
+      "stats": {
+        "baseAttack": 177,
+        "baseDefense": 199,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "778_2716": {
       "name": "Mimikyu",
@@ -20237,161 +27040,486 @@
       "form": {
         "name": "Disguised",
         "id": 2716
-      }
+      },
+      "stats": {
+        "baseAttack": 177,
+        "baseDefense": 199,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "779_0": {
       "name": "Bruxish",
       "id": 779,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 208,
+        "baseDefense": 145,
+        "baseStamina": 169
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "780_0": {
       "name": "Drampa",
       "id": 780,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 231,
+        "baseDefense": 164,
+        "baseStamina": 186
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ]
     },
     "781_0": {
       "name": "Dhelmise",
       "id": 781,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 233,
+        "baseDefense": 179,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ]
     },
     "782_0": {
       "name": "Jangmo O",
       "id": 782,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 102,
+        "baseDefense": 108,
+        "baseStamina": 128
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ]
     },
     "783_0": {
       "name": "Hakamo O",
       "id": 783,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 145,
+        "baseDefense": 162,
+        "baseStamina": 146
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "784_0": {
       "name": "Kommo O",
       "id": 784,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 222,
+        "baseDefense": 240,
+        "baseStamina": 181
+      },
+      "types": [
+        {
+          "id": 16,
+          "name": "Dragon"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "785_0": {
       "name": "Tapu Koko",
       "id": 785,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 250,
+        "baseDefense": 181,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "786_0": {
       "name": "Tapu Lele",
       "id": 786,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 259,
+        "baseDefense": 208,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "787_0": {
       "name": "Tapu Bulu",
       "id": 787,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 249,
+        "baseDefense": 215,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "788_0": {
       "name": "Tapu Fini",
       "id": 788,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 189,
+        "baseDefense": 254,
+        "baseStamina": 172
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "789_0": {
       "name": "Cosmog",
       "id": 789,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 54,
+        "baseDefense": 57,
+        "baseStamina": 125
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "790_0": {
       "name": "Cosmoem",
       "id": 790,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 54,
+        "baseDefense": 242,
+        "baseStamina": 125
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "791_0": {
       "name": "Solgaleo",
       "id": 791,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 255,
+        "baseDefense": 191,
+        "baseStamina": 264
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ]
     },
     "792_0": {
       "name": "Lunala",
       "id": 792,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 255,
+        "baseDefense": 191,
+        "baseStamina": 264
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ]
     },
     "793_0": {
       "name": "Nihilego",
       "id": 793,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 249,
+        "baseDefense": 210,
+        "baseStamina": 240
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ]
     },
     "794_0": {
       "name": "Buzzwole",
       "id": 794,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 236,
+        "baseDefense": 196,
+        "baseStamina": 216
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "795_0": {
       "name": "Pheromosa",
       "id": 795,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 316,
+        "baseDefense": 85,
+        "baseStamina": 174
+      },
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ]
     },
     "796_0": {
       "name": "Xurkitree",
       "id": 796,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 330,
+        "baseDefense": 144,
+        "baseStamina": 195
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ]
     },
     "797_0": {
       "name": "Celesteela",
       "id": 797,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 207,
+        "baseDefense": 199,
+        "baseStamina": 219
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ]
     },
     "798_0": {
       "name": "Kartana",
       "id": 798,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 323,
+        "baseDefense": 182,
+        "baseStamina": 139
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ]
     },
     "799_0": {
       "name": "Guzzlord",
       "id": 799,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 188,
+        "baseDefense": 99,
+        "baseStamina": 440
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ]
     },
     "800_0": {
       "name": "Necrozma",
       "id": 800,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 251,
+        "baseDefense": 195,
+        "baseStamina": 219
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "800_2718": {
       "name": "Necrozma",
@@ -20399,7 +27527,18 @@
       "form": {
         "name": "Dusk Mane",
         "id": 2718
-      }
+      },
+      "stats": {
+        "baseAttack": 251,
+        "baseDefense": 195,
+        "baseStamina": 219
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "800_2719": {
       "name": "Necrozma",
@@ -20407,7 +27546,18 @@
       "form": {
         "name": "Dawn Wings",
         "id": 2719
-      }
+      },
+      "stats": {
+        "baseAttack": 251,
+        "baseDefense": 195,
+        "baseStamina": 219
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "800_2720": {
       "name": "Necrozma",
@@ -20415,14 +27565,40 @@
       "form": {
         "name": "Ultra",
         "id": 2720
-      }
+      },
+      "stats": {
+        "baseAttack": 251,
+        "baseDefense": 195,
+        "baseStamina": 219
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ]
     },
     "801_0": {
       "name": "Magearna",
       "id": 801,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 246,
+        "baseDefense": 225,
+        "baseStamina": 190
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "801_2722": {
       "name": "Magearna",
@@ -20430,49 +27606,146 @@
       "form": {
         "name": "Original Color",
         "id": 2722
-      }
+      },
+      "stats": {
+        "baseAttack": 246,
+        "baseDefense": 225,
+        "baseStamina": 190
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ]
     },
     "802_0": {
       "name": "Marshadow",
       "id": 802,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 265,
+        "baseDefense": 190,
+        "baseStamina": 207
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ]
     },
     "803_0": {
       "name": "Poipole",
       "id": 803,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 145,
+        "baseDefense": 133,
+        "baseStamina": 167
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ]
     },
     "804_0": {
       "name": "Naganadel",
       "id": 804,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 263,
+        "baseDefense": 159,
+        "baseStamina": 177
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ]
     },
     "805_0": {
       "name": "Stakataka",
       "id": 805,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 213,
+        "baseDefense": 298,
+        "baseStamina": 156
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ]
     },
     "806_0": {
       "name": "Blacephalon",
       "id": 806,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 315,
+        "baseDefense": 148,
+        "baseStamina": 142
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ]
     },
     "807_0": {
       "name": "Zeraora",
       "id": 807,
       "form": {
         "id": 0
-      }
+      },
+      "stats": {
+        "baseAttack": 252,
+        "baseDefense": 177,
+        "baseStamina": 204
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ]
     },
     "808_0": {
       "name": "Meltan",
@@ -21256,6 +28529,28 @@
         "baseStamina": 120
       }
     },
+    "849_0": {
+      "name": "Toxtricity",
+      "id": 849,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 224,
+        "baseDefense": 140,
+        "baseStamina": 181
+      }
+    },
     "849_2464": {
       "name": "Toxtricity",
       "id": 849,
@@ -21382,6 +28677,24 @@
         "baseStamina": 190
       }
     },
+    "854_0": {
+      "name": "Sinistea",
+      "id": 854,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 96,
+        "baseStamina": 120
+      }
+    },
     "854_2478": {
       "name": "Sinistea",
       "id": 854,
@@ -21418,6 +28731,24 @@
         "baseAttack": 134,
         "baseDefense": 96,
         "baseStamina": 120
+      }
+    },
+    "855_0": {
+      "name": "Polteageist",
+      "id": 855,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 248,
+        "baseDefense": 189,
+        "baseStamina": 155
       }
     },
     "855_2481": {
@@ -21582,6 +28913,28 @@
         "baseStamina": 216
       }
     },
+    "862_0": {
+      "name": "Obstagoon",
+      "id": 862,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        },
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 180,
+        "baseDefense": 194,
+        "baseStamina": 212
+      }
+    },
     "862_2501": {
       "name": "Obstagoon",
       "id": 862,
@@ -21605,6 +28958,24 @@
         "baseStamina": 212
       }
     },
+    "863_0": {
+      "name": "Perrserker",
+      "id": 863,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 195,
+        "baseDefense": 162,
+        "baseStamina": 172
+      }
+    },
     "863_2504": {
       "name": "Perrserker",
       "id": 863,
@@ -21622,6 +28993,24 @@
         "baseAttack": 195,
         "baseDefense": 162,
         "baseStamina": 172
+      }
+    },
+    "864_0": {
+      "name": "Cursola",
+      "id": 864,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 253,
+        "baseDefense": 182,
+        "baseStamina": 155
       }
     },
     "864_2507": {
@@ -21643,6 +29032,24 @@
         "baseStamina": 155
       }
     },
+    "865_0": {
+      "name": "Sirfetchd",
+      "id": 865,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 248,
+        "baseDefense": 176,
+        "baseStamina": 158
+      }
+    },
     "865_2510": {
       "name": "Sirfetchd",
       "id": 865,
@@ -21660,6 +29067,28 @@
         "baseAttack": 248,
         "baseDefense": 176,
         "baseStamina": 158
+      }
+    },
+    "866_0": {
+      "name": "Mr Rime",
+      "id": 866,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 212,
+        "baseDefense": 179,
+        "baseStamina": 190
       }
     },
     "866_2513": {
@@ -21683,6 +29112,28 @@
         "baseAttack": 212,
         "baseDefense": 179,
         "baseStamina": 190
+      }
+    },
+    "867_0": {
+      "name": "Runerigus",
+      "id": 867,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 163,
+        "baseDefense": 237,
+        "baseStamina": 151
       }
     },
     "867_2516": {
@@ -21842,6 +29293,24 @@
         "baseStamina": 225
       }
     },
+    "875_0": {
+      "name": "Eiscue",
+      "id": 875,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 15,
+          "name": "Ice"
+        }
+      ],
+      "stats": {
+        "baseAttack": 148,
+        "baseDefense": 195,
+        "baseStamina": 181
+      }
+    },
     "875_2540": {
       "name": "Eiscue",
       "id": 875,
@@ -21878,6 +29347,28 @@
         "baseAttack": 173,
         "baseDefense": 139,
         "baseStamina": 181
+      }
+    },
+    "876_0": {
+      "name": "Indeedee",
+      "id": 876,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 208,
+        "baseDefense": 166,
+        "baseStamina": 155
       }
     },
     "876_2543": {
@@ -21924,6 +29415,28 @@
         "baseAttack": 208,
         "baseDefense": 166,
         "baseStamina": 155
+      }
+    },
+    "877_0": {
+      "name": "Morpeko",
+      "id": 877,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "stats": {
+        "baseAttack": 192,
+        "baseDefense": 121,
+        "baseStamina": 151
       }
     },
     "877_2544": {
@@ -22184,6 +29697,28 @@
         "baseStamina": 204
       }
     },
+    "888_0": {
+      "name": "Zacian",
+      "id": 888,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 18,
+          "name": "Fairy"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
+        }
+      ],
+      "stats": {
+        "baseAttack": 254,
+        "baseDefense": 236,
+        "baseStamina": 192
+      }
+    },
     "888_2576": {
       "name": "Zacian",
       "id": 888,
@@ -22218,6 +29753,28 @@
         {
           "id": 18,
           "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 254,
+        "baseDefense": 236,
+        "baseStamina": 192
+      }
+    },
+    "889_0": {
+      "name": "Zamazenta",
+      "id": 889,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        },
+        {
+          "id": 9,
+          "name": "Steel"
         }
       ],
       "stats": {
@@ -22266,6 +29823,28 @@
         "baseAttack": 254,
         "baseDefense": 236,
         "baseStamina": 192
+      }
+    },
+    "890_0": {
+      "name": "Eternatus",
+      "id": 890,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 278,
+        "baseDefense": 192,
+        "baseStamina": 268
       }
     },
     "890_2580": {
@@ -22330,6 +29909,24 @@
         "baseAttack": 170,
         "baseDefense": 112,
         "baseStamina": 155
+      }
+    },
+    "892_0": {
+      "name": "Urshifu",
+      "id": 892,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        }
+      ],
+      "stats": {
+        "baseAttack": 254,
+        "baseDefense": 177,
+        "baseStamina": 225
       }
     },
     "892_2724": {
@@ -22470,6 +30067,28 @@
         "baseAttack": 273,
         "baseDefense": 146,
         "baseStamina": 205
+      }
+    },
+    "898_0": {
+      "name": "Calyrex",
+      "id": 898,
+      "form": {
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 162,
+        "baseDefense": 162,
+        "baseStamina": 225
       }
     },
     "898_2726": {
