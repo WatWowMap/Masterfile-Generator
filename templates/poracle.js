@@ -24,11 +24,14 @@ module.exports = {
         defense: 'stats',
         stamina: 'stats',
       },
+      unsetFormName: '',
       includeUnset: true,
       skipNormalIfUnset: true,
       unsetDefaultForm: true,
       processFormsSeparately: true,
-      skipForms: ['Shadow', 'Purified']
+      skipForms: ['Shadow', 'Purified'],
+      allUnset: true,
+      includeEstimatedPokemon: true,
     },
     template: {
       pokemonName: true,
