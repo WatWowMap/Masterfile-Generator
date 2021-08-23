@@ -21,18 +21,28 @@ const fetch = async (url) => {
 }
 
 module.exports.generate = async function update() {
-
   const data = await generate({ template: primaryTemplate })
-
-  data.quest_types = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
-  data.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
-  data.types = { ...data.types, ...pokemonTypes }
-
   const rawData = await generate({ template: rawTemplate, raw: true })
   const poracleData = await generate({ template: poracleTemplate })
   const basicData = await generate({ template: basicsTemplate })
   const reactMapData = await generate({ template: reactMapTemplate })
   const rdmopole2Data = await generate({ template: rdmopole2Template })
+
+  const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
+
+  const mergedQuestTypes = {}
+  Object.keys(poracleData.questTypes).forEach((key) => {
+    mergedQuestTypes[key] = pmsfQuestTypes[key] && pmsfQuestTypes[key].text.includes('{')
+      ? pmsfQuestTypes[key]
+      : poracleData.questTypes[key]
+  })
+
+  data.quest_types = mergedQuestTypes
+  data.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
+  data.types = pokemonTypes
+
+  poracleData.questTypes = mergedQuestTypes
+  poracleData.typeInfo = pokemonTypes
 
   fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-raw.json', JSON.stringify(rawData, null, 2), 'utf8', () => { })

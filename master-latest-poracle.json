@@ -31974,109 +31974,109 @@
       "text": "Multi Part"
     },
     "4": {
-      "text": "Catch Pokemon"
+      "text": "Catch {0} pokémon"
     },
     "5": {
-      "text": "Spin Pokestop"
+      "text": "Spin {0} pokéstop(s)"
     },
     "6": {
-      "text": "Hatch Egg"
+      "text": "Hatch {0} egg(s)"
     },
     "7": {
-      "text": "Complete Gym Battle"
+      "text": "Complete {0} gym battle(s)"
     },
     "8": {
-      "text": "Complete Raid Battle"
+      "text": "Complete {0} raid battle(s)"
     },
     "9": {
-      "text": "Complete Quest"
+      "text": "Complete {0} quest(s)"
     },
     "10": {
-      "text": "Transfer Pokemon"
+      "text": "Transfer {0} pokémon"
     },
     "11": {
-      "text": "Favorite Pokemon"
+      "text": "Favorite {0} pokémon"
     },
     "12": {
       "text": "Autocomplete"
     },
     "13": {
-      "text": "Use Berry In Encounter"
+      "text": "Catch {0} pokémon with berrie(s)"
     },
     "14": {
-      "text": "Upgrade Pokemon"
+      "text": "Power up a pokémon {0} times"
     },
     "15": {
-      "text": "Evolve Pokemon"
+      "text": "Evolve {0} pokémon"
     },
     "16": {
-      "text": "Land Throw"
+      "text": "Land {0} throw(s)"
     },
     "17": {
-      "text": "Get Buddy Candy"
+      "text": "Walk your buddy to earn {0} candy"
     },
     "18": {
-      "text": "Badge Rank"
+      "text": "Collect {0} badge(s)"
     },
     "19": {
-      "text": "Player Level"
+      "text": "Become level {0}"
     },
     "20": {
-      "text": "Join Raid"
+      "text": "Join {0} raid(s)"
     },
     "21": {
-      "text": "Complete Battle"
+      "text": "Complete {0} raid battle(s)"
     },
     "22": {
-      "text": "Add Friend"
+      "text": "Make {0} new friends"
     },
     "23": {
-      "text": "Trade Pokemon"
+      "text": "Trade {0} pokémon"
     },
     "24": {
-      "text": "Send Gift"
+      "text": "Send {0} gift(s)"
     },
     "25": {
-      "text": "Evolve Into Pokemon"
+      "text": "Evolve {0} pokémon into"
     },
     "27": {
-      "text": "Complete Combat"
+      "text": "Win {0} pvp battle(s)"
     },
     "28": {
-      "text": "Take Snapshot"
+      "text": "Take {0} Snapshot(s)"
     },
     "29": {
-      "text": "Battle Team Rocket"
+      "text": "Battle against {0} Team GO Rocket Grunt(s)"
     },
     "30": {
-      "text": "Purify Pokemon"
+      "text": "Purify {0} pokémon"
     },
     "31": {
-      "text": "Find Team Rocket"
+      "text": "Find Team Rocket {0} times"
     },
     "32": {
       "text": "First Grunt Of The Day"
     },
     "33": {
-      "text": "Buddy Feed"
+      "text": "Give your buddy {0} treat(s)"
     },
     "34": {
-      "text": "Buddy Earn Affection Points"
+      "text": "Earn {0} Heart(s) with your Buddy"
     },
     "35": {
-      "text": "Buddy Pet"
+      "text": "Play with your Buddy {0} times"
     },
     "36": {
-      "text": "Buddy Level"
+      "text": "Increase your Buddy Level {0} times"
     },
     "37": {
-      "text": "Buddy Walk"
+      "text": "Earn {0} Friendship points by Walking with your Buddy"
     },
     "38": {
-      "text": "Buddy Yatta"
+      "text": "Earn {0} Souvenirs from your Buddy"
     },
     "39": {
-      "text": "Use Incense"
+      "text": "Use Incense {0} times"
     },
     "40": {
       "text": "Buddy Find Souvenir"
@@ -32088,7 +32088,7 @@
       "text": "Walk"
     },
     "43": {
-      "text": "Mega Evolve Pokemon"
+      "text": "Mega-Evolve {0} Pokemon"
     },
     "44": {
       "text": "Get Stardust"
@@ -32097,7 +32097,7 @@
       "text": "Mini Collection"
     },
     "46": {
-      "text": "Geotargeted Ar Scan"
+      "text": "AR-Scan {0} pokéstop(s)"
     },
     "50": {
       "text": "Buddy Evolution Walk"
@@ -32118,10 +32118,352 @@
       "text": "Earn Fort Power Up Points"
     },
     "57": {
-      "text": "Take Wild Snapshot"
+      "text": "Take {0} snapshot(s) of wild pokémon"
     },
     "58": {
       "text": "Use Pokemon Item"
+    }
+  },
+  "typeInfo": {
+    "Normal": {
+      "immunes": [
+        "Ghost"
+      ],
+      "weaknesses": [
+        "Fighting"
+      ],
+      "resistances": [
+        "None"
+      ],
+      "strengths": []
+    },
+    "Fighting": {
+      "immunes": [],
+      "weaknesses": [
+        "Flying",
+        "Psychic",
+        "Fairy"
+      ],
+      "resistances": [
+        "Bug",
+        "Rock",
+        "Dark"
+      ],
+      "strengths": [
+        "Normal",
+        "Ice",
+        "Rock",
+        "Dark",
+        "Steel"
+      ]
+    },
+    "Flying": {
+      "immunes": [
+        "Flying"
+      ],
+      "weaknesses": [
+        "Electric",
+        "Ice",
+        "Rock"
+      ],
+      "resistances": [
+        "Grass",
+        "Fighting",
+        "Bug"
+      ],
+      "strengths": [
+        "Grass",
+        "Fighting",
+        "Bug"
+      ]
+    },
+    "Poison": {
+      "immunes": [],
+      "weaknesses": [
+        "Ground",
+        "Psychic"
+      ],
+      "resistances": [
+        "Grass",
+        "Fighting",
+        "Poison",
+        "Bug",
+        "Fairy"
+      ],
+      "strengths": [
+        "Grass",
+        "Fairy"
+      ]
+    },
+    "Ground": {
+      "immunes": [
+        "Flying"
+      ],
+      "weaknesses": [
+        "Water",
+        "Grass",
+        "Ice"
+      ],
+      "resistances": [
+        "Poison",
+        "Rock"
+      ],
+      "strengths": [
+        "Fire",
+        "Electric",
+        "Poison",
+        "Rock",
+        "Steel"
+      ]
+    },
+    "Rock": {
+      "immunes": [],
+      "weaknesses": [
+        "Water",
+        "Grass",
+        "Fighting",
+        "Ground",
+        "Steel"
+      ],
+      "resistances": [
+        "Normal",
+        "Fire",
+        "Poison",
+        "Flying"
+      ],
+      "strengths": [
+        "Fire",
+        "Ice",
+        "Flying",
+        "Bug"
+      ]
+    },
+    "Bug": {
+      "immunes": [],
+      "weaknesses": [
+        "Fire",
+        "Flying",
+        "Rock"
+      ],
+      "resistances": [
+        "Grass",
+        "Fighting",
+        "Ground"
+      ],
+      "strengths": [
+        "Grass",
+        "Psychic",
+        "Dark"
+      ]
+    },
+    "Ghost": {
+      "immunes": [
+        "Normal",
+        "Fighting"
+      ],
+      "weaknesses": [
+        "Ghost",
+        "Dark"
+      ],
+      "resistances": [
+        "Poison",
+        "Bug"
+      ],
+      "strengths": [
+        "Psychic",
+        "Ghost"
+      ]
+    },
+    "Steel": {
+      "immunes": [
+        "Poison"
+      ],
+      "weaknesses": [
+        "Fire",
+        "Fighting",
+        "Ground"
+      ],
+      "resistances": [
+        "Normal",
+        "Grass",
+        "Ice",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Dragon",
+        "Steel",
+        "Fairy"
+      ],
+      "strengths": [
+        "Ice",
+        "Rock",
+        "Fairy"
+      ]
+    },
+    "Fire": {
+      "immunes": [],
+      "weaknesses": [
+        "Water",
+        "Ground",
+        "Rock"
+      ],
+      "resistances": [
+        "Fire",
+        "Grass",
+        "Ice",
+        "Bug",
+        "Steel",
+        "Fairy"
+      ],
+      "strengths": [
+        "Grass",
+        "Ice",
+        "Bug",
+        "Steel"
+      ]
+    },
+    "Water": {
+      "immunes": [],
+      "weaknesses": [
+        "Grass",
+        "Electric"
+      ],
+      "resistances": [
+        "Fire",
+        "Water",
+        "Ice",
+        "Steel"
+      ],
+      "strengths": [
+        "Water",
+        "Ground",
+        "Rock"
+      ]
+    },
+    "Grass": {
+      "immunes": [],
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Poison",
+        "Flying",
+        "Bug"
+      ],
+      "resistances": [
+        "Water",
+        "Grass",
+        "Electric",
+        "Ground"
+      ],
+      "strengths": [
+        "Water",
+        "Ground",
+        "Rock"
+      ]
+    },
+    "Electric": {
+      "immunes": [],
+      "weaknesses": [
+        "Ground"
+      ],
+      "resistances": [
+        "Electric",
+        "Flying",
+        "Steel"
+      ],
+      "strengths": [
+        "Water",
+        "Flying"
+      ]
+    },
+    "Psychic": {
+      "immunes": [],
+      "weaknesses": [
+        "Bug",
+        "Ghost",
+        "Dark"
+      ],
+      "resistances": [
+        "Fighting",
+        "Psychic"
+      ],
+      "strengths": [
+        "Fighting",
+        "Poison"
+      ]
+    },
+    "Ice": {
+      "immunes": [],
+      "weaknesses": [
+        "Fire",
+        "Fighting",
+        "Rock",
+        "Steel"
+      ],
+      "resistances": [
+        "Ice"
+      ],
+      "strengths": [
+        "Grass",
+        "Ground",
+        "Flying",
+        "Dragon"
+      ]
+    },
+    "Dragon": {
+      "immunes": [],
+      "weaknesses": [
+        "Ice",
+        "Dragon",
+        "Fairy"
+      ],
+      "resistances": [
+        "Fire",
+        "Water",
+        "Grass",
+        "Electric"
+      ],
+      "strengths": [
+        "Dragon"
+      ]
+    },
+    "Dark": {
+      "immunes": [
+        "Psychic"
+      ],
+      "weaknesses": [
+        "Fighting",
+        "Bug",
+        "Fairy"
+      ],
+      "resistances": [
+        "Ghost",
+        "Dark"
+      ],
+      "strengths": [
+        "Psychic",
+        "Ghost"
+      ]
+    },
+    "Fairy": {
+      "immunes": [
+        "Dragon"
+      ],
+      "weaknesses": [
+        "Poison",
+        "Steel"
+      ],
+      "resistances": [
+        "Fighting",
+        "Bug",
+        "Dark"
+      ],
+      "strengths": [
+        "Fighting",
+        "Dragon",
+        "Dark"
+      ]
     }
   }
 }
