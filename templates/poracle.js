@@ -24,6 +24,7 @@ module.exports = {
         defense: 'stats',
         stamina: 'stats',
       },
+      unsetFormName: '',
       includeUnset: true,
       skipNormalIfUnset: true,
       unsetDefaultForm: true,
