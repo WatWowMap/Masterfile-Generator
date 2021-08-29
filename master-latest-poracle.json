@@ -40070,7 +40070,7 @@
     },
     "Flying": {
       "immunes": [
-        "Flying"
+        "Ground"
       ],
       "weaknesses": [
         "Electric",
@@ -40108,7 +40108,7 @@
     },
     "Ground": {
       "immunes": [
-        "Flying"
+        "Electric"
       ],
       "weaknesses": [
         "Water",
@@ -40247,7 +40247,7 @@
         "Steel"
       ],
       "strengths": [
-        "Water",
+        "Fire",
         "Ground",
         "Rock"
       ]

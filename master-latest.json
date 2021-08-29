@@ -43118,10 +43118,10 @@
       ],
       "evolutions": [
         {
-          "pokemon": 792
+          "pokemon": 791
         },
         {
-          "pokemon": 791
+          "pokemon": 792
         }
       ]
     },
@@ -50848,7 +50848,7 @@
     },
     "Flying": {
       "immunes": [
-        "Flying"
+        "Ground"
       ],
       "weaknesses": [
         "Electric",
@@ -50886,7 +50886,7 @@
     },
     "Ground": {
       "immunes": [
-        "Flying"
+        "Electric"
       ],
       "weaknesses": [
         "Water",
@@ -51025,7 +51025,7 @@
         "Steel"
       ],
       "strengths": [
-        "Water",
+        "Fire",
         "Ground",
         "Rock"
       ]
