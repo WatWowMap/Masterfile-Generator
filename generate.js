@@ -3,12 +3,12 @@ const Fetch = require('node-fetch')
 const { generate } = require('pogo-data-generator')
 const pokemonTypes = require('./data/pokemonTypes.json')
 
-const primaryTemplate = require('./templates/primary.js')
-const rawTemplate = require('./templates/raw.js')
-const poracleTemplate = require('./templates/poracle.js')
-const basicsTemplate = require('./templates/basics.js')
-const reactMapTemplate = require('./templates/reactMap.js')
-const rdmopole2Template = require('./templates/rdmopole2.js')
+const primary = require('./templates/primary.json')
+const raw = require('./templates/raw.json')
+const poracle = require('./templates/poracle.json')
+const basics = require('./templates/basics.json')
+const reactMap = require('./templates/reactMap.json')
+const rdmopole2 = require('./templates/rdmopole2.json')
 
 const fetch = async (url) => {
   return new Promise(resolve => {
@@ -21,12 +21,12 @@ const fetch = async (url) => {
 }
 
 module.exports.generate = async function update() {
-  const data = await generate({ template: primaryTemplate })
-  const rawData = await generate({ template: rawTemplate, raw: true })
-  const poracleData = await generate({ template: poracleTemplate })
-  const basicData = await generate({ template: basicsTemplate })
-  const reactMapData = await generate({ template: reactMapTemplate })
-  const rdmopole2Data = await generate({ template: rdmopole2Template })
+  const data = await generate({ template: primary })
+  const rawData = await generate({ template: raw, raw: true })
+  const poracleData = await generate({ template: poracle })
+  const basicData = await generate({ template: basics })
+  const reactMapData = await generate({ template: reactMap })
+  const rdmopole2Data = await generate({ template: rdmopole2 })
 
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
@@ -43,7 +43,8 @@ module.exports.generate = async function update() {
 
   poracleData.questTypes = mergedQuestTypes
   poracleData.typeInfo = pokemonTypes
-
+  delete poracleData.translations
+  
   fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-raw.json', JSON.stringify(rawData, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-poracle.json', JSON.stringify(poracleData, null, 2), 'utf8', () => { })

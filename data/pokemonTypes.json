@@ -12,7 +12,7 @@
     "strengths":["Normal","Ice","Rock","Dark","Steel"]
   },
   "Flying": {
-    "immunes": ["Flying"],
+    "immunes": ["Ground"],
     "weaknesses": ["Electric","Ice","Rock"],
     "resistances": ["Grass","Fighting","Bug"],
     "strengths":["Grass","Fighting","Bug"]
@@ -24,7 +24,7 @@
     "strengths":["Grass","Fairy"]
   },
   "Ground": {
-    "immunes": ["Flying"],
+    "immunes": ["Electric"],
     "weaknesses": ["Water", "Grass", "Ice"],
     "resistances": ["Poison","Rock"],
     "strengths":["Fire","Electric","Poison","Rock","Steel"]
@@ -52,7 +52,6 @@
     "weaknesses": ["Fire","Fighting","Ground"],
     "resistances": ["Normal","Grass","Ice","Flying","Psychic","Bug","Rock","Dragon","Steel","Fairy"],
     "strengths":["Ice","Rock","Fairy"]
-
   },
   "Fire": {
     "immunes": [],
@@ -64,7 +63,7 @@
     "immunes": [],
     "weaknesses": ["Grass", "Electric"],
     "resistances": ["Fire","Water","Ice","Steel"],
-    "strengths":["Water","Ground","Rock"]
+    "strengths":["Fire","Ground","Rock"]
   },
   "Grass": {
     "immunes": [],
