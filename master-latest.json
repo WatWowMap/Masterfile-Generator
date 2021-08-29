@@ -29913,8 +29913,8 @@
       "name": "Victini",
       "pokedex_id": 494,
       "default_form_id": 1886,
-      "gen_id": 4,
-      "generation": "Sinnoh",
+      "gen_id": 5,
+      "generation": "Unova",
       "forms": {
         "1886": {
           "name": "Normal",
@@ -41547,17 +41547,17 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 723
-        }
-      ],
       "attack": 102,
       "defense": 99,
       "stamina": 169,
       "types": [
         "Grass",
         "Flying"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 723
+        }
       ],
       "little": true
     },
@@ -41639,16 +41639,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 727
-        }
-      ],
       "attack": 174,
       "defense": 103,
       "stamina": 163,
       "types": [
         "Fire"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 727
+        }
       ]
     },
     "727": {
@@ -41681,16 +41681,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 729
-        }
-      ],
       "attack": 120,
       "defense": 103,
       "stamina": 137,
       "types": [
         "Water"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 729
+        }
       ],
       "little": true
     },
@@ -41857,16 +41857,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 737
-        }
-      ],
       "attack": 115,
       "defense": 85,
       "stamina": 132,
       "types": [
         "Bug"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 737
+        }
       ],
       "little": true
     },
@@ -41924,16 +41924,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 740
-        }
-      ],
       "attack": 150,
       "defense": 104,
       "stamina": 132,
       "types": [
         "Fighting"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 740
+        }
       ],
       "little": true
     },
@@ -42117,17 +42117,17 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 748
-        }
-      ],
       "attack": 98,
       "defense": 110,
       "stamina": 137,
       "types": [
         "Poison",
         "Water"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 748
+        }
       ],
       "little": true
     },
@@ -42161,16 +42161,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 750
-        }
-      ],
       "attack": 175,
       "defense": 121,
       "stamina": 172,
       "types": [
         "Ground"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 750
+        }
       ],
       "little": true
     },
@@ -42421,16 +42421,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 762
-        }
-      ],
       "attack": 55,
       "defense": 69,
       "stamina": 123,
       "types": [
         "Grass"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 762
+        }
       ],
       "little": true
     },
@@ -43086,16 +43086,16 @@
           "proto": "FORM_UNSET"
         }
       },
-      "evolutions": [
-        {
-          "pokemon": 790
-        }
-      ],
       "attack": 54,
       "defense": 57,
       "stamina": 125,
       "types": [
         "Psychic"
+      ],
+      "evolutions": [
+        {
+          "pokemon": 790
+        }
       ],
       "little": true
     },
@@ -49885,8 +49885,8 @@
           212
         ],
         "third": [
-          15,
           212,
+          15,
           123
         ]
       }
@@ -50203,8 +50203,8 @@
       "encounters": {
         "first": [
           451,
-          32,
-          29
+          29,
+          32
         ],
         "second": [
           30,
@@ -50789,7 +50789,7 @@
       "text": "GBL Rank"
     },
     "53": {
-      "text": "Charge Attack"
+      "text": "Use {0} Charged Attack(s)"
     },
     "54": {
       "text": "Change Pokemon Form"
