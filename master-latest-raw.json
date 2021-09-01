@@ -1558,7 +1558,8 @@
         31,
         91,
         22,
-        304
+        304,
+        258
       ],
       "family": 32,
       "fleeRate": 0.05,
@@ -2810,7 +2811,8 @@
         107,
         246,
         33,
-        319
+        319,
+        106
       ],
       "family": 60,
       "fleeRate": 0.05,
@@ -9665,7 +9667,8 @@
       "chargedMoves": [
         22,
         245,
-        31
+        31,
+        259
       ],
       "family": 214,
       "fleeRate": 0.09,
@@ -13978,12 +13981,14 @@
       "weight": 40.2,
       "quickMoves": [
         278,
-        249
+        249,
+        326
       ],
       "chargedMoves": [
         78,
         251,
-        102
+        102,
+        270
       ],
       "family": 309,
       "fleeRate": 0.06,
@@ -25105,7 +25110,8 @@
       "weight": 76.5,
       "quickMoves": [
         263,
-        234
+        234,
+        213
       ],
       "chargedMoves": [
         70,
@@ -37438,7 +37444,8 @@
       "chargedMoves": [
         122,
         273,
-        294
+        294,
+        352
       ]
     },
     "30": {
@@ -53634,7 +53641,7 @@
       "moveName": "Megahorn",
       "proto": "MEGAHORN",
       "type": 7,
-      "power": 100
+      "power": 110
     },
     "23": {
       "moveId": 23,
@@ -55033,28 +55040,28 @@
       "moveName": "Weather Ball Fire",
       "proto": "WEATHER_BALL_FIRE",
       "type": 10,
-      "power": 60
+      "power": 55
     },
     "293": {
       "moveId": 293,
       "moveName": "Weather Ball Ice",
       "proto": "WEATHER_BALL_ICE",
       "type": 15,
-      "power": 60
+      "power": 55
     },
     "294": {
       "moveId": 294,
       "moveName": "Weather Ball Rock",
       "proto": "WEATHER_BALL_ROCK",
       "type": 6,
-      "power": 60
+      "power": 55
     },
     "295": {
       "moveId": 295,
       "moveName": "Weather Ball Water",
       "proto": "WEATHER_BALL_WATER",
       "type": 11,
-      "power": 60
+      "power": 55
     },
     "296": {
       "moveId": 296,
@@ -56488,13 +56495,13 @@
           "position": "second"
         },
         {
-          "id": 188,
-          "formId": 1209,
+          "id": 114,
+          "formId": 1060,
           "position": "second"
         },
         {
-          "id": 114,
-          "formId": 1060,
+          "id": 188,
+          "formId": 1209,
           "position": "second"
         },
         {
@@ -56545,13 +56552,13 @@
           "position": "second"
         },
         {
-          "id": 329,
-          "formId": 750,
+          "id": 247,
+          "formId": 317,
           "position": "second"
         },
         {
-          "id": 247,
-          "formId": 317,
+          "id": 329,
+          "formId": 750,
           "position": "second"
         },
         {

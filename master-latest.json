@@ -2356,7 +2356,8 @@
         "Earthquake",
         "Sludge Wave",
         "Megahorn",
-        "Earth Power"
+        "Earth Power",
+        "Sand Tomb"
       ],
       "family": 32,
       "flee_rate": 0.05,
@@ -4236,7 +4237,8 @@
         "Hydro Pump",
         "Dynamic Punch",
         "Ice Punch",
-        "Power Up Punch"
+        "Power Up Punch",
+        "Scald"
       ],
       "family": 60,
       "flee_rate": 0.05,
@@ -13692,7 +13694,8 @@
       "charged_moves": [
         "Megahorn",
         "Close Combat",
-        "Earthquake"
+        "Earthquake",
+        "Rock Blast"
       ],
       "family": 214,
       "flee_rate": 0.09,
@@ -19333,12 +19336,14 @@
       "weight": 40.2,
       "quick_moves": [
         "Snarl",
-        "Charge Beam"
+        "Charge Beam",
+        "Thunder Fang"
       ],
       "charged_moves": [
         "Thunder",
         "Wild Charge",
-        "Flame Burst"
+        "Flame Burst",
+        "Overheat"
       ],
       "family": 309,
       "flee_rate": 0.06,
@@ -21640,7 +21645,8 @@
           "charged_moves": [
             "Hurricane",
             "Energy Ball",
-            "Weather Ball Rock"
+            "Weather Ball Rock",
+            "Weather Ball Normal"
           ]
         },
         "30": {
@@ -33626,7 +33632,8 @@
       "weight": 76.5,
       "quick_moves": [
         "Astonish",
-        "Zen Headbutt"
+        "Zen Headbutt",
+        "Shadow Claw"
       ],
       "charged_moves": [
         "Shadow Ball",
@@ -43118,10 +43125,10 @@
       ],
       "evolutions": [
         {
-          "pokemon": 791
+          "pokemon": 792
         },
         {
-          "pokemon": 792
+          "pokemon": 791
         }
       ]
     },
@@ -48036,7 +48043,7 @@
       "name": "Megahorn",
       "proto": "MEGAHORN",
       "type": "Bug",
-      "power": 100
+      "power": 110
     },
     "23": {
       "name": "Wing Attack",
@@ -49227,25 +49234,25 @@
       "name": "Weather Ball Fire",
       "proto": "WEATHER_BALL_FIRE",
       "type": "Fire",
-      "power": 60
+      "power": 55
     },
     "293": {
       "name": "Weather Ball Ice",
       "proto": "WEATHER_BALL_ICE",
       "type": "Ice",
-      "power": 60
+      "power": 55
     },
     "294": {
       "name": "Weather Ball Rock",
       "proto": "WEATHER_BALL_ROCK",
       "type": "Rock",
-      "power": 60
+      "power": 55
     },
     "295": {
       "name": "Weather Ball Water",
       "proto": "WEATHER_BALL_WATER",
       "type": "Water",
-      "power": 60
+      "power": 55
     },
     "296": {
       "name": "Frenzy Plant",
@@ -50090,8 +50097,8 @@
         ],
         "second": [
           44,
-          188,
-          114
+          114,
+          188
         ],
         "third": [
           275,
@@ -50119,8 +50126,8 @@
         ],
         "second": [
           105,
-          329,
-          247
+          247,
+          329
         ],
         "third": [
           472,
