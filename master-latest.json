@@ -41496,7 +41496,7 @@
         "Psychic"
       ],
       "family": 720,
-      "flee_rate": 1,
+      "capture_rate": 1,
       "legendary": false,
       "mythic": true,
       "buddy_distance": 20,
@@ -50101,8 +50101,8 @@
           188
         ],
         "third": [
-          275,
           45,
+          275,
           71
         ]
       }
@@ -50212,8 +50212,8 @@
       "encounters": {
         "first": [
           451,
-          29,
-          32
+          32,
+          29
         ],
         "second": [
           30,
@@ -50404,19 +50404,7 @@
       "gender": 0,
       "grunt": "Giovanni",
       "second_reward": false,
-      "encounters": {
-        "first": [
-          53
-        ],
-        "second": [
-          68,
-          76,
-          91
-        ],
-        "third": [
-          250
-        ]
-      }
+      "encounters": {}
     },
     "45": {
       "type": "Decoy",
@@ -50429,20 +50417,8 @@
       "type": "Decoy",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
-      "encounters": {
-        "first": [
-          69
-        ],
-        "second": [
-          70,
-          20
-        ],
-        "third": [
-          20,
-          143
-        ]
-      }
+      "second_reward": false,
+      "encounters": {}
     },
     "47": {
       "type": "Ghost",

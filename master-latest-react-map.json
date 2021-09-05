@@ -18364,8 +18364,8 @@
           188
         ],
         "third": [
-          275,
           45,
+          275,
           71
         ]
       }
@@ -18475,8 +18475,8 @@
       "encounters": {
         "first": [
           451,
-          29,
-          32
+          32,
+          29
         ],
         "second": [
           30,
@@ -18667,19 +18667,7 @@
       "gender": 0,
       "grunt": "Giovanni",
       "secondReward": false,
-      "encounters": {
-        "first": [
-          53
-        ],
-        "second": [
-          68,
-          76,
-          91
-        ],
-        "third": [
-          250
-        ]
-      }
+      "encounters": {}
     },
     "45": {
       "type": "Decoy",
@@ -18692,20 +18680,8 @@
       "type": "Decoy",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
-      "encounters": {
-        "first": [
-          69
-        ],
-        "second": [
-          70,
-          20
-        ],
-        "third": [
-          20,
-          143
-        ]
-      }
+      "secondReward": false,
+      "encounters": {}
     },
     "47": {
       "type": "Ghost",

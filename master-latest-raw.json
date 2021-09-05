@@ -31839,7 +31839,7 @@
         108
       ],
       "family": 720,
-      "fleeRate": 1,
+      "captureRate": 1,
       "legendary": false,
       "mythic": true,
       "buddyDistance": 20,
@@ -56505,13 +56505,13 @@
           "position": "second"
         },
         {
-          "id": 275,
-          "formId": 632,
+          "id": 45,
+          "formId": 272,
           "position": "third"
         },
         {
-          "id": 45,
-          "formId": 272,
+          "id": 275,
+          "formId": 632,
           "position": "third"
         },
         {
@@ -56701,12 +56701,12 @@
           "position": "first"
         },
         {
-          "id": 29,
+          "id": 32,
           "formId": 777,
           "position": "first"
         },
         {
-          "id": 32,
+          "id": 29,
           "formId": 777,
           "position": "first"
         },
@@ -57073,33 +57073,7 @@
       "gender": 0,
       "grunt": "Giovanni",
       "secondReward": false,
-      "encounters": [
-        {
-          "id": 53,
-          "formId": 711,
-          "position": "first"
-        },
-        {
-          "id": 68,
-          "formId": 816,
-          "position": "second"
-        },
-        {
-          "id": 76,
-          "formId": 886,
-          "position": "second"
-        },
-        {
-          "id": 91,
-          "formId": 880,
-          "position": "second"
-        },
-        {
-          "id": 250,
-          "formId": 1344,
-          "position": "third"
-        }
-      ]
+      "encounters": []
     },
     "45": {
       "id": 45,
@@ -57114,34 +57088,8 @@
       "type": "Decoy",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
-      "encounters": [
-        {
-          "id": 69,
-          "formId": 665,
-          "position": "first"
-        },
-        {
-          "id": 70,
-          "formId": 668,
-          "position": "second"
-        },
-        {
-          "id": 20,
-          "formId": 155,
-          "position": "second"
-        },
-        {
-          "id": 20,
-          "formId": 155,
-          "position": "third"
-        },
-        {
-          "id": 143,
-          "formId": 200,
-          "position": "third"
-        }
-      ]
+      "secondReward": false,
+      "encounters": []
     },
     "47": {
       "id": 47,
