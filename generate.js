@@ -1,7 +1,6 @@
 const fs = require('fs')
 const Fetch = require('node-fetch')
 const { generate } = require('pogo-data-generator')
-const pokemonTypes = require('./data/pokemonTypes.json')
 
 const primary = require('./templates/primary.json')
 const raw = require('./templates/raw.json')
@@ -37,12 +36,11 @@ module.exports.generate = async function update() {
       : poracleData.questTypes[key]
   })
 
+  data.type_ids = reactMapData.types
   data.quest_types = mergedQuestTypes
   data.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
-  data.types = pokemonTypes
 
   poracleData.questTypes = mergedQuestTypes
-  poracleData.typeInfo = pokemonTypes
   delete poracleData.translations
   
   fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })

@@ -24,6 +24,10 @@
         "defense": "stats",
         "stamina": "stats"
       },
+      "makeSingular": {
+        "questRequirement": true,
+        "itemRequirement": true
+      },
       "unsetFormName": "",
       "includeUnset": true,
       "unsetDefaultForm": true,
@@ -33,7 +37,10 @@
         "Purified"
       ],
       "allUnset": true,
-      "includeEstimatedPokemon": true,
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      },
       "includeProtos": true
     },
     "template": {
@@ -49,7 +56,72 @@
       },
       "attack": true,
       "defense": true,
-      "stamina": true
+      "stamina": true,
+      "evolutions": {
+        "evoId": true,
+        "formId": true,
+        "genderRequirement": true,
+        "candyCost": true,
+        "itemRequirement": "itemName",
+        "tradeBonus": true,
+        "mustBeBuddy": true,
+        "onlyDaytime": true,
+        "onlyNighttime": true,
+        "questRequirement": {
+          "i18n": true,
+          "target": true
+        }
+      },
+      "tempEvolutions": {
+        "tempEvoId": true,
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "types": {
+          "typeId": true,
+          "typeName": true
+        },
+        "unreleased": true,
+        "firstEnergyCost": true,
+        "subsequentEnergyCost": true
+      },
+      "thirdMoveStardust": true,
+      "thirdMoveCandy": true,
+      "unreleased": true
+    }
+  },
+  "types": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "typeName"
+      }
+    },
+    "template": {
+      "strengths": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weaknesses": {
+        "typeId": true,
+        "typeName": true
+      },
+      "veryWeakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "immunes": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "resistances": {
+        "typeId": true,
+        "typeName": true
+      }
     }
   },
   "items": {
@@ -97,7 +169,6 @@
   "translations": {
     "enabled": true,
     "options": {
-      "prefix": {},
       "masterfileLocale": "en"
     },
     "locales": {

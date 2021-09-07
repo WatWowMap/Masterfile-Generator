@@ -21,7 +21,10 @@
         "formName": "name",
         "pokemonName": "name"
       },
-      "includeEstimatedPokemon": true
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      }
     },
     "template": {
       "pokedexId": true,
@@ -93,11 +96,15 @@
     "enabled": true,
     "options": {
       "keys": {
-        "main": "typeId"
-      },
-      "topLevelName": "type_ids"
+        "main": "typeName"
+      }
     },
-    "template": "typeName"
+    "template": {
+      "strengths": "typeName",
+      "weaknesses": "typeName",
+      "immunes": "typeName",
+      "resistances": "typeName"
+    }
   },
   "moves": {
     "enabled": true,

@@ -21,7 +21,10 @@
         "pokemonName": "name",
         "mythic": "mythical"
       },
-      "includeEstimatedPokemon": true,
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      },
       "skipForms": [
         "Shadow",
         "Purified"
@@ -37,8 +40,7 @@
         "formName": true,
         "isCostume": true,
         "types": "typeId",
-        "family": true,
-        "little": true
+        "family": true
       },
       "defaultFormId": true,
       "genId": true,
@@ -50,7 +52,6 @@
       "legendary": true,
       "mythic": true,
       "family": true,
-      "little": true,
       "unreleased": true
     }
   },

@@ -12682,9 +12682,6 @@
       "evolutions": [
         {
           "pokemon": 680
-        },
-        {
-          "pokemon": 680
         }
       ],
       "little": true
@@ -12697,9 +12694,6 @@
       "defense": 206,
       "stamina": 153,
       "evolutions": [
-        {
-          "pokemon": 681
-        },
         {
           "pokemon": 681
         }
@@ -13170,7 +13164,8 @@
         {
           "pokemon": 724
         }
-      ]
+      ],
+      "little": true
     },
     "724": {
       "forms": {
@@ -13205,7 +13200,8 @@
         {
           "pokemon": 727
         }
-      ]
+      ],
+      "little": true
     },
     "727": {
       "forms": {
@@ -13240,7 +13236,8 @@
         {
           "pokemon": 730
         }
-      ]
+      ],
+      "little": true
     },
     "730": {
       "forms": {
@@ -13275,7 +13272,8 @@
         {
           "pokemon": 733
         }
-      ]
+      ],
+      "little": true
     },
     "733": {
       "forms": {
@@ -13332,7 +13330,8 @@
         {
           "pokemon": 738
         }
-      ]
+      ],
+      "little": true
     },
     "738": {
       "forms": {
@@ -13609,7 +13608,8 @@
         {
           "pokemon": 763
         }
-      ]
+      ],
+      "little": true
     },
     "763": {
       "forms": {
@@ -13831,7 +13831,8 @@
         {
           "pokemon": 784
         }
-      ]
+      ],
+      "little": true
     },
     "784": {
       "forms": {
@@ -13896,12 +13897,13 @@
       "stamina": 125,
       "evolutions": [
         {
-          "pokemon": 791
+          "pokemon": 792
         },
         {
-          "pokemon": 792
+          "pokemon": 791
         }
-      ]
+      ],
+      "little": true
     },
     "791": {
       "forms": {
@@ -15066,6 +15068,200 @@
       "attack": 162,
       "defense": 162,
       "stamina": 225
+    }
+  },
+  "costumes": {
+    "0": {
+      "proto": "UNSET",
+      "noEvolve": false
+    },
+    "1": {
+      "proto": "HOLIDAY_2016",
+      "noEvolve": false
+    },
+    "2": {
+      "proto": "ANNIVERSARY",
+      "noEvolve": false
+    },
+    "3": {
+      "proto": "ONE_YEAR_ANNIVERSARY",
+      "noEvolve": false
+    },
+    "4": {
+      "proto": "HALLOWEEN_2017",
+      "noEvolve": false
+    },
+    "5": {
+      "proto": "SUMMER_2018",
+      "noEvolve": false
+    },
+    "6": {
+      "proto": "FALL_2018",
+      "noEvolve": false
+    },
+    "7": {
+      "proto": "NOVEMBER_2018",
+      "noEvolve": false
+    },
+    "8": {
+      "proto": "WINTER_2018",
+      "noEvolve": false
+    },
+    "9": {
+      "proto": "FEB_2019",
+      "noEvolve": false
+    },
+    "10": {
+      "proto": "MAY_2019_NOEVOLVE",
+      "noEvolve": true
+    },
+    "11": {
+      "proto": "JAN_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "12": {
+      "proto": "APRIL_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "13": {
+      "proto": "SAFARI_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "14": {
+      "proto": "SPRING_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "15": {
+      "proto": "SUMMER_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "16": {
+      "proto": "FALL_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "17": {
+      "proto": "WINTER_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "18": {
+      "proto": "NOT_FOR_RELEASE_ALPHA",
+      "noEvolve": false
+    },
+    "19": {
+      "proto": "NOT_FOR_RELEASE_BETA",
+      "noEvolve": false
+    },
+    "20": {
+      "proto": "NOT_FOR_RELEASE_GAMMA",
+      "noEvolve": false
+    },
+    "21": {
+      "proto": "NOT_FOR_RELEASE_NOEVOLVE",
+      "noEvolve": true
+    },
+    "22": {
+      "proto": "KANTO_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "23": {
+      "proto": "JOHTO_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "24": {
+      "proto": "HOENN_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "25": {
+      "proto": "SINNOH_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "26": {
+      "proto": "HALLOWEEN_2020_NOEVOLVE",
+      "noEvolve": true
+    },
+    "27": {
+      "proto": "COSTUME_1",
+      "noEvolve": false
+    },
+    "28": {
+      "proto": "COSTUME_2",
+      "noEvolve": false
+    },
+    "29": {
+      "proto": "COSTUME_3",
+      "noEvolve": false
+    },
+    "30": {
+      "proto": "COSTUME_4",
+      "noEvolve": false
+    },
+    "31": {
+      "proto": "COSTUME_5",
+      "noEvolve": false
+    },
+    "32": {
+      "proto": "COSTUME_6",
+      "noEvolve": false
+    },
+    "33": {
+      "proto": "COSTUME_7",
+      "noEvolve": false
+    },
+    "34": {
+      "proto": "COSTUME_8",
+      "noEvolve": false
+    },
+    "35": {
+      "proto": "COSTUME_9",
+      "noEvolve": false
+    },
+    "36": {
+      "proto": "COSTUME_10",
+      "noEvolve": false
+    },
+    "37": {
+      "proto": "COSTUME_1_NOEVOLVE",
+      "noEvolve": true
+    },
+    "38": {
+      "proto": "COSTUME_2_NOEVOLVE",
+      "noEvolve": true
+    },
+    "39": {
+      "proto": "COSTUME_3_NOEVOLVE",
+      "noEvolve": true
+    },
+    "40": {
+      "proto": "COSTUME_4_NOEVOLVE",
+      "noEvolve": true
+    },
+    "41": {
+      "proto": "COSTUME_5_NOEVOLVE",
+      "noEvolve": true
+    },
+    "42": {
+      "proto": "COSTUME_6_NOEVOLVE",
+      "noEvolve": true
+    },
+    "43": {
+      "proto": "COSTUME_7_NOEVOLVE",
+      "noEvolve": true
+    },
+    "44": {
+      "proto": "COSTUME_8_NOEVOLVE",
+      "noEvolve": true
+    },
+    "45": {
+      "proto": "COSTUME_9_NOEVOLVE",
+      "noEvolve": true
+    },
+    "46": {
+      "proto": "COSTUME_10_NOEVOLVE",
+      "noEvolve": true
+    },
+    "47": {
+      "proto": "GOFEST_2021_NOEVOLVE",
+      "noEvolve": true
     }
   }
 }

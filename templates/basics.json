@@ -13,7 +13,10 @@
       },
       "snake_case": true,
       "includeProtos": true,
-      "includeEstimatedPokemon": true
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      }
     },
     "template": {
       "forms": {
@@ -43,6 +46,18 @@
       "defense": true,
       "stamina": true,
       "little": true
+    }
+  },
+  "costumes": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "proto": true,
+      "noEvolve": true
     }
   }
 }
