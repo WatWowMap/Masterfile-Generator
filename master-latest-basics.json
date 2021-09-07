@@ -15071,197 +15071,53 @@
     }
   },
   "costumes": {
-    "0": {
-      "proto": "UNSET",
-      "noEvolve": false
-    },
-    "1": {
-      "proto": "HOLIDAY_2016",
-      "noEvolve": false
-    },
-    "2": {
-      "proto": "ANNIVERSARY",
-      "noEvolve": false
-    },
-    "3": {
-      "proto": "ONE_YEAR_ANNIVERSARY",
-      "noEvolve": false
-    },
-    "4": {
-      "proto": "HALLOWEEN_2017",
-      "noEvolve": false
-    },
-    "5": {
-      "proto": "SUMMER_2018",
-      "noEvolve": false
-    },
-    "6": {
-      "proto": "FALL_2018",
-      "noEvolve": false
-    },
-    "7": {
-      "proto": "NOVEMBER_2018",
-      "noEvolve": false
-    },
-    "8": {
-      "proto": "WINTER_2018",
-      "noEvolve": false
-    },
-    "9": {
-      "proto": "FEB_2019",
-      "noEvolve": false
-    },
-    "10": {
-      "proto": "MAY_2019_NOEVOLVE",
-      "noEvolve": true
-    },
-    "11": {
-      "proto": "JAN_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "12": {
-      "proto": "APRIL_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "13": {
-      "proto": "SAFARI_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "14": {
-      "proto": "SPRING_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "15": {
-      "proto": "SUMMER_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "16": {
-      "proto": "FALL_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "17": {
-      "proto": "WINTER_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "18": {
-      "proto": "NOT_FOR_RELEASE_ALPHA",
-      "noEvolve": false
-    },
-    "19": {
-      "proto": "NOT_FOR_RELEASE_BETA",
-      "noEvolve": false
-    },
-    "20": {
-      "proto": "NOT_FOR_RELEASE_GAMMA",
-      "noEvolve": false
-    },
-    "21": {
-      "proto": "NOT_FOR_RELEASE_NOEVOLVE",
-      "noEvolve": true
-    },
-    "22": {
-      "proto": "KANTO_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "23": {
-      "proto": "JOHTO_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "24": {
-      "proto": "HOENN_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "25": {
-      "proto": "SINNOH_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "26": {
-      "proto": "HALLOWEEN_2020_NOEVOLVE",
-      "noEvolve": true
-    },
-    "27": {
-      "proto": "COSTUME_1",
-      "noEvolve": false
-    },
-    "28": {
-      "proto": "COSTUME_2",
-      "noEvolve": false
-    },
-    "29": {
-      "proto": "COSTUME_3",
-      "noEvolve": false
-    },
-    "30": {
-      "proto": "COSTUME_4",
-      "noEvolve": false
-    },
-    "31": {
-      "proto": "COSTUME_5",
-      "noEvolve": false
-    },
-    "32": {
-      "proto": "COSTUME_6",
-      "noEvolve": false
-    },
-    "33": {
-      "proto": "COSTUME_7",
-      "noEvolve": false
-    },
-    "34": {
-      "proto": "COSTUME_8",
-      "noEvolve": false
-    },
-    "35": {
-      "proto": "COSTUME_9",
-      "noEvolve": false
-    },
-    "36": {
-      "proto": "COSTUME_10",
-      "noEvolve": false
-    },
-    "37": {
-      "proto": "COSTUME_1_NOEVOLVE",
-      "noEvolve": true
-    },
-    "38": {
-      "proto": "COSTUME_2_NOEVOLVE",
-      "noEvolve": true
-    },
-    "39": {
-      "proto": "COSTUME_3_NOEVOLVE",
-      "noEvolve": true
-    },
-    "40": {
-      "proto": "COSTUME_4_NOEVOLVE",
-      "noEvolve": true
-    },
-    "41": {
-      "proto": "COSTUME_5_NOEVOLVE",
-      "noEvolve": true
-    },
-    "42": {
-      "proto": "COSTUME_6_NOEVOLVE",
-      "noEvolve": true
-    },
-    "43": {
-      "proto": "COSTUME_7_NOEVOLVE",
-      "noEvolve": true
-    },
-    "44": {
-      "proto": "COSTUME_8_NOEVOLVE",
-      "noEvolve": true
-    },
-    "45": {
-      "proto": "COSTUME_9_NOEVOLVE",
-      "noEvolve": true
-    },
-    "46": {
-      "proto": "COSTUME_10_NOEVOLVE",
-      "noEvolve": true
-    },
-    "47": {
-      "proto": "GOFEST_2021_NOEVOLVE",
-      "noEvolve": true
-    }
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false,
+    "8": false,
+    "9": false,
+    "10": true,
+    "11": true,
+    "12": true,
+    "13": true,
+    "14": true,
+    "15": true,
+    "16": true,
+    "17": true,
+    "18": false,
+    "19": false,
+    "20": false,
+    "21": true,
+    "22": true,
+    "23": true,
+    "24": true,
+    "25": true,
+    "26": true,
+    "27": false,
+    "28": false,
+    "29": false,
+    "30": false,
+    "31": false,
+    "32": false,
+    "33": false,
+    "34": false,
+    "35": false,
+    "36": false,
+    "37": true,
+    "38": true,
+    "39": true,
+    "40": true,
+    "41": true,
+    "42": true,
+    "43": true,
+    "44": true,
+    "45": true,
+    "46": true,
+    "47": true
   }
 }
