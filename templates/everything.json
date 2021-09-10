@@ -1,0 +1,458 @@
+{
+  "globalOptions": {
+    "keyJoiner": "_",
+    "genderString": false,
+    "snake_case": false,
+    "includeProtos": true
+  },
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "pokemon",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "pokedexId",
+        "forms": "formId",
+        "evolutions": "evoId",
+        "tempEvolutions": "tempEvoId",
+        "types": "typeId",
+        "quickMoves": "moveId",
+        "chargedMoves": "moveId"
+      },
+      "customFields": {
+        "formId": "form",
+        "evoId": "pokemon",
+        "formName": "name",
+        "pokemonName": "name"
+      },
+      "customChildObj": {
+        "attack": "stats",
+        "defense": "stats",
+        "stamina": "stats",
+        "fleeRate": "encounter",
+        "captureRate": "encounter",
+        "bonusCandyCapture": "encounter",
+        "bonusStardustCapture": "encounter",
+        "buddyGroupNumber": "misc",
+        "buddyDistance": "misc",
+        "buddyMegaEnergy": "misc",
+        "thirdMoveStardust": "misc",
+        "thirdMoveCandy": "misc",
+        "gymDefenderEligible": "misc",
+        "tradable": "misc",
+        "transferable": "misc"
+      },
+      "makeSingular": {
+        "itemRequirement": true,
+        "questRequirement": true
+      },
+      "genderString": false,
+      "snake_case": false,
+      "unsetDefaultForm": false,
+      "skipNormalIfUnset": false,
+      "skipForms": [],
+      "includeProtos": true,
+      "includeEstimatedPokemon": true,
+      "processFormsSeparately": false,
+      "includeRawForms": true,
+      "includeUnset": true,
+      "unsetFormName": "Unset",
+      "allUnset": false
+    },
+    "template": {
+      "pokedexId": true,
+      "pokemonName": true,
+      "forms": {
+        "formId": true,
+        "formName": true,
+        "proto": true,
+        "isCostume": true,
+        "evolutions": {
+          "evoId": true,
+          "formId": true,
+          "genderRequirement": true,
+          "candyCost": true,
+          "itemRequirement": "itemName",
+          "tradeBonus": true,
+          "mustBeBuddy": true,
+          "onlyDaytime": true,
+          "onlyNighttime": true,
+          "questRequirement": {
+            "questType": true,
+            "target": true,
+            "i18n": true,
+            "assetsRef": true,
+            "translated": true
+          }
+        },
+        "tempEvolutions": {
+          "tempEvoId": true
+        },
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "height": true,
+        "weight": true,
+        "types": {
+          "typeId": true,
+          "typeName": true
+        },
+        "quickMoves": {
+          "moveId": true,
+          "moveName": true,
+          "proto": true,
+          "power": true,
+          "type": "typeName"
+        },
+        "chargedMoves": {
+          "moveId": true,
+          "moveName": true,
+          "proto": true,
+          "power": true,
+          "type": "typeName"
+        },
+        "family": true
+      },
+      "defaultFormId": true,
+      "genId": true,
+      "generation": true,
+      "types": {
+        "typeId": true,
+        "typeName": true
+      },
+      "attack": true,
+      "defense": true,
+      "stamina": true,
+      "height": true,
+      "weight": true,
+      "fleeRate": true,
+      "captureRate": true,
+      "quickMoves": {
+        "moveId": true,
+        "moveName": true,
+        "proto": true,
+        "power": true,
+        "type": "typeName"
+      },
+      "chargedMoves": {
+        "moveId": true,
+        "moveName": true,
+        "proto": true,
+        "power": true,
+        "type": "typeName"
+      },
+      "tempEvolutions": {
+        "tempEvoId": true,
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "height": true,
+        "weight": true,
+        "types": {
+          "typeId": true,
+          "typeName": true
+        },
+        "unreleased": true,
+        "firstEnergyCost": true,
+        "subsequentEnergyCost": true
+      },
+      "evolutions": {
+        "evoId": true,
+        "formId": true,
+        "genderRequirement": true,
+        "candyCost": true,
+        "itemRequirement": "itemName",
+        "tradeBonus": true,
+        "mustBeBuddy": true,
+        "onlyDaytime": true,
+        "onlyNighttime": true,
+        "questRequirement": {
+          "questType": true,
+          "target": true,
+          "i18n": true,
+          "assetsRef": true,
+          "translated": true
+        }
+      },
+      "legendary": true,
+      "mythic": true,
+      "buddyGroupNumber": true,
+      "buddyDistance": true,
+      "buddyMegaEnergy": true,
+      "thirdMoveStardust": true,
+      "thirdMoveCandy": true,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true,
+      "family": true,
+      "little": true,
+      "unreleased": true,
+      "bonusCandyCapture": true,
+      "bonusStardustCapture": true
+    }
+  },
+  "costumes": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "id": true,
+      "name": true,
+      "proto": true,
+      "noEvolve": true
+    }
+  },
+  "translations": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "translations",
+      "prefix": {
+        "pokemon": "poke_",
+        "forms": "form_",
+        "costumes": "costume_",
+        "alignment": "alignment_",
+        "evolutions": "evo_",
+        "descriptions": "desc_",
+        "moves": "move_",
+        "items": "item_",
+        "weather": "weather_",
+        "types": "poke_type_",
+        "grunts": "grunt_",
+        "characterCategories": "character_category_",
+        "lures": "lure_",
+        "throwTypes": "throw_type_",
+        "pokemonCategories": "pokemon_categories_"
+      },
+      "questVariables": {
+        "prefix": "{{",
+        "suffix": "}}"
+      },
+      "masterfileLocale": "en",
+      "manualTranslations": true,
+      "mergeCategories": true,
+      "useLanguageAsRef": false
+    },
+    "locales": {
+      "de": true,
+      "en": true,
+      "es": false,
+      "fr": true,
+      "it": false,
+      "jp": false,
+      "ko": false,
+      "pt-br": false,
+      "ru": false,
+      "th": false,
+      "zh-tw": false
+    },
+    "template": {
+      "pokemon": {
+        "names": true,
+        "forms": true,
+        "descriptions": true
+      },
+      "moves": true,
+      "items": true,
+      "types": true,
+      "characters": true,
+      "weather": true,
+      "misc": true,
+      "quests": true
+    }
+  },
+  "types": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "types",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "typeId"
+      },
+      "customFields": {},
+      "snake_case": false
+    },
+    "template": {
+      "typeId": true,
+      "typeName": true,
+      "strengths": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weaknesses": {
+        "typeId": true,
+        "typeName": true
+      },
+      "veryWeakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "immunes": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "resistances": {
+        "typeId": true,
+        "typeName": true
+      }
+    }
+  },
+  "moves": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "moves",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "moveId",
+        "type": false
+      },
+      "customFields": {
+        "moveId": "id",
+        "moveName": "name"
+      },
+      "makeSingular": {
+        "type": true
+      },
+      "includeProtos": true,
+      "snake_case": false
+    },
+    "template": {
+      "moveId": true,
+      "moveName": true,
+      "proto": true,
+      "type": {
+        "typeId": true,
+        "typeName": true
+      },
+      "power": true
+    }
+  },
+  "items": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "keyJoiner": "_",
+        "main": "itemId"
+      },
+      "customFields": {
+        "itemId": "id",
+        "itemName": "name"
+      },
+      "snake_case": false,
+      "minTrainerLevel": 100
+    },
+    "template": {
+      "itemId": true,
+      "itemName": true,
+      "proto": true,
+      "type": true,
+      "category": true,
+      "minTrainerLevel": true
+    }
+  },
+  "questTypes": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "questTypes",
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true
+    }
+  },
+  "questConditions": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "questConditions",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "id"
+      },
+      "customFields": {},
+      "snake_case": false
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true
+    }
+  },
+  "questRewardTypes": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "questRewardTypes",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "id"
+      },
+      "customFields": {},
+      "snake_case": false
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true
+    }
+  },
+  "invasions": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "invasions",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "id",
+        "encounters": "position"
+      },
+      "customFields": {
+        "first": "first",
+        "second": "second",
+        "third": "third"
+      },
+      "genderString": false,
+      "placeholderData": true,
+      "snake_case": false
+    },
+    "template": {
+      "id": true,
+      "type": true,
+      "gender": true,
+      "grunt": true,
+      "secondReward": true,
+      "encounters": {
+        "id": true,
+        "formId": true,
+        "position": false
+      }
+    }
+  },
+  "weather": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "weather",
+      "keys": {
+        "keyJoiner": "_",
+        "main": "weatherId"
+      },
+      "customFields": {}
+    },
+    "template": {
+      "weatherId": true,
+      "weatherName": true,
+      "proto": true,
+      "types": {
+        "typeId": true,
+        "typeName": true
+      }
+    }
+  }
+}
