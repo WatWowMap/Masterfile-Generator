@@ -8,6 +8,7 @@ const poracle = require('./templates/poracle.json')
 const basics = require('./templates/basics.json')
 const reactMap = require('./templates/reactMap.json')
 const rdmopole2 = require('./templates/rdmopole2.json')
+const everything = require('./templates/everything.json')
 
 const fetch = async (url) => {
   return new Promise(resolve => {
@@ -26,6 +27,7 @@ module.exports.generate = async function update() {
   const basicData = await generate({ template: basics })
   const reactMapData = await generate({ template: reactMap })
   const rdmopole2Data = await generate({ template: rdmopole2 })
+  const everythingData = await generate({ template: everything })
 
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
@@ -42,6 +44,7 @@ module.exports.generate = async function update() {
 
   poracleData.questTypes = mergedQuestTypes
   delete poracleData.translations
+  delete everythingData.translations
   
   fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-raw.json', JSON.stringify(rawData, null, 2), 'utf8', () => { })
@@ -49,4 +52,5 @@ module.exports.generate = async function update() {
   fs.writeFile('./master-latest-basics.json', JSON.stringify(basicData, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-react-map.json', JSON.stringify(reactMapData, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-rdmopole2.json', JSON.stringify(rdmopole2Data, null, 2), 'utf8', () => { })
+  fs.writeFile('./master-latest-everything.json', JSON.stringify(everythingData, null, 2), 'utf8', () => { })
 }
