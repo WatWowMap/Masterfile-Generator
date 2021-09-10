@@ -38217,7 +38217,7 @@
       "name": "Meloetta",
       "id": 648,
       "form": {
-        "name": "Pirouette",
+        "name": "Pirouette Forme",
         "id": 152
       },
       "types": [
@@ -47166,7 +47166,7 @@
       "name": "Morpeko",
       "id": 877,
       "form": {
-        "name": "Fully Belly Mode",
+        "name": "Full Belly Mode",
         "id": 2544
       },
       "types": [
@@ -49395,718 +49395,956 @@
   },
   "moves": {
     "13": {
-      "name": "Wrap"
+      "name": "Wrap",
+      "type": "Normal"
     },
     "14": {
-      "name": "Hyper Beam"
+      "name": "Hyper Beam",
+      "type": "Normal"
     },
     "16": {
-      "name": "Dark Pulse"
+      "name": "Dark Pulse",
+      "type": "Dark"
     },
     "18": {
-      "name": "Sludge"
+      "name": "Sludge",
+      "type": "Poison"
     },
     "20": {
-      "name": "Vise Grip"
+      "name": "Vise Grip",
+      "type": "Normal"
     },
     "21": {
-      "name": "Flame Wheel"
+      "name": "Flame Wheel",
+      "type": "Fire"
     },
     "22": {
-      "name": "Megahorn"
+      "name": "Megahorn",
+      "type": "Bug"
     },
     "24": {
-      "name": "Flamethrower"
+      "name": "Flamethrower",
+      "type": "Fire"
     },
     "26": {
-      "name": "Dig"
+      "name": "Dig",
+      "type": "Ground"
     },
     "28": {
-      "name": "Cross Chop"
+      "name": "Cross Chop",
+      "type": "Fighting"
     },
     "30": {
-      "name": "Psybeam"
+      "name": "Psybeam",
+      "type": "Psychic"
     },
     "31": {
-      "name": "Earthquake"
+      "name": "Earthquake",
+      "type": "Ground"
     },
     "32": {
-      "name": "Stone Edge"
+      "name": "Stone Edge",
+      "type": "Rock"
     },
     "33": {
-      "name": "Ice Punch"
+      "name": "Ice Punch",
+      "type": "Ice"
     },
     "34": {
-      "name": "Heart Stamp"
+      "name": "Heart Stamp",
+      "type": "Psychic"
     },
     "35": {
-      "name": "Discharge"
+      "name": "Discharge",
+      "type": "Electric"
     },
     "36": {
-      "name": "Flash Cannon"
+      "name": "Flash Cannon",
+      "type": "Steel"
     },
     "38": {
-      "name": "Drill Peck"
+      "name": "Drill Peck",
+      "type": "Flying"
     },
     "39": {
-      "name": "Ice Beam"
+      "name": "Ice Beam",
+      "type": "Ice"
     },
     "40": {
-      "name": "Blizzard"
+      "name": "Blizzard",
+      "type": "Ice"
     },
     "42": {
-      "name": "Heat Wave"
+      "name": "Heat Wave",
+      "type": "Fire"
     },
     "45": {
-      "name": "Aerial Ace"
+      "name": "Aerial Ace",
+      "type": "Flying"
     },
     "46": {
-      "name": "Drill Run"
+      "name": "Drill Run",
+      "type": "Ground"
     },
     "47": {
-      "name": "Petal Blizzard"
+      "name": "Petal Blizzard",
+      "type": "Grass"
     },
     "48": {
-      "name": "Mega Drain"
+      "name": "Mega Drain",
+      "type": "Grass"
     },
     "49": {
-      "name": "Bug Buzz"
+      "name": "Bug Buzz",
+      "type": "Bug"
     },
     "50": {
-      "name": "Poison Fang"
+      "name": "Poison Fang",
+      "type": "Poison"
     },
     "51": {
-      "name": "Night Slash"
+      "name": "Night Slash",
+      "type": "Dark"
     },
     "53": {
-      "name": "Bubble Beam"
+      "name": "Bubble Beam",
+      "type": "Water"
     },
     "54": {
-      "name": "Submission"
+      "name": "Submission",
+      "type": "Fighting"
     },
     "56": {
-      "name": "Low Sweep"
+      "name": "Low Sweep",
+      "type": "Fighting"
     },
     "57": {
-      "name": "Aqua Jet"
+      "name": "Aqua Jet",
+      "type": "Water"
     },
     "58": {
-      "name": "Aqua Tail"
+      "name": "Aqua Tail",
+      "type": "Water"
     },
     "59": {
-      "name": "Seed Bomb"
+      "name": "Seed Bomb",
+      "type": "Grass"
     },
     "60": {
-      "name": "Psyshock"
+      "name": "Psyshock",
+      "type": "Psychic"
     },
     "62": {
-      "name": "Ancient Power"
+      "name": "Ancient Power",
+      "type": "Rock"
     },
     "63": {
-      "name": "Rock Tomb"
+      "name": "Rock Tomb",
+      "type": "Rock"
     },
     "64": {
-      "name": "Rock Slide"
+      "name": "Rock Slide",
+      "type": "Rock"
     },
     "65": {
-      "name": "Power Gem"
+      "name": "Power Gem",
+      "type": "Rock"
     },
     "66": {
-      "name": "Shadow Sneak"
+      "name": "Shadow Sneak",
+      "type": "Ghost"
     },
     "67": {
-      "name": "Shadow Punch"
+      "name": "Shadow Punch",
+      "type": "Ghost"
     },
     "69": {
-      "name": "Ominous Wind"
+      "name": "Ominous Wind",
+      "type": "Ghost"
     },
     "70": {
-      "name": "Shadow Ball"
+      "name": "Shadow Ball",
+      "type": "Ghost"
     },
     "72": {
-      "name": "Magnet Bomb"
+      "name": "Magnet Bomb",
+      "type": "Steel"
     },
     "74": {
-      "name": "Iron Head"
+      "name": "Iron Head",
+      "type": "Steel"
     },
     "75": {
-      "name": "Parabolic Charge"
+      "name": "Parabolic Charge",
+      "type": "Electric"
     },
     "77": {
-      "name": "Thunder Punch"
+      "name": "Thunder Punch",
+      "type": "Electric"
     },
     "78": {
-      "name": "Thunder"
+      "name": "Thunder",
+      "type": "Electric"
     },
     "79": {
-      "name": "Thunderbolt"
+      "name": "Thunderbolt",
+      "type": "Electric"
     },
     "80": {
-      "name": "Twister"
+      "name": "Twister",
+      "type": "Dragon"
     },
     "82": {
-      "name": "Dragon Pulse"
+      "name": "Dragon Pulse",
+      "type": "Dragon"
     },
     "83": {
-      "name": "Dragon Claw"
+      "name": "Dragon Claw",
+      "type": "Dragon"
     },
     "84": {
-      "name": "Disarming Voice"
+      "name": "Disarming Voice",
+      "type": "Fairy"
     },
     "85": {
-      "name": "Draining Kiss"
+      "name": "Draining Kiss",
+      "type": "Fairy"
     },
     "86": {
-      "name": "Dazzling Gleam"
+      "name": "Dazzling Gleam",
+      "type": "Fairy"
     },
     "87": {
-      "name": "Moonblast"
+      "name": "Moonblast",
+      "type": "Fairy"
     },
     "88": {
-      "name": "Play Rough"
+      "name": "Play Rough",
+      "type": "Fairy"
     },
     "89": {
-      "name": "Cross Poison"
+      "name": "Cross Poison",
+      "type": "Poison"
     },
     "90": {
-      "name": "Sludge Bomb"
+      "name": "Sludge Bomb",
+      "type": "Poison"
     },
     "91": {
-      "name": "Sludge Wave"
+      "name": "Sludge Wave",
+      "type": "Poison"
     },
     "92": {
-      "name": "Gunk Shot"
+      "name": "Gunk Shot",
+      "type": "Poison"
     },
     "94": {
-      "name": "Bone Club"
+      "name": "Bone Club",
+      "type": "Ground"
     },
     "95": {
-      "name": "Bulldoze"
+      "name": "Bulldoze",
+      "type": "Ground"
     },
     "96": {
-      "name": "Mud Bomb"
+      "name": "Mud Bomb",
+      "type": "Ground"
     },
     "99": {
-      "name": "Signal Beam"
+      "name": "Signal Beam",
+      "type": "Bug"
     },
     "100": {
-      "name": "X-Scissor"
+      "name": "X-Scissor",
+      "type": "Bug"
     },
     "101": {
-      "name": "Flame Charge"
+      "name": "Flame Charge",
+      "type": "Fire"
     },
     "102": {
-      "name": "Flame Burst"
+      "name": "Flame Burst",
+      "type": "Fire"
     },
     "103": {
-      "name": "Fire Blast"
+      "name": "Fire Blast",
+      "type": "Fire"
     },
     "104": {
-      "name": "Brine"
+      "name": "Brine",
+      "type": "Water"
     },
     "105": {
-      "name": "Water Pulse"
+      "name": "Water Pulse",
+      "type": "Water"
     },
     "106": {
-      "name": "Scald"
+      "name": "Scald",
+      "type": "Water"
     },
     "107": {
-      "name": "Hydro Pump"
+      "name": "Hydro Pump",
+      "type": "Water"
     },
     "108": {
-      "name": "Psychic"
+      "name": "Psychic",
+      "type": "Psychic"
     },
     "109": {
-      "name": "Psystrike"
+      "name": "Psystrike",
+      "type": "Psychic"
     },
     "111": {
-      "name": "Icy Wind"
+      "name": "Icy Wind",
+      "type": "Ice"
     },
     "114": {
-      "name": "Giga Drain"
+      "name": "Giga Drain",
+      "type": "Grass"
     },
     "115": {
-      "name": "Fire Punch"
+      "name": "Fire Punch",
+      "type": "Fire"
     },
     "116": {
-      "name": "Solar Beam"
+      "name": "Solar Beam",
+      "type": "Grass"
     },
     "117": {
-      "name": "Leaf Blade"
+      "name": "Leaf Blade",
+      "type": "Grass"
     },
     "118": {
-      "name": "Power Whip"
+      "name": "Power Whip",
+      "type": "Grass"
     },
     "121": {
-      "name": "Air Cutter"
+      "name": "Air Cutter",
+      "type": "Flying"
     },
     "122": {
-      "name": "Hurricane"
+      "name": "Hurricane",
+      "type": "Flying"
     },
     "123": {
-      "name": "Brick Break"
+      "name": "Brick Break",
+      "type": "Fighting"
     },
     "125": {
-      "name": "Swift"
+      "name": "Swift",
+      "type": "Normal"
     },
     "126": {
-      "name": "Horn Attack"
+      "name": "Horn Attack",
+      "type": "Normal"
     },
     "127": {
-      "name": "Stomp"
+      "name": "Stomp",
+      "type": "Normal"
     },
     "129": {
-      "name": "Hyper Fang"
+      "name": "Hyper Fang",
+      "type": "Normal"
     },
     "131": {
-      "name": "Body Slam"
+      "name": "Body Slam",
+      "type": "Normal"
     },
     "132": {
-      "name": "Rest"
+      "name": "Rest",
+      "type": "Normal"
     },
     "133": {
-      "name": "Struggle"
+      "name": "Struggle",
+      "type": "Normal"
     },
     "134": {
-      "name": "Scald"
+      "name": "Scald",
+      "type": "Water"
     },
     "135": {
-      "name": "Hydro Pump"
+      "name": "Hydro Pump",
+      "type": "Water"
     },
     "136": {
-      "name": "Wrap"
+      "name": "Wrap",
+      "type": "Normal"
     },
     "137": {
-      "name": "Wrap"
+      "name": "Wrap",
+      "type": "Normal"
     },
     "200": {
-      "name": "Fury Cutter"
+      "name": "Fury Cutter",
+      "type": "Bug"
     },
     "201": {
-      "name": "Bug Bite"
+      "name": "Bug Bite",
+      "type": "Bug"
     },
     "202": {
-      "name": "Bite"
+      "name": "Bite",
+      "type": "Dark"
     },
     "203": {
-      "name": "Sucker Punch"
+      "name": "Sucker Punch",
+      "type": "Dark"
     },
     "204": {
-      "name": "Dragon Breath"
+      "name": "Dragon Breath",
+      "type": "Dragon"
     },
     "205": {
-      "name": "Thunder Shock"
+      "name": "Thunder Shock",
+      "type": "Electric"
     },
     "206": {
-      "name": "Spark"
+      "name": "Spark",
+      "type": "Electric"
     },
     "207": {
-      "name": "Low Kick"
+      "name": "Low Kick",
+      "type": "Fighting"
     },
     "208": {
-      "name": "Karate Chop"
+      "name": "Karate Chop",
+      "type": "Fighting"
     },
     "209": {
-      "name": "Ember"
+      "name": "Ember",
+      "type": "Fire"
     },
     "210": {
-      "name": "Wing Attack"
+      "name": "Wing Attack",
+      "type": "Flying"
     },
     "211": {
-      "name": "Peck"
+      "name": "Peck",
+      "type": "Flying"
     },
     "212": {
-      "name": "Lick"
+      "name": "Lick",
+      "type": "Ghost"
     },
     "213": {
-      "name": "Shadow Claw"
+      "name": "Shadow Claw",
+      "type": "Ghost"
     },
     "214": {
-      "name": "Vine Whip"
+      "name": "Vine Whip",
+      "type": "Grass"
     },
     "215": {
-      "name": "Razor Leaf"
+      "name": "Razor Leaf",
+      "type": "Grass"
     },
     "216": {
-      "name": "Mud Shot"
+      "name": "Mud Shot",
+      "type": "Ground"
     },
     "217": {
-      "name": "Ice Shard"
+      "name": "Ice Shard",
+      "type": "Ice"
     },
     "218": {
-      "name": "Frost Breath"
+      "name": "Frost Breath",
+      "type": "Ice"
     },
     "219": {
-      "name": "Quick Attack"
+      "name": "Quick Attack",
+      "type": "Normal"
     },
     "220": {
-      "name": "Scratch"
+      "name": "Scratch",
+      "type": "Normal"
     },
     "221": {
-      "name": "Tackle"
+      "name": "Tackle",
+      "type": "Normal"
     },
     "222": {
-      "name": "Pound"
+      "name": "Pound",
+      "type": "Normal"
     },
     "223": {
-      "name": "Cut"
+      "name": "Cut",
+      "type": "Normal"
     },
     "224": {
-      "name": "Poison Jab"
+      "name": "Poison Jab",
+      "type": "Poison"
     },
     "225": {
-      "name": "Acid"
+      "name": "Acid",
+      "type": "Poison"
     },
     "226": {
-      "name": "Psycho Cut"
+      "name": "Psycho Cut",
+      "type": "Psychic"
     },
     "227": {
-      "name": "Rock Throw"
+      "name": "Rock Throw",
+      "type": "Rock"
     },
     "228": {
-      "name": "Metal Claw"
+      "name": "Metal Claw",
+      "type": "Steel"
     },
     "229": {
-      "name": "Bullet Punch"
+      "name": "Bullet Punch",
+      "type": "Steel"
     },
     "230": {
-      "name": "Water Gun"
+      "name": "Water Gun",
+      "type": "Water"
     },
     "231": {
-      "name": "Splash"
+      "name": "Splash",
+      "type": "Water"
     },
     "232": {
-      "name": "Water Gun"
+      "name": "Water Gun",
+      "type": "Water"
     },
     "233": {
-      "name": "Mud-Slap"
+      "name": "Mud-Slap",
+      "type": "Ground"
     },
     "234": {
-      "name": "Zen Headbutt"
+      "name": "Zen Headbutt",
+      "type": "Psychic"
     },
     "235": {
-      "name": "Confusion"
+      "name": "Confusion",
+      "type": "Psychic"
     },
     "236": {
-      "name": "Poison Sting"
+      "name": "Poison Sting",
+      "type": "Poison"
     },
     "237": {
-      "name": "Bubble"
+      "name": "Bubble",
+      "type": "Water"
     },
     "238": {
-      "name": "Feint Attack"
+      "name": "Feint Attack",
+      "type": "Dark"
     },
     "239": {
-      "name": "Steel Wing"
+      "name": "Steel Wing",
+      "type": "Steel"
     },
     "240": {
-      "name": "Fire Fang"
+      "name": "Fire Fang",
+      "type": "Fire"
     },
     "241": {
-      "name": "Rock Smash"
+      "name": "Rock Smash",
+      "type": "Fighting"
     },
     "242": {
-      "name": "Transform"
+      "name": "Transform",
+      "type": "Normal"
     },
     "243": {
-      "name": "Counter"
+      "name": "Counter",
+      "type": "Fighting"
     },
     "244": {
-      "name": "Powder Snow"
+      "name": "Powder Snow",
+      "type": "Ice"
     },
     "245": {
-      "name": "Close Combat"
+      "name": "Close Combat",
+      "type": "Fighting"
     },
     "246": {
-      "name": "Dynamic Punch"
+      "name": "Dynamic Punch",
+      "type": "Fighting"
     },
     "247": {
-      "name": "Focus Blast"
+      "name": "Focus Blast",
+      "type": "Fighting"
     },
     "248": {
-      "name": "Aurora Beam"
+      "name": "Aurora Beam",
+      "type": "Ice"
     },
     "249": {
-      "name": "Charge Beam"
+      "name": "Charge Beam",
+      "type": "Electric"
     },
     "250": {
-      "name": "Volt Switch"
+      "name": "Volt Switch",
+      "type": "Electric"
     },
     "251": {
-      "name": "Wild Charge"
+      "name": "Wild Charge",
+      "type": "Electric"
     },
     "252": {
-      "name": "Zap Cannon"
+      "name": "Zap Cannon",
+      "type": "Electric"
     },
     "253": {
-      "name": "Dragon Tail"
+      "name": "Dragon Tail",
+      "type": "Dragon"
     },
     "254": {
-      "name": "Avalanche"
+      "name": "Avalanche",
+      "type": "Ice"
     },
     "255": {
-      "name": "Air Slash"
+      "name": "Air Slash",
+      "type": "Flying"
     },
     "256": {
-      "name": "Brave Bird"
+      "name": "Brave Bird",
+      "type": "Flying"
     },
     "257": {
-      "name": "Sky Attack"
+      "name": "Sky Attack",
+      "type": "Flying"
     },
     "258": {
-      "name": "Sand Tomb"
+      "name": "Sand Tomb",
+      "type": "Ground"
     },
     "259": {
-      "name": "Rock Blast"
+      "name": "Rock Blast",
+      "type": "Rock"
     },
     "260": {
-      "name": "Infestation"
+      "name": "Infestation",
+      "type": "Bug"
     },
     "261": {
-      "name": "Struggle Bug"
+      "name": "Struggle Bug",
+      "type": "Bug"
     },
     "262": {
-      "name": "Silver Wind"
+      "name": "Silver Wind",
+      "type": "Bug"
     },
     "263": {
-      "name": "Astonish"
+      "name": "Astonish",
+      "type": "Ghost"
     },
     "264": {
-      "name": "Hex"
+      "name": "Hex",
+      "type": "Ghost"
     },
     "265": {
-      "name": "Night Shade"
+      "name": "Night Shade",
+      "type": "Ghost"
     },
     "266": {
-      "name": "Iron Tail"
+      "name": "Iron Tail",
+      "type": "Steel"
     },
     "267": {
-      "name": "Gyro Ball"
+      "name": "Gyro Ball",
+      "type": "Steel"
     },
     "268": {
-      "name": "Heavy Slam"
+      "name": "Heavy Slam",
+      "type": "Steel"
     },
     "269": {
-      "name": "Fire Spin"
+      "name": "Fire Spin",
+      "type": "Fire"
     },
     "270": {
-      "name": "Overheat"
+      "name": "Overheat",
+      "type": "Fire"
     },
     "271": {
-      "name": "Bullet Seed"
+      "name": "Bullet Seed",
+      "type": "Grass"
     },
     "272": {
-      "name": "Grass Knot"
+      "name": "Grass Knot",
+      "type": "Grass"
     },
     "273": {
-      "name": "Energy Ball"
+      "name": "Energy Ball",
+      "type": "Grass"
     },
     "274": {
-      "name": "Extrasensory"
+      "name": "Extrasensory",
+      "type": "Psychic"
     },
     "275": {
-      "name": "Future Sight"
+      "name": "Future Sight",
+      "type": "Psychic"
     },
     "276": {
-      "name": "Mirror Coat"
+      "name": "Mirror Coat",
+      "type": "Psychic"
     },
     "277": {
-      "name": "Outrage"
+      "name": "Outrage",
+      "type": "Dragon"
     },
     "278": {
-      "name": "Snarl"
+      "name": "Snarl",
+      "type": "Dark"
     },
     "279": {
-      "name": "Crunch"
+      "name": "Crunch",
+      "type": "Dark"
     },
     "280": {
-      "name": "Foul Play"
+      "name": "Foul Play",
+      "type": "Dark"
     },
     "281": {
-      "name": "Hidden Power"
+      "name": "Hidden Power",
+      "type": "Normal"
     },
     "282": {
-      "name": "Take Down"
+      "name": "Take Down",
+      "type": "Normal"
     },
     "283": {
-      "name": "Waterfall"
+      "name": "Waterfall",
+      "type": "Water"
     },
     "284": {
-      "name": "Surf"
+      "name": "Surf",
+      "type": "Water"
     },
     "285": {
-      "name": "Draco Meteor"
+      "name": "Draco Meteor",
+      "type": "Dragon"
     },
     "286": {
-      "name": "Doom Desire"
+      "name": "Doom Desire",
+      "type": "Steel"
     },
     "287": {
-      "name": "Yawn"
+      "name": "Yawn",
+      "type": "Normal"
     },
     "288": {
-      "name": "Psycho Boost"
+      "name": "Psycho Boost",
+      "type": "Psychic"
     },
     "289": {
-      "name": "Origin Pulse"
+      "name": "Origin Pulse",
+      "type": "Water"
     },
     "290": {
-      "name": "Precipice Blades"
+      "name": "Precipice Blades",
+      "type": "Ground"
     },
     "291": {
-      "name": "Present"
+      "name": "Present",
+      "type": "Normal"
     },
     "292": {
-      "name": "Weather Ball"
+      "name": "Weather Ball",
+      "type": "Fire"
     },
     "293": {
-      "name": "Weather Ball"
+      "name": "Weather Ball",
+      "type": "Ice"
     },
     "294": {
-      "name": "Weather Ball"
+      "name": "Weather Ball",
+      "type": "Rock"
     },
     "295": {
-      "name": "Weather Ball"
+      "name": "Weather Ball",
+      "type": "Water"
     },
     "296": {
-      "name": "Frenzy Plant"
+      "name": "Frenzy Plant",
+      "type": "Grass"
     },
     "297": {
-      "name": "Smack Down"
+      "name": "Smack Down",
+      "type": "Rock"
     },
     "298": {
-      "name": "Blast Burn"
+      "name": "Blast Burn",
+      "type": "Fire"
     },
     "299": {
-      "name": "Hydro Cannon"
+      "name": "Hydro Cannon",
+      "type": "Water"
     },
     "300": {
-      "name": "Last Resort"
+      "name": "Last Resort",
+      "type": "Normal"
     },
     "301": {
-      "name": "Meteor Mash"
+      "name": "Meteor Mash",
+      "type": "Steel"
     },
     "302": {
-      "name": "Skull Bash"
+      "name": "Skull Bash",
+      "type": "Normal"
     },
     "303": {
-      "name": "Acid Spray"
+      "name": "Acid Spray",
+      "type": "Poison"
     },
     "304": {
-      "name": "Earth Power"
+      "name": "Earth Power",
+      "type": "Ground"
     },
     "305": {
-      "name": "Crabhammer"
+      "name": "Crabhammer",
+      "type": "Water"
     },
     "306": {
-      "name": "Lunge"
+      "name": "Lunge",
+      "type": "Bug"
     },
     "308": {
-      "name": "Octazooka"
+      "name": "Octazooka",
+      "type": "Water"
     },
     "309": {
-      "name": "Mirror Shot"
+      "name": "Mirror Shot",
+      "type": "Steel"
     },
     "310": {
-      "name": "Superpower"
+      "name": "Superpower",
+      "type": "Fighting"
     },
     "311": {
-      "name": "Fell Stinger"
+      "name": "Fell Stinger",
+      "type": "Bug"
     },
     "312": {
-      "name": "Leaf Tornado"
+      "name": "Leaf Tornado",
+      "type": "Grass"
     },
     "315": {
-      "name": "Shadow Bone"
+      "name": "Shadow Bone",
+      "type": "Ghost"
     },
     "316": {
-      "name": "Muddy Water"
+      "name": "Muddy Water",
+      "type": "Water"
     },
     "317": {
-      "name": "Blaze Kick"
+      "name": "Blaze Kick",
+      "type": "Fire"
     },
     "319": {
-      "name": "Power-Up Punch"
+      "name": "Power-Up Punch",
+      "type": "Fighting"
     },
     "320": {
-      "name": "Charm"
+      "name": "Charm",
+      "type": "Fairy"
     },
     "321": {
-      "name": "Giga Impact"
+      "name": "Giga Impact",
+      "type": "Normal"
     },
     "322": {
-      "name": "Frustration"
+      "name": "Frustration",
+      "type": "Normal"
     },
     "323": {
-      "name": "Return"
+      "name": "Return",
+      "type": "Normal"
     },
     "324": {
-      "name": "Synchronoise"
+      "name": "Synchronoise",
+      "type": "Psychic"
     },
     "325": {
-      "name": "Lock-On"
+      "name": "Lock-On",
+      "type": "Normal"
     },
     "326": {
-      "name": "Thunder Fang"
+      "name": "Thunder Fang",
+      "type": "Electric"
     },
     "327": {
-      "name": "Ice Fang"
+      "name": "Ice Fang",
+      "type": "Ice"
     },
     "330": {
-      "name": "Sacred Sword"
+      "name": "Sacred Sword",
+      "type": "Fighting"
     },
     "331": {
-      "name": "Flying Press"
+      "name": "Flying Press",
+      "type": "Fighting"
     },
     "332": {
-      "name": "Aura Sphere"
+      "name": "Aura Sphere",
+      "type": "Fighting"
     },
     "333": {
-      "name": "Payback"
+      "name": "Payback",
+      "type": "Dark"
     },
     "334": {
-      "name": "Rock Wrecker"
+      "name": "Rock Wrecker",
+      "type": "Rock"
     },
     "335": {
-      "name": "Aeroblast"
+      "name": "Aeroblast",
+      "type": "Flying"
     },
     "336": {
-      "name": "Techno Blast"
+      "name": "Techno Blast",
+      "type": "Normal"
     },
     "337": {
-      "name": "Techno Blast"
+      "name": "Techno Blast",
+      "type": "Fire"
     },
     "338": {
-      "name": "Techno Blast"
+      "name": "Techno Blast",
+      "type": "Ice"
     },
     "339": {
-      "name": "Techno Blast"
+      "name": "Techno Blast",
+      "type": "Water"
     },
     "340": {
-      "name": "Techno Blast"
+      "name": "Techno Blast",
+      "type": "Electric"
     },
     "341": {
-      "name": "Fly"
+      "name": "Fly",
+      "type": "Flying"
     },
     "342": {
-      "name": "V-create"
+      "name": "V-create",
+      "type": "Fire"
     },
     "343": {
-      "name": "Leaf Storm"
+      "name": "Leaf Storm",
+      "type": "Grass"
     },
     "344": {
-      "name": "Tri Attack"
+      "name": "Tri Attack",
+      "type": "Normal"
     },
     "345": {
-      "name": "Gust"
+      "name": "Gust",
+      "type": "Flying"
     },
     "346": {
-      "name": "Incinerate"
+      "name": "Incinerate",
+      "type": "Fire"
     },
     "348": {
-      "name": "Feather Dance"
+      "name": "Feather Dance",
+      "type": "Flying"
     },
     "352": {
-      "name": "Weather Ball Normal"
+      "name": "Weather Ball Normal",
+      "type": "Normal"
     }
   },
   "questTypes": {
