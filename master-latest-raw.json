@@ -23912,7 +23912,8 @@
       "chargedMoves": [
         107,
         40,
-        22
+        22,
+        318
       ],
       "family": 501,
       "fleeRate": 0.05,
@@ -58054,6 +58055,13 @@
       "category": "Food",
       "minTrainerLevel": 20
     },
+    "709": {
+      "itemId": 709,
+      "itemName": "Poffin",
+      "proto": "ITEM_POFFIN",
+      "type": "Food",
+      "category": "Buddy Exclusive Food"
+    },
     "801": {
       "itemId": 801,
       "itemName": "Special Camera",
@@ -58293,6 +58301,20 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "minTrainerLevel": 8
+    },
+    "1600": {
+      "itemId": 1600,
+      "itemName": "Global Event Ticket",
+      "proto": "ITEM_GLOBAL_EVENT_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1601": {
+      "itemId": 1601,
+      "itemName": "Event Ticket Pink",
+      "proto": "ITEM_EVENT_TICKET_PINK",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -59996,7 +60018,9 @@
     "318": {
       "moveId": 318,
       "moveName": "Razor Shell",
-      "proto": "RAZOR_SHELL"
+      "proto": "RAZOR_SHELL",
+      "type": 11,
+      "power": 35
     },
     "319": {
       "moveId": 319,

@@ -30418,7 +30418,8 @@
       "charged_moves": [
         "Hydro Pump",
         "Blizzard",
-        "Megahorn"
+        "Megahorn",
+        "Razor Shell"
       ],
       "family": 501,
       "flee_rate": 0.05,
@@ -48056,6 +48057,12 @@
       "category": "Food",
       "min_trainer_level": 20
     },
+    "709": {
+      "name": "Poffin",
+      "proto": "ITEM_POFFIN",
+      "type": "Food",
+      "category": "Buddy Exclusive Food"
+    },
     "801": {
       "name": "Special Camera",
       "proto": "ITEM_SPECIAL_CAMERA",
@@ -48265,6 +48272,18 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "min_trainer_level": 8
+    },
+    "1600": {
+      "name": "Global Event Ticket",
+      "proto": "ITEM_GLOBAL_EVENT_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1601": {
+      "name": "Event Ticket Pink",
+      "proto": "ITEM_EVENT_TICKET_PINK",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -49711,7 +49730,9 @@
     },
     "318": {
       "name": "Razor Shell",
-      "proto": "RAZOR_SHELL"
+      "proto": "RAZOR_SHELL",
+      "type": "Water",
+      "power": 35
     },
     "319": {
       "name": "Power Up Punch",

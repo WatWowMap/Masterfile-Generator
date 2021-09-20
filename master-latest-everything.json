@@ -59607,6 +59607,13 @@
           "proto": "HYDRO_PUMP",
           "type": 11,
           "power": 130
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "family": 501,
@@ -114241,6 +114248,13 @@
       "category": "Food",
       "minTrainerLevel": 20
     },
+    "709": {
+      "id": 709,
+      "name": "Poffin",
+      "proto": "ITEM_POFFIN",
+      "type": "Food",
+      "category": "Buddy Exclusive Food"
+    },
     "801": {
       "id": 801,
       "name": "Camera",
@@ -114480,6 +114494,20 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "minTrainerLevel": 8
+    },
+    "1600": {
+      "id": 1600,
+      "name": "Ticket",
+      "proto": "ITEM_GLOBAL_EVENT_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1601": {
+      "id": 1601,
+      "name": "Ticket",
+      "proto": "ITEM_EVENT_TICKET_PINK",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -115973,7 +116001,8 @@
     "318": {
       "id": 318,
       "name": "Razor Shell",
-      "proto": "RAZOR_SHELL"
+      "proto": "RAZOR_SHELL",
+      "power": 35
     },
     "319": {
       "id": 319,
