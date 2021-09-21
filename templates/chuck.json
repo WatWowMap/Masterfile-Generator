@@ -1,0 +1,71 @@
+{
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "pokedexId",
+        "forms": "formId",
+        "tempEvolutions": "tempEvoId"
+      },
+      "customFields": {
+        "evoId": "pokemon",
+        "formId": "form"
+      },
+      "snake_case": true,
+      "includeProtos": true,
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      }
+    },
+    "template": {
+      "forms": {
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "tempEvolutions": {},
+        "types": "typeId",
+        "evolutions": {
+          "evoId": true,
+          "formId": true,
+          "genderRequirement": true
+        },
+        "little": true
+      },
+      "evolutions": {
+        "evoId": true,
+        "formId": true,
+        "genderRequirement": true
+      },
+      "tempEvolutions": {
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "unreleased": true
+      },
+      "attack": true,
+      "defense": true,
+      "stamina": true,
+      "little": true,
+      "types": "typeId"
+    }
+  },
+  "costumes": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": "noEvolve"
+  },
+  "weather": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "weatherId"
+      }
+    },
+    "template": "types"
+  }
+}
