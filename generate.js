@@ -9,6 +9,7 @@ const basics = require('./templates/basics.json')
 const reactMap = require('./templates/reactMap.json')
 const rdmopole2 = require('./templates/rdmopole2.json')
 const everything = require('./templates/everything.json')
+const chuck = require('./templates/chuck.json')
 
 const fetch = async (url) => {
   return new Promise(resolve => {
@@ -28,6 +29,7 @@ module.exports.generate = async function update() {
   const reactMapData = await generate({ template: reactMap })
   const rdmopole2Data = await generate({ template: rdmopole2 })
   const everythingData = await generate({ template: everything })
+  const chuckData = await generate({ template: chuck })
 
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
@@ -53,4 +55,5 @@ module.exports.generate = async function update() {
   fs.writeFile('./master-latest-react-map.json', JSON.stringify(reactMapData, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-rdmopole2.json', JSON.stringify(rdmopole2Data, null, 2), 'utf8', () => { })
   fs.writeFile('./master-latest-everything.json', JSON.stringify(everythingData, null, 2), 'utf8', () => { })
+  fs.writeFile('./master-latest-chuck.json', JSON.stringify(chuckData, null, 2), 'utf8', () => { })
 }
