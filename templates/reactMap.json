@@ -131,7 +131,10 @@
       "gender": true,
       "grunt": true,
       "secondReward": true,
-      "encounters": "id"
+      "encounters": {
+        "id": true,
+        "formId": true
+      }
     }
   }
 }
