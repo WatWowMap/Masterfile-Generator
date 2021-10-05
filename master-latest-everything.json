@@ -42216,7 +42216,7 @@
             },
             "352": {
               "moveId": 352,
-              "moveName": "Weather Ball Normal",
+              "moveName": "Weather Ball",
               "proto": "WEATHER_BALL_NORMAL",
               "type": 1,
               "power": 55
@@ -93862,13 +93862,12 @@
       },
       "family": 893,
       "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
+        "captureRate": 0.1
       },
       "legendary": false,
       "mythic": true,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
@@ -116222,7 +116221,7 @@
     },
     "352": {
       "id": 352,
-      "name": "Weather Ball Normal",
+      "name": "Weather Ball",
       "proto": "WEATHER_BALL_NORMAL",
       "power": 55
     }
@@ -116849,30 +116848,30 @@
         ],
         "second": [
           {
-            "id": 62,
-            "formId": 242
+            "id": 282,
+            "formId": 299
           },
           {
             "id": 143,
             "formId": 200
           },
           {
-            "id": 282,
-            "formId": 299
+            "id": 62,
+            "formId": 242
           }
         ],
         "third": [
           {
-            "id": 143,
-            "formId": 200
+            "id": 149,
+            "formId": 197
           },
           {
             "id": 130,
             "formId": 257
           },
           {
-            "id": 149,
-            "formId": 197
+            "id": 143,
+            "formId": 200
           }
         ]
       }
@@ -116894,37 +116893,33 @@
       "encounters": {
         "first": [
           {
-            "id": 451,
-            "formId": 1797
-          },
-          {
             "id": 347,
             "formId": 1575
           },
           {
             "id": 213,
             "formId": 828
+          },
+          {
+            "id": 451,
+            "formId": 1797
           }
         ],
         "second": [
           {
-            "id": 127,
-            "formId": 899
+            "id": 212,
+            "formId": 251
           },
           {
             "id": 49,
             "formId": 263
           },
           {
-            "id": 212,
-            "formId": 251
+            "id": 127,
+            "formId": 899
           }
         ],
         "third": [
-          {
-            "id": 212,
-            "formId": 251
-          },
           {
             "id": 15,
             "formId": 623
@@ -116932,6 +116927,10 @@
           {
             "id": 123,
             "formId": 248
+          },
+          {
+            "id": 212,
+            "formId": 251
           }
         ]
       }
@@ -116961,22 +116960,22 @@
       "encounters": {
         "first": [
           {
-            "id": 261,
-            "formId": 1368
-          },
-          {
             "id": 198,
             "formId": 856
+          },
+          {
+            "id": 261,
+            "formId": 1368
           }
         ],
         "second": [
           {
-            "id": 302,
-            "formId": 924
-          },
-          {
             "id": 262,
             "formId": 1371
+          },
+          {
+            "id": 302,
+            "formId": 924
           }
         ],
         "third": [
@@ -117024,16 +117023,16 @@
         ],
         "third": [
           {
-            "id": 149,
-            "formId": 197
+            "id": 148,
+            "formId": 194
           },
           {
             "id": 330,
             "formId": 753
           },
           {
-            "id": 148,
-            "formId": 194
+            "id": 149,
+            "formId": 197
           }
         ]
       }
@@ -117061,12 +117060,12 @@
         ],
         "second": [
           {
-            "id": 209,
-            "formId": 1254
-          },
-          {
             "id": 210,
             "formId": 1257
+          },
+          {
+            "id": 209,
+            "formId": 1254
           }
         ],
         "third": [
@@ -117110,12 +117109,12 @@
         ],
         "third": [
           {
-            "id": 106,
-            "formId": 714
-          },
-          {
             "id": 107,
             "formId": 278
+          },
+          {
+            "id": 106,
+            "formId": 714
           },
           {
             "id": 297,
@@ -117141,22 +117140,22 @@
       "encounters": {
         "first": [
           {
-            "id": 37,
-            "formId": 725
-          },
-          {
             "id": 228,
             "formId": 230
+          },
+          {
+            "id": 37,
+            "formId": 725
           }
         ],
         "second": [
           {
-            "id": 38,
-            "formId": 727
-          },
-          {
             "id": 229,
             "formId": 233
+          },
+          {
+            "id": 38,
+            "formId": 727
           },
           {
             "id": 126,
@@ -117165,16 +117164,16 @@
         ],
         "third": [
           {
-            "id": 38,
-            "formId": 727
-          },
-          {
             "id": 5,
             "formId": 176
           },
           {
             "id": 59,
             "formId": 284
+          },
+          {
+            "id": 38,
+            "formId": 727
           }
         ]
       }
@@ -117196,12 +117195,12 @@
       "encounters": {
         "first": [
           {
-            "id": 396,
-            "formId": 1659
-          },
-          {
             "id": 41,
             "formId": 158
+          },
+          {
+            "id": 396,
+            "formId": 1659
           }
         ],
         "second": [
@@ -117216,16 +117215,16 @@
         ],
         "third": [
           {
-            "id": 130,
-            "formId": 257
+            "id": 149,
+            "formId": 197
           },
           {
             "id": 169,
             "formId": 203
           },
           {
-            "id": 149,
-            "formId": 197
+            "id": 130,
+            "formId": 257
           }
         ]
       }
@@ -117255,12 +117254,12 @@
       "encounters": {
         "first": [
           {
-            "id": 43,
-            "formId": 266
-          },
-          {
             "id": 187,
             "formId": 1206
+          },
+          {
+            "id": 43,
+            "formId": 266
           },
           {
             "id": 114,
@@ -117273,22 +117272,22 @@
             "formId": 269
           },
           {
-            "id": 188,
-            "formId": 1209
-          },
-          {
             "id": 114,
             "formId": 1060
+          },
+          {
+            "id": 188,
+            "formId": 1209
           }
         ],
         "third": [
           {
-            "id": 275,
-            "formId": 632
-          },
-          {
             "id": 45,
             "formId": 272
+          },
+          {
+            "id": 275,
+            "formId": 632
           },
           {
             "id": 71,
@@ -117314,12 +117313,12 @@
       "encounters": {
         "first": [
           {
-            "id": 220,
-            "formId": 1278
-          },
-          {
             "id": 50,
             "formId": 842
+          },
+          {
+            "id": 220,
+            "formId": 1278
           }
         ],
         "second": [
@@ -117328,22 +117327,22 @@
             "formId": 227
           },
           {
-            "id": 247,
-            "formId": 317
-          },
-          {
             "id": 329,
             "formId": 750
+          },
+          {
+            "id": 247,
+            "formId": 317
           }
         ],
         "third": [
           {
-            "id": 472,
-            "formId": 807
-          },
-          {
             "id": 330,
             "formId": 753
+          },
+          {
+            "id": 472,
+            "formId": 807
           }
         ]
       }
@@ -117357,12 +117356,12 @@
       "encounters": {
         "first": [
           {
-            "id": 363,
-            "formId": 1599
-          },
-          {
             "id": 459,
             "formId": 933
+          },
+          {
+            "id": 363,
+            "formId": 1599
           }
         ],
         "second": [
@@ -117381,12 +117380,12 @@
         ],
         "third": [
           {
-            "id": 131,
-            "formId": 323
-          },
-          {
             "id": 460,
             "formId": 936
+          },
+          {
+            "id": 131,
+            "formId": 323
           },
           {
             "id": 91,
@@ -117442,22 +117441,22 @@
         ],
         "second": [
           {
-            "id": 20,
-            "formId": 155
-          },
-          {
             "id": 233,
             "formId": 681
+          },
+          {
+            "id": 20,
+            "formId": 155
           }
         ],
         "third": [
           {
-            "id": 474,
-            "formId": 684
-          },
-          {
             "id": 143,
             "formId": 200
+          },
+          {
+            "id": 474,
+            "formId": 684
           }
         ]
       }
@@ -117471,16 +117470,16 @@
       "encounters": {
         "first": [
           {
-            "id": 451,
-            "formId": 1797
+            "id": 29,
+            "formId": 777
           },
           {
             "id": 32,
             "formId": 777
           },
           {
-            "id": 29,
-            "formId": 777
+            "id": 451,
+            "formId": 1797
           }
         ],
         "second": [
@@ -117499,12 +117498,12 @@
             "formId": 780
           },
           {
-            "id": 110,
-            "formId": 707
-          },
-          {
             "id": 89,
             "formId": 222
+          },
+          {
+            "id": 110,
+            "formId": 707
           }
         ]
       }
@@ -117534,12 +117533,12 @@
       "encounters": {
         "first": [
           {
-            "id": 202,
-            "formId": 686
-          },
-          {
             "id": 102,
             "formId": 730
+          },
+          {
+            "id": 202,
+            "formId": 686
           },
           {
             "id": 79,
@@ -117548,19 +117547,15 @@
         ],
         "second": [
           {
-            "id": 64,
-            "formId": 308
-          },
-          {
             "id": 96,
             "formId": 215
+          },
+          {
+            "id": 64,
+            "formId": 308
           }
         ],
         "third": [
-          {
-            "id": 103,
-            "formId": 732
-          },
           {
             "id": 97,
             "formId": 218
@@ -117568,6 +117563,10 @@
           {
             "id": 281,
             "formId": 296
+          },
+          {
+            "id": 103,
+            "formId": 732
           }
         ]
       }
@@ -117599,12 +117598,12 @@
         ],
         "second": [
           {
-            "id": 305,
-            "formId": 1473
-          },
-          {
             "id": 246,
             "formId": 314
+          },
+          {
+            "id": 305,
+            "formId": 1473
           },
           {
             "id": 247,
@@ -117632,36 +117631,36 @@
       "encounters": {
         "first": [
           {
+            "id": 116,
+            "formId": 1063
+          },
+          {
             "id": 60,
             "formId": 236
           },
           {
             "id": 363,
             "formId": 1599
-          },
-          {
-            "id": 116,
-            "formId": 1063
           }
         ],
         "second": [
           {
-            "id": 195,
-            "formId": 1230
-          },
-          {
             "id": 259,
             "formId": 209
+          },
+          {
+            "id": 195,
+            "formId": 1230
           }
         ],
         "third": [
           {
-            "id": 186,
-            "formId": 245
-          },
-          {
             "id": 62,
             "formId": 242
+          },
+          {
+            "id": 186,
+            "formId": 245
           }
         ]
       }
@@ -117719,16 +117718,16 @@
         ],
         "second": [
           {
+            "id": 99,
+            "formId": 874
+          },
+          {
             "id": 297,
             "formId": 1455
           },
           {
             "id": 62,
             "formId": 242
-          },
-          {
-            "id": 99,
-            "formId": 874
           }
         ],
         "third": [
@@ -117737,12 +117736,12 @@
             "formId": 320
           },
           {
-            "id": 319,
-            "formId": 738
-          },
-          {
             "id": 389,
             "formId": 695
+          },
+          {
+            "id": 319,
+            "formId": 738
           }
         ]
       }
@@ -117766,22 +117765,22 @@
             "formId": 1488
           },
           {
-            "id": 217,
-            "formId": 1269
-          },
-          {
             "id": 169,
             "formId": 203
+          },
+          {
+            "id": 217,
+            "formId": 1269
           }
         ],
         "third": [
           {
-            "id": 212,
-            "formId": 251
-          },
-          {
             "id": 462,
             "formId": 662
+          },
+          {
+            "id": 212,
+            "formId": 251
           },
           {
             "id": 45,
@@ -117874,36 +117873,36 @@
       "encounters": {
         "first": [
           {
-            "id": 353,
-            "formId": 909
+            "id": 200,
+            "formId": 720
           },
           {
             "id": 355,
             "formId": 915
           },
           {
-            "id": 200,
-            "formId": 720
+            "id": 353,
+            "formId": 909
           }
         ],
         "second": [
           {
-            "id": 354,
-            "formId": 912
-          },
-          {
             "id": 356,
             "formId": 918
+          },
+          {
+            "id": 354,
+            "formId": 912
           }
         ],
         "third": [
           {
-            "id": 477,
-            "formId": 921
-          },
-          {
             "id": 354,
             "formId": 912
+          },
+          {
+            "id": 477,
+            "formId": 921
           },
           {
             "id": 302,
@@ -117921,36 +117920,36 @@
       "encounters": {
         "first": [
           {
-            "id": 309,
-            "formId": 1485
+            "id": 125,
+            "formId": 641
           },
           {
             "id": 179,
             "formId": 647
           },
           {
-            "id": 125,
-            "formId": 641
+            "id": 309,
+            "formId": 1485
           }
         ],
         "second": [
           {
-            "id": 180,
-            "formId": 650
-          },
-          {
             "id": 125,
             "formId": 641
+          },
+          {
+            "id": 180,
+            "formId": 650
           }
         ],
         "third": [
           {
-            "id": 181,
-            "formId": 653
-          },
-          {
             "id": 125,
             "formId": 641
+          },
+          {
+            "id": 181,
+            "formId": 653
           }
         ]
       }
@@ -117969,7 +117968,26 @@
       "gender": 2,
       "grunt": "Gruntb",
       "secondReward": false,
-      "encounters": {}
+      "encounters": {
+        "first": [
+          {
+            "id": 123,
+            "formId": 248
+          }
+        ],
+        "second": [
+          {
+            "id": 23,
+            "formId": 698
+          }
+        ],
+        "third": [
+          {
+            "id": 234,
+            "formId": 942
+          }
+        ]
+      }
     },
     "54": {
       "id": 54,
@@ -117977,7 +117995,26 @@
       "gender": 1,
       "grunt": "Gruntb",
       "secondReward": false,
-      "encounters": {}
+      "encounters": {
+        "first": [
+          {
+            "id": 127,
+            "formId": 899
+          }
+        ],
+        "second": [
+          {
+            "id": 109,
+            "formId": 704
+          }
+        ],
+        "third": [
+          {
+            "id": 88,
+            "formId": 220
+          }
+        ]
+      }
     },
     "500": {
       "id": 500,
