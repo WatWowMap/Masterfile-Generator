@@ -5,6 +5,12 @@
   },
   "moves": {
     "enabled": true,
+    "options": {
+      "keys": {
+        "main": "moveId"
+      },
+      "includeProtos": true
+    },
     "template": "moveName"
   }
 }
