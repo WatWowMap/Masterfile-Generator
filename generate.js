@@ -2,58 +2,65 @@ const fs = require('fs')
 const Fetch = require('node-fetch')
 const { generate } = require('pogo-data-generator')
 
-const primary = require('./templates/primary.json')
-const raw = require('./templates/raw.json')
-const poracle = require('./templates/poracle.json')
-const basics = require('./templates/basics.json')
-const reactMap = require('./templates/reactMap.json')
-const rdmopole2 = require('./templates/rdmopole2.json')
-const everything = require('./templates/everything.json')
-const chuck = require('./templates/chuck.json')
-
 const fetch = async (url) => {
-  return new Promise(resolve => {
-    Fetch(url)
-      .then(res => res.json())
-      .then(json => {
-        return resolve(json)
-      })
-  })
+  try {
+    const data = await Fetch(url)
+    if (!data.ok) {
+      throw new Error(`${data.status} ${data.statusText} URL: ${url}`)
+    }
+    return await data.json()
+  } catch (e) {
+    console.error(e, `Unable to fetch ${url}`)
+  }
 }
 
 module.exports.generate = async function update() {
-  const data = await generate({ template: primary })
-  const rawData = await generate({ template: raw, raw: true })
-  const poracleData = await generate({ template: poracle })
-  const basicData = await generate({ template: basics })
-  const reactMapData = await generate({ template: reactMap })
-  const rdmopole2Data = await generate({ template: rdmopole2 })
-  const everythingData = await generate({ template: everything })
-  const chuckData = await generate({ template: chuck })
-
+  const templates = await fs.promises.readdir('./templates')
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
-  const mergedQuestTypes = {}
-  Object.keys(poracleData.questTypes).forEach((key) => {
-    mergedQuestTypes[key] = pmsfQuestTypes[key] && pmsfQuestTypes[key].text.includes('{')
-      ? pmsfQuestTypes[key]
-      : poracleData.questTypes[key]
-  })
+  const today = new Date()
+  const formatted = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`
+  let exists = false
+  try {
+    fs.mkdirSync(`./previous-versions/${formatted}`)
+    console.log(`${formatted} folder created`)
+  } catch (e) {
+    exists = true
+  }
 
-  data.type_ids = reactMapData.types
-  data.quest_types = mergedQuestTypes
-  data.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
+  await Promise.all(templates.map(async templateName => {
+    if (!exists) {
+      try {
+        fs.writeFileSync(`./previous-versions/${formatted}/${templateName}`, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
+      } catch (e) {
+        console.warn(`Previous version of ${templateName} does not exist`)
+      }
+    }
+    try {
+      const template = JSON.parse(fs.readFileSync(`./templates/${templateName}`, 'utf8'))
+      if (templateName === 'master-latest-rdmopole2.json') debugger
+      const newData = await generate({ template, raw: templateName === 'master-latest-raw.json' })
 
-  poracleData.questTypes = mergedQuestTypes
-  delete poracleData.translations
-  delete everythingData.translations
-  
-  fs.writeFile('./master-latest.json', JSON.stringify(data, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-raw.json', JSON.stringify(rawData, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-poracle.json', JSON.stringify(poracleData, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-basics.json', JSON.stringify(basicData, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-react-map.json', JSON.stringify(reactMapData, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-rdmopole2.json', JSON.stringify(rdmopole2Data, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-everything.json', JSON.stringify(everythingData, null, 2), 'utf8', () => { })
-  fs.writeFile('./master-latest-chuck.json', JSON.stringify(chuckData, null, 2), 'utf8', () => { })
+      if (templateName === 'master-latest-poracle.json' || templateName === 'master-latest.json') {
+        const mergedQuestTypes = {}
+        const questKey = templateName === 'master-latest-poracle.json' ? 'questTypes' : 'quest_types'
+        Object.keys(newData[questKey]).forEach((key) => {
+          mergedQuestTypes[key] = pmsfQuestTypes[key] && pmsfQuestTypes[key].text.includes('{')
+            ? pmsfQuestTypes[key]
+            : newData[questKey][key]
+        })
+        newData[questKey] = mergedQuestTypes
+        if (templateName === 'master-latest.json') {
+          newData.type_ids = JSON.parse(fs.readFileSync('./master-latest-react-map.json')).types
+          newData.throw_types = { 10: "Nice", 11: "Great", 12: "Excellent", 13: "Curveball" }
+        }
+      }
+      if (templateName === 'master-latest-poracle.json' || templateName === 'master-latest-everything.json') {
+        delete newData.translations
+      }
+      fs.writeFileSync(`./${templateName}`, JSON.stringify(newData, null, 2), 'utf8', () => { })
+    } catch (e) {
+      console.error(e, `Unable to process ${templateName}`)
+    }
+  }))
 }

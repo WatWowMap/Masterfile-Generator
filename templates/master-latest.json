@@ -176,6 +176,21 @@
       "formatted": true
     }
   },
+  "questTypes": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      },
+      "customFields": {
+        "formatted": "text"
+      },
+      "topLevelName": "quest_types"
+    },
+    "template": {
+      "formatted": true
+    }
+  },
   "invasions": {
     "enabled": true,
     "options": {
