@@ -20876,7 +20876,7 @@
       "attack": 246,
       "defense": 120,
       "stamina": 163,
-      "height": 1.2,
+      "height": 1.19,
       "weight": 47,
       "quick_moves": [
         "Psycho Cut",
@@ -20903,7 +20903,7 @@
           "attack": 314,
           "defense": 130,
           "stamina": 163,
-          "weight": 49
+          "unreleased": true
         }
       }
     },
@@ -39438,65 +39438,30 @@
       "forms": {
         "2641": {
           "name": "Small",
-          "proto": "PUMPKABOO_SMALL",
-          "evolutions": [
-            {
-              "pokemon": 711
-            }
-          ]
+          "proto": "PUMPKABOO_SMALL"
         },
         "2642": {
           "name": "Average",
-          "proto": "PUMPKABOO_AVERAGE",
-          "attack": 121,
-          "defense": 123,
-          "stamina": 135,
-          "height": 0.4,
-          "weight": 5,
-          "evolutions": [
-            {
-              "pokemon": 711
-            }
-          ]
+          "proto": "PUMPKABOO_AVERAGE"
         },
         "2643": {
           "name": "Large",
-          "proto": "PUMPKABOO_LARGE",
-          "attack": 120,
-          "defense": 122,
-          "stamina": 144,
-          "height": 0.5,
-          "weight": 7.5,
-          "evolutions": [
-            {
-              "pokemon": 711
-            }
-          ]
+          "proto": "PUMPKABOO_LARGE"
         },
         "2644": {
           "name": "Super",
-          "proto": "PUMPKABOO_SUPER",
-          "attack": 118,
-          "defense": 120,
-          "stamina": 153,
-          "height": 0.8,
-          "weight": 15,
-          "evolutions": [
-            {
-              "pokemon": 711
-            }
-          ]
+          "proto": "PUMPKABOO_SUPER"
         }
       },
       "types": [
         "Ghost",
         "Grass"
       ],
-      "attack": 122,
-      "defense": 124,
-      "stamina": 127,
-      "height": 0.3,
-      "weight": 3.5,
+      "attack": 121,
+      "defense": 123,
+      "stamina": 135,
+      "height": 0.4,
+      "weight": 5,
       "quick_moves": [
         "Astonish",
         "Razor Leaf"
@@ -39504,18 +39469,17 @@
       "charged_moves": [
         "Grass Knot",
         "Shadow Sneak",
-        "Foul Play"
+        "Foul Play",
+        "Earthquake"
       ],
       "family": 710,
       "flee_rate": 0.1,
-      "capture_rate": 0.3,
+      "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 711
@@ -39536,41 +39500,26 @@
         },
         "2646": {
           "name": "Average",
-          "proto": "GOURGEIST_AVERAGE",
-          "attack": 175,
-          "defense": 213,
-          "stamina": 163,
-          "height": 0.9,
-          "weight": 12.5
+          "proto": "GOURGEIST_AVERAGE"
         },
         "2647": {
           "name": "Large",
-          "proto": "GOURGEIST_LARGE",
-          "attack": 179,
-          "defense": 206,
-          "stamina": 181,
-          "height": 1.1,
-          "weight": 14
+          "proto": "GOURGEIST_LARGE"
         },
         "2648": {
           "name": "Super",
-          "proto": "GOURGEIST_SUPER",
-          "attack": 182,
-          "defense": 200,
-          "stamina": 198,
-          "height": 1.7,
-          "weight": 39
+          "proto": "GOURGEIST_SUPER"
         }
       },
       "types": [
         "Ghost",
         "Grass"
       ],
-      "attack": 171,
-      "defense": 219,
-      "stamina": 146,
-      "height": 0.7,
-      "weight": 9.5,
+      "attack": 175,
+      "defense": 213,
+      "stamina": 163,
+      "height": 0.9,
+      "weight": 12.5,
       "quick_moves": [
         "Hex",
         "Razor Leaf"
@@ -39582,15 +39531,13 @@
         "Fire Blast"
       ],
       "family": 710,
-      "flee_rate": 0.06,
-      "capture_rate": 0.125,
+      "flee_rate": 0.1,
+      "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
-      "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "third_move_candy": 75
     },
     "712": {
       "name": "Bergmite",
@@ -48903,8 +48850,8 @@
         ],
         "second": [
           127,
-          212,
-          49
+          49,
+          212
         ],
         "third": [
           15,
@@ -49078,8 +49025,8 @@
         ],
         "third": [
           169,
-          130,
-          149
+          149,
+          130
         ]
       }
     },
@@ -49109,8 +49056,8 @@
           114
         ],
         "second": [
-          44,
           114,
+          44,
           188
         ],
         "third": [
@@ -49138,13 +49085,13 @@
           50
         ],
         "second": [
-          105,
           329,
+          105,
           247
         ],
         "third": [
-          472,
-          330
+          330,
+          472
         ]
       }
     },
@@ -49261,8 +49208,8 @@
       "encounters": {
         "first": [
           202,
-          79,
-          102
+          102,
+          79
         ],
         "second": [
           64,
@@ -49289,8 +49236,8 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          299,
-          304
+          304,
+          299
         ],
         "second": [
           305,
@@ -49311,16 +49258,16 @@
       "encounters": {
         "first": [
           60,
-          363,
-          116
+          116,
+          363
         ],
         "second": [
-          195,
-          259
+          259,
+          195
         ],
         "third": [
-          62,
-          186
+          186,
+          62
         ]
       }
     },
@@ -49358,14 +49305,14 @@
           273
         ],
         "second": [
-          297,
           62,
+          297,
           99
         ],
         "third": [
           248,
-          319,
-          389
+          389,
+          319
         ]
       }
     },
@@ -49379,8 +49326,8 @@
           48
         ],
         "second": [
-          310,
           217,
+          310,
           169
         ],
         "third": [
@@ -49400,9 +49347,9 @@
           215
         ],
         "second": [
+          181,
           210,
-          472,
-          181
+          472
         ],
         "third": [
           229,
@@ -49446,8 +49393,8 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          353,
           200,
+          353,
           355
         ],
         "second": [
@@ -49456,8 +49403,8 @@
         ],
         "third": [
           354,
-          477,
-          302
+          302,
+          477
         ]
       }
     },

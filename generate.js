@@ -38,7 +38,6 @@ module.exports.generate = async function update() {
     }
     try {
       const template = JSON.parse(fs.readFileSync(`./templates/${templateName}`, 'utf8'))
-      if (templateName === 'master-latest-rdmopole2.json') debugger
       const newData = await generate({ template, raw: templateName === 'master-latest-raw.json' })
 
       if (templateName === 'master-latest-poracle.json' || templateName === 'master-latest.json') {

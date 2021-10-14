@@ -17242,7 +17242,7 @@
       "attack": 246,
       "defense": 120,
       "stamina": 163,
-      "height": 1.2,
+      "height": 1.19,
       "weight": 47,
       "quickMoves": [
         226,
@@ -17261,7 +17261,6 @@
       "mythic": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -17274,15 +17273,6 @@
           "defense": 130,
           "stamina": 163,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 314,
-          "defense": 130,
-          "stamina": 163,
-          "weight": 49,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -33354,20 +33344,20 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": [
+        2641,
         2642,
         2643,
-        2641,
         2644
       ],
       "types": [
         8,
         12
       ],
-      "attack": 122,
-      "defense": 124,
-      "stamina": 127,
-      "height": 0.3,
-      "weight": 3.5,
+      "attack": 121,
+      "defense": 123,
+      "stamina": 135,
+      "height": 0.4,
+      "weight": 5,
       "quickMoves": [
         263,
         215
@@ -33375,18 +33365,17 @@
       "chargedMoves": [
         272,
         66,
-        280
+        280,
+        31
       ],
       "family": 710,
       "fleeRate": 0.1,
-      "captureRate": 0.3,
+      "captureRate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
       "evolutions": [
@@ -33404,20 +33393,20 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": [
+        2645,
         2646,
         2647,
-        2645,
         2648
       ],
       "types": [
         8,
         12
       ],
-      "attack": 171,
-      "defense": 219,
-      "stamina": 146,
-      "height": 0.7,
-      "weight": 9.5,
+      "attack": 175,
+      "defense": 213,
+      "stamina": 163,
+      "height": 0.9,
+      "weight": 12.5,
       "quickMoves": [
         264,
         215
@@ -33429,17 +33418,15 @@
         103
       ],
       "family": 710,
-      "fleeRate": 0.06,
-      "captureRate": 0.125,
+      "fleeRate": 0.1,
+      "captureRate": 0.2,
       "bonusCandyCapture": 2,
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true
     },
@@ -44317,6 +44304,8 @@
       "formName": "Normal",
       "proto": "ABSOL_NORMAL",
       "formId": 830,
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -44324,19 +44313,8 @@
           "defense": 130,
           "stamina": 163,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 314,
-          "defense": 130,
-          "stamina": 163,
-          "weight": 49,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 5000,
-      "purificationCandy": 5
+      ]
     },
     "831": {
       "formName": "Shadow",
@@ -44354,15 +44332,6 @@
           "defense": 130,
           "stamina": 163,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 314,
-          "defense": 130,
-          "stamina": 163,
-          "weight": 49,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -53887,61 +53856,22 @@
     "2641": {
       "formName": "Small",
       "proto": "PUMPKABOO_SMALL",
-      "formId": 2641,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "candyCost": 50
-        }
-      ]
+      "formId": 2641
     },
     "2642": {
       "formName": "Average",
       "proto": "PUMPKABOO_AVERAGE",
-      "formId": 2642,
-      "attack": 121,
-      "defense": 123,
-      "stamina": 135,
-      "height": 0.4,
-      "weight": 5,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "candyCost": 50
-        }
-      ]
+      "formId": 2642
     },
     "2643": {
       "formName": "Large",
       "proto": "PUMPKABOO_LARGE",
-      "formId": 2643,
-      "attack": 120,
-      "defense": 122,
-      "stamina": 144,
-      "height": 0.5,
-      "weight": 7.5,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "candyCost": 50
-        }
-      ]
+      "formId": 2643
     },
     "2644": {
       "formName": "Super",
       "proto": "PUMPKABOO_SUPER",
-      "formId": 2644,
-      "attack": 118,
-      "defense": 120,
-      "stamina": 153,
-      "height": 0.8,
-      "weight": 15,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "candyCost": 50
-        }
-      ]
+      "formId": 2644
     },
     "2645": {
       "formName": "Small",
@@ -53951,32 +53881,17 @@
     "2646": {
       "formName": "Average",
       "proto": "GOURGEIST_AVERAGE",
-      "formId": 2646,
-      "attack": 175,
-      "defense": 213,
-      "stamina": 163,
-      "height": 0.9,
-      "weight": 12.5
+      "formId": 2646
     },
     "2647": {
       "formName": "Large",
       "proto": "GOURGEIST_LARGE",
-      "formId": 2647,
-      "attack": 179,
-      "defense": 206,
-      "stamina": 181,
-      "height": 1.1,
-      "weight": 14
+      "formId": 2647
     },
     "2648": {
       "formName": "Super",
       "proto": "GOURGEIST_SUPER",
-      "formId": 2648,
-      "attack": 182,
-      "defense": 200,
-      "stamina": 198,
-      "height": 1.7,
-      "weight": 39
+      "formId": 2648
     },
     "2649": {
       "formName": "Neutral",
@@ -57814,13 +57729,13 @@
           "position": "second"
         },
         {
-          "id": 212,
-          "formId": 250,
+          "id": 49,
+          "formId": 262,
           "position": "second"
         },
         {
-          "id": 49,
-          "formId": 262,
+          "id": 212,
+          "formId": 250,
           "position": "second"
         },
         {
@@ -58124,13 +58039,13 @@
           "position": "third"
         },
         {
-          "id": 130,
-          "formId": 256,
+          "id": 149,
+          "formId": 196,
           "position": "third"
         },
         {
-          "id": 149,
-          "formId": 196,
+          "id": 130,
+          "formId": 256,
           "position": "third"
         }
       ]
@@ -58174,13 +58089,13 @@
           "position": "first"
         },
         {
-          "id": 44,
-          "formId": 268,
+          "id": 114,
+          "formId": 1059,
           "position": "second"
         },
         {
-          "id": 114,
-          "formId": 1059,
+          "id": 44,
+          "formId": 268,
           "position": "second"
         },
         {
@@ -58231,13 +58146,13 @@
           "position": "first"
         },
         {
-          "id": 105,
-          "formId": 79,
+          "id": 329,
+          "formId": 749,
           "position": "second"
         },
         {
-          "id": 329,
-          "formId": 749,
+          "id": 105,
+          "formId": 79,
           "position": "second"
         },
         {
@@ -58246,13 +58161,13 @@
           "position": "second"
         },
         {
-          "id": 472,
-          "formId": 806,
+          "id": 330,
+          "formId": 752,
           "position": "third"
         },
         {
-          "id": 330,
-          "formId": 752,
+          "id": 472,
+          "formId": 806,
           "position": "third"
         }
       ]
@@ -58450,13 +58365,13 @@
           "position": "first"
         },
         {
-          "id": 79,
-          "formId": 1017,
+          "id": 102,
+          "formId": 729,
           "position": "first"
         },
         {
-          "id": 102,
-          "formId": 729,
+          "id": 79,
+          "formId": 1017,
           "position": "first"
         },
         {
@@ -58502,13 +58417,13 @@
       "secondReward": true,
       "encounters": [
         {
-          "id": 299,
-          "formId": 1460,
+          "id": 304,
+          "formId": 1469,
           "position": "first"
         },
         {
-          "id": 304,
-          "formId": 1469,
+          "id": 299,
+          "formId": 1460,
           "position": "first"
         },
         {
@@ -58551,19 +58466,14 @@
           "position": "first"
         },
         {
-          "id": 363,
-          "formId": 1598,
-          "position": "first"
-        },
-        {
           "id": 116,
           "formId": 1062,
           "position": "first"
         },
         {
-          "id": 195,
-          "formId": 1229,
-          "position": "second"
+          "id": 363,
+          "formId": 1598,
+          "position": "first"
         },
         {
           "id": 259,
@@ -58571,13 +58481,18 @@
           "position": "second"
         },
         {
-          "id": 62,
-          "formId": 241,
-          "position": "third"
+          "id": 195,
+          "formId": 1229,
+          "position": "second"
         },
         {
           "id": 186,
           "formId": 244,
+          "position": "third"
+        },
+        {
+          "id": 62,
+          "formId": 241,
           "position": "third"
         }
       ]
@@ -58631,13 +58546,13 @@
           "position": "first"
         },
         {
-          "id": 297,
-          "formId": 1454,
+          "id": 62,
+          "formId": 241,
           "position": "second"
         },
         {
-          "id": 62,
-          "formId": 241,
+          "id": 297,
+          "formId": 1454,
           "position": "second"
         },
         {
@@ -58651,13 +58566,13 @@
           "position": "third"
         },
         {
-          "id": 319,
-          "formId": 737,
+          "id": 389,
+          "formId": 694,
           "position": "third"
         },
         {
-          "id": 389,
-          "formId": 694,
+          "id": 319,
+          "formId": 737,
           "position": "third"
         }
       ]
@@ -58675,13 +58590,13 @@
           "position": "first"
         },
         {
-          "id": 310,
-          "formId": 1487,
+          "id": 217,
+          "formId": 1268,
           "position": "second"
         },
         {
-          "id": 217,
-          "formId": 1268,
+          "id": 310,
+          "formId": 1487,
           "position": "second"
         },
         {
@@ -58719,6 +58634,11 @@
           "position": "first"
         },
         {
+          "id": 181,
+          "formId": 652,
+          "position": "second"
+        },
+        {
           "id": 210,
           "formId": 1256,
           "position": "second"
@@ -58726,11 +58646,6 @@
         {
           "id": 472,
           "formId": 806,
-          "position": "second"
-        },
-        {
-          "id": 181,
-          "formId": 652,
           "position": "second"
         },
         {
@@ -58790,13 +58705,13 @@
       "secondReward": false,
       "encounters": [
         {
-          "id": 353,
-          "formId": 908,
+          "id": 200,
+          "formId": 719,
           "position": "first"
         },
         {
-          "id": 200,
-          "formId": 719,
+          "id": 353,
+          "formId": 908,
           "position": "first"
         },
         {
@@ -58820,13 +58735,13 @@
           "position": "third"
         },
         {
-          "id": 477,
-          "formId": 920,
+          "id": 302,
+          "formId": 923,
           "position": "third"
         },
         {
-          "id": 302,
-          "formId": 923,
+          "id": 477,
+          "formId": 920,
           "position": "third"
         }
       ]

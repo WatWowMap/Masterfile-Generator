@@ -22036,16 +22036,6 @@
             "baseStamina": 163
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 314,
-            "baseDefense": 130,
-            "baseStamina": 163
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -22078,16 +22068,6 @@
             "baseStamina": 163
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 314,
-            "baseDefense": 130,
-            "baseStamina": 163
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -41231,73 +41211,9 @@
         }
       ],
       "stats": {
-        "baseAttack": 122,
-        "baseDefense": 124,
-        "baseStamina": 127
-      },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "id": 0,
-          "candyCost": 50
-        }
-      ]
-    },
-    "710_2642": {
-      "name": "Pumpkaboo",
-      "id": 710,
-      "form": {
-        "name": "Average",
-        "id": 2642
-      },
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 12,
-          "name": "Grass"
-        }
-      ],
-      "stats": {
         "baseAttack": 121,
         "baseDefense": 123,
         "baseStamina": 135
-      },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "id": 0,
-          "candyCost": 50
-        }
-      ]
-    },
-    "710_2643": {
-      "name": "Pumpkaboo",
-      "id": 710,
-      "form": {
-        "name": "Large",
-        "id": 2643
-      },
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 12,
-          "name": "Grass"
-        }
-      ],
-      "stats": {
-        "baseAttack": 120,
-        "baseDefense": 122,
-        "baseStamina": 144
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -41327,19 +41243,62 @@
         }
       ],
       "stats": {
-        "baseAttack": 122,
-        "baseDefense": 124,
-        "baseStamina": 127
+        "baseAttack": 121,
+        "baseDefense": 123,
+        "baseStamina": 135
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "evolutions": [
+      "thirdMoveCandy": 75
+    },
+    "710_2642": {
+      "name": "Pumpkaboo",
+      "id": 710,
+      "form": {
+        "name": "Average",
+        "id": 2642
+      },
+      "types": [
         {
-          "evoId": 711,
-          "id": 0,
-          "candyCost": 50
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
         }
-      ]
+      ],
+      "stats": {
+        "baseAttack": 121,
+        "baseDefense": 123,
+        "baseStamina": 135
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
+    "710_2643": {
+      "name": "Pumpkaboo",
+      "id": 710,
+      "form": {
+        "name": "Large",
+        "id": 2643
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 121,
+        "baseDefense": 123,
+        "baseStamina": 135
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
     },
     "710_2644": {
       "name": "Pumpkaboo",
@@ -41359,19 +41318,12 @@
         }
       ],
       "stats": {
-        "baseAttack": 118,
-        "baseDefense": 120,
-        "baseStamina": 153
+        "baseAttack": 121,
+        "baseDefense": 123,
+        "baseStamina": 135
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "evolutions": [
-        {
-          "evoId": 711,
-          "id": 0,
-          "candyCost": 50
-        }
-      ]
+      "thirdMoveCandy": 75
     },
     "711_0": {
       "name": "Gourgeist",
@@ -41391,9 +41343,34 @@
         }
       ],
       "stats": {
-        "baseAttack": 171,
-        "baseDefense": 219,
-        "baseStamina": 146
+        "baseAttack": 175,
+        "baseDefense": 213,
+        "baseStamina": 163
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
+    "711_2645": {
+      "name": "Gourgeist",
+      "id": 711,
+      "form": {
+        "name": "Small",
+        "id": 2645
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 175,
+        "baseDefense": 213,
+        "baseStamina": 163
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
@@ -41441,34 +41418,9 @@
         }
       ],
       "stats": {
-        "baseAttack": 179,
-        "baseDefense": 206,
-        "baseStamina": 181
-      },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
-    },
-    "711_2645": {
-      "name": "Gourgeist",
-      "id": 711,
-      "form": {
-        "name": "Small",
-        "id": 2645
-      },
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 12,
-          "name": "Grass"
-        }
-      ],
-      "stats": {
-        "baseAttack": 171,
-        "baseDefense": 219,
-        "baseStamina": 146
+        "baseAttack": 175,
+        "baseDefense": 213,
+        "baseStamina": 163
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
@@ -41491,9 +41443,9 @@
         }
       ],
       "stats": {
-        "baseAttack": 182,
-        "baseDefense": 200,
-        "baseStamina": 198
+        "baseAttack": 175,
+        "baseDefense": 213,
+        "baseStamina": 163
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
@@ -50640,8 +50592,8 @@
         ],
         "second": [
           127,
-          212,
-          49
+          49,
+          212
         ],
         "third": [
           15,
@@ -50815,8 +50767,8 @@
         ],
         "third": [
           169,
-          130,
-          149
+          149,
+          130
         ]
       }
     },
@@ -50846,8 +50798,8 @@
           114
         ],
         "second": [
-          44,
           114,
+          44,
           188
         ],
         "third": [
@@ -50875,13 +50827,13 @@
           50
         ],
         "second": [
-          105,
           329,
+          105,
           247
         ],
         "third": [
-          472,
-          330
+          330,
+          472
         ]
       }
     },
@@ -50998,8 +50950,8 @@
       "encounters": {
         "first": [
           202,
-          79,
-          102
+          102,
+          79
         ],
         "second": [
           64,
@@ -51026,8 +50978,8 @@
       "secondReward": true,
       "encounters": {
         "first": [
-          299,
-          304
+          304,
+          299
         ],
         "second": [
           305,
@@ -51048,16 +51000,16 @@
       "encounters": {
         "first": [
           60,
-          363,
-          116
+          116,
+          363
         ],
         "second": [
-          195,
-          259
+          259,
+          195
         ],
         "third": [
-          62,
-          186
+          186,
+          62
         ]
       }
     },
@@ -51095,14 +51047,14 @@
           273
         ],
         "second": [
-          297,
           62,
+          297,
           99
         ],
         "third": [
           248,
-          319,
-          389
+          389,
+          319
         ]
       }
     },
@@ -51116,8 +51068,8 @@
           48
         ],
         "second": [
-          310,
           217,
+          310,
           169
         ],
         "third": [
@@ -51137,9 +51089,9 @@
           215
         ],
         "second": [
+          181,
           210,
-          472,
-          181
+          472
         ],
         "third": [
           229,
@@ -51183,8 +51135,8 @@
       "secondReward": false,
       "encounters": {
         "first": [
-          353,
           200,
+          353,
           355
         ],
         "second": [
@@ -51193,8 +51145,8 @@
         ],
         "third": [
           354,
-          477,
-          302
+          302,
+          477
         ]
       }
     },
