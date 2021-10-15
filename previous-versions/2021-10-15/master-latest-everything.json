@@ -10034,18 +10034,6 @@
                 "i18n": "Catch {{amount}} Poison-type Pokémon",
                 "translated": "Catch 30 Poison-type Pokémon"
               }
-            },
-            "199": {
-              "pokemon": 199,
-              "form": 2584,
-              "candyCost": 50,
-              "questRequirement": {
-                "questType": 4,
-                "target": 30,
-                "assetsRef": "quest_catch_type_psychic_plural",
-                "i18n": "Catch {{amount}} Psychic-type Pokémon",
-                "translated": "Catch 30 Psychic-type Pokémon"
-              }
             }
           }
         },
@@ -106951,12 +106939,6 @@
           "formId": 2583,
           "candyCost": 50,
           "questRequirement": "SLOWBRO_G_EVOLUTION_QUEST"
-        },
-        {
-          "evoId": 199,
-          "formId": 2584,
-          "candyCost": 50,
-          "questRequirement": "SLOWKING_G_EVOLUTION_QUEST"
         }
       ],
       "purificationDust": 3000,
@@ -112252,16 +112234,16 @@
         ],
         "second": [
           {
+            "id": 62,
+            "formId": 241
+          },
+          {
             "id": 143,
             "formId": 199
           },
           {
             "id": 282,
             "formId": 298
-          },
-          {
-            "id": 62,
-            "formId": 241
           }
         ],
         "third": [
@@ -112513,12 +112495,12 @@
         ],
         "third": [
           {
-            "id": 107,
-            "formId": 277
-          },
-          {
             "id": 106,
             "formId": 713
+          },
+          {
+            "id": 107,
+            "formId": 277
           },
           {
             "id": 297,
@@ -112572,12 +112554,12 @@
             "formId": 175
           },
           {
-            "id": 38,
-            "formId": 57
-          },
-          {
             "id": 59,
             "formId": 283
+          },
+          {
+            "id": 38,
+            "formId": 57
           }
         ]
       }
@@ -112965,12 +112947,12 @@
             "formId": 77
           },
           {
-            "id": 281,
-            "formId": 295
-          },
-          {
             "id": 97,
             "formId": 217
+          },
+          {
+            "id": 281,
+            "formId": 295
           }
         ]
       }
@@ -112992,12 +112974,12 @@
       "encounters": {
         "first": [
           {
-            "id": 304,
-            "formId": 1469
-          },
-          {
             "id": 299,
             "formId": 1460
+          },
+          {
+            "id": 304,
+            "formId": 1469
           }
         ],
         "second": [
@@ -113039,12 +113021,12 @@
             "formId": 235
           },
           {
-            "id": 116,
-            "formId": 1062
-          },
-          {
             "id": 363,
             "formId": 1598
+          },
+          {
+            "id": 116,
+            "formId": 1062
           }
         ],
         "second": [
