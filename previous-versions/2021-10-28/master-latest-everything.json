@@ -79100,6 +79100,13 @@
           "type": 13,
           "power": 65
         },
+        "75": {
+          "moveId": 75,
+          "moveName": "Parabolic Charge",
+          "proto": "PARABOLIC_CHARGE",
+          "type": 13,
+          "power": 25
+        },
         "88": {
           "moveId": 88,
           "moveName": "Play Rough",
@@ -112622,12 +112629,12 @@
         ],
         "third": [
           {
-            "id": 130,
-            "formId": 256
-          },
-          {
             "id": 169,
             "formId": 202
+          },
+          {
+            "id": 130,
+            "formId": 256
           },
           {
             "id": 149,
@@ -113186,12 +113193,12 @@
             "formId": 250
           },
           {
-            "id": 45,
-            "formId": 271
-          },
-          {
             "id": 462,
             "formId": 661
+          },
+          {
+            "id": 45,
+            "formId": 271
           }
         ]
       }
@@ -113308,12 +113315,12 @@
             "formId": 920
           },
           {
-            "id": 302,
-            "formId": 923
-          },
-          {
             "id": 354,
             "formId": 911
+          },
+          {
+            "id": 302,
+            "formId": 923
           }
         ]
       }
