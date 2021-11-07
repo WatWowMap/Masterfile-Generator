@@ -29423,6 +29423,11 @@
       "genId": 2,
       "generation": "Johto",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "1340": {
           "name": "Normal",
           "proto": "LUGIA_NORMAL",
@@ -100925,9 +100930,7 @@
     "1340": {
       "formName": "Normal",
       "proto": "LUGIA_NORMAL",
-      "formId": 1340,
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 1340
     },
     "1341": {
       "formName": "Shadow",
@@ -113183,12 +113186,12 @@
             "formId": 250
           },
           {
-            "id": 462,
-            "formId": 661
-          },
-          {
             "id": 45,
             "formId": 271
+          },
+          {
+            "id": 462,
+            "formId": 661
           }
         ]
       }
@@ -113305,12 +113308,12 @@
             "formId": 920
           },
           {
-            "id": 354,
-            "formId": 911
-          },
-          {
             "id": 302,
             "formId": 923
+          },
+          {
+            "id": 354,
+            "formId": 911
           }
         ]
       }

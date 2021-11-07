@@ -40,7 +40,9 @@
         "formName": true,
         "isCostume": true,
         "types": "typeId",
-        "family": true
+        "family": true,
+        "quickMoves": "moveId",
+        "chargedMoves": "moveId"
       },
       "defaultFormId": true,
       "genId": true,
@@ -49,6 +51,8 @@
       "tempEvolutions": {
         "unreleased": true
       },
+      "quickMoves": "moveId",
+      "chargedMoves": "moveId",
       "height": true,
       "weight": true,
       "legendary": true,
