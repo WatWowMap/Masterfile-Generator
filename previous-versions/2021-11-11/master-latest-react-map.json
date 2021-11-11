@@ -27656,10 +27656,6 @@
         ],
         "third": [
           {
-            "id": 130,
-            "form": 256
-          },
-          {
             "id": 143,
             "form": 199
           }
@@ -27685,14 +27681,14 @@
       "encounters": {
         "first": [
           {
-            "id": 13,
-            "form": 616
+            "id": 49,
+            "form": 262
           }
         ],
         "second": [
           {
-            "id": 451,
-            "form": 1796
+            "id": 15,
+            "form": 622
           }
         ],
         "third": [
@@ -27743,12 +27739,12 @@
         ],
         "second": [
           {
-            "id": 302,
-            "form": 923
-          },
-          {
             "id": 274,
             "form": 628
+          },
+          {
+            "id": 302,
+            "form": 923
           }
         ],
         "third": [
@@ -27783,12 +27779,7 @@
             "form": 752
           }
         ],
-        "third": [
-          {
-            "id": 330,
-            "form": 752
-          }
-        ]
+        "third": []
       }
     },
     "13": {
@@ -27810,8 +27801,8 @@
       "encounters": {
         "first": [
           {
-            "id": 209,
-            "form": 1253
+            "id": 280,
+            "form": 292
           }
         ],
         "second": [
@@ -27983,8 +27974,8 @@
         ],
         "second": [
           {
-            "id": 114,
-            "form": 1059
+            "id": 2,
+            "form": 166
           }
         ],
         "third": [
@@ -28105,18 +28096,18 @@
       "encounters": {
         "first": [
           {
-            "id": 19,
-            "form": 45
+            "id": 399,
+            "form": 1667
           },
           {
-            "id": 216,
-            "form": 1265
+            "id": 19,
+            "form": 45
           }
         ],
         "second": [
           {
-            "id": 20,
-            "form": 47
+            "id": 400,
+            "form": 1670
           }
         ],
         "third": [
@@ -28187,7 +28178,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           {
@@ -28274,12 +28265,7 @@
       "encounters": {
         "first": [],
         "second": [],
-        "third": [
-          {
-            "id": 130,
-            "form": 256
-          }
-        ]
+        "third": []
       }
     },
     "40": {
@@ -28301,22 +28287,22 @@
         "first": [],
         "second": [
           {
-            "id": 68,
-            "form": 815
+            "id": 169,
+            "form": 202
           },
           {
-            "id": 3,
-            "form": 169
+            "id": 68,
+            "form": 815
           }
         ],
         "third": [
           {
-            "id": 59,
-            "form": 283
+            "id": 6,
+            "form": 178
           },
           {
-            "id": 248,
-            "form": 319
+            "id": 59,
+            "form": 283
           }
         ]
       }
@@ -28340,12 +28326,12 @@
         ],
         "third": [
           {
-            "id": 143,
-            "form": 199
+            "id": 282,
+            "form": 298
           },
           {
-            "id": 212,
-            "form": 250
+            "id": 143,
+            "form": 199
           }
         ]
       }
@@ -28414,15 +28400,10 @@
       "type": "Decoy",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 20,
-            "form": 47
-          }
-        ],
+        "second": [],
         "third": []
       }
     },
