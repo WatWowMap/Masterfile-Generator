@@ -111632,8 +111632,7 @@
     "353": {
       "id": 353,
       "name": "Psychic Fangs",
-      "proto": "PSYCHIC_FANGS",
-      "power": 40
+      "proto": "PSYCHIC_FANGS"
     },
     "354": {
       "id": 354,
@@ -112431,10 +112430,6 @@
           {
             "id": 330,
             "formId": 752
-          },
-          {
-            "id": 148,
-            "formId": 193
           }
         ]
       }
@@ -112679,20 +112674,11 @@
             "formId": 51
           }
         ],
-        "second": [
-          {
-            "id": 28,
-            "formId": 53
-          }
-        ],
+        "second": [],
         "third": [
           {
             "id": 330,
             "formId": 752
-          },
-          {
-            "id": 472,
-            "formId": 806
           }
         ]
       }
@@ -113114,12 +113100,7 @@
             "formId": 47
           }
         ],
-        "third": [
-          {
-            "id": 143,
-            "formId": 199
-          }
-        ]
+        "third": []
       }
     },
     "47": {
