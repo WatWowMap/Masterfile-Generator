@@ -10096,7 +10096,6 @@
       "mythic": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -10109,16 +10108,6 @@
           "defense": 327,
           "stamina": 181,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 212,
-          "defense": 327,
-          "stamina": 181,
-          "height": 10.5,
-          "weight": 740,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -44947,6 +44936,8 @@
       "formName": "Normal",
       "proto": "STEELIX_NORMAL",
       "formId": 905,
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -44954,20 +44945,8 @@
           "defense": 327,
           "stamina": 181,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 212,
-          "defense": 327,
-          "stamina": 181,
-          "height": 10.5,
-          "weight": 740,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 5000,
-      "purificationCandy": 5
+      ]
     },
     "906": {
       "formName": "Shadow",
@@ -44985,16 +44964,6 @@
           "defense": 327,
           "stamina": 181,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 212,
-          "defense": 327,
-          "stamina": 181,
-          "height": 10.5,
-          "weight": 740,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -58171,13 +58140,13 @@
       "secondReward": false,
       "encounters": [
         {
-          "id": 107,
-          "formId": 277,
+          "id": 106,
+          "formId": 713,
           "position": "first"
         },
         {
-          "id": 106,
-          "formId": 713,
+          "id": 107,
+          "formId": 277,
           "position": "first"
         },
         {
@@ -58607,13 +58576,13 @@
           "position": "second"
         },
         {
-          "id": 20,
-          "formId": 47,
+          "id": 400,
+          "formId": 1670,
           "position": "third"
         },
         {
-          "id": 400,
-          "formId": 1670,
+          "id": 20,
+          "formId": 47,
           "position": "third"
         },
         {

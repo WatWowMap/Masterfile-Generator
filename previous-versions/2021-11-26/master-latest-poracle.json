@@ -13258,16 +13258,6 @@
             "baseStamina": 181
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 212,
-            "baseDefense": 327,
-            "baseStamina": 181
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -13304,16 +13294,6 @@
             "baseStamina": 181
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 212,
-            "baseDefense": 327,
-            "baseStamina": 181
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -50836,8 +50816,8 @@
       "secondReward": false,
       "encounters": {
         "first": [
-          107,
-          106
+          106,
+          107
         ],
         "second": [
           66,
@@ -51067,8 +51047,8 @@
           400
         ],
         "third": [
-          20,
           400,
+          20,
           217
         ]
       }
