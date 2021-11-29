@@ -9967,8 +9967,7 @@
       "charged_moves": [
         "Psychic",
         "Sky Attack",
-        "Night Shade",
-        "Shadow Ball"
+        "Night Shade"
       ],
       "family": 163,
       "flee_rate": 0.07,
@@ -11088,8 +11087,7 @@
       "charged_moves": [
         "Stone Edge",
         "Earthquake",
-        "Rock Slide",
-        "Rock Tomb"
+        "Rock Slide"
       ],
       "family": 185,
       "flee_rate": 0.05,
@@ -13070,14 +13068,12 @@
       "weight": 55,
       "quick_moves": [
         "Ember",
-        "Rock Throw",
-        "Incinerate"
+        "Rock Throw"
       ],
       "charged_moves": [
         "Heat Wave",
         "Overheat",
-        "Stone Edge",
-        "Rock Tomb"
+        "Stone Edge"
       ],
       "family": 218,
       "flee_rate": 0.06,
@@ -13350,8 +13346,7 @@
       "weight": 28.5,
       "quick_moves": [
         "Water Gun",
-        "Mud Shot",
-        "Lock On"
+        "Mud Shot"
       ],
       "charged_moves": [
         "Gunk Shot",
@@ -13789,8 +13784,7 @@
       "charged_moves": [
         "Earthquake",
         "Heavy Slam",
-        "Play Rough",
-        "Body Slam"
+        "Play Rough"
       ],
       "family": 231,
       "flee_rate": 0.07,
@@ -17846,8 +17840,7 @@
       "charged_moves": [
         "Body Slam",
         "Rock Slide",
-        "Heavy Slam",
-        "Rock Tomb"
+        "Heavy Slam"
       ],
       "family": 304,
       "flee_rate": 0.09,
@@ -17909,8 +17902,7 @@
       "charged_moves": [
         "Thunder",
         "Stone Edge",
-        "Heavy Slam",
-        "Rock Tomb"
+        "Heavy Slam"
       ],
       "family": 304,
       "flee_rate": 0.06,
@@ -20035,8 +20027,7 @@
         "Earthquake",
         "Earth Power",
         "Ice Beam",
-        "Shadow Ball",
-        "Rock Tomb"
+        "Shadow Ball"
       ],
       "family": 343,
       "flee_rate": 0.06,
@@ -47054,7 +47045,7 @@
       "name": "Bug Buzz",
       "proto": "BUG_BUZZ",
       "type": "Bug",
-      "power": 100
+      "power": 90
     },
     "50": {
       "name": "Poison Fang",
@@ -47682,7 +47673,7 @@
       "name": "Pound",
       "proto": "POUND_FAST",
       "type": "Normal",
-      "power": 4
+      "power": 5
     },
     "223": {
       "name": "Cut",
@@ -49092,8 +49083,8 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          106,
-          107
+          107,
+          106
         ],
         "second": [
           66,
@@ -49206,8 +49197,8 @@
           2
         ],
         "third": [
-          182,
-          45
+          45,
+          182
         ]
       }
     },
@@ -49323,8 +49314,8 @@
           400
         ],
         "third": [
-          400,
           20,
+          400,
           217
         ]
       }
@@ -49437,8 +49428,8 @@
           8
         ],
         "third": [
-          199,
-          80
+          80,
+          199
         ]
       }
     },
@@ -49506,8 +49497,8 @@
           303
         ],
         "third": [
-          212,
           282,
+          212,
           143
         ]
       }
@@ -49604,8 +49595,8 @@
           302
         ],
         "second": [
-          353,
-          302
+          302,
+          353
         ],
         "third": [
           354,

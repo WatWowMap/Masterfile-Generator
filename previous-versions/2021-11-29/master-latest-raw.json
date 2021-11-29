@@ -8001,8 +8001,7 @@
       "chargedMoves": [
         108,
         257,
-        265,
-        70
+        265
       ],
       "family": 163,
       "fleeRate": 0.07,
@@ -9001,8 +9000,7 @@
       "chargedMoves": [
         32,
         31,
-        64,
-        63
+        64
       ],
       "family": 185,
       "fleeRate": 0.05,
@@ -10622,14 +10620,12 @@
       "weight": 55,
       "quickMoves": [
         209,
-        227,
-        346
+        227
       ],
       "chargedMoves": [
         42,
         270,
-        32,
-        63
+        32
       ],
       "family": 218,
       "fleeRate": 0.06,
@@ -10860,8 +10856,7 @@
       "weight": 28.5,
       "quickMoves": [
         230,
-        216,
-        325
+        216
       ],
       "chargedMoves": [
         92,
@@ -11244,8 +11239,7 @@
       "chargedMoves": [
         31,
         268,
-        88,
-        131
+        88
       ],
       "family": 231,
       "fleeRate": 0.07,
@@ -14708,8 +14702,7 @@
       "chargedMoves": [
         131,
         64,
-        268,
-        63
+        268
       ],
       "family": 304,
       "fleeRate": 0.09,
@@ -14761,8 +14754,7 @@
       "chargedMoves": [
         78,
         32,
-        268,
-        63
+        268
       ],
       "family": 304,
       "fleeRate": 0.06,
@@ -16577,8 +16569,7 @@
         31,
         304,
         39,
-        70,
-        63
+        70
       ],
       "family": 343,
       "fleeRate": 0.06,
@@ -55694,7 +55685,7 @@
       "moveName": "Bug Buzz",
       "proto": "BUG_BUZZ",
       "type": 7,
-      "power": 100
+      "power": 90
     },
     "50": {
       "moveId": 50,
@@ -56338,7 +56329,7 @@
       "moveName": "Pound",
       "proto": "POUND_FAST",
       "type": 1,
-      "power": 4
+      "power": 5
     },
     "223": {
       "moveId": 223,
@@ -58180,13 +58171,13 @@
       "secondReward": false,
       "encounters": [
         {
-          "id": 106,
-          "formId": 713,
+          "id": 107,
+          "formId": 277,
           "position": "first"
         },
         {
-          "id": 107,
-          "formId": 277,
+          "id": 106,
+          "formId": 713,
           "position": "first"
         },
         {
@@ -58399,13 +58390,13 @@
           "position": "second"
         },
         {
-          "id": 182,
-          "formId": 274,
+          "id": 45,
+          "formId": 271,
           "position": "third"
         },
         {
-          "id": 45,
-          "formId": 271,
+          "id": 182,
+          "formId": 274,
           "position": "third"
         }
       ]
@@ -58616,13 +58607,13 @@
           "position": "second"
         },
         {
-          "id": 400,
-          "formId": 1670,
+          "id": 20,
+          "formId": 47,
           "position": "third"
         },
         {
-          "id": 20,
-          "formId": 47,
+          "id": 400,
+          "formId": 1670,
           "position": "third"
         },
         {
@@ -58831,13 +58822,13 @@
           "position": "second"
         },
         {
-          "id": 199,
-          "formId": 1238,
+          "id": 80,
+          "formId": 1020,
           "position": "third"
         },
         {
-          "id": 80,
-          "formId": 1020,
+          "id": 199,
+          "formId": 1238,
           "position": "third"
         }
       ]
@@ -58960,13 +58951,13 @@
           "position": "second"
         },
         {
-          "id": 212,
-          "formId": 250,
+          "id": 282,
+          "formId": 298,
           "position": "third"
         },
         {
-          "id": 282,
-          "formId": 298,
+          "id": 212,
+          "formId": 250,
           "position": "third"
         },
         {
@@ -59142,13 +59133,13 @@
           "position": "first"
         },
         {
-          "id": 353,
-          "formId": 908,
+          "id": 302,
+          "formId": 923,
           "position": "second"
         },
         {
-          "id": 302,
-          "formId": 923,
+          "id": 353,
+          "formId": 908,
           "position": "second"
         },
         {
