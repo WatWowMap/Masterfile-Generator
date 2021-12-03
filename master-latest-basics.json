@@ -4988,13 +4988,13 @@
         "295": {
           "evolutions": [
             {
+              "pokemon": 282,
+              "form": 298
+            },
+            {
               "pokemon": 475,
               "form": 301,
               "gender_requirement": 1
-            },
-            {
-              "pokemon": 282,
-              "form": 298
             }
           ]
         },
@@ -5006,13 +5006,13 @@
       "stamina": 116,
       "evolutions": [
         {
+          "pokemon": 282,
+          "form": 298
+        },
+        {
           "pokemon": 475,
           "form": 301,
           "gender_requirement": 1
-        },
-        {
-          "pokemon": 282,
-          "form": 298
         }
       ]
     },
@@ -6313,11 +6313,11 @@
       "stamina": 137,
       "evolutions": [
         {
-          "pokemon": 478,
-          "gender_requirement": 2
+          "pokemon": 362
         },
         {
-          "pokemon": 362
+          "pokemon": 478,
+          "gender_requirement": 2
         }
       ],
       "little": true
@@ -12138,10 +12138,10 @@
       "stamina": 125,
       "evolutions": [
         {
-          "pokemon": 792
+          "pokemon": 791
         },
         {
-          "pokemon": 791
+          "pokemon": 792
         }
       ],
       "little": true
