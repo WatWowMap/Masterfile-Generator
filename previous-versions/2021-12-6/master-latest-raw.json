@@ -11716,8 +11716,7 @@
       "forms": [
         1331,
         1332,
-        1333,
-        2731
+        1333
       ],
       "types": [
         13
@@ -11758,8 +11757,7 @@
       "forms": [
         1334,
         1335,
-        1336,
-        2732
+        1336
       ],
       "types": [
         10
@@ -11801,8 +11799,7 @@
       "forms": [
         1337,
         1338,
-        1339,
-        2733
+        1339
       ],
       "types": [
         11
@@ -11998,8 +11995,7 @@
       "forms": [
         1340,
         1341,
-        1342,
-        2729
+        1342
       ],
       "types": [
         3,
@@ -12040,8 +12036,7 @@
       "forms": [
         1343,
         1344,
-        1345,
-        2730
+        1345
       ],
       "types": [
         3,
@@ -54462,31 +54457,6 @@
         8,
         14
       ]
-    },
-    "2729": {
-      "formName": "S",
-      "proto": "LUGIA_S",
-      "formId": 2729
-    },
-    "2730": {
-      "formName": "S",
-      "proto": "HO_OH_S",
-      "formId": 2730
-    },
-    "2731": {
-      "formName": "S",
-      "proto": "RAIKOU_S",
-      "formId": 2731
-    },
-    "2732": {
-      "formName": "S",
-      "proto": "ENTEI_S",
-      "formId": 2732
-    },
-    "2733": {
-      "formName": "S",
-      "proto": "SUICUNE_S",
-      "formId": 2733
     }
   },
   "types": {
@@ -57450,21 +57420,6 @@
       "id": 58,
       "proto": "QUEST_USE_POKEMON_ITEM",
       "formatted": "Use Pokemon Item"
-    },
-    "59": {
-      "id": 59,
-      "proto": "QUEST_OPEN_GIFT",
-      "formatted": "Open Gift"
-    },
-    "60": {
-      "id": 60,
-      "proto": "QUEST_EARN_XP",
-      "formatted": "Earn Xp"
-    },
-    "61": {
-      "id": 61,
-      "proto": "QUEST_BATTLE_PLAYER_TEAM_LEADER",
-      "formatted": "Battle Player Team Leader"
     }
   },
   "questRewardTypes": {
@@ -57532,11 +57487,6 @@
       "id": 12,
       "proto": "MEGA_RESOURCE",
       "formatted": "Mega Resource"
-    },
-    "13": {
-      "id": 13,
-      "proto": "INCIDENT",
-      "formatted": "Incident"
     }
   },
   "questConditions": {
@@ -57764,31 +57714,6 @@
       "id": 44,
       "proto": "WITH_RAID_ELAPSED_TIME",
       "formatted": "With Raid Elapsed Time"
-    },
-    "45": {
-      "id": 45,
-      "proto": "WITH_FRIEND_LEVEL",
-      "formatted": "With Friend Level"
-    },
-    "46": {
-      "id": 46,
-      "proto": "WITH_STICKER",
-      "formatted": "With Sticker"
-    },
-    "47": {
-      "id": 47,
-      "proto": "WITH_POKEMON_CP",
-      "formatted": "With Pokemon CP"
-    },
-    "48": {
-      "id": 48,
-      "proto": "WITH_RAID_LOCATION",
-      "formatted": "With Raid Location"
-    },
-    "49": {
-      "id": 49,
-      "proto": "WITH_FRIENDS_RAID",
-      "formatted": "With Friends Raid"
     }
   },
   "invasions": {

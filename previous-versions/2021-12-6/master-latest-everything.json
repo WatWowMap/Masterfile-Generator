@@ -28833,11 +28833,6 @@
           "name": "Purified",
           "proto": "RAIKOU_PURIFIED",
           "form": 1333
-        },
-        "2731": {
-          "name": "S",
-          "proto": "RAIKOU_S",
-          "form": 2731
         }
       },
       "types": {
@@ -28936,11 +28931,6 @@
           "name": "Purified",
           "proto": "ENTEI_PURIFIED",
           "form": 1336
-        },
-        "2732": {
-          "name": "S",
-          "proto": "ENTEI_S",
-          "form": 2732
         }
       },
       "types": {
@@ -29046,11 +29036,6 @@
           "name": "Purified",
           "proto": "SUICUNE_PURIFIED",
           "form": 1339
-        },
-        "2733": {
-          "name": "S",
-          "proto": "SUICUNE_S",
-          "form": 2733
         }
       },
       "types": {
@@ -29498,11 +29483,6 @@
           "name": "Purified",
           "proto": "LUGIA_PURIFIED",
           "form": 1342
-        },
-        "2729": {
-          "name": "S",
-          "proto": "LUGIA_S",
-          "form": 2729
         }
       },
       "types": {
@@ -29598,11 +29578,6 @@
           "name": "Purified",
           "proto": "HO_OH_PURIFIED",
           "form": 1345
-        },
-        "2730": {
-          "name": "S",
-          "proto": "HO_OH_S",
-          "form": 2730
         }
       },
       "types": {
@@ -107967,31 +107942,6 @@
         8,
         14
       ]
-    },
-    "2729": {
-      "formName": "S",
-      "proto": "LUGIA_S",
-      "formId": 2729
-    },
-    "2730": {
-      "formName": "S",
-      "proto": "HO_OH_S",
-      "formId": 2730
-    },
-    "2731": {
-      "formName": "S",
-      "proto": "RAIKOU_S",
-      "formId": 2731
-    },
-    "2732": {
-      "formName": "S",
-      "proto": "ENTEI_S",
-      "formId": 2732
-    },
-    "2733": {
-      "formName": "S",
-      "proto": "SUICUNE_S",
-      "formId": 2733
     }
   },
   "types": {
@@ -109548,18 +109498,6 @@
       "id": 52,
       "name": "Holiday 2021 Noevolve",
       "proto": "HOLIDAY_2021_NOEVOLVE",
-      "noEvolve": true
-    },
-    "53": {
-      "id": 53,
-      "name": "Tcg 2022 Noevolve",
-      "proto": "TCG_2022_NOEVOLVE",
-      "noEvolve": true
-    },
-    "54": {
-      "id": 54,
-      "name": "Jan 2022 Noevolve",
-      "proto": "JAN_2022_NOEVOLVE",
       "noEvolve": true
     }
   },
@@ -111765,21 +111703,6 @@
       "id": 355,
       "name": "Hyperspace Hole",
       "proto": "HYPERSPACE_HOLE"
-    },
-    "356": {
-      "id": 356,
-      "name": "Double Kick Fast",
-      "proto": "DOUBLE_KICK_FAST"
-    },
-    "357": {
-      "id": 357,
-      "name": "Magical Leaf Fast",
-      "proto": "MAGICAL_LEAF_FAST"
-    },
-    "358": {
-      "id": 358,
-      "name": "Sacred Fire",
-      "proto": "SACRED_FIRE"
     }
   },
   "questTypes": {
@@ -112052,21 +111975,6 @@
       "id": 58,
       "proto": "QUEST_USE_POKEMON_ITEM",
       "formatted": "Use Pokemon Item"
-    },
-    "59": {
-      "id": 59,
-      "proto": "QUEST_OPEN_GIFT",
-      "formatted": "Open Gift"
-    },
-    "60": {
-      "id": 60,
-      "proto": "QUEST_EARN_XP",
-      "formatted": "Earn Xp"
-    },
-    "61": {
-      "id": 61,
-      "proto": "QUEST_BATTLE_PLAYER_TEAM_LEADER",
-      "formatted": "Battle Player Team Leader"
     }
   },
   "questRewardTypes": {
@@ -112134,11 +112042,6 @@
       "id": 12,
       "proto": "MEGA_RESOURCE",
       "formatted": "Mega Resource"
-    },
-    "13": {
-      "id": 13,
-      "proto": "INCIDENT",
-      "formatted": "Incident"
     }
   },
   "questConditions": {
@@ -112366,31 +112269,6 @@
       "id": 44,
       "proto": "WITH_RAID_ELAPSED_TIME",
       "formatted": "With Raid Elapsed Time"
-    },
-    "45": {
-      "id": 45,
-      "proto": "WITH_FRIEND_LEVEL",
-      "formatted": "With Friend Level"
-    },
-    "46": {
-      "id": 46,
-      "proto": "WITH_STICKER",
-      "formatted": "With Sticker"
-    },
-    "47": {
-      "id": 47,
-      "proto": "WITH_POKEMON_CP",
-      "formatted": "With Pokemon CP"
-    },
-    "48": {
-      "id": 48,
-      "proto": "WITH_RAID_LOCATION",
-      "formatted": "With Raid Location"
-    },
-    "49": {
-      "id": 49,
-      "proto": "WITH_FRIENDS_RAID",
-      "formatted": "With Friends Raid"
     }
   },
   "invasions": {

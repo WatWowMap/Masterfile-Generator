@@ -14337,10 +14337,6 @@
         "1333": {
           "name": "Purified",
           "proto": "RAIKOU_PURIFIED"
-        },
-        "2731": {
-          "name": "S",
-          "proto": "RAIKOU_S"
         }
       },
       "types": [
@@ -14389,10 +14385,6 @@
         "1336": {
           "name": "Purified",
           "proto": "ENTEI_PURIFIED"
-        },
-        "2732": {
-          "name": "S",
-          "proto": "ENTEI_S"
         }
       },
       "types": [
@@ -14442,10 +14434,6 @@
         "1339": {
           "name": "Purified",
           "proto": "SUICUNE_PURIFIED"
-        },
-        "2733": {
-          "name": "S",
-          "proto": "SUICUNE_S"
         }
       },
       "types": [
@@ -14681,10 +14669,6 @@
         "1342": {
           "name": "Purified",
           "proto": "LUGIA_PURIFIED"
-        },
-        "2729": {
-          "name": "S",
-          "proto": "LUGIA_S"
         }
       },
       "types": [
@@ -14733,10 +14717,6 @@
         "1345": {
           "name": "Purified",
           "proto": "HO_OH_PURIFIED"
-        },
-        "2730": {
-          "name": "S",
-          "proto": "HO_OH_S"
         }
       },
       "types": [
@@ -48476,18 +48456,6 @@
     "355": {
       "name": "Hyperspace Hole",
       "proto": "HYPERSPACE_HOLE"
-    },
-    "356": {
-      "name": "Double Kick",
-      "proto": "DOUBLE_KICK_FAST"
-    },
-    "357": {
-      "name": "Magical Leaf",
-      "proto": "MAGICAL_LEAF_FAST"
-    },
-    "358": {
-      "name": "Sacred Fire",
-      "proto": "SACRED_FIRE"
     }
   },
   "quest_types": {
@@ -48653,15 +48621,6 @@
     },
     "58": {
       "text": "Use Pokemon Item"
-    },
-    "59": {
-      "text": "Open Gift"
-    },
-    "60": {
-      "text": "Earn Xp"
-    },
-    "61": {
-      "text": "Battle Player Team Leader"
     }
   },
   "quest_reward_types": {
@@ -48716,10 +48675,6 @@
     "12": {
       "proto": "MEGA_RESOURCE",
       "text": "Mega Resource"
-    },
-    "13": {
-      "proto": "INCIDENT",
-      "text": "Incident"
     }
   },
   "quest_conditions": {
@@ -48902,26 +48857,6 @@
     "44": {
       "proto": "WITH_RAID_ELAPSED_TIME",
       "text": "With Raid Elapsed Time"
-    },
-    "45": {
-      "proto": "WITH_FRIEND_LEVEL",
-      "text": "With Friend Level"
-    },
-    "46": {
-      "proto": "WITH_STICKER",
-      "text": "With Sticker"
-    },
-    "47": {
-      "proto": "WITH_POKEMON_CP",
-      "text": "With Pokemon CP"
-    },
-    "48": {
-      "proto": "WITH_RAID_LOCATION",
-      "text": "With Raid Location"
-    },
-    "49": {
-      "proto": "WITH_FRIENDS_RAID",
-      "text": "With Friends Raid"
     }
   },
   "invasions": {
