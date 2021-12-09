@@ -112461,7 +112461,6 @@
       "grunt": "Grunt",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 143,
@@ -112481,7 +112480,8 @@
             "id": 149,
             "formId": 196
           }
-        ]
+        ],
+        "first": []
       }
     },
     "6": {
@@ -112678,16 +112678,16 @@
       "grunt": "Grunt",
       "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 107,
-            "formId": 277
-          }
-        ],
         "second": [
           {
             "id": 296,
             "formId": 1451
+          }
+        ],
+        "first": [
+          {
+            "id": 107,
+            "formId": 277
           }
         ],
         "third": [
@@ -112815,12 +112815,6 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 387,
-            "formId": 688
-          }
-        ],
         "second": [
           {
             "id": 114,
@@ -112831,6 +112825,12 @@
           {
             "id": 182,
             "formId": 274
+          }
+        ],
+        "first": [
+          {
+            "id": 387,
+            "formId": 688
           }
         ]
       }
@@ -112885,12 +112885,6 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 363,
-            "formId": 1598
-          }
-        ],
         "second": [
           {
             "id": 459,
@@ -112901,6 +112895,12 @@
           {
             "id": 460,
             "formId": 935
+          }
+        ],
+        "first": [
+          {
+            "id": 363,
+            "formId": 1598
           }
         ]
       }
@@ -113056,7 +113056,6 @@
             "formId": 292
           }
         ],
-        "second": [],
         "third": [
           {
             "id": 97,
@@ -113066,7 +113065,8 @@
             "id": 375,
             "formId": 767
           }
-        ]
+        ],
+        "second": []
       }
     },
     "36": {
@@ -113089,16 +113089,16 @@
       "secondReward": true,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 347,
-            "formId": 1574
-          }
-        ],
         "third": [
           {
             "id": 248,
             "formId": 319
+          }
+        ],
+        "second": [
+          {
+            "id": 347,
+            "formId": 1574
           }
         ]
       }
@@ -113110,16 +113110,16 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 258,
-            "formId": 205
-          }
-        ],
         "second": [
           {
             "id": 90,
             "formId": 876
+          }
+        ],
+        "first": [
+          {
+            "id": 258,
+            "formId": 205
           }
         ],
         "third": [
@@ -113165,7 +113165,6 @@
       "grunt": "Executive",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 68,
@@ -113185,7 +113184,8 @@
             "id": 248,
             "formId": 319
           }
-        ]
+        ],
+        "first": []
       }
     },
     "42": {
@@ -113195,7 +113195,6 @@
       "grunt": "Executive",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 303,
@@ -113215,7 +113214,8 @@
             "id": 282,
             "formId": 298
           }
-        ]
+        ],
+        "first": []
       }
     },
     "43": {
@@ -113225,7 +113225,6 @@
       "grunt": "Executive",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 45,
@@ -113236,6 +113235,7 @@
             "formId": 1020
           }
         ],
+        "first": [],
         "third": [
           {
             "id": 105,
@@ -113255,7 +113255,6 @@
       "grunt": "Giovanni",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 99,
@@ -113266,6 +113265,7 @@
             "formId": 852
           }
         ],
+        "first": [],
         "third": []
       }
     },
@@ -113288,7 +113288,6 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 70,
@@ -113300,7 +113299,8 @@
             "id": 143,
             "formId": 199
           }
-        ]
+        ],
+        "first": []
       }
     },
     "47": {
@@ -113412,9 +113412,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "501": {
@@ -113424,9 +113424,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
+        "third": [],
         "second": [],
-        "third": []
+        "first": []
       }
     },
     "502": {
@@ -113436,9 +113436,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "503": {
@@ -113460,9 +113460,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "505": {
@@ -113484,9 +113484,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "507": {
@@ -113496,8 +113496,8 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
+        "first": [],
         "third": []
       }
     },

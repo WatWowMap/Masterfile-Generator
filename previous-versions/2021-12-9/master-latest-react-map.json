@@ -27676,7 +27676,6 @@
       "grunt": "Grunt",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 143,
@@ -27696,7 +27695,8 @@
             "id": 149,
             "form": 196
           }
-        ]
+        ],
+        "first": []
       }
     },
     "6": {
@@ -27882,16 +27882,16 @@
       "grunt": "Grunt",
       "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 107,
-            "form": 277
-          }
-        ],
         "second": [
           {
             "id": 296,
             "form": 1451
+          }
+        ],
+        "first": [
+          {
+            "id": 107,
+            "form": 277
           }
         ],
         "third": [
@@ -28012,12 +28012,6 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 387,
-            "form": 688
-          }
-        ],
         "second": [
           {
             "id": 114,
@@ -28028,6 +28022,12 @@
           {
             "id": 182,
             "form": 274
+          }
+        ],
+        "first": [
+          {
+            "id": 387,
+            "form": 688
           }
         ]
       }
@@ -28079,12 +28079,6 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 363,
-            "form": 1598
-          }
-        ],
         "second": [
           {
             "id": 459,
@@ -28095,6 +28089,12 @@
           {
             "id": 460,
             "form": 935
+          }
+        ],
+        "first": [
+          {
+            "id": 363,
+            "form": 1598
           }
         ]
       }
@@ -28241,7 +28241,6 @@
             "form": 292
           }
         ],
-        "second": [],
         "third": [
           {
             "id": 97,
@@ -28251,7 +28250,8 @@
             "id": 375,
             "form": 767
           }
-        ]
+        ],
+        "second": []
       }
     },
     "36": {
@@ -28272,16 +28272,16 @@
       "secondReward": true,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 347,
-            "form": 1574
-          }
-        ],
         "third": [
           {
             "id": 248,
             "form": 319
+          }
+        ],
+        "second": [
+          {
+            "id": 347,
+            "form": 1574
           }
         ]
       }
@@ -28292,16 +28292,16 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 258,
-            "form": 205
-          }
-        ],
         "second": [
           {
             "id": 90,
             "form": 876
+          }
+        ],
+        "first": [
+          {
+            "id": 258,
+            "form": 205
           }
         ],
         "third": [
@@ -28344,7 +28344,6 @@
       "grunt": "Executive",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 68,
@@ -28364,7 +28363,8 @@
             "id": 248,
             "form": 319
           }
-        ]
+        ],
+        "first": []
       }
     },
     "42": {
@@ -28373,7 +28373,6 @@
       "grunt": "Executive",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 303,
@@ -28393,7 +28392,8 @@
             "id": 282,
             "form": 298
           }
-        ]
+        ],
+        "first": []
       }
     },
     "43": {
@@ -28402,7 +28402,6 @@
       "grunt": "Executive",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 45,
@@ -28413,6 +28412,7 @@
             "form": 1020
           }
         ],
+        "first": [],
         "third": [
           {
             "id": 105,
@@ -28431,7 +28431,6 @@
       "grunt": "Giovanni",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 99,
@@ -28442,6 +28441,7 @@
             "form": 852
           }
         ],
+        "first": [],
         "third": []
       }
     },
@@ -28462,7 +28462,6 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [],
         "second": [
           {
             "id": 70,
@@ -28474,7 +28473,8 @@
             "id": 143,
             "form": 199
           }
-        ]
+        ],
+        "first": []
       }
     },
     "47": {
@@ -28579,9 +28579,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "501": {
@@ -28590,9 +28590,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
+        "third": [],
         "second": [],
-        "third": []
+        "first": []
       }
     },
     "502": {
@@ -28601,9 +28601,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "503": {
@@ -28623,9 +28623,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "505": {
@@ -28645,9 +28645,9 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
-        "third": []
+        "third": [],
+        "first": []
       }
     },
     "507": {
@@ -28656,8 +28656,8 @@
       "grunt": "Event",
       "secondReward": false,
       "encounters": {
-        "first": [],
         "second": [],
+        "first": [],
         "third": []
       }
     },
