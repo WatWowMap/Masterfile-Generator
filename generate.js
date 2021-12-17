@@ -14,7 +14,7 @@ const fetch = async (url) => {
   }
 }
 
-module.exports.generate = async function update() {
+const masterfile = async function update() {
   const templates = await fs.promises.readdir('./templates')
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
@@ -62,4 +62,10 @@ module.exports.generate = async function update() {
       console.error(e, `Unable to process ${templateName}`)
     }
   }))
+}
+
+module.exports.masterfile = masterfile
+
+if (require.main === module) {
+  masterfile().then(() => console.log('Masterfiles Generated'))
 }
