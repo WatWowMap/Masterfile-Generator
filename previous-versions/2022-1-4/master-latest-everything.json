@@ -10059,12 +10059,6 @@
               "pokemon": 80,
               "form": 2674,
               "candyCost": 50
-            },
-            "199": {
-              "pokemon": 199,
-              "form": 2734,
-              "candyCost": 50,
-              "itemRequirement": "King's Rock"
             }
           }
         }
@@ -78454,8 +78448,7 @@
         "695": {
           "pokemon": 695,
           "form": 0,
-          "candyCost": 50,
-          "itemRequirement": "Sun Stone"
+          "candyCost": 50
         }
       },
       "little": true
@@ -79306,7 +79299,6 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 2,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -79857,7 +79849,6 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 3,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -80233,7 +80224,6 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -80339,7 +80329,6 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 3,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -107629,12 +107618,6 @@
           "evoId": 80,
           "formId": 2674,
           "candyCost": 50
-        },
-        {
-          "evoId": 199,
-          "formId": 2734,
-          "candyCost": 50,
-          "itemRequirement": 1102
         }
       ],
       "purificationDust": 3000,

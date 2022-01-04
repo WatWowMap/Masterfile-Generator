@@ -32717,8 +32717,7 @@
       "evolutions": [
         {
           "evoId": 695,
-          "candyCost": 50,
-          "itemRequirement": 1101
+          "candyCost": 50
         }
       ],
       "little": true
@@ -33103,7 +33102,6 @@
       "captureRate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -33366,7 +33364,6 @@
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 3,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -33503,7 +33500,6 @@
       "captureRate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -33553,7 +33549,6 @@
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 3,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -54120,12 +54115,6 @@
           "evoId": 80,
           "formId": 2674,
           "candyCost": 50
-        },
-        {
-          "evoId": 199,
-          "formId": 2734,
-          "candyCost": 50,
-          "itemRequirement": 1102
         }
       ],
       "purificationDust": 3000,
