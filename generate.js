@@ -58,6 +58,24 @@ const masterfile = async function update() {
         delete newData.translations
       }
       fs.writeFileSync(`./${templateName}`, JSON.stringify(newData, null, 2), 'utf8', () => { })
+
+      if (templateName === 'master-latest.json') {
+        const pokedex = []
+        for (const [pokemonId, pokemon] of Object.entries(newData.pokemon)) {
+          if (!(pokemon.attack && pokemon.defense && pokemon.stamina)) continue
+          const pushEntry = (stats, name) => pokedex.push(`{id:${pokemonId},name:` +
+              JSON.stringify(name === null ? pokemon.name : `${pokemon.name} (${name})`) +
+              `,at:${stats.attack},df:${stats.defense},st:${stats.stamina}}`)
+          pushEntry(pokemon, null)
+          for (const form of Object.values(pokemon.forms)) {
+            if (form.attack && form.defense && form.stamina) pushEntry(form, form.name)
+          }
+          for (const [id, evo] of Object.entries(pokemon.temp_evolutions || {})) {
+            if (evo.attack && evo.defense && evo.stamina) pushEntry(evo, ["Unset", "Mega", "Mega X", "Mega Y"][id])
+          }
+        }
+        fs.writeFileSync('./pokedex.js', `pokedex=[${pokedex.join(',')}]`, 'utf8', () => { })
+      }
     } catch (e) {
       console.error(e, `Unable to process ${templateName}`)
     }
