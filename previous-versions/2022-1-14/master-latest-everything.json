@@ -87806,8 +87806,8 @@
         "transferable": true
       },
       "tempEvolutions": {
-        "Low Key Gmax": {
-          "tempEvoId": "Low Key Gmax",
+        "Amped Gmax": {
+          "tempEvoId": "Amped Gmax",
           "stats": {
             "attack": 224,
             "defense": 140,
@@ -87815,8 +87815,8 @@
           },
           "unreleased": true
         },
-        "Amped Gmax": {
-          "tempEvoId": "Amped Gmax",
+        "Low Key Gmax": {
+          "tempEvoId": "Low Key Gmax",
           "stats": {
             "attack": 224,
             "defense": 140,
@@ -99725,6 +99725,13 @@
           "attack": 292,
           "defense": 210,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 292,
+          "defense": 210,
+          "stamina": 190,
           "height": 2.1,
           "weight": 79,
           "firstEnergyCost": 200,
@@ -99744,6 +99751,13 @@
       "proto": "AERODACTYL_PURIFIED",
       "formId": 1112,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 292,
+          "defense": 210,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 292,
@@ -109863,7 +109877,7 @@
     },
     "803": {
       "id": 803,
-      "name": "Postcard Book",
+      "name": "Postcard Inventory",
       "proto": "ITEM_POSTCARD_INVENTORY",
       "type": "Postcard Inventory",
       "category": "Postcard Inventory",
@@ -111831,19 +111845,13 @@
     },
     "357": {
       "id": 357,
-      "name": "Magical Leaf",
+      "name": "Magical Leaf Fast",
       "proto": "MAGICAL_LEAF_FAST"
     },
     "358": {
       "id": 358,
       "name": "Sacred Fire",
       "proto": "SACRED_FIRE"
-    },
-    "359": {
-      "id": 359,
-      "name": "Icicle Spear",
-      "proto": "ICICLE_SPEAR",
-      "power": 60
     }
   },
   "questTypes": {

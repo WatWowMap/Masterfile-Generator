@@ -6959,6 +6959,13 @@
           "attack": 292,
           "defense": 210,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 292,
+          "defense": 210,
+          "stamina": 190,
           "height": 2.1,
           "weight": 79,
           "firstEnergyCost": 200,
@@ -46290,6 +46297,13 @@
           "attack": 292,
           "defense": 210,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 292,
+          "defense": 210,
+          "stamina": 190,
           "height": 2.1,
           "weight": 79,
           "firstEnergyCost": 200,
@@ -46309,6 +46323,13 @@
       "proto": "AERODACTYL_PURIFIED",
       "formId": 1112,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 292,
+          "defense": 210,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 292,
@@ -57225,13 +57246,6 @@
       "proto": "PSYCHIC_FANGS",
       "type": 14,
       "power": 40
-    },
-    "359": {
-      "moveId": 359,
-      "moveName": "Icicle Spear",
-      "proto": "ICICLE_SPEAR",
-      "type": 15,
-      "power": 60
     }
   },
   "questTypes": {

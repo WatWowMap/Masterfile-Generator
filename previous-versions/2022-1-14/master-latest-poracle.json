@@ -9139,6 +9139,15 @@
             "baseDefense": 210,
             "baseStamina": 190
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 292,
+            "baseDefense": 210,
+            "baseStamina": 190
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -9169,6 +9178,15 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 292,
+            "baseDefense": 210,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -49497,7 +49515,7 @@
       "name": "Stickers"
     },
     "803": {
-      "name": "Postcard Book"
+      "name": "Postcard Inventory"
     },
     "901": {
       "name": "Egg Incubator ∞"
@@ -50553,10 +50571,6 @@
     "353": {
       "name": "Psychic Fangs",
       "type": "Psychic"
-    },
-    "359": {
-      "name": "Icicle Spear",
-      "type": "Ice"
     }
   },
   "questTypes": {
