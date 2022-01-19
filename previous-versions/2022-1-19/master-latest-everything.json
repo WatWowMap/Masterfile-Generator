@@ -78413,19 +78413,19 @@
         }
       },
       "chargedMoves": {
+        "35": {
+          "moveId": 35,
+          "moveName": "Discharge",
+          "proto": "DISCHARGE",
+          "type": 13,
+          "power": 65
+        },
         "75": {
           "moveId": 75,
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
-        },
-        "79": {
-          "moveId": 79,
-          "moveName": "Thunderbolt",
-          "proto": "THUNDERBOLT",
-          "type": 13,
-          "power": 90
+          "power": 25
         },
         "95": {
           "moveId": 95,
@@ -78519,7 +78519,7 @@
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
+          "power": 25
         },
         "79": {
           "moveId": 79,
@@ -110541,7 +110541,7 @@
       "id": 75,
       "name": "Parabolic Charge",
       "proto": "PARABOLIC_CHARGE",
-      "power": 65
+      "power": 25
     },
     "76": {
       "id": 76,
