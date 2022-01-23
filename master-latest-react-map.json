@@ -3398,6 +3398,9 @@
       "forms": {
         "1047": {
           "name": "Normal"
+        },
+        "2728": {
+          "name": "Hisuian"
         }
       },
       "types": [
@@ -27630,6 +27633,18 @@
     "359": {
       "name": "Icicle Spear",
       "type": 15
+    },
+    "360": {
+      "name": "Aeroblast Plus"
+    },
+    "361": {
+      "name": "Aeroblast Plus Plus"
+    },
+    "362": {
+      "name": "Sacred Fire Plus"
+    },
+    "363": {
+      "name": "Sacred Fire Plus Plus"
     }
   },
   "questRewardTypes": {
@@ -27710,25 +27725,20 @@
       "grunt": "Grunt",
       "secondReward": false,
       "encounters": {
-        "first": [],
-        "second": [
+        "first": [
           {
-            "id": 143,
-            "form": 199
+            "id": 155,
+            "form": 1127
           },
           {
-            "id": 282,
-            "form": 298
+            "id": 158,
+            "form": 1136
           }
         ],
-        "third": [
+        "second": [
           {
-            "id": 143,
-            "form": 199
-          },
-          {
-            "id": 149,
-            "form": 196
+            "id": 159,
+            "form": 1139
           }
         ]
       }
@@ -27750,28 +27760,9 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 49,
-            "form": 262
-          }
-        ],
-        "second": [
-          {
-            "id": 451,
-            "form": 1796
-          }
-        ],
-        "third": [
-          {
-            "id": 205,
-            "form": 1247
-          },
-          {
-            "id": 212,
-            "form": 250
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "8": {
@@ -27802,28 +27793,9 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 261,
-            "form": 1367
-          }
-        ],
-        "second": [
-          {
-            "id": 302,
-            "form": 923
-          },
-          {
-            "id": 332,
-            "form": 613
-          }
-        ],
-        "third": [
-          {
-            "id": 319,
-            "form": 737
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "11": {
@@ -27844,22 +27816,8 @@
       "secondReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 330,
-            "form": 752
-          }
-        ],
-        "third": [
-          {
-            "id": 149,
-            "form": 196
-          },
-          {
-            "id": 330,
-            "form": 752
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "13": {
@@ -27879,24 +27837,9 @@
       "grunt": "Grunt",
       "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 280,
-            "form": 292
-          }
-        ],
-        "second": [
-          {
-            "id": 281,
-            "form": 295
-          }
-        ],
-        "third": [
-          {
-            "id": 281,
-            "form": 295
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "15": {
@@ -27922,22 +27865,8 @@
             "form": 277
           }
         ],
-        "second": [
-          {
-            "id": 296,
-            "form": 1451
-          }
-        ],
-        "third": [
-          {
-            "id": 107,
-            "form": 277
-          },
-          {
-            "id": 297,
-            "form": 1454
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "17": {
@@ -27955,26 +27884,11 @@
       "type": "Fire",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 37,
-            "form": 55
-          }
-        ],
-        "second": [
-          {
-            "id": 126,
-            "form": 634
-          }
-        ],
-        "third": [
-          {
-            "id": 59,
-            "form": 283
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "19": {
@@ -27996,10 +27910,6 @@
       "encounters": {
         "first": [
           {
-            "id": 198,
-            "form": 855
-          },
-          {
             "id": 396,
             "form": 1658
           }
@@ -28010,12 +27920,7 @@
             "form": 1661
           }
         ],
-        "third": [
-          {
-            "id": 398,
-            "form": 1664
-          }
-        ]
+        "third": []
       }
     },
     "21": {
@@ -28048,22 +27953,12 @@
       "encounters": {
         "first": [
           {
-            "id": 387,
-            "form": 688
+            "id": 152,
+            "form": 1118
           }
         ],
-        "second": [
-          {
-            "id": 114,
-            "form": 1059
-          }
-        ],
-        "third": [
-          {
-            "id": 182,
-            "form": 274
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "24": {
@@ -28085,26 +27980,12 @@
       "encounters": {
         "first": [
           {
-            "id": 104,
-            "form": 224
+            "id": 449,
+            "form": 888
           }
         ],
-        "second": [
-          {
-            "id": 51,
-            "form": 61
-          }
-        ],
-        "third": [
-          {
-            "id": 330,
-            "form": 752
-          },
-          {
-            "id": 472,
-            "form": 806
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "26": {
@@ -28119,18 +28000,8 @@
             "form": 1598
           }
         ],
-        "second": [
-          {
-            "id": 459,
-            "form": 932
-          }
-        ],
-        "third": [
-          {
-            "id": 460,
-            "form": 935
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "27": {
@@ -28181,34 +28052,11 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 216,
-            "form": 1265
-          },
-          {
-            "id": 399,
-            "form": 1667
-          }
-        ],
-        "second": [
-          {
-            "id": 400,
-            "form": 1670
-          }
-        ],
-        "third": [
-          {
-            "id": 217,
-            "form": 1268
-          },
-          {
-            "id": 400,
-            "form": 1670
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "32": {
@@ -28219,26 +28067,12 @@
       "encounters": {
         "first": [
           {
-            "id": 32,
-            "form": 776
-          },
-          {
             "id": 41,
             "form": 157
           }
         ],
-        "second": [
-          {
-            "id": 110,
-            "form": 706
-          }
-        ],
-        "third": [
-          {
-            "id": 110,
-            "form": 706
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "33": {
@@ -28276,16 +28110,7 @@
           }
         ],
         "second": [],
-        "third": [
-          {
-            "id": 97,
-            "form": 217
-          },
-          {
-            "id": 375,
-            "form": 767
-          }
-        ]
+        "third": []
       }
     },
     "36": {
@@ -28306,44 +28131,23 @@
       "secondReward": true,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 347,
-            "form": 1574
-          }
-        ],
-        "third": [
-          {
-            "id": 248,
-            "form": 319
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "38": {
       "type": "Water",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           {
-            "id": 258,
-            "form": 205
+            "id": 158,
+            "form": 1136
           }
         ],
-        "second": [
-          {
-            "id": 90,
-            "form": 876
-          }
-        ],
-        "third": [
-          {
-            "id": 199,
-            "form": 1238
-          }
-        ]
+        "third": []
       }
     },
     "39": {
@@ -28354,12 +28158,7 @@
       "encounters": {
         "first": [],
         "second": [],
-        "third": [
-          {
-            "id": 130,
-            "form": 256
-          }
-        ]
+        "third": []
       }
     },
     "40": {
@@ -28381,24 +28180,11 @@
         "first": [],
         "second": [
           {
-            "id": 68,
-            "form": 815
-          },
-          {
-            "id": 169,
-            "form": 202
+            "id": 466,
+            "form": 643
           }
         ],
-        "third": [
-          {
-            "id": 59,
-            "form": 283
-          },
-          {
-            "id": 248,
-            "form": 319
-          }
-        ]
+        "third": []
       }
     },
     "42": {
@@ -28408,26 +28194,8 @@
       "secondReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 303,
-            "form": 833
-          },
-          {
-            "id": 346,
-            "form": 1571
-          }
-        ],
-        "third": [
-          {
-            "id": 212,
-            "form": 250
-          },
-          {
-            "id": 282,
-            "form": 298
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "43": {
@@ -28437,26 +28205,8 @@
       "secondReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 45,
-            "form": 271
-          },
-          {
-            "id": 80,
-            "form": 1020
-          }
-        ],
-        "third": [
-          {
-            "id": 105,
-            "form": 79
-          },
-          {
-            "id": 229,
-            "form": 232
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "44": {
@@ -28466,16 +28216,7 @@
       "secondReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 99,
-            "form": 873
-          },
-          {
-            "id": 464,
-            "form": 852
-          }
-        ],
+        "second": [],
         "third": []
       }
     },
@@ -28494,21 +28235,11 @@
       "type": "Decoy",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 70,
-            "form": 667
-          }
-        ],
-        "third": [
-          {
-            "id": 143,
-            "form": 199
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "47": {
@@ -28534,12 +28265,7 @@
             "form": 923
           }
         ],
-        "second": [
-          {
-            "id": 353,
-            "form": 908
-          }
-        ],
+        "second": [],
         "third": [
           {
             "id": 354,
@@ -28554,24 +28280,9 @@
       "grunt": "Grunt",
       "secondReward": true,
       "encounters": {
-        "first": [
-          {
-            "id": 309,
-            "form": 1484
-          }
-        ],
-        "second": [
-          {
-            "id": 125,
-            "form": 640
-          }
-        ],
-        "third": [
-          {
-            "id": 181,
-            "form": 652
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "50": {
@@ -28719,6 +28430,39 @@
     },
     "510": {
       "type": "NPC 10",
+      "gender": 0,
+      "grunt": "Event",
+      "secondReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "511": {
+      "type": "NPC Blanche",
+      "gender": 0,
+      "grunt": "Event",
+      "secondReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "512": {
+      "type": "NPC Candela",
+      "gender": 0,
+      "grunt": "Event",
+      "secondReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "513": {
+      "type": "NPC Spark",
       "gender": 0,
       "grunt": "Event",
       "secondReward": false,
