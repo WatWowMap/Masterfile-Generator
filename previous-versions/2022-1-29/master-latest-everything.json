@@ -12725,58 +12725,7 @@
         "2728": {
           "name": "Hisuian",
           "proto": "VOLTORB_HISUIAN",
-          "form": 2728,
-          "height": 0.5,
-          "weight": 13,
-          "quickMoves": {
-            "221": {
-              "moveId": 221,
-              "moveName": "Tackle",
-              "proto": "TACKLE_FAST",
-              "type": 1,
-              "power": 3
-            },
-            "249": {
-              "moveId": 249,
-              "moveName": "Charge Beam",
-              "proto": "CHARGE_BEAM_FAST",
-              "type": 13,
-              "power": 5
-            }
-          },
-          "chargedMoves": {
-            "79": {
-              "moveId": 79,
-              "moveName": "Thunderbolt",
-              "proto": "THUNDERBOLT",
-              "type": 13,
-              "power": 90
-            },
-            "125": {
-              "moveId": 125,
-              "moveName": "Swift",
-              "proto": "SWIFT",
-              "type": 1,
-              "power": 60
-            },
-            "273": {
-              "moveId": 273,
-              "moveName": "Energy Ball",
-              "proto": "ENERGY_BALL",
-              "type": 12,
-              "power": 90
-            }
-          },
-          "types": {
-            "12": {
-              "typeId": 12,
-              "typeName": "Grass"
-            },
-            "13": {
-              "typeId": 13,
-              "typeName": "Electric"
-            }
-          }
+          "form": 2728
         }
       },
       "types": {
@@ -12877,11 +12826,6 @@
           "name": "Purified",
           "proto": "ELECTRODE_PURIFIED",
           "form": 1052
-        },
-        "2735": {
-          "name": "Hisuian",
-          "proto": "ELECTRODE_HISUIAN",
-          "form": 2735
         }
       },
       "types": {
@@ -108150,24 +108094,7 @@
     "2728": {
       "formName": "Hisuian",
       "proto": "VOLTORB_HISUIAN",
-      "formId": 2728,
-      "height": 0.5,
-      "weight": 13,
-      "quickMoves": [
-        221,
-        249
-      ],
-      "chargedMoves": [
-        79,
-        125,
-        273
-      ],
-      "types": [
-        12,
-        13
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2728
     },
     "2729": {
       "formName": "S",
@@ -108201,11 +108128,6 @@
       "isCostume": true,
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "2735": {
-      "formName": "Hisuian",
-      "proto": "ELECTRODE_HISUIAN",
-      "formId": 2735
     }
   },
   "types": {
@@ -112036,11 +111958,6 @@
       "id": 363,
       "name": "Sacred Fire++",
       "proto": "SACRED_FIRE_PLUS_PLUS"
-    },
-    "364": {
-      "id": 364,
-      "name": "Acrobatics",
-      "proto": "ACROBATICS"
     }
   },
   "questTypes": {
@@ -112849,7 +112766,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           {
@@ -113307,10 +113224,6 @@
           {
             "id": 97,
             "formId": 217
-          },
-          {
-            "id": 375,
-            "formId": 767
           }
         ]
       }

@@ -6738,10 +6738,6 @@
       },
       "types": [
         {
-          "id": 12,
-          "name": "Grass"
-        },
-        {
           "id": 13,
           "name": "Electric"
         }
@@ -6781,27 +6777,6 @@
       "form": {
         "name": "Normal",
         "id": 1050
-      },
-      "types": [
-        {
-          "id": 13,
-          "name": "Electric"
-        }
-      ],
-      "stats": {
-        "baseAttack": 173,
-        "baseDefense": 173,
-        "baseStamina": 155
-      },
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
-    },
-    "101_2735": {
-      "name": "Electrode",
-      "id": 101,
-      "form": {
-        "name": "Hisuian",
-        "id": 2735
       },
       "types": [
         {
@@ -50989,7 +50964,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           228,
@@ -51371,8 +51346,7 @@
         ],
         "third": [
           65,
-          97,
-          375
+          97
         ]
       }
     },

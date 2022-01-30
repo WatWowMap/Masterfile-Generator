@@ -3400,20 +3400,7 @@
           "name": "Normal"
         },
         "2728": {
-          "name": "Hisuian",
-          "quickMoves": [
-            221,
-            249
-          ],
-          "chargedMoves": [
-            79,
-            125,
-            273
-          ],
-          "types": [
-            12,
-            13
-          ]
+          "name": "Hisuian"
         }
       },
       "types": [
@@ -3443,9 +3430,6 @@
       "forms": {
         "1050": {
           "name": "Normal"
-        },
-        "2735": {
-          "name": "Hisuian"
         }
       },
       "types": [
@@ -27661,9 +27645,6 @@
     },
     "363": {
       "name": "Sacred Fire Plus Plus"
-    },
-    "364": {
-      "name": "Acrobatics"
     }
   },
   "questRewardTypes": {
@@ -27861,7 +27842,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           {
@@ -28294,10 +28275,6 @@
           {
             "id": 97,
             "form": 217
-          },
-          {
-            "id": 375,
-            "form": 767
           }
         ]
       }

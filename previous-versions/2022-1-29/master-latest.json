@@ -6301,22 +6301,7 @@
         },
         "2728": {
           "name": "Hisuian",
-          "proto": "VOLTORB_HISUIAN",
-          "height": 0.5,
-          "weight": 13,
-          "quick_moves": [
-            "Tackle",
-            "Charge Beam"
-          ],
-          "charged_moves": [
-            "Thunderbolt",
-            "Swift",
-            "Energy Ball"
-          ],
-          "types": [
-            "Grass",
-            "Electric"
-          ]
+          "proto": "VOLTORB_HISUIAN"
         }
       },
       "types": [
@@ -6371,10 +6356,6 @@
         "1052": {
           "name": "Purified",
           "proto": "ELECTRODE_PURIFIED"
-        },
-        "2735": {
-          "name": "Hisuian",
-          "proto": "ELECTRODE_HISUIAN"
         }
       },
       "types": [
@@ -48606,10 +48587,6 @@
     "363": {
       "name": "Sacred Fire Plus Plus",
       "proto": "SACRED_FIRE_PLUS_PLUS"
-    },
-    "364": {
-      "name": "Acrobatics",
-      "proto": "ACROBATICS"
     }
   },
   "quest_types": {
@@ -49197,7 +49174,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           228,
@@ -49579,8 +49556,7 @@
         ],
         "third": [
           65,
-          97,
-          375
+          97
         ]
       }
     },

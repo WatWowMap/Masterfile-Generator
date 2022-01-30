@@ -4950,8 +4950,7 @@
       "forms": [
         1050,
         1051,
-        1052,
-        2735
+        1052
       ],
       "types": [
         13
@@ -54573,24 +54572,7 @@
     "2728": {
       "formName": "Hisuian",
       "proto": "VOLTORB_HISUIAN",
-      "formId": 2728,
-      "height": 0.5,
-      "weight": 13,
-      "quickMoves": [
-        221,
-        249
-      ],
-      "chargedMoves": [
-        79,
-        125,
-        273
-      ],
-      "types": [
-        12,
-        13
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2728
     },
     "2729": {
       "formName": "S",
@@ -54624,11 +54606,6 @@
       "isCostume": true,
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "2735": {
-      "formName": "Hisuian",
-      "proto": "ELECTRODE_HISUIAN",
-      "formId": 2735
     }
   },
   "types": {
@@ -58235,7 +58212,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
           "id": 228,
@@ -58926,11 +58903,6 @@
         {
           "id": 97,
           "formId": 217,
-          "position": "third"
-        },
-        {
-          "id": 375,
-          "formId": 767,
           "position": "third"
         }
       ]
