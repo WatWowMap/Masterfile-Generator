@@ -37711,53 +37711,23 @@
       "forms": {
         "2614": {
           "name": "Red",
-          "proto": "FLABEBE_RED",
-          "evolutions": [
-            {
-              "pokemon": 670,
-              "form": 2619
-            }
-          ]
+          "proto": "FLABEBE_RED"
         },
         "2615": {
           "name": "Yellow",
-          "proto": "FLABEBE_YELLOW",
-          "evolutions": [
-            {
-              "pokemon": 670,
-              "form": 2620
-            }
-          ]
+          "proto": "FLABEBE_YELLOW"
         },
         "2616": {
           "name": "Orange",
-          "proto": "FLABEBE_ORANGE",
-          "evolutions": [
-            {
-              "pokemon": 670,
-              "form": 2621
-            }
-          ]
+          "proto": "FLABEBE_ORANGE"
         },
         "2617": {
           "name": "Blue",
-          "proto": "FLABEBE_BLUE",
-          "evolutions": [
-            {
-              "pokemon": 670,
-              "form": 2622
-            }
-          ]
+          "proto": "FLABEBE_BLUE"
         },
         "2618": {
           "name": "White",
-          "proto": "FLABEBE_WHITE",
-          "evolutions": [
-            {
-              "pokemon": 670,
-              "form": 2623
-            }
-          ]
+          "proto": "FLABEBE_WHITE"
         }
       },
       "types": [
@@ -37782,15 +37752,13 @@
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 4,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 670,
-          "form": 2619
+          "pokemon": 670
         }
       ],
       "little": true
@@ -37804,53 +37772,23 @@
       "forms": {
         "2619": {
           "name": "Red",
-          "proto": "FLOETTE_RED",
-          "evolutions": [
-            {
-              "pokemon": 671,
-              "form": 2624
-            }
-          ]
+          "proto": "FLOETTE_RED"
         },
         "2620": {
           "name": "Yellow",
-          "proto": "FLOETTE_YELLOW",
-          "evolutions": [
-            {
-              "pokemon": 671,
-              "form": 2625
-            }
-          ]
+          "proto": "FLOETTE_YELLOW"
         },
         "2621": {
           "name": "Orange",
-          "proto": "FLOETTE_ORANGE",
-          "evolutions": [
-            {
-              "pokemon": 671,
-              "form": 2626
-            }
-          ]
+          "proto": "FLOETTE_ORANGE"
         },
         "2622": {
           "name": "Blue",
-          "proto": "FLOETTE_BLUE",
-          "evolutions": [
-            {
-              "pokemon": 671,
-              "form": 2627
-            }
-          ]
+          "proto": "FLOETTE_BLUE"
         },
         "2623": {
           "name": "White",
-          "proto": "FLOETTE_WHITE",
-          "evolutions": [
-            {
-              "pokemon": 671,
-              "form": 2628
-            }
-          ]
+          "proto": "FLOETTE_WHITE"
         }
       },
       "types": [
@@ -37875,15 +37813,13 @@
       "capture_rate": 0.25,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 4,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 671,
-          "form": 2624
+          "pokemon": 671
         }
       ]
     },
@@ -48645,13 +48581,13 @@
       "name": "Magical Leaf",
       "proto": "MAGICAL_LEAF_FAST",
       "type": "Grass",
-      "power": 10
+      "power": 9
     },
     "358": {
       "name": "Sacred Fire",
       "proto": "SACRED_FIRE",
       "type": "Fire",
-      "power": 130
+      "power": 120
     },
     "359": {
       "name": "Icicle Spear",
@@ -48661,27 +48597,19 @@
     },
     "360": {
       "name": "Aeroblast Plus",
-      "proto": "AEROBLAST_PLUS",
-      "type": "Flying",
-      "power": 170
+      "proto": "AEROBLAST_PLUS"
     },
     "361": {
       "name": "Aeroblast Plus Plus",
-      "proto": "AEROBLAST_PLUS_PLUS",
-      "type": "Flying",
-      "power": 170
+      "proto": "AEROBLAST_PLUS_PLUS"
     },
     "362": {
       "name": "Sacred Fire Plus",
-      "proto": "SACRED_FIRE_PLUS",
-      "type": "Fire",
-      "power": 130
+      "proto": "SACRED_FIRE_PLUS"
     },
     "363": {
       "name": "Sacred Fire Plus Plus",
-      "proto": "SACRED_FIRE_PLUS_PLUS",
-      "type": "Fire",
-      "power": 130
+      "proto": "SACRED_FIRE_PLUS_PLUS"
     },
     "364": {
       "name": "Acrobatics",

@@ -75959,65 +75959,35 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2614": {
           "name": "Red",
           "proto": "FLABEBE_RED",
-          "form": 2614,
-          "evolutions": {
-            "670": {
-              "pokemon": 670,
-              "form": 2619,
-              "candyCost": 25
-            }
-          }
+          "form": 2614
         },
         "2615": {
           "name": "Yellow",
           "proto": "FLABEBE_YELLOW",
-          "form": 2615,
-          "evolutions": {
-            "670": {
-              "pokemon": 670,
-              "form": 2620,
-              "candyCost": 25
-            }
-          }
+          "form": 2615
         },
         "2616": {
           "name": "Orange",
           "proto": "FLABEBE_ORANGE",
-          "form": 2616,
-          "evolutions": {
-            "670": {
-              "pokemon": 670,
-              "form": 2621,
-              "candyCost": 25
-            }
-          }
+          "form": 2616
         },
         "2617": {
           "name": "Blue",
           "proto": "FLABEBE_BLUE",
-          "form": 2617,
-          "evolutions": {
-            "670": {
-              "pokemon": 670,
-              "form": 2622,
-              "candyCost": 25
-            }
-          }
+          "form": 2617
         },
         "2618": {
           "name": "White",
           "proto": "FLABEBE_WHITE",
-          "form": 2618,
-          "evolutions": {
-            "670": {
-              "pokemon": 670,
-              "form": 2623,
-              "candyCost": 25
-            }
-          }
+          "form": 2618
         }
       },
       "types": {
@@ -76080,7 +76050,6 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 4,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -76091,7 +76060,7 @@
       "evolutions": {
         "670": {
           "pokemon": 670,
-          "form": 2619,
+          "form": 0,
           "candyCost": 25
         }
       },
@@ -76104,100 +76073,35 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2619": {
           "name": "Red",
           "proto": "FLOETTE_RED",
-          "form": 2619,
-          "evolutions": {
-            "671": {
-              "pokemon": 671,
-              "form": 2624,
-              "candyCost": 100,
-              "questRequirement": {
-                "questType": 34,
-                "target": 20,
-                "assetsRef": "challenge_buddy_affection_plural",
-                "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 20 hearts with your buddy"
-              }
-            }
-          }
+          "form": 2619
         },
         "2620": {
           "name": "Yellow",
           "proto": "FLOETTE_YELLOW",
-          "form": 2620,
-          "evolutions": {
-            "671": {
-              "pokemon": 671,
-              "form": 2625,
-              "candyCost": 100,
-              "questRequirement": {
-                "questType": 34,
-                "target": 20,
-                "assetsRef": "challenge_buddy_affection_plural",
-                "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 20 hearts with your buddy"
-              }
-            }
-          }
+          "form": 2620
         },
         "2621": {
           "name": "Orange",
           "proto": "FLOETTE_ORANGE",
-          "form": 2621,
-          "evolutions": {
-            "671": {
-              "pokemon": 671,
-              "form": 2626,
-              "candyCost": 100,
-              "questRequirement": {
-                "questType": 34,
-                "target": 20,
-                "assetsRef": "challenge_buddy_affection_plural",
-                "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 20 hearts with your buddy"
-              }
-            }
-          }
+          "form": 2621
         },
         "2622": {
           "name": "Blue",
           "proto": "FLOETTE_BLUE",
-          "form": 2622,
-          "evolutions": {
-            "671": {
-              "pokemon": 671,
-              "form": 2627,
-              "candyCost": 100,
-              "questRequirement": {
-                "questType": 34,
-                "target": 20,
-                "assetsRef": "challenge_buddy_affection_plural",
-                "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 20 hearts with your buddy"
-              }
-            }
-          }
+          "form": 2622
         },
         "2623": {
           "name": "White",
           "proto": "FLOETTE_WHITE",
-          "form": 2623,
-          "evolutions": {
-            "671": {
-              "pokemon": 671,
-              "form": 2628,
-              "candyCost": 100,
-              "questRequirement": {
-                "questType": 34,
-                "target": 20,
-                "assetsRef": "challenge_buddy_affection_plural",
-                "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 20 hearts with your buddy"
-              }
-            }
-          }
+          "form": 2623
         }
       },
       "types": {
@@ -76262,7 +76166,6 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 4,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -76273,15 +76176,8 @@
       "evolutions": {
         "671": {
           "pokemon": 671,
-          "form": 2624,
-          "candyCost": 100,
-          "questRequirement": {
-            "questType": 34,
-            "target": 20,
-            "assetsRef": "challenge_buddy_affection_plural",
-            "i18n": "Earn {{amount}} hearts with your buddy",
-            "translated": "Earn 20 hearts with your buddy"
-          }
+          "form": 0,
+          "candyCost": 100
         }
       }
     },
@@ -76292,6 +76188,11 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2624": {
           "name": "Red",
           "proto": "FLORGES_RED",
@@ -107542,127 +107443,52 @@
     "2614": {
       "formName": "Red",
       "proto": "FLABEBE_RED",
-      "formId": 2614,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2619,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2614
     },
     "2615": {
       "formName": "Yellow",
       "proto": "FLABEBE_YELLOW",
-      "formId": 2615,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2620,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2615
     },
     "2616": {
       "formName": "Orange",
       "proto": "FLABEBE_ORANGE",
-      "formId": 2616,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2621,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2616
     },
     "2617": {
       "formName": "Blue",
       "proto": "FLABEBE_BLUE",
-      "formId": 2617,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2622,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2617
     },
     "2618": {
       "formName": "White",
       "proto": "FLABEBE_WHITE",
-      "formId": 2618,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2623,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2618
     },
     "2619": {
       "formName": "Red",
       "proto": "FLOETTE_RED",
-      "formId": 2619,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2624,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2619
     },
     "2620": {
       "formName": "Yellow",
       "proto": "FLOETTE_YELLOW",
-      "formId": 2620,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2625,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2620
     },
     "2621": {
       "formName": "Orange",
       "proto": "FLOETTE_ORANGE",
-      "formId": 2621,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2626,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2621
     },
     "2622": {
       "formName": "Blue",
       "proto": "FLOETTE_BLUE",
-      "formId": 2622,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2627,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2622
     },
     "2623": {
       "formName": "White",
       "proto": "FLOETTE_WHITE",
-      "formId": 2623,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2628,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2623
     },
     "2624": {
       "formName": "Red",
@@ -112179,13 +112005,13 @@
       "id": 357,
       "name": "Magical Leaf",
       "proto": "MAGICAL_LEAF_FAST",
-      "power": 10
+      "power": 9
     },
     "358": {
       "id": 358,
       "name": "Sacred Fire",
       "proto": "SACRED_FIRE",
-      "power": 130
+      "power": 120
     },
     "359": {
       "id": 359,
@@ -112196,26 +112022,22 @@
     "360": {
       "id": 360,
       "name": "Aeroblast+",
-      "proto": "AEROBLAST_PLUS",
-      "power": 170
+      "proto": "AEROBLAST_PLUS"
     },
     "361": {
       "id": 361,
       "name": "Aeroblast++",
-      "proto": "AEROBLAST_PLUS_PLUS",
-      "power": 170
+      "proto": "AEROBLAST_PLUS_PLUS"
     },
     "362": {
       "id": 362,
       "name": "Sacred Fire+",
-      "proto": "SACRED_FIRE_PLUS",
-      "power": 130
+      "proto": "SACRED_FIRE_PLUS"
     },
     "363": {
       "id": 363,
       "name": "Sacred Fire++",
-      "proto": "SACRED_FIRE_PLUS_PLUS",
-      "power": 130
+      "proto": "SACRED_FIRE_PLUS_PLUS"
     },
     "364": {
       "id": 364,

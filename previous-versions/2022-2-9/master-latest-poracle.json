@@ -39759,7 +39759,7 @@
       "evolutions": [
         {
           "evoId": 670,
-          "id": 2619,
+          "id": 0,
           "candyCost": 25
         }
       ]
@@ -39783,14 +39783,7 @@
         "baseStamina": 127
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "id": 2619,
-          "candyCost": 25
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "669_2615": {
       "name": "Flabébé",
@@ -39811,14 +39804,7 @@
         "baseStamina": 127
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "id": 2620,
-          "candyCost": 25
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "669_2616": {
       "name": "Flabébé",
@@ -39839,14 +39825,7 @@
         "baseStamina": 127
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "id": 2621,
-          "candyCost": 25
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "669_2617": {
       "name": "Flabébé",
@@ -39867,14 +39846,7 @@
         "baseStamina": 127
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "id": 2622,
-          "candyCost": 25
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "669_2618": {
       "name": "Flabébé",
@@ -39895,14 +39867,7 @@
         "baseStamina": 127
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "id": 2623,
-          "candyCost": 25
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "670_0": {
       "name": "Floette",
@@ -39927,12 +39892,8 @@
       "evolutions": [
         {
           "evoId": 671,
-          "id": 2624,
-          "candyCost": 100,
-          "questRequirement": {
-            "target": 20,
-            "i18n": "Earn {{amount}} hearts with your buddy"
-          }
+          "id": 0,
+          "candyCost": 100
         }
       ]
     },
@@ -39955,18 +39916,7 @@
         "baseStamina": 144
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "id": 2624,
-          "candyCost": 100,
-          "questRequirement": {
-            "target": 20,
-            "i18n": "Earn {{amount}} hearts with your buddy"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "670_2620": {
       "name": "Floette",
@@ -39987,18 +39937,7 @@
         "baseStamina": 144
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "id": 2625,
-          "candyCost": 100,
-          "questRequirement": {
-            "target": 20,
-            "i18n": "Earn {{amount}} hearts with your buddy"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "670_2621": {
       "name": "Floette",
@@ -40019,18 +39958,7 @@
         "baseStamina": 144
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "id": 2626,
-          "candyCost": 100,
-          "questRequirement": {
-            "target": 20,
-            "i18n": "Earn {{amount}} hearts with your buddy"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "670_2622": {
       "name": "Floette",
@@ -40051,18 +39979,7 @@
         "baseStamina": 144
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "id": 2627,
-          "candyCost": 100,
-          "questRequirement": {
-            "target": 20,
-            "i18n": "Earn {{amount}} hearts with your buddy"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "670_2623": {
       "name": "Floette",
@@ -40083,18 +40000,7 @@
         "baseStamina": 144
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "id": 2628,
-          "candyCost": 100,
-          "questRequirement": {
-            "target": 20,
-            "i18n": "Earn {{amount}} hearts with your buddy"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "671_0": {
       "name": "Florges",
@@ -50768,22 +50674,6 @@
     "359": {
       "name": "Icicle Spear",
       "type": "Ice"
-    },
-    "360": {
-      "name": "Aeroblast+",
-      "type": "Flying"
-    },
-    "361": {
-      "name": "Aeroblast++",
-      "type": "Flying"
-    },
-    "362": {
-      "name": "Sacred Fire+",
-      "type": "Fire"
-    },
-    "363": {
-      "name": "Sacred Fire++",
-      "type": "Fire"
     }
   },
   "questTypes": {

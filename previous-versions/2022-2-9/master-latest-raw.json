@@ -31578,7 +31578,6 @@
       "captureRate": 0.5,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 4,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -31588,7 +31587,6 @@
       "evolutions": [
         {
           "evoId": 670,
-          "formId": 2619,
           "candyCost": 25
         }
       ],
@@ -31631,7 +31629,6 @@
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
-      "buddyGroupNumber": 4,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -31641,9 +31638,7 @@
       "evolutions": [
         {
           "evoId": 671,
-          "formId": 2624,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
+          "candyCost": 100
         }
       ]
     },
@@ -53871,127 +53866,52 @@
     "2614": {
       "formName": "Red",
       "proto": "FLABEBE_RED",
-      "formId": 2614,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2619,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2614
     },
     "2615": {
       "formName": "Yellow",
       "proto": "FLABEBE_YELLOW",
-      "formId": 2615,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2620,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2615
     },
     "2616": {
       "formName": "Orange",
       "proto": "FLABEBE_ORANGE",
-      "formId": 2616,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2621,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2616
     },
     "2617": {
       "formName": "Blue",
       "proto": "FLABEBE_BLUE",
-      "formId": 2617,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2622,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2617
     },
     "2618": {
       "formName": "White",
       "proto": "FLABEBE_WHITE",
-      "formId": 2618,
-      "evolutions": [
-        {
-          "evoId": 670,
-          "formId": 2623,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2618
     },
     "2619": {
       "formName": "Red",
       "proto": "FLOETTE_RED",
-      "formId": 2619,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2624,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2619
     },
     "2620": {
       "formName": "Yellow",
       "proto": "FLOETTE_YELLOW",
-      "formId": 2620,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2625,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2620
     },
     "2621": {
       "formName": "Orange",
       "proto": "FLOETTE_ORANGE",
-      "formId": 2621,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2626,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2621
     },
     "2622": {
       "formName": "Blue",
       "proto": "FLOETTE_BLUE",
-      "formId": 2622,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2627,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2622
     },
     "2623": {
       "formName": "White",
       "proto": "FLOETTE_WHITE",
-      "formId": 2623,
-      "evolutions": [
-        {
-          "evoId": 671,
-          "formId": 2628,
-          "candyCost": 100,
-          "questRequirement": "FLORGES_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2623
     },
     "2624": {
       "formName": "Red",
@@ -57422,14 +57342,14 @@
       "moveName": "Magical Leaf",
       "proto": "MAGICAL_LEAF_FAST",
       "type": 12,
-      "power": 10
+      "power": 9
     },
     "358": {
       "moveId": 358,
       "moveName": "Sacred Fire",
       "proto": "SACRED_FIRE",
       "type": 10,
-      "power": 130
+      "power": 120
     },
     "359": {
       "moveId": 359,
@@ -57437,34 +57357,6 @@
       "proto": "ICICLE_SPEAR",
       "type": 15,
       "power": 60
-    },
-    "360": {
-      "moveId": 360,
-      "moveName": "Aeroblast Plus",
-      "proto": "AEROBLAST_PLUS",
-      "type": 3,
-      "power": 170
-    },
-    "361": {
-      "moveId": 361,
-      "moveName": "Aeroblast Plus Plus",
-      "proto": "AEROBLAST_PLUS_PLUS",
-      "type": 3,
-      "power": 170
-    },
-    "362": {
-      "moveId": 362,
-      "moveName": "Sacred Fire Plus",
-      "proto": "SACRED_FIRE_PLUS",
-      "type": 10,
-      "power": 130
-    },
-    "363": {
-      "moveId": 363,
-      "moveName": "Sacred Fire Plus Plus",
-      "proto": "SACRED_FIRE_PLUS_PLUS",
-      "type": 10,
-      "power": 130
     }
   },
   "questTypes": {
