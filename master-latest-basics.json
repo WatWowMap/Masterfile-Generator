@@ -11553,8 +11553,7 @@
         {
           "pokemon": 724
         }
-      ],
-      "little": true
+      ]
     },
     "724": {
       "forms": {
@@ -11589,8 +11588,7 @@
         {
           "pokemon": 727
         }
-      ],
-      "little": true
+      ]
     },
     "727": {
       "forms": {
@@ -11625,8 +11623,7 @@
         {
           "pokemon": 730
         }
-      ],
-      "little": true
+      ]
     },
     "730": {
       "forms": {
@@ -11661,8 +11658,7 @@
         {
           "pokemon": 733
         }
-      ],
-      "little": true
+      ]
     },
     "733": {
       "forms": {
@@ -11719,8 +11715,7 @@
         {
           "pokemon": 738
         }
-      ],
-      "little": true
+      ]
     },
     "738": {
       "forms": {
@@ -11794,7 +11789,12 @@
       "stamina": 128,
       "evolutions": [
         {
-          "pokemon": 745
+          "pokemon": 745,
+          "form": 2684
+        },
+        {
+          "pokemon": 745,
+          "form": 2685
         }
       ],
       "little": true
@@ -11802,8 +11802,16 @@
     "745": {
       "forms": {
         "2684": {},
-        "2685": {},
-        "2686": {}
+        "2685": {
+          "attack": 218,
+          "defense": 152,
+          "stamina": 198
+        },
+        "2686": {
+          "attack": 234,
+          "defense": 139,
+          "stamina": 181
+        }
       },
       "attack": 231,
       "defense": 140,
@@ -11812,7 +11820,11 @@
     "746": {
       "forms": {
         "2687": {},
-        "2688": {}
+        "2688": {
+          "attack": 255,
+          "defense": 242,
+          "stamina": 128
+        }
       },
       "attack": 46,
       "defense": 43,
@@ -11937,7 +11949,8 @@
       "stamina": 134,
       "evolutions": [
         {
-          "pokemon": 758
+          "pokemon": 758,
+          "gender_requirement": 2
         }
       ],
       "little": true
@@ -11997,8 +12010,7 @@
         {
           "pokemon": 763
         }
-      ],
-      "little": true
+      ]
     },
     "763": {
       "forms": {
@@ -12093,7 +12105,8 @@
       "stamina": 216,
       "evolutions": [
         {
-          "pokemon": 773
+          "pokemon": 773,
+          "form": 2689
         }
       ],
       "little": true
@@ -12126,13 +12139,41 @@
     "774": {
       "forms": {
         "2707": {},
-        "2708": {},
-        "2709": {},
-        "2710": {},
-        "2711": {},
-        "2712": {},
-        "2713": {},
-        "2714": {}
+        "2708": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        },
+        "2709": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        },
+        "2710": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        },
+        "2711": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        },
+        "2712": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        },
+        "2713": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        },
+        "2714": {
+          "attack": 218,
+          "defense": 131,
+          "stamina": 155
+        }
       },
       "attack": 116,
       "defense": 194,
@@ -12220,8 +12261,7 @@
         {
           "pokemon": 784
         }
-      ],
-      "little": true
+      ]
     },
     "784": {
       "forms": {
@@ -12291,8 +12331,7 @@
         {
           "pokemon": 792
         }
-      ],
-      "little": true
+      ]
     },
     "791": {
       "forms": {
@@ -12369,9 +12408,21 @@
     "800": {
       "forms": {
         "2717": {},
-        "2718": {},
-        "2719": {},
-        "2720": {}
+        "2718": {
+          "attack": 277,
+          "defense": 220,
+          "stamina": 200
+        },
+        "2719": {
+          "attack": 277,
+          "defense": 220,
+          "stamina": 200
+        },
+        "2720": {
+          "attack": 337,
+          "defense": 196,
+          "stamina": 200
+        }
       },
       "attack": 251,
       "defense": 195,

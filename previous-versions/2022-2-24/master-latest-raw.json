@@ -33898,42 +33898,23 @@
     "722": {
       "pokemonName": "Rowlet",
       "pokedexId": 722,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 102,
+      "defense": 99,
+      "stamina": 169,
       "types": [
         3,
         12
       ],
-      "attack": 102,
-      "defense": 99,
-      "stamina": 169,
-      "height": 0.3,
-      "weight": 1.5,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 722,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 4,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 723,
-          "candyCost": 25
+          "evoId": 723
         }
       ],
       "little": true
@@ -33941,123 +33922,64 @@
     "723": {
       "pokemonName": "Dartrix",
       "pokedexId": 723,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        3,
-        12
       ],
       "attack": 142,
       "defense": 139,
       "stamina": 186,
-      "height": 0.7,
-      "weight": 16,
-      "quickMoves": [
-        133
+      "types": [
+        3,
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 722,
-      "fleeRate": 0.1,
-      "captureRate": 0.1,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 5,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 724,
-          "candyCost": 100
+          "evoId": 724
         }
-      ]
+      ],
+      "little": true
     },
     "724": {
       "pokemonName": "Decidueye",
       "pokedexId": 724,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        8,
-        12
       ],
       "attack": 210,
       "defense": 179,
       "stamina": 186,
-      "height": 1.6,
-      "weight": 36.6,
-      "quickMoves": [
-        133
+      "types": [
+        8,
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 722,
-      "fleeRate": 0.1,
-      "captureRate": 0.05,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 6,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "725": {
       "pokemonName": "Litten",
       "pokedexId": 725,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        10
-      ],
       "attack": 128,
       "defense": 79,
       "stamina": 128,
-      "height": 0.4,
-      "weight": 4.3,
-      "quickMoves": [
-        133
+      "types": [
+        10
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 725,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 1,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 726,
-          "candyCost": 25
+          "evoId": 726
         }
       ],
       "little": true
@@ -34065,122 +33987,63 @@
     "726": {
       "pokemonName": "Torracat",
       "pokedexId": 726,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        10
       ],
       "attack": 174,
       "defense": 103,
       "stamina": 163,
-      "height": 0.7,
-      "weight": 25,
-      "quickMoves": [
-        133
+      "types": [
+        10
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 725,
-      "fleeRate": 0.1,
-      "captureRate": 0.1,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 727,
-          "candyCost": 100
+          "evoId": 727
         }
-      ]
+      ],
+      "little": true
     },
     "727": {
       "pokemonName": "Incineroar",
       "pokedexId": 727,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        10,
-        17
       ],
       "attack": 214,
       "defense": 175,
       "stamina": 216,
-      "height": 1.8,
-      "weight": 83,
-      "quickMoves": [
-        133
+      "types": [
+        10,
+        17
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 725,
-      "fleeRate": 0.1,
-      "captureRate": 0.05,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 3,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "728": {
       "pokemonName": "Popplio",
       "pokedexId": 728,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        11
-      ],
       "attack": 120,
       "defense": 103,
       "stamina": 137,
-      "height": 0.4,
-      "weight": 7.5,
-      "quickMoves": [
-        133
+      "types": [
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 728,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 729,
-          "candyCost": 25
+          "evoId": 729
         }
       ],
       "little": true
@@ -34188,123 +34051,64 @@
     "729": {
       "pokemonName": "Brionne",
       "pokedexId": 729,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        11
       ],
       "attack": 168,
       "defense": 145,
       "stamina": 155,
-      "height": 0.6,
-      "weight": 17.5,
-      "quickMoves": [
-        133
+      "types": [
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 728,
-      "fleeRate": 0.1,
-      "captureRate": 0.1,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 730,
-          "candyCost": 100
+          "evoId": 730
         }
-      ]
+      ],
+      "little": true
     },
     "730": {
       "pokemonName": "Primarina",
       "pokedexId": 730,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        11,
-        18
       ],
       "attack": 232,
       "defense": 195,
       "stamina": 190,
-      "height": 1.8,
-      "weight": 44,
-      "quickMoves": [
-        133
+      "types": [
+        11,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 728,
-      "fleeRate": 0.1,
-      "captureRate": 0.05,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 3,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "731": {
       "pokemonName": "Pikipek",
       "pokedexId": 731,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 136,
+      "defense": 59,
+      "stamina": 111,
       "types": [
         1,
         3
       ],
-      "attack": 136,
-      "defense": 59,
-      "stamina": 111,
-      "height": 0.3,
-      "weight": 1.2,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 731,
-      "fleeRate": 0.2,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 4,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 732,
-          "candyCost": 25
+          "evoId": 732
         }
       ],
       "little": true
@@ -34312,123 +34116,64 @@
     "732": {
       "pokemonName": "Trumbeak",
       "pokedexId": 732,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        1,
-        3
       ],
       "attack": 159,
       "defense": 100,
       "stamina": 146,
-      "height": 0.6,
-      "weight": 14.8,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 731,
-      "fleeRate": 0.09,
-      "captureRate": 0.25,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 5,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 733,
-          "candyCost": 100
-        }
-      ]
-    },
-    "733": {
-      "pokemonName": "Toucannon",
-      "pokedexId": 733,
-      "genId": 7,
-      "generation": "Alola",
-      "forms": [
-        0
-      ],
       "types": [
         1,
         3
       ],
-      "attack": 222,
-      "defense": 146,
-      "stamina": 190,
-      "height": 1.1,
-      "weight": 26,
-      "quickMoves": [
-        133
+      "unreleased": true,
+      "evolutions": [
+        {
+          "evoId": 733
+        }
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 731,
-      "fleeRate": 0.05,
-      "captureRate": 0.125,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 6,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "little": true
     },
-    "734": {
-      "pokemonName": "Yungoos",
-      "pokedexId": 734,
+    "733": {
+      "pokemonName": "Toucannon",
+      "pokedexId": 733,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 222,
+      "defense": 146,
+      "stamina": 190,
       "types": [
-        1
+        1,
+        3
+      ],
+      "unreleased": true
+    },
+    "734": {
+      "pokemonName": "Yungoos",
+      "pokedexId": 734,
+      "defaultFormId": 0,
+      "genId": 7,
+      "generation": "Alola",
+      "forms": [
+        0
       ],
       "attack": 122,
       "defense": 56,
       "stamina": 134,
-      "height": 0.4,
-      "weight": 6,
-      "quickMoves": [
-        133
+      "types": [
+        1
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 734,
-      "fleeRate": 0.1,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 735,
-          "candyCost": 50
+          "evoId": 735
         }
       ],
       "little": true
@@ -34436,78 +34181,39 @@
     "735": {
       "pokemonName": "Gumshoos",
       "pokedexId": 735,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        1
       ],
       "attack": 194,
       "defense": 113,
       "stamina": 204,
-      "height": 0.7,
-      "weight": 14.2,
-      "quickMoves": [
-        133
+      "types": [
+        1
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 734,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "736": {
       "pokemonName": "Grubbin",
       "pokedexId": 736,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        7
-      ],
       "attack": 115,
       "defense": 85,
       "stamina": 132,
-      "height": 0.4,
-      "weight": 4.4,
-      "quickMoves": [
-        133
+      "types": [
+        7
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 736,
-      "fleeRate": 0.2,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 737,
-          "candyCost": 25
+          "evoId": 737
         }
       ],
       "little": true
@@ -34515,123 +34221,64 @@
     "737": {
       "pokemonName": "Charjabug",
       "pokedexId": 737,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        7,
-        13
       ],
       "attack": 145,
       "defense": 161,
       "stamina": 149,
-      "height": 0.5,
-      "weight": 10.5,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 736,
-      "fleeRate": 0.09,
-      "captureRate": 0.25,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 738,
-          "candyCost": 100
-        }
-      ]
-    },
-    "738": {
-      "pokemonName": "Vikavolt",
-      "pokedexId": 738,
-      "genId": 7,
-      "generation": "Alola",
-      "forms": [
-        0
-      ],
       "types": [
         7,
         13
       ],
-      "attack": 254,
-      "defense": 158,
-      "stamina": 184,
-      "height": 1.5,
-      "weight": 45,
-      "quickMoves": [
-        133
+      "unreleased": true,
+      "evolutions": [
+        {
+          "evoId": 738
+        }
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 736,
-      "fleeRate": 0.05,
-      "captureRate": 0.125,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "little": true
     },
-    "739": {
-      "pokemonName": "Crabrawler",
-      "pokedexId": 739,
+    "738": {
+      "pokemonName": "Vikavolt",
+      "pokedexId": 738,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 254,
+      "defense": 158,
+      "stamina": 184,
       "types": [
-        2
+        7,
+        13
+      ],
+      "unreleased": true
+    },
+    "739": {
+      "pokemonName": "Crabrawler",
+      "pokedexId": 739,
+      "defaultFormId": 0,
+      "genId": 7,
+      "generation": "Alola",
+      "forms": [
+        0
       ],
       "attack": 150,
       "defense": 104,
       "stamina": 132,
-      "height": 0.6,
-      "weight": 7,
-      "quickMoves": [
-        133
+      "types": [
+        2
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 739,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 740,
-          "candyCost": 50
+          "evoId": 740
         }
       ],
       "little": true
@@ -34639,40 +34286,20 @@
     "740": {
       "pokemonName": "Crabominable",
       "pokedexId": 740,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 231,
+      "defense": 138,
+      "stamina": 219,
       "types": [
         2,
         15
       ],
-      "attack": 231,
-      "defense": 138,
-      "stamina": 219,
-      "height": 1.7,
-      "weight": 180,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 739,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "741": {
       "pokemonName": "Oricorio",
@@ -34698,42 +34325,23 @@
     "742": {
       "pokemonName": "Cutiefly",
       "pokedexId": 742,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 110,
+      "defense": 81,
+      "stamina": 120,
       "types": [
         7,
         18
       ],
-      "attack": 110,
-      "defense": 81,
-      "stamina": 120,
-      "height": 0.1,
-      "weight": 0.2,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 742,
-      "fleeRate": 0.2,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 743,
-          "candyCost": 50
+          "evoId": 743
         }
       ],
       "little": true
@@ -34741,87 +34349,40 @@
     "743": {
       "pokemonName": "Ribombee",
       "pokedexId": 743,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        7,
-        18
       ],
       "attack": 198,
       "defense": 146,
       "stamina": 155,
-      "height": 0.2,
-      "weight": 0.5,
-      "quickMoves": [
-        133
+      "types": [
+        7,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 742,
-      "fleeRate": 0.07,
-      "captureRate": 0.15,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "744": {
       "pokemonName": "Rockruff",
       "pokedexId": 744,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        6
-      ],
       "attack": 117,
       "defense": 78,
       "stamina": 128,
-      "height": 0.5,
-      "weight": 9.2,
-      "quickMoves": [
-        133
+      "types": [
+        6
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 744,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 745,
-          "formId": 2684,
-          "candyCost": 50,
-          "onlyDaytime": true
-        },
-        {
-          "evoId": 745,
-          "formId": 2685,
-          "candyCost": 50,
-          "onlyNighttime": true
+          "evoId": 745
         }
       ],
       "little": true
@@ -34837,34 +34398,13 @@
         2685,
         2686
       ],
-      "types": [
-        6
-      ],
       "attack": 231,
       "defense": 140,
       "stamina": 181,
-      "height": 0.8,
-      "weight": 25,
-      "quickMoves": [
-        133
+      "types": [
+        6
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 744,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "746": {
       "pokemonName": "Wishiwashi",
@@ -34876,72 +34416,34 @@
         2687,
         2688
       ],
-      "types": [
-        11
-      ],
       "attack": 46,
       "defense": 43,
       "stamina": 128,
-      "height": 0.2,
-      "weight": 0.3,
-      "quickMoves": [
-        133
+      "types": [
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 746,
-      "fleeRate": 0.07,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "747": {
       "pokemonName": "Mareanie",
       "pokedexId": 747,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 98,
+      "defense": 110,
+      "stamina": 137,
       "types": [
         4,
         11
       ],
-      "attack": 98,
-      "defense": 110,
-      "stamina": 137,
-      "height": 0.4,
-      "weight": 8,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 747,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 748,
-          "candyCost": 50
+          "evoId": 748
         }
       ],
       "little": true
@@ -34949,79 +34451,40 @@
     "748": {
       "pokemonName": "Toxapex",
       "pokedexId": 748,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        4,
-        11
       ],
       "attack": 114,
       "defense": 273,
       "stamina": 137,
-      "height": 0.7,
-      "weight": 14.5,
-      "quickMoves": [
-        133
+      "types": [
+        4,
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 747,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "749": {
       "pokemonName": "Mudbray",
       "pokedexId": 749,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        5
-      ],
       "attack": 175,
       "defense": 121,
       "stamina": 172,
-      "height": 1,
-      "weight": 110,
-      "quickMoves": [
-        133
+      "types": [
+        5
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 749,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 750,
-          "candyCost": 50
+          "evoId": 750
         }
       ],
       "little": true
@@ -35029,79 +34492,40 @@
     "750": {
       "pokemonName": "Mudsdale",
       "pokedexId": 750,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        5
       ],
       "attack": 214,
       "defense": 174,
       "stamina": 225,
-      "height": 2.5,
-      "weight": 920,
-      "quickMoves": [
-        133
+      "types": [
+        5
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 749,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "751": {
       "pokemonName": "Dewpider",
       "pokedexId": 751,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 72,
+      "defense": 117,
+      "stamina": 116,
       "types": [
         7,
         11
       ],
-      "attack": 72,
-      "defense": 117,
-      "stamina": 116,
-      "height": 0.3,
-      "weight": 4,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 751,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 752,
-          "candyCost": 50
+          "evoId": 752
         }
       ],
       "little": true
@@ -35109,79 +34533,40 @@
     "752": {
       "pokemonName": "Araquanid",
       "pokedexId": 752,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        7,
-        11
       ],
       "attack": 126,
       "defense": 219,
       "stamina": 169,
-      "height": 1.8,
-      "weight": 82,
-      "quickMoves": [
-        133
+      "types": [
+        7,
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 751,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "753": {
       "pokemonName": "Fomantis",
       "pokedexId": 753,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        12
-      ],
       "attack": 100,
       "defense": 64,
       "stamina": 120,
-      "height": 0.3,
-      "weight": 1.5,
-      "quickMoves": [
-        133
+      "types": [
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 753,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 754,
-          "candyCost": 50
+          "evoId": 754
         }
       ],
       "little": true
@@ -35189,79 +34574,40 @@
     "754": {
       "pokemonName": "Lurantis",
       "pokedexId": 754,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        12
       ],
       "attack": 192,
       "defense": 169,
       "stamina": 172,
-      "height": 0.9,
-      "weight": 18.5,
-      "quickMoves": [
-        133
+      "types": [
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 753,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "755": {
       "pokemonName": "Morelull",
       "pokedexId": 755,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 108,
+      "defense": 119,
+      "stamina": 120,
       "types": [
         12,
         18
       ],
-      "attack": 108,
-      "defense": 119,
-      "stamina": 120,
-      "height": 0.2,
-      "weight": 1.5,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 755,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 756,
-          "candyCost": 50
+          "evoId": 756
         }
       ],
       "little": true
@@ -35269,81 +34615,41 @@
     "756": {
       "pokemonName": "Shiinotic",
       "pokedexId": 756,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        12,
-        18
       ],
       "attack": 154,
       "defense": 168,
       "stamina": 155,
-      "height": 1,
-      "weight": 11.5,
-      "quickMoves": [
-        133
+      "types": [
+        12,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 755,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "757": {
       "pokemonName": "Salandit",
       "pokedexId": 757,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 136,
+      "defense": 80,
+      "stamina": 134,
       "types": [
         4,
         10
       ],
-      "attack": 136,
-      "defense": 80,
-      "stamina": 134,
-      "height": 0.6,
-      "weight": 4.8,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 757,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 758,
-          "genderRequirement": 2,
-          "candyCost": 50
+          "evoId": 758
         }
       ],
       "little": true
@@ -35351,80 +34657,41 @@
     "758": {
       "pokemonName": "Salazzle",
       "pokedexId": 758,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        4,
-        10
       ],
       "attack": 228,
       "defense": 130,
       "stamina": 169,
-      "height": 1.2,
-      "weight": 22.2,
-      "quickMoves": [
-        133
+      "types": [
+        4,
+        10
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 757,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "759": {
       "pokemonName": "Stufful",
       "pokedexId": 759,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 136,
+      "defense": 95,
+      "stamina": 172,
       "types": [
         1,
         2
       ],
-      "attack": 136,
-      "defense": 95,
-      "stamina": 172,
-      "height": 0.5,
-      "weight": 6.8,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 759,
-      "fleeRate": 0.1,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 760,
-          "candyCost": 400
+          "evoId": 760
         }
       ],
       "little": true
@@ -35432,79 +34699,40 @@
     "760": {
       "pokemonName": "Bewear",
       "pokedexId": 760,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        1,
-        2
       ],
       "attack": 226,
       "defense": 141,
       "stamina": 260,
-      "height": 2.1,
-      "weight": 135,
-      "quickMoves": [
-        133
+      "types": [
+        1,
+        2
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 759,
-      "fleeRate": 0.06,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "761": {
       "pokemonName": "Bounsweet",
       "pokedexId": 761,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        12
-      ],
       "attack": 55,
       "defense": 69,
       "stamina": 123,
-      "height": 0.3,
-      "weight": 3.2,
-      "quickMoves": [
-        133
+      "types": [
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 761,
-      "fleeRate": 0.2,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 762,
-          "candyCost": 25
+          "evoId": 762
         }
       ],
       "little": true
@@ -35512,228 +34740,115 @@
     "762": {
       "pokemonName": "Steenee",
       "pokedexId": 762,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        12
       ],
       "attack": 78,
       "defense": 94,
       "stamina": 141,
-      "height": 0.7,
-      "weight": 8.2,
-      "quickMoves": [
-        133
+      "types": [
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 761,
-      "fleeRate": 0.09,
-      "captureRate": 0.25,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 763,
-          "candyCost": 100
+          "evoId": 763
         }
-      ]
+      ],
+      "little": true
     },
     "763": {
       "pokemonName": "Tsareena",
       "pokedexId": 763,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        12
       ],
       "attack": 222,
       "defense": 195,
       "stamina": 176,
-      "height": 1.2,
-      "weight": 21.4,
-      "quickMoves": [
-        133
+      "types": [
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 761,
-      "fleeRate": 0.05,
-      "captureRate": 0.125,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "764": {
       "pokemonName": "Comfey",
       "pokedexId": 764,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        18
       ],
       "attack": 165,
       "defense": 215,
       "stamina": 139,
-      "height": 0.1,
-      "weight": 0.3,
-      "quickMoves": [
-        133
+      "types": [
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 764,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "765": {
       "pokemonName": "Oranguru",
       "pokedexId": 765,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        1,
-        14
       ],
       "attack": 168,
       "defense": 192,
       "stamina": 207,
-      "height": 1.5,
-      "weight": 76,
-      "quickMoves": [
-        133
+      "types": [
+        1,
+        14
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 765,
-      "fleeRate": 0.07,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "766": {
       "pokemonName": "Passimian",
       "pokedexId": 766,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        2
       ],
       "attack": 222,
       "defense": 160,
       "stamina": 225,
-      "height": 2,
-      "weight": 82.8,
-      "quickMoves": [
-        133
+      "types": [
+        2
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 766,
-      "fleeRate": 0.07,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "767": {
       "pokemonName": "Wimpod",
       "pokedexId": 767,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 67,
+      "defense": 74,
+      "stamina": 93,
       "types": [
         7,
         11
       ],
-      "attack": 67,
-      "defense": 74,
-      "stamina": 93,
-      "height": 0.5,
-      "weight": 12,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 767,
-      "fleeRate": 0.1,
-      "captureRate": 0.5,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 768,
-          "candyCost": 400
+          "evoId": 768
         }
       ],
       "little": true
@@ -35741,80 +34856,41 @@
     "768": {
       "pokemonName": "Golisopod",
       "pokedexId": 768,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        7,
-        11
       ],
       "attack": 218,
       "defense": 226,
       "stamina": 181,
-      "height": 2,
-      "weight": 108,
-      "quickMoves": [
-        133
+      "types": [
+        7,
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 767,
-      "fleeRate": 0.06,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 1,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "769": {
       "pokemonName": "Sandygast",
       "pokedexId": 769,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 120,
+      "defense": 118,
+      "stamina": 146,
       "types": [
         5,
         8
       ],
-      "attack": 120,
-      "defense": 118,
-      "stamina": 146,
-      "height": 0.5,
-      "weight": 70,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 769,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 770,
-          "candyCost": 50
+          "evoId": 770
         }
       ],
       "little": true
@@ -35822,113 +34898,57 @@
     "770": {
       "pokemonName": "Palossand",
       "pokedexId": 770,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        5,
-        8
       ],
       "attack": 178,
       "defense": 178,
       "stamina": 198,
-      "height": 1.3,
-      "weight": 250,
-      "quickMoves": [
-        133
+      "types": [
+        5,
+        8
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 769,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "771": {
       "pokemonName": "Pyukumuku",
       "pokedexId": 771,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        11
       ],
       "attack": 97,
       "defense": 224,
       "stamina": 146,
-      "height": 0.3,
-      "weight": 1.2,
-      "quickMoves": [
-        133
+      "types": [
+        11
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 771,
-      "fleeRate": 0.07,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "772": {
       "pokemonName": "Type Null",
       "pokedexId": 772,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        1
-      ],
       "attack": 184,
       "defense": 184,
       "stamina": 216,
-      "height": 1.9,
-      "weight": 120.5,
-      "quickMoves": [
-        133
+      "types": [
+        1
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 772,
-      "captureRate": 0.3,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 773,
-          "formId": 2689,
-          "candyCost": 200
+          "evoId": 773
         }
       ],
       "little": true
@@ -35959,32 +34979,13 @@
         2705,
         2706
       ],
-      "types": [
-        1
-      ],
       "attack": 198,
       "defense": 198,
       "stamina": 216,
-      "height": 2.3,
-      "weight": 100.5,
-      "quickMoves": [
-        133
+      "types": [
+        1
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 772,
-      "captureRate": 0.3,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "774": {
       "pokemonName": "Minior",
@@ -36002,140 +35003,67 @@
         2713,
         2714
       ],
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
       "types": [
         3,
         6
       ],
-      "attack": 116,
-      "defense": 194,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 40,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 774,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "775": {
       "pokemonName": "Komala",
       "pokedexId": 775,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        1
       ],
       "attack": 216,
       "defense": 165,
       "stamina": 163,
-      "height": 0.4,
-      "weight": 19.9,
-      "quickMoves": [
-        133
+      "types": [
+        1
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 775,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "776": {
       "pokemonName": "Turtonator",
       "pokedexId": 776,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        10,
-        16
       ],
       "attack": 165,
       "defense": 215,
       "stamina": 155,
-      "height": 2,
-      "weight": 212,
-      "quickMoves": [
-        133
+      "types": [
+        10,
+        16
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 776,
-      "fleeRate": 0.07,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "777": {
       "pokemonName": "Togedemaru",
       "pokedexId": 777,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 190,
+      "defense": 145,
+      "stamina": 163,
       "types": [
         9,
         13
       ],
-      "attack": 190,
-      "defense": 145,
-      "stamina": 163,
-      "height": 0.3,
-      "weight": 3.3,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 777,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "778": {
       "pokemonName": "Mimikyu",
@@ -36147,180 +35075,88 @@
         2715,
         2716
       ],
+      "attack": 177,
+      "defense": 199,
+      "stamina": 146,
       "types": [
         8,
         18
       ],
-      "attack": 177,
-      "defense": 199,
-      "stamina": 146,
-      "height": 0.2,
-      "weight": 0.7,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 778,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "779": {
       "pokemonName": "Bruxish",
       "pokedexId": 779,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        11,
-        14
       ],
       "attack": 208,
       "defense": 145,
       "stamina": 169,
-      "height": 0.9,
-      "weight": 19,
-      "quickMoves": [
-        133
+      "types": [
+        11,
+        14
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 779,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 3,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "780": {
       "pokemonName": "Drampa",
       "pokedexId": 780,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        1,
-        16
       ],
       "attack": 231,
       "defense": 164,
       "stamina": 186,
-      "height": 3,
-      "weight": 185,
-      "quickMoves": [
-        133
+      "types": [
+        1,
+        16
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 780,
-      "fleeRate": 0.07,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "781": {
       "pokemonName": "Dhelmise",
       "pokedexId": 781,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        8,
-        12
       ],
       "attack": 233,
       "defense": 179,
       "stamina": 172,
-      "height": 3.9,
-      "weight": 210,
-      "quickMoves": [
-        133
+      "types": [
+        8,
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 781,
-      "fleeRate": 0.1,
-      "captureRate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "782": {
       "pokemonName": "Jangmo O",
       "pokedexId": 782,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        16
-      ],
       "attack": 102,
       "defense": 108,
       "stamina": 128,
-      "height": 0.6,
-      "weight": 29.7,
-      "quickMoves": [
-        133
+      "types": [
+        16
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 782,
-      "fleeRate": 0.09,
-      "captureRate": 0.4,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 783,
-          "candyCost": 25
+          "evoId": 783
         }
       ],
       "little": true
@@ -36328,262 +35164,136 @@
     "783": {
       "pokemonName": "Hakamo O",
       "pokedexId": 783,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        2,
-        16
       ],
       "attack": 145,
       "defense": 162,
       "stamina": 146,
-      "height": 1.2,
-      "weight": 47,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 782,
-      "fleeRate": 0.07,
-      "captureRate": 0.1,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 784,
-          "candyCost": 100
-        }
-      ]
-    },
-    "784": {
-      "pokemonName": "Kommo O",
-      "pokedexId": 784,
-      "genId": 7,
-      "generation": "Alola",
-      "forms": [
-        0
-      ],
       "types": [
         2,
         16
       ],
+      "unreleased": true,
+      "evolutions": [
+        {
+          "evoId": 784
+        }
+      ],
+      "little": true
+    },
+    "784": {
+      "pokemonName": "Kommo O",
+      "pokedexId": 784,
+      "defaultFormId": 0,
+      "genId": 7,
+      "generation": "Alola",
+      "forms": [
+        0
+      ],
       "attack": 222,
       "defense": 240,
       "stamina": 181,
-      "height": 1.6,
-      "weight": 78.2,
-      "quickMoves": [
-        133
+      "types": [
+        2,
+        16
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 782,
-      "fleeRate": 0.05,
-      "captureRate": 0.05,
-      "bonusCandyCapture": 7,
-      "bonusStardustCapture": 400,
-      "legendary": false,
-      "mythic": false,
-      "buddyGroupNumber": 3,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "785": {
       "pokemonName": "Tapu Koko",
       "pokedexId": 785,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        13,
-        18
       ],
       "attack": 250,
       "defense": 181,
       "stamina": 172,
-      "height": 1.8,
-      "weight": 20.5,
-      "quickMoves": [
-        133
+      "types": [
+        13,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 785,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "786": {
       "pokemonName": "Tapu Lele",
       "pokedexId": 786,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        14,
-        18
       ],
       "attack": 259,
       "defense": 208,
       "stamina": 172,
-      "height": 1.2,
-      "weight": 18.6,
-      "quickMoves": [
-        133
+      "types": [
+        14,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 786,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "787": {
       "pokemonName": "Tapu Bulu",
       "pokedexId": 787,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        12,
-        18
       ],
       "attack": 249,
       "defense": 215,
       "stamina": 172,
-      "height": 1.9,
-      "weight": 45.5,
-      "quickMoves": [
-        133
+      "types": [
+        12,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 787,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "788": {
       "pokemonName": "Tapu Fini",
       "pokedexId": 788,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        11,
-        18
       ],
       "attack": 189,
       "defense": 254,
       "stamina": 172,
-      "height": 1.3,
-      "weight": 21.2,
-      "quickMoves": [
-        133
+      "types": [
+        11,
+        18
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 788,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "789": {
       "pokemonName": "Cosmog",
       "pokedexId": 789,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        14
-      ],
       "attack": 54,
       "defense": 57,
       "stamina": 125,
-      "height": 0.2,
-      "weight": 0.1,
-      "quickMoves": [
-        133
+      "types": [
+        14
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 789,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 790,
-          "candyCost": 25
+          "evoId": 790
         }
       ],
       "little": true
@@ -36591,362 +35301,189 @@
     "790": {
       "pokemonName": "Cosmoem",
       "pokedexId": 790,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        14
       ],
       "attack": 54,
       "defense": 242,
       "stamina": 125,
-      "height": 0.1,
-      "weight": 999.9,
-      "quickMoves": [
-        133
+      "types": [
+        14
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 789,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 791,
-          "candyCost": 100,
-          "onlyDaytime": true
+          "evoId": 791
         },
         {
-          "evoId": 792,
-          "candyCost": 100,
-          "onlyNighttime": true
+          "evoId": 792
         }
-      ]
+      ],
+      "little": true
     },
     "791": {
       "pokemonName": "Solgaleo",
       "pokedexId": 791,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
+      "attack": 255,
+      "defense": 191,
+      "stamina": 264,
       "types": [
         9,
         14
       ],
-      "attack": 255,
-      "defense": 191,
-      "stamina": 264,
-      "height": 3.4,
-      "weight": 230,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 789,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "792": {
       "pokemonName": "Lunala",
       "pokedexId": 792,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        8,
-        14
       ],
       "attack": 255,
       "defense": 191,
       "stamina": 264,
-      "height": 4,
-      "weight": 120,
-      "quickMoves": [
-        133
+      "types": [
+        8,
+        14
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 789,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "793": {
       "pokemonName": "Nihilego",
       "pokedexId": 793,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        4,
-        6
       ],
       "attack": 249,
       "defense": 210,
       "stamina": 240,
-      "height": 1.2,
-      "weight": 55.5,
-      "quickMoves": [
-        133
+      "types": [
+        4,
+        6
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 793,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "794": {
       "pokemonName": "Buzzwole",
       "pokedexId": 794,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        2,
-        7
       ],
       "attack": 236,
       "defense": 196,
       "stamina": 216,
-      "height": 2.4,
-      "weight": 333.6,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 794,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
-    },
-    "795": {
-      "pokemonName": "Pheromosa",
-      "pokedexId": 795,
-      "genId": 7,
-      "generation": "Alola",
-      "forms": [
-        0
-      ],
       "types": [
         2,
         7
       ],
+      "unreleased": true
+    },
+    "795": {
+      "pokemonName": "Pheromosa",
+      "pokedexId": 795,
+      "defaultFormId": 0,
+      "genId": 7,
+      "generation": "Alola",
+      "forms": [
+        0
+      ],
       "attack": 316,
       "defense": 85,
       "stamina": 174,
-      "height": 1.8,
-      "weight": 25,
-      "quickMoves": [
-        133
+      "types": [
+        2,
+        7
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 795,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "796": {
       "pokemonName": "Xurkitree",
       "pokedexId": 796,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        13
       ],
       "attack": 330,
       "defense": 144,
       "stamina": 195,
-      "height": 3.8,
-      "weight": 100,
-      "quickMoves": [
-        133
+      "types": [
+        13
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 796,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "797": {
       "pokemonName": "Celesteela",
       "pokedexId": 797,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        3,
-        9
       ],
       "attack": 207,
       "defense": 199,
       "stamina": 219,
-      "height": 9.2,
-      "weight": 999.9,
-      "quickMoves": [
-        133
+      "types": [
+        3,
+        9
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 797,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "798": {
       "pokemonName": "Kartana",
       "pokedexId": 798,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        9,
-        12
       ],
       "attack": 323,
       "defense": 182,
       "stamina": 139,
-      "height": 0.3,
-      "weight": 0.1,
-      "quickMoves": [
-        133
+      "types": [
+        9,
+        12
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 798,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "799": {
       "pokemonName": "Guzzlord",
       "pokedexId": 799,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        8,
-        17
-      ],
       "attack": 188,
       "defense": 99,
       "stamina": 440,
-      "height": 5.5,
-      "weight": 888,
-      "quickMoves": [
-        133
+      "types": [
+        16,
+        17
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 799,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "800": {
       "pokemonName": "Necrozma",
@@ -36960,31 +35497,13 @@
         2719,
         2720
       ],
-      "types": [
-        14
-      ],
       "attack": 251,
       "defense": 195,
       "stamina": 219,
-      "height": 2.4,
-      "weight": 230,
-      "quickMoves": [
-        133
+      "types": [
+        14
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 800,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "801": {
       "pokemonName": "Magearna",
@@ -36996,100 +35515,52 @@
         2721,
         2722
       ],
+      "attack": 246,
+      "defense": 225,
+      "stamina": 190,
       "types": [
         9,
         18
       ],
-      "attack": 246,
-      "defense": 225,
-      "stamina": 190,
-      "height": 1,
-      "weight": 80.5,
-      "quickMoves": [
-        133
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 801,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": false,
-      "mythic": true,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "unreleased": true
     },
     "802": {
       "pokemonName": "Marshadow",
       "pokedexId": 802,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        2,
-        8
       ],
       "attack": 265,
       "defense": 190,
       "stamina": 207,
-      "height": 0.7,
-      "weight": 22.2,
-      "quickMoves": [
-        133
+      "types": [
+        2,
+        8
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 802,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": false,
-      "mythic": true,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "unreleased": true
     },
     "803": {
       "pokemonName": "Poipole",
       "pokedexId": 803,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        4
-      ],
       "attack": 145,
       "defense": 133,
       "stamina": 167,
-      "height": 0.6,
-      "weight": 1.8,
-      "quickMoves": [
-        133
+      "types": [
+        4
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 803,
-      "captureRate": 0.3,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true,
+      "unreleased": true,
       "evolutions": [
         {
-          "evoId": 804,
-          "candyCost": 200
+          "evoId": 804
         }
       ],
       "little": true
@@ -37097,140 +35568,73 @@
     "804": {
       "pokemonName": "Naganadel",
       "pokedexId": 804,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        4,
-        16
       ],
       "attack": 263,
       "defense": 159,
       "stamina": 177,
-      "height": 3.6,
-      "weight": 150,
-      "quickMoves": [
-        133
+      "types": [
+        4,
+        16
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 803,
-      "captureRate": 0.3,
-      "bonusCandyCapture": 2,
-      "bonusStardustCapture": 200,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "805": {
       "pokemonName": "Stakataka",
       "pokedexId": 805,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        6,
-        9
       ],
       "attack": 213,
       "defense": 298,
       "stamina": 156,
-      "height": 5.5,
-      "weight": 820,
-      "quickMoves": [
-        133
+      "types": [
+        6,
+        9
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 805,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "806": {
       "pokemonName": "Blacephalon",
       "pokedexId": 806,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
-      ],
-      "types": [
-        8,
-        10
       ],
       "attack": 315,
       "defense": 148,
       "stamina": 142,
-      "height": 1.8,
-      "weight": 13,
-      "quickMoves": [
-        133
+      "types": [
+        8,
+        10
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 806,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": true,
-      "mythic": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "unreleased": true
     },
     "807": {
       "pokemonName": "Zeraora",
       "pokedexId": 807,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": [
         0
       ],
-      "types": [
-        13
-      ],
       "attack": 252,
       "defense": 177,
       "stamina": 204,
-      "height": 1.5,
-      "weight": 44.5,
-      "quickMoves": [
-        133
+      "types": [
+        13
       ],
-      "chargedMoves": [
-        133
-      ],
-      "family": 807,
-      "fleeRate": 0.1,
-      "captureRate": 0.02,
-      "legendary": false,
-      "mythic": true,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 20,
-      "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "unreleased": true
     },
     "808": {
       "pokemonName": "Meltan",
@@ -55966,20 +54370,12 @@
     "2685": {
       "formName": "Midnight",
       "proto": "LYCANROC_MIDNIGHT",
-      "formId": 2685,
-      "attack": 218,
-      "defense": 152,
-      "stamina": 198,
-      "height": 1.1,
-      "weight": 25
+      "formId": 2685
     },
     "2686": {
       "formName": "Dusk",
       "proto": "LYCANROC_DUSK",
-      "formId": 2686,
-      "attack": 234,
-      "defense": 139,
-      "stamina": 181
+      "formId": 2686
     },
     "2687": {
       "formName": "Solo",
@@ -55989,12 +54385,7 @@
     "2688": {
       "formName": "School",
       "proto": "WISHIWASHI_SCHOOL",
-      "formId": 2688,
-      "attack": 255,
-      "defense": 242,
-      "stamina": 128,
-      "height": 8.2,
-      "weight": 78.6
+      "formId": 2688
     },
     "2689": {
       "formName": "Normal",
@@ -56004,138 +54395,87 @@
     "2690": {
       "formName": "Bug",
       "proto": "SILVALLY_BUG",
-      "formId": 2690,
-      "types": [
-        7
-      ]
+      "formId": 2690
     },
     "2691": {
       "formName": "Dark",
       "proto": "SILVALLY_DARK",
-      "formId": 2691,
-      "types": [
-        17
-      ]
+      "formId": 2691
     },
     "2692": {
       "formName": "Dragon",
       "proto": "SILVALLY_DRAGON",
-      "formId": 2692,
-      "types": [
-        16
-      ]
+      "formId": 2692
     },
     "2693": {
       "formName": "Electric",
       "proto": "SILVALLY_ELECTRIC",
-      "formId": 2693,
-      "types": [
-        13
-      ]
+      "formId": 2693
     },
     "2694": {
       "formName": "Fairy",
       "proto": "SILVALLY_FAIRY",
-      "formId": 2694,
-      "types": [
-        18
-      ]
+      "formId": 2694
     },
     "2695": {
       "formName": "Fighting",
       "proto": "SILVALLY_FIGHTING",
-      "formId": 2695,
-      "types": [
-        2
-      ]
+      "formId": 2695
     },
     "2696": {
       "formName": "Fire",
       "proto": "SILVALLY_FIRE",
-      "formId": 2696,
-      "types": [
-        10
-      ]
+      "formId": 2696
     },
     "2697": {
       "formName": "Flying",
       "proto": "SILVALLY_FLYING",
-      "formId": 2697,
-      "types": [
-        3
-      ]
+      "formId": 2697
     },
     "2698": {
       "formName": "Ghost",
       "proto": "SILVALLY_GHOST",
-      "formId": 2698,
-      "types": [
-        8
-      ]
+      "formId": 2698
     },
     "2699": {
       "formName": "Grass",
       "proto": "SILVALLY_GRASS",
-      "formId": 2699,
-      "types": [
-        12
-      ]
+      "formId": 2699
     },
     "2700": {
       "formName": "Ground",
       "proto": "SILVALLY_GROUND",
-      "formId": 2700,
-      "types": [
-        5
-      ]
+      "formId": 2700
     },
     "2701": {
       "formName": "Ice",
       "proto": "SILVALLY_ICE",
-      "formId": 2701,
-      "types": [
-        15
-      ]
+      "formId": 2701
     },
     "2702": {
       "formName": "Poison",
       "proto": "SILVALLY_POISON",
-      "formId": 2702,
-      "types": [
-        4
-      ]
+      "formId": 2702
     },
     "2703": {
       "formName": "Psychic",
       "proto": "SILVALLY_PSYCHIC",
-      "formId": 2703,
-      "types": [
-        14
-      ]
+      "formId": 2703
     },
     "2704": {
       "formName": "Rock",
       "proto": "SILVALLY_ROCK",
-      "formId": 2704,
-      "types": [
-        6
-      ]
+      "formId": 2704
     },
     "2705": {
       "formName": "Steel",
       "proto": "SILVALLY_STEEL",
-      "formId": 2705,
-      "types": [
-        9
-      ]
+      "formId": 2705
     },
     "2706": {
       "formName": "Water",
       "proto": "SILVALLY_WATER",
-      "formId": 2706,
-      "types": [
-        11
-      ]
+      "formId": 2706
     },
     "2707": {
       "formName": "Meteor",
@@ -56145,72 +54485,37 @@
     "2708": {
       "formName": "Blue",
       "proto": "MINIOR_BLUE",
-      "formId": 2708,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2708
     },
     "2709": {
       "formName": "Green",
       "proto": "MINIOR_GREEN",
-      "formId": 2709,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2709
     },
     "2710": {
       "formName": "Indigo",
       "proto": "MINIOR_INDIGO",
-      "formId": 2710,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2710
     },
     "2711": {
       "formName": "Orange",
       "proto": "MINIOR_ORANGE",
-      "formId": 2711,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2711
     },
     "2712": {
       "formName": "Red",
       "proto": "MINIOR_RED",
-      "formId": 2712,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2712
     },
     "2713": {
       "formName": "Violet",
       "proto": "MINIOR_VIOLET",
-      "formId": 2713,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2713
     },
     "2714": {
       "formName": "Yellow",
       "proto": "MINIOR_YELLOW",
-      "formId": 2714,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2714
     },
     "2715": {
       "formName": "Busted",
@@ -56230,44 +54535,17 @@
     "2718": {
       "formName": "Dusk Mane",
       "proto": "NECROZMA_DUSK_MANE",
-      "formId": 2718,
-      "attack": 277,
-      "defense": 220,
-      "stamina": 200,
-      "height": 3.8,
-      "weight": 460,
-      "types": [
-        9,
-        14
-      ]
+      "formId": 2718
     },
     "2719": {
       "formName": "Dawn Wings",
       "proto": "NECROZMA_DAWN_WINGS",
-      "formId": 2719,
-      "attack": 277,
-      "defense": 220,
-      "stamina": 200,
-      "height": 4.2,
-      "weight": 350,
-      "types": [
-        8,
-        14
-      ]
+      "formId": 2719
     },
     "2720": {
       "formName": "Ultra",
       "proto": "NECROZMA_ULTRA",
-      "formId": 2720,
-      "attack": 337,
-      "defense": 196,
-      "stamina": 200,
-      "height": 7.5,
-      "weight": 230,
-      "types": [
-        14,
-        16
-      ]
+      "formId": 2720
     },
     "2721": {
       "formName": "Normal",
@@ -56468,9 +54746,6 @@
       ],
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "undefined": {
-      "formName": ""
     }
   },
   "types": {

@@ -81401,6 +81401,7 @@
     "722": {
       "name": "Rowlet",
       "pokedexId": 722,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81408,16 +81409,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "3": {
-          "typeId": 3,
-          "typeName": "Flying"
-        },
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
         }
       },
       "stats": {
@@ -81425,47 +81416,21 @@
         "defense": 99,
         "stamina": 169
       },
-      "height": 0.3,
-      "weight": 1.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "3": {
+          "typeId": 3,
+          "typeName": "Flying"
+        },
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 722,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 4,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "723": {
           "pokemon": 723,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -81473,6 +81438,7 @@
     "723": {
       "name": "Dartrix",
       "pokedexId": 723,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81481,6 +81447,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 142,
+        "defense": 139,
+        "stamina": 186
       },
       "types": {
         "3": {
@@ -81492,60 +81463,19 @@
           "typeName": "Grass"
         }
       },
-      "stats": {
-        "attack": 142,
-        "defense": 139,
-        "stamina": 186
-      },
-      "height": 0.7,
-      "weight": 16,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 722,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.1,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 5,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "724": {
           "pokemon": 724,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "724": {
       "name": "Decidueye",
       "pokedexId": 724,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81554,6 +81484,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 210,
+        "defense": 179,
+        "stamina": 186
       },
       "types": {
         "8": {
@@ -81565,53 +81500,12 @@
           "typeName": "Grass"
         }
       },
-      "stats": {
-        "attack": 210,
-        "defense": 179,
-        "stamina": 186
-      },
-      "height": 1.6,
-      "weight": 36.6,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 722,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.05,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 6,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "725": {
       "name": "Litten",
       "pokedexId": 725,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81619,12 +81513,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "10": {
-          "typeId": 10,
-          "typeName": "Fire"
         }
       },
       "stats": {
@@ -81632,47 +81520,17 @@
         "defense": 79,
         "stamina": 128
       },
-      "height": 0.4,
-      "weight": 4.3,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "10": {
+          "typeId": 10,
+          "typeName": "Fire"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 725,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 1,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "726": {
           "pokemon": 726,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -81680,6 +81538,7 @@
     "726": {
       "name": "Torracat",
       "pokedexId": 726,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81687,12 +81546,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "10": {
-          "typeId": 10,
-          "typeName": "Fire"
         }
       },
       "stats": {
@@ -81700,55 +81553,25 @@
         "defense": 103,
         "stamina": 163
       },
-      "height": 0.7,
-      "weight": 25,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "10": {
+          "typeId": 10,
+          "typeName": "Fire"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 725,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.1,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "727": {
           "pokemon": 727,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "727": {
       "name": "Incineroar",
       "pokedexId": 727,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81757,6 +81580,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 214,
+        "defense": 175,
+        "stamina": 216
       },
       "types": {
         "10": {
@@ -81768,53 +81596,12 @@
           "typeName": "Dark"
         }
       },
-      "stats": {
-        "attack": 214,
-        "defense": 175,
-        "stamina": 216
-      },
-      "height": 1.8,
-      "weight": 83,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 725,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.05,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 3,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "728": {
       "name": "Popplio",
       "pokedexId": 728,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81822,12 +81609,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -81835,47 +81616,17 @@
         "defense": 103,
         "stamina": 137
       },
-      "height": 0.4,
-      "weight": 7.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 728,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "729": {
           "pokemon": 729,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -81883,6 +81634,7 @@
     "729": {
       "name": "Brionne",
       "pokedexId": 729,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81890,12 +81642,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -81903,55 +81649,25 @@
         "defense": 145,
         "stamina": 155
       },
-      "height": 0.6,
-      "weight": 17.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 728,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.1,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "730": {
           "pokemon": 730,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "730": {
       "name": "Primarina",
       "pokedexId": 730,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -81960,6 +81676,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 232,
+        "defense": 195,
+        "stamina": 190
       },
       "types": {
         "11": {
@@ -81971,53 +81692,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 232,
-        "defense": 195,
-        "stamina": 190
-      },
-      "height": 1.8,
-      "weight": 44,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 728,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.05,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 3,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "731": {
       "name": "Pikipek",
       "pokedexId": 731,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82025,16 +81705,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
-        },
-        "3": {
-          "typeId": 3,
-          "typeName": "Flying"
         }
       },
       "stats": {
@@ -82042,47 +81712,21 @@
         "defense": 59,
         "stamina": 111
       },
-      "height": 0.3,
-      "weight": 1.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
+        },
+        "3": {
+          "typeId": 3,
+          "typeName": "Flying"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 731,
-      "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 4,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "732": {
           "pokemon": 732,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -82090,6 +81734,7 @@
     "732": {
       "name": "Trumbeak",
       "pokedexId": 732,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82097,16 +81742,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
-        },
-        "3": {
-          "typeId": 3,
-          "typeName": "Flying"
         }
       },
       "stats": {
@@ -82114,55 +81749,29 @@
         "defense": 100,
         "stamina": 146
       },
-      "height": 0.6,
-      "weight": 14.8,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
+        },
+        "3": {
+          "typeId": 3,
+          "typeName": "Flying"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 731,
-      "encounter": {
-        "fleeRate": 0.09,
-        "captureRate": 0.25,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 5,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "733": {
           "pokemon": 733,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "733": {
       "name": "Toucannon",
       "pokedexId": 733,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82171,6 +81780,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 222,
+        "defense": 146,
+        "stamina": 190
       },
       "types": {
         "1": {
@@ -82182,53 +81796,12 @@
           "typeName": "Flying"
         }
       },
-      "stats": {
-        "attack": 222,
-        "defense": 146,
-        "stamina": 190
-      },
-      "height": 1.1,
-      "weight": 26,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 731,
-      "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.125,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 6,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "734": {
       "name": "Yungoos",
       "pokedexId": 734,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82236,12 +81809,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
         }
       },
       "stats": {
@@ -82249,47 +81816,17 @@
         "defense": 56,
         "stamina": 134
       },
-      "height": 0.4,
-      "weight": 6,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 734,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "735": {
           "pokemon": 735,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -82297,6 +81834,7 @@
     "735": {
       "name": "Gumshoos",
       "pokedexId": 735,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82304,12 +81842,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
         }
       },
       "stats": {
@@ -82317,48 +81849,18 @@
         "defense": 113,
         "stamina": 204
       },
-      "height": 0.7,
-      "weight": 14.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 734,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "736": {
       "name": "Grubbin",
       "pokedexId": 736,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82366,12 +81868,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
         }
       },
       "stats": {
@@ -82379,47 +81875,17 @@
         "defense": 85,
         "stamina": 132
       },
-      "height": 0.4,
-      "weight": 4.4,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "7": {
+          "typeId": 7,
+          "typeName": "Bug"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 736,
-      "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "737": {
           "pokemon": 737,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -82427,6 +81893,7 @@
     "737": {
       "name": "Charjabug",
       "pokedexId": 737,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82434,16 +81901,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
-        },
-        "13": {
-          "typeId": 13,
-          "typeName": "Electric"
         }
       },
       "stats": {
@@ -82451,55 +81908,29 @@
         "defense": 161,
         "stamina": 149
       },
-      "height": 0.5,
-      "weight": 10.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "7": {
+          "typeId": 7,
+          "typeName": "Bug"
+        },
+        "13": {
+          "typeId": 13,
+          "typeName": "Electric"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 736,
-      "encounter": {
-        "fleeRate": 0.09,
-        "captureRate": 0.25,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "738": {
           "pokemon": 738,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "738": {
       "name": "Vikavolt",
       "pokedexId": 738,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82508,6 +81939,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 254,
+        "defense": 158,
+        "stamina": 184
       },
       "types": {
         "7": {
@@ -82519,53 +81955,12 @@
           "typeName": "Electric"
         }
       },
-      "stats": {
-        "attack": 254,
-        "defense": 158,
-        "stamina": 184
-      },
-      "height": 1.5,
-      "weight": 45,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 736,
-      "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.125,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "739": {
       "name": "Crabrawler",
       "pokedexId": 739,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82573,12 +81968,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "2": {
-          "typeId": 2,
-          "typeName": "Fighting"
         }
       },
       "stats": {
@@ -82586,47 +81975,17 @@
         "defense": 104,
         "stamina": 132
       },
-      "height": 0.6,
-      "weight": 7,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "2": {
+          "typeId": 2,
+          "typeName": "Fighting"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 739,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "740": {
           "pokemon": 740,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -82634,6 +81993,7 @@
     "740": {
       "name": "Crabominable",
       "pokedexId": 740,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82642,6 +82002,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 231,
+        "defense": 138,
+        "stamina": 219
       },
       "types": {
         "2": {
@@ -82653,49 +82018,7 @@
           "typeName": "Ice"
         }
       },
-      "stats": {
-        "attack": 231,
-        "defense": 138,
-        "stamina": 219
-      },
-      "height": 1.7,
-      "weight": 180,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 739,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "741": {
       "name": "Oricorio",
@@ -82750,6 +82073,7 @@
     "742": {
       "name": "Cutiefly",
       "pokedexId": 742,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82757,16 +82081,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
-        },
-        "18": {
-          "typeId": 18,
-          "typeName": "Fairy"
         }
       },
       "stats": {
@@ -82774,47 +82088,21 @@
         "defense": 81,
         "stamina": 120
       },
-      "height": 0.1,
-      "weight": 0.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "7": {
+          "typeId": 7,
+          "typeName": "Bug"
+        },
+        "18": {
+          "typeId": 18,
+          "typeName": "Fairy"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 742,
-      "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "743": {
           "pokemon": 743,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -82822,6 +82110,7 @@
     "743": {
       "name": "Ribombee",
       "pokedexId": 743,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82830,6 +82119,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 198,
+        "defense": 146,
+        "stamina": 155
       },
       "types": {
         "7": {
@@ -82841,53 +82135,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 198,
-        "defense": 146,
-        "stamina": 155
-      },
-      "height": 0.2,
-      "weight": 0.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 742,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.15,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "744": {
       "name": "Rockruff",
       "pokedexId": 744,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -82897,59 +82150,22 @@
           "form": 0
         }
       },
+      "stats": {
+        "attack": 117,
+        "defense": 78,
+        "stamina": 128
+      },
       "types": {
         "6": {
           "typeId": 6,
           "typeName": "Rock"
         }
       },
-      "stats": {
-        "attack": 117,
-        "defense": 78,
-        "stamina": 128
-      },
-      "height": 0.5,
-      "weight": 9.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 744,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "745": {
           "pokemon": 745,
-          "form": 2685,
-          "candyCost": 50,
-          "onlyNighttime": true
+          "form": 0
         }
       },
       "little": true
@@ -82961,6 +82177,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2684": {
           "name": "Midday Form",
           "proto": "LYCANROC_MIDDAY",
@@ -82969,30 +82190,12 @@
         "2685": {
           "name": "Midnight Form",
           "proto": "LYCANROC_MIDNIGHT",
-          "form": 2685,
-          "stats": {
-            "attack": 218,
-            "defense": 152,
-            "stamina": 198
-          },
-          "height": 1.1,
-          "weight": 25
+          "form": 2685
         },
         "2686": {
           "name": "Dusk Form",
           "proto": "LYCANROC_DUSK",
-          "form": 2686,
-          "stats": {
-            "attack": 234,
-            "defense": 139,
-            "stamina": 181
-          }
-        }
-      },
-      "types": {
-        "6": {
-          "typeId": 6,
-          "typeName": "Rock"
+          "form": 2686
         }
       },
       "stats": {
@@ -83000,44 +82203,13 @@
         "defense": 140,
         "stamina": 181
       },
-      "height": 0.8,
-      "weight": 25,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "6": {
+          "typeId": 6,
+          "typeName": "Rock"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 744,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "746": {
       "name": "Wishiwashi",
@@ -83046,6 +82218,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2687": {
           "name": "Solo Form",
           "proto": "WISHIWASHI_SOLO",
@@ -83054,20 +82231,7 @@
         "2688": {
           "name": "School Form",
           "proto": "WISHIWASHI_SCHOOL",
-          "form": 2688,
-          "stats": {
-            "attack": 255,
-            "defense": 242,
-            "stamina": 128
-          },
-          "height": 8.2,
-          "weight": 78.6
-        }
-      },
-      "types": {
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
+          "form": 2688
         }
       },
       "stats": {
@@ -83075,46 +82239,18 @@
         "defense": 43,
         "stamina": 128
       },
-      "height": 0.2,
-      "weight": 0.3,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 746,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "747": {
       "name": "Mareanie",
       "pokedexId": 747,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83122,16 +82258,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "4": {
-          "typeId": 4,
-          "typeName": "Poison"
-        },
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -83139,47 +82265,21 @@
         "defense": 110,
         "stamina": 137
       },
-      "height": 0.4,
-      "weight": 8,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "4": {
+          "typeId": 4,
+          "typeName": "Poison"
+        },
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 747,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "748": {
           "pokemon": 748,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -83187,6 +82287,7 @@
     "748": {
       "name": "Toxapex",
       "pokedexId": 748,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83194,16 +82295,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "4": {
-          "typeId": 4,
-          "typeName": "Poison"
-        },
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -83211,48 +82302,22 @@
         "defense": 273,
         "stamina": 137
       },
-      "height": 0.7,
-      "weight": 14.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "4": {
+          "typeId": 4,
+          "typeName": "Poison"
+        },
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 747,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "749": {
       "name": "Mudbray",
       "pokedexId": 749,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83260,12 +82325,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "5": {
-          "typeId": 5,
-          "typeName": "Ground"
         }
       },
       "stats": {
@@ -83273,47 +82332,17 @@
         "defense": 121,
         "stamina": 172
       },
-      "height": 1,
-      "weight": 110,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "5": {
+          "typeId": 5,
+          "typeName": "Ground"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 749,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "750": {
           "pokemon": 750,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -83321,6 +82350,7 @@
     "750": {
       "name": "Mudsdale",
       "pokedexId": 750,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83328,12 +82358,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "5": {
-          "typeId": 5,
-          "typeName": "Ground"
         }
       },
       "stats": {
@@ -83341,48 +82365,18 @@
         "defense": 174,
         "stamina": 225
       },
-      "height": 2.5,
-      "weight": 920,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "5": {
+          "typeId": 5,
+          "typeName": "Ground"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 749,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "751": {
       "name": "Dewpider",
       "pokedexId": 751,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83390,16 +82384,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
-        },
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -83407,47 +82391,21 @@
         "defense": 117,
         "stamina": 116
       },
-      "height": 0.3,
-      "weight": 4,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "7": {
+          "typeId": 7,
+          "typeName": "Bug"
+        },
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 751,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "752": {
           "pokemon": 752,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -83455,6 +82413,7 @@
     "752": {
       "name": "Araquanid",
       "pokedexId": 752,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83463,6 +82422,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 126,
+        "defense": 219,
+        "stamina": 169
       },
       "types": {
         "7": {
@@ -83474,53 +82438,12 @@
           "typeName": "Water"
         }
       },
-      "stats": {
-        "attack": 126,
-        "defense": 219,
-        "stamina": 169
-      },
-      "height": 1.8,
-      "weight": 82,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 751,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "753": {
       "name": "Fomantis",
       "pokedexId": 753,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83528,12 +82451,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
         }
       },
       "stats": {
@@ -83541,47 +82458,17 @@
         "defense": 64,
         "stamina": 120
       },
-      "height": 0.3,
-      "weight": 1.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 753,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "754": {
           "pokemon": 754,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -83589,6 +82476,7 @@
     "754": {
       "name": "Lurantis",
       "pokedexId": 754,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83596,12 +82484,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
         }
       },
       "stats": {
@@ -83609,48 +82491,18 @@
         "defense": 169,
         "stamina": 172
       },
-      "height": 0.9,
-      "weight": 18.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 753,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "755": {
       "name": "Morelull",
       "pokedexId": 755,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83658,16 +82510,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
-        },
-        "18": {
-          "typeId": 18,
-          "typeName": "Fairy"
         }
       },
       "stats": {
@@ -83675,47 +82517,21 @@
         "defense": 119,
         "stamina": 120
       },
-      "height": 0.2,
-      "weight": 1.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
+        },
+        "18": {
+          "typeId": 18,
+          "typeName": "Fairy"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 755,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "756": {
           "pokemon": 756,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -83723,6 +82539,7 @@
     "756": {
       "name": "Shiinotic",
       "pokedexId": 756,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83730,16 +82547,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
-        },
-        "18": {
-          "typeId": 18,
-          "typeName": "Fairy"
         }
       },
       "stats": {
@@ -83747,48 +82554,22 @@
         "defense": 168,
         "stamina": 155
       },
-      "height": 1,
-      "weight": 11.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
+        },
+        "18": {
+          "typeId": 18,
+          "typeName": "Fairy"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 755,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "757": {
       "name": "Salandit",
       "pokedexId": 757,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83796,16 +82577,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "4": {
-          "typeId": 4,
-          "typeName": "Poison"
-        },
-        "10": {
-          "typeId": 10,
-          "typeName": "Fire"
         }
       },
       "stats": {
@@ -83813,48 +82584,21 @@
         "defense": 80,
         "stamina": 134
       },
-      "height": 0.6,
-      "weight": 4.8,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "4": {
+          "typeId": 4,
+          "typeName": "Poison"
+        },
+        "10": {
+          "typeId": 10,
+          "typeName": "Fire"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 757,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "758": {
           "pokemon": 758,
-          "form": 0,
-          "genderRequirement": 2,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -83862,6 +82606,7 @@
     "758": {
       "name": "Salazzle",
       "pokedexId": 758,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83870,6 +82615,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 228,
+        "defense": 130,
+        "stamina": 169
       },
       "types": {
         "4": {
@@ -83881,53 +82631,12 @@
           "typeName": "Fire"
         }
       },
-      "stats": {
-        "attack": 228,
-        "defense": 130,
-        "stamina": 169
-      },
-      "height": 1.2,
-      "weight": 22.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 757,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "759": {
       "name": "Stufful",
       "pokedexId": 759,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -83935,16 +82644,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
-        },
-        "2": {
-          "typeId": 2,
-          "typeName": "Fighting"
         }
       },
       "stats": {
@@ -83952,47 +82651,21 @@
         "defense": 95,
         "stamina": 172
       },
-      "height": 0.5,
-      "weight": 6.8,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
+        },
+        "2": {
+          "typeId": 2,
+          "typeName": "Fighting"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 759,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "760": {
           "pokemon": 760,
-          "form": 0,
-          "candyCost": 400
+          "form": 0
         }
       },
       "little": true
@@ -84000,6 +82673,7 @@
     "760": {
       "name": "Bewear",
       "pokedexId": 760,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84008,6 +82682,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 226,
+        "defense": 141,
+        "stamina": 260
       },
       "types": {
         "1": {
@@ -84019,53 +82698,12 @@
           "typeName": "Fighting"
         }
       },
-      "stats": {
-        "attack": 226,
-        "defense": 141,
-        "stamina": 260
-      },
-      "height": 2.1,
-      "weight": 135,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 759,
-      "encounter": {
-        "fleeRate": 0.06,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "761": {
       "name": "Bounsweet",
       "pokedexId": 761,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84073,12 +82711,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
         }
       },
       "stats": {
@@ -84086,47 +82718,17 @@
         "defense": 69,
         "stamina": 123
       },
-      "height": 0.3,
-      "weight": 3.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 761,
-      "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "762": {
           "pokemon": 762,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -84134,6 +82736,7 @@
     "762": {
       "name": "Steenee",
       "pokedexId": 762,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84141,12 +82744,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
         }
       },
       "stats": {
@@ -84154,55 +82751,25 @@
         "defense": 94,
         "stamina": 141
       },
-      "height": 0.7,
-      "weight": 8.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 761,
-      "encounter": {
-        "fleeRate": 0.09,
-        "captureRate": 0.25,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "763": {
           "pokemon": 763,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "763": {
       "name": "Tsareena",
       "pokedexId": 763,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84210,12 +82777,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "12": {
-          "typeId": 12,
-          "typeName": "Grass"
         }
       },
       "stats": {
@@ -84223,48 +82784,18 @@
         "defense": 195,
         "stamina": 176
       },
-      "height": 1.2,
-      "weight": 21.4,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "12": {
+          "typeId": 12,
+          "typeName": "Grass"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 761,
-      "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.125,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "764": {
       "name": "Comfey",
       "pokedexId": 764,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84272,12 +82803,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "18": {
-          "typeId": 18,
-          "typeName": "Fairy"
         }
       },
       "stats": {
@@ -84285,46 +82810,18 @@
         "defense": 215,
         "stamina": 139
       },
-      "height": 0.1,
-      "weight": 0.3,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "18": {
+          "typeId": 18,
+          "typeName": "Fairy"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 764,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "765": {
       "name": "Oranguru",
       "pokedexId": 765,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84333,6 +82830,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 168,
+        "defense": 192,
+        "stamina": 207
       },
       "types": {
         "1": {
@@ -84344,51 +82846,12 @@
           "typeName": "Psychic"
         }
       },
-      "stats": {
-        "attack": 168,
-        "defense": 192,
-        "stamina": 207
-      },
-      "height": 1.5,
-      "weight": 76,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 765,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "766": {
       "name": "Passimian",
       "pokedexId": 766,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84396,12 +82859,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "2": {
-          "typeId": 2,
-          "typeName": "Fighting"
         }
       },
       "stats": {
@@ -84409,46 +82866,18 @@
         "defense": 160,
         "stamina": 225
       },
-      "height": 2,
-      "weight": 82.8,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "2": {
+          "typeId": 2,
+          "typeName": "Fighting"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 766,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "767": {
       "name": "Wimpod",
       "pokedexId": 767,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84456,16 +82885,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
-        },
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -84473,47 +82892,21 @@
         "defense": 74,
         "stamina": 93
       },
-      "height": 0.5,
-      "weight": 12,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "7": {
+          "typeId": 7,
+          "typeName": "Bug"
+        },
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 767,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.5
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "768": {
           "pokemon": 768,
-          "form": 0,
-          "candyCost": 400
+          "form": 0
         }
       },
       "little": true
@@ -84521,6 +82914,7 @@
     "768": {
       "name": "Golisopod",
       "pokedexId": 768,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84529,6 +82923,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 218,
+        "defense": 226,
+        "stamina": 181
       },
       "types": {
         "7": {
@@ -84540,53 +82939,12 @@
           "typeName": "Water"
         }
       },
-      "stats": {
-        "attack": 218,
-        "defense": 226,
-        "stamina": 181
-      },
-      "height": 2,
-      "weight": 108,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 767,
-      "encounter": {
-        "fleeRate": 0.06,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 1,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "769": {
       "name": "Sandygast",
       "pokedexId": 769,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84594,16 +82952,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "5": {
-          "typeId": 5,
-          "typeName": "Ground"
-        },
-        "8": {
-          "typeId": 8,
-          "typeName": "Ghost"
         }
       },
       "stats": {
@@ -84611,47 +82959,21 @@
         "defense": 118,
         "stamina": 146
       },
-      "height": 0.5,
-      "weight": 70,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "5": {
+          "typeId": 5,
+          "typeName": "Ground"
+        },
+        "8": {
+          "typeId": 8,
+          "typeName": "Ghost"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 769,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "770": {
           "pokemon": 770,
-          "form": 0,
-          "candyCost": 50
+          "form": 0
         }
       },
       "little": true
@@ -84659,6 +82981,7 @@
     "770": {
       "name": "Palossand",
       "pokedexId": 770,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84667,6 +82990,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 178,
+        "defense": 178,
+        "stamina": 198
       },
       "types": {
         "5": {
@@ -84678,53 +83006,12 @@
           "typeName": "Ghost"
         }
       },
-      "stats": {
-        "attack": 178,
-        "defense": 178,
-        "stamina": 198
-      },
-      "height": 1.3,
-      "weight": 250,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 769,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "771": {
       "name": "Pyukumuku",
       "pokedexId": 771,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84732,12 +83019,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
         }
       },
       "stats": {
@@ -84745,46 +83026,18 @@
         "defense": 224,
         "stamina": 146
       },
-      "height": 0.3,
-      "weight": 1.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 771,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "772": {
       "name": "Type: Null",
       "pokedexId": 772,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -84794,56 +83047,22 @@
           "form": 0
         }
       },
+      "stats": {
+        "attack": 184,
+        "defense": 184,
+        "stamina": 216
+      },
       "types": {
         "1": {
           "typeId": 1,
           "typeName": "Normal"
         }
       },
-      "stats": {
-        "attack": 184,
-        "defense": 184,
-        "stamina": 216
-      },
-      "height": 1.9,
-      "weight": 120.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 772,
-      "encounter": {
-        "captureRate": 0.3
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "773": {
           "pokemon": 773,
-          "form": 2689,
-          "candyCost": 200
+          "form": 0
         }
       },
       "little": true
@@ -84855,6 +83074,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2689": {
           "name": "Normal",
           "proto": "SILVALLY_NORMAL",
@@ -84863,195 +83087,87 @@
         "2690": {
           "name": "Bug",
           "proto": "SILVALLY_BUG",
-          "form": 2690,
-          "types": {
-            "7": {
-              "typeId": 7,
-              "typeName": "Bug"
-            }
-          }
+          "form": 2690
         },
         "2691": {
           "name": "Dark",
           "proto": "SILVALLY_DARK",
-          "form": 2691,
-          "types": {
-            "17": {
-              "typeId": 17,
-              "typeName": "Dark"
-            }
-          }
+          "form": 2691
         },
         "2692": {
           "name": "Dragon",
           "proto": "SILVALLY_DRAGON",
-          "form": 2692,
-          "types": {
-            "16": {
-              "typeId": 16,
-              "typeName": "Dragon"
-            }
-          }
+          "form": 2692
         },
         "2693": {
           "name": "Electric",
           "proto": "SILVALLY_ELECTRIC",
-          "form": 2693,
-          "types": {
-            "13": {
-              "typeId": 13,
-              "typeName": "Electric"
-            }
-          }
+          "form": 2693
         },
         "2694": {
           "name": "Fairy",
           "proto": "SILVALLY_FAIRY",
-          "form": 2694,
-          "types": {
-            "18": {
-              "typeId": 18,
-              "typeName": "Fairy"
-            }
-          }
+          "form": 2694
         },
         "2695": {
           "name": "Fighting",
           "proto": "SILVALLY_FIGHTING",
-          "form": 2695,
-          "types": {
-            "2": {
-              "typeId": 2,
-              "typeName": "Fighting"
-            }
-          }
+          "form": 2695
         },
         "2696": {
           "name": "Fire",
           "proto": "SILVALLY_FIRE",
-          "form": 2696,
-          "types": {
-            "10": {
-              "typeId": 10,
-              "typeName": "Fire"
-            }
-          }
+          "form": 2696
         },
         "2697": {
           "name": "Flying",
           "proto": "SILVALLY_FLYING",
-          "form": 2697,
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            }
-          }
+          "form": 2697
         },
         "2698": {
           "name": "Ghost",
           "proto": "SILVALLY_GHOST",
-          "form": 2698,
-          "types": {
-            "8": {
-              "typeId": 8,
-              "typeName": "Ghost"
-            }
-          }
+          "form": 2698
         },
         "2699": {
           "name": "Grass",
           "proto": "SILVALLY_GRASS",
-          "form": 2699,
-          "types": {
-            "12": {
-              "typeId": 12,
-              "typeName": "Grass"
-            }
-          }
+          "form": 2699
         },
         "2700": {
           "name": "Ground",
           "proto": "SILVALLY_GROUND",
-          "form": 2700,
-          "types": {
-            "5": {
-              "typeId": 5,
-              "typeName": "Ground"
-            }
-          }
+          "form": 2700
         },
         "2701": {
           "name": "Ice",
           "proto": "SILVALLY_ICE",
-          "form": 2701,
-          "types": {
-            "15": {
-              "typeId": 15,
-              "typeName": "Ice"
-            }
-          }
+          "form": 2701
         },
         "2702": {
           "name": "Poison",
           "proto": "SILVALLY_POISON",
-          "form": 2702,
-          "types": {
-            "4": {
-              "typeId": 4,
-              "typeName": "Poison"
-            }
-          }
+          "form": 2702
         },
         "2703": {
           "name": "Psychic",
           "proto": "SILVALLY_PSYCHIC",
-          "form": 2703,
-          "types": {
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            }
-          }
+          "form": 2703
         },
         "2704": {
           "name": "Rock",
           "proto": "SILVALLY_ROCK",
-          "form": 2704,
-          "types": {
-            "6": {
-              "typeId": 6,
-              "typeName": "Rock"
-            }
-          }
+          "form": 2704
         },
         "2705": {
           "name": "Steel",
           "proto": "SILVALLY_STEEL",
-          "form": 2705,
-          "types": {
-            "9": {
-              "typeId": 9,
-              "typeName": "Steel"
-            }
-          }
+          "form": 2705
         },
         "2706": {
           "name": "Water",
           "proto": "SILVALLY_WATER",
-          "form": 2706,
-          "types": {
-            "11": {
-              "typeId": 11,
-              "typeName": "Water"
-            }
-          }
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
+          "form": 2706
         }
       },
       "stats": {
@@ -85059,42 +83175,13 @@
         "defense": 198,
         "stamina": 216
       },
-      "height": 2.3,
-      "weight": 100.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 772,
-      "encounter": {
-        "captureRate": 0.3,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "774": {
       "name": "Minior",
@@ -85103,6 +83190,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2707": {
           "name": "Meteor Form",
           "proto": "MINIOR_METEOR",
@@ -85111,87 +83203,43 @@
         "2708": {
           "name": "Blue",
           "proto": "MINIOR_BLUE",
-          "form": 2708,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2708
         },
         "2709": {
           "name": "Green",
           "proto": "MINIOR_GREEN",
-          "form": 2709,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2709
         },
         "2710": {
           "name": "Indigo",
           "proto": "MINIOR_INDIGO",
-          "form": 2710,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2710
         },
         "2711": {
           "name": "Orange",
           "proto": "MINIOR_ORANGE",
-          "form": 2711,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2711
         },
         "2712": {
           "name": "Red",
           "proto": "MINIOR_RED",
-          "form": 2712,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2712
         },
         "2713": {
           "name": "Violet",
           "proto": "MINIOR_VIOLET",
-          "form": 2713,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2713
         },
         "2714": {
           "name": "Yellow",
           "proto": "MINIOR_YELLOW",
-          "form": 2714,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
-          "height": 0.3,
-          "weight": 0.3
+          "form": 2714
         }
+      },
+      "stats": {
+        "attack": 116,
+        "defense": 194,
+        "stamina": 155
       },
       "types": {
         "3": {
@@ -85203,51 +83251,12 @@
           "typeName": "Rock"
         }
       },
-      "stats": {
-        "attack": 116,
-        "defense": 194,
-        "stamina": 155
-      },
-      "height": 0.3,
-      "weight": 40,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 774,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "775": {
       "name": "Komala",
       "pokedexId": 775,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85255,12 +83264,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
         }
       },
       "stats": {
@@ -85268,46 +83271,18 @@
         "defense": 165,
         "stamina": 163
       },
-      "height": 0.4,
-      "weight": 19.9,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "1": {
+          "typeId": 1,
+          "typeName": "Normal"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 775,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "776": {
       "name": "Turtonator",
       "pokedexId": 776,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85316,6 +83291,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 165,
+        "defense": 215,
+        "stamina": 155
       },
       "types": {
         "10": {
@@ -85327,51 +83307,12 @@
           "typeName": "Dragon"
         }
       },
-      "stats": {
-        "attack": 165,
-        "defense": 215,
-        "stamina": 155
-      },
-      "height": 2,
-      "weight": 212,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 776,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "777": {
       "name": "Togedemaru",
       "pokedexId": 777,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85380,6 +83321,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 190,
+        "defense": 145,
+        "stamina": 163
       },
       "types": {
         "9": {
@@ -85391,47 +83337,7 @@
           "typeName": "Electric"
         }
       },
-      "stats": {
-        "attack": 190,
-        "defense": 145,
-        "stamina": 163
-      },
-      "height": 0.3,
-      "weight": 3.3,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 777,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "778": {
       "name": "Mimikyu",
@@ -85440,6 +83346,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2715": {
           "name": "Busted Form",
           "proto": "MIMIKYU_BUSTED",
@@ -85451,6 +83362,11 @@
           "form": 2716
         }
       },
+      "stats": {
+        "attack": 177,
+        "defense": 199,
+        "stamina": 146
+      },
       "types": {
         "8": {
           "typeId": 8,
@@ -85461,51 +83377,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 177,
-        "defense": 199,
-        "stamina": 146
-      },
-      "height": 0.2,
-      "weight": 0.7,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 778,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "779": {
       "name": "Bruxish",
       "pokedexId": 779,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85514,6 +83391,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 208,
+        "defense": 145,
+        "stamina": 169
       },
       "types": {
         "11": {
@@ -85525,51 +83407,12 @@
           "typeName": "Psychic"
         }
       },
-      "stats": {
-        "attack": 208,
-        "defense": 145,
-        "stamina": 169
-      },
-      "height": 0.9,
-      "weight": 19,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 779,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "780": {
       "name": "Drampa",
       "pokedexId": 780,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85578,6 +83421,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 231,
+        "defense": 164,
+        "stamina": 186
       },
       "types": {
         "1": {
@@ -85589,51 +83437,12 @@
           "typeName": "Dragon"
         }
       },
-      "stats": {
-        "attack": 231,
-        "defense": 164,
-        "stamina": 186
-      },
-      "height": 3,
-      "weight": 185,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 780,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "781": {
       "name": "Dhelmise",
       "pokedexId": 781,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85642,6 +83451,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 233,
+        "defense": 179,
+        "stamina": 172
       },
       "types": {
         "8": {
@@ -85653,51 +83467,12 @@
           "typeName": "Grass"
         }
       },
-      "stats": {
-        "attack": 233,
-        "defense": 179,
-        "stamina": 172
-      },
-      "height": 3.9,
-      "weight": 210,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 781,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "782": {
       "name": "Jangmo-o",
       "pokedexId": 782,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85705,12 +83480,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "16": {
-          "typeId": 16,
-          "typeName": "Dragon"
         }
       },
       "stats": {
@@ -85718,47 +83487,17 @@
         "defense": 108,
         "stamina": 128
       },
-      "height": 0.6,
-      "weight": 29.7,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "16": {
+          "typeId": 16,
+          "typeName": "Dragon"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 782,
-      "encounter": {
-        "fleeRate": 0.09,
-        "captureRate": 0.4
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "783": {
           "pokemon": 783,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -85766,6 +83505,7 @@
     "783": {
       "name": "Hakamo-o",
       "pokedexId": 783,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85773,16 +83513,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "2": {
-          "typeId": 2,
-          "typeName": "Fighting"
-        },
-        "16": {
-          "typeId": 16,
-          "typeName": "Dragon"
         }
       },
       "stats": {
@@ -85790,55 +83520,29 @@
         "defense": 162,
         "stamina": 146
       },
-      "height": 1.2,
-      "weight": 47,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "2": {
+          "typeId": 2,
+          "typeName": "Fighting"
+        },
+        "16": {
+          "typeId": 16,
+          "typeName": "Dragon"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 782,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.1,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "784": {
           "pokemon": 784,
-          "form": 0,
-          "candyCost": 100
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "784": {
       "name": "Kommo-o",
       "pokedexId": 784,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85847,6 +83551,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 222,
+        "defense": 240,
+        "stamina": 181
       },
       "types": {
         "2": {
@@ -85858,53 +83567,12 @@
           "typeName": "Dragon"
         }
       },
-      "stats": {
-        "attack": 222,
-        "defense": 240,
-        "stamina": 181
-      },
-      "height": 1.6,
-      "weight": 78.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 782,
-      "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.05,
-        "bonusCandyCapture": 7,
-        "bonusStardustCapture": 400
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 3,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "785": {
       "name": "Tapu Koko",
       "pokedexId": 785,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85913,6 +83581,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 250,
+        "defense": 181,
+        "stamina": 172
       },
       "types": {
         "13": {
@@ -85924,50 +83597,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 250,
-        "defense": 181,
-        "stamina": 172
-      },
-      "height": 1.8,
-      "weight": 20.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 785,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "786": {
       "name": "Tapu Lele",
       "pokedexId": 786,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -85976,6 +83611,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 259,
+        "defense": 208,
+        "stamina": 172
       },
       "types": {
         "14": {
@@ -85987,50 +83627,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 259,
-        "defense": 208,
-        "stamina": 172
-      },
-      "height": 1.2,
-      "weight": 18.6,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 786,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "787": {
       "name": "Tapu Bulu",
       "pokedexId": 787,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86039,6 +83641,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 249,
+        "defense": 215,
+        "stamina": 172
       },
       "types": {
         "12": {
@@ -86050,50 +83657,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 249,
-        "defense": 215,
-        "stamina": 172
-      },
-      "height": 1.9,
-      "weight": 45.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 787,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "788": {
       "name": "Tapu Fini",
       "pokedexId": 788,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86102,6 +83671,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 189,
+        "defense": 254,
+        "stamina": 172
       },
       "types": {
         "11": {
@@ -86113,50 +83687,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 189,
-        "defense": 254,
-        "stamina": 172
-      },
-      "height": 1.3,
-      "weight": 21.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 788,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "789": {
       "name": "Cosmog",
       "pokedexId": 789,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86164,12 +83700,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "14": {
-          "typeId": 14,
-          "typeName": "Psychic"
         }
       },
       "stats": {
@@ -86177,46 +83707,17 @@
         "defense": 57,
         "stamina": 125
       },
-      "height": 0.2,
-      "weight": 0.1,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "14": {
+          "typeId": 14,
+          "typeName": "Psychic"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 789,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "790": {
           "pokemon": 790,
-          "form": 0,
-          "candyCost": 25
+          "form": 0
         }
       },
       "little": true
@@ -86224,6 +83725,7 @@
     "790": {
       "name": "Cosmoem",
       "pokedexId": 790,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86231,12 +83733,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "14": {
-          "typeId": 14,
-          "typeName": "Psychic"
         }
       },
       "stats": {
@@ -86244,59 +83740,29 @@
         "defense": 242,
         "stamina": 125
       },
-      "height": 0.1,
-      "weight": 999.9,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "14": {
+          "typeId": 14,
+          "typeName": "Psychic"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 789,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "791": {
           "pokemon": 791,
-          "form": 0,
-          "candyCost": 100,
-          "onlyDaytime": true
+          "form": 0
         },
         "792": {
           "pokemon": 792,
-          "form": 0,
-          "candyCost": 100,
-          "onlyNighttime": true
+          "form": 0
         }
-      }
+      },
+      "little": true
     },
     "791": {
       "name": "Solgaleo",
       "pokedexId": 791,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86305,6 +83771,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 255,
+        "defense": 191,
+        "stamina": 264
       },
       "types": {
         "9": {
@@ -86316,50 +83787,12 @@
           "typeName": "Psychic"
         }
       },
-      "stats": {
-        "attack": 255,
-        "defense": 191,
-        "stamina": 264
-      },
-      "height": 3.4,
-      "weight": 230,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 789,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "792": {
       "name": "Lunala",
       "pokedexId": 792,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86368,6 +83801,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 255,
+        "defense": 191,
+        "stamina": 264
       },
       "types": {
         "8": {
@@ -86379,50 +83817,12 @@
           "typeName": "Psychic"
         }
       },
-      "stats": {
-        "attack": 255,
-        "defense": 191,
-        "stamina": 264
-      },
-      "height": 4,
-      "weight": 120,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 789,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "793": {
       "name": "Nihilego",
       "pokedexId": 793,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86431,6 +83831,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 249,
+        "defense": 210,
+        "stamina": 240
       },
       "types": {
         "4": {
@@ -86442,50 +83847,12 @@
           "typeName": "Rock"
         }
       },
-      "stats": {
-        "attack": 249,
-        "defense": 210,
-        "stamina": 240
-      },
-      "height": 1.2,
-      "weight": 55.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 793,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "794": {
       "name": "Buzzwole",
       "pokedexId": 794,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86493,16 +83860,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "2": {
-          "typeId": 2,
-          "typeName": "Fighting"
-        },
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
         }
       },
       "stats": {
@@ -86510,45 +83867,22 @@
         "defense": 196,
         "stamina": 216
       },
-      "height": 2.4,
-      "weight": 333.6,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "2": {
+          "typeId": 2,
+          "typeName": "Fighting"
+        },
+        "7": {
+          "typeId": 7,
+          "typeName": "Bug"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 794,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "795": {
       "name": "Pheromosa",
       "pokedexId": 795,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86557,6 +83891,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 316,
+        "defense": 85,
+        "stamina": 174
       },
       "types": {
         "2": {
@@ -86568,50 +83907,12 @@
           "typeName": "Bug"
         }
       },
-      "stats": {
-        "attack": 316,
-        "defense": 85,
-        "stamina": 174
-      },
-      "height": 1.8,
-      "weight": 25,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 795,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "796": {
       "name": "Xurkitree",
       "pokedexId": 796,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86619,12 +83920,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "13": {
-          "typeId": 13,
-          "typeName": "Electric"
         }
       },
       "stats": {
@@ -86632,45 +83927,18 @@
         "defense": 144,
         "stamina": 195
       },
-      "height": 3.8,
-      "weight": 100,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "13": {
+          "typeId": 13,
+          "typeName": "Electric"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 796,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "797": {
       "name": "Celesteela",
       "pokedexId": 797,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86679,6 +83947,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 207,
+        "defense": 199,
+        "stamina": 219
       },
       "types": {
         "3": {
@@ -86690,50 +83963,12 @@
           "typeName": "Steel"
         }
       },
-      "stats": {
-        "attack": 207,
-        "defense": 199,
-        "stamina": 219
-      },
-      "height": 9.2,
-      "weight": 999.9,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 797,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "798": {
       "name": "Kartana",
       "pokedexId": 798,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86742,6 +83977,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 323,
+        "defense": 182,
+        "stamina": 139
       },
       "types": {
         "9": {
@@ -86753,50 +83993,12 @@
           "typeName": "Grass"
         }
       },
-      "stats": {
-        "attack": 323,
-        "defense": 182,
-        "stamina": 139
-      },
-      "height": 0.3,
-      "weight": 0.1,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 798,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "799": {
       "name": "Guzzlord",
       "pokedexId": 799,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -86806,56 +84008,22 @@
           "form": 0
         }
       },
+      "stats": {
+        "attack": 188,
+        "defense": 99,
+        "stamina": 440
+      },
       "types": {
-        "8": {
-          "typeId": 8,
-          "typeName": "Ghost"
+        "16": {
+          "typeId": 16,
+          "typeName": "Dragon"
         },
         "17": {
           "typeId": 17,
           "typeName": "Dark"
         }
       },
-      "stats": {
-        "attack": 188,
-        "defense": 99,
-        "stamina": 440
-      },
-      "height": 5.5,
-      "weight": 888,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 799,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "800": {
       "name": "Necrozma",
@@ -86864,6 +84032,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2717": {
           "name": "Normal",
           "proto": "NECROZMA_NORMAL",
@@ -86872,74 +84045,17 @@
         "2718": {
           "name": "Dusk Mane",
           "proto": "NECROZMA_DUSK_MANE",
-          "form": 2718,
-          "stats": {
-            "attack": 277,
-            "defense": 220,
-            "stamina": 200
-          },
-          "height": 3.8,
-          "weight": 460,
-          "types": {
-            "9": {
-              "typeId": 9,
-              "typeName": "Steel"
-            },
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            }
-          }
+          "form": 2718
         },
         "2719": {
           "name": "Dawn Wings",
           "proto": "NECROZMA_DAWN_WINGS",
-          "form": 2719,
-          "stats": {
-            "attack": 277,
-            "defense": 220,
-            "stamina": 200
-          },
-          "height": 4.2,
-          "weight": 350,
-          "types": {
-            "8": {
-              "typeId": 8,
-              "typeName": "Ghost"
-            },
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            }
-          }
+          "form": 2719
         },
         "2720": {
           "name": "Ultra",
           "proto": "NECROZMA_ULTRA",
-          "form": 2720,
-          "stats": {
-            "attack": 337,
-            "defense": 196,
-            "stamina": 200
-          },
-          "height": 7.5,
-          "weight": 230,
-          "types": {
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            },
-            "16": {
-              "typeId": 16,
-              "typeName": "Dragon"
-            }
-          }
-        }
-      },
-      "types": {
-        "14": {
-          "typeId": 14,
-          "typeName": "Psychic"
+          "form": 2720
         }
       },
       "stats": {
@@ -86947,41 +84063,13 @@
         "defense": 195,
         "stamina": 219
       },
-      "height": 2.4,
-      "weight": 230,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "14": {
+          "typeId": 14,
+          "typeName": "Psychic"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 800,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "801": {
       "name": "Magearna",
@@ -86990,6 +84078,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2721": {
           "name": "Normal",
           "proto": "MAGEARNA_NORMAL",
@@ -87001,6 +84094,11 @@
           "form": 2722
         }
       },
+      "stats": {
+        "attack": 246,
+        "defense": 225,
+        "stamina": 190
+      },
       "types": {
         "9": {
           "typeId": 9,
@@ -87011,48 +84109,12 @@
           "typeName": "Fairy"
         }
       },
-      "stats": {
-        "attack": 246,
-        "defense": 225,
-        "stamina": 190
-      },
-      "height": 1,
-      "weight": 80.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 801,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": false,
-      "mythic": true,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
-      }
+      "unreleased": true
     },
     "802": {
       "name": "Marshadow",
       "pokedexId": 802,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -87061,6 +84123,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 265,
+        "defense": 190,
+        "stamina": 207
       },
       "types": {
         "2": {
@@ -87072,48 +84139,12 @@
           "typeName": "Ghost"
         }
       },
-      "stats": {
-        "attack": 265,
-        "defense": 190,
-        "stamina": 207
-      },
-      "height": 0.7,
-      "weight": 22.2,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 802,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": false,
-      "mythic": true,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
-      }
+      "unreleased": true
     },
     "803": {
       "name": "Poipole",
       "pokedexId": 803,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -87121,12 +84152,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        }
-      },
-      "types": {
-        "4": {
-          "typeId": 4,
-          "typeName": "Poison"
         }
       },
       "stats": {
@@ -87134,45 +84159,17 @@
         "defense": 133,
         "stamina": 167
       },
-      "height": 0.6,
-      "weight": 1.8,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+      "types": {
+        "4": {
+          "typeId": 4,
+          "typeName": "Poison"
         }
       },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 803,
-      "encounter": {
-        "captureRate": 0.3
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      },
+      "unreleased": true,
       "evolutions": {
         "804": {
           "pokemon": 804,
-          "form": 0,
-          "candyCost": 200
+          "form": 0
         }
       },
       "little": true
@@ -87180,6 +84177,7 @@
     "804": {
       "name": "Naganadel",
       "pokedexId": 804,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -87188,6 +84186,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 263,
+        "defense": 159,
+        "stamina": 177
       },
       "types": {
         "4": {
@@ -87199,51 +84202,12 @@
           "typeName": "Dragon"
         }
       },
-      "stats": {
-        "attack": 263,
-        "defense": 159,
-        "stamina": 177
-      },
-      "height": 3.6,
-      "weight": 150,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 803,
-      "encounter": {
-        "captureRate": 0.3,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "805": {
       "name": "Stakataka",
       "pokedexId": 805,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -87252,6 +84216,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 213,
+        "defense": 298,
+        "stamina": 156
       },
       "types": {
         "6": {
@@ -87263,50 +84232,12 @@
           "typeName": "Steel"
         }
       },
-      "stats": {
-        "attack": 213,
-        "defense": 298,
-        "stamina": 156
-      },
-      "height": 5.5,
-      "weight": 820,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 805,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "806": {
       "name": "Blacephalon",
       "pokedexId": 806,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -87315,6 +84246,11 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
+      },
+      "stats": {
+        "attack": 315,
+        "defense": 148,
+        "stamina": 142
       },
       "types": {
         "8": {
@@ -87326,50 +84262,12 @@
           "typeName": "Fire"
         }
       },
-      "stats": {
-        "attack": 315,
-        "defense": 148,
-        "stamina": 142
-      },
-      "height": 1.8,
-      "weight": 13,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 806,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": true,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
-      }
+      "unreleased": true
     },
     "807": {
       "name": "Zeraora",
       "pokedexId": 807,
+      "defaultFormId": 0,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -87379,50 +84277,18 @@
           "form": 0
         }
       },
+      "stats": {
+        "attack": 252,
+        "defense": 177,
+        "stamina": 204
+      },
       "types": {
         "13": {
           "typeId": 13,
           "typeName": "Electric"
         }
       },
-      "stats": {
-        "attack": 252,
-        "defense": 177,
-        "stamina": 204
-      },
-      "height": 1.5,
-      "weight": 44.5,
-      "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
-        }
-      },
-      "family": 807,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.02
-      },
-      "legendary": false,
-      "mythic": true,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 20,
-        "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
-      }
+      "unreleased": true
     },
     "808": {
       "name": "Meltan",
@@ -111238,20 +108104,12 @@
     "2685": {
       "formName": "Midnight Form",
       "proto": "LYCANROC_MIDNIGHT",
-      "formId": 2685,
-      "attack": 218,
-      "defense": 152,
-      "stamina": 198,
-      "height": 1.1,
-      "weight": 25
+      "formId": 2685
     },
     "2686": {
       "formName": "Dusk Form",
       "proto": "LYCANROC_DUSK",
-      "formId": 2686,
-      "attack": 234,
-      "defense": 139,
-      "stamina": 181
+      "formId": 2686
     },
     "2687": {
       "formName": "Solo Form",
@@ -111261,12 +108119,7 @@
     "2688": {
       "formName": "School Form",
       "proto": "WISHIWASHI_SCHOOL",
-      "formId": 2688,
-      "attack": 255,
-      "defense": 242,
-      "stamina": 128,
-      "height": 8.2,
-      "weight": 78.6
+      "formId": 2688
     },
     "2689": {
       "formName": "Normal",
@@ -111276,138 +108129,87 @@
     "2690": {
       "formName": "Bug",
       "proto": "SILVALLY_BUG",
-      "formId": 2690,
-      "types": [
-        7
-      ]
+      "formId": 2690
     },
     "2691": {
       "formName": "Dark",
       "proto": "SILVALLY_DARK",
-      "formId": 2691,
-      "types": [
-        17
-      ]
+      "formId": 2691
     },
     "2692": {
       "formName": "Dragon",
       "proto": "SILVALLY_DRAGON",
-      "formId": 2692,
-      "types": [
-        16
-      ]
+      "formId": 2692
     },
     "2693": {
       "formName": "Electric",
       "proto": "SILVALLY_ELECTRIC",
-      "formId": 2693,
-      "types": [
-        13
-      ]
+      "formId": 2693
     },
     "2694": {
       "formName": "Fairy",
       "proto": "SILVALLY_FAIRY",
-      "formId": 2694,
-      "types": [
-        18
-      ]
+      "formId": 2694
     },
     "2695": {
       "formName": "Fighting",
       "proto": "SILVALLY_FIGHTING",
-      "formId": 2695,
-      "types": [
-        2
-      ]
+      "formId": 2695
     },
     "2696": {
       "formName": "Fire",
       "proto": "SILVALLY_FIRE",
-      "formId": 2696,
-      "types": [
-        10
-      ]
+      "formId": 2696
     },
     "2697": {
       "formName": "Flying",
       "proto": "SILVALLY_FLYING",
-      "formId": 2697,
-      "types": [
-        3
-      ]
+      "formId": 2697
     },
     "2698": {
       "formName": "Ghost",
       "proto": "SILVALLY_GHOST",
-      "formId": 2698,
-      "types": [
-        8
-      ]
+      "formId": 2698
     },
     "2699": {
       "formName": "Grass",
       "proto": "SILVALLY_GRASS",
-      "formId": 2699,
-      "types": [
-        12
-      ]
+      "formId": 2699
     },
     "2700": {
       "formName": "Ground",
       "proto": "SILVALLY_GROUND",
-      "formId": 2700,
-      "types": [
-        5
-      ]
+      "formId": 2700
     },
     "2701": {
       "formName": "Ice",
       "proto": "SILVALLY_ICE",
-      "formId": 2701,
-      "types": [
-        15
-      ]
+      "formId": 2701
     },
     "2702": {
       "formName": "Poison",
       "proto": "SILVALLY_POISON",
-      "formId": 2702,
-      "types": [
-        4
-      ]
+      "formId": 2702
     },
     "2703": {
       "formName": "Psychic",
       "proto": "SILVALLY_PSYCHIC",
-      "formId": 2703,
-      "types": [
-        14
-      ]
+      "formId": 2703
     },
     "2704": {
       "formName": "Rock",
       "proto": "SILVALLY_ROCK",
-      "formId": 2704,
-      "types": [
-        6
-      ]
+      "formId": 2704
     },
     "2705": {
       "formName": "Steel",
       "proto": "SILVALLY_STEEL",
-      "formId": 2705,
-      "types": [
-        9
-      ]
+      "formId": 2705
     },
     "2706": {
       "formName": "Water",
       "proto": "SILVALLY_WATER",
-      "formId": 2706,
-      "types": [
-        11
-      ]
+      "formId": 2706
     },
     "2707": {
       "formName": "Meteor Form",
@@ -111417,72 +108219,37 @@
     "2708": {
       "formName": "Blue",
       "proto": "MINIOR_BLUE",
-      "formId": 2708,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2708
     },
     "2709": {
       "formName": "Green",
       "proto": "MINIOR_GREEN",
-      "formId": 2709,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2709
     },
     "2710": {
       "formName": "Indigo",
       "proto": "MINIOR_INDIGO",
-      "formId": 2710,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2710
     },
     "2711": {
       "formName": "Orange",
       "proto": "MINIOR_ORANGE",
-      "formId": 2711,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2711
     },
     "2712": {
       "formName": "Red",
       "proto": "MINIOR_RED",
-      "formId": 2712,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2712
     },
     "2713": {
       "formName": "Violet",
       "proto": "MINIOR_VIOLET",
-      "formId": 2713,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2713
     },
     "2714": {
       "formName": "Yellow",
       "proto": "MINIOR_YELLOW",
-      "formId": 2714,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
-      "height": 0.3,
-      "weight": 0.3
+      "formId": 2714
     },
     "2715": {
       "formName": "Busted Form",
@@ -111502,44 +108269,17 @@
     "2718": {
       "formName": "Dusk Mane",
       "proto": "NECROZMA_DUSK_MANE",
-      "formId": 2718,
-      "attack": 277,
-      "defense": 220,
-      "stamina": 200,
-      "height": 3.8,
-      "weight": 460,
-      "types": [
-        9,
-        14
-      ]
+      "formId": 2718
     },
     "2719": {
       "formName": "Dawn Wings",
       "proto": "NECROZMA_DAWN_WINGS",
-      "formId": 2719,
-      "attack": 277,
-      "defense": 220,
-      "stamina": 200,
-      "height": 4.2,
-      "weight": 350,
-      "types": [
-        8,
-        14
-      ]
+      "formId": 2719
     },
     "2720": {
       "formName": "Ultra",
       "proto": "NECROZMA_ULTRA",
-      "formId": 2720,
-      "attack": 337,
-      "defense": 196,
-      "stamina": 200,
-      "height": 7.5,
-      "weight": 230,
-      "types": [
-        14,
-        16
-      ]
+      "formId": 2720
     },
     "2721": {
       "formName": "Normal",
@@ -111740,9 +108480,6 @@
       ],
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "undefined": {
-      "formName": ""
     }
   },
   "types": {
