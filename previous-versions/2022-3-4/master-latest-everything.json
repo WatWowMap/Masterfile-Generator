@@ -12707,7 +12707,7 @@
           "evolutions": {
             "101": {
               "pokemon": 101,
-              "form": 1050,
+              "form": 0,
               "candyCost": 50
             }
           }
@@ -103282,7 +103282,7 @@
       "evolutions": [
         {
           "evoId": 101,
-          "formId": 1050,
+          "formId": 0,
           "candyCost": 50
         }
       ],
@@ -116556,11 +116556,6 @@
       "id": 13,
       "proto": "INCIDENT",
       "formatted": "Incident"
-    },
-    "14": {
-      "id": 14,
-      "proto": "PLAYER_ATTRIBUTE",
-      "formatted": "Player Attribute"
     }
   },
   "questConditions": {
