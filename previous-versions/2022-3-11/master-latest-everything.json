@@ -83018,6 +83018,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2679": {
           "name": "Baile Style",
           "proto": "ORICORIO_BAILE",
@@ -83851,7 +83856,7 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 1,
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -83987,7 +83992,7 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 1,
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -84480,7 +84485,7 @@
       "legendary": false,
       "mythic": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -85558,7 +85563,7 @@
     "774": {
       "name": "Minior",
       "pokedexId": 774,
-      "defaultFormId": 2708,
+      "defaultFormId": 2707,
       "genId": 7,
       "generation": "Alola",
       "forms": {
