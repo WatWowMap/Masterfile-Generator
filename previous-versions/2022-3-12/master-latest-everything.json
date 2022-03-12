@@ -83026,48 +83026,23 @@
         "2680": {
           "name": "Pom-Pom Style",
           "proto": "ORICORIO_POMPOM",
-          "form": 2680,
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            },
-            "13": {
-              "typeId": 13,
-              "typeName": "Electric"
-            }
-          }
+          "form": 2680
         },
         "2681": {
           "name": "Pa'u Style",
           "proto": "ORICORIO_PAU",
-          "form": 2681,
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            },
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            }
-          }
+          "form": 2681
         },
         "2683": {
           "name": "Sensu Style",
           "proto": "ORICORIO_SENSU",
-          "form": 2683,
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            },
-            "8": {
-              "typeId": 8,
-              "typeName": "Ghost"
-            }
-          }
+          "form": 2683
         }
+      },
+      "stats": {
+        "attack": 196,
+        "defense": 145,
+        "stamina": 181
       },
       "types": {
         "3": {
@@ -83078,68 +83053,6 @@
           "typeId": 10,
           "typeName": "Fire"
         }
-      },
-      "stats": {
-        "attack": 196,
-        "defense": 145,
-        "stamina": 181
-      },
-      "height": 0.6,
-      "weight": 3.4,
-      "quickMoves": {
-        "222": {
-          "moveId": 222,
-          "moveName": "Pound",
-          "proto": "POUND_FAST",
-          "type": 1,
-          "power": 4
-        },
-        "255": {
-          "moveId": 255,
-          "moveName": "Air Slash",
-          "proto": "AIR_SLASH_FAST",
-          "type": 3,
-          "power": 9
-        }
-      },
-      "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "121": {
-          "moveId": 121,
-          "moveName": "Air Cutter",
-          "proto": "AIR_CUTTER",
-          "type": 3,
-          "power": 60
-        },
-        "122": {
-          "moveId": 122,
-          "moveName": "Hurricane",
-          "proto": "HURRICANE",
-          "type": 3,
-          "power": 110
-        }
-      },
-      "family": 741,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.2
-      },
-      "legendary": false,
-      "mythic": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
       },
       "unreleased": true
     },
@@ -86643,49 +86556,21 @@
       "height": 1.2,
       "weight": 18.6,
       "quickMoves": {
-        "235": {
-          "moveId": 235,
-          "moveName": "Confusion",
-          "proto": "CONFUSION_FAST",
-          "type": 14,
-          "power": 16
-        },
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "60": {
-          "moveId": 60,
-          "moveName": "Psyshock",
-          "proto": "PSYSHOCK",
-          "type": 14,
-          "power": 70
-        },
-        "87": {
-          "moveId": 87,
-          "moveName": "Moonblast",
-          "proto": "MOONBLAST",
-          "type": 18,
-          "power": 110
-        },
-        "247": {
-          "moveId": 247,
-          "moveName": "Focus Blast",
-          "proto": "FOCUS_BLAST",
-          "type": 2,
-          "power": 150
-        },
-        "275": {
-          "moveId": 275,
-          "moveName": "Future Sight",
-          "proto": "FUTURESIGHT",
-          "type": 14,
-          "power": 120
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "family": 786,
@@ -111913,29 +111798,17 @@
     "2680": {
       "formName": "Pom-Pom Style",
       "proto": "ORICORIO_POMPOM",
-      "formId": 2680,
-      "types": [
-        3,
-        13
-      ]
+      "formId": 2680
     },
     "2681": {
       "formName": "Pa'u Style",
       "proto": "ORICORIO_PAU",
-      "formId": 2681,
-      "types": [
-        3,
-        14
-      ]
+      "formId": 2681
     },
     "2683": {
       "formName": "Sensu Style",
       "proto": "ORICORIO_SENSU",
-      "formId": 2683,
-      "types": [
-        3,
-        8
-      ]
+      "formId": 2683
     },
     "2684": {
       "formName": "Midday Form",

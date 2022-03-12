@@ -41066,57 +41066,24 @@
         },
         "2680": {
           "name": "Pompom",
-          "proto": "ORICORIO_POMPOM",
-          "types": [
-            "Flying",
-            "Electric"
-          ]
+          "proto": "ORICORIO_POMPOM"
         },
         "2681": {
           "name": "Pau",
-          "proto": "ORICORIO_PAU",
-          "types": [
-            "Flying",
-            "Psychic"
-          ]
+          "proto": "ORICORIO_PAU"
         },
         "2683": {
           "name": "Sensu",
-          "proto": "ORICORIO_SENSU",
-          "types": [
-            "Flying",
-            "Ghost"
-          ]
+          "proto": "ORICORIO_SENSU"
         }
       },
-      "types": [
-        "Flying",
-        "Fire"
-      ],
       "attack": 196,
       "defense": 145,
       "stamina": 181,
-      "height": 0.6,
-      "weight": 3.4,
-      "quick_moves": [
-        "Pound",
-        "Air Slash"
-      ],
-      "charged_moves": [
-        "Aerial Ace",
-        "Air Cutter",
-        "Hurricane"
-      ],
-      "family": 741,
-      "flee_rate": 0.07,
-      "capture_rate": 0.2,
-      "legendary": false,
-      "mythic": false,
-      "buddy_group_number": 2,
-      "buddy_distance": 3,
-      "third_move_stardust": 75000,
-      "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "types": [
+        "Flying",
+        "Fire"
+      ]
     },
     "742": {
       "name": "Cutiefly",
@@ -43099,14 +43066,10 @@
       "height": 1.2,
       "weight": 18.6,
       "quick_moves": [
-        "Confusion",
-        "Astonish"
+        "Struggle"
       ],
       "charged_moves": [
-        "Psyshock",
-        "Moonblast",
-        "Focus Blast",
-        "Futuresight"
+        "Struggle"
       ],
       "family": 786,
       "flee_rate": 0.1,
