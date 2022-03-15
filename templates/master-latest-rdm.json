@@ -1,0 +1,24 @@
+{
+  "globalOptions": {
+    "includeProtos": true
+  },
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "pokedexId",
+        "forms": "formId"
+      },
+      "customFields": {
+        "pokemonName": "name"
+      }
+    },
+    "template": {
+      "pokemonName": true,
+      "types": "typeId",
+      "forms": {
+        "types": "typeId"
+      }
+    }
+  }
+}
