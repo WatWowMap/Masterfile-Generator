@@ -84049,29 +84049,22 @@
       "height": 0.3,
       "weight": 1.5,
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 2
-        },
         "215": {
           "moveId": 215,
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "271": {
+          "moveId": 271,
+          "moveName": "Bullet Seed",
+          "proto": "BULLET_SEED_FAST",
+          "type": 12,
+          "power": 5
         }
       },
       "chargedMoves": {
-        "117": {
-          "moveId": 117,
-          "moveName": "Leaf Blade",
-          "proto": "LEAF_BLADE",
-          "type": 12,
-          "power": 70
-        },
         "272": {
           "moveId": 272,
           "moveName": "Grass Knot",
@@ -84140,49 +84133,35 @@
       "height": 0.9,
       "weight": 18.5,
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 2
-        },
         "215": {
           "moveId": 215,
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "271": {
+          "moveId": 271,
+          "moveName": "Bullet Seed",
+          "proto": "BULLET_SEED_FAST",
+          "type": 12,
+          "power": 5
         }
       },
       "chargedMoves": {
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
-        },
-        "117": {
-          "moveId": 117,
-          "moveName": "Leaf Blade",
-          "proto": "LEAF_BLADE",
+        "272": {
+          "moveId": 272,
+          "moveName": "Grass Knot",
+          "proto": "GRASS_KNOT",
           "type": 12,
-          "power": 70
+          "power": 90
         },
-        "310": {
-          "moveId": 310,
-          "moveName": "Superpower",
-          "proto": "SUPER_POWER",
-          "type": 2,
-          "power": 85
-        },
-        "343": {
-          "moveId": 343,
-          "moveName": "Leaf Storm",
-          "proto": "LEAF_STORM",
+        "273": {
+          "moveId": 273,
+          "moveName": "Energy Ball",
+          "proto": "ENERGY_BALL",
           "type": 12,
-          "power": 130
+          "power": 90
         }
       },
       "family": 753,
