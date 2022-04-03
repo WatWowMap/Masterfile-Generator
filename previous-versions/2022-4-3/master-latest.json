@@ -41703,13 +41703,10 @@
       "height": 0.3,
       "weight": 4,
       "quick_moves": [
-        "Water Gun",
-        "Bubble"
+        "Struggle"
       ],
       "charged_moves": [
-        "Bubble Beam",
-        "Water Pulse",
-        "Crunch"
+        "Struggle"
       ],
       "family": 751,
       "flee_rate": 0.1,
@@ -41749,21 +41746,17 @@
       "height": 1.8,
       "weight": 82,
       "quick_moves": [
-        "Bubble",
-        "Infestation",
-        "Mirror Coat"
+        "Struggle"
       ],
       "charged_moves": [
-        "Bubble Beam",
-        "Crunch",
-        "Lunge"
+        "Struggle"
       ],
       "family": 751,
       "flee_rate": 0.1,
       "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 3,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -41955,13 +41948,10 @@
       "height": 0.6,
       "weight": 4.8,
       "quick_moves": [
-        "Ember",
-        "Poison Jab"
+        "Struggle"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Poison Fang",
-        "Dragon Pulse"
+        "Struggle"
       ],
       "family": 757,
       "flee_rate": 0.1,
@@ -42002,14 +41992,10 @@
       "height": 1.2,
       "weight": 22.2,
       "quick_moves": [
-        "Poison Jab",
-        "Incinerate"
+        "Struggle"
       ],
       "charged_moves": [
-        "Poison Fang",
-        "Dragon Pulse",
-        "Sludge Wave",
-        "Fire Blast"
+        "Struggle"
       ],
       "family": 757,
       "flee_rate": 0.1,
@@ -42043,13 +42029,10 @@
       "height": 0.5,
       "weight": 6.8,
       "quick_moves": [
-        "Tackle",
-        "Take Down"
+        "Struggle"
       ],
       "charged_moves": [
-        "Brick Break",
-        "Stomp",
-        "Super Power"
+        "Struggle"
       ],
       "family": 759,
       "flee_rate": 0.1,
@@ -42089,14 +42072,10 @@
       "height": 2.1,
       "weight": 135,
       "quick_moves": [
-        "Low Kick",
-        "Shadow Claw",
-        "Tackle"
+        "Struggle"
       ],
       "charged_moves": [
-        "Stomp",
-        "Super Power",
-        "Payback"
+        "Struggle"
       ],
       "family": 759,
       "flee_rate": 0.06,
@@ -42288,14 +42267,10 @@
       "height": 1.5,
       "weight": 76,
       "quick_moves": [
-        "Zen Headbutt",
-        "Confusion",
-        "Yawn"
+        "Struggle"
       ],
       "charged_moves": [
-        "Psychic",
-        "Futuresight",
-        "Foul Play"
+        "Struggle"
       ],
       "family": 765,
       "flee_rate": 0.07,
@@ -43354,14 +43329,10 @@
       "height": 1.9,
       "weight": 45.5,
       "quick_moves": [
-        "Rock Smash",
-        "Bullet Seed"
+        "Struggle"
       ],
       "charged_moves": [
-        "Megahorn",
-        "Dazzling Gleam",
-        "Solar Beam",
-        "Grass Knot"
+        "Struggle"
       ],
       "family": 787,
       "flee_rate": 0.1,
@@ -43394,14 +43365,10 @@
       "height": 1.3,
       "weight": 21.2,
       "quick_moves": [
-        "Water Gun",
-        "Hidden Power"
+        "Struggle"
       ],
       "charged_moves": [
-        "Ice Beam",
-        "Moonblast",
-        "Hydro Pump",
-        "Surf"
+        "Struggle"
       ],
       "family": 788,
       "flee_rate": 0.1,
@@ -51185,11 +51152,23 @@
       "type": "Mixed",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          152,
+          155,
+          158
+        ],
+        "second": [
+          153,
+          156,
+          159
+        ],
+        "third": [
+          154,
+          157,
+          160
+        ]
       }
     },
     "5": {
@@ -51274,17 +51253,17 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          19,
-          434
+          228,
+          261
         ],
         "second": [
-          20,
-          435
+          274,
+          302,
+          332
         ],
         "third": [
-          20,
-          332,
-          430
+          275,
+          319
         ]
       }
     },
@@ -51309,7 +51288,6 @@
           147
         ],
         "second": [
-          103,
           148,
           330
         ],
@@ -51343,7 +51321,6 @@
         ],
         "second": [
           209,
-          210,
           281
         ],
         "third": [
@@ -51370,17 +51347,17 @@
       "second_reward": false,
       "encounters": {
         "first": [
+          106,
+          107
+        ],
+        "second": [
           66,
           296
         ],
-        "second": [
-          106,
-          107
-        ],
         "third": [
-          67,
           106,
-          107
+          107,
+          297
         ]
       }
     },
@@ -51403,17 +51380,13 @@
       "encounters": {
         "first": [
           4,
-          155,
-          322
+          155
         ],
         "second": [
-          156,
-          323
+          156
         ],
         "third": [
-          38,
-          157,
-          323
+          6
         ]
       }
     },
@@ -51478,14 +51451,14 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          152,
-          331
+          1,
+          152
         ],
         "second": [
-          332
+          153
         ],
         "third": [
-          154
+          3
         ]
       }
     },
@@ -51504,17 +51477,17 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
+          27,
           449
         ],
         "second": [
-          323,
+          28,
           449
         ],
         "third": [
-          323,
           450
         ]
       }
@@ -51523,19 +51496,17 @@
       "type": "Ice",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
-          27,
-          220
+          220,
+          363
         ],
         "second": [
-          28,
-          361,
+          91,
           459
         ],
         "third": [
-          91,
           131,
           460
         ]
@@ -51592,13 +51563,10 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          19,
-          399
+          293
         ],
         "second": [
-          20,
-          294,
-          400
+          294
         ],
         "third": [
           295,
@@ -51610,9 +51578,10 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
+          30,
           32,
           41
         ],
@@ -51655,17 +51624,16 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          203,
+          63,
           280
         ],
         "second": [
-          64,
-          203
+          375
         ],
         "third": [
           65,
           97,
-          203
+          375
         ]
       }
     },
@@ -51687,11 +51655,9 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          185,
-          213
+          246
         ],
         "second": [
-          246,
           345,
           347
         ],
@@ -51708,16 +51674,14 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          158,
-          258
+          7,
+          158
         ],
         "second": [
-          159,
-          259
+          159
         ],
         "third": [
-          160,
-          260
+          9
         ]
       }
     },
@@ -51756,17 +51720,17 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          104
+          216
         ],
         "second": [
+          105,
           139,
-          405,
           466
         ],
         "third": [
-          6,
           248,
-          260
+          260,
+          389
         ]
       }
     },
@@ -51777,17 +51741,17 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          102
+          371
         ],
         "second": [
-          103,
-          149,
-          373
+          6,
+          9,
+          208
         ],
         "third": [
-          208,
+          149,
           212,
-          282
+          373
         ]
       }
     },
@@ -51798,16 +51762,16 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          96
+          60
         ],
         "second": [
+          103,
           131,
-          257,
           319
         ],
         "third": [
-          31,
           229,
+          260,
           275
         ]
       }
@@ -51822,11 +51786,12 @@
           53
         ],
         "second": [
-          130,
-          430
+          34,
+          99,
+          464
         ],
         "third": [
-          380
+          249
         ]
       }
     },
@@ -51883,12 +51848,11 @@
         ],
         "second": [
           302,
-          354
+          353
         ],
         "third": [
           302,
-          354,
-          477
+          354
         ]
       }
     },
@@ -51899,18 +51863,14 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          100,
-          179
+          100
         ],
         "second": [
           100,
-          101,
-          180
+          101
         ],
         "third": [
-          101,
-          125,
-          181
+          101
         ]
       }
     },
