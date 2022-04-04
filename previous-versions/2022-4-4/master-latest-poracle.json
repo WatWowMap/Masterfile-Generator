@@ -51861,10 +51861,6 @@
       "name": "Leaf Tornado",
       "type": "Grass"
     },
-    "314": {
-      "name": "Drain Punch",
-      "type": "Fighting"
-    },
     "315": {
       "name": "Shadow Bone",
       "type": "Ghost"
@@ -52572,7 +52568,7 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": {
         "first": [
           449
@@ -52599,6 +52595,7 @@
         ],
         "second": [
           28,
+          361,
           459
         ],
         "third": [
@@ -52677,10 +52674,9 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
-          30,
           32,
           41
         ],
@@ -52720,7 +52716,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": {
         "first": [
           203,
@@ -52891,8 +52887,7 @@
         ],
         "second": [
           130,
-          430,
-          464
+          430
         ],
         "third": [
           380

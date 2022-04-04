@@ -23401,13 +23401,13 @@
       "height": 0.3,
       "weight": 4,
       "quickMoves": [
-        201,
-        260
+        230,
+        237
       ],
       "chargedMoves": [
         53,
         105,
-        276
+        279
       ],
       "family": 751,
       "legendary": false,
@@ -23429,13 +23429,14 @@
       "height": 1.8,
       "weight": 82,
       "quickMoves": [
-        201,
-        260
+        237,
+        260,
+        276
       ],
       "chargedMoves": [
-        49,
         53,
-        276
+        279,
+        306
       ],
       "family": 751,
       "legendary": false,
@@ -28695,8 +28696,7 @@
       "name": "Leech Life"
     },
     "314": {
-      "name": "Drain Punch",
-      "type": 2
+      "name": "Drain Punch"
     },
     "315": {
       "name": "Shadow Bone",
@@ -29349,7 +29349,7 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": {
         "first": [],
         "second": [
@@ -29379,6 +29379,9 @@
           }
         ],
         "second": [
+          {
+            "id": 361
+          },
           {
             "id": 459,
             "form": 932
@@ -29474,13 +29477,9 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
-          {
-            "id": 32,
-            "form": 776
-          },
           {
             "id": 41,
             "form": 157
@@ -29526,7 +29525,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": {
         "first": [
           {
@@ -29740,10 +29739,6 @@
           {
             "id": 430,
             "form": 858
-          },
-          {
-            "id": 464,
-            "form": 852
           }
         ],
         "third": []

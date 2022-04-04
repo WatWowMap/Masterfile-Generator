@@ -41703,13 +41703,13 @@
       "height": 0.3,
       "weight": 4,
       "quick_moves": [
-        "Bug Bite",
-        "Infestation"
+        "Water Gun",
+        "Bubble"
       ],
       "charged_moves": [
         "Bubble Beam",
         "Water Pulse",
-        "Mirror Coat"
+        "Crunch"
       ],
       "family": 751,
       "flee_rate": 0.1,
@@ -41749,13 +41749,14 @@
       "height": 1.8,
       "weight": 82,
       "quick_moves": [
-        "Bug Bite",
-        "Infestation"
+        "Bubble",
+        "Infestation",
+        "Mirror Coat"
       ],
       "charged_moves": [
-        "Bug Buzz",
         "Bubble Beam",
-        "Mirror Coat"
+        "Crunch",
+        "Lunge"
       ],
       "family": 751,
       "flee_rate": 0.1,
@@ -50400,9 +50401,7 @@
     },
     "314": {
       "name": "Drain Punch",
-      "proto": "DRAIN_PUNCH",
-      "type": "Fighting",
-      "power": 20
+      "proto": "DRAIN_PUNCH"
     },
     "315": {
       "name": "Shadow Bone",
@@ -51505,7 +51504,7 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           449
@@ -51532,6 +51531,7 @@
         ],
         "second": [
           28,
+          361,
           459
         ],
         "third": [
@@ -51610,10 +51610,9 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
-          30,
           32,
           41
         ],
@@ -51653,7 +51652,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           203,
@@ -51824,8 +51823,7 @@
         ],
         "second": [
           130,
-          430,
-          464
+          430
         ],
         "third": [
           380

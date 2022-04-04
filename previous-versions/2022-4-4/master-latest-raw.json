@@ -35219,13 +35219,13 @@
       "height": 0.3,
       "weight": 4,
       "quickMoves": [
-        201,
-        260
+        230,
+        237
       ],
       "chargedMoves": [
         53,
         105,
-        276
+        279
       ],
       "family": 751,
       "fleeRate": 0.1,
@@ -35266,13 +35266,14 @@
       "height": 1.8,
       "weight": 82,
       "quickMoves": [
-        201,
-        260
+        237,
+        260,
+        276
       ],
       "chargedMoves": [
-        49,
         53,
-        276
+        279,
+        306
       ],
       "family": 751,
       "fleeRate": 0.1,
@@ -59478,13 +59479,6 @@
       "type": 12,
       "power": 45
     },
-    "314": {
-      "moveId": 314,
-      "moveName": "Drain Punch",
-      "proto": "DRAIN_PUNCH",
-      "type": 2,
-      "power": 20
-    },
     "315": {
       "moveId": 315,
       "moveName": "Shadow Bone",
@@ -61071,7 +61065,7 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": [
         {
           "id": 449,
@@ -61118,6 +61112,10 @@
         {
           "id": 28,
           "formId": 53,
+          "position": "second"
+        },
+        {
+          "id": 361,
           "position": "second"
         },
         {
@@ -61263,13 +61261,8 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
-        {
-          "id": 30,
-          "formId": 779,
-          "position": "first"
-        },
         {
           "id": 32,
           "formId": 776,
@@ -61343,7 +61336,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": [
         {
           "id": 203,
@@ -61676,11 +61669,6 @@
         {
           "id": 430,
           "formId": 858,
-          "position": "second"
-        },
-        {
-          "id": 464,
-          "formId": 852,
           "position": "second"
         },
         {

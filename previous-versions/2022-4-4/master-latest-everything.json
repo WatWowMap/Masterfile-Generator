@@ -84118,19 +84118,19 @@
       "height": 0.3,
       "weight": 4,
       "quickMoves": {
-        "201": {
-          "moveId": 201,
-          "moveName": "Bug Bite",
-          "proto": "BUG_BITE_FAST",
-          "type": 7,
+        "230": {
+          "moveId": 230,
+          "moveName": "Water Gun",
+          "proto": "WATER_GUN_FAST",
+          "type": 11,
           "power": 3
         },
-        "260": {
-          "moveId": 260,
-          "moveName": "Infestation",
-          "proto": "INFESTATION_FAST",
-          "type": 7,
-          "power": 6
+        "237": {
+          "moveId": 237,
+          "moveName": "Bubble",
+          "proto": "BUBBLE_FAST",
+          "type": 11,
+          "power": 7
         }
       },
       "chargedMoves": {
@@ -84148,12 +84148,12 @@
           "type": 11,
           "power": 70
         },
-        "276": {
-          "moveId": 276,
-          "moveName": "Mirror Coat",
-          "proto": "MIRROR_COAT",
-          "type": 14,
-          "power": 60
+        "279": {
+          "moveId": 279,
+          "moveName": "Crunch",
+          "proto": "CRUNCH",
+          "type": 17,
+          "power": 70
         }
       },
       "family": 751,
@@ -84212,12 +84212,12 @@
       "height": 1.8,
       "weight": 82,
       "quickMoves": {
-        "201": {
-          "moveId": 201,
-          "moveName": "Bug Bite",
-          "proto": "BUG_BITE_FAST",
-          "type": 7,
-          "power": 3
+        "237": {
+          "moveId": 237,
+          "moveName": "Bubble",
+          "proto": "BUBBLE_FAST",
+          "type": 11,
+          "power": 7
         },
         "260": {
           "moveId": 260,
@@ -84225,16 +84225,16 @@
           "proto": "INFESTATION_FAST",
           "type": 7,
           "power": 6
+        },
+        "276": {
+          "moveId": 276,
+          "moveName": "Mirror Coat",
+          "proto": "MIRROR_COAT",
+          "type": 14,
+          "power": 60
         }
       },
       "chargedMoves": {
-        "49": {
-          "moveId": 49,
-          "moveName": "Bug Buzz",
-          "proto": "BUG_BUZZ",
-          "type": 7,
-          "power": 100
-        },
         "53": {
           "moveId": 53,
           "moveName": "Bubble Beam",
@@ -84242,11 +84242,18 @@
           "type": 11,
           "power": 25
         },
-        "276": {
-          "moveId": 276,
-          "moveName": "Mirror Coat",
-          "proto": "MIRROR_COAT",
-          "type": 14,
+        "279": {
+          "moveId": 279,
+          "moveName": "Crunch",
+          "proto": "CRUNCH",
+          "type": 17,
+          "power": 70
+        },
+        "306": {
+          "moveId": 306,
+          "moveName": "Lunge",
+          "proto": "LUNGE",
+          "type": 7,
           "power": 60
         }
       },
@@ -116769,8 +116776,7 @@
     "314": {
       "id": 314,
       "name": "Drain Punch",
-      "proto": "DRAIN_PUNCH",
-      "power": 20
+      "proto": "DRAIN_PUNCH"
     },
     "315": {
       "id": 315,
@@ -118157,7 +118163,7 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": {
         "first": [],
         "second": [
@@ -118188,6 +118194,9 @@
           }
         ],
         "second": [
+          {
+            "id": 361
+          },
           {
             "id": 459,
             "formId": 932
@@ -118289,13 +118298,9 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
-          {
-            "id": 32,
-            "formId": 776
-          },
           {
             "id": 41,
             "formId": 157
@@ -118344,7 +118349,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": {
         "first": [
           {
@@ -118567,10 +118572,6 @@
           {
             "id": 430,
             "formId": 858
-          },
-          {
-            "id": 464,
-            "formId": 852
           }
         ],
         "third": []
