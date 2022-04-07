@@ -60694,7 +60694,7 @@
       "type": "Dragon",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
           "id": 147,
@@ -60704,6 +60704,16 @@
         {
           "id": 103,
           "formId": 77,
+          "position": "second"
+        },
+        {
+          "id": 148,
+          "formId": 193,
+          "position": "second"
+        },
+        {
+          "id": 330,
+          "formId": 752,
           "position": "second"
         },
         {
@@ -61333,7 +61343,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
           "id": 203,
@@ -61361,6 +61371,10 @@
         {
           "id": 97,
           "formId": 217,
+          "position": "third"
+        },
+        {
+          "id": 203,
           "position": "third"
         }
       ]

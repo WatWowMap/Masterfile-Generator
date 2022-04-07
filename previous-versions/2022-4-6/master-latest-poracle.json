@@ -52371,13 +52371,15 @@
       "type": "Dragon",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           147
         ],
         "second": [
-          103
+          103,
+          148,
+          330
         ],
         "third": [
           148,
@@ -52718,7 +52720,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
         "first": [
           203,
@@ -52730,7 +52732,8 @@
         ],
         "third": [
           65,
-          97
+          97,
+          203
         ]
       }
     },
