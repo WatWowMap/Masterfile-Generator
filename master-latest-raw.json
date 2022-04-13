@@ -8540,6 +8540,13 @@
           "candyCost": 25
         }
       ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 12,
+          "costumeProto": "APRIL_2020_NOEVOLVE",
+          "costumeName": "April 2020 Noevolve"
+        }
+      ],
       "little": true
     },
     "176": {
@@ -8590,6 +8597,13 @@
           "evoId": 468,
           "candyCost": 100,
           "itemRequirement": 1106
+        }
+      ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 12,
+          "costumeProto": "APRIL_2020_NOEVOLVE",
+          "costumeName": "April 2020 Noevolve"
         }
       ]
     },
@@ -20483,6 +20497,13 @@
         {
           "evoId": 428,
           "candyCost": 50
+        }
+      ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 12,
+          "costumeProto": "APRIL_2020_NOEVOLVE",
+          "costumeName": "April 2020 Noevolve"
         }
       ],
       "little": true
@@ -61014,26 +61035,21 @@
       "type": "Grass",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
-          "id": 152,
-          "formId": 1118,
+          "id": 102,
+          "formId": 729,
           "position": "first"
         },
         {
-          "id": 331,
-          "formId": 610,
-          "position": "first"
-        },
-        {
-          "id": 332,
-          "formId": 613,
+          "id": 102,
+          "formId": 729,
           "position": "second"
         },
         {
-          "id": 154,
-          "formId": 1124,
+          "id": 102,
+          "formId": 729,
           "position": "third"
         }
       ]
@@ -61209,41 +61225,21 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
-          "id": 19,
-          "formId": 45,
+          "id": 293,
+          "formId": 1442,
           "position": "first"
         },
         {
-          "id": 399,
-          "formId": 1667,
-          "position": "first"
-        },
-        {
-          "id": 20,
-          "formId": 47,
+          "id": 293,
+          "formId": 1442,
           "position": "second"
         },
         {
-          "id": 294,
-          "formId": 1445,
-          "position": "second"
-        },
-        {
-          "id": 400,
-          "formId": 1670,
-          "position": "second"
-        },
-        {
-          "id": 295,
-          "formId": 1448,
-          "position": "third"
-        },
-        {
-          "id": 400,
-          "formId": 1670,
+          "id": 293,
+          "formId": 1442,
           "position": "third"
         }
       ]

@@ -29,7 +29,8 @@
           "formId": true,
           "genderRequirement": true
         },
-        "little": true
+        "little": true,
+        "costumeOverrideEvos": "costumeId"
       },
       "evolutions": {
         "evoId": true,
@@ -45,7 +46,8 @@
       "attack": true,
       "defense": true,
       "stamina": true,
-      "little": true
+      "little": true,
+      "costumeOverrideEvos": "costumeId"
     }
   },
   "costumes": {

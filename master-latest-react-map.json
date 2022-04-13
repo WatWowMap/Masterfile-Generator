@@ -29313,14 +29313,9 @@
       "type": "Grass",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 331,
-            "form": 610
-          }
-        ],
+        "first": [],
         "second": [],
         "third": []
       }
@@ -29435,30 +29430,11 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 399,
-            "form": 1667
-          }
-        ],
-        "second": [
-          {
-            "id": 294,
-            "form": 1445
-          },
-          {
-            "id": 400,
-            "form": 1670
-          }
-        ],
-        "third": [
-          {
-            "id": 400,
-            "form": 1670
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "32": {
