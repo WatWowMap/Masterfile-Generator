@@ -51315,7 +51315,7 @@
       "type": "Dragon",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           147
@@ -51485,17 +51485,16 @@
       "type": "Grass",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
-          152,
-          331
+          102
         ],
         "second": [
-          332
+          102
         ],
         "third": [
-          154
+          102
         ]
       }
     },
@@ -51533,7 +51532,7 @@
       "type": "Ice",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           27,
@@ -51598,20 +51597,16 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
-          19,
-          399
+          293
         ],
         "second": [
-          20,
-          294,
-          400
+          293
         ],
         "third": [
-          295,
-          400
+          293
         ]
       }
     },

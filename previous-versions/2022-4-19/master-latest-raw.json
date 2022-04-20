@@ -60716,7 +60716,7 @@
       "type": "Dragon",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": false,
+      "secondReward": true,
       "encounters": [
         {
           "id": 147,
@@ -61036,26 +61036,21 @@
       "type": "Grass",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
-          "id": 152,
-          "formId": 1118,
+          "id": 102,
+          "formId": 729,
           "position": "first"
         },
         {
-          "id": 331,
-          "formId": 610,
-          "position": "first"
-        },
-        {
-          "id": 332,
-          "formId": 613,
+          "id": 102,
+          "formId": 729,
           "position": "second"
         },
         {
-          "id": 154,
-          "formId": 1124,
+          "id": 102,
+          "formId": 729,
           "position": "third"
         }
       ]
@@ -61115,7 +61110,7 @@
       "type": "Ice",
       "gender": 2,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
           "id": 27,
@@ -61231,41 +61226,21 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "secondReward": true,
+      "secondReward": false,
       "encounters": [
         {
-          "id": 19,
-          "formId": 45,
+          "id": 293,
+          "formId": 1442,
           "position": "first"
         },
         {
-          "id": 399,
-          "formId": 1667,
-          "position": "first"
-        },
-        {
-          "id": 20,
-          "formId": 47,
+          "id": 293,
+          "formId": 1442,
           "position": "second"
         },
         {
-          "id": 294,
-          "formId": 1445,
-          "position": "second"
-        },
-        {
-          "id": 400,
-          "formId": 1670,
-          "position": "second"
-        },
-        {
-          "id": 295,
-          "formId": 1448,
-          "position": "third"
-        },
-        {
-          "id": 400,
-          "formId": 1670,
+          "id": 293,
+          "formId": 1442,
           "position": "third"
         }
       ]
