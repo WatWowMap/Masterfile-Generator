@@ -14686,7 +14686,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -14701,9 +14700,7 @@
             "defense": 210,
             "stamina": 233
           },
-          "weight": 100,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -44251,7 +44248,6 @@
       "misc": {
         "buddyGroupNumber": 7,
         "buddyDistance": 20,
-        "buddyMegaEnergy": 100,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
         "tradable": true,
@@ -44265,10 +44261,7 @@
             "defense": 297,
             "stamina": 190
           },
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "unreleased": true
         }
       }
     },
@@ -44376,7 +44369,6 @@
       "misc": {
         "buddyGroupNumber": 7,
         "buddyDistance": 20,
-        "buddyMegaEnergy": 100,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
         "tradable": true,
@@ -44390,10 +44382,7 @@
             "defense": 241,
             "stamina": 190
           },
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "unreleased": true
         }
       }
     },
@@ -102347,6 +102336,8 @@
       "formName": "Normal",
       "proto": "KANGASKHAN_NORMAL",
       "formId": 839,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -102354,19 +102345,8 @@
           "defense": 210,
           "stamina": 233,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 246,
-          "defense": 210,
-          "stamina": 233,
-          "weight": 100,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "840": {
       "formName": "Shadow",
@@ -102384,15 +102364,6 @@
           "defense": 210,
           "stamina": 233,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 246,
-          "defense": 210,
-          "stamina": 233,
-          "weight": 100,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -107421,16 +107392,6 @@
           "defense": 297,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 289,
-          "defense": 297,
-          "stamina": 190,
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -107450,16 +107411,6 @@
           "defense": 297,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 289,
-          "defense": 297,
-          "stamina": 190,
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -107474,16 +107425,6 @@
           "defense": 241,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 335,
-          "defense": 241,
-          "stamina": 190,
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -107503,16 +107444,6 @@
           "defense": 241,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 335,
-          "defense": 241,
-          "stamina": 190,
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -117140,14 +117071,12 @@
     "365": {
       "id": 365,
       "name": "Luster Purge",
-      "proto": "LUSTER_PURGE",
-      "power": 120
+      "proto": "LUSTER_PURGE"
     },
     "366": {
       "id": 366,
       "name": "Mist Ball",
-      "proto": "MIST_BALL",
-      "power": 120
+      "proto": "MIST_BALL"
     },
     "367": {
       "id": 367,

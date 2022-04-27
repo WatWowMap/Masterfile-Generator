@@ -3945,7 +3945,9 @@
       "legendary": false,
       "mythical": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "116": {
@@ -12040,7 +12042,9 @@
       "legendary": true,
       "mythical": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "381": {
@@ -12071,7 +12075,9 @@
       "legendary": true,
       "mythical": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "382": {
@@ -28885,12 +28891,10 @@
       "type": 3
     },
     "365": {
-      "name": "Luster Purge",
-      "type": 14
+      "name": "Luster Purge"
     },
     "366": {
-      "name": "Mist Ball",
-      "type": 14
+      "name": "Mist Ball"
     },
     "367": {
       "name": "Brutal Swing"

@@ -5638,7 +5638,6 @@
       "mythic": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -5651,15 +5650,6 @@
           "defense": 210,
           "stamina": 233,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 246,
-          "defense": 210,
-          "stamina": 233,
-          "weight": 100,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -18311,7 +18301,6 @@
       "mythic": false,
       "buddyGroupNumber": 7,
       "buddyDistance": 20,
-      "buddyMegaEnergy": 100,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
@@ -18323,16 +18312,6 @@
           "defense": 297,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 289,
-          "defense": 297,
-          "stamina": 190,
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -18372,7 +18351,6 @@
       "mythic": false,
       "buddyGroupNumber": 7,
       "buddyDistance": 20,
-      "buddyMegaEnergy": 100,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
@@ -18384,16 +18362,6 @@
           "defense": 241,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 335,
-          "defense": 241,
-          "stamina": 190,
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -46344,6 +46312,8 @@
       "formName": "Normal",
       "proto": "KANGASKHAN_NORMAL",
       "formId": 839,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -46351,19 +46321,8 @@
           "defense": 210,
           "stamina": 233,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 246,
-          "defense": 210,
-          "stamina": 233,
-          "weight": 100,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "840": {
       "formName": "Shadow",
@@ -46381,15 +46340,6 @@
           "defense": 210,
           "stamina": 233,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 246,
-          "defense": 210,
-          "stamina": 233,
-          "weight": 100,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -51322,16 +51272,6 @@
           "defense": 297,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 289,
-          "defense": 297,
-          "stamina": 190,
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -51351,16 +51291,6 @@
           "defense": 297,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 289,
-          "defense": 297,
-          "stamina": 190,
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -51375,16 +51305,6 @@
           "defense": 241,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 335,
-          "defense": 241,
-          "stamina": 190,
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -51404,16 +51324,6 @@
           "defense": 241,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 335,
-          "defense": 241,
-          "stamina": 190,
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -59883,20 +59793,6 @@
       "proto": "ACROBATICS",
       "type": 3,
       "power": 110
-    },
-    "365": {
-      "moveId": 365,
-      "moveName": "Luster Purge",
-      "proto": "LUSTER_PURGE",
-      "type": 14,
-      "power": 120
-    },
-    "366": {
-      "moveId": 366,
-      "moveName": "Mist Ball",
-      "proto": "MIST_BALL",
-      "type": 14,
-      "power": 120
     }
   },
   "questTypes": {

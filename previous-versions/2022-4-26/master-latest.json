@@ -7277,7 +7277,7 @@
           "attack": 246,
           "defense": 210,
           "stamina": 233,
-          "weight": 100
+          "unreleased": true
         }
       }
     },
@@ -22212,8 +22212,7 @@
           "attack": 289,
           "defense": 297,
           "stamina": 190,
-          "height": 1.8,
-          "weight": 52
+          "unreleased": true
         }
       }
     },
@@ -22275,8 +22274,7 @@
           "attack": 335,
           "defense": 241,
           "stamina": 190,
-          "height": 2.3,
-          "weight": 70
+          "unreleased": true
         }
       }
     },
@@ -50693,15 +50691,11 @@
     },
     "365": {
       "name": "Luster Purge",
-      "proto": "LUSTER_PURGE",
-      "type": "Psychic",
-      "power": 120
+      "proto": "LUSTER_PURGE"
     },
     "366": {
       "name": "Mist Ball",
-      "proto": "MIST_BALL",
-      "type": "Psychic",
-      "power": 120
+      "proto": "MIST_BALL"
     },
     "367": {
       "name": "Brutal Swing",
