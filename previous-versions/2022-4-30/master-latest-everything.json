@@ -3112,38 +3112,7 @@
         "2736": {
           "name": "Flying Okinawa",
           "proto": "PIKACHU_FLYING_OKINAWA",
-          "form": 2736,
-          "isCostume": true,
-          "chargedMoves": {
-            "35": {
-              "moveId": 35,
-              "moveName": "Discharge",
-              "proto": "DISCHARGE",
-              "type": 13,
-              "power": 65
-            },
-            "79": {
-              "moveId": 79,
-              "moveName": "Thunderbolt",
-              "proto": "THUNDERBOLT",
-              "type": 13,
-              "power": 90
-            },
-            "251": {
-              "moveId": 251,
-              "moveName": "Wild Charge",
-              "proto": "WILD_CHARGE",
-              "type": 13,
-              "power": 100
-            },
-            "341": {
-              "moveId": 341,
-              "moveName": "Fly",
-              "proto": "FLY",
-              "type": 3,
-              "power": 80
-            }
-          }
+          "form": 2736
         }
       },
       "types": {
@@ -113078,14 +113047,7 @@
     "2736": {
       "formName": "Flying Okinawa",
       "proto": "PIKACHU_FLYING_OKINAWA",
-      "formId": 2736,
-      "isCostume": true,
-      "chargedMoves": [
-        35,
-        79,
-        251,
-        341
-      ]
+      "formId": 2736
     },
     "2737": {
       "formName": "Dusk Form",
