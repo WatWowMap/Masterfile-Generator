@@ -1,4 +1,5 @@
 const fs = require('fs')
+const { exec } = require('child_process')
 const Fetch = require('node-fetch')
 const { generate } = require('pogo-data-generator')
 
@@ -14,16 +15,26 @@ const fetch = async (url) => {
   }
 }
 
+let sha = ''
+exec('git rev-parse HEAD', (err, stdout) => {
+  try {
+    if (err || typeof stdout !== 'string' || !stdout.trim()) {
+      throw new Error('Unable to get current sha', err)
+    }
+    sha = stdout.trim().substring(0, 7)
+  } catch (e) {
+    console.warn('[UPDATE] Unable to get current SHA', e.message, 'Branch:', branch)
+  }
+})
+
 const masterfile = async function update() {
   const templates = await fs.promises.readdir('./templates')
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
-  const today = new Date()
-  const formatted = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`
   let exists = false
   try {
-    fs.mkdirSync(`./previous-versions/${formatted}`)
-    console.log(`${formatted} folder created`)
+    fs.mkdirSync(`./previous-versions/${sha}`)
+    console.log(`${sha} folder created`)
   } catch (e) {
     exists = true
   }
@@ -31,7 +42,7 @@ const masterfile = async function update() {
   await Promise.all(templates.map(async templateName => {
     if (!exists) {
       try {
-        fs.writeFileSync(`./previous-versions/${formatted}/${templateName}`, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
+        fs.writeFileSync(`./previous-versions/${sha}/${templateName}`, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
       } catch (e) {
         console.warn(`Previous version of ${templateName} does not exist`)
       }
