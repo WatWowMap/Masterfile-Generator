@@ -27091,7 +27091,7 @@
       ],
       "family": 175,
       "flee_rate": 0.05,
-      "capture_rate": 0.01,
+      "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
       "buddy_group_number": 2,
@@ -50715,10 +50715,6 @@
     "368": {
       "name": "Rollout",
       "proto": "ROLLOUT_FAST"
-    },
-    "369": {
-      "name": "Seed Flare",
-      "proto": "SEED_FLARE"
     }
   },
   "quest_types": {
