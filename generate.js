@@ -31,21 +31,15 @@ const masterfile = async function update() {
   const templates = await fs.promises.readdir('./templates')
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 
-  let exists = false
-  try {
+  if (!fs.existsSync(`./previous-versions/${sha}`)) {
     fs.mkdirSync(`./previous-versions/${sha}`)
-    console.log(`${sha} folder created`)
-  } catch (e) {
-    exists = true
   }
 
   await Promise.all(templates.map(async templateName => {
-    if (!exists) {
-      try {
-        fs.writeFileSync(`./previous-versions/${sha}/${templateName}`, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
-      } catch (e) {
-        console.warn(`Previous version of ${templateName} does not exist`)
-      }
+    try {
+      fs.writeFileSync(`./previous-versions/${sha}/${templateName}`, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
+    } catch (e) {
+      console.warn(`Previous version of ${templateName} does not exist`)
     }
     try {
       const template = JSON.parse(fs.readFileSync(`./templates/${templateName}`, 'utf8'))
@@ -75,8 +69,8 @@ const masterfile = async function update() {
         for (const [pokemonId, pokemon] of Object.entries(newData.pokemon)) {
           if (!(pokemon.attack && pokemon.defense && pokemon.stamina)) continue
           const pushEntry = (stats, name) => pokedex.push(`{id:${pokemonId},name:` +
-              JSON.stringify(name === null ? pokemon.name : `${pokemon.name} (${name})`) +
-              `,at:${stats.attack},df:${stats.defense},st:${stats.stamina}}`)
+            JSON.stringify(name === null ? pokemon.name : `${pokemon.name} (${name})`) +
+            `,at:${stats.attack},df:${stats.defense},st:${stats.stamina}}`)
           pushEntry(pokemon, null)
           for (const form of Object.values(pokemon.forms)) {
             if (form.attack && form.defense && form.stamina) pushEntry(form, form.name)
