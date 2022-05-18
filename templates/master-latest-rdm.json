@@ -20,5 +20,16 @@
         "types": "typeId"
       }
     }
+  },
+  "weather": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "weatherId"
+      }
+    },
+    "template": {
+      "types": "typeId"
+    }
   }
 }
