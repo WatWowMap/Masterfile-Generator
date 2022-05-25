@@ -13352,7 +13352,7 @@
           "evolutions": {
             "105": {
               "pokemon": 105,
-              "form": 80,
+              "form": 79,
               "candyCost": 50
             }
           }
@@ -13439,7 +13439,7 @@
       "evolutions": {
         "105": {
           "pokemon": 105,
-          "form": 80,
+          "form": 79,
           "candyCost": 50
         }
       },
@@ -83287,7 +83287,7 @@
           }
         },
         "2681": {
-          "name": "Pa’u Style",
+          "name": "Pa'u Style",
           "proto": "ORICORIO_PAU",
           "form": 2681,
           "types": {
@@ -83388,7 +83388,8 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "unreleased": true
     },
     "742": {
       "name": "Cutiefly",
@@ -92405,8 +92406,8 @@
         "transferable": true
       },
       "tempEvolutions": {
-        "Amped Gmax": {
-          "tempEvoId": "Amped Gmax",
+        "Low Key Gmax": {
+          "tempEvoId": "Low Key Gmax",
           "stats": {
             "attack": 224,
             "defense": 140,
@@ -92414,8 +92415,8 @@
           },
           "unreleased": true
         },
-        "Low Key Gmax": {
-          "tempEvoId": "Low Key Gmax",
+        "Amped Gmax": {
+          "tempEvoId": "Amped Gmax",
           "stats": {
             "attack": 224,
             "defense": 140,
@@ -99669,7 +99670,7 @@
       "evolutions": [
         {
           "evoId": 105,
-          "formId": 80,
+          "formId": 79,
           "candyCost": 50
         }
       ],
@@ -102384,6 +102385,13 @@
           "attack": 246,
           "defense": 210,
           "stamina": 233,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 246,
+          "defense": 210,
+          "stamina": 233,
           "weight": 100,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
@@ -102402,6 +102410,13 @@
       "proto": "KANGASKHAN_PURIFIED",
       "formId": 841,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 246,
+          "defense": 210,
+          "stamina": 233,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 246,
@@ -107437,6 +107452,13 @@
           "attack": 289,
           "defense": 297,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 297,
+          "stamina": 190,
           "height": 1.8,
           "weight": 52,
           "firstEnergyCost": 300,
@@ -107459,6 +107481,13 @@
           "attack": 289,
           "defense": 297,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 297,
+          "stamina": 190,
           "height": 1.8,
           "weight": 52,
           "firstEnergyCost": 300,
@@ -107471,6 +107500,13 @@
       "proto": "LATIOS_NORMAL",
       "formId": 1634,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 335,
+          "defense": 241,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 335,
@@ -107493,6 +107529,13 @@
       "proto": "LATIOS_PURIFIED",
       "formId": 1636,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 335,
+          "defense": 241,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 335,
@@ -112493,7 +112536,7 @@
       ]
     },
     "2681": {
-      "formName": "Pa’u Style",
+      "formName": "Pa'u Style",
       "proto": "ORICORIO_PAU",
       "formId": 2681,
       "types": [

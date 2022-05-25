@@ -7011,7 +7011,7 @@
       "evolutions": [
         {
           "evoId": 105,
-          "id": 80,
+          "id": 79,
           "candyCost": 50
         }
       ]
@@ -7039,7 +7039,7 @@
       "evolutions": [
         {
           "evoId": 105,
-          "id": 80,
+          "id": 79,
           "candyCost": 50
         }
       ]
@@ -7633,6 +7633,15 @@
             "baseDefense": 210,
             "baseStamina": 233
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 246,
+            "baseDefense": 210,
+            "baseStamina": 233
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -7659,6 +7668,15 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 246,
+            "baseDefense": 210,
+            "baseStamina": 233
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -23492,6 +23510,15 @@
             "baseDefense": 297,
             "baseStamina": 190
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 289,
+            "baseDefense": 297,
+            "baseStamina": 190
+          },
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
@@ -23522,6 +23549,15 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 289,
+            "baseDefense": 297,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -23566,6 +23602,15 @@
             "baseDefense": 241,
             "baseStamina": 190
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 335,
+            "baseDefense": 241,
+            "baseStamina": 190
+          },
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
@@ -23596,6 +23641,15 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 335,
+            "baseDefense": 241,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -43710,7 +43764,8 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "741_2679": {
       "name": "Oricorio",
@@ -43735,7 +43790,8 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "741_2680": {
       "name": "Oricorio",
@@ -43760,13 +43816,14 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "741_2681": {
       "name": "Oricorio",
       "id": 741,
       "form": {
-        "name": "Pa’u Style",
+        "name": "Pa'u Style",
         "id": 2681
       },
       "types": [
@@ -43785,7 +43842,8 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "741_2683": {
       "name": "Oricorio",
@@ -43810,7 +43868,8 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "742_0": {
       "name": "Cutiefly",

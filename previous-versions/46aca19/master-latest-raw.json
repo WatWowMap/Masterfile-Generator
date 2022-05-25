@@ -5126,7 +5126,7 @@
       "evolutions": [
         {
           "evoId": 105,
-          "formId": 80,
+          "formId": 79,
           "candyCost": 50
         }
       ],
@@ -5645,6 +5645,13 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 246,
+          "defense": 210,
+          "stamina": 233,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 246,
@@ -18315,6 +18322,13 @@
           "attack": 289,
           "defense": 297,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 297,
+          "stamina": 190,
           "height": 1.8,
           "weight": 52,
           "firstEnergyCost": 300,
@@ -18364,6 +18378,13 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 335,
+          "defense": 241,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 335,
@@ -34848,7 +34869,8 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "unreleased": true
     },
     "742": {
       "pokemonName": "Cutiefly",
@@ -43667,7 +43689,7 @@
       "evolutions": [
         {
           "evoId": 105,
-          "formId": 80,
+          "formId": 79,
           "candyCost": 50
         }
       ],
@@ -46327,6 +46349,13 @@
           "attack": 246,
           "defense": 210,
           "stamina": 233,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 246,
+          "defense": 210,
+          "stamina": 233,
           "weight": 100,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
@@ -46345,6 +46374,13 @@
       "proto": "KANGASKHAN_PURIFIED",
       "formId": 841,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 246,
+          "defense": 210,
+          "stamina": 233,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 246,
@@ -51284,6 +51320,13 @@
           "attack": 289,
           "defense": 297,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 297,
+          "stamina": 190,
           "height": 1.8,
           "weight": 52,
           "firstEnergyCost": 300,
@@ -51306,6 +51349,13 @@
           "attack": 289,
           "defense": 297,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 297,
+          "stamina": 190,
           "height": 1.8,
           "weight": 52,
           "firstEnergyCost": 300,
@@ -51318,6 +51368,13 @@
       "proto": "LATIOS_NORMAL",
       "formId": 1634,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 335,
+          "defense": 241,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 335,
@@ -51340,6 +51397,13 @@
       "proto": "LATIOS_PURIFIED",
       "formId": 1636,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 335,
+          "defense": 241,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 335,
