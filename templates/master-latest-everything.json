@@ -176,6 +176,7 @@
       },
       "legendary": true,
       "mythic": true,
+      "ultraBeast": true,
       "buddyGroupNumber": true,
       "buddyDistance": true,
       "buddyMegaEnergy": true,
@@ -425,6 +426,7 @@
     },
     "template": {
       "id": true,
+      "active": true,
       "type": true,
       "gender": true,
       "grunt": true,

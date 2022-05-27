@@ -1,9 +1,11 @@
 {
+  "main": "generate.js",
   "dependencies": {
     "node-fetch": "^2.6.7",
-    "pogo-data-generator": "^1.4.13"
+    "pogo-data-generator": "^1.6.0"
   },
   "scripts": {
+    "start": "node .",
     "generate": "node generate.js"
   }
 }
