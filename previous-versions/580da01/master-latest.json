@@ -557,8 +557,7 @@
         },
         "952": {
           "name": "Copy 2019",
-          "proto": "BLASTOISE_COPY_2019",
-          "temp_evolutions": {}
+          "proto": "BLASTOISE_COPY_2019"
         }
       },
       "attack": 171,
@@ -28558,7 +28557,7 @@
       "capture_rate": 0.02,
       "legendary": false,
       "mythic": true,
-      "buddy_group_number": 3,
+      "buddy_group_number": 7,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -36407,7 +36406,7 @@
       "capture_rate": 0.02,
       "legendary": true,
       "mythic": false,
-      "buddy_group_number": 5,
+      "buddy_group_number": 7,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -36467,7 +36466,7 @@
       "capture_rate": 0.02,
       "legendary": true,
       "mythic": false,
-      "buddy_group_number": 5,
+      "buddy_group_number": 7,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -40575,7 +40574,7 @@
     "724": {
       "name": "Decidueye",
       "pokedex_id": 724,
-      "default_form_id": 0,
+      "default_form_id": 2785,
       "types": [
         "Ghost",
         "Grass"
@@ -40592,9 +40591,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "proto": "FORM_UNSET"
-        },
         "2785": {
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN"
@@ -41098,13 +41094,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Spark"
+        "Struggle"
       ],
       "charged_moves": [
-        "Vice Grip",
-        "X Scissor",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41123,7 +41116,7 @@
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 1,
+      "buddy_group_number": 2,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -41144,13 +41137,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Spark"
+        "Struggle"
       ],
       "charged_moves": [
-        "Discharge",
-        "X Scissor",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41189,14 +41179,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Spark",
-        "Mud Slap"
+        "Struggle"
       ],
       "charged_moves": [
-        "Discharge",
-        "X Scissor",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41215,7 +41201,7 @@
       "capture_rate": 0.125,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 6,
+      "buddy_group_number": 2,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -41229,13 +41215,10 @@
         "Fighting"
       ],
       "quick_moves": [
-        "Bubble",
-        "Rock Smash"
+        "Struggle"
       ],
       "charged_moves": [
-        "Crabhammer",
-        "Power Up Punch",
-        "Payback"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41275,14 +41258,10 @@
         "Ice"
       ],
       "quick_moves": [
-        "Bubble",
-        "Rock Smash"
+        "Struggle"
       ],
       "charged_moves": [
-        "Ice Punch",
-        "Crabhammer",
-        "Power Up Punch",
-        "Payback"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41381,12 +41360,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Struggle Bug",
-        "Fairy Wind"
+        "Struggle"
       ],
       "charged_moves": [
-        "Bug Buzz",
-        "Dazzling Gleam"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41405,7 +41382,7 @@
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 4,
+      "buddy_group_number": 2,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -41426,12 +41403,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Struggle Bug",
-        "Fairy Wind"
+        "Struggle"
       ],
       "charged_moves": [
-        "Bug Buzz",
-        "Dazzling Gleam"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41450,7 +41425,7 @@
       "capture_rate": 0.15,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 4,
+      "buddy_group_number": 2,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -41459,7 +41434,7 @@
     "744": {
       "name": "Rockruff",
       "pokedex_id": 744,
-      "default_form_id": 0,
+      "default_form_id": 2737,
       "types": [
         "Rock"
       ],
@@ -41475,9 +41450,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "proto": "FORM_UNSET"
-        },
         "2737": {
           "name": "Dusk",
           "proto": "ROCKRUFF_DUSK"
@@ -41558,14 +41530,10 @@
           "defense": 139,
           "stamina": 181,
           "quick_moves": [
-            "Sucker Punch",
-            "Rock Throw",
-            "Counter"
+            "Struggle"
           ],
           "charged_moves": [
-            "Stone Edge",
-            "Iron Head",
-            "Crunch"
+            "Struggle"
           ]
         }
       },
@@ -41593,14 +41561,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Water Gun",
-        "Iron Tail",
-        "Waterfall"
+        "Struggle"
       ],
       "charged_moves": [
-        "Aqua Tail",
-        "Brine",
-        "Surf"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41644,13 +41608,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Bite",
-        "Poison Sting"
+        "Struggle"
       ],
       "charged_moves": [
-        "Sludge Wave",
-        "Gunk Shot",
-        "Muddy Water"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41690,13 +41651,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Bite",
-        "Poison Jab"
+        "Struggle"
       ],
       "charged_moves": [
-        "Sludge Wave",
-        "Gunk Shot",
-        "Muddy Water"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41729,13 +41687,10 @@
         "Ground"
       ],
       "quick_moves": [
-        "Mud Slap",
-        "Rock Smash"
+        "Struggle"
       ],
       "charged_moves": [
-        "Earthquake",
-        "Bulldoze",
-        "Body Slam"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41774,14 +41729,10 @@
         "Ground"
       ],
       "quick_moves": [
-        "Mud Slap",
-        "Rock Smash"
+        "Struggle"
       ],
       "charged_moves": [
-        "Earthquake",
-        "Bulldoze",
-        "Body Slam",
-        "Heavy Slam"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41986,12 +41937,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Astonish"
+        "Struggle"
       ],
       "charged_moves": [
-        "Seed Bomb",
-        "Dazzling Gleam",
-        "Giga Drain"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42031,13 +41980,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Astonish"
+        "Struggle"
       ],
       "charged_moves": [
-        "Seed Bomb",
-        "Moonblast",
-        "Sludge Bomb",
-        "Giga Drain"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42245,12 +42191,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Razor Leaf",
-        "Charm"
+        "Struggle"
       ],
       "charged_moves": [
-        "Draining Kiss",
-        "Energy Ball"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42289,13 +42233,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Razor Leaf",
-        "Charm"
+        "Struggle"
       ],
       "charged_moves": [
-        "Draining Kiss",
-        "Grass Knot",
-        "Energy Ball"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42333,15 +42274,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Razor Leaf",
-        "Charm",
-        "Magical Leaf"
+        "Struggle"
       ],
       "charged_moves": [
-        "Draining Kiss",
-        "Stomp",
-        "Grass Knot",
-        "Energy Ball"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42454,14 +42390,10 @@
         "Fighting"
       ],
       "quick_moves": [
-        "Rock Smash",
-        "Counter",
-        "Take Down"
+        "Struggle"
       ],
       "charged_moves": [
-        "Brick Break",
-        "Close Combat",
-        "Super Power"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42495,10 +42427,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Struggle Bug"
+        "Struggle"
       ],
       "charged_moves": [
-        "Bug Buzz"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42513,11 +42445,11 @@
       "height": 0.5,
       "weight": 12,
       "family": 767,
-      "flee_rate": 0.7,
+      "flee_rate": 0.1,
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 1,
+      "buddy_group_number": 2,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -42538,14 +42470,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Fury Cutter",
-        "Metal Claw",
-        "Waterfall"
+        "Struggle"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Aqua Jet",
-        "X Scissor"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42560,11 +42488,11 @@
       "height": 2,
       "weight": 108,
       "family": 767,
-      "flee_rate": 0.7,
+      "flee_rate": 0.06,
       "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 3,
+      "buddy_group_number": 2,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -42579,13 +42507,10 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Astonish"
+        "Struggle"
       ],
       "charged_moves": [
-        "Shadow Ball",
-        "Sand Tomb",
-        "Earth Power"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42625,13 +42550,10 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Astonish"
+        "Struggle"
       ],
       "charged_moves": [
-        "Shadow Ball",
-        "Sand Tomb",
-        "Earth Power"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42664,10 +42586,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Counter"
+        "Struggle"
       ],
       "charged_moves": [
-        "Mirror Coat"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42700,13 +42622,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Tackle",
-        "Take Down"
+        "Struggle"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Iron Head",
-        "Tri Attack"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42744,15 +42663,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Bite",
-        "Tackle",
-        "Take Down"
+        "Struggle"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Iron Head",
-        "X Scissor",
-        "Tri Attack"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42904,13 +42818,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Take Down",
-        "Rollout"
+        "Struggle"
       ],
       "charged_moves": [
-        "Ancient Power",
-        "Power Gem",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43031,13 +42942,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Yawn",
-        "Rollout"
+        "Struggle"
       ],
       "charged_moves": [
-        "Play Rough",
-        "Bulldoze",
-        "Payback"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43071,13 +42979,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Ember",
-        "Fire Spin"
+        "Struggle"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Dragon Pulse",
-        "Overheat"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43111,13 +43016,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Thunder Shock",
-        "Spark"
+        "Struggle"
       ],
       "charged_moves": [
-        "Wild Charge",
-        "Gyro Ball",
-        "Fell Stinger"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43151,13 +43053,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Shadow Claw",
-        "Charm"
+        "Struggle"
       ],
       "charged_moves": [
-        "Shadow Sneak",
-        "Shadow Ball",
-        "Play Rough"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43196,14 +43095,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Bite",
-        "Water Gun",
-        "Confusion"
+        "Struggle"
       ],
       "charged_moves": [
-        "Aqua Tail",
-        "Crunch",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43237,13 +43132,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Dragon Breath",
-        "Extrasensory"
+        "Struggle"
       ],
       "charged_moves": [
-        "Dragon Pulse",
-        "Outrage",
-        "Fly"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43277,13 +43169,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Shadow Claw",
-        "Astonish"
+        "Struggle"
       ],
       "charged_moves": [
-        "Shadow Ball",
-        "Power Whip",
-        "Heavy Slam"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43803,14 +43692,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Poison Jab",
-        "Counter"
+        "Struggle"
       ],
       "charged_moves": [
-        "Lunge",
-        "Super Power",
-        "Fell Stinger",
-        "Power Up Punch"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43827,9 +43712,9 @@
       "family": 794,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "buddy_group_number": 3,
+      "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -43843,14 +43728,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Low Kick"
+        "Struggle"
       ],
       "charged_moves": [
-        "Bug Buzz",
-        "Close Combat",
-        "Focus Blast",
-        "Lunge"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43867,9 +43748,9 @@
       "family": 795,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "buddy_group_number": 3,
+      "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -43882,14 +43763,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Thunder Shock",
-        "Spark"
+        "Struggle"
       ],
       "charged_moves": [
-        "Discharge",
-        "Thunder",
-        "Dazzling Gleam",
-        "Power Whip"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43906,9 +43783,9 @@
       "family": 796,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "buddy_group_number": 3,
+      "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -43942,7 +43819,7 @@
       "family": 797,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -43978,7 +43855,7 @@
       "family": 798,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -44014,7 +43891,7 @@
       "family": 799,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -44200,7 +44077,7 @@
       "weight": 1.8,
       "family": 803,
       "capture_rate": 0.3,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -44241,7 +44118,7 @@
       "weight": 150,
       "family": 803,
       "capture_rate": 0.3,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -44277,7 +44154,7 @@
       "family": 805,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -44313,7 +44190,7 @@
       "family": 806,
       "flee_rate": 0.1,
       "capture_rate": 0.02,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,

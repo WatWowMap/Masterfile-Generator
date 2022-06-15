@@ -1090,8 +1090,7 @@
         "952": {
           "name": "Copy 2019",
           "proto": "BLASTOISE_COPY_2019",
-          "form": 952,
-          "tempEvolutions": {}
+          "form": 952
         }
       },
       "stats": {
@@ -57560,7 +57559,7 @@
       "mythic": true,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 7,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
@@ -73721,7 +73720,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 5,
+        "buddyGroupNumber": 7,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -73872,7 +73871,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 5,
+        "buddyGroupNumber": 7,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -82652,7 +82651,7 @@
     "724": {
       "name": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2785,
       "types": {
         "8": {
           "typeId": 8,
@@ -83762,42 +83761,21 @@
         }
       },
       "quickMoves": {
-        "201": {
-          "moveId": 201,
-          "moveName": "Bug Bite",
-          "proto": "BUG_BITE_FAST",
-          "type": 7,
-          "power": 3
-        },
-        "206": {
-          "moveId": 206,
-          "moveName": "Spark",
-          "proto": "SPARK_FAST",
-          "type": 13,
-          "power": 4
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "20": {
-          "moveId": 20,
-          "moveName": "Vise Grip",
-          "proto": "VICE_GRIP",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 40
-        },
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
-        },
-        "279": {
-          "moveId": 279,
-          "moveName": "Crunch",
-          "proto": "CRUNCH",
-          "type": 17,
-          "power": 70
+          "power": 35
         }
       },
       "genId": 7,
@@ -83825,7 +83803,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 1,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -83857,42 +83835,21 @@
         }
       },
       "quickMoves": {
-        "201": {
-          "moveId": 201,
-          "moveName": "Bug Bite",
-          "proto": "BUG_BITE_FAST",
-          "type": 7,
-          "power": 3
-        },
-        "206": {
-          "moveId": 206,
-          "moveName": "Spark",
-          "proto": "SPARK_FAST",
-          "type": 13,
-          "power": 4
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "35": {
-          "moveId": 35,
-          "moveName": "Discharge",
-          "proto": "DISCHARGE",
-          "type": 13,
-          "power": 65
-        },
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
-        },
-        "279": {
-          "moveId": 279,
-          "moveName": "Crunch",
-          "proto": "CRUNCH",
-          "type": 17,
-          "power": 70
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -83953,49 +83910,21 @@
         }
       },
       "quickMoves": {
-        "201": {
-          "moveId": 201,
-          "moveName": "Bug Bite",
-          "proto": "BUG_BITE_FAST",
-          "type": 7,
-          "power": 3
-        },
-        "206": {
-          "moveId": 206,
-          "moveName": "Spark",
-          "proto": "SPARK_FAST",
-          "type": 13,
-          "power": 4
-        },
-        "233": {
-          "moveId": 233,
-          "moveName": "Mud-Slap",
-          "proto": "MUD_SLAP_FAST",
-          "type": 5,
-          "power": 11
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "35": {
-          "moveId": 35,
-          "moveName": "Discharge",
-          "proto": "DISCHARGE",
-          "type": 13,
-          "power": 65
-        },
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
-        },
-        "279": {
-          "moveId": 279,
-          "moveName": "Crunch",
-          "proto": "CRUNCH",
-          "type": 17,
-          "power": 70
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -84025,7 +83954,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 6,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -84045,42 +83974,21 @@
         }
       },
       "quickMoves": {
-        "237": {
-          "moveId": 237,
-          "moveName": "Bubble",
-          "proto": "BUBBLE_FAST",
-          "type": 11,
-          "power": 7
-        },
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "305": {
-          "moveId": 305,
-          "moveName": "Crabhammer",
-          "proto": "CRABHAMMER",
-          "type": 11,
-          "power": 85
-        },
-        "319": {
-          "moveId": 319,
-          "moveName": "Power-Up Punch",
-          "proto": "POWER_UP_PUNCH",
-          "type": 2,
-          "power": 20
-        },
-        "333": {
-          "moveId": 333,
-          "moveName": "Payback",
-          "proto": "PAYBACK",
-          "type": 17,
-          "power": 110
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -84140,49 +84048,21 @@
         }
       },
       "quickMoves": {
-        "237": {
-          "moveId": 237,
-          "moveName": "Bubble",
-          "proto": "BUBBLE_FAST",
-          "type": 11,
-          "power": 7
-        },
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "33": {
-          "moveId": 33,
-          "moveName": "Ice Punch",
-          "proto": "ICE_PUNCH",
-          "type": 15,
-          "power": 55
-        },
-        "305": {
-          "moveId": 305,
-          "moveName": "Crabhammer",
-          "proto": "CRABHAMMER",
-          "type": 11,
-          "power": 85
-        },
-        "319": {
-          "moveId": 319,
-          "moveName": "Power-Up Punch",
-          "proto": "POWER_UP_PUNCH",
-          "type": 2,
-          "power": 20
-        },
-        "333": {
-          "moveId": 333,
-          "moveName": "Payback",
-          "proto": "PAYBACK",
-          "type": 17,
-          "power": 110
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -84368,33 +84248,21 @@
         }
       },
       "quickMoves": {
-        "261": {
-          "moveId": 261,
-          "moveName": "Struggle Bug",
-          "proto": "STRUGGLE_BUG_FAST",
-          "type": 7,
-          "power": 9
-        },
-        "350": {
-          "moveId": 350,
-          "moveName": "Fairy Wind Fast",
-          "proto": "FAIRY_WIND_FAST"
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "49": {
-          "moveId": 49,
-          "moveName": "Bug Buzz",
-          "proto": "BUG_BUZZ",
-          "type": 7,
-          "power": 100
-        },
-        "86": {
-          "moveId": 86,
-          "moveName": "Dazzling Gleam",
-          "proto": "DAZZLING_GLEAM",
-          "type": 18,
-          "power": 110
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -84422,7 +84290,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 4,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -84454,33 +84322,21 @@
         }
       },
       "quickMoves": {
-        "261": {
-          "moveId": 261,
-          "moveName": "Struggle Bug",
-          "proto": "STRUGGLE_BUG_FAST",
-          "type": 7,
-          "power": 9
-        },
-        "350": {
-          "moveId": 350,
-          "moveName": "Fairy Wind Fast",
-          "proto": "FAIRY_WIND_FAST"
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "49": {
-          "moveId": 49,
-          "moveName": "Bug Buzz",
-          "proto": "BUG_BUZZ",
-          "type": 7,
-          "power": 100
-        },
-        "86": {
-          "moveId": 86,
-          "moveName": "Dazzling Gleam",
-          "proto": "DAZZLING_GLEAM",
-          "type": 18,
-          "power": 110
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -84510,7 +84366,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 4,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -84522,7 +84378,7 @@
     "744": {
       "name": "Rockruff",
       "pokedexId": 744,
-      "defaultFormId": 0,
+      "defaultFormId": 2737,
       "types": {
         "6": {
           "typeId": 6,
@@ -84734,49 +84590,21 @@
             "stamina": 181
           },
           "quickMoves": {
-            "203": {
-              "moveId": 203,
-              "moveName": "Sucker Punch",
-              "proto": "SUCKER_PUNCH_FAST",
-              "type": 17,
-              "power": 5
-            },
-            "227": {
-              "moveId": 227,
-              "moveName": "Rock Throw",
-              "proto": "ROCK_THROW_FAST",
-              "type": 6,
-              "power": 8
-            },
-            "243": {
-              "moveId": 243,
-              "moveName": "Counter",
-              "proto": "COUNTER_FAST",
-              "type": 2,
-              "power": 8
+            "133": {
+              "moveId": 133,
+              "moveName": "Struggle",
+              "proto": "STRUGGLE",
+              "type": 1,
+              "power": 35
             }
           },
           "chargedMoves": {
-            "32": {
-              "moveId": 32,
-              "moveName": "Stone Edge",
-              "proto": "STONE_EDGE",
-              "type": 6,
-              "power": 100
-            },
-            "74": {
-              "moveId": 74,
-              "moveName": "Iron Head",
-              "proto": "IRON_HEAD",
-              "type": 9,
-              "power": 70
-            },
-            "279": {
-              "moveId": 279,
-              "moveName": "Crunch",
-              "proto": "CRUNCH",
-              "type": 17,
-              "power": 70
+            "133": {
+              "moveId": 133,
+              "moveName": "Struggle",
+              "proto": "STRUGGLE",
+              "type": 1,
+              "power": 35
             }
           }
         }
@@ -84819,49 +84647,21 @@
         }
       },
       "quickMoves": {
-        "230": {
-          "moveId": 230,
-          "moveName": "Water Gun",
-          "proto": "WATER_GUN_FAST",
-          "type": 11,
-          "power": 3
-        },
-        "266": {
-          "moveId": 266,
-          "moveName": "Iron Tail",
-          "proto": "IRON_TAIL_FAST",
-          "type": 9,
-          "power": 9
-        },
-        "283": {
-          "moveId": 283,
-          "moveName": "Waterfall",
-          "proto": "WATERFALL_FAST",
-          "type": 11,
-          "power": 12
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "58": {
-          "moveId": 58,
-          "moveName": "Aqua Tail",
-          "proto": "AQUA_TAIL",
-          "type": 11,
-          "power": 50
-        },
-        "104": {
-          "moveId": 104,
-          "moveName": "Brine",
-          "proto": "BRINE",
-          "type": 11,
-          "power": 60
-        },
-        "284": {
-          "moveId": 284,
-          "moveName": "Surf",
-          "proto": "SURF",
-          "type": 11,
-          "power": 65
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -84925,41 +84725,20 @@
         }
       },
       "quickMoves": {
-        "202": {
-          "moveId": 202,
-          "moveName": "Bite",
-          "proto": "BITE_FAST",
-          "type": 17,
-          "power": 4
-        },
-        "236": {
-          "moveId": 236,
-          "moveName": "Poison Sting",
-          "proto": "POISON_STING_FAST",
-          "type": 4,
-          "power": 3
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "91": {
-          "moveId": 91,
-          "moveName": "Sludge Wave",
-          "proto": "SLUDGE_WAVE",
-          "type": 4,
-          "power": 110
-        },
-        "92": {
-          "moveId": 92,
-          "moveName": "Gunk Shot",
-          "proto": "GUNK_SHOT",
-          "type": 4,
-          "power": 130
-        },
-        "316": {
-          "moveId": 316,
-          "moveName": "Muddy Water",
-          "proto": "MUDDY_WATER",
-          "type": 11,
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
           "power": 35
         }
       },
@@ -85020,41 +84799,20 @@
         }
       },
       "quickMoves": {
-        "202": {
-          "moveId": 202,
-          "moveName": "Bite",
-          "proto": "BITE_FAST",
-          "type": 17,
-          "power": 4
-        },
-        "224": {
-          "moveId": 224,
-          "moveName": "Poison Jab",
-          "proto": "POISON_JAB_FAST",
-          "type": 4,
-          "power": 7
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "91": {
-          "moveId": 91,
-          "moveName": "Sludge Wave",
-          "proto": "SLUDGE_WAVE",
-          "type": 4,
-          "power": 110
-        },
-        "92": {
-          "moveId": 92,
-          "moveName": "Gunk Shot",
-          "proto": "GUNK_SHOT",
-          "type": 4,
-          "power": 130
-        },
-        "316": {
-          "moveId": 316,
-          "moveName": "Muddy Water",
-          "proto": "MUDDY_WATER",
-          "type": 11,
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
           "power": 35
         }
       },
@@ -85105,42 +84863,21 @@
         }
       },
       "quickMoves": {
-        "233": {
-          "moveId": 233,
-          "moveName": "Mud-Slap",
-          "proto": "MUD_SLAP_FAST",
-          "type": 5,
-          "power": 11
-        },
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "31": {
-          "moveId": 31,
-          "moveName": "Earthquake",
-          "proto": "EARTHQUAKE",
-          "type": 5,
-          "power": 120
-        },
-        "95": {
-          "moveId": 95,
-          "moveName": "Bulldoze",
-          "proto": "BULLDOZE",
-          "type": 5,
-          "power": 80
-        },
-        "131": {
-          "moveId": 131,
-          "moveName": "Body Slam",
-          "proto": "BODY_SLAM",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 60
+          "power": 35
         }
       },
       "genId": 7,
@@ -85196,49 +84933,21 @@
         }
       },
       "quickMoves": {
-        "233": {
-          "moveId": 233,
-          "moveName": "Mud-Slap",
-          "proto": "MUD_SLAP_FAST",
-          "type": 5,
-          "power": 11
-        },
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "31": {
-          "moveId": 31,
-          "moveName": "Earthquake",
-          "proto": "EARTHQUAKE",
-          "type": 5,
-          "power": 120
-        },
-        "95": {
-          "moveId": 95,
-          "moveName": "Bulldoze",
-          "proto": "BULLDOZE",
-          "type": 5,
-          "power": 80
-        },
-        "131": {
-          "moveId": 131,
-          "moveName": "Body Slam",
-          "proto": "BODY_SLAM",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 60
-        },
-        "268": {
-          "moveId": 268,
-          "moveName": "Heavy Slam",
-          "proto": "HEAVY_SLAM",
-          "type": 9,
-          "power": 70
+          "power": 35
         }
       },
       "genId": 7,
@@ -85660,35 +85369,21 @@
         }
       },
       "quickMoves": {
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "59": {
-          "moveId": 59,
-          "moveName": "Seed Bomb",
-          "proto": "SEED_BOMB",
-          "type": 12,
-          "power": 55
-        },
-        "86": {
-          "moveId": 86,
-          "moveName": "Dazzling Gleam",
-          "proto": "DAZZLING_GLEAM",
-          "type": 18,
-          "power": 110
-        },
-        "114": {
-          "moveId": 114,
-          "moveName": "Giga Drain",
-          "proto": "GIGA_DRAIN",
-          "type": 12,
-          "power": 50
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -85748,42 +85443,21 @@
         }
       },
       "quickMoves": {
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "59": {
-          "moveId": 59,
-          "moveName": "Seed Bomb",
-          "proto": "SEED_BOMB",
-          "type": 12,
-          "power": 55
-        },
-        "87": {
-          "moveId": 87,
-          "moveName": "Moonblast",
-          "proto": "MOONBLAST",
-          "type": 18,
-          "power": 110
-        },
-        "90": {
-          "moveId": 90,
-          "moveName": "Sludge Bomb",
-          "proto": "SLUDGE_BOMB",
-          "type": 4,
-          "power": 80
-        },
-        "114": {
-          "moveId": 114,
-          "moveName": "Giga Drain",
-          "proto": "GIGA_DRAIN",
-          "type": 12,
-          "power": 50
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -86216,35 +85890,21 @@
         }
       },
       "quickMoves": {
-        "215": {
-          "moveId": 215,
-          "moveName": "Razor Leaf",
-          "proto": "RAZOR_LEAF_FAST",
-          "type": 12,
-          "power": 10
-        },
-        "320": {
-          "moveId": 320,
-          "moveName": "Charm",
-          "proto": "CHARM_FAST",
-          "type": 18,
-          "power": 16
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "85": {
-          "moveId": 85,
-          "moveName": "Draining Kiss",
-          "proto": "DRAINING_KISS",
-          "type": 18,
-          "power": 60
-        },
-        "273": {
-          "moveId": 273,
-          "moveName": "Energy Ball",
-          "proto": "ENERGY_BALL",
-          "type": 12,
-          "power": 90
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -86300,42 +85960,21 @@
         }
       },
       "quickMoves": {
-        "215": {
-          "moveId": 215,
-          "moveName": "Razor Leaf",
-          "proto": "RAZOR_LEAF_FAST",
-          "type": 12,
-          "power": 10
-        },
-        "320": {
-          "moveId": 320,
-          "moveName": "Charm",
-          "proto": "CHARM_FAST",
-          "type": 18,
-          "power": 16
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "85": {
-          "moveId": 85,
-          "moveName": "Draining Kiss",
-          "proto": "DRAINING_KISS",
-          "type": 18,
-          "power": 60
-        },
-        "272": {
-          "moveId": 272,
-          "moveName": "Grass Knot",
-          "proto": "GRASS_KNOT",
-          "type": 12,
-          "power": 90
-        },
-        "273": {
-          "moveId": 273,
-          "moveName": "Energy Ball",
-          "proto": "ENERGY_BALL",
-          "type": 12,
-          "power": 90
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -86392,56 +86031,21 @@
         }
       },
       "quickMoves": {
-        "215": {
-          "moveId": 215,
-          "moveName": "Razor Leaf",
-          "proto": "RAZOR_LEAF_FAST",
-          "type": 12,
-          "power": 10
-        },
-        "320": {
-          "moveId": 320,
-          "moveName": "Charm",
-          "proto": "CHARM_FAST",
-          "type": 18,
-          "power": 16
-        },
-        "357": {
-          "moveId": 357,
-          "moveName": "Magical Leaf",
-          "proto": "MAGICAL_LEAF_FAST",
-          "type": 12,
-          "power": 10
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "85": {
-          "moveId": 85,
-          "moveName": "Draining Kiss",
-          "proto": "DRAINING_KISS",
-          "type": 18,
-          "power": 60
-        },
-        "127": {
-          "moveId": 127,
-          "moveName": "Stomp",
-          "proto": "STOMP",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 55
-        },
-        "272": {
-          "moveId": 272,
-          "moveName": "Grass Knot",
-          "proto": "GRASS_KNOT",
-          "type": 12,
-          "power": 90
-        },
-        "273": {
-          "moveId": 273,
-          "moveName": "Energy Ball",
-          "proto": "ENERGY_BALL",
-          "type": 12,
-          "power": 90
+          "power": 35
         }
       },
       "genId": 7,
@@ -86667,49 +86271,21 @@
         }
       },
       "quickMoves": {
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
-        },
-        "243": {
-          "moveId": 243,
-          "moveName": "Counter",
-          "proto": "COUNTER_FAST",
-          "type": 2,
-          "power": 8
-        },
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 5
+          "power": 35
         }
       },
       "chargedMoves": {
-        "123": {
-          "moveId": 123,
-          "moveName": "Brick Break",
-          "proto": "BRICK_BREAK",
-          "type": 2,
-          "power": 40
-        },
-        "245": {
-          "moveId": 245,
-          "moveName": "Close Combat",
-          "proto": "CLOSE_COMBAT",
-          "type": 2,
-          "power": 100
-        },
-        "310": {
-          "moveId": 310,
-          "moveName": "Superpower",
-          "proto": "SUPER_POWER",
-          "type": 2,
-          "power": 85
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -86761,21 +86337,21 @@
         }
       },
       "quickMoves": {
-        "261": {
-          "moveId": 261,
-          "moveName": "Struggle Bug",
-          "proto": "STRUGGLE_BUG_FAST",
-          "type": 7,
-          "power": 9
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "49": {
-          "moveId": 49,
-          "moveName": "Bug Buzz",
-          "proto": "BUG_BUZZ",
-          "type": 7,
-          "power": 100
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -86796,14 +86372,14 @@
       "weight": 12,
       "family": 767,
       "encounter": {
-        "fleeRate": 0.7,
+        "fleeRate": 0.1,
         "captureRate": 0.5
       },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 1,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -86835,49 +86411,21 @@
         }
       },
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 2
-        },
-        "228": {
-          "moveId": 228,
-          "moveName": "Metal Claw",
-          "proto": "METAL_CLAW_FAST",
-          "type": 9,
-          "power": 5
-        },
-        "283": {
-          "moveId": 283,
-          "moveName": "Waterfall",
-          "proto": "WATERFALL_FAST",
-          "type": 11,
-          "power": 12
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "57": {
-          "moveId": 57,
-          "moveName": "Aqua Jet",
-          "proto": "AQUA_JET",
-          "type": 11,
-          "power": 45
-        },
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -86898,7 +86446,7 @@
       "weight": 108,
       "family": 767,
       "encounter": {
-        "fleeRate": 0.7,
+        "fleeRate": 0.06,
         "captureRate": 0.2,
         "bonusCandyCapture": 2,
         "bonusStardustCapture": 200
@@ -86907,7 +86455,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -86931,42 +86479,21 @@
         }
       },
       "quickMoves": {
-        "216": {
-          "moveId": 216,
-          "moveName": "Mud Shot",
-          "proto": "MUD_SHOT_FAST",
-          "type": 5,
-          "power": 3
-        },
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "258": {
-          "moveId": 258,
-          "moveName": "Sand Tomb",
-          "proto": "SAND_TOMB",
-          "type": 5,
-          "power": 25
-        },
-        "304": {
-          "moveId": 304,
-          "moveName": "Earth Power",
-          "proto": "EARTH_POWER",
-          "type": 5,
-          "power": 90
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -87026,42 +86553,21 @@
         }
       },
       "quickMoves": {
-        "216": {
-          "moveId": 216,
-          "moveName": "Mud Shot",
-          "proto": "MUD_SHOT_FAST",
-          "type": 5,
-          "power": 3
-        },
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "258": {
-          "moveId": 258,
-          "moveName": "Sand Tomb",
-          "proto": "SAND_TOMB",
-          "type": 5,
-          "power": 25
-        },
-        "304": {
-          "moveId": 304,
-          "moveName": "Earth Power",
-          "proto": "EARTH_POWER",
-          "type": 5,
-          "power": 90
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -87111,21 +86617,21 @@
         }
       },
       "quickMoves": {
-        "243": {
-          "moveId": 243,
-          "moveName": "Counter",
-          "proto": "COUNTER_FAST",
-          "type": 2,
-          "power": 8
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "276": {
-          "moveId": 276,
-          "moveName": "Mirror Coat",
-          "proto": "MIRROR_COAT",
-          "type": 14,
-          "power": 60
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -87173,42 +86679,21 @@
         }
       },
       "quickMoves": {
-        "221": {
-          "moveId": 221,
-          "moveName": "Tackle",
-          "proto": "TACKLE_FAST",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 3
-        },
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
-          "type": 1,
-          "power": 5
+          "power": 35
         }
       },
       "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "74": {
-          "moveId": 74,
-          "moveName": "Iron Head",
-          "proto": "IRON_HEAD",
-          "type": 9,
-          "power": 70
-        },
-        "344": {
-          "moveId": 344,
-          "moveName": "Tri Attack",
-          "proto": "TRI_ATTACK",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 65
+          "power": 35
         }
       },
       "genId": 7,
@@ -87262,56 +86747,21 @@
         }
       },
       "quickMoves": {
-        "202": {
-          "moveId": 202,
-          "moveName": "Bite",
-          "proto": "BITE_FAST",
-          "type": 17,
-          "power": 4
-        },
-        "221": {
-          "moveId": 221,
-          "moveName": "Tackle",
-          "proto": "TACKLE_FAST",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 3
-        },
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
-          "type": 1,
-          "power": 5
+          "power": 35
         }
       },
       "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "74": {
-          "moveId": 74,
-          "moveName": "Iron Head",
-          "proto": "IRON_HEAD",
-          "type": 9,
-          "power": 70
-        },
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
-        },
-        "344": {
-          "moveId": 344,
-          "moveName": "Tri Attack",
-          "proto": "TRI_ATTACK",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 65
+          "power": 35
         }
       },
       "genId": 7,
@@ -87550,42 +87000,21 @@
         }
       },
       "quickMoves": {
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
           "type": 1,
-          "power": 5
-        },
-        "368": {
-          "moveId": 368,
-          "moveName": "Rollout",
-          "proto": "ROLLOUT_FAST",
-          "type": 6,
-          "power": 4
+          "power": 35
         }
       },
       "chargedMoves": {
-        "62": {
-          "moveId": 62,
-          "moveName": "Ancient Power",
-          "proto": "ANCIENT_POWER",
-          "type": 6,
-          "power": 45
-        },
-        "65": {
-          "moveId": 65,
-          "moveName": "Power Gem",
-          "proto": "POWER_GEM",
-          "type": 6,
-          "power": 80
-        },
-        "364": {
-          "moveId": 364,
-          "moveName": "Acrobatics",
-          "proto": "ACROBATICS",
-          "type": 3,
-          "power": 110
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -87747,41 +87176,21 @@
         }
       },
       "quickMoves": {
-        "287": {
-          "moveId": 287,
-          "moveName": "Yawn",
-          "proto": "YAWN_FAST",
-          "type": 1
-        },
-        "368": {
-          "moveId": 368,
-          "moveName": "Rollout",
-          "proto": "ROLLOUT_FAST",
-          "type": 6,
-          "power": 4
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "88": {
-          "moveId": 88,
-          "moveName": "Play Rough",
-          "proto": "PLAY_ROUGH",
-          "type": 18,
-          "power": 90
-        },
-        "95": {
-          "moveId": 95,
-          "moveName": "Bulldoze",
-          "proto": "BULLDOZE",
-          "type": 5,
-          "power": 80
-        },
-        "333": {
-          "moveId": 333,
-          "moveName": "Payback",
-          "proto": "PAYBACK",
-          "type": 17,
-          "power": 110
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -87833,42 +87242,21 @@
         }
       },
       "quickMoves": {
-        "209": {
-          "moveId": 209,
-          "moveName": "Ember",
-          "proto": "EMBER_FAST",
-          "type": 10,
-          "power": 7
-        },
-        "269": {
-          "moveId": 269,
-          "moveName": "Fire Spin",
-          "proto": "FIRE_SPIN_FAST",
-          "type": 10,
-          "power": 9
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "24": {
-          "moveId": 24,
-          "moveName": "Flamethrower",
-          "proto": "FLAMETHROWER",
-          "type": 10,
-          "power": 90
-        },
-        "82": {
-          "moveId": 82,
-          "moveName": "Dragon Pulse",
-          "proto": "DRAGON_PULSE",
-          "type": 16,
-          "power": 90
-        },
-        "270": {
-          "moveId": 270,
-          "moveName": "Overheat",
-          "proto": "OVERHEAT",
-          "type": 10,
-          "power": 130
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -87920,42 +87308,21 @@
         }
       },
       "quickMoves": {
-        "205": {
-          "moveId": 205,
-          "moveName": "Thunder Shock",
-          "proto": "THUNDER_SHOCK_FAST",
-          "type": 13,
-          "power": 3
-        },
-        "206": {
-          "moveId": 206,
-          "moveName": "Spark",
-          "proto": "SPARK_FAST",
-          "type": 13,
-          "power": 4
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "251": {
-          "moveId": 251,
-          "moveName": "Wild Charge",
-          "proto": "WILD_CHARGE",
-          "type": 13,
-          "power": 100
-        },
-        "267": {
-          "moveId": 267,
-          "moveName": "Gyro Ball",
-          "proto": "GYRO_BALL",
-          "type": 9,
-          "power": 80
-        },
-        "311": {
-          "moveId": 311,
-          "moveName": "Fell Stinger",
-          "proto": "FELL_STINGER",
-          "type": 7,
-          "power": 20
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -88007,42 +87374,21 @@
         }
       },
       "quickMoves": {
-        "213": {
-          "moveId": 213,
-          "moveName": "Shadow Claw",
-          "proto": "SHADOW_CLAW_FAST",
-          "type": 8,
-          "power": 6
-        },
-        "320": {
-          "moveId": 320,
-          "moveName": "Charm",
-          "proto": "CHARM_FAST",
-          "type": 18,
-          "power": 16
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "66": {
-          "moveId": 66,
-          "moveName": "Shadow Sneak",
-          "proto": "SHADOW_SNEAK",
-          "type": 8,
-          "power": 50
-        },
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "88": {
-          "moveId": 88,
-          "moveName": "Play Rough",
-          "proto": "PLAY_ROUGH",
-          "type": 18,
-          "power": 90
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -88099,49 +87445,21 @@
         }
       },
       "quickMoves": {
-        "202": {
-          "moveId": 202,
-          "moveName": "Bite",
-          "proto": "BITE_FAST",
-          "type": 17,
-          "power": 4
-        },
-        "230": {
-          "moveId": 230,
-          "moveName": "Water Gun",
-          "proto": "WATER_GUN_FAST",
-          "type": 11,
-          "power": 3
-        },
-        "235": {
-          "moveId": 235,
-          "moveName": "Confusion",
-          "proto": "CONFUSION_FAST",
-          "type": 14,
-          "power": 16
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "58": {
-          "moveId": 58,
-          "moveName": "Aqua Tail",
-          "proto": "AQUA_TAIL",
-          "type": 11,
-          "power": 50
-        },
-        "279": {
-          "moveId": 279,
-          "moveName": "Crunch",
-          "proto": "CRUNCH",
-          "type": 17,
-          "power": 70
-        },
-        "353": {
-          "moveId": 353,
-          "moveName": "Psychic Fangs",
-          "proto": "PSYCHIC_FANGS",
-          "type": 14,
-          "power": 40
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -88193,42 +87511,21 @@
         }
       },
       "quickMoves": {
-        "204": {
-          "moveId": 204,
-          "moveName": "Dragon Breath",
-          "proto": "DRAGON_BREATH_FAST",
-          "type": 16,
-          "power": 4
-        },
-        "274": {
-          "moveId": 274,
-          "moveName": "Extrasensory",
-          "proto": "EXTRASENSORY_FAST",
-          "type": 14,
-          "power": 8
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "82": {
-          "moveId": 82,
-          "moveName": "Dragon Pulse",
-          "proto": "DRAGON_PULSE",
-          "type": 16,
-          "power": 90
-        },
-        "277": {
-          "moveId": 277,
-          "moveName": "Outrage",
-          "proto": "OUTRAGE",
-          "type": 16,
-          "power": 110
-        },
-        "341": {
-          "moveId": 341,
-          "moveName": "Fly",
-          "proto": "FLY",
-          "type": 3,
-          "power": 80
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -88280,42 +87577,21 @@
         }
       },
       "quickMoves": {
-        "213": {
-          "moveId": 213,
-          "moveName": "Shadow Claw",
-          "proto": "SHADOW_CLAW_FAST",
-          "type": 8,
-          "power": 6
-        },
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "118": {
-          "moveId": 118,
-          "moveName": "Power Whip",
-          "proto": "POWER_WHIP",
-          "type": 12,
-          "power": 90
-        },
-        "268": {
-          "moveId": 268,
-          "moveName": "Heavy Slam",
-          "proto": "HEAVY_SLAM",
-          "type": 9,
-          "power": 70
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -89382,49 +88658,21 @@
         }
       },
       "quickMoves": {
-        "224": {
-          "moveId": 224,
-          "moveName": "Poison Jab",
-          "proto": "POISON_JAB_FAST",
-          "type": 4,
-          "power": 7
-        },
-        "243": {
-          "moveId": 243,
-          "moveName": "Counter",
-          "proto": "COUNTER_FAST",
-          "type": 2,
-          "power": 8
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "306": {
-          "moveId": 306,
-          "moveName": "Lunge",
-          "proto": "LUNGE",
-          "type": 7,
-          "power": 60
-        },
-        "310": {
-          "moveId": 310,
-          "moveName": "Superpower",
-          "proto": "SUPER_POWER",
-          "type": 2,
-          "power": 85
-        },
-        "311": {
-          "moveId": 311,
-          "moveName": "Fell Stinger",
-          "proto": "FELL_STINGER",
-          "type": 7,
-          "power": 20
-        },
-        "319": {
-          "moveId": 319,
-          "moveName": "Power-Up Punch",
-          "proto": "POWER_UP_PUNCH",
-          "type": 2,
-          "power": 20
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -89448,11 +88696,11 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -89475,49 +88723,21 @@
         }
       },
       "quickMoves": {
-        "201": {
-          "moveId": 201,
-          "moveName": "Bug Bite",
-          "proto": "BUG_BITE_FAST",
-          "type": 7,
-          "power": 3
-        },
-        "207": {
-          "moveId": 207,
-          "moveName": "Low Kick",
-          "proto": "LOW_KICK_FAST",
-          "type": 2,
-          "power": 4
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "49": {
-          "moveId": 49,
-          "moveName": "Bug Buzz",
-          "proto": "BUG_BUZZ",
-          "type": 7,
-          "power": 100
-        },
-        "245": {
-          "moveId": 245,
-          "moveName": "Close Combat",
-          "proto": "CLOSE_COMBAT",
-          "type": 2,
-          "power": 100
-        },
-        "247": {
-          "moveId": 247,
-          "moveName": "Focus Blast",
-          "proto": "FOCUS_BLAST",
-          "type": 2,
-          "power": 150
-        },
-        "306": {
-          "moveId": 306,
-          "moveName": "Lunge",
-          "proto": "LUNGE",
-          "type": 7,
-          "power": 60
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -89541,11 +88761,11 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -89564,49 +88784,21 @@
         }
       },
       "quickMoves": {
-        "205": {
-          "moveId": 205,
-          "moveName": "Thunder Shock",
-          "proto": "THUNDER_SHOCK_FAST",
-          "type": 13,
-          "power": 3
-        },
-        "206": {
-          "moveId": 206,
-          "moveName": "Spark",
-          "proto": "SPARK_FAST",
-          "type": 13,
-          "power": 4
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "35": {
-          "moveId": 35,
-          "moveName": "Discharge",
-          "proto": "DISCHARGE",
-          "type": 13,
-          "power": 65
-        },
-        "78": {
-          "moveId": 78,
-          "moveName": "Thunder",
-          "proto": "THUNDER",
-          "type": 13,
-          "power": 100
-        },
-        "86": {
-          "moveId": 86,
-          "moveName": "Dazzling Gleam",
-          "proto": "DAZZLING_GLEAM",
-          "type": 18,
-          "power": 110
-        },
-        "118": {
-          "moveId": 118,
-          "moveName": "Power Whip",
-          "proto": "POWER_WHIP",
-          "type": 12,
-          "power": 90
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -89630,11 +88822,11 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -89695,9 +88887,9 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -89760,9 +88952,9 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -89825,9 +89017,9 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -90143,9 +89335,9 @@
       "encounter": {
         "captureRate": 0.3
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -90217,9 +89409,9 @@
         "bonusCandyCapture": 2,
         "bonusStardustCapture": 200
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -90282,9 +89474,9 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -90347,9 +89539,9 @@
         "fleeRate": 0.1,
         "captureRate": 0.02
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
-      "ultraBeast": true,
+      "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
@@ -105330,7 +104522,6 @@
       "formName": "Copy 2019",
       "proto": "BLASTOISE_COPY_2019",
       "formId": 952,
-      "tempEvolutions": [],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -114508,14 +113699,10 @@
       "defense": 139,
       "stamina": 181,
       "quickMoves": [
-        203,
-        227,
-        243
+        133
       ],
       "chargedMoves": [
-        32,
-        74,
-        279
+        133
       ]
     },
     "2687": {
@@ -116978,7 +116165,7 @@
     },
     "5": {
       "id": 5,
-      "name": "Item Premier Ball",
+      "name": "Premier Ball",
       "proto": "ITEM_PREMIER_BALL",
       "type": "Pokeball",
       "category": "Pokeball",
