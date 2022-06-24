@@ -6158,9 +6158,6 @@
           "formId": 250,
           "candyCost": 50,
           "itemRequirement": 1103
-        },
-        {
-          "evoId": 900
         }
       ],
       "little": true
@@ -10500,13 +10497,7 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 904
-        }
-      ],
-      "little": true
+      "transferable": true
     },
     "212": {
       "pokemonName": "Scizor",
@@ -10707,9 +10698,6 @@
           "formId": 800,
           "candyCost": 100,
           "itemRequirement": 1106
-        },
-        {
-          "evoId": 903
         }
       ],
       "little": true
@@ -10807,12 +10795,7 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 901
-        }
-      ]
+      "transferable": true
     },
     "218": {
       "pokemonName": "Slugma",
@@ -11633,13 +11616,7 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 899
-        }
-      ],
-      "little": true
+      "transferable": true
     },
     "235": {
       "pokemonName": "Smeargle",
@@ -26765,13 +26742,7 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 902
-        }
-      ],
-      "little": true
+      "transferable": true
     },
     "551": {
       "pokemonName": "Sandile",
@@ -42516,130 +42487,85 @@
       "pokemonName": "Wyrdeer",
       "pokedexId": 899,
       "defaultFormId": 0,
-      "types": [
-        1,
-        14
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
         0
-      ],
-      "attack": 206,
-      "defense": 145,
-      "stamina": 230,
-      "unreleased": true
+      ]
     },
     "900": {
       "pokemonName": "Kleavor",
       "pokedexId": 900,
       "defaultFormId": 0,
-      "types": [
-        6,
-        7
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
         0
-      ],
-      "attack": 253,
-      "defense": 174,
-      "stamina": 172,
-      "unreleased": true
+      ]
     },
     "901": {
       "pokemonName": "Ursaluna",
       "pokedexId": 901,
       "defaultFormId": 0,
-      "types": [
-        1,
-        5
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
         0
-      ],
-      "attack": 243,
-      "defense": 181,
-      "stamina": 277,
-      "unreleased": true
+      ]
     },
     "902": {
       "pokemonName": "Basculegion",
       "pokedexId": 902,
       "defaultFormId": 0,
-      "types": [
-        8,
-        11
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
         0
-      ],
-      "attack": 217,
-      "defense": 144,
-      "stamina": 260,
-      "unreleased": true
+      ]
     },
     "903": {
       "pokemonName": "Sneasler",
       "pokedexId": 903,
       "defaultFormId": 0,
-      "types": [
-        2,
-        4
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
         0
-      ],
-      "attack": 259,
-      "defense": 158,
-      "stamina": 190,
-      "unreleased": true
+      ]
     },
     "904": {
       "pokemonName": "Overqwil",
       "pokedexId": 904,
       "defaultFormId": 0,
-      "types": [
-        4,
-        17
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
         0
-      ],
-      "attack": 222,
-      "defense": 171,
-      "stamina": 198,
-      "unreleased": true
+      ]
     },
     "905": {
       "pokemonName": "Enamorus",
       "pokedexId": 905,
       "defaultFormId": 2802,
-      "types": [
-        3,
-        18
-      ],
+      "types": [],
       "quickMoves": [],
       "chargedMoves": [],
       "genId": 8,
@@ -42647,11 +42573,7 @@
       "forms": [
         2802,
         2803
-      ],
-      "attack": 281,
-      "defense": 162,
-      "stamina": 179,
-      "unreleased": true
+      ]
     }
   },
   "forms": {
@@ -58923,14 +58845,6 @@
       "category": "Pokeball",
       "minTrainerLevel": 100
     },
-    "6": {
-      "itemId": 6,
-      "itemName": "Beast Ball",
-      "proto": "ITEM_BEAST_BALL",
-      "type": "Pokeball",
-      "category": "Pokeball",
-      "minTrainerLevel": 100
-    },
     "101": {
       "itemId": 101,
       "itemName": "Potion",
@@ -61176,13 +61090,6 @@
       "proto": "MIST_BALL",
       "type": 14,
       "power": 120
-    },
-    "367": {
-      "moveId": 367,
-      "moveName": "Brutal Swing",
-      "proto": "BRUTAL_SWING",
-      "type": 17,
-      "power": 65
     },
     "368": {
       "moveId": 368,

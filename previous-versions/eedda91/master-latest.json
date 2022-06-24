@@ -7760,9 +7760,6 @@
         {
           "pokemon": 212,
           "form": 250
-        },
-        {
-          "pokemon": 900
         }
       ],
       "little": true
@@ -12776,13 +12773,7 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true,
-      "evolutions": [
-        {
-          "pokemon": 904
-        }
-      ],
-      "little": true
+      "gym_defender_eligible": true
     },
     "212": {
       "name": "Scizor",
@@ -13022,9 +13013,6 @@
         {
           "pokemon": 461,
           "form": 800
-        },
-        {
-          "pokemon": 903
         }
       ],
       "little": true
@@ -13137,12 +13125,7 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true,
-      "evolutions": [
-        {
-          "pokemon": 901
-        }
-      ]
+      "gym_defender_eligible": true
     },
     "218": {
       "name": "Slugma",
@@ -14070,13 +14053,7 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true,
-      "evolutions": [
-        {
-          "pokemon": 899
-        }
-      ],
-      "little": true
+      "gym_defender_eligible": true
     },
     "235": {
       "name": "Smeargle",
@@ -31548,13 +31525,7 @@
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
-      "gym_defender_eligible": true,
-      "evolutions": [
-        {
-          "pokemon": 902
-        }
-      ],
-      "little": true
+      "gym_defender_eligible": true
     },
     "551": {
       "name": "Sandile",
@@ -48413,10 +48384,7 @@
       "name": "Wyrdeer",
       "pokedex_id": 899,
       "default_form_id": 0,
-      "types": [
-        "Normal",
-        "Psychic"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48425,19 +48393,13 @@
         "0": {
           "proto": "FORM_UNSET"
         }
-      },
-      "attack": 206,
-      "defense": 145,
-      "stamina": 230
+      }
     },
     "900": {
       "name": "Kleavor",
       "pokedex_id": 900,
       "default_form_id": 0,
-      "types": [
-        "Rock",
-        "Bug"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48446,19 +48408,13 @@
         "0": {
           "proto": "FORM_UNSET"
         }
-      },
-      "attack": 253,
-      "defense": 174,
-      "stamina": 172
+      }
     },
     "901": {
       "name": "Ursaluna",
       "pokedex_id": 901,
       "default_form_id": 0,
-      "types": [
-        "Normal",
-        "Ground"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48467,19 +48423,13 @@
         "0": {
           "proto": "FORM_UNSET"
         }
-      },
-      "attack": 243,
-      "defense": 181,
-      "stamina": 277
+      }
     },
     "902": {
       "name": "Basculegion",
       "pokedex_id": 902,
       "default_form_id": 0,
-      "types": [
-        "Ghost",
-        "Water"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48488,19 +48438,13 @@
         "0": {
           "proto": "FORM_UNSET"
         }
-      },
-      "attack": 217,
-      "defense": 144,
-      "stamina": 260
+      }
     },
     "903": {
       "name": "Sneasler",
       "pokedex_id": 903,
       "default_form_id": 0,
-      "types": [
-        "Fighting",
-        "Poison"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48509,19 +48453,13 @@
         "0": {
           "proto": "FORM_UNSET"
         }
-      },
-      "attack": 259,
-      "defense": 158,
-      "stamina": 190
+      }
     },
     "904": {
       "name": "Overqwil",
       "pokedex_id": 904,
       "default_form_id": 0,
-      "types": [
-        "Poison",
-        "Dark"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48530,19 +48468,13 @@
         "0": {
           "proto": "FORM_UNSET"
         }
-      },
-      "attack": 222,
-      "defense": 171,
-      "stamina": 198
+      }
     },
     "905": {
       "name": "Enamorus",
       "pokedex_id": 905,
       "default_form_id": 2802,
-      "types": [
-        "Flying",
-        "Fairy"
-      ],
+      "types": [],
       "quick_moves": [],
       "charged_moves": [],
       "gen_id": 8,
@@ -48556,10 +48488,7 @@
           "name": "Therian",
           "proto": "ENAMORUS_THERIAN"
         }
-      },
-      "attack": 281,
-      "defense": 162,
-      "stamina": 179
+      }
     }
   },
   "types": {
@@ -48940,13 +48869,6 @@
     "5": {
       "name": "Premier Ball",
       "proto": "ITEM_PREMIER_BALL",
-      "type": "Pokeball",
-      "category": "Pokeball",
-      "min_trainer_level": 100
-    },
-    "6": {
-      "name": "Beast Ball",
-      "proto": "ITEM_BEAST_BALL",
       "type": "Pokeball",
       "category": "Pokeball",
       "min_trainer_level": 100
@@ -51102,9 +51024,7 @@
     },
     "367": {
       "name": "Brutal Swing",
-      "proto": "BRUTAL_SWING",
-      "type": "Dark",
-      "power": 65
+      "proto": "BRUTAL_SWING"
     },
     "368": {
       "name": "Rollout",

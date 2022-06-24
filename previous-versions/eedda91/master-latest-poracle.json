@@ -8151,10 +8151,6 @@
           "id": 250,
           "candyCost": 50,
           "itemRequirement": "Metal Coat"
-        },
-        {
-          "evoId": 900,
-          "id": 0
         }
       ]
     },
@@ -13746,13 +13742,7 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 904,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "211_1259": {
       "name": "Qwilfish",
@@ -14028,10 +14018,6 @@
           "id": 800,
           "candyCost": 100,
           "itemRequirement": "Sinnoh Stone"
-        },
-        {
-          "evoId": 903,
-          "id": 0
         }
       ]
     },
@@ -14168,13 +14154,7 @@
         "baseStamina": 207
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 901,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "217_1268": {
       "name": "Ursaring",
@@ -15123,13 +15103,7 @@
         "baseStamina": 177
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 899,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "234_941": {
       "name": "Stantler",
@@ -33316,13 +33290,7 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "evolutions": [
-        {
-          "evoId": 902,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 25
     },
     "550_136": {
       "name": "Basculin",
@@ -50099,218 +50067,83 @@
     "899_0": {
       "name": "Wyrdeer",
       "id": 899,
-      "types": [
-        {
-          "id": 1,
-          "name": "Normal"
-        },
-        {
-          "id": 14,
-          "name": "Psychic"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 206,
-        "baseDefense": 145,
-        "baseStamina": 230
-      },
-      "unreleased": true
+      }
     },
     "900_0": {
       "name": "Kleavor",
       "id": 900,
-      "types": [
-        {
-          "id": 6,
-          "name": "Rock"
-        },
-        {
-          "id": 7,
-          "name": "Bug"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 253,
-        "baseDefense": 174,
-        "baseStamina": 172
-      },
-      "unreleased": true
+      }
     },
     "901_0": {
       "name": "Ursaluna",
       "id": 901,
-      "types": [
-        {
-          "id": 1,
-          "name": "Normal"
-        },
-        {
-          "id": 5,
-          "name": "Ground"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 243,
-        "baseDefense": 181,
-        "baseStamina": 277
-      },
-      "unreleased": true
+      }
     },
     "902_0": {
       "name": "Basculegion",
       "id": 902,
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 11,
-          "name": "Water"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 217,
-        "baseDefense": 144,
-        "baseStamina": 260
-      },
-      "unreleased": true
+      }
     },
     "903_0": {
       "name": "Sneasler",
       "id": 903,
-      "types": [
-        {
-          "id": 2,
-          "name": "Fighting"
-        },
-        {
-          "id": 4,
-          "name": "Poison"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 259,
-        "baseDefense": 158,
-        "baseStamina": 190
-      },
-      "unreleased": true
+      }
     },
     "904_0": {
       "name": "Overqwil",
       "id": 904,
-      "types": [
-        {
-          "id": 4,
-          "name": "Poison"
-        },
-        {
-          "id": 17,
-          "name": "Dark"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 222,
-        "baseDefense": 171,
-        "baseStamina": 198
-      },
-      "unreleased": true
+      }
     },
     "905_0": {
       "name": "Enamorus",
       "id": 905,
-      "types": [
-        {
-          "id": 3,
-          "name": "Flying"
-        },
-        {
-          "id": 18,
-          "name": "Fairy"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 281,
-        "baseDefense": 162,
-        "baseStamina": 179
-      },
-      "unreleased": true
+      }
     },
     "905_2802": {
       "name": "Enamorus",
       "id": 905,
-      "types": [
-        {
-          "id": 3,
-          "name": "Flying"
-        },
-        {
-          "id": 18,
-          "name": "Fairy"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "Incarnate Forme",
         "id": 2802
-      },
-      "stats": {
-        "baseAttack": 281,
-        "baseDefense": 162,
-        "baseStamina": 179
-      },
-      "unreleased": true
+      }
     },
     "905_2803": {
       "name": "Enamorus",
       "id": 905,
-      "types": [
-        {
-          "id": 3,
-          "name": "Flying"
-        },
-        {
-          "id": 18,
-          "name": "Fairy"
-        }
-      ],
+      "types": [],
       "form": {
         "name": "Therian Forme",
         "id": 2803
-      },
-      "stats": {
-        "baseAttack": 281,
-        "baseDefense": 162,
-        "baseStamina": 179
-      },
-      "unreleased": true
+      }
     }
   },
   "types": {
@@ -51528,9 +51361,6 @@
     "5": {
       "name": "Item Premier Ball"
     },
-    "6": {
-      "name": "Beast Ball"
-    },
     "101": {
       "name": "Potion"
     },
@@ -52722,10 +52552,6 @@
     "366": {
       "name": "Mist Ball",
       "type": "Psychic"
-    },
-    "367": {
-      "name": "Brutal Swing",
-      "type": "Dark"
     },
     "368": {
       "name": "Rollout",

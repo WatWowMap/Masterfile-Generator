@@ -2446,6 +2446,9 @@
         {
           "pokemon": 212,
           "form": 250
+        },
+        {
+          "pokemon": 900
         }
       ],
       "little": true
@@ -3908,7 +3911,13 @@
       },
       "attack": 184,
       "defense": 138,
-      "stamina": 163
+      "stamina": 163,
+      "evolutions": [
+        {
+          "pokemon": 904
+        }
+      ],
+      "little": true
     },
     "212": {
       "forms": {
@@ -3993,6 +4002,9 @@
         {
           "pokemon": 461,
           "form": 800
+        },
+        {
+          "pokemon": 903
         }
       ],
       "little": true
@@ -4029,7 +4041,12 @@
       },
       "attack": 236,
       "defense": 144,
-      "stamina": 207
+      "stamina": 207,
+      "evolutions": [
+        {
+          "pokemon": 901
+        }
+      ]
     },
     "218": {
       "forms": {
@@ -4284,7 +4301,13 @@
       },
       "attack": 192,
       "defense": 131,
-      "stamina": 177
+      "stamina": 177,
+      "evolutions": [
+        {
+          "pokemon": 899
+        }
+      ],
+      "little": true
     },
     "235": {
       "forms": {
@@ -9225,7 +9248,13 @@
       },
       "attack": 189,
       "defense": 129,
-      "stamina": 172
+      "stamina": 172,
+      "evolutions": [
+        {
+          "pokemon": 902
+        }
+      ],
+      "little": true
     },
     "551": {
       "forms": {
@@ -13583,38 +13612,59 @@
     "899": {
       "forms": {
         "0": {}
-      }
+      },
+      "attack": 206,
+      "defense": 145,
+      "stamina": 230
     },
     "900": {
       "forms": {
         "0": {}
-      }
+      },
+      "attack": 253,
+      "defense": 174,
+      "stamina": 172
     },
     "901": {
       "forms": {
         "0": {}
-      }
+      },
+      "attack": 243,
+      "defense": 181,
+      "stamina": 277
     },
     "902": {
       "forms": {
         "0": {}
-      }
+      },
+      "attack": 217,
+      "defense": 144,
+      "stamina": 260
     },
     "903": {
       "forms": {
         "0": {}
-      }
+      },
+      "attack": 259,
+      "defense": 158,
+      "stamina": 190
     },
     "904": {
       "forms": {
         "0": {}
-      }
+      },
+      "attack": 222,
+      "defense": 171,
+      "stamina": 198
     },
     "905": {
       "forms": {
         "2802": {},
         "2803": {}
-      }
+      },
+      "attack": 281,
+      "defense": 162,
+      "stamina": 179
     }
   },
   "costumes": {

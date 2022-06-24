@@ -15778,10 +15778,6 @@
           "form": 250,
           "candyCost": 50,
           "itemRequirement": "Metal Coat"
-        },
-        "900": {
-          "pokemon": 900,
-          "form": 0
         }
       },
       "little": true
@@ -25911,14 +25907,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "904": {
-          "pokemon": 904,
-          "form": 0
-        }
-      },
-      "little": true
+      }
     },
     "212": {
       "name": "Scizor",
@@ -26382,10 +26371,6 @@
           "form": 800,
           "candyCost": 100,
           "itemRequirement": "Sinnoh Stone"
-        },
-        "903": {
-          "pokemon": 903,
-          "form": 0
         }
       },
       "little": true
@@ -26598,12 +26583,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "901": {
-          "pokemon": 901,
-          "form": 0
-        }
       }
     },
     "218": {
@@ -28489,14 +28468,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "899": {
-          "pokemon": 899,
-          "form": 0
-        }
-      },
-      "little": true
+      }
     },
     "235": {
       "name": "Smeargle",
@@ -63665,14 +63637,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "902": {
-          "pokemon": 902,
-          "form": 0
-        }
-      },
-      "little": true
+      }
     },
     "551": {
       "name": "Sandile",
@@ -99208,16 +99173,7 @@
       "name": "Wyrdeer",
       "pokedexId": 899,
       "defaultFormId": 0,
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
-        },
-        "14": {
-          "typeId": 14,
-          "typeName": "Psychic"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99228,28 +99184,13 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
-      },
-      "stats": {
-        "attack": 206,
-        "defense": 145,
-        "stamina": 230
-      },
-      "unreleased": true
+      }
     },
     "900": {
       "name": "Kleavor",
       "pokedexId": 900,
       "defaultFormId": 0,
-      "types": {
-        "6": {
-          "typeId": 6,
-          "typeName": "Rock"
-        },
-        "7": {
-          "typeId": 7,
-          "typeName": "Bug"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99260,28 +99201,13 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
-      },
-      "stats": {
-        "attack": 253,
-        "defense": 174,
-        "stamina": 172
-      },
-      "unreleased": true
+      }
     },
     "901": {
       "name": "Ursaluna",
       "pokedexId": 901,
       "defaultFormId": 0,
-      "types": {
-        "1": {
-          "typeId": 1,
-          "typeName": "Normal"
-        },
-        "5": {
-          "typeId": 5,
-          "typeName": "Ground"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99292,28 +99218,13 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
-      },
-      "stats": {
-        "attack": 243,
-        "defense": 181,
-        "stamina": 277
-      },
-      "unreleased": true
+      }
     },
     "902": {
       "name": "Basculegion",
       "pokedexId": 902,
       "defaultFormId": 0,
-      "types": {
-        "8": {
-          "typeId": 8,
-          "typeName": "Ghost"
-        },
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99324,28 +99235,13 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
-      },
-      "stats": {
-        "attack": 217,
-        "defense": 144,
-        "stamina": 260
-      },
-      "unreleased": true
+      }
     },
     "903": {
       "name": "Sneasler",
       "pokedexId": 903,
       "defaultFormId": 0,
-      "types": {
-        "2": {
-          "typeId": 2,
-          "typeName": "Fighting"
-        },
-        "4": {
-          "typeId": 4,
-          "typeName": "Poison"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99356,28 +99252,13 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
-      },
-      "stats": {
-        "attack": 259,
-        "defense": 158,
-        "stamina": 190
-      },
-      "unreleased": true
+      }
     },
     "904": {
       "name": "Overqwil",
       "pokedexId": 904,
       "defaultFormId": 0,
-      "types": {
-        "4": {
-          "typeId": 4,
-          "typeName": "Poison"
-        },
-        "17": {
-          "typeId": 17,
-          "typeName": "Dark"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99388,28 +99269,13 @@
           "proto": "FORM_UNSET",
           "form": 0
         }
-      },
-      "stats": {
-        "attack": 222,
-        "defense": 171,
-        "stamina": 198
-      },
-      "unreleased": true
+      }
     },
     "905": {
       "name": "Enamorus",
       "pokedexId": 905,
       "defaultFormId": 2802,
-      "types": {
-        "3": {
-          "typeId": 3,
-          "typeName": "Flying"
-        },
-        "18": {
-          "typeId": 18,
-          "typeName": "Fairy"
-        }
-      },
+      "types": {},
       "quickMoves": {},
       "chargedMoves": {},
       "genId": 8,
@@ -99430,13 +99296,7 @@
           "proto": "ENAMORUS_THERIAN",
           "form": 2803
         }
-      },
-      "stats": {
-        "attack": 281,
-        "defense": 162,
-        "stamina": 179
-      },
-      "unreleased": true
+      }
     }
   },
   "forms": {
@@ -117124,14 +116984,6 @@
       "category": "Pokeball",
       "minTrainerLevel": 100
     },
-    "6": {
-      "id": 6,
-      "name": "Beast Ball",
-      "proto": "ITEM_BEAST_BALL",
-      "type": "Pokeball",
-      "category": "Pokeball",
-      "minTrainerLevel": 100
-    },
     "101": {
       "id": 101,
       "name": "Potion",
@@ -119400,8 +119252,7 @@
     "367": {
       "id": 367,
       "name": "Brutal Swing",
-      "proto": "BRUTAL_SWING",
-      "power": 65
+      "proto": "BRUTAL_SWING"
     },
     "368": {
       "id": 368,

@@ -77,10 +77,10 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
-pogo-data-generator@^1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/pogo-data-generator/-/pogo-data-generator-1.6.3.tgz#0a8d3d55267c53dfb039b19d2cf4edb6e63b9158"
-  integrity sha512-H803H4lo9VfI/2cLohdzc7CbwUOPWk+0y6l2Hir342w9mbkcigGzYdZI7dJVPOcprFFb6DxAPcvELQsuwgiC0g==
+pogo-data-generator@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/pogo-data-generator/-/pogo-data-generator-1.6.4.tgz#f354425cdd27a0a8598ed313facbb0d6a39f7cf9"
+  integrity sha512-u0VTqklcGMqYXaFlhwv3XXhl7JkE5Fa319sXNaFJTAGfKDuAowJw8rbE3SB/8FPwJG1GDIv0b45ztyx/Hq4wtg==
   dependencies:
     node-fetch "^2.6.7"
     pogo-protos "github:Furtif/pogo-protos"
