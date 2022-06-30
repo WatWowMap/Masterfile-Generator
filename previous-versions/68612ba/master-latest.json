@@ -48434,7 +48434,7 @@
     "900": {
       "name": "Kleavor",
       "pokedex_id": 900,
-      "default_form_id": 2806,
+      "default_form_id": 0,
       "types": [
         "Rock",
         "Bug"
@@ -48444,9 +48444,8 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "2806": {
-          "name": "Normal",
-          "proto": "KLEAVOR_NORMAL"
+        "0": {
+          "proto": "FORM_UNSET"
         }
       },
       "attack": 253,
@@ -48456,7 +48455,7 @@
     "901": {
       "name": "Ursaluna",
       "pokedex_id": 901,
-      "default_form_id": 2807,
+      "default_form_id": 0,
       "types": [
         "Normal",
         "Ground"
@@ -48466,9 +48465,8 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "2807": {
-          "name": "Normal",
-          "proto": "URSALUNA_NORMAL"
+        "0": {
+          "proto": "FORM_UNSET"
         }
       },
       "attack": 243,
@@ -48943,13 +48941,6 @@
     "5": {
       "name": "Premier Ball",
       "proto": "ITEM_PREMIER_BALL",
-      "type": "Pokeball",
-      "category": "Pokeball",
-      "min_trainer_level": 100
-    },
-    "6": {
-      "name": "Beast Ball",
-      "proto": "ITEM_BEAST_BALL",
       "type": "Pokeball",
       "category": "Pokeball",
       "min_trainer_level": 100
@@ -51120,10 +51111,6 @@
       "proto": "SEED_FLARE",
       "type": "Grass",
       "power": 130
-    },
-    "370": {
-      "name": "Obstruct",
-      "proto": "OBSTRUCT"
     }
   },
   "quest_types": {
@@ -51566,10 +51553,6 @@
     "50": {
       "proto": "WITH_POKEMON_COSTUME",
       "text": "With Pokemon Costume"
-    },
-    "51": {
-      "proto": "WITH_APPLIED_ITEM",
-      "text": "With Applied Item"
     }
   },
   "invasions": {

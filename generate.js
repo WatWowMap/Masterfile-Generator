@@ -42,6 +42,7 @@ const masterfile = async function update() {
       console.warn(`Previous version of ${templateName} does not exist`)
     }
     try {
+      console.log('Generating', templateName)
       const template = JSON.parse(fs.readFileSync(`./templates/${templateName}`, 'utf8'))
       const newData = await generate({ template, raw: templateName === 'master-latest-raw.json' })
 

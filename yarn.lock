@@ -61,9 +61,9 @@
   integrity sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==
 
 "@types/node@>=13.7.0":
-  version "17.0.41"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.41.tgz#1607b2fd3da014ae5d4d1b31bc792a39348dfb9b"
-  integrity sha512-xA6drNNeqb5YyV5fO3OAEsnXLfO7uF0whiOfPTz5AeDo8KeZFmODKnvwPymMNO8qE/an8pVY/O50tig2SQCrGw==
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
+  integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
 
 long@^4.0.0:
   version "4.0.0"
@@ -77,17 +77,17 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
-pogo-data-generator@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/pogo-data-generator/-/pogo-data-generator-1.6.4.tgz#f354425cdd27a0a8598ed313facbb0d6a39f7cf9"
-  integrity sha512-u0VTqklcGMqYXaFlhwv3XXhl7JkE5Fa319sXNaFJTAGfKDuAowJw8rbE3SB/8FPwJG1GDIv0b45ztyx/Hq4wtg==
+pogo-data-generator@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/pogo-data-generator/-/pogo-data-generator-1.6.5.tgz#7c925135c04c0ae32bc49356b9c13637f824a89b"
+  integrity sha512-QI6sHjRXDEKcj2vhxMHUebe3qh6ZhjwpRMrQfJZq4Rw65Se2ZH4XZ5wLSCfKdtcaJ8Gtb1cb3tIcZIA1gaVL9g==
   dependencies:
     node-fetch "^2.6.7"
     pogo-protos "github:Furtif/pogo-protos"
 
 "pogo-protos@github:Furtif/pogo-protos":
-  version "2.56.5"
-  resolved "https://codeload.github.com/Furtif/pogo-protos/tar.gz/99e56537b6c0239df88b9c068c31e11fbad6b0eb"
+  version "2.56.6"
+  resolved "https://codeload.github.com/Furtif/pogo-protos/tar.gz/03db4a7fb79caa4a5e399745cb8762710211f160"
   dependencies:
     protobufjs "^6.11.3"
 
@@ -113,17 +113,17 @@ protobufjs@^6.11.3:
 tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
-  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
-  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
 
 whatwg-url@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
-  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
   dependencies:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"

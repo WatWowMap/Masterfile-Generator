@@ -42536,7 +42536,7 @@
     "900": {
       "pokemonName": "Kleavor",
       "pokedexId": 900,
-      "defaultFormId": 2806,
+      "defaultFormId": 0,
       "types": [
         6,
         7
@@ -42546,7 +42546,7 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        2806
+        0
       ],
       "attack": 253,
       "defense": 174,
@@ -42556,7 +42556,7 @@
     "901": {
       "pokemonName": "Ursaluna",
       "pokedexId": 901,
-      "defaultFormId": 2807,
+      "defaultFormId": 0,
       "types": [
         1,
         5
@@ -42566,7 +42566,7 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        2807
+        0
       ],
       "attack": 243,
       "defense": 181,
@@ -58362,16 +58362,6 @@
       "proto": "PIKACHU_GOFEST_2022",
       "formId": 2805
     },
-    "2806": {
-      "formName": "Normal",
-      "proto": "KLEAVOR_NORMAL",
-      "formId": 2806
-    },
-    "2807": {
-      "formName": "Normal",
-      "proto": "URSALUNA_NORMAL",
-      "formId": 2807
-    },
     "undefined": {
       "formName": ""
     }
@@ -58934,14 +58924,6 @@
       "category": "Pokeball",
       "minTrainerLevel": 100
     },
-    "6": {
-      "itemId": 6,
-      "itemName": "Beast Ball",
-      "proto": "ITEM_BEAST_BALL",
-      "type": "Pokeball",
-      "category": "Pokeball",
-      "minTrainerLevel": 100
-    },
     "101": {
       "itemId": 101,
       "itemName": "Potion",
@@ -59431,6 +59413,13 @@
       "proto": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "undefined": {
+      "itemName": "Beast Ball",
+      "proto": "ITEM_BEAST_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 100
     }
   },
   "moves": {
@@ -61829,11 +61818,6 @@
       "id": 50,
       "proto": "WITH_POKEMON_COSTUME",
       "formatted": "With Pokemon Costume"
-    },
-    "51": {
-      "id": 51,
-      "proto": "WITH_APPLIED_ITEM",
-      "formatted": "With Applied Item"
     }
   },
   "invasions": {

@@ -99240,7 +99240,7 @@
     "900": {
       "name": "Kleavor",
       "pokedexId": 900,
-      "defaultFormId": 2806,
+      "defaultFormId": 0,
       "types": {
         "6": {
           "typeId": 6,
@@ -99260,11 +99260,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        },
-        "2806": {
-          "name": "Normal",
-          "proto": "KLEAVOR_NORMAL",
-          "form": 2806
         }
       },
       "stats": {
@@ -99277,7 +99272,7 @@
     "901": {
       "name": "Ursaluna",
       "pokedexId": 901,
-      "defaultFormId": 2807,
+      "defaultFormId": 0,
       "types": {
         "1": {
           "typeId": 1,
@@ -99297,11 +99292,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        },
-        "2807": {
-          "name": "Normal",
-          "proto": "URSALUNA_NORMAL",
-          "form": 2807
         }
       },
       "stats": {
@@ -115509,16 +115499,6 @@
       "proto": "PIKACHU_GOFEST_2022",
       "formId": 2805
     },
-    "2806": {
-      "formName": "Normal",
-      "proto": "KLEAVOR_NORMAL",
-      "formId": 2806
-    },
-    "2807": {
-      "formName": "Normal",
-      "proto": "URSALUNA_NORMAL",
-      "formId": 2807
-    },
     "undefined": {
       "formName": ""
     }
@@ -117141,14 +117121,6 @@
       "id": 5,
       "name": "Item Premier Ball",
       "proto": "ITEM_PREMIER_BALL",
-      "type": "Pokeball",
-      "category": "Pokeball",
-      "minTrainerLevel": 100
-    },
-    "6": {
-      "id": 6,
-      "name": "Item Beast Ball",
-      "proto": "ITEM_BEAST_BALL",
       "type": "Pokeball",
       "category": "Pokeball",
       "minTrainerLevel": 100
@@ -119435,11 +119407,6 @@
       "name": "Seed Flare",
       "proto": "SEED_FLARE",
       "power": 130
-    },
-    "370": {
-      "id": 370,
-      "name": "Obstruct",
-      "proto": "OBSTRUCT"
     }
   },
   "questTypes": {
@@ -120061,11 +120028,6 @@
       "id": 50,
       "proto": "WITH_POKEMON_COSTUME",
       "formatted": "With Pokemon Costume"
-    },
-    "51": {
-      "id": 51,
-      "proto": "WITH_APPLIED_ITEM",
-      "formatted": "With Applied Item"
     }
   },
   "invasions": {
