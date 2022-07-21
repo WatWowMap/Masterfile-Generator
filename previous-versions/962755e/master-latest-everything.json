@@ -82491,7 +82491,6 @@
       "mythic": true,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
@@ -84933,7 +84932,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 1,
+        "buddyGroupNumber": 2,
         "buddyDistance": 1,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -89861,7 +89860,7 @@
       "mythic": false,
       "ultraBeast": true,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -120312,12 +120311,12 @@
         ],
         "third": [
           {
-            "id": 149,
-            "formId": 196
-          },
-          {
             "id": 330,
             "formId": 752
+          },
+          {
+            "id": 373,
+            "formId": 761
           }
         ]
       }
