@@ -58359,76 +58359,17 @@
     "2799": {
       "formName": "Galarian",
       "proto": "MOLTRES_GALARIAN",
-      "formId": 2799,
-      "attack": 202,
-      "defense": 231,
-      "stamina": 207,
-      "height": 2,
-      "weight": 66,
-      "quickMoves": [
-        203,
-        210
-      ],
-      "chargedMoves": [
-        62,
-        256,
-        333
-      ],
-      "types": [
-        3,
-        17
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2799
     },
     "2800": {
       "formName": "Galarian",
       "proto": "ZAPDOS_GALARIAN",
-      "formId": 2800,
-      "attack": 252,
-      "defense": 189,
-      "stamina": 207,
-      "height": 1.6,
-      "weight": 58.2,
-      "quickMoves": [
-        243
-      ],
-      "chargedMoves": [
-        62,
-        245,
-        256
-      ],
-      "types": [
-        2,
-        3
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2800
     },
     "2801": {
       "formName": "Galarian",
       "proto": "ARTICUNO_GALARIAN",
-      "formId": 2801,
-      "attack": 250,
-      "defense": 197,
-      "stamina": 207,
-      "height": 1.7,
-      "weight": 50.9,
-      "quickMoves": [
-        226,
-        235
-      ],
-      "chargedMoves": [
-        62,
-        256,
-        275
-      ],
-      "types": [
-        3,
-        14
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2801
     },
     "2802": {
       "formName": "Incarnate",
@@ -59519,13 +59460,6 @@
       "proto": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
-    },
-    "undefined": {
-      "itemName": "Incense Daily Adventure",
-      "proto": "ITEM_INCENSE_DAILY_ADVENTURE",
-      "type": "Incense",
-      "category": "Incense",
-      "minTrainerLevel": 6
     }
   },
   "moves": {

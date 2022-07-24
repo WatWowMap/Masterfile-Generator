@@ -18163,63 +18163,7 @@
         "2801": {
           "name": "Galarian",
           "proto": "ARTICUNO_GALARIAN",
-          "form": 2801,
-          "stats": {
-            "attack": 250,
-            "defense": 197,
-            "stamina": 207
-          },
-          "height": 1.7,
-          "weight": 50.9,
-          "quickMoves": {
-            "226": {
-              "moveId": 226,
-              "moveName": "Psycho Cut",
-              "proto": "PSYCHO_CUT_FAST",
-              "type": 14,
-              "power": 3
-            },
-            "235": {
-              "moveId": 235,
-              "moveName": "Confusion",
-              "proto": "CONFUSION_FAST",
-              "type": 14,
-              "power": 16
-            }
-          },
-          "chargedMoves": {
-            "62": {
-              "moveId": 62,
-              "moveName": "Ancient Power",
-              "proto": "ANCIENT_POWER",
-              "type": 6,
-              "power": 45
-            },
-            "256": {
-              "moveId": 256,
-              "moveName": "Brave Bird",
-              "proto": "BRAVE_BIRD",
-              "type": 3,
-              "power": 130
-            },
-            "275": {
-              "moveId": 275,
-              "moveName": "Future Sight",
-              "proto": "FUTURESIGHT",
-              "type": 14,
-              "power": 120
-            }
-          },
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            },
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            }
-          }
+          "form": 2801
         }
       },
       "stats": {
@@ -18327,56 +18271,7 @@
         "2800": {
           "name": "Galarian",
           "proto": "ZAPDOS_GALARIAN",
-          "form": 2800,
-          "stats": {
-            "attack": 252,
-            "defense": 189,
-            "stamina": 207
-          },
-          "height": 1.6,
-          "weight": 58.2,
-          "quickMoves": {
-            "243": {
-              "moveId": 243,
-              "moveName": "Counter",
-              "proto": "COUNTER_FAST",
-              "type": 2,
-              "power": 8
-            }
-          },
-          "chargedMoves": {
-            "62": {
-              "moveId": 62,
-              "moveName": "Ancient Power",
-              "proto": "ANCIENT_POWER",
-              "type": 6,
-              "power": 45
-            },
-            "245": {
-              "moveId": 245,
-              "moveName": "Close Combat",
-              "proto": "CLOSE_COMBAT",
-              "type": 2,
-              "power": 100
-            },
-            "256": {
-              "moveId": 256,
-              "moveName": "Brave Bird",
-              "proto": "BRAVE_BIRD",
-              "type": 3,
-              "power": 130
-            }
-          },
-          "types": {
-            "2": {
-              "typeId": 2,
-              "typeName": "Fighting"
-            },
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            }
-          }
+          "form": 2800
         }
       },
       "stats": {
@@ -18484,63 +18379,7 @@
         "2799": {
           "name": "Galarian",
           "proto": "MOLTRES_GALARIAN",
-          "form": 2799,
-          "stats": {
-            "attack": 202,
-            "defense": 231,
-            "stamina": 207
-          },
-          "height": 2,
-          "weight": 66,
-          "quickMoves": {
-            "203": {
-              "moveId": 203,
-              "moveName": "Sucker Punch",
-              "proto": "SUCKER_PUNCH_FAST",
-              "type": 17,
-              "power": 5
-            },
-            "210": {
-              "moveId": 210,
-              "moveName": "Wing Attack",
-              "proto": "WING_ATTACK_FAST",
-              "type": 3,
-              "power": 5
-            }
-          },
-          "chargedMoves": {
-            "62": {
-              "moveId": 62,
-              "moveName": "Ancient Power",
-              "proto": "ANCIENT_POWER",
-              "type": 6,
-              "power": 45
-            },
-            "256": {
-              "moveId": 256,
-              "moveName": "Brave Bird",
-              "proto": "BRAVE_BIRD",
-              "type": 3,
-              "power": 130
-            },
-            "333": {
-              "moveId": 333,
-              "moveName": "Payback",
-              "proto": "PAYBACK",
-              "type": 17,
-              "power": 110
-            }
-          },
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            },
-            "17": {
-              "typeId": 17,
-              "typeName": "Dark"
-            }
-          }
+          "form": 2799
         }
       },
       "stats": {
@@ -115648,76 +115487,17 @@
     "2799": {
       "formName": "Galarian",
       "proto": "MOLTRES_GALARIAN",
-      "formId": 2799,
-      "attack": 202,
-      "defense": 231,
-      "stamina": 207,
-      "height": 2,
-      "weight": 66,
-      "quickMoves": [
-        203,
-        210
-      ],
-      "chargedMoves": [
-        62,
-        256,
-        333
-      ],
-      "types": [
-        3,
-        17
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2799
     },
     "2800": {
       "formName": "Galarian",
       "proto": "ZAPDOS_GALARIAN",
-      "formId": 2800,
-      "attack": 252,
-      "defense": 189,
-      "stamina": 207,
-      "height": 1.6,
-      "weight": 58.2,
-      "quickMoves": [
-        243
-      ],
-      "chargedMoves": [
-        62,
-        245,
-        256
-      ],
-      "types": [
-        2,
-        3
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2800
     },
     "2801": {
       "formName": "Galarian",
       "proto": "ARTICUNO_GALARIAN",
-      "formId": 2801,
-      "attack": 250,
-      "defense": 197,
-      "stamina": 207,
-      "height": 1.7,
-      "weight": 50.9,
-      "quickMoves": [
-        226,
-        235
-      ],
-      "chargedMoves": [
-        62,
-        256,
-        275
-      ],
-      "types": [
-        3,
-        14
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2801
     },
     "2802": {
       "formName": "Incarnate Forme",
