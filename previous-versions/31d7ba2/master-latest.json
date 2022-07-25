@@ -3661,27 +3661,7 @@
         },
         "2792": {
           "name": "Hisuian",
-          "proto": "GROWLITHE_HISUIAN",
-          "attack": 142,
-          "defense": 92,
-          "stamina": 155,
-          "height": 0.8,
-          "weight": 22.7,
-          "charged_moves": [
-            "Flamethrower",
-            "Rock Slide",
-            "Crunch"
-          ],
-          "types": [
-            "Rock",
-            "Fire"
-          ],
-          "evolutions": [
-            {
-              "pokemon": 59,
-              "form": 2793
-            }
-          ]
+          "proto": "GROWLITHE_HISUIAN"
         }
       },
       "attack": 136,
@@ -3742,27 +3722,7 @@
         },
         "2793": {
           "name": "Hisuian",
-          "proto": "ARCANINE_HISUIAN",
-          "attack": 232,
-          "defense": 165,
-          "stamina": 216,
-          "height": 2,
-          "weight": 168,
-          "quick_moves": [
-            "Fire Fang",
-            "Rock Smash",
-            "Snarl"
-          ],
-          "charged_moves": [
-            "Flamethrower",
-            "Rock Slide",
-            "Wild Charge",
-            "Crunch"
-          ],
-          "types": [
-            "Rock",
-            "Fire"
-          ]
+          "proto": "ARCANINE_HISUIAN"
         }
       },
       "attack": 227,
@@ -12852,30 +12812,7 @@
         },
         "2788": {
           "name": "Hisuian",
-          "proto": "QWILFISH_HISUIAN",
-          "attack": 184,
-          "defense": 151,
-          "stamina": 163,
-          "quick_moves": [
-            "Poison Jab",
-            "Poison Sting"
-          ],
-          "charged_moves": [
-            "Dark Pulse",
-            "Ice Beam",
-            "Aqua Tail",
-            "Shadow Ball",
-            "Sludge Bomb"
-          ],
-          "types": [
-            "Poison",
-            "Dark"
-          ],
-          "evolutions": [
-            {
-              "pokemon": 904
-            }
-          ]
+          "proto": "QWILFISH_HISUIAN"
         }
       },
       "attack": 184,
@@ -13116,27 +13053,7 @@
         },
         "2794": {
           "name": "Hisuian",
-          "proto": "SNEASEL_HISUIAN",
-          "height": 0.9,
-          "weight": 27,
-          "quick_moves": [
-            "Poison Jab",
-            "Rock Smash"
-          ],
-          "charged_moves": [
-            "Aerial Ace",
-            "X Scissor",
-            "Close Combat"
-          ],
-          "types": [
-            "Fighting",
-            "Poison"
-          ],
-          "evolutions": [
-            {
-              "pokemon": 903
-            }
-          ]
+          "proto": "SNEASEL_HISUIAN"
         }
       },
       "attack": 189,
@@ -35890,26 +35807,7 @@
         },
         "2798": {
           "name": "Hisuian",
-          "proto": "BRAVIARY_HISUIAN",
-          "attack": 213,
-          "defense": 137,
-          "stamina": 242,
-          "height": 1.7,
-          "weight": 43.4,
-          "quick_moves": [
-            "Zen Headbutt",
-            "Air Slash"
-          ],
-          "charged_moves": [
-            "Ominous Wind",
-            "Dazzling Gleam",
-            "Psychic",
-            "Brave Bird"
-          ],
-          "types": [
-            "Flying",
-            "Psychic"
-          ]
+          "proto": "BRAVIARY_HISUIAN"
         }
       },
       "attack": 232,
@@ -48660,16 +48558,8 @@
         "Fighting",
         "Poison"
       ],
-      "quick_moves": [
-        "Shadow Claw",
-        "Poison Jab",
-        "Rock Smash"
-      ],
-      "charged_moves": [
-        "Aerial Ace",
-        "X Scissor",
-        "Close Combat"
-      ],
+      "quick_moves": [],
+      "charged_moves": [],
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
@@ -48679,19 +48569,7 @@
       },
       "attack": 259,
       "defense": 158,
-      "stamina": 190,
-      "height": 1.3,
-      "weight": 43,
-      "family": 215,
-      "flee_rate": 0.1,
-      "capture_rate": 0.3,
-      "legendary": false,
-      "mythic": false,
-      "buddy_group_number": 2,
-      "buddy_distance": 5,
-      "third_move_stardust": 75000,
-      "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "stamina": 190
     },
     "904": {
       "name": "Overqwil",
@@ -48701,17 +48579,8 @@
         "Poison",
         "Dark"
       ],
-      "quick_moves": [
-        "Poison Jab",
-        "Poison Sting"
-      ],
-      "charged_moves": [
-        "Dark Pulse",
-        "Ice Beam",
-        "Aqua Tail",
-        "Shadow Ball",
-        "Sludge Bomb"
-      ],
+      "quick_moves": [],
+      "charged_moves": [],
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
@@ -48721,19 +48590,7 @@
       },
       "attack": 222,
       "defense": 171,
-      "stamina": 198,
-      "height": 2.5,
-      "weight": 60.5,
-      "family": 211,
-      "flee_rate": 0.1,
-      "capture_rate": 0.3,
-      "legendary": false,
-      "mythic": false,
-      "buddy_group_number": 3,
-      "buddy_distance": 5,
-      "third_move_stardust": 75000,
-      "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "stamina": 198
     },
     "905": {
       "name": "Enamorus",

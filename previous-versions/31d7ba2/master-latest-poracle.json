@@ -3984,10 +3984,6 @@
       "id": 58,
       "types": [
         {
-          "id": 6,
-          "name": "Rock"
-        },
-        {
           "id": 10,
           "name": "Fire"
         }
@@ -3997,19 +3993,12 @@
         "id": 2792
       },
       "stats": {
-        "baseAttack": 142,
-        "baseDefense": 92,
-        "baseStamina": 155
+        "baseAttack": 136,
+        "baseDefense": 93,
+        "baseStamina": 146
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 59,
-          "id": 2793,
-          "candyCost": 50
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "59_0": {
       "name": "Arcanine",
@@ -4058,10 +4047,6 @@
       "id": 59,
       "types": [
         {
-          "id": 6,
-          "name": "Rock"
-        },
-        {
           "id": 10,
           "name": "Fire"
         }
@@ -4071,9 +4056,9 @@
         "id": 2793
       },
       "stats": {
-        "baseAttack": 232,
-        "baseDefense": 165,
-        "baseStamina": 216
+        "baseAttack": 227,
+        "baseDefense": 166,
+        "baseStamina": 207
       },
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50
@@ -13803,8 +13788,8 @@
           "name": "Poison"
         },
         {
-          "id": 17,
-          "name": "Dark"
+          "id": 11,
+          "name": "Water"
         }
       ],
       "form": {
@@ -13813,22 +13798,11 @@
       },
       "stats": {
         "baseAttack": 184,
-        "baseDefense": 151,
+        "baseDefense": 138,
         "baseStamina": 163
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 904,
-          "id": 0,
-          "candyCost": 50,
-          "questRequirement": {
-            "target": 10,
-            "i18n": "Win {{amount}} raids"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "212_0": {
       "name": "Scizor",
@@ -14099,12 +14073,12 @@
       "id": 215,
       "types": [
         {
-          "id": 2,
-          "name": "Fighting"
+          "id": 15,
+          "name": "Ice"
         },
         {
-          "id": 4,
-          "name": "Poison"
+          "id": 17,
+          "name": "Dark"
         }
       ],
       "form": {
@@ -14117,19 +14091,7 @@
         "baseStamina": 146
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 903,
-          "id": 0,
-          "candyCost": 100,
-          "onlyDaytime": true,
-          "questRequirement": {
-            "target": 7,
-            "i18n": "Walk {{amount}} km with your buddy"
-          }
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "216_0": {
       "name": "Teddiursa",
@@ -37751,12 +37713,12 @@
       "id": 628,
       "types": [
         {
-          "id": 3,
-          "name": "Flying"
+          "id": 1,
+          "name": "Normal"
         },
         {
-          "id": 14,
-          "name": "Psychic"
+          "id": 3,
+          "name": "Flying"
         }
       ],
       "form": {
@@ -37764,9 +37726,9 @@
         "id": 2798
       },
       "stats": {
-        "baseAttack": 213,
-        "baseDefense": 137,
-        "baseStamina": 242
+        "baseAttack": 232,
+        "baseDefense": 152,
+        "baseStamina": 225
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
@@ -50300,8 +50262,6 @@
         "baseDefense": 158,
         "baseStamina": 190
       },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "904_0": {
@@ -50326,8 +50286,6 @@
         "baseDefense": 171,
         "baseStamina": 198
       },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "905_0": {

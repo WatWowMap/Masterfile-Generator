@@ -7464,54 +7464,7 @@
         "2792": {
           "name": "Hisuian",
           "proto": "GROWLITHE_HISUIAN",
-          "form": 2792,
-          "stats": {
-            "attack": 142,
-            "defense": 92,
-            "stamina": 155
-          },
-          "height": 0.8,
-          "weight": 22.7,
-          "chargedMoves": {
-            "24": {
-              "moveId": 24,
-              "moveName": "Flamethrower",
-              "proto": "FLAMETHROWER",
-              "type": 10,
-              "power": 90
-            },
-            "64": {
-              "moveId": 64,
-              "moveName": "Rock Slide",
-              "proto": "ROCK_SLIDE",
-              "type": 6,
-              "power": 75
-            },
-            "279": {
-              "moveId": 279,
-              "moveName": "Crunch",
-              "proto": "CRUNCH",
-              "type": 17,
-              "power": 70
-            }
-          },
-          "types": {
-            "6": {
-              "typeId": 6,
-              "typeName": "Rock"
-            },
-            "10": {
-              "typeId": 10,
-              "typeName": "Fire"
-            }
-          },
-          "evolutions": {
-            "59": {
-              "pokemon": 59,
-              "form": 2793,
-              "candyCost": 50
-            }
-          }
+          "form": 2792
         }
       },
       "stats": {
@@ -7631,77 +7584,7 @@
         "2793": {
           "name": "Hisuian",
           "proto": "ARCANINE_HISUIAN",
-          "form": 2793,
-          "stats": {
-            "attack": 232,
-            "defense": 165,
-            "stamina": 216
-          },
-          "height": 2,
-          "weight": 168,
-          "quickMoves": {
-            "240": {
-              "moveId": 240,
-              "moveName": "Fire Fang",
-              "proto": "FIRE_FANG_FAST",
-              "type": 10,
-              "power": 8
-            },
-            "241": {
-              "moveId": 241,
-              "moveName": "Rock Smash",
-              "proto": "ROCK_SMASH_FAST",
-              "type": 2,
-              "power": 9
-            },
-            "278": {
-              "moveId": 278,
-              "moveName": "Snarl",
-              "proto": "SNARL_FAST",
-              "type": 17,
-              "power": 5
-            }
-          },
-          "chargedMoves": {
-            "24": {
-              "moveId": 24,
-              "moveName": "Flamethrower",
-              "proto": "FLAMETHROWER",
-              "type": 10,
-              "power": 90
-            },
-            "64": {
-              "moveId": 64,
-              "moveName": "Rock Slide",
-              "proto": "ROCK_SLIDE",
-              "type": 6,
-              "power": 75
-            },
-            "251": {
-              "moveId": 251,
-              "moveName": "Wild Charge",
-              "proto": "WILD_CHARGE",
-              "type": 13,
-              "power": 100
-            },
-            "279": {
-              "moveId": 279,
-              "moveName": "Crunch",
-              "proto": "CRUNCH",
-              "type": 17,
-              "power": 70
-            }
-          },
-          "types": {
-            "6": {
-              "typeId": 6,
-              "typeName": "Rock"
-            },
-            "10": {
-              "typeId": 10,
-              "typeName": "Fire"
-            }
-          }
+          "form": 2793
         }
       },
       "stats": {
@@ -26158,89 +26041,7 @@
         "2788": {
           "name": "Hisuian",
           "proto": "QWILFISH_HISUIAN",
-          "form": 2788,
-          "stats": {
-            "attack": 184,
-            "defense": 151,
-            "stamina": 163
-          },
-          "quickMoves": {
-            "224": {
-              "moveId": 224,
-              "moveName": "Poison Jab",
-              "proto": "POISON_JAB_FAST",
-              "type": 4,
-              "power": 7
-            },
-            "236": {
-              "moveId": 236,
-              "moveName": "Poison Sting",
-              "proto": "POISON_STING_FAST",
-              "type": 4,
-              "power": 3
-            }
-          },
-          "chargedMoves": {
-            "16": {
-              "moveId": 16,
-              "moveName": "Dark Pulse",
-              "proto": "DARK_PULSE",
-              "type": 17,
-              "power": 80
-            },
-            "39": {
-              "moveId": 39,
-              "moveName": "Ice Beam",
-              "proto": "ICE_BEAM",
-              "type": 15,
-              "power": 90
-            },
-            "58": {
-              "moveId": 58,
-              "moveName": "Aqua Tail",
-              "proto": "AQUA_TAIL",
-              "type": 11,
-              "power": 50
-            },
-            "70": {
-              "moveId": 70,
-              "moveName": "Shadow Ball",
-              "proto": "SHADOW_BALL",
-              "type": 8,
-              "power": 100
-            },
-            "90": {
-              "moveId": 90,
-              "moveName": "Sludge Bomb",
-              "proto": "SLUDGE_BOMB",
-              "type": 4,
-              "power": 80
-            }
-          },
-          "types": {
-            "4": {
-              "typeId": 4,
-              "typeName": "Poison"
-            },
-            "17": {
-              "typeId": 17,
-              "typeName": "Dark"
-            }
-          },
-          "evolutions": {
-            "904": {
-              "pokemon": 904,
-              "form": 0,
-              "candyCost": 50,
-              "questRequirement": {
-                "questType": 8,
-                "target": 10,
-                "assetsRef": "quest_win_raid_plural",
-                "i18n": "Win {{amount}} raids",
-                "translated": "Win 10 raids"
-              }
-            }
-          }
+          "form": 2788
         }
       },
       "stats": {
@@ -26704,73 +26505,7 @@
         "2794": {
           "name": "Hisuian",
           "proto": "SNEASEL_HISUIAN",
-          "form": 2794,
-          "height": 0.9,
-          "weight": 27,
-          "quickMoves": {
-            "224": {
-              "moveId": 224,
-              "moveName": "Poison Jab",
-              "proto": "POISON_JAB_FAST",
-              "type": 4,
-              "power": 7
-            },
-            "241": {
-              "moveId": 241,
-              "moveName": "Rock Smash",
-              "proto": "ROCK_SMASH_FAST",
-              "type": 2,
-              "power": 9
-            }
-          },
-          "chargedMoves": {
-            "45": {
-              "moveId": 45,
-              "moveName": "Aerial Ace",
-              "proto": "AERIAL_ACE",
-              "type": 3,
-              "power": 55
-            },
-            "100": {
-              "moveId": 100,
-              "moveName": "X-Scissor",
-              "proto": "X_SCISSOR",
-              "type": 7,
-              "power": 45
-            },
-            "245": {
-              "moveId": 245,
-              "moveName": "Close Combat",
-              "proto": "CLOSE_COMBAT",
-              "type": 2,
-              "power": 100
-            }
-          },
-          "types": {
-            "2": {
-              "typeId": 2,
-              "typeName": "Fighting"
-            },
-            "4": {
-              "typeId": 4,
-              "typeName": "Poison"
-            }
-          },
-          "evolutions": {
-            "903": {
-              "pokemon": 903,
-              "form": 0,
-              "candyCost": 100,
-              "onlyDaytime": true,
-              "questRequirement": {
-                "questType": 50,
-                "target": 7,
-                "assetsRef": "quest_buddy_walk_km_plural",
-                "i18n": "Walk {{amount}} km with your buddy",
-                "translated": "Walk 7 km with your buddy"
-              }
-            }
-          }
+          "form": 2794
         }
       },
       "stats": {
@@ -72715,6 +72450,11 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2276": {
           "name": "Normal",
           "proto": "BRAVIARY_NORMAL",
@@ -72733,70 +72473,7 @@
         "2798": {
           "name": "Hisuian",
           "proto": "BRAVIARY_HISUIAN",
-          "form": 2798,
-          "stats": {
-            "attack": 213,
-            "defense": 137,
-            "stamina": 242
-          },
-          "height": 1.7,
-          "weight": 43.4,
-          "quickMoves": {
-            "234": {
-              "moveId": 234,
-              "moveName": "Zen Headbutt",
-              "proto": "ZEN_HEADBUTT_FAST",
-              "type": 14,
-              "power": 8
-            },
-            "255": {
-              "moveId": 255,
-              "moveName": "Air Slash",
-              "proto": "AIR_SLASH_FAST",
-              "type": 3,
-              "power": 9
-            }
-          },
-          "chargedMoves": {
-            "69": {
-              "moveId": 69,
-              "moveName": "Ominous Wind",
-              "proto": "OMINOUS_WIND",
-              "type": 8,
-              "power": 45
-            },
-            "86": {
-              "moveId": 86,
-              "moveName": "Dazzling Gleam",
-              "proto": "DAZZLING_GLEAM",
-              "type": 18,
-              "power": 110
-            },
-            "108": {
-              "moveId": 108,
-              "moveName": "Psychic",
-              "proto": "PSYCHIC",
-              "type": 14,
-              "power": 90
-            },
-            "256": {
-              "moveId": 256,
-              "moveName": "Brave Bird",
-              "proto": "BRAVE_BIRD",
-              "type": 3,
-              "power": 130
-            }
-          },
-          "types": {
-            "3": {
-              "typeId": 3,
-              "typeName": "Flying"
-            },
-            "14": {
-              "typeId": 14,
-              "typeName": "Psychic"
-            }
-          }
+          "form": 2798
         }
       },
       "stats": {
@@ -99837,52 +99514,8 @@
           "typeName": "Poison"
         }
       },
-      "quickMoves": {
-        "213": {
-          "moveId": 213,
-          "moveName": "Shadow Claw",
-          "proto": "SHADOW_CLAW_FAST",
-          "type": 8,
-          "power": 6
-        },
-        "224": {
-          "moveId": 224,
-          "moveName": "Poison Jab",
-          "proto": "POISON_JAB_FAST",
-          "type": 4,
-          "power": 7
-        },
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
-        }
-      },
-      "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "100": {
-          "moveId": 100,
-          "moveName": "X-Scissor",
-          "proto": "X_SCISSOR",
-          "type": 7,
-          "power": 45
-        },
-        "245": {
-          "moveId": 245,
-          "moveName": "Close Combat",
-          "proto": "CLOSE_COMBAT",
-          "type": 2,
-          "power": 100
-        }
-      },
+      "quickMoves": {},
+      "chargedMoves": {},
       "genId": 8,
       "generation": "Galar",
       "forms": {
@@ -99896,25 +99529,6 @@
         "attack": 259,
         "defense": 158,
         "stamina": 190
-      },
-      "height": 1.3,
-      "weight": 43,
-      "family": 215,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.3
-      },
-      "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
       },
       "unreleased": true
     },
@@ -99932,59 +99546,8 @@
           "typeName": "Dark"
         }
       },
-      "quickMoves": {
-        "224": {
-          "moveId": 224,
-          "moveName": "Poison Jab",
-          "proto": "POISON_JAB_FAST",
-          "type": 4,
-          "power": 7
-        },
-        "236": {
-          "moveId": 236,
-          "moveName": "Poison Sting",
-          "proto": "POISON_STING_FAST",
-          "type": 4,
-          "power": 3
-        }
-      },
-      "chargedMoves": {
-        "16": {
-          "moveId": 16,
-          "moveName": "Dark Pulse",
-          "proto": "DARK_PULSE",
-          "type": 17,
-          "power": 80
-        },
-        "39": {
-          "moveId": 39,
-          "moveName": "Ice Beam",
-          "proto": "ICE_BEAM",
-          "type": 15,
-          "power": 90
-        },
-        "58": {
-          "moveId": 58,
-          "moveName": "Aqua Tail",
-          "proto": "AQUA_TAIL",
-          "type": 11,
-          "power": 50
-        },
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "90": {
-          "moveId": 90,
-          "moveName": "Sludge Bomb",
-          "proto": "SLUDGE_BOMB",
-          "type": 4,
-          "power": 80
-        }
-      },
+      "quickMoves": {},
+      "chargedMoves": {},
       "genId": 8,
       "generation": "Galar",
       "forms": {
@@ -99998,25 +99561,6 @@
         "attack": 222,
         "defense": 171,
         "stamina": 198
-      },
-      "height": 2.5,
-      "weight": 60.5,
-      "family": 211,
-      "encounter": {
-        "fleeRate": 0.1,
-        "captureRate": 0.3
-      },
-      "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "misc": {
-        "buddyGroupNumber": 3,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 75000,
-        "thirdMoveCandy": 75,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
       },
       "unreleased": true
     },
@@ -116049,33 +115593,7 @@
     "2788": {
       "formName": "Hisuian",
       "proto": "QWILFISH_HISUIAN",
-      "formId": 2788,
-      "attack": 184,
-      "defense": 151,
-      "stamina": 163,
-      "quickMoves": [
-        224,
-        236
-      ],
-      "chargedMoves": [
-        16,
-        39,
-        58,
-        70,
-        90
-      ],
-      "types": [
-        4,
-        17
-      ],
-      "evolutions": [
-        {
-          "evoId": 904,
-          "formId": 0,
-          "candyCost": 50,
-          "questRequirement": "OVERQWIL_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2788
     },
     "2789": {
       "formName": "Hisuian",
@@ -116095,88 +115613,17 @@
     "2792": {
       "formName": "Hisuian",
       "proto": "GROWLITHE_HISUIAN",
-      "formId": 2792,
-      "attack": 142,
-      "defense": 92,
-      "stamina": 155,
-      "height": 0.8,
-      "weight": 22.7,
-      "chargedMoves": [
-        24,
-        64,
-        279
-      ],
-      "types": [
-        6,
-        10
-      ],
-      "evolutions": [
-        {
-          "evoId": 59,
-          "formId": 2793,
-          "candyCost": 50
-        }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2792
     },
     "2793": {
       "formName": "Hisuian",
       "proto": "ARCANINE_HISUIAN",
-      "formId": 2793,
-      "attack": 232,
-      "defense": 165,
-      "stamina": 216,
-      "height": 2,
-      "weight": 168,
-      "quickMoves": [
-        240,
-        241,
-        278
-      ],
-      "chargedMoves": [
-        24,
-        64,
-        251,
-        279
-      ],
-      "types": [
-        6,
-        10
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2793
     },
     "2794": {
       "formName": "Hisuian",
       "proto": "SNEASEL_HISUIAN",
-      "formId": 2794,
-      "height": 0.9,
-      "weight": 27,
-      "quickMoves": [
-        224,
-        241
-      ],
-      "chargedMoves": [
-        45,
-        100,
-        245
-      ],
-      "types": [
-        2,
-        4
-      ],
-      "evolutions": [
-        {
-          "evoId": 903,
-          "formId": 0,
-          "candyCost": 100,
-          "onlyDaytime": true,
-          "questRequirement": "SNEASLER_EVOLUTION_QUEST"
-        }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2794
     },
     "2795": {
       "formName": "Hisuian",
@@ -116196,26 +115643,7 @@
     "2798": {
       "formName": "Hisuian",
       "proto": "BRAVIARY_HISUIAN",
-      "formId": 2798,
-      "attack": 213,
-      "defense": 137,
-      "stamina": 242,
-      "height": 1.7,
-      "weight": 43.4,
-      "quickMoves": [
-        234,
-        255
-      ],
-      "chargedMoves": [
-        69,
-        86,
-        108,
-        256
-      ],
-      "types": [
-        3,
-        14
-      ]
+      "formId": 2798
     },
     "2799": {
       "formName": "Galarian",

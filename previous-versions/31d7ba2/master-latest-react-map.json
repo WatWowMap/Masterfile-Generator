@@ -2046,16 +2046,7 @@
           "name": "Normal"
         },
         "2792": {
-          "name": "Hisuian",
-          "chargedMoves": [
-            24,
-            64,
-            279
-          ],
-          "types": [
-            6,
-            10
-          ]
+          "name": "Hisuian"
         }
       },
       "height": 0.7,
@@ -2090,22 +2081,7 @@
           "name": "Normal"
         },
         "2793": {
-          "name": "Hisuian",
-          "quickMoves": [
-            240,
-            241,
-            278
-          ],
-          "chargedMoves": [
-            24,
-            64,
-            251,
-            279
-          ],
-          "types": [
-            6,
-            10
-          ]
+          "name": "Hisuian"
         }
       },
       "height": 1.9,
@@ -7218,22 +7194,7 @@
           "name": "Normal"
         },
         "2788": {
-          "name": "Hisuian",
-          "quickMoves": [
-            224,
-            236
-          ],
-          "chargedMoves": [
-            16,
-            39,
-            58,
-            70,
-            90
-          ],
-          "types": [
-            4,
-            17
-          ]
+          "name": "Hisuian"
         }
       },
       "height": 0.51,
@@ -7369,20 +7330,7 @@
           "name": "Normal"
         },
         "2794": {
-          "name": "Hisuian",
-          "quickMoves": [
-            224,
-            241
-          ],
-          "chargedMoves": [
-            45,
-            100,
-            245
-          ],
-          "types": [
-            2,
-            4
-          ]
+          "name": "Hisuian"
         }
       },
       "height": 0.89,
@@ -20211,7 +20159,7 @@
     "628": {
       "name": "Braviary",
       "pokedexId": 628,
-      "defaultFormId": 2276,
+      "defaultFormId": 0,
       "types": [
         1,
         3
@@ -20229,25 +20177,9 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
-        "2276": {
-          "name": "Normal"
-        },
+        "0": {},
         "2798": {
-          "name": "Hisuian",
-          "quickMoves": [
-            234,
-            255
-          ],
-          "chargedMoves": [
-            69,
-            86,
-            108,
-            256
-          ],
-          "types": [
-            3,
-            14
-          ]
+          "name": "Hisuian"
         }
       },
       "height": 1.5,
@@ -28921,27 +28853,13 @@
         2,
         4
       ],
-      "quickMoves": [
-        213,
-        224,
-        241
-      ],
-      "chargedMoves": [
-        45,
-        100,
-        245
-      ],
+      "quickMoves": [],
+      "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": {
         "0": {}
       },
-      "height": 1.3,
-      "weight": 43,
-      "family": 215,
-      "legendary": false,
-      "mythical": false,
-      "ultraBeast": false,
       "unreleased": true
     },
     "904": {
@@ -28952,28 +28870,13 @@
         4,
         17
       ],
-      "quickMoves": [
-        224,
-        236
-      ],
-      "chargedMoves": [
-        16,
-        39,
-        58,
-        70,
-        90
-      ],
+      "quickMoves": [],
+      "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": {
         "0": {}
       },
-      "height": 2.5,
-      "weight": 60.5,
-      "family": 211,
-      "legendary": false,
-      "mythical": false,
-      "ultraBeast": false,
       "unreleased": true
     },
     "905": {

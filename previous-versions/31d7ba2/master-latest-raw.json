@@ -42616,16 +42616,8 @@
         2,
         4
       ],
-      "quickMoves": [
-        213,
-        224,
-        241
-      ],
-      "chargedMoves": [
-        45,
-        100,
-        245
-      ],
+      "quickMoves": [],
+      "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
@@ -42634,21 +42626,6 @@
       "attack": 259,
       "defense": 158,
       "stamina": 190,
-      "height": 1.3,
-      "weight": 43,
-      "family": 215,
-      "fleeRate": 0.1,
-      "captureRate": 0.3,
-      "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
       "unreleased": true
     },
     "904": {
@@ -42659,17 +42636,8 @@
         4,
         17
       ],
-      "quickMoves": [
-        224,
-        236
-      ],
-      "chargedMoves": [
-        16,
-        39,
-        58,
-        70,
-        90
-      ],
+      "quickMoves": [],
+      "chargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
@@ -42678,21 +42646,6 @@
       "attack": 222,
       "defense": 171,
       "stamina": 198,
-      "height": 2.5,
-      "weight": 60.5,
-      "family": 211,
-      "fleeRate": 0.1,
-      "captureRate": 0.3,
-      "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "buddyGroupNumber": 3,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
       "unreleased": true
     },
     "905": {
@@ -58351,32 +58304,7 @@
     "2788": {
       "formName": "Hisuian",
       "proto": "QWILFISH_HISUIAN",
-      "formId": 2788,
-      "attack": 184,
-      "defense": 151,
-      "stamina": 163,
-      "quickMoves": [
-        224,
-        236
-      ],
-      "chargedMoves": [
-        16,
-        39,
-        58,
-        70,
-        90
-      ],
-      "types": [
-        4,
-        17
-      ],
-      "evolutions": [
-        {
-          "evoId": 904,
-          "candyCost": 50,
-          "questRequirement": "OVERQWIL_EVOLUTION_QUEST"
-        }
-      ]
+      "formId": 2788
     },
     "2789": {
       "formName": "Hisuian",
@@ -58396,87 +58324,17 @@
     "2792": {
       "formName": "Hisuian",
       "proto": "GROWLITHE_HISUIAN",
-      "formId": 2792,
-      "attack": 142,
-      "defense": 92,
-      "stamina": 155,
-      "height": 0.8,
-      "weight": 22.7,
-      "chargedMoves": [
-        24,
-        64,
-        279
-      ],
-      "types": [
-        6,
-        10
-      ],
-      "evolutions": [
-        {
-          "evoId": 59,
-          "formId": 2793,
-          "candyCost": 50
-        }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2792
     },
     "2793": {
       "formName": "Hisuian",
       "proto": "ARCANINE_HISUIAN",
-      "formId": 2793,
-      "attack": 232,
-      "defense": 165,
-      "stamina": 216,
-      "height": 2,
-      "weight": 168,
-      "quickMoves": [
-        240,
-        241,
-        278
-      ],
-      "chargedMoves": [
-        24,
-        64,
-        251,
-        279
-      ],
-      "types": [
-        6,
-        10
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2793
     },
     "2794": {
       "formName": "Hisuian",
       "proto": "SNEASEL_HISUIAN",
-      "formId": 2794,
-      "height": 0.9,
-      "weight": 27,
-      "quickMoves": [
-        224,
-        241
-      ],
-      "chargedMoves": [
-        45,
-        100,
-        245
-      ],
-      "types": [
-        2,
-        4
-      ],
-      "evolutions": [
-        {
-          "evoId": 903,
-          "candyCost": 100,
-          "onlyDaytime": true,
-          "questRequirement": "SNEASLER_EVOLUTION_QUEST"
-        }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2794
     },
     "2795": {
       "formName": "Hisuian",
@@ -58496,26 +58354,7 @@
     "2798": {
       "formName": "Hisuian",
       "proto": "BRAVIARY_HISUIAN",
-      "formId": 2798,
-      "attack": 213,
-      "defense": 137,
-      "stamina": 242,
-      "height": 1.7,
-      "weight": 43.4,
-      "quickMoves": [
-        234,
-        255
-      ],
-      "chargedMoves": [
-        69,
-        86,
-        108,
-        256
-      ],
-      "types": [
-        3,
-        14
-      ]
+      "formId": 2798
     },
     "2799": {
       "formName": "Galarian",
