@@ -6161,7 +6161,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -10562,7 +10561,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -10575,15 +10573,6 @@
           "defense": 250,
           "stamina": 172,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 279,
-          "defense": 250,
-          "stamina": 172,
-          "height": 2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -45154,6 +45143,8 @@
       "formName": "Normal",
       "proto": "SCIZOR_NORMAL",
       "formId": 250,
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -45161,19 +45152,8 @@
           "defense": 250,
           "stamina": 172,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 279,
-          "defense": 250,
-          "stamina": 172,
-          "height": 2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 5000,
-      "purificationCandy": 5
+      ]
     },
     "251": {
       "formName": "Shadow",
@@ -45191,15 +45171,6 @@
           "defense": 250,
           "stamina": 172,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 279,
-          "defense": 250,
-          "stamina": 172,
-          "height": 2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
