@@ -1591,7 +1591,12 @@
         "2805": {
           "name": "Gofest 2022",
           "proto": "PIKACHU_GOFEST_2022",
-          "is_costume": true
+          "is_costume": true,
+          "evolutions": [
+            {
+              "pokemon": 26
+            }
+          ]
         }
       },
       "attack": 112,
@@ -35851,8 +35856,7 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 628,
-          "form": 2276
+          "pokemon": 628
         }
       ],
       "little": true
@@ -51329,9 +51333,7 @@
     },
     "370": {
       "name": "Obstruct",
-      "proto": "OBSTRUCT",
-      "type": "Dark",
-      "power": 15
+      "proto": "OBSTRUCT"
     },
     "371": {
       "name": "Shadow Force",

@@ -3219,7 +3219,14 @@
           "name": "Gofest 2022",
           "proto": "PIKACHU_GOFEST_2022",
           "form": 2805,
-          "isCostume": true
+          "isCostume": true,
+          "evolutions": {
+            "26": {
+              "pokemon": 26,
+              "form": 0,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -15884,7 +15891,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -26379,7 +26386,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -72651,7 +72658,7 @@
       "evolutions": {
         "628": {
           "pokemon": 628,
-          "form": 2276,
+          "form": 0,
           "candyCost": 50
         }
       },
@@ -109291,6 +109298,8 @@
       "formName": "Normal",
       "proto": "AGGRON_NORMAL",
       "formId": 1475,
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -109302,9 +109311,7 @@
           ],
           "unreleased": true
         }
-      ],
-      "purificationDust": 1000,
-      "purificationCandy": 1
+      ]
     },
     "1476": {
       "formName": "Shadow",
@@ -116333,7 +116340,14 @@
       "formName": "Gofest 2022",
       "proto": "PIKACHU_GOFEST_2022",
       "formId": 2805,
-      "isCostume": true
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 26,
+          "formId": 0,
+          "candyCost": 50
+        }
+      ]
     },
     "2806": {
       "formName": "Normal",
@@ -120273,8 +120287,7 @@
     "370": {
       "id": 370,
       "name": "Obstruct",
-      "proto": "OBSTRUCT",
-      "power": 15
+      "proto": "OBSTRUCT"
     },
     "371": {
       "id": 371,

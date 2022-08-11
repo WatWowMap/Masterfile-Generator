@@ -6161,7 +6161,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 25,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -10562,7 +10562,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 25,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -30431,7 +30431,6 @@
       "evolutions": [
         {
           "evoId": 628,
-          "formId": 2276,
           "candyCost": 50
         }
       ],
@@ -51681,6 +51680,8 @@
       "formName": "Normal",
       "proto": "AGGRON_NORMAL",
       "formId": 1475,
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -51692,9 +51693,7 @@
           ],
           "unreleased": true
         }
-      ],
-      "purificationDust": 1000,
-      "purificationCandy": 1
+      ]
     },
     "1476": {
       "formName": "Shadow",
@@ -58640,7 +58639,13 @@
       "formName": "Gofest 2022",
       "proto": "PIKACHU_GOFEST_2022",
       "formId": 2805,
-      "isCostume": true
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 26,
+          "candyCost": 50
+        }
+      ]
     },
     "2806": {
       "formName": "Normal",
@@ -61496,13 +61501,6 @@
       "proto": "SEED_FLARE",
       "type": 12,
       "power": 130
-    },
-    "370": {
-      "moveId": 370,
-      "moveName": "Obstruct",
-      "proto": "OBSTRUCT",
-      "type": 17,
-      "power": 15
     }
   },
   "questTypes": {

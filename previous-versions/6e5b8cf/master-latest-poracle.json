@@ -1958,7 +1958,14 @@
         "baseStamina": 111
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 26,
+          "id": 0,
+          "candyCost": 50
+        }
+      ]
     },
     "26_0": {
       "name": "Raichu",
@@ -37686,7 +37693,7 @@
       "evolutions": [
         {
           "evoId": 628,
-          "id": 2276,
+          "id": 0,
           "candyCost": 50
         }
       ]
@@ -52847,10 +52854,6 @@
     "369": {
       "name": "Seed Flare",
       "type": "Grass"
-    },
-    "370": {
-      "name": "Obstruct",
-      "type": "Dark"
     }
   },
   "questTypes": {
