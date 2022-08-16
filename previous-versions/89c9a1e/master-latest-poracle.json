@@ -1960,111 +1960,6 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
-    "25_2806": {
-      "name": "Pikachu",
-      "id": 25,
-      "types": [
-        {
-          "id": 13,
-          "name": "Electric"
-        }
-      ],
-      "form": {
-        "name": "Wcs 2022",
-        "id": 2806
-      },
-      "stats": {
-        "baseAttack": 112,
-        "baseDefense": 96,
-        "baseStamina": 111
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
-    "25_2813": {
-      "name": "Pikachu",
-      "id": 25,
-      "types": [
-        {
-          "id": 13,
-          "name": "Electric"
-        }
-      ],
-      "form": {
-        "name": "Tshirt 01",
-        "id": 2813
-      },
-      "stats": {
-        "baseAttack": 112,
-        "baseDefense": 96,
-        "baseStamina": 111
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
-    "25_2814": {
-      "name": "Pikachu",
-      "id": 25,
-      "types": [
-        {
-          "id": 13,
-          "name": "Electric"
-        }
-      ],
-      "form": {
-        "name": "Tshirt 02",
-        "id": 2814
-      },
-      "stats": {
-        "baseAttack": 112,
-        "baseDefense": 96,
-        "baseStamina": 111
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
-    "25_2815": {
-      "name": "Pikachu",
-      "id": 25,
-      "types": [
-        {
-          "id": 13,
-          "name": "Electric"
-        }
-      ],
-      "form": {
-        "name": "Flying 01",
-        "id": 2815
-      },
-      "stats": {
-        "baseAttack": 112,
-        "baseDefense": 96,
-        "baseStamina": 111
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
-    "25_2816": {
-      "name": "Pikachu",
-      "id": 25,
-      "types": [
-        {
-          "id": 13,
-          "name": "Electric"
-        }
-      ],
-      "form": {
-        "name": "Flying 02",
-        "id": 2816
-      },
-      "stats": {
-        "baseAttack": 112,
-        "baseDefense": 96,
-        "baseStamina": 111
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -42887,27 +42782,6 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
     },
-    "705_2810": {
-      "name": "Sliggoo",
-      "id": 705,
-      "types": [
-        {
-          "id": 16,
-          "name": "Dragon"
-        }
-      ],
-      "form": {
-        "name": "Normal",
-        "id": 2810
-      },
-      "stats": {
-        "baseAttack": 159,
-        "baseDefense": 176,
-        "baseStamina": 169
-      },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
-    },
     "706_0": {
       "name": "Goodra",
       "id": 706,
@@ -42941,27 +42815,6 @@
       "form": {
         "name": "Hisuian",
         "id": 2791
-      },
-      "stats": {
-        "baseAttack": 220,
-        "baseDefense": 242,
-        "baseStamina": 207
-      },
-      "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
-    },
-    "706_2811": {
-      "name": "Goodra",
-      "id": 706,
-      "types": [
-        {
-          "id": 16,
-          "name": "Dragon"
-        }
-      ],
-      "form": {
-        "name": "Normal",
-        "id": 2811
       },
       "stats": {
         "baseAttack": 220,
@@ -43405,27 +43258,6 @@
       "form": {
         "name": "Hisuian",
         "id": 2795
-      },
-      "stats": {
-        "baseAttack": 196,
-        "baseDefense": 240,
-        "baseStamina": 216
-      },
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
-    },
-    "713_2812": {
-      "name": "Avalugg",
-      "id": 713,
-      "types": [
-        {
-          "id": 15,
-          "name": "Ice"
-        }
-      ],
-      "form": {
-        "name": "Normal",
-        "id": 2812
       },
       "stats": {
         "baseAttack": 196,
@@ -43925,31 +43757,6 @@
       "form": {
         "name": "Hisuian",
         "id": 2785
-      },
-      "stats": {
-        "baseAttack": 210,
-        "baseDefense": 179,
-        "baseStamina": 186
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
-    "724_2809": {
-      "name": "Decidueye",
-      "id": 724,
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 12,
-          "name": "Grass"
-        }
-      ],
-      "form": {
-        "name": "Normal",
-        "id": 2809
       },
       "stats": {
         "baseAttack": 210,
@@ -50395,6 +50202,30 @@
       },
       "unreleased": true
     },
+    "900_2806": {
+      "name": "Kleavor",
+      "id": 900,
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 2806
+      },
+      "stats": {
+        "baseAttack": 253,
+        "baseDefense": 174,
+        "baseStamina": 172
+      },
+      "unreleased": true
+    },
     "901_0": {
       "name": "Ursaluna",
       "id": 901,
@@ -50419,6 +50250,30 @@
       },
       "unreleased": true
     },
+    "901_2807": {
+      "name": "Ursaluna",
+      "id": 901,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 5,
+          "name": "Ground"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 2807
+      },
+      "stats": {
+        "baseAttack": 243,
+        "baseDefense": 181,
+        "baseStamina": 277
+      },
+      "unreleased": true
+    },
     "902_0": {
       "name": "Basculegion",
       "id": 902,
@@ -50435,54 +50290,6 @@
       "form": {
         "name": "",
         "id": 0
-      },
-      "stats": {
-        "baseAttack": 217,
-        "baseDefense": 144,
-        "baseStamina": 260
-      },
-      "unreleased": true
-    },
-    "902_2807": {
-      "name": "Basculegion",
-      "id": 902,
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 11,
-          "name": "Water"
-        }
-      ],
-      "form": {
-        "name": "Normal",
-        "id": 2807
-      },
-      "stats": {
-        "baseAttack": 217,
-        "baseDefense": 144,
-        "baseStamina": 260
-      },
-      "unreleased": true
-    },
-    "902_2808": {
-      "name": "Basculegion",
-      "id": 902,
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 11,
-          "name": "Water"
-        }
-      ],
-      "form": {
-        "name": "Female",
-        "id": 2808
       },
       "stats": {
         "baseAttack": 217,

@@ -3220,32 +3220,6 @@
           "proto": "PIKACHU_GOFEST_2022",
           "form": 2805,
           "isCostume": true
-        },
-        "2806": {
-          "name": "Wcs 2022",
-          "proto": "PIKACHU_WCS_2022",
-          "form": 2806,
-          "isCostume": true
-        },
-        "2813": {
-          "name": "Tshirt 01",
-          "proto": "PIKACHU_TSHIRT_01",
-          "form": 2813
-        },
-        "2814": {
-          "name": "Tshirt 02",
-          "proto": "PIKACHU_TSHIRT_02",
-          "form": 2814
-        },
-        "2815": {
-          "name": "Flying 01",
-          "proto": "PIKACHU_FLYING_01",
-          "form": 2815
-        },
-        "2816": {
-          "name": "Flying 02",
-          "proto": "PIKACHU_FLYING_02",
-          "form": 2816
         }
       },
       "stats": {
@@ -81269,11 +81243,6 @@
           "name": "Hisuian",
           "proto": "SLIGGOO_HISUIAN",
           "form": 2790
-        },
-        "2810": {
-          "name": "Normal",
-          "proto": "SLIGGOO_NORMAL",
-          "form": 2810
         }
       },
       "stats": {
@@ -81377,11 +81346,6 @@
           "name": "Hisuian",
           "proto": "GOODRA_HISUIAN",
           "form": 2791
-        },
-        "2811": {
-          "name": "Normal",
-          "proto": "GOODRA_NORMAL",
-          "form": 2811
         }
       },
       "stats": {
@@ -82150,11 +82114,6 @@
           "name": "Hisuian",
           "proto": "AVALUGG_HISUIAN",
           "form": 2795
-        },
-        "2812": {
-          "name": "Normal",
-          "proto": "AVALUGG_NORMAL",
-          "form": 2812
         }
       },
       "stats": {
@@ -83276,11 +83235,6 @@
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN",
           "form": 2785
-        },
-        "2809": {
-          "name": "Normal",
-          "proto": "DECIDUEYE_NORMAL",
-          "form": 2809
         }
       },
       "stats": {
@@ -99771,7 +99725,7 @@
     "900": {
       "name": "Kleavor",
       "pokedexId": 900,
-      "defaultFormId": 0,
+      "defaultFormId": 2806,
       "types": {
         "6": {
           "typeId": 6,
@@ -99791,6 +99745,11 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2806": {
+          "name": "Normal",
+          "proto": "KLEAVOR_NORMAL",
+          "form": 2806
         }
       },
       "stats": {
@@ -99803,7 +99762,7 @@
     "901": {
       "name": "Ursaluna",
       "pokedexId": 901,
-      "defaultFormId": 0,
+      "defaultFormId": 2807,
       "types": {
         "1": {
           "typeId": 1,
@@ -99823,6 +99782,11 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2807": {
+          "name": "Normal",
+          "proto": "URSALUNA_NORMAL",
+          "form": 2807
         }
       },
       "stats": {
@@ -99835,7 +99799,7 @@
     "902": {
       "name": "Basculegion",
       "pokedexId": 902,
-      "defaultFormId": 2807,
+      "defaultFormId": 0,
       "types": {
         "8": {
           "typeId": 8,
@@ -99855,16 +99819,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        },
-        "2807": {
-          "name": "Normal",
-          "proto": "BASCULEGION_NORMAL",
-          "form": 2807
-        },
-        "2808": {
-          "name": "Female",
-          "proto": "BASCULEGION_FEMALE",
-          "form": 2808
         }
       },
       "stats": {
@@ -116382,60 +116336,14 @@
       "isCostume": true
     },
     "2806": {
-      "formName": "Wcs 2022",
-      "proto": "PIKACHU_WCS_2022",
-      "formId": 2806,
-      "isCostume": true
+      "formName": "Normal",
+      "proto": "KLEAVOR_NORMAL",
+      "formId": 2806
     },
     "2807": {
       "formName": "Normal",
-      "proto": "BASCULEGION_NORMAL",
+      "proto": "URSALUNA_NORMAL",
       "formId": 2807
-    },
-    "2808": {
-      "formName": "Female",
-      "proto": "BASCULEGION_FEMALE",
-      "formId": 2808
-    },
-    "2809": {
-      "formName": "Normal",
-      "proto": "DECIDUEYE_NORMAL",
-      "formId": 2809
-    },
-    "2810": {
-      "formName": "Normal",
-      "proto": "SLIGGOO_NORMAL",
-      "formId": 2810
-    },
-    "2811": {
-      "formName": "Normal",
-      "proto": "GOODRA_NORMAL",
-      "formId": 2811
-    },
-    "2812": {
-      "formName": "Normal",
-      "proto": "AVALUGG_NORMAL",
-      "formId": 2812
-    },
-    "2813": {
-      "formName": "Tshirt 01",
-      "proto": "PIKACHU_TSHIRT_01",
-      "formId": 2813
-    },
-    "2814": {
-      "formName": "Tshirt 02",
-      "proto": "PIKACHU_TSHIRT_02",
-      "formId": 2814
-    },
-    "2815": {
-      "formName": "Flying 01",
-      "proto": "PIKACHU_FLYING_01",
-      "formId": 2815
-    },
-    "2816": {
-      "formName": "Flying 02",
-      "proto": "PIKACHU_FLYING_02",
-      "formId": 2816
     },
     "undefined": {
       "formName": ""
@@ -120372,16 +120280,6 @@
       "id": 371,
       "name": "Shadow Force",
       "proto": "SHADOW_FORCE"
-    },
-    "372": {
-      "id": 372,
-      "name": "Meteor Beam",
-      "proto": "METEOR_BEAM"
-    },
-    "373": {
-      "id": 373,
-      "name": "Water Shuriken Fast",
-      "proto": "WATER_SHURIKEN_FAST"
     }
   },
   "questTypes": {

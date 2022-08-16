@@ -1592,27 +1592,6 @@
           "name": "Gofest 2022",
           "proto": "PIKACHU_GOFEST_2022",
           "is_costume": true
-        },
-        "2806": {
-          "name": "Wcs 2022",
-          "proto": "PIKACHU_WCS_2022",
-          "is_costume": true
-        },
-        "2813": {
-          "name": "Tshirt 01",
-          "proto": "PIKACHU_TSHIRT_01"
-        },
-        "2814": {
-          "name": "Tshirt 02",
-          "proto": "PIKACHU_TSHIRT_02"
-        },
-        "2815": {
-          "name": "Flying 01",
-          "proto": "PIKACHU_FLYING_01"
-        },
-        "2816": {
-          "name": "Flying 02",
-          "proto": "PIKACHU_FLYING_02"
         }
       },
       "attack": 112,
@@ -39883,10 +39862,6 @@
         "2790": {
           "name": "Hisuian",
           "proto": "SLIGGOO_HISUIAN"
-        },
-        "2810": {
-          "name": "Normal",
-          "proto": "SLIGGOO_NORMAL"
         }
       },
       "attack": 159,
@@ -39932,10 +39907,6 @@
         "2791": {
           "name": "Hisuian",
           "proto": "GOODRA_HISUIAN"
-        },
-        "2811": {
-          "name": "Normal",
-          "proto": "GOODRA_NORMAL"
         }
       },
       "attack": 220,
@@ -40316,10 +40287,6 @@
         "2795": {
           "name": "Hisuian",
           "proto": "AVALUGG_HISUIAN"
-        },
-        "2812": {
-          "name": "Normal",
-          "proto": "AVALUGG_NORMAL"
         }
       },
       "attack": 196,
@@ -40819,10 +40786,6 @@
         "2785": {
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN"
-        },
-        "2809": {
-          "name": "Normal",
-          "proto": "DECIDUEYE_NORMAL"
         }
       },
       "attack": 210,
@@ -48629,7 +48592,7 @@
     "900": {
       "name": "Kleavor",
       "pokedex_id": 900,
-      "default_form_id": 0,
+      "default_form_id": 2806,
       "types": [
         "Rock",
         "Bug"
@@ -48639,8 +48602,9 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "0": {
-          "proto": "FORM_UNSET"
+        "2806": {
+          "name": "Normal",
+          "proto": "KLEAVOR_NORMAL"
         }
       },
       "attack": 253,
@@ -48650,7 +48614,7 @@
     "901": {
       "name": "Ursaluna",
       "pokedex_id": 901,
-      "default_form_id": 0,
+      "default_form_id": 2807,
       "types": [
         "Normal",
         "Ground"
@@ -48660,8 +48624,9 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "0": {
-          "proto": "FORM_UNSET"
+        "2807": {
+          "name": "Normal",
+          "proto": "URSALUNA_NORMAL"
         }
       },
       "attack": 243,
@@ -48671,7 +48636,7 @@
     "902": {
       "name": "Basculegion",
       "pokedex_id": 902,
-      "default_form_id": 2807,
+      "default_form_id": 0,
       "types": [
         "Ghost",
         "Water"
@@ -48681,13 +48646,8 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "2807": {
-          "name": "Normal",
-          "proto": "BASCULEGION_NORMAL"
-        },
-        "2808": {
-          "name": "Female",
-          "proto": "BASCULEGION_FEMALE"
+        "0": {
+          "proto": "FORM_UNSET"
         }
       },
       "attack": 217,
@@ -51376,14 +51336,6 @@
     "371": {
       "name": "Shadow Force",
       "proto": "SHADOW_FORCE"
-    },
-    "372": {
-      "name": "Meteor Beam",
-      "proto": "METEOR_BEAM"
-    },
-    "373": {
-      "name": "Water Shuriken",
-      "proto": "WATER_SHURIKEN_FAST"
     }
   },
   "quest_types": {
