@@ -9222,7 +9222,7 @@
       "weight": 45.5,
       "family": 72,
       "encounter": {
-        "fleeRate": 0.1,
+        "fleeRate": 0.15,
         "captureRate": 0.5
       },
       "legendary": false,
@@ -21814,8 +21814,7 @@
       "weight": 2,
       "family": 25,
       "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.25
+        "fleeRate": 0.05
       },
       "legendary": false,
       "mythic": false,
@@ -21920,8 +21919,7 @@
       "weight": 3,
       "family": 35,
       "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.25
+        "fleeRate": 0.05
       },
       "legendary": false,
       "mythic": false,
@@ -22030,8 +22028,7 @@
       "weight": 1,
       "family": 39,
       "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.25
+        "fleeRate": 0.05
       },
       "legendary": false,
       "mythic": false,
@@ -22136,8 +22133,7 @@
       "weight": 1.5,
       "family": 175,
       "encounter": {
-        "fleeRate": 0.05,
-        "captureRate": 0.25
+        "fleeRate": 0.05
       },
       "legendary": false,
       "mythic": false,
@@ -23247,7 +23243,7 @@
       "family": 185,
       "encounter": {
         "fleeRate": 0.05,
-        "captureRate": 0.2
+        "captureRate": 0.125
       },
       "legendary": false,
       "mythic": false,
@@ -29096,8 +29092,7 @@
       "weight": 21,
       "family": 236,
       "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.25
+        "fleeRate": 0.2
       },
       "legendary": false,
       "mythic": false,
@@ -29213,7 +29208,7 @@
       "family": 236,
       "encounter": {
         "fleeRate": 0.05,
-        "captureRate": 0.2
+        "captureRate": 0.1
       },
       "legendary": false,
       "mythic": false,
@@ -29420,8 +29415,7 @@
       "weight": 23.5,
       "family": 125,
       "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.25
+        "fleeRate": 0.2
       },
       "legendary": false,
       "mythic": false,
@@ -29526,8 +29520,7 @@
       "weight": 21.4,
       "family": 126,
       "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.25
+        "fleeRate": 0.2
       },
       "legendary": false,
       "mythic": false,
@@ -47603,7 +47596,7 @@
       "weight": 2.2,
       "family": 401,
       "encounter": {
-        "fleeRate": 0.1,
+        "fleeRate": 0.2,
         "captureRate": 0.5
       },
       "legendary": false,
@@ -49251,7 +49244,7 @@
       "family": 415,
       "encounter": {
         "fleeRate": 0.07,
-        "captureRate": 0.2,
+        "captureRate": 0.15,
         "bonusStardustCapture": 650
       },
       "legendary": false,
@@ -52760,8 +52753,7 @@
       "weight": 20.2,
       "family": 448,
       "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.25
+        "fleeRate": 0.2
       },
       "legendary": false,
       "mythic": false,
@@ -60567,7 +60559,7 @@
       "weight": 23.3,
       "family": 517,
       "encounter": {
-        "fleeRate": 0.1,
+        "fleeRate": 0.2,
         "captureRate": 0.5
       },
       "legendary": false,
@@ -61630,7 +61622,7 @@
       "weight": 2.1,
       "family": 527,
       "encounter": {
-        "fleeRate": 0.1,
+        "fleeRate": 0.2,
         "captureRate": 0.5
       },
       "legendary": false,
@@ -61847,7 +61839,7 @@
       "weight": 8.5,
       "family": 529,
       "encounter": {
-        "fleeRate": 0.1,
+        "fleeRate": 0.2,
         "captureRate": 0.5
       },
       "legendary": false,
@@ -89776,7 +89768,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -89841,7 +89833,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -90274,7 +90266,7 @@
       "mythic": false,
       "ultraBeast": true,
       "misc": {
-        "buddyGroupNumber": 3,
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -94636,8 +94628,7 @@
       "weight": 11,
       "family": 848,
       "encounter": {
-        "fleeRate": 0.2,
-        "captureRate": 0.25
+        "fleeRate": 0.2
       },
       "legendary": false,
       "mythic": false,
@@ -105798,6 +105789,8 @@
       "formName": "Normal",
       "proto": "BANETTE_NORMAL",
       "formId": 911,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -105806,9 +105799,7 @@
           "stamina": 162,
           "unreleased": true
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "912": {
       "formName": "Shadow",
