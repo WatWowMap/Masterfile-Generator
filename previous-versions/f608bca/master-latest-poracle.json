@@ -4500,16 +4500,6 @@
             "baseStamina": 146
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 367,
-            "baseDefense": 207,
-            "baseStamina": 146
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -4542,16 +4532,6 @@
             "baseStamina": 146
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 367,
-            "baseDefense": 207,
-            "baseStamina": 146
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -19485,22 +19465,6 @@
             }
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 247,
-            "baseDefense": 331,
-            "baseStamina": 172
-          },
-          "types": [
-            {
-              "id": 9,
-              "name": "Steel"
-            }
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -19543,22 +19507,6 @@
             }
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 247,
-            "baseDefense": 331,
-            "baseStamina": 172
-          },
-          "types": [
-            {
-              "id": 9,
-              "name": "Steel"
-            }
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -22517,16 +22465,6 @@
             "baseStamina": 162
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 312,
-            "baseDefense": 160,
-            "baseStamina": 162
-          },
-          "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -22559,16 +22497,6 @@
             "baseStamina": 162
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 312,
-            "baseDefense": 160,
-            "baseStamina": 162
-          },
-          "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -46746,7 +46674,14 @@
         "baseStamina": 125
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 790,
+          "id": 0,
+          "candyCost": 25
+        }
+      ]
     },
     "790_0": {
       "name": "Cosmoem",
@@ -46767,7 +46702,21 @@
         "baseStamina": 125
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 791,
+          "id": 0,
+          "candyCost": 100,
+          "onlyDaytime": true
+        },
+        {
+          "evoId": 792,
+          "id": 0,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ]
     },
     "791_0": {
       "name": "Solgaleo",
@@ -52073,9 +52022,6 @@
     },
     "1604": {
       "name": "Extra Ticket"
-    },
-    "1606": {
-      "name": "GO Battle League Timed Research Pass"
     }
   },
   "moves": {
@@ -53035,10 +52981,6 @@
       "name": "Feather Dance",
       "type": "Flying"
     },
-    "350": {
-      "name": "Fairy Wind Fast",
-      "type": "Fairy"
-    },
     "352": {
       "name": "Weather Ball",
       "type": "Normal"
@@ -53046,10 +52988,6 @@
     "353": {
       "name": "Psychic Fangs",
       "type": "Psychic"
-    },
-    "356": {
-      "name": "Double Kick Fast",
-      "type": "Fighting"
     },
     "357": {
       "name": "Magical Leaf",

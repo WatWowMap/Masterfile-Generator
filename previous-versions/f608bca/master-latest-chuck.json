@@ -1613,7 +1613,8 @@
         "1": {
           "attack": 367,
           "defense": 207,
-          "stamina": 146
+          "stamina": 146,
+          "unreleased": true
         }
       }
     },
@@ -6820,7 +6821,8 @@
         "1": {
           "attack": 247,
           "defense": 331,
-          "stamina": 172
+          "stamina": 172,
+          "unreleased": true
         }
       }
     },
@@ -7754,7 +7756,8 @@
         "1": {
           "attack": 312,
           "defense": 160,
-          "stamina": 162
+          "stamina": 162,
+          "unreleased": true
         }
       }
     },
@@ -15613,7 +15616,13 @@
       },
       "attack": 54,
       "defense": 57,
-      "stamina": 125
+      "stamina": 125,
+      "evolutions": [
+        {
+          "pokemon": 790
+        }
+      ],
+      "little": true
     },
     "790": {
       "types": [
@@ -15624,7 +15633,15 @@
       },
       "attack": 54,
       "defense": 242,
-      "stamina": 125
+      "stamina": 125,
+      "evolutions": [
+        {
+          "pokemon": 791
+        },
+        {
+          "pokemon": 792
+        }
+      ]
     },
     "791": {
       "types": [

@@ -1946,7 +1946,6 @@
       "charged_moves": [
         "Dig",
         "Poison Fang",
-        "Thunderbolt",
         "Sludge Bomb"
       ],
       "gen_id": 1,
@@ -2118,7 +2117,6 @@
       ],
       "charged_moves": [
         "Dig",
-        "Ice Beam",
         "Sludge Bomb",
         "Horn Attack"
       ],
@@ -2176,8 +2174,7 @@
       ],
       "quick_moves": [
         "Poison Jab",
-        "Iron Tail",
-        "Double Kick"
+        "Iron Tail"
       ],
       "charged_moves": [
         "Megahorn",
@@ -3748,8 +3745,7 @@
         "Flamethrower",
         "Fire Blast",
         "Wild Charge",
-        "Crunch",
-        "Psychic Fangs"
+        "Crunch"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -4168,7 +4164,7 @@
           "attack": 367,
           "defense": 207,
           "stamina": 146,
-          "height": 1.2
+          "unreleased": true
         }
       }
     },
@@ -4556,7 +4552,7 @@
       "height": 0.9,
       "weight": 45.5,
       "family": 72,
-      "flee_rate": 0.15,
+      "flee_rate": 0.1,
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
@@ -4587,7 +4583,6 @@
       "charged_moves": [
         "Blizzard",
         "Sludge Wave",
-        "Scald",
         "Hydro Pump",
         "Acid Spray"
       ],
@@ -4990,8 +4985,7 @@
           "weight": 80,
           "quick_moves": [
             "Low Kick",
-            "Psycho Cut",
-            "Fairy Wind"
+            "Psycho Cut"
           ],
           "charged_moves": [
             "Megahorn",
@@ -5968,7 +5962,6 @@
       ],
       "charged_moves": [
         "Dark Pulse",
-        "Ice Punch",
         "Shadow Punch",
         "Shadow Ball",
         "Sludge Bomb"
@@ -6733,7 +6726,6 @@
       "charged_moves": [
         "Dig",
         "Earthquake",
-        "Rock Slide",
         "Bone Club"
       ],
       "gen_id": 1,
@@ -6798,8 +6790,7 @@
       ],
       "quick_moves": [
         "Low Kick",
-        "Rock Smash",
-        "Double Kick"
+        "Rock Smash"
       ],
       "charged_moves": [
         "Stone Edge",
@@ -7041,8 +7032,7 @@
           "height": 3,
           "weight": 16,
           "quick_moves": [
-            "Tackle",
-            "Fairy Wind"
+            "Tackle"
           ],
           "charged_moves": [
             "Hyper Beam",
@@ -9256,8 +9246,7 @@
       "charged_moves": [
         "Wrap",
         "Aqua Tail",
-        "Dragon Pulse",
-        "Body Slam"
+        "Dragon Pulse"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -9320,8 +9309,7 @@
         "Hyper Beam",
         "Dragon Claw",
         "Hurricane",
-        "Outrage",
-        "Super Power"
+        "Outrage"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -10310,7 +10298,6 @@
       "charged_moves": [
         "Aerial Ace",
         "Bug Buzz",
-        "Dynamic Punch",
         "Silver Wind"
       ],
       "gen_id": 2,
@@ -10572,8 +10559,7 @@
       "charged_moves": [
         "Thunder",
         "Thunderbolt",
-        "Hydro Pump",
-        "Surf"
+        "Hydro Pump"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -11358,7 +11344,7 @@
       "weight": 38,
       "family": 185,
       "flee_rate": 0.05,
-      "capture_rate": 0.125,
+      "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
       "buddy_group_number": 2,
@@ -11549,8 +11535,7 @@
       ],
       "quick_moves": [
         "Infestation",
-        "Bullet Seed",
-        "Fairy Wind"
+        "Bullet Seed"
       ],
       "charged_moves": [
         "Aerial Ace",
@@ -11935,8 +11920,7 @@
       "charged_moves": [
         "Psybeam",
         "Psychic",
-        "Futuresight",
-        "Psychic Fangs"
+        "Futuresight"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12422,14 +12406,12 @@
       ],
       "quick_moves": [
         "Tackle",
-        "Confusion",
-        "Double Kick"
+        "Confusion"
       ],
       "charged_moves": [
         "Thunderbolt",
         "Psychic",
-        "Mirror Coat",
-        "Psychic Fangs"
+        "Mirror Coat"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12584,8 +12566,7 @@
       ],
       "quick_moves": [
         "Bite",
-        "Astonish",
-        "Rollout"
+        "Astonish"
       ],
       "charged_moves": [
         "Dig",
@@ -12702,8 +12683,7 @@
       "charged_moves": [
         "Earthquake",
         "Heavy Slam",
-        "Crunch",
-        "Psychic Fangs"
+        "Crunch"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -14399,7 +14379,7 @@
       "weight": 48,
       "family": 236,
       "flee_rate": 0.05,
-      "capture_rate": 0.1,
+      "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
       "buddy_group_number": 2,
@@ -14580,8 +14560,7 @@
       ],
       "quick_moves": [
         "Tackle",
-        "Zen Headbutt",
-        "Rollout"
+        "Zen Headbutt"
       ],
       "charged_moves": [
         "Ice Beam",
@@ -18069,8 +18048,7 @@
         "Bite",
         "Fire Fang",
         "Astonish",
-        "Ice Fang",
-        "Fairy Wind"
+        "Ice Fang"
       ],
       "charged_moves": [
         "Vice Grip",
@@ -18309,11 +18287,10 @@
           "attack": 247,
           "defense": 331,
           "stamina": 172,
-          "height": 2.2,
-          "weight": 395,
           "types": [
             "Steel"
-          ]
+          ],
+          "unreleased": true
         }
       }
     },
@@ -18513,8 +18490,7 @@
         "Thunder",
         "Flame Burst",
         "Wild Charge",
-        "Overheat",
-        "Psychic Fangs"
+        "Overheat"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19203,8 +19179,7 @@
       ],
       "quick_moves": [
         "Ember",
-        "Rock Smash",
-        "Incinerate"
+        "Rock Smash"
       ],
       "charged_moves": [
         "Earthquake",
@@ -21020,8 +20995,7 @@
           "attack": 312,
           "defense": 160,
           "stamina": 162,
-          "height": 1.2,
-          "weight": 13
+          "unreleased": true
         }
       }
     },
@@ -23646,7 +23620,7 @@
       "height": 0.3,
       "weight": 2.2,
       "family": 401,
-      "flee_rate": 0.2,
+      "flee_rate": 0.1,
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
@@ -24463,7 +24437,7 @@
       "weight": 5.5,
       "family": 415,
       "flee_rate": 0.07,
-      "capture_rate": 0.15,
+      "capture_rate": 0.2,
       "legendary": false,
       "mythic": false,
       "buddy_group_number": 2,
@@ -25149,8 +25123,7 @@
       ],
       "quick_moves": [
         "Low Kick",
-        "Pound",
-        "Double Kick"
+        "Pound"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -30005,7 +29978,7 @@
       "height": 0.6,
       "weight": 23.3,
       "family": 517,
-      "flee_rate": 0.2,
+      "flee_rate": 0.1,
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
@@ -30524,7 +30497,7 @@
       "height": 0.4,
       "weight": 2.1,
       "family": 527,
-      "flee_rate": 0.2,
+      "flee_rate": 0.1,
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
@@ -30555,8 +30528,7 @@
       "charged_moves": [
         "Aerial Ace",
         "Psychic",
-        "Futuresight",
-        "Psychic Fangs"
+        "Futuresight"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -30628,7 +30600,7 @@
       "height": 0.3,
       "weight": 8.5,
       "family": 529,
-      "flee_rate": 0.2,
+      "flee_rate": 0.1,
       "capture_rate": 0.5,
       "legendary": false,
       "mythic": false,
@@ -36462,8 +36434,7 @@
       ],
       "quick_moves": [
         "Metal Claw",
-        "Zen Headbutt",
-        "Double Kick"
+        "Zen Headbutt"
       ],
       "charged_moves": [
         "Stone Edge",
@@ -36511,8 +36482,7 @@
       ],
       "quick_moves": [
         "Zen Headbutt",
-        "Smack Down",
-        "Double Kick"
+        "Smack Down"
       ],
       "charged_moves": [
         "Earthquake",
@@ -36560,8 +36530,7 @@
       ],
       "quick_moves": [
         "Quick Attack",
-        "Zen Headbutt",
-        "Double Kick"
+        "Zen Headbutt"
       ],
       "charged_moves": [
         "Stone Edge",
@@ -38399,8 +38368,7 @@
       "quick_moves": [
         "Vine Whip",
         "Razor Leaf",
-        "Tackle",
-        "Fairy Wind"
+        "Tackle"
       ],
       "charged_moves": [
         "Petal Blizzard",
@@ -39063,8 +39031,7 @@
       ],
       "quick_moves": [
         "Tackle",
-        "Charm",
-        "Fairy Wind"
+        "Charm"
       ],
       "charged_moves": [
         "Flamethrower",
@@ -40981,8 +40948,7 @@
       ],
       "quick_moves": [
         "Fire Fang",
-        "Snarl",
-        "Double Kick"
+        "Snarl"
       ],
       "charged_moves": [
         "Dark Pulse",
@@ -42806,7 +42772,6 @@
       ],
       "quick_moves": [
         "Fury Cutter",
-        "Shadow Claw",
         "Metal Claw",
         "Waterfall"
       ],
@@ -43874,7 +43839,7 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Splash"
+        "Struggle"
       ],
       "charged_moves": [
         "Struggle"
@@ -43893,13 +43858,19 @@
       "weight": 0.1,
       "family": 789,
       "flee_rate": 0.1,
-      "capture_rate": 0.9,
+      "capture_rate": 0.02,
       "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100
+      "third_move_candy": 100,
+      "evolutions": [
+        {
+          "pokemon": 790
+        }
+      ],
+      "little": true
     },
     "790": {
       "name": "Cosmoem",
@@ -43909,7 +43880,7 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Splash"
+        "Struggle"
       ],
       "charged_moves": [
         "Struggle"
@@ -43928,13 +43899,21 @@
       "weight": 999.9,
       "family": 789,
       "flee_rate": 0.1,
-      "capture_rate": 0.5,
+      "capture_rate": 0.02,
       "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100
+      "third_move_candy": 100,
+      "evolutions": [
+        {
+          "pokemon": 791
+        },
+        {
+          "pokemon": 792
+        }
+      ]
     },
     "791": {
       "name": "Solgaleo",
@@ -43945,14 +43924,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Zen Headbutt",
-        "Fire Spin"
+        "Struggle"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Iron Head",
-        "Solar Beam",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43985,14 +43960,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Confusion",
-        "Air Slash"
+        "Struggle"
       ],
       "charged_moves": [
-        "Shadow Ball",
-        "Moonblast",
-        "Psychic",
-        "Futuresight"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -44026,7 +43997,6 @@
       ],
       "quick_moves": [
         "Pound",
-        "Poison Jab",
         "Acid"
       ],
       "charged_moves": [
@@ -45649,8 +45619,7 @@
       ],
       "quick_moves": [
         "Tackle",
-        "Take Down",
-        "Double Kick"
+        "Take Down"
       ],
       "charged_moves": [
         "Body Slam",
@@ -47207,7 +47176,6 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Shadow Claw",
         "Astonish"
       ],
       "charged_moves": [
@@ -49668,12 +49636,6 @@
       "proto": "ITEM_EVENT_TICKET_PINK_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
-    },
-    "1606": {
-      "name": "Battle Pass Ticket",
-      "proto": "ITEM_BATTLE_PASS_TICKET",
-      "type": "Global Event Ticket",
-      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -49999,7 +49961,7 @@
       "name": "Ancient Power",
       "proto": "ANCIENT_POWER",
       "type": "Rock",
-      "power": 60
+      "power": 45
     },
     "63": {
       "name": "Rock Tomb",
@@ -50793,7 +50755,7 @@
       "name": "Silver Wind",
       "proto": "SILVER_WIND",
       "type": "Bug",
-      "power": 60
+      "power": 45
     },
     "263": {
       "name": "Astonish",
@@ -51306,9 +51268,7 @@
     },
     "350": {
       "name": "Fairy Wind",
-      "proto": "FAIRY_WIND_FAST",
-      "type": "Fairy",
-      "power": 3
+      "proto": "FAIRY_WIND_FAST"
     },
     "351": {
       "name": "Relic Song",
@@ -51336,9 +51296,7 @@
     },
     "356": {
       "name": "Double Kick",
-      "proto": "DOUBLE_KICK_FAST",
-      "type": "Fighting",
-      "power": 8
+      "proto": "DOUBLE_KICK_FAST"
     },
     "357": {
       "name": "Magical Leaf",
