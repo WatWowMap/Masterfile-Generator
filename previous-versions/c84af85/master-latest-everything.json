@@ -4413,7 +4413,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -10184,7 +10184,7 @@
             },
             "350": {
               "moveId": 350,
-              "moveName": "Fairy Wind",
+              "moveName": "Fairy Wind Fast",
               "proto": "FAIRY_WIND_FAST",
               "type": 18,
               "power": 3
@@ -13962,7 +13962,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -14447,7 +14447,7 @@
             },
             "350": {
               "moveId": 350,
-              "moveName": "Fairy Wind",
+              "moveName": "Fairy Wind Fast",
               "proto": "FAIRY_WIND_FAST",
               "type": 18,
               "power": 3
@@ -23723,7 +23723,7 @@
         },
         "350": {
           "moveId": 350,
-          "moveName": "Fairy Wind",
+          "moveName": "Fairy Wind Fast",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
           "power": 3
@@ -25374,7 +25374,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -36639,7 +36639,7 @@
         },
         "350": {
           "moveId": 350,
-          "moveName": "Fairy Wind",
+          "moveName": "Fairy Wind Fast",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
           "power": 3
@@ -50807,7 +50807,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -74061,7 +74061,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -74169,7 +74169,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -74277,7 +74277,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -78156,7 +78156,7 @@
         },
         "350": {
           "moveId": 350,
-          "moveName": "Fairy Wind",
+          "moveName": "Fairy Wind Fast",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
           "power": 3
@@ -79558,7 +79558,7 @@
         },
         "350": {
           "moveId": 350,
-          "moveName": "Fairy Wind",
+          "moveName": "Fairy Wind Fast",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
           "power": 3
@@ -83765,7 +83765,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -85192,7 +85192,7 @@
         },
         "350": {
           "moveId": 350,
-          "moveName": "Fairy Wind",
+          "moveName": "Fairy Wind Fast",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
           "power": 3
@@ -85280,7 +85280,7 @@
         },
         "350": {
           "moveId": 350,
-          "moveName": "Fairy Wind",
+          "moveName": "Fairy Wind Fast",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
           "power": 3
@@ -93431,7 +93431,7 @@
         },
         "356": {
           "moveId": 356,
-          "moveName": "Double Kick",
+          "moveName": "Double Kick Fast",
           "proto": "DOUBLE_KICK_FAST",
           "type": 2,
           "power": 8
@@ -120631,7 +120631,7 @@
     },
     "350": {
       "id": 350,
-      "name": "Fairy Wind",
+      "name": "Fairy Wind Fast",
       "proto": "FAIRY_WIND_FAST",
       "power": 3
     },
@@ -120664,7 +120664,7 @@
     },
     "356": {
       "id": 356,
-      "name": "Double Kick",
+      "name": "Double Kick Fast",
       "proto": "DOUBLE_KICK_FAST",
       "power": 8
     },
@@ -120760,8 +120760,7 @@
     "372": {
       "id": 372,
       "name": "Meteor Beam",
-      "proto": "METEOR_BEAM",
-      "power": 120
+      "proto": "METEOR_BEAM"
     },
     "373": {
       "id": 373,
