@@ -1,6 +1,6 @@
 # Masterfile-Generator
 
-`yarn start` to generate the latest
+`npm start` to generate the latest
 
 This repo is now primarily a static repo for known working masterfiles for a variety of community pogo projects.
 
