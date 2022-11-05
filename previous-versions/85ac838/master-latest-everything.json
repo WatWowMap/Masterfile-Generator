@@ -90745,9 +90745,9 @@
       "pokedexId": 799,
       "defaultFormId": 0,
       "types": {
-        "16": {
-          "typeId": 16,
-          "typeName": "Dragon"
+        "8": {
+          "typeId": 8,
+          "typeName": "Ghost"
         },
         "17": {
           "typeId": 17,
@@ -90755,49 +90755,21 @@
         }
       },
       "quickMoves": {
-        "253": {
-          "moveId": 253,
-          "moveName": "Dragon Tail",
-          "proto": "DRAGON_TAIL_FAST",
-          "type": 16,
-          "power": 13
-        },
-        "278": {
-          "moveId": 278,
-          "moveName": "Snarl",
-          "proto": "SNARL_FAST",
-          "type": 17,
-          "power": 5
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "chargedMoves": {
-        "83": {
-          "moveId": 83,
-          "moveName": "Dragon Claw",
-          "proto": "DRAGON_CLAW",
-          "type": 16,
-          "power": 50
-        },
-        "90": {
-          "moveId": 90,
-          "moveName": "Sludge Bomb",
-          "proto": "SLUDGE_BOMB",
-          "type": 4,
-          "power": 80
-        },
-        "279": {
-          "moveId": 279,
-          "moveName": "Crunch",
-          "proto": "CRUNCH",
-          "type": 17,
-          "power": 70
-        },
-        "367": {
-          "moveId": 367,
-          "moveName": "Brutal Swing",
-          "proto": "BRUTAL_SWING",
-          "type": 17,
-          "power": 65
+        "133": {
+          "moveId": 133,
+          "moveName": "Struggle",
+          "proto": "STRUGGLE",
+          "type": 1,
+          "power": 35
         }
       },
       "genId": 7,
@@ -106336,14 +106308,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 58,
-          "costumeProto": "FALL_2022_NOEVOLVE",
-          "costumeName": "Fall 2022 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "915": {
       "formName": "Shadow",
@@ -106368,14 +106333,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 58,
-          "costumeProto": "FALL_2022_NOEVOLVE",
-          "costumeName": "Fall 2022 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "918": {
       "formName": "Shadow",
@@ -118995,14 +118953,6 @@
       "category": "Evolution Requirement",
       "minTrainerLevel": 10
     },
-    "1150": {
-      "id": 1150,
-      "name": "Item Other Evolution Stone A",
-      "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "minTrainerLevel": 10
-    },
     "1201": {
       "id": 1201,
       "name": "Fast TM",
@@ -121025,8 +120975,7 @@
     "377": {
       "id": 377,
       "name": "High Horsepower",
-      "proto": "HIGH_HORSEPOWER",
-      "power": 100
+      "proto": "HIGH_HORSEPOWER"
     },
     "378": {
       "id": 378,

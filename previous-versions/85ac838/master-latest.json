@@ -44277,18 +44277,14 @@
       "pokedex_id": 799,
       "default_form_id": 0,
       "types": [
-        "Dragon",
+        "Ghost",
         "Dark"
       ],
       "quick_moves": [
-        "Dragon Tail",
-        "Snarl"
+        "Struggle"
       ],
       "charged_moves": [
-        "Dragon Claw",
-        "Sludge Bomb",
-        "Crunch",
-        "Brutal Swing"
+        "Struggle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -49564,13 +49560,6 @@
       "category": "Evolution Requirement",
       "min_trainer_level": 10
     },
-    "1150": {
-      "name": "Other Evolution Stone A",
-      "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "min_trainer_level": 10
-    },
     "1201": {
       "name": "Move Reroll Fast Attack",
       "proto": "ITEM_MOVE_REROLL_FAST_ATTACK",
@@ -51513,9 +51502,7 @@
     },
     "377": {
       "name": "High Horsepower",
-      "proto": "HIGH_HORSEPOWER",
-      "type": "Ground",
-      "power": 100
+      "proto": "HIGH_HORSEPOWER"
     },
     "378": {
       "name": "Glaciate",
