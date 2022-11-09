@@ -100258,45 +100258,8 @@
           "typeName": "Ground"
         }
       },
-      "quickMoves": {
-        "221": {
-          "moveId": 221,
-          "moveName": "Tackle",
-          "proto": "TACKLE_FAST",
-          "type": 1,
-          "power": 3
-        },
-        "241": {
-          "moveId": 241,
-          "moveName": "Rock Smash",
-          "proto": "ROCK_SMASH_FAST",
-          "type": 2,
-          "power": 9
-        }
-      },
-      "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "77": {
-          "moveId": 77,
-          "moveName": "Thunder Punch",
-          "proto": "THUNDER_PUNCH",
-          "type": 13,
-          "power": 55
-        },
-        "115": {
-          "moveId": 115,
-          "moveName": "Fire Punch",
-          "proto": "FIRE_PUNCH",
-          "type": 10,
-          "power": 55
-        }
-      },
+      "quickMoves": {},
+      "chargedMoves": {},
       "genId": 8,
       "generation": "Galar",
       "forms": {
@@ -100325,27 +100288,6 @@
         "attack": 243,
         "defense": 181,
         "stamina": 277
-      },
-      "height": 2.4,
-      "weight": 290,
-      "family": 216,
-      "encounter": {
-        "fleeRate": 0.07,
-        "captureRate": 0.15,
-        "bonusCandyCapture": 2,
-        "bonusStardustCapture": 200
-      },
-      "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "misc": {
-        "buddyGroupNumber": 3,
-        "buddyDistance": 3,
-        "thirdMoveStardust": 50000,
-        "thirdMoveCandy": 50,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
       },
       "unreleased": true
     },
