@@ -1,0 +1,55 @@
+name: Sync Hourly
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      recipe:
+        description: Sync manually
+        required: false
+
+jobs:
+  Sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        id: checkout-code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v32
+        with:
+          files: |
+            custom-invasions.json
+            master-latest-basics.json
+            master-latest-chuck.json
+            master-latest-everything.json
+            master-latest-poracle.json
+            master-latest-raw.json
+            master-latest-rdm.json
+            master-latest-rdmopole2.json
+            master-latest-react-map.json
+            master-latest.json
+      - name: Setup Node.js environment
+        if: steps.changed-files.outputs.any_changed == 'true'
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Configure git
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          git config --global user.name "turtlesocks-bot"
+          git config --global user.email "turtlesocks-bot@users.noreply.github.com"
+      - name: Generate Stuff
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          npm install
+          npm upgrade pogo-data-generator
+          npm start
+          git add --all
+          git commit --message "Hourly Sync"
+          git push

@@ -27225,7 +27225,14 @@
         "1268": {
           "name": "Normal",
           "proto": "URSARING_NORMAL",
-          "form": 1268
+          "form": 1268,
+          "evolutions": {
+            "901": {
+              "pokemon": 901,
+              "form": 0,
+              "candyCost": 100
+            }
+          }
         },
         "1269": {
           "name": "Shadow",
@@ -66772,7 +66779,6 @@
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
-        "tradable": true,
         "transferable": true
       },
       "evolutions": {
@@ -66885,7 +66891,6 @@
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
-        "tradable": true,
         "transferable": true
       }
     },
@@ -90081,10 +90086,12 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
+        "thirdMoveCandy": 100,
+        "tradable": true,
+        "transferable": true
       }
     },
     "792": {
@@ -90175,7 +90182,9 @@
         "buddyGroupNumber": 3,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
+        "thirdMoveCandy": 100,
+        "tradable": true,
+        "transferable": true
       }
     },
     "793": {
@@ -108710,6 +108719,13 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "formId": 0,
+          "candyCost": 100
+        }
+      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -121861,7 +121877,7 @@
       "proto": "CHARACTER_BUG_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -121877,10 +121893,6 @@
           }
         ],
         "third": [
-          {
-            "id": 205,
-            "formId": 1247
-          },
           {
             "id": 212,
             "formId": 250
@@ -121928,7 +121940,7 @@
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -121944,10 +121956,6 @@
           }
         ],
         "third": [
-          {
-            "id": 332,
-            "formId": 613
-          },
           {
             "id": 430,
             "formId": 858
@@ -121982,18 +121990,7 @@
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 147,
-            "formId": 190
-          }
-        ],
-        "second": [
-          {
-            "id": 330,
-            "formId": 752
-          }
-        ],
+        "first": [],
         "third": [
           {
             "id": 149,
@@ -122084,16 +122081,7 @@
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 107,
-            "formId": 277
-          },
-          {
-            "id": 296,
-            "formId": 1451
-          }
-        ],
+        "first": [],
         "second": [
           {
             "id": 107,
@@ -122104,10 +122092,6 @@
           {
             "id": 106,
             "formId": 713
-          },
-          {
-            "id": 107,
-            "formId": 277
           }
         ]
       }
@@ -122147,10 +122131,6 @@
         ],
         "second": [],
         "third": [
-          {
-            "id": 157,
-            "formId": 1133
-          },
           {
             "id": 323,
             "formId": 1520
@@ -122314,7 +122294,16 @@
             "formId": 888
           }
         ],
-        "third": []
+        "third": [
+          {
+            "id": 95,
+            "formId": 902
+          },
+          {
+            "id": 450,
+            "formId": 891
+          }
+        ]
       }
     },
     "26": {
@@ -122341,10 +122330,6 @@
           }
         ],
         "third": [
-          {
-            "id": 131,
-            "formId": 322
-          },
           {
             "id": 460,
             "formId": 935
@@ -122424,7 +122409,7 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122441,20 +122426,12 @@
           {
             "id": 294,
             "formId": 1445
-          },
-          {
-            "id": 399,
-            "formId": 1667
           }
         ],
         "third": [
           {
             "id": 217,
             "formId": 1268
-          },
-          {
-            "id": 400,
-            "formId": 1670
           }
         ]
       }
@@ -122467,25 +122444,16 @@
       "proto": "CHARACTER_POISON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
           {
             "id": 41,
             "formId": 157
-          },
-          {
-            "id": 590,
-            "formId": 2162
           }
         ],
-        "second": [
-          {
-            "id": 33,
-            "formId": 785
-          }
-        ],
+        "second": [],
         "third": [
           {
             "id": 110,
@@ -122534,7 +122502,7 @@
       "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [],
@@ -122580,7 +122548,7 @@
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122862,22 +122830,8 @@
       "thirdReward": false,
       "encounters": {
         "first": [],
-        "second": [
-          {
-            "id": 356,
-            "formId": 917
-          }
-        ],
-        "third": [
-          {
-            "id": 477,
-            "formId": 920
-          },
-          {
-            "id": 623,
-            "formId": 2261
-          }
-        ]
+        "second": [],
+        "third": []
       }
     },
     "49": {
@@ -122888,7 +122842,7 @@
       "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [

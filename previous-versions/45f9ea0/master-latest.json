@@ -13310,7 +13310,12 @@
       "forms": {
         "1268": {
           "name": "Normal",
-          "proto": "URSARING_NORMAL"
+          "proto": "URSARING_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 901
+            }
+          ]
         },
         "1269": {
           "name": "Shadow",
@@ -13337,6 +13342,9 @@
       "third_move_candy": 50,
       "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 901
+        },
         {
           "pokemon": 901
         }
@@ -43987,7 +43995,7 @@
       "capture_rate": 0.02,
       "legendary": true,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -52083,7 +52091,7 @@
       "type": "Bug",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           13,
@@ -52094,7 +52102,6 @@
           451
         ],
         "third": [
-          127,
           205,
           212
         ]
@@ -52126,7 +52133,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           19,
@@ -52138,7 +52145,6 @@
         ],
         "third": [
           20,
-          332,
           430
         ]
       }
@@ -52161,12 +52167,7 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          103,
           147
-        ],
-        "second": [
-          103,
-          330
         ],
         "third": [
           148,
@@ -52225,8 +52226,6 @@
       "second_reward": false,
       "encounters": {
         "first": [
-          106,
-          107,
           296
         ],
         "second": [
@@ -52235,8 +52234,7 @@
         ],
         "third": [
           68,
-          106,
-          107
+          106
         ]
       }
     },
@@ -52266,7 +52264,6 @@
         ],
         "third": [
           38,
-          157,
           323
         ]
       }
@@ -52372,6 +52369,8 @@
           449
         ],
         "third": [
+          76,
+          95,
           450
         ]
       }
@@ -52391,7 +52390,6 @@
           459
         ],
         "third": [
-          91,
           131,
           460
         ]
@@ -52445,7 +52443,7 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           19,
@@ -52454,13 +52452,11 @@
         ],
         "second": [
           20,
-          294,
-          399
+          294
         ],
         "third": [
           20,
-          217,
-          400
+          217
         ]
       }
     },
@@ -52468,16 +52464,14 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           32,
-          41,
-          590
+          41
         ],
         "second": [
-          30,
-          33
+          30
         ],
         "third": [
           89,
@@ -52511,7 +52505,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           177
@@ -52542,7 +52536,7 @@
       "type": "Rock",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           95,
@@ -52738,13 +52732,10 @@
           622
         ],
         "second": [
-          354,
           356
         ],
         "third": [
-          354,
-          477,
-          623
+          477
         ]
       }
     },
@@ -52752,7 +52743,7 @@
       "type": "Electric",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           179,

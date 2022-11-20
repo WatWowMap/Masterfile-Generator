@@ -10881,6 +10881,10 @@
       "transferable": true,
       "evolutions": [
         {
+          "evoId": 901,
+          "candyCost": 100
+        },
+        {
           "evoId": 901
         }
       ]
@@ -27841,7 +27845,6 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
-      "tradable": true,
       "transferable": true,
       "evolutions": [
         {
@@ -27893,7 +27896,6 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
-      "tradable": true,
       "transferable": true
     },
     "572": {
@@ -37999,10 +38001,12 @@
       "legendary": true,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "792": {
       "pokemonName": "Lunala",
@@ -38041,7 +38045,9 @@
       "buddyGroupNumber": 3,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "793": {
       "pokemonName": "Nihilego",
@@ -50682,6 +50688,12 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "candyCost": 100
+        }
+      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -62703,7 +62715,7 @@
       "proto": "CHARACTER_BUG_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
@@ -62725,11 +62737,6 @@
           "id": 451,
           "formId": 1796,
           "position": "second"
-        },
-        {
-          "id": 127,
-          "formId": 898,
-          "position": "third"
         },
         {
           "id": 205,
@@ -62795,7 +62802,7 @@
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
@@ -62821,11 +62828,6 @@
         {
           "id": 20,
           "formId": 48,
-          "position": "third"
-        },
-        {
-          "id": 332,
-          "formId": 613,
           "position": "third"
         },
         {
@@ -62869,24 +62871,9 @@
       "thirdReward": false,
       "encounters": [
         {
-          "id": 103,
-          "formId": 78,
-          "position": "first"
-        },
-        {
           "id": 147,
           "formId": 190,
           "position": "first"
-        },
-        {
-          "id": 103,
-          "formId": 78,
-          "position": "second"
-        },
-        {
-          "id": 330,
-          "formId": 752,
-          "position": "second"
         },
         {
           "id": 148,
@@ -63009,16 +62996,6 @@
       "thirdReward": false,
       "encounters": [
         {
-          "id": 106,
-          "formId": 713,
-          "position": "first"
-        },
-        {
-          "id": 107,
-          "formId": 277,
-          "position": "first"
-        },
-        {
           "id": 296,
           "formId": 1451,
           "position": "first"
@@ -63041,11 +63018,6 @@
         {
           "id": 106,
           "formId": 713,
-          "position": "third"
-        },
-        {
-          "id": 107,
-          "formId": 277,
           "position": "third"
         }
       ]
@@ -63101,11 +63073,6 @@
         {
           "id": 38,
           "formId": 57,
-          "position": "third"
-        },
-        {
-          "id": 157,
-          "formId": 1133,
           "position": "third"
         },
         {
@@ -63331,6 +63298,16 @@
           "position": "second"
         },
         {
+          "id": 76,
+          "formId": 71,
+          "position": "third"
+        },
+        {
+          "id": 95,
+          "formId": 902,
+          "position": "third"
+        },
+        {
           "id": 450,
           "formId": 891,
           "position": "third"
@@ -63367,11 +63344,6 @@
           "id": 459,
           "formId": 932,
           "position": "second"
-        },
-        {
-          "id": 91,
-          "formId": 879,
-          "position": "third"
         },
         {
           "id": 131,
@@ -63481,7 +63453,7 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
@@ -63510,11 +63482,6 @@
           "position": "second"
         },
         {
-          "id": 399,
-          "formId": 1667,
-          "position": "second"
-        },
-        {
           "id": 20,
           "formId": 47,
           "position": "third"
@@ -63522,11 +63489,6 @@
         {
           "id": 217,
           "formId": 1268,
-          "position": "third"
-        },
-        {
-          "id": 400,
-          "formId": 1670,
           "position": "third"
         }
       ]
@@ -63539,7 +63501,7 @@
       "proto": "CHARACTER_POISON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
@@ -63553,18 +63515,8 @@
           "position": "first"
         },
         {
-          "id": 590,
-          "formId": 2162,
-          "position": "first"
-        },
-        {
           "id": 30,
           "formId": 779,
-          "position": "second"
-        },
-        {
-          "id": 33,
-          "formId": 785,
           "position": "second"
         },
         {
@@ -63631,7 +63583,7 @@
       "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
@@ -63696,7 +63648,7 @@
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
@@ -64104,28 +64056,13 @@
           "position": "first"
         },
         {
-          "id": 354,
-          "formId": 911,
-          "position": "second"
-        },
-        {
           "id": 356,
           "formId": 917,
           "position": "second"
         },
         {
-          "id": 354,
-          "formId": 911,
-          "position": "third"
-        },
-        {
           "id": 477,
           "formId": 920,
-          "position": "third"
-        },
-        {
-          "id": 623,
-          "formId": 2261,
           "position": "third"
         }
       ]
@@ -64138,7 +64075,7 @@
       "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
