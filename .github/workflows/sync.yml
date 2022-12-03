@@ -34,5 +34,5 @@ jobs:
       - name: Generate Stuff
         run: |
           git add --all
-          git commit --message "Hourly Sync"
+          git commit --message "Daily Sync"
           git push
