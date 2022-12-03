@@ -16441,26 +16441,6 @@
             }
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 320,
-            "baseDefense": 186,
-            "baseStamina": 172
-          },
-          "types": [
-            {
-              "id": 12,
-              "name": "Grass"
-            },
-            {
-              "id": 16,
-              "name": "Dragon"
-            }
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -16503,26 +16483,6 @@
             }
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 320,
-            "baseDefense": 186,
-            "baseStamina": 172
-          },
-          "types": [
-            {
-              "id": 12,
-              "name": "Grass"
-            },
-            {
-              "id": 16,
-              "name": "Dragon"
-            }
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -16679,16 +16639,6 @@
             "baseStamina": 190
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 329,
-            "baseDefense": 168,
-            "baseStamina": 190
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -16725,16 +16675,6 @@
             "baseStamina": 190
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 329,
-            "baseDefense": 168,
-            "baseStamina": 190
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -16891,16 +16831,6 @@
             "baseStamina": 225
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 283,
-            "baseDefense": 218,
-            "baseStamina": 225
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -16937,16 +16867,6 @@
             "baseStamina": 225
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 283,
-            "baseDefense": 218,
-            "baseStamina": 225
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -23058,16 +22978,6 @@
             "baseStamina": 190
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 252,
-            "baseDefense": 168,
-            "baseStamina": 190
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -23100,16 +23010,6 @@
             "baseStamina": 190
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 252,
-            "baseDefense": 168,
-            "baseStamina": 190
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -46846,14 +46746,7 @@
         "baseStamina": 125
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "evolutions": [
-        {
-          "evoId": 790,
-          "id": 0,
-          "candyCost": 25
-        }
-      ]
+      "thirdMoveCandy": 100
     },
     "790_0": {
       "name": "Cosmoem",
@@ -46874,21 +46767,7 @@
         "baseStamina": 125
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "evolutions": [
-        {
-          "evoId": 791,
-          "id": 0,
-          "candyCost": 100,
-          "onlyDaytime": true
-        },
-        {
-          "evoId": 792,
-          "id": 0,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
-      ]
+      "thirdMoveCandy": 100
     },
     "791_0": {
       "name": "Solgaleo",
@@ -52230,7 +52109,7 @@
       "name": "Extra Ticket"
     },
     "1605": {
-      "name": "Extra Ticket"
+      "name": "Item Event Ticket Gray To Gift"
     },
     "1606": {
       "name": "GO Battle League Timed Research Pass"
@@ -53563,7 +53442,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53612,7 +53491,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53973,7 +53852,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53998,7 +53877,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -54047,7 +53926,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -54082,7 +53961,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -54316,7 +54195,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [

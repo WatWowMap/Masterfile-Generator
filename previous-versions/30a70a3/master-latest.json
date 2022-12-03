@@ -5013,8 +5013,7 @@
             "Megahorn",
             "Play Rough",
             "Psychic",
-            "Body Slam",
-            "High Horsepower"
+            "Body Slam"
           ],
           "types": [
             "Psychic",
@@ -7066,8 +7065,7 @@
             "Hyper Beam",
             "Sludge",
             "Play Rough",
-            "Overheat",
-            "Brutal Swing"
+            "Overheat"
           ],
           "types": [
             "Poison",
@@ -11136,8 +11134,7 @@
         "Thunder Punch",
         "Thunder",
         "Focus Blast",
-        "Zap Cannon",
-        "Brutal Swing"
+        "Zap Cannon"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -11352,8 +11349,7 @@
         "Earthquake",
         "Stone Edge",
         "Rock Tomb",
-        "Rock Slide",
-        "Meteor Beam"
+        "Rock Slide"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -13528,8 +13524,7 @@
       "charged_moves": [
         "Stone Edge",
         "Bulldoze",
-        "Avalanche",
-        "High Horsepower"
+        "Avalanche"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -15356,12 +15351,11 @@
           "attack": 320,
           "defense": 186,
           "stamina": 172,
-          "height": 1.9,
-          "weight": 55.2,
           "types": [
             "Grass",
             "Dragon"
-          ]
+          ],
+          "unreleased": true
         }
       }
     },
@@ -15547,7 +15541,7 @@
           "attack": 329,
           "defense": 168,
           "stamina": 190,
-          "height": 1.9
+          "unreleased": true
         }
       }
     },
@@ -15733,8 +15727,7 @@
           "attack": 283,
           "defense": 218,
           "stamina": 225,
-          "height": 1.9,
-          "weight": 102
+          "unreleased": true
         }
       }
     },
@@ -18288,8 +18281,7 @@
         "Stone Edge",
         "Rock Tomb",
         "Thunder",
-        "Heavy Slam",
-        "Meteor Beam"
+        "Heavy Slam"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -21124,8 +21116,7 @@
       "charged_moves": [
         "Ice Punch",
         "Shadow Punch",
-        "Fire Punch",
-        "Poltergeist"
+        "Fire Punch"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -21500,8 +21491,7 @@
           "attack": 252,
           "defense": 168,
           "stamina": 190,
-          "height": 2.1,
-          "weight": 350.2
+          "unreleased": true
         }
       }
     },
@@ -27589,8 +27579,7 @@
       "charged_moves": [
         "Stone Edge",
         "Bulldoze",
-        "Avalanche",
-        "High Horsepower"
+        "Avalanche"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -27801,8 +27790,7 @@
       "charged_moves": [
         "Dark Pulse",
         "Ominous Wind",
-        "Psychic",
-        "Poltergeist"
+        "Psychic"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -35698,8 +35686,7 @@
       "charged_moves": [
         "Shadow Punch",
         "Dynamic Punch",
-        "Earth Power",
-        "Poltergeist"
+        "Earth Power"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -38136,8 +38123,7 @@
       "quick_moves": [
         "Ember",
         "Tackle",
-        "Fire Fang",
-        "Incinerate"
+        "Fire Fang"
       ],
       "charged_moves": [
         "Flamethrower",
@@ -38191,8 +38177,7 @@
       "quick_moves": [
         "Ember",
         "Fire Fang",
-        "Take Down",
-        "Incinerate"
+        "Take Down"
       ],
       "charged_moves": [
         "Dark Pulse",
@@ -38205,11 +38190,19 @@
       "forms": {
         "2587": {
           "name": "Normal",
-          "proto": "PYROAR_NORMAL"
+          "proto": "PYROAR_NORMAL",
+          "quick_moves": [
+            "Fire Fang",
+            "Take Down"
+          ]
         },
         "2588": {
           "name": "Female",
-          "proto": "PYROAR_FEMALE"
+          "proto": "PYROAR_FEMALE",
+          "quick_moves": [
+            "Fire Fang",
+            "Take Down"
+          ]
         }
       },
       "attack": 221,
@@ -39608,8 +39601,7 @@
         "Earthquake",
         "Stone Edge",
         "Outrage",
-        "Crunch",
-        "Meteor Beam"
+        "Crunch"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -39699,8 +39691,7 @@
         "Blizzard",
         "Ancient Power",
         "Thunderbolt",
-        "Weather Ball Ice",
-        "Meteor Beam"
+        "Weather Ball Ice"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -40260,8 +40251,7 @@
         "Seed Bomb",
         "Shadow Ball",
         "Fire Blast",
-        "Foul Play",
-        "Poltergeist"
+        "Foul Play"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -43925,13 +43915,7 @@
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100,
-      "evolutions": [
-        {
-          "pokemon": 790
-        }
-      ],
-      "little": true
+      "third_move_candy": 100
     },
     "790": {
       "name": "Cosmoem",
@@ -43966,15 +43950,7 @@
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100,
-      "evolutions": [
-        {
-          "pokemon": 791
-        },
-        {
-          "pokemon": 792
-        }
-      ]
+      "third_move_candy": 100
     },
     "791": {
       "name": "Solgaleo",
@@ -51236,7 +51212,7 @@
       "name": "Charm",
       "proto": "CHARM_FAST",
       "type": "Fairy",
-      "power": 15
+      "power": 16
     },
     "321": {
       "name": "Giga Impact",
@@ -52107,7 +52083,7 @@
       "type": "Bug",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           13,
@@ -52150,7 +52126,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           19,
@@ -52469,7 +52445,7 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           19,
@@ -52492,7 +52468,7 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           32,
@@ -52535,7 +52511,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           177
@@ -52566,7 +52542,7 @@
       "type": "Rock",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           95,
@@ -52776,7 +52752,7 @@
       "type": "Electric",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           179,

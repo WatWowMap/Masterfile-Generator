@@ -2809,8 +2809,7 @@
             22,
             88,
             108,
-            131,
-            377
+            131
           ],
           "types": [
             14,
@@ -3976,8 +3975,7 @@
             14,
             18,
             88,
-            270,
-            367
+            270
           ],
           "types": [
             4,
@@ -6243,8 +6241,7 @@
         77,
         78,
         247,
-        252,
-        367
+        252
       ],
       "genId": 2,
       "generation": "Johto",
@@ -6367,8 +6364,7 @@
         31,
         32,
         63,
-        64,
-        372
+        64
       ],
       "genId": 2,
       "generation": "Johto",
@@ -7611,8 +7607,7 @@
       "chargedMoves": [
         32,
         95,
-        254,
-        377
+        254
       ],
       "genId": 2,
       "generation": "Johto",
@@ -8643,7 +8638,9 @@
       "mythical": false,
       "ultraBeast": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "255": {
@@ -8739,7 +8736,9 @@
       "mythical": false,
       "ultraBeast": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "258": {
@@ -8835,7 +8834,9 @@
       "mythical": false,
       "ultraBeast": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "261": {
@@ -10244,8 +10245,7 @@
         32,
         63,
         78,
-        268,
-        372
+        268
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -11859,8 +11859,7 @@
       "chargedMoves": [
         33,
         67,
-        115,
-        376
+        115
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -12050,7 +12049,9 @@
       "mythical": false,
       "ultraBeast": false,
       "tempEvolutions": {
-        "1": {}
+        "1": {
+          "unreleased": true
+        }
       }
     },
     "363": {
@@ -15474,8 +15475,7 @@
       "chargedMoves": [
         32,
         95,
-        254,
-        377
+        254
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -15605,8 +15605,7 @@
       "chargedMoves": [
         16,
         69,
-        108,
-        376
+        108
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -20129,8 +20128,7 @@
       "chargedMoves": [
         67,
         246,
-        304,
-        376
+        304
       ],
       "genId": 5,
       "generation": "Unova",
@@ -21738,8 +21736,7 @@
       "quickMoves": [
         209,
         221,
-        240,
-        346
+        240
       ],
       "chargedMoves": [
         24,
@@ -21769,8 +21766,7 @@
       "quickMoves": [
         209,
         240,
-        282,
-        346
+        282
       ],
       "chargedMoves": [
         16,
@@ -21782,10 +21778,18 @@
       "generation": "Kalos",
       "forms": {
         "2587": {
-          "name": "Normal"
+          "name": "Normal",
+          "quickMoves": [
+            240,
+            282
+          ]
         },
         "2588": {
-          "name": "Female"
+          "name": "Female",
+          "quickMoves": [
+            240,
+            282
+          ]
         }
       },
       "height": 1.5,
@@ -22717,8 +22721,7 @@
         31,
         32,
         277,
-        279,
-        372
+        279
       ],
       "genId": 6,
       "generation": "Kalos",
@@ -22780,8 +22783,7 @@
         40,
         62,
         79,
-        293,
-        372
+        293
       ],
       "genId": 6,
       "generation": "Kalos",
@@ -23147,8 +23149,7 @@
         59,
         70,
         103,
-        280,
-        376
+        280
       ],
       "genId": 6,
       "generation": "Kalos",
@@ -30518,7 +30519,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -30576,7 +30577,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -31009,7 +31010,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -31049,7 +31050,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -31107,7 +31108,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [],
@@ -31147,7 +31148,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -31419,7 +31420,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [

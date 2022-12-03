@@ -9065,8 +9065,7 @@
         77,
         78,
         247,
-        252,
-        367
+        252
       ],
       "genId": 2,
       "generation": "Johto",
@@ -9265,8 +9264,7 @@
         31,
         32,
         63,
-        64,
-        372
+        64
       ],
       "genId": 2,
       "generation": "Johto",
@@ -11049,8 +11047,7 @@
       "chargedMoves": [
         32,
         95,
-        254,
-        377
+        254
       ],
       "genId": 2,
       "generation": "Johto",
@@ -12640,7 +12637,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -12657,20 +12653,6 @@
             16
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 320,
-          "defense": 186,
-          "stamina": 172,
-          "height": 1.9,
-          "weight": 55.2,
-          "types": [
-            12,
-            16
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -12816,7 +12798,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -12829,15 +12810,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 329,
-          "defense": 168,
-          "stamina": 190,
-          "height": 1.9,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -12983,7 +12955,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -12996,16 +12967,6 @@
           "defense": 218,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 283,
-          "defense": 218,
-          "stamina": 225,
-          "height": 1.9,
-          "weight": 102,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -15228,8 +15189,7 @@
         32,
         63,
         78,
-        268,
-        372
+        268
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -17687,8 +17647,7 @@
       "chargedMoves": [
         33,
         67,
-        115,
-        376
+        115
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -18015,7 +17974,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -18028,16 +17986,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 252,
-          "defense": 168,
-          "stamina": 190,
-          "height": 2.1,
-          "weight": 350.2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -23342,8 +23290,7 @@
       "chargedMoves": [
         32,
         95,
-        254,
-        377
+        254
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -23533,8 +23480,7 @@
       "chargedMoves": [
         16,
         69,
-        108,
-        376
+        108
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -30376,8 +30322,7 @@
       "chargedMoves": [
         67,
         246,
-        304,
-        376
+        304
       ],
       "genId": 5,
       "generation": "Unova",
@@ -32426,8 +32371,7 @@
       "quickMoves": [
         209,
         221,
-        240,
-        346
+        240
       ],
       "chargedMoves": [
         24,
@@ -32484,8 +32428,7 @@
       "quickMoves": [
         209,
         240,
-        282,
-        346
+        282
       ],
       "chargedMoves": [
         16,
@@ -33837,8 +33780,7 @@
         31,
         32,
         277,
-        279,
-        372
+        279
       ],
       "genId": 6,
       "generation": "Kalos",
@@ -33934,8 +33876,7 @@
         40,
         62,
         79,
-        293,
-        372
+        293
       ],
       "genId": 6,
       "generation": "Kalos",
@@ -34466,8 +34407,7 @@
         59,
         70,
         103,
-        280,
-        376
+        280
       ],
       "genId": 6,
       "generation": "Kalos",
@@ -37989,14 +37929,7 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "evolutions": [
-        {
-          "evoId": 790,
-          "candyCost": 25
-        }
-      ],
-      "little": true
+      "thirdMoveCandy": 100
     },
     "790": {
       "pokemonName": "Cosmoem",
@@ -38030,19 +37963,7 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "evolutions": [
-        {
-          "evoId": 791,
-          "candyCost": 100,
-          "onlyDaytime": true
-        },
-        {
-          "evoId": 792,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
-      ]
+      "thirdMoveCandy": 100
     },
     "791": {
       "pokemonName": "Solgaleo",
@@ -45087,6 +45008,8 @@
       "formName": "Normal",
       "proto": "SWAMPERT_NORMAL",
       "formId": 211,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -45094,20 +45017,8 @@
           "defense": 218,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 283,
-          "defense": 218,
-          "stamina": 225,
-          "height": 1.9,
-          "weight": 102,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "212": {
       "formName": "Shadow",
@@ -45125,16 +45036,6 @@
           "defense": 218,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 283,
-          "defense": 218,
-          "stamina": 225,
-          "height": 1.9,
-          "weight": 102,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -48669,16 +48570,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 252,
-          "defense": 168,
-          "stamina": 190,
-          "height": 2.1,
-          "weight": 350.2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -48698,16 +48589,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 252,
-          "defense": 168,
-          "stamina": 190,
-          "height": 2.1,
-          "weight": 350.2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -48813,8 +48694,7 @@
         14,
         18,
         88,
-        270,
-        367
+        270
       ],
       "types": [
         4,
@@ -51283,20 +51163,6 @@
             16
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 320,
-          "defense": 186,
-          "stamina": 172,
-          "height": 1.9,
-          "weight": 55.2,
-          "types": [
-            12,
-            16
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -51320,20 +51186,6 @@
             16
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 320,
-          "defense": 186,
-          "stamina": 172,
-          "height": 1.9,
-          "weight": 55.2,
-          "types": [
-            12,
-            16
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -51389,6 +51241,8 @@
       "formName": "Normal",
       "proto": "BLAZIKEN_NORMAL",
       "formId": 1364,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -51396,19 +51250,8 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 329,
-          "defense": 168,
-          "stamina": 190,
-          "height": 1.9,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "1365": {
       "formName": "Shadow",
@@ -51426,15 +51269,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 329,
-          "defense": 168,
-          "stamina": 190,
-          "height": 1.9,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -56781,8 +56615,7 @@
         22,
         88,
         108,
-        131,
-        377
+        131
       ],
       "types": [
         14,
@@ -57327,12 +57160,20 @@
     "2587": {
       "formName": "Normal",
       "proto": "PYROAR_NORMAL",
-      "formId": 2587
+      "formId": 2587,
+      "quickMoves": [
+        240,
+        282
+      ]
     },
     "2588": {
       "formName": "Female",
       "proto": "PYROAR_FEMALE",
-      "formId": 2588
+      "formId": 2588,
+      "quickMoves": [
+        240,
+        282
+      ]
     },
     "2589": {
       "formName": "Normal",
@@ -61710,7 +61551,7 @@
       "moveName": "Charm",
       "proto": "CHARM_FAST",
       "type": 18,
-      "power": 15
+      "power": 16
     },
     "321": {
       "moveId": 321,
@@ -62862,7 +62703,7 @@
       "proto": "CHARACTER_BUG_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {
@@ -62954,7 +62795,7 @@
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {
@@ -63640,7 +63481,7 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {
@@ -63698,7 +63539,7 @@
       "proto": "CHARACTER_POISON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {
@@ -63790,7 +63631,7 @@
       "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {
@@ -63855,7 +63696,7 @@
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {
@@ -64297,7 +64138,7 @@
       "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": [
         {

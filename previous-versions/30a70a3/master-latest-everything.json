@@ -2952,7 +2952,7 @@
               "moveName": "Charm",
               "proto": "CHARM_FAST",
               "type": 18,
-              "power": 15
+              "power": 16
             }
           },
           "chargedMoves": {
@@ -3071,7 +3071,7 @@
               "moveName": "Charm",
               "proto": "CHARM_FAST",
               "type": 18,
-              "power": 15
+              "power": 16
             }
           },
           "chargedMoves": {
@@ -3116,7 +3116,7 @@
               "moveName": "Charm",
               "proto": "CHARM_FAST",
               "type": 18,
-              "power": 15
+              "power": 16
             }
           },
           "chargedMoves": {
@@ -3392,7 +3392,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -4701,7 +4701,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -5064,7 +5064,7 @@
               "moveName": "Charm",
               "proto": "CHARM_FAST",
               "type": 18,
-              "power": 15
+              "power": 16
             }
           },
           "chargedMoves": {
@@ -5296,7 +5296,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -10282,13 +10282,6 @@
               "proto": "BODY_SLAM",
               "type": 1,
               "power": 60
-            },
-            "377": {
-              "moveId": 377,
-              "moveName": "High Horsepower",
-              "proto": "HIGH_HORSEPOWER",
-              "type": 5,
-              "power": 100
             }
           },
           "types": {
@@ -14552,13 +14545,6 @@
               "proto": "OVERHEAT",
               "type": 10,
               "power": 130
-            },
-            "367": {
-              "moveId": 367,
-              "moveName": "Brutal Swing",
-              "proto": "BRUTAL_SWING",
-              "type": 17,
-              "power": 65
             }
           },
           "types": {
@@ -22947,13 +22933,6 @@
           "proto": "ZAP_CANNON",
           "type": 13,
           "power": 150
-        },
-        "367": {
-          "moveId": 367,
-          "moveName": "Brutal Swing",
-          "proto": "BRUTAL_SWING",
-          "type": 17,
-          "power": 65
         }
       },
       "genId": 2,
@@ -23399,13 +23378,6 @@
           "proto": "ROCK_SLIDE",
           "type": 6,
           "power": 75
-        },
-        "372": {
-          "moveId": 372,
-          "moveName": "Meteor Beam",
-          "proto": "METEOR_BEAM",
-          "type": 6,
-          "power": 120
         }
       },
       "genId": 2,
@@ -25374,7 +25346,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -26267,7 +26239,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -27686,13 +27658,6 @@
           "proto": "AVALANCHE",
           "type": 15,
           "power": 90
-        },
-        "377": {
-          "moveId": 377,
-          "moveName": "High Horsepower",
-          "proto": "HIGH_HORSEPOWER",
-          "type": 5,
-          "power": 100
         }
       },
       "genId": 2,
@@ -28889,7 +28854,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -31335,7 +31300,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -31350,8 +31314,6 @@
             "defense": 186,
             "stamina": 172
           },
-          "height": 1.9,
-          "weight": 55.2,
           "types": {
             "12": {
               "typeId": 12,
@@ -31362,8 +31324,7 @@
               "typeName": "Dragon"
             }
           },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -31697,7 +31658,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -31712,9 +31672,7 @@
             "defense": 168,
             "stamina": 190
           },
-          "height": 1.9,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -32048,7 +32006,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -32063,10 +32020,7 @@
             "defense": 218,
             "stamina": 225
           },
-          "height": 1.9,
-          "weight": 102,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -34475,7 +34429,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -36497,7 +36451,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -37149,13 +37103,6 @@
           "proto": "HEAVY_SLAM",
           "type": 9,
           "power": 70
-        },
-        "372": {
-          "moveId": 372,
-          "moveName": "Meteor Beam",
-          "proto": "METEOR_BEAM",
-          "type": 6,
-          "power": 120
         }
       },
       "genId": 3,
@@ -42864,13 +42811,6 @@
           "proto": "FIRE_PUNCH",
           "type": 10,
           "power": 55
-        },
-        "376": {
-          "moveId": 376,
-          "moveName": "Poltergeist",
-          "proto": "POLTERGEIST",
-          "type": 8,
-          "power": 140
         }
       },
       "genId": 3,
@@ -43567,7 +43507,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -43582,10 +43521,7 @@
             "defense": 168,
             "stamina": 190
           },
-          "height": 2.1,
-          "weight": 350.2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -45430,7 +45366,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -55351,7 +55287,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -55896,13 +55832,6 @@
           "proto": "AVALANCHE",
           "type": 15,
           "power": 90
-        },
-        "377": {
-          "moveId": 377,
-          "moveName": "High Horsepower",
-          "proto": "HIGH_HORSEPOWER",
-          "type": 5,
-          "power": 100
         }
       },
       "genId": 4,
@@ -56094,7 +56023,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -56333,13 +56262,6 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 90
-        },
-        "376": {
-          "moveId": 376,
-          "moveName": "Poltergeist",
-          "proto": "POLTERGEIST",
-          "type": 8,
-          "power": 140
         }
       },
       "genId": 4,
@@ -60113,7 +60035,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -63981,7 +63903,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -64092,7 +64014,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -64192,7 +64114,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -64292,7 +64214,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -66990,7 +66912,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -67097,7 +67019,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -67410,7 +67332,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -71407,7 +71329,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -71521,7 +71443,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -72542,13 +72464,6 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
-        },
-        "376": {
-          "moveId": 376,
-          "moveName": "Poltergeist",
-          "proto": "POLTERGEIST",
-          "type": 8,
-          "power": 140
         }
       },
       "genId": 5,
@@ -77729,13 +77644,6 @@
           "proto": "FIRE_FANG_FAST",
           "type": 10,
           "power": 8
-        },
-        "346": {
-          "moveId": 346,
-          "moveName": "Incinerate",
-          "proto": "INCINERATE_FAST",
-          "type": 10,
-          "power": 15
         }
       },
       "chargedMoves": {
@@ -77839,13 +77747,6 @@
           "proto": "TAKE_DOWN_FAST",
           "type": 1,
           "power": 5
-        },
-        "346": {
-          "moveId": 346,
-          "moveName": "Incinerate",
-          "proto": "INCINERATE_FAST",
-          "type": 10,
-          "power": 15
         }
       },
       "chargedMoves": {
@@ -77884,12 +77785,44 @@
         "2587": {
           "name": "Normal",
           "proto": "PYROAR_NORMAL",
-          "form": 2587
+          "form": 2587,
+          "quickMoves": {
+            "240": {
+              "moveId": 240,
+              "moveName": "Fire Fang",
+              "proto": "FIRE_FANG_FAST",
+              "type": 10,
+              "power": 8
+            },
+            "282": {
+              "moveId": 282,
+              "moveName": "Take Down",
+              "proto": "TAKE_DOWN_FAST",
+              "type": 1,
+              "power": 5
+            }
+          }
         },
         "2588": {
           "name": "Female",
           "proto": "PYROAR_FEMALE",
-          "form": 2588
+          "form": 2588,
+          "quickMoves": {
+            "240": {
+              "moveId": 240,
+              "moveName": "Fire Fang",
+              "proto": "FIRE_FANG_FAST",
+              "type": 10,
+              "power": 8
+            },
+            "282": {
+              "moveId": 282,
+              "moveName": "Take Down",
+              "proto": "TAKE_DOWN_FAST",
+              "type": 1,
+              "power": 5
+            }
+          }
         }
       },
       "stats": {
@@ -79067,7 +79000,7 @@
               "moveName": "Charm",
               "proto": "CHARM_FAST",
               "type": 18,
-              "power": 15
+              "power": 16
             }
           },
           "chargedMoves": {
@@ -79421,7 +79354,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -79511,7 +79444,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -79685,7 +79618,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         },
         "350": {
           "moveId": 350,
@@ -80851,7 +80784,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -80882,13 +80815,6 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
-        },
-        "372": {
-          "moveId": 372,
-          "moveName": "Meteor Beam",
-          "proto": "METEOR_BEAM",
-          "type": 6,
-          "power": 120
         }
       },
       "genId": 6,
@@ -81102,13 +81028,6 @@
           "proto": "WEATHER_BALL_ICE",
           "type": 15,
           "power": 55
-        },
-        "372": {
-          "moveId": 372,
-          "moveName": "Meteor Beam",
-          "proto": "METEOR_BEAM",
-          "type": 6,
-          "power": 120
         }
       },
       "genId": 6,
@@ -81170,7 +81089,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -82296,13 +82215,6 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
-        },
-        "376": {
-          "moveId": 376,
-          "moveName": "Poltergeist",
-          "proto": "POLTERGEIST",
-          "type": 8,
-          "power": 140
         }
       },
       "genId": 6,
@@ -84099,7 +84011,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -84195,7 +84107,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -87189,7 +87101,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -87273,7 +87185,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -87365,7 +87277,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         },
         "357": {
           "moveId": 357,
@@ -88987,7 +88899,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -90024,15 +89936,7 @@
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
-      },
-      "evolutions": {
-        "790": {
-          "pokemon": 790,
-          "form": 0,
-          "candyCost": 25
-        }
-      },
-      "little": true
+      }
     },
     "790": {
       "name": "Cosmoem",
@@ -90090,20 +89994,6 @@
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
-      },
-      "evolutions": {
-        "791": {
-          "pokemon": 791,
-          "form": 0,
-          "candyCost": 100,
-          "onlyDaytime": true
-        },
-        "792": {
-          "pokemon": 792,
-          "form": 0,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
       }
     },
     "791": {
@@ -95933,7 +95823,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -96024,7 +95914,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -96127,7 +96017,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -97159,7 +97049,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -97236,7 +97126,7 @@
           "moveName": "Charm",
           "proto": "CHARM_FAST",
           "type": 18,
-          "power": 15
+          "power": 16
         }
       },
       "chargedMoves": {
@@ -102997,6 +102887,8 @@
       "formName": "Normal",
       "proto": "SWAMPERT_NORMAL",
       "formId": 211,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -103004,20 +102896,8 @@
           "defense": 218,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 283,
-          "defense": 218,
-          "stamina": 225,
-          "height": 1.9,
-          "weight": 102,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "212": {
       "formName": "Shadow",
@@ -103035,16 +102915,6 @@
           "defense": 218,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 283,
-          "defense": 218,
-          "stamina": 225,
-          "height": 1.9,
-          "weight": 102,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -106652,16 +106522,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 252,
-          "defense": 168,
-          "stamina": 190,
-          "height": 2.1,
-          "weight": 350.2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -106681,16 +106541,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 252,
-          "defense": 168,
-          "stamina": 190,
-          "height": 2.1,
-          "weight": 350.2,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -106796,8 +106646,7 @@
         14,
         18,
         88,
-        270,
-        367
+        270
       ],
       "types": [
         4,
@@ -109342,20 +109191,6 @@
             16
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 320,
-          "defense": 186,
-          "stamina": 172,
-          "height": 1.9,
-          "weight": 55.2,
-          "types": [
-            12,
-            16
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -109379,20 +109214,6 @@
             16
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 320,
-          "defense": 186,
-          "stamina": 172,
-          "height": 1.9,
-          "weight": 55.2,
-          "types": [
-            12,
-            16
-          ],
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -109448,6 +109269,8 @@
       "formName": "Normal",
       "proto": "BLAZIKEN_NORMAL",
       "formId": 1364,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -109455,19 +109278,8 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 329,
-          "defense": 168,
-          "stamina": 190,
-          "height": 1.9,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      ]
     },
     "1365": {
       "formName": "Shadow",
@@ -109485,15 +109297,6 @@
           "defense": 168,
           "stamina": 190,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 329,
-          "defense": 168,
-          "stamina": 190,
-          "height": 1.9,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -114923,8 +114726,7 @@
         22,
         88,
         108,
-        131,
-        377
+        131
       ],
       "types": [
         14,
@@ -115469,12 +115271,20 @@
     "2587": {
       "formName": "Normal",
       "proto": "PYROAR_NORMAL",
-      "formId": 2587
+      "formId": 2587,
+      "quickMoves": [
+        240,
+        282
+      ]
     },
     "2588": {
       "formName": "Female",
       "proto": "PYROAR_FEMALE",
-      "formId": 2588
+      "formId": 2588,
+      "quickMoves": [
+        240,
+        282
+      ]
     },
     "2589": {
       "formName": "Normal",
@@ -119423,7 +119233,7 @@
     },
     "1605": {
       "id": 1605,
-      "name": "Extra Ticket",
+      "name": "Item Event Ticket Gray To Gift",
       "proto": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
@@ -120941,7 +120751,7 @@
       "id": 320,
       "name": "Charm",
       "proto": "CHARM_FAST",
-      "power": 15
+      "power": 16
     },
     "321": {
       "id": 321,
@@ -122051,7 +121861,7 @@
       "proto": "CHARACTER_BUG_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122118,7 +121928,7 @@
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122614,7 +122424,7 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122657,7 +122467,7 @@
       "proto": "CHARACTER_POISON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122724,7 +122534,7 @@
       "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [],
@@ -122770,7 +122580,7 @@
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -123078,7 +122888,7 @@
       "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
