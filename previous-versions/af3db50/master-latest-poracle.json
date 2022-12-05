@@ -4499,6 +4499,15 @@
             "baseDefense": 207,
             "baseStamina": 146
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 367,
+            "baseDefense": 207,
+            "baseStamina": 146
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -4525,6 +4534,15 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 367,
+            "baseDefense": 207,
+            "baseStamina": 146
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -9934,6 +9952,15 @@
       "thirdMoveCandy": 100,
       "tempEvolutions": [
         {
+          "tempEvoId": 3,
+          "stats": {
+            "baseAttack": 426,
+            "baseDefense": 229,
+            "baseStamina": 235
+          },
+          "unreleased": true
+        },
+        {
           "tempEvoId": 2,
           "stats": {
             "baseAttack": 412,
@@ -9950,15 +9977,6 @@
               "name": "Psychic"
             }
           ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 3,
-          "stats": {
-            "baseAttack": 426,
-            "baseDefense": 229,
-            "baseStamina": 235
-          },
           "unreleased": true
         }
       ]
@@ -10006,6 +10024,15 @@
       "thirdMoveCandy": 100,
       "tempEvolutions": [
         {
+          "tempEvoId": 3,
+          "stats": {
+            "baseAttack": 426,
+            "baseDefense": 229,
+            "baseStamina": 235
+          },
+          "unreleased": true
+        },
+        {
           "tempEvoId": 2,
           "stats": {
             "baseAttack": 412,
@@ -10022,15 +10049,6 @@
               "name": "Psychic"
             }
           ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 3,
-          "stats": {
-            "baseAttack": 426,
-            "baseDefense": 229,
-            "baseStamina": 235
-          },
           "unreleased": true
         }
       ]
@@ -13868,7 +13886,13 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 904,
+          "id": 0
+        }
+      ]
     },
     "211_1259": {
       "name": "Qwilfish",
@@ -13963,6 +13987,15 @@
             "baseDefense": 250,
             "baseStamina": 172
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 279,
+            "baseDefense": 250,
+            "baseStamina": 172
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -13993,6 +14026,15 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 279,
+            "baseDefense": 250,
+            "baseStamina": 172
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -14157,6 +14199,10 @@
           "id": 800,
           "candyCost": 100,
           "itemRequirement": "Sinnoh Stone"
+        },
+        {
+          "evoId": 903,
+          "id": 0
         }
       ]
     },
@@ -14305,7 +14351,13 @@
         "baseStamina": 207
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "id": 0
+        }
+      ]
     },
     "217_1268": {
       "name": "Ursaring",
@@ -16388,6 +16440,25 @@
               "name": "Dragon"
             }
           ],
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 320,
+            "baseDefense": 186,
+            "baseStamina": 172
+          },
+          "types": [
+            {
+              "id": 12,
+              "name": "Grass"
+            },
+            {
+              "id": 16,
+              "name": "Dragon"
+            }
+          ],
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -16414,6 +16485,25 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 320,
+            "baseDefense": 186,
+            "baseStamina": 172
+          },
+          "types": [
+            {
+              "id": 12,
+              "name": "Grass"
+            },
+            {
+              "id": 16,
+              "name": "Dragon"
+            }
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -16588,6 +16678,15 @@
             "baseDefense": 168,
             "baseStamina": 190
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 329,
+            "baseDefense": 168,
+            "baseStamina": 190
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -16618,6 +16717,15 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 329,
+            "baseDefense": 168,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -16782,6 +16890,15 @@
             "baseDefense": 218,
             "baseStamina": 225
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 283,
+            "baseDefense": 218,
+            "baseStamina": 225
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -16812,6 +16929,15 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 283,
+            "baseDefense": 218,
+            "baseStamina": 225
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -19438,6 +19564,21 @@
               "name": "Steel"
             }
           ],
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 247,
+            "baseDefense": 331,
+            "baseStamina": 172
+          },
+          "types": [
+            {
+              "id": 9,
+              "name": "Steel"
+            }
+          ],
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -19468,6 +19609,21 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 247,
+            "baseDefense": 331,
+            "baseStamina": 172
+          },
+          "types": [
+            {
+              "id": 9,
+              "name": "Steel"
+            }
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -22440,6 +22596,15 @@
             "baseDefense": 160,
             "baseStamina": 162
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 312,
+            "baseDefense": 160,
+            "baseStamina": 162
+          },
           "firstEnergyCost": 100,
           "subsequentEnergyCost": 20
         }
@@ -22466,6 +22631,15 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 312,
+            "baseDefense": 160,
+            "baseStamina": 162
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -22883,6 +23057,15 @@
             "baseDefense": 168,
             "baseStamina": 190
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 252,
+            "baseDefense": 168,
+            "baseStamina": 190
+          },
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -22909,6 +23092,15 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 252,
+            "baseDefense": 168,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -50398,7 +50590,8 @@
         "baseStamina": 277
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "unreleased": true
     },
     "901_2817": {
       "name": "Ursaluna",
@@ -50423,7 +50616,8 @@
         "baseStamina": 277
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "unreleased": true
     },
     "902_0": {
       "name": "Basculegion",
@@ -50520,7 +50714,8 @@
         "baseStamina": 190
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "904_0": {
       "name": "Overqwil",
@@ -50545,7 +50740,8 @@
         "baseStamina": 198
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "unreleased": true
     },
     "905_0": {
       "name": "Enamorus",
@@ -53367,7 +53563,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53416,7 +53612,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53777,7 +53973,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53802,7 +53998,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53851,7 +54047,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -53886,7 +54082,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -54120,7 +54316,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [

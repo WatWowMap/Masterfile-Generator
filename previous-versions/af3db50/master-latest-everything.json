@@ -26535,7 +26535,14 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "evolutions": {
+        "904": {
+          "pokemon": 904,
+          "form": 0
+        }
+      },
+      "little": true
     },
     "212": {
       "name": "Scizor",
@@ -27068,6 +27075,10 @@
           "form": 800,
           "candyCost": 100,
           "itemRequirement": "Sinnoh Stone"
+        },
+        "903": {
+          "pokemon": 903,
+          "form": 0
         }
       },
       "little": true
@@ -27280,6 +27291,12 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "evolutions": {
+        "901": {
+          "pokemon": 901,
+          "form": 0
+        }
       }
     },
     "218": {
@@ -95288,8 +95305,8 @@
         "transferable": true
       },
       "tempEvolutions": {
-        "Low Key Gmax": {
-          "tempEvoId": "Low Key Gmax",
+        "Amped Gmax": {
+          "tempEvoId": "Amped Gmax",
           "stats": {
             "attack": 224,
             "defense": 140,
@@ -95297,8 +95314,8 @@
           },
           "unreleased": true
         },
-        "Amped Gmax": {
-          "tempEvoId": "Amped Gmax",
+        "Low Key Gmax": {
+          "tempEvoId": "Low Key Gmax",
           "stats": {
             "attack": 224,
             "defense": 140,
@@ -100438,7 +100455,8 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "unreleased": true
     },
     "902": {
       "name": "Basculegion",
@@ -100574,7 +100592,8 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "unreleased": true
     },
     "904": {
       "name": "Overqwil",
@@ -100675,7 +100694,8 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "unreleased": true
     },
     "905": {
       "name": "Enamorus",
@@ -102200,6 +102220,13 @@
       "purificationCandy": 20,
       "tempEvolutions": [
         {
+          "tempEvoId": 3,
+          "attack": 426,
+          "defense": 229,
+          "stamina": 235,
+          "unreleased": true
+        },
+        {
           "tempEvoId": 2,
           "attack": 412,
           "defense": 222,
@@ -102208,13 +102235,6 @@
             2,
             14
           ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 3,
-          "attack": 426,
-          "defense": 229,
-          "stamina": 235,
           "unreleased": true
         }
       ]
@@ -102983,6 +103003,13 @@
           "attack": 283,
           "defense": 218,
           "stamina": 225,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 283,
+          "defense": 218,
+          "stamina": 225,
           "height": 1.9,
           "weight": 102,
           "firstEnergyCost": 200,
@@ -103002,6 +103029,13 @@
       "proto": "SWAMPERT_PURIFIED",
       "formId": 213,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 283,
+          "defense": 218,
+          "stamina": 225,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 283,
@@ -103285,6 +103319,13 @@
           "attack": 279,
           "defense": 250,
           "stamina": 172,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 279,
+          "defense": 250,
+          "stamina": 172,
           "height": 2,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
@@ -103303,6 +103344,13 @@
       "proto": "SCIZOR_PURIFIED",
       "formId": 252,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 279,
+          "defense": 250,
+          "stamina": 172,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 279,
@@ -103782,6 +103830,13 @@
           "attack": 367,
           "defense": 207,
           "stamina": 146,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 367,
+          "defense": 207,
+          "stamina": 146,
           "height": 1.2,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
@@ -103800,6 +103855,13 @@
       "proto": "ALAKAZAM_PURIFIED",
       "formId": 312,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 367,
+          "defense": 207,
+          "stamina": 146,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 367,
@@ -106404,6 +106466,13 @@
           "attack": 312,
           "defense": 160,
           "stamina": 162,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 312,
+          "defense": 160,
+          "stamina": 162,
           "height": 1.2,
           "weight": 13,
           "firstEnergyCost": 100,
@@ -106423,6 +106492,13 @@
       "proto": "BANETTE_PURIFIED",
       "formId": 913,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 312,
+          "defense": 160,
+          "stamina": 162,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 312,
@@ -106575,6 +106651,13 @@
           "attack": 252,
           "defense": 168,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 252,
+          "defense": 168,
+          "stamina": 190,
           "height": 2.1,
           "weight": 350.2,
           "firstEnergyCost": 200,
@@ -106592,6 +106675,13 @@
       "proto": "GLALIE_PURIFIED",
       "formId": 931,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 252,
+          "defense": 168,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 252,
@@ -107831,6 +107921,13 @@
       "formId": 1114,
       "tempEvolutions": [
         {
+          "tempEvoId": 3,
+          "attack": 426,
+          "defense": 229,
+          "stamina": 235,
+          "unreleased": true
+        },
+        {
           "tempEvoId": 2,
           "attack": 412,
           "defense": 222,
@@ -107839,13 +107936,6 @@
             2,
             14
           ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 3,
-          "attack": 426,
-          "defense": 229,
-          "stamina": 235,
           "unreleased": true
         }
       ]
@@ -109247,6 +109337,17 @@
           "attack": 320,
           "defense": 186,
           "stamina": 172,
+          "types": [
+            12,
+            16
+          ],
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 320,
+          "defense": 186,
+          "stamina": 172,
           "height": 1.9,
           "weight": 55.2,
           "types": [
@@ -109268,6 +109369,17 @@
       "proto": "SCEPTILE_PURIFIED",
       "formId": 1357,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 320,
+          "defense": 186,
+          "stamina": 172,
+          "types": [
+            12,
+            16
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 320,
@@ -109342,6 +109454,13 @@
           "attack": 329,
           "defense": 168,
           "stamina": 190,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 329,
+          "defense": 168,
+          "stamina": 190,
           "height": 1.9,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
@@ -109360,6 +109479,13 @@
       "proto": "BLAZIKEN_PURIFIED",
       "formId": 1366,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 329,
+          "defense": 168,
+          "stamina": 190,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 329,
@@ -109990,6 +110116,16 @@
           "attack": 247,
           "defense": 331,
           "stamina": 172,
+          "types": [
+            9
+          ],
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 247,
+          "defense": 331,
+          "stamina": 172,
           "height": 2.2,
           "weight": 395,
           "types": [
@@ -110012,6 +110148,16 @@
       "proto": "AGGRON_PURIFIED",
       "formId": 1477,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 247,
+          "defense": 331,
+          "stamina": 172,
+          "types": [
+            9
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 247,
@@ -121905,7 +122051,7 @@
       "proto": "CHARACTER_BUG_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -121972,7 +122118,7 @@
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122468,7 +122614,7 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122511,7 +122657,7 @@
       "proto": "CHARACTER_POISON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122578,7 +122724,7 @@
       "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [],
@@ -122624,7 +122770,7 @@
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -122932,7 +123078,7 @@
       "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [

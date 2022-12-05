@@ -12958,7 +12958,13 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 904
+        }
+      ],
+      "little": true
     },
     "212": {
       "name": "Scizor",
@@ -13218,6 +13224,9 @@
         {
           "pokemon": 461,
           "form": 800
+        },
+        {
+          "pokemon": 903
         }
       ],
       "little": true
@@ -13330,7 +13339,12 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 901
+        }
+      ]
     },
     "218": {
       "name": "Slugma",
@@ -52093,7 +52107,7 @@
       "type": "Bug",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           13,
@@ -52136,7 +52150,7 @@
       "type": "Dark",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           19,
@@ -52455,7 +52469,7 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           19,
@@ -52478,7 +52492,7 @@
       "type": "Poison",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           32,
@@ -52521,7 +52535,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           177
@@ -52552,7 +52566,7 @@
       "type": "Rock",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           95,
@@ -52762,7 +52776,7 @@
       "type": "Electric",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           179,
