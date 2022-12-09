@@ -27242,15 +27242,7 @@
         "1268": {
           "name": "Normal",
           "proto": "URSARING_NORMAL",
-          "form": 1268,
-          "evolutions": {
-            "901": {
-              "pokemon": 901,
-              "form": 0,
-              "candyCost": 100,
-              "onlyNighttime": true
-            }
-          }
+          "form": 1268
         },
         "1269": {
           "name": "Shadow",
@@ -27288,14 +27280,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "901": {
-          "pokemon": 901,
-          "form": 0,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
       }
     },
     "218": {
@@ -75413,13 +75397,6 @@
           "proto": "CLOSE_COMBAT",
           "type": 2,
           "power": 100
-        },
-        "330": {
-          "moveId": 330,
-          "moveName": "Sacred Sword",
-          "proto": "SACRED_SWORD",
-          "type": 2,
-          "power": 60
         }
       },
       "genId": 5,
@@ -108816,14 +108793,6 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
-      "evolutions": [
-        {
-          "evoId": 901,
-          "formId": 0,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
-      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },

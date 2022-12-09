@@ -10857,14 +10857,7 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 901,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
-      ]
+      "transferable": true
     },
     "218": {
       "pokemonName": "Slugma",
@@ -31401,8 +31394,7 @@
         57,
         100,
         107,
-        245,
-        330
+        245
       ],
       "genId": 5,
       "generation": "Unova",
@@ -50682,13 +50674,6 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
-      "evolutions": [
-        {
-          "evoId": 901,
-          "candyCost": 100,
-          "onlyNighttime": true
-        }
-      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
