@@ -10857,7 +10857,14 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ]
     },
     "218": {
       "pokemonName": "Slugma",
@@ -50675,6 +50682,13 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -59844,7 +59858,7 @@
       "itemName": "Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
       "type": "Evolution Requirement",
-      "category": "Utilites",
+      "category": "Evolution Requirement",
       "minTrainerLevel": 10
     },
     "1201": {

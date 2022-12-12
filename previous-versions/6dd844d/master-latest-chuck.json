@@ -4980,13 +4980,24 @@
         1
       ],
       "forms": {
-        "1268": {},
+        "1268": {
+          "evolutions": [
+            {
+              "pokemon": 901
+            }
+          ]
+        },
         "1269": {},
         "1270": {}
       },
       "attack": 236,
       "defense": 144,
-      "stamina": 207
+      "stamina": 207,
+      "evolutions": [
+        {
+          "pokemon": 901
+        }
+      ]
     },
     "218": {
       "types": [

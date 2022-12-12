@@ -27242,7 +27242,15 @@
         "1268": {
           "name": "Normal",
           "proto": "URSARING_NORMAL",
-          "form": 1268
+          "form": 1268,
+          "evolutions": {
+            "901": {
+              "pokemon": 901,
+              "form": 0,
+              "candyCost": 100,
+              "onlyNighttime": true
+            }
+          }
         },
         "1269": {
           "name": "Shadow",
@@ -27280,6 +27288,14 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "evolutions": {
+        "901": {
+          "pokemon": 901,
+          "form": 0,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
       }
     },
     "218": {
@@ -108800,6 +108816,14 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "formId": 0,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -119127,10 +119151,10 @@
     },
     "1150": {
       "id": 1150,
-      "name": "?????? Coin",
+      "name": "Item Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
       "type": "Evolution Requirement",
-      "category": "Utilites",
+      "category": "Evolution Requirement",
       "minTrainerLevel": 10
     },
     "1201": {

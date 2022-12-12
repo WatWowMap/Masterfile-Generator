@@ -14305,7 +14305,15 @@
         "baseStamina": 207
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "id": 0,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ]
     },
     "217_1268": {
       "name": "Ursaring",
@@ -14326,7 +14334,15 @@
         "baseStamina": 207
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 901,
+          "id": 0,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ]
     },
     "218_0": {
       "name": "Slugma",
@@ -51965,7 +51981,7 @@
       "name": "Unova Stone"
     },
     "1150": {
-      "name": "?????? Coin"
+      "name": "Item Other Evolution Stone A"
     },
     "1201": {
       "name": "Fast TM"

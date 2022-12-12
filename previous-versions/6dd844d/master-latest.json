@@ -13305,7 +13305,12 @@
       "forms": {
         "1268": {
           "name": "Normal",
-          "proto": "URSARING_NORMAL"
+          "proto": "URSARING_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 901
+            }
+          ]
         },
         "1269": {
           "name": "Shadow",
@@ -13330,7 +13335,12 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 901
+        }
+      ]
     },
     "218": {
       "name": "Slugma",
@@ -49606,7 +49616,7 @@
       "name": "Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
       "type": "Evolution Requirement",
-      "category": "Utilites",
+      "category": "Evolution Requirement",
       "min_trainer_level": 10
     },
     "1201": {
