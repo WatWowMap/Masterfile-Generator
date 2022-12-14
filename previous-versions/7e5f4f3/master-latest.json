@@ -40349,7 +40349,7 @@
     "713": {
       "name": "Avalugg",
       "pokedex_id": 713,
-      "default_form_id": 2812,
+      "default_form_id": 2795,
       "types": [
         "Ice"
       ],
@@ -40369,26 +40369,7 @@
       "forms": {
         "2795": {
           "name": "Hisuian",
-          "proto": "AVALUGG_HISUIAN",
-          "attack": 214,
-          "defense": 238,
-          "stamina": 216,
-          "height": 1.4,
-          "weight": 262.4,
-          "quick_moves": [
-            "Bite",
-            "Tackle",
-            "Powder Snow"
-          ],
-          "charged_moves": [
-            "Blizzard",
-            "Rock Slide",
-            "Crunch"
-          ],
-          "types": [
-            "Rock",
-            "Ice"
-          ]
+          "proto": "AVALUGG_HISUIAN"
         },
         "2812": {
           "name": "Normal",

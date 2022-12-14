@@ -71539,6 +71539,11 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2234": {
           "name": "Normal",
           "proto": "BEARTIC_NORMAL",
@@ -82462,7 +82467,7 @@
     "713": {
       "name": "Avalugg",
       "pokedexId": 713,
-      "defaultFormId": 2812,
+      "defaultFormId": 2795,
       "types": {
         "15": {
           "typeId": 15,
@@ -82525,73 +82530,15 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "2795": {
           "name": "Hisuian",
           "proto": "AVALUGG_HISUIAN",
-          "form": 2795,
-          "stats": {
-            "attack": 214,
-            "defense": 238,
-            "stamina": 216
-          },
-          "height": 1.4,
-          "weight": 262.4,
-          "quickMoves": {
-            "202": {
-              "moveId": 202,
-              "moveName": "Bite",
-              "proto": "BITE_FAST",
-              "type": 17,
-              "power": 4
-            },
-            "221": {
-              "moveId": 221,
-              "moveName": "Tackle",
-              "proto": "TACKLE_FAST",
-              "type": 1,
-              "power": 3
-            },
-            "244": {
-              "moveId": 244,
-              "moveName": "Powder Snow",
-              "proto": "POWDER_SNOW_FAST",
-              "type": 15,
-              "power": 5
-            }
-          },
-          "chargedMoves": {
-            "40": {
-              "moveId": 40,
-              "moveName": "Blizzard",
-              "proto": "BLIZZARD",
-              "type": 15,
-              "power": 140
-            },
-            "64": {
-              "moveId": 64,
-              "moveName": "Rock Slide",
-              "proto": "ROCK_SLIDE",
-              "type": 6,
-              "power": 75
-            },
-            "279": {
-              "moveId": 279,
-              "moveName": "Crunch",
-              "proto": "CRUNCH",
-              "type": 17,
-              "power": 70
-            }
-          },
-          "types": {
-            "6": {
-              "typeId": 6,
-              "typeName": "Rock"
-            },
-            "15": {
-              "typeId": 15,
-              "typeName": "Ice"
-            }
-          }
+          "form": 2795
         },
         "2812": {
           "name": "Normal",
@@ -116979,26 +116926,7 @@
     "2795": {
       "formName": "Hisuian",
       "proto": "AVALUGG_HISUIAN",
-      "formId": 2795,
-      "attack": 214,
-      "defense": 238,
-      "stamina": 216,
-      "height": 1.4,
-      "weight": 262.4,
-      "quickMoves": [
-        202,
-        221,
-        244
-      ],
-      "chargedMoves": [
-        40,
-        64,
-        279
-      ],
-      "types": [
-        6,
-        15
-      ]
+      "formId": 2795
     },
     "2796": {
       "formName": "Hisuian",

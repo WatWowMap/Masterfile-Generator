@@ -19842,7 +19842,7 @@
     "614": {
       "name": "Beartic",
       "pokedexId": 614,
-      "defaultFormId": 2234,
+      "defaultFormId": 0,
       "types": [
         15
       ],
@@ -19858,9 +19858,7 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
-        "2234": {
-          "name": "Normal"
-        }
+        "0": {}
       },
       "height": 2.6,
       "weight": 260,
@@ -23207,7 +23205,7 @@
     "713": {
       "name": "Avalugg",
       "pokedexId": 713,
-      "defaultFormId": 2812,
+      "defaultFormId": 0,
       "types": [
         15
       ],
@@ -23225,25 +23223,9 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {},
         "2795": {
-          "name": "Hisuian",
-          "quickMoves": [
-            202,
-            221,
-            244
-          ],
-          "chargedMoves": [
-            40,
-            64,
-            279
-          ],
-          "types": [
-            6,
-            15
-          ]
-        },
-        "2812": {
-          "name": "Normal"
+          "name": "Hisuian"
         }
       },
       "height": 2,
