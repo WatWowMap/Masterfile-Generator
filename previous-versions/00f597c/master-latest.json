@@ -37775,203 +37775,83 @@
       "forms": {
         "2745": {
           "name": "Archipelago",
-          "proto": "SCATTERBUG_ARCHIPELAGO",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2765
-            }
-          ]
+          "proto": "SCATTERBUG_ARCHIPELAGO"
         },
         "2746": {
           "name": "Continental",
-          "proto": "SCATTERBUG_CONTINENTAL",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2766
-            }
-          ]
+          "proto": "SCATTERBUG_CONTINENTAL"
         },
         "2747": {
           "name": "Elegant",
-          "proto": "SCATTERBUG_ELEGANT",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2767
-            }
-          ]
+          "proto": "SCATTERBUG_ELEGANT"
         },
         "2748": {
           "name": "Fancy",
-          "proto": "SCATTERBUG_FANCY",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2768
-            }
-          ]
+          "proto": "SCATTERBUG_FANCY"
         },
         "2749": {
           "name": "Garden",
-          "proto": "SCATTERBUG_GARDEN",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2769
-            }
-          ]
+          "proto": "SCATTERBUG_GARDEN"
         },
         "2750": {
           "name": "High Plains",
-          "proto": "SCATTERBUG_HIGH_PLAINS",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2770
-            }
-          ]
+          "proto": "SCATTERBUG_HIGH_PLAINS"
         },
         "2751": {
           "name": "Icy Snow",
-          "proto": "SCATTERBUG_ICY_SNOW",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2771
-            }
-          ]
+          "proto": "SCATTERBUG_ICY_SNOW"
         },
         "2752": {
           "name": "Jungle",
-          "proto": "SCATTERBUG_JUNGLE",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2772
-            }
-          ]
+          "proto": "SCATTERBUG_JUNGLE"
         },
         "2753": {
           "name": "Marine",
-          "proto": "SCATTERBUG_MARINE",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2773
-            }
-          ]
+          "proto": "SCATTERBUG_MARINE"
         },
         "2754": {
           "name": "Meadow",
-          "proto": "SCATTERBUG_MEADOW",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2774
-            }
-          ]
+          "proto": "SCATTERBUG_MEADOW"
         },
         "2755": {
           "name": "Modern",
-          "proto": "SCATTERBUG_MODERN",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2775
-            }
-          ]
+          "proto": "SCATTERBUG_MODERN"
         },
         "2756": {
           "name": "Monsoon",
-          "proto": "SCATTERBUG_MONSOON",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2776
-            }
-          ]
+          "proto": "SCATTERBUG_MONSOON"
         },
         "2757": {
           "name": "Ocean",
-          "proto": "SCATTERBUG_OCEAN",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2777
-            }
-          ]
+          "proto": "SCATTERBUG_OCEAN"
         },
         "2758": {
           "name": "Pokeball",
-          "proto": "SCATTERBUG_POKEBALL",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2778
-            }
-          ]
+          "proto": "SCATTERBUG_POKEBALL"
         },
         "2759": {
           "name": "Polar",
-          "proto": "SCATTERBUG_POLAR",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2779
-            }
-          ]
+          "proto": "SCATTERBUG_POLAR"
         },
         "2760": {
           "name": "River",
-          "proto": "SCATTERBUG_RIVER",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2780
-            }
-          ]
+          "proto": "SCATTERBUG_RIVER"
         },
         "2761": {
           "name": "Sandstorm",
-          "proto": "SCATTERBUG_SANDSTORM",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2781
-            }
-          ]
+          "proto": "SCATTERBUG_SANDSTORM"
         },
         "2762": {
           "name": "Savanna",
-          "proto": "SCATTERBUG_SAVANNA",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2782
-            }
-          ]
+          "proto": "SCATTERBUG_SAVANNA"
         },
         "2763": {
           "name": "Sun",
-          "proto": "SCATTERBUG_SUN",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2783
-            }
-          ]
+          "proto": "SCATTERBUG_SUN"
         },
         "2764": {
           "name": "Tundra",
-          "proto": "SCATTERBUG_TUNDRA",
-          "evolutions": [
-            {
-              "pokemon": 665,
-              "form": 2784
-            }
-          ]
+          "proto": "SCATTERBUG_TUNDRA"
         }
       },
       "attack": 63,
@@ -38003,7 +37883,8 @@
         "Bug"
       ],
       "quick_moves": [
-        "Struggle Bug"
+        "Bug Bite",
+        "Tackle"
       ],
       "charged_moves": [
         "Struggle"
@@ -38013,203 +37894,83 @@
       "forms": {
         "2765": {
           "name": "Archipelago",
-          "proto": "SPEWPA_ARCHIPELAGO",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2594
-            }
-          ]
+          "proto": "SPEWPA_ARCHIPELAGO"
         },
         "2766": {
           "name": "Continental",
-          "proto": "SPEWPA_CONTINENTAL",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2595
-            }
-          ]
+          "proto": "SPEWPA_CONTINENTAL"
         },
         "2767": {
           "name": "Elegant",
-          "proto": "SPEWPA_ELEGANT",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2596
-            }
-          ]
+          "proto": "SPEWPA_ELEGANT"
         },
         "2768": {
           "name": "Fancy",
-          "proto": "SPEWPA_FANCY",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2597
-            }
-          ]
+          "proto": "SPEWPA_FANCY"
         },
         "2769": {
           "name": "Garden",
-          "proto": "SPEWPA_GARDEN",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2598
-            }
-          ]
+          "proto": "SPEWPA_GARDEN"
         },
         "2770": {
           "name": "High Plains",
-          "proto": "SPEWPA_HIGH_PLAINS",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2599
-            }
-          ]
+          "proto": "SPEWPA_HIGH_PLAINS"
         },
         "2771": {
           "name": "Icy Snow",
-          "proto": "SPEWPA_ICY_SNOW",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2600
-            }
-          ]
+          "proto": "SPEWPA_ICY_SNOW"
         },
         "2772": {
           "name": "Jungle",
-          "proto": "SPEWPA_JUNGLE",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2601
-            }
-          ]
+          "proto": "SPEWPA_JUNGLE"
         },
         "2773": {
           "name": "Marine",
-          "proto": "SPEWPA_MARINE",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2602
-            }
-          ]
+          "proto": "SPEWPA_MARINE"
         },
         "2774": {
           "name": "Meadow",
-          "proto": "SPEWPA_MEADOW",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2603
-            }
-          ]
+          "proto": "SPEWPA_MEADOW"
         },
         "2775": {
           "name": "Modern",
-          "proto": "SPEWPA_MODERN",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2604
-            }
-          ]
+          "proto": "SPEWPA_MODERN"
         },
         "2776": {
           "name": "Monsoon",
-          "proto": "SPEWPA_MONSOON",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2605
-            }
-          ]
+          "proto": "SPEWPA_MONSOON"
         },
         "2777": {
           "name": "Ocean",
-          "proto": "SPEWPA_OCEAN",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2606
-            }
-          ]
+          "proto": "SPEWPA_OCEAN"
         },
         "2778": {
           "name": "Pokeball",
-          "proto": "SPEWPA_POKEBALL",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2607
-            }
-          ]
+          "proto": "SPEWPA_POKEBALL"
         },
         "2779": {
           "name": "Polar",
-          "proto": "SPEWPA_POLAR",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2608
-            }
-          ]
+          "proto": "SPEWPA_POLAR"
         },
         "2780": {
           "name": "River",
-          "proto": "SPEWPA_RIVER",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2609
-            }
-          ]
+          "proto": "SPEWPA_RIVER"
         },
         "2781": {
           "name": "Sandstorm",
-          "proto": "SPEWPA_SANDSTORM",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2610
-            }
-          ]
+          "proto": "SPEWPA_SANDSTORM"
         },
         "2782": {
           "name": "Savanna",
-          "proto": "SPEWPA_SAVANNA",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2611
-            }
-          ]
+          "proto": "SPEWPA_SAVANNA"
         },
         "2783": {
           "name": "Sun",
-          "proto": "SPEWPA_SUN",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2612
-            }
-          ]
+          "proto": "SPEWPA_SUN"
         },
         "2784": {
           "name": "Tundra",
-          "proto": "SPEWPA_TUNDRA",
-          "evolutions": [
-            {
-              "pokemon": 666,
-              "form": 2613
-            }
-          ]
+          "proto": "SPEWPA_TUNDRA"
         }
       },
       "attack": 48,
@@ -38241,6 +38002,7 @@
         "Bug"
       ],
       "quick_moves": [
+        "Bug Bite",
         "Struggle Bug",
         "Gust"
       ],
@@ -51814,9 +51576,7 @@
     },
     "378": {
       "name": "Glaciate",
-      "proto": "GLACIATE",
-      "type": "Ice",
-      "power": 60
+      "proto": "GLACIATE"
     }
   },
   "quest_types": {

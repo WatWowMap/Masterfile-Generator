@@ -32212,7 +32212,7 @@
       "evolutions": [
         {
           "evoId": 665,
-          "candyCost": 25
+          "candyCost": 12
         }
       ],
       "little": true
@@ -32225,7 +32225,8 @@
         7
       ],
       "quickMoves": [
-        261
+        201,
+        221
       ],
       "chargedMoves": [
         133
@@ -32276,7 +32277,7 @@
       "evolutions": [
         {
           "evoId": 666,
-          "candyCost": 100
+          "candyCost": 50
         }
       ]
     },
@@ -32289,6 +32290,7 @@
         7
       ],
       "quickMoves": [
+        201,
         261,
         345
       ],
@@ -58369,482 +58371,202 @@
     "2745": {
       "formName": "Archipelago",
       "proto": "SCATTERBUG_ARCHIPELAGO",
-      "formId": 2745,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2765,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2745
     },
     "2746": {
       "formName": "Continental",
       "proto": "SCATTERBUG_CONTINENTAL",
-      "formId": 2746,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2766,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2746
     },
     "2747": {
       "formName": "Elegant",
       "proto": "SCATTERBUG_ELEGANT",
-      "formId": 2747,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2767,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2747
     },
     "2748": {
       "formName": "Fancy",
       "proto": "SCATTERBUG_FANCY",
-      "formId": 2748,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2768,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2748
     },
     "2749": {
       "formName": "Garden",
       "proto": "SCATTERBUG_GARDEN",
-      "formId": 2749,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2769,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2749
     },
     "2750": {
       "formName": "High Plains",
       "proto": "SCATTERBUG_HIGH_PLAINS",
-      "formId": 2750,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2770,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2750
     },
     "2751": {
       "formName": "Icy Snow",
       "proto": "SCATTERBUG_ICY_SNOW",
-      "formId": 2751,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2771,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2751
     },
     "2752": {
       "formName": "Jungle",
       "proto": "SCATTERBUG_JUNGLE",
-      "formId": 2752,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2772,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2752
     },
     "2753": {
       "formName": "Marine",
       "proto": "SCATTERBUG_MARINE",
-      "formId": 2753,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2773,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2753
     },
     "2754": {
       "formName": "Meadow",
       "proto": "SCATTERBUG_MEADOW",
-      "formId": 2754,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2774,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2754
     },
     "2755": {
       "formName": "Modern",
       "proto": "SCATTERBUG_MODERN",
-      "formId": 2755,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2775,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2755
     },
     "2756": {
       "formName": "Monsoon",
       "proto": "SCATTERBUG_MONSOON",
-      "formId": 2756,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2776,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2756
     },
     "2757": {
       "formName": "Ocean",
       "proto": "SCATTERBUG_OCEAN",
-      "formId": 2757,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2777,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2757
     },
     "2758": {
       "formName": "Pokeball",
       "proto": "SCATTERBUG_POKEBALL",
-      "formId": 2758,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2778,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2758
     },
     "2759": {
       "formName": "Polar",
       "proto": "SCATTERBUG_POLAR",
-      "formId": 2759,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2779,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2759
     },
     "2760": {
       "formName": "River",
       "proto": "SCATTERBUG_RIVER",
-      "formId": 2760,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2780,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2760
     },
     "2761": {
       "formName": "Sandstorm",
       "proto": "SCATTERBUG_SANDSTORM",
-      "formId": 2761,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2781,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2761
     },
     "2762": {
       "formName": "Savanna",
       "proto": "SCATTERBUG_SAVANNA",
-      "formId": 2762,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2782,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2762
     },
     "2763": {
       "formName": "Sun",
       "proto": "SCATTERBUG_SUN",
-      "formId": 2763,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2783,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2763
     },
     "2764": {
       "formName": "Tundra",
       "proto": "SCATTERBUG_TUNDRA",
-      "formId": 2764,
-      "evolutions": [
-        {
-          "evoId": 665,
-          "formId": 2784,
-          "candyCost": 25
-        }
-      ]
+      "formId": 2764
     },
     "2765": {
       "formName": "Archipelago",
       "proto": "SPEWPA_ARCHIPELAGO",
-      "formId": 2765,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2594,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2765
     },
     "2766": {
       "formName": "Continental",
       "proto": "SPEWPA_CONTINENTAL",
-      "formId": 2766,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2595,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2766
     },
     "2767": {
       "formName": "Elegant",
       "proto": "SPEWPA_ELEGANT",
-      "formId": 2767,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2596,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2767
     },
     "2768": {
       "formName": "Fancy",
       "proto": "SPEWPA_FANCY",
-      "formId": 2768,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2597,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2768
     },
     "2769": {
       "formName": "Garden",
       "proto": "SPEWPA_GARDEN",
-      "formId": 2769,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2598,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2769
     },
     "2770": {
       "formName": "High Plains",
       "proto": "SPEWPA_HIGH_PLAINS",
-      "formId": 2770,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2599,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2770
     },
     "2771": {
       "formName": "Icy Snow",
       "proto": "SPEWPA_ICY_SNOW",
-      "formId": 2771,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2600,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2771
     },
     "2772": {
       "formName": "Jungle",
       "proto": "SPEWPA_JUNGLE",
-      "formId": 2772,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2601,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2772
     },
     "2773": {
       "formName": "Marine",
       "proto": "SPEWPA_MARINE",
-      "formId": 2773,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2602,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2773
     },
     "2774": {
       "formName": "Meadow",
       "proto": "SPEWPA_MEADOW",
-      "formId": 2774,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2603,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2774
     },
     "2775": {
       "formName": "Modern",
       "proto": "SPEWPA_MODERN",
-      "formId": 2775,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2604,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2775
     },
     "2776": {
       "formName": "Monsoon",
       "proto": "SPEWPA_MONSOON",
-      "formId": 2776,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2605,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2776
     },
     "2777": {
       "formName": "Ocean",
       "proto": "SPEWPA_OCEAN",
-      "formId": 2777,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2606,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2777
     },
     "2778": {
       "formName": "Pokeball",
       "proto": "SPEWPA_POKEBALL",
-      "formId": 2778,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2607,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2778
     },
     "2779": {
       "formName": "Polar",
       "proto": "SPEWPA_POLAR",
-      "formId": 2779,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2608,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2779
     },
     "2780": {
       "formName": "River",
       "proto": "SPEWPA_RIVER",
-      "formId": 2780,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2609,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2780
     },
     "2781": {
       "formName": "Sandstorm",
       "proto": "SPEWPA_SANDSTORM",
-      "formId": 2781,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2610,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2781
     },
     "2782": {
       "formName": "Savanna",
       "proto": "SPEWPA_SAVANNA",
-      "formId": 2782,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2611,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2782
     },
     "2783": {
       "formName": "Sun",
       "proto": "SPEWPA_SUN",
-      "formId": 2783,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2612,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2783
     },
     "2784": {
       "formName": "Tundra",
       "proto": "SPEWPA_TUNDRA",
-      "formId": 2784,
-      "evolutions": [
-        {
-          "evoId": 666,
-          "formId": 2613,
-          "candyCost": 100
-        }
-      ]
+      "formId": 2784
     },
     "2785": {
       "formName": "Hisuian",
@@ -62154,13 +61876,6 @@
       "proto": "HIGH_HORSEPOWER",
       "type": 5,
       "power": 100
-    },
-    "378": {
-      "moveId": 378,
-      "moveName": "Glaciate",
-      "proto": "GLACIATE",
-      "type": 15,
-      "power": 60
     }
   },
   "questTypes": {

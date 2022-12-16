@@ -21470,7 +21470,7 @@
     "664": {
       "name": "Scatterbug",
       "pokedexId": 664,
-      "defaultFormId": 2745,
+      "defaultFormId": 0,
       "types": [
         7
       ],
@@ -21484,6 +21484,7 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {},
         "2745": {
           "name": "Archipelago"
         },
@@ -21555,12 +21556,13 @@
     "665": {
       "name": "Spewpa",
       "pokedexId": 665,
-      "defaultFormId": 2765,
+      "defaultFormId": 0,
       "types": [
         7
       ],
       "quickMoves": [
-        261
+        201,
+        221
       ],
       "chargedMoves": [
         133
@@ -21568,6 +21570,7 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {},
         "2765": {
           "name": "Archipelago"
         },
@@ -21639,12 +21642,13 @@
     "666": {
       "name": "Vivillon",
       "pokedexId": 666,
-      "defaultFormId": 2594,
+      "defaultFormId": 0,
       "types": [
         3,
         7
       ],
       "quickMoves": [
+        201,
         261,
         345
       ],
@@ -21657,6 +21661,7 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
+        "0": {},
         "2594": {
           "name": "Archipelago"
         },
@@ -30402,8 +30407,7 @@
       "type": 5
     },
     "378": {
-      "name": "Glaciate",
-      "type": 15
+      "name": "Glaciate"
     }
   },
   "questRewardTypes": {
