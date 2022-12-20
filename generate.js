@@ -36,8 +36,9 @@ const masterfile = async function update() {
   }
 
   await Promise.all(templates.map(async templateName => {
+    const previousFilePath = `./previous-versions/${sha}/${templateName}`
     try {
-      fs.writeFileSync(`./previous-versions/${sha}/${templateName}`, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
+      fs.writeFileSync(previousFilePath, fs.readFileSync(`./${templateName}`), 'utf8', () => { })
     } catch (e) {
       console.warn(`Previous version of ${templateName} does not exist`)
     }
@@ -64,6 +65,18 @@ const masterfile = async function update() {
         delete newData.translations
       }
       fs.writeFileSync(`./${templateName}`, JSON.stringify(newData, null, 2), 'utf8', () => { })
+
+      // compare content of both files
+      var newFile = fs.readFileSync(`./${templateName}`)
+      var previousFile = fs.readFileSync(previousFilePath)
+      if (previousFile.equals(newFile)) {
+        fs.unlinkSync(previousFilePath, (err => {
+          if (err) console.error(err);
+          else  {
+            console.log(`Deleted file ${templateName}`)
+          }
+        }))
+      }
 
       if (templateName === 'master-latest.json') {
         const pokedex = []
