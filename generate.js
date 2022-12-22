@@ -68,7 +68,7 @@ const masterfile = async function update() {
 
       // compare content of both files
       var newFile = fs.readFileSync(`./${templateName}`)
-      var previousFile = fs.readFileSync(previousFilePath)
+      const previousFile = fs.readFileSync(previousFilePath)
       if (previousFile.equals(newFile)) {
         fs.unlinkSync(previousFilePath, (err => {
           if (err) console.error(err);
