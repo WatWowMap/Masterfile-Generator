@@ -1,8 +1,8 @@
-name: Sync Daily
+name: Sync Hourly
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       recipe:
@@ -34,5 +34,5 @@ jobs:
       - name: Generate Stuff
         run: |
           git add --all
-          git commit --message "Daily Sync"
+          git commit --message "Hourly Sync"
           git push
