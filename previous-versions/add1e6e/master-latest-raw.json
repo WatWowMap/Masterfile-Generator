@@ -8198,13 +8198,6 @@
           "candyCost": 50
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 54,
-          "costumeProto": "JAN_2022_NOEVOLVE",
-          "costumeName": "Jan 2022 Noevolve"
-        }
-      ],
       "little": true
     },
     "164": {
@@ -55996,7 +55989,6 @@
       "evolutions": [
         {
           "evoId": 614,
-          "formId": 2234,
           "candyCost": 50
         }
       ]
@@ -57676,13 +57668,7 @@
       "formName": "Winter 2020",
       "proto": "CUBCHOO_WINTER_2020",
       "formId": 2672,
-      "isCostume": true,
-      "evolutions": [
-        {
-          "evoId": 614,
-          "candyCost": 50
-        }
-      ]
+      "isCostume": true
     },
     "2673": {
       "formName": "2020",

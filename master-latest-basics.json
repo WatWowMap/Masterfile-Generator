@@ -3193,6 +3193,9 @@
           "pokemon": 164
         }
       ],
+      "costume_override_evos": [
+        54
+      ],
       "little": true
     },
     "164": {
@@ -10212,13 +10215,20 @@
         "2231": {
           "evolutions": [
             {
-              "pokemon": 614
+              "pokemon": 614,
+              "form": 2234
             }
           ]
         },
         "2232": {},
         "2233": {},
-        "2672": {}
+        "2672": {
+          "evolutions": [
+            {
+              "pokemon": 614
+            }
+          ]
+        }
       },
       "attack": 128,
       "defense": 74,

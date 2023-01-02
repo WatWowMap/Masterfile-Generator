@@ -71434,7 +71434,7 @@
           "evolutions": {
             "614": {
               "pokemon": 614,
-              "form": 2234,
+              "form": 0,
               "candyCost": 50
             }
           }
@@ -71453,14 +71453,7 @@
           "name": "Winter 2020",
           "proto": "CUBCHOO_WINTER_2020",
           "form": 2672,
-          "isCostume": true,
-          "evolutions": {
-            "614": {
-              "pokemon": 614,
-              "form": 0,
-              "candyCost": 50
-            }
-          }
+          "isCostume": true
         }
       },
       "stats": {
@@ -114491,7 +114484,7 @@
       "evolutions": [
         {
           "evoId": 614,
-          "formId": 2234,
+          "formId": 0,
           "candyCost": 50
         }
       ]
@@ -116189,14 +116182,7 @@
       "formName": "Winter 2020",
       "proto": "CUBCHOO_WINTER_2020",
       "formId": 2672,
-      "isCostume": true,
-      "evolutions": [
-        {
-          "evoId": 614,
-          "formId": 0,
-          "candyCost": 50
-        }
-      ]
+      "isCostume": true
     },
     "2673": {
       "formName": "2020",
