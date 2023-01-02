@@ -71457,7 +71457,7 @@
           "evolutions": {
             "614": {
               "pokemon": 614,
-              "form": 2820,
+              "form": 0,
               "candyCost": 50
             }
           }
@@ -71562,12 +71562,6 @@
           "name": "Purified",
           "proto": "BEARTIC_PURIFIED",
           "form": 2236
-        },
-        "2820": {
-          "name": "Winter 2020",
-          "proto": "BEARTIC_WINTER_2020",
-          "form": 2820,
-          "isCostume": true
         }
       },
       "stats": {
@@ -116199,7 +116193,7 @@
       "evolutions": [
         {
           "evoId": 614,
-          "formId": 2820,
+          "formId": 0,
           "candyCost": 50
         }
       ]
@@ -117768,12 +117762,6 @@
       "formName": "Purified",
       "proto": "URSALUNA_PURIFIED",
       "formId": 2819
-    },
-    "2820": {
-      "formName": "Winter 2020",
-      "proto": "BEARTIC_WINTER_2020",
-      "formId": 2820,
-      "isCostume": true
     },
     "undefined": {
       "formName": ""
@@ -119369,18 +119357,6 @@
       "id": 58,
       "name": "Fall 2022 Noevolve",
       "proto": "FALL_2022_NOEVOLVE",
-      "noEvolve": true
-    },
-    "59": {
-      "id": 59,
-      "name": "Holiday 2022",
-      "proto": "HOLIDAY_2022",
-      "noEvolve": false
-    },
-    "60": {
-      "id": 60,
-      "name": "Jan 2023 Noevolve",
-      "proto": "JAN_2023_NOEVOLVE",
       "noEvolve": true
     }
   },
@@ -121808,11 +121784,6 @@
       "name": "Glaciate",
       "proto": "GLACIATE",
       "power": 60
-    },
-    "379": {
-      "id": 379,
-      "name": "Breaking Swipe",
-      "proto": "BREAKING_SWIPE"
     }
   },
   "questTypes": {

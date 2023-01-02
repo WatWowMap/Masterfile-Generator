@@ -26,6 +26,7 @@ jobs:
         run: |
           npm install
           npm upgrade pogo-data-generator
+          npm upgrade pogo-protos
           npm start
       - name: Configure git
         run: |
