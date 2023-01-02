@@ -28,12 +28,18 @@ jobs:
           npm upgrade pogo-data-generator
           npm upgrade pogo-protos
           npm start
-      - name: Configure git
+      - name: Check for changes
+        run: |
+          if git diff --quiet; then
+            echo "changes_exist=false" >> $GITHUB_ENV
+          else
+            echo "changes_exist=true" >> $GITHUB_ENV
+          fi
+      - name: Publish Changes
+        if: ${{ env.changes_exist == 'true' }}
         run: |
           git config --global user.name "turtlesocks-bot"
           git config --global user.email "turtlesocks-bot@users.noreply.github.com"
-      - name: Generate Stuff
-        run: |
           git add --all
           git commit --message "Hourly Sync"
           git push
