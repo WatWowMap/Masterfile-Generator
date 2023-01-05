@@ -44499,7 +44499,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -44610,7 +44609,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -44734,7 +44732,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -44749,10 +44746,7 @@
             "defense": 251,
             "stamina": 216
           },
-          "height": 1.8,
-          "weight": 112.6,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -105525,6 +105519,8 @@
       "formName": "Normal",
       "proto": "SALAMENCE_NORMAL",
       "formId": 761,
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -105532,20 +105528,8 @@
           "defense": 251,
           "stamina": 216,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 310,
-          "defense": 251,
-          "stamina": 216,
-          "height": 1.8,
-          "weight": 112.6,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 5000,
-      "purificationCandy": 5
+      ]
     },
     "762": {
       "formName": "Shadow",
@@ -105563,16 +105547,6 @@
           "defense": 251,
           "stamina": 216,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 310,
-          "defense": 251,
-          "stamina": 216,
-          "height": 1.8,
-          "weight": 112.6,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
