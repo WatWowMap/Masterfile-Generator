@@ -4005,13 +4005,7 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 979,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "57_1002": {
       "name": "Primeape",
@@ -12350,10 +12344,6 @@
           "evoId": 195,
           "id": 1229,
           "candyCost": 50
-        },
-        {
-          "evoId": 980,
-          "id": 0
         }
       ]
     },
@@ -13442,13 +13432,7 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 981,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "203_1241": {
       "name": "Girafarig",
@@ -13600,13 +13584,7 @@
         "baseStamina": 225
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 982,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "206_1250": {
       "name": "Dunsparce",
@@ -23495,6 +23473,15 @@
             "baseDefense": 251,
             "baseStamina": 216
           },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 310,
+            "baseDefense": 251,
+            "baseStamina": 216
+          },
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
@@ -23525,6 +23512,15 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 310,
+            "baseDefense": 251,
+            "baseStamina": 216
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -37727,13 +37723,7 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "evolutions": [
-        {
-          "evoId": 983,
-          "id": 0
-        }
-      ]
+      "thirdMoveCandy": 75
     },
     "625_2267": {
       "name": "Bisharp",
