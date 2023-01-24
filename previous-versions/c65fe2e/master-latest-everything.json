@@ -79437,15 +79437,100 @@
           "type": 7,
           "power": 2
         },
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
+        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "223": {
+          "moveId": 223,
+          "moveName": "Cut",
+          "proto": "CUT_FAST",
+          "type": 1,
+          "power": 3
+        },
+        "226": {
+          "moveId": 226,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT_FAST",
+          "type": 14,
+          "power": 3
+        },
+        "241": {
+          "moveId": 241,
+          "moveName": "Rock Smash",
+          "proto": "ROCK_SMASH_FAST",
+          "type": 2,
+          "power": 9
+        },
+        "281": {
+          "moveId": 281,
+          "moveName": "Hidden Power",
+          "proto": "HIDDEN_POWER_FAST",
+          "type": 1,
+          "power": 9
         }
       },
       "chargedMoves": {
+        "29": {
+          "moveId": 29,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT"
+        },
+        "36": {
+          "moveId": 36,
+          "moveName": "Flash Cannon",
+          "proto": "FLASH_CANNON",
+          "type": 9,
+          "power": 110
+        },
+        "45": {
+          "moveId": 45,
+          "moveName": "Aerial Ace",
+          "proto": "AERIAL_ACE",
+          "type": 3,
+          "power": 55
+        },
+        "51": {
+          "moveId": 51,
+          "moveName": "Night Slash",
+          "proto": "NIGHT_SLASH",
+          "type": 17,
+          "power": 50
+        },
+        "52": {
+          "moveId": 52,
+          "moveName": "Slash",
+          "proto": "SLASH"
+        },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
+        "66": {
+          "moveId": 66,
+          "moveName": "Shadow Sneak",
+          "proto": "SHADOW_SNEAK",
+          "type": 8,
+          "power": 50
+        },
+        "68": {
+          "moveId": 68,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW"
+        },
         "74": {
           "moveId": 74,
           "moveName": "Iron Head",
@@ -79453,12 +79538,71 @@
           "type": 9,
           "power": 70
         },
+        "97": {
+          "moveId": 97,
+          "moveName": "Fury Cutter",
+          "proto": "FURY_CUTTER"
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
+        "124": {
+          "moveId": 124,
+          "moveName": "Cut",
+          "proto": "CUT"
+        },
+        "132": {
+          "moveId": 132,
+          "moveName": "Rest",
+          "proto": "REST",
+          "type": 1,
+          "power": 50
+        },
+        "245": {
+          "moveId": 245,
+          "moveName": "Close Combat",
+          "proto": "CLOSE_COMBAT",
+          "type": 2,
+          "power": 100
+        },
         "267": {
           "moveId": 267,
           "moveName": "Gyro Ball",
           "proto": "GYRO_BALL",
           "type": 9,
           "power": 80
+        },
+        "322": {
+          "moveId": 322,
+          "moveName": "Frustration",
+          "proto": "FRUSTRATION",
+          "type": 1,
+          "power": 10
+        },
+        "323": {
+          "moveId": 323,
+          "moveName": "Return",
+          "proto": "RETURN",
+          "type": 1,
+          "power": 130
+        },
+        "330": {
+          "moveId": 330,
+          "moveName": "Sacred Sword",
+          "proto": "SACRED_SWORD",
+          "type": 2,
+          "power": 60
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 6,
@@ -79525,15 +79669,100 @@
           "type": 7,
           "power": 2
         },
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
+        },
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 3
+        },
+        "223": {
+          "moveId": 223,
+          "moveName": "Cut",
+          "proto": "CUT_FAST",
+          "type": 1,
+          "power": 3
+        },
         "226": {
           "moveId": 226,
           "moveName": "Psycho Cut",
           "proto": "PSYCHO_CUT_FAST",
           "type": 14,
           "power": 3
+        },
+        "241": {
+          "moveId": 241,
+          "moveName": "Rock Smash",
+          "proto": "ROCK_SMASH_FAST",
+          "type": 2,
+          "power": 9
+        },
+        "281": {
+          "moveId": 281,
+          "moveName": "Hidden Power",
+          "proto": "HIDDEN_POWER_FAST",
+          "type": 1,
+          "power": 9
         }
       },
       "chargedMoves": {
+        "29": {
+          "moveId": 29,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT"
+        },
+        "36": {
+          "moveId": 36,
+          "moveName": "Flash Cannon",
+          "proto": "FLASH_CANNON",
+          "type": 9,
+          "power": 110
+        },
+        "45": {
+          "moveId": 45,
+          "moveName": "Aerial Ace",
+          "proto": "AERIAL_ACE",
+          "type": 3,
+          "power": 55
+        },
+        "51": {
+          "moveId": 51,
+          "moveName": "Night Slash",
+          "proto": "NIGHT_SLASH",
+          "type": 17,
+          "power": 50
+        },
+        "52": {
+          "moveId": 52,
+          "moveName": "Slash",
+          "proto": "SLASH"
+        },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
+        "66": {
+          "moveId": 66,
+          "moveName": "Shadow Sneak",
+          "proto": "SHADOW_SNEAK",
+          "type": 8,
+          "power": 50
+        },
+        "68": {
+          "moveId": 68,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW"
+        },
         "74": {
           "moveId": 74,
           "moveName": "Iron Head",
@@ -79541,12 +79770,71 @@
           "type": 9,
           "power": 70
         },
+        "97": {
+          "moveId": 97,
+          "moveName": "Fury Cutter",
+          "proto": "FURY_CUTTER"
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
+        "124": {
+          "moveId": 124,
+          "moveName": "Cut",
+          "proto": "CUT"
+        },
+        "132": {
+          "moveId": 132,
+          "moveName": "Rest",
+          "proto": "REST",
+          "type": 1,
+          "power": 50
+        },
+        "245": {
+          "moveId": 245,
+          "moveName": "Close Combat",
+          "proto": "CLOSE_COMBAT",
+          "type": 2,
+          "power": 100
+        },
         "267": {
           "moveId": 267,
           "moveName": "Gyro Ball",
           "proto": "GYRO_BALL",
           "type": 9,
           "power": 80
+        },
+        "322": {
+          "moveId": 322,
+          "moveName": "Frustration",
+          "proto": "FRUSTRATION",
+          "type": 1,
+          "power": 10
+        },
+        "323": {
+          "moveId": 323,
+          "moveName": "Return",
+          "proto": "RETURN",
+          "type": 1,
+          "power": 130
+        },
+        "330": {
+          "moveId": 330,
+          "moveName": "Sacred Sword",
+          "proto": "SACRED_SWORD",
+          "type": 2,
+          "power": 60
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 6,
@@ -79614,21 +79902,118 @@
           "type": 7,
           "power": 2
         },
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
+        },
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 3
+        },
+        "223": {
+          "moveId": 223,
+          "moveName": "Cut",
+          "proto": "CUT_FAST",
+          "type": 1,
+          "power": 3
+        },
         "226": {
           "moveId": 226,
           "moveName": "Psycho Cut",
           "proto": "PSYCHO_CUT_FAST",
           "type": 14,
           "power": 3
+        },
+        "241": {
+          "moveId": 241,
+          "moveName": "Rock Smash",
+          "proto": "ROCK_SMASH_FAST",
+          "type": 2,
+          "power": 9
+        },
+        "255": {
+          "moveId": 255,
+          "moveName": "Air Slash",
+          "proto": "AIR_SLASH_FAST",
+          "type": 3,
+          "power": 9
+        },
+        "281": {
+          "moveId": 281,
+          "moveName": "Hidden Power",
+          "proto": "HIDDEN_POWER_FAST",
+          "type": 1,
+          "power": 9
         }
       },
       "chargedMoves": {
+        "14": {
+          "moveId": 14,
+          "moveName": "Hyper Beam",
+          "proto": "HYPER_BEAM",
+          "type": 1,
+          "power": 150
+        },
+        "29": {
+          "moveId": 29,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT"
+        },
         "36": {
           "moveId": 36,
           "moveName": "Flash Cannon",
           "proto": "FLASH_CANNON",
           "type": 9,
           "power": 110
+        },
+        "41": {
+          "moveId": 41,
+          "moveName": "Air Slash",
+          "proto": "AIR_SLASH"
+        },
+        "45": {
+          "moveId": 45,
+          "moveName": "Aerial Ace",
+          "proto": "AERIAL_ACE",
+          "type": 3,
+          "power": 55
+        },
+        "51": {
+          "moveId": 51,
+          "moveName": "Night Slash",
+          "proto": "NIGHT_SLASH",
+          "type": 17,
+          "power": 50
+        },
+        "52": {
+          "moveId": 52,
+          "moveName": "Slash",
+          "proto": "SLASH"
+        },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
+        "66": {
+          "moveId": 66,
+          "moveName": "Shadow Sneak",
+          "proto": "SHADOW_SNEAK",
+          "type": 8,
+          "power": 50
+        },
+        "68": {
+          "moveId": 68,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW"
         },
         "70": {
           "moveId": 70,
@@ -79637,12 +80022,85 @@
           "type": 8,
           "power": 100
         },
+        "74": {
+          "moveId": 74,
+          "moveName": "Iron Head",
+          "proto": "IRON_HEAD",
+          "type": 9,
+          "power": 70
+        },
+        "97": {
+          "moveId": 97,
+          "moveName": "Fury Cutter",
+          "proto": "FURY_CUTTER"
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
+        "124": {
+          "moveId": 124,
+          "moveName": "Cut",
+          "proto": "CUT"
+        },
+        "132": {
+          "moveId": 132,
+          "moveName": "Rest",
+          "proto": "REST",
+          "type": 1,
+          "power": 50
+        },
+        "245": {
+          "moveId": 245,
+          "moveName": "Close Combat",
+          "proto": "CLOSE_COMBAT",
+          "type": 2,
+          "power": 100
+        },
         "267": {
           "moveId": 267,
           "moveName": "Gyro Ball",
           "proto": "GYRO_BALL",
           "type": 9,
           "power": 80
+        },
+        "321": {
+          "moveId": 321,
+          "moveName": "Giga Impact",
+          "proto": "GIGA_IMPACT",
+          "type": 1,
+          "power": 150
+        },
+        "322": {
+          "moveId": 322,
+          "moveName": "Frustration",
+          "proto": "FRUSTRATION",
+          "type": 1,
+          "power": 10
+        },
+        "323": {
+          "moveId": 323,
+          "moveName": "Return",
+          "proto": "RETURN",
+          "type": 1,
+          "power": 130
+        },
+        "330": {
+          "moveId": 330,
+          "moveName": "Sacred Sword",
+          "proto": "SACRED_SWORD",
+          "type": 2,
+          "power": 60
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 6,
@@ -83354,6 +83812,13 @@
           "type": 17,
           "power": 4
         },
+        "204": {
+          "moveId": 204,
+          "moveName": "Dragon Breath",
+          "proto": "DRAGON_BREATH_FAST",
+          "type": 16,
+          "power": 4
+        },
         "234": {
           "moveId": 234,
           "moveName": "Zen Headbutt",
@@ -83361,12 +83826,33 @@
           "type": 14,
           "power": 8
         },
+        "241": {
+          "moveId": 241,
+          "moveName": "Rock Smash",
+          "proto": "ROCK_SMASH_FAST",
+          "type": 2,
+          "power": 9
+        },
         "253": {
           "moveId": 253,
           "moveName": "Dragon Tail",
           "proto": "DRAGON_TAIL_FAST",
           "type": 16,
           "power": 13
+        },
+        "266": {
+          "moveId": 266,
+          "moveName": "Iron Tail",
+          "proto": "IRON_TAIL_FAST",
+          "type": 9,
+          "power": 9
+        },
+        "281": {
+          "moveId": 281,
+          "moveName": "Hidden Power",
+          "proto": "HIDDEN_POWER_FAST",
+          "type": 1,
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -83377,6 +83863,13 @@
           "type": 1,
           "power": 150
         },
+        "26": {
+          "moveId": 26,
+          "moveName": "Dig",
+          "proto": "DIG",
+          "type": 5,
+          "power": 100
+        },
         "31": {
           "moveId": 31,
           "moveName": "Earthquake",
@@ -83384,12 +83877,87 @@
           "type": 5,
           "power": 120
         },
+        "32": {
+          "moveId": 32,
+          "moveName": "Stone Edge",
+          "proto": "STONE_EDGE",
+          "type": 6,
+          "power": 100
+        },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
+        "81": {
+          "moveId": 81,
+          "moveName": "Dragon Breath",
+          "proto": "DRAGON_BREATH"
+        },
+        "82": {
+          "moveId": 82,
+          "moveName": "Dragon Pulse",
+          "proto": "DRAGON_PULSE",
+          "type": 16,
+          "power": 90
+        },
+        "91": {
+          "moveId": 91,
+          "moveName": "Sludge Wave",
+          "proto": "SLUDGE_WAVE",
+          "type": 4,
+          "power": 110
+        },
         "95": {
           "moveId": 95,
           "moveName": "Bulldoze",
           "proto": "BULLDOZE",
           "type": 5,
           "power": 80
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
+        "125": {
+          "moveId": 125,
+          "moveName": "Swift",
+          "proto": "SWIFT",
+          "type": 1,
+          "power": 60
+        },
+        "131": {
+          "moveId": 131,
+          "moveName": "Body Slam",
+          "proto": "BODY_SLAM",
+          "type": 1,
+          "power": 60
+        },
+        "132": {
+          "moveId": 132,
+          "moveName": "Rest",
+          "proto": "REST",
+          "type": 1,
+          "power": 50
+        },
+        "247": {
+          "moveId": 247,
+          "moveName": "Focus Blast",
+          "proto": "FOCUS_BLAST",
+          "type": 2,
+          "power": 150
+        },
+        "272": {
+          "moveId": 272,
+          "moveName": "Grass Knot",
+          "proto": "GRASS_KNOT",
+          "type": 12,
+          "power": 90
         },
         "277": {
           "moveId": 277,
@@ -83404,6 +83972,60 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "285": {
+          "moveId": 285,
+          "moveName": "Draco Meteor",
+          "proto": "DRACO_METEOR",
+          "type": 16,
+          "power": 150
+        },
+        "304": {
+          "moveId": 304,
+          "moveName": "Earth Power",
+          "proto": "EARTH_POWER",
+          "type": 5,
+          "power": 90
+        },
+        "321": {
+          "moveId": 321,
+          "moveName": "Giga Impact",
+          "proto": "GIGA_IMPACT",
+          "type": 1,
+          "power": 150
+        },
+        "322": {
+          "moveId": 322,
+          "moveName": "Frustration",
+          "proto": "FRUSTRATION",
+          "type": 1,
+          "power": 10
+        },
+        "323": {
+          "moveId": 323,
+          "moveName": "Return",
+          "proto": "RETURN",
+          "type": 1,
+          "power": 130
+        },
+        "333": {
+          "moveId": 333,
+          "moveName": "Payback",
+          "proto": "PAYBACK",
+          "type": 17,
+          "power": 110
+        },
+        "377": {
+          "moveId": 377,
+          "moveName": "High Horsepower",
+          "proto": "HIGH_HORSEPOWER",
+          "type": 5,
+          "power": 100
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE"
         }
       },
       "genId": 6,
