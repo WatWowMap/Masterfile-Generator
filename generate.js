@@ -27,7 +27,7 @@ exec('git rev-parse HEAD', (err, stdout) => {
   }
 })
 
-const masterfile = async function update() {
+async function masterfile() {
   const templates = await fs.promises.readdir('./templates')
   const pmsfQuestTypes = await fetch('https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json')
 

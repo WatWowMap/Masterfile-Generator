@@ -31788,8 +31788,7 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 902,
-          "form": 2807
+          "pokemon": 902
         }
       ],
       "little": true
@@ -49058,10 +49057,13 @@
       "charged_moves": [
         "Hyper Beam",
         "Stone Edge",
+        "Air Slash",
         "Aerial Ace",
         "Bug Buzz",
+        "Slash",
         "Rock Tomb",
         "Rock Slide",
+        "Fury Cutter",
         "X Scissor",
         "Air Cutter",
         "Brick Break",
@@ -49158,9 +49160,11 @@
         "Blizzard",
         "Aqua Jet",
         "Shadow Ball",
+        "Mud Shot",
         "Water Pulse",
         "Hydro Pump",
         "Icy Wind",
+        "Headbutt",
         "Rest",
         "Night Shade",
         "Outrage",
@@ -49344,8 +49348,11 @@
         "Magical Leaf"
       ],
       "charged_moves": [
+        "Sucker Punch",
         "Petal Blizzard",
+        "Slash",
         "Seed Bomb",
+        "Shadow Claw",
         "Disarming Voice",
         "Play Rough",
         "Giga Drain",
@@ -49362,13 +49369,13 @@
       "attack": 116,
       "defense": 99,
       "stamina": 120,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 907
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "907": {
@@ -49392,9 +49399,12 @@
         "Magical Leaf"
       ],
       "charged_moves": [
+        "Low Kick",
         "Aerial Ace",
+        "Slash",
         "Low Sweep",
         "Seed Bomb",
+        "Shadow Claw",
         "Thunder Punch",
         "Disarming Voice",
         "Play Rough",
@@ -49445,11 +49455,14 @@
       "charged_moves": [
         "Hyper Beam",
         "Dark Pulse",
+        "Low Kick",
         "Aerial Ace",
         "Night Slash",
+        "Slash",
         "Low Sweep",
         "Seed Bomb",
         "Power Gem",
+        "Shadow Claw",
         "Shadow Ball",
         "Thunder Punch",
         "Disarming Voice",
@@ -49494,6 +49507,7 @@
         "Fire Spin",
         "Snarl",
         "Take Down",
+        "Yawn",
         "Thunder Fang",
         "Incinerate"
       ],
@@ -49544,10 +49558,12 @@
         "Fire Spin",
         "Snarl",
         "Take Down",
+        "Yawn",
         "Thunder Fang",
         "Incinerate"
       ],
       "charged_moves": [
+        "Lick",
         "Flamethrower",
         "Dig",
         "Heat Wave",
@@ -49602,11 +49618,13 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Lick",
         "Flamethrower",
         "Dig",
         "Earthquake",
         "Heat Wave",
         "Seed Bomb",
+        "Shadow Claw",
         "Shadow Ball",
         "Disarming Voice",
         "Flame Charge",
@@ -49647,6 +49665,9 @@
         "Take Down"
       ],
       "charged_moves": [
+        "Wing Attack",
+        "Low Kick",
+        "Air Slash",
         "Aerial Ace",
         "Aqua Jet",
         "Disarming Voice",
@@ -49664,13 +49685,13 @@
       "attack": 120,
       "defense": 86,
       "stamina": 146,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 913
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "913": {
@@ -49690,6 +49711,9 @@
         "Take Down"
       ],
       "charged_moves": [
+        "Wing Attack",
+        "Low Kick",
+        "Air Slash",
         "Aerial Ace",
         "Low Sweep",
         "Aqua Jet",
@@ -49738,6 +49762,9 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Wing Attack",
+        "Low Kick",
+        "Air Slash",
         "Aerial Ace",
         "Low Sweep",
         "Aqua Jet",
@@ -49780,7 +49807,8 @@
         "Mud Slap",
         "Zen Headbutt",
         "Bullet Seed",
-        "Take Down"
+        "Take Down",
+        "Yawn"
       ],
       "charged_moves": [
         "Dig",
@@ -49788,7 +49816,9 @@
         "Iron Head",
         "Disarming Voice",
         "Play Rough",
+        "Mud Shot",
         "Bulldoze",
+        "Headbutt",
         "Body Slam",
         "Rest"
       ],
@@ -49820,7 +49850,8 @@
         "Mud Slap",
         "Zen Headbutt",
         "Bullet Seed",
-        "Take Down"
+        "Take Down",
+        "Yawn"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -49829,7 +49860,9 @@
         "Iron Head",
         "Disarming Voice",
         "Play Rough",
+        "Mud Shot",
         "Bulldoze",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Energy Ball",
@@ -49864,13 +49897,19 @@
         "Take Down"
       ],
       "charged_moves": [
+        "Sucker Punch",
+        "Poison Jab",
         "Bug Buzz",
+        "Shadow Claw",
+        "Bug Bite",
         "X Scissor",
         "Giga Drain",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Grass Knot",
-        "Lunge"
+        "Lunge",
+        "Leech Life"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49906,15 +49945,21 @@
         "Take Down"
       ],
       "charged_moves": [
+        "Low Kick",
+        "Poison Jab",
         "Aerial Ace",
         "Bug Buzz",
         "Rock Tomb",
+        "Shadow Claw",
+        "Bug Bite",
         "X Scissor",
         "Giga Drain",
         "Brick Break",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Grass Knot",
+        "Leech Life",
         "Giga Impact"
       ],
       "gen_id": 9,
@@ -49944,9 +49989,12 @@
         "Double Kick"
       ],
       "charged_moves": [
+        "Sucker Punch",
         "Bug Buzz",
+        "Bug Bite",
         "X Scissor",
-        "Rest"
+        "Rest",
+        "Leech Life"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49983,13 +50031,17 @@
       ],
       "charged_moves": [
         "Dark Pulse",
+        "Sucker Punch",
+        "Low Kick",
         "Aerial Ace",
         "Bug Buzz",
         "Low Sweep",
+        "Bug Bite",
         "X Scissor",
         "Brick Break",
         "Rest",
         "Lunge",
+        "Leech Life",
         "Giga Impact"
       ],
       "gen_id": 9,
@@ -50022,12 +50074,15 @@
         "Thunder Fang"
       ],
       "charged_moves": [
+        "Metal Claw",
         "Dig",
         "Discharge",
+        "Spark",
         "Thunder",
         "Thunderbolt",
         "Play Rough",
         "Swift",
+        "Slam",
         "Rest",
         "Wild Charge",
         "Crunch"
@@ -50037,13 +50092,13 @@
       "attack": 95,
       "defense": 45,
       "stamina": 128,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 922
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "922": {
@@ -50070,14 +50125,18 @@
         "Thunder Fang"
       ],
       "charged_moves": [
+        "Metal Claw",
         "Dig",
+        "Low Kick",
         "Discharge",
         "Low Sweep",
+        "Spark",
         "Thunder Punch",
         "Thunder",
         "Thunderbolt",
         "Play Rough",
         "Swift",
+        "Slam",
         "Rest",
         "Wild Charge",
         "Crunch"
@@ -50087,13 +50146,13 @@
       "attack": 147,
       "defense": 82,
       "stamina": 155,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 923
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "923": {
@@ -50121,12 +50180,15 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Metal Claw",
         "Dig",
+        "Low Kick",
         "Ice Punch",
         "Discharge",
         "Low Sweep",
         "Seed Bomb",
         "Rock Tomb",
+        "Spark",
         "Thunder Punch",
         "Thunder",
         "Thunderbolt",
@@ -50134,6 +50196,7 @@
         "Fire Punch",
         "Brick Break",
         "Swift",
+        "Slam",
         "Rest",
         "Close Combat",
         "Focus Blast",
@@ -50171,10 +50234,13 @@
       ],
       "charged_moves": [
         "Dig",
+        "Low Kick",
         "Aerial Ace",
         "Low Sweep",
         "Seed Bomb",
+        "Shadow Claw",
         "Play Rough",
+        "Mud Shot",
         "Water Pulse",
         "Swift",
         "Rest",
@@ -50186,13 +50252,13 @@
       "attack": 98,
       "defense": 90,
       "stamina": 137,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 925
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "925": {
@@ -50216,10 +50282,13 @@
       "charged_moves": [
         "Hyper Beam",
         "Dig",
+        "Low Kick",
         "Aerial Ace",
         "Low Sweep",
         "Seed Bomb",
+        "Shadow Claw",
         "Play Rough",
+        "Mud Shot",
         "Water Pulse",
         "Swift",
         "Rest",
@@ -50252,14 +50321,17 @@
         "Fire Fang",
         "Snarl",
         "Take Down",
+        "Yawn",
         "Charm",
         "Thunder Fang",
         "Ice Fang"
       ],
       "charged_moves": [
+        "Lick",
         "Dig",
         "Dazzling Gleam",
         "Play Rough",
+        "Mud Shot",
         "Body Slam",
         "Rest",
         "Crunch",
@@ -50271,13 +50343,13 @@
       "attack": 102,
       "defense": 126,
       "stamina": 114,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 927
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "927": {
@@ -50303,10 +50375,12 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Lick",
         "Dig",
         "Draining Kiss",
         "Dazzling Gleam",
         "Play Rough",
+        "Mud Shot",
         "Body Slam",
         "Rest",
         "Crunch",
@@ -50341,6 +50415,7 @@
       "charged_moves": [
         "Mega Drain",
         "Seed Bomb",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Swift",
@@ -50355,13 +50430,13 @@
       "attack": 100,
       "defense": 89,
       "stamina": 121,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 929
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "929": {
@@ -50383,6 +50458,7 @@
       "charged_moves": [
         "Mega Drain",
         "Seed Bomb",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Swift",
@@ -50428,6 +50504,7 @@
         "Mega Drain",
         "Seed Bomb",
         "Dazzling Gleam",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Swift",
@@ -50464,6 +50541,8 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Peck",
+        "Air Slash",
         "Heat Wave",
         "Aerial Ace",
         "Air Cutter",
@@ -50503,15 +50582,19 @@
         "Earthquake",
         "Stone Edge",
         "Flash Cannon",
+        "Rock Throw",
         "Ancient Power",
         "Rock Slide",
         "Power Gem",
         "Iron Head",
+        "Mud Shot",
         "Bulldoze",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Heavy Slam",
-        "Earth Power"
+        "Earth Power",
+        "Fissure"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50549,10 +50632,13 @@
         "Earthquake",
         "Stone Edge",
         "Flash Cannon",
+        "Rock Throw",
         "Rock Slide",
         "Power Gem",
         "Iron Head",
+        "Mud Shot",
         "Bulldoze",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Heavy Slam",
@@ -50595,14 +50681,17 @@
         "Stone Edge",
         "Ice Punch",
         "Flash Cannon",
+        "Rock Throw",
         "Rock Tomb",
         "Rock Slide",
         "Power Gem",
         "Iron Head",
         "Thunder Punch",
+        "Mud Shot",
         "Bulldoze",
         "Fire Punch",
         "Brick Break",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Avalanche",
@@ -50726,9 +50815,12 @@
       ],
       "charged_moves": [
         "Flamethrower",
+        "Psycho Cut",
         "Heat Wave",
+        "Poison Jab",
         "Night Slash",
         "Shadow Sneak",
+        "Shadow Claw",
         "Shadow Ball",
         "Iron Head",
         "Dragon Claw",
@@ -50769,10 +50861,13 @@
         "Volt Switch"
       ],
       "charged_moves": [
+        "Sucker Punch",
         "Discharge",
         "Parabolic Charge",
+        "Spark",
         "Thunder",
         "Thunderbolt",
+        "Mud Shot",
         "Water Pulse",
         "Swift",
         "Rest",
@@ -50816,9 +50911,12 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Sucker Punch",
         "Discharge",
+        "Spark",
         "Thunder",
         "Thunderbolt",
+        "Mud Shot",
         "Water Pulse",
         "Swift",
         "Rest",
@@ -50856,7 +50954,10 @@
       ],
       "charged_moves": [
         "Discharge",
+        "Peck",
+        "Air Slash",
         "Aerial Ace",
+        "Spark",
         "Thunder",
         "Thunderbolt",
         "Air Cutter",
@@ -50905,7 +51006,10 @@
       "charged_moves": [
         "Hyper Beam",
         "Discharge",
+        "Peck",
+        "Air Slash",
         "Aerial Ace",
+        "Spark",
         "Thunder",
         "Thunderbolt",
         "Air Cutter",
@@ -50946,9 +51050,11 @@
         "Ice Fang"
       ],
       "charged_moves": [
+        "Lick",
         "Dark Pulse",
         "Dig",
         "Play Rough",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Crunch",
@@ -50990,9 +51096,11 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Lick",
         "Dark Pulse",
         "Dig",
         "Play Rough",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Wild Charge",
@@ -51029,10 +51137,13 @@
       ],
       "charged_moves": [
         "Dig",
+        "Poison Jab",
         "Poison Fang",
+        "Slash",
         "Cross Poison",
         "Sludge Bomb",
         "Gunk Shot",
+        "Mud Shot",
         "Rest",
         "Foul Play",
         "Acid Spray",
@@ -51043,13 +51154,13 @@
       "attack": 124,
       "defense": 70,
       "stamina": 120,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 945
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "945": {
@@ -51072,10 +51183,15 @@
       ],
       "charged_moves": [
         "Dig",
+        "Low Kick",
+        "Poison Jab",
         "Poison Fang",
+        "Slash",
         "Low Sweep",
+        "Shadow Claw",
         "Sludge Bomb",
         "Gunk Shot",
+        "Mud Shot",
         "X Scissor",
         "Rest",
         "Foul Play",
@@ -51112,6 +51228,7 @@
         "Seed Bomb",
         "Shadow Sneak",
         "Shadow Ball",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Power Whip",
@@ -51126,13 +51243,13 @@
       "attack": 121,
       "defense": 64,
       "stamina": 120,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 947
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "947": {
@@ -51156,6 +51273,7 @@
         "Mega Drain",
         "Seed Bomb",
         "Shadow Ball",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Power Whip",
@@ -51198,6 +51316,8 @@
         "Seed Bomb",
         "Dazzling Gleam",
         "Sludge Bomb",
+        "Mud Shot",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Power Whip",
@@ -51250,6 +51370,8 @@
         "Seed Bomb",
         "Dazzling Gleam",
         "Sludge Bomb",
+        "Mud Shot",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Power Whip",
@@ -51290,12 +51412,16 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Metal Claw",
         "Dig",
         "Stone Edge",
+        "Rock Throw",
         "Ancient Power",
         "Rock Tomb",
         "Rock Slide",
         "Power Gem",
+        "Shadow Claw",
+        "Mud Shot",
         "Bulldoze",
         "X Scissor",
         "Brick Break",
@@ -51336,6 +51462,7 @@
         "Seed Bomb",
         "Giga Drain",
         "Solar Beam",
+        "Headbutt",
         "Rest",
         "Grass Knot",
         "Energy Ball",
@@ -51381,6 +51508,7 @@
         "Fire Blast",
         "Giga Drain",
         "Solar Beam",
+        "Headbutt",
         "Rest",
         "Overheat",
         "Grass Knot",
@@ -51420,9 +51548,12 @@
         "Rock Tomb",
         "Sludge Bomb",
         "Gunk Shot",
+        "Mud Shot",
+        "Bug Bite",
         "X Scissor",
         "Rest",
-        "Lunge"
+        "Lunge",
+        "Leech Life"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51471,12 +51602,15 @@
         "Dazzling Gleam",
         "Sludge Bomb",
         "Gunk Shot",
+        "Mud Shot",
+        "Bug Bite",
         "X Scissor",
         "Psychic",
         "Rest",
         "Energy Ball",
         "Earth Power",
         "Lunge",
+        "Leech Life",
         "Giga Impact"
       ],
       "gen_id": 9,
@@ -51505,6 +51639,7 @@
       ],
       "charged_moves": [
         "Psybeam",
+        "Peck",
         "Seed Bomb",
         "Psyshock",
         "Disarming Voice",
@@ -51547,8 +51682,10 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Low Kick",
         "Psybeam",
         "Flash Cannon",
+        "Peck",
         "Drill Peck",
         "Aerial Ace",
         "Seed Bomb",
@@ -51592,12 +51729,14 @@
         "Fairy Wind"
       ],
       "charged_moves": [
+        "Metal Claw",
         "Stone Edge",
         "Flash Cannon",
         "Rock Tomb",
         "Rock Slide",
         "Draining Kiss",
         "Play Rough",
+        "Slam",
         "Rest",
         "Foul Play",
         "Brutal Swing"
@@ -51632,6 +51771,7 @@
         "Fairy Wind"
       ],
       "charged_moves": [
+        "Metal Claw",
         "Stone Edge",
         "Flash Cannon",
         "Rock Tomb",
@@ -51639,6 +51779,7 @@
         "Draining Kiss",
         "Play Rough",
         "Brick Break",
+        "Slam",
         "Rest",
         "Foul Play",
         "Brutal Swing"
@@ -51673,6 +51814,7 @@
         "Fairy Wind"
       ],
       "charged_moves": [
+        "Metal Claw",
         "Stone Edge",
         "Flash Cannon",
         "Rock Tomb",
@@ -51681,6 +51823,7 @@
         "Play Rough",
         "Bulldoze",
         "Brick Break",
+        "Slam",
         "Rest",
         "Heavy Slam",
         "Foul Play",
@@ -51711,14 +51854,18 @@
       ],
       "charged_moves": [
         "Wrap",
+        "Sucker Punch",
         "Dig",
         "Ice Beam",
         "Blizzard",
         "Aqua Jet",
+        "Mud Shot",
         "Bulldoze",
         "Water Pulse",
         "Hydro Pump",
         "Swift",
+        "Headbutt",
+        "Slam",
         "Rest",
         "Foul Play",
         "Surf",
@@ -51756,14 +51903,18 @@
       "charged_moves": [
         "Wrap",
         "Hyper Beam",
+        "Sucker Punch",
         "Dig",
         "Ice Beam",
         "Blizzard",
         "Aqua Jet",
+        "Mud Shot",
         "Bulldoze",
         "Water Pulse",
         "Hydro Pump",
         "Swift",
+        "Headbutt",
+        "Slam",
         "Rest",
         "Foul Play",
         "Surf",
@@ -51799,10 +51950,15 @@
       "charged_moves": [
         "Hyper Beam",
         "Dark Pulse",
+        "Wing Attack",
+        "Sucker Punch",
         "Stone Edge",
+        "Peck",
+        "Air Slash",
         "Heat Wave",
         "Aerial Ace",
         "Drill Run",
+        "Rock Throw",
         "Rock Tomb",
         "Rock Slide",
         "Power Gem",
@@ -51940,12 +52096,16 @@
         "Take Down"
       ],
       "charged_moves": [
+        "Lick",
+        "Smog",
         "Sludge",
         "Flash Cannon",
+        "Poison Jab",
         "Iron Head",
         "Sludge Bomb",
         "Gunk Shot",
         "Bulldoze",
+        "Headbutt",
         "Body Slam",
         "Gyro Ball",
         "Acid Spray"
@@ -51981,12 +52141,16 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Lick",
+        "Smog",
         "Sludge",
         "Flash Cannon",
+        "Poison Jab",
         "Iron Head",
         "Sludge Bomb",
         "Gunk Shot",
         "Bulldoze",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Gyro Ball",
@@ -52032,6 +52196,7 @@
         "Thunderbolt",
         "Dragon Pulse",
         "Dragon Claw",
+        "Mud Shot",
         "Power Whip",
         "Body Slam",
         "Rest",
@@ -52041,7 +52206,8 @@
         "Crunch",
         "Draco Meteor",
         "Giga Impact",
-        "Acrobatics"
+        "Acrobatics",
+        "Breaking Swipe"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52076,6 +52242,7 @@
         "Rock Tomb",
         "Rock Slide",
         "Iron Head",
+        "Mud Shot",
         "Bulldoze",
         "Body Slam",
         "Rest",
@@ -52108,6 +52275,7 @@
       ],
       "charged_moves": [
         "Stone Edge",
+        "Rock Throw",
         "Ancient Power",
         "Rock Tomb",
         "Rock Slide",
@@ -52116,6 +52284,7 @@
         "Sludge Bomb",
         "Sludge Wave",
         "Gunk Shot",
+        "Mud Shot",
         "Rest",
         "Rock Blast",
         "Acid Spray"
@@ -52125,13 +52294,13 @@
       "attack": 187,
       "defense": 104,
       "stamina": 134,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 970
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "970": {
@@ -52152,6 +52321,7 @@
         "Hyper Beam",
         "Stone Edge",
         "Flash Cannon",
+        "Rock Throw",
         "Ancient Power",
         "Rock Tomb",
         "Rock Slide",
@@ -52160,6 +52330,7 @@
         "Sludge Bomb",
         "Sludge Wave",
         "Gunk Shot",
+        "Mud Shot",
         "Solar Beam",
         "Rest",
         "Rock Blast",
@@ -52194,16 +52365,20 @@
         "Hex",
         "Snarl",
         "Take Down",
+        "Yawn",
         "Charm",
         "Thunder Fang",
         "Ice Fang"
       ],
       "charged_moves": [
+        "Lick",
         "Dig",
         "Shadow Sneak",
         "Shadow Ball",
         "Play Rough",
+        "Mud Shot",
         "Bulldoze",
+        "Headbutt",
         "Rest",
         "Night Shade",
         "Crunch",
@@ -52247,10 +52422,13 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Lick",
         "Dig",
         "Shadow Ball",
         "Play Rough",
+        "Mud Shot",
         "Bulldoze",
+        "Headbutt",
         "Rest",
         "Night Shade",
         "Crunch",
@@ -52284,6 +52462,10 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Wing Attack",
+        "Low Kick",
+        "Peck",
+        "Air Slash",
         "Aerial Ace",
         "Low Sweep",
         "Water Pulse",
@@ -52319,6 +52501,7 @@
         "Tackle",
         "Powder Snow",
         "Take Down",
+        "Yawn",
         "Charm",
         "Ice Fang"
       ],
@@ -52330,6 +52513,7 @@
         "Play Rough",
         "Bulldoze",
         "Water Pulse",
+        "Ice Shard",
         "Icy Wind",
         "Body Slam",
         "Rest",
@@ -52341,13 +52525,13 @@
       "attack": 119,
       "defense": 80,
       "stamina": 239,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 975
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "975": {
@@ -52375,6 +52559,7 @@
         "Play Rough",
         "Bulldoze",
         "Water Pulse",
+        "Ice Shard",
         "Icy Wind",
         "Body Slam",
         "Rest",
@@ -52409,10 +52594,12 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Psycho Cut",
         "Ice Beam",
         "Blizzard",
         "Drill Run",
         "Night Slash",
+        "Slash",
         "Aqua Jet",
         "Water Pulse",
         "Hydro Pump",
@@ -52447,6 +52634,7 @@
         "Zen Headbutt",
         "Take Down",
         "Waterfall",
+        "Yawn",
         "Ice Fang"
       ],
       "charged_moves": [
@@ -52464,7 +52652,8 @@
         "Outrage",
         "Crunch",
         "Surf",
-        "Giga Impact"
+        "Giga Impact",
+        "Fissure"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52485,6 +52674,7 @@
       ],
       "quick_moves": [
         "Water Gun",
+        "Splash",
         "Counter",
         "Take Down"
       ],
@@ -52494,6 +52684,7 @@
         "Water Pulse",
         "Hydro Pump",
         "Icy Wind",
+        "Splash",
         "Rest",
         "Mirror Coat",
         "Outrage",
@@ -52530,15 +52721,18 @@
       "charged_moves": [
         "Hyper Beam",
         "Dig",
+        "Low Kick",
         "Cross Chop",
         "Earthquake",
         "Stone Edge",
         "Ice Punch",
+        "Poison Jab",
         "Low Sweep",
         "Seed Bomb",
         "Rock Tomb",
         "Rock Slide",
         "Shadow Punch",
+        "Shadow Claw",
         "Shadow Ball",
         "Thunder Punch",
         "Thunder",
@@ -52584,23 +52778,28 @@
         "Zen Headbutt",
         "Poison Sting",
         "Take Down",
-        "Waterfall"
+        "Waterfall",
+        "Yawn"
       ],
       "charged_moves": [
         "Hyper Beam",
         "Megahorn",
         "Dig",
+        "Low Kick",
         "Earthquake",
         "Stone Edge",
+        "Poison Jab",
         "Rock Tomb",
         "Rock Slide",
         "Iron Head",
         "Sludge Bomb",
         "Sludge Wave",
         "Gunk Shot",
+        "Mud Shot",
         "Bulldoze",
         "Water Pulse",
         "Hydro Pump",
+        "Slam",
         "Body Slam",
         "Rest",
         "Heavy Slam",
@@ -52637,6 +52836,7 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Low Kick",
         "Psybeam",
         "Earthquake",
         "Psyshock",
@@ -52684,6 +52884,7 @@
         "Air Slash",
         "Hex",
         "Take Down",
+        "Yawn",
         "Rollout"
       ],
       "charged_moves": [
@@ -52694,6 +52895,8 @@
         "Stone Edge",
         "Ice Beam",
         "Blizzard",
+        "Air Slash",
+        "Poison Jab",
         "Drill Run",
         "Ancient Power",
         "Rock Tomb",
@@ -52701,6 +52904,7 @@
         "Shadow Ball",
         "Thunder",
         "Thunderbolt",
+        "Mud Shot",
         "Bulldoze",
         "Fire Blast",
         "Solar Beam",
@@ -52745,14 +52949,21 @@
       "charged_moves": [
         "Hyper Beam",
         "Dark Pulse",
+        "Metal Claw",
         "Dig",
+        "Low Kick",
         "Stone Edge",
         "Flash Cannon",
+        "Air Slash",
+        "Poison Jab",
         "Aerial Ace",
         "Night Slash",
+        "Slash",
         "Low Sweep",
         "Rock Tomb",
+        "Shadow Claw",
         "Iron Head",
+        "Fury Cutter",
         "X Scissor",
         "Brick Break",
         "Rest",
@@ -52800,6 +53011,7 @@
         "Rock Slide",
         "Iron Head",
         "Play Rough",
+        "Mud Shot",
         "Bulldoze",
         "Brick Break",
         "Horn Attack",
@@ -52893,8 +53105,10 @@
       "charged_moves": [
         "Hyper Beam",
         "Dark Pulse",
+        "Sucker Punch",
         "Mega Drain",
         "Seed Bomb",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Body Slam",
@@ -52980,11 +53194,13 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Low Kick",
         "Earthquake",
         "Heat Wave",
         "Aerial Ace",
         "Bug Buzz",
         "Low Sweep",
+        "Bug Bite",
         "Flame Charge",
         "Giga Drain",
         "Hurricane",
@@ -52996,6 +53212,7 @@
         "Wild Charge",
         "Heavy Slam",
         "Lunge",
+        "Leech Life",
         "Giga Impact",
         "Acrobatics"
       ],
@@ -53030,8 +53247,10 @@
         "Discharge",
         "Flash Cannon",
         "Power Gem",
+        "Spark",
         "Thunder",
         "Thunderbolt",
+        "Mud Shot",
         "Bulldoze",
         "Swift",
         "Body Slam",
@@ -53081,6 +53300,7 @@
         "Rock Slide",
         "Iron Head",
         "Thunder",
+        "Mud Shot",
         "Bulldoze",
         "Horn Attack",
         "Body Slam",
@@ -53155,6 +53375,7 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Low Kick",
         "Earthquake",
         "Ice Punch",
         "Low Sweep",
@@ -53168,6 +53389,7 @@
         "Bulldoze",
         "Fire Punch",
         "Brick Break",
+        "Slam",
         "Body Slam",
         "Rest",
         "Close Combat",
@@ -53209,9 +53431,11 @@
         "Dark Pulse",
         "Flamethrower",
         "Flash Cannon",
+        "Air Slash",
         "Heat Wave",
         "Rock Tomb",
         "Iron Head",
+        "Dragon Breath",
         "Dragon Pulse",
         "Fire Blast",
         "Hydro Pump",
@@ -53259,6 +53483,7 @@
         "Flamethrower",
         "Discharge",
         "Flash Cannon",
+        "Air Slash",
         "Heat Wave",
         "Bug Buzz",
         "Dazzling Gleam",
@@ -53275,6 +53500,7 @@
         "Acid Spray",
         "Lunge",
         "Giga Impact",
+        "Fiery Dance",
         "Acrobatics"
       ],
       "gen_id": 9,
@@ -53310,13 +53536,16 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Metal Claw",
         "Flamethrower",
         "Dig",
+        "Low Kick",
         "Earthquake",
         "Stone Edge",
         "Ice Punch",
         "Ice Beam",
         "Blizzard",
+        "Rock Throw",
         "Rock Tomb",
         "Rock Slide",
         "Power Gem",
@@ -53369,6 +53598,7 @@
         "Ice Beam",
         "Blizzard",
         "Aqua Tail",
+        "Dragon Breath",
         "Dragon Pulse",
         "Dragon Claw",
         "Icy Wind",
@@ -53417,6 +53647,7 @@
         "Blizzard",
         "Aerial Ace",
         "Iron Head",
+        "Dragon Breath",
         "Dragon Pulse",
         "Dragon Claw",
         "Icy Wind",
@@ -53470,9 +53701,11 @@
         "Blizzard",
         "Aerial Ace",
         "Iron Head",
+        "Dragon Breath",
         "Dragon Pulse",
         "Dragon Claw",
         "Bulldoze",
+        "Ice Shard",
         "Icy Wind",
         "Brick Break",
         "Body Slam",
@@ -53481,7 +53714,8 @@
         "Outrage",
         "Crunch",
         "Draco Meteor",
-        "Giga Impact"
+        "Giga Impact",
+        "Breaking Swipe"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -53521,14 +53755,13 @@
       "attack": 121,
       "defense": 122,
       "stamina": 128,
-      "evolutions": [
-        {
-          "pokemon": 1000,
-          "form": 3000
-        }
-      ],
       "legendary": false,
       "mythic": false,
+      "evolutions": [
+        {
+          "pokemon": 1000
+        }
+      ],
       "little": true
     },
     "1000": {
@@ -53549,6 +53782,7 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Low Kick",
         "Flash Cannon",
         "Low Sweep",
         "Psyshock",
@@ -53604,6 +53838,8 @@
         "Dark Pulse",
         "Mega Drain",
         "Seed Bomb",
+        "Mud Shot",
+        "Absorb",
         "Giga Drain",
         "Solar Beam",
         "Power Whip",
@@ -53645,9 +53881,11 @@
       "charged_moves": [
         "Hyper Beam",
         "Dark Pulse",
+        "Sucker Punch",
         "Blizzard",
         "Aerial Ace",
         "Night Slash",
+        "Ice Shard",
         "Icy Wind",
         "Brick Break",
         "Rest",
@@ -53692,6 +53930,7 @@
         "Stone Edge",
         "Rock Tomb",
         "Rock Slide",
+        "Mud Shot",
         "Bulldoze",
         "Stomp",
         "Body Slam",
@@ -53700,6 +53939,7 @@
         "Heavy Slam",
         "Earth Power",
         "Giga Impact",
+        "Fissure",
         "Payback"
       ],
       "gen_id": 9,
@@ -53778,15 +54018,19 @@
       "charged_moves": [
         "Hyper Beam",
         "Dark Pulse",
+        "Metal Claw",
         "Flamethrower",
         "Dig",
         "Earthquake",
         "Stone Edge",
+        "Air Slash",
         "Heat Wave",
         "Aerial Ace",
         "Night Slash",
         "Rock Slide",
+        "Shadow Claw",
         "Iron Head",
+        "Dragon Breath",
         "Dragon Pulse",
         "Dragon Claw",
         "X Scissor",
@@ -53794,6 +54038,7 @@
         "Hydro Pump",
         "Hurricane",
         "Brick Break",
+        "Headbutt",
         "Body Slam",
         "Rest",
         "Outrage",
@@ -53801,7 +54046,8 @@
         "Draco Meteor",
         "Giga Impact",
         "Fly",
-        "Acrobatics"
+        "Acrobatics",
+        "Breaking Swipe"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -53833,17 +54079,22 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Low Kick",
+        "Psycho Cut",
         "Psybeam",
         "Ice Punch",
+        "Poison Jab",
         "Aerial Ace",
         "Night Slash",
         "Psyshock",
         "Shadow Sneak",
+        "Shadow Claw",
         "Shadow Ball",
         "Thunder Punch",
         "Thunderbolt",
         "Dazzling Gleam",
         "Moonblast",
+        "Fury Cutter",
         "X Scissor",
         "Psychic",
         "Icy Wind",
@@ -53897,12 +54148,15 @@
         "Hyper Beam",
         "Flamethrower",
         "Dig",
+        "Low Kick",
         "Heat Wave",
         "Low Sweep",
         "Ancient Power",
+        "Shadow Claw",
         "Iron Head",
         "Dragon Pulse",
         "Dragon Claw",
+        "Mud Shot",
         "Bulldoze",
         "Flame Charge",
         "Fire Blast",
@@ -53920,7 +54174,8 @@
         "Draco Meteor",
         "Drain Punch",
         "Giga Impact",
-        "Acrobatics"
+        "Acrobatics",
+        "Breaking Swipe"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -53957,6 +54212,7 @@
         "Parabolic Charge",
         "Thunder",
         "Thunderbolt",
+        "Dragon Breath",
         "Dragon Pulse",
         "Dragon Claw",
         "Dazzling Gleam",
