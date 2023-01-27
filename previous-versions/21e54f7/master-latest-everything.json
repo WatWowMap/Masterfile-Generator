@@ -27266,14 +27266,7 @@
         "1268": {
           "name": "Normal",
           "proto": "URSARING_NORMAL",
-          "form": 1268,
-          "evolutions": {
-            "901": {
-              "pokemon": 901,
-              "form": 0,
-              "candyCost": 100
-            }
-          }
+          "form": 1268
         },
         "1269": {
           "name": "Shadow",
@@ -27311,13 +27304,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "901": {
-          "pokemon": 901,
-          "form": 0,
-          "candyCost": 100
-        }
       }
     },
     "218": {
@@ -129719,13 +129705,6 @@
       "formName": "Normal",
       "proto": "URSARING_NORMAL",
       "formId": 1268,
-      "evolutions": [
-        {
-          "evoId": 901,
-          "formId": 0,
-          "candyCost": 100
-        }
-      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
