@@ -143234,27 +143234,19 @@
       "proto": "CHARACTER_BUG_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           {
-            "id": 451,
-            "formId": 1796
-          },
-          {
-            "id": 595,
-            "formId": 2177
+            "id": 213,
+            "formId": 827
           }
         ],
         "second": [
           {
-            "id": 14,
-            "formId": 619
-          },
-          {
-            "id": 15,
-            "formId": 622
+            "id": 451,
+            "formId": 1796
           }
         ],
         "third": [
@@ -143309,24 +143301,16 @@
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
-          {
-            "id": 198,
-            "formId": 855
-          },
           {
             "id": 509,
             "formId": 1931
           }
         ],
         "second": [
-          {
-            "id": 198,
-            "formId": 855
-          },
           {
             "id": 434,
             "formId": 791
@@ -143371,7 +143355,12 @@
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
+        "first": [
+          {
+            "id": 147,
+            "formId": 190
+          }
+        ],
         "second": [
           {
             "id": 330,
@@ -143470,6 +143459,10 @@
       "encounters": {
         "first": [
           {
+            "id": 107,
+            "formId": 277
+          },
+          {
             "id": 296,
             "formId": 1451
           }
@@ -143484,6 +143477,10 @@
           {
             "id": 106,
             "formId": 713
+          },
+          {
+            "id": 107,
+            "formId": 277
           }
         ]
       }
@@ -143517,20 +143514,11 @@
       "encounters": {
         "first": [
           {
-            "id": 155,
-            "formId": 1127
-          },
-          {
             "id": 322,
             "formId": 1517
           }
         ],
-        "second": [
-          {
-            "id": 156,
-            "formId": 1130
-          }
-        ],
+        "second": [],
         "third": [
           {
             "id": 157,
@@ -143572,8 +143560,8 @@
       "encounters": {
         "first": [
           {
-            "id": 177,
-            "formId": 1190
+            "id": 396,
+            "formId": 1658
           },
           {
             "id": 580,
@@ -143581,10 +143569,6 @@
           }
         ],
         "second": [
-          {
-            "id": 178,
-            "formId": 1193
-          },
           {
             "id": 397,
             "formId": 1661
@@ -143647,20 +143631,11 @@
       "encounters": {
         "first": [
           {
-            "id": 152,
-            "formId": 1118
-          },
-          {
             "id": 331,
             "formId": 610
           }
         ],
-        "second": [
-          {
-            "id": 153,
-            "formId": 1121
-          }
-        ],
+        "second": [],
         "third": [
           {
             "id": 332,
@@ -143702,10 +143677,6 @@
       "encounters": {
         "first": [
           {
-            "id": 74,
-            "formId": 67
-          },
-          {
             "id": 449,
             "formId": 888
           }
@@ -143716,12 +143687,7 @@
             "formId": 888
           }
         ],
-        "third": [
-          {
-            "id": 450,
-            "formId": 891
-          }
-        ]
+        "third": []
       }
     },
     "26": {
@@ -143737,19 +143703,11 @@
       "encounters": {
         "first": [
           {
-            "id": 37,
-            "formId": 56
-          },
-          {
             "id": 220,
             "formId": 1277
           }
         ],
         "second": [
-          {
-            "id": 38,
-            "formId": 58
-          },
           {
             "id": 459,
             "formId": 932
@@ -143805,37 +143763,14 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_METAL_GRUNT_MALE",
-      "active": true,
-      "firstReward": true,
+      "active": false,
+      "firstReward": false,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 50,
-            "formId": 60
-          },
-          {
-            "id": 304,
-            "formId": 1469
-          }
-        ],
-        "second": [
-          {
-            "id": 305,
-            "formId": 1472
-          },
-          {
-            "id": 375,
-            "formId": 767
-          }
-        ],
-        "third": [
-          {
-            "id": 306,
-            "formId": 1475
-          }
-        ]
+        "first": [],
+        "second": [],
+        "third": []
       }
     },
     "30": {
@@ -143862,27 +143797,27 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           {
-            "id": 504,
-            "formId": 1916
+            "id": 293,
+            "formId": 1442
           },
           {
-            "id": 519,
-            "formId": 1961
+            "id": 504,
+            "formId": 1916
           }
         ],
         "second": [
           {
-            "id": 20,
-            "formId": 47
-          },
-          {
             "id": 294,
             "formId": 1445
+          },
+          {
+            "id": 399,
+            "formId": 1667
           }
         ],
         "third": [
@@ -143905,10 +143840,14 @@
       "proto": "CHARACTER_POISON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
+          {
+            "id": 41,
+            "formId": 157
+          },
           {
             "id": 590,
             "formId": 2162
@@ -143968,19 +143907,10 @@
       "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 177,
-            "formId": 1190
-          },
-          {
-            "id": 325,
-            "formId": 1526
-          }
-        ],
+        "first": [],
         "second": [
           {
             "id": 280,
@@ -144023,24 +143953,16 @@
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           {
-            "id": 345,
-            "formId": 1568
-          },
-          {
-            "id": 347,
-            "formId": 1574
+            "id": 185,
+            "formId": 1202
           }
         ],
         "second": [
-          {
-            "id": 345,
-            "formId": 1568
-          },
           {
             "id": 347,
             "formId": 1574
@@ -144050,10 +143972,6 @@
           {
             "id": 95,
             "formId": 902
-          },
-          {
-            "id": 208,
-            "formId": 905
           }
         ]
       }
@@ -144071,25 +143989,12 @@
       "encounters": {
         "first": [
           {
-            "id": 158,
-            "formId": 1136
-          },
-          {
             "id": 320,
             "formId": 1511
           }
         ],
-        "second": [
-          {
-            "id": 159,
-            "formId": 1139
-          }
-        ],
+        "second": [],
         "third": [
-          {
-            "id": 160,
-            "formId": 1142
-          },
           {
             "id": 321,
             "formId": 1514
@@ -144147,18 +144052,18 @@
         "first": [],
         "second": [
           {
-            "id": 127,
-            "formId": 898
+            "id": 169,
+            "formId": 202
           },
           {
-            "id": 139,
-            "formId": 743
+            "id": 591,
+            "formId": 2165
           }
         ],
         "third": [
           {
-            "id": 319,
-            "formId": 737
+            "id": 248,
+            "formId": 319
           },
           {
             "id": 323,
@@ -144181,15 +144086,19 @@
         "first": [],
         "second": [
           {
-            "id": 208,
-            "formId": 905
+            "id": 373,
+            "formId": 761
           },
           {
-            "id": 346,
-            "formId": 1571
+            "id": 398,
+            "formId": 1664
           }
         ],
         "third": [
+          {
+            "id": 210,
+            "formId": 1256
+          },
           {
             "id": 212,
             "formId": 250
@@ -144211,12 +144120,12 @@
         "first": [],
         "second": [
           {
-            "id": 319,
-            "formId": 737
+            "id": 332,
+            "formId": 613
           },
           {
-            "id": 330,
-            "formId": 752
+            "id": 430,
+            "formId": 858
           }
         ],
         "third": [
@@ -144225,8 +144134,8 @@
             "formId": 232
           },
           {
-            "id": 275,
-            "formId": 631
+            "id": 346,
+            "formId": 1571
           }
         ]
       }
@@ -144245,8 +144154,12 @@
         "first": [],
         "second": [
           {
-            "id": 91,
-            "formId": 879
+            "id": 208,
+            "formId": 905
+          },
+          {
+            "id": 464,
+            "formId": 852
           }
         ],
         "third": []
@@ -144321,12 +144234,7 @@
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [
-          {
-            "id": 622,
-            "formId": 2258
-          }
-        ],
+        "first": [],
         "second": [
           {
             "id": 356,
@@ -144353,17 +144261,13 @@
       "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           {
             "id": 403,
             "formId": 1679
-          },
-          {
-            "id": 522,
-            "formId": 1970
           }
         ],
         "second": [
@@ -144374,12 +144278,12 @@
         ],
         "third": [
           {
-            "id": 405,
-            "formId": 1685
+            "id": 181,
+            "formId": 652
           },
           {
-            "id": 523,
-            "formId": 1973
+            "id": 405,
+            "formId": 1685
           }
         ]
       }
