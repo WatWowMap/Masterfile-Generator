@@ -34326,7 +34326,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -34448,7 +34447,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -34579,7 +34577,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -34594,8 +34591,7 @@
             "defense": 229,
             "stamina": 169
           },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "unreleased": true
         }
       }
     },
@@ -56217,7 +56213,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -124604,6 +124599,8 @@
       "formName": "Normal",
       "proto": "GARDEVOIR_NORMAL",
       "formId": 298,
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -124611,18 +124608,8 @@
           "defense": 229,
           "stamina": 169,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 326,
-          "defense": 229,
-          "stamina": 169,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
-      ],
-      "purificationDust": 5000,
-      "purificationCandy": 5
+      ]
     },
     "299": {
       "formName": "Shadow",
@@ -124640,14 +124627,6 @@
           "defense": 229,
           "stamina": 169,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 326,
-          "defense": 229,
-          "stamina": 169,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -143491,10 +143470,6 @@
       "encounters": {
         "first": [
           {
-            "id": 107,
-            "formId": 277
-          },
-          {
             "id": 296,
             "formId": 1451
           }
@@ -143509,10 +143484,6 @@
           {
             "id": 106,
             "formId": 713
-          },
-          {
-            "id": 107,
-            "formId": 277
           }
         ]
       }
@@ -143746,10 +143717,6 @@
           }
         ],
         "third": [
-          {
-            "id": 323,
-            "formId": 1520
-          },
           {
             "id": 450,
             "formId": 891
@@ -144226,10 +144193,6 @@
           {
             "id": 212,
             "formId": 250
-          },
-          {
-            "id": 348,
-            "formId": 1577
           }
         ]
       }

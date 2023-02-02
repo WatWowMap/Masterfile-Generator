@@ -18116,16 +18116,6 @@
             "baseStamina": 169
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 326,
-            "baseDefense": 229,
-            "baseStamina": 169
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -18162,16 +18152,6 @@
             "baseStamina": 169
           },
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 326,
-            "baseDefense": 229,
-            "baseStamina": 169
-          },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -56554,7 +56534,6 @@
       "encounters": {
         "first": [
           106,
-          107,
           296
         ],
         "second": [
@@ -56563,8 +56542,7 @@
         ],
         "third": [
           68,
-          106,
-          107
+          106
         ]
       }
     },
@@ -56725,7 +56703,6 @@
         ],
         "third": [
           76,
-          323,
           450
         ]
       }
@@ -57050,8 +57027,7 @@
         ],
         "third": [
           6,
-          212,
-          348
+          212
         ]
       }
     },
