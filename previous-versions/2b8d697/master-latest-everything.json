@@ -45497,6 +45497,11 @@
       "genId": 3,
       "generation": "Hoenn",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "1631": {
           "name": "Normal",
           "proto": "LATIAS_NORMAL",
@@ -45525,12 +45530,7 @@
         "2821": {
           "name": "S",
           "proto": "LATIAS_S",
-          "form": 2821,
-          "tempEvolutions": {
-            "1": {
-              "tempEvoId": 1
-            }
-          }
+          "form": 2821
         }
       },
       "stats": {
@@ -45628,6 +45628,11 @@
       "genId": 3,
       "generation": "Hoenn",
       "forms": {
+        "0": {
+          "name": "Unset",
+          "proto": "FORM_UNSET",
+          "form": 0
+        },
         "1634": {
           "name": "Normal",
           "proto": "LATIOS_NORMAL",
@@ -45656,12 +45661,7 @@
         "2822": {
           "name": "S",
           "proto": "LATIOS_S",
-          "form": 2822,
-          "tempEvolutions": {
-            "1": {
-              "tempEvoId": 1
-            }
-          }
+          "form": 2822
         }
       },
       "stats": {
@@ -131884,9 +131884,7 @@
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      ]
     },
     "1632": {
       "formName": "Shadow",
@@ -131925,9 +131923,7 @@
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      ]
     },
     "1635": {
       "formName": "Shadow",
@@ -138410,40 +138406,12 @@
     "2821": {
       "formName": "S",
       "proto": "LATIAS_S",
-      "formId": 2821,
-      "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 289,
-          "defense": 297,
-          "stamina": 190,
-          "height": 1.8,
-          "weight": 52,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
-        }
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2821
     },
     "2822": {
       "formName": "S",
       "proto": "LATIOS_S",
-      "formId": 2822,
-      "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 335,
-          "defense": 241,
-          "stamina": 190,
-          "height": 2.3,
-          "weight": 70,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
-        }
-      ],
-      "purificationDust": 20000,
-      "purificationCandy": 20
+      "formId": 2822
     },
     "2998": {
       "formName": "Normal",
