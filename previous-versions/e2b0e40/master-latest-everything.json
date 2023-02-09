@@ -45765,9 +45765,6 @@
           "proto": "KYOGRE_NORMAL",
           "form": 1637,
           "tempEvolutions": {
-            "4": {
-              "tempEvoId": 4
-            },
             "Primal": {
               "tempEvoId": "Primal"
             }
@@ -45783,9 +45780,6 @@
           "proto": "KYOGRE_PURIFIED",
           "form": 1639,
           "tempEvolutions": {
-            "4": {
-              "tempEvoId": 4
-            },
             "Primal": {
               "tempEvoId": "Primal"
             }
@@ -45810,25 +45804,12 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 20,
-        "buddyMegaEnergy": 100,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
       },
       "tempEvolutions": {
-        "4": {
-          "tempEvoId": 4,
-          "stats": {
-            "attack": 353,
-            "defense": 268,
-            "stamina": 218
-          },
-          "height": 9.8,
-          "weight": 430,
-          "firstEnergyCost": 400,
-          "subsequentEnergyCost": 80
-        },
         "Primal": {
           "tempEvoId": "Primal",
           "stats": {
@@ -45902,9 +45883,6 @@
           "proto": "GROUDON_NORMAL",
           "form": 1640,
           "tempEvolutions": {
-            "4": {
-              "tempEvoId": 4
-            },
             "Primal": {
               "tempEvoId": "Primal"
             }
@@ -45920,9 +45898,6 @@
           "proto": "GROUDON_PURIFIED",
           "form": 1642,
           "tempEvolutions": {
-            "4": {
-              "tempEvoId": 4
-            },
             "Primal": {
               "tempEvoId": "Primal"
             }
@@ -45947,35 +45922,12 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 20,
-        "buddyMegaEnergy": 100,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
       },
       "tempEvolutions": {
-        "4": {
-          "tempEvoId": 4,
-          "stats": {
-            "attack": 353,
-            "defense": 268,
-            "stamina": 218
-          },
-          "height": 5,
-          "weight": 999.7,
-          "types": {
-            "5": {
-              "typeId": 5,
-              "typeName": "Ground"
-            },
-            "10": {
-              "typeId": 10,
-              "typeName": "Fire"
-            }
-          },
-          "firstEnergyCost": 400,
-          "subsequentEnergyCost": 80
-        },
         "Primal": {
           "tempEvoId": "Primal",
           "stats": {
@@ -132010,16 +131962,6 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 4,
-          "attack": 353,
-          "defense": 268,
-          "stamina": 218,
-          "height": 9.8,
-          "weight": 430,
-          "firstEnergyCost": 400,
-          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -132039,16 +131981,6 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 4,
-          "attack": 353,
-          "defense": 268,
-          "stamina": 218,
-          "height": 9.8,
-          "weight": 430,
-          "firstEnergyCost": 400,
-          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -132067,20 +131999,6 @@
             10
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 4,
-          "attack": 353,
-          "defense": 268,
-          "stamina": 218,
-          "height": 5,
-          "weight": 999.7,
-          "types": [
-            5,
-            10
-          ],
-          "firstEnergyCost": 400,
-          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -132104,20 +132022,6 @@
             10
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 4,
-          "attack": 353,
-          "defense": 268,
-          "stamina": 218,
-          "height": 5,
-          "weight": 999.7,
-          "types": [
-            5,
-            10
-          ],
-          "firstEnergyCost": 400,
-          "subsequentEnergyCost": 80
         }
       ]
     },
