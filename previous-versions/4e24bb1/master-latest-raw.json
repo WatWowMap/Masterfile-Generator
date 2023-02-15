@@ -14075,6 +14075,13 @@
           "attack": 326,
           "defense": 229,
           "stamina": 169,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 229,
+          "stamina": 169,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -43272,13 +43279,13 @@
       "defense": 96,
       "stamina": 167,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 910
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "910": {
@@ -43323,13 +43330,13 @@
       "defense": 134,
       "stamina": 191,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 911
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "911": {
@@ -43423,13 +43430,13 @@
       "defense": 86,
       "stamina": 146,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 913
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "913": {
@@ -43559,13 +43566,13 @@
       "defense": 79,
       "stamina": 144,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 916
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "916": {
@@ -43641,13 +43648,13 @@
       "defense": 77,
       "stamina": 111,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 918
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "918": {
@@ -43719,13 +43726,13 @@
       "defense": 65,
       "stamina": 107,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 920
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "920": {
@@ -43805,13 +43812,13 @@
       "defense": 45,
       "stamina": 128,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 922
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "922": {
@@ -44044,13 +44051,13 @@
       "defense": 126,
       "stamina": 114,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 927
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "927": {
@@ -44130,13 +44137,13 @@
       "defense": 89,
       "stamina": 121,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 929
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "929": {
@@ -44661,13 +44668,13 @@
       "defense": 75,
       "stamina": 120,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 941
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "941": {
@@ -44834,13 +44841,13 @@
       "defense": 70,
       "stamina": 120,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 945
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "945": {
@@ -45145,13 +45152,13 @@
       "defense": 76,
       "stamina": 137,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 952
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "952": {
@@ -45229,13 +45236,13 @@
       "defense": 108,
       "stamina": 121,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 954
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "954": {
@@ -45320,13 +45327,13 @@
       "defense": 60,
       "stamina": 102,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 956
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "956": {
@@ -45411,13 +45418,13 @@
       "defense": 110,
       "stamina": 137,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 958
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "958": {
@@ -45536,13 +45543,13 @@
       "defense": 52,
       "stamina": 67,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 961
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "961": {
@@ -45667,8 +45674,7 @@
         131,
         132,
         284,
-        364,
-        380
+        364
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -45768,13 +45774,13 @@
       "defense": 107,
       "stamina": 128,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 966
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "966": {
@@ -45855,8 +45861,7 @@
         279,
         285,
         321,
-        364,
-        379
+        364
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -46034,13 +46039,13 @@
       "defense": 106,
       "stamina": 137,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 972
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "972": {
@@ -46541,8 +46546,7 @@
         268,
         277,
         304,
-        321,
-        380
+        321
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -46697,8 +46701,7 @@
         279,
         314,
         321,
-        353,
-        380
+        353
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -47281,13 +47284,13 @@
       "defense": 128,
       "stamina": 207,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 998
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "998": {
@@ -47329,8 +47332,7 @@
         277,
         279,
         285,
-        321,
-        379
+        321
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -47369,14 +47371,14 @@
       "defense": 122,
       "stamina": 128,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 1000,
           "formId": 3000
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "1000": {
@@ -47651,8 +47653,7 @@
         285,
         321,
         341,
-        364,
-        379
+        364
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -47773,8 +47774,7 @@
         285,
         314,
         321,
-        364,
-        379
+        364
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -50661,6 +50661,13 @@
           "attack": 326,
           "defense": 229,
           "stamina": 169,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 229,
+          "stamina": 169,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -50678,6 +50685,13 @@
       "proto": "GARDEVOIR_PURIFIED",
       "formId": 300,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 229,
+          "stamina": 169,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 326,

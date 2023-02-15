@@ -45763,7 +45763,15 @@
         "1637": {
           "name": "Normal",
           "proto": "KYOGRE_NORMAL",
-          "form": 1637
+          "form": 1637,
+          "tempEvolutions": {
+            "4": {
+              "tempEvoId": 4
+            },
+            "Primal": {
+              "tempEvoId": "Primal"
+            }
+          }
         },
         "1638": {
           "name": "Shadow",
@@ -45773,7 +45781,15 @@
         "1639": {
           "name": "Purified",
           "proto": "KYOGRE_PURIFIED",
-          "form": 1639
+          "form": 1639,
+          "tempEvolutions": {
+            "4": {
+              "tempEvoId": 4
+            },
+            "Primal": {
+              "tempEvoId": "Primal"
+            }
+          }
         }
       },
       "stats": {
@@ -45812,6 +45828,15 @@
           "weight": 430,
           "firstEnergyCost": 400,
           "subsequentEnergyCost": 80
+        },
+        "Primal": {
+          "tempEvoId": "Primal",
+          "stats": {
+            "attack": 364,
+            "defense": 276,
+            "stamina": 225
+          },
+          "unreleased": true
         }
       }
     },
@@ -45875,7 +45900,15 @@
         "1640": {
           "name": "Normal",
           "proto": "GROUDON_NORMAL",
-          "form": 1640
+          "form": 1640,
+          "tempEvolutions": {
+            "4": {
+              "tempEvoId": 4
+            },
+            "Primal": {
+              "tempEvoId": "Primal"
+            }
+          }
         },
         "1641": {
           "name": "Shadow",
@@ -45885,7 +45918,15 @@
         "1642": {
           "name": "Purified",
           "proto": "GROUDON_PURIFIED",
-          "form": 1642
+          "form": 1642,
+          "tempEvolutions": {
+            "4": {
+              "tempEvoId": 4
+            },
+            "Primal": {
+              "tempEvoId": "Primal"
+            }
+          }
         }
       },
       "stats": {
@@ -45934,6 +45975,25 @@
           },
           "firstEnergyCost": 400,
           "subsequentEnergyCost": 80
+        },
+        "Primal": {
+          "tempEvoId": "Primal",
+          "stats": {
+            "attack": 364,
+            "defense": 276,
+            "stamina": 225
+          },
+          "types": {
+            "5": {
+              "typeId": 5,
+              "typeName": "Ground"
+            },
+            "10": {
+              "typeId": 10,
+              "typeName": "Fire"
+            }
+          },
+          "unreleased": true
         }
       }
     },
@@ -102636,14 +102696,14 @@
         "stamina": 167
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "910": {
           "pokemon": 910,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "910": {
@@ -102843,14 +102903,14 @@
         "stamina": 191
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "911": {
           "pokemon": 911,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "911": {
@@ -103275,14 +103335,14 @@
         "stamina": 146
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "913": {
           "pokemon": 913,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "913": {
@@ -103809,14 +103869,14 @@
         "stamina": 144
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "916": {
           "pokemon": 916,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "916": {
@@ -104118,14 +104178,14 @@
         "stamina": 111
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "918": {
           "pokemon": 918,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "918": {
@@ -104399,14 +104459,14 @@
         "stamina": 107
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "920": {
           "pokemon": 920,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "920": {
@@ -104733,14 +104793,14 @@
         "stamina": 128
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "922": {
           "pokemon": 922,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "922": {
@@ -105720,14 +105780,14 @@
         "stamina": 114
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "927": {
           "pokemon": 927,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "927": {
@@ -106054,14 +106114,14 @@
         "stamina": 121
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "929": {
           "pokemon": 929,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "929": {
@@ -108146,14 +108206,14 @@
         "stamina": 120
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "941": {
           "pokemon": 941,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "941": {
@@ -108821,14 +108881,14 @@
         "stamina": 120
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "945": {
           "pokemon": 945,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "945": {
@@ -110073,14 +110133,14 @@
         "stamina": 137
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "952": {
           "pokemon": 952,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "952": {
@@ -110393,14 +110453,14 @@
         "stamina": 121
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "954": {
           "pokemon": 954,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "954": {
@@ -110762,14 +110822,14 @@
         "stamina": 102
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "956": {
           "pokemon": 956,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "956": {
@@ -111131,14 +111191,14 @@
         "stamina": 137
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "958": {
           "pokemon": 958,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "958": {
@@ -111585,14 +111645,14 @@
         "stamina": 67
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "961": {
           "pokemon": 961,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "961": {
@@ -112165,13 +112225,6 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
-        },
-        "380": {
-          "moveId": 380,
-          "moveName": "Boomburst",
-          "proto": "BOOMBURST",
-          "type": 1,
-          "power": 150
         }
       },
       "genId": 9,
@@ -112558,14 +112611,14 @@
         "stamina": 128
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "966": {
           "pokemon": 966,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "966": {
@@ -112942,13 +112995,6 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
-        },
-        "379": {
-          "moveId": 379,
-          "moveName": "Breaking Swipe",
-          "proto": "BREAKING_SWIPE",
-          "type": 16,
-          "power": 50
         }
       },
       "genId": 9,
@@ -113648,14 +113694,14 @@
         "stamina": 137
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "972": {
           "pokemon": 972,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "972": {
@@ -115890,13 +115936,6 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
-        },
-        "380": {
-          "moveId": 380,
-          "moveName": "Boomburst",
-          "proto": "BOOMBURST",
-          "type": 1,
-          "power": 150
         }
       },
       "genId": 9,
@@ -116628,13 +116667,6 @@
           "proto": "PSYCHIC_FANGS",
           "type": 14,
           "power": 40
-        },
-        "380": {
-          "moveId": 380,
-          "moveName": "Boomburst",
-          "proto": "BOOMBURST",
-          "type": 1,
-          "power": 150
         }
       },
       "genId": 9,
@@ -119219,14 +119251,14 @@
         "stamina": 207
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "998": {
           "pokemon": 998,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "998": {
@@ -119448,13 +119480,6 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
-        },
-        "379": {
-          "moveId": 379,
-          "moveName": "Breaking Swipe",
-          "proto": "BREAKING_SWIPE",
-          "type": 16,
-          "power": 50
         }
       },
       "genId": 9,
@@ -119558,14 +119583,14 @@
         "stamina": 128
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "1000": {
           "pokemon": 1000,
           "form": 3000
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "1000": {
@@ -120819,13 +120844,6 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
-        },
-        "379": {
-          "moveId": 379,
-          "moveName": "Breaking Swipe",
-          "proto": "BREAKING_SWIPE",
-          "type": 16,
-          "power": 50
         }
       },
       "genId": 9,
@@ -121437,13 +121455,6 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
-        },
-        "379": {
-          "moveId": 379,
-          "moveName": "Breaking Swipe",
-          "proto": "BREAKING_SWIPE",
-          "type": 16,
-          "power": 50
         }
       },
       "genId": 9,
@@ -124647,6 +124658,13 @@
           "attack": 326,
           "defense": 229,
           "stamina": 169,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 229,
+          "stamina": 169,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -124664,6 +124682,13 @@
       "proto": "GARDEVOIR_PURIFIED",
       "formId": 300,
       "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 229,
+          "stamina": 169,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 326,
@@ -131977,7 +132002,26 @@
     "1637": {
       "formName": "Normal",
       "proto": "KYOGRE_NORMAL",
-      "formId": 1637
+      "formId": 1637,
+      "tempEvolutions": [
+        {
+          "tempEvoId": "Primal",
+          "attack": 364,
+          "defense": 276,
+          "stamina": 225,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 4,
+          "attack": 353,
+          "defense": 268,
+          "stamina": 218,
+          "height": 9.8,
+          "weight": 430,
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
+        }
+      ]
     },
     "1638": {
       "formName": "Shadow",
@@ -131987,12 +132031,58 @@
     "1639": {
       "formName": "Purified",
       "proto": "KYOGRE_PURIFIED",
-      "formId": 1639
+      "formId": 1639,
+      "tempEvolutions": [
+        {
+          "tempEvoId": "Primal",
+          "attack": 364,
+          "defense": 276,
+          "stamina": 225,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 4,
+          "attack": 353,
+          "defense": 268,
+          "stamina": 218,
+          "height": 9.8,
+          "weight": 430,
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
+        }
+      ]
     },
     "1640": {
       "formName": "Normal",
       "proto": "GROUDON_NORMAL",
-      "formId": 1640
+      "formId": 1640,
+      "tempEvolutions": [
+        {
+          "tempEvoId": "Primal",
+          "attack": 364,
+          "defense": 276,
+          "stamina": 225,
+          "types": [
+            5,
+            10
+          ],
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 4,
+          "attack": 353,
+          "defense": 268,
+          "stamina": 218,
+          "height": 5,
+          "weight": 999.7,
+          "types": [
+            5,
+            10
+          ],
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
+        }
+      ]
     },
     "1641": {
       "formName": "Shadow",
@@ -132002,7 +132092,34 @@
     "1642": {
       "formName": "Purified",
       "proto": "GROUDON_PURIFIED",
-      "formId": 1642
+      "formId": 1642,
+      "tempEvolutions": [
+        {
+          "tempEvoId": "Primal",
+          "attack": 364,
+          "defense": 276,
+          "stamina": 225,
+          "types": [
+            5,
+            10
+          ],
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 4,
+          "attack": 353,
+          "defense": 268,
+          "stamina": 218,
+          "height": 5,
+          "weight": 999.7,
+          "types": [
+            5,
+            10
+          ],
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
+        }
+      ]
     },
     "1643": {
       "formName": "Normal",
