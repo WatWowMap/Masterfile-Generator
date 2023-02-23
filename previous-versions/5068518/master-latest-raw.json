@@ -15302,7 +15302,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -15356,7 +15355,6 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
-      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -15369,14 +15367,6 @@
           "defense": 179,
           "stamina": 155,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
-          "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -56924,14 +56914,6 @@
           "defense": 179,
           "stamina": 155,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
-          "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -56951,14 +56933,6 @@
           "defense": 179,
           "stamina": 155,
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
-          "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -67242,13 +67216,6 @@
       "proto": "BOOMBURST",
       "type": 1,
       "power": 150
-    },
-    "381": {
-      "moveId": 381,
-      "moveName": "Double Iron Bash",
-      "proto": "DOUBLE_IRON_BASH",
-      "type": 9,
-      "power": 50
     }
   },
   "questTypes": {

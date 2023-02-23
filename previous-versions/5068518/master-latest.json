@@ -18470,7 +18470,8 @@
         "1": {
           "attack": 205,
           "defense": 179,
-          "stamina": 155
+          "stamina": 155,
+          "unreleased": true
         }
       }
     },
@@ -56684,9 +56685,7 @@
     },
     "381": {
       "name": "Double Iron Bash",
-      "proto": "DOUBLE_IRON_BASH",
-      "type": "Steel",
-      "power": 50
+      "proto": "DOUBLE_IRON_BASH"
     }
   },
   "quest_types": {
