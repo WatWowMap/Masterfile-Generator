@@ -53540,10 +53540,16 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Astonish"
+        "Tackle",
+        "Astonish",
+        "Hex",
+        "Take Down"
       ],
       "charged_moves": [
-        "Shadow Ball"
+        "Power Gem",
+        "Shadow Ball",
+        "Rest",
+        "Night Shade"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -53556,22 +53562,9 @@
       "attack": 121,
       "defense": 122,
       "stamina": 128,
-      "height": 0.1,
-      "weight": 0.1,
-      "family": 999,
-      "flee_rate": 0.5,
-      "capture_rate": 0.03,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 1,
-      "buddy_distance": 5,
-      "third_move_stardust": 10000,
-      "third_move_candy": 25,
-      "gym_defender_eligible": true,
       "evolutions": [
-        {
-          "pokemon": 1000
-        },
         {
           "pokemon": 1000,
           "form": 3000
@@ -53588,13 +53581,31 @@
         "Steel"
       ],
       "quick_moves": [
+        "Low Kick",
+        "Tackle",
+        "Charge Beam",
         "Astonish",
-        "Hex"
+        "Hex",
+        "Take Down"
       ],
       "charged_moves": [
+        "Hyper Beam",
+        "Flash Cannon",
+        "Low Sweep",
+        "Psyshock",
+        "Power Gem",
         "Shadow Ball",
+        "Iron Head",
+        "Thunder Punch",
+        "Thunder",
+        "Thunderbolt",
         "Dazzling Gleam",
-        "Focus Blast"
+        "Psychic",
+        "Rest",
+        "Focus Blast",
+        "Night Shade",
+        "Heavy Slam",
+        "Giga Impact"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -53607,18 +53618,8 @@
       "attack": 252,
       "defense": 190,
       "stamina": 202,
-      "height": 1.2,
-      "weight": 30,
-      "family": 999,
-      "flee_rate": 0.5,
-      "capture_rate": 0.03,
       "legendary": false,
-      "mythic": false,
-      "buddy_group_number": 2,
-      "buddy_distance": 5,
-      "third_move_stardust": 10000,
-      "third_move_candy": 25,
-      "gym_defender_eligible": true
+      "mythic": false
     },
     "1001": {
       "name": "Wo-chien",
@@ -54723,8 +54724,8 @@
     "1150": {
       "name": "Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
+      "type": "Global Event Ticket",
+      "category": "Utilites",
       "min_trainer_level": 10
     },
     "1201": {

@@ -33184,23 +33184,25 @@
         8
       ],
       "quickMoves": [
-        263
+        221,
+        263,
+        264,
+        282
       ],
       "chargedMoves": [
-        70
+        65,
+        70,
+        132,
+        265
       ],
       "genId": 9,
       "generation": "Paldea",
       "forms": {
         "0": {}
       },
-      "height": 0.1,
-      "weight": 0.1,
-      "family": 999,
+      "unreleased": true,
       "legendary": false,
-      "mythical": false,
-      "ultraBeast": false,
-      "unreleased": true
+      "mythical": false
     },
     "1000": {
       "name": "Gholdengo",
@@ -33211,26 +33213,40 @@
         9
       ],
       "quickMoves": [
+        207,
+        221,
+        249,
         263,
-        264
+        264,
+        282
       ],
       "chargedMoves": [
+        14,
+        36,
+        56,
+        60,
+        65,
         70,
+        74,
+        77,
+        78,
+        79,
         86,
-        247
+        108,
+        132,
+        247,
+        265,
+        268,
+        321
       ],
       "genId": 9,
       "generation": "Paldea",
       "forms": {
         "0": {}
       },
-      "height": 1.2,
-      "weight": 30,
-      "family": 999,
+      "unreleased": true,
       "legendary": false,
-      "mythical": false,
-      "ultraBeast": false,
-      "unreleased": true
+      "mythical": false
     },
     "1001": {
       "name": "Wo-chien",

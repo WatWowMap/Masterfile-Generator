@@ -119482,21 +119482,63 @@
         }
       },
       "quickMoves": {
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 3
+        },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
           "power": 5
+        },
+        "264": {
+          "moveId": 264,
+          "moveName": "Hex",
+          "proto": "HEX_FAST",
+          "type": 8,
+          "power": 6
+        },
+        "282": {
+          "moveId": 282,
+          "moveName": "Take Down",
+          "proto": "TAKE_DOWN_FAST",
+          "type": 1,
+          "power": 5
         }
       },
       "chargedMoves": {
+        "65": {
+          "moveId": 65,
+          "moveName": "Power Gem",
+          "proto": "POWER_GEM",
+          "type": 6,
+          "power": 80
+        },
         "70": {
           "moveId": 70,
           "moveName": "Shadow Ball",
           "proto": "SHADOW_BALL",
           "type": 8,
           "power": 100
+        },
+        "132": {
+          "moveId": 132,
+          "moveName": "Rest",
+          "proto": "REST",
+          "type": 1,
+          "power": 50
+        },
+        "265": {
+          "moveId": 265,
+          "moveName": "Night Shade",
+          "proto": "NIGHT_SHADE",
+          "type": 8,
+          "power": 60
         }
       },
       "genId": 9,
@@ -119518,32 +119560,15 @@
         "defense": 122,
         "stamina": 128
       },
-      "height": 0.1,
-      "weight": 0.1,
-      "family": 999,
-      "encounter": {
-        "fleeRate": 0.5,
-        "captureRate": 0.03
-      },
+      "unreleased": true,
       "legendary": false,
       "mythic": false,
-      "ultraBeast": false,
-      "misc": {
-        "buddyGroupNumber": 1,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
       "evolutions": {
         "1000": {
           "pokemon": 1000,
           "form": 3000
         }
       },
-      "unreleased": true,
       "little": true
     },
     "1000": {
@@ -119561,6 +119586,27 @@
         }
       },
       "quickMoves": {
+        "207": {
+          "moveId": 207,
+          "moveName": "Low Kick",
+          "proto": "LOW_KICK_FAST",
+          "type": 2,
+          "power": 4
+        },
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 3
+        },
+        "249": {
+          "moveId": 249,
+          "moveName": "Charge Beam",
+          "proto": "CHARGE_BEAM_FAST",
+          "type": 13,
+          "power": 5
+        },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
@@ -119574,15 +119620,85 @@
           "proto": "HEX_FAST",
           "type": 8,
           "power": 6
+        },
+        "282": {
+          "moveId": 282,
+          "moveName": "Take Down",
+          "proto": "TAKE_DOWN_FAST",
+          "type": 1,
+          "power": 5
         }
       },
       "chargedMoves": {
+        "14": {
+          "moveId": 14,
+          "moveName": "Hyper Beam",
+          "proto": "HYPER_BEAM",
+          "type": 1,
+          "power": 150
+        },
+        "36": {
+          "moveId": 36,
+          "moveName": "Flash Cannon",
+          "proto": "FLASH_CANNON",
+          "type": 9,
+          "power": 110
+        },
+        "56": {
+          "moveId": 56,
+          "moveName": "Low Sweep",
+          "proto": "LOW_SWEEP",
+          "type": 2,
+          "power": 40
+        },
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
+          "type": 14,
+          "power": 70
+        },
+        "65": {
+          "moveId": 65,
+          "moveName": "Power Gem",
+          "proto": "POWER_GEM",
+          "type": 6,
+          "power": 80
+        },
         "70": {
           "moveId": 70,
           "moveName": "Shadow Ball",
           "proto": "SHADOW_BALL",
           "type": 8,
           "power": 100
+        },
+        "74": {
+          "moveId": 74,
+          "moveName": "Iron Head",
+          "proto": "IRON_HEAD",
+          "type": 9,
+          "power": 70
+        },
+        "77": {
+          "moveId": 77,
+          "moveName": "Thunder Punch",
+          "proto": "THUNDER_PUNCH",
+          "type": 13,
+          "power": 55
+        },
+        "78": {
+          "moveId": 78,
+          "moveName": "Thunder",
+          "proto": "THUNDER",
+          "type": 13,
+          "power": 100
+        },
+        "79": {
+          "moveId": 79,
+          "moveName": "Thunderbolt",
+          "proto": "THUNDERBOLT",
+          "type": 13,
+          "power": 90
         },
         "86": {
           "moveId": 86,
@@ -119591,11 +119707,46 @@
           "type": 18,
           "power": 110
         },
+        "108": {
+          "moveId": 108,
+          "moveName": "Psychic",
+          "proto": "PSYCHIC",
+          "type": 14,
+          "power": 90
+        },
+        "132": {
+          "moveId": 132,
+          "moveName": "Rest",
+          "proto": "REST",
+          "type": 1,
+          "power": 50
+        },
         "247": {
           "moveId": 247,
           "moveName": "Focus Blast",
           "proto": "FOCUS_BLAST",
           "type": 2,
+          "power": 150
+        },
+        "265": {
+          "moveId": 265,
+          "moveName": "Night Shade",
+          "proto": "NIGHT_SHADE",
+          "type": 8,
+          "power": 60
+        },
+        "268": {
+          "moveId": 268,
+          "moveName": "Heavy Slam",
+          "proto": "HEAVY_SLAM",
+          "type": 9,
+          "power": 70
+        },
+        "321": {
+          "moveId": 321,
+          "moveName": "Giga Impact",
+          "proto": "GIGA_IMPACT",
+          "type": 1,
           "power": 150
         }
       },
@@ -119618,26 +119769,9 @@
         "defense": 190,
         "stamina": 202
       },
-      "height": 1.2,
-      "weight": 30,
-      "family": 999,
-      "encounter": {
-        "fleeRate": 0.5,
-        "captureRate": 0.03
-      },
+      "unreleased": true,
       "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "misc": {
-        "buddyGroupNumber": 2,
-        "buddyDistance": 5,
-        "thirdMoveStardust": 10000,
-        "thirdMoveCandy": 25,
-        "gymDefenderEligible": true,
-        "tradable": true,
-        "transferable": true
-      },
-      "unreleased": true
+      "mythic": false
     },
     "1001": {
       "name": "Wo-chien",
@@ -140344,8 +140478,8 @@
       "id": 1150,
       "name": "?????? Coin",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
+      "type": "Global Event Ticket",
+      "category": "Utilites",
       "minTrainerLevel": 10
     },
     "1201": {

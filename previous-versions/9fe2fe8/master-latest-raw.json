@@ -47359,10 +47359,16 @@
         8
       ],
       "quickMoves": [
-        263
+        221,
+        263,
+        264,
+        282
       ],
       "chargedMoves": [
-        70
+        65,
+        70,
+        132,
+        265
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -47372,32 +47378,15 @@
       "attack": 121,
       "defense": 122,
       "stamina": 128,
-      "height": 0.1,
-      "weight": 0.1,
-      "family": 999,
-      "fleeRate": 0.5,
-      "captureRate": 0.03,
+      "unreleased": true,
       "legendary": false,
       "mythic": false,
-      "ultraBeast": false,
-      "buddyGroupNumber": 1,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
       "evolutions": [
-        {
-          "evoId": 1000,
-          "itemRequirement": 1150
-        },
         {
           "evoId": 1000,
           "formId": 3000
         }
       ],
-      "unreleased": true,
       "little": true
     },
     "1000": {
@@ -47409,13 +47398,31 @@
         9
       ],
       "quickMoves": [
+        207,
+        221,
+        249,
         263,
-        264
+        264,
+        282
       ],
       "chargedMoves": [
+        14,
+        36,
+        56,
+        60,
+        65,
         70,
+        74,
+        77,
+        78,
+        79,
         86,
-        247
+        108,
+        132,
+        247,
+        265,
+        268,
+        321
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -47425,22 +47432,9 @@
       "attack": 252,
       "defense": 190,
       "stamina": 202,
-      "height": 1.2,
-      "weight": 30,
-      "family": 999,
-      "fleeRate": 0.5,
-      "captureRate": 0.03,
+      "unreleased": true,
       "legendary": false,
-      "mythic": false,
-      "ultraBeast": false,
-      "buddyGroupNumber": 2,
-      "buddyDistance": 5,
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "gymDefenderEligible": true,
-      "tradable": true,
-      "transferable": true,
-      "unreleased": true
+      "mythic": false
     },
     "1001": {
       "pokemonName": "Wo-chien",
@@ -65215,8 +65209,8 @@
       "itemId": 1150,
       "itemName": "Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
+      "type": "Global Event Ticket",
+      "category": "Utilites",
       "minTrainerLevel": 10
     },
     "1201": {
