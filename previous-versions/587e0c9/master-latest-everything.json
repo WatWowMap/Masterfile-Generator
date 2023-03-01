@@ -81566,6 +81566,13 @@
           "type": 2,
           "power": 4
         },
+        "210": {
+          "moveId": 210,
+          "moveName": "Wing Attack",
+          "proto": "WING_ATTACK_FAST",
+          "type": 3,
+          "power": 5
+        },
         "224": {
           "moveId": 224,
           "moveName": "Poison Jab",
@@ -81575,19 +81582,19 @@
         }
       },
       "chargedMoves": {
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
         "100": {
           "moveId": 100,
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
           "power": 45
+        },
+        "257": {
+          "moveId": 257,
+          "moveName": "Sky Attack",
+          "proto": "SKY_ATTACK",
+          "type": 3,
+          "power": 75
         },
         "319": {
           "moveId": 319,
