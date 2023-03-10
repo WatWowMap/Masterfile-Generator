@@ -1,0 +1,208 @@
+{
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "monsters",
+      "keyJoiner": "_",
+      "keys": {
+        "main": "pokedexId formId"
+      },
+      "customFields": {
+        "pokedexId": "id",
+        "formId": "id",
+        "pokemonName": "name",
+        "formName": "name",
+        "attack": "baseAttack",
+        "defense": "baseDefense",
+        "stamina": "baseStamina",
+        "forms": "form",
+        "typeName": "name",
+        "typeId": "id"
+      },
+      "customChildObj": {
+        "attack": "stats",
+        "defense": "stats",
+        "stamina": "stats"
+      },
+      "makeSingular": {
+        "questRequirement": true,
+        "itemRequirement": true
+      },
+      "unsetFormName": "",
+      "includeUnset": true,
+      "unsetDefaultForm": true,
+      "processFormsSeparately": true,
+      "skipForms": [
+        "Shadow",
+        "Purified"
+      ],
+      "allUnset": true,
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      },
+      "includeProtos": true
+    },
+    "template": {
+      "pokemonName": true,
+      "forms": {
+        "formName": true,
+        "formId": true
+      },
+      "pokedexId": true,
+      "types": {
+        "typeId": true,
+        "typeName": true
+      },
+      "attack": true,
+      "defense": true,
+      "stamina": true,
+      "evolutions": {
+        "evoId": true,
+        "formId": true,
+        "genderRequirement": true,
+        "candyCost": true,
+        "itemRequirement": "itemName",
+        "tradeBonus": true,
+        "mustBeBuddy": true,
+        "onlyDaytime": true,
+        "onlyNighttime": true,
+        "questRequirement": {
+          "i18n": true,
+          "target": true
+        }
+      },
+      "tempEvolutions": {
+        "tempEvoId": true,
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "types": {
+          "typeId": true,
+          "typeName": true
+        },
+        "unreleased": true,
+        "firstEnergyCost": true,
+        "subsequentEnergyCost": true
+      },
+      "thirdMoveStardust": true,
+      "thirdMoveCandy": true,
+      "unreleased": true
+    }
+  },
+  "types": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "typeName"
+      }
+    },
+    "template": {
+      "strengths": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weaknesses": {
+        "typeId": true,
+        "typeName": true
+      },
+      "veryWeakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "immunes": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "resistances": {
+        "typeId": true,
+        "typeName": true
+      }
+    }
+  },
+  "items": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "itemId"
+      },
+      "customFields": {
+        "itemName": "name"
+      }
+    },
+    "template": {
+      "itemName": true
+    }
+  },
+  "moves": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "moveId"
+      },
+      "customFields": {
+        "moveName": "name"
+      }
+    },
+    "template": {
+      "moveName": true,
+      "type": "typeName"
+    }
+  },
+  "questTypes": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      },
+      "customFields": {
+        "formatted": "text"
+      }
+    },
+    "template": {
+      "formatted": true
+    }
+  },
+  "translations": {
+    "enabled": true,
+    "options": {
+      "masterfileLocale": "en",
+      "manualTranslations": true
+    },
+    "locales": {
+      "en": true
+    }
+  },
+  "invasions": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "grunts",
+      "keys": {
+        "main": "id",
+        "encounters": "position"
+      },
+      "customFields": {
+        "formId": "form"
+      },
+      "placeholderData": true,
+      "customInvasions": true
+    },
+    "template": {
+      "type": true,
+      "gender": true,
+      "grunt": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": true,
+      "encounters": {
+        "id": true,
+        "formId": true
+      }
+    }
+  }
+
+}
