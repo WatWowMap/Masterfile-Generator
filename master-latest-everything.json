@@ -143155,14 +143155,33 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_GRUNT_MALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 7,
+            "formId": 181
+          }
+        ],
+        "second": [
+          {
+            "id": 153,
+            "formId": 1121
+          },
+          {
+            "id": 156,
+            "formId": 1130
+          }
+        ],
+        "third": [
+          {
+            "id": 254,
+            "formId": 1355
+          }
+        ]
       }
     },
     "5": {
@@ -143247,6 +143266,10 @@
           {
             "id": 451,
             "formId": 1796
+          },
+          {
+            "id": 595,
+            "formId": 2177
           }
         ],
         "second": [
@@ -143263,6 +143286,10 @@
           {
             "id": 15,
             "formId": 622
+          },
+          {
+            "id": 205,
+            "formId": 1247
           },
           {
             "id": 212,
@@ -143309,14 +143336,29 @@
       "gender": 2,
       "grunt": "Grunt",
       "proto": "CHARACTER_DARK_GRUNT_FEMALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 88,
+            "formId": 74
+          }
+        ],
+        "second": [
+          {
+            "id": 89,
+            "formId": 75
+          }
+        ],
+        "third": [
+          {
+            "id": 89,
+            "formId": 76
+          }
+        ]
       }
     },
     "11": {
@@ -143350,6 +143392,12 @@
           {
             "id": 147,
             "formId": 190
+          }
+        ],
+        "second": [
+          {
+            "id": 103,
+            "formId": 78
           }
         ],
         "third": [
@@ -143397,8 +143445,16 @@
       "encounters": {
         "first": [
           {
+            "id": 209,
+            "formId": 1253
+          },
+          {
             "id": 280,
             "formId": 292
+          },
+          {
+            "id": 303,
+            "formId": 833
           }
         ],
         "second": [
@@ -143408,6 +143464,10 @@
           }
         ],
         "third": [
+          {
+            "id": 209,
+            "formId": 1253
+          },
           {
             "id": 210,
             "formId": 1256
@@ -143437,14 +143497,33 @@
       "gender": 2,
       "grunt": "Grunt",
       "proto": "CHARACTER_FIGHTING_GRUNT_FEMALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 296,
+            "formId": 1451
+          }
+        ],
+        "second": [
+          {
+            "id": 106,
+            "formId": 713
+          },
+          {
+            "id": 107,
+            "formId": 277
+          }
+        ],
+        "third": [
+          {
+            "id": 68,
+            "formId": 815
+          }
+        ]
       }
     },
     "17": {
@@ -143478,12 +143557,24 @@
           {
             "id": 37,
             "formId": 55
+          },
+          {
+            "id": 255,
+            "formId": 1358
+          },
+          {
+            "id": 322,
+            "formId": 1517
           }
         ],
         "second": [
           {
             "id": 126,
             "formId": 634
+          },
+          {
+            "id": 156,
+            "formId": 1130
           }
         ],
         "third": [
@@ -143516,14 +143607,37 @@
       "gender": 2,
       "grunt": "Grunt",
       "proto": "CHARACTER_FLYING_GRUNT_FEMALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 177,
+            "formId": 1190
+          },
+          {
+            "id": 580,
+            "formId": 2138
+          }
+        ],
+        "second": [
+          {
+            "id": 397,
+            "formId": 1661
+          }
+        ],
+        "third": [
+          {
+            "id": 149,
+            "formId": 196
+          },
+          {
+            "id": 169,
+            "formId": 202
+          }
+        ]
       }
     },
     "21": {
@@ -143571,11 +143685,23 @@
       "encounters": {
         "first": [
           {
+            "id": 43,
+            "formId": 265
+          },
+          {
+            "id": 252,
+            "formId": 1349
+          },
+          {
             "id": 331,
             "formId": 610
           }
         ],
         "second": [
+          {
+            "id": 44,
+            "formId": 268
+          },
           {
             "id": 153,
             "formId": 1121
@@ -143583,8 +143709,16 @@
         ],
         "third": [
           {
+            "id": 154,
+            "formId": 1124
+          },
+          {
             "id": 332,
             "formId": 613
+          },
+          {
+            "id": 591,
+            "formId": 2165
           }
         ]
       }
@@ -143611,14 +143745,37 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_GROUND_GRUNT_MALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 231,
+            "formId": 1301
+          },
+          {
+            "id": 449,
+            "formId": 888
+          }
+        ],
+        "second": [
+          {
+            "id": 232,
+            "formId": 1304
+          },
+          {
+            "id": 449,
+            "formId": 888
+          }
+        ],
+        "third": [
+          {
+            "id": 450,
+            "formId": 891
+          }
+        ]
       }
     },
     "26": {
@@ -143627,14 +143784,33 @@
       "gender": 2,
       "grunt": "Grunt",
       "proto": "CHARACTER_ICE_GRUNT_FEMALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 27,
+            "formId": 52
+          },
+          {
+            "id": 37,
+            "formId": 56
+          }
+        ],
+        "second": [
+          {
+            "id": 459,
+            "formId": 932
+          }
+        ],
+        "third": [
+          {
+            "id": 131,
+            "formId": 322
+          }
+        ]
       }
     },
     "27": {
@@ -143675,14 +143851,29 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_METAL_GRUNT_MALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 50,
+            "formId": 60
+          }
+        ],
+        "second": [
+          {
+            "id": 305,
+            "formId": 1472
+          }
+        ],
+        "third": [
+          {
+            "id": 212,
+            "formId": 250
+          }
+        ]
       }
     },
     "30": {
@@ -143707,14 +143898,45 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 293,
+            "formId": 1442
+          },
+          {
+            "id": 504,
+            "formId": 1916
+          },
+          {
+            "id": 519,
+            "formId": 1961
+          }
+        ],
+        "second": [
+          {
+            "id": 20,
+            "formId": 47
+          },
+          {
+            "id": 294,
+            "formId": 1445
+          }
+        ],
+        "third": [
+          {
+            "id": 20,
+            "formId": 47
+          },
+          {
+            "id": 217,
+            "formId": 1268
+          }
+        ]
       }
     },
     "32": {
@@ -143735,6 +143957,10 @@
           }
         ],
         "second": [
+          {
+            "id": 30,
+            "formId": 779
+          },
           {
             "id": 33,
             "formId": 785
@@ -143793,6 +144019,10 @@
       "encounters": {
         "first": [
           {
+            "id": 177,
+            "formId": 1190
+          },
+          {
             "id": 325,
             "formId": 1526
           }
@@ -143807,6 +144037,10 @@
           {
             "id": 65,
             "formId": 310
+          },
+          {
+            "id": 375,
+            "formId": 767
           }
         ]
       }
@@ -143833,14 +144067,37 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_ROCK_GRUNT_MALE",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 95,
+            "formId": 902
+          }
+        ],
+        "second": [
+          {
+            "id": 75,
+            "formId": 69
+          },
+          {
+            "id": 345,
+            "formId": 1568
+          }
+        ],
+        "third": [
+          {
+            "id": 95,
+            "formId": 902
+          },
+          {
+            "id": 208,
+            "formId": 905
+          }
+        ]
       }
     },
     "38": {
@@ -143856,20 +144113,32 @@
       "encounters": {
         "first": [
           {
+            "id": 54,
+            "formId": 286
+          },
+          {
             "id": 320,
             "formId": 1511
           }
         ],
         "second": [
           {
-            "id": 160,
-            "formId": 1142
+            "id": 55,
+            "formId": 289
+          },
+          {
+            "id": 159,
+            "formId": 1139
           }
         ],
         "third": [
           {
-            "id": 159,
-            "formId": 1139
+            "id": 55,
+            "formId": 289
+          },
+          {
+            "id": 160,
+            "formId": 1142
           }
         ]
       }
@@ -143965,14 +144234,29 @@
       "gender": 0,
       "grunt": "Executive",
       "proto": "CHARACTER_EXECUTIVE_ARLO",
-      "active": false,
-      "firstReward": false,
+      "active": true,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 216,
+            "formId": 1265
+          }
+        ],
+        "second": [
+          {
+            "id": 623,
+            "formId": 2261
+          }
+        ],
+        "third": [
+          {
+            "id": 354,
+            "formId": 911
+          }
+        ]
       }
     },
     "43": {
@@ -143981,14 +144265,37 @@
       "gender": 0,
       "grunt": "Executive",
       "proto": "CHARACTER_EXECUTIVE_SIERRA",
-      "active": false,
-      "firstReward": false,
-      "secondReward": false,
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 198,
+            "formId": 855
+          }
+        ],
+        "second": [
+          {
+            "id": 260,
+            "formId": 211
+          },
+          {
+            "id": 398,
+            "formId": 1664
+          }
+        ],
+        "third": [
+          {
+            "id": 149,
+            "formId": 196
+          },
+          {
+            "id": 229,
+            "formId": 232
+          }
+        ]
       }
     },
     "44": {
@@ -144112,9 +144419,21 @@
           {
             "id": 179,
             "formId": 646
+          },
+          {
+            "id": 403,
+            "formId": 1679
+          },
+          {
+            "id": 522,
+            "formId": 1970
           }
         ],
         "second": [
+          {
+            "id": 100,
+            "formId": 1047
+          },
           {
             "id": 125,
             "formId": 640
