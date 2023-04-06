@@ -2918,7 +2918,7 @@
           "evolutions": {
             "26": {
               "pokemon": 26,
-              "form": 0,
+              "form": 50,
               "candyCost": 50
             }
           },
@@ -3339,7 +3339,7 @@
       "evolutions": {
         "26": {
           "pokemon": 26,
-          "form": 0,
+          "form": 50,
           "candyCost": 50
         }
       },
@@ -13516,7 +13516,7 @@
           "evolutions": {
             "103": {
               "pokemon": 103,
-              "form": 77,
+              "form": 78,
               "candyCost": 50
             }
           }
@@ -13559,7 +13559,7 @@
       "evolutions": {
         "103": {
           "pokemon": 103,
-          "form": 77,
+          "form": 78,
           "candyCost": 50
         }
       },
@@ -13791,7 +13791,7 @@
           "evolutions": {
             "105": {
               "pokemon": 105,
-              "form": 79,
+              "form": 80,
               "candyCost": 50
             }
           }
@@ -13834,7 +13834,7 @@
       "evolutions": {
         "105": {
           "pokemon": 105,
-          "form": 79,
+          "form": 80,
           "candyCost": 50
         }
       },
@@ -14385,7 +14385,7 @@
           "evolutions": {
             "110": {
               "pokemon": 110,
-              "form": 706,
+              "form": 944,
               "candyCost": 50
             }
           }
@@ -14428,7 +14428,7 @@
       "evolutions": {
         "110": {
           "pokemon": 110,
-          "form": 706,
+          "form": 944,
           "candyCost": 50
         }
       },
@@ -20240,7 +20240,7 @@
           "evolutions": {
             "157": {
               "pokemon": 157,
-              "form": 0,
+              "form": 2786,
               "candyCost": 100
             }
           }
@@ -20285,7 +20285,7 @@
       "evolutions": {
         "157": {
           "pokemon": 157,
-          "form": 0,
+          "form": 2786,
           "candyCost": 100
         }
       }
@@ -20367,7 +20367,12 @@
         "2786": {
           "name": "Hisuian",
           "proto": "TYPHLOSION_HISUIAN",
-          "form": 2786
+          "form": 2786,
+          "stats": {
+            "attack": 238,
+            "defense": 172,
+            "stamina": 177
+          }
         }
       },
       "stats": {
@@ -52276,15 +52281,8 @@
       "evolutions": {
         "122": {
           "pokemon": 122,
-          "form": 0,
-          "candyCost": 50,
-          "questRequirement": {
-            "questType": 50,
-            "target": 15,
-            "assetsRef": "quest_buddy_walk_km_plural",
-            "i18n": "Walk {{amount}} km with your buddy",
-            "translated": "Walk 15 km with your buddy"
-          }
+          "form": 2339,
+          "candyCost": 50
         }
       },
       "little": true
@@ -59396,7 +59394,7 @@
       "evolutions": {
         "503": {
           "pokemon": 503,
-          "form": 0,
+          "form": 2787,
           "candyCost": 100
         }
       }
@@ -59483,7 +59481,12 @@
         "2787": {
           "name": "Hisuian",
           "proto": "SAMUROTT_HISUIAN",
-          "form": 2787
+          "form": 2787,
+          "stats": {
+            "attack": 218,
+            "defense": 152,
+            "stamina": 207
+          }
         }
       },
       "stats": {
@@ -64324,9 +64327,8 @@
       "evolutions": {
         "549": {
           "pokemon": 549,
-          "form": 0,
-          "candyCost": 50,
-          "itemRequirement": "Sun Stone"
+          "form": 2789,
+          "candyCost": 50
         }
       },
       "little": true
@@ -64406,7 +64408,12 @@
         "2789": {
           "name": "Hisuian",
           "proto": "LILLIGANT_HISUIAN",
-          "form": 2789
+          "form": 2789,
+          "stats": {
+            "attack": 208,
+            "defense": 159,
+            "stamina": 172
+          }
         }
       },
       "stats": {
@@ -73115,7 +73122,7 @@
       "evolutions": {
         "628": {
           "pokemon": 628,
-          "form": 2276,
+          "form": 2798,
           "candyCost": 50
         }
       },
@@ -81916,7 +81923,7 @@
       "evolutions": {
         "705": {
           "pokemon": 705,
-          "form": 0,
+          "form": 2790,
           "candyCost": 25
         }
       },
@@ -81989,7 +81996,19 @@
         "2790": {
           "name": "Hisuian",
           "proto": "SLIGGOO_HISUIAN",
-          "form": 2790
+          "form": 2790,
+          "stats": {
+            "attack": 153,
+            "defense": 201,
+            "stamina": 151
+          },
+          "evolutions": {
+            "706": {
+              "pokemon": 706,
+              "form": 2791,
+              "candyCost": 100
+            }
+          }
         },
         "2810": {
           "name": "Normal",
@@ -82028,7 +82047,8 @@
           "form": 0,
           "candyCost": 100
         }
-      }
+      },
+      "little": true
     },
     "706": {
       "name": "Goodra",
@@ -82097,7 +82117,12 @@
         "2791": {
           "name": "Hisuian",
           "proto": "GOODRA_HISUIAN",
-          "form": 2791
+          "form": 2791,
+          "stats": {
+            "attack": 211,
+            "defense": 255,
+            "stamina": 190
+          }
         },
         "2811": {
           "name": "Normal",
@@ -82797,7 +82822,7 @@
       "evolutions": {
         "713": {
           "pokemon": 713,
-          "form": 0,
+          "form": 2795,
           "candyCost": 50
         }
       },
@@ -83995,7 +84020,7 @@
       "evolutions": {
         "724": {
           "pokemon": 724,
-          "form": 0,
+          "form": 2785,
           "candyCost": 100
         }
       }
@@ -84064,7 +84089,12 @@
         "2785": {
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN",
-          "form": 2785
+          "form": 2785,
+          "stats": {
+            "attack": 213,
+            "defense": 174,
+            "stamina": 204
+          }
         },
         "2809": {
           "name": "Normal",
@@ -123966,6 +123996,11 @@
           "evoId": 105,
           "formId": 79,
           "candyCost": 50
+        },
+        {
+          "evoId": 105,
+          "formId": 80,
+          "candyCost": 50
         }
       ],
       "purificationDust": 3000,
@@ -124933,7 +124968,11 @@
       "evolutions": [
         {
           "evoId": 26,
-          "formId": 0,
+          "candyCost": 50
+        },
+        {
+          "evoId": 26,
+          "formId": 50,
           "candyCost": 50
         }
       ],
@@ -125647,6 +125686,11 @@
           "evoId": 110,
           "formId": 706,
           "candyCost": 50
+        },
+        {
+          "evoId": 110,
+          "formId": 944,
+          "candyCost": 50
         }
       ],
       "purificationDust": 3000,
@@ -125812,6 +125856,11 @@
         {
           "evoId": 103,
           "formId": 77,
+          "candyCost": 50
+        },
+        {
+          "evoId": 103,
+          "formId": 78,
           "candyCost": 50
         }
       ],
@@ -128851,7 +128900,11 @@
       "evolutions": [
         {
           "evoId": 157,
-          "formId": 0,
+          "candyCost": 100
+        },
+        {
+          "evoId": 157,
+          "formId": 2786,
           "candyCost": 100
         }
       ],
@@ -137910,17 +137963,26 @@
     "2785": {
       "formName": "Hisuian",
       "proto": "DECIDUEYE_HISUIAN",
-      "formId": 2785
+      "formId": 2785,
+      "attack": 213,
+      "defense": 174,
+      "stamina": 204
     },
     "2786": {
       "formName": "Hisuian",
       "proto": "TYPHLOSION_HISUIAN",
-      "formId": 2786
+      "formId": 2786,
+      "attack": 238,
+      "defense": 172,
+      "stamina": 177
     },
     "2787": {
       "formName": "Hisuian",
       "proto": "SAMUROTT_HISUIAN",
-      "formId": 2787
+      "formId": 2787,
+      "attack": 218,
+      "defense": 152,
+      "stamina": 207
     },
     "2788": {
       "formName": "Hisuian",
@@ -137956,17 +138018,33 @@
     "2789": {
       "formName": "Hisuian",
       "proto": "LILLIGANT_HISUIAN",
-      "formId": 2789
+      "formId": 2789,
+      "attack": 208,
+      "defense": 159,
+      "stamina": 172
     },
     "2790": {
       "formName": "Hisuian",
       "proto": "SLIGGOO_HISUIAN",
-      "formId": 2790
+      "formId": 2790,
+      "attack": 153,
+      "defense": 201,
+      "stamina": 151,
+      "evolutions": [
+        {
+          "evoId": 706,
+          "formId": 2791,
+          "candyCost": 100
+        }
+      ]
     },
     "2791": {
       "formName": "Hisuian",
       "proto": "GOODRA_HISUIAN",
-      "formId": 2791
+      "formId": 2791,
+      "attack": 211,
+      "defense": 255,
+      "stamina": 190
     },
     "2792": {
       "formName": "Hisuian",

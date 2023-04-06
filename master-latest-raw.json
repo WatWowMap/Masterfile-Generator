@@ -1328,6 +1328,11 @@
         {
           "evoId": 26,
           "candyCost": 50
+        },
+        {
+          "evoId": 26,
+          "formId": 50,
+          "candyCost": 50
         }
       ]
     },
@@ -5180,6 +5185,11 @@
           "evoId": 103,
           "formId": 77,
           "candyCost": 50
+        },
+        {
+          "evoId": 103,
+          "formId": 78,
+          "candyCost": 50
         }
       ],
       "little": true
@@ -5276,6 +5286,11 @@
         {
           "evoId": 105,
           "formId": 79,
+          "candyCost": 50
+        },
+        {
+          "evoId": 105,
+          "formId": 80,
           "candyCost": 50
         }
       ],
@@ -5509,6 +5524,11 @@
         {
           "evoId": 110,
           "formId": 706,
+          "candyCost": 50
+        },
+        {
+          "evoId": 110,
+          "formId": 944,
           "candyCost": 50
         }
       ],
@@ -7868,6 +7888,11 @@
       "evolutions": [
         {
           "evoId": 157,
+          "candyCost": 100
+        },
+        {
+          "evoId": 157,
+          "formId": 2786,
           "candyCost": 100
         }
       ]
@@ -21753,6 +21778,11 @@
           "evoId": 122,
           "candyCost": 50,
           "questRequirement": "MR_MIME_EVOLUTION_QUEST"
+        },
+        {
+          "evoId": 122,
+          "formId": 2339,
+          "candyCost": 50
         }
       ],
       "little": true
@@ -24682,6 +24712,11 @@
         {
           "evoId": 503,
           "candyCost": 100
+        },
+        {
+          "evoId": 503,
+          "formId": 2787,
+          "candyCost": 100
         }
       ]
     },
@@ -26880,6 +26915,11 @@
           "evoId": 549,
           "candyCost": 50,
           "itemRequirement": 1101
+        },
+        {
+          "evoId": 549,
+          "formId": 2789,
+          "candyCost": 50
         }
       ],
       "little": true
@@ -30621,6 +30661,11 @@
           "evoId": 628,
           "formId": 2276,
           "candyCost": 50
+        },
+        {
+          "evoId": 628,
+          "formId": 2798,
+          "candyCost": 50
         }
       ],
       "little": true
@@ -34195,6 +34240,11 @@
         {
           "evoId": 705,
           "candyCost": 25
+        },
+        {
+          "evoId": 705,
+          "formId": 2790,
+          "candyCost": 25
         }
       ],
       "little": true
@@ -34246,7 +34296,8 @@
           "evoId": 706,
           "candyCost": 100
         }
-      ]
+      ],
+      "little": true
     },
     "706": {
       "pokemonName": "Goodra",
@@ -34567,6 +34618,11 @@
       "evolutions": [
         {
           "evoId": 713,
+          "candyCost": 50
+        },
+        {
+          "evoId": 713,
+          "formId": 2795,
           "candyCost": 50
         }
       ],
@@ -35055,6 +35111,11 @@
       "evolutions": [
         {
           "evoId": 724,
+          "candyCost": 100
+        },
+        {
+          "evoId": 724,
+          "formId": 2785,
           "candyCost": 100
         }
       ]
@@ -50103,6 +50164,11 @@
           "evoId": 105,
           "formId": 79,
           "candyCost": 50
+        },
+        {
+          "evoId": 105,
+          "formId": 80,
+          "candyCost": 50
         }
       ],
       "purificationDust": 3000,
@@ -51053,6 +51119,11 @@
         {
           "evoId": 26,
           "candyCost": 50
+        },
+        {
+          "evoId": 26,
+          "formId": 50,
+          "candyCost": 50
         }
       ]
     },
@@ -51756,6 +51827,11 @@
           "evoId": 110,
           "formId": 706,
           "candyCost": 50
+        },
+        {
+          "evoId": 110,
+          "formId": 944,
+          "candyCost": 50
         }
       ],
       "purificationDust": 3000,
@@ -51912,6 +51988,11 @@
         {
           "evoId": 103,
           "formId": 77,
+          "candyCost": 50
+        },
+        {
+          "evoId": 103,
+          "formId": 78,
           "candyCost": 50
         }
       ],
@@ -54842,6 +54923,11 @@
       "evolutions": [
         {
           "evoId": 157,
+          "candyCost": 100
+        },
+        {
+          "evoId": 157,
+          "formId": 2786,
           "candyCost": 100
         }
       ],
@@ -63859,17 +63945,26 @@
     "2785": {
       "formName": "Hisuian",
       "proto": "DECIDUEYE_HISUIAN",
-      "formId": 2785
+      "formId": 2785,
+      "attack": 213,
+      "defense": 174,
+      "stamina": 204
     },
     "2786": {
       "formName": "Hisuian",
       "proto": "TYPHLOSION_HISUIAN",
-      "formId": 2786
+      "formId": 2786,
+      "attack": 238,
+      "defense": 172,
+      "stamina": 177
     },
     "2787": {
       "formName": "Hisuian",
       "proto": "SAMUROTT_HISUIAN",
-      "formId": 2787
+      "formId": 2787,
+      "attack": 218,
+      "defense": 152,
+      "stamina": 207
     },
     "2788": {
       "formName": "Hisuian",
@@ -63904,17 +63999,33 @@
     "2789": {
       "formName": "Hisuian",
       "proto": "LILLIGANT_HISUIAN",
-      "formId": 2789
+      "formId": 2789,
+      "attack": 208,
+      "defense": 159,
+      "stamina": 172
     },
     "2790": {
       "formName": "Hisuian",
       "proto": "SLIGGOO_HISUIAN",
-      "formId": 2790
+      "formId": 2790,
+      "attack": 153,
+      "defense": 201,
+      "stamina": 151,
+      "evolutions": [
+        {
+          "evoId": 706,
+          "formId": 2791,
+          "candyCost": 100
+        }
+      ]
     },
     "2791": {
       "formName": "Hisuian",
       "proto": "GOODRA_HISUIAN",
-      "formId": 2791
+      "formId": 2791,
+      "attack": 211,
+      "defense": 255,
+      "stamina": 190
     },
     "2792": {
       "formName": "Hisuian",

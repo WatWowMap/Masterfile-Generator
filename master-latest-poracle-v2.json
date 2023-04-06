@@ -1675,7 +1675,11 @@
       "evolutions": [
         {
           "evoId": 26,
-          "id": 0,
+          "candyCost": 50
+        },
+        {
+          "evoId": 26,
+          "id": 50,
           "candyCost": 50
         }
       ]
@@ -1703,7 +1707,11 @@
       "evolutions": [
         {
           "evoId": 26,
-          "id": 0,
+          "candyCost": 50
+        },
+        {
+          "evoId": 26,
+          "id": 50,
           "candyCost": 50
         }
       ]
@@ -7070,6 +7078,11 @@
           "evoId": 103,
           "id": 77,
           "candyCost": 50
+        },
+        {
+          "evoId": 103,
+          "id": 78,
+          "candyCost": 50
         }
       ]
     },
@@ -7101,6 +7114,11 @@
         {
           "evoId": 103,
           "id": 77,
+          "candyCost": 50
+        },
+        {
+          "evoId": 103,
+          "id": 78,
           "candyCost": 50
         }
       ]
@@ -7205,6 +7223,11 @@
           "evoId": 105,
           "id": 79,
           "candyCost": 50
+        },
+        {
+          "evoId": 105,
+          "id": 80,
+          "candyCost": 50
         }
       ]
     },
@@ -7232,6 +7255,11 @@
         {
           "evoId": 105,
           "id": 79,
+          "candyCost": 50
+        },
+        {
+          "evoId": 105,
+          "id": 80,
           "candyCost": 50
         }
       ]
@@ -7462,6 +7490,11 @@
           "evoId": 110,
           "id": 706,
           "candyCost": 50
+        },
+        {
+          "evoId": 110,
+          "id": 944,
+          "candyCost": 50
         }
       ]
     },
@@ -7489,6 +7522,11 @@
         {
           "evoId": 110,
           "id": 706,
+          "candyCost": 50
+        },
+        {
+          "evoId": 110,
+          "id": 944,
           "candyCost": 50
         }
       ]
@@ -10316,7 +10354,11 @@
       "evolutions": [
         {
           "evoId": 157,
-          "id": 0,
+          "candyCost": 100
+        },
+        {
+          "evoId": 157,
+          "id": 2786,
           "candyCost": 100
         }
       ]
@@ -10344,7 +10386,11 @@
       "evolutions": [
         {
           "evoId": 157,
-          "id": 0,
+          "candyCost": 100
+        },
+        {
+          "evoId": 157,
+          "id": 2786,
           "candyCost": 100
         }
       ]
@@ -10405,9 +10451,9 @@
         "id": 2786
       },
       "stats": {
-        "baseAttack": 223,
-        "baseDefense": 173,
-        "baseStamina": 186
+        "baseAttack": 238,
+        "baseDefense": 172,
+        "baseStamina": 177
       },
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
@@ -27481,12 +27527,16 @@
       "evolutions": [
         {
           "evoId": 122,
-          "id": 0,
           "candyCost": 50,
           "questRequirement": {
             "target": 15,
             "i18n": "Walk {{amount}} km with your buddy"
           }
+        },
+        {
+          "evoId": 122,
+          "id": 2339,
+          "candyCost": 50
         }
       ]
     },
@@ -31209,7 +31259,11 @@
       "evolutions": [
         {
           "evoId": 503,
-          "id": 0,
+          "candyCost": 100
+        },
+        {
+          "evoId": 503,
+          "id": 2787,
           "candyCost": 100
         }
       ]
@@ -31291,9 +31345,9 @@
         "id": 2787
       },
       "stats": {
-        "baseAttack": 212,
-        "baseDefense": 157,
-        "baseStamina": 216
+        "baseAttack": 218,
+        "baseDefense": 152,
+        "baseStamina": 207
       },
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
@@ -33518,9 +33572,13 @@
       "evolutions": [
         {
           "evoId": 549,
-          "id": 0,
           "candyCost": 50,
           "itemRequirement": "Sun Stone"
+        },
+        {
+          "evoId": 549,
+          "id": 2789,
+          "candyCost": 50
         }
       ]
     },
@@ -33601,8 +33659,8 @@
         "id": 2789
       },
       "stats": {
-        "baseAttack": 214,
-        "baseDefense": 155,
+        "baseAttack": 208,
+        "baseDefense": 159,
         "baseStamina": 172
       },
       "thirdMoveStardust": 10000,
@@ -37974,6 +38032,11 @@
         {
           "evoId": 628,
           "id": 2276,
+          "candyCost": 50
+        },
+        {
+          "evoId": 628,
+          "id": 2798,
           "candyCost": 50
         }
       ]
@@ -43295,7 +43358,11 @@
       "evolutions": [
         {
           "evoId": 705,
-          "id": 0,
+          "candyCost": 25
+        },
+        {
+          "evoId": 705,
+          "id": 2790,
           "candyCost": 25
         }
       ]
@@ -43342,12 +43409,19 @@
         "id": 2790
       },
       "stats": {
-        "baseAttack": 159,
-        "baseDefense": 176,
-        "baseStamina": 169
+        "baseAttack": 153,
+        "baseDefense": 201,
+        "baseStamina": 151
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "evolutions": [
+        {
+          "evoId": 706,
+          "id": 2791,
+          "candyCost": 100
+        }
+      ]
     },
     "705_2810": {
       "name": "Sliggoo",
@@ -43405,9 +43479,9 @@
         "id": 2791
       },
       "stats": {
-        "baseAttack": 220,
-        "baseDefense": 242,
-        "baseStamina": 207
+        "baseAttack": 211,
+        "baseDefense": 255,
+        "baseStamina": 190
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
@@ -43829,7 +43903,11 @@
       "evolutions": [
         {
           "evoId": 713,
-          "id": 0,
+          "candyCost": 50
+        },
+        {
+          "evoId": 713,
+          "id": 2795,
           "candyCost": 50
         }
       ]
@@ -44345,7 +44423,11 @@
       "evolutions": [
         {
           "evoId": 724,
-          "id": 0,
+          "candyCost": 100
+        },
+        {
+          "evoId": 724,
+          "id": 2785,
           "candyCost": 100
         }
       ]
@@ -44393,9 +44475,9 @@
         "id": 2785
       },
       "stats": {
-        "baseAttack": 210,
-        "baseDefense": 179,
-        "baseStamina": 186
+        "baseAttack": 213,
+        "baseDefense": 174,
+        "baseStamina": 204
       },
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
