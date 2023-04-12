@@ -57263,11 +57263,19 @@
       "grunt": "Giovanni",
       "firstReward": false,
       "secondReward": false,
-      "thirdReward": false,
+      "thirdReward": true,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          53
+        ],
+        "second": [
+          34,
+          99,
+          230
+        ],
+        "third": [
+          378
+        ]
       }
     },
     "45": {

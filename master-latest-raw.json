@@ -69616,18 +69616,34 @@
       "gender": 0,
       "grunt": "Giovanni",
       "proto": "CHARACTER_GIOVANNI",
-      "active": false,
+      "active": true,
       "firstReward": false,
       "secondReward": false,
-      "thirdReward": false,
+      "thirdReward": true,
       "encounters": [
         {
+          "id": 53,
+          "formId": 65,
           "position": "first"
         },
         {
+          "id": 34,
+          "formId": 788,
           "position": "second"
         },
         {
+          "id": 99,
+          "formId": 873,
+          "position": "second"
+        },
+        {
+          "id": 230,
+          "formId": 1298,
+          "position": "second"
+        },
+        {
+          "id": 378,
+          "formId": 1625,
           "position": "third"
         }
       ]

@@ -57754,11 +57754,34 @@
       "grunt": "Giovanni",
       "firstReward": false,
       "secondReward": false,
-      "thirdReward": false,
+      "thirdReward": true,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 53,
+            "form": 65
+          }
+        ],
+        "second": [
+          {
+            "id": 34,
+            "form": 788
+          },
+          {
+            "id": 99,
+            "form": 873
+          },
+          {
+            "id": 230,
+            "form": 1298
+          }
+        ],
+        "third": [
+          {
+            "id": 378,
+            "form": 1625
+          }
+        ]
       }
     },
     "45": {
