@@ -53509,7 +53509,7 @@
         {
           "evoId": 1000,
           "id": 0,
-          "itemRequirement": "?????? Coin"
+          "itemRequirement": "Gimmighoul Coins"
         },
         {
           "evoId": 1000,
@@ -55034,7 +55034,7 @@
       "name": "Daily Adventure Incense"
     },
     "407": {
-      "name": "Incense Sparkly"
+      "name": "Coin Bag"
     },
     "501": {
       "name": "Lure Module"
@@ -55052,7 +55052,7 @@
       "name": "Rainy Lure Module"
     },
     "506": {
-      "name": "Sparkly"
+      "name": "Golden Lure Module"
     },
     "602": {
       "name": "X Attack"
@@ -55136,7 +55136,7 @@
       "name": "Unova Stone"
     },
     "1150": {
-      "name": "?????? Coin"
+      "name": "Gimmighoul Coins"
     },
     "1201": {
       "name": "Fast TM"
@@ -55199,7 +55199,7 @@
       "name": "Ticket"
     },
     "1603": {
-      "name": "Pokémon GO Fest 2022"
+      "name": "Ticket"
     },
     "1604": {
       "name": "Extra Ticket"
@@ -61503,7 +61503,9 @@
         "desc_903": "Because of Sneasler’s virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
         "desc_904": "Its lancelike spikes and savage temperament have earned it the nickname “sea fiend.” It slurps up poison to nourish itself.",
         "desc_905_2802": "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon’s love gives rise to the budding of fresh life across Hisui.",
-        "desc_905_2803": "A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment."
+        "desc_905_2803": "A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.",
+        "desc_999": "This Pokémon was born from passion that seeped into a coin. It wanders, apparently seeking to return to the treasure chest it once inhabited.",
+        "desc_1000": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody."
       },
       "costumes": {
         "costume_0": "Unset",
@@ -61918,13 +61920,13 @@
         "item_404": "Incense Floral",
         "item_405": "Mystery Box",
         "item_406": "Daily Adventure Incense",
-        "item_407": "Incense Sparkly",
+        "item_407": "Coin Bag",
         "item_501": "Lure Module",
         "item_502": "Glacial Lure Module",
         "item_503": "Mossy Lure Module",
         "item_504": "Magnetic Lure Module",
         "item_505": "Rainy Lure Module",
-        "item_506": "Sparkly",
+        "item_506": "Golden Lure Module",
         "item_602": "X Attack",
         "item_603": "X Defense",
         "item_604": "UNDEFINED",
@@ -61953,7 +61955,7 @@
         "item_1105": "Upgrade",
         "item_1106": "Sinnoh Stone",
         "item_1107": "Unova Stone",
-        "item_1150": "?????? Coin",
+        "item_1150": "Gimmighoul Coins",
         "item_1201": "Fast TM",
         "item_1202": "Charged TM",
         "item_1203": "Elite Fast TM",
@@ -61977,7 +61979,7 @@
         "item_1600": "Ticket",
         "item_1601": "Ticket",
         "item_1602": "Ticket",
-        "item_1603": "Pokémon GO Fest 2022",
+        "item_1603": "Ticket",
         "item_1604": "Extra Ticket",
         "item_1605": "Extra Ticket",
         "item_1606": "GO Battle League Timed Research Pass"
@@ -61988,7 +61990,7 @@
         "lure_503": "Mossy",
         "lure_504": "Magnetic",
         "lure_505": "Rainy",
-        "lure_506": "Sparkly"
+        "lure_506": "Golden"
       },
       "grunts": {
         "grunt_0": "Unset",
@@ -63117,7 +63119,9 @@
         "pokemon_categories_902": "Big Fish Pokémon",
         "pokemon_categories_903": "Free Climb Pokémon",
         "pokemon_categories_904": "Pin Cluster Pokémon",
-        "pokemon_categories_905": "Love-Hate Pokémon"
+        "pokemon_categories_905": "Love-Hate Pokémon",
+        "pokemon_categories_999": "Coin Hunter Pokémon",
+        "pokemon_categories_1000": "Coin Entity Pokémon"
       },
       "questTypes": {
         "quest_0": "Unknown Quest Type",
@@ -63412,6 +63416,8 @@
         "quest_title_quest_beluga_evolve_pkmn": "Let’s Go: Evolve {{amount_0}} Anorith",
         "quest_title_quest_beluga_excellent_singular": "Let's Go: Make {{amount_0}} Excellent Throw",
         "quest_title_quest_beluga_hatch_plural": "Let’s Go: Hatch {{amount_0}} Eggs",
+        "quest_title_quest_best_buddy_bronze": "Have 1 Best Buddy",
+        "quest_title_quest_best_buddy_silver": "Have 10 Best Buddies",
         "quest_title_quest_breakthrough_completed": "Field Research completed!",
         "quest_title_quest_breakthrough_reward_mystery": "Mystery items",
         "quest_title_quest_breakthrough_reward_stardust": "Stardust",
@@ -63424,6 +63430,7 @@
         "quest_title_quest_bulbt_catch_b": "Catch {{amount_0}} Bulbasaur",
         "quest_title_quest_bulbt_evolve_b": "Evolve {{amount_0}} Bulbasaur",
         "quest_title_quest_bulbt_evolve_s1": "Evolve {{amount_0}} Ivysaur",
+        "quest_title_quest_cacnea_catch": "Catch {{amount_0}} Cacnea",
         "quest_title_quest_catch_151": "Catch 151 Pokémon",
         "quest_title_quest_catch_b_types_plural": "Catch {{amount_0}} Electric-, Normal-, or Poison-type Pokémon",
         "quest_title_quest_catch_basic_types_plural": "Catch {{amount_0}} Grass-, Water-, or Fire-type Pokémon",
@@ -63442,9 +63449,14 @@
         "quest_title_quest_catch_feed_plural": "Use {{amount_0}} Berries to help catch Pokémon",
         "quest_title_quest_catch_feed_singular": "Use a Berry to help catch a Pokémon",
         "quest_title_quest_catch_furfou_singular": "Catch a Furfrou",
+        "quest_title_quest_catch_groudon_primal_boosted_types": "Catch {{amount_0}} Fire-, Grass-, or Ground-type Pokémon",
+        "quest_title_quest_catch_hoenn_pokemon": "Catch {{amount_0}} Pokémon originally discovered in the Hoenn region",
         "quest_title_quest_catch_in_day_plural": "Catch {{amount_0}} Pokémon in a single day",
         "quest_title_quest_catch_jan21_hoenn1_plural": "Catch {{amount_0}} Groudon",
         "quest_title_quest_catch_jan21_hoenn2_plural": "Catch {{amount_0}} Kyogre",
+        "quest_title_quest_catch_johto_pokemon": "Catch {{amount_0}} Pokémon originally discovered in the Johto region",
+        "quest_title_quest_catch_kanto_pokemon": "Catch {{amount_0}} Pokémon originally discovered in the Kanto region",
+        "quest_title_quest_catch_kyogre_primal_boosted_types": "Catch {{amount_0}} Water-, Electric-, or Bug-type Pokémon",
         "quest_title_quest_catch_legendary_inarow_plural": "Successfully catch at least one of the next {{amount_0}} Legendary or Mythical Pokémon you encounter",
         "quest_title_quest_catch_legendary_plural": "Catch {{amount_0}} Legendary or Mythical Pokémon",
         "quest_title_quest_catch_legendary_singular": "Catch a Legendary or Mythical Pokémon",
@@ -63627,6 +63639,9 @@
         "quest_title_quest_chart_catch_s1": "Catch {{amount_0}} Charmeleon",
         "quest_title_quest_chart_evolve_b": "Evolve {{amount_0}} Charmander",
         "quest_title_quest_chart_evolve_s1": "Evolve {{amount_0}} Charmeleon",
+        "quest_title_quest_chespin_catch_b": "Catch {{amount_0}} Chespin",
+        "quest_title_quest_chespin_evolve_b": "Evolve {{amount_0}} Chespin",
+        "quest_title_quest_chespin_snapshot_b": "Take a snapshot of {{amount_0}} Chespin",
         "quest_title_quest_dec2021_catch_b": "Catch {{amount_0}} Pokémon featured during 2021’s Community Days",
         "quest_title_quest_dec2022_catch_b": "Catch {{amount_0}} Pokémon featured during December Community Day 2022",
         "quest_title_quest_defeat_jessie_james_plural": "Defeat Jessie or James {{amount_0}} times",
@@ -63648,6 +63663,7 @@
         "quest_title_quest_duskt_catch_b": "Catch {{amount_0}} Duskull",
         "quest_title_quest_duskt_evolve_b": "Evolve {{amount_0}} Duskull",
         "quest_title_quest_duskt_evolve_s1": "Evolve {{amount_0}} Dusclops",
+        "quest_title_quest_earn_buddy_ribbon_plural": "Earn {{amount_0}} Best Buddy Ribbons with your Pokémon",
         "quest_title_quest_eevee_evolve_plural": "Evolve Eevee into each of its unique Evolutions",
         "quest_title_quest_eevet_catch_b": "Catch {{amount_0}} Eevee",
         "quest_title_quest_eevet_evolve_b": "Evolve {{amount_0}} Eevee",
@@ -64117,12 +64133,26 @@
         "quest_title_quest_giblt_evolve_s1": "Evolve {{amount_0}} Gabite",
         "quest_title_quest_gift_open_plural": "Open {{amount_0}} Gifts",
         "quest_title_quest_gift_open_singular": "Open a Gift",
+        "quest_title_quest_go_for_a_spin_00": "Find and spin Spinda PokéStop 1 of 8",
+        "quest_title_quest_go_for_a_spin_01": "Find and spin Spinda PokéStop 2 of 8",
+        "quest_title_quest_go_for_a_spin_02": "Find and spin Spinda PokéStop 3 of 8",
+        "quest_title_quest_go_for_a_spin_03": "Find and spin Spinda PokéStop 4 of 8",
+        "quest_title_quest_go_for_a_spin_04": "Find and spin Spinda PokéStop 5 of 8",
+        "quest_title_quest_go_for_a_spin_05": "Find and spin Spinda PokéStop 6 of 8",
+        "quest_title_quest_go_for_a_spin_06": "Find and spin Spinda PokéStop 7 of 8",
+        "quest_title_quest_go_for_a_spin_07": "Find and spin Spinda PokéStop 8 of 8",
+        "quest_title_quest_go_tour_snapshot_habitat_01": "Take a snapshot of your buddy in the Blistering Sands habitat",
+        "quest_title_quest_go_tour_snapshot_habitat_02": "Take a snapshot of your buddy in the Eerie Mists habitat",
+        "quest_title_quest_go_tour_snapshot_habitat_03": "Take a snapshot of your buddy in the Verdant Earth habitat",
+        "quest_title_quest_go_tour_snapshot_habitat_04": "Take a snapshot of your buddy in the Ancient Shores habitat",
+        "quest_title_quest_gold_hoenn_dex": "Earn a gold Hoenn medal",
         "quest_title_quest_gold_medal_plural": "Earn {{amount_0}} gold medals",
         "quest_title_quest_gold_medal_plural_five": "Earn 5 gold medals",
         "quest_title_quest_gold_medal_singular": "Earn a gold medal",
         "quest_title_quest_gt_catch_b": "Catch {{amount_0}} Gastly",
         "quest_title_quest_gt_evolve_b": "Evolve {{amount_0}} Gastly",
         "quest_title_quest_gt_evolve_s1": "Evolve {{amount_0}} Haunter",
+        "quest_title_quest_gulpin_catch": "Catch {{amount_0}} Gulpin",
         "quest_title_quest_hallo19_catch_specific_plural": "Catch {{amount_0}} Poochyena or Houndour",
         "quest_title_quest_hallo19_catch_type_dark_plural": "Catch {{amount_0}} Dark-type Pokémon",
         "quest_title_quest_hallo19_catch_type_ghost_plural": "Catch {{amount_0}} Ghost-type Pokémon",
@@ -64161,6 +64191,7 @@
         "quest_title_quest_kanto_red_growlithe": "GO Tour: Catch Growlithe",
         "quest_title_quest_kanto_red_mankey": "GO Tour: Catch Mankey",
         "quest_title_quest_kanto_red_oddish": "GO Tour: Catch Oddish",
+        "quest_title_quest_kecleon_catch": "Catch {{amount_0}} Kecleon",
         "quest_title_quest_lampent_evolve_b": "Evolve {{amount_0}} Lampent",
         "quest_title_quest_land_curve_type_ghost": "Make {{amount_0}} Curveball Throws on Ghost-type Pokémon",
         "quest_title_quest_land_curveball_plural": "Make {{amount_0}} Curveball Throws",
@@ -64191,6 +64222,8 @@
         "quest_title_quest_land_nice_plural": "Make {{amount_0}} Nice Throws",
         "quest_title_quest_land_nice_singular": "Make a Nice Throw",
         "quest_title_quest_land_nice_type_ghost": "Make {{amount_0}} Nice Throws on Ghost-type Pokémon",
+        "quest_title_quest_larvitar_cdc_evolve_b": "Evolve {{amount_0}} Larvitar",
+        "quest_title_quest_larvitar_cdc_snapshot_b": "Take a snapshot of {{amount_0}} Larvitar",
         "quest_title_quest_latias_wild_snap": "Take a snapshot of Latias in the wild",
         "quest_title_quest_latios_wild_snap": "Take a snapshot of Latios in the wild",
         "quest_title_quest_litwick_catch_b": "Catch {{amount_0}} Litwick",
@@ -64206,6 +64239,8 @@
         "quest_title_quest_magit_evolve_b": "Evolve {{amount_0}} Magikarp",
         "quest_title_quest_magmt_catch_b": "Catch {{amount_0}} Magmar",
         "quest_title_quest_magmt_evolve_b": "Evolve {{amount_0}} Magmar",
+        "quest_title_quest_mega_evo_primal_rev_plural": "Activate Primal Reversion OR Mega Evolve a Pokémon {{amount_0}} times",
+        "quest_title_quest_mega_evo_primal_rev_singular": "Activate Primal Reversion OR Mega Evolve a Pokémon",
         "quest_title_quest_mega_evolve_beedrill": "Mega Evolve a Beedrill",
         "quest_title_quest_mega_evolve_blastoise": "Mega Evolve a Blastoise",
         "quest_title_quest_mega_evolve_charizard": "Mega Evolve a Charizard",
@@ -64222,6 +64257,9 @@
         "quest_title_quest_mudkt_evolve_s1": "Evolve {{amount_0}} Marshtomp",
         "quest_title_quest_new_friends_plural": "Make {{amount_0}} new friends",
         "quest_title_quest_new_friends_singular": "Make a new friend",
+        "quest_title_quest_noibat_catch_b": "Catch {{amount_0}} Noibat",
+        "quest_title_quest_noibat_evolve_b": "Evolve {{amount_0}} Noibat",
+        "quest_title_quest_noibat_snapshot_b": "Take a snapshot of {{amount_0}} Noibat",
         "quest_title_quest_oshat_catch_b": "Catch {{amount_0}} Oshawott",
         "quest_title_quest_oshat_evolve_b": "Evolve {{amount_0}} Oshawott",
         "quest_title_quest_oshat_evolve_s1": "Evolve a Dewott",
@@ -64257,6 +64295,12 @@
         "quest_title_quest_power_up_plural_steel": "Power up {{amount_0}} Steel-type Pokémon",
         "quest_title_quest_power_up_plural_water": "Power up {{amount_0}} Water-type Pokémon",
         "quest_title_quest_power_up_singular": "Power up a Pokémon",
+        "quest_title_quest_primal_raid_victory_groudon": "Win a Primal Groudon raid",
+        "quest_title_quest_primal_raid_victory_kyogre": "Win a Primal Kyogre raid",
+        "quest_title_quest_primal_raid_victory_plural": "Win {{amount_0}} Primal Raids",
+        "quest_title_quest_primal_raid_victory_singular": "Win a Primal Raid",
+        "quest_title_quest_primal_reversion_plural": "Activate Primal Reversion {{amount_0}} times",
+        "quest_title_quest_primal_reversion_singular": "Activate Primal Reversion",
         "quest_title_quest_primal_surge_candy": "Primal Surge: Earn a Candy walking with your buddy",
         "quest_title_quest_primal_surge_catch": "Primal Surge: Catch 10 Pokémon",
         "quest_title_quest_primal_surge_hatch": "Primal Surge: Hatch an Egg",
@@ -64266,6 +64310,7 @@
         "quest_title_quest_psychicspec_catch_abra_plural": "Catch {{amount_0}} Abra or Drowzee",
         "quest_title_quest_psychicspec_catch_type_psychic_plural": "Catch {{amount_0}} Psychic-type Pokémon",
         "quest_title_quest_psychicspec_evolve_plural": "Evolve {{amount_0}} Exeggcute or Slowpoke",
+        "quest_title_quest_quilladin_evolve_b": "Evolve {{amount_0}} Quilladin",
         "quest_title_quest_raid_friend_singular": "Raid with a friend",
         "quest_title_quest_raid_with_buddy_plural": "Battle in {{amount_0}} raids with your buddy",
         "quest_title_quest_raid_with_buddy_singular": "Battle in a raid with your buddy",
@@ -64336,13 +64381,16 @@
         "quest_title_quest_snapshot_chikorita": "Take a snapshot of your Chikorita",
         "quest_title_quest_snapshot_cyndaquil": "Take a snapshot of your Cyndaquil",
         "quest_title_quest_snapshot_genesect": "Take {{amount_0}} snapshots of Genesect",
+        "quest_title_quest_snapshot_hariyama": "Take a snapshot of your Hariyama",
         "quest_title_quest_snapshot_hoopa_singular": "Take a snapshot of Hoopa",
         "quest_title_quest_snapshot_keldeo": "Take {{amount_0}} snapshots of Keldeo",
         "quest_title_quest_snapshot_landorus": "Take a snapshot of Landorus",
+        "quest_title_quest_snapshot_machamp": "Take a snapshot of your Machamp",
         "quest_title_quest_snapshot_okinawa": "Take a snapshot in Okinawa",
         "quest_title_quest_snapshot_regi_ice": "Take a snapshot of Regice",
         "quest_title_quest_snapshot_regi_rock": "Take a snapshot of Regirock",
         "quest_title_quest_snapshot_regi_steel": "Take a snapshot of Registeel",
+        "quest_title_quest_snapshot_scrafty": "Take a snapshot of your Scrafty",
         "quest_title_quest_snapshot_singular": "Take a snapshot",
         "quest_title_quest_snapshot_storage_bug_unique_plural": "Take snapshots of {{amount_0}} different Bug-type Pokémon that you caught",
         "quest_title_quest_snapshot_storage_steel_unique_plural": "Take snapshots of {{amount_0}} different Steel-type Pokémon that you caught",
@@ -64407,6 +64455,8 @@
         "quest_title_quest_sphet_evolve_s1": "Evolve {{amount_0}} Sealeo",
         "quest_title_quest_spin_151": "Spin 151 PokéStops or Gyms",
         "quest_title_quest_spin_daysinarow": "Visit PokéStops {{amount_0}} days in a row",
+        "quest_title_quest_spin_mexico_plural": "Spin {{amount_0}} PokéStops in Mexico",
+        "quest_title_quest_spin_mexico_singular": "Spin a PokéStop in Mexico",
         "quest_title_quest_spin_ultra_wormhole_gym": "Spin the Gym marked “Ultra Wormhole”",
         "quest_title_quest_st_catch_s": "Catch 15 Seedot",
         "quest_title_quest_st_evolve_n": "Evolve a Nuzleaf",
@@ -64422,6 +64472,7 @@
         "quest_title_quest_stuff_snapshot_b": "Take {{amount_0}} snapshots of Stufful in the wild",
         "quest_title_quest_supereffective_charge_plural": "Use {{amount_0}} supereffective Charged Attacks",
         "quest_title_quest_supereffective_charge_singular": "Use a supereffective Charged Attack",
+        "quest_title_quest_surskit_catch": "Catch {{amount_0}} Surskit",
         "quest_title_quest_swabt_catch_b": "Catch {{amount_0}} Swablu",
         "quest_title_quest_swabt_evolve_b": "Evolve {{amount_0}} Swablu",
         "quest_title_quest_teddiursa_catch_b": "Catch {{amount_0}} Teddiursa",

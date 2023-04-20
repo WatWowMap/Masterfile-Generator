@@ -52,7 +52,7 @@ async function masterfile() {
         try {
           fs.writeFileSync(
             previousFilePath,
-            fs.readFileSync(`./${templateName}`),
+            fs.readFileSync(`./${templateName}`)
           )
         } catch (e) {
           console.warn(`Previous version of ${templateName} does not exist`)
@@ -66,6 +66,8 @@ async function masterfile() {
         const newData = await generate({
           template,
           raw: templateName === 'master-latest-raw.json',
+          translationApkUrl:
+            'https://raw.githubusercontent.com/turtiesocks/pogo_assets/master/Texts/Latest%20APK/JSON/i18n_english.json',
         })
 
         if (
@@ -102,10 +104,7 @@ async function masterfile() {
         ) {
           delete newData.translations
         }
-        fs.writeFileSync(
-          `./${templateName}`,
-          JSON.stringify(newData, null, 2),
-        )
+        fs.writeFileSync(`./${templateName}`, JSON.stringify(newData, null, 2))
 
         // compare content of both files
         if (exists) {
@@ -146,10 +145,7 @@ async function masterfile() {
                 pushEntry(evo, ['Unset', 'Mega', 'Mega X', 'Mega Y'][id])
             }
           }
-          fs.writeFileSync(
-            './pokedex.js',
-            `pokedex=[${pokedex.join(',')}]`,
-          )
+          fs.writeFileSync('./pokedex.js', `pokedex=[${pokedex.join(',')}]`)
         }
       } catch (e) {
         console.error(e, `Unable to process ${templateName}`)
