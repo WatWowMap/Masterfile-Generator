@@ -57433,9 +57433,10 @@
       "type": "Dragon",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
+          103,
           147
         ],
         "second": [
@@ -57444,7 +57445,8 @@
         ],
         "third": [
           148,
-          149
+          149,
+          330
         ]
       }
     },
@@ -57640,7 +57642,7 @@
       "type": "Ground",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           231,
@@ -57849,8 +57851,7 @@
         ],
         "third": [
           76,
-          95,
-          208
+          95
         ]
       }
     },

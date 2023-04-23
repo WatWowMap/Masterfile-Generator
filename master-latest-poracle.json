@@ -56659,10 +56659,11 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
+          103,
           147
         ],
         "second": [
@@ -56671,7 +56672,8 @@
         ],
         "third": [
           148,
-          149
+          149,
+          330
         ]
       }
     },
@@ -56892,7 +56894,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -57126,8 +57128,7 @@
         ],
         "third": [
           76,
-          95,
-          208
+          95
         ]
       }
     },
