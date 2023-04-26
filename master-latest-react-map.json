@@ -35261,10 +35261,14 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
+          {
+            "id": 103,
+            "form": 78
+          },
           {
             "id": 147,
             "form": 0
