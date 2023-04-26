@@ -36133,39 +36133,132 @@
       "type": "Cliff",
       "gender": 0,
       "grunt": "Executive",
-      "firstReward": false,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 246,
+            "form": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 227,
+            "form": 0
+          },
+          {
+            "id": 230,
+            "form": 0
+          },
+          {
+            "id": 254,
+            "form": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 130,
+            "form": 0
+          },
+          {
+            "id": 248,
+            "form": 0
+          },
+          {
+            "id": 260,
+            "form": 0
+          }
+        ]
       }
     },
     "42": {
       "type": "Arlo",
       "gender": 0,
       "grunt": "Executive",
-      "firstReward": false,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 216,
+            "form": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 97,
+            "form": 0
+          },
+          {
+            "id": 257,
+            "form": 0
+          },
+          {
+            "id": 623,
+            "form": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 212,
+            "form": 0
+          },
+          {
+            "id": 354,
+            "form": 0
+          },
+          {
+            "id": 405,
+            "form": 0
+          }
+        ]
       }
     },
     "43": {
       "type": "Sierra",
       "gender": 0,
       "grunt": "Executive",
-      "firstReward": false,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 198,
+            "form": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 208,
+            "form": 0
+          },
+          {
+            "id": 260,
+            "form": 0
+          },
+          {
+            "id": 398,
+            "form": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 6,
+            "form": 0
+          },
+          {
+            "id": 149,
+            "form": 0
+          },
+          {
+            "id": 229,
+            "form": 0
+          }
+        ]
       }
     },
     "44": {
@@ -36221,13 +36314,36 @@
       "type": "Decoy",
       "gender": 2,
       "grunt": "Grunt",
-      "firstReward": false,
-      "secondReward": false,
+      "firstReward": true,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 69,
+            "form": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 20,
+            "form": 0
+          },
+          {
+            "id": 70,
+            "form": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 20,
+            "form": 0
+          },
+          {
+            "id": 143,
+            "form": 0
+          }
+        ]
       }
     },
     "47": {
