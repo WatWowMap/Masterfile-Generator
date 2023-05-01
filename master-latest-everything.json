@@ -143167,7 +143167,2113 @@
       "formatted": "With Pokemon Size"
     }
   },
-  "invasions": {},
+  "invasions": {
+    "0": {
+      "id": 0,
+      "type": "Unset",
+      "gender": 0,
+      "grunt": "Unset",
+      "proto": "CHARACTER_UNSET",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "1": {
+      "id": 1,
+      "type": "Blanche",
+      "gender": 0,
+      "grunt": "Blanche",
+      "proto": "CHARACTER_BLANCHE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "2": {
+      "id": 2,
+      "type": "Candela",
+      "gender": 0,
+      "grunt": "Candela",
+      "proto": "CHARACTER_CANDELA",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "3": {
+      "id": 3,
+      "type": "Spark",
+      "gender": 0,
+      "grunt": "Spark",
+      "proto": "CHARACTER_SPARK",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "4": {
+      "id": 4,
+      "type": "Mixed",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 1,
+            "formId": 0
+          },
+          {
+            "id": 4,
+            "formId": 0
+          },
+          {
+            "id": 7,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 153,
+            "formId": 0
+          },
+          {
+            "id": 156,
+            "formId": 0
+          },
+          {
+            "id": 159,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 254,
+            "formId": 0
+          },
+          {
+            "id": 257,
+            "formId": 0
+          },
+          {
+            "id": 260,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "5": {
+      "id": 5,
+      "type": "Mixed",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 143,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 62,
+            "formId": 0
+          },
+          {
+            "id": 143,
+            "formId": 0
+          },
+          {
+            "id": 282,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 130,
+            "formId": 0
+          },
+          {
+            "id": 143,
+            "formId": 0
+          },
+          {
+            "id": 149,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "6": {
+      "id": 6,
+      "type": "Bug",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_BUG_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "7": {
+      "id": 7,
+      "type": "Bug",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_BUG_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 213,
+            "formId": 0
+          },
+          {
+            "id": 451,
+            "formId": 0
+          },
+          {
+            "id": 595,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 13,
+            "formId": 0
+          },
+          {
+            "id": 14,
+            "formId": 0
+          },
+          {
+            "id": 15,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 15,
+            "formId": 0
+          },
+          {
+            "id": 205,
+            "formId": 0
+          },
+          {
+            "id": 212,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "8": {
+      "id": 8,
+      "type": "Darkness",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DARKNESS_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "9": {
+      "id": 9,
+      "type": "Darkness",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DARKNESS_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "10": {
+      "id": 10,
+      "type": "Dark",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DARK_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 19,
+            "formId": 46
+          },
+          {
+            "id": 88,
+            "formId": 74
+          }
+        ],
+        "second": [
+          {
+            "id": 20,
+            "formId": 48
+          },
+          {
+            "id": 89,
+            "formId": 76
+          }
+        ],
+        "third": [
+          {
+            "id": 89,
+            "formId": 76
+          }
+        ]
+      }
+    },
+    "11": {
+      "id": 11,
+      "type": "Dark",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DARK_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "12": {
+      "id": 12,
+      "type": "Dragon",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DRAGON_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 103,
+            "formId": 78
+          },
+          {
+            "id": 147,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 103,
+            "formId": 78
+          },
+          {
+            "id": 330,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 148,
+            "formId": 0
+          },
+          {
+            "id": 149,
+            "formId": 0
+          },
+          {
+            "id": 330,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "13": {
+      "id": 13,
+      "type": "Dragon",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DRAGON_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "14": {
+      "id": 14,
+      "type": "Fairy",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FAIRY_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 209,
+            "formId": 0
+          },
+          {
+            "id": 280,
+            "formId": 0
+          },
+          {
+            "id": 303,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 209,
+            "formId": 0
+          },
+          {
+            "id": 210,
+            "formId": 0
+          },
+          {
+            "id": 281,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 210,
+            "formId": 0
+          },
+          {
+            "id": 281,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "15": {
+      "id": 15,
+      "type": "Fairy",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FAIRY_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "16": {
+      "id": 16,
+      "type": "Fighting",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FIGHTING_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 106,
+            "formId": 0
+          },
+          {
+            "id": 107,
+            "formId": 0
+          },
+          {
+            "id": 296,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 106,
+            "formId": 0
+          },
+          {
+            "id": 107,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 68,
+            "formId": 0
+          },
+          {
+            "id": 106,
+            "formId": 0
+          },
+          {
+            "id": 107,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "17": {
+      "id": 17,
+      "type": "Fighting",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FIGHTING_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "18": {
+      "id": 18,
+      "type": "Fire",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FIRE_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 37,
+            "formId": 0
+          },
+          {
+            "id": 255,
+            "formId": 0
+          },
+          {
+            "id": 322,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 126,
+            "formId": 0
+          },
+          {
+            "id": 156,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 38,
+            "formId": 0
+          },
+          {
+            "id": 157,
+            "formId": 0
+          },
+          {
+            "id": 323,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "19": {
+      "id": 19,
+      "type": "Fire",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FIRE_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "20": {
+      "id": 20,
+      "type": "Flying",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FLYING_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 41,
+            "formId": 0
+          },
+          {
+            "id": 177,
+            "formId": 0
+          },
+          {
+            "id": 580,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 42,
+            "formId": 0
+          },
+          {
+            "id": 178,
+            "formId": 0
+          },
+          {
+            "id": 397,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 130,
+            "formId": 0
+          },
+          {
+            "id": 149,
+            "formId": 0
+          },
+          {
+            "id": 169,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "21": {
+      "id": 21,
+      "type": "Flying",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_FLYING_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "22": {
+      "id": 22,
+      "type": "Grass",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GRASS_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "23": {
+      "id": 23,
+      "type": "Grass",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GRASS_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 43,
+            "formId": 0
+          },
+          {
+            "id": 252,
+            "formId": 0
+          },
+          {
+            "id": 331,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 44,
+            "formId": 0
+          },
+          {
+            "id": 153,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 154,
+            "formId": 0
+          },
+          {
+            "id": 332,
+            "formId": 0
+          },
+          {
+            "id": 591,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "24": {
+      "id": 24,
+      "type": "Ground",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GROUND_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "25": {
+      "id": 25,
+      "type": "Ground",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GROUND_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 231,
+            "formId": 0
+          },
+          {
+            "id": 449,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 232,
+            "formId": 0
+          },
+          {
+            "id": 449,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 450,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "26": {
+      "id": 26,
+      "type": "Ice",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_ICE_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 27,
+            "formId": 52
+          },
+          {
+            "id": 37,
+            "formId": 56
+          },
+          {
+            "id": 220,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 28,
+            "formId": 54
+          },
+          {
+            "id": 38,
+            "formId": 58
+          },
+          {
+            "id": 459,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 91,
+            "formId": 0
+          },
+          {
+            "id": 131,
+            "formId": 0
+          },
+          {
+            "id": 460,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "27": {
+      "id": 27,
+      "type": "Ice",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_ICE_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "28": {
+      "id": 28,
+      "type": "Metal",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_METAL_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "29": {
+      "id": 29,
+      "type": "Metal",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_METAL_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 27,
+            "formId": 52
+          },
+          {
+            "id": 50,
+            "formId": 60
+          },
+          {
+            "id": 304,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 27,
+            "formId": 52
+          },
+          {
+            "id": 305,
+            "formId": 0
+          },
+          {
+            "id": 375,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 212,
+            "formId": 0
+          },
+          {
+            "id": 306,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "30": {
+      "id": 30,
+      "type": "Normal",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_NORMAL_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "31": {
+      "id": 31,
+      "type": "Normal",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_NORMAL_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 293,
+            "formId": 0
+          },
+          {
+            "id": 504,
+            "formId": 0
+          },
+          {
+            "id": 519,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 19,
+            "formId": 0
+          },
+          {
+            "id": 20,
+            "formId": 0
+          },
+          {
+            "id": 294,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 20,
+            "formId": 0
+          },
+          {
+            "id": 217,
+            "formId": 0
+          },
+          {
+            "id": 400,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "32": {
+      "id": 32,
+      "type": "Poison",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_POISON_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 88,
+            "formId": 0
+          },
+          {
+            "id": 590,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 30,
+            "formId": 0
+          },
+          {
+            "id": 33,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 89,
+            "formId": 0
+          },
+          {
+            "id": 110,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "33": {
+      "id": 33,
+      "type": "Poison",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_POISON_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "34": {
+      "id": 34,
+      "type": "Psychic",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_PSYCHIC_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "35": {
+      "id": 35,
+      "type": "Psychic",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_PSYCHIC_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 63,
+            "formId": 0
+          },
+          {
+            "id": 177,
+            "formId": 0
+          },
+          {
+            "id": 325,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 203,
+            "formId": 0
+          },
+          {
+            "id": 280,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 65,
+            "formId": 0
+          },
+          {
+            "id": 97,
+            "formId": 0
+          },
+          {
+            "id": 375,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "36": {
+      "id": 36,
+      "type": "Rock",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_ROCK_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "37": {
+      "id": 37,
+      "type": "Rock",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_ROCK_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 95,
+            "formId": 0
+          },
+          {
+            "id": 345,
+            "formId": 0
+          },
+          {
+            "id": 347,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 75,
+            "formId": 0
+          },
+          {
+            "id": 345,
+            "formId": 0
+          },
+          {
+            "id": 347,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 76,
+            "formId": 0
+          },
+          {
+            "id": 95,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "38": {
+      "id": 38,
+      "type": "Water",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_WATER_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 54,
+            "formId": 0
+          },
+          {
+            "id": 258,
+            "formId": 0
+          },
+          {
+            "id": 320,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 55,
+            "formId": 0
+          },
+          {
+            "id": 159,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 55,
+            "formId": 0
+          },
+          {
+            "id": 160,
+            "formId": 0
+          },
+          {
+            "id": 321,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "39": {
+      "id": 39,
+      "type": "Water",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_WATER_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 129,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 129,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 129,
+            "formId": 0
+          },
+          {
+            "id": 130,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "40": {
+      "id": 40,
+      "type": "Player Team Leader",
+      "gender": 0,
+      "proto": "CHARACTER_PLAYER_TEAM_LEADER",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "41": {
+      "id": 41,
+      "type": "Cliff",
+      "gender": 0,
+      "grunt": "Executive",
+      "proto": "CHARACTER_EXECUTIVE_CLIFF",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 246,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 227,
+            "formId": 0
+          },
+          {
+            "id": 230,
+            "formId": 0
+          },
+          {
+            "id": 254,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 130,
+            "formId": 0
+          },
+          {
+            "id": 248,
+            "formId": 0
+          },
+          {
+            "id": 260,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "42": {
+      "id": 42,
+      "type": "Arlo",
+      "gender": 0,
+      "grunt": "Executive",
+      "proto": "CHARACTER_EXECUTIVE_ARLO",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 216,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 97,
+            "formId": 0
+          },
+          {
+            "id": 257,
+            "formId": 0
+          },
+          {
+            "id": 623,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 212,
+            "formId": 0
+          },
+          {
+            "id": 354,
+            "formId": 0
+          },
+          {
+            "id": 405,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "43": {
+      "id": 43,
+      "type": "Sierra",
+      "gender": 0,
+      "grunt": "Executive",
+      "proto": "CHARACTER_EXECUTIVE_SIERRA",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 198,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 208,
+            "formId": 0
+          },
+          {
+            "id": 260,
+            "formId": 0
+          },
+          {
+            "id": 398,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 6,
+            "formId": 0
+          },
+          {
+            "id": 149,
+            "formId": 0
+          },
+          {
+            "id": 229,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "44": {
+      "id": 44,
+      "type": "Giovanni",
+      "gender": 0,
+      "grunt": "Giovanni",
+      "proto": "CHARACTER_GIOVANNI",
+      "active": true,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": true,
+      "encounters": {
+        "first": [
+          {
+            "id": 53,
+            "formId": 65
+          }
+        ],
+        "second": [
+          {
+            "id": 34,
+            "formId": 788
+          },
+          {
+            "id": 99,
+            "formId": 873
+          },
+          {
+            "id": 230,
+            "formId": 1298
+          }
+        ],
+        "third": [
+          {
+            "id": 378,
+            "formId": 1625
+          }
+        ]
+      }
+    },
+    "45": {
+      "id": 45,
+      "type": "Decoy",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DECOY_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "46": {
+      "id": 46,
+      "type": "Decoy",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_DECOY_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 69,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 20,
+            "formId": 0
+          },
+          {
+            "id": 70,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 20,
+            "formId": 0
+          },
+          {
+            "id": 143,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "47": {
+      "id": 47,
+      "type": "Ghost",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GHOST_GRUNT_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "48": {
+      "id": 48,
+      "type": "Ghost",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_GHOST_GRUNT_MALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 353,
+            "formId": 0
+          },
+          {
+            "id": 355,
+            "formId": 0
+          },
+          {
+            "id": 425,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 354,
+            "formId": 0
+          },
+          {
+            "id": 356,
+            "formId": 0
+          },
+          {
+            "id": 622,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 354,
+            "formId": 0
+          },
+          {
+            "id": 477,
+            "formId": 0
+          },
+          {
+            "id": 623,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "49": {
+      "id": 49,
+      "type": "Electric",
+      "gender": 2,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_ELECTRIC_GRUNT_FEMALE",
+      "active": true,
+      "firstReward": true,
+      "secondReward": true,
+      "thirdReward": false,
+      "encounters": {
+        "first": [
+          {
+            "id": 179,
+            "formId": 0
+          },
+          {
+            "id": 403,
+            "formId": 0
+          },
+          {
+            "id": 522,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 100,
+            "formId": 0
+          },
+          {
+            "id": 125,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 181,
+            "formId": 0
+          },
+          {
+            "id": 405,
+            "formId": 0
+          },
+          {
+            "id": 523,
+            "formId": 0
+          }
+        ]
+      }
+    },
+    "50": {
+      "id": 50,
+      "type": "Electric",
+      "gender": 1,
+      "grunt": "Grunt",
+      "proto": "CHARACTER_ELECTRIC_GRUNT_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "53": {
+      "id": 53,
+      "type": "Gruntb",
+      "gender": 2,
+      "grunt": "Gruntb",
+      "proto": "CHARACTER_GRUNTB_FEMALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "54": {
+      "id": 54,
+      "type": "Gruntb",
+      "gender": 1,
+      "grunt": "Gruntb",
+      "proto": "CHARACTER_GRUNTB_MALE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "91": {
+      "id": 91,
+      "type": "Willow",
+      "gender": 0,
+      "grunt": "Willow",
+      "proto": "CHARACTER_WILLOW",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "92": {
+      "id": 92,
+      "type": "Willowb",
+      "gender": 0,
+      "grunt": "Willowb",
+      "proto": "CHARACTER_WILLOWB",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "500": {
+      "id": 500,
+      "type": "NPC 0",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_0",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "501": {
+      "id": 501,
+      "type": "NPC 1",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_1",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "502": {
+      "id": 502,
+      "type": "NPC 2",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_2",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "503": {
+      "id": 503,
+      "type": "NPC 3",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_3",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "504": {
+      "id": 504,
+      "type": "NPC 4",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_4",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "505": {
+      "id": 505,
+      "type": "NPC 5",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_5",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "506": {
+      "id": 506,
+      "type": "NPC 6",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_6",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "507": {
+      "id": 507,
+      "type": "NPC 7",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_7",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "508": {
+      "id": 508,
+      "type": "NPC 8",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_8",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "509": {
+      "id": 509,
+      "type": "NPC 9",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_9",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "510": {
+      "id": 510,
+      "type": "NPC 10",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_10",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "511": {
+      "id": 511,
+      "type": "NPC Blanche",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_BLANCHE",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "512": {
+      "id": 512,
+      "type": "NPC Candela",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_CANDELA",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "513": {
+      "id": 513,
+      "type": "NPC Spark",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_SPARK",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "514": {
+      "id": 514,
+      "type": "NPC 11",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_11",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "515": {
+      "id": 515,
+      "type": "NPC 12",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_12",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "516": {
+      "id": 516,
+      "type": "NPC 13",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_13",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "517": {
+      "id": 517,
+      "type": "NPC 14",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_14",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "518": {
+      "id": 518,
+      "type": "NPC 15",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_15",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "519": {
+      "id": 519,
+      "type": "NPC 16",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_16",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "520": {
+      "id": 520,
+      "type": "NPC 17",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_17",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "521": {
+      "id": 521,
+      "type": "NPC 18",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_18",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "522": {
+      "id": 522,
+      "type": "NPC 19",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_19",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "523": {
+      "id": 523,
+      "type": "NPC 20",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_NPC_20",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    }
+  },
   "weather": {
     "0": {
       "weatherId": 0,
