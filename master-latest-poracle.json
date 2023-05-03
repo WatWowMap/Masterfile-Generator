@@ -8562,6 +8562,26 @@
             }
           ],
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 305,
+            "baseDefense": 231,
+            "baseStamina": 163
+          },
+          "types": [
+            {
+              "id": 3,
+              "name": "Flying"
+            },
+            {
+              "id": 7,
+              "name": "Bug"
+            }
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -8604,6 +8624,26 @@
             }
           ],
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 305,
+            "baseDefense": 231,
+            "baseStamina": 163
+          },
+          "types": [
+            {
+              "id": 3,
+              "name": "Flying"
+            },
+            {
+              "id": 7,
+              "name": "Bug"
+            }
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -50941,6 +50981,8 @@
         "baseDefense": 174,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "901_0": {

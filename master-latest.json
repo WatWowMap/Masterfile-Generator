@@ -8124,11 +8124,12 @@
           "attack": 305,
           "defense": 231,
           "stamina": 163,
+          "height": 1.7,
+          "weight": 59,
           "types": [
             "Flying",
             "Bug"
-          ],
-          "unreleased": true
+          ]
         }
       }
     },
@@ -49182,29 +49183,13 @@
         "Bug"
       ],
       "quick_moves": [
-        "Fury Cutter",
         "Quick Attack",
-        "Air Slash",
-        "Struggle Bug",
-        "Take Down",
-        "Smack Down"
+        "Air Slash"
       ],
       "charged_moves": [
-        "Hyper Beam",
         "Stone Edge",
-        "Aerial Ace",
-        "Bug Buzz",
-        "Rock Tomb",
         "Rock Slide",
-        "X Scissor",
-        "Air Cutter",
-        "Brick Break",
-        "Swift",
-        "Rest",
-        "Close Combat",
-        "Rock Blast",
-        "Giga Impact",
-        "Acrobatics"
+        "X Scissor"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -49216,8 +49201,18 @@
       "attack": 253,
       "defense": 174,
       "stamina": 172,
+      "height": 1.8,
+      "weight": 89,
+      "family": 123,
+      "flee_rate": 0.1,
+      "capture_rate": 0.3,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "901": {
       "name": "Ursaluna",

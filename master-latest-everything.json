@@ -16527,6 +16527,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -16541,6 +16542,8 @@
             "defense": 231,
             "stamina": 163
           },
+          "height": 1.7,
+          "weight": 59,
           "types": {
             "3": {
               "typeId": 3,
@@ -16551,7 +16554,8 @@
               "typeName": "Bug"
             }
           },
-          "unreleased": true
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -100953,13 +100957,6 @@
         }
       },
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 2
-        },
         "219": {
           "moveId": 219,
           "moveName": "Quick Attack",
@@ -100973,64 +100970,15 @@
           "proto": "AIR_SLASH_FAST",
           "type": 3,
           "power": 9
-        },
-        "261": {
-          "moveId": 261,
-          "moveName": "Struggle Bug",
-          "proto": "STRUGGLE_BUG_FAST",
-          "type": 7,
-          "power": 9
-        },
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
-          "type": 1,
-          "power": 5
-        },
-        "297": {
-          "moveId": 297,
-          "moveName": "Smack Down",
-          "proto": "SMACK_DOWN_FAST",
-          "type": 6,
-          "power": 12
         }
       },
       "chargedMoves": {
-        "14": {
-          "moveId": 14,
-          "moveName": "Hyper Beam",
-          "proto": "HYPER_BEAM",
-          "type": 1,
-          "power": 150
-        },
         "32": {
           "moveId": 32,
           "moveName": "Stone Edge",
           "proto": "STONE_EDGE",
           "type": 6,
           "power": 100
-        },
-        "45": {
-          "moveId": 45,
-          "moveName": "Aerial Ace",
-          "proto": "AERIAL_ACE",
-          "type": 3,
-          "power": 55
-        },
-        "49": {
-          "moveId": 49,
-          "moveName": "Bug Buzz",
-          "proto": "BUG_BUZZ",
-          "type": 7,
-          "power": 100
-        },
-        "63": {
-          "moveId": 63,
-          "moveName": "Rock Tomb",
-          "proto": "ROCK_TOMB",
-          "type": 6,
-          "power": 70
         },
         "64": {
           "moveId": 64,
@@ -101045,62 +100993,6 @@
           "proto": "X_SCISSOR",
           "type": 7,
           "power": 45
-        },
-        "121": {
-          "moveId": 121,
-          "moveName": "Air Cutter",
-          "proto": "AIR_CUTTER",
-          "type": 3,
-          "power": 60
-        },
-        "123": {
-          "moveId": 123,
-          "moveName": "Brick Break",
-          "proto": "BRICK_BREAK",
-          "type": 2,
-          "power": 40
-        },
-        "125": {
-          "moveId": 125,
-          "moveName": "Swift",
-          "proto": "SWIFT",
-          "type": 1,
-          "power": 60
-        },
-        "132": {
-          "moveId": 132,
-          "moveName": "Rest",
-          "proto": "REST",
-          "type": 1,
-          "power": 50
-        },
-        "245": {
-          "moveId": 245,
-          "moveName": "Close Combat",
-          "proto": "CLOSE_COMBAT",
-          "type": 2,
-          "power": 100
-        },
-        "259": {
-          "moveId": 259,
-          "moveName": "Rock Blast",
-          "proto": "ROCK_BLAST",
-          "type": 6,
-          "power": 50
-        },
-        "321": {
-          "moveId": 321,
-          "moveName": "Giga Impact",
-          "proto": "GIGA_IMPACT",
-          "type": 1,
-          "power": 150
-        },
-        "364": {
-          "moveId": 364,
-          "moveName": "Acrobatics",
-          "proto": "ACROBATICS",
-          "type": 3,
-          "power": 110
         }
       },
       "genId": 8,
@@ -101117,9 +101009,27 @@
         "defense": 174,
         "stamina": 172
       },
-      "unreleased": true,
+      "height": 1.8,
+      "weight": 89,
+      "family": 123,
+      "encounter": {
+        "fleeRate": 0.1,
+        "captureRate": 0.3
+      },
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "ultraBeast": false,
+      "misc": {
+        "buddyGroupNumber": 3,
+        "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
+        "thirdMoveStardust": 75000,
+        "thirdMoveCandy": 75,
+        "gymDefenderEligible": true,
+        "tradable": true,
+        "transferable": true
+      },
+      "unreleased": true
     },
     "901": {
       "name": "Ursaluna",
@@ -127189,8 +127099,6 @@
       "formName": "Normal",
       "proto": "PINSIR_NORMAL",
       "formId": 898,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -127202,8 +127110,24 @@
             7
           ],
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 305,
+          "defense": 231,
+          "stamina": 163,
+          "height": 1.7,
+          "weight": 59,
+          "types": [
+            3,
+            7
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "899": {
       "formName": "Shadow",
@@ -127225,6 +127149,20 @@
             7
           ],
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 305,
+          "defense": 231,
+          "stamina": 163,
+          "height": 1.7,
+          "weight": 59,
+          "types": [
+            3,
+            7
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
