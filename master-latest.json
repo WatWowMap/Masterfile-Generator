@@ -1585,6 +1585,22 @@
             "Wild Charge",
             "Fly"
           ]
+        },
+        "3002": {
+          "name": "Summer 2023 A",
+          "proto": "PIKACHU_SUMMER_2023_A"
+        },
+        "3003": {
+          "name": "Summer 2023 B",
+          "proto": "PIKACHU_SUMMER_2023_B"
+        },
+        "3004": {
+          "name": "Summer 2023 C",
+          "proto": "PIKACHU_SUMMER_2023_C"
+        },
+        "3005": {
+          "name": "Summer 2023 D",
+          "proto": "PIKACHU_SUMMER_2023_D"
         }
       },
       "attack": 112,
@@ -7909,6 +7925,18 @@
         "1088": {
           "name": "Purified",
           "proto": "TAUROS_PURIFIED"
+        },
+        "3006": {
+          "name": "Paldea Combat",
+          "proto": "TAUROS_PALDEA_COMBAT"
+        },
+        "3007": {
+          "name": "Paldea Blaze",
+          "proto": "TAUROS_PALDEA_BLAZE"
+        },
+        "3008": {
+          "name": "Paldea Aqua",
+          "proto": "TAUROS_PALDEA_AQUA"
         }
       },
       "attack": 198,
@@ -8664,6 +8692,10 @@
           "temp_evolutions": {
             "1": {}
           }
+        },
+        "3001": {
+          "name": "Summer 2023",
+          "proto": "AERODACTYL_SUMMER_2023"
         }
       },
       "attack": 221,
@@ -11530,6 +11562,10 @@
         "1228": {
           "name": "Purified",
           "proto": "WOOPER_PURIFIED"
+        },
+        "3009": {
+          "name": "Paldea",
+          "proto": "WOOPER_PALDEA"
         }
       },
       "attack": 75,
@@ -39610,6 +39646,14 @@
         "2593": {
           "name": "Complete",
           "proto": "ZYGARDE_COMPLETE"
+        },
+        "2823": {
+          "name": "Complete Ten Percent",
+          "proto": "ZYGARDE_COMPLETE_TEN_PERCENT"
+        },
+        "2824": {
+          "name": "Complete Fifty Percent",
+          "proto": "ZYGARDE_COMPLETE_FIFTY_PERCENT"
         }
       },
       "attack": 203,
@@ -47673,7 +47717,6 @@
       "name": "Sprigatito",
       "pokedex_id": 906,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Grass"
       ],
@@ -47705,6 +47748,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 116,
       "defense": 99,
       "stamina": 120,
@@ -47721,7 +47769,6 @@
       "name": "Floragato",
       "pokedex_id": 907,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Grass"
       ],
@@ -47755,6 +47802,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 157,
       "defense": 128,
       "stamina": 156,
@@ -47771,7 +47823,6 @@
       "name": "Meowscarada",
       "pokedex_id": 908,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Grass",
         "Dark"
@@ -47816,6 +47867,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 233,
       "defense": 153,
       "stamina": 183,
@@ -47826,7 +47882,6 @@
       "name": "Fuecoco",
       "pokedex_id": 909,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fire"
       ],
@@ -47859,6 +47914,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 112,
       "defense": 96,
       "stamina": 167,
@@ -47875,7 +47935,6 @@
       "name": "Crocalor",
       "pokedex_id": 910,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fire"
       ],
@@ -47909,6 +47968,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 162,
       "defense": 134,
       "stamina": 191,
@@ -47925,7 +47989,6 @@
       "name": "Skeledirge",
       "pokedex_id": 911,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost",
         "Fire"
@@ -47970,6 +48033,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 207,
       "defense": 178,
       "stamina": 232,
@@ -47980,7 +48048,6 @@
       "name": "Quaxly",
       "pokedex_id": 912,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water"
       ],
@@ -48007,6 +48074,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 120,
       "defense": 86,
       "stamina": 146,
@@ -48023,7 +48095,6 @@
       "name": "Quaxwell",
       "pokedex_id": 913,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water"
       ],
@@ -48052,6 +48123,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 162,
       "defense": 123,
       "stamina": 172,
@@ -48068,7 +48144,6 @@
       "name": "Quaquaval",
       "pokedex_id": 914,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Water"
@@ -48106,6 +48181,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 236,
       "defense": 159,
       "stamina": 198,
@@ -48116,7 +48196,6 @@
       "name": "Lechonk",
       "pokedex_id": 915,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal"
       ],
@@ -48140,6 +48219,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 81,
       "defense": 79,
       "stamina": 144,
@@ -48155,8 +48239,7 @@
     "916": {
       "name": "Oinkologne",
       "pokedex_id": 916,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2981,
       "types": [
         "Normal"
       ],
@@ -48184,6 +48267,16 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2981": {
+          "name": "Normal",
+          "proto": "OINKOLOGNE_NORMAL"
+        },
+        "2982": {
+          "name": "Female",
+          "proto": "OINKOLOGNE_FEMALE"
+        }
+      },
       "attack": 186,
       "defense": 153,
       "stamina": 242,
@@ -48194,7 +48287,6 @@
       "name": "Tarountula",
       "pokedex_id": 917,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Bug"
       ],
@@ -48220,6 +48312,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 70,
       "defense": 77,
       "stamina": 111,
@@ -48236,7 +48333,6 @@
       "name": "Spidops",
       "pokedex_id": 918,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Bug"
       ],
@@ -48265,6 +48361,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 139,
       "defense": 166,
       "stamina": 155,
@@ -48275,7 +48376,6 @@
       "name": "Nymble",
       "pokedex_id": 919,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Bug"
       ],
@@ -48296,6 +48396,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 81,
       "defense": 65,
       "stamina": 107,
@@ -48312,7 +48417,6 @@
       "name": "Lokix",
       "pokedex_id": 920,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Bug",
         "Dark"
@@ -48340,6 +48444,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 199,
       "defense": 144,
       "stamina": 174,
@@ -48350,7 +48459,6 @@
       "name": "Pawmi",
       "pokedex_id": 921,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Electric"
       ],
@@ -48380,6 +48488,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 95,
       "defense": 45,
       "stamina": 128,
@@ -48396,7 +48509,6 @@
       "name": "Pawmo",
       "pokedex_id": 922,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Electric"
@@ -48430,6 +48542,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 147,
       "defense": 82,
       "stamina": 155,
@@ -48446,7 +48563,6 @@
       "name": "Pawmot",
       "pokedex_id": 923,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Electric"
@@ -48490,6 +48606,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 232,
       "defense": 141,
       "stamina": 172,
@@ -48500,7 +48621,6 @@
       "name": "Tandemaus",
       "pokedex_id": 924,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal"
       ],
@@ -48529,6 +48649,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 98,
       "defense": 90,
       "stamina": 137,
@@ -48544,8 +48669,7 @@
     "925": {
       "name": "Maushold",
       "pokedex_id": 925,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2983,
       "types": [
         "Normal"
       ],
@@ -48575,6 +48699,16 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2983": {
+          "name": "Family Of Three",
+          "proto": "MAUSHOLD_FAMILY_OF_THREE"
+        },
+        "2984": {
+          "name": "Family Of Four",
+          "proto": "MAUSHOLD_FAMILY_OF_FOUR"
+        }
+      },
       "attack": 159,
       "defense": 157,
       "stamina": 179,
@@ -48585,7 +48719,6 @@
       "name": "Fidough",
       "pokedex_id": 926,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fairy"
       ],
@@ -48614,6 +48747,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 102,
       "defense": 126,
       "stamina": 114,
@@ -48630,7 +48768,6 @@
       "name": "Dachsbun",
       "pokedex_id": 927,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fairy"
       ],
@@ -48662,6 +48799,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 159,
       "defense": 212,
       "stamina": 149,
@@ -48672,7 +48814,6 @@
       "name": "Smoliv",
       "pokedex_id": 928,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Grass"
@@ -48698,6 +48839,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 100,
       "defense": 89,
       "stamina": 121,
@@ -48714,7 +48860,6 @@
       "name": "Dolliv",
       "pokedex_id": 929,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Grass"
@@ -48740,6 +48885,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 137,
       "defense": 131,
       "stamina": 141,
@@ -48756,7 +48906,6 @@
       "name": "Arboliva",
       "pokedex_id": 930,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Grass"
@@ -48787,6 +48936,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 219,
       "defense": 189,
       "stamina": 186,
@@ -48796,8 +48950,7 @@
     "931": {
       "name": "Squawkabilly",
       "pokedex_id": 931,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2985,
       "types": [
         "Normal",
         "Flying"
@@ -48822,6 +48975,24 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2985": {
+          "name": "Green",
+          "proto": "SQUAWKABILLY_GREEN"
+        },
+        "2986": {
+          "name": "Blue",
+          "proto": "SQUAWKABILLY_BLUE"
+        },
+        "2987": {
+          "name": "Yellow",
+          "proto": "SQUAWKABILLY_YELLOW"
+        },
+        "2988": {
+          "name": "White",
+          "proto": "SQUAWKABILLY_WHITE"
+        }
+      },
       "attack": 185,
       "defense": 105,
       "stamina": 193,
@@ -48832,7 +49003,6 @@
       "name": "Nacli",
       "pokedex_id": 932,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Rock"
       ],
@@ -48861,6 +49031,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 95,
       "defense": 108,
       "stamina": 146,
@@ -48877,7 +49052,6 @@
       "name": "Naclstack",
       "pokedex_id": 933,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Rock"
       ],
@@ -48907,6 +49081,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 105,
       "defense": 160,
       "stamina": 155,
@@ -48923,7 +49102,6 @@
       "name": "Garganacl",
       "pokedex_id": 934,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Rock"
       ],
@@ -48959,6 +49137,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 171,
       "defense": 212,
       "stamina": 225,
@@ -48969,7 +49152,6 @@
       "name": "Charcadet",
       "pokedex_id": 935,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fire"
       ],
@@ -48990,6 +49172,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 92,
       "defense": 74,
       "stamina": 120,
@@ -49009,7 +49196,6 @@
       "name": "Armarouge",
       "pokedex_id": 936,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fire",
         "Psychic"
@@ -49044,6 +49230,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 234,
       "defense": 185,
       "stamina": 198,
@@ -49054,7 +49245,6 @@
       "name": "Ceruledge",
       "pokedex_id": 937,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost",
         "Fire"
@@ -49089,6 +49279,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 239,
       "defense": 189,
       "stamina": 181,
@@ -49099,7 +49294,6 @@
       "name": "Tadbulb",
       "pokedex_id": 938,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Electric"
       ],
@@ -49129,6 +49323,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 104,
       "defense": 73,
       "stamina": 156,
@@ -49145,7 +49344,6 @@
       "name": "Bellibolt",
       "pokedex_id": 939,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Electric"
       ],
@@ -49175,6 +49373,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 184,
       "defense": 165,
       "stamina": 240,
@@ -49185,7 +49388,6 @@
       "name": "Wattrel",
       "pokedex_id": 940,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Flying",
         "Electric"
@@ -49217,6 +49419,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 105,
       "defense": 75,
       "stamina": 120,
@@ -49233,7 +49440,6 @@
       "name": "Kilowattrel",
       "pokedex_id": 941,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Flying",
         "Electric"
@@ -49266,6 +49472,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 221,
       "defense": 132,
       "stamina": 172,
@@ -49276,7 +49487,6 @@
       "name": "Maschiff",
       "pokedex_id": 942,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Dark"
       ],
@@ -49303,6 +49513,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 140,
       "defense": 108,
       "stamina": 155,
@@ -49319,7 +49534,6 @@
       "name": "Mabosstiff",
       "pokedex_id": 943,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Dark"
       ],
@@ -49350,6 +49564,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 230,
       "defense": 168,
       "stamina": 190,
@@ -49360,7 +49579,6 @@
       "name": "Shroodle",
       "pokedex_id": 944,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Poison"
@@ -49386,6 +49604,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 124,
       "defense": 70,
       "stamina": 120,
@@ -49402,7 +49625,6 @@
       "name": "Grafaiai",
       "pokedex_id": 945,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Poison"
@@ -49431,6 +49653,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 199,
       "defense": 149,
       "stamina": 160,
@@ -49441,7 +49668,6 @@
       "name": "Bramblin",
       "pokedex_id": 946,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost",
         "Grass"
@@ -49469,6 +49695,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 121,
       "defense": 64,
       "stamina": 120,
@@ -49485,7 +49716,6 @@
       "name": "Brambleghast",
       "pokedex_id": 947,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost",
         "Grass"
@@ -49514,6 +49744,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 228,
       "defense": 144,
       "stamina": 146,
@@ -49524,7 +49759,6 @@
       "name": "Toedscool",
       "pokedex_id": 948,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ground",
         "Grass"
@@ -49559,6 +49793,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 97,
       "defense": 149,
       "stamina": 120,
@@ -49575,7 +49814,6 @@
       "name": "Toedscruel",
       "pokedex_id": 949,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ground",
         "Grass"
@@ -49611,6 +49849,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 166,
       "defense": 209,
       "stamina": 190,
@@ -49621,7 +49864,6 @@
       "name": "Klawf",
       "pokedex_id": 950,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Rock"
       ],
@@ -49655,6 +49897,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 184,
       "defense": 185,
       "stamina": 172,
@@ -49665,7 +49912,6 @@
       "name": "Capsakid",
       "pokedex_id": 951,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Grass"
       ],
@@ -49690,6 +49936,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 118,
       "defense": 76,
       "stamina": 137,
@@ -49706,7 +49957,6 @@
       "name": "Scovillain",
       "pokedex_id": 952,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fire",
         "Grass"
@@ -49737,6 +49987,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 216,
       "defense": 130,
       "stamina": 163,
@@ -49747,7 +50002,6 @@
       "name": "Rellor",
       "pokedex_id": 953,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Bug"
       ],
@@ -49772,6 +50026,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 86,
       "defense": 108,
       "stamina": 121,
@@ -49788,7 +50047,6 @@
       "name": "Rabsca",
       "pokedex_id": 954,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Bug",
         "Psychic"
@@ -49827,6 +50085,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 201,
       "defense": 178,
       "stamina": 181,
@@ -49837,7 +50100,6 @@
       "name": "Flittle",
       "pokedex_id": 955,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Psychic"
       ],
@@ -49861,6 +50123,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 105,
       "defense": 60,
       "stamina": 102,
@@ -49877,7 +50144,6 @@
       "name": "Espathra",
       "pokedex_id": 956,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Psychic"
       ],
@@ -49916,6 +50182,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 204,
       "defense": 127,
       "stamina": 216,
@@ -49926,7 +50197,6 @@
       "name": "Tinkatink",
       "pokedex_id": 957,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Steel",
         "Fairy"
@@ -49950,6 +50220,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 85,
       "defense": 110,
       "stamina": 137,
@@ -49966,7 +50241,6 @@
       "name": "Tinkatuff",
       "pokedex_id": 958,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Steel",
         "Fairy"
@@ -49991,6 +50265,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 109,
       "defense": 145,
       "stamina": 163,
@@ -50007,7 +50286,6 @@
       "name": "Tinkaton",
       "pokedex_id": 959,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Steel",
         "Fairy"
@@ -50034,6 +50312,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 155,
       "defense": 196,
       "stamina": 198,
@@ -50044,7 +50327,6 @@
       "name": "Wiglett",
       "pokedex_id": 960,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water"
       ],
@@ -50072,6 +50354,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 109,
       "defense": 52,
       "stamina": 67,
@@ -50088,7 +50375,6 @@
       "name": "Wugtrio",
       "pokedex_id": 961,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water"
       ],
@@ -50118,6 +50404,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 205,
       "defense": 136,
       "stamina": 111,
@@ -50128,7 +50419,6 @@
       "name": "Bombirdier",
       "pokedex_id": 962,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Flying",
         "Dark"
@@ -50167,6 +50457,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 198,
       "defense": 172,
       "stamina": 172,
@@ -50177,7 +50472,6 @@
       "name": "Finizen",
       "pokedex_id": 963,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water"
       ],
@@ -50209,6 +50503,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 90,
       "defense": 80,
       "stamina": 172,
@@ -50224,8 +50523,7 @@
     "964": {
       "name": "Palafin",
       "pokedex_id": 964,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2989,
       "types": [
         "Water"
       ],
@@ -50265,6 +50563,16 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2989": {
+          "name": "Zero",
+          "proto": "PALAFIN_ZERO"
+        },
+        "2990": {
+          "name": "Hero",
+          "proto": "PALAFIN_HERO"
+        }
+      },
       "attack": 143,
       "defense": 144,
       "stamina": 225,
@@ -50275,7 +50583,6 @@
       "name": "Varoom",
       "pokedex_id": 965,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Poison",
         "Steel"
@@ -50299,6 +50606,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 123,
       "defense": 107,
       "stamina": 128,
@@ -50315,7 +50627,6 @@
       "name": "Revavroom",
       "pokedex_id": 966,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Poison",
         "Steel"
@@ -50344,6 +50655,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 229,
       "defense": 168,
       "stamina": 190,
@@ -50354,7 +50670,6 @@
       "name": "Cyclizar",
       "pokedex_id": 967,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Dragon"
@@ -50393,6 +50708,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 205,
       "defense": 142,
       "stamina": 172,
@@ -50403,7 +50723,6 @@
       "name": "Orthworm",
       "pokedex_id": 968,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Steel"
       ],
@@ -50434,6 +50753,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 161,
       "defense": 219,
       "stamina": 172,
@@ -50444,7 +50768,6 @@
       "name": "Glimmet",
       "pokedex_id": 969,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Poison",
         "Rock"
@@ -50470,6 +50793,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 187,
       "defense": 104,
       "stamina": 134,
@@ -50486,7 +50814,6 @@
       "name": "Glimmora",
       "pokedex_id": 970,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Poison",
         "Rock"
@@ -50518,6 +50845,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 246,
       "defense": 177,
       "stamina": 195,
@@ -50528,7 +50860,6 @@
       "name": "Greavard",
       "pokedex_id": 971,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost"
       ],
@@ -50559,6 +50890,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 105,
       "defense": 106,
       "stamina": 137,
@@ -50575,7 +50911,6 @@
       "name": "Houndstone",
       "pokedex_id": 972,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost"
       ],
@@ -50607,6 +50942,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 186,
       "defense": 195,
       "stamina": 176,
@@ -50617,7 +50957,6 @@
       "name": "Flamigo",
       "pokedex_id": 973,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Flying"
@@ -50648,6 +50987,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 227,
       "defense": 145,
       "stamina": 193,
@@ -50658,7 +51002,6 @@
       "name": "Cetoddle",
       "pokedex_id": 974,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ice"
       ],
@@ -50686,6 +51029,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 119,
       "defense": 80,
       "stamina": 239,
@@ -50702,7 +51050,6 @@
       "name": "Cetitan",
       "pokedex_id": 975,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ice"
       ],
@@ -50732,6 +51079,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 208,
       "defense": 123,
       "stamina": 347,
@@ -50742,7 +51094,6 @@
       "name": "Veluza",
       "pokedex_id": 976,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water",
         "Psychic"
@@ -50775,6 +51126,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 196,
       "defense": 139,
       "stamina": 207,
@@ -50785,7 +51141,6 @@
       "name": "Dondozo",
       "pokedex_id": 977,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water"
       ],
@@ -50816,6 +51171,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 176,
       "defense": 178,
       "stamina": 312,
@@ -50825,8 +51185,7 @@
     "978": {
       "name": "Tatsugiri",
       "pokedex_id": 978,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2991,
       "types": [
         "Water",
         "Dragon"
@@ -50852,6 +51211,20 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2991": {
+          "name": "Curly",
+          "proto": "TATSUGIRI_CURLY"
+        },
+        "2992": {
+          "name": "Droopy",
+          "proto": "TATSUGIRI_DROOPY"
+        },
+        "2993": {
+          "name": "Stretchy",
+          "proto": "TATSUGIRI_STRETCHY"
+        }
+      },
       "attack": 226,
       "defense": 166,
       "stamina": 169,
@@ -50862,7 +51235,6 @@
       "name": "Annihilape",
       "pokedex_id": 979,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Ghost"
@@ -50909,6 +51281,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 220,
       "defense": 178,
       "stamina": 242,
@@ -50919,7 +51296,6 @@
       "name": "Clodsire",
       "pokedex_id": 980,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Poison",
         "Ground"
@@ -50959,6 +51335,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 127,
       "defense": 151,
       "stamina": 277,
@@ -50969,7 +51350,6 @@
       "name": "Farigiraf",
       "pokedex_id": 981,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Normal",
         "Psychic"
@@ -51009,6 +51389,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 209,
       "defense": 136,
       "stamina": 260,
@@ -51018,8 +51403,7 @@
     "982": {
       "name": "Dudunsparce",
       "pokedex_id": 982,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2994,
       "types": [
         "Normal"
       ],
@@ -51064,6 +51448,16 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2994": {
+          "name": "Two",
+          "proto": "DUDUNSPARCE_TWO"
+        },
+        "2995": {
+          "name": "Three",
+          "proto": "DUDUNSPARCE_THREE"
+        }
+      },
       "attack": 188,
       "defense": 150,
       "stamina": 268,
@@ -51074,7 +51468,6 @@
       "name": "Kingambit",
       "pokedex_id": 983,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Steel",
         "Dark"
@@ -51112,6 +51505,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 238,
       "defense": 203,
       "stamina": 225,
@@ -51119,10 +51517,9 @@
       "mythic": false
     },
     "984": {
-      "name": "Great-tusk",
+      "name": "Greattusk",
       "pokedex_id": 984,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Ground"
@@ -51161,6 +51558,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 226,
       "defense": 190,
       "stamina": 229,
@@ -51168,10 +51570,9 @@
       "mythic": false
     },
     "985": {
-      "name": "Scream-tail",
+      "name": "Screamtail",
       "pokedex_id": 985,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Psychic",
         "Fairy"
@@ -51217,6 +51618,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 139,
       "defense": 234,
       "stamina": 251,
@@ -51224,10 +51630,9 @@
       "mythic": false
     },
     "986": {
-      "name": "Brute-bonnet",
+      "name": "Brutebonnet",
       "pokedex_id": 986,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Grass",
         "Dark"
@@ -51261,6 +51666,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 232,
       "defense": 190,
       "stamina": 244,
@@ -51268,10 +51678,9 @@
       "mythic": false
     },
     "987": {
-      "name": "Flutter-mane",
+      "name": "Fluttermane",
       "pokedex_id": 987,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ghost",
         "Fairy"
@@ -51305,6 +51714,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 280,
       "defense": 235,
       "stamina": 146,
@@ -51312,10 +51726,9 @@
       "mythic": false
     },
     "988": {
-      "name": "Slither-wing",
+      "name": "Slitherwing",
       "pokedex_id": 988,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Bug"
@@ -51351,6 +51764,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 261,
       "defense": 193,
       "stamina": 198,
@@ -51358,10 +51776,9 @@
       "mythic": false
     },
     "989": {
-      "name": "Sandy-shocks",
+      "name": "Sandyshocks",
       "pokedex_id": 989,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ground",
         "Electric"
@@ -51396,6 +51813,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 244,
       "defense": 195,
       "stamina": 198,
@@ -51403,10 +51825,9 @@
       "mythic": false
     },
     "990": {
-      "name": "Iron-treads",
+      "name": "Irontreads",
       "pokedex_id": 990,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ground",
         "Steel"
@@ -51442,6 +51863,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 227,
       "defense": 216,
       "stamina": 207,
@@ -51449,10 +51875,9 @@
       "mythic": false
     },
     "991": {
-      "name": "Iron-bundle",
+      "name": "Ironbundle",
       "pokedex_id": 991,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Water",
         "Ice"
@@ -51482,6 +51907,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 266,
       "defense": 211,
       "stamina": 148,
@@ -51489,10 +51919,9 @@
       "mythic": false
     },
     "992": {
-      "name": "Iron-hands",
+      "name": "Ironhands",
       "pokedex_id": 992,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Electric"
@@ -51529,6 +51958,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 223,
       "defense": 161,
       "stamina": 291,
@@ -51536,10 +51970,9 @@
       "mythic": false
     },
     "993": {
-      "name": "Iron-jugulis",
+      "name": "Ironjugulis",
       "pokedex_id": 993,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Flying",
         "Dark"
@@ -51580,6 +52013,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 249,
       "defense": 179,
       "stamina": 214,
@@ -51587,10 +52025,9 @@
       "mythic": false
     },
     "994": {
-      "name": "Iron-moth",
+      "name": "Ironmoth",
       "pokedex_id": 994,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Poison",
         "Fire"
@@ -51629,6 +52066,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 281,
       "defense": 196,
       "stamina": 190,
@@ -51636,10 +52078,9 @@
       "mythic": false
     },
     "995": {
-      "name": "Iron-thorns",
+      "name": "Ironthorns",
       "pokedex_id": 995,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Rock",
         "Electric"
@@ -51691,6 +52132,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 250,
       "defense": 200,
       "stamina": 225,
@@ -51701,7 +52147,6 @@
       "name": "Frigibax",
       "pokedex_id": 996,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ice",
         "Dragon"
@@ -51732,6 +52177,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 134,
       "defense": 86,
       "stamina": 163,
@@ -51748,7 +52198,6 @@
       "name": "Arctibax",
       "pokedex_id": 997,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ice",
         "Dragon"
@@ -51780,6 +52229,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 173,
       "defense": 128,
       "stamina": 207,
@@ -51796,7 +52250,6 @@
       "name": "Baxcalibur",
       "pokedex_id": 998,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ice",
         "Dragon"
@@ -51836,6 +52289,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 254,
       "defense": 168,
       "stamina": 229,
@@ -51927,10 +52385,9 @@
       "gym_defender_eligible": true
     },
     "1001": {
-      "name": "Wo-chien",
+      "name": "Wochien",
       "pokedex_id": 1001,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Grass",
         "Dark"
@@ -51964,6 +52421,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 186,
       "defense": 242,
       "stamina": 198,
@@ -51971,10 +52433,9 @@
       "mythic": false
     },
     "1002": {
-      "name": "Chien-pao",
+      "name": "Chienpao",
       "pokedex_id": 1002,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ice",
         "Dark"
@@ -52007,6 +52468,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 261,
       "defense": 167,
       "stamina": 190,
@@ -52014,10 +52480,9 @@
       "mythic": false
     },
     "1003": {
-      "name": "Ting-lu",
+      "name": "Tinglu",
       "pokedex_id": 1003,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Ground",
         "Dark"
@@ -52050,6 +52515,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 194,
       "defense": 203,
       "stamina": 321,
@@ -52057,10 +52527,9 @@
       "mythic": false
     },
     "1004": {
-      "name": "Chi-yu",
+      "name": "Chiyu",
       "pokedex_id": 1004,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fire",
         "Dark"
@@ -52091,6 +52560,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 269,
       "defense": 221,
       "stamina": 146,
@@ -52098,10 +52572,9 @@
       "mythic": false
     },
     "1005": {
-      "name": "Roaring-moon",
+      "name": "Roaringmoon",
       "pokedex_id": 1005,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Dragon",
         "Dark"
@@ -52152,6 +52625,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 254,
       "defense": 178,
       "stamina": 213,
@@ -52159,10 +52637,9 @@
       "mythic": false
     },
     "1006": {
-      "name": "Iron-valiant",
+      "name": "Ironvaliant",
       "pokedex_id": 1006,
       "default_form_id": 0,
-      "forms": {},
       "types": [
         "Fighting",
         "Fairy"
@@ -52209,6 +52686,11 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "0": {
+          "proto": "FORM_UNSET"
+        }
+      },
       "attack": 279,
       "defense": 171,
       "stamina": 179,
@@ -52218,8 +52700,7 @@
     "1007": {
       "name": "Koraidon",
       "pokedex_id": 1007,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2996,
       "types": [
         "Fighting",
         "Dragon"
@@ -52272,6 +52753,12 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2996": {
+          "name": "Apex",
+          "proto": "KORAIDON_APEX"
+        }
+      },
       "attack": 263,
       "defense": 223,
       "stamina": 205,
@@ -52281,8 +52768,7 @@
     "1008": {
       "name": "Miraidon",
       "pokedex_id": 1008,
-      "default_form_id": 0,
-      "forms": {},
+      "default_form_id": 2997,
       "types": [
         "Electric",
         "Dragon"
@@ -52323,6 +52809,12 @@
       ],
       "gen_id": 9,
       "generation": "Paldea",
+      "forms": {
+        "2997": {
+          "name": "Ultimate",
+          "proto": "MIRAIDON_ULTIMATE"
+        }
+      },
       "attack": 263,
       "defense": 223,
       "stamina": 205,
@@ -53115,13 +53607,6 @@
       "proto": "ITEM_TEAM_CHANGE",
       "type": "Team Change",
       "category": "Team Change",
-      "min_trainer_level": 100
-    },
-    "1407": {
-      "name": "Route Maker",
-      "proto": "ITEM_ROUTE_MAKER",
-      "type": "Route Maker",
-      "category": "Route Maker",
       "min_trainer_level": 100
     },
     "1408": {
@@ -55012,6 +55497,14 @@
       "proto": "MYSTICAL_FIRE",
       "type": "Fire",
       "power": 60
+    },
+    "383": {
+      "name": "Liquidation",
+      "proto": "LIQUIDATION"
+    },
+    "385": {
+      "name": "Leafage",
+      "proto": "LEAFAGE_FAST"
     }
   },
   "quest_types": {
@@ -55186,6 +55679,9 @@
     },
     "61": {
       "text": "Battle Player Team Leader"
+    },
+    "62": {
+      "text": "First Route Of The Day"
     }
   },
   "quest_reward_types": {
@@ -55462,6 +55958,10 @@
     "52": {
       "proto": "WITH_POKEMON_SIZE",
       "text": "With Pokemon Size"
+    },
+    "53": {
+      "proto": "WITH_TOTAL_DAYS",
+      "text": "With Total Days"
     }
   },
   "invasions": {

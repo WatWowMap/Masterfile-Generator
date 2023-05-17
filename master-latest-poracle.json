@@ -2073,6 +2073,90 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_3002": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Summer 2023 A",
+        "id": 3002
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3003": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Summer 2023 B",
+        "id": 3003
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3004": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Summer 2023 C",
+        "id": 3004
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3005": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Summer 2023 D",
+        "id": 3005
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -8689,6 +8773,69 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50
     },
+    "128_3006": {
+      "name": "Tauros",
+      "id": 128,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Paldea Combat",
+        "id": 3006
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 183,
+        "baseStamina": 181
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "128_3007": {
+      "name": "Tauros",
+      "id": 128,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Paldea Blaze",
+        "id": 3007
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 183,
+        "baseStamina": 181
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "128_3008": {
+      "name": "Tauros",
+      "id": 128,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Paldea Aqua",
+        "id": 3008
+      },
+      "stats": {
+        "baseAttack": 198,
+        "baseDefense": 183,
+        "baseStamina": 181
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
     "129_0": {
       "name": "Magikarp",
       "id": 129,
@@ -9541,6 +9688,31 @@
           "subsequentEnergyCost": 40
         }
       ]
+    },
+    "142_3001": {
+      "name": "Aerodactyl",
+      "id": 142,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "form": {
+        "name": "Summer 2023",
+        "id": 3001
+      },
+      "stats": {
+        "baseAttack": 221,
+        "baseDefense": 159,
+        "baseStamina": 190
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
     },
     "143_0": {
       "name": "Snorlax",
@@ -12474,6 +12646,31 @@
           "candyCost": 50
         }
       ]
+    },
+    "194_3009": {
+      "name": "Wooper",
+      "id": 194,
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Paldea",
+        "id": 3009
+      },
+      "stats": {
+        "baseAttack": 75,
+        "baseDefense": 66,
+        "baseStamina": 146
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
     },
     "195_0": {
       "name": "Quagsire",
@@ -44268,6 +44465,58 @@
       "thirdMoveCandy": 100,
       "unreleased": true
     },
+    "718_2823": {
+      "name": "Zygarde",
+      "id": 718,
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Complete Ten Percent",
+        "id": 2823
+      },
+      "stats": {
+        "baseAttack": 203,
+        "baseDefense": 232,
+        "baseStamina": 239
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "unreleased": true
+    },
+    "718_2824": {
+      "name": "Zygarde",
+      "id": 718,
+      "types": [
+        {
+          "id": 5,
+          "name": "Ground"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Complete Fifty Percent",
+        "id": 2824
+      },
+      "stats": {
+        "baseAttack": 203,
+        "baseDefense": 232,
+        "baseStamina": 239
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "unreleased": true
+    },
     "719_0": {
       "name": "Diancie",
       "id": 719,
@@ -51232,16 +51481,16 @@
     "906_0": {
       "name": "Sprigatito",
       "id": 906,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 12,
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 116,
         "baseDefense": 99,
@@ -51258,16 +51507,16 @@
     "907_0": {
       "name": "Floragato",
       "id": 907,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 12,
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 157,
         "baseDefense": 128,
@@ -51284,10 +51533,6 @@
     "908_0": {
       "name": "Meowscarada",
       "id": 908,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 12,
@@ -51298,6 +51543,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 233,
         "baseDefense": 153,
@@ -51308,16 +51557,16 @@
     "909_0": {
       "name": "Fuecoco",
       "id": 909,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 10,
           "name": "Fire"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 112,
         "baseDefense": 96,
@@ -51334,16 +51583,16 @@
     "910_0": {
       "name": "Crocalor",
       "id": 910,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 10,
           "name": "Fire"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 162,
         "baseDefense": 134,
@@ -51360,10 +51609,6 @@
     "911_0": {
       "name": "Skeledirge",
       "id": 911,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
@@ -51374,6 +51619,10 @@
           "name": "Fire"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 207,
         "baseDefense": 178,
@@ -51384,16 +51633,16 @@
     "912_0": {
       "name": "Quaxly",
       "id": 912,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 120,
         "baseDefense": 86,
@@ -51410,16 +51659,16 @@
     "913_0": {
       "name": "Quaxwell",
       "id": 913,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 162,
         "baseDefense": 123,
@@ -51436,10 +51685,6 @@
     "914_0": {
       "name": "Quaquaval",
       "id": 914,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -51450,6 +51695,10 @@
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 236,
         "baseDefense": 159,
@@ -51460,16 +51709,16 @@
     "915_0": {
       "name": "Lechonk",
       "id": 915,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
           "name": "Normal"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 81,
         "baseDefense": 79,
@@ -51486,16 +51735,56 @@
     "916_0": {
       "name": "Oinkologne",
       "id": 916,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
           "name": "Normal"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 186,
+        "baseDefense": 153,
+        "baseStamina": 242
+      },
+      "unreleased": true
+    },
+    "916_2981": {
+      "name": "Oinkologne",
+      "id": 916,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 2981
+      },
+      "stats": {
+        "baseAttack": 186,
+        "baseDefense": 153,
+        "baseStamina": 242
+      },
+      "unreleased": true
+    },
+    "916_2982": {
+      "name": "Oinkologne",
+      "id": 916,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Female",
+        "id": 2982
+      },
       "stats": {
         "baseAttack": 186,
         "baseDefense": 153,
@@ -51506,16 +51795,16 @@
     "917_0": {
       "name": "Tarountula",
       "id": 917,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 7,
           "name": "Bug"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 70,
         "baseDefense": 77,
@@ -51532,16 +51821,16 @@
     "918_0": {
       "name": "Spidops",
       "id": 918,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 7,
           "name": "Bug"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 139,
         "baseDefense": 166,
@@ -51552,16 +51841,16 @@
     "919_0": {
       "name": "Nymble",
       "id": 919,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 7,
           "name": "Bug"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 81,
         "baseDefense": 65,
@@ -51578,10 +51867,6 @@
     "920_0": {
       "name": "Lokix",
       "id": 920,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 7,
@@ -51592,6 +51877,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 199,
         "baseDefense": 144,
@@ -51602,16 +51891,16 @@
     "921_0": {
       "name": "Pawmi",
       "id": 921,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 13,
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 95,
         "baseDefense": 45,
@@ -51628,10 +51917,6 @@
     "922_0": {
       "name": "Pawmo",
       "id": 922,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -51642,6 +51927,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 147,
         "baseDefense": 82,
@@ -51658,10 +51947,6 @@
     "923_0": {
       "name": "Pawmot",
       "id": 923,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -51672,6 +51957,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 232,
         "baseDefense": 141,
@@ -51682,16 +51971,16 @@
     "924_0": {
       "name": "Tandemaus",
       "id": 924,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
           "name": "Normal"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 98,
         "baseDefense": 90,
@@ -51708,16 +51997,56 @@
     "925_0": {
       "name": "Maushold",
       "id": 925,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
           "name": "Normal"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 159,
+        "baseDefense": 157,
+        "baseStamina": 179
+      },
+      "unreleased": true
+    },
+    "925_2983": {
+      "name": "Maushold",
+      "id": 925,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Family Of Three",
+        "id": 2983
+      },
+      "stats": {
+        "baseAttack": 159,
+        "baseDefense": 157,
+        "baseStamina": 179
+      },
+      "unreleased": true
+    },
+    "925_2984": {
+      "name": "Maushold",
+      "id": 925,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Family Of Four",
+        "id": 2984
+      },
       "stats": {
         "baseAttack": 159,
         "baseDefense": 157,
@@ -51728,16 +52057,16 @@
     "926_0": {
       "name": "Fidough",
       "id": 926,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 18,
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 102,
         "baseDefense": 126,
@@ -51754,16 +52083,16 @@
     "927_0": {
       "name": "Dachsbun",
       "id": 927,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 18,
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 159,
         "baseDefense": 212,
@@ -51774,10 +52103,6 @@
     "928_0": {
       "name": "Smoliv",
       "id": 928,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -51788,6 +52113,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 100,
         "baseDefense": 89,
@@ -51804,10 +52133,6 @@
     "929_0": {
       "name": "Dolliv",
       "id": 929,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -51818,6 +52143,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 137,
         "baseDefense": 131,
@@ -51834,10 +52163,6 @@
     "930_0": {
       "name": "Arboliva",
       "id": 930,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -51848,6 +52173,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 219,
         "baseDefense": 189,
@@ -51858,10 +52187,6 @@
     "931_0": {
       "name": "Squawkabilly",
       "id": 931,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -51872,6 +52197,106 @@
           "name": "Flying"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 105,
+        "baseStamina": 193
+      },
+      "unreleased": true
+    },
+    "931_2985": {
+      "name": "Squawkabilly",
+      "id": 931,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "form": {
+        "name": "Green",
+        "id": 2985
+      },
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 105,
+        "baseStamina": 193
+      },
+      "unreleased": true
+    },
+    "931_2986": {
+      "name": "Squawkabilly",
+      "id": 931,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "form": {
+        "name": "Blue",
+        "id": 2986
+      },
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 105,
+        "baseStamina": 193
+      },
+      "unreleased": true
+    },
+    "931_2987": {
+      "name": "Squawkabilly",
+      "id": 931,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "form": {
+        "name": "Yellow",
+        "id": 2987
+      },
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 105,
+        "baseStamina": 193
+      },
+      "unreleased": true
+    },
+    "931_2988": {
+      "name": "Squawkabilly",
+      "id": 931,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 3,
+          "name": "Flying"
+        }
+      ],
+      "form": {
+        "name": "White",
+        "id": 2988
+      },
       "stats": {
         "baseAttack": 185,
         "baseDefense": 105,
@@ -51882,16 +52307,16 @@
     "932_0": {
       "name": "Nacli",
       "id": 932,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 6,
           "name": "Rock"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 95,
         "baseDefense": 108,
@@ -51908,16 +52333,16 @@
     "933_0": {
       "name": "Naclstack",
       "id": 933,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 6,
           "name": "Rock"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 105,
         "baseDefense": 160,
@@ -51934,16 +52359,16 @@
     "934_0": {
       "name": "Garganacl",
       "id": 934,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 6,
           "name": "Rock"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 171,
         "baseDefense": 212,
@@ -51954,16 +52379,16 @@
     "935_0": {
       "name": "Charcadet",
       "id": 935,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 10,
           "name": "Fire"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 92,
         "baseDefense": 74,
@@ -51984,10 +52409,6 @@
     "936_0": {
       "name": "Armarouge",
       "id": 936,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 10,
@@ -51998,6 +52419,10 @@
           "name": "Psychic"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 234,
         "baseDefense": 185,
@@ -52008,10 +52433,6 @@
     "937_0": {
       "name": "Ceruledge",
       "id": 937,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
@@ -52022,6 +52443,10 @@
           "name": "Fire"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 239,
         "baseDefense": 189,
@@ -52032,16 +52457,16 @@
     "938_0": {
       "name": "Tadbulb",
       "id": 938,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 13,
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 104,
         "baseDefense": 73,
@@ -52058,16 +52483,16 @@
     "939_0": {
       "name": "Bellibolt",
       "id": 939,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 13,
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 184,
         "baseDefense": 165,
@@ -52078,10 +52503,6 @@
     "940_0": {
       "name": "Wattrel",
       "id": 940,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 3,
@@ -52092,6 +52513,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 105,
         "baseDefense": 75,
@@ -52108,10 +52533,6 @@
     "941_0": {
       "name": "Kilowattrel",
       "id": 941,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 3,
@@ -52122,6 +52543,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 221,
         "baseDefense": 132,
@@ -52132,16 +52557,16 @@
     "942_0": {
       "name": "Maschiff",
       "id": 942,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 17,
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 140,
         "baseDefense": 108,
@@ -52158,16 +52583,16 @@
     "943_0": {
       "name": "Mabosstiff",
       "id": 943,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 17,
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 230,
         "baseDefense": 168,
@@ -52178,10 +52603,6 @@
     "944_0": {
       "name": "Shroodle",
       "id": 944,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -52192,6 +52613,10 @@
           "name": "Poison"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 124,
         "baseDefense": 70,
@@ -52208,10 +52633,6 @@
     "945_0": {
       "name": "Grafaiai",
       "id": 945,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -52222,6 +52643,10 @@
           "name": "Poison"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 199,
         "baseDefense": 149,
@@ -52232,10 +52657,6 @@
     "946_0": {
       "name": "Bramblin",
       "id": 946,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
@@ -52246,6 +52667,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 121,
         "baseDefense": 64,
@@ -52262,10 +52687,6 @@
     "947_0": {
       "name": "Brambleghast",
       "id": 947,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
@@ -52276,6 +52697,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 228,
         "baseDefense": 144,
@@ -52286,10 +52711,6 @@
     "948_0": {
       "name": "Toedscool",
       "id": 948,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 5,
@@ -52300,6 +52721,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 97,
         "baseDefense": 149,
@@ -52316,10 +52741,6 @@
     "949_0": {
       "name": "Toedscruel",
       "id": 949,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 5,
@@ -52330,6 +52751,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 166,
         "baseDefense": 209,
@@ -52340,16 +52765,16 @@
     "950_0": {
       "name": "Klawf",
       "id": 950,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 6,
           "name": "Rock"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 184,
         "baseDefense": 185,
@@ -52360,16 +52785,16 @@
     "951_0": {
       "name": "Capsakid",
       "id": 951,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 12,
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 118,
         "baseDefense": 76,
@@ -52386,10 +52811,6 @@
     "952_0": {
       "name": "Scovillain",
       "id": 952,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 10,
@@ -52400,6 +52821,10 @@
           "name": "Grass"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 216,
         "baseDefense": 130,
@@ -52410,16 +52835,16 @@
     "953_0": {
       "name": "Rellor",
       "id": 953,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 7,
           "name": "Bug"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 86,
         "baseDefense": 108,
@@ -52436,10 +52861,6 @@
     "954_0": {
       "name": "Rabsca",
       "id": 954,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 7,
@@ -52450,6 +52871,10 @@
           "name": "Psychic"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 201,
         "baseDefense": 178,
@@ -52460,16 +52885,16 @@
     "955_0": {
       "name": "Flittle",
       "id": 955,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 14,
           "name": "Psychic"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 105,
         "baseDefense": 60,
@@ -52486,16 +52911,16 @@
     "956_0": {
       "name": "Espathra",
       "id": 956,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 14,
           "name": "Psychic"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 204,
         "baseDefense": 127,
@@ -52506,10 +52931,6 @@
     "957_0": {
       "name": "Tinkatink",
       "id": 957,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 9,
@@ -52520,6 +52941,10 @@
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 85,
         "baseDefense": 110,
@@ -52536,10 +52961,6 @@
     "958_0": {
       "name": "Tinkatuff",
       "id": 958,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 9,
@@ -52550,6 +52971,10 @@
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 109,
         "baseDefense": 145,
@@ -52566,10 +52991,6 @@
     "959_0": {
       "name": "Tinkaton",
       "id": 959,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 9,
@@ -52580,6 +53001,10 @@
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 155,
         "baseDefense": 196,
@@ -52590,16 +53015,16 @@
     "960_0": {
       "name": "Wiglett",
       "id": 960,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 109,
         "baseDefense": 52,
@@ -52616,16 +53041,16 @@
     "961_0": {
       "name": "Wugtrio",
       "id": 961,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 205,
         "baseDefense": 136,
@@ -52636,10 +53061,6 @@
     "962_0": {
       "name": "Bombirdier",
       "id": 962,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 3,
@@ -52650,6 +53071,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 198,
         "baseDefense": 172,
@@ -52660,16 +53085,16 @@
     "963_0": {
       "name": "Finizen",
       "id": 963,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 90,
         "baseDefense": 80,
@@ -52686,16 +53111,56 @@
     "964_0": {
       "name": "Palafin",
       "id": 964,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 143,
+        "baseDefense": 144,
+        "baseStamina": 225
+      },
+      "unreleased": true
+    },
+    "964_2989": {
+      "name": "Palafin",
+      "id": 964,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Zero",
+        "id": 2989
+      },
+      "stats": {
+        "baseAttack": 143,
+        "baseDefense": 144,
+        "baseStamina": 225
+      },
+      "unreleased": true
+    },
+    "964_2990": {
+      "name": "Palafin",
+      "id": 964,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Hero of Many Battles",
+        "id": 2990
+      },
       "stats": {
         "baseAttack": 143,
         "baseDefense": 144,
@@ -52706,10 +53171,6 @@
     "965_0": {
       "name": "Varoom",
       "id": 965,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 4,
@@ -52720,6 +53181,10 @@
           "name": "Steel"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 123,
         "baseDefense": 107,
@@ -52736,10 +53201,6 @@
     "966_0": {
       "name": "Revavroom",
       "id": 966,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 4,
@@ -52750,6 +53211,10 @@
           "name": "Steel"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 229,
         "baseDefense": 168,
@@ -52760,10 +53225,6 @@
     "967_0": {
       "name": "Cyclizar",
       "id": 967,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -52774,6 +53235,10 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 205,
         "baseDefense": 142,
@@ -52784,16 +53249,16 @@
     "968_0": {
       "name": "Orthworm",
       "id": 968,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 9,
           "name": "Steel"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 161,
         "baseDefense": 219,
@@ -52804,10 +53269,6 @@
     "969_0": {
       "name": "Glimmet",
       "id": 969,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 4,
@@ -52818,6 +53279,10 @@
           "name": "Rock"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 187,
         "baseDefense": 104,
@@ -52834,10 +53299,6 @@
     "970_0": {
       "name": "Glimmora",
       "id": 970,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 4,
@@ -52848,6 +53309,10 @@
           "name": "Rock"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 246,
         "baseDefense": 177,
@@ -52858,16 +53323,16 @@
     "971_0": {
       "name": "Greavard",
       "id": 971,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
           "name": "Ghost"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 105,
         "baseDefense": 106,
@@ -52884,16 +53349,16 @@
     "972_0": {
       "name": "Houndstone",
       "id": 972,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
           "name": "Ghost"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 186,
         "baseDefense": 195,
@@ -52904,10 +53369,6 @@
     "973_0": {
       "name": "Flamigo",
       "id": 973,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -52918,6 +53379,10 @@
           "name": "Flying"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 227,
         "baseDefense": 145,
@@ -52928,16 +53393,16 @@
     "974_0": {
       "name": "Cetoddle",
       "id": 974,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 15,
           "name": "Ice"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 119,
         "baseDefense": 80,
@@ -52954,16 +53419,16 @@
     "975_0": {
       "name": "Cetitan",
       "id": 975,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 15,
           "name": "Ice"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 208,
         "baseDefense": 123,
@@ -52974,10 +53439,6 @@
     "976_0": {
       "name": "Veluza",
       "id": 976,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
@@ -52988,6 +53449,10 @@
           "name": "Psychic"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 196,
         "baseDefense": 139,
@@ -52998,16 +53463,16 @@
     "977_0": {
       "name": "Dondozo",
       "id": 977,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
           "name": "Water"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 176,
         "baseDefense": 178,
@@ -53018,10 +53483,6 @@
     "978_0": {
       "name": "Tatsugiri",
       "id": 978,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
@@ -53032,6 +53493,82 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 226,
+        "baseDefense": 166,
+        "baseStamina": 169
+      },
+      "unreleased": true
+    },
+    "978_2991": {
+      "name": "Tatsugiri",
+      "id": 978,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Curly",
+        "id": 2991
+      },
+      "stats": {
+        "baseAttack": 226,
+        "baseDefense": 166,
+        "baseStamina": 169
+      },
+      "unreleased": true
+    },
+    "978_2992": {
+      "name": "Tatsugiri",
+      "id": 978,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Droopy",
+        "id": 2992
+      },
+      "stats": {
+        "baseAttack": 226,
+        "baseDefense": 166,
+        "baseStamina": 169
+      },
+      "unreleased": true
+    },
+    "978_2993": {
+      "name": "Tatsugiri",
+      "id": 978,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Stretchy",
+        "id": 2993
+      },
       "stats": {
         "baseAttack": 226,
         "baseDefense": 166,
@@ -53042,10 +53579,6 @@
     "979_0": {
       "name": "Annihilape",
       "id": 979,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -53056,6 +53589,10 @@
           "name": "Ghost"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 220,
         "baseDefense": 178,
@@ -53066,10 +53603,6 @@
     "980_0": {
       "name": "Clodsire",
       "id": 980,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 4,
@@ -53080,6 +53613,10 @@
           "name": "Ground"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 127,
         "baseDefense": 151,
@@ -53090,10 +53627,6 @@
     "981_0": {
       "name": "Farigiraf",
       "id": 981,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
@@ -53104,6 +53637,10 @@
           "name": "Psychic"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 209,
         "baseDefense": 136,
@@ -53114,16 +53651,56 @@
     "982_0": {
       "name": "Dudunsparce",
       "id": 982,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 1,
           "name": "Normal"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 188,
+        "baseDefense": 150,
+        "baseStamina": 268
+      },
+      "unreleased": true
+    },
+    "982_2994": {
+      "name": "Dudunsparce",
+      "id": 982,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Two",
+        "id": 2994
+      },
+      "stats": {
+        "baseAttack": 188,
+        "baseDefense": 150,
+        "baseStamina": 268
+      },
+      "unreleased": true
+    },
+    "982_2995": {
+      "name": "Dudunsparce",
+      "id": 982,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Three",
+        "id": 2995
+      },
       "stats": {
         "baseAttack": 188,
         "baseDefense": 150,
@@ -53134,10 +53711,6 @@
     "983_0": {
       "name": "Kingambit",
       "id": 983,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 9,
@@ -53148,6 +53721,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 238,
         "baseDefense": 203,
@@ -53156,12 +53733,8 @@
       "unreleased": true
     },
     "984_0": {
-      "name": "Great-tusk",
+      "name": "Greattusk",
       "id": 984,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -53172,6 +53745,10 @@
           "name": "Ground"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 226,
         "baseDefense": 190,
@@ -53180,12 +53757,8 @@
       "unreleased": true
     },
     "985_0": {
-      "name": "Scream-tail",
+      "name": "Screamtail",
       "id": 985,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 14,
@@ -53196,6 +53769,10 @@
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 139,
         "baseDefense": 234,
@@ -53204,12 +53781,8 @@
       "unreleased": true
     },
     "986_0": {
-      "name": "Brute-bonnet",
+      "name": "Brutebonnet",
       "id": 986,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 12,
@@ -53220,6 +53793,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 232,
         "baseDefense": 190,
@@ -53228,12 +53805,8 @@
       "unreleased": true
     },
     "987_0": {
-      "name": "Flutter-mane",
+      "name": "Fluttermane",
       "id": 987,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 8,
@@ -53244,6 +53817,10 @@
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 280,
         "baseDefense": 235,
@@ -53252,12 +53829,8 @@
       "unreleased": true
     },
     "988_0": {
-      "name": "Slither-wing",
+      "name": "Slitherwing",
       "id": 988,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -53268,6 +53841,10 @@
           "name": "Bug"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 261,
         "baseDefense": 193,
@@ -53276,12 +53853,8 @@
       "unreleased": true
     },
     "989_0": {
-      "name": "Sandy-shocks",
+      "name": "Sandyshocks",
       "id": 989,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 5,
@@ -53292,6 +53865,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 244,
         "baseDefense": 195,
@@ -53300,12 +53877,8 @@
       "unreleased": true
     },
     "990_0": {
-      "name": "Iron-treads",
+      "name": "Irontreads",
       "id": 990,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 5,
@@ -53316,6 +53889,10 @@
           "name": "Steel"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 227,
         "baseDefense": 216,
@@ -53324,12 +53901,8 @@
       "unreleased": true
     },
     "991_0": {
-      "name": "Iron-bundle",
+      "name": "Ironbundle",
       "id": 991,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 11,
@@ -53340,6 +53913,10 @@
           "name": "Ice"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 266,
         "baseDefense": 211,
@@ -53348,12 +53925,8 @@
       "unreleased": true
     },
     "992_0": {
-      "name": "Iron-hands",
+      "name": "Ironhands",
       "id": 992,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -53364,6 +53937,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 223,
         "baseDefense": 161,
@@ -53372,12 +53949,8 @@
       "unreleased": true
     },
     "993_0": {
-      "name": "Iron-jugulis",
+      "name": "Ironjugulis",
       "id": 993,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 3,
@@ -53388,6 +53961,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 249,
         "baseDefense": 179,
@@ -53396,12 +53973,8 @@
       "unreleased": true
     },
     "994_0": {
-      "name": "Iron-moth",
+      "name": "Ironmoth",
       "id": 994,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 4,
@@ -53412,6 +53985,10 @@
           "name": "Fire"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 281,
         "baseDefense": 196,
@@ -53420,12 +53997,8 @@
       "unreleased": true
     },
     "995_0": {
-      "name": "Iron-thorns",
+      "name": "Ironthorns",
       "id": 995,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 6,
@@ -53436,6 +54009,10 @@
           "name": "Electric"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 250,
         "baseDefense": 200,
@@ -53446,10 +54023,6 @@
     "996_0": {
       "name": "Frigibax",
       "id": 996,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 15,
@@ -53460,6 +54033,10 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 134,
         "baseDefense": 86,
@@ -53476,10 +54053,6 @@
     "997_0": {
       "name": "Arctibax",
       "id": 997,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 15,
@@ -53490,6 +54063,10 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 173,
         "baseDefense": 128,
@@ -53506,10 +54083,6 @@
     "998_0": {
       "name": "Baxcalibur",
       "id": 998,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 15,
@@ -53520,6 +54093,10 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 254,
         "baseDefense": 168,
@@ -53635,12 +54212,8 @@
       "unreleased": true
     },
     "1001_0": {
-      "name": "Wo-chien",
+      "name": "Wochien",
       "id": 1001,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 12,
@@ -53651,6 +54224,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 186,
         "baseDefense": 242,
@@ -53659,12 +54236,8 @@
       "unreleased": true
     },
     "1002_0": {
-      "name": "Chien-pao",
+      "name": "Chienpao",
       "id": 1002,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 15,
@@ -53675,6 +54248,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 261,
         "baseDefense": 167,
@@ -53683,12 +54260,8 @@
       "unreleased": true
     },
     "1003_0": {
-      "name": "Ting-lu",
+      "name": "Tinglu",
       "id": 1003,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 5,
@@ -53699,6 +54272,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 194,
         "baseDefense": 203,
@@ -53707,12 +54284,8 @@
       "unreleased": true
     },
     "1004_0": {
-      "name": "Chi-yu",
+      "name": "Chiyu",
       "id": 1004,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 10,
@@ -53723,6 +54296,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 269,
         "baseDefense": 221,
@@ -53731,12 +54308,8 @@
       "unreleased": true
     },
     "1005_0": {
-      "name": "Roaring-moon",
+      "name": "Roaringmoon",
       "id": 1005,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 16,
@@ -53747,6 +54320,10 @@
           "name": "Dark"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 254,
         "baseDefense": 178,
@@ -53755,12 +54332,8 @@
       "unreleased": true
     },
     "1006_0": {
-      "name": "Iron-valiant",
+      "name": "Ironvaliant",
       "id": 1006,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -53771,6 +54344,10 @@
           "name": "Fairy"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
       "stats": {
         "baseAttack": 279,
         "baseDefense": 171,
@@ -53781,10 +54358,6 @@
     "1007_0": {
       "name": "Koraidon",
       "id": 1007,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 2,
@@ -53795,6 +54368,34 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 263,
+        "baseDefense": 223,
+        "baseStamina": 205
+      },
+      "unreleased": true
+    },
+    "1007_2996": {
+      "name": "Koraidon",
+      "id": 1007,
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Apex",
+        "id": 2996
+      },
       "stats": {
         "baseAttack": 263,
         "baseDefense": 223,
@@ -53805,10 +54406,6 @@
     "1008_0": {
       "name": "Miraidon",
       "id": 1008,
-      "form": {
-        "name": "",
-        "id": 0
-      },
       "types": [
         {
           "id": 13,
@@ -53819,6 +54416,34 @@
           "name": "Dragon"
         }
       ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 263,
+        "baseDefense": 223,
+        "baseStamina": 205
+      },
+      "unreleased": true
+    },
+    "1008_2997": {
+      "name": "Miraidon",
+      "id": 1008,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Ultimate",
+        "id": 2997
+      },
       "stats": {
         "baseAttack": 263,
         "baseDefense": 223,
@@ -55216,9 +55841,6 @@
     "1406": {
       "name": "Team Medallion"
     },
-    "1407": {
-      "name": "Route Maker"
-    },
     "1408": {
       "name": "Remote Raid Pass"
     },
@@ -56499,6 +57121,9 @@
     },
     "61": {
       "text": "Battle Player Team Leader"
+    },
+    "62": {
+      "text": "First Route Of The Day"
     }
   },
   "grunts": {
