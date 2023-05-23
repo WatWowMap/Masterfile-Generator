@@ -36275,7 +36275,8 @@
         "Flamethrower",
         "Flame Charge",
         "Fire Blast",
-        "Psychic"
+        "Psychic",
+        "Mystical Fire"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -53195,7 +53196,7 @@
       "proto": "ITEM_MASTER_BALL",
       "type": "Pokeball",
       "category": "Pokeball",
-      "min_trainer_level": 100
+      "min_trainer_level": 1
     },
     "5": {
       "name": "Premier Ball",
@@ -53636,6 +53637,20 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "min_trainer_level": 8
+    },
+    "1504": {
+      "name": "Shadow Gem Fragment",
+      "proto": "ITEM_SHADOW_GEM_FRAGMENT",
+      "type": "Incident Ticket",
+      "category": "Incident Ticket",
+      "min_trainer_level": 5
+    },
+    "1505": {
+      "name": "Shadow Gem",
+      "proto": "ITEM_SHADOW_GEM",
+      "type": "Incident Ticket",
+      "category": "Incident Ticket",
+      "min_trainer_level": 100
     },
     "1600": {
       "name": "Global Event Ticket",

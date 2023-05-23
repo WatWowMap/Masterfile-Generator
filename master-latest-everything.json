@@ -74506,6 +74506,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 90
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
+          "power": 60
         }
       },
       "genId": 6,
@@ -137567,7 +137574,7 @@
       "proto": "ITEM_MASTER_BALL",
       "type": "Pokeball",
       "category": "Pokeball",
-      "minTrainerLevel": 100
+      "minTrainerLevel": 1
     },
     "5": {
       "id": 5,
@@ -138071,6 +138078,22 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "minTrainerLevel": 8
+    },
+    "1504": {
+      "id": 1504,
+      "name": "Shadow Gem Fragment",
+      "proto": "ITEM_SHADOW_GEM_FRAGMENT",
+      "type": "Incident Ticket",
+      "category": "Incident Ticket",
+      "minTrainerLevel": 5
+    },
+    "1505": {
+      "id": 1505,
+      "name": "Shadow Gem",
+      "proto": "ITEM_SHADOW_GEM",
+      "type": "Incident Ticket",
+      "category": "Incident Ticket",
+      "minTrainerLevel": 100
     },
     "1600": {
       "id": 1600,
