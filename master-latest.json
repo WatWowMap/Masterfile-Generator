@@ -55515,11 +55515,15 @@
     },
     "383": {
       "name": "Liquidation",
-      "proto": "LIQUIDATION"
+      "proto": "LIQUIDATION",
+      "type": "Water",
+      "power": 70
     },
     "385": {
       "name": "Leafage",
-      "proto": "LEAFAGE_FAST"
+      "proto": "LEAFAGE_FAST",
+      "type": "Grass",
+      "power": 6
     }
   },
   "quest_types": {
