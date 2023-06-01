@@ -36,7 +36,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "90": {
           "moveId": 90,
@@ -2621,7 +2621,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "90": {
           "moveId": 90,
@@ -3765,6 +3765,13 @@
               "type": 15,
               "power": 140
             },
+            "46": {
+              "moveId": 46,
+              "moveName": "Drill Run",
+              "proto": "DRILL_RUN",
+              "type": 5,
+              "power": 80
+            },
             "95": {
               "moveId": 95,
               "moveName": "Bulldoze",
@@ -3859,7 +3866,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "90": {
           "moveId": 90,
@@ -3970,7 +3977,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "79": {
           "moveId": 79,
@@ -4095,7 +4102,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "91": {
           "moveId": 91,
@@ -4624,6 +4631,13 @@
           "proto": "CHARM_FAST",
           "type": 18,
           "power": 15
+        },
+        "350": {
+          "moveId": 350,
+          "moveName": "Fairy Wind",
+          "proto": "FAIRY_WIND_FAST",
+          "type": 18,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -5224,6 +5238,13 @@
           "type": 15,
           "power": 90
         },
+        "84": {
+          "moveId": 84,
+          "moveName": "Disarming Voice",
+          "proto": "DISARMING_VOICE",
+          "type": 18,
+          "power": 70
+        },
         "86": {
           "moveId": 86,
           "moveName": "Dazzling Gleam",
@@ -5324,7 +5345,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "121": {
           "moveId": 121,
@@ -5432,7 +5453,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "70": {
           "moveId": 70,
@@ -5543,7 +5564,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "87": {
           "moveId": 87,
@@ -5878,7 +5899,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "89": {
           "moveId": 89,
@@ -6096,7 +6117,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "99": {
           "moveId": 99,
@@ -6204,7 +6225,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "108": {
           "moveId": 108,
@@ -6311,7 +6332,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 1,
@@ -6460,7 +6481,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 1,
@@ -6523,7 +6544,7 @@
               "moveName": "Mud Bomb",
               "proto": "MUD_BOMB",
               "type": 5,
-              "power": 55
+              "power": 60
             }
           },
           "types": {
@@ -7108,6 +7129,13 @@
           "proto": "SYNCHRONOISE",
           "type": 14,
           "power": 80
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 1,
@@ -7751,7 +7779,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "131": {
           "moveId": 131,
@@ -7855,7 +7883,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "105": {
           "moveId": 105,
@@ -8877,7 +8905,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "90": {
           "moveId": 90,
@@ -11290,6 +11318,13 @@
           "type": 15,
           "power": 140
         },
+        "46": {
+          "moveId": 46,
+          "moveName": "Drill Run",
+          "proto": "DRILL_RUN",
+          "type": 5,
+          "power": 80
+        },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
@@ -11303,6 +11338,13 @@
           "proto": "AURORA_BEAM",
           "type": 15,
           "power": 80
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 1,
@@ -11400,7 +11442,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 1,
@@ -11863,6 +11905,13 @@
           "proto": "AVALANCHE",
           "type": 15,
           "power": 90
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 1,
@@ -13225,7 +13274,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "62": {
           "moveId": 62,
@@ -13340,7 +13389,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "108": {
           "moveId": 108,
@@ -13398,7 +13447,7 @@
               "moveName": "Seed Bomb",
               "proto": "SEED_BOMB",
               "type": 12,
-              "power": 55
+              "power": 60
             },
             "82": {
               "moveId": 82,
@@ -16954,6 +17003,13 @@
           "proto": "HYDRO_PUMP",
           "type": 11,
           "power": 130
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 1,
@@ -21171,7 +21227,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "70": {
           "moveId": 70,
@@ -21901,6 +21957,13 @@
           "proto": "HIDDEN_POWER_FAST",
           "type": 1,
           "power": 9
+        },
+        "350": {
+          "moveId": 350,
+          "moveName": "Fairy Wind",
+          "proto": "FAIRY_WIND_FAST",
+          "type": 18,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -23097,7 +23160,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -23529,7 +23592,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "272": {
           "moveId": 272,
@@ -23855,7 +23918,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "131": {
           "moveId": 131,
@@ -23980,6 +24043,13 @@
           "proto": "SLUDGE_BOMB",
           "type": 4,
           "power": 80
+        },
+        "96": {
+          "moveId": 96,
+          "moveName": "Mud Bomb",
+          "proto": "MUD_BOMB",
+          "type": 5,
+          "power": 60
         },
         "303": {
           "moveId": 303,
@@ -25260,7 +25330,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -29170,7 +29240,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -29937,6 +30007,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 2,
@@ -29986,6 +30063,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -29996,11 +30074,14 @@
         "1": {
           "tempEvoId": 1,
           "stats": {
-            "attack": 309,
-            "defense": 276,
-            "stamina": 225
+            "attack": 310,
+            "defense": 251,
+            "stamina": 216
           },
-          "unreleased": true
+          "height": 1.8,
+          "weight": 112.6,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -30255,7 +30336,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -31163,7 +31244,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "284": {
           "moveId": 284,
@@ -31400,7 +31481,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "279": {
           "moveId": 279,
@@ -31511,7 +31592,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "88": {
           "moveId": 88,
@@ -34057,7 +34138,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "272": {
           "moveId": 272,
@@ -34166,7 +34247,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "90": {
           "moveId": 90,
@@ -37626,7 +37707,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "57": {
           "moveId": 57,
@@ -37734,7 +37815,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "107": {
           "moveId": 107,
@@ -39076,7 +39157,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "123": {
           "moveId": 123,
@@ -39625,7 +39706,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "279": {
           "moveId": 279,
@@ -39926,7 +40007,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 3,
@@ -40025,7 +40106,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "105": {
           "moveId": 105,
@@ -40691,6 +40772,13 @@
           "type": 6,
           "power": 100
         },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
         "95": {
           "moveId": 95,
           "moveName": "Bulldoze",
@@ -40909,6 +40997,13 @@
           "proto": "ROCK_BLAST",
           "type": 6,
           "power": 50
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 3,
@@ -45316,7 +45411,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "131": {
           "moveId": 131,
@@ -48809,6 +48904,13 @@
           "proto": "SWIFT",
           "type": 1,
           "power": 60
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 4,
@@ -48899,7 +49001,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -49127,7 +49229,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "105": {
           "moveId": 105,
@@ -49572,6 +49674,13 @@
           "moveName": "Icy Wind",
           "proto": "ICY_WIND",
           "type": 15,
+          "power": 60
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
           "power": 60
         }
       },
@@ -52581,7 +52690,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "246": {
           "moveId": 246,
@@ -53068,6 +53177,13 @@
           "proto": "POWDER_SNOW_FAST",
           "type": 15,
           "power": 5
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -53177,6 +53293,13 @@
           "proto": "POWDER_SNOW_FAST",
           "type": 15,
           "power": 5
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -54910,6 +55033,13 @@
           "proto": "THUNDERBOLT",
           "type": 13,
           "power": 90
+        },
+        "252": {
+          "moveId": 252,
+          "moveName": "Zap Cannon",
+          "proto": "ZAP_CANNON",
+          "type": 13,
+          "power": 150
         }
       },
       "genId": 4,
@@ -55965,6 +56095,13 @@
           "proto": "FIRE_BLAST",
           "type": 10,
           "power": 140
+        },
+        "304": {
+          "moveId": 304,
+          "moveName": "Earth Power",
+          "proto": "EARTH_POWER",
+          "type": 5,
+          "power": 90
         }
       },
       "genId": 4,
@@ -57143,7 +57280,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "273": {
           "moveId": 273,
@@ -57990,6 +58127,13 @@
           "proto": "RAZOR_SHELL",
           "type": 11,
           "power": 35
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 5,
@@ -58802,7 +58946,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "273": {
           "moveId": 273,
@@ -61317,7 +61461,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "105": {
           "moveId": 105,
@@ -61815,7 +61959,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "262": {
           "moveId": 262,
@@ -62463,7 +62607,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "272": {
           "moveId": 272,
@@ -62572,6 +62716,13 @@
         }
       },
       "chargedMoves": {
+        "59": {
+          "moveId": 59,
+          "moveName": "Seed Bomb",
+          "proto": "SEED_BOMB",
+          "type": 12,
+          "power": 60
+        },
         "87": {
           "moveId": 87,
           "moveName": "Moonblast",
@@ -62675,7 +62826,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "273": {
           "moveId": 273,
@@ -64678,6 +64829,13 @@
           "proto": "SURF",
           "type": 11,
           "power": 65
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 5,
@@ -64969,7 +65127,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "92": {
           "moveId": 92,
@@ -65067,7 +65225,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "92": {
           "moveId": 92,
@@ -66731,7 +66889,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "251": {
           "moveId": 251,
@@ -66982,6 +67140,13 @@
           "proto": "THUNDERBOLT",
           "type": 13,
           "power": 90
+        },
+        "364": {
+          "moveId": 364,
+          "moveName": "Acrobatics",
+          "proto": "ACROBATICS",
+          "type": 3,
+          "power": 110
         }
       },
       "genId": 5,
@@ -68782,6 +68947,13 @@
           "proto": "ACID_SPRAY",
           "type": 4,
           "power": 20
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 5,
@@ -69084,6 +69256,13 @@
           "proto": "FLAME_BURST",
           "type": 10,
           "power": 70
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
+          "power": 60
         }
       },
       "genId": 5,
@@ -69841,6 +70020,13 @@
           "proto": "SURF",
           "type": 11,
           "power": 65
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 5,
@@ -70245,7 +70431,7 @@
           "moveName": "Mud Bomb",
           "proto": "MUD_BOMB",
           "type": 5,
-          "power": 55
+          "power": 60
         },
         "316": {
           "moveId": 316,
@@ -74018,7 +74204,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "131": {
           "moveId": 131,
@@ -76795,7 +76981,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "64": {
           "moveId": 64,
@@ -76889,7 +77075,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "64": {
           "moveId": 64,
@@ -80213,7 +80399,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "70": {
           "moveId": 70,
@@ -80304,7 +80490,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "70": {
           "moveId": 70,
@@ -80551,7 +80737,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "70": {
           "moveId": 70,
@@ -81759,6 +81945,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -81767,7 +81960,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "273": {
           "moveId": 273,
@@ -81843,6 +82036,13 @@
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -81851,7 +82051,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "256": {
           "moveId": 256,
@@ -81937,6 +82137,13 @@
           "proto": "ASTONISH_FAST",
           "type": 8,
           "power": 5
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -82490,6 +82697,13 @@
         }
       },
       "chargedMoves": {
+        "84": {
+          "moveId": 84,
+          "moveName": "Disarming Voice",
+          "proto": "DISARMING_VOICE",
+          "type": 18,
+          "power": 70
+        },
         "87": {
           "moveId": 87,
           "moveName": "Moonblast",
@@ -84682,6 +84896,13 @@
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -84770,6 +84991,13 @@
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -84865,7 +85093,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -84945,7 +85173,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "87": {
           "moveId": 87,
@@ -85039,7 +85267,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "82": {
           "moveId": 82,
@@ -85124,7 +85352,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "82": {
           "moveId": 82,
@@ -86023,6 +86251,13 @@
           "proto": "X_SCISSOR",
           "type": 7,
           "power": 45
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 7,
@@ -86691,7 +86926,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -86883,7 +87118,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -92437,7 +92672,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "82": {
           "moveId": 82,
@@ -92542,7 +92777,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "82": {
           "moveId": 82,
@@ -98389,6 +98624,13 @@
         }
       },
       "chargedMoves": {
+        "33": {
+          "moveId": 33,
+          "moveName": "Ice Punch",
+          "proto": "ICE_PUNCH",
+          "type": 15,
+          "power": 55
+        },
         "45": {
           "moveId": 45,
           "moveName": "Aerial Ace",
@@ -99156,7 +99398,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "84": {
           "moveId": 84,
@@ -99356,7 +99598,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "77": {
           "moveId": 77,
@@ -99588,7 +99830,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "65": {
           "moveId": 65,
@@ -99851,7 +100093,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "84": {
           "moveId": 84,
@@ -100058,7 +100300,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "84": {
           "moveId": 84,
@@ -100297,7 +100539,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "70": {
           "moveId": 70,
@@ -101038,7 +101280,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "74": {
           "moveId": 74,
@@ -101182,7 +101424,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "74": {
           "moveId": 74,
@@ -102387,7 +102629,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "63": {
           "moveId": 63,
@@ -102615,7 +102857,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "88": {
           "moveId": 88,
@@ -102787,7 +103029,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "88": {
           "moveId": 88,
@@ -103289,7 +103531,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "114": {
           "moveId": 114,
@@ -103437,7 +103679,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "114": {
           "moveId": 114,
@@ -103599,7 +103841,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -106083,7 +106325,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "89": {
           "moveId": 89,
@@ -106238,7 +106480,7 @@
           "moveName": "Poison Fang",
           "proto": "POISON_FANG",
           "type": 4,
-          "power": 40
+          "power": 45
         },
         "56": {
           "moveId": 56,
@@ -106370,7 +106612,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -106386,7 +106628,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "66": {
           "moveId": 66,
@@ -106532,7 +106774,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -106555,7 +106797,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "70": {
           "moveId": 70,
@@ -106731,7 +106973,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -106949,7 +107191,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -107326,7 +107568,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -107335,7 +107577,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "114": {
           "moveId": 114,
@@ -107497,7 +107739,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "103": {
           "moveId": 103,
@@ -107646,7 +107888,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -107815,7 +108057,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -108031,7 +108273,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "60": {
           "moveId": 60,
@@ -108210,7 +108452,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "60": {
           "moveId": 60,
@@ -112334,7 +112576,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "63": {
           "moveId": 63,
@@ -113059,7 +113301,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -113568,7 +113810,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -114097,7 +114339,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "114": {
           "moveId": 114,
@@ -114890,7 +115132,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 4
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -116375,7 +116617,7 @@
           "moveName": "Icicle Spear",
           "proto": "ICICLE_SPEAR",
           "type": 15,
-          "power": 60
+          "power": 65
         }
       },
       "genId": 9,
@@ -117091,7 +117333,7 @@
           "moveName": "Seed Bomb",
           "proto": "SEED_BOMB",
           "type": 12,
-          "power": 55
+          "power": 60
         },
         "114": {
           "moveId": 114,
@@ -119407,6 +119649,7 @@
       "chargedMoves": [
         33,
         40,
+        46,
         95,
         267
       ],
@@ -122086,8 +122329,6 @@
       "formName": "Normal",
       "proto": "TYRANITAR_NORMAL",
       "formId": 319,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -122095,8 +122336,20 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 310,
+          "defense": 251,
+          "stamina": 216,
+          "height": 1.8,
+          "weight": 112.6,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "320": {
       "formName": "Shadow",
@@ -122114,6 +122367,16 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 310,
+          "defense": 251,
+          "stamina": 216,
+          "height": 1.8,
+          "weight": 112.6,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -138426,7 +138689,7 @@
       "id": 50,
       "name": "Poison Fang",
       "proto": "POISON_FANG",
-      "power": 40
+      "power": 45
     },
     "51": {
       "id": 51,
@@ -138478,7 +138741,7 @@
       "id": 59,
       "name": "Seed Bomb",
       "proto": "SEED_BOMB",
-      "power": 55
+      "power": 60
     },
     "60": {
       "id": 60,
@@ -138693,7 +138956,7 @@
       "id": 96,
       "name": "Mud Bomb",
       "proto": "MUD_BOMB",
-      "power": 55
+      "power": 60
     },
     "97": {
       "id": 97,
@@ -139877,7 +140140,7 @@
       "id": 359,
       "name": "Icicle Spear",
       "proto": "ICICLE_SPEAR",
-      "power": 60
+      "power": 65
     },
     "360": {
       "id": 360,
@@ -139931,7 +140194,7 @@
       "id": 368,
       "name": "Rollout",
       "proto": "ROLLOUT_FAST",
-      "power": 4
+      "power": 5
     },
     "369": {
       "id": 369,

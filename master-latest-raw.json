@@ -1771,7 +1771,8 @@
       "quickMoves": [
         234,
         249,
-        320
+        320,
+        350
       ],
       "chargedMoves": [
         86,
@@ -1963,6 +1964,7 @@
       "chargedMoves": [
         14,
         39,
+        84,
         86,
         88
       ],
@@ -2684,7 +2686,8 @@
         53,
         107,
         108,
-        324
+        324,
+        383
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -4236,8 +4239,10 @@
       ],
       "chargedMoves": [
         40,
+        46,
         105,
-        248
+        248,
+        383
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -4424,7 +4429,8 @@
         107,
         111,
         248,
-        254
+        254,
+        383
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -6520,7 +6526,8 @@
       "chargedMoves": [
         58,
         105,
-        107
+        107,
+        383
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -8506,7 +8513,8 @@
       ],
       "quickMoves": [
         274,
-        281
+        281,
+        350
       ],
       "chargedMoves": [
         45,
@@ -9423,6 +9431,7 @@
         31,
         32,
         90,
+        96,
         303
       ],
       "genId": 2,
@@ -11895,7 +11904,8 @@
       "chargedMoves": [
         32,
         103,
-        279
+        279,
+        367
       ],
       "genId": 2,
       "generation": "Johto",
@@ -11917,6 +11927,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -11929,6 +11940,16 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 310,
+          "defense": 251,
+          "stamina": 216,
+          "height": 1.8,
+          "weight": 112.6,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -16548,6 +16569,7 @@
       ],
       "chargedMoves": [
         32,
+        64,
         95,
         272
       ],
@@ -16641,7 +16663,8 @@
       "chargedMoves": [
         89,
         105,
-        259
+        259,
+        383
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -19958,7 +19981,8 @@
       "chargedMoves": [
         57,
         107,
-        125
+        125,
+        383
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -20283,7 +20307,8 @@
       "chargedMoves": [
         69,
         70,
-        111
+        111,
+        382
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -21838,7 +21863,8 @@
       ],
       "quickMoves": [
         217,
-        244
+        244,
+        385
       ],
       "chargedMoves": [
         39,
@@ -21888,7 +21914,8 @@
       ],
       "quickMoves": [
         215,
-        244
+        244,
+        385
       ],
       "chargedMoves": [
         40,
@@ -22614,7 +22641,8 @@
       "chargedMoves": [
         64,
         72,
-        79
+        79,
+        252
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -22987,7 +23015,8 @@
         24,
         32,
         74,
-        103
+        103,
+        304
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -23767,7 +23796,8 @@
         22,
         40,
         107,
-        318
+        318,
+        383
       ],
       "genId": 5,
       "generation": "Unova",
@@ -25782,6 +25812,7 @@
         350
       ],
       "chargedMoves": [
+        59,
         87,
         122,
         272
@@ -26604,7 +26635,8 @@
       "chargedMoves": [
         62,
         131,
-        284
+        284,
+        383
       ],
       "genId": 5,
       "generation": "Unova",
@@ -27600,7 +27632,8 @@
       "chargedMoves": [
         35,
         45,
-        79
+        79,
+        364
       ],
       "genId": 5,
       "generation": "Unova",
@@ -28376,7 +28409,8 @@
         79,
         83,
         279,
-        303
+        303,
+        383
       ],
       "genId": 5,
       "generation": "Unova",
@@ -28508,7 +28542,8 @@
       "chargedMoves": [
         42,
         101,
-        102
+        102,
+        382
       ],
       "genId": 5,
       "generation": "Unova",
@@ -28836,7 +28871,8 @@
       "chargedMoves": [
         33,
         88,
-        284
+        284,
+        383
       ],
       "genId": 5,
       "generation": "Unova",
@@ -33628,7 +33664,8 @@
       ],
       "quickMoves": [
         215,
-        221
+        221,
+        385
       ],
       "chargedMoves": [
         59,
@@ -33673,7 +33710,8 @@
       ],
       "quickMoves": [
         211,
-        215
+        215,
+        385
       ],
       "chargedMoves": [
         59,
@@ -33725,7 +33763,8 @@
       ],
       "quickMoves": [
         215,
-        263
+        263,
+        385
       ],
       "chargedMoves": [
         66,
@@ -33995,6 +34034,7 @@
         320
       ],
       "chargedMoves": [
+        84,
         87,
         107,
         108
@@ -34997,7 +35037,8 @@
       ],
       "quickMoves": [
         200,
-        215
+        215,
+        385
       ],
       "chargedMoves": [
         117,
@@ -35043,7 +35084,8 @@
       ],
       "quickMoves": [
         200,
-        215
+        215,
+        385
       ],
       "chargedMoves": [
         100,
@@ -35646,7 +35688,8 @@
       "chargedMoves": [
         45,
         57,
-        100
+        100,
+        383
       ],
       "genId": 7,
       "generation": "Alola",
@@ -41186,6 +41229,7 @@
         241
       ],
       "chargedMoves": [
+        33,
         45,
         77,
         115
@@ -46839,6 +46883,7 @@
       "chargedMoves": [
         33,
         40,
+        46,
         95,
         267
       ],
@@ -49399,8 +49444,6 @@
       "formName": "Normal",
       "proto": "TYRANITAR_NORMAL",
       "formId": 319,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -49408,8 +49451,20 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 310,
+          "defense": 251,
+          "stamina": 216,
+          "height": 1.8,
+          "weight": 112.6,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "320": {
       "formName": "Shadow",
@@ -49427,6 +49482,16 @@
           "defense": 276,
           "stamina": 225,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 310,
+          "defense": 251,
+          "stamina": 216,
+          "height": 1.8,
+          "weight": 112.6,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -64341,7 +64406,7 @@
       "moveName": "Poison Fang",
       "proto": "POISON_FANG",
       "type": 4,
-      "power": 40
+      "power": 45
     },
     "51": {
       "moveId": 51,
@@ -64390,7 +64455,7 @@
       "moveName": "Seed Bomb",
       "proto": "SEED_BOMB",
       "type": 12,
-      "power": 55
+      "power": 60
     },
     "60": {
       "moveId": 60,
@@ -64600,7 +64665,7 @@
       "moveName": "Mud Bomb",
       "proto": "MUD_BOMB",
       "type": 5,
-      "power": 55
+      "power": 60
     },
     "99": {
       "moveId": 99,
@@ -65871,7 +65936,7 @@
       "moveName": "Icicle Spear",
       "proto": "ICICLE_SPEAR",
       "type": 15,
-      "power": 60
+      "power": 65
     },
     "360": {
       "moveId": 360,
@@ -65934,7 +65999,7 @@
       "moveName": "Rollout",
       "proto": "ROLLOUT_FAST",
       "type": 6,
-      "power": 4
+      "power": 5
     },
     "369": {
       "moveId": 369,

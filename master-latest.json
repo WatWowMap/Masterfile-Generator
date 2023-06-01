@@ -1824,6 +1824,7 @@
           "charged_moves": [
             "Ice Punch",
             "Blizzard",
+            "Drill Run",
             "Bulldoze",
             "Gyro Ball"
           ],
@@ -2251,7 +2252,8 @@
       "quick_moves": [
         "Zen Headbutt",
         "Charge Beam",
-        "Charm"
+        "Charm",
+        "Fairy Wind"
       ],
       "charged_moves": [
         "Dazzling Gleam",
@@ -2511,6 +2513,7 @@
       "charged_moves": [
         "Hyper Beam",
         "Ice Beam",
+        "Disarming Voice",
         "Dazzling Gleam",
         "Play Rough"
       ],
@@ -3442,7 +3445,8 @@
         "Bubble Beam",
         "Hydro Pump",
         "Psychic",
-        "Synchronoise"
+        "Synchronoise",
+        "Liquidation"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -5470,8 +5474,10 @@
       ],
       "charged_moves": [
         "Blizzard",
+        "Drill Run",
         "Water Pulse",
-        "Aurora Beam"
+        "Aurora Beam",
+        "Liquidation"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -5731,7 +5737,8 @@
         "Hydro Pump",
         "Icy Wind",
         "Aurora Beam",
-        "Avalanche"
+        "Avalanche",
+        "Liquidation"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -8254,7 +8261,8 @@
       "charged_moves": [
         "Aqua Tail",
         "Water Pulse",
-        "Hydro Pump"
+        "Hydro Pump",
+        "Liquidation"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -10583,7 +10591,8 @@
       ],
       "quick_moves": [
         "Extrasensory",
-        "Hidden Power"
+        "Hidden Power",
+        "Fairy Wind"
       ],
       "charged_moves": [
         "Aerial Ace",
@@ -11608,6 +11617,7 @@
         "Earthquake",
         "Stone Edge",
         "Sludge Bomb",
+        "Mud Bomb",
         "Acid Spray"
       ],
       "gen_id": 2,
@@ -14590,7 +14600,8 @@
       "charged_moves": [
         "Stone Edge",
         "Fire Blast",
-        "Crunch"
+        "Crunch",
+        "Brutal Swing"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -14629,10 +14640,11 @@
       "gym_defender_eligible": true,
       "temp_evolutions": {
         "1": {
-          "attack": 309,
-          "defense": 276,
-          "stamina": 225,
-          "unreleased": true
+          "attack": 310,
+          "defense": 251,
+          "stamina": 216,
+          "height": 1.8,
+          "weight": 112.6
         }
       }
     },
@@ -19943,6 +19955,7 @@
       ],
       "charged_moves": [
         "Stone Edge",
+        "Rock Slide",
         "Bulldoze",
         "Grass Knot"
       ],
@@ -20051,7 +20064,8 @@
       "charged_moves": [
         "Cross Poison",
         "Water Pulse",
-        "Rock Blast"
+        "Rock Blast",
+        "Liquidation"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -23974,7 +23988,8 @@
       "charged_moves": [
         "Aqua Jet",
         "Hydro Pump",
-        "Swift"
+        "Swift",
+        "Liquidation"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -24365,7 +24380,8 @@
       "charged_moves": [
         "Ominous Wind",
         "Shadow Ball",
-        "Icy Wind"
+        "Icy Wind",
+        "Mystical Fire"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -26090,7 +26106,8 @@
       ],
       "quick_moves": [
         "Ice Shard",
-        "Powder Snow"
+        "Powder Snow",
+        "Leafage"
       ],
       "charged_moves": [
         "Ice Beam",
@@ -26150,7 +26167,8 @@
       ],
       "quick_moves": [
         "Razor Leaf",
-        "Powder Snow"
+        "Powder Snow",
+        "Leafage"
       ],
       "charged_moves": [
         "Blizzard",
@@ -26943,7 +26961,8 @@
       "charged_moves": [
         "Rock Slide",
         "Magnet Bomb",
-        "Thunderbolt"
+        "Thunderbolt",
+        "Zap Cannon"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -27426,7 +27445,8 @@
         "Flamethrower",
         "Stone Edge",
         "Iron Head",
-        "Fire Blast"
+        "Fire Blast",
+        "Earth Power"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -28439,7 +28459,8 @@
         "Megahorn",
         "Blizzard",
         "Hydro Pump",
-        "Razor Shell"
+        "Razor Shell",
+        "Liquidation"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -30648,6 +30669,7 @@
         "Fairy Wind"
       ],
       "charged_moves": [
+        "Seed Bomb",
         "Moonblast",
         "Hurricane",
         "Grass Knot"
@@ -31658,7 +31680,8 @@
       "charged_moves": [
         "Ancient Power",
         "Body Slam",
-        "Surf"
+        "Surf",
+        "Liquidation"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -32783,7 +32806,8 @@
       "charged_moves": [
         "Discharge",
         "Aerial Ace",
-        "Thunderbolt"
+        "Thunderbolt",
+        "Acrobatics"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -33653,7 +33677,8 @@
         "Thunderbolt",
         "Dragon Claw",
         "Crunch",
-        "Acid Spray"
+        "Acid Spray",
+        "Liquidation"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -33798,7 +33823,8 @@
       "charged_moves": [
         "Heat Wave",
         "Flame Charge",
-        "Flame Burst"
+        "Flame Burst",
+        "Mystical Fire"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -34170,7 +34196,8 @@
       "charged_moves": [
         "Ice Punch",
         "Play Rough",
-        "Surf"
+        "Surf",
+        "Liquidation"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -39817,7 +39844,8 @@
       ],
       "quick_moves": [
         "Razor Leaf",
-        "Tackle"
+        "Tackle",
+        "Leafage"
       ],
       "charged_moves": [
         "Seed Bomb",
@@ -39860,7 +39888,8 @@
       ],
       "quick_moves": [
         "Peck",
-        "Razor Leaf"
+        "Razor Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "Seed Bomb",
@@ -39907,7 +39936,8 @@
       ],
       "quick_moves": [
         "Razor Leaf",
-        "Astonish"
+        "Astonish",
+        "Leafage"
       ],
       "charged_moves": [
         "Shadow Sneak",
@@ -40168,6 +40198,7 @@
         "Charm"
       ],
       "charged_moves": [
+        "Disarming Voice",
         "Moonblast",
         "Hydro Pump",
         "Psychic"
@@ -41176,7 +41207,8 @@
       ],
       "quick_moves": [
         "Fury Cutter",
-        "Razor Leaf"
+        "Razor Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "Leaf Blade",
@@ -41219,7 +41251,8 @@
       ],
       "quick_moves": [
         "Fury Cutter",
-        "Razor Leaf"
+        "Razor Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "X Scissor",
@@ -41789,7 +41822,8 @@
       "charged_moves": [
         "Aerial Ace",
         "Aqua Jet",
-        "X Scissor"
+        "X Scissor",
+        "Liquidation"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -47495,6 +47529,7 @@
         "Rock Smash"
       ],
       "charged_moves": [
+        "Ice Punch",
         "Aerial Ace",
         "Thunder Punch",
         "Fire Punch"
@@ -53952,7 +53987,7 @@
       "name": "Poison Fang",
       "proto": "POISON_FANG",
       "type": "Poison",
-      "power": 40
+      "power": 45
     },
     "51": {
       "name": "Night Slash",
@@ -54002,7 +54037,7 @@
       "name": "Seed Bomb",
       "proto": "SEED_BOMB",
       "type": "Grass",
-      "power": 55
+      "power": 60
     },
     "60": {
       "name": "Psyshock",
@@ -54210,7 +54245,7 @@
       "name": "Mud Bomb",
       "proto": "MUD_BOMB",
       "type": "Ground",
-      "power": 55
+      "power": 60
     },
     "97": {
       "name": "Fury Cutter",
@@ -55375,7 +55410,7 @@
       "name": "Icicle Spear",
       "proto": "ICICLE_SPEAR",
       "type": "Ice",
-      "power": 60
+      "power": 65
     },
     "360": {
       "name": "Aeroblast Plus",
@@ -55429,7 +55464,7 @@
       "name": "Rollout",
       "proto": "ROLLOUT_FAST",
       "type": "Rock",
-      "power": 4
+      "power": 5
     },
     "369": {
       "name": "Seed Flare",
