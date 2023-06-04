@@ -66,8 +66,8 @@ async function masterfile() {
         const newData = await generate({
           template,
           raw: templateName === 'master-latest-raw.json',
-          translationApkUrl:
-            'https://raw.githubusercontent.com/turtiesocks/pogo_assets/master/Texts/Latest%20APK/JSON/i18n_english.json',
+          // translationApkUrl:
+          //   'https://raw.githubusercontent.com/turtiesocks/pogo_assets/master/Texts/Latest%20APK/JSON/i18n_english.json',
         })
 
         if (
