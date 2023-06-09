@@ -1588,19 +1588,23 @@
         },
         "3002": {
           "name": "Summer 2023 A",
-          "proto": "PIKACHU_SUMMER_2023_A"
+          "proto": "PIKACHU_SUMMER_2023_A",
+          "is_costume": true
         },
         "3003": {
           "name": "Summer 2023 B",
-          "proto": "PIKACHU_SUMMER_2023_B"
+          "proto": "PIKACHU_SUMMER_2023_B",
+          "is_costume": true
         },
         "3004": {
           "name": "Summer 2023 C",
-          "proto": "PIKACHU_SUMMER_2023_C"
+          "proto": "PIKACHU_SUMMER_2023_C",
+          "is_costume": true
         },
         "3005": {
           "name": "Summer 2023 D",
-          "proto": "PIKACHU_SUMMER_2023_D"
+          "proto": "PIKACHU_SUMMER_2023_D",
+          "is_costume": true
         }
       },
       "attack": 112,
@@ -8703,7 +8707,11 @@
         },
         "3001": {
           "name": "Summer 2023",
-          "proto": "AERODACTYL_SUMMER_2023"
+          "proto": "AERODACTYL_SUMMER_2023",
+          "is_costume": true,
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 221,
@@ -53601,7 +53609,7 @@
       "proto": "ITEM_XL_RARE_CANDY",
       "type": "Candy",
       "category": "Candy",
-      "min_trainer_level": 40
+      "min_trainer_level": 31
     },
     "1401": {
       "name": "Free Raid Ticket",

@@ -63046,27 +63046,46 @@
     "3001": {
       "formName": "Summer 2023",
       "proto": "AERODACTYL_SUMMER_2023",
-      "formId": 3001
+      "formId": 3001,
+      "isCostume": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 292,
+          "defense": 210,
+          "stamina": 190,
+          "height": 2.1,
+          "weight": 79,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        }
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "3002": {
       "formName": "Summer 2023 A",
       "proto": "PIKACHU_SUMMER_2023_A",
-      "formId": 3002
+      "formId": 3002,
+      "isCostume": true
     },
     "3003": {
       "formName": "Summer 2023 B",
       "proto": "PIKACHU_SUMMER_2023_B",
-      "formId": 3003
+      "formId": 3003,
+      "isCostume": true
     },
     "3004": {
       "formName": "Summer 2023 C",
       "proto": "PIKACHU_SUMMER_2023_C",
-      "formId": 3004
+      "formId": 3004,
+      "isCostume": true
     },
     "3005": {
       "formName": "Summer 2023 D",
       "proto": "PIKACHU_SUMMER_2023_D",
-      "formId": 3005
+      "formId": 3005,
+      "isCostume": true
     },
     "3006": {
       "formName": "Paldea Combat",
@@ -64063,7 +64082,7 @@
       "proto": "ITEM_XL_RARE_CANDY",
       "type": "Candy",
       "category": "Candy",
-      "minTrainerLevel": 40
+      "minTrainerLevel": 31
     },
     "1401": {
       "itemId": 1401,
