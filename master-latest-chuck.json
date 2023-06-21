@@ -5655,9 +5655,9 @@
       "stamina": 225,
       "temp_evolutions": {
         "1": {
-          "attack": 310,
-          "defense": 251,
-          "stamina": 216
+          "attack": 309,
+          "defense": 276,
+          "stamina": 225
         }
       }
     },
@@ -6773,7 +6773,11 @@
           }
         },
         "2666": {},
-        "2668": {}
+        "2668": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 141,
       "defense": 136,
@@ -6782,8 +6786,7 @@
         "1": {
           "attack": 151,
           "defense": 216,
-          "stamina": 137,
-          "unreleased": true
+          "stamina": 137
         }
       }
     },

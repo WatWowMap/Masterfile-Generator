@@ -14648,11 +14648,11 @@
       "gym_defender_eligible": true,
       "temp_evolutions": {
         "1": {
-          "attack": 310,
-          "defense": 251,
-          "stamina": 216,
-          "height": 1.8,
-          "weight": 112.6
+          "attack": 309,
+          "defense": 276,
+          "stamina": 225,
+          "height": 2.5,
+          "weight": 255
         }
       }
     },
@@ -17569,7 +17569,10 @@
         "2668": {
           "name": "Costume 2020",
           "proto": "SABLEYE_COSTUME_2020",
-          "is_costume": true
+          "is_costume": true,
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 141,
@@ -17590,7 +17593,8 @@
           "attack": 151,
           "defense": 216,
           "stamina": 137,
-          "unreleased": true
+          "height": 0.5,
+          "weight": 161
         }
       }
     },

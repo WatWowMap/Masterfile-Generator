@@ -29840,6 +29840,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -29952,6 +29953,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -30073,7 +30075,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 15,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -30084,14 +30086,14 @@
         "1": {
           "tempEvoId": 1,
           "stats": {
-            "attack": 310,
-            "defense": 251,
-            "stamina": 216
+            "attack": 309,
+            "defense": 276,
+            "stamina": 225
           },
-          "height": 1.8,
-          "weight": 112.6,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "height": 2.5,
+          "weight": 255,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -35943,7 +35945,12 @@
           "name": "Costume 2020",
           "proto": "SABLEYE_COSTUME_2020",
           "form": 2668,
-          "isCostume": true
+          "isCostume": true,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -35963,6 +35970,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -35977,7 +35985,10 @@
             "defense": 216,
             "stamina": 137
           },
-          "unreleased": true
+          "height": 0.5,
+          "weight": 161,
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
         }
       }
     },
@@ -122349,13 +122360,13 @@
         },
         {
           "tempEvoId": 1,
-          "attack": 310,
-          "defense": 251,
-          "stamina": 216,
-          "height": 1.8,
-          "weight": 112.6,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "attack": 309,
+          "defense": 276,
+          "stamina": 225,
+          "height": 2.5,
+          "weight": 255,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ],
       "purificationDust": 5000,
@@ -122380,13 +122391,13 @@
         },
         {
           "tempEvoId": 1,
-          "attack": 310,
-          "defense": 251,
-          "stamina": 216,
-          "height": 1.8,
-          "weight": 112.6,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "attack": 309,
+          "defense": 276,
+          "stamina": 225,
+          "height": 2.5,
+          "weight": 255,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -125063,8 +125074,6 @@
       "formName": "Normal",
       "proto": "SABLEYE_NORMAL",
       "formId": 923,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -125072,8 +125081,20 @@
           "defense": 216,
           "stamina": 137,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 151,
+          "defense": 216,
+          "stamina": 137,
+          "height": 0.5,
+          "weight": 161,
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "924": {
       "formName": "Shadow",
@@ -125091,6 +125112,16 @@
           "defense": 216,
           "stamina": 137,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 151,
+          "defense": 216,
+          "stamina": 137,
+          "height": 0.5,
+          "weight": 161,
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -134351,6 +134382,18 @@
       "proto": "SABLEYE_COSTUME_2020",
       "formId": 2668,
       "isCostume": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 151,
+          "defense": 216,
+          "stamina": 137,
+          "height": 0.5,
+          "weight": 161,
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
+        }
+      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },

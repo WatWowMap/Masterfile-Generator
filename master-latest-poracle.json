@@ -16348,12 +16348,12 @@
         {
           "tempEvoId": 1,
           "stats": {
-            "baseAttack": 310,
-            "baseDefense": 251,
-            "baseStamina": 216
+            "baseAttack": 309,
+            "baseDefense": 276,
+            "baseStamina": 225
           },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -16394,12 +16394,12 @@
         {
           "tempEvoId": 1,
           "stats": {
-            "baseAttack": 310,
-            "baseDefense": 251,
-            "baseStamina": 216
+            "baseAttack": 309,
+            "baseDefense": 276,
+            "baseStamina": 225
           },
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -19464,6 +19464,16 @@
             "baseStamina": 137
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 151,
+            "baseDefense": 216,
+            "baseStamina": 137
+          },
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -19500,6 +19510,16 @@
             "baseStamina": 137
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 151,
+            "baseDefense": 216,
+            "baseStamina": 137
+          },
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
         }
       ]
     },
@@ -19551,7 +19571,19 @@
         "baseStamina": 137
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 151,
+            "baseDefense": 216,
+            "baseStamina": 137
+          },
+          "firstEnergyCost": 100,
+          "subsequentEnergyCost": 20
+        }
+      ]
     },
     "303_0": {
       "name": "Mawile",
