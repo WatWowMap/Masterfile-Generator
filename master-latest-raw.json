@@ -68451,18 +68451,13 @@
       "proto": "CHARACTER_DECOY_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
           "id": 69,
           "formId": 0,
           "position": "first"
-        },
-        {
-          "id": 20,
-          "formId": 0,
-          "position": "second"
         },
         {
           "id": 70,

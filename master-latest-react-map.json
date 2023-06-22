@@ -36404,7 +36404,7 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -36414,10 +36414,6 @@
           }
         ],
         "second": [
-          {
-            "id": 20,
-            "form": 0
-          },
           {
             "id": 70,
             "form": 0

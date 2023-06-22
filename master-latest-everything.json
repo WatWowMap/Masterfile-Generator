@@ -142481,7 +142481,7 @@
       "proto": "CHARACTER_DECOY_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -142491,10 +142491,6 @@
           }
         ],
         "second": [
-          {
-            "id": 20,
-            "formId": 0
-          },
           {
             "id": 70,
             "formId": 0
