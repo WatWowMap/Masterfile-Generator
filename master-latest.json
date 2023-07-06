@@ -1605,6 +1605,11 @@
           "name": "Summer 2023 D",
           "proto": "PIKACHU_SUMMER_2023_D",
           "is_costume": true
+        },
+        "3010": {
+          "name": "Summer 2023 E",
+          "proto": "PIKACHU_SUMMER_2023_E",
+          "is_costume": true
         }
       },
       "attack": 112,
@@ -7668,9 +7673,6 @@
         {
           "pokemon": 212,
           "form": 250
-        },
-        {
-          "pokemon": 900
         }
       ],
       "little": true
@@ -12346,7 +12348,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 982
+          "pokemon": 982,
+          "form": 2994
         }
       ],
       "little": true
@@ -39941,7 +39944,7 @@
     "724": {
       "name": "Decidueye",
       "pokedex_id": 724,
-      "default_form_id": 0,
+      "default_form_id": 2785,
       "types": [
         "Ghost",
         "Grass"
@@ -39959,9 +39962,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "proto": "FORM_UNSET"
-        },
         "2785": {
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN",
@@ -40795,7 +40795,7 @@
     "744": {
       "name": "Rockruff",
       "pokedex_id": 744,
-      "default_form_id": 0,
+      "default_form_id": 2737,
       "types": [
         "Rock"
       ],
@@ -40811,9 +40811,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "proto": "FORM_UNSET"
-        },
         "2737": {
           "name": "Dusk",
           "proto": "ROCKRUFF_DUSK"
@@ -47611,7 +47608,8 @@
         "Crunch",
         "Surf",
         "Giga Impact",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Liquidation"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -47743,7 +47741,8 @@
         "Outrage",
         "Earth Power",
         "Giga Impact",
-        "Fly"
+        "Fly",
+        "Mystical Fire"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -47780,7 +47779,8 @@
         "Bullet Seed",
         "Take Down",
         "Charm",
-        "Magical Leaf"
+        "Magical Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "Petal Blizzard",
@@ -47806,13 +47806,13 @@
       "attack": 116,
       "defense": 99,
       "stamina": 120,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 907
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "907": {
@@ -47832,7 +47832,8 @@
         "Bullet Seed",
         "Take Down",
         "Charm",
-        "Magical Leaf"
+        "Magical Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "Aerial Ace",
@@ -47887,7 +47888,8 @@
         "Bullet Seed",
         "Take Down",
         "Charm",
-        "Magical Leaf"
+        "Magical Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -48120,7 +48122,8 @@
         "Brave Bird",
         "Surf",
         "Last Resort",
-        "Acrobatics"
+        "Acrobatics",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48132,13 +48135,13 @@
       "attack": 120,
       "defense": 86,
       "stamina": 146,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 913
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "913": {
@@ -48169,7 +48172,8 @@
         "Brave Bird",
         "Surf",
         "Feather Dance",
-        "Acrobatics"
+        "Acrobatics",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48227,7 +48231,8 @@
         "Hydro Cannon",
         "Giga Impact",
         "Feather Dance",
-        "Acrobatics"
+        "Acrobatics",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48279,7 +48284,8 @@
       "stamina": 144,
       "evolutions": [
         {
-          "pokemon": 916
+          "pokemon": 916,
+          "form": 2981
         }
       ],
       "legendary": false,
@@ -48454,13 +48460,13 @@
       "attack": 81,
       "defense": 65,
       "stamina": 107,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 920
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "920": {
@@ -48546,13 +48552,13 @@
       "attack": 95,
       "defense": 45,
       "stamina": 128,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 922
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "922": {
@@ -48707,13 +48713,14 @@
       "attack": 98,
       "defense": 90,
       "stamina": 137,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
-          "pokemon": 925
+          "pokemon": 925,
+          "form": 2983
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "925": {
@@ -48805,13 +48812,13 @@
       "attack": 102,
       "defense": 126,
       "stamina": 114,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 927
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "927": {
@@ -48943,13 +48950,13 @@
       "attack": 137,
       "defense": 131,
       "stamina": 141,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 930
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "930": {
@@ -49276,7 +49283,8 @@
         "Overheat",
         "Energy Ball",
         "Acid Spray",
-        "Aura Sphere"
+        "Aura Sphere",
+        "Mystical Fire"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49477,13 +49485,13 @@
       "attack": 105,
       "defense": 75,
       "stamina": 120,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 941
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "941": {
@@ -49662,13 +49670,13 @@
       "attack": 124,
       "defense": 70,
       "stamina": 120,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 945
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "945": {
@@ -49851,13 +49859,13 @@
       "attack": 97,
       "defense": 149,
       "stamina": 120,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 949
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "949": {
@@ -49972,7 +49980,8 @@
         "Bullet Seed",
         "Take Down",
         "Magical Leaf",
-        "Rollout"
+        "Rollout",
+        "Leafage"
       ],
       "charged_moves": [
         "Seed Bomb",
@@ -50018,7 +50027,8 @@
         "Fire Fang",
         "Bullet Seed",
         "Take Down",
-        "Magical Leaf"
+        "Magical Leaf",
+        "Leafage"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -50278,13 +50288,13 @@
       "attack": 85,
       "defense": 110,
       "stamina": 137,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 958
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "958": {
@@ -50400,7 +50410,8 @@
         "Rest",
         "Foul Play",
         "Surf",
-        "Earth Power"
+        "Earth Power",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50412,13 +50423,13 @@
       "attack": 109,
       "defense": 52,
       "stamina": 67,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "pokemon": 961
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "961": {
@@ -50450,7 +50461,8 @@
         "Foul Play",
         "Surf",
         "Earth Power",
-        "Giga Impact"
+        "Giga Impact",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50549,7 +50561,8 @@
         "Rest",
         "Surf",
         "Acrobatics",
-        "Boomburst"
+        "Boomburst",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50561,13 +50574,14 @@
       "attack": 90,
       "defense": 80,
       "stamina": 172,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
-          "pokemon": 964
+          "pokemon": 964,
+          "form": 2989
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "964": {
@@ -50609,7 +50623,8 @@
         "Drain Punch",
         "Giga Impact",
         "Aura Sphere",
-        "Acrobatics"
+        "Acrobatics",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50664,13 +50679,13 @@
       "attack": 123,
       "defense": 107,
       "stamina": 128,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 966
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "966": {
@@ -51033,7 +51048,8 @@
         "Giga Impact",
         "Payback",
         "Fly",
-        "Acrobatics"
+        "Acrobatics",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51075,7 +51091,8 @@
         "Body Slam",
         "Rest",
         "Avalanche",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51125,7 +51142,8 @@
         "Rest",
         "Avalanche",
         "Heavy Slam",
-        "Giga Impact"
+        "Giga Impact",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51172,7 +51190,8 @@
         "Crunch",
         "Surf",
         "Giga Impact",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51217,7 +51236,8 @@
         "Outrage",
         "Crunch",
         "Surf",
-        "Giga Impact"
+        "Giga Impact",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51381,7 +51401,8 @@
         "Surf",
         "Acid Spray",
         "Earth Power",
-        "Giga Impact"
+        "Giga Impact",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51760,7 +51781,8 @@
         "Rest",
         "Night Shade",
         "Energy Ball",
-        "Giga Impact"
+        "Giga Impact",
+        "Mystical Fire"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52235,13 +52257,13 @@
       "attack": 134,
       "defense": 86,
       "stamina": 163,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "pokemon": 997
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "997": {
@@ -52371,8 +52393,8 @@
           "proto": "GIMMIGHOUL_NORMAL"
         }
       },
-      "attack": 121,
-      "defense": 122,
+      "attack": 140,
+      "defense": 76,
       "stamina": 128,
       "height": 0.1,
       "weight": 0.1,
@@ -52387,10 +52409,6 @@
       "evolutions": [
         {
           "pokemon": 1000
-        },
-        {
-          "pokemon": 1000,
-          "form": 3000
         }
       ],
       "little": true
@@ -52479,7 +52497,7 @@
       "attack": 186,
       "defense": 242,
       "stamina": 198,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1002": {
@@ -52526,7 +52544,7 @@
       "attack": 261,
       "defense": 167,
       "stamina": 190,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1003": {
@@ -52573,7 +52591,7 @@
       "attack": 194,
       "defense": 203,
       "stamina": 321,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1004": {
@@ -52618,7 +52636,7 @@
       "attack": 269,
       "defense": 221,
       "stamina": 146,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1005": {
@@ -52732,7 +52750,8 @@
         "Energy Ball",
         "Drain Punch",
         "Giga Impact",
-        "Aura Sphere"
+        "Aura Sphere",
+        "Liquidation"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52812,7 +52831,7 @@
       "attack": 263,
       "defense": 223,
       "stamina": 205,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1008": {
@@ -52868,7 +52887,7 @@
       "attack": 263,
       "defense": 223,
       "stamina": 205,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     }
   },
@@ -53603,6 +53622,12 @@
       "category": "Move Reroll",
       "min_trainer_level": 1
     },
+    "1250": {
+      "name": "Move Reroll Other Special Attack A",
+      "proto": "ITEM_MOVE_REROLL_OTHER_SPECIAL_ATTACK_A",
+      "type": "Move Reroll",
+      "category": "Move Reroll"
+    },
     "1301": {
       "name": "Rare Candy",
       "proto": "ITEM_RARE_CANDY",
@@ -53657,6 +53682,13 @@
       "proto": "ITEM_TEAM_CHANGE",
       "type": "Team Change",
       "category": "Team Change",
+      "min_trainer_level": 100
+    },
+    "1407": {
+      "name": "Route Maker",
+      "proto": "ITEM_ROUTE_MAKER",
+      "type": "Route Maker",
+      "category": "Route Maker",
       "min_trainer_level": 100
     },
     "1408": {
@@ -55568,11 +55600,23 @@
       "type": "Water",
       "power": 70
     },
+    "384": {
+      "name": "Dragon Ascent",
+      "proto": "DRAGON_ASCENT",
+      "type": "Flying",
+      "power": 150
+    },
     "385": {
       "name": "Leafage",
       "proto": "LEAFAGE_FAST",
       "type": "Grass",
       "power": 6
+    },
+    "386": {
+      "name": "Magma Storm",
+      "proto": "MAGMA_STORM",
+      "type": "Fire",
+      "power": 65
     }
   },
   "quest_types": {

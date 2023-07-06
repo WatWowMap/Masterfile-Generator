@@ -2157,6 +2157,27 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_3010": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Summer 2023 E",
+        "id": 3010
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -8401,10 +8422,6 @@
           "id": 250,
           "candyCost": 50,
           "itemRequirement": "Metal Coat"
-        },
-        {
-          "evoId": 900,
-          "id": 0
         }
       ]
     },
@@ -8645,25 +8662,6 @@
               "name": "Bug"
             }
           ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 305,
-            "baseDefense": 231,
-            "baseStamina": 163
-          },
-          "types": [
-            {
-              "id": 3,
-              "name": "Flying"
-            },
-            {
-              "id": 7,
-              "name": "Bug"
-            }
-          ],
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
@@ -8690,25 +8688,6 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 305,
-            "baseDefense": 231,
-            "baseStamina": 163
-          },
-          "types": [
-            {
-              "id": 3,
-              "name": "Flying"
-            },
-            {
-              "id": 7,
-              "name": "Bug"
-            }
-          ],
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -13899,7 +13878,7 @@
       "evolutions": [
         {
           "evoId": 982,
-          "id": 0
+          "id": 2994
         }
       ]
     },
@@ -16343,15 +16322,6 @@
             "baseDefense": 276,
             "baseStamina": 225
           },
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 309,
-            "baseDefense": 276,
-            "baseStamina": 225
-          },
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
@@ -16382,15 +16352,6 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 309,
-            "baseDefense": 276,
-            "baseStamina": 225
-          },
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -19463,15 +19424,6 @@
             "baseDefense": 216,
             "baseStamina": 137
           },
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 151,
-            "baseDefense": 216,
-            "baseStamina": 137
-          },
           "firstEnergyCost": 100,
           "subsequentEnergyCost": 20
         }
@@ -19502,15 +19454,6 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 151,
-            "baseDefense": 216,
-            "baseStamina": 137
-          },
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -19960,15 +19903,6 @@
             "baseDefense": 179,
             "baseStamina": 155
           },
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 205,
-            "baseDefense": 179,
-            "baseStamina": 155
-          },
           "firstEnergyCost": 100,
           "subsequentEnergyCost": 20
         }
@@ -19999,15 +19933,6 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "stats": {
-            "baseAttack": 205,
-            "baseDefense": 179,
-            "baseStamina": 155
-          },
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -44785,31 +44710,6 @@
         }
       ]
     },
-    "724_0": {
-      "name": "Decidueye",
-      "id": 724,
-      "types": [
-        {
-          "id": 8,
-          "name": "Ghost"
-        },
-        {
-          "id": 12,
-          "name": "Grass"
-        }
-      ],
-      "form": {
-        "name": "",
-        "id": 0
-      },
-      "stats": {
-        "baseAttack": 210,
-        "baseDefense": 179,
-        "baseStamina": 186
-      },
-      "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
-    },
     "724_2785": {
       "name": "Decidueye",
       "id": 724,
@@ -45480,41 +45380,6 @@
       },
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
-    },
-    "744_0": {
-      "name": "Rockruff",
-      "id": 744,
-      "types": [
-        {
-          "id": 6,
-          "name": "Rock"
-        }
-      ],
-      "form": {
-        "name": "",
-        "id": 0
-      },
-      "stats": {
-        "baseAttack": 117,
-        "baseDefense": 78,
-        "baseStamina": 128
-      },
-      "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 745,
-          "id": 2684,
-          "candyCost": 50,
-          "onlyDaytime": true
-        },
-        {
-          "evoId": 745,
-          "id": 2685,
-          "candyCost": 50,
-          "onlyNighttime": true
-        }
-      ]
     },
     "744_2737": {
       "name": "Rockruff",
@@ -51295,8 +51160,7 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "unreleased": true
+      "thirdMoveCandy": 75
     },
     "901_0": {
       "name": "Ursaluna",
@@ -51792,7 +51656,7 @@
       "evolutions": [
         {
           "evoId": 916,
-          "id": 0
+          "id": 2981
         }
       ]
     },
@@ -52054,7 +51918,7 @@
       "evolutions": [
         {
           "evoId": 925,
-          "id": 0
+          "id": 2983
         }
       ]
     },
@@ -53168,7 +53032,7 @@
       "evolutions": [
         {
           "evoId": 964,
-          "id": 0
+          "id": 2989
         }
       ]
     },
@@ -54182,8 +54046,8 @@
         "id": 0
       },
       "stats": {
-        "baseAttack": 121,
-        "baseDefense": 122,
+        "baseAttack": 140,
+        "baseDefense": 76,
         "baseStamina": 128
       },
       "thirdMoveStardust": 10000,
@@ -54193,13 +54057,8 @@
           "evoId": 1000,
           "id": 0,
           "itemRequirement": "Gimmighoul Coins"
-        },
-        {
-          "evoId": 1000,
-          "id": 3000
         }
-      ],
-      "unreleased": true
+      ]
     },
     "999_2998": {
       "name": "Gimmighoul",
@@ -54215,13 +54074,12 @@
         "id": 2998
       },
       "stats": {
-        "baseAttack": 121,
-        "baseDefense": 122,
+        "baseAttack": 140,
+        "baseDefense": 76,
         "baseStamina": 128
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "unreleased": true
+      "thirdMoveCandy": 25
     },
     "1000_0": {
       "name": "Gholdengo",
@@ -54246,8 +54104,7 @@
         "baseStamina": 202
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "unreleased": true
+      "thirdMoveCandy": 25
     },
     "1000_3000": {
       "name": "Gholdengo",
@@ -54272,8 +54129,7 @@
         "baseStamina": 202
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "unreleased": true
+      "thirdMoveCandy": 25
     },
     "1001_0": {
       "name": "Wochien",
@@ -55881,6 +55737,9 @@
     "1204": {
       "name": "Elite Charged TM"
     },
+    "1250": {
+      "name": "Move Reroll Other Special Attack A"
+    },
     "1301": {
       "name": "Rare Candy"
     },
@@ -55904,6 +55763,9 @@
     },
     "1406": {
       "name": "Team Medallion"
+    },
+    "1407": {
+      "name": "Route Maker"
     },
     "1408": {
       "name": "Remote Raid Pass"
@@ -57022,9 +56884,17 @@
       "name": "Liquidation",
       "type": "Water"
     },
+    "384": {
+      "name": "Dragon Ascent",
+      "type": "Flying"
+    },
     "385": {
       "name": "Leafage Fast",
       "type": "Grass"
+    },
+    "386": {
+      "name": "Magma Storm",
+      "type": "Fire"
     }
   },
   "questTypes": {

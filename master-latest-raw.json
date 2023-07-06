@@ -1260,7 +1260,8 @@
         3002,
         3003,
         3004,
-        3005
+        3005,
+        3010
       ],
       "attack": 112,
       "defense": 96,
@@ -5987,9 +5988,6 @@
           "formId": 250,
           "candyCost": 50,
           "itemRequirement": 1103
-        },
-        {
-          "evoId": 900
         }
       ],
       "little": true
@@ -6175,17 +6173,6 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 305,
-          "defense": 231,
-          "stamina": 163,
-          "types": [
-            3,
-            7
-          ],
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 305,
@@ -9974,7 +9961,8 @@
       "transferable": true,
       "evolutions": [
         {
-          "evoId": 982
+          "evoId": 982,
+          "formId": 2994
         }
       ],
       "little": true
@@ -11937,13 +11925,6 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 309,
-          "defense": 276,
-          "stamina": 225,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 309,
@@ -14509,13 +14490,6 @@
           "attack": 151,
           "defense": 216,
           "stamina": 137,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 151,
-          "defense": 216,
-          "stamina": 137,
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
@@ -14835,13 +14809,6 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 205,
@@ -33777,7 +33744,7 @@
     "724": {
       "pokemonName": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2785,
       "types": [
         8,
         12
@@ -33795,7 +33762,6 @@
       "genId": 7,
       "generation": "Alola",
       "forms": [
-        0,
         2785,
         2809
       ],
@@ -34656,7 +34622,7 @@
     "744": {
       "pokemonName": "Rockruff",
       "pokedexId": 744,
-      "defaultFormId": 0,
+      "defaultFormId": 2737,
       "types": [
         6
       ],
@@ -34672,7 +34638,6 @@
       "genId": 7,
       "generation": "Alola",
       "forms": [
-        0,
         2737
       ],
       "attack": 117,
@@ -41237,8 +41202,7 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "unreleased": true
+      "transferable": true
     },
     "901": {
       "pokemonName": "Ursaluna",
@@ -41317,7 +41281,8 @@
         279,
         284,
         321,
-        353
+        353,
+        383
       ],
       "genId": 8,
       "generation": "Galar",
@@ -41446,7 +41411,8 @@
         277,
         304,
         321,
-        341
+        341,
+        382
       ],
       "genId": 8,
       "generation": "Galar",
@@ -41478,7 +41444,8 @@
         271,
         282,
         320,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         47,
@@ -41503,13 +41470,13 @@
       "defense": 99,
       "stamina": 120,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 907
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "907": {
@@ -41529,7 +41496,8 @@
         271,
         282,
         320,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         45,
@@ -41583,7 +41551,8 @@
         271,
         282,
         320,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         14,
@@ -41812,7 +41781,8 @@
         256,
         284,
         300,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -41823,13 +41793,13 @@
       "defense": 86,
       "stamina": 146,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 913
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "913": {
@@ -41860,7 +41830,8 @@
         256,
         284,
         348,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -41917,7 +41888,8 @@
         299,
         321,
         348,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -41967,7 +41939,8 @@
       "unreleased": true,
       "evolutions": [
         {
-          "evoId": 916
+          "evoId": 916,
+          "formId": 2981
         }
       ],
       "legendary": false,
@@ -42134,13 +42107,13 @@
       "defense": 65,
       "stamina": 107,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 920
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "920": {
@@ -42224,13 +42197,13 @@
       "defense": 45,
       "stamina": 128,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 922
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "922": {
@@ -42382,13 +42355,14 @@
       "defense": 90,
       "stamina": 137,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
-          "evoId": 925
+          "evoId": 925,
+          "formId": 2983
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "925": {
@@ -42474,13 +42448,13 @@
       "defense": 126,
       "stamina": 114,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 927
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "927": {
@@ -42609,13 +42583,13 @@
       "defense": 131,
       "stamina": 141,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 930
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "930": {
@@ -42926,7 +42900,8 @@
         270,
         273,
         303,
-        332
+        332,
+        382
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -43122,13 +43097,13 @@
       "defense": 75,
       "stamina": 120,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 941
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "941": {
@@ -43303,13 +43278,13 @@
       "defense": 70,
       "stamina": 120,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 945
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "945": {
@@ -43488,13 +43463,13 @@
       "defense": 149,
       "stamina": 120,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 949
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "949": {
@@ -43607,7 +43582,8 @@
         271,
         282,
         357,
-        368
+        368,
+        385
       ],
       "chargedMoves": [
         59,
@@ -43652,7 +43628,8 @@
         240,
         271,
         282,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         14,
@@ -43906,13 +43883,13 @@
       "defense": 110,
       "stamina": 137,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 958
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "958": {
@@ -44026,7 +44003,8 @@
         132,
         280,
         284,
-        304
+        304,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44037,13 +44015,13 @@
       "defense": 52,
       "stamina": 67,
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": [
         {
           "evoId": 961
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "961": {
@@ -44075,7 +44053,8 @@
         280,
         284,
         304,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44172,7 +44151,8 @@
         132,
         284,
         364,
-        380
+        380,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44183,13 +44163,14 @@
       "defense": 80,
       "stamina": 172,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
-          "evoId": 964
+          "evoId": 964,
+          "formId": 2989
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "964": {
@@ -44231,7 +44212,8 @@
         314,
         321,
         332,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44280,13 +44262,13 @@
       "defense": 107,
       "stamina": 128,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 966
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "966": {
@@ -44642,7 +44624,8 @@
         321,
         333,
         341,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44683,7 +44666,8 @@
         131,
         132,
         254,
-        268
+        268,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44732,7 +44716,8 @@
         132,
         254,
         268,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44778,7 +44763,8 @@
         279,
         284,
         321,
-        353
+        353,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44822,7 +44808,8 @@
         277,
         279,
         284,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -44976,7 +44963,8 @@
         284,
         303,
         304,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -45344,7 +45332,8 @@
         132,
         265,
         273,
-        321
+        321,
+        382
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -45809,13 +45798,13 @@
       "defense": 86,
       "stamina": 163,
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": [
         {
           "evoId": 997
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "997": {
@@ -45940,8 +45929,8 @@
       "forms": [
         2998
       ],
-      "attack": 121,
-      "defense": 122,
+      "attack": 140,
+      "defense": 76,
       "stamina": 128,
       "height": 0.1,
       "weight": 0.1,
@@ -45960,13 +45949,8 @@
         {
           "evoId": 1000,
           "itemRequirement": 1150
-        },
-        {
-          "evoId": 1000,
-          "formId": 3000
         }
       ],
-      "unreleased": true,
       "little": true
     },
     "1000": {
@@ -46006,8 +45990,7 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "unreleased": true
+      "transferable": true
     },
     "1001": {
       "pokemonName": "Wochien",
@@ -46053,7 +46036,7 @@
       "defense": 242,
       "stamina": 198,
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1002": {
@@ -46099,7 +46082,7 @@
       "defense": 167,
       "stamina": 190,
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1003": {
@@ -46145,7 +46128,7 @@
       "defense": 203,
       "stamina": 321,
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1004": {
@@ -46189,7 +46172,7 @@
       "defense": 221,
       "stamina": 146,
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1005": {
@@ -46302,7 +46285,8 @@
         273,
         314,
         321,
-        332
+        332,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -46379,7 +46363,7 @@
       "defense": 223,
       "stamina": 205,
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1008": {
@@ -46433,7 +46417,7 @@
       "defense": 223,
       "stamina": 205,
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     }
   },
@@ -49474,13 +49458,6 @@
           "attack": 309,
           "defense": 276,
           "stamina": 225,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 309,
-          "defense": 276,
-          "stamina": 225,
           "height": 2.5,
           "weight": 255,
           "firstEnergyCost": 300,
@@ -49500,13 +49477,6 @@
       "proto": "TYRANITAR_PURIFIED",
       "formId": 321,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 309,
-          "defense": 276,
-          "stamina": 225,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 309,
@@ -51829,17 +51799,6 @@
           "attack": 305,
           "defense": 231,
           "stamina": 163,
-          "types": [
-            3,
-            7
-          ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 305,
-          "defense": 231,
-          "stamina": 163,
           "height": 1.7,
           "weight": 59,
           "types": [
@@ -51863,17 +51822,6 @@
       "proto": "PINSIR_PURIFIED",
       "formId": 900,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 305,
-          "defense": 231,
-          "stamina": 163,
-          "types": [
-            3,
-            7
-          ],
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 305,
@@ -52126,13 +52074,6 @@
           "attack": 151,
           "defense": 216,
           "stamina": 137,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 151,
-          "defense": 216,
-          "stamina": 137,
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
@@ -52152,13 +52093,6 @@
       "proto": "SABLEYE_PURIFIED",
       "formId": 925,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 151,
-          "defense": 216,
-          "stamina": 137,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 151,
@@ -55606,13 +55540,6 @@
           "attack": 205,
           "defense": 179,
           "stamina": 155,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
           "firstEnergyCost": 100,
           "subsequentEnergyCost": 20
         }
@@ -55628,13 +55555,6 @@
       "proto": "MEDICHAM_PURIFIED",
       "formId": 1483,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 205,
@@ -63163,8 +63083,11 @@
       "proto": "WOOPER_PALDEA",
       "formId": 3009
     },
-    "undefined": {
-      "formName": ""
+    "3010": {
+      "formName": "Summer 2023 E",
+      "proto": "PIKACHU_SUMMER_2023_E",
+      "formId": 3010,
+      "isCostume": true
     }
   },
   "types": {
@@ -64124,6 +64047,13 @@
       "category": "Move Reroll",
       "minTrainerLevel": 1
     },
+    "1250": {
+      "itemId": 1250,
+      "itemName": "Move Reroll Other Special Attack A",
+      "proto": "ITEM_MOVE_REROLL_OTHER_SPECIAL_ATTACK_A",
+      "type": "Move Reroll",
+      "category": "Move Reroll"
+    },
     "1301": {
       "itemId": 1301,
       "itemName": "Rare Candy",
@@ -64186,6 +64116,14 @@
       "proto": "ITEM_TEAM_CHANGE",
       "type": "Team Change",
       "category": "Team Change",
+      "minTrainerLevel": 100
+    },
+    "1407": {
+      "itemId": 1407,
+      "itemName": "Route Maker",
+      "proto": "ITEM_ROUTE_MAKER",
+      "type": "Route Maker",
+      "category": "Route Maker",
       "minTrainerLevel": 100
     },
     "1408": {
@@ -64284,13 +64222,6 @@
       "proto": "ITEM_BATTLE_PASS_TICKET",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
-    },
-    "undefined": {
-      "itemName": "Route Maker",
-      "proto": "ITEM_ROUTE_MAKER",
-      "type": "Route Maker",
-      "category": "Route Maker",
-      "minTrainerLevel": 100
     }
   },
   "moves": {
@@ -66174,6 +66105,13 @@
       "type": 11,
       "power": 70
     },
+    "384": {
+      "moveId": 384,
+      "moveName": "Dragon Ascent",
+      "proto": "DRAGON_ASCENT",
+      "type": 3,
+      "power": 150
+    },
     "385": {
       "moveId": 385,
       "moveName": "Leafage",
@@ -66181,7 +66119,8 @@
       "type": 12,
       "power": 6
     },
-    "undefined": {
+    "386": {
+      "moveId": 386,
       "moveName": "Magma Storm",
       "proto": "MAGMA_STORM",
       "type": 10,

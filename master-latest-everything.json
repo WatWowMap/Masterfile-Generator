@@ -3268,6 +3268,12 @@
           "proto": "PIKACHU_SUMMER_2023_D",
           "form": 3005,
           "isCostume": true
+        },
+        "3010": {
+          "name": "Summer 2023 E",
+          "proto": "PIKACHU_SUMMER_2023_E",
+          "form": 3010,
+          "isCostume": true
         }
       },
       "stats": {
@@ -15799,10 +15805,6 @@
           "form": 250,
           "candyCost": 50,
           "itemRequirement": "Metal Coat"
-        },
-        "900": {
-          "pokemon": 900,
-          "form": 0
         }
       },
       "little": true
@@ -25413,7 +25415,7 @@
       "evolutions": {
         "982": {
           "pokemon": 982,
-          "form": 0
+          "form": 2994
         }
       },
       "little": true
@@ -82153,7 +82155,7 @@
     "724": {
       "name": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2785,
       "types": {
         "8": {
           "typeId": 8,
@@ -82213,11 +82215,6 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET",
-          "form": 0
-        },
         "2785": {
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN",
@@ -84002,7 +83999,7 @@
     "744": {
       "name": "Rockruff",
       "pokedexId": 744,
-      "defaultFormId": 0,
+      "defaultFormId": 2737,
       "types": {
         "6": {
           "typeId": 6,
@@ -84051,11 +84048,6 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET",
-          "form": 0
-        },
         "2737": {
           "name": "Dusk Form",
           "proto": "ROCKRUFF_DUSK",
@@ -98648,8 +98640,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "901": {
       "name": "Ursaluna",
@@ -98937,6 +98928,13 @@
           "proto": "PSYCHIC_FANGS",
           "type": 14,
           "power": 40
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 8,
@@ -99331,6 +99329,13 @@
           "proto": "FLY",
           "type": 3,
           "power": 80
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
+          "power": 60
         }
       },
       "genId": 8,
@@ -99441,6 +99446,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -99544,14 +99556,14 @@
         "stamina": 120
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "907": {
           "pokemon": 907,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "907": {
@@ -99634,6 +99646,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -99845,6 +99864,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -100847,6 +100873,13 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -100864,14 +100897,14 @@
         "stamina": 146
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "913": {
           "pokemon": 913,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "913": {
@@ -101019,6 +101052,13 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -101251,6 +101291,13 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -101401,7 +101448,7 @@
       "evolutions": {
         "916": {
           "pokemon": 916,
-          "form": 0
+          "form": 2981
         }
       },
       "legendary": false,
@@ -101998,14 +102045,14 @@
         "stamina": 107
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "920": {
           "pokemon": 920,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "920": {
@@ -102332,14 +102379,14 @@
         "stamina": 128
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "922": {
           "pokemon": 922,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "922": {
@@ -102975,14 +103022,14 @@
         "stamina": 137
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "925": {
           "pokemon": 925,
-          "form": 0
+          "form": 2983
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "925": {
@@ -103329,14 +103376,14 @@
         "stamina": 114
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "927": {
           "pokemon": 927,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "927": {
@@ -103811,14 +103858,14 @@
         "stamina": 141
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "930": {
           "pokemon": 930,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "930": {
@@ -105020,6 +105067,13 @@
           "proto": "AURA_SPHERE",
           "type": 2,
           "power": 100
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
+          "power": 60
         }
       },
       "genId": 9,
@@ -105775,14 +105829,14 @@
         "stamina": 120
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "941": {
           "pokemon": 941,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "941": {
@@ -106450,14 +106504,14 @@
         "stamina": 120
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "945": {
           "pokemon": 945,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "945": {
@@ -107147,14 +107201,14 @@
         "stamina": 120
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "949": {
           "pokemon": 949,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "949": {
@@ -107627,6 +107681,13 @@
           "proto": "ROLLOUT_FAST",
           "type": 6,
           "power": 5
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -107775,6 +107836,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "385": {
+          "moveId": 385,
+          "moveName": "Leafage Fast",
+          "proto": "LEAFAGE_FAST",
+          "type": 12,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -108760,14 +108828,14 @@
         "stamina": 137
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "958": {
           "pokemon": 958,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "958": {
@@ -109197,6 +109265,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -109214,14 +109289,14 @@
         "stamina": 67
       },
       "unreleased": true,
+      "legendary": false,
+      "mythic": false,
       "evolutions": {
         "961": {
           "pokemon": 961,
           "form": 0
         }
       },
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "961": {
@@ -109376,6 +109451,13 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -109794,6 +109876,13 @@
           "proto": "BOOMBURST",
           "type": 1,
           "power": 150
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -109811,14 +109900,14 @@
         "stamina": 172
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "964": {
           "pokemon": 964,
-          "form": 0
+          "form": 2989
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "964": {
@@ -110043,6 +110132,13 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -110197,14 +110293,14 @@
         "stamina": 128
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "966": {
           "pokemon": 966,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "966": {
@@ -111639,6 +111735,13 @@
           "proto": "ACROBATICS",
           "type": 3,
           "power": 110
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -111796,6 +111899,13 @@
           "moveName": "Heavy Slam",
           "proto": "HEAVY_SLAM",
           "type": 9,
+          "power": 70
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
           "power": 70
         }
       },
@@ -111976,6 +112086,13 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -112166,6 +112283,13 @@
           "proto": "PSYCHIC_FANGS",
           "type": 14,
           "power": 40
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -112345,6 +112469,13 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -113028,6 +113159,13 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -114686,6 +114824,13 @@
           "proto": "GIGA_IMPACT",
           "type": 1,
           "power": 150
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
+          "power": 60
         }
       },
       "genId": 9,
@@ -116693,14 +116838,14 @@
         "stamina": 163
       },
       "unreleased": true,
-      "legendary": false,
-      "mythic": false,
       "evolutions": {
         "997": {
           "pokemon": 997,
           "form": 0
         }
       },
+      "legendary": false,
+      "mythic": false,
       "little": true
     },
     "997": {
@@ -117175,8 +117320,8 @@
         }
       },
       "stats": {
-        "attack": 121,
-        "defense": 122,
+        "attack": 140,
+        "defense": 76,
         "stamina": 128
       },
       "height": 0.1,
@@ -117197,10 +117342,10 @@
       "evolutions": {
         "1000": {
           "pokemon": 1000,
-          "form": 3000
+          "form": 0,
+          "itemRequirement": "Gimmighoul Coins"
         }
       },
-      "unreleased": true,
       "little": true
     },
     "1000": {
@@ -117289,8 +117434,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1001": {
       "name": "Wochien",
@@ -117486,7 +117630,7 @@
         "stamina": 198
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1002": {
@@ -117676,7 +117820,7 @@
         "stamina": 190
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1003": {
@@ -117866,7 +118010,7 @@
         "stamina": 321
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1004": {
@@ -118042,7 +118186,7 @@
         "stamina": 146
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1005": {
@@ -118629,6 +118773,13 @@
           "proto": "AURA_SPHERE",
           "type": 2,
           "power": 100
+        },
+        "383": {
+          "moveId": 383,
+          "moveName": "Liquidation",
+          "proto": "LIQUIDATION",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 9,
@@ -118981,7 +119132,7 @@
         "stamina": 205
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     },
     "1008": {
@@ -119232,7 +119383,7 @@
         "stamina": 205
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythic": false
     }
   },
@@ -122393,13 +122544,6 @@
           "attack": 309,
           "defense": 276,
           "stamina": 225,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 309,
-          "defense": 276,
-          "stamina": 225,
           "height": 2.5,
           "weight": 255,
           "firstEnergyCost": 300,
@@ -122419,13 +122563,6 @@
       "proto": "TYRANITAR_PURIFIED",
       "formId": 321,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 309,
-          "defense": 276,
-          "stamina": 225,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 309,
@@ -124820,17 +124957,6 @@
           "attack": 305,
           "defense": 231,
           "stamina": 163,
-          "types": [
-            3,
-            7
-          ],
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 305,
-          "defense": 231,
-          "stamina": 163,
           "height": 1.7,
           "weight": 59,
           "types": [
@@ -124854,17 +124980,6 @@
       "proto": "PINSIR_PURIFIED",
       "formId": 900,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 305,
-          "defense": 231,
-          "stamina": 163,
-          "types": [
-            3,
-            7
-          ],
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 305,
@@ -125117,13 +125232,6 @@
           "attack": 151,
           "defense": 216,
           "stamina": 137,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 151,
-          "defense": 216,
-          "stamina": 137,
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
@@ -125143,13 +125251,6 @@
       "proto": "SABLEYE_PURIFIED",
       "formId": 925,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 151,
-          "defense": 216,
-          "stamina": 137,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 151,
@@ -128675,13 +128776,6 @@
           "attack": 205,
           "defense": 179,
           "stamina": 155,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
           "firstEnergyCost": 100,
           "subsequentEnergyCost": 20
         }
@@ -128697,13 +128791,6 @@
       "proto": "MEDICHAM_PURIFIED",
       "formId": 1483,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 205,
-          "defense": 179,
-          "stamina": 155,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 205,
@@ -136270,8 +136357,11 @@
       "proto": "WOOPER_PALDEA",
       "formId": 3009
     },
-    "undefined": {
-      "formName": ""
+    "3010": {
+      "formName": "Summer 2023 E",
+      "proto": "PIKACHU_SUMMER_2023_E",
+      "formId": 3010,
+      "isCostume": true
     }
   },
   "types": {
@@ -137913,6 +138003,12 @@
       "name": "Spring 2023 Instinct",
       "proto": "SPRING_2023_INSTINCT",
       "noEvolve": false
+    },
+    "67": {
+      "id": 67,
+      "name": "Nightcap",
+      "proto": "NIGHTCAP",
+      "noEvolve": false
     }
   },
   "items": {
@@ -138355,6 +138451,13 @@
       "category": "Move Reroll",
       "minTrainerLevel": 1
     },
+    "1250": {
+      "id": 1250,
+      "name": "Move Reroll Other Special Attack A",
+      "proto": "ITEM_MOVE_REROLL_OTHER_SPECIAL_ATTACK_A",
+      "type": "Move Reroll",
+      "category": "Move Reroll"
+    },
     "1301": {
       "id": 1301,
       "name": "Rare Candy",
@@ -138417,6 +138520,14 @@
       "proto": "ITEM_TEAM_CHANGE",
       "type": "Team Change",
       "category": "Team Change",
+      "minTrainerLevel": 100
+    },
+    "1407": {
+      "id": 1407,
+      "name": "Route Maker",
+      "proto": "ITEM_ROUTE_MAKER",
+      "type": "Route Maker",
+      "category": "Route Maker",
       "minTrainerLevel": 100
     },
     "1408": {
@@ -140394,11 +140505,23 @@
       "proto": "LIQUIDATION",
       "power": 70
     },
+    "384": {
+      "id": 384,
+      "name": "Dragon Ascent",
+      "proto": "DRAGON_ASCENT",
+      "power": 150
+    },
     "385": {
       "id": 385,
       "name": "Leafage Fast",
       "proto": "LEAFAGE_FAST",
       "power": 6
+    },
+    "386": {
+      "id": 386,
+      "name": "Magma Storm",
+      "proto": "MAGMA_STORM",
+      "power": 65
     }
   },
   "questTypes": {

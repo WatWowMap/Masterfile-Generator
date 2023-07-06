@@ -939,6 +939,10 @@
         "3005": {
           "name": "Summer 2023 D",
           "isCostume": true
+        },
+        "3010": {
+          "name": "Summer 2023 E",
+          "isCostume": true
         }
       },
       "height": 0.4,
@@ -23663,7 +23667,7 @@
     "724": {
       "name": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2785,
       "types": [
         8,
         12
@@ -23681,9 +23685,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {},
         "2785": {
           "name": "Hisuian"
+        },
+        "2809": {
+          "name": "Normal"
         }
       },
       "height": 1.6,
@@ -24265,7 +24271,7 @@
     "744": {
       "name": "Rockruff",
       "pokedexId": 744,
-      "defaultFormId": 0,
+      "defaultFormId": 2737,
       "types": [
         6
       ],
@@ -24281,7 +24287,6 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {},
         "2737": {
           "name": "Dusk"
         }
@@ -29098,8 +29103,7 @@
       "family": 123,
       "legendary": false,
       "mythical": false,
-      "ultraBeast": false,
-      "unreleased": true
+      "ultraBeast": false
     },
     "901": {
       "name": "Ursaluna",
@@ -29164,7 +29168,8 @@
         279,
         284,
         321,
-        353
+        353,
+        383
       ],
       "genId": 8,
       "generation": "Galar",
@@ -29272,7 +29277,8 @@
         277,
         304,
         321,
-        341
+        341,
+        382
       ],
       "genId": 8,
       "generation": "Galar",
@@ -29306,7 +29312,8 @@
         271,
         282,
         320,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         47,
@@ -29348,7 +29355,8 @@
         271,
         282,
         320,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         45,
@@ -29393,7 +29401,8 @@
         271,
         282,
         320,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         14,
@@ -29598,7 +29607,8 @@
         256,
         284,
         300,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -29637,7 +29647,8 @@
         256,
         284,
         348,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -29685,7 +29696,8 @@
         299,
         321,
         348,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -30569,7 +30581,8 @@
         270,
         273,
         303,
-        332
+        332,
+        382
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -31169,7 +31182,8 @@
         271,
         282,
         357,
-        368
+        368,
+        385
       ],
       "chargedMoves": [
         59,
@@ -31205,7 +31219,8 @@
         240,
         271,
         282,
-        357
+        357,
+        385
       ],
       "chargedMoves": [
         14,
@@ -31531,7 +31546,8 @@
         132,
         280,
         284,
-        304
+        304,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -31571,7 +31587,8 @@
         280,
         284,
         304,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -31662,7 +31679,8 @@
         132,
         284,
         364,
-        380
+        380,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -31712,7 +31730,8 @@
         314,
         321,
         332,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32083,7 +32102,8 @@
         321,
         333,
         341,
-        364
+        364,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32121,7 +32141,8 @@
         131,
         132,
         254,
-        268
+        268,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32161,7 +32182,8 @@
         132,
         254,
         268,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32204,7 +32226,8 @@
         279,
         284,
         321,
-        353
+        353,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32245,7 +32268,8 @@
         277,
         279,
         284,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32397,7 +32421,8 @@
         284,
         303,
         304,
-        321
+        321,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32749,7 +32774,8 @@
         132,
         265,
         273,
-        321
+        321,
+        382
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -33302,8 +33328,7 @@
       "family": 999,
       "legendary": false,
       "mythical": false,
-      "ultraBeast": false,
-      "unreleased": true
+      "ultraBeast": false
     },
     "1000": {
       "name": "Gholdengo",
@@ -33332,8 +33357,7 @@
       "family": 999,
       "legendary": false,
       "mythical": false,
-      "ultraBeast": false,
-      "unreleased": true
+      "ultraBeast": false
     },
     "1001": {
       "name": "Wochien",
@@ -33376,7 +33400,7 @@
         "0": {}
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythical": false
     },
     "1002": {
@@ -33419,7 +33443,7 @@
         "0": {}
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythical": false
     },
     "1003": {
@@ -33462,7 +33486,7 @@
         "0": {}
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythical": false
     },
     "1004": {
@@ -33503,7 +33527,7 @@
         "0": {}
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythical": false
     },
     "1005": {
@@ -33613,7 +33637,8 @@
         273,
         314,
         321,
-        332
+        332,
+        383
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -33687,7 +33712,7 @@
         }
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythical": false
     },
     "1008": {
@@ -33741,7 +33766,7 @@
         }
       },
       "unreleased": true,
-      "legendary": false,
+      "legendary": true,
       "mythical": false
     }
   },
@@ -33808,6 +33833,7 @@
     "1202": "Move Reroll Special Attack",
     "1203": "Move Reroll Elite Fast Attack",
     "1204": "Move Reroll Elite Special Attack",
+    "1250": "Move Reroll Other Special Attack A",
     "1301": "Rare Candy",
     "1302": "XL Rare Candy",
     "1402": "Paid Raid Ticket",
@@ -35061,9 +35087,17 @@
       "name": "Liquidation",
       "type": 11
     },
+    "384": {
+      "name": "Dragon Ascent",
+      "type": 3
+    },
     "385": {
       "name": "Leafage",
       "type": 12
+    },
+    "386": {
+      "name": "Magma Storm",
+      "type": 10
     }
   },
   "questRewardTypes": {
