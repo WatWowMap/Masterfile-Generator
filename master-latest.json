@@ -1610,6 +1610,22 @@
           "name": "Summer 2023 E",
           "proto": "PIKACHU_SUMMER_2023_E",
           "is_costume": true
+        },
+        "3011": {
+          "name": "Flying 03",
+          "proto": "PIKACHU_FLYING_03"
+        },
+        "3012": {
+          "name": "Jeju",
+          "proto": "PIKACHU_JEJU"
+        },
+        "3013": {
+          "name": "Doctor",
+          "proto": "PIKACHU_DOCTOR"
+        },
+        "3014": {
+          "name": "Wcs 2023",
+          "proto": "PIKACHU_WCS_2023"
         }
       },
       "attack": 112,
@@ -55617,6 +55633,18 @@
       "proto": "MAGMA_STORM",
       "type": "Fire",
       "power": 65
+    },
+    "387": {
+      "name": "Geomancy",
+      "proto": "GEOMANCY_FAST"
+    },
+    "388": {
+      "name": "Spacial Rend",
+      "proto": "SPACIAL_REND"
+    },
+    "389": {
+      "name": "Oblivion Wing",
+      "proto": "OBLIVION_WING"
     }
   },
   "quest_types": {
@@ -55794,6 +55822,18 @@
     },
     "62": {
       "text": "First Route Of The Day"
+    },
+    "63": {
+      "text": "Submit Sleep Data"
+    },
+    "64": {
+      "text": "Route Travel"
+    },
+    "65": {
+      "text": "Route Complete"
+    },
+    "66": {
+      "text": "Collect Tappable"
     }
   },
   "quest_reward_types": {
@@ -56074,6 +56114,22 @@
     "53": {
       "proto": "WITH_TOTAL_DAYS",
       "text": "With Total Days"
+    },
+    "54": {
+      "proto": "WITH_DEVICE_TYPE",
+      "text": "With Device Type"
+    },
+    "55": {
+      "proto": "WITH_ROUTE_TRAVEL",
+      "text": "With Route Travel"
+    },
+    "56": {
+      "proto": "WITH_UNIQUE_ROUTE_TRAVEL",
+      "text": "With Unique Route Travel"
+    },
+    "57": {
+      "proto": "WITH_TAPPABLE_TYPE",
+      "text": "With Tappable Type"
     }
   },
   "invasions": {

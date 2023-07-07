@@ -3274,6 +3274,26 @@
           "proto": "PIKACHU_SUMMER_2023_E",
           "form": 3010,
           "isCostume": true
+        },
+        "3011": {
+          "name": "Flying 03",
+          "proto": "PIKACHU_FLYING_03",
+          "form": 3011
+        },
+        "3012": {
+          "name": "Jeju",
+          "proto": "PIKACHU_JEJU",
+          "form": 3012
+        },
+        "3013": {
+          "name": "Doctor",
+          "proto": "PIKACHU_DOCTOR",
+          "form": 3013
+        },
+        "3014": {
+          "name": "Wcs 2023",
+          "proto": "PIKACHU_WCS_2023",
+          "form": 3014
         }
       },
       "stats": {
@@ -136362,6 +136382,26 @@
       "proto": "PIKACHU_SUMMER_2023_E",
       "formId": 3010,
       "isCostume": true
+    },
+    "3011": {
+      "formName": "Flying 03",
+      "proto": "PIKACHU_FLYING_03",
+      "formId": 3011
+    },
+    "3012": {
+      "formName": "Jeju",
+      "proto": "PIKACHU_JEJU",
+      "formId": 3012
+    },
+    "3013": {
+      "formName": "Doctor",
+      "proto": "PIKACHU_DOCTOR",
+      "formId": 3013
+    },
+    "3014": {
+      "formName": "Wcs 2023",
+      "proto": "PIKACHU_WCS_2023",
+      "formId": 3014
     }
   },
   "types": {
@@ -138008,6 +138048,12 @@
       "id": 67,
       "name": "Nightcap",
       "proto": "NIGHTCAP",
+      "noEvolve": false
+    },
+    "68": {
+      "id": 68,
+      "name": "May 2023",
+      "proto": "MAY_2023",
       "noEvolve": false
     }
   },
@@ -140522,6 +140568,21 @@
       "name": "Magma Storm",
       "proto": "MAGMA_STORM",
       "power": 65
+    },
+    "387": {
+      "id": 387,
+      "name": "Geomancy Fast",
+      "proto": "GEOMANCY_FAST"
+    },
+    "388": {
+      "id": 388,
+      "name": "Spacial Rend",
+      "proto": "SPACIAL_REND"
+    },
+    "389": {
+      "id": 389,
+      "name": "Oblivion Wing",
+      "proto": "OBLIVION_WING"
     }
   },
   "questTypes": {
@@ -140814,6 +140875,26 @@
       "id": 62,
       "proto": "QUEST_FIRST_ROUTE_OF_THE_DAY",
       "formatted": "First Route Of The Day"
+    },
+    "63": {
+      "id": 63,
+      "proto": "QUEST_SUBMIT_SLEEP_DATA",
+      "formatted": "Submit Sleep Data"
+    },
+    "64": {
+      "id": 64,
+      "proto": "QUEST_ROUTE_TRAVEL",
+      "formatted": "Route Travel"
+    },
+    "65": {
+      "id": 65,
+      "proto": "QUEST_ROUTE_COMPLETE",
+      "formatted": "Route Complete"
+    },
+    "66": {
+      "id": 66,
+      "proto": "QUEST_COLLECT_TAPPABLE",
+      "formatted": "Collect Tappable"
     }
   },
   "questRewardTypes": {
@@ -141163,6 +141244,26 @@
       "id": 53,
       "proto": "WITH_TOTAL_DAYS",
       "formatted": "With Total Days"
+    },
+    "54": {
+      "id": 54,
+      "proto": "WITH_DEVICE_TYPE",
+      "formatted": "With Device Type"
+    },
+    "55": {
+      "id": 55,
+      "proto": "WITH_ROUTE_TRAVEL",
+      "formatted": "With Route Travel"
+    },
+    "56": {
+      "id": 56,
+      "proto": "WITH_UNIQUE_ROUTE_TRAVEL",
+      "formatted": "With Unique Route Travel"
+    },
+    "57": {
+      "id": 57,
+      "proto": "WITH_TAPPABLE_TYPE",
+      "formatted": "With Tappable Type"
     }
   },
   "invasions": {
