@@ -945,10 +945,18 @@
           "isCostume": true
         },
         "3011": {
-          "name": "Flying 03"
+          "name": "Flying 03",
+          "isCostume": true,
+          "chargedMoves": [
+            35,
+            79,
+            251,
+            341
+          ]
         },
         "3012": {
-          "name": "Jeju"
+          "name": "Jeju",
+          "isCostume": true
         },
         "3013": {
           "name": "Doctor"
@@ -33861,7 +33869,9 @@
     "1603": "Global Event Ticket To Gift",
     "1604": "Event Ticket Pink To Gift",
     "1605": "Event Ticket Gray To Gift",
-    "1606": "Battle Pass Ticket"
+    "1606": "Battle Pass Ticket",
+    "1607": "Evergreen Ticket",
+    "1608": "Evergreen Ticket To Gift"
   },
   "moves": {
     "0": {

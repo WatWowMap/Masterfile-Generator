@@ -1613,11 +1613,19 @@
         },
         "3011": {
           "name": "Flying 03",
-          "proto": "PIKACHU_FLYING_03"
+          "proto": "PIKACHU_FLYING_03",
+          "is_costume": true,
+          "charged_moves": [
+            "Discharge",
+            "Thunderbolt",
+            "Wild Charge",
+            "Fly"
+          ]
         },
         "3012": {
           "name": "Jeju",
-          "proto": "PIKACHU_JEJU"
+          "proto": "PIKACHU_JEJU",
+          "is_costume": true
         },
         "3013": {
           "name": "Doctor",
@@ -42385,7 +42393,7 @@
       "family": 776,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -53788,6 +53796,18 @@
     "1606": {
       "name": "Battle Pass Ticket",
       "proto": "ITEM_BATTLE_PASS_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1607": {
+      "name": "Evergreen Ticket",
+      "proto": "ITEM_EVERGREEN_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1608": {
+      "name": "Evergreen Ticket To Gift",
+      "proto": "ITEM_EVERGREEN_TICKET_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

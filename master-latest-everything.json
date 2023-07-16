@@ -3278,12 +3278,44 @@
         "3011": {
           "name": "Flying 03",
           "proto": "PIKACHU_FLYING_03",
-          "form": 3011
+          "form": 3011,
+          "isCostume": true,
+          "chargedMoves": {
+            "35": {
+              "moveId": 35,
+              "moveName": "Discharge",
+              "proto": "DISCHARGE",
+              "type": 13,
+              "power": 65
+            },
+            "79": {
+              "moveId": 79,
+              "moveName": "Thunderbolt",
+              "proto": "THUNDERBOLT",
+              "type": 13,
+              "power": 90
+            },
+            "251": {
+              "moveId": 251,
+              "moveName": "Wild Charge",
+              "proto": "WILD_CHARGE",
+              "type": 13,
+              "power": 100
+            },
+            "341": {
+              "moveId": 341,
+              "moveName": "Fly",
+              "proto": "FLY",
+              "type": 3,
+              "power": 80
+            }
+          }
         },
         "3012": {
           "name": "Jeju",
           "proto": "PIKACHU_JEJU",
-          "form": 3012
+          "form": 3012,
+          "isCostume": true
         },
         "3013": {
           "name": "Doctor",
@@ -17267,7 +17299,7 @@
       "weight": 25,
       "family": 133,
       "encounter": {
-        "bonusCandyCapture": 5,
+        "bonusCandyCapture": 2,
         "bonusStardustCapture": 200
       },
       "legendary": false,
@@ -24315,7 +24347,7 @@
       "weight": 27,
       "family": 133,
       "encounter": {
-        "bonusCandyCapture": 5,
+        "bonusCandyCapture": 2,
         "bonusStardustCapture": 200
       },
       "legendary": false,
@@ -26583,9 +26615,6 @@
       "height": 0.89,
       "weight": 28,
       "family": 215,
-      "encounter": {
-        "bonusCandyCapture": 3
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -35987,7 +36016,6 @@
       "weight": 11,
       "family": 302,
       "encounter": {
-        "bonusCandyCapture": 3,
         "bonusStardustCapture": 650
       },
       "legendary": false,
@@ -56183,9 +56211,6 @@
       "height": 1.7,
       "weight": 430,
       "family": 485,
-      "encounter": {
-        "bonusCandyCapture": 3
-      },
       "legendary": true,
       "mythic": false,
       "ultraBeast": false,
@@ -63588,9 +63613,6 @@
       "height": 0.6,
       "weight": 37.5,
       "family": 554,
-      "encounter": {
-        "bonusCandyCapture": 3
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -64243,9 +64265,6 @@
       "height": 0.6,
       "weight": 11.8,
       "family": 559,
-      "encounter": {
-        "bonusCandyCapture": 3
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -72205,9 +72224,6 @@
       "height": 0.8,
       "weight": 17.3,
       "family": 633,
-      "encounter": {
-        "bonusCandyCapture": 3
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -87311,14 +87327,11 @@
       "height": 2,
       "weight": 212,
       "family": 776,
-      "encounter": {
-        "bonusCandyCapture": 3
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -121407,7 +121420,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "182": {
       "formName": "Shadow",
@@ -121431,7 +121451,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "185": {
       "formName": "Shadow",
@@ -136386,12 +136413,20 @@
     "3011": {
       "formName": "Flying 03",
       "proto": "PIKACHU_FLYING_03",
-      "formId": 3011
+      "formId": 3011,
+      "isCostume": true,
+      "chargedMoves": [
+        35,
+        79,
+        251,
+        341
+      ]
     },
     "3012": {
       "formName": "Jeju",
       "proto": "PIKACHU_JEJU",
-      "formId": 3012
+      "formId": 3012,
+      "isCostume": true
     },
     "3013": {
       "formName": "Doctor",
@@ -138670,6 +138705,20 @@
       "id": 1606,
       "name": "GO Battle League Timed Research Pass",
       "proto": "ITEM_BATTLE_PASS_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1607": {
+      "id": 1607,
+      "name": "Evergreen Ticket",
+      "proto": "ITEM_EVERGREEN_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1608": {
+      "id": 1608,
+      "name": "Evergreen Ticket To Gift",
+      "proto": "ITEM_EVERGREEN_TICKET_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

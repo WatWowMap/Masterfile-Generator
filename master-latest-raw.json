@@ -390,6 +390,13 @@
           "candyCost": 25
         }
       ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ],
       "little": true
     },
     "8": {
@@ -439,6 +446,13 @@
           "evoId": 9,
           "formId": 187,
           "candyCost": 100
+        }
+      ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
         }
       ]
     },
@@ -6617,7 +6631,7 @@
       "height": 0.9,
       "weight": 25,
       "family": 133,
-      "bonusCandyCapture": 5,
+      "bonusCandyCapture": 2,
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
@@ -9522,7 +9536,7 @@
       "height": 0.99,
       "weight": 27,
       "family": 133,
-      "bonusCandyCapture": 5,
+      "bonusCandyCapture": 2,
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
@@ -10392,7 +10406,6 @@
       "height": 0.89,
       "weight": 28,
       "family": 215,
-      "bonusCandyCapture": 3,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -14475,7 +14488,6 @@
       "height": 0.51,
       "weight": 11,
       "family": 302,
-      "bonusCandyCapture": 3,
       "bonusStardustCapture": 650,
       "legendary": false,
       "mythic": false,
@@ -23017,7 +23029,6 @@
       "height": 1.7,
       "weight": 430,
       "family": 485,
-      "bonusCandyCapture": 3,
       "legendary": true,
       "mythic": false,
       "ultraBeast": false,
@@ -26141,7 +26152,6 @@
       "height": 0.6,
       "weight": 37.5,
       "family": 554,
-      "bonusCandyCapture": 3,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -26367,7 +26377,6 @@
       "height": 0.6,
       "weight": 11.8,
       "family": 559,
-      "bonusCandyCapture": 3,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -29727,7 +29736,6 @@
       "height": 0.8,
       "weight": 17.3,
       "family": 633,
-      "bonusCandyCapture": 3,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -36050,11 +36058,10 @@
       "height": 2,
       "weight": 212,
       "family": 776,
-      "bonusCandyCapture": 3,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -48348,7 +48355,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "182": {
       "formName": "Shadow",
@@ -48372,7 +48386,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "185": {
       "formName": "Shadow",
@@ -63096,12 +63117,20 @@
     "3011": {
       "formName": "Flying 03",
       "proto": "PIKACHU_FLYING_03",
-      "formId": 3011
+      "formId": 3011,
+      "isCostume": true,
+      "chargedMoves": [
+        35,
+        79,
+        251,
+        341
+      ]
     },
     "3012": {
       "formName": "Jeju",
       "proto": "PIKACHU_JEJU",
-      "formId": 3012
+      "formId": 3012,
+      "isCostume": true
     },
     "3013": {
       "formName": "Doctor",
@@ -64244,6 +64273,20 @@
       "itemId": 1606,
       "itemName": "Battle Pass Ticket",
       "proto": "ITEM_BATTLE_PASS_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1607": {
+      "itemId": 1607,
+      "itemName": "Evergreen Ticket",
+      "proto": "ITEM_EVERGREEN_TICKET",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1608": {
+      "itemId": 1608,
+      "itemName": "Evergreen Ticket To Gift",
+      "proto": "ITEM_EVERGREEN_TICKET_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
