@@ -45111,6 +45111,7 @@
       "misc": {
         "buddyGroupNumber": 7,
         "buddyDistance": 20,
+        "buddyMegaEnergy": 100,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
         "tradable": true,
@@ -45120,11 +45121,14 @@
         "1": {
           "tempEvoId": 1,
           "stats": {
-            "attack": 389,
-            "defense": 216,
-            "stamina": 233
+            "attack": 377,
+            "defense": 210,
+            "stamina": 227
           },
-          "unreleased": true
+          "height": 10.8,
+          "weight": 392,
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
         }
       }
     },
@@ -81636,30 +81640,60 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET",
-          "form": 0
-        },
         "2591": {
           "name": "Ten Percent",
           "proto": "ZYGARDE_TEN_PERCENT",
-          "form": 2591
+          "form": 2591,
+          "stats": {
+            "attack": 205,
+            "defense": 173,
+            "stamina": 144
+          },
+          "height": 1.2,
+          "weight": 33.5,
+          "evolutions": {
+            "718": {
+              "pokemon": 718,
+              "form": 2592,
+              "itemRequirement": "Beans"
+            }
+          }
         },
         "2592": {
           "name": "Fifty Percent",
           "proto": "ZYGARDE_FIFTY_PERCENT",
-          "form": 2592
+          "form": 2592,
+          "evolutions": {
+            "718": {
+              "pokemon": 718,
+              "form": 2593,
+              "itemRequirement": "Beans"
+            }
+          }
         },
         "2593": {
           "name": "Complete",
           "proto": "ZYGARDE_COMPLETE",
-          "form": 2593
+          "form": 2593,
+          "stats": {
+            "attack": 184,
+            "defense": 207,
+            "stamina": 389
+          },
+          "height": 4.5,
+          "weight": 610
         },
         "2823": {
           "name": "Complete Ten Percent",
           "proto": "ZYGARDE_COMPLETE_TEN_PERCENT",
-          "form": 2823
+          "form": 2823,
+          "stats": {
+            "attack": 205,
+            "defense": 173,
+            "stamina": 144
+          },
+          "height": 1.2,
+          "weight": 33.5
         },
         "2824": {
           "name": "Complete Fifty Percent",
@@ -81679,11 +81713,17 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
+        "thirdMoveCandy": 100
+      },
+      "evolutions": {
+        "718": {
+          "pokemon": 718,
+          "form": 2592,
+          "itemRequirement": "Beans"
+        }
       },
       "unreleased": true
     },
@@ -129789,6 +129829,16 @@
           "defense": 216,
           "stamina": 233,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 377,
+          "defense": 210,
+          "stamina": 227,
+          "height": 10.8,
+          "weight": 392,
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -129808,6 +129858,16 @@
           "defense": 216,
           "stamina": 233,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 377,
+          "defense": 210,
+          "stamina": 227,
+          "height": 10.8,
+          "weight": 392,
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -134085,17 +134145,47 @@
     "2591": {
       "formName": "Ten Percent",
       "proto": "ZYGARDE_TEN_PERCENT",
-      "formId": 2591
+      "formId": 2591,
+      "attack": 205,
+      "defense": 173,
+      "stamina": 144,
+      "height": 1.2,
+      "weight": 33.5,
+      "evolutions": [
+        {
+          "evoId": 718,
+          "formId": 2592,
+          "itemRequirement": 650
+        }
+      ],
+      "purificationDust": 100,
+      "purificationCandy": 100
     },
     "2592": {
       "formName": "Fifty Percent",
       "proto": "ZYGARDE_FIFTY_PERCENT",
-      "formId": 2592
+      "formId": 2592,
+      "evolutions": [
+        {
+          "evoId": 718,
+          "formId": 2593,
+          "itemRequirement": 650
+        }
+      ],
+      "purificationDust": 100,
+      "purificationCandy": 100
     },
     "2593": {
       "formName": "Complete",
       "proto": "ZYGARDE_COMPLETE",
-      "formId": 2593
+      "formId": 2593,
+      "attack": 184,
+      "defense": 207,
+      "stamina": 389,
+      "height": 4.5,
+      "weight": 610,
+      "purificationDust": 100,
+      "purificationCandy": 100
     },
     "2594": {
       "formName": "Archipelago",
@@ -136238,12 +136328,21 @@
     "2823": {
       "formName": "Complete Ten Percent",
       "proto": "ZYGARDE_COMPLETE_TEN_PERCENT",
-      "formId": 2823
+      "formId": 2823,
+      "attack": 205,
+      "defense": 173,
+      "stamina": 144,
+      "height": 1.2,
+      "weight": 33.5,
+      "purificationDust": 100,
+      "purificationCandy": 100
     },
     "2824": {
       "formName": "Complete Fifty Percent",
       "proto": "ZYGARDE_COMPLETE_FIFTY_PERCENT",
-      "formId": 2824
+      "formId": 2824,
+      "purificationDust": 100,
+      "purificationCandy": 100
     },
     "2981": {
       "formName": "Normal",
@@ -138300,6 +138399,14 @@
       "type": "Battle",
       "category": "Boost",
       "minTrainerLevel": 100
+    },
+    "650": {
+      "id": 650,
+      "name": "Beans",
+      "proto": "ITEM_BEANS",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
     },
     "701": {
       "id": 701,

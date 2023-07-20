@@ -8523,10 +8523,9 @@
       "stamina": 213,
       "temp_evolutions": {
         "1": {
-          "attack": 389,
-          "defense": 216,
-          "stamina": 233,
-          "unreleased": true
+          "attack": 377,
+          "defense": 210,
+          "stamina": 227
         }
       }
     },
@@ -14914,15 +14913,46 @@
         16
       ],
       "forms": {
-        "2591": {},
-        "2592": {},
-        "2593": {},
-        "2823": {},
+        "2591": {
+          "attack": 205,
+          "defense": 173,
+          "stamina": 144,
+          "evolutions": [
+            {
+              "pokemon": 718,
+              "form": 2592
+            }
+          ]
+        },
+        "2592": {
+          "evolutions": [
+            {
+              "pokemon": 718,
+              "form": 2593
+            }
+          ]
+        },
+        "2593": {
+          "attack": 184,
+          "defense": 207,
+          "stamina": 389
+        },
+        "2823": {
+          "attack": 205,
+          "defense": 173,
+          "stamina": 144
+        },
         "2824": {}
       },
       "attack": 203,
       "defense": 232,
-      "stamina": 239
+      "stamina": 239,
+      "evolutions": [
+        {
+          "pokemon": 718,
+          "form": 2592
+        }
+      ]
     },
     "719": {
       "types": [

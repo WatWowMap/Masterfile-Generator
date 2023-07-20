@@ -24628,6 +24628,16 @@
             "baseStamina": 233
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 377,
+            "baseDefense": 210,
+            "baseStamina": 227
+          },
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -24664,6 +24674,16 @@
             "baseStamina": 233
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 377,
+            "baseDefense": 210,
+            "baseStamina": 227
+          },
+          "firstEnergyCost": 400,
+          "subsequentEnergyCost": 80
         }
       ]
     },
@@ -44458,6 +44478,13 @@
       },
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 718,
+          "id": 2592,
+          "itemRequirement": "Beans"
+        }
+      ],
       "unreleased": true
     },
     "718_2591": {
@@ -44478,12 +44505,19 @@
         "id": 2591
       },
       "stats": {
-        "baseAttack": 203,
-        "baseDefense": 232,
-        "baseStamina": 239
+        "baseAttack": 205,
+        "baseDefense": 173,
+        "baseStamina": 144
       },
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 718,
+          "id": 2592,
+          "itemRequirement": "Beans"
+        }
+      ],
       "unreleased": true
     },
     "718_2592": {
@@ -44510,6 +44544,13 @@
       },
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 718,
+          "id": 2593,
+          "itemRequirement": "Beans"
+        }
+      ],
       "unreleased": true
     },
     "718_2593": {
@@ -44530,9 +44571,9 @@
         "id": 2593
       },
       "stats": {
-        "baseAttack": 203,
-        "baseDefense": 232,
-        "baseStamina": 239
+        "baseAttack": 184,
+        "baseDefense": 207,
+        "baseStamina": 389
       },
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
@@ -44556,9 +44597,9 @@
         "id": 2823
       },
       "stats": {
-        "baseAttack": 203,
-        "baseDefense": 232,
-        "baseStamina": 239
+        "baseAttack": 205,
+        "baseDefense": 173,
+        "baseStamina": 144
       },
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
@@ -55733,6 +55774,9 @@
     },
     "604": {
       "name": "UNDEFINED"
+    },
+    "650": {
+      "name": "Beans"
     },
     "701": {
       "name": "Razz Berry"
