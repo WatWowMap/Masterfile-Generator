@@ -3325,7 +3325,8 @@
         "3014": {
           "name": "Wcs 2023",
           "proto": "PIKACHU_WCS_2023",
-          "form": 3014
+          "form": 3014,
+          "isCostume": true
         }
       },
       "stats": {
@@ -81803,6 +81804,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
+        "buddyMegaEnergy": 100,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
       },
@@ -81814,7 +81816,10 @@
             "defense": 235,
             "stamina": 137
           },
-          "unreleased": true
+          "height": 1.1,
+          "weight": 27.8,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -136552,7 +136557,8 @@
     "3014": {
       "formName": "Wcs 2023",
       "proto": "PIKACHU_WCS_2023",
-      "formId": 3014
+      "formId": 3014,
+      "isCostume": true
     }
   },
   "types": {
