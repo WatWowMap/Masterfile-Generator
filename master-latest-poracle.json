@@ -51559,13 +51559,20 @@
         "baseDefense": 99,
         "baseStamina": 120
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 907,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 907,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "907_0": {
       "name": "Floragato",
@@ -51585,13 +51592,20 @@
         "baseDefense": 128,
         "baseStamina": 156
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 908,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 908,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "908_0": {
       "name": "Meowscarada",
@@ -51615,6 +51629,8 @@
         "baseDefense": 153,
         "baseStamina": 183
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "909_0": {
@@ -51635,13 +51651,20 @@
         "baseDefense": 96,
         "baseStamina": 167
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 910,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 910,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "910_0": {
       "name": "Crocalor",
@@ -51661,13 +51684,20 @@
         "baseDefense": 134,
         "baseStamina": 191
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 911,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 911,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "911_0": {
       "name": "Skeledirge",
@@ -51691,6 +51721,8 @@
         "baseDefense": 178,
         "baseStamina": 232
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "912_0": {
@@ -51711,13 +51743,20 @@
         "baseDefense": 86,
         "baseStamina": 146
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 913,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 913,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "913_0": {
       "name": "Quaxwell",
@@ -51737,13 +51776,20 @@
         "baseDefense": 123,
         "baseStamina": 172
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 914,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 914,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "914_0": {
       "name": "Quaquaval",
@@ -51767,6 +51813,8 @@
         "baseDefense": 159,
         "baseStamina": 198
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "915_0": {
@@ -51787,13 +51835,27 @@
         "baseDefense": 79,
         "baseStamina": 144
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 916,
+          "id": 2981,
+          "genderRequirement": 1,
+          "candyCost": 50
+        },
+        {
+          "evoId": 916,
+          "id": 2982,
+          "genderRequirement": 2,
+          "candyCost": 50
+        },
         {
           "evoId": 916,
           "id": 2981
         }
-      ]
+      ],
+      "unreleased": true
     },
     "916_0": {
       "name": "Oinkologne",
@@ -51813,6 +51875,8 @@
         "baseDefense": 153,
         "baseStamina": 242
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "916_2981": {
@@ -51833,6 +51897,8 @@
         "baseDefense": 153,
         "baseStamina": 242
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "916_2982": {
@@ -51849,10 +51915,12 @@
         "id": 2982
       },
       "stats": {
-        "baseAttack": 186,
-        "baseDefense": 153,
-        "baseStamina": 242
+        "baseAttack": 169,
+        "baseDefense": 162,
+        "baseStamina": 251
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "917_0": {
@@ -51873,13 +51941,20 @@
         "baseDefense": 77,
         "baseStamina": 111
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 918,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 918,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "918_0": {
       "name": "Spidops",
@@ -51899,6 +51974,8 @@
         "baseDefense": 166,
         "baseStamina": 155
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "919_0": {
@@ -51919,13 +51996,20 @@
         "baseDefense": 65,
         "baseStamina": 107
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 920,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 920,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "920_0": {
       "name": "Lokix",
@@ -51949,6 +52033,8 @@
         "baseDefense": 144,
         "baseStamina": 174
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "921_0": {
@@ -51969,13 +52055,20 @@
         "baseDefense": 45,
         "baseStamina": 128
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 922,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 922,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "922_0": {
       "name": "Pawmo",
@@ -51999,13 +52092,20 @@
         "baseDefense": 82,
         "baseStamina": 155
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 923,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 923,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "923_0": {
       "name": "Pawmot",
@@ -52029,6 +52129,8 @@
         "baseDefense": 141,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "924_0": {
@@ -52049,13 +52151,25 @@
         "baseDefense": 90,
         "baseStamina": 137
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 925,
+          "id": 2983,
+          "candyCost": 25
+        },
+        {
+          "evoId": 925,
+          "id": 2984,
+          "candyCost": 50
+        },
         {
           "evoId": 925,
           "id": 2983
         }
-      ]
+      ],
+      "unreleased": true
     },
     "925_0": {
       "name": "Maushold",
@@ -52075,6 +52189,8 @@
         "baseDefense": 157,
         "baseStamina": 179
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "925_2983": {
@@ -52095,6 +52211,8 @@
         "baseDefense": 157,
         "baseStamina": 179
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "925_2984": {
@@ -52115,6 +52233,8 @@
         "baseDefense": 157,
         "baseStamina": 179
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "926_0": {
@@ -52135,13 +52255,20 @@
         "baseDefense": 126,
         "baseStamina": 114
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 927,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 927,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "927_0": {
       "name": "Dachsbun",
@@ -52161,6 +52288,8 @@
         "baseDefense": 212,
         "baseStamina": 149
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "928_0": {
@@ -52185,13 +52314,20 @@
         "baseDefense": 89,
         "baseStamina": 121
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 929,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 929,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "929_0": {
       "name": "Dolliv",
@@ -52215,13 +52351,20 @@
         "baseDefense": 131,
         "baseStamina": 141
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 930,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 930,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "930_0": {
       "name": "Arboliva",
@@ -52245,6 +52388,8 @@
         "baseDefense": 189,
         "baseStamina": 186
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "931_0": {
@@ -52269,6 +52414,8 @@
         "baseDefense": 105,
         "baseStamina": 193
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "931_2985": {
@@ -52293,6 +52440,8 @@
         "baseDefense": 105,
         "baseStamina": 193
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "931_2986": {
@@ -52317,6 +52466,8 @@
         "baseDefense": 105,
         "baseStamina": 193
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "931_2987": {
@@ -52341,6 +52492,8 @@
         "baseDefense": 105,
         "baseStamina": 193
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "931_2988": {
@@ -52365,6 +52518,8 @@
         "baseDefense": 105,
         "baseStamina": 193
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "932_0": {
@@ -52385,13 +52540,20 @@
         "baseDefense": 108,
         "baseStamina": 146
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 933,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 933,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "933_0": {
       "name": "Naclstack",
@@ -52411,13 +52573,20 @@
         "baseDefense": 160,
         "baseStamina": 155
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 934,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 934,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "934_0": {
       "name": "Garganacl",
@@ -52437,6 +52606,8 @@
         "baseDefense": 212,
         "baseStamina": 225
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "935_0": {
@@ -52457,8 +52628,19 @@
         "baseDefense": 74,
         "baseStamina": 120
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 936,
+          "id": 0,
+          "candyCost": 50
+        },
+        {
+          "evoId": 937,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 936,
           "id": 0
@@ -52467,7 +52649,8 @@
           "evoId": 937,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "936_0": {
       "name": "Armarouge",
@@ -52491,6 +52674,8 @@
         "baseDefense": 185,
         "baseStamina": 198
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "937_0": {
@@ -52515,6 +52700,8 @@
         "baseDefense": 189,
         "baseStamina": 181
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "938_0": {
@@ -52535,13 +52722,20 @@
         "baseDefense": 73,
         "baseStamina": 156
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 939,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 939,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "939_0": {
       "name": "Bellibolt",
@@ -52561,6 +52755,8 @@
         "baseDefense": 165,
         "baseStamina": 240
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "940_0": {
@@ -52585,13 +52781,20 @@
         "baseDefense": 75,
         "baseStamina": 120
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 941,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 941,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "941_0": {
       "name": "Kilowattrel",
@@ -52615,6 +52818,8 @@
         "baseDefense": 132,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "942_0": {
@@ -52635,13 +52840,20 @@
         "baseDefense": 108,
         "baseStamina": 155
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 943,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 943,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "943_0": {
       "name": "Mabosstiff",
@@ -52661,6 +52873,8 @@
         "baseDefense": 168,
         "baseStamina": 190
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "944_0": {
@@ -52685,13 +52899,20 @@
         "baseDefense": 70,
         "baseStamina": 120
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 945,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 945,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "945_0": {
       "name": "Grafaiai",
@@ -52715,6 +52936,8 @@
         "baseDefense": 149,
         "baseStamina": 160
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "946_0": {
@@ -52739,13 +52962,20 @@
         "baseDefense": 64,
         "baseStamina": 120
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 947,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 947,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "947_0": {
       "name": "Brambleghast",
@@ -52769,6 +52999,8 @@
         "baseDefense": 144,
         "baseStamina": 146
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "948_0": {
@@ -52793,13 +53025,20 @@
         "baseDefense": 149,
         "baseStamina": 120
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 949,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 949,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "949_0": {
       "name": "Toedscruel",
@@ -52823,6 +53062,8 @@
         "baseDefense": 209,
         "baseStamina": 190
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "950_0": {
@@ -52843,6 +53084,8 @@
         "baseDefense": 185,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "951_0": {
@@ -52863,13 +53106,20 @@
         "baseDefense": 76,
         "baseStamina": 137
       },
-      "unreleased": true,
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "evolutions": [
+        {
+          "evoId": 952,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 952,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "952_0": {
       "name": "Scovillain",
@@ -52893,6 +53143,8 @@
         "baseDefense": 130,
         "baseStamina": 163
       },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25,
       "unreleased": true
     },
     "953_0": {
@@ -52913,13 +53165,20 @@
         "baseDefense": 108,
         "baseStamina": 121
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 954,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 954,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "954_0": {
       "name": "Rabsca",
@@ -52943,6 +53202,8 @@
         "baseDefense": 178,
         "baseStamina": 181
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "955_0": {
@@ -52963,13 +53224,20 @@
         "baseDefense": 60,
         "baseStamina": 102
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 956,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 956,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "956_0": {
       "name": "Espathra",
@@ -52989,6 +53257,8 @@
         "baseDefense": 127,
         "baseStamina": 216
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "957_0": {
@@ -53013,13 +53283,20 @@
         "baseDefense": 110,
         "baseStamina": 137
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 958,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 958,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "958_0": {
       "name": "Tinkatuff",
@@ -53043,13 +53320,20 @@
         "baseDefense": 145,
         "baseStamina": 163
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 959,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 959,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "959_0": {
       "name": "Tinkaton",
@@ -53073,6 +53357,8 @@
         "baseDefense": 196,
         "baseStamina": 198
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "960_0": {
@@ -53093,13 +53379,20 @@
         "baseDefense": 52,
         "baseStamina": 67
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 961,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 961,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "961_0": {
       "name": "Wugtrio",
@@ -53119,6 +53412,8 @@
         "baseDefense": 136,
         "baseStamina": 111
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "962_0": {
@@ -53143,6 +53438,8 @@
         "baseDefense": 172,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "963_0": {
@@ -53163,13 +53460,20 @@
         "baseDefense": 80,
         "baseStamina": 172
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 964,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 964,
           "id": 2989
         }
-      ]
+      ],
+      "unreleased": true
     },
     "964_0": {
       "name": "Palafin",
@@ -53189,6 +53493,8 @@
         "baseDefense": 144,
         "baseStamina": 225
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "964_2989": {
@@ -53209,6 +53515,8 @@
         "baseDefense": 144,
         "baseStamina": 225
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "964_2990": {
@@ -53225,10 +53533,12 @@
         "id": 2990
       },
       "stats": {
-        "baseAttack": 143,
-        "baseDefense": 144,
+        "baseAttack": 322,
+        "baseDefense": 196,
         "baseStamina": 225
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "965_0": {
@@ -53253,13 +53563,20 @@
         "baseDefense": 107,
         "baseStamina": 128
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 966,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 966,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "966_0": {
       "name": "Revavroom",
@@ -53283,6 +53600,8 @@
         "baseDefense": 168,
         "baseStamina": 190
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "967_0": {
@@ -53307,6 +53626,8 @@
         "baseDefense": 142,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "968_0": {
@@ -53327,6 +53648,8 @@
         "baseDefense": 219,
         "baseStamina": 172
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "969_0": {
@@ -53351,13 +53674,20 @@
         "baseDefense": 104,
         "baseStamina": 134
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 970,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 970,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "970_0": {
       "name": "Glimmora",
@@ -53381,6 +53711,8 @@
         "baseDefense": 177,
         "baseStamina": 195
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "971_0": {
@@ -53401,13 +53733,20 @@
         "baseDefense": 106,
         "baseStamina": 137
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 972,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 972,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "972_0": {
       "name": "Houndstone",
@@ -53427,6 +53766,8 @@
         "baseDefense": 195,
         "baseStamina": 176
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "973_0": {
@@ -53451,6 +53792,8 @@
         "baseDefense": 145,
         "baseStamina": 193
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "974_0": {
@@ -53471,13 +53814,20 @@
         "baseDefense": 80,
         "baseStamina": 239
       },
-      "unreleased": true,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 975,
+          "id": 0,
+          "candyCost": 50
+        },
         {
           "evoId": 975,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "975_0": {
       "name": "Cetitan",
@@ -53497,6 +53847,8 @@
         "baseDefense": 123,
         "baseStamina": 347
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "976_0": {
@@ -53521,6 +53873,8 @@
         "baseDefense": 139,
         "baseStamina": 207
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "977_0": {
@@ -53541,6 +53895,8 @@
         "baseDefense": 178,
         "baseStamina": 312
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "978_0": {
@@ -53565,6 +53921,8 @@
         "baseDefense": 166,
         "baseStamina": 169
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "978_2991": {
@@ -53589,6 +53947,8 @@
         "baseDefense": 166,
         "baseStamina": 169
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "978_2992": {
@@ -53613,6 +53973,8 @@
         "baseDefense": 166,
         "baseStamina": 169
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "978_2993": {
@@ -53637,6 +53999,8 @@
         "baseDefense": 166,
         "baseStamina": 169
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "979_0": {
@@ -53661,6 +54025,8 @@
         "baseDefense": 178,
         "baseStamina": 242
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "980_0": {
@@ -53685,6 +54051,8 @@
         "baseDefense": 151,
         "baseStamina": 277
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "981_0": {
@@ -53709,6 +54077,8 @@
         "baseDefense": 136,
         "baseStamina": 260
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "982_0": {
@@ -53729,6 +54099,8 @@
         "baseDefense": 150,
         "baseStamina": 268
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "982_2994": {
@@ -53749,6 +54121,8 @@
         "baseDefense": 150,
         "baseStamina": 268
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "982_2995": {
@@ -53769,6 +54143,8 @@
         "baseDefense": 150,
         "baseStamina": 268
       },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
       "unreleased": true
     },
     "983_0": {
@@ -53793,6 +54169,8 @@
         "baseDefense": 203,
         "baseStamina": 225
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "984_0": {
@@ -53817,6 +54195,8 @@
         "baseDefense": 190,
         "baseStamina": 229
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "985_0": {
@@ -53841,6 +54221,8 @@
         "baseDefense": 234,
         "baseStamina": 251
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "986_0": {
@@ -53865,6 +54247,8 @@
         "baseDefense": 190,
         "baseStamina": 244
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "987_0": {
@@ -53889,6 +54273,8 @@
         "baseDefense": 235,
         "baseStamina": 146
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "988_0": {
@@ -53913,6 +54299,8 @@
         "baseDefense": 193,
         "baseStamina": 198
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "989_0": {
@@ -53937,6 +54325,8 @@
         "baseDefense": 195,
         "baseStamina": 198
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "990_0": {
@@ -53961,6 +54351,8 @@
         "baseDefense": 216,
         "baseStamina": 207
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "991_0": {
@@ -53985,6 +54377,8 @@
         "baseDefense": 211,
         "baseStamina": 148
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "992_0": {
@@ -54009,6 +54403,8 @@
         "baseDefense": 161,
         "baseStamina": 291
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "993_0": {
@@ -54033,6 +54429,8 @@
         "baseDefense": 179,
         "baseStamina": 214
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "994_0": {
@@ -54057,6 +54455,8 @@
         "baseDefense": 196,
         "baseStamina": 190
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "995_0": {
@@ -54081,6 +54481,8 @@
         "baseDefense": 200,
         "baseStamina": 225
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "996_0": {
@@ -54105,13 +54507,20 @@
         "baseDefense": 86,
         "baseStamina": 163
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 997,
+          "id": 0,
+          "candyCost": 25
+        },
         {
           "evoId": 997,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "997_0": {
       "name": "Arctibax",
@@ -54135,13 +54544,20 @@
         "baseDefense": 128,
         "baseStamina": 207
       },
-      "unreleased": true,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 998,
+          "id": 0,
+          "candyCost": 100
+        },
         {
           "evoId": 998,
           "id": 0
         }
-      ]
+      ],
+      "unreleased": true
     },
     "998_0": {
       "name": "Baxcalibur",
@@ -54165,6 +54581,8 @@
         "baseDefense": 168,
         "baseStamina": 229
       },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
       "unreleased": true
     },
     "999_0": {
@@ -54288,6 +54706,8 @@
         "baseDefense": 242,
         "baseStamina": 198
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1002_0": {
@@ -54312,6 +54732,8 @@
         "baseDefense": 167,
         "baseStamina": 190
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1003_0": {
@@ -54336,6 +54758,8 @@
         "baseDefense": 203,
         "baseStamina": 321
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1004_0": {
@@ -54360,6 +54784,8 @@
         "baseDefense": 221,
         "baseStamina": 146
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1005_0": {
@@ -54384,6 +54810,8 @@
         "baseDefense": 178,
         "baseStamina": 213
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1006_0": {
@@ -54408,6 +54836,8 @@
         "baseDefense": 171,
         "baseStamina": 179
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1007_0": {
@@ -54432,6 +54862,8 @@
         "baseDefense": 223,
         "baseStamina": 205
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1007_2996": {
@@ -54456,6 +54888,8 @@
         "baseDefense": 223,
         "baseStamina": 205
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1008_0": {
@@ -54480,6 +54914,8 @@
         "baseDefense": 223,
         "baseStamina": 205
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     },
     "1008_2997": {
@@ -54504,6 +54940,8 @@
         "baseDefense": 223,
         "baseStamina": 205
       },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
       "unreleased": true
     }
   },

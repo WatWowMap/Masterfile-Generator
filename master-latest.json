@@ -36462,7 +36462,8 @@
       ],
       "quick_moves": [
         "Bubble",
-        "Feint Attack"
+        "Feint Attack",
+        "Water Shuriken"
       ],
       "charged_moves": [
         "Aerial Ace",
@@ -47832,31 +47833,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Bite",
-        "Sucker Punch",
-        "Shadow Claw",
-        "Quick Attack",
-        "Scratch",
-        "Mud Slap",
-        "Bullet Seed",
-        "Take Down",
-        "Charm",
-        "Magical Leaf",
-        "Leafage"
+        "Splash"
       ],
       "charged_moves": [
-        "Petal Blizzard",
-        "Seed Bomb",
-        "Disarming Voice",
-        "Play Rough",
-        "Giga Drain",
-        "Solar Beam",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Leaf Storm",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -47868,13 +47848,24 @@
       "attack": 116,
       "defense": 99,
       "stamina": 120,
+      "height": 0.4,
+      "weight": 4.1,
+      "family": 906,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 1,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 907
+        },
         {
           "pokemon": 907
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "907": {
@@ -47885,33 +47876,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Bite",
-        "Low Kick",
-        "Shadow Claw",
-        "Quick Attack",
-        "Scratch",
-        "Mud Slap",
-        "Bullet Seed",
-        "Take Down",
-        "Charm",
-        "Magical Leaf",
-        "Leafage"
+        "Splash"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Low Sweep",
-        "Seed Bomb",
-        "Thunder Punch",
-        "Disarming Voice",
-        "Play Rough",
-        "Giga Drain",
-        "Solar Beam",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Leaf Storm",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -47923,14 +47891,24 @@
       "attack": 157,
       "defense": 128,
       "stamina": 156,
+      "height": 0.9,
+      "weight": 12.2,
+      "family": 906,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 908
+        },
+        {
+          "pokemon": 908
         }
-      ],
-      "little": true
+      ]
     },
     "908": {
       "name": "Meowscarada",
@@ -47941,43 +47919,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Bite",
-        "Low Kick",
-        "Shadow Claw",
-        "Quick Attack",
-        "Scratch",
-        "Mud Slap",
-        "Bullet Seed",
-        "Take Down",
-        "Charm",
-        "Magical Leaf",
-        "Leafage"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Aerial Ace",
-        "Night Slash",
-        "Low Sweep",
-        "Seed Bomb",
-        "Power Gem",
-        "Shadow Ball",
-        "Thunder Punch",
-        "Disarming Voice",
-        "Play Rough",
-        "Giga Drain",
-        "Solar Beam",
-        "Brick Break",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Foul Play",
-        "Frenzy Plant",
-        "Giga Impact",
-        "Aura Sphere",
-        "Leaf Storm",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -47989,8 +47934,16 @@
       "attack": 233,
       "defense": 153,
       "stamina": 183,
+      "height": 1.5,
+      "weight": 31.2,
+      "family": 906,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "909": {
       "name": "Fuecoco",
@@ -48000,31 +47953,10 @@
         "Fire"
       ],
       "quick_moves": [
-        "Bite",
-        "Ember",
-        "Tackle",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Dig",
-        "Heat Wave",
-        "Seed Bomb",
-        "Disarming Voice",
-        "Flame Charge",
-        "Fire Blast",
-        "Body Slam",
-        "Rest",
-        "Overheat",
-        "Outrage",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48036,9 +47968,20 @@
       "attack": 112,
       "defense": 96,
       "stamina": 167,
+      "height": 0.4,
+      "weight": 9.8,
+      "family": 909,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 910
+        },
         {
           "pokemon": 910
         }
@@ -48053,32 +47996,10 @@
         "Fire"
       ],
       "quick_moves": [
-        "Bite",
-        "Ember",
-        "Lick",
-        "Tackle",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Dig",
-        "Heat Wave",
-        "Seed Bomb",
-        "Disarming Voice",
-        "Flame Charge",
-        "Fire Blast",
-        "Body Slam",
-        "Rest",
-        "Overheat",
-        "Outrage",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48090,14 +48011,24 @@
       "attack": 162,
       "defense": 134,
       "stamina": 191,
+      "height": 1,
+      "weight": 30.7,
+      "family": 909,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 911
+        },
+        {
+          "pokemon": 911
         }
-      ],
-      "legendary": false,
-      "mythic": false,
-      "little": true
+      ]
     },
     "911": {
       "name": "Skeledirge",
@@ -48108,42 +48039,10 @@
         "Fire"
       ],
       "quick_moves": [
-        "Bite",
-        "Ember",
-        "Lick",
-        "Shadow Claw",
-        "Tackle",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Hex",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Dig",
-        "Earthquake",
-        "Heat Wave",
-        "Seed Bomb",
-        "Shadow Ball",
-        "Disarming Voice",
-        "Flame Charge",
-        "Fire Blast",
-        "Solar Beam",
-        "Body Slam",
-        "Rest",
-        "Night Shade",
-        "Overheat",
-        "Outrage",
-        "Crunch",
-        "Blast Burn",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48155,8 +48054,16 @@
       "attack": 207,
       "defense": 178,
       "stamina": 232,
+      "height": 1.6,
+      "weight": 326.5,
+      "family": 909,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "912": {
       "name": "Quaxly",
@@ -48166,26 +48073,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Wing Attack",
-        "Pound",
-        "Water Gun",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Aqua Jet",
-        "Disarming Voice",
-        "Hydro Pump",
-        "Air Cutter",
-        "Swift",
-        "Rest",
-        "Brave Bird",
-        "Surf",
-        "Last Resort",
-        "Acrobatics",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48197,13 +48088,24 @@
       "attack": 120,
       "defense": 86,
       "stamina": 146,
+      "height": 0.5,
+      "weight": 6.1,
+      "family": 912,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 1,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 913
+        },
         {
           "pokemon": 913
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "913": {
@@ -48214,28 +48116,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Wing Attack",
-        "Pound",
-        "Water Gun",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Low Sweep",
-        "Aqua Jet",
-        "Disarming Voice",
-        "Water Pulse",
-        "Hydro Pump",
-        "Air Cutter",
-        "Swift",
-        "Rest",
-        "Brave Bird",
-        "Surf",
-        "Feather Dance",
-        "Acrobatics",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48247,14 +48131,24 @@
       "attack": 162,
       "defense": 123,
       "stamina": 172,
+      "height": 1.2,
+      "weight": 21.5,
+      "family": 912,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 914
+        },
+        {
+          "pokemon": 914
         }
-      ],
-      "legendary": false,
-      "mythic": false,
-      "little": true
+      ]
     },
     "914": {
       "name": "Quaquaval",
@@ -48265,36 +48159,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Wing Attack",
-        "Pound",
-        "Water Gun",
-        "Counter",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Aerial Ace",
-        "Low Sweep",
-        "Aqua Jet",
-        "Disarming Voice",
-        "Water Pulse",
-        "Hydro Pump",
-        "Icy Wind",
-        "Air Cutter",
-        "Hurricane",
-        "Brick Break",
-        "Swift",
-        "Rest",
-        "Close Combat",
-        "Brave Bird",
-        "Surf",
-        "Hydro Cannon",
-        "Giga Impact",
-        "Feather Dance",
-        "Acrobatics",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48306,8 +48174,16 @@
       "attack": 236,
       "defense": 159,
       "stamina": 198,
+      "height": 1.8,
+      "weight": 61.9,
+      "family": 912,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "915": {
       "name": "Lechonk",
@@ -48317,22 +48193,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Bullet Seed",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Seed Bomb",
-        "Iron Head",
-        "Disarming Voice",
-        "Play Rough",
-        "Bulldoze",
-        "Body Slam",
-        "Rest"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48344,14 +48208,32 @@
       "attack": 81,
       "defense": 79,
       "stamina": 144,
+      "height": 0.5,
+      "weight": 10.2,
+      "family": 915,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "buddy_distance": 1,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 916,
+          "form": 2981,
+          "gender_requirement": 1
+        },
+        {
+          "pokemon": 916,
+          "form": 2982,
+          "gender_requirement": 2
+        },
         {
           "pokemon": 916,
           "form": 2981
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "916": {
@@ -48362,26 +48244,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Bullet Seed",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Seed Bomb",
-        "Iron Head",
-        "Disarming Voice",
-        "Play Rough",
-        "Bulldoze",
-        "Body Slam",
-        "Rest",
-        "Energy Ball",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48392,14 +48258,25 @@
         },
         "2982": {
           "name": "Female",
-          "proto": "OINKOLOGNE_FEMALE"
+          "proto": "OINKOLOGNE_FEMALE",
+          "attack": 169,
+          "defense": 162,
+          "stamina": 251
         }
       },
       "attack": 186,
       "defense": 153,
       "stamina": 242,
+      "height": 1,
+      "weight": 120,
+      "family": 915,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 2,
+      "buddy_distance": 1,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "917": {
       "name": "Tarountula",
@@ -48409,24 +48286,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Sucker Punch",
-        "Shadow Claw",
-        "Tackle",
-        "Poison Jab",
-        "Counter",
-        "Struggle Bug",
-        "Bullet Seed",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Bug Buzz",
-        "X Scissor",
-        "Giga Drain",
-        "Body Slam",
-        "Rest",
-        "Grass Knot",
-        "Lunge"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48438,13 +48301,23 @@
       "attack": 70,
       "defense": 77,
       "stamina": 111,
+      "height": 0.3,
+      "weight": 4,
+      "family": 917,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 918
+        },
         {
           "pokemon": 918
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "918": {
@@ -48455,27 +48328,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Low Kick",
-        "Shadow Claw",
-        "Tackle",
-        "Poison Jab",
-        "Counter",
-        "Struggle Bug",
-        "Bullet Seed",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Aerial Ace",
-        "Bug Buzz",
-        "Rock Tomb",
-        "X Scissor",
-        "Giga Drain",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Grass Knot",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48487,8 +48343,15 @@
       "attack": 139,
       "defense": 166,
       "stamina": 155,
+      "height": 1,
+      "weight": 16.5,
+      "family": 917,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "919": {
       "name": "Nymble",
@@ -48498,19 +48361,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Sucker Punch",
-        "Tackle",
-        "Counter",
-        "Struggle Bug",
-        "Astonish",
-        "Take Down",
-        "Double Kick"
+        "Splash"
       ],
       "charged_moves": [
-        "Bug Buzz",
-        "X Scissor",
-        "Rest"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48522,9 +48376,20 @@
       "attack": 81,
       "defense": 65,
       "stamina": 107,
+      "height": 0.2,
+      "weight": 1,
+      "family": 919,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
+      "buddy_distance": 1,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 920
+        },
         {
           "pokemon": 920
         }
@@ -48540,25 +48405,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Sucker Punch",
-        "Low Kick",
-        "Tackle",
-        "Struggle Bug",
-        "Astonish",
-        "Take Down",
-        "Double Kick"
+        "Splash"
       ],
       "charged_moves": [
-        "Dark Pulse",
-        "Aerial Ace",
-        "Bug Buzz",
-        "Low Sweep",
-        "X Scissor",
-        "Brick Break",
-        "Rest",
-        "Lunge",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48570,8 +48420,16 @@
       "attack": 199,
       "defense": 144,
       "stamina": 174,
+      "height": 1,
+      "weight": 17.5,
+      "family": 919,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 2,
+      "buddy_distance": 1,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "921": {
       "name": "Pawmi",
@@ -48581,28 +48439,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Bite",
-        "Thunder Shock",
-        "Spark",
-        "Quick Attack",
-        "Scratch",
-        "Metal Claw",
-        "Charge Beam",
-        "Volt Switch",
-        "Take Down",
-        "Charm",
-        "Thunder Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Discharge",
-        "Thunder",
-        "Thunderbolt",
-        "Play Rough",
-        "Swift",
-        "Rest",
-        "Wild Charge",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48614,9 +48454,20 @@
       "attack": 95,
       "defense": 45,
       "stamina": 128,
+      "height": 0.3,
+      "weight": 2.5,
+      "family": 921,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 922
+        },
         {
           "pokemon": 922
         }
@@ -48632,31 +48483,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Bite",
-        "Thunder Shock",
-        "Spark",
-        "Low Kick",
-        "Quick Attack",
-        "Scratch",
-        "Metal Claw",
-        "Charge Beam",
-        "Volt Switch",
-        "Take Down",
-        "Charm",
-        "Thunder Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Discharge",
-        "Low Sweep",
-        "Thunder Punch",
-        "Thunder",
-        "Thunderbolt",
-        "Play Rough",
-        "Swift",
-        "Rest",
-        "Wild Charge",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48668,14 +48498,24 @@
       "attack": 147,
       "defense": 82,
       "stamina": 155,
+      "height": 0.4,
+      "weight": 6.5,
+      "family": 921,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 923
+        },
+        {
+          "pokemon": 923
         }
-      ],
-      "little": true
+      ]
     },
     "923": {
       "name": "Pawmot",
@@ -48686,41 +48526,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Bite",
-        "Thunder Shock",
-        "Spark",
-        "Low Kick",
-        "Quick Attack",
-        "Scratch",
-        "Metal Claw",
-        "Charge Beam",
-        "Volt Switch",
-        "Take Down",
-        "Charm",
-        "Thunder Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Ice Punch",
-        "Discharge",
-        "Low Sweep",
-        "Seed Bomb",
-        "Rock Tomb",
-        "Thunder Punch",
-        "Thunder",
-        "Thunderbolt",
-        "Play Rough",
-        "Fire Punch",
-        "Brick Break",
-        "Swift",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Wild Charge",
-        "Grass Knot",
-        "Crunch",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48732,8 +48541,16 @@
       "attack": 232,
       "defense": 141,
       "stamina": 172,
+      "height": 0.9,
+      "weight": 41,
+      "family": 921,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "924": {
       "name": "Tandemaus",
@@ -48743,27 +48560,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Bite",
-        "Low Kick",
-        "Shadow Claw",
-        "Mud Shot",
-        "Pound",
-        "Mud Slap",
-        "Bullet Seed",
-        "Take Down",
-        "Charm"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Aerial Ace",
-        "Low Sweep",
-        "Seed Bomb",
-        "Play Rough",
-        "Water Pulse",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Crunch"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48775,14 +48575,29 @@
       "attack": 98,
       "defense": 90,
       "stamina": 137,
+      "height": 0.3,
+      "weight": 1.8,
+      "family": 924,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 925,
+          "form": 2983
+        },
+        {
+          "pokemon": 925,
+          "form": 2984
+        },
         {
           "pokemon": 925,
           "form": 2983
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "925": {
@@ -48793,28 +48608,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Shadow Claw",
-        "Mud Shot",
-        "Pound",
-        "Mud Slap",
-        "Bullet Seed",
-        "Take Down",
-        "Charm"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Aerial Ace",
-        "Low Sweep",
-        "Seed Bomb",
-        "Play Rough",
-        "Water Pulse",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Crunch",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48825,14 +48622,23 @@
         },
         "2984": {
           "name": "Family Of Four",
-          "proto": "MAUSHOLD_FAMILY_OF_FOUR"
+          "proto": "MAUSHOLD_FAMILY_OF_FOUR",
+          "height": 0.3,
+          "weight": 2.8
         }
       },
       "attack": 159,
       "defense": 157,
       "stamina": 179,
+      "height": 0.3,
+      "weight": 2.3,
+      "family": 924,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "926": {
       "name": "Fidough",
@@ -48842,27 +48648,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Bite",
-        "Lick",
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Fire Fang",
-        "Snarl",
-        "Take Down",
-        "Charm",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Dazzling Gleam",
-        "Play Rough",
-        "Body Slam",
-        "Rest",
-        "Crunch",
-        "Last Resort",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48874,9 +48663,19 @@
       "attack": 102,
       "defense": 126,
       "stamina": 114,
+      "height": 0.3,
+      "weight": 10.9,
+      "family": 926,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 927
+        },
         {
           "pokemon": 927
         }
@@ -48891,30 +48690,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Bite",
-        "Lick",
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Fire Fang",
-        "Snarl",
-        "Take Down",
-        "Charm",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Draining Kiss",
-        "Dazzling Gleam",
-        "Play Rough",
-        "Body Slam",
-        "Rest",
-        "Crunch",
-        "Last Resort",
-        "Giga Impact",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48926,8 +48705,15 @@
       "attack": 159,
       "defense": 212,
       "stamina": 149,
+      "height": 0.5,
+      "weight": 14.9,
+      "family": 926,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "928": {
       "name": "Smoliv",
@@ -48938,23 +48724,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Razor Leaf",
-        "Tackle",
-        "Bullet Seed",
-        "Charm",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Mega Drain",
-        "Seed Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Earth Power",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -48966,13 +48739,23 @@
       "attack": 100,
       "defense": 89,
       "stamina": 121,
+      "height": 0.3,
+      "weight": 6.5,
+      "family": 928,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 929
+        },
         {
           "pokemon": 929
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "929": {
@@ -48984,23 +48767,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Razor Leaf",
-        "Tackle",
-        "Bullet Seed",
-        "Charm",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Mega Drain",
-        "Seed Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Earth Power",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49012,14 +48782,23 @@
       "attack": 137,
       "defense": 131,
       "stamina": 141,
+      "height": 0.6,
+      "weight": 11.9,
+      "family": 928,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 930
+        },
+        {
+          "pokemon": 930
         }
-      ],
-      "little": true
+      ]
     },
     "930": {
       "name": "Arboliva",
@@ -49030,28 +48809,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Razor Leaf",
-        "Tackle",
-        "Bullet Seed",
-        "Charm",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Petal Blizzard",
-        "Mega Drain",
-        "Seed Bomb",
-        "Dazzling Gleam",
-        "Giga Drain",
-        "Solar Beam",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Mirror Coat",
-        "Earth Power",
-        "Giga Impact",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49063,8 +48824,15 @@
       "attack": 219,
       "defense": 189,
       "stamina": 186,
+      "height": 1.4,
+      "weight": 48.2,
+      "family": 928,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "931": {
       "name": "Squawkabilly",
@@ -49075,22 +48843,10 @@
         "Flying"
       ],
       "quick_moves": [
-        "Peck",
-        "Quick Attack",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Heat Wave",
-        "Aerial Ace",
-        "Air Cutter",
-        "Hurricane",
-        "Rest",
-        "Brave Bird",
-        "Foul Play",
-        "Giga Impact",
-        "Fly"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49115,8 +48871,15 @@
       "attack": 185,
       "defense": 105,
       "stamina": 193,
+      "height": 0.6,
+      "weight": 2.4,
+      "family": 931,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "932": {
       "name": "Nacli",
@@ -49126,27 +48889,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Rock Throw",
-        "Zen Headbutt",
-        "Take Down",
-        "Smack Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Flash Cannon",
-        "Ancient Power",
-        "Rock Slide",
-        "Power Gem",
-        "Iron Head",
-        "Bulldoze",
-        "Body Slam",
-        "Rest",
-        "Heavy Slam",
-        "Earth Power"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49158,13 +48904,23 @@
       "attack": 95,
       "defense": 108,
       "stamina": 146,
+      "height": 0.4,
+      "weight": 16,
+      "family": 932,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 933
+        },
         {
           "pokemon": 933
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "933": {
@@ -49175,28 +48931,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Rock Throw",
-        "Zen Headbutt",
-        "Take Down",
-        "Smack Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Flash Cannon",
-        "Rock Slide",
-        "Power Gem",
-        "Iron Head",
-        "Bulldoze",
-        "Body Slam",
-        "Rest",
-        "Heavy Slam",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49208,14 +48946,23 @@
       "attack": 105,
       "defense": 160,
       "stamina": 155,
+      "height": 0.6,
+      "weight": 105,
+      "family": 932,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 934
+        },
+        {
+          "pokemon": 934
         }
-      ],
-      "little": true
+      ]
     },
     "934": {
       "name": "Garganacl",
@@ -49225,34 +48972,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Rock Throw",
-        "Zen Headbutt",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Ice Punch",
-        "Flash Cannon",
-        "Rock Tomb",
-        "Rock Slide",
-        "Power Gem",
-        "Iron Head",
-        "Thunder Punch",
-        "Bulldoze",
-        "Fire Punch",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Rock Blast",
-        "Heavy Slam",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49264,8 +48987,15 @@
       "attack": 171,
       "defense": 212,
       "stamina": 225,
+      "height": 2.3,
+      "weight": 240,
+      "family": 932,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "935": {
       "name": "Charcadet",
@@ -49275,19 +49005,10 @@
         "Fire"
       ],
       "quick_moves": [
-        "Ember",
-        "Astonish",
-        "Fire Spin",
-        "Take Down",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Heat Wave",
-        "Flame Charge",
-        "Fire Blast",
-        "Night Shade",
-        "Overheat"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49299,7 +49020,22 @@
       "attack": 92,
       "defense": 74,
       "stamina": 120,
+      "height": 0.6,
+      "weight": 10.5,
+      "family": 935,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 936
+        },
+        {
+          "pokemon": 937
+        },
         {
           "pokemon": 936
         },
@@ -49307,8 +49043,6 @@
           "pokemon": 937
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "936": {
@@ -49320,33 +49054,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Ember",
-        "Astonish",
-        "Fire Spin",
-        "Take Down",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Dark Pulse",
-        "Flamethrower",
-        "Psybeam",
-        "Flash Cannon",
-        "Heat Wave",
-        "Psyshock",
-        "Shadow Ball",
-        "Dragon Pulse",
-        "Flame Charge",
-        "Fire Blast",
-        "Psychic",
-        "Solar Beam",
-        "Rest",
-        "Focus Blast",
-        "Night Shade",
-        "Overheat",
-        "Energy Ball",
-        "Acid Spray",
-        "Aura Sphere",
-        "Mystical Fire"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49358,8 +49069,15 @@
       "attack": 234,
       "defense": 185,
       "stamina": 198,
+      "height": 1.5,
+      "weight": 85,
+      "family": 935,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "937": {
       "name": "Ceruledge",
@@ -49370,32 +49088,10 @@
         "Fire"
       ],
       "quick_moves": [
-        "Ember",
-        "Shadow Claw",
-        "Poison Jab",
-        "Psycho Cut",
-        "Astonish",
-        "Hex",
-        "Fire Spin",
-        "Take Down",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Flamethrower",
-        "Heat Wave",
-        "Night Slash",
-        "Shadow Sneak",
-        "Shadow Ball",
-        "Iron Head",
-        "Dragon Claw",
-        "X Scissor",
-        "Flame Charge",
-        "Fire Blast",
-        "Brick Break",
-        "Rest",
-        "Close Combat",
-        "Night Shade",
-        "Overheat"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49407,8 +49103,15 @@
       "attack": 239,
       "defense": 189,
       "stamina": 181,
+      "height": 1.6,
+      "weight": 62,
+      "family": 935,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "938": {
       "name": "Tadbulb",
@@ -49418,28 +49121,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Thunder Shock",
-        "Spark",
-        "Mud Shot",
-        "Tackle",
-        "Water Gun",
-        "Mud Slap",
-        "Charge Beam",
-        "Volt Switch"
+        "Splash"
       ],
       "charged_moves": [
-        "Discharge",
-        "Parabolic Charge",
-        "Thunder",
-        "Thunderbolt",
-        "Water Pulse",
-        "Swift",
-        "Rest",
-        "Wild Charge",
-        "Zap Cannon",
-        "Acid Spray",
-        "Muddy Water"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49451,9 +49136,19 @@
       "attack": 104,
       "defense": 73,
       "stamina": 156,
+      "height": 0.3,
+      "weight": 0.4,
+      "family": 938,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 939
+        },
         {
           "pokemon": 939
         }
@@ -49468,28 +49163,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Thunder Shock",
-        "Spark",
-        "Mud Shot",
-        "Tackle",
-        "Water Gun",
-        "Mud Slap",
-        "Charge Beam",
-        "Volt Switch"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Discharge",
-        "Thunder",
-        "Thunderbolt",
-        "Water Pulse",
-        "Swift",
-        "Rest",
-        "Wild Charge",
-        "Zap Cannon",
-        "Acid Spray",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49501,8 +49178,15 @@
       "attack": 184,
       "defense": 165,
       "stamina": 240,
+      "height": 1.2,
+      "weight": 113,
+      "family": 938,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "940": {
       "name": "Wattrel",
@@ -49513,29 +49197,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Thunder Shock",
-        "Spark",
-        "Peck",
-        "Quick Attack",
-        "Charge Beam",
-        "Volt Switch",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Discharge",
-        "Aerial Ace",
-        "Thunder",
-        "Thunderbolt",
-        "Air Cutter",
-        "Hurricane",
-        "Swift",
-        "Rest",
-        "Wild Charge",
-        "Brave Bird",
-        "Fly",
-        "Feather Dance",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49547,9 +49212,19 @@
       "attack": 105,
       "defense": 75,
       "stamina": 120,
+      "height": 0.4,
+      "weight": 3.6,
+      "family": 940,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 941
+        },
         {
           "pokemon": 941
         }
@@ -49565,30 +49240,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Thunder Shock",
-        "Spark",
-        "Peck",
-        "Quick Attack",
-        "Charge Beam",
-        "Volt Switch",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Discharge",
-        "Aerial Ace",
-        "Thunder",
-        "Thunderbolt",
-        "Air Cutter",
-        "Hurricane",
-        "Swift",
-        "Rest",
-        "Wild Charge",
-        "Brave Bird",
-        "Giga Impact",
-        "Fly",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49600,8 +49255,15 @@
       "attack": 221,
       "defense": 132,
       "stamina": 172,
+      "height": 1.4,
+      "weight": 38.6,
+      "family": 940,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 1,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "942": {
       "name": "Maschiff",
@@ -49611,25 +49273,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Bite",
-        "Lick",
-        "Tackle",
-        "Fire Fang",
-        "Snarl",
-        "Take Down",
-        "Charm",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dark Pulse",
-        "Dig",
-        "Play Rough",
-        "Body Slam",
-        "Rest",
-        "Crunch",
-        "Payback",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49641,13 +49288,23 @@
       "attack": 140,
       "defense": 108,
       "stamina": 155,
+      "height": 0.5,
+      "weight": 16,
+      "family": 942,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 943
+        },
         {
           "pokemon": 943
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "943": {
@@ -49658,29 +49315,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Bite",
-        "Lick",
-        "Tackle",
-        "Fire Fang",
-        "Snarl",
-        "Take Down",
-        "Charm",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Dig",
-        "Play Rough",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Outrage",
-        "Crunch",
-        "Giga Impact",
-        "Payback",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49692,8 +49330,15 @@
       "attack": 230,
       "defense": 168,
       "stamina": 190,
+      "height": 1.1,
+      "weight": 61,
+      "family": 942,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "944": {
       "name": "Shroodle",
@@ -49704,23 +49349,10 @@
         "Poison"
       ],
       "quick_moves": [
-        "Bite",
-        "Mud Shot",
-        "Scratch",
-        "Poison Jab",
-        "Mud Slap",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Poison Fang",
-        "Cross Poison",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "Rest",
-        "Foul Play",
-        "Acid Spray",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49732,13 +49364,23 @@
       "attack": 124,
       "defense": 70,
       "stamina": 120,
+      "height": 0.2,
+      "weight": 0.7,
+      "family": 944,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 945
+        },
         {
           "pokemon": 945
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "945": {
@@ -49750,26 +49392,10 @@
         "Poison"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Shadow Claw",
-        "Mud Shot",
-        "Scratch",
-        "Poison Jab",
-        "Mud Slap",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Poison Fang",
-        "Low Sweep",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "X Scissor",
-        "Rest",
-        "Foul Play",
-        "Acid Spray",
-        "Giga Impact",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49781,8 +49407,15 @@
       "attack": 199,
       "defense": 149,
       "stamina": 160,
+      "height": 0.7,
+      "weight": 27.2,
+      "family": 944,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "946": {
       "name": "Bramblin",
@@ -49793,25 +49426,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Infestation",
-        "Astonish",
-        "Hex",
-        "Bullet Seed",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Mega Drain",
-        "Seed Bomb",
-        "Shadow Sneak",
-        "Shadow Ball",
-        "Giga Drain",
-        "Solar Beam",
-        "Power Whip",
-        "Rest",
-        "Night Shade",
-        "Grass Knot",
-        "Energy Ball",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49823,9 +49441,19 @@
       "attack": 121,
       "defense": 64,
       "stamina": 120,
+      "height": 0.6,
+      "weight": 0.6,
+      "family": 946,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 947
+        },
         {
           "pokemon": 947
         }
@@ -49841,26 +49469,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Infestation",
-        "Astonish",
-        "Hex",
-        "Bullet Seed",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Mega Drain",
-        "Seed Bomb",
-        "Shadow Ball",
-        "Giga Drain",
-        "Solar Beam",
-        "Power Whip",
-        "Rest",
-        "Night Shade",
-        "Grass Knot",
-        "Energy Ball",
-        "Giga Impact",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49872,8 +49484,15 @@
       "attack": 228,
       "defense": 144,
       "stamina": 146,
+      "height": 1.2,
+      "weight": 6,
+      "family": 946,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "948": {
       "name": "Toedscool",
@@ -49884,32 +49503,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Hex",
-        "Bullet Seed",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Wrap",
-        "Flash Cannon",
-        "Mega Drain",
-        "Seed Bomb",
-        "Dazzling Gleam",
-        "Sludge Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Power Whip",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Mirror Coat",
-        "Foul Play",
-        "Acid Spray",
-        "Earth Power",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49921,13 +49518,23 @@
       "attack": 97,
       "defense": 149,
       "stamina": 120,
+      "height": 0.9,
+      "weight": 33,
+      "family": 948,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 949
+        },
         {
           "pokemon": 949
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "949": {
@@ -49939,33 +49546,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Hex",
-        "Bullet Seed",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Wrap",
-        "Hyper Beam",
-        "Flash Cannon",
-        "Mega Drain",
-        "Seed Bomb",
-        "Dazzling Gleam",
-        "Sludge Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Power Whip",
-        "Swift",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Foul Play",
-        "Acid Spray",
-        "Earth Power",
-        "Giga Impact",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49977,8 +49561,15 @@
       "attack": 166,
       "defense": 209,
       "stamina": 190,
+      "height": 1.9,
+      "weight": 58,
+      "family": 948,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "950": {
       "name": "Klawf",
@@ -49988,32 +49579,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Shadow Claw",
-        "Mud Shot",
-        "Rock Throw",
-        "Metal Claw",
-        "Mud Slap",
-        "Rock Smash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Stone Edge",
-        "Ancient Power",
-        "Rock Tomb",
-        "Rock Slide",
-        "Power Gem",
-        "Bulldoze",
-        "X Scissor",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Rock Blast",
-        "Earth Power",
-        "Crabhammer",
-        "Giga Impact",
-        "High Horsepower"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50025,8 +49594,15 @@
       "attack": 184,
       "defense": 185,
       "stamina": 172,
+      "height": 1.3,
+      "weight": 79,
+      "family": 950,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "951": {
       "name": "Capsakid",
@@ -50036,24 +49612,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Bite",
-        "Razor Leaf",
-        "Zen Headbutt",
-        "Bullet Seed",
-        "Take Down",
-        "Magical Leaf",
-        "Rollout",
-        "Leafage"
+        "Splash"
       ],
       "charged_moves": [
-        "Seed Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Crunch",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50065,9 +49627,19 @@
       "attack": 118,
       "defense": 76,
       "stamina": 137,
+      "height": 0.3,
+      "weight": 3,
+      "family": 951,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 952
+        },
         {
           "pokemon": 952
         }
@@ -50083,29 +49655,10 @@
         "Grass"
       ],
       "quick_moves": [
-        "Bite",
-        "Razor Leaf",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Bullet Seed",
-        "Take Down",
-        "Magical Leaf",
-        "Leafage"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Seed Bomb",
-        "Fire Blast",
-        "Giga Drain",
-        "Solar Beam",
-        "Rest",
-        "Overheat",
-        "Grass Knot",
-        "Energy Ball",
-        "Crunch",
-        "Giga Impact",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50117,8 +49670,15 @@
       "attack": 216,
       "defense": 130,
       "stamina": 163,
+      "height": 0.9,
+      "weight": 15,
+      "family": 951,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 10000,
+      "third_move_candy": 25,
+      "gym_defender_eligible": true
     },
     "953": {
       "name": "Rellor",
@@ -50128,23 +49688,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Struggle Bug",
-        "Take Down",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Bug Buzz",
-        "Rock Tomb",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "X Scissor",
-        "Rest",
-        "Lunge"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50156,13 +49703,23 @@
       "attack": 86,
       "defense": 108,
       "stamina": 121,
+      "height": 0.2,
+      "weight": 1,
+      "family": 953,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 954
+        },
         {
           "pokemon": 954
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "954": {
@@ -50174,36 +49731,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Confusion",
-        "Struggle Bug",
-        "Extrasensory",
-        "Take Down",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Psybeam",
-        "Bug Buzz",
-        "Psyshock",
-        "Rock Tomb",
-        "Power Gem",
-        "Shadow Ball",
-        "Dazzling Gleam",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "X Scissor",
-        "Psychic",
-        "Rest",
-        "Energy Ball",
-        "Earth Power",
-        "Lunge",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50215,8 +49746,15 @@
       "attack": 201,
       "defense": 178,
       "stamina": 181,
+      "height": 0.3,
+      "weight": 3.5,
+      "family": 953,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "955": {
       "name": "Flittle",
@@ -50226,22 +49764,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Peck",
-        "Quick Attack",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Confusion",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Psybeam",
-        "Seed Bomb",
-        "Psyshock",
-        "Disarming Voice",
-        "Psychic",
-        "Swift",
-        "Rest",
-        "Foul Play"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50253,9 +49779,19 @@
       "attack": 105,
       "defense": 60,
       "stamina": 102,
+      "height": 0.2,
+      "weight": 1.5,
+      "family": 955,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 956
+        },
         {
           "pokemon": 956
         }
@@ -50270,37 +49806,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Peck",
-        "Quick Attack",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Confusion",
-        "Hex",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Psybeam",
-        "Flash Cannon",
-        "Drill Peck",
-        "Aerial Ace",
-        "Seed Bomb",
-        "Psyshock",
-        "Shadow Ball",
-        "Disarming Voice",
-        "Dazzling Gleam",
-        "Psychic",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Brave Bird",
-        "Night Shade",
-        "Energy Ball",
-        "Foul Play",
-        "Last Resort",
-        "Giga Impact",
-        "Feather Dance"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50312,8 +49821,15 @@
       "attack": 204,
       "defense": 127,
       "stamina": 216,
+      "height": 1.9,
+      "weight": 90,
+      "family": 955,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "957": {
       "name": "Tinkatink",
@@ -50324,21 +49840,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Metal Claw",
-        "Rock Smash",
-        "Astonish",
-        "Fairy Wind"
+        "Splash"
       ],
       "charged_moves": [
-        "Stone Edge",
-        "Flash Cannon",
-        "Rock Tomb",
-        "Rock Slide",
-        "Draining Kiss",
-        "Play Rough",
-        "Rest",
-        "Foul Play",
-        "Brutal Swing"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50350,9 +49855,19 @@
       "attack": 85,
       "defense": 110,
       "stamina": 137,
+      "height": 0.4,
+      "weight": 8.9,
+      "family": 957,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 958
+        },
         {
           "pokemon": 958
         }
@@ -50368,22 +49883,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Metal Claw",
-        "Rock Smash",
-        "Astonish",
-        "Fairy Wind"
+        "Splash"
       ],
       "charged_moves": [
-        "Stone Edge",
-        "Flash Cannon",
-        "Rock Tomb",
-        "Rock Slide",
-        "Draining Kiss",
-        "Play Rough",
-        "Brick Break",
-        "Rest",
-        "Foul Play",
-        "Brutal Swing"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50395,14 +49898,23 @@
       "attack": 109,
       "defense": 145,
       "stamina": 163,
+      "height": 0.7,
+      "weight": 59.1,
+      "family": 957,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 959
+        },
+        {
+          "pokemon": 959
         }
-      ],
-      "legendary": false,
-      "mythic": false,
-      "little": true
+      ]
     },
     "959": {
       "name": "Tinkaton",
@@ -50413,24 +49925,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Metal Claw",
-        "Rock Smash",
-        "Astonish",
-        "Fairy Wind"
+        "Splash"
       ],
       "charged_moves": [
-        "Stone Edge",
-        "Flash Cannon",
-        "Rock Tomb",
-        "Rock Slide",
-        "Draining Kiss",
-        "Play Rough",
-        "Bulldoze",
-        "Brick Break",
-        "Rest",
-        "Heavy Slam",
-        "Foul Play",
-        "Brutal Swing"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50442,8 +49940,15 @@
       "attack": 155,
       "defense": 196,
       "stamina": 198,
+      "height": 0.7,
+      "weight": 112.8,
+      "family": 957,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "960": {
       "name": "Wiglett",
@@ -50453,27 +49958,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Mud Shot",
-        "Water Gun",
-        "Mud Slap",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Wrap",
-        "Dig",
-        "Ice Beam",
-        "Blizzard",
-        "Aqua Jet",
-        "Bulldoze",
-        "Water Pulse",
-        "Hydro Pump",
-        "Swift",
-        "Rest",
-        "Foul Play",
-        "Surf",
-        "Earth Power",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50485,9 +49973,19 @@
       "attack": 109,
       "defense": 52,
       "stamina": 67,
+      "height": 1.2,
+      "weight": 1.8,
+      "family": 960,
       "legendary": false,
       "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 961
+        },
         {
           "pokemon": 961
         }
@@ -50502,29 +50000,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Mud Shot",
-        "Water Gun",
-        "Mud Slap",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Wrap",
-        "Hyper Beam",
-        "Dig",
-        "Ice Beam",
-        "Blizzard",
-        "Aqua Jet",
-        "Bulldoze",
-        "Water Pulse",
-        "Hydro Pump",
-        "Swift",
-        "Rest",
-        "Foul Play",
-        "Surf",
-        "Earth Power",
-        "Giga Impact",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50536,8 +50015,15 @@
       "attack": 205,
       "defense": 136,
       "stamina": 111,
+      "height": 1.2,
+      "weight": 5.4,
+      "family": 960,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "962": {
       "name": "Bombirdier",
@@ -50548,36 +50034,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Wing Attack",
-        "Peck",
-        "Rock Throw",
-        "Air Slash",
-        "Snarl",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Stone Edge",
-        "Heat Wave",
-        "Aerial Ace",
-        "Drill Run",
-        "Rock Tomb",
-        "Rock Slide",
-        "Power Gem",
-        "Icy Wind",
-        "Air Cutter",
-        "Hurricane",
-        "Brave Bird",
-        "Sky Attack",
-        "Rock Blast",
-        "Foul Play",
-        "Giga Impact",
-        "Payback",
-        "Fly",
-        "Feather Dance",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50589,8 +50049,16 @@
       "attack": 198,
       "defense": 172,
       "stamina": 172,
+      "height": 1.5,
+      "weight": 42.9,
+      "family": 962,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 5,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "963": {
       "name": "Finizen",
@@ -50600,31 +50068,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Water Gun",
-        "Zen Headbutt",
-        "Counter",
-        "Astonish",
-        "Take Down",
-        "Waterfall",
-        "Charm"
+        "Splash"
       ],
       "charged_moves": [
-        "Ice Beam",
-        "Blizzard",
-        "Aqua Jet",
-        "Aqua Tail",
-        "Disarming Voice",
-        "Draining Kiss",
-        "Water Pulse",
-        "Hydro Pump",
-        "Icy Wind",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Surf",
-        "Acrobatics",
-        "Boomburst",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50636,14 +50083,24 @@
       "attack": 90,
       "defense": 80,
       "stamina": 172,
+      "height": 1.3,
+      "weight": 60.2,
+      "family": 963,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 964
+        },
         {
           "pokemon": 964,
           "form": 2989
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "964": {
@@ -50654,39 +50111,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Water Gun",
-        "Zen Headbutt",
-        "Astonish",
-        "Take Down",
-        "Waterfall",
-        "Charm"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Ice Punch",
-        "Ice Beam",
-        "Blizzard",
-        "Aqua Jet",
-        "Aqua Tail",
-        "Iron Head",
-        "Disarming Voice",
-        "Draining Kiss",
-        "Water Pulse",
-        "Hydro Pump",
-        "Icy Wind",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Grass Knot",
-        "Outrage",
-        "Surf",
-        "Drain Punch",
-        "Giga Impact",
-        "Aura Sphere",
-        "Acrobatics",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50697,14 +50125,26 @@
         },
         "2990": {
           "name": "Hero",
-          "proto": "PALAFIN_HERO"
+          "proto": "PALAFIN_HERO",
+          "attack": 322,
+          "defense": 196,
+          "stamina": 225,
+          "height": 1.8,
+          "weight": 97.4
         }
       },
       "attack": 143,
       "defense": 144,
       "stamina": 225,
+      "height": 1.3,
+      "weight": 60.2,
+      "family": 963,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "965": {
       "name": "Varoom",
@@ -50715,21 +50155,10 @@
         "Steel"
       ],
       "quick_moves": [
-        "Lick",
-        "Poison Jab",
-        "Zen Headbutt",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Sludge",
-        "Flash Cannon",
-        "Iron Head",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "Bulldoze",
-        "Body Slam",
-        "Gyro Ball",
-        "Acid Spray"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50741,13 +50170,23 @@
       "attack": 123,
       "defense": 107,
       "stamina": 128,
+      "height": 1,
+      "weight": 35,
+      "family": 965,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 966
+        },
         {
           "pokemon": 966
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "966": {
@@ -50759,26 +50198,10 @@
         "Steel"
       ],
       "quick_moves": [
-        "Lick",
-        "Poison Jab",
-        "Zen Headbutt",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Sludge",
-        "Flash Cannon",
-        "Iron Head",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "Bulldoze",
-        "Body Slam",
-        "Rest",
-        "Gyro Ball",
-        "Heavy Slam",
-        "Overheat",
-        "Acid Spray",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50790,8 +50213,15 @@
       "attack": 229,
       "defense": 168,
       "stamina": 190,
+      "height": 1.8,
+      "weight": 120,
+      "family": 965,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "967": {
       "name": "Cyclizar",
@@ -50802,36 +50232,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bite",
-        "Mud Shot",
-        "Quick Attack",
-        "Tackle",
-        "Mud Slap",
-        "Fire Fang",
-        "Dragon Tail",
-        "Iron Tail",
-        "Take Down",
-        "Thunder Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Aerial Ace",
-        "Aqua Tail",
-        "Iron Head",
-        "Thunderbolt",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Power Whip",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Overheat",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Giga Impact",
-        "Acrobatics",
-        "Breaking Swipe"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50843,8 +50247,15 @@
       "attack": 205,
       "defense": 142,
       "stamina": 172,
+      "height": 1.6,
+      "weight": 63,
+      "family": 967,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "968": {
       "name": "Orthworm",
@@ -50854,29 +50265,10 @@
         "Steel"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Iron Tail",
-        "Take Down",
-        "Smack Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Wrap",
-        "Hyper Beam",
-        "Dig",
-        "Earthquake",
-        "Flash Cannon",
-        "Rock Tomb",
-        "Rock Slide",
-        "Iron Head",
-        "Bulldoze",
-        "Body Slam",
-        "Rest",
-        "Rock Blast",
-        "Heavy Slam",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50888,8 +50280,15 @@
       "attack": 161,
       "defense": 219,
       "stamina": 172,
+      "height": 2.5,
+      "weight": 310,
+      "family": 968,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "969": {
       "name": "Glimmet",
@@ -50900,23 +50299,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Rock Throw",
-        "Smack Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Stone Edge",
-        "Ancient Power",
-        "Rock Tomb",
-        "Rock Slide",
-        "Power Gem",
-        "Dazzling Gleam",
-        "Sludge Bomb",
-        "Sludge Wave",
-        "Gunk Shot",
-        "Rest",
-        "Rock Blast",
-        "Acid Spray"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50928,13 +50314,23 @@
       "attack": 187,
       "defense": 104,
       "stamina": 134,
+      "height": 0.7,
+      "weight": 8,
+      "family": 969,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 970
+        },
         {
           "pokemon": 970
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "970": {
@@ -50946,29 +50342,10 @@
         "Rock"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Rock Throw",
-        "Smack Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Stone Edge",
-        "Flash Cannon",
-        "Ancient Power",
-        "Rock Tomb",
-        "Rock Slide",
-        "Power Gem",
-        "Dazzling Gleam",
-        "Sludge Bomb",
-        "Sludge Wave",
-        "Gunk Shot",
-        "Solar Beam",
-        "Rest",
-        "Rock Blast",
-        "Energy Ball",
-        "Acid Spray",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50980,8 +50357,15 @@
       "attack": 246,
       "defense": 177,
       "stamina": 195,
+      "height": 1.5,
+      "weight": 45,
+      "family": 969,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "971": {
       "name": "Greavard",
@@ -50991,29 +50375,10 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Bite",
-        "Lick",
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Fire Fang",
-        "Hex",
-        "Snarl",
-        "Take Down",
-        "Charm",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Shadow Sneak",
-        "Shadow Ball",
-        "Play Rough",
-        "Bulldoze",
-        "Rest",
-        "Night Shade",
-        "Crunch",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51025,13 +50390,24 @@
       "attack": 105,
       "defense": 106,
       "stamina": 137,
+      "height": 0.6,
+      "weight": 35,
+      "family": 971,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 2,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 972
+        },
         {
           "pokemon": 972
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "972": {
@@ -51042,30 +50418,10 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Bite",
-        "Lick",
-        "Mud Shot",
-        "Tackle",
-        "Mud Slap",
-        "Fire Fang",
-        "Hex",
-        "Snarl",
-        "Take Down",
-        "Charm",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Shadow Ball",
-        "Play Rough",
-        "Bulldoze",
-        "Rest",
-        "Night Shade",
-        "Crunch",
-        "Giga Impact",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51077,8 +50433,16 @@
       "attack": 186,
       "defense": 195,
       "stamina": 176,
+      "height": 2,
+      "weight": 15,
+      "family": 971,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "973": {
       "name": "Flamigo",
@@ -51089,29 +50453,10 @@
         "Flying"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Wing Attack",
-        "Peck",
-        "Air Slash",
-        "Take Down",
-        "Double Kick"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Aerial Ace",
-        "Low Sweep",
-        "Water Pulse",
-        "Air Cutter",
-        "Hurricane",
-        "Rest",
-        "Close Combat",
-        "Brave Bird",
-        "Sky Attack",
-        "Giga Impact",
-        "Payback",
-        "Fly",
-        "Acrobatics",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51123,8 +50468,15 @@
       "attack": 227,
       "defense": 145,
       "stamina": 193,
+      "height": 1.6,
+      "weight": 37,
+      "family": 973,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "974": {
       "name": "Cetoddle",
@@ -51134,27 +50486,10 @@
         "Ice"
       ],
       "quick_moves": [
-        "Ice Shard",
-        "Tackle",
-        "Powder Snow",
-        "Take Down",
-        "Charm",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Ice Beam",
-        "Blizzard",
-        "Play Rough",
-        "Bulldoze",
-        "Water Pulse",
-        "Icy Wind",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Heavy Slam",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51166,13 +50501,23 @@
       "attack": 119,
       "defense": 80,
       "stamina": 239,
+      "height": 1.2,
+      "weight": 45,
+      "family": 974,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 975
+        },
         {
           "pokemon": 975
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "975": {
@@ -51183,29 +50528,10 @@
         "Ice"
       ],
       "quick_moves": [
-        "Ice Shard",
-        "Tackle",
-        "Powder Snow",
-        "Take Down",
-        "Charm",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Ice Punch",
-        "Ice Beam",
-        "Blizzard",
-        "Play Rough",
-        "Bulldoze",
-        "Water Pulse",
-        "Icy Wind",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Heavy Slam",
-        "Giga Impact",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51217,8 +50543,15 @@
       "attack": 208,
       "defense": 123,
       "stamina": 347,
+      "height": 4.5,
+      "weight": 700,
+      "family": 974,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "976": {
       "name": "Veluza",
@@ -51229,31 +50562,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Tackle",
-        "Psycho Cut",
-        "Zen Headbutt",
-        "Take Down",
-        "Waterfall",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Ice Beam",
-        "Blizzard",
-        "Drill Run",
-        "Night Slash",
-        "Aqua Jet",
-        "Water Pulse",
-        "Hydro Pump",
-        "Psychic",
-        "Icy Wind",
-        "Body Slam",
-        "Rest",
-        "Crunch",
-        "Surf",
-        "Giga Impact",
-        "Psychic Fangs",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51265,8 +50577,15 @@
       "attack": 196,
       "defense": 139,
       "stamina": 207,
+      "height": 2.5,
+      "weight": 90,
+      "family": 976,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "977": {
       "name": "Dondozo",
@@ -51276,30 +50595,10 @@
         "Water"
       ],
       "quick_moves": [
-        "Tackle",
-        "Water Gun",
-        "Zen Headbutt",
-        "Take Down",
-        "Waterfall",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Aqua Tail",
-        "Rock Slide",
-        "Bulldoze",
-        "Water Pulse",
-        "Hydro Pump",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Heavy Slam",
-        "Outrage",
-        "Crunch",
-        "Surf",
-        "Giga Impact",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51311,8 +50610,15 @@
       "attack": 176,
       "defense": 178,
       "stamina": 312,
+      "height": 12,
+      "weight": 220,
+      "family": 977,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "978": {
       "name": "Tatsugiri",
@@ -51323,23 +50629,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Water Gun",
-        "Counter",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dragon Pulse",
-        "Water Pulse",
-        "Hydro Pump",
-        "Icy Wind",
-        "Rest",
-        "Mirror Coat",
-        "Outrage",
-        "Surf",
-        "Draco Meteor",
-        "Muddy Water",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51360,8 +50653,15 @@
       "attack": 226,
       "defense": 166,
       "stamina": 169,
+      "height": 0.3,
+      "weight": 8,
+      "family": 978,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "979": {
       "name": "Annihilape",
@@ -51372,44 +50672,10 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Shadow Claw",
-        "Scratch",
-        "Poison Jab",
-        "Counter",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Cross Chop",
-        "Earthquake",
-        "Stone Edge",
-        "Ice Punch",
-        "Low Sweep",
-        "Seed Bomb",
-        "Rock Tomb",
-        "Rock Slide",
-        "Shadow Punch",
-        "Shadow Ball",
-        "Thunder Punch",
-        "Thunder",
-        "Thunderbolt",
-        "Gunk Shot",
-        "Bulldoze",
-        "Fire Punch",
-        "Brick Break",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Night Shade",
-        "Overheat",
-        "Outrage",
-        "Drain Punch",
-        "Giga Impact",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51421,8 +50687,15 @@
       "attack": 220,
       "defense": 178,
       "stamina": 242,
+      "height": 1.2,
+      "weight": 56,
+      "family": 56,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "980": {
       "name": "Clodsire",
@@ -51433,38 +50706,10 @@
         "Ground"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Mud Shot",
-        "Poison Jab",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Poison Sting",
-        "Take Down",
-        "Waterfall"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Megahorn",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Rock Tomb",
-        "Rock Slide",
-        "Iron Head",
-        "Sludge Bomb",
-        "Sludge Wave",
-        "Gunk Shot",
-        "Bulldoze",
-        "Water Pulse",
-        "Hydro Pump",
-        "Body Slam",
-        "Rest",
-        "Heavy Slam",
-        "Surf",
-        "Acid Spray",
-        "Earth Power",
-        "Giga Impact",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51476,8 +50721,16 @@
       "attack": 127,
       "defense": 151,
       "stamina": 277,
+      "height": 1.8,
+      "weight": 223,
+      "family": 194,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "981": {
       "name": "Farigiraf",
@@ -51488,37 +50741,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Tackle",
-        "Zen Headbutt",
-        "Confusion",
-        "Charge Beam",
-        "Astonish",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Psybeam",
-        "Earthquake",
-        "Psyshock",
-        "Shadow Ball",
-        "Iron Head",
-        "Thunder",
-        "Thunderbolt",
-        "Dazzling Gleam",
-        "Bulldoze",
-        "Psychic",
-        "Swift",
-        "Stomp",
-        "Body Slam",
-        "Rest",
-        "Night Shade",
-        "Grass Knot",
-        "Energy Ball",
-        "Crunch",
-        "Foul Play",
-        "Giga Impact",
-        "Psychic Fangs"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51530,8 +50756,15 @@
       "attack": 209,
       "defense": 136,
       "stamina": 260,
+      "height": 3.2,
+      "weight": 160,
+      "family": 203,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "982": {
       "name": "Dudunsparce",
@@ -51541,43 +50774,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Poison Jab",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Dragon Tail",
-        "Air Slash",
-        "Hex",
-        "Take Down",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Ice Beam",
-        "Blizzard",
-        "Drill Run",
-        "Ancient Power",
-        "Rock Tomb",
-        "Rock Slide",
-        "Shadow Ball",
-        "Thunder",
-        "Thunderbolt",
-        "Bulldoze",
-        "Fire Blast",
-        "Solar Beam",
-        "Hurricane",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Heavy Slam",
-        "Outrage",
-        "Earth Power",
-        "Giga Impact",
-        "Boomburst"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51588,14 +50788,23 @@
         },
         "2995": {
           "name": "Three",
-          "proto": "DUDUNSPARCE_THREE"
+          "proto": "DUDUNSPARCE_THREE",
+          "height": 4.5,
+          "weight": 47.4
         }
       },
       "attack": 188,
       "defense": 150,
       "stamina": 268,
+      "height": 3.6,
+      "weight": 39.2,
+      "family": 206,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "983": {
       "name": "Kingambit",
@@ -51606,35 +50815,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Fury Cutter",
-        "Low Kick",
-        "Shadow Claw",
-        "Scratch",
-        "Poison Jab",
-        "Metal Claw",
-        "Zen Headbutt",
-        "Air Slash",
-        "Snarl",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Dig",
-        "Stone Edge",
-        "Flash Cannon",
-        "Aerial Ace",
-        "Night Slash",
-        "Low Sweep",
-        "Rock Tomb",
-        "Iron Head",
-        "X Scissor",
-        "Brick Break",
-        "Rest",
-        "Focus Blast",
-        "Grass Knot",
-        "Foul Play",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51646,8 +50830,15 @@
       "attack": 238,
       "defense": 203,
       "stamina": 225,
+      "height": 2,
+      "weight": 120,
+      "family": 624,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "984": {
       "name": "Greattusk",
@@ -51658,36 +50849,10 @@
         "Ground"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Megahorn",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Flash Cannon",
-        "Psyshock",
-        "Rock Tomb",
-        "Rock Slide",
-        "Iron Head",
-        "Play Rough",
-        "Bulldoze",
-        "Brick Break",
-        "Horn Attack",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Heavy Slam",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51699,8 +50864,15 @@
       "attack": 226,
       "defense": 190,
       "stamina": 229,
+      "height": 2.2,
+      "weight": 320,
+      "family": 984,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "985": {
       "name": "Screamtail",
@@ -51711,43 +50883,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Bite",
-        "Pound",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Dig",
-        "Psybeam",
-        "Ice Punch",
-        "Ice Beam",
-        "Blizzard",
-        "Psyshock",
-        "Rock Tomb",
-        "Thunder Punch",
-        "Thunder",
-        "Thunderbolt",
-        "Dazzling Gleam",
-        "Play Rough",
-        "Fire Blast",
-        "Water Pulse",
-        "Psychic",
-        "Fire Punch",
-        "Body Slam",
-        "Rest",
-        "Focus Blast",
-        "Gyro Ball",
-        "Grass Knot",
-        "Crunch",
-        "Drain Punch",
-        "Giga Impact",
-        "Psychic Fangs",
-        "Boomburst"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51759,8 +50898,15 @@
       "attack": 139,
       "defense": 234,
       "stamina": 251,
+      "height": 1.2,
+      "weight": 8,
+      "family": 985,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "986": {
       "name": "Brutebonnet",
@@ -51771,31 +50917,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Zen Headbutt",
-        "Astonish",
-        "Hex",
-        "Bullet Seed",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Mega Drain",
-        "Seed Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Grass Knot",
-        "Energy Ball",
-        "Outrage",
-        "Crunch",
-        "Earth Power",
-        "Giga Impact",
-        "Payback",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51807,8 +50932,15 @@
       "attack": 232,
       "defense": 190,
       "stamina": 244,
+      "height": 1.2,
+      "weight": 21,
+      "family": 986,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "987": {
       "name": "Fluttermane",
@@ -51819,32 +50951,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Charge Beam",
-        "Astonish",
-        "Hex",
-        "Charm",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Psybeam",
-        "Psyshock",
-        "Power Gem",
-        "Shadow Ball",
-        "Thunder",
-        "Thunderbolt",
-        "Disarming Voice",
-        "Draining Kiss",
-        "Dazzling Gleam",
-        "Moonblast",
-        "Icy Wind",
-        "Swift",
-        "Rest",
-        "Night Shade",
-        "Energy Ball",
-        "Giga Impact",
-        "Mystical Fire"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51856,8 +50966,15 @@
       "attack": 280,
       "defense": 235,
       "stamina": 146,
+      "height": 1.4,
+      "weight": 4,
+      "family": 987,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "988": {
       "name": "Slitherwing",
@@ -51868,33 +50985,10 @@
         "Bug"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Low Kick",
-        "Ember",
-        "Zen Headbutt",
-        "Take Down",
-        "Gust"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Heat Wave",
-        "Aerial Ace",
-        "Bug Buzz",
-        "Low Sweep",
-        "Flame Charge",
-        "Giga Drain",
-        "Hurricane",
-        "Brick Break",
-        "Stomp",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Wild Charge",
-        "Heavy Slam",
-        "Lunge",
-        "Giga Impact",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51906,8 +51000,15 @@
       "attack": 261,
       "defense": 193,
       "stamina": 198,
+      "height": 3.2,
+      "weight": 92,
+      "family": 988,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "989": {
       "name": "Sandyshocks",
@@ -51918,32 +51019,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Thunder Shock",
-        "Spark",
-        "Mud Shot",
-        "Charge Beam",
-        "Volt Switch",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Discharge",
-        "Flash Cannon",
-        "Power Gem",
-        "Thunder",
-        "Thunderbolt",
-        "Bulldoze",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Zap Cannon",
-        "Heavy Slam",
-        "Mirror Coat",
-        "Earth Power",
-        "Giga Impact",
-        "Tri Attack"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -51955,8 +51034,15 @@
       "attack": 244,
       "defense": 195,
       "stamina": 198,
+      "height": 2.3,
+      "weight": 60,
+      "family": 989,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "990": {
       "name": "Irontreads",
@@ -51967,33 +51053,10 @@
         "Steel"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Volt Switch",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang",
-        "Rollout"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Megahorn",
-        "Earthquake",
-        "Stone Edge",
-        "Flash Cannon",
-        "Rock Tomb",
-        "Rock Slide",
-        "Iron Head",
-        "Thunder",
-        "Bulldoze",
-        "Horn Attack",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Heavy Slam",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52005,8 +51068,15 @@
       "attack": 227,
       "defense": 216,
       "stamina": 207,
+      "height": 0.9,
+      "weight": 240,
+      "family": 990,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "991": {
       "name": "Ironbundle",
@@ -52017,27 +51087,10 @@
         "Ice"
       ],
       "quick_moves": [
-        "Powder Snow",
-        "Take Down",
-        "Present"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Ice Punch",
-        "Drill Peck",
-        "Ice Beam",
-        "Blizzard",
-        "Play Rough",
-        "Water Pulse",
-        "Hydro Pump",
-        "Icy Wind",
-        "Air Cutter",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Giga Impact",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52049,8 +51102,15 @@
       "attack": 266,
       "defense": 211,
       "stamina": 148,
+      "height": 0.6,
+      "weight": 11,
+      "family": 991,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "992": {
       "name": "Ironhands",
@@ -52061,34 +51121,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Tackle",
-        "Volt Switch",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Ice Punch",
-        "Low Sweep",
-        "Rock Tomb",
-        "Rock Slide",
-        "Iron Head",
-        "Thunder Punch",
-        "Thunder",
-        "Thunderbolt",
-        "Play Rough",
-        "Bulldoze",
-        "Fire Punch",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Wild Charge",
-        "Heavy Slam",
-        "Drain Punch",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52100,8 +51136,15 @@
       "attack": 223,
       "defense": 161,
       "stamina": 291,
+      "height": 1.8,
+      "weight": 380.7,
+      "family": 992,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "993": {
       "name": "Ironjugulis",
@@ -52112,38 +51155,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Dragon Breath",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Charge Beam",
-        "Dragon Tail",
-        "Air Slash",
-        "Snarl",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Flamethrower",
-        "Flash Cannon",
-        "Heat Wave",
-        "Rock Tomb",
-        "Iron Head",
-        "Dragon Pulse",
-        "Fire Blast",
-        "Hydro Pump",
-        "Air Cutter",
-        "Hurricane",
-        "Body Slam",
-        "Rest",
-        "Focus Blast",
-        "Outrage",
-        "Crunch",
-        "Earth Power",
-        "Giga Impact",
-        "Fly",
-        "Tri Attack",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52155,8 +51170,15 @@
       "attack": 249,
       "defense": 179,
       "stamina": 214,
+      "height": 1.3,
+      "weight": 111,
+      "family": 993,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "994": {
       "name": "Ironmoth",
@@ -52167,36 +51189,10 @@
         "Fire"
       ],
       "quick_moves": [
-        "Ember",
-        "Charge Beam",
-        "Air Slash",
-        "Struggle Bug",
-        "Fire Spin",
-        "Take Down",
-        "Gust"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Discharge",
-        "Flash Cannon",
-        "Heat Wave",
-        "Bug Buzz",
-        "Dazzling Gleam",
-        "Sludge Wave",
-        "Flame Charge",
-        "Fire Blast",
-        "Psychic",
-        "Solar Beam",
-        "Hurricane",
-        "Swift",
-        "Rest",
-        "Overheat",
-        "Energy Ball",
-        "Acid Spray",
-        "Lunge",
-        "Giga Impact",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52208,8 +51204,15 @@
       "attack": 281,
       "defense": 196,
       "stamina": 190,
+      "height": 1.2,
+      "weight": 36,
+      "family": 994,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "995": {
       "name": "Ironthorns",
@@ -52220,49 +51223,10 @@
         "Electric"
       ],
       "quick_moves": [
-        "Bite",
-        "Low Kick",
-        "Rock Throw",
-        "Metal Claw",
-        "Fire Fang",
-        "Charge Beam",
-        "Volt Switch",
-        "Dragon Tail",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Ice Punch",
-        "Ice Beam",
-        "Blizzard",
-        "Rock Tomb",
-        "Rock Slide",
-        "Power Gem",
-        "Iron Head",
-        "Thunder Punch",
-        "Thunder",
-        "Thunderbolt",
-        "Dragon Claw",
-        "Bulldoze",
-        "Fire Blast",
-        "Fire Punch",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Focus Blast",
-        "Wild Charge",
-        "Rock Blast",
-        "Heavy Slam",
-        "Crunch",
-        "Earth Power",
-        "Giga Impact"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52274,8 +51238,15 @@
       "attack": 250,
       "defense": 200,
       "stamina": 225,
+      "height": 1.6,
+      "weight": 303,
+      "family": 995,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "996": {
       "name": "Frigibax",
@@ -52286,28 +51257,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bite",
-        "Dragon Breath",
-        "Tackle",
-        "Dragon Tail",
-        "Take Down",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Ice Beam",
-        "Blizzard",
-        "Aqua Tail",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Icy Wind",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Icicle Spear"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52319,13 +51272,24 @@
       "attack": 134,
       "defense": 86,
       "stamina": 163,
+      "height": 0.5,
+      "weight": 17,
+      "family": 996,
+      "legendary": false,
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
+        {
+          "pokemon": 997
+        },
         {
           "pokemon": 997
         }
       ],
-      "legendary": false,
-      "mythic": false,
       "little": true
     },
     "997": {
@@ -52337,29 +51301,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bite",
-        "Dragon Breath",
-        "Tackle",
-        "Dragon Tail",
-        "Take Down",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Dig",
-        "Ice Beam",
-        "Blizzard",
-        "Aerial Ace",
-        "Iron Head",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Icy Wind",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52371,14 +51316,24 @@
       "attack": 173,
       "defense": 128,
       "stamina": 207,
+      "height": 0.8,
+      "weight": 30,
+      "family": 996,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 998
+        },
+        {
+          "pokemon": 998
         }
-      ],
-      "little": true
+      ]
     },
     "998": {
       "name": "Baxcalibur",
@@ -52389,37 +51344,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bite",
-        "Dragon Breath",
-        "Ice Shard",
-        "Tackle",
-        "Zen Headbutt",
-        "Dragon Tail",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Earthquake",
-        "Ice Beam",
-        "Blizzard",
-        "Aerial Ace",
-        "Iron Head",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Bulldoze",
-        "Icy Wind",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Avalanche",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Giga Impact",
-        "Breaking Swipe"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52431,8 +51359,16 @@
       "attack": 254,
       "defense": 168,
       "stamina": 229,
+      "height": 2.1,
+      "weight": 210,
+      "family": 996,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "999": {
       "name": "Gimmighoul",
@@ -52523,31 +51459,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Hex",
-        "Bullet Seed",
-        "Snarl",
-        "Take Down",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Mega Drain",
-        "Seed Bomb",
-        "Giga Drain",
-        "Solar Beam",
-        "Power Whip",
-        "Body Slam",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Foul Play",
-        "Giga Impact",
-        "Payback",
-        "Leaf Storm"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52559,8 +51474,14 @@
       "attack": 186,
       "defense": 242,
       "stamina": 198,
+      "height": 1.5,
+      "weight": 74.2,
+      "family": 1001,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1002": {
       "name": "Chienpao",
@@ -52571,30 +51492,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Sucker Punch",
-        "Ice Shard",
-        "Powder Snow",
-        "Hex",
-        "Snarl",
-        "Take Down",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Blizzard",
-        "Aerial Ace",
-        "Night Slash",
-        "Icy Wind",
-        "Brick Break",
-        "Rest",
-        "Avalanche",
-        "Crunch",
-        "Giga Impact",
-        "Sacred Sword",
-        "Payback",
-        "Psychic Fangs",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52606,8 +51507,14 @@
       "attack": 261,
       "defense": 167,
       "stamina": 190,
+      "height": 1.9,
+      "weight": 152.2,
+      "family": 1002,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1003": {
       "name": "Tinglu",
@@ -52618,30 +51525,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Mud Shot",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Hex",
-        "Snarl",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Rock Tomb",
-        "Rock Slide",
-        "Bulldoze",
-        "Stomp",
-        "Body Slam",
-        "Rest",
-        "Sand Tomb",
-        "Heavy Slam",
-        "Earth Power",
-        "Giga Impact",
-        "Payback"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52653,8 +51540,14 @@
       "attack": 194,
       "defense": 203,
       "stamina": 321,
+      "height": 2.7,
+      "weight": 669.7,
+      "family": 1003,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1004": {
       "name": "Chiyu",
@@ -52665,28 +51558,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Ember",
-        "Zen Headbutt",
-        "Hex",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Flame Wheel",
-        "Flamethrower",
-        "Heat Wave",
-        "Flame Charge",
-        "Fire Blast",
-        "Psychic",
-        "Rest",
-        "Overheat",
-        "Crunch",
-        "Giga Impact",
-        "Payback"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52698,8 +51573,14 @@
       "attack": 269,
       "defense": 221,
       "stamina": 146,
+      "height": 0.4,
+      "weight": 4.9,
+      "family": 1004,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1005": {
       "name": "Roaringmoon",
@@ -52710,48 +51591,10 @@
         "Dark"
       ],
       "quick_moves": [
-        "Bite",
-        "Dragon Breath",
-        "Shadow Claw",
-        "Metal Claw",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Dragon Tail",
-        "Air Slash",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Incinerate"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Flamethrower",
-        "Dig",
-        "Earthquake",
-        "Stone Edge",
-        "Heat Wave",
-        "Aerial Ace",
-        "Night Slash",
-        "Rock Slide",
-        "Iron Head",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "X Scissor",
-        "Fire Blast",
-        "Hydro Pump",
-        "Hurricane",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Giga Impact",
-        "Fly",
-        "Acrobatics",
-        "Breaking Swipe"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52763,8 +51606,15 @@
       "attack": 254,
       "defense": 178,
       "stamina": 213,
+      "height": 2,
+      "weight": 380,
+      "family": 1005,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "1006": {
       "name": "Ironvaliant",
@@ -52775,45 +51625,10 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Fury Cutter",
-        "Low Kick",
-        "Shadow Claw",
-        "Poison Jab",
-        "Psycho Cut",
-        "Zen Headbutt",
-        "Charge Beam",
-        "Hex",
-        "Magical Leaf"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Psybeam",
-        "Ice Punch",
-        "Aerial Ace",
-        "Night Slash",
-        "Psyshock",
-        "Shadow Sneak",
-        "Shadow Ball",
-        "Thunder Punch",
-        "Thunderbolt",
-        "Dazzling Gleam",
-        "Moonblast",
-        "X Scissor",
-        "Psychic",
-        "Icy Wind",
-        "Fire Punch",
-        "Leaf Blade",
-        "Brick Break",
-        "Swift",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Grass Knot",
-        "Energy Ball",
-        "Drain Punch",
-        "Giga Impact",
-        "Aura Sphere",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52825,8 +51640,15 @@
       "attack": 279,
       "defense": 171,
       "stamina": 179,
+      "height": 1.4,
+      "weight": 35,
+      "family": 1006,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100,
+      "gym_defender_eligible": true
     },
     "1007": {
       "name": "Koraidon",
@@ -52837,50 +51659,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Low Kick",
-        "Shadow Claw",
-        "Mud Shot",
-        "Mud Slap",
-        "Zen Headbutt",
-        "Fire Fang",
-        "Rock Smash",
-        "Counter",
-        "Dragon Tail",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Dig",
-        "Heat Wave",
-        "Low Sweep",
-        "Ancient Power",
-        "Iron Head",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Bulldoze",
-        "Flame Charge",
-        "Fire Blast",
-        "Solar Beam",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Wild Charge",
-        "Heavy Slam",
-        "Overheat",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Drain Punch",
-        "Giga Impact",
-        "Acrobatics",
-        "Breaking Swipe"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52893,8 +51675,14 @@
       "attack": 263,
       "defense": 223,
       "stamina": 205,
+      "height": 2.5,
+      "weight": 303,
+      "family": 1007,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1008": {
       "name": "Miraidon",
@@ -52905,38 +51693,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Dragon Breath",
-        "Thunder Shock",
-        "Zen Headbutt",
-        "Charge Beam",
-        "Volt Switch",
-        "Dragon Tail",
-        "Snarl",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Discharge",
-        "Flash Cannon",
-        "Power Gem",
-        "Parabolic Charge",
-        "Thunder",
-        "Thunderbolt",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Dazzling Gleam",
-        "Solar Beam",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Heavy Slam",
-        "Overheat",
-        "Mirror Coat",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Giga Impact",
-        "Acrobatics"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -52949,8 +51709,14 @@
       "attack": 263,
       "defense": 223,
       "stamina": 205,
+      "height": 3.5,
+      "weight": 240,
+      "family": 1008,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     }
   },
   "types": {
