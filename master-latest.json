@@ -54485,6 +54485,22 @@
     "389": {
       "name": "Oblivion Wing",
       "proto": "OBLIVION_WING"
+    },
+    "390": {
+      "name": "Natures Madness",
+      "proto": "NATURES_MADNESS"
+    },
+    "391": {
+      "name": "Triple Axel",
+      "proto": "TRIPLE_AXEL"
+    },
+    "392": {
+      "name": "Trailblaze",
+      "proto": "TRAILBLAZE"
+    },
+    "393": {
+      "name": "Scorching Sands",
+      "proto": "SCORCHING_SANDS"
     }
   },
   "quest_types": {
@@ -54970,6 +54986,10 @@
     "57": {
       "proto": "WITH_TAPPABLE_TYPE",
       "text": "With Tappable Type"
+    },
+    "58": {
+      "proto": "WITH_IN_PARTY",
+      "text": "With In Party"
     }
   },
   "invasions": {
@@ -55830,6 +55850,28 @@
       "type": "Willowb",
       "gender": 0,
       "grunt": "Willowb",
+      "second_reward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "93": {
+      "type": "Traveler",
+      "gender": 0,
+      "grunt": "Traveler",
+      "second_reward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "94": {
+      "type": "Explorer",
+      "gender": 0,
+      "grunt": "Explorer",
       "second_reward": false,
       "encounters": {
         "first": [],

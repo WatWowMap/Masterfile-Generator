@@ -66188,6 +66188,11 @@
       "id": 57,
       "proto": "WITH_TAPPABLE_TYPE",
       "formatted": "With Tappable Type"
+    },
+    "58": {
+      "id": 58,
+      "proto": "WITH_IN_PARTY",
+      "formatted": "With In Party"
     }
   },
   "invasions": {
@@ -68920,6 +68925,50 @@
       "gender": 0,
       "grunt": "Willowb",
       "proto": "CHARACTER_WILLOWB",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": [
+        {
+          "position": "first"
+        },
+        {
+          "position": "second"
+        },
+        {
+          "position": "third"
+        }
+      ]
+    },
+    "93": {
+      "id": 93,
+      "type": "Traveler",
+      "gender": 0,
+      "grunt": "Traveler",
+      "proto": "CHARACTER_TRAVELER",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": [
+        {
+          "position": "first"
+        },
+        {
+          "position": "second"
+        },
+        {
+          "position": "third"
+        }
+      ]
+    },
+    "94": {
+      "id": 94,
+      "type": "Explorer",
+      "gender": 0,
+      "grunt": "Explorer",
+      "proto": "CHARACTER_EXPLORER",
       "active": false,
       "firstReward": false,
       "secondReward": false,

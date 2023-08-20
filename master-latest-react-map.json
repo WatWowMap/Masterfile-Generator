@@ -33439,6 +33439,18 @@
     },
     "389": {
       "name": "Oblivion Wing"
+    },
+    "390": {
+      "name": "Natures Madness"
+    },
+    "391": {
+      "name": "Triple Axel"
+    },
+    "392": {
+      "name": "Trailblaze"
+    },
+    "393": {
+      "name": "Scorching Sands"
     }
   },
   "questRewardTypes": {
@@ -34979,6 +34991,32 @@
       "type": "Willowb",
       "gender": 0,
       "grunt": "Willowb",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "93": {
+      "type": "Traveler",
+      "gender": 0,
+      "grunt": "Traveler",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "94": {
+      "type": "Explorer",
+      "gender": 0,
+      "grunt": "Explorer",
       "firstReward": false,
       "secondReward": false,
       "thirdReward": false,

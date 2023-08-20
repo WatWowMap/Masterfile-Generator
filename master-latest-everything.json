@@ -124876,6 +124876,12 @@
       "name": "May 2023",
       "proto": "MAY_2023",
       "noEvolve": false
+    },
+    "69": {
+      "id": 69,
+      "name": "Pi",
+      "proto": "PI",
+      "noEvolve": false
     }
   },
   "items": {
@@ -127435,6 +127441,26 @@
       "id": 389,
       "name": "Oblivion Wing",
       "proto": "OBLIVION_WING"
+    },
+    "390": {
+      "id": 390,
+      "name": "Natures Madness",
+      "proto": "NATURES_MADNESS"
+    },
+    "391": {
+      "id": 391,
+      "name": "Triple Axel",
+      "proto": "TRIPLE_AXEL"
+    },
+    "392": {
+      "id": 392,
+      "name": "Trailblaze",
+      "proto": "TRAILBLAZE"
+    },
+    "393": {
+      "id": 393,
+      "name": "Scorching Sands",
+      "proto": "SCORCHING_SANDS"
     }
   },
   "questTypes": {
@@ -128116,6 +128142,11 @@
       "id": 57,
       "proto": "WITH_TAPPABLE_TYPE",
       "formatted": "With Tappable Type"
+    },
+    "58": {
+      "id": 58,
+      "proto": "WITH_IN_PARTY",
+      "formatted": "With In Party"
     }
   },
   "invasions": {
@@ -129803,6 +129834,38 @@
       "gender": 0,
       "grunt": "Willowb",
       "proto": "CHARACTER_WILLOWB",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "93": {
+      "id": 93,
+      "type": "Traveler",
+      "gender": 0,
+      "grunt": "Traveler",
+      "proto": "CHARACTER_TRAVELER",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "94": {
+      "id": 94,
+      "type": "Explorer",
+      "gender": 0,
+      "grunt": "Explorer",
+      "proto": "CHARACTER_EXPLORER",
       "active": false,
       "firstReward": false,
       "secondReward": false,
