@@ -128482,10 +128482,14 @@
       "proto": "CHARACTER_DRAGON_GRUNT_FEMALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
+          {
+            "id": 103,
+            "formId": 78
+          },
           {
             "id": 443,
             "formId": 0
