@@ -7450,12 +7450,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "979": {
-          "pokemon": 979,
-          "form": 0
-        }
       }
     },
     "58": {
@@ -24049,10 +24043,6 @@
           "pokemon": 195,
           "form": 1229,
           "candyCost": 50
-        },
-        "980": {
-          "pokemon": 980,
-          "form": 0
         }
       },
       "little": true
@@ -25141,14 +25131,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "981": {
-          "pokemon": 981,
-          "form": 0
-        }
-      },
-      "little": true
+      }
     },
     "204": {
       "name": "Pineco",
@@ -25464,14 +25447,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "982": {
-          "pokemon": 982,
-          "form": 2994
-        }
-      },
-      "little": true
+      }
     },
     "207": {
       "name": "Gligar",
@@ -71350,12 +71326,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "983": {
-          "pokemon": 983,
-          "form": 0
-        }
       }
     },
     "626": {
@@ -81732,8 +81702,7 @@
           "form": 2592,
           "itemRequirement": "Beans"
         }
-      },
-      "unreleased": true
+      }
     },
     "719": {
       "name": "Diancie",
@@ -99523,10 +99492,10 @@
       "evolutions": {
         "907": {
           "pokemon": 907,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "907": {
@@ -99592,10 +99561,10 @@
       "evolutions": {
         "908": {
           "pokemon": 908,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "908": {
       "name": "Meowscarada",
@@ -99660,8 +99629,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "909": {
       "name": "Fuecoco",
@@ -99722,10 +99690,10 @@
       "evolutions": {
         "910": {
           "pokemon": 910,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "910": {
@@ -99791,10 +99759,10 @@
       "evolutions": {
         "911": {
           "pokemon": 911,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "911": {
       "name": "Skeledirge",
@@ -99859,8 +99827,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "912": {
       "name": "Quaxly",
@@ -99921,10 +99888,10 @@
       "evolutions": {
         "913": {
           "pokemon": 913,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "913": {
@@ -99990,10 +99957,10 @@
       "evolutions": {
         "914": {
           "pokemon": 914,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "914": {
       "name": "Quaquaval",
@@ -100058,8 +100025,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "915": {
       "name": "Lechonk",
@@ -100120,10 +100086,11 @@
       "evolutions": {
         "916": {
           "pokemon": 916,
-          "form": 2981
+          "form": 2982,
+          "genderRequirement": 2,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "916": {
@@ -100195,8 +100162,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "917": {
       "name": "Tarountula",
@@ -100256,10 +100222,10 @@
       "evolutions": {
         "918": {
           "pokemon": 918,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "918": {
@@ -100320,8 +100286,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "919": {
       "name": "Nymble",
@@ -100382,10 +100347,10 @@
       "evolutions": {
         "920": {
           "pokemon": 920,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "920": {
@@ -100451,8 +100416,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "921": {
       "name": "Pawmi",
@@ -100513,10 +100477,10 @@
       "evolutions": {
         "922": {
           "pokemon": 922,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "922": {
@@ -100586,10 +100550,10 @@
       "evolutions": {
         "923": {
           "pokemon": 923,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "923": {
       "name": "Pawmot",
@@ -100654,8 +100618,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "924": {
       "name": "Tandemaus",
@@ -100715,10 +100678,10 @@
       "evolutions": {
         "925": {
           "pokemon": 925,
-          "form": 2983
+          "form": 2984,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "925": {
@@ -100786,8 +100749,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "926": {
       "name": "Fidough",
@@ -100847,10 +100809,10 @@
       "evolutions": {
         "927": {
           "pokemon": 927,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "927": {
@@ -100911,8 +100873,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "928": {
       "name": "Smoliv",
@@ -100976,10 +100937,10 @@
       "evolutions": {
         "929": {
           "pokemon": 929,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "929": {
@@ -101048,10 +101009,10 @@
       "evolutions": {
         "930": {
           "pokemon": 930,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "930": {
       "name": "Arboliva",
@@ -101115,8 +101076,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "931": {
       "name": "Squawkabilly",
@@ -101191,8 +101151,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "932": {
       "name": "Nacli",
@@ -101252,10 +101211,10 @@
       "evolutions": {
         "933": {
           "pokemon": 933,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "933": {
@@ -101320,10 +101279,10 @@
       "evolutions": {
         "934": {
           "pokemon": 934,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "934": {
       "name": "Garganacl",
@@ -101383,8 +101342,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "935": {
       "name": "Charcadet",
@@ -101444,14 +101402,15 @@
       "evolutions": {
         "936": {
           "pokemon": 936,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         },
         "937": {
           "pokemon": 937,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "936": {
@@ -101516,8 +101475,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "937": {
       "name": "Ceruledge",
@@ -101581,8 +101539,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "938": {
       "name": "Tadbulb",
@@ -101642,10 +101599,10 @@
       "evolutions": {
         "939": {
           "pokemon": 939,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "939": {
@@ -101706,8 +101663,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "940": {
       "name": "Wattrel",
@@ -101771,10 +101727,10 @@
       "evolutions": {
         "941": {
           "pokemon": 941,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "941": {
@@ -101839,8 +101795,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "942": {
       "name": "Maschiff",
@@ -101900,10 +101855,10 @@
       "evolutions": {
         "943": {
           "pokemon": 943,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "943": {
@@ -101964,8 +101919,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "944": {
       "name": "Shroodle",
@@ -102029,10 +101983,10 @@
       "evolutions": {
         "945": {
           "pokemon": 945,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "945": {
@@ -102097,8 +102051,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "946": {
       "name": "Bramblin",
@@ -102162,10 +102115,10 @@
       "evolutions": {
         "947": {
           "pokemon": 947,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "947": {
@@ -102230,8 +102183,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "948": {
       "name": "Toedscool",
@@ -102295,10 +102247,10 @@
       "evolutions": {
         "949": {
           "pokemon": 949,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "949": {
@@ -102363,8 +102315,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "950": {
       "name": "Klawf",
@@ -102420,8 +102371,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "951": {
       "name": "Capsakid",
@@ -102481,10 +102431,10 @@
       "evolutions": {
         "952": {
           "pokemon": 952,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "952": {
@@ -102549,8 +102499,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "953": {
       "name": "Rellor",
@@ -102610,10 +102559,10 @@
       "evolutions": {
         "954": {
           "pokemon": 954,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "954": {
@@ -102678,8 +102627,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "955": {
       "name": "Flittle",
@@ -102739,10 +102687,10 @@
       "evolutions": {
         "956": {
           "pokemon": 956,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "956": {
@@ -102803,8 +102751,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "957": {
       "name": "Tinkatink",
@@ -102868,10 +102815,10 @@
       "evolutions": {
         "958": {
           "pokemon": 958,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "958": {
@@ -102940,10 +102887,10 @@
       "evolutions": {
         "959": {
           "pokemon": 959,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "959": {
       "name": "Tinkaton",
@@ -103007,8 +102954,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "960": {
       "name": "Wiglett",
@@ -103068,10 +103014,10 @@
       "evolutions": {
         "961": {
           "pokemon": 961,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "961": {
@@ -103132,8 +103078,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "962": {
       "name": "Bombirdier",
@@ -103194,8 +103139,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "963": {
       "name": "Finizen",
@@ -103255,10 +103199,10 @@
       "evolutions": {
         "964": {
           "pokemon": 964,
-          "form": 2989
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "964": {
@@ -103331,8 +103275,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "965": {
       "name": "Varoom",
@@ -103396,10 +103339,10 @@
       "evolutions": {
         "966": {
           "pokemon": 966,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "966": {
@@ -103464,8 +103407,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "967": {
       "name": "Cyclizar",
@@ -103525,8 +103467,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "968": {
       "name": "Orthworm",
@@ -103582,8 +103523,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "969": {
       "name": "Glimmet",
@@ -103647,10 +103587,10 @@
       "evolutions": {
         "970": {
           "pokemon": 970,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "970": {
@@ -103715,8 +103655,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "971": {
       "name": "Greavard",
@@ -103777,10 +103716,10 @@
       "evolutions": {
         "972": {
           "pokemon": 972,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "972": {
@@ -103842,8 +103781,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "973": {
       "name": "Flamigo",
@@ -103903,8 +103841,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "974": {
       "name": "Cetoddle",
@@ -103964,10 +103901,10 @@
       "evolutions": {
         "975": {
           "pokemon": 975,
-          "form": 0
+          "form": 0,
+          "candyCost": 50
         }
       },
-      "unreleased": true,
       "little": true
     },
     "975": {
@@ -104028,8 +103965,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "976": {
       "name": "Veluza",
@@ -104089,8 +104025,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "977": {
       "name": "Dondozo",
@@ -104146,8 +104081,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "978": {
       "name": "Tatsugiri",
@@ -104217,8 +104151,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "979": {
       "name": "Annihilape",
@@ -104282,8 +104215,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "980": {
       "name": "Clodsire",
@@ -104348,8 +104280,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "981": {
       "name": "Farigiraf",
@@ -104413,8 +104344,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "982": {
       "name": "Dudunsparce",
@@ -104481,8 +104411,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "983": {
       "name": "Kingambit",
@@ -104546,8 +104475,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "984": {
       "name": "Greattusk",
@@ -104590,9 +104518,9 @@
         }
       },
       "stats": {
-        "attack": 226,
-        "defense": 190,
-        "stamina": 229
+        "attack": 249,
+        "defense": 209,
+        "stamina": 251
       },
       "height": 2.2,
       "weight": 320,
@@ -104607,8 +104535,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "985": {
       "name": "Screamtail",
@@ -104668,8 +104595,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "986": {
       "name": "Brutebonnet",
@@ -104729,8 +104655,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "987": {
       "name": "Fluttermane",
@@ -104790,8 +104715,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "988": {
       "name": "Slitherwing",
@@ -104851,8 +104775,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "989": {
       "name": "Sandyshocks",
@@ -104912,8 +104835,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "990": {
       "name": "Irontreads",
@@ -104973,8 +104895,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "991": {
       "name": "Ironbundle",
@@ -105034,8 +104955,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "992": {
       "name": "Ironhands",
@@ -105078,9 +104998,9 @@
         }
       },
       "stats": {
-        "attack": 223,
-        "defense": 161,
-        "stamina": 291
+        "attack": 245,
+        "defense": 177,
+        "stamina": 319
       },
       "height": 1.8,
       "weight": 380.7,
@@ -105095,8 +105015,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "993": {
       "name": "Ironjugulis",
@@ -105156,8 +105075,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "994": {
       "name": "Ironmoth",
@@ -105217,8 +105135,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "995": {
       "name": "Ironthorns",
@@ -105278,8 +105195,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "996": {
       "name": "Frigibax",
@@ -105344,10 +105260,10 @@
       "evolutions": {
         "997": {
           "pokemon": 997,
-          "form": 0
+          "form": 0,
+          "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "997": {
@@ -105417,10 +105333,10 @@
       "evolutions": {
         "998": {
           "pokemon": 998,
-          "form": 0
+          "form": 0,
+          "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "998": {
       "name": "Baxcalibur",
@@ -105463,9 +105379,9 @@
         }
       },
       "stats": {
-        "attack": 254,
-        "defense": 168,
-        "stamina": 229
+        "attack": 280,
+        "defense": 184,
+        "stamina": 251
       },
       "height": 2.1,
       "weight": 210,
@@ -105485,8 +105401,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "999": {
       "name": "Gimmighoul",
@@ -105708,8 +105623,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1002": {
       "name": "Chienpao",
@@ -105768,8 +105682,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1003": {
       "name": "Tinglu",
@@ -105828,8 +105741,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1004": {
       "name": "Chiyu",
@@ -105888,8 +105800,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1005": {
       "name": "Roaringmoon",
@@ -105932,9 +105843,9 @@
         }
       },
       "stats": {
-        "attack": 254,
-        "defense": 178,
-        "stamina": 213
+        "attack": 280,
+        "defense": 196,
+        "stamina": 233
       },
       "height": 2,
       "weight": 380,
@@ -105949,8 +105860,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1006": {
       "name": "Ironvaliant",
@@ -106010,8 +105920,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1007": {
       "name": "Koraidon",
@@ -106070,8 +105979,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "1008": {
       "name": "Miraidon",
@@ -106130,8 +106038,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     }
   },
   "forms": {
@@ -116499,13 +116406,6 @@
       "tempEvolutions": [
         {
           "tempEvoId": 1,
-          "attack": 389,
-          "defense": 216,
-          "stamina": 233,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
           "attack": 377,
           "defense": 210,
           "stamina": 227,
@@ -116526,13 +116426,6 @@
       "proto": "RAYQUAZA_PURIFIED",
       "formId": 1645,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 389,
-          "defense": 216,
-          "stamina": 233,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 377,
@@ -127430,7 +127323,8 @@
     "387": {
       "id": 387,
       "name": "Geomancy",
-      "proto": "GEOMANCY_FAST"
+      "proto": "GEOMANCY_FAST",
+      "power": 4
     },
     "388": {
       "id": 388,
@@ -127440,7 +127334,8 @@
     "389": {
       "id": 389,
       "name": "Oblivion Wing",
-      "proto": "OBLIVION_WING"
+      "proto": "OBLIVION_WING",
+      "power": 85
     },
     "390": {
       "id": 390,
