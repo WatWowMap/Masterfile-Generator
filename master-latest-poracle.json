@@ -51979,7 +51979,11 @@
         {
           "evoId": 923,
           "id": 0,
-          "candyCost": 100
+          "candyCost": 100,
+          "questRequirement": {
+            "target": 25,
+            "i18n": "Walk {{amount}} km with your buddy"
+          }
         }
       ]
     },
@@ -57161,6 +57165,18 @@
     "389": {
       "name": "Oblivion Wing",
       "type": "Flying"
+    },
+    "391": {
+      "name": "Triple Axel",
+      "type": "Ice"
+    },
+    "392": {
+      "name": "Trailblaze",
+      "type": "Grass"
+    },
+    "393": {
+      "name": "Scorching Sands",
+      "type": "Ground"
     }
   },
   "questTypes": {
