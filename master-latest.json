@@ -1834,7 +1834,8 @@
       "charged_moves": [
         "Earthquake",
         "Rock Tomb",
-        "Bulldoze"
+        "Bulldoze",
+        "Scorching Sands"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -2424,7 +2425,8 @@
         "Psyshock",
         "Solar Beam",
         "Overheat",
-        "Weather Ball Fire"
+        "Weather Ball Fire",
+        "Scorching Sands"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -3304,7 +3306,8 @@
           "charged_moves": [
             "Dig",
             "Night Slash",
-            "Gyro Ball"
+            "Gyro Ball",
+            "Trailblaze"
           ],
           "types": [
             "Steel"
@@ -3711,7 +3714,8 @@
         "Fire Blast",
         "Wild Charge",
         "Crunch",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Scorching Sands"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -4890,7 +4894,8 @@
         "Heat Wave",
         "Drill Run",
         "Flame Charge",
-        "Fire Blast"
+        "Fire Blast",
+        "Scorching Sands"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -5152,7 +5157,8 @@
       ],
       "quick_moves": [
         "Thunder Shock",
-        "Spark"
+        "Spark",
+        "Volt Switch"
       ],
       "charged_moves": [
         "Discharge",
@@ -5213,7 +5219,8 @@
       "quick_moves": [
         "Thunder Shock",
         "Spark",
-        "Charge Beam"
+        "Charge Beam",
+        "Volt Switch"
       ],
       "charged_moves": [
         "Discharge",
@@ -5705,7 +5712,8 @@
       "charged_moves": [
         "Bubble Beam",
         "Water Pulse",
-        "Icy Wind"
+        "Icy Wind",
+        "Razor Shell"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -5767,6 +5775,7 @@
         "Icy Wind",
         "Aurora Beam",
         "Avalanche",
+        "Razor Shell",
         "Liquidation"
       ],
       "gen_id": 1,
@@ -5988,7 +5997,8 @@
       "charged_moves": [
         "Stone Edge",
         "Sand Tomb",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Breaking Swipe"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -6160,7 +6170,8 @@
       "charged_moves": [
         "Vice Grip",
         "Bubble Beam",
-        "Water Pulse"
+        "Water Pulse",
+        "Razor Shell"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -6220,7 +6231,8 @@
         "Vice Grip",
         "X Scissor",
         "Water Pulse",
-        "Crabhammer"
+        "Crabhammer",
+        "Razor Shell"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -6692,7 +6704,8 @@
       "charged_moves": [
         "Stone Edge",
         "Low Sweep",
-        "Close Combat"
+        "Close Combat",
+        "Blaze Kick"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -7035,7 +7048,8 @@
       "charged_moves": [
         "Earthquake",
         "Stone Edge",
-        "Surf"
+        "Surf",
+        "Breaking Swipe"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -7576,7 +7590,8 @@
       ],
       "quick_moves": [
         "Zen Headbutt",
-        "Confusion"
+        "Confusion",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Psybeam",
@@ -7606,10 +7621,15 @@
           "stamina": 137,
           "height": 1.4,
           "weight": 56.8,
+          "quick_moves": [
+            "Zen Headbutt",
+            "Confusion"
+          ],
           "charged_moves": [
             "Psybeam",
             "Ice Punch",
-            "Psychic"
+            "Psychic",
+            "Triple Axel"
           ],
           "types": [
             "Psychic",
@@ -7652,7 +7672,8 @@
       "charged_moves": [
         "Aerial Ace",
         "Night Slash",
-        "X Scissor"
+        "X Scissor",
+        "Trailblaze"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -7817,7 +7838,8 @@
       "charged_moves": [
         "Flamethrower",
         "Fire Blast",
-        "Fire Punch"
+        "Fire Punch",
+        "Scorching Sands"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -7942,7 +7964,8 @@
       "charged_moves": [
         "Earthquake",
         "Iron Head",
-        "Horn Attack"
+        "Horn Attack",
+        "Trailblaze"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -9366,7 +9389,8 @@
       ],
       "quick_moves": [
         "Vine Whip",
-        "Tackle"
+        "Tackle",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Body Slam",
@@ -9423,7 +9447,8 @@
       ],
       "quick_moves": [
         "Razor Leaf",
-        "Tackle"
+        "Tackle",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Ancient Power",
@@ -9479,7 +9504,8 @@
       ],
       "quick_moves": [
         "Vine Whip",
-        "Razor Leaf"
+        "Razor Leaf",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Earthquake",
@@ -10778,7 +10804,8 @@
       "charged_moves": [
         "Discharge",
         "Thunderbolt",
-        "Body Slam"
+        "Body Slam",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -10837,7 +10864,8 @@
       "charged_moves": [
         "Discharge",
         "Power Gem",
-        "Thunderbolt"
+        "Thunderbolt",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -10898,7 +10926,8 @@
         "Thunder",
         "Focus Blast",
         "Zap Cannon",
-        "Brutal Swing"
+        "Brutal Swing",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -10954,7 +10983,8 @@
       "quick_moves": [
         "Razor Leaf",
         "Acid",
-        "Bullet Seed"
+        "Bullet Seed",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Petal Blizzard",
@@ -11106,7 +11136,8 @@
         "Stone Edge",
         "Rock Tomb",
         "Rock Slide",
-        "Meteor Beam"
+        "Meteor Beam",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12171,7 +12202,8 @@
         "Thunderbolt",
         "Psychic",
         "Mirror Coat",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12435,7 +12467,8 @@
         "Earthquake",
         "Heavy Slam",
         "Crunch",
-        "Psychic Fangs"
+        "Psychic Fangs",
+        "Breaking Swipe"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12679,7 +12712,8 @@
       "charged_moves": [
         "Night Slash",
         "Iron Head",
-        "X Scissor"
+        "X Scissor",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12849,7 +12883,8 @@
       "charged_moves": [
         "Ice Punch",
         "Avalanche",
-        "Foul Play"
+        "Foul Play",
+        "Triple Axel"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12932,7 +12967,8 @@
       "charged_moves": [
         "Cross Chop",
         "Play Rough",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -12992,7 +13028,8 @@
       "charged_moves": [
         "Hyper Beam",
         "Play Rough",
-        "Close Combat"
+        "Close Combat",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -13736,7 +13773,8 @@
       "charged_moves": [
         "Rock Slide",
         "Bulldoze",
-        "Body Slam"
+        "Body Slam",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -13791,7 +13829,8 @@
         "Earthquake",
         "Play Rough",
         "Body Slam",
-        "Heavy Slam"
+        "Heavy Slam",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -14045,7 +14084,8 @@
       "charged_moves": [
         "Stone Edge",
         "Close Combat",
-        "Gyro Ball"
+        "Gyro Ball",
+        "Triple Axel"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -14395,7 +14435,8 @@
         "Iron Head",
         "Flame Charge",
         "Fire Blast",
-        "Overheat"
+        "Overheat",
+        "Scorching Sands"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -14931,7 +14972,8 @@
         "Earthquake",
         "Aerial Ace",
         "Dragon Claw",
-        "Leaf Blade"
+        "Leaf Blade",
+        "Breaking Swipe"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -16440,12 +16482,14 @@
       ],
       "quick_moves": [
         "Confusion",
-        "Charge Beam"
+        "Charge Beam",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Shadow Sneak",
         "Disarming Voice",
-        "Psychic"
+        "Psychic",
+        "Triple Axel"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -16510,12 +16554,14 @@
       "quick_moves": [
         "Confusion",
         "Charge Beam",
-        "Charm"
+        "Charm",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Shadow Ball",
         "Dazzling Gleam",
-        "Psychic"
+        "Psychic",
+        "Triple Axel"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -18288,7 +18334,8 @@
       ],
       "quick_moves": [
         "Razor Leaf",
-        "Poison Jab"
+        "Poison Jab",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Petal Blizzard",
@@ -18390,6 +18437,7 @@
         "Poison"
       ],
       "quick_moves": [
+        "Mud Shot",
         "Rock Smash",
         "Infestation"
       ],
@@ -19036,7 +19084,8 @@
       "charged_moves": [
         "Dig",
         "Sand Tomb",
-        "Crunch"
+        "Crunch",
+        "Scorching Sands"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19096,7 +19145,8 @@
       "charged_moves": [
         "Bug Buzz",
         "Bulldoze",
-        "Sand Tomb"
+        "Sand Tomb",
+        "Scorching Sands"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19156,7 +19206,8 @@
         "Earthquake",
         "Stone Edge",
         "Dragon Claw",
-        "Boomburst"
+        "Boomburst",
+        "Scorching Sands"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19708,7 +19759,8 @@
       "charged_moves": [
         "Vice Grip",
         "Bubble Beam",
-        "Aqua Jet"
+        "Aqua Jet",
+        "Razor Shell"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19762,7 +19814,8 @@
         "Vice Grip",
         "Night Slash",
         "Bubble Beam",
-        "Crabhammer"
+        "Crabhammer",
+        "Razor Shell"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19867,7 +19920,8 @@
         "Shadow Ball",
         "Psychic",
         "Gyro Ball",
-        "Earth Power"
+        "Earth Power",
+        "Scorching Sands"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -23314,7 +23368,8 @@
       ],
       "quick_moves": [
         "Razor Leaf",
-        "Poison Jab"
+        "Poison Jab",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Dazzling Gleam",
@@ -24499,7 +24554,8 @@
       "charged_moves": [
         "Hyper Beam",
         "Fire Punch",
-        "Focus Blast"
+        "Focus Blast",
+        "Triple Axel"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -24553,7 +24609,8 @@
       ],
       "quick_moves": [
         "Sucker Punch",
-        "Hex"
+        "Hex",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Dark Pulse",
@@ -24803,7 +24860,8 @@
       "charged_moves": [
         "Flamethrower",
         "Sludge Bomb",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -24863,7 +24921,8 @@
       "charged_moves": [
         "Flamethrower",
         "Sludge Bomb",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -25499,7 +25558,8 @@
       "charged_moves": [
         "Cross Chop",
         "Low Sweep",
-        "Brick Break"
+        "Brick Break",
+        "Blaze Kick"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -25553,6 +25613,7 @@
         "Flash Cannon",
         "Shadow Ball",
         "Close Combat",
+        "Blaze Kick",
         "Power Up Punch",
         "Aura Sphere"
       ],
@@ -25677,7 +25738,8 @@
         "Stone Edge",
         "Body Slam",
         "Weather Ball Rock",
-        "Earth Power"
+        "Earth Power",
+        "Scorching Sands"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -25828,6 +25890,7 @@
         "Poison"
       ],
       "quick_moves": [
+        "Mud Shot",
         "Poison Jab",
         "Poison Sting"
       ],
@@ -25881,6 +25944,7 @@
         "Poison"
       ],
       "quick_moves": [
+        "Mud Shot",
         "Poison Jab",
         "Counter"
       ],
@@ -26254,7 +26318,8 @@
       "charged_moves": [
         "Focus Blast",
         "Avalanche",
-        "Foul Play"
+        "Foul Play",
+        "Triple Axel"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -26296,7 +26361,8 @@
       ],
       "quick_moves": [
         "Spark",
-        "Charge Beam"
+        "Charge Beam",
+        "Volt Switch"
       ],
       "charged_moves": [
         "Flash Cannon",
@@ -26398,7 +26464,8 @@
         "Stone Edge",
         "Surf",
         "Skull Bash",
-        "Super Power"
+        "Super Power",
+        "Breaking Swipe"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -26540,7 +26607,8 @@
         "Fire Blast",
         "Psychic",
         "Fire Punch",
-        "Brick Break"
+        "Brick Break",
+        "Scorching Sands"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -27799,7 +27867,8 @@
       ],
       "quick_moves": [
         "Zen Headbutt",
-        "Hidden Power"
+        "Hidden Power",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Solar Beam",
@@ -29828,7 +29897,8 @@
         "Earthquake",
         "Drill Run",
         "Rock Slide",
-        "Iron Head"
+        "Iron Head",
+        "Scorching Sands"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -30788,7 +30858,8 @@
       ],
       "quick_moves": [
         "Hidden Power",
-        "Charm"
+        "Charm",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -32698,7 +32769,8 @@
       "charged_moves": [
         "Seed Bomb",
         "Wild Charge",
-        "Energy Ball"
+        "Energy Ball",
+        "Trailblaze"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -32775,7 +32847,8 @@
         "Hyper Beam",
         "Megahorn",
         "Solar Beam",
-        "Wild Charge"
+        "Wild Charge",
+        "Trailblaze"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -34362,7 +34435,8 @@
       ],
       "quick_moves": [
         "Acid",
-        "Infestation"
+        "Infestation",
+        "Water Shuriken"
       ],
       "charged_moves": [
         "Bug Buzz",
@@ -34533,7 +34607,8 @@
       "charged_moves": [
         "Stone Edge",
         "Brick Break",
-        "Grass Knot"
+        "Grass Knot",
+        "Blaze Kick"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -36525,7 +36600,8 @@
         "Hyper Beam",
         "Dig",
         "Earthquake",
-        "Fire Punch"
+        "Fire Punch",
+        "Scorching Sands"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -37914,7 +37990,8 @@
           "proto": "MEOWSTIC_FEMALE",
           "quick_moves": [
             "Confusion",
-            "Charm"
+            "Charm",
+            "Magical Leaf"
           ],
           "charged_moves": [
             "Shadow Ball",
@@ -38359,7 +38436,8 @@
         "Cross Chop",
         "Stone Edge",
         "Grass Knot",
-        "Skull Bash"
+        "Skull Bash",
+        "Razor Shell"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -38605,7 +38683,8 @@
         "Parabolic Charge",
         "Thunderbolt",
         "Bulldoze",
-        "Grass Knot"
+        "Grass Knot",
+        "Breaking Swipe"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -39897,6 +39976,7 @@
       "quick_moves": [
         "Razor Leaf",
         "Tackle",
+        "Magical Leaf",
         "Leafage"
       ],
       "charged_moves": [
@@ -39941,6 +40021,7 @@
       "quick_moves": [
         "Peck",
         "Razor Leaf",
+        "Magical Leaf",
         "Leafage"
       ],
       "charged_moves": [
@@ -39989,6 +40070,7 @@
       "quick_moves": [
         "Razor Leaf",
         "Astonish",
+        "Magical Leaf",
         "Leafage"
       ],
       "charged_moves": [
@@ -40126,7 +40208,8 @@
       "charged_moves": [
         "Dark Pulse",
         "Flame Charge",
-        "Fire Blast"
+        "Fire Blast",
+        "Blaze Kick"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -40843,7 +40926,8 @@
       "charged_moves": [
         "Stone Edge",
         "Rock Tomb",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -40892,7 +40976,8 @@
       "charged_moves": [
         "Stone Edge",
         "Drill Run",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -40916,7 +41001,8 @@
           "charged_moves": [
             "Stone Edge",
             "Crunch",
-            "Psychic Fangs"
+            "Psychic Fangs",
+            "Trailblaze"
           ]
         },
         "2686": {
@@ -40933,7 +41019,8 @@
           "charged_moves": [
             "Stone Edge",
             "Iron Head",
-            "Crunch"
+            "Crunch",
+            "Trailblaze"
           ]
         }
       },
@@ -41259,7 +41346,8 @@
       "charged_moves": [
         "Leaf Blade",
         "Grass Knot",
-        "Energy Ball"
+        "Energy Ball",
+        "Trailblaze"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41304,7 +41392,8 @@
         "X Scissor",
         "Leaf Blade",
         "Super Power",
-        "Leaf Storm"
+        "Leaf Storm",
+        "Trailblaze"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41629,7 +41718,8 @@
       "charged_moves": [
         "Draining Kiss",
         "Grass Knot",
-        "Energy Ball"
+        "Energy Ball",
+        "Triple Axel"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41673,7 +41763,8 @@
         "Draining Kiss",
         "Stomp",
         "Grass Knot",
-        "Energy Ball"
+        "Energy Ball",
+        "Triple Axel"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41869,6 +41960,7 @@
         "Aerial Ace",
         "Aqua Jet",
         "X Scissor",
+        "Razor Shell",
         "Liquidation"
       ],
       "gen_id": 7,
@@ -41907,7 +41999,8 @@
       "charged_moves": [
         "Shadow Ball",
         "Sand Tomb",
-        "Earth Power"
+        "Earth Power",
+        "Scorching Sands"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -41951,7 +42044,8 @@
       "charged_moves": [
         "Shadow Ball",
         "Sand Tomb",
-        "Earth Power"
+        "Earth Power",
+        "Scorching Sands"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -44098,7 +44192,8 @@
       ],
       "charged_moves": [
         "Body Slam",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -44136,6 +44231,7 @@
       ],
       "quick_moves": [
         "Bite",
+        "Mud Shot",
         "Tackle",
         "Bullet Seed"
       ],
@@ -45916,7 +46012,8 @@
         "Iron Head",
         "Play Rough",
         "Close Combat",
-        "Foul Play"
+        "Foul Play",
+        "Trailblaze"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -46059,7 +46156,8 @@
         "Psybeam",
         "Ice Punch",
         "Psychic",
-        "Icy Wind"
+        "Icy Wind",
+        "Triple Axel"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -47258,6 +47356,7 @@
       ],
       "quick_moves": [
         "Thunder Shock",
+        "Volt Switch",
         "Lock On"
       ],
       "charged_moves": [
@@ -47298,7 +47397,8 @@
       "charged_moves": [
         "Hyper Beam",
         "Dragon Pulse",
-        "Outrage"
+        "Outrage",
+        "Breaking Swipe"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -47541,7 +47641,8 @@
       "charged_moves": [
         "Stone Edge",
         "Rock Slide",
-        "X Scissor"
+        "X Scissor",
+        "Trailblaze"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -47580,7 +47681,8 @@
         "Ice Punch",
         "Aerial Ace",
         "Thunder Punch",
-        "Fire Punch"
+        "Fire Punch",
+        "Trailblaze"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -50123,7 +50225,7 @@
       "family": 962,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 5,
+      "buddy_group_number": 7,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -51490,9 +51592,9 @@
           "proto": "FORM_UNSET"
         }
       },
-      "attack": 280,
-      "defense": 184,
-      "stamina": 251,
+      "attack": 254,
+      "defense": 168,
+      "stamina": 229,
       "height": 2.1,
       "weight": 210,
       "family": 996,
@@ -52889,7 +52991,7 @@
       "name": "Dig",
       "proto": "DIG",
       "type": "Ground",
-      "power": 100
+      "power": 80
     },
     "27": {
       "name": "Low Kick",
@@ -52915,7 +53017,7 @@
       "name": "Earthquake",
       "proto": "EARTHQUAKE",
       "type": "Ground",
-      "power": 120
+      "power": 110
     },
     "32": {
       "name": "Stone Edge",
@@ -53299,7 +53401,7 @@
       "name": "X Scissor",
       "proto": "X_SCISSOR",
       "type": "Bug",
-      "power": 45
+      "power": 65
     },
     "101": {
       "name": "Flame Charge",
@@ -53347,7 +53449,7 @@
       "name": "Psychic",
       "proto": "PSYCHIC",
       "type": "Psychic",
-      "power": 90
+      "power": 85
     },
     "109": {
       "name": "Psystrike",
@@ -53547,7 +53649,7 @@
       "name": "Spark",
       "proto": "SPARK_FAST",
       "type": "Electric",
-      "power": 4
+      "power": 6
     },
     "207": {
       "name": "Low Kick",
@@ -54546,7 +54648,7 @@
       "name": "Poltergeist",
       "proto": "POLTERGEIST",
       "type": "Ghost",
-      "power": 140
+      "power": 150
     },
     "377": {
       "name": "High Horsepower",

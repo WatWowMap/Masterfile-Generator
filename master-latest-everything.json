@@ -1349,7 +1349,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -1665,7 +1665,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "311": {
           "moveId": 311,
@@ -2112,7 +2112,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "129": {
           "moveId": 129,
@@ -2270,7 +2270,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "129": {
           "moveId": 129,
@@ -3391,7 +3391,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "250": {
           "moveId": 250,
@@ -3470,7 +3470,7 @@
               "moveName": "Spark",
               "proto": "SPARK_FAST",
               "type": 13,
-              "power": 4
+              "power": 6
             },
             "250": {
               "moveId": 250,
@@ -3493,7 +3493,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "251": {
               "moveId": 251,
@@ -3589,7 +3589,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "64": {
           "moveId": 64,
@@ -3761,7 +3761,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "63": {
           "moveId": 63,
@@ -3774,6 +3774,13 @@
           "moveId": 95,
           "moveName": "Bulldoze",
           "proto": "BULLDOZE",
+          "type": 5,
+          "power": 80
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
           "type": 5,
           "power": 80
         }
@@ -4033,7 +4040,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "50": {
           "moveId": 50,
@@ -4151,7 +4158,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -4362,7 +4369,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "39": {
           "moveId": 39,
@@ -4494,7 +4501,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "91": {
           "moveId": 91,
@@ -4723,7 +4730,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "301": {
           "moveId": 301,
@@ -5018,6 +5025,13 @@
           "proto": "WEATHER_BALL_FIRE",
           "type": 10,
           "power": 55
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 1,
@@ -5976,7 +5990,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         }
       },
       "genId": 1,
@@ -6078,7 +6092,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "116": {
           "moveId": 116,
@@ -6295,7 +6309,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "262": {
           "moveId": 262,
@@ -6381,7 +6395,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "63": {
           "moveId": 63,
@@ -6530,7 +6544,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -6593,7 +6607,7 @@
               "moveName": "Earthquake",
               "proto": "EARTHQUAKE",
               "type": 5,
-              "power": 120
+              "power": 110
             },
             "74": {
               "moveId": 74,
@@ -6797,7 +6811,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 100
+              "power": 80
             },
             "51": {
               "moveId": 51,
@@ -6812,6 +6826,13 @@
               "proto": "GYRO_BALL",
               "type": 9,
               "power": 80
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
             }
           },
           "types": {
@@ -7184,7 +7205,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "324": {
           "moveId": 324,
@@ -7676,6 +7697,13 @@
           "proto": "PSYCHIC_FANGS",
           "type": 14,
           "power": 40
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 1,
@@ -9406,7 +9434,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "63": {
           "moveId": 63,
@@ -9577,7 +9605,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "32": {
           "moveId": 32,
@@ -9754,7 +9782,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -10102,6 +10130,13 @@
           "proto": "FIRE_BLAST",
           "type": 10,
           "power": 140
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 1,
@@ -10171,7 +10206,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "131": {
               "moveId": 131,
@@ -10275,7 +10310,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -10342,7 +10377,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "284": {
               "moveId": 284,
@@ -10491,7 +10526,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -10557,7 +10592,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "247": {
               "moveId": 247,
@@ -10657,7 +10692,14 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
+        },
+        "250": {
+          "moveId": 250,
+          "moveName": "Volt Switch",
+          "proto": "VOLT_SWITCH_FAST",
+          "type": 13,
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -10765,7 +10807,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "249": {
           "moveId": 249,
@@ -10773,6 +10815,13 @@
           "proto": "CHARGE_BEAM_FAST",
           "type": 13,
           "power": 5
+        },
+        "250": {
+          "moveId": 250,
+          "moveName": "Volt Switch",
+          "proto": "VOLT_SWITCH_FAST",
+          "type": 13,
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -11844,6 +11893,13 @@
           "proto": "ICY_WIND",
           "type": 15,
           "power": 60
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "genId": 1,
@@ -11962,6 +12018,13 @@
           "proto": "AVALANCHE",
           "type": 15,
           "power": 90
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         },
         "383": {
           "moveId": 383,
@@ -12452,6 +12515,13 @@
           "proto": "HEAVY_SLAM",
           "type": 9,
           "power": 70
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 1,
@@ -12563,7 +12633,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -12674,7 +12744,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "115": {
           "moveId": 115,
@@ -12789,6 +12859,13 @@
           "proto": "WATER_PULSE",
           "type": 11,
           "power": 70
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "genId": 1,
@@ -12885,7 +12962,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "105": {
           "moveId": 105,
@@ -12900,6 +12977,13 @@
           "proto": "CRABHAMMER",
           "type": 11,
           "power": 85
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "genId": 1,
@@ -12983,7 +13067,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "221": {
           "moveId": 221,
@@ -13150,7 +13234,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "250": {
           "moveId": 250,
@@ -13345,7 +13429,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -13453,7 +13537,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "116": {
           "moveId": 116,
@@ -13600,7 +13684,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "94": {
           "moveId": 94,
@@ -13704,14 +13788,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "31": {
           "moveId": 31,
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "64": {
           "moveId": 64,
@@ -13896,6 +13980,13 @@
           "proto": "CLOSE_COMBAT",
           "type": 2,
           "power": 100
+        },
+        "317": {
+          "moveId": 317,
+          "moveName": "Blaze Kick",
+          "proto": "BLAZE_KICK",
+          "type": 10,
+          "power": 55
         }
       },
       "genId": 1,
@@ -14562,7 +14653,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -14577,6 +14668,13 @@
           "proto": "SURF",
           "type": 11,
           "power": 65
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 1,
@@ -14685,7 +14783,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -14878,7 +14976,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "277": {
           "moveId": 277,
@@ -15548,7 +15646,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -15628,6 +15726,13 @@
           "proto": "CONFUSION_FAST",
           "type": 14,
           "power": 16
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -15650,7 +15755,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 1,
@@ -15682,6 +15787,22 @@
           },
           "height": 1.4,
           "weight": 56.8,
+          "quickMoves": {
+            "234": {
+              "moveId": 234,
+              "moveName": "Zen Headbutt",
+              "proto": "ZEN_HEADBUTT_FAST",
+              "type": 14,
+              "power": 8
+            },
+            "235": {
+              "moveId": 235,
+              "moveName": "Confusion",
+              "proto": "CONFUSION_FAST",
+              "type": 14,
+              "power": 16
+            }
+          },
           "chargedMoves": {
             "30": {
               "moveId": 30,
@@ -15702,7 +15823,14 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
+            },
+            "391": {
+              "moveId": 391,
+              "moveName": "Triple Axel",
+              "proto": "TRIPLE_AXEL",
+              "type": 15,
+              "power": 60
             }
           },
           "types": {
@@ -15795,7 +15923,14 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 1,
@@ -16113,6 +16248,13 @@
           "proto": "FIRE_PUNCH",
           "type": 10,
           "power": 55
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 1,
@@ -16217,7 +16359,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "245": {
           "moveId": 245,
@@ -16341,7 +16483,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "74": {
           "moveId": 74,
@@ -16356,6 +16498,13 @@
           "proto": "HORN_ATTACK",
           "type": 1,
           "power": 40
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 1,
@@ -16872,7 +17021,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "125": {
           "moveId": 125,
@@ -18022,7 +18171,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "131": {
           "moveId": 131,
@@ -18988,7 +19137,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "247": {
           "moveId": 247,
@@ -19033,7 +19182,7 @@
               "moveName": "Earthquake",
               "proto": "EARTHQUAKE",
               "type": 5,
-              "power": 120
+              "power": 110
             },
             "64": {
               "moveId": 64,
@@ -19368,7 +19517,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "116": {
           "moveId": 116,
@@ -19493,6 +19642,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -19597,6 +19753,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -19704,6 +19867,13 @@
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -19712,7 +19882,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "47": {
           "moveId": 47,
@@ -19916,7 +20086,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "101": {
           "moveId": 101,
@@ -20437,7 +20607,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "123": {
           "moveId": 123,
@@ -20546,7 +20716,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "123": {
           "moveId": 123,
@@ -20754,7 +20924,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "257": {
           "moveId": 257,
@@ -21381,7 +21551,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "237": {
           "moveId": 237,
@@ -21487,7 +21657,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "230": {
           "moveId": 230,
@@ -21823,7 +21993,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "251": {
           "moveId": 251,
@@ -22360,6 +22530,13 @@
           "proto": "BODY_SLAM",
           "type": 1,
           "power": 60
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -22465,6 +22642,13 @@
           "proto": "THUNDERBOLT",
           "type": 13,
           "power": 90
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -22594,6 +22778,13 @@
           "proto": "BRUTAL_SWING",
           "type": 17,
           "power": 65
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -22699,6 +22890,13 @@
           "proto": "BULLET_SEED_FAST",
           "type": 12,
           "power": 5
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -23007,7 +23205,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -23036,6 +23234,13 @@
           "proto": "METEOR_BEAM",
           "type": 6,
           "power": 120
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -23970,7 +24175,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "96": {
           "moveId": 96,
@@ -24083,7 +24288,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -24197,7 +24402,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "275": {
           "moveId": 275,
@@ -24514,7 +24719,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 2,
@@ -25071,7 +25276,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "276": {
           "moveId": 276,
@@ -25086,6 +25291,13 @@
           "proto": "PSYCHIC_FANGS",
           "type": 14,
           "power": 40
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -25273,7 +25485,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "63": {
           "moveId": 63,
@@ -25387,7 +25599,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "46": {
           "moveId": 46,
@@ -25485,7 +25697,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "45": {
           "moveId": 45,
@@ -25602,7 +25814,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "268": {
           "moveId": 268,
@@ -25624,6 +25836,13 @@
           "proto": "PSYCHIC_FANGS",
           "type": 14,
           "power": 40
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 2,
@@ -26143,7 +26362,14 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -26350,7 +26576,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "245": {
           "moveId": 245,
@@ -26484,6 +26710,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 2,
@@ -26547,7 +26780,7 @@
               "moveName": "X-Scissor",
               "proto": "X_SCISSOR",
               "type": 7,
-              "power": 45
+              "power": 65
             },
             "245": {
               "moveId": 245,
@@ -26661,6 +26894,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -26772,6 +27012,13 @@
           "proto": "CLOSE_COMBAT",
           "type": 2,
           "power": 100
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -28286,6 +28533,13 @@
           "proto": "BODY_SLAM",
           "type": 1,
           "power": 60
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -28387,7 +28641,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "88": {
           "moveId": 88,
@@ -28409,6 +28663,13 @@
           "proto": "HEAVY_SLAM",
           "type": 9,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -28894,6 +29155,13 @@
           "proto": "GYRO_BALL",
           "type": 9,
           "power": 80
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 2,
@@ -29412,7 +29680,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 2,
@@ -29625,6 +29893,13 @@
           "proto": "OVERHEAT",
           "type": 10,
           "power": 130
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 2,
@@ -29923,7 +30198,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "62": {
           "moveId": 62,
@@ -30393,7 +30668,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "343": {
           "moveId": 343,
@@ -30686,7 +30961,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "45": {
           "moveId": 45,
@@ -30708,6 +30983,13 @@
           "proto": "LEAF_BLADE",
           "type": 12,
           "power": 70
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 3,
@@ -31178,7 +31460,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "127": {
           "moveId": 127,
@@ -31392,7 +31674,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "91": {
           "moveId": 91,
@@ -31517,7 +31799,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "50": {
           "moveId": 50,
@@ -31728,7 +32010,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "79": {
           "moveId": 79,
@@ -31786,7 +32068,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 100
+              "power": 80
             },
             "125": {
               "moveId": 125,
@@ -31893,7 +32175,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "78": {
           "moveId": 78,
@@ -31944,7 +32226,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 100
+              "power": 80
             },
             "92": {
               "moveId": 92,
@@ -33702,6 +33984,13 @@
           "proto": "CHARGE_BEAM_FAST",
           "type": 13,
           "power": 5
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -33724,7 +34013,14 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 3,
@@ -33835,6 +34131,13 @@
           "proto": "CHARM_FAST",
           "type": 18,
           "power": 15
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -33857,7 +34160,14 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 3,
@@ -34586,7 +34896,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "88": {
           "moveId": 88,
@@ -34889,7 +35199,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "45": {
           "moveId": 45,
@@ -35591,7 +35901,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "227": {
           "moveId": 227,
@@ -35711,7 +36021,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "84": {
           "moveId": 84,
@@ -36692,7 +37002,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "246": {
           "moveId": 246,
@@ -36797,7 +37107,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "219": {
           "moveId": 219,
@@ -37036,7 +37346,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "219": {
           "moveId": 219,
@@ -37137,7 +37447,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "219": {
           "moveId": 219,
@@ -37438,6 +37748,13 @@
           "proto": "POISON_JAB_FAST",
           "type": 4,
           "power": 7
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -37629,6 +37946,13 @@
         }
       },
       "quickMoves": {
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "241": {
           "moveId": 241,
           "moveName": "Rock Smash",
@@ -38297,7 +38621,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "116": {
           "moveId": 116,
@@ -38423,7 +38747,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "116": {
           "moveId": 116,
@@ -38625,7 +38949,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "276": {
           "moveId": 276,
@@ -38716,7 +39040,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "63": {
           "moveId": 63,
@@ -38890,7 +39214,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "258": {
           "moveId": 258,
@@ -38905,6 +39229,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 3,
@@ -39013,6 +39344,13 @@
           "proto": "SAND_TOMB",
           "type": 5,
           "power": 25
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 3,
@@ -39109,7 +39447,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -39131,6 +39469,13 @@
           "proto": "BOOMBURST",
           "type": 1,
           "power": 150
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 3,
@@ -39657,7 +40002,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "51": {
           "moveId": 51,
@@ -39863,7 +40208,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 3,
@@ -39954,7 +40299,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "116": {
           "moveId": 116,
@@ -40264,6 +40609,13 @@
           "proto": "AQUA_JET",
           "type": 11,
           "power": 45
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "genId": 3,
@@ -40377,6 +40729,13 @@
           "proto": "CRABHAMMER",
           "type": 11,
           "power": 85
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "genId": 3,
@@ -40464,7 +40823,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "30": {
           "moveId": 30,
@@ -40577,7 +40936,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "39": {
           "moveId": 39,
@@ -40605,7 +40964,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "267": {
           "moveId": 267,
@@ -40620,6 +40979,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 3,
@@ -42041,7 +42407,7 @@
           "moveName": "Poltergeist",
           "proto": "POLTERGEIST",
           "type": 8,
-          "power": 140
+          "power": 150
         }
       },
       "genId": 3,
@@ -42994,7 +43360,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "40": {
           "moveId": 40,
@@ -43299,7 +43665,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 3,
@@ -44014,7 +44380,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "267": {
           "moveId": 267,
@@ -44118,7 +44484,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "36": {
           "moveId": 36,
@@ -44132,7 +44498,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 3,
@@ -44339,7 +44705,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "40": {
           "moveId": 40,
@@ -44550,7 +44916,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "277": {
           "moveId": 277,
@@ -44677,7 +45043,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "116": {
           "moveId": 116,
@@ -44901,7 +45267,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "103": {
           "moveId": 103,
@@ -45152,7 +45518,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "286": {
           "moveId": 286,
@@ -45682,7 +46048,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -47022,7 +47388,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         }
       },
       "genId": 4,
@@ -47090,7 +47456,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "221": {
           "moveId": 221,
@@ -47199,7 +47565,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -47297,7 +47663,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "278": {
           "moveId": 278,
@@ -47513,6 +47879,13 @@
           "proto": "POISON_JAB_FAST",
           "type": 4,
           "power": 7
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -48658,7 +49031,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "311": {
           "moveId": 311,
@@ -48733,7 +49106,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "250": {
           "moveId": 250,
@@ -49939,6 +50312,13 @@
           "proto": "FOCUS_BLAST",
           "type": 2,
           "power": 150
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 4,
@@ -50039,6 +50419,13 @@
           "proto": "HEX_FAST",
           "type": 8,
           "power": 6
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -50151,7 +50538,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "256": {
           "moveId": 256,
@@ -50565,6 +50952,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 4,
@@ -50673,6 +51067,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 4,
@@ -50889,7 +51290,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "268": {
           "moveId": 268,
@@ -50987,7 +51388,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "63": {
           "moveId": 63,
@@ -51114,7 +51515,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 4,
@@ -51202,7 +51603,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 4,
@@ -51497,7 +51898,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "80": {
           "moveId": 80,
@@ -51612,7 +52013,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "80": {
           "moveId": 80,
@@ -51716,7 +52117,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "103": {
           "moveId": 103,
@@ -51954,6 +52355,13 @@
           "proto": "BRICK_BREAK",
           "type": 2,
           "power": 40
+        },
+        "317": {
+          "moveId": 317,
+          "moveName": "Blaze Kick",
+          "proto": "BLAZE_KICK",
+          "type": 10,
+          "power": 55
         }
       },
       "genId": 4,
@@ -52060,6 +52468,13 @@
           "proto": "CLOSE_COMBAT",
           "type": 2,
           "power": 100
+        },
+        "317": {
+          "moveId": 317,
+          "moveName": "Blaze Kick",
+          "proto": "BLAZE_KICK",
+          "type": 10,
+          "power": 55
         },
         "319": {
           "moveId": 319,
@@ -52178,7 +52593,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "63": {
           "moveId": 63,
@@ -52296,7 +52711,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -52325,6 +52740,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 4,
@@ -52612,6 +53034,13 @@
         }
       },
       "quickMoves": {
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "224": {
           "moveId": 224,
           "moveName": "Poison Jab",
@@ -52718,6 +53147,13 @@
         }
       },
       "quickMoves": {
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "224": {
           "moveId": 224,
           "moveName": "Poison Jab",
@@ -53510,6 +53946,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 4,
@@ -53576,7 +54019,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "249": {
           "moveId": 249,
@@ -53584,6 +54027,13 @@
           "proto": "CHARGE_BEAM_FAST",
           "type": 13,
           "power": 5
+        },
+        "250": {
+          "moveId": 250,
+          "moveName": "Volt Switch",
+          "proto": "VOLT_SWITCH_FAST",
+          "type": 13,
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -53699,7 +54149,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "70": {
           "moveId": 70,
@@ -53801,7 +54251,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -53830,6 +54280,13 @@
           "proto": "SUPER_POWER",
           "type": 2,
           "power": 85
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 4,
@@ -54122,7 +54579,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "115": {
           "moveId": 115,
@@ -54137,6 +54594,13 @@
           "proto": "BRICK_BREAK",
           "type": 2,
           "power": 40
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 4,
@@ -54633,7 +55097,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "45": {
           "moveId": 45,
@@ -54955,7 +55419,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "117": {
           "moveId": 117,
@@ -55058,7 +55522,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "227": {
           "moveId": 227,
@@ -55188,14 +55652,14 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "376": {
           "moveId": 376,
           "moveName": "Poltergeist",
           "proto": "POLTERGEIST",
           "type": 8,
-          "power": 140
+          "power": 150
         }
       },
       "genId": 4,
@@ -56668,7 +57132,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "284": {
           "moveId": 284,
@@ -56836,6 +57300,13 @@
           "proto": "HIDDEN_POWER_FAST",
           "type": 1,
           "power": 9
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -57231,7 +57702,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "247": {
           "moveId": 247,
@@ -58063,7 +58534,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "105": {
           "moveId": 105,
@@ -58283,7 +58754,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "129": {
           "moveId": 129,
@@ -58483,7 +58954,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "63": {
           "moveId": 63,
@@ -58585,7 +59056,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "79": {
           "moveId": 79,
@@ -60107,7 +60578,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "219": {
           "moveId": 219,
@@ -60209,7 +60680,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "207": {
           "moveId": 207,
@@ -60760,7 +61231,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "275": {
           "moveId": 275,
@@ -60858,7 +61329,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "46": {
           "moveId": 46,
@@ -60971,7 +61442,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "46": {
           "moveId": 46,
@@ -60993,6 +61464,13 @@
           "proto": "IRON_HEAD",
           "type": 9,
           "power": 70
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 5,
@@ -62230,7 +62708,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "117": {
           "moveId": 117,
@@ -62568,7 +63046,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "267": {
           "moveId": 267,
@@ -62969,6 +63447,13 @@
           "proto": "CHARM_FAST",
           "type": 18,
           "power": 15
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -63185,7 +63670,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "95": {
           "moveId": 95,
@@ -63291,7 +63776,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "95": {
           "moveId": 95,
@@ -63400,7 +63885,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "277": {
           "moveId": 277,
@@ -63661,7 +64146,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "247": {
           "moveId": 247,
@@ -63996,7 +64481,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "259": {
           "moveId": 259,
@@ -64102,7 +64587,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "259": {
           "moveId": 259,
@@ -64685,7 +65170,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 5,
@@ -65832,7 +66317,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 5,
@@ -65927,7 +66412,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "275": {
           "moveId": 275,
@@ -66032,7 +66517,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "275": {
           "moveId": 275,
@@ -66960,6 +67445,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 5,
@@ -67094,6 +67586,13 @@
           "proto": "WILD_CHARGE",
           "type": 13,
           "power": 100
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 5,
@@ -67303,7 +67802,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         }
       },
       "genId": 5,
@@ -67955,7 +68454,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 5,
@@ -68775,7 +69274,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "221": {
           "moveId": 221,
@@ -68863,7 +69362,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "225": {
           "moveId": 225,
@@ -68969,7 +69468,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "225": {
           "moveId": 225,
@@ -69111,7 +69610,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 5,
@@ -69213,7 +69712,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 5,
@@ -69843,7 +70342,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "51": {
           "moveId": 51,
@@ -70367,6 +70866,13 @@
           "proto": "INFESTATION_FAST",
           "type": 7,
           "power": 6
+        },
+        "373": {
+          "moveId": 373,
+          "moveName": "Water Shuriken",
+          "proto": "WATER_SHURIKEN_FAST",
+          "type": 11,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -70547,7 +71053,7 @@
               "moveName": "Earthquake",
               "proto": "EARTHQUAKE",
               "type": 5,
-              "power": 120
+              "power": 110
             },
             "36": {
               "moveId": 36,
@@ -70753,6 +71259,13 @@
           "proto": "GRASS_KNOT",
           "type": 12,
           "power": 90
+        },
+        "317": {
+          "moveId": 317,
+          "moveName": "Blaze Kick",
+          "proto": "BLAZE_KICK",
+          "type": 10,
+          "power": 55
         }
       },
       "genId": 5,
@@ -71061,7 +71574,7 @@
           "moveName": "Poltergeist",
           "proto": "POLTERGEIST",
           "type": 8,
-          "power": 140
+          "power": 150
         }
       },
       "genId": 5,
@@ -71163,7 +71676,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         }
       },
       "genId": 5,
@@ -71269,7 +71782,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "247": {
           "moveId": 247,
@@ -71367,7 +71880,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "127": {
           "moveId": 127,
@@ -71660,7 +72173,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "256": {
               "moveId": 256,
@@ -72066,7 +72579,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         }
       },
       "genId": 5,
@@ -72793,7 +73306,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "64": {
           "moveId": 64,
@@ -73062,7 +73575,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "122": {
               "moveId": 122,
@@ -73557,7 +74070,7 @@
               "moveName": "Earthquake",
               "proto": "EARTHQUAKE",
               "type": 5,
-              "power": 120
+              "power": 110
             },
             "32": {
               "moveId": 32,
@@ -73824,7 +74337,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "107": {
           "moveId": 107,
@@ -74083,7 +74596,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         }
       },
       "genId": 5,
@@ -74111,7 +74624,7 @@
               "moveName": "X-Scissor",
               "proto": "X_SCISSOR",
               "type": 7,
-              "power": 45
+              "power": 65
             },
             "252": {
               "moveId": 252,
@@ -74146,7 +74659,7 @@
               "moveName": "X-Scissor",
               "proto": "X_SCISSOR",
               "type": 7,
-              "power": 45
+              "power": 65
             }
           }
         },
@@ -74174,7 +74687,7 @@
               "moveName": "X-Scissor",
               "proto": "X_SCISSOR",
               "type": 7,
-              "power": 45
+              "power": 65
             }
           }
         },
@@ -74202,7 +74715,7 @@
               "moveName": "X-Scissor",
               "proto": "X_SCISSOR",
               "type": 7,
-              "power": 45
+              "power": 65
             }
           }
         }
@@ -74745,7 +75258,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "382": {
           "moveId": 382,
@@ -75099,14 +75612,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "31": {
           "moveId": 31,
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "95": {
           "moveId": 95,
@@ -75197,14 +75710,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "31": {
           "moveId": 31,
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "115": {
           "moveId": 115,
@@ -75212,6 +75725,13 @@
           "proto": "FIRE_PUNCH",
           "type": 10,
           "power": 55
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 6,
@@ -76604,7 +77124,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 6,
@@ -76746,7 +77266,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 6,
@@ -76954,7 +77474,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 6,
@@ -77556,7 +78076,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "273": {
           "moveId": 273,
@@ -77644,7 +78164,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "273": {
           "moveId": 273,
@@ -77680,6 +78200,13 @@
               "proto": "CHARM_FAST",
               "type": 18,
               "power": 15
+            },
+            "357": {
+              "moveId": 357,
+              "moveName": "Magical Leaf",
+              "proto": "MAGICAL_LEAF_FAST",
+              "type": 12,
+              "power": 10
             }
           },
           "chargedMoves": {
@@ -77695,7 +78222,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "273": {
               "moveId": 273,
@@ -78139,7 +78666,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 6,
@@ -78563,7 +79090,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "28": {
           "moveId": 28,
@@ -78682,6 +79209,13 @@
           "proto": "SKULL_BASH",
           "type": 1,
           "power": 130
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         }
       },
       "genId": 6,
@@ -79247,6 +79781,13 @@
           "proto": "GRASS_KNOT",
           "type": 12,
           "power": 90
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 6,
@@ -79417,7 +79958,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -79821,7 +80362,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "319": {
           "moveId": 319,
@@ -80826,7 +81367,7 @@
           "moveName": "Poltergeist",
           "proto": "POLTERGEIST",
           "type": 8,
-          "power": 140
+          "power": 150
         }
       },
       "genId": 6,
@@ -81018,7 +81559,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "131": {
           "moveId": 131,
@@ -81285,7 +81826,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "122": {
           "moveId": 122,
@@ -81495,7 +82036,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "122": {
           "moveId": 122,
@@ -81591,7 +82132,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "95": {
           "moveId": 95,
@@ -81849,7 +82390,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 6,
@@ -81891,7 +82432,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             }
           },
           "types": {
@@ -82047,6 +82588,13 @@
           "type": 1,
           "power": 3
         },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
+        },
         "385": {
           "moveId": 385,
           "moveName": "Leafage",
@@ -82135,6 +82683,13 @@
           "moveId": 215,
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
+          "type": 12,
+          "power": 10
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
         },
@@ -82238,6 +82793,13 @@
           "proto": "ASTONISH_FAST",
           "type": 8,
           "power": 5
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 10
         },
         "385": {
           "moveId": 385,
@@ -82549,6 +83111,13 @@
           "proto": "FIRE_BLAST",
           "type": 10,
           "power": 140
+        },
+        "317": {
+          "moveId": 317,
+          "moveName": "Blaze Kick",
+          "proto": "BLAZE_KICK",
+          "type": 10,
+          "power": 55
         }
       },
       "genId": 7,
@@ -82819,7 +83388,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 7,
@@ -83329,7 +83898,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -83345,7 +83914,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "279": {
           "moveId": 279,
@@ -83420,7 +83989,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -83436,7 +84005,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "279": {
           "moveId": 279,
@@ -83514,7 +84083,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "233": {
           "moveId": 233,
@@ -83537,7 +84106,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "279": {
           "moveId": 279,
@@ -84101,6 +84670,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 7,
@@ -84189,6 +84765,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 7,
@@ -84247,6 +84830,13 @@
               "proto": "PSYCHIC_FANGS",
               "type": 14,
               "power": 40
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
             }
           }
         },
@@ -84303,6 +84893,13 @@
               "proto": "CRUNCH",
               "type": 17,
               "power": 70
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
             }
           }
         }
@@ -84640,7 +85237,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "95": {
           "moveId": 95,
@@ -84727,7 +85324,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "95": {
           "moveId": 95,
@@ -85017,6 +85614,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 7,
@@ -85097,7 +85701,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "117": {
           "moveId": 117,
@@ -85119,6 +85723,13 @@
           "proto": "LEAF_STORM",
           "type": 12,
           "power": 130
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 7,
@@ -85813,6 +86424,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 7,
@@ -85917,6 +86535,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 7,
@@ -86074,7 +86699,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "275": {
           "moveId": 275,
@@ -86341,7 +86966,14 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
+        },
+        "318": {
+          "moveId": 318,
+          "moveName": "Razor Shell",
+          "proto": "RAZOR_SHELL",
+          "type": 11,
+          "power": 35
         },
         "383": {
           "moveId": 383,
@@ -86436,6 +87068,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 7,
@@ -86527,6 +87166,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 80
         }
       },
       "genId": 7,
@@ -86760,7 +87406,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "344": {
           "moveId": 344,
@@ -87389,7 +88035,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -88693,7 +89339,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "275": {
           "moveId": 275,
@@ -89029,7 +89675,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -89230,7 +89876,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "117": {
           "moveId": 117,
@@ -90943,6 +91589,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 8,
@@ -91000,6 +91653,13 @@
           "proto": "BITE_FAST",
           "type": 17,
           "power": 4
+        },
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
         },
         "221": {
           "moveId": 221,
@@ -91436,7 +92096,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -91523,7 +92183,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -92261,7 +92921,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -92341,7 +93001,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -92983,7 +93643,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "95": {
           "moveId": 95,
@@ -93070,7 +93730,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "95": {
           "moveId": 95,
@@ -93489,7 +94149,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "224": {
           "moveId": 224,
@@ -94007,7 +94667,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -94120,7 +94780,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -94208,7 +94868,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -94295,7 +94955,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -94396,7 +95056,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "118": {
           "moveId": 118,
@@ -94906,6 +95566,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 8,
@@ -95209,12 +95876,19 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "111": {
           "moveId": 111,
           "moveName": "Icy Wind",
           "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
           "type": 15,
           "power": 60
         }
@@ -96067,7 +96741,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 8,
@@ -96100,7 +96774,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "273": {
               "moveId": 273,
@@ -96260,7 +96934,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "74": {
           "moveId": 74,
@@ -96347,7 +97021,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "74": {
           "moveId": 74,
@@ -97897,6 +98571,13 @@
           "type": 13,
           "power": 3
         },
+        "250": {
+          "moveId": 250,
+          "moveName": "Volt Switch",
+          "proto": "VOLT_SWITCH_FAST",
+          "type": 13,
+          "power": 12
+        },
         "325": {
           "moveId": 325,
           "moveName": "Lock-On",
@@ -97997,6 +98678,13 @@
           "proto": "OUTRAGE",
           "type": 16,
           "power": 110
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 8,
@@ -98227,7 +98915,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "273": {
           "moveId": 273,
@@ -98285,7 +98973,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "254": {
               "moveId": 254,
@@ -98360,7 +99048,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 90
+              "power": 85
             },
             "273": {
               "moveId": 273,
@@ -98473,7 +99161,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "30": {
           "moveId": 30,
@@ -98487,7 +99175,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "60": {
           "moveId": 60,
@@ -98529,7 +99217,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "116": {
           "moveId": 116,
@@ -98663,7 +99351,14 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 8,
@@ -98759,6 +99454,13 @@
           "proto": "FIRE_PUNCH",
           "type": 10,
           "power": 55
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 8,
@@ -99074,7 +99776,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "245": {
           "moveId": 245,
@@ -99339,7 +100041,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "131": {
           "moveId": 131,
@@ -100278,7 +100980,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -100366,7 +101068,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -100459,7 +101161,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "272": {
           "moveId": 272,
@@ -100552,7 +101254,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "272": {
           "moveId": 272,
@@ -100641,7 +101343,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "392": {
           "moveId": 392,
@@ -100739,7 +101441,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "392": {
           "moveId": 392,
@@ -100799,7 +101501,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "249": {
           "moveId": 249,
@@ -100890,7 +101592,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "249": {
           "moveId": 249,
@@ -100991,7 +101693,7 @@
           "moveName": "Spark",
           "proto": "SPARK_FAST",
           "type": 13,
-          "power": 4
+          "power": 6
         },
         "207": {
           "moveId": 207,
@@ -102722,7 +103424,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "279": {
           "moveId": 279,
@@ -102808,7 +103510,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "279": {
           "moveId": 279,
@@ -103675,7 +104377,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "49": {
           "moveId": 49,
@@ -103765,7 +104467,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "30": {
           "moveId": 30,
@@ -103868,7 +104570,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 9,
@@ -103954,7 +104656,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         }
       },
       "genId": 9,
@@ -104298,7 +105000,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -104384,7 +105086,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -104508,7 +105210,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 5,
+        "buddyGroupNumber": 7,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -105015,7 +105717,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "63": {
           "moveId": 63,
@@ -105269,7 +105971,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "70": {
           "moveId": 70,
@@ -105356,7 +106058,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "70": {
           "moveId": 70,
@@ -106059,7 +106761,7 @@
           "moveName": "Earthquake",
           "proto": "EARTHQUAKE",
           "type": 5,
-          "power": 120
+          "power": 110
         },
         "32": {
           "moveId": 32,
@@ -106174,7 +106876,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 90
+          "power": 85
         },
         "276": {
           "moveId": 276,
@@ -106263,7 +106965,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 100
+          "power": 80
         },
         "46": {
           "moveId": 46,
@@ -106370,7 +107072,7 @@
           "moveName": "X-Scissor",
           "proto": "X_SCISSOR",
           "type": 7,
-          "power": 45
+          "power": 65
         },
         "247": {
           "moveId": 247,
@@ -107388,9 +108090,9 @@
         }
       },
       "stats": {
-        "attack": 280,
-        "defense": 184,
-        "stamina": 251
+        "attack": 254,
+        "defense": 168,
+        "stamina": 229
       },
       "height": 2.1,
       "weight": 210,
@@ -122088,7 +122790,8 @@
       "chargedMoves": [
         26,
         51,
-        267
+        267,
+        392
       ],
       "types": [
         9
@@ -122198,10 +122901,15 @@
       "stamina": 137,
       "height": 1.4,
       "weight": 56.8,
+      "quickMoves": [
+        234,
+        235
+      ],
       "chargedMoves": [
         30,
         33,
-        108
+        108,
+        391
       ],
       "types": [
         14,
@@ -122710,7 +123418,8 @@
       "formId": 2590,
       "quickMoves": [
         235,
-        320
+        320,
+        357
       ],
       "chargedMoves": [
         70,
@@ -123409,7 +124118,8 @@
       "chargedMoves": [
         32,
         279,
-        353
+        353,
+        392
       ]
     },
     "2686": {
@@ -123427,7 +124137,8 @@
       "chargedMoves": [
         32,
         74,
-        279
+        279,
+        392
       ]
     },
     "2687": {
@@ -127576,7 +128287,7 @@
       "id": 26,
       "name": "Dig",
       "proto": "DIG",
-      "power": 100
+      "power": 80
     },
     "27": {
       "id": 27,
@@ -127604,7 +128315,7 @@
       "id": 31,
       "name": "Earthquake",
       "proto": "EARTHQUAKE",
-      "power": 120
+      "power": 110
     },
     "32": {
       "id": 32,
@@ -128003,7 +128714,7 @@
       "id": 100,
       "name": "X-Scissor",
       "proto": "X_SCISSOR",
-      "power": 45
+      "power": 65
     },
     "101": {
       "id": 101,
@@ -128051,7 +128762,7 @@
       "id": 108,
       "name": "Psychic",
       "proto": "PSYCHIC",
-      "power": 90
+      "power": 85
     },
     "109": {
       "id": 109,
@@ -128259,7 +128970,7 @@
       "id": 206,
       "name": "Spark",
       "proto": "SPARK_FAST",
-      "power": 4
+      "power": 6
     },
     "207": {
       "id": 207,
@@ -129267,7 +129978,7 @@
       "id": 376,
       "name": "Poltergeist",
       "proto": "POLTERGEIST",
-      "power": 140
+      "power": 150
     },
     "377": {
       "id": 377,
