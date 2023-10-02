@@ -57572,11 +57572,10 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
-          103,
           443
         ],
         "second": [
@@ -57585,8 +57584,7 @@
         ],
         "third": [
           148,
-          149,
-          444
+          149
         ]
       }
     },
