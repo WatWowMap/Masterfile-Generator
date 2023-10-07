@@ -44784,6 +44784,31 @@
         }
       ]
     },
+    "724_0": {
+      "name": "Decidueye",
+      "id": 724,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 210,
+        "baseDefense": 179,
+        "baseStamina": 186
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "724_2785": {
       "name": "Decidueye",
       "id": 724,
@@ -45454,6 +45479,41 @@
       },
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
+    },
+    "744_0": {
+      "name": "Rockruff",
+      "id": 744,
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "stats": {
+        "baseAttack": 117,
+        "baseDefense": 78,
+        "baseStamina": 128
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 745,
+          "id": 2684,
+          "candyCost": 50,
+          "onlyDaytime": true
+        },
+        {
+          "evoId": 745,
+          "id": 2685,
+          "candyCost": 50,
+          "onlyNighttime": true
+        }
+      ]
     },
     "744_2737": {
       "name": "Rockruff",
