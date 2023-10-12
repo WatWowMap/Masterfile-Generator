@@ -23547,8 +23547,7 @@
       ],
       "quickMoves": [
         234,
-        281,
-        357
+        281
       ],
       "chargedMoves": [
         116,
@@ -31897,7 +31896,6 @@
       ],
       "chargedMoves": [
         59,
-        64,
         123
       ],
       "genId": 6,
@@ -31943,7 +31941,6 @@
       ],
       "chargedMoves": [
         59,
-        64,
         117,
         123
       ],
@@ -33574,6 +33571,7 @@
       "height": 0.3,
       "weight": 3.5,
       "family": 710,
+      "bonusCandyCapture": 2,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -33627,7 +33625,7 @@
       "height": 0.7,
       "weight": 9.5,
       "family": 710,
-      "bonusCandyCapture": 2,
+      "bonusCandyCapture": 4,
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
@@ -43381,6 +43379,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 3,
       "buddyDistance": 1,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -51304,8 +51303,6 @@
       "formName": "Normal",
       "proto": "GARCHOMP_NORMAL",
       "formId": 867,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -51314,7 +51311,9 @@
           "stamina": 239,
           "unreleased": true
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "868": {
       "formName": "Shadow",
@@ -64074,6 +64073,20 @@
       "itemId": 1608,
       "itemName": "Evergreen Ticket To Gift",
       "proto": "ITEM_EVERGREEN_TICKET_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1610": {
+      "itemId": 1610,
+      "itemName": "Ticket City Safari 00",
+      "proto": "ITEM_TICKET_CITY_SAFARI_00",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1611": {
+      "itemId": 1611,
+      "itemName": "Ticket City Safari 01",
+      "proto": "ITEM_TICKET_CITY_SAFARI_01",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

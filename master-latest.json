@@ -28755,8 +28755,7 @@
       ],
       "quick_moves": [
         "Zen Headbutt",
-        "Hidden Power",
-        "Magical Leaf"
+        "Hidden Power"
       ],
       "charged_moves": [
         "Solar Beam",
@@ -39135,7 +39134,6 @@
       ],
       "charged_moves": [
         "Seed Bomb",
-        "Rock Slide",
         "Brick Break"
       ],
       "gen_id": 6,
@@ -39180,7 +39178,6 @@
       ],
       "charged_moves": [
         "Seed Bomb",
-        "Rock Slide",
         "Leaf Blade",
         "Brick Break"
       ],
@@ -51028,6 +51025,7 @@
       "family": 938,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
       "buddy_distance": 1,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -54645,6 +54643,18 @@
     "1608": {
       "name": "Evergreen Ticket To Gift",
       "proto": "ITEM_EVERGREEN_TICKET_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1610": {
+      "name": "Ticket City Safari 00",
+      "proto": "ITEM_TICKET_CITY_SAFARI_00",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1611": {
+      "name": "Ticket City Safari 01",
+      "proto": "ITEM_TICKET_CITY_SAFARI_01",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

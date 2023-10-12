@@ -58655,13 +58655,6 @@
           "proto": "HIDDEN_POWER_FAST",
           "type": 1,
           "power": 9
-        },
-        "357": {
-          "moveId": 357,
-          "moveName": "Magical Leaf",
-          "proto": "MAGICAL_LEAF_FAST",
-          "type": 12,
-          "power": 10
         }
       },
       "chargedMoves": {
@@ -79064,13 +79057,6 @@
           "type": 12,
           "power": 60
         },
-        "64": {
-          "moveId": 64,
-          "moveName": "Rock Slide",
-          "proto": "ROCK_SLIDE",
-          "type": 6,
-          "power": 75
-        },
         "123": {
           "moveId": 123,
           "moveName": "Brick Break",
@@ -79157,13 +79143,6 @@
           "proto": "SEED_BOMB",
           "type": 12,
           "power": 60
-        },
-        "64": {
-          "moveId": 64,
-          "moveName": "Rock Slide",
-          "proto": "ROCK_SLIDE",
-          "type": 6,
-          "power": 75
         },
         "117": {
           "moveId": 117,
@@ -82796,6 +82775,9 @@
       "height": 0.3,
       "weight": 3.5,
       "family": 710,
+      "encounter": {
+        "bonusCandyCapture": 2
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -82944,7 +82926,7 @@
       "weight": 9.5,
       "family": 710,
       "encounter": {
-        "bonusCandyCapture": 2,
+        "bonusCandyCapture": 4,
         "bonusStardustCapture": 200
       },
       "legendary": false,
@@ -104893,6 +104875,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 3,
         "buddyDistance": 1,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -115804,8 +115787,6 @@
       "formName": "Normal",
       "proto": "GARCHOMP_NORMAL",
       "formId": 867,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -115814,7 +115795,9 @@
           "stamina": 239,
           "unreleased": true
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "868": {
       "formName": "Shadow",
@@ -129868,6 +129851,20 @@
       "id": 1608,
       "name": "Evergreen Ticket To Gift",
       "proto": "ITEM_EVERGREEN_TICKET_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1610": {
+      "id": 1610,
+      "name": "Safari Ticket: Seoul",
+      "proto": "ITEM_TICKET_CITY_SAFARI_00",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1611": {
+      "id": 1611,
+      "name": "Safari Ticket: Barcelona",
+      "proto": "ITEM_TICKET_CITY_SAFARI_01",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
