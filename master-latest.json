@@ -1618,6 +1618,22 @@
             "Fly"
           ]
         },
+        "2825": {
+          "name": "Gotour 2024 A",
+          "proto": "PIKACHU_GOTOUR_2024_A"
+        },
+        "2826": {
+          "name": "Gotour 2024 B",
+          "proto": "PIKACHU_GOTOUR_2024_B"
+        },
+        "2827": {
+          "name": "Gotour 2024 A 02",
+          "proto": "PIKACHU_GOTOUR_2024_A_02"
+        },
+        "2828": {
+          "name": "Gotour 2024 B 02",
+          "proto": "PIKACHU_GOTOUR_2024_B_02"
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -42462,6 +42478,10 @@
         "2737": {
           "name": "Dusk",
           "proto": "ROCKRUFF_DUSK"
+        },
+        "2831": {
+          "name": "Normal",
+          "proto": "ROCKRUFF_NORMAL"
         }
       },
       "attack": 117,
@@ -56733,6 +56753,15 @@
     },
     "66": {
       "text": "Collect Tappable"
+    },
+    "67": {
+      "text": "Activate Trainer Ability"
+    },
+    "68": {
+      "text": "NPC Send Gift"
+    },
+    "69": {
+      "text": "NPC Open Gift"
     }
   },
   "quest_reward_types": {
@@ -57033,6 +57062,14 @@
     "58": {
       "proto": "WITH_IN_PARTY",
       "text": "With In Party"
+    },
+    "59": {
+      "proto": "WITH_SHINY_POKEMON",
+      "text": "With Shiny Pokemon"
+    },
+    "60": {
+      "proto": "WITH_ABILITY_PARTY_POWER_DAMAGE_DEALT",
+      "text": "With Ability Party Power Damage Dealt"
     }
   },
   "invasions": {

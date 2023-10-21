@@ -1279,6 +1279,10 @@
         2814,
         2815,
         2816,
+        2825,
+        2826,
+        2827,
+        2828,
         3002,
         3003,
         3004,
@@ -35078,7 +35082,8 @@
       "generation": "Alola",
       "forms": [
         0,
-        2737
+        2737,
+        2831
       ],
       "attack": 117,
       "defense": 78,
@@ -62706,6 +62711,31 @@
       "purificationDust": 100,
       "purificationCandy": 100
     },
+    "2825": {
+      "formName": "Gotour 2024 A",
+      "proto": "PIKACHU_GOTOUR_2024_A",
+      "formId": 2825
+    },
+    "2826": {
+      "formName": "Gotour 2024 B",
+      "proto": "PIKACHU_GOTOUR_2024_B",
+      "formId": 2826
+    },
+    "2827": {
+      "formName": "Gotour 2024 A 02",
+      "proto": "PIKACHU_GOTOUR_2024_A_02",
+      "formId": 2827
+    },
+    "2828": {
+      "formName": "Gotour 2024 B 02",
+      "proto": "PIKACHU_GOTOUR_2024_B_02",
+      "formId": 2828
+    },
+    "2831": {
+      "formName": "Normal",
+      "proto": "ROCKRUFF_NORMAL",
+      "formId": 2831
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -66346,6 +66376,21 @@
       "id": 66,
       "proto": "QUEST_COLLECT_TAPPABLE",
       "formatted": "Collect Tappable"
+    },
+    "67": {
+      "id": 67,
+      "proto": "QUEST_ACTIVATE_TRAINER_ABILITY",
+      "formatted": "Activate Trainer Ability"
+    },
+    "68": {
+      "id": 68,
+      "proto": "QUEST_NPC_SEND_GIFT",
+      "formatted": "NPC Send Gift"
+    },
+    "69": {
+      "id": 69,
+      "proto": "QUEST_NPC_OPEN_GIFT",
+      "formatted": "NPC Open Gift"
     }
   },
   "questRewardTypes": {
@@ -66720,6 +66765,16 @@
       "id": 58,
       "proto": "WITH_IN_PARTY",
       "formatted": "With In Party"
+    },
+    "59": {
+      "id": 59,
+      "proto": "WITH_SHINY_POKEMON",
+      "formatted": "With Shiny Pokemon"
+    },
+    "60": {
+      "id": 60,
+      "proto": "WITH_ABILITY_PARTY_POWER_DAMAGE_DEALT",
+      "formatted": "With Ability Party Power Damage Dealt"
     }
   },
   "invasions": {

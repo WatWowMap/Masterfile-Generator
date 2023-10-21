@@ -3330,6 +3330,26 @@
             }
           }
         },
+        "2825": {
+          "name": "Gotour 2024 A",
+          "proto": "PIKACHU_GOTOUR_2024_A",
+          "form": 2825
+        },
+        "2826": {
+          "name": "Gotour 2024 B",
+          "proto": "PIKACHU_GOTOUR_2024_B",
+          "form": 2826
+        },
+        "2827": {
+          "name": "Gotour 2024 A 02",
+          "proto": "PIKACHU_GOTOUR_2024_A_02",
+          "form": 2827
+        },
+        "2828": {
+          "name": "Gotour 2024 B 02",
+          "proto": "PIKACHU_GOTOUR_2024_B_02",
+          "form": 2828
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -86218,6 +86238,11 @@
           "name": "Dusk Form",
           "proto": "ROCKRUFF_DUSK",
           "form": 2737
+        },
+        "2831": {
+          "name": "Normal",
+          "proto": "ROCKRUFF_NORMAL",
+          "form": 2831
         }
       },
       "stats": {
@@ -127324,6 +127349,31 @@
       "purificationDust": 100,
       "purificationCandy": 100
     },
+    "2825": {
+      "formName": "Gotour 2024 A",
+      "proto": "PIKACHU_GOTOUR_2024_A",
+      "formId": 2825
+    },
+    "2826": {
+      "formName": "Gotour 2024 B",
+      "proto": "PIKACHU_GOTOUR_2024_B",
+      "formId": 2826
+    },
+    "2827": {
+      "formName": "Gotour 2024 A 02",
+      "proto": "PIKACHU_GOTOUR_2024_A_02",
+      "formId": 2827
+    },
+    "2828": {
+      "formName": "Gotour 2024 B 02",
+      "proto": "PIKACHU_GOTOUR_2024_B_02",
+      "formId": 2828
+    },
+    "2831": {
+      "formName": "Normal",
+      "proto": "ROCKRUFF_NORMAL",
+      "formId": 2831
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -129206,6 +129256,18 @@
       "name": "Pi Noevolve",
       "proto": "PI_NOEVOLVE",
       "noEvolve": true
+    },
+    "73": {
+      "id": 73,
+      "name": "Holiday 2023",
+      "proto": "HOLIDAY_2023",
+      "noEvolve": false
+    },
+    "74": {
+      "id": 74,
+      "name": "Jan 2024",
+      "proto": "JAN_2024",
+      "noEvolve": false
     }
   },
   "items": {
@@ -132121,6 +132183,21 @@
       "id": 66,
       "proto": "QUEST_COLLECT_TAPPABLE",
       "formatted": "Collect Tappable"
+    },
+    "67": {
+      "id": 67,
+      "proto": "QUEST_ACTIVATE_TRAINER_ABILITY",
+      "formatted": "Activate Trainer Ability"
+    },
+    "68": {
+      "id": 68,
+      "proto": "QUEST_NPC_SEND_GIFT",
+      "formatted": "NPC Send Gift"
+    },
+    "69": {
+      "id": 69,
+      "proto": "QUEST_NPC_OPEN_GIFT",
+      "formatted": "NPC Open Gift"
     }
   },
   "questRewardTypes": {
@@ -132495,6 +132572,16 @@
       "id": 58,
       "proto": "WITH_IN_PARTY",
       "formatted": "With In Party"
+    },
+    "59": {
+      "id": 59,
+      "proto": "WITH_SHINY_POKEMON",
+      "formatted": "With Shiny Pokemon"
+    },
+    "60": {
+      "id": 60,
+      "proto": "WITH_ABILITY_PARTY_POWER_DAMAGE_DEALT",
+      "formatted": "With Ability Party Power Damage Dealt"
     }
   },
   "invasions": {
