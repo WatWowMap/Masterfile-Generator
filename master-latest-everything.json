@@ -133060,6 +133060,10 @@
             "formId": 0
           },
           {
+            "id": 215,
+            "formId": 2794
+          },
+          {
             "id": 237,
             "formId": 0
           }
@@ -133124,6 +133128,10 @@
           },
           {
             "id": 322,
+            "formId": 0
+          },
+          {
+            "id": 607,
             "formId": 0
           }
         ],
@@ -133273,6 +133281,10 @@
             "formId": 0
           },
           {
+            "id": 69,
+            "formId": 664
+          },
+          {
             "id": 252,
             "formId": 0
           },
@@ -133331,7 +133343,7 @@
       "proto": "CHARACTER_GROUND_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -133342,9 +133354,17 @@
           {
             "id": 231,
             "formId": 0
+          },
+          {
+            "id": 529,
+            "formId": 0
           }
         ],
         "second": [
+          {
+            "id": 111,
+            "formId": 846
+          },
           {
             "id": 232,
             "formId": 0
@@ -133781,11 +133801,19 @@
             "formId": 0
           },
           {
+            "id": 90,
+            "formId": 876
+          },
+          {
             "id": 258,
             "formId": 0
           },
           {
             "id": 320,
+            "formId": 0
+          },
+          {
+            "id": 339,
             "formId": 0
           }
         ],
@@ -134106,6 +134134,10 @@
       "encounters": {
         "first": [
           {
+            "id": 92,
+            "formId": 0
+          },
+          {
             "id": 353,
             "formId": 0
           },
@@ -134133,6 +134165,10 @@
           }
         ],
         "third": [
+          {
+            "id": 94,
+            "formId": 1044
+          },
           {
             "id": 354,
             "formId": 0
