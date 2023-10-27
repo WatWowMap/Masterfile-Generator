@@ -3442,6 +3442,9 @@
       "height": 0.4,
       "weight": 6,
       "family": 25,
+      "encounter": {
+        "bonusCandyCapture": 2
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -5098,6 +5101,9 @@
       "height": 0.6,
       "weight": 9.9,
       "family": 37,
+      "encounter": {
+        "bonusCandyCapture": 2
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -24905,7 +24911,63 @@
         "3009": {
           "name": "Paldea",
           "proto": "WOOPER_PALDEA",
-          "form": 3009
+          "form": 3009,
+          "quickMoves": {
+            "216": {
+              "moveId": 216,
+              "moveName": "Mud Shot",
+              "proto": "MUD_SHOT_FAST",
+              "type": 5,
+              "power": 3
+            },
+            "224": {
+              "moveId": 224,
+              "moveName": "Poison Jab",
+              "proto": "POISON_JAB_FAST",
+              "type": 4,
+              "power": 7
+            }
+          },
+          "chargedMoves": {
+            "26": {
+              "moveId": 26,
+              "moveName": "Dig",
+              "proto": "DIG",
+              "type": 5,
+              "power": 80
+            },
+            "91": {
+              "moveId": 91,
+              "moveName": "Sludge Wave",
+              "proto": "SLUDGE_WAVE",
+              "type": 4,
+              "power": 110
+            },
+            "131": {
+              "moveId": 131,
+              "moveName": "Body Slam",
+              "proto": "BODY_SLAM",
+              "type": 1,
+              "power": 60
+            }
+          },
+          "types": {
+            "4": {
+              "typeId": 4,
+              "typeName": "Poison"
+            },
+            "5": {
+              "typeId": 5,
+              "typeName": "Ground"
+            }
+          },
+          "evolutions": {
+            "980": {
+              "pokemon": 980,
+              "form": 0,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -47694,6 +47756,9 @@
       "height": 0.4,
       "weight": 5.2,
       "family": 393,
+      "encounter": {
+        "bonusCandyCapture": 2
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -82946,7 +83011,7 @@
       "weight": 9.5,
       "family": 710,
       "encounter": {
-        "bonusCandyCapture": 4,
+        "bonusCandyCapture": 2,
         "bonusStardustCapture": 200
       },
       "legendary": false,
@@ -108450,12 +108515,12 @@
           "type": 5,
           "power": 3
         },
-        "224": {
-          "moveId": 224,
-          "moveName": "Poison Jab",
-          "proto": "POISON_JAB_FAST",
+        "236": {
+          "moveId": 236,
+          "moveName": "Poison Sting",
+          "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 7
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -108480,12 +108545,12 @@
           "type": 4,
           "power": 80
         },
-        "284": {
-          "moveId": 284,
-          "moveName": "Surf",
-          "proto": "SURF",
+        "105": {
+          "moveId": 105,
+          "moveName": "Water Pulse",
+          "proto": "WATER_PULSE",
           "type": 11,
-          "power": 65
+          "power": 70
         },
         "303": {
           "moveId": 303,
@@ -117173,7 +117238,9 @@
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1045": {
       "formName": "Shadow",
@@ -125113,7 +125180,9 @@
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2587": {
       "formName": "Normal",
@@ -127543,7 +127612,29 @@
     "3009": {
       "formName": "Paldea",
       "proto": "WOOPER_PALDEA",
-      "formId": 3009
+      "formId": 3009,
+      "quickMoves": [
+        216,
+        224
+      ],
+      "chargedMoves": [
+        26,
+        91,
+        131
+      ],
+      "types": [
+        4,
+        5
+      ],
+      "evolutions": [
+        {
+          "evoId": 980,
+          "formId": 0,
+          "candyCost": 50
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3010": {
       "formName": "Summer 2023 E",
@@ -129927,6 +130018,13 @@
       "id": 1611,
       "name": "Safari Ticket: Barcelona",
       "proto": "ITEM_TICKET_CITY_SAFARI_01",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1612": {
+      "id": 1612,
+      "name": "Safari Ticket: Mexico City",
+      "proto": "ITEM_TICKET_CITY_SAFARI_02",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

@@ -1299,6 +1299,7 @@
       "height": 0.4,
       "weight": 6,
       "family": 25,
+      "bonusCandyCapture": 2,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -1871,6 +1872,7 @@
       "height": 0.6,
       "weight": 9.9,
       "family": 37,
+      "bonusCandyCapture": 2,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -19000,6 +19002,7 @@
       "height": 0.4,
       "weight": 5.2,
       "family": 393,
+      "bonusCandyCapture": 2,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -33629,7 +33632,7 @@
       "height": 0.7,
       "weight": 9.5,
       "family": 710,
-      "bonusCandyCapture": 4,
+      "bonusCandyCapture": 2,
       "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
@@ -45067,13 +45070,13 @@
       ],
       "quickMoves": [
         216,
-        224
+        236
       ],
       "chargedMoves": [
         31,
         32,
         90,
-        284,
+        105,
         303
       ],
       "genId": 9,
@@ -52617,7 +52620,9 @@
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1045": {
       "formName": "Shadow",
@@ -60477,7 +60482,9 @@
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2587": {
       "formName": "Normal",
@@ -62905,7 +62912,28 @@
     "3009": {
       "formName": "Paldea",
       "proto": "WOOPER_PALDEA",
-      "formId": 3009
+      "formId": 3009,
+      "quickMoves": [
+        216,
+        224
+      ],
+      "chargedMoves": [
+        26,
+        91,
+        131
+      ],
+      "types": [
+        4,
+        5
+      ],
+      "evolutions": [
+        {
+          "evoId": 980,
+          "candyCost": 50
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3010": {
       "formName": "Summer 2023 E",
@@ -64117,6 +64145,13 @@
       "itemId": 1611,
       "itemName": "Ticket City Safari 01",
       "proto": "ITEM_TICKET_CITY_SAFARI_01",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1612": {
+      "itemId": 1612,
+      "itemName": "Ticket City Safari 02",
+      "proto": "ITEM_TICKET_CITY_SAFARI_02",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

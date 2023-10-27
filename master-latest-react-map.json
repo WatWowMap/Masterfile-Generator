@@ -6874,7 +6874,20 @@
           "name": "Normal"
         },
         "3009": {
-          "name": "Paldea"
+          "name": "Paldea",
+          "quickMoves": [
+            216,
+            224
+          ],
+          "chargedMoves": [
+            26,
+            91,
+            131
+          ],
+          "types": [
+            4,
+            5
+          ]
         }
       },
       "height": 0.41,
@@ -32870,13 +32883,13 @@
       ],
       "quickMoves": [
         216,
-        224
+        236
       ],
       "chargedMoves": [
         31,
         32,
         90,
-        284,
+        105,
         303
       ],
       "genId": 9,
@@ -33790,7 +33803,8 @@
     "1607": "Evergreen Ticket",
     "1608": "Evergreen Ticket To Gift",
     "1610": "Ticket City Safari 00",
-    "1611": "Ticket City Safari 01"
+    "1611": "Ticket City Safari 01",
+    "1612": "Ticket City Safari 02"
   },
   "moves": {
     "0": {

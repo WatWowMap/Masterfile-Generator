@@ -12801,12 +12801,12 @@
       "id": 194,
       "types": [
         {
-          "id": 5,
-          "name": "Ground"
+          "id": 4,
+          "name": "Poison"
         },
         {
-          "id": 11,
-          "name": "Water"
+          "id": 5,
+          "name": "Ground"
         }
       ],
       "form": {
@@ -12819,7 +12819,14 @@
         "baseStamina": 146
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 980,
+          "id": 0,
+          "candyCost": 50
+        }
+      ]
     },
     "195_0": {
       "name": "Quagsire",
@@ -56234,6 +56241,9 @@
     },
     "1611": {
       "name": "Safari Ticket: Barcelona"
+    },
+    "1612": {
+      "name": "Safari Ticket: Mexico City"
     }
   },
   "moves": {

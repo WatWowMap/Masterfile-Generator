@@ -11895,7 +11895,25 @@
         },
         "3009": {
           "name": "Paldea",
-          "proto": "WOOPER_PALDEA"
+          "proto": "WOOPER_PALDEA",
+          "quick_moves": [
+            "Mud Shot",
+            "Poison Jab"
+          ],
+          "charged_moves": [
+            "Dig",
+            "Sludge Wave",
+            "Body Slam"
+          ],
+          "types": [
+            "Poison",
+            "Ground"
+          ],
+          "evolutions": [
+            {
+              "pokemon": 980
+            }
+          ]
         }
       },
       "attack": 75,
@@ -52690,13 +52708,13 @@
       ],
       "quick_moves": [
         "Mud Shot",
-        "Poison Jab"
+        "Poison Sting"
       ],
       "charged_moves": [
         "Earthquake",
         "Stone Edge",
         "Sludge Bomb",
-        "Surf",
+        "Water Pulse",
         "Acid Spray"
       ],
       "gen_id": 9,
@@ -54675,6 +54693,12 @@
     "1611": {
       "name": "Ticket City Safari 01",
       "proto": "ITEM_TICKET_CITY_SAFARI_01",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1612": {
+      "name": "Ticket City Safari 02",
+      "proto": "ITEM_TICKET_CITY_SAFARI_02",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
