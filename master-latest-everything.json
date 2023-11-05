@@ -131969,6 +131969,26 @@
       "id": 394,
       "name": "Roar Of Time",
       "proto": "ROAR_OF_TIME"
+    },
+    "395": {
+      "id": 395,
+      "name": "Bleakwind Storm",
+      "proto": "BLEAKWIND_STORM"
+    },
+    "396": {
+      "id": 396,
+      "name": "Sandsear Storm",
+      "proto": "SANDSEAR_STORM"
+    },
+    "397": {
+      "id": 397,
+      "name": "Wildbolt Storm",
+      "proto": "WILDBOLT_STORM"
+    },
+    "398": {
+      "id": 398,
+      "name": "Spirit Shackle",
+      "proto": "SPIRIT_SHACKLE"
     }
   },
   "questTypes": {
@@ -132296,6 +132316,11 @@
       "id": 69,
       "proto": "QUEST_NPC_OPEN_GIFT",
       "formatted": "NPC Open Gift"
+    },
+    "70": {
+      "id": 70,
+      "proto": "QUEST_PTC_OAUTH_LINK",
+      "formatted": "Ptc Oauth Link"
     }
   },
   "questRewardTypes": {
