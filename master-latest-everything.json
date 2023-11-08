@@ -3442,9 +3442,6 @@
       "height": 0.4,
       "weight": 6,
       "family": 25,
-      "encounter": {
-        "bonusCandyCapture": 2
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -5101,9 +5098,6 @@
       "height": 0.6,
       "weight": 9.9,
       "family": 37,
-      "encounter": {
-        "bonusCandyCapture": 2
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -24912,6 +24906,8 @@
           "name": "Paldea",
           "proto": "WOOPER_PALDEA",
           "form": 3009,
+          "height": 0.41,
+          "weight": 11,
           "quickMoves": {
             "216": {
               "moveId": 216,
@@ -47756,9 +47752,6 @@
       "height": 0.4,
       "weight": 5.2,
       "family": 393,
-      "encounter": {
-        "bonusCandyCapture": 2
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -53285,6 +53278,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -53402,6 +53396,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -53528,6 +53523,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -53542,7 +53538,8 @@
             "defense": 222,
             "stamina": 239
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -82860,9 +82857,6 @@
       "height": 0.3,
       "weight": 3.5,
       "family": 710,
-      "encounter": {
-        "bonusCandyCapture": 2
-      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -115884,6 +115878,14 @@
           "defense": 222,
           "stamina": 239,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 339,
+          "defense": 222,
+          "stamina": 239,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ],
       "purificationDust": 5000,
@@ -115905,6 +115907,14 @@
           "defense": 222,
           "stamina": 239,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 339,
+          "defense": 222,
+          "stamina": 239,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -127613,6 +127623,8 @@
       "formName": "Paldea",
       "proto": "WOOPER_PALDEA",
       "formId": 3009,
+      "height": 0.41,
+      "weight": 11,
       "quickMoves": [
         216,
         224
