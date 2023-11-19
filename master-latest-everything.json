@@ -57863,6 +57863,11 @@
           "name": "Purified",
           "proto": "DIALGA_PURIFIED",
           "form": 1858
+        },
+        "2829": {
+          "name": "Origin Forme",
+          "proto": "DIALGA_ORIGIN",
+          "form": 2829
         }
       },
       "stats": {
@@ -57967,6 +57972,11 @@
           "name": "Purified",
           "proto": "PALKIA_PURIFIED",
           "form": 1861
+        },
+        "2830": {
+          "name": "Origin Forme",
+          "proto": "PALKIA_ORIGIN",
+          "form": 2830
         }
       },
       "stats": {
@@ -127448,6 +127458,16 @@
       "proto": "PIKACHU_GOTOUR_2024_B_02",
       "formId": 2828
     },
+    "2829": {
+      "formName": "Origin Forme",
+      "proto": "DIALGA_ORIGIN",
+      "formId": 2829
+    },
+    "2830": {
+      "formName": "Origin Forme",
+      "proto": "PALKIA_ORIGIN",
+      "formId": 2830
+    },
     "2831": {
       "formName": "Normal",
       "proto": "ROCKRUFF_NORMAL",
@@ -132333,6 +132353,11 @@
       "id": 70,
       "proto": "QUEST_PTC_OAUTH_LINK",
       "formatted": "Ptc Oauth Link"
+    },
+    "71": {
+      "id": 71,
+      "proto": "QUEST_FIGHT_POKEMON",
+      "formatted": "Fight Pokemon"
     }
   },
   "questRewardTypes": {
@@ -132717,6 +132742,21 @@
       "id": 60,
       "proto": "WITH_ABILITY_PARTY_POWER_DAMAGE_DEALT",
       "formatted": "With Ability Party Power Damage Dealt"
+    },
+    "61": {
+      "id": 61,
+      "proto": "WITH_AUTH_PROVIDER_TYPE",
+      "formatted": "With Auth Provider Type"
+    },
+    "62": {
+      "id": 62,
+      "proto": "WITH_OPPONENT_POKEMON_BATTLE_STATUS",
+      "formatted": "With Opponent Pokemon Battle Status"
+    },
+    "63": {
+      "id": 63,
+      "proto": "WITH_FORT_ID",
+      "formatted": "With Fort Id"
     }
   },
   "invasions": {

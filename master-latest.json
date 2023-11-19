@@ -28350,6 +28350,10 @@
         "1858": {
           "name": "Purified",
           "proto": "DIALGA_PURIFIED"
+        },
+        "2829": {
+          "name": "Origin",
+          "proto": "DIALGA_ORIGIN"
         }
       },
       "attack": 275,
@@ -28401,6 +28405,10 @@
         "1861": {
           "name": "Purified",
           "proto": "PALKIA_PURIFIED"
+        },
+        "2830": {
+          "name": "Origin",
+          "proto": "PALKIA_ORIGIN"
         }
       },
       "attack": 280,
@@ -56806,6 +56814,9 @@
     },
     "70": {
       "text": "Ptc Oauth Link"
+    },
+    "71": {
+      "text": "Fight Pokemon"
     }
   },
   "quest_reward_types": {
@@ -57114,6 +57125,18 @@
     "60": {
       "proto": "WITH_ABILITY_PARTY_POWER_DAMAGE_DEALT",
       "text": "With Ability Party Power Damage Dealt"
+    },
+    "61": {
+      "proto": "WITH_AUTH_PROVIDER_TYPE",
+      "text": "With Auth Provider Type"
+    },
+    "62": {
+      "proto": "WITH_OPPONENT_POKEMON_BATTLE_STATUS",
+      "text": "With Opponent Pokemon Battle Status"
+    },
+    "63": {
+      "proto": "WITH_FORT_ID",
+      "text": "With Fort Id"
     }
   },
   "invasions": {

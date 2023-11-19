@@ -30345,6 +30345,31 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
     },
+    "483_2829": {
+      "name": "Dialga",
+      "id": 483,
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Origin Forme",
+        "id": 2829
+      },
+      "stats": {
+        "baseAttack": 275,
+        "baseDefense": 211,
+        "baseStamina": 205
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
     "484_0": {
       "name": "Palkia",
       "id": 484,
@@ -30386,6 +30411,31 @@
       "form": {
         "name": "Normal",
         "id": 1859
+      },
+      "stats": {
+        "baseAttack": 280,
+        "baseDefense": 215,
+        "baseStamina": 189
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
+    "484_2830": {
+      "name": "Palkia",
+      "id": 484,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Origin Forme",
+        "id": 2830
       },
       "stats": {
         "baseAttack": 280,
@@ -57579,6 +57629,9 @@
     },
     "70": {
       "text": "Ptc Oauth Link"
+    },
+    "71": {
+      "text": "Fight Pokemon"
     }
   },
   "grunts": {
