@@ -134187,14 +134187,37 @@
       "gender": 0,
       "grunt": "Giovanni",
       "proto": "CHARACTER_GIOVANNI",
-      "active": false,
+      "active": true,
       "firstReward": false,
       "secondReward": false,
-      "thirdReward": false,
+      "thirdReward": true,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          {
+            "id": 53,
+            "formId": 0
+          }
+        ],
+        "second": [
+          {
+            "id": 34,
+            "formId": 0
+          },
+          {
+            "id": 99,
+            "formId": 0
+          },
+          {
+            "id": 445,
+            "formId": 0
+          }
+        ],
+        "third": [
+          {
+            "id": 486,
+            "formId": 0
+          }
+        ]
       }
     },
     "45": {
