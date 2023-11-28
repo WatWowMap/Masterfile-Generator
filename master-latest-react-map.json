@@ -5715,7 +5715,21 @@
           "name": "Normal"
         },
         "2786": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            209,
+            264
+          ],
+          "chargedMoves": [
+            70,
+            115,
+            251,
+            270
+          ],
+          "types": [
+            8,
+            10
+          ]
         }
       },
       "height": 1.7,
@@ -17163,7 +17177,7 @@
     "503": {
       "name": "Samurott",
       "pokedexId": 503,
-      "defaultFormId": 0,
+      "defaultFormId": 1913,
       "types": [
         11
       ],
@@ -17181,11 +17195,26 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "1913": {
+          "name": "Normal"
         },
         "2787": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            200,
+            278,
+            283
+          ],
+          "chargedMoves": [
+            16,
+            100,
+            111,
+            318
+          ],
+          "types": [
+            11,
+            17
+          ]
         }
       },
       "height": 1.5,
@@ -24622,7 +24651,7 @@
     "724": {
       "name": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2809,
       "types": [
         8,
         12
@@ -24641,11 +24670,25 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset"
-        },
         "2785": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            226,
+            357
+          ],
+          "chargedMoves": [
+            45,
+            273,
+            332,
+            392
+          ],
+          "types": [
+            2,
+            12
+          ]
+        },
+        "2809": {
+          "name": "Normal"
         }
       },
       "height": 1.6,
@@ -30342,7 +30385,11 @@
       ],
       "genId": 8,
       "generation": "Galar",
-      "forms": {},
+      "forms": {
+        "0": {
+          "name": "Unset"
+        }
+      },
       "unreleased": true,
       "legendary": false,
       "mythical": false
@@ -30527,7 +30574,7 @@
     "905": {
       "name": "Enamorus",
       "pokedexId": 905,
-      "defaultFormId": 0,
+      "defaultFormId": 2802,
       "types": [
         3,
         18

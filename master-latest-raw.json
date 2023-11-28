@@ -24075,7 +24075,7 @@
     "503": {
       "pokemonName": "Samurott",
       "pokedexId": 503,
-      "defaultFormId": 0,
+      "defaultFormId": 1913,
       "types": [
         11
       ],
@@ -24093,7 +24093,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         1913,
         1914,
         1915,
@@ -34195,7 +34194,7 @@
     "724": {
       "pokemonName": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2809,
       "types": [
         8,
         12
@@ -34214,7 +34213,6 @@
       "genId": 7,
       "generation": "Alola",
       "forms": [
-        0,
         2785,
         2809
       ],
@@ -41863,7 +41861,7 @@
     "905": {
       "pokemonName": "Enamorus",
       "pokedexId": 905,
-      "defaultFormId": 0,
+      "defaultFormId": 2802,
       "types": [
         3,
         18
@@ -44857,6 +44855,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -44903,6 +44902,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 3,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -62276,7 +62276,23 @@
       "formId": 2785,
       "attack": 213,
       "defense": 174,
-      "stamina": 204
+      "stamina": 204,
+      "height": 1.6,
+      "weight": 37,
+      "quickMoves": [
+        226,
+        357
+      ],
+      "chargedMoves": [
+        45,
+        273,
+        332,
+        392
+      ],
+      "types": [
+        2,
+        12
+      ]
     },
     "2786": {
       "formName": "Hisuian",
@@ -62284,7 +62300,25 @@
       "formId": 2786,
       "attack": 238,
       "defense": 172,
-      "stamina": 177
+      "stamina": 177,
+      "height": 1.6,
+      "weight": 69.8,
+      "quickMoves": [
+        209,
+        264
+      ],
+      "chargedMoves": [
+        70,
+        115,
+        251,
+        270
+      ],
+      "types": [
+        8,
+        10
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2787": {
       "formName": "Hisuian",
@@ -62292,7 +62326,24 @@
       "formId": 2787,
       "attack": 218,
       "defense": 152,
-      "stamina": 207
+      "stamina": 207,
+      "height": 1.5,
+      "weight": 58.2,
+      "quickMoves": [
+        200,
+        278,
+        283
+      ],
+      "chargedMoves": [
+        16,
+        100,
+        111,
+        318
+      ],
+      "types": [
+        11,
+        17
+      ]
     },
     "2788": {
       "formName": "Hisuian",

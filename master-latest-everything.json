@@ -20851,6 +20851,64 @@
             "attack": 238,
             "defense": 172,
             "stamina": 177
+          },
+          "height": 1.6,
+          "weight": 69.8,
+          "quickMoves": {
+            "209": {
+              "moveId": 209,
+              "moveName": "Ember",
+              "proto": "EMBER_FAST",
+              "type": 10,
+              "power": 7
+            },
+            "264": {
+              "moveId": 264,
+              "moveName": "Hex",
+              "proto": "HEX_FAST",
+              "type": 8,
+              "power": 6
+            }
+          },
+          "chargedMoves": {
+            "70": {
+              "moveId": 70,
+              "moveName": "Shadow Ball",
+              "proto": "SHADOW_BALL",
+              "type": 8,
+              "power": 100
+            },
+            "115": {
+              "moveId": 115,
+              "moveName": "Fire Punch",
+              "proto": "FIRE_PUNCH",
+              "type": 10,
+              "power": 55
+            },
+            "251": {
+              "moveId": 251,
+              "moveName": "Wild Charge",
+              "proto": "WILD_CHARGE",
+              "type": 13,
+              "power": 100
+            },
+            "270": {
+              "moveId": 270,
+              "moveName": "Overheat",
+              "proto": "OVERHEAT",
+              "type": 10,
+              "power": 130
+            }
+          },
+          "types": {
+            "8": {
+              "typeId": 8,
+              "typeName": "Ghost"
+            },
+            "10": {
+              "typeId": 10,
+              "typeName": "Fire"
+            }
           }
         }
       },
@@ -60053,7 +60111,7 @@
     "503": {
       "name": "Samurott",
       "pokedexId": 503,
-      "defaultFormId": 0,
+      "defaultFormId": 1913,
       "types": {
         "11": {
           "typeId": 11,
@@ -60144,6 +60202,71 @@
             "attack": 218,
             "defense": 152,
             "stamina": 207
+          },
+          "height": 1.5,
+          "weight": 58.2,
+          "quickMoves": {
+            "200": {
+              "moveId": 200,
+              "moveName": "Fury Cutter",
+              "proto": "FURY_CUTTER_FAST",
+              "type": 7,
+              "power": 2
+            },
+            "278": {
+              "moveId": 278,
+              "moveName": "Snarl",
+              "proto": "SNARL_FAST",
+              "type": 17,
+              "power": 5
+            },
+            "283": {
+              "moveId": 283,
+              "moveName": "Waterfall",
+              "proto": "WATERFALL_FAST",
+              "type": 11,
+              "power": 12
+            }
+          },
+          "chargedMoves": {
+            "16": {
+              "moveId": 16,
+              "moveName": "Dark Pulse",
+              "proto": "DARK_PULSE",
+              "type": 17,
+              "power": 80
+            },
+            "100": {
+              "moveId": 100,
+              "moveName": "X-Scissor",
+              "proto": "X_SCISSOR",
+              "type": 7,
+              "power": 65
+            },
+            "111": {
+              "moveId": 111,
+              "moveName": "Icy Wind",
+              "proto": "ICY_WIND",
+              "type": 15,
+              "power": 60
+            },
+            "318": {
+              "moveId": 318,
+              "moveName": "Razor Shell",
+              "proto": "RAZOR_SHELL",
+              "type": 11,
+              "power": 35
+            }
+          },
+          "types": {
+            "11": {
+              "typeId": 11,
+              "typeName": "Water"
+            },
+            "17": {
+              "typeId": 17,
+              "typeName": "Dark"
+            }
           }
         }
       },
@@ -84374,7 +84497,7 @@
     "724": {
       "name": "Decidueye",
       "pokedexId": 724,
-      "defaultFormId": 0,
+      "defaultFormId": 2809,
       "types": {
         "8": {
           "typeId": 8,
@@ -84454,6 +84577,64 @@
             "attack": 213,
             "defense": 174,
             "stamina": 204
+          },
+          "height": 1.6,
+          "weight": 37,
+          "quickMoves": {
+            "226": {
+              "moveId": 226,
+              "moveName": "Psycho Cut",
+              "proto": "PSYCHO_CUT_FAST",
+              "type": 14,
+              "power": 3
+            },
+            "357": {
+              "moveId": 357,
+              "moveName": "Magical Leaf",
+              "proto": "MAGICAL_LEAF_FAST",
+              "type": 12,
+              "power": 10
+            }
+          },
+          "chargedMoves": {
+            "45": {
+              "moveId": 45,
+              "moveName": "Aerial Ace",
+              "proto": "AERIAL_ACE",
+              "type": 3,
+              "power": 55
+            },
+            "273": {
+              "moveId": 273,
+              "moveName": "Energy Ball",
+              "proto": "ENERGY_BALL",
+              "type": 12,
+              "power": 90
+            },
+            "332": {
+              "moveId": 332,
+              "moveName": "Aura Sphere",
+              "proto": "AURA_SPHERE",
+              "type": 2,
+              "power": 100
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
+            }
+          },
+          "types": {
+            "2": {
+              "typeId": 2,
+              "typeName": "Fighting"
+            },
+            "12": {
+              "typeId": 12,
+              "typeName": "Grass"
+            }
           }
         },
         "2809": {
@@ -101670,7 +101851,7 @@
     "905": {
       "name": "Enamorus",
       "pokedexId": 905,
-      "defaultFormId": 0,
+      "defaultFormId": 2802,
       "types": {
         "3": {
           "typeId": 3,
@@ -108028,6 +108209,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -108118,6 +108300,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 3,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -126969,7 +127152,23 @@
       "formId": 2785,
       "attack": 213,
       "defense": 174,
-      "stamina": 204
+      "stamina": 204,
+      "height": 1.6,
+      "weight": 37,
+      "quickMoves": [
+        226,
+        357
+      ],
+      "chargedMoves": [
+        45,
+        273,
+        332,
+        392
+      ],
+      "types": [
+        2,
+        12
+      ]
     },
     "2786": {
       "formName": "Hisuian",
@@ -126977,7 +127176,25 @@
       "formId": 2786,
       "attack": 238,
       "defense": 172,
-      "stamina": 177
+      "stamina": 177,
+      "height": 1.6,
+      "weight": 69.8,
+      "quickMoves": [
+        209,
+        264
+      ],
+      "chargedMoves": [
+        70,
+        115,
+        251,
+        270
+      ],
+      "types": [
+        8,
+        10
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2787": {
       "formName": "Hisuian",
@@ -126985,7 +127202,24 @@
       "formId": 2787,
       "attack": 218,
       "defense": 152,
-      "stamina": 207
+      "stamina": 207,
+      "height": 1.5,
+      "weight": 58.2,
+      "quickMoves": [
+        200,
+        278,
+        283
+      ],
+      "chargedMoves": [
+        16,
+        100,
+        111,
+        318
+      ],
+      "types": [
+        11,
+        17
+      ]
     },
     "2788": {
       "formName": "Hisuian",

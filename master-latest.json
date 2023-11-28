@@ -9868,7 +9868,23 @@
           "proto": "TYPHLOSION_HISUIAN",
           "attack": 238,
           "defense": 172,
-          "stamina": 177
+          "stamina": 177,
+          "height": 1.6,
+          "weight": 69.8,
+          "quick_moves": [
+            "Ember",
+            "Hex"
+          ],
+          "charged_moves": [
+            "Shadow Ball",
+            "Fire Punch",
+            "Wild Charge",
+            "Overheat"
+          ],
+          "types": [
+            "Ghost",
+            "Fire"
+          ]
         }
       },
       "attack": 223,
@@ -29502,7 +29518,7 @@
     "503": {
       "name": "Samurott",
       "pokedex_id": 503,
-      "default_form_id": 0,
+      "default_form_id": 1913,
       "types": [
         "Water"
       ],
@@ -29520,10 +29536,6 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1913": {
           "name": "Normal",
           "proto": "SAMUROTT_NORMAL"
@@ -29541,7 +29553,24 @@
           "proto": "SAMUROTT_HISUIAN",
           "attack": 218,
           "defense": 152,
-          "stamina": 207
+          "stamina": 207,
+          "height": 1.5,
+          "weight": 58.2,
+          "quick_moves": [
+            "Fury Cutter",
+            "Snarl",
+            "Waterfall"
+          ],
+          "charged_moves": [
+            "Dark Pulse",
+            "X Scissor",
+            "Icy Wind",
+            "Razor Shell"
+          ],
+          "types": [
+            "Water",
+            "Dark"
+          ]
         }
       },
       "attack": 212,
@@ -41606,7 +41635,7 @@
     "724": {
       "name": "Decidueye",
       "pokedex_id": 724,
-      "default_form_id": 0,
+      "default_form_id": 2809,
       "types": [
         "Ghost",
         "Grass"
@@ -41625,16 +41654,28 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2785": {
           "name": "Hisuian",
           "proto": "DECIDUEYE_HISUIAN",
           "attack": 213,
           "defense": 174,
-          "stamina": 204
+          "stamina": 204,
+          "height": 1.6,
+          "weight": 37,
+          "quick_moves": [
+            "Psycho Cut",
+            "Magical Leaf"
+          ],
+          "charged_moves": [
+            "Aerial Ace",
+            "Energy Ball",
+            "Aura Sphere",
+            "Trailblaze"
+          ],
+          "types": [
+            "Fighting",
+            "Grass"
+          ]
         },
         "2809": {
           "name": "Normal",
@@ -49572,7 +49613,7 @@
     "905": {
       "name": "Enamorus",
       "pokedex_id": 905,
-      "default_form_id": 0,
+      "default_form_id": 2802,
       "types": [
         "Flying",
         "Fairy"
@@ -52496,6 +52537,7 @@
       "family": 974,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -52539,6 +52581,7 @@
       "family": 974,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
