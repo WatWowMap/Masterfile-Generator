@@ -56564,7 +56564,9 @@
     },
     "388": {
       "name": "Spacial Rend",
-      "proto": "SPACIAL_REND"
+      "proto": "SPACIAL_REND",
+      "type": "Dragon",
+      "power": 95
     },
     "389": {
       "name": "Oblivion Wing",
@@ -56596,23 +56598,33 @@
     },
     "394": {
       "name": "Roar Of Time",
-      "proto": "ROAR_OF_TIME"
+      "proto": "ROAR_OF_TIME",
+      "type": "Dragon",
+      "power": 150
     },
     "395": {
       "name": "Bleakwind Storm",
-      "proto": "BLEAKWIND_STORM"
+      "proto": "BLEAKWIND_STORM",
+      "type": "Flying",
+      "power": 60
     },
     "396": {
       "name": "Sandsear Storm",
-      "proto": "SANDSEAR_STORM"
+      "proto": "SANDSEAR_STORM",
+      "type": "Ground",
+      "power": 60
     },
     "397": {
       "name": "Wildbolt Storm",
-      "proto": "WILDBOLT_STORM"
+      "proto": "WILDBOLT_STORM",
+      "type": "Electric",
+      "power": 60
     },
     "398": {
       "name": "Spirit Shackle",
-      "proto": "SPIRIT_SHACKLE"
+      "proto": "SPIRIT_SHACKLE",
+      "type": "Ghost",
+      "power": 50
     }
   },
   "quest_types": {
