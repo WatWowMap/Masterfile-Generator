@@ -640,7 +640,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -809,7 +809,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -1394,7 +1394,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -3541,6 +3541,13 @@
           "proto": "SKULL_BASH",
           "type": 1,
           "power": 130
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 1,
@@ -3603,7 +3610,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "251": {
               "moveId": 251,
@@ -3618,6 +3625,13 @@
               "proto": "GRASS_KNOT",
               "type": 12,
               "power": 90
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
             }
           },
           "types": {
@@ -3954,6 +3968,13 @@
               "proto": "BLIZZARD",
               "type": 15,
               "power": 140
+            },
+            "45": {
+              "moveId": 45,
+              "moveName": "Aerial Ace",
+              "proto": "AERIAL_ACE",
+              "type": 3,
+              "power": 55
             },
             "46": {
               "moveId": 46,
@@ -4623,7 +4644,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         },
         "356": {
           "moveId": 356,
@@ -4880,7 +4901,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "301": {
           "moveId": 301,
@@ -5142,7 +5163,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -5495,6 +5516,13 @@
           "proto": "PLAY_ROUGH",
           "type": 18,
           "power": 90
+        },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 1,
@@ -6499,7 +6527,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "262": {
           "moveId": 262,
@@ -6959,6 +6987,36 @@
             "defense": 78,
             "stamina": 120
           },
+          "chargedMoves": {
+            "16": {
+              "moveId": 16,
+              "moveName": "Dark Pulse",
+              "proto": "DARK_PULSE",
+              "type": 17,
+              "power": 80
+            },
+            "51": {
+              "moveId": 51,
+              "moveName": "Night Slash",
+              "proto": "NIGHT_SLASH",
+              "type": 17,
+              "power": 50
+            },
+            "280": {
+              "moveId": 280,
+              "moveName": "Foul Play",
+              "proto": "FOUL_PLAY",
+              "type": 17,
+              "power": 70
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
+            }
+          },
           "types": {
             "17": {
               "typeId": 17,
@@ -7211,6 +7269,13 @@
               "proto": "PAYBACK",
               "type": 17,
               "power": 110
+            },
+            "392": {
+              "moveId": 392,
+              "moveName": "Trailblaze",
+              "proto": "TRAILBLAZE",
+              "type": 12,
+              "power": 65
             }
           },
           "types": {
@@ -7425,7 +7490,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "324": {
           "moveId": 324,
@@ -8083,7 +8148,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -8192,7 +8257,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -8320,7 +8385,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "241": {
           "moveId": 241,
@@ -8343,7 +8408,7 @@
           "moveName": "Scald",
           "proto": "SCALD",
           "type": 11,
-          "power": 80
+          "power": 85
         },
         "107": {
           "moveId": 107,
@@ -8351,6 +8416,13 @@
           "proto": "HYDRO_PUMP",
           "type": 11,
           "power": 130
+        },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
         },
         "246": {
           "moveId": 246,
@@ -9498,7 +9570,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -9627,7 +9699,7 @@
           "moveName": "Scald",
           "proto": "SCALD",
           "type": 11,
-          "power": 80
+          "power": 85
         },
         "107": {
           "moveId": 107,
@@ -10407,14 +10479,14 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         },
         "346": {
           "moveId": 346,
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -10526,7 +10598,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "131": {
               "moveId": 131,
@@ -10630,7 +10702,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -10686,7 +10758,7 @@
               "moveName": "Iron Tail",
               "proto": "IRON_TAIL_FAST",
               "type": 9,
-              "power": 9
+              "power": 10
             }
           },
           "chargedMoves": {
@@ -10702,7 +10774,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "284": {
               "moveId": 284,
@@ -10846,12 +10918,19 @@
           "type": 11,
           "power": 70
         },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
+        },
         "108": {
           "moveId": 108,
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -10917,12 +10996,19 @@
               "type": 4,
               "power": 80
             },
+            "106": {
+              "moveId": 106,
+              "moveName": "Scald",
+              "proto": "SCALD",
+              "type": 11,
+              "power": 85
+            },
             "108": {
               "moveId": 108,
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "247": {
               "moveId": 247,
@@ -11758,7 +11844,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -12470,7 +12556,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -12577,7 +12663,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -13008,7 +13094,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -13124,7 +13210,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "115": {
           "moveId": 115,
@@ -13220,7 +13306,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -13336,7 +13422,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -13834,7 +13920,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -13947,7 +14033,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "116": {
           "moveId": 116,
@@ -14271,7 +14357,7 @@
               "moveName": "Fire Spin",
               "proto": "FIRE_SPIN_FAST",
               "type": 10,
-              "power": 9
+              "power": 10
             }
           },
           "chargedMoves": {
@@ -14411,7 +14497,7 @@
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 1,
@@ -15238,7 +15324,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -15552,7 +15638,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -16121,7 +16207,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -16230,7 +16316,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 1,
@@ -16303,7 +16389,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "391": {
               "moveId": 391,
@@ -17899,7 +17985,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -18878,6 +18964,13 @@
           "proto": "ICY_WIND",
           "type": 15,
           "power": 60
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 1,
@@ -19170,7 +19263,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -19331,7 +19424,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -19440,7 +19533,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -19717,7 +19810,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "247": {
           "moveId": 247,
@@ -19758,7 +19851,7 @@
               "moveName": "Iron Tail",
               "proto": "IRON_TAIL_FAST",
               "type": 9,
-              "power": 9
+              "power": 10
             }
           },
           "chargedMoves": {
@@ -20102,7 +20195,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "116": {
           "moveId": 116,
@@ -20794,7 +20887,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -21612,7 +21705,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "257": {
           "moveId": 257,
@@ -22057,6 +22150,13 @@
           "proto": "LUNGE",
           "type": 7,
           "power": 60
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -22251,7 +22351,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -22686,7 +22786,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "251": {
           "moveId": 251,
@@ -23706,7 +23806,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -23804,7 +23904,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "241": {
           "moveId": 241,
@@ -24024,7 +24124,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -24034,6 +24134,13 @@
           "proto": "BLIZZARD",
           "type": 15,
           "power": 140
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "107": {
           "moveId": 107,
@@ -24474,7 +24581,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -25208,7 +25315,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "275": {
           "moveId": 275,
@@ -25525,12 +25632,19 @@
           "type": 10,
           "power": 140
         },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
+        },
         "108": {
           "moveId": 108,
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 2,
@@ -25605,6 +25719,13 @@
               "type": 4,
               "power": 110
             },
+            "106": {
+              "moveId": 106,
+              "moveName": "Scald",
+              "proto": "SCALD",
+              "type": 11,
+              "power": 85
+            },
             "275": {
               "moveId": 275,
               "moveName": "Future Sight",
@@ -25673,7 +25794,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -26107,7 +26228,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "276": {
           "moveId": 276,
@@ -26424,7 +26545,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "368": {
           "moveId": 368,
@@ -26644,7 +26765,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         },
         "326": {
           "moveId": 326,
@@ -27030,6 +27151,13 @@
           "proto": "SLUDGE_WAVE",
           "type": 4,
           "power": 110
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "303": {
           "moveId": 303,
@@ -28106,7 +28234,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -28453,7 +28581,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -28794,6 +28922,20 @@
           "proto": "ICY_WIND",
           "type": 15,
           "power": 60
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 2,
@@ -28877,7 +29019,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "271": {
           "moveId": 271,
@@ -30616,7 +30758,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 2,
@@ -30796,7 +30938,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -30946,6 +31088,13 @@
           "proto": "WATER_PULSE",
           "type": 11,
           "power": 70
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "107": {
           "moveId": 107,
@@ -31262,7 +31411,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -31512,7 +31661,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -31644,7 +31793,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "343": {
           "moveId": 343,
@@ -32306,7 +32455,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -32336,7 +32485,7 @@
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 3,
@@ -33845,6 +33994,13 @@
           "type": 11,
           "power": 25
         },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
+        },
         "273": {
           "moveId": 273,
           "moveName": "Energy Ball",
@@ -33933,7 +34089,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -33950,6 +34106,13 @@
           "proto": "BUBBLE_BEAM",
           "type": 11,
           "power": 25
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "272": {
           "moveId": 272,
@@ -34042,7 +34205,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -34059,6 +34222,13 @@
           "proto": "BLIZZARD",
           "type": 15,
           "power": 140
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "107": {
           "moveId": 107,
@@ -35059,7 +35229,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "391": {
           "moveId": 391,
@@ -35211,7 +35381,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "391": {
           "moveId": 391,
@@ -35320,7 +35490,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -35843,6 +36013,13 @@
         }
       },
       "chargedMoves": {
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
         "95": {
           "moveId": 95,
           "moveName": "Bulldoze",
@@ -36344,7 +36521,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -36565,7 +36742,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -36887,7 +37064,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -37458,7 +37635,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "327": {
           "moveId": 327,
@@ -37712,7 +37889,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -37836,7 +38013,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         },
         "297": {
           "moveId": 297,
@@ -38113,7 +38290,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "246": {
           "moveId": 246,
@@ -39437,6 +39614,13 @@
           "type": 11,
           "power": 70
         },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
+        },
         "131": {
           "moveId": 131,
           "moveName": "Body Slam",
@@ -39545,6 +39729,13 @@
           "proto": "BLIZZARD",
           "type": 15,
           "power": 140
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "284": {
           "moveId": 284,
@@ -39743,7 +39934,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -39869,7 +40060,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -40080,7 +40271,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "276": {
           "moveId": 276,
@@ -40727,6 +40918,13 @@
           "proto": "PAYBACK",
           "type": 17,
           "power": 110
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 3,
@@ -40847,6 +41045,13 @@
           "proto": "PAYBACK",
           "type": 17,
           "power": 110
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 3,
@@ -40925,7 +41130,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -41248,7 +41453,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -41369,7 +41574,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 3,
@@ -41460,7 +41665,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "116": {
           "moveId": 116,
@@ -41566,6 +41771,13 @@
           "proto": "MUD_BOMB",
           "type": 5,
           "power": 60
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         }
       },
       "genId": 3,
@@ -41672,6 +41884,13 @@
           "proto": "WATER_PULSE",
           "type": 11,
           "power": 70
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         }
       },
       "genId": 3,
@@ -41739,7 +41958,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "241": {
           "moveId": 241,
@@ -41770,6 +41989,13 @@
           "proto": "AQUA_JET",
           "type": 11,
           "power": 45
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "318": {
           "moveId": 318,
@@ -41883,6 +42109,13 @@
           "proto": "BUBBLE_BEAM",
           "type": 11,
           "power": 25
+        },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 85
         },
         "305": {
           "moveId": 305,
@@ -42125,7 +42358,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "267": {
           "moveId": 267,
@@ -43236,7 +43469,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -43462,7 +43695,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -43790,7 +44023,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "274": {
           "moveId": 274,
@@ -44891,7 +45124,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 3,
@@ -45626,7 +45859,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "267": {
           "moveId": 267,
@@ -45749,7 +45982,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 3,
@@ -46172,7 +46405,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "277": {
           "moveId": 277,
@@ -46304,7 +46537,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "116": {
           "moveId": 116,
@@ -46784,7 +47017,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "286": {
           "moveId": 286,
@@ -47654,7 +47887,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -47752,7 +47985,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -47854,7 +48087,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -48089,6 +48322,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 4,
@@ -48202,6 +48442,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 4,
@@ -48318,6 +48565,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 4,
@@ -49527,7 +49781,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -49626,7 +49880,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         },
         "297": {
           "moveId": 297,
@@ -51228,7 +51482,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -51323,7 +51577,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -51429,7 +51683,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -51899,7 +52153,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "256": {
           "moveId": 256,
@@ -52188,7 +52442,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -52666,7 +52920,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "268": {
           "moveId": 268,
@@ -52891,7 +53145,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 4,
@@ -52979,7 +53233,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 4,
@@ -53756,7 +54010,7 @@
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 4,
@@ -53869,7 +54123,7 @@
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
-          "power": 55
+          "power": 60
         },
         "319": {
           "moveId": 319,
@@ -54585,6 +54839,13 @@
         }
       },
       "chargedMoves": {
+        "70": {
+          "moveId": 70,
+          "moveName": "Shadow Ball",
+          "proto": "SHADOW_BALL",
+          "type": 8,
+          "power": 100
+        },
         "90": {
           "moveId": 90,
           "moveName": "Sludge Bomb",
@@ -54977,7 +55238,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -55221,6 +55482,13 @@
           "proto": "BLIZZARD",
           "type": 15,
           "power": 140
+        },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
         },
         "273": {
           "moveId": 273,
@@ -56013,7 +56281,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -56029,7 +56297,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "115": {
           "moveId": 115,
@@ -56889,7 +57157,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "117": {
           "moveId": 117,
@@ -57102,7 +57370,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -57132,7 +57400,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "376": {
           "moveId": 376,
@@ -57242,6 +57510,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 4,
@@ -57321,7 +57596,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -57425,7 +57700,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 5
+              "power": 9
             }
           },
           "types": {
@@ -58084,7 +58359,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -58523,7 +58798,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "283": {
           "moveId": 283,
@@ -58614,7 +58889,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "283": {
           "moveId": 283,
@@ -58637,7 +58912,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "284": {
           "moveId": 284,
@@ -58929,7 +59204,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -59210,7 +59485,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "247": {
           "moveId": 247,
@@ -59401,7 +59676,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -59506,7 +59781,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -61238,7 +61513,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -61341,7 +61616,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -62804,7 +63079,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "275": {
           "moveId": 275,
@@ -63552,7 +63827,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -63658,7 +63933,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -63767,7 +64042,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -65713,7 +65988,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -65729,7 +66004,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "247": {
           "moveId": 247,
@@ -66570,7 +66845,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -66636,7 +66911,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 5
+              "power": 9
             }
           },
           "chargedMoves": {
@@ -66740,7 +67015,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -66763,7 +67038,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 5,
@@ -67915,7 +68190,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 5,
@@ -68010,7 +68285,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "275": {
           "moveId": 275,
@@ -68115,7 +68390,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "275": {
           "moveId": 275,
@@ -68710,7 +68985,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -68812,7 +69087,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -68917,7 +69192,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -69603,7 +69878,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -69712,7 +69987,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -69807,7 +70082,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "264": {
           "moveId": 264,
@@ -69932,7 +70207,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "264": {
           "moveId": 264,
@@ -70072,7 +70347,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 5,
@@ -71205,7 +71480,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -71228,7 +71503,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 5,
@@ -71307,7 +71582,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -71330,7 +71605,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 5,
@@ -71409,7 +71684,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -71522,7 +71797,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -71632,14 +71907,14 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         },
         "346": {
           "moveId": 346,
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -71744,7 +72019,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -71846,7 +72121,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -72320,6 +72595,13 @@
           "proto": "AURORA_BEAM",
           "type": 15,
           "power": 80
+        },
+        "391": {
+          "moveId": 391,
+          "moveName": "Triple Axel",
+          "proto": "TRIPLE_AXEL",
+          "type": 15,
+          "power": 60
         }
       },
       "genId": 5,
@@ -72898,7 +73180,7 @@
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 5,
@@ -73071,7 +73353,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -73177,7 +73459,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -73626,6 +73908,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 5,
@@ -73739,6 +74028,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 5,
@@ -73811,7 +74107,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "256": {
               "moveId": 256,
@@ -73819,6 +74115,13 @@
               "proto": "BRAVE_BIRD",
               "type": 3,
               "power": 130
+            },
+            "341": {
+              "moveId": 341,
+              "moveName": "Fly",
+              "proto": "FLY",
+              "type": 3,
+              "power": 80
             }
           },
           "types": {
@@ -74096,7 +74399,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -74715,7 +75018,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -75195,7 +75498,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 5
+              "power": 9
             },
             "345": {
               "moveId": 345,
@@ -75218,7 +75521,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "122": {
               "moveId": 122,
@@ -75284,7 +75587,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -76901,7 +77204,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -76931,7 +77234,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "382": {
           "moveId": 382,
@@ -76998,7 +77301,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -77085,7 +77388,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -77172,7 +77475,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "238": {
           "moveId": 238,
@@ -77492,6 +77795,13 @@
           "proto": "SWIFT",
           "type": 1,
           "power": 60
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 6,
@@ -77590,6 +77900,13 @@
           "proto": "FLAME_CHARGE",
           "type": 10,
           "power": 65
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 6,
@@ -77667,7 +77984,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -77698,6 +78015,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 6,
@@ -78589,7 +78913,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -78695,7 +79019,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -78817,7 +79141,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 6,
@@ -78964,7 +79288,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 6,
@@ -79177,7 +79501,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 6,
@@ -79775,7 +80099,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "273": {
           "moveId": 273,
@@ -79863,7 +80187,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "273": {
           "moveId": 273,
@@ -79926,7 +80250,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "273": {
               "moveId": 273,
@@ -80370,7 +80694,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 6,
@@ -82150,6 +82474,13 @@
           "type": 13,
           "power": 65
         },
+        "75": {
+          "moveId": 75,
+          "moveName": "Parabolic Charge",
+          "proto": "PARABOLIC_CHARGE",
+          "type": 13,
+          "power": 65
+        },
         "88": {
           "moveId": 88,
           "moveName": "Play Rough",
@@ -82606,7 +82937,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -82696,7 +83027,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -82874,7 +83205,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -83275,6 +83606,13 @@
           "type": 5,
           "power": 110
         },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
+        },
         "131": {
           "moveId": 131,
           "moveName": "Body Slam",
@@ -83360,6 +83698,13 @@
               "proto": "ROCK_SLIDE",
               "type": 6,
               "power": 75
+            },
+            "111": {
+              "moveId": 111,
+              "moveName": "Icy Wind",
+              "proto": "ICY_WIND",
+              "type": 15,
+              "power": 60
             },
             "279": {
               "moveId": 279,
@@ -83545,7 +83890,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "122": {
           "moveId": 122,
@@ -83755,7 +84100,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "122": {
           "moveId": 122,
@@ -84091,7 +84436,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -84114,7 +84459,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 6,
@@ -84161,7 +84506,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             }
           },
           "types": {
@@ -84228,7 +84573,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -84521,7 +84866,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "357": {
           "moveId": 357,
@@ -84909,7 +85254,7 @@
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
-          "power": 55
+          "power": 60
         }
       },
       "genId": 7,
@@ -85180,7 +85525,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 7,
@@ -85906,6 +86251,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 80
         }
       },
       "genId": 7,
@@ -85958,7 +86310,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "241": {
           "moveId": 241,
@@ -86049,7 +86401,7 @@
           "moveName": "Bubble",
           "proto": "BUBBLE_FAST",
           "type": 11,
-          "power": 7
+          "power": 8
         },
         "241": {
           "moveId": 241,
@@ -86764,7 +87116,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         },
         "283": {
           "moveId": 283,
@@ -87603,7 +87955,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -87683,7 +88035,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -87862,7 +88214,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -88516,7 +88868,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "275": {
           "moveId": 275,
@@ -88531,6 +88883,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 7,
@@ -88861,7 +89220,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -88959,7 +89318,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -89765,14 +90124,14 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         },
         "346": {
           "moveId": 346,
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -90211,7 +90570,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -90658,7 +91017,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -91059,7 +91418,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -91171,7 +91530,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "275": {
           "moveId": 275,
@@ -93532,6 +93891,13 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 8,
@@ -93938,7 +94304,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -94025,7 +94391,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -95003,7 +95369,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -95097,7 +95463,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -95188,7 +95554,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -95368,7 +95734,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "271": {
           "moveId": 271,
@@ -96491,7 +96857,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -96514,7 +96880,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -96602,7 +96968,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -96632,7 +96998,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -96725,7 +97091,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -96812,7 +97178,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -96913,7 +97279,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "118": {
           "moveId": 118,
@@ -97502,7 +97868,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -97753,7 +98119,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "111": {
           "moveId": 111,
@@ -97846,7 +98212,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -98633,7 +98999,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 8,
@@ -98671,7 +99037,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "273": {
               "moveId": 273,
@@ -99445,7 +99811,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -99522,7 +99888,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -100837,7 +101203,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "273": {
           "moveId": 273,
@@ -100900,7 +101266,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "254": {
               "moveId": 254,
@@ -100975,7 +101341,7 @@
               "moveName": "Psychic",
               "proto": "PSYCHIC",
               "type": 14,
-              "power": 85
+              "power": 75
             },
             "273": {
               "moveId": 273,
@@ -101058,7 +101424,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "282": {
           "moveId": 282,
@@ -101144,7 +101510,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "116": {
           "moveId": 116,
@@ -101875,7 +102241,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "274": {
           "moveId": 274,
@@ -101968,7 +102334,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "131": {
           "moveId": 131,
@@ -102356,7 +102722,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -102443,7 +102809,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -102537,7 +102903,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -104119,6 +104485,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 9,
@@ -104217,6 +104590,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 9,
@@ -104318,6 +104698,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 90
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 9,
@@ -104736,7 +105123,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -104831,7 +105218,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -104924,7 +105311,7 @@
           "moveName": "Incinerate",
           "proto": "INCINERATE_FAST",
           "type": 10,
-          "power": 15
+          "power": 20
         }
       },
       "chargedMoves": {
@@ -105699,7 +106086,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "271": {
           "moveId": 271,
@@ -106513,7 +106900,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 9,
@@ -106599,7 +106986,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 9,
@@ -107656,7 +108043,7 @@
           "moveName": "Iron Tail",
           "proto": "IRON_TAIL_FAST",
           "type": 9,
-          "power": 9
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -108831,7 +109218,7 @@
           "moveName": "Psychic",
           "proto": "PSYCHIC",
           "type": 14,
-          "power": 85
+          "power": 75
         },
         "276": {
           "moveId": 276,
@@ -108904,7 +109291,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "368": {
           "moveId": 368,
@@ -109833,6 +110220,13 @@
           "type": 16,
           "power": 50
         },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
+        },
         "254": {
           "moveId": 254,
           "moveName": "Avalanche",
@@ -109923,6 +110317,13 @@
           "proto": "DRAGON_CLAW",
           "type": 16,
           "power": 50
+        },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
         },
         "254": {
           "moveId": 254,
@@ -110025,6 +110426,13 @@
           "type": 16,
           "power": 50
         },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 60
+        },
         "254": {
           "moveId": 254,
           "moveName": "Avalanche",
@@ -110090,7 +110498,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -110165,7 +110573,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 5
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -111117,7 +111525,8 @@
         77,
         108,
         251,
-        272
+        272,
+        392
       ],
       "types": [
         13,
@@ -111193,6 +111602,7 @@
       "chargedMoves": [
         33,
         40,
+        45,
         46,
         95,
         267
@@ -111391,6 +111801,12 @@
       "attack": 99,
       "defense": 78,
       "stamina": 120,
+      "chargedMoves": [
+        16,
+        51,
+        280,
+        392
+      ],
       "types": [
         17
       ],
@@ -111424,7 +111840,8 @@
         16,
         88,
         280,
-        333
+        333,
+        392
       ],
       "types": [
         17
@@ -125324,6 +125741,7 @@
       ],
       "chargedMoves": [
         90,
+        106,
         108,
         247
       ],
@@ -125351,6 +125769,7 @@
       "chargedMoves": [
         70,
         91,
+        106,
         275
       ],
       "types": [
@@ -127386,6 +127805,7 @@
       "chargedMoves": [
         40,
         64,
+        111,
         279
       ],
       "types": [
@@ -127420,7 +127840,8 @@
         69,
         86,
         108,
-        256
+        256,
+        341
       ],
       "types": [
         3,
@@ -130901,7 +131322,7 @@
       "id": 106,
       "name": "Scald",
       "proto": "SCALD",
-      "power": 80
+      "power": 85
     },
     "107": {
       "id": 107,
@@ -130913,7 +131334,7 @@
       "id": 108,
       "name": "Psychic",
       "proto": "PSYCHIC",
-      "power": 85
+      "power": 75
     },
     "109": {
       "id": 109,
@@ -131306,7 +131727,7 @@
       "id": 237,
       "name": "Bubble",
       "proto": "BUBBLE_FAST",
-      "power": 7
+      "power": 8
     },
     "238": {
       "id": 238,
@@ -131461,7 +131882,7 @@
       "id": 263,
       "name": "Astonish",
       "proto": "ASTONISH_FAST",
-      "power": 5
+      "power": 9
     },
     "264": {
       "id": 264,
@@ -131479,7 +131900,7 @@
       "id": 266,
       "name": "Iron Tail",
       "proto": "IRON_TAIL_FAST",
-      "power": 9
+      "power": 10
     },
     "267": {
       "id": 267,
@@ -131497,7 +131918,7 @@
       "id": 269,
       "name": "Fire Spin",
       "proto": "FIRE_SPIN_FAST",
-      "power": 9
+      "power": 10
     },
     "270": {
       "id": 270,
@@ -131782,7 +132203,7 @@
       "id": 317,
       "name": "Blaze Kick",
       "proto": "BLAZE_KICK",
-      "power": 55
+      "power": 60
     },
     "318": {
       "id": 318,
@@ -131954,7 +132375,7 @@
       "id": 346,
       "name": "Incinerate",
       "proto": "INCINERATE_FAST",
-      "power": 15
+      "power": 20
     },
     "347": {
       "id": 347,

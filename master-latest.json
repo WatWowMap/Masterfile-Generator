@@ -1725,7 +1725,8 @@
         "Thunder Punch",
         "Brick Break",
         "Wild Charge",
-        "Skull Bash"
+        "Skull Bash",
+        "Trailblaze"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -1751,7 +1752,8 @@
             "Thunder Punch",
             "Psychic",
             "Wild Charge",
-            "Grass Knot"
+            "Grass Knot",
+            "Trailblaze"
           ],
           "types": [
             "Electric",
@@ -1907,6 +1909,7 @@
           "charged_moves": [
             "Ice Punch",
             "Blizzard",
+            "Aerial Ace",
             "Drill Run",
             "Bulldoze",
             "Gyro Ball"
@@ -2611,7 +2614,8 @@
         "Ice Beam",
         "Disarming Voice",
         "Dazzling Gleam",
-        "Play Rough"
+        "Play Rough",
+        "Icy Wind"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -3345,6 +3349,12 @@
           "attack": 99,
           "defense": 78,
           "stamina": 120,
+          "charged_moves": [
+            "Dark Pulse",
+            "Night Slash",
+            "Foul Play",
+            "Trailblaze"
+          ],
           "types": [
             "Dark"
           ],
@@ -3449,7 +3459,8 @@
             "Dark Pulse",
             "Play Rough",
             "Foul Play",
-            "Payback"
+            "Payback",
+            "Trailblaze"
           ],
           "types": [
             "Dark"
@@ -3993,6 +4004,7 @@
         "Ice Punch",
         "Scald",
         "Hydro Pump",
+        "Icy Wind",
         "Dynamic Punch",
         "Power Up Punch"
       ],
@@ -5161,6 +5173,7 @@
       "charged_moves": [
         "Ice Beam",
         "Water Pulse",
+        "Scald",
         "Psychic"
       ],
       "gen_id": 1,
@@ -5195,6 +5208,7 @@
           ],
           "charged_moves": [
             "Sludge Bomb",
+            "Scald",
             "Psychic",
             "Focus Blast"
           ],
@@ -9012,7 +9026,8 @@
         "Ice Beam",
         "Blizzard",
         "Ancient Power",
-        "Icy Wind"
+        "Icy Wind",
+        "Triple Axel"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -10458,7 +10473,8 @@
         "Megahorn",
         "Shadow Sneak",
         "Cross Poison",
-        "Lunge"
+        "Lunge",
+        "Trailblaze"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -11446,6 +11462,7 @@
       ],
       "charged_moves": [
         "Blizzard",
+        "Scald",
         "Hydro Pump",
         "Surf",
         "Weather Ball Water"
@@ -12179,6 +12196,7 @@
       "charged_moves": [
         "Blizzard",
         "Fire Blast",
+        "Scald",
         "Psychic"
       ],
       "gen_id": 2,
@@ -12212,6 +12230,7 @@
           "charged_moves": [
             "Shadow Ball",
             "Sludge Wave",
+            "Scald",
             "Futuresight"
           ],
           "types": [
@@ -12953,6 +12972,7 @@
         "Ice Beam",
         "Aqua Tail",
         "Sludge Wave",
+        "Scald",
         "Acid Spray",
         "Fell Stinger"
       ],
@@ -13798,7 +13818,9 @@
       "charged_moves": [
         "Ice Punch",
         "Aerial Ace",
-        "Icy Wind"
+        "Icy Wind",
+        "Fly",
+        "Triple Axel"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -14871,6 +14893,7 @@
         "Ice Beam",
         "Bubble Beam",
         "Water Pulse",
+        "Scald",
         "Hydro Pump"
       ],
       "gen_id": 2,
@@ -16326,6 +16349,7 @@
       ],
       "charged_moves": [
         "Bubble Beam",
+        "Scald",
         "Energy Ball"
       ],
       "gen_id": 3,
@@ -16383,6 +16407,7 @@
       "charged_moves": [
         "Ice Beam",
         "Bubble Beam",
+        "Scald",
         "Grass Knot"
       ],
       "gen_id": 3,
@@ -16439,6 +16464,7 @@
       "charged_moves": [
         "Ice Beam",
         "Blizzard",
+        "Scald",
         "Hydro Pump",
         "Solar Beam",
         "Energy Ball",
@@ -17338,6 +17364,7 @@
         "Counter"
       ],
       "charged_moves": [
+        "Rock Slide",
         "Bulldoze",
         "Brick Break",
         "Body Slam"
@@ -19147,6 +19174,7 @@
       ],
       "charged_moves": [
         "Water Pulse",
+        "Scald",
         "Body Slam",
         "Heavy Slam"
       ],
@@ -19204,6 +19232,7 @@
       "charged_moves": [
         "Hyper Beam",
         "Blizzard",
+        "Scald",
         "Surf"
       ],
       "gen_id": 3,
@@ -19822,7 +19851,8 @@
         "Seed Bomb",
         "Brick Break",
         "Grass Knot",
-        "Payback"
+        "Payback",
+        "Trailblaze"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19883,7 +19913,8 @@
         "Dark Pulse",
         "Dynamic Punch",
         "Grass Knot",
-        "Payback"
+        "Payback",
+        "Trailblaze"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -20252,7 +20283,8 @@
       "charged_moves": [
         "Ice Beam",
         "Aqua Tail",
-        "Mud Bomb"
+        "Mud Bomb",
+        "Scald"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -20309,7 +20341,8 @@
       "charged_moves": [
         "Blizzard",
         "Mud Bomb",
-        "Water Pulse"
+        "Water Pulse",
+        "Scald"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -20360,6 +20393,7 @@
         "Vice Grip",
         "Bubble Beam",
         "Aqua Jet",
+        "Scald",
         "Razor Shell"
       ],
       "gen_id": 3,
@@ -20418,6 +20452,7 @@
         "Vice Grip",
         "Night Slash",
         "Bubble Beam",
+        "Scald",
         "Crabhammer",
         "Razor Shell"
       ],
@@ -23511,7 +23546,8 @@
       ],
       "charged_moves": [
         "Aerial Ace",
-        "Brave Bird"
+        "Brave Bird",
+        "Fly"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -23571,7 +23607,8 @@
       "charged_moves": [
         "Heat Wave",
         "Aerial Ace",
-        "Brave Bird"
+        "Brave Bird",
+        "Fly"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -23630,7 +23667,8 @@
       "charged_moves": [
         "Heat Wave",
         "Close Combat",
-        "Brave Bird"
+        "Brave Bird",
+        "Fly"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -26800,6 +26838,7 @@
         "Counter"
       ],
       "charged_moves": [
+        "Shadow Ball",
         "Sludge Bomb",
         "Mud Bomb",
         "Dynamic Punch"
@@ -27127,6 +27166,7 @@
       ],
       "charged_moves": [
         "Blizzard",
+        "Icy Wind",
         "Energy Ball",
         "Outrage",
         "Weather Ball Ice"
@@ -28035,7 +28075,8 @@
       "charged_moves": [
         "Shadow Ball",
         "Avalanche",
-        "Crunch"
+        "Crunch",
+        "Triple Axel"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -35741,7 +35782,8 @@
         "Night Slash",
         "Water Pulse",
         "Solar Beam",
-        "Aurora Beam"
+        "Aurora Beam",
+        "Triple Axel"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -36393,7 +36435,8 @@
       "charged_moves": [
         "Aerial Ace",
         "Rock Tomb",
-        "Brave Bird"
+        "Brave Bird",
+        "Fly"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -36456,7 +36499,8 @@
         "Heat Wave",
         "Rock Slide",
         "Close Combat",
-        "Brave Bird"
+        "Brave Bird",
+        "Fly"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -36489,7 +36533,8 @@
             "Ominous Wind",
             "Dazzling Gleam",
             "Psychic",
-            "Brave Bird"
+            "Brave Bird",
+            "Fly"
           ],
           "types": [
             "Flying",
@@ -38153,7 +38198,8 @@
       "charged_moves": [
         "Heat Wave",
         "Aerial Ace",
-        "Swift"
+        "Swift",
+        "Fly"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -38199,7 +38245,8 @@
       "charged_moves": [
         "Heat Wave",
         "Aerial Ace",
-        "Flame Charge"
+        "Flame Charge",
+        "Fly"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -38245,7 +38292,8 @@
         "Flame Charge",
         "Fire Blast",
         "Hurricane",
-        "Brave Bird"
+        "Brave Bird",
+        "Fly"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -40513,6 +40561,7 @@
       ],
       "charged_moves": [
         "Discharge",
+        "Parabolic Charge",
         "Play Rough"
       ],
       "gen_id": 6,
@@ -41081,6 +41130,7 @@
       ],
       "charged_moves": [
         "Earthquake",
+        "Icy Wind",
         "Body Slam",
         "Avalanche",
         "Mirror Coat",
@@ -41105,6 +41155,7 @@
           "charged_moves": [
             "Blizzard",
             "Rock Slide",
+            "Icy Wind",
             "Crunch"
           ],
           "types": [
@@ -42266,7 +42317,8 @@
       "charged_moves": [
         "Discharge",
         "X Scissor",
-        "Crunch"
+        "Crunch",
+        "Fly"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -43473,7 +43525,8 @@
       "charged_moves": [
         "Psychic",
         "Futuresight",
-        "Foul Play"
+        "Foul Play",
+        "Trailblaze"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -45926,7 +45979,8 @@
       ],
       "charged_moves": [
         "Body Slam",
-        "Crunch"
+        "Crunch",
+        "Trailblaze"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -50240,6 +50294,7 @@
       "charged_moves": [
         "Bug Buzz",
         "X Scissor",
+        "Trailblaze",
         "Trailblaze"
       ],
       "gen_id": 9,
@@ -50627,7 +50682,8 @@
       "charged_moves": [
         "Seed Bomb",
         "Energy Ball",
-        "Earth Power"
+        "Earth Power",
+        "Trailblaze"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50673,7 +50729,8 @@
       "charged_moves": [
         "Seed Bomb",
         "Energy Ball",
-        "Earth Power"
+        "Earth Power",
+        "Trailblaze"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50718,7 +50775,8 @@
       "charged_moves": [
         "Seed Bomb",
         "Energy Ball",
-        "Earth Power"
+        "Earth Power",
+        "Trailblaze"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -53348,6 +53406,7 @@
       ],
       "charged_moves": [
         "Dragon Claw",
+        "Icy Wind",
         "Avalanche",
         "Outrage"
       ],
@@ -53393,6 +53452,7 @@
       ],
       "charged_moves": [
         "Dragon Claw",
+        "Icy Wind",
         "Avalanche",
         "Outrage"
       ],
@@ -53438,6 +53498,7 @@
       "charged_moves": [
         "Blizzard",
         "Dragon Claw",
+        "Icy Wind",
         "Avalanche",
         "Outrage"
       ],
@@ -55326,7 +55387,7 @@
       "name": "Scald",
       "proto": "SCALD",
       "type": "Water",
-      "power": 80
+      "power": 85
     },
     "107": {
       "name": "Hydro Pump",
@@ -55338,7 +55399,7 @@
       "name": "Psychic",
       "proto": "PSYCHIC",
       "type": "Psychic",
-      "power": 85
+      "power": 75
     },
     "109": {
       "name": "Psystrike",
@@ -55723,7 +55784,7 @@
       "name": "Bubble",
       "proto": "BUBBLE_FAST",
       "type": "Water",
-      "power": 7
+      "power": 8
     },
     "238": {
       "name": "Feint Attack",
@@ -55878,7 +55939,7 @@
       "name": "Astonish",
       "proto": "ASTONISH_FAST",
       "type": "Ghost",
-      "power": 5
+      "power": 9
     },
     "264": {
       "name": "Hex",
@@ -55896,7 +55957,7 @@
       "name": "Iron Tail",
       "proto": "IRON_TAIL_FAST",
       "type": "Steel",
-      "power": 9
+      "power": 10
     },
     "267": {
       "name": "Gyro Ball",
@@ -55914,7 +55975,7 @@
       "name": "Fire Spin",
       "proto": "FIRE_SPIN_FAST",
       "type": "Fire",
-      "power": 9
+      "power": 10
     },
     "270": {
       "name": "Overheat",
@@ -56197,7 +56258,7 @@
       "name": "Blaze Kick",
       "proto": "BLAZE_KICK",
       "type": "Fire",
-      "power": 55
+      "power": 60
     },
     "318": {
       "name": "Razor Shell",
@@ -56367,7 +56428,7 @@
       "name": "Incinerate",
       "proto": "INCINERATE_FAST",
       "type": "Fire",
-      "power": 15
+      "power": 20
     },
     "347": {
       "name": "Dark Void",
