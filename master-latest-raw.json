@@ -67133,39 +67133,18 @@
       "gender": 1,
       "grunt": "Grunt",
       "proto": "CHARACTER_GRUNT_MALE",
-      "active": true,
-      "firstReward": true,
+      "active": false,
+      "firstReward": false,
       "secondReward": false,
       "thirdReward": false,
       "encounters": [
         {
-          "id": 4,
-          "formId": 0,
           "position": "first"
         },
         {
-          "id": 7,
-          "formId": 0,
-          "position": "first"
-        },
-        {
-          "id": 156,
-          "formId": 0,
           "position": "second"
         },
         {
-          "id": 159,
-          "formId": 0,
-          "position": "second"
-        },
-        {
-          "id": 254,
-          "formId": 0,
-          "position": "third"
-        },
-        {
-          "id": 260,
-          "formId": 0,
           "position": "third"
         }
       ]
@@ -68116,11 +68095,6 @@
           "position": "second"
         },
         {
-          "id": 20,
-          "formId": 0,
-          "position": "second"
-        },
-        {
           "id": 432,
           "formId": 0,
           "position": "second"
@@ -68160,11 +68134,6 @@
         },
         {
           "id": 30,
-          "formId": 0,
-          "position": "second"
-        },
-        {
-          "id": 33,
           "formId": 0,
           "position": "second"
         },
@@ -68363,11 +68332,6 @@
       "secondReward": false,
       "thirdReward": false,
       "encounters": [
-        {
-          "id": 54,
-          "formId": 0,
-          "position": "first"
-        },
         {
           "id": 90,
           "formId": 0,
@@ -68763,11 +68727,6 @@
           "id": 622,
           "formId": 0,
           "position": "second"
-        },
-        {
-          "id": 94,
-          "formId": 0,
-          "position": "third"
         },
         {
           "id": 477,
