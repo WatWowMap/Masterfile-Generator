@@ -41637,31 +41637,13 @@
       "quickMoves": [
         221,
         234,
-        249,
-        263,
-        282
+        235
       ],
       "chargedMoves": [
-        14,
         22,
-        26,
-        30,
-        31,
-        60,
-        70,
-        78,
-        79,
-        95,
         108,
-        116,
-        125,
         127,
-        131,
-        132,
-        251,
-        273,
-        304,
-        321
+        251
       ],
       "genId": 8,
       "generation": "Galar",
@@ -41671,9 +41653,22 @@
       "attack": 206,
       "defense": 145,
       "stamina": 230,
-      "unreleased": true,
+      "height": 1.8,
+      "weight": 95.1,
+      "family": 234,
+      "bonusCandyCapture": 2,
+      "bonusStardustCapture": 200,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyGroupNumber": 3,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true,
+      "unreleased": true
     },
     "900": {
       "pokemonName": "Kleavor",
@@ -42540,7 +42535,6 @@
       "chargedMoves": [
         49,
         100,
-        392,
         392
       ],
       "genId": 9,
@@ -45107,6 +45101,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 3,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,

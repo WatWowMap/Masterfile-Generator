@@ -49392,31 +49392,13 @@
       "quick_moves": [
         "Tackle",
         "Zen Headbutt",
-        "Charge Beam",
-        "Astonish",
-        "Take Down"
+        "Confusion"
       ],
       "charged_moves": [
-        "Hyper Beam",
         "Megahorn",
-        "Dig",
-        "Psybeam",
-        "Earthquake",
-        "Psyshock",
-        "Shadow Ball",
-        "Thunder",
-        "Thunderbolt",
-        "Bulldoze",
         "Psychic",
-        "Solar Beam",
-        "Swift",
         "Stomp",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Energy Ball",
-        "Earth Power",
-        "Giga Impact"
+        "Wild Charge"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -49429,8 +49411,16 @@
       "attack": 206,
       "defense": 145,
       "stamina": 230,
+      "height": 1.8,
+      "weight": 95.1,
+      "family": 234,
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "buddy_group_number": 3,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "900": {
       "name": "Kleavor",
@@ -50294,7 +50284,6 @@
       "charged_moves": [
         "Bug Buzz",
         "X Scissor",
-        "Trailblaze",
         "Trailblaze"
       ],
       "gen_id": 9,
@@ -52803,6 +52792,7 @@
       "family": 56,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,

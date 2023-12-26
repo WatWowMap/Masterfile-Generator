@@ -101412,98 +101412,21 @@
           "type": 14,
           "power": 8
         },
-        "249": {
-          "moveId": 249,
-          "moveName": "Charge Beam",
-          "proto": "CHARGE_BEAM_FAST",
-          "type": 13,
-          "power": 5
-        },
-        "263": {
-          "moveId": 263,
-          "moveName": "Astonish",
-          "proto": "ASTONISH_FAST",
-          "type": 8,
-          "power": 9
-        },
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
-          "type": 1,
-          "power": 5
+        "235": {
+          "moveId": 235,
+          "moveName": "Confusion",
+          "proto": "CONFUSION_FAST",
+          "type": 14,
+          "power": 16
         }
       },
       "chargedMoves": {
-        "14": {
-          "moveId": 14,
-          "moveName": "Hyper Beam",
-          "proto": "HYPER_BEAM",
-          "type": 1,
-          "power": 150
-        },
         "22": {
           "moveId": 22,
           "moveName": "Megahorn",
           "proto": "MEGAHORN",
           "type": 7,
           "power": 110
-        },
-        "26": {
-          "moveId": 26,
-          "moveName": "Dig",
-          "proto": "DIG",
-          "type": 5,
-          "power": 80
-        },
-        "30": {
-          "moveId": 30,
-          "moveName": "Psybeam",
-          "proto": "PSYBEAM",
-          "type": 14,
-          "power": 70
-        },
-        "31": {
-          "moveId": 31,
-          "moveName": "Earthquake",
-          "proto": "EARTHQUAKE",
-          "type": 5,
-          "power": 110
-        },
-        "60": {
-          "moveId": 60,
-          "moveName": "Psyshock",
-          "proto": "PSYSHOCK",
-          "type": 14,
-          "power": 70
-        },
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "78": {
-          "moveId": 78,
-          "moveName": "Thunder",
-          "proto": "THUNDER",
-          "type": 13,
-          "power": 100
-        },
-        "79": {
-          "moveId": 79,
-          "moveName": "Thunderbolt",
-          "proto": "THUNDERBOLT",
-          "type": 13,
-          "power": 90
-        },
-        "95": {
-          "moveId": 95,
-          "moveName": "Bulldoze",
-          "proto": "BULLDOZE",
-          "type": 5,
-          "power": 80
         },
         "108": {
           "moveId": 108,
@@ -101512,20 +101435,6 @@
           "type": 14,
           "power": 75
         },
-        "116": {
-          "moveId": 116,
-          "moveName": "Solar Beam",
-          "proto": "SOLAR_BEAM",
-          "type": 12,
-          "power": 150
-        },
-        "125": {
-          "moveId": 125,
-          "moveName": "Swift",
-          "proto": "SWIFT",
-          "type": 1,
-          "power": 60
-        },
         "127": {
           "moveId": 127,
           "moveName": "Stomp",
@@ -101533,47 +101442,12 @@
           "type": 1,
           "power": 55
         },
-        "131": {
-          "moveId": 131,
-          "moveName": "Body Slam",
-          "proto": "BODY_SLAM",
-          "type": 1,
-          "power": 60
-        },
-        "132": {
-          "moveId": 132,
-          "moveName": "Rest",
-          "proto": "REST",
-          "type": 1,
-          "power": 50
-        },
         "251": {
           "moveId": 251,
           "moveName": "Wild Charge",
           "proto": "WILD_CHARGE",
           "type": 13,
           "power": 100
-        },
-        "273": {
-          "moveId": 273,
-          "moveName": "Energy Ball",
-          "proto": "ENERGY_BALL",
-          "type": 12,
-          "power": 90
-        },
-        "304": {
-          "moveId": 304,
-          "moveName": "Earth Power",
-          "proto": "EARTH_POWER",
-          "type": 5,
-          "power": 90
-        },
-        "321": {
-          "moveId": 321,
-          "moveName": "Giga Impact",
-          "proto": "GIGA_IMPACT",
-          "type": 1,
-          "power": 150
         }
       },
       "genId": 8,
@@ -101590,9 +101464,26 @@
         "defense": 145,
         "stamina": 230
       },
-      "unreleased": true,
+      "height": 1.8,
+      "weight": 95.1,
+      "family": 234,
+      "encounter": {
+        "bonusCandyCapture": 2,
+        "bonusStardustCapture": 200
+      },
       "legendary": false,
-      "mythic": false
+      "mythic": false,
+      "ultraBeast": false,
+      "misc": {
+        "buddyGroupNumber": 3,
+        "buddyDistance": 5,
+        "thirdMoveStardust": 75000,
+        "thirdMoveCandy": 75,
+        "gymDefenderEligible": true,
+        "tradable": true,
+        "transferable": true
+      },
+      "unreleased": true
     },
     "900": {
       "name": "Kleavor",
@@ -109059,6 +108950,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 3,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
