@@ -3333,22 +3333,26 @@
         "2825": {
           "name": "Gotour 2024 A",
           "proto": "PIKACHU_GOTOUR_2024_A",
-          "form": 2825
+          "form": 2825,
+          "isCostume": true
         },
         "2826": {
           "name": "Gotour 2024 B",
           "proto": "PIKACHU_GOTOUR_2024_B",
-          "form": 2826
+          "form": 2826,
+          "isCostume": true
         },
         "2827": {
           "name": "Gotour 2024 A 02",
           "proto": "PIKACHU_GOTOUR_2024_A_02",
-          "form": 2827
+          "form": 2827,
+          "isCostume": true
         },
         "2828": {
           "name": "Gotour 2024 B 02",
           "proto": "PIKACHU_GOTOUR_2024_B_02",
-          "form": 2828
+          "form": 2828,
+          "isCostume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -84904,6 +84908,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "398": {
+          "moveId": 398,
+          "moveName": "Spirit Shackle",
+          "proto": "SPIRIT_SHACKLE",
+          "type": 8,
+          "power": 50
         }
       },
       "genId": 7,
@@ -86775,7 +86786,7 @@
     "744": {
       "name": "Rockruff",
       "pokedexId": 744,
-      "defaultFormId": 0,
+      "defaultFormId": 2831,
       "types": {
         "6": {
           "typeId": 6,
@@ -86839,12 +86850,27 @@
         "2737": {
           "name": "Dusk Form",
           "proto": "ROCKRUFF_DUSK",
-          "form": 2737
+          "form": 2737,
+          "evolutions": {
+            "745": {
+              "pokemon": 745,
+              "form": 2686,
+              "candyCost": 50
+            }
+          }
         },
         "2831": {
           "name": "Normal",
           "proto": "ROCKRUFF_NORMAL",
-          "form": 2831
+          "form": 2831,
+          "evolutions": {
+            "745": {
+              "pokemon": 745,
+              "form": 2685,
+              "candyCost": 50,
+              "onlyNighttime": true
+            }
+          }
         }
       },
       "stats": {
@@ -126945,7 +126971,14 @@
     "2737": {
       "formName": "Dusk Form",
       "proto": "ROCKRUFF_DUSK",
-      "formId": 2737
+      "formId": 2737,
+      "evolutions": [
+        {
+          "evoId": 745,
+          "formId": 2686,
+          "candyCost": 50
+        }
+      ]
     },
     "2739": {
       "formName": "Meteor Green",
@@ -127988,22 +128021,26 @@
     "2825": {
       "formName": "Gotour 2024 A",
       "proto": "PIKACHU_GOTOUR_2024_A",
-      "formId": 2825
+      "formId": 2825,
+      "isCostume": true
     },
     "2826": {
       "formName": "Gotour 2024 B",
       "proto": "PIKACHU_GOTOUR_2024_B",
-      "formId": 2826
+      "formId": 2826,
+      "isCostume": true
     },
     "2827": {
       "formName": "Gotour 2024 A 02",
       "proto": "PIKACHU_GOTOUR_2024_A_02",
-      "formId": 2827
+      "formId": 2827,
+      "isCostume": true
     },
     "2828": {
       "formName": "Gotour 2024 B 02",
       "proto": "PIKACHU_GOTOUR_2024_B_02",
-      "formId": 2828
+      "formId": 2828,
+      "isCostume": true
     },
     "2829": {
       "formName": "Origin Forme",
@@ -128018,7 +128055,21 @@
     "2831": {
       "formName": "Normal",
       "proto": "ROCKRUFF_NORMAL",
-      "formId": 2831
+      "formId": 2831,
+      "evolutions": [
+        {
+          "evoId": 745,
+          "formId": 2684,
+          "candyCost": 50,
+          "onlyDaytime": true
+        },
+        {
+          "evoId": 745,
+          "formId": 2685,
+          "candyCost": 50,
+          "onlyNighttime": true
+        }
+      ]
     },
     "2981": {
       "formName": "Normal",
@@ -130434,14 +130485,6 @@
       "type": "Raid Ticket",
       "category": "Raid Ticket",
       "minTrainerLevel": 1
-    },
-    "1403": {
-      "id": 1403,
-      "name": "EX Raid Pass",
-      "proto": "ITEM_LEGENDARY_RAID_TICKET",
-      "type": "Raid Ticket",
-      "category": "Raid Ticket",
-      "minTrainerLevel": 100
     },
     "1404": {
       "id": 1404,

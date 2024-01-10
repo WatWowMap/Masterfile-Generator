@@ -1620,19 +1620,23 @@
         },
         "2825": {
           "name": "Gotour 2024 A",
-          "proto": "PIKACHU_GOTOUR_2024_A"
+          "proto": "PIKACHU_GOTOUR_2024_A",
+          "is_costume": true
         },
         "2826": {
           "name": "Gotour 2024 B",
-          "proto": "PIKACHU_GOTOUR_2024_B"
+          "proto": "PIKACHU_GOTOUR_2024_B",
+          "is_costume": true
         },
         "2827": {
           "name": "Gotour 2024 A 02",
-          "proto": "PIKACHU_GOTOUR_2024_A_02"
+          "proto": "PIKACHU_GOTOUR_2024_A_02",
+          "is_costume": true
         },
         "2828": {
           "name": "Gotour 2024 B 02",
-          "proto": "PIKACHU_GOTOUR_2024_B_02"
+          "proto": "PIKACHU_GOTOUR_2024_B_02",
+          "is_costume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -41700,7 +41704,8 @@
       "charged_moves": [
         "Shadow Sneak",
         "Brave Bird",
-        "Energy Ball"
+        "Energy Ball",
+        "Spirit Shackle"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -42574,7 +42579,7 @@
     "744": {
       "name": "Rockruff",
       "pokedex_id": 744,
-      "default_form_id": 0,
+      "default_form_id": 2831,
       "types": [
         "Rock"
       ],
@@ -42591,17 +42596,29 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2737": {
           "name": "Dusk",
-          "proto": "ROCKRUFF_DUSK"
+          "proto": "ROCKRUFF_DUSK",
+          "evolutions": [
+            {
+              "pokemon": 745,
+              "form": 2686
+            }
+          ]
         },
         "2831": {
           "name": "Normal",
-          "proto": "ROCKRUFF_NORMAL"
+          "proto": "ROCKRUFF_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 745,
+              "form": 2684
+            },
+            {
+              "pokemon": 745,
+              "form": 2685
+            }
+          ]
         }
       },
       "attack": 117,
@@ -54655,13 +54672,6 @@
       "type": "Raid Ticket",
       "category": "Raid Ticket",
       "min_trainer_level": 1
-    },
-    "1403": {
-      "name": "Legendary Raid Ticket",
-      "proto": "ITEM_LEGENDARY_RAID_TICKET",
-      "type": "Raid Ticket",
-      "category": "Raid Ticket",
-      "min_trainer_level": 100
     },
     "1404": {
       "name": "Star Piece",

@@ -941,16 +941,20 @@
           ]
         },
         "2825": {
-          "name": "Gotour 2024 A"
+          "name": "Gotour 2024 A",
+          "isCostume": true
         },
         "2826": {
-          "name": "Gotour 2024 B"
+          "name": "Gotour 2024 B",
+          "isCostume": true
         },
         "2827": {
-          "name": "Gotour 2024 A 02"
+          "name": "Gotour 2024 A 02",
+          "isCostume": true
         },
         "2828": {
-          "name": "Gotour 2024 B 02"
+          "name": "Gotour 2024 B 02",
+          "isCostume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -24716,7 +24720,8 @@
       "chargedMoves": [
         66,
         256,
-        273
+        273,
+        398
       ],
       "genId": 7,
       "generation": "Alola",
@@ -25359,7 +25364,7 @@
     "744": {
       "name": "Rockruff",
       "pokedexId": 744,
-      "defaultFormId": 0,
+      "defaultFormId": 2831,
       "types": [
         6
       ],
@@ -25376,11 +25381,11 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset"
-        },
         "2737": {
           "name": "Dusk"
+        },
+        "2831": {
+          "name": "Normal"
         }
       },
       "height": 0.5,

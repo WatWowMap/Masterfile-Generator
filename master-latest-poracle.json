@@ -45703,7 +45703,14 @@
         "baseStamina": 128
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 745,
+          "id": 2686,
+          "candyCost": 50
+        }
+      ]
     },
     "744_2831": {
       "name": "Rockruff",
@@ -45724,7 +45731,21 @@
         "baseStamina": 128
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 745,
+          "id": 2684,
+          "candyCost": 50,
+          "onlyDaytime": true
+        },
+        {
+          "evoId": 745,
+          "id": 2685,
+          "candyCost": 50,
+          "onlyNighttime": true
+        }
+      ]
     },
     "745_0": {
       "name": "Lycanroc",
@@ -56255,9 +56276,6 @@
     },
     "1402": {
       "name": "Premium Battle Pass"
-    },
-    "1403": {
-      "name": "EX Raid Pass"
     },
     "1404": {
       "name": "Star Piece"
