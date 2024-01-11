@@ -23223,7 +23223,7 @@
     "483": {
       "pokemonName": "Dialga",
       "pokedexId": 483,
-      "defaultFormId": 0,
+      "defaultFormId": 1856,
       "types": [
         9,
         16
@@ -23240,7 +23240,6 @@
       "genId": 4,
       "generation": "Sinnoh",
       "forms": [
-        0,
         1856,
         1857,
         1858,
@@ -23265,7 +23264,7 @@
     "484": {
       "pokemonName": "Palkia",
       "pokedexId": 484,
-      "defaultFormId": 0,
+      "defaultFormId": 1859,
       "types": [
         11,
         16
@@ -23283,7 +23282,6 @@
       "genId": 4,
       "generation": "Sinnoh",
       "forms": [
-        0,
         1859,
         1860,
         1861,
@@ -62884,12 +62882,18 @@
     "2829": {
       "formName": "Origin",
       "proto": "DIALGA_ORIGIN",
-      "formId": 2829
+      "formId": 2829,
+      "attack": 270,
+      "defense": 225,
+      "stamina": 205
     },
     "2830": {
       "formName": "Origin",
       "proto": "PALKIA_ORIGIN",
-      "formId": 2830
+      "formId": 2830,
+      "attack": 286,
+      "defense": 223,
+      "stamina": 189
     },
     "2831": {
       "formName": "Normal",

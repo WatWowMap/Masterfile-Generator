@@ -28379,7 +28379,7 @@
     "483": {
       "name": "Dialga",
       "pokedex_id": 483,
-      "default_form_id": 0,
+      "default_form_id": 1856,
       "types": [
         "Steel",
         "Dragon"
@@ -28396,10 +28396,6 @@
       "gen_id": 4,
       "generation": "Sinnoh",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1856": {
           "name": "Normal",
           "proto": "DIALGA_NORMAL"
@@ -28414,7 +28410,10 @@
         },
         "2829": {
           "name": "Origin",
-          "proto": "DIALGA_ORIGIN"
+          "proto": "DIALGA_ORIGIN",
+          "attack": 270,
+          "defense": 225,
+          "stamina": 205
         }
       },
       "attack": 275,
@@ -28433,7 +28432,7 @@
     "484": {
       "name": "Palkia",
       "pokedex_id": 484,
-      "default_form_id": 0,
+      "default_form_id": 1859,
       "types": [
         "Water",
         "Dragon"
@@ -28451,10 +28450,6 @@
       "gen_id": 4,
       "generation": "Sinnoh",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1859": {
           "name": "Normal",
           "proto": "PALKIA_NORMAL"
@@ -28469,7 +28464,10 @@
         },
         "2830": {
           "name": "Origin",
-          "proto": "PALKIA_ORIGIN"
+          "proto": "PALKIA_ORIGIN",
+          "attack": 286,
+          "defense": 223,
+          "stamina": 189
         }
       },
       "attack": 280,

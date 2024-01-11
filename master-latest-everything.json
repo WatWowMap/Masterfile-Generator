@@ -58128,7 +58128,7 @@
     "483": {
       "name": "Dialga",
       "pokedexId": 483,
-      "defaultFormId": 0,
+      "defaultFormId": 1856,
       "types": {
         "9": {
           "typeId": 9,
@@ -58204,7 +58204,12 @@
         "2829": {
           "name": "Origin Forme",
           "proto": "DIALGA_ORIGIN",
-          "form": 2829
+          "form": 2829,
+          "stats": {
+            "attack": 270,
+            "defense": 225,
+            "stamina": 205
+          }
         }
       },
       "stats": {
@@ -58230,7 +58235,7 @@
     "484": {
       "name": "Palkia",
       "pokedexId": 484,
-      "defaultFormId": 0,
+      "defaultFormId": 1859,
       "types": {
         "11": {
           "typeId": 11,
@@ -58313,7 +58318,12 @@
         "2830": {
           "name": "Origin Forme",
           "proto": "PALKIA_ORIGIN",
-          "form": 2830
+          "form": 2830,
+          "stats": {
+            "attack": 286,
+            "defense": 223,
+            "stamina": 189
+          }
         }
       },
       "stats": {
@@ -128045,12 +128055,18 @@
     "2829": {
       "formName": "Origin Forme",
       "proto": "DIALGA_ORIGIN",
-      "formId": 2829
+      "formId": 2829,
+      "attack": 270,
+      "defense": 225,
+      "stamina": 205
     },
     "2830": {
       "formName": "Origin Forme",
       "proto": "PALKIA_ORIGIN",
-      "formId": 2830
+      "formId": 2830,
+      "attack": 286,
+      "defense": 223,
+      "stamina": 189
     },
     "2831": {
       "formName": "Normal",
