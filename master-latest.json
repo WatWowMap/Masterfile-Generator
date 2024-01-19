@@ -1709,6 +1709,10 @@
         {
           "pokemon": 26,
           "form": 50
+        },
+        {
+          "pokemon": 26,
+          "form": 49
         }
       ]
     },
@@ -3707,7 +3711,12 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 979
+        }
+      ]
     },
     "58": {
       "name": "Growlithe",
@@ -6610,6 +6619,10 @@
         {
           "pokemon": 103,
           "form": 78
+        },
+        {
+          "pokemon": 103,
+          "form": 77
         }
       ],
       "little": true
@@ -6747,6 +6760,10 @@
         {
           "pokemon": 105,
           "form": 80
+        },
+        {
+          "pokemon": 105,
+          "form": 79
         }
       ],
       "little": true
@@ -7034,6 +7051,10 @@
         {
           "pokemon": 110,
           "form": 944
+        },
+        {
+          "pokemon": 110,
+          "form": 706
         }
       ],
       "little": true
@@ -7868,6 +7889,9 @@
         {
           "pokemon": 212,
           "form": 250
+        },
+        {
+          "pokemon": 900
         }
       ],
       "little": true
@@ -9847,6 +9871,10 @@
         {
           "pokemon": 157,
           "form": 2786
+        },
+        {
+          "pokemon": 157,
+          "form": 1133
         }
       ]
     },
@@ -12568,7 +12596,13 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 981
+        }
+      ],
+      "little": true
     },
     "204": {
       "name": "Pineco",
@@ -12727,7 +12761,14 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 982,
+          "form": 2994
+        }
+      ],
+      "little": true
     },
     "207": {
       "name": "Gligar",
@@ -13697,7 +13738,14 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 864,
+          "form": 2507
+        }
+      ],
+      "little": true
     },
     "223": {
       "name": "Remoraid",
@@ -17514,6 +17562,9 @@
       "evolutions": [
         {
           "pokemon": 291
+        },
+        {
+          "pokemon": 292
         }
       ],
       "little": true
@@ -26029,6 +26080,10 @@
         {
           "pokemon": 122,
           "form": 2339
+        },
+        {
+          "pokemon": 122,
+          "form": 1080
         }
       ],
       "little": true
@@ -29555,6 +29610,10 @@
         {
           "pokemon": 503,
           "form": 2787
+        },
+        {
+          "pokemon": 503,
+          "form": 1913
         }
       ]
     },
@@ -36369,7 +36428,12 @@
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 983
+        }
+      ]
     },
     "626": {
       "name": "Bouffalant",
@@ -36481,6 +36545,10 @@
         {
           "pokemon": 628,
           "form": 2798
+        },
+        {
+          "pokemon": 628,
+          "form": 2276
         }
       ],
       "little": true
@@ -41115,6 +41183,10 @@
         {
           "pokemon": 713,
           "form": 2795
+        },
+        {
+          "pokemon": 713,
+          "form": 2812
         }
       ],
       "little": true
@@ -41682,6 +41754,10 @@
         {
           "pokemon": 724,
           "form": 2785
+        },
+        {
+          "pokemon": 724,
+          "form": 2809
         }
       ]
     },
@@ -49578,6 +49654,7 @@
         "Outrage",
         "Crunch",
         "Surf",
+        "Muddy Water",
         "Giga Impact",
         "Psychic Fangs",
         "Liquidation"

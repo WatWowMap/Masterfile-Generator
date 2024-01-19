@@ -3461,8 +3461,7 @@
       "evolutions": {
         "26": {
           "pokemon": 26,
-          "form": 50,
-          "candyCost": 50
+          "form": 49
         }
       },
       "tempEvolutions": {
@@ -7765,6 +7764,12 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "evolutions": {
+        "979": {
+          "pokemon": 979,
+          "form": 0
+        }
       }
     },
     "58": {
@@ -13981,8 +13986,7 @@
       "evolutions": {
         "103": {
           "pokemon": 103,
-          "form": 78,
-          "candyCost": 50
+          "form": 77
         }
       },
       "little": true
@@ -14260,8 +14264,7 @@
       "evolutions": {
         "105": {
           "pokemon": 105,
-          "form": 80,
-          "candyCost": 50
+          "form": 79
         }
       },
       "little": true
@@ -14863,8 +14866,7 @@
       "evolutions": {
         "110": {
           "pokemon": 110,
-          "form": 944,
-          "candyCost": 50
+          "form": 706
         }
       },
       "little": true
@@ -16562,6 +16564,10 @@
           "form": 250,
           "candyCost": 50,
           "itemRequirement": "Metal Coat"
+        },
+        "900": {
+          "pokemon": 900,
+          "form": 0
         }
       },
       "little": true
@@ -20856,8 +20862,7 @@
       "evolutions": {
         "157": {
           "pokemon": 157,
-          "form": 2786,
-          "candyCost": 100
+          "form": 1133
         }
       }
     },
@@ -26299,7 +26304,14 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "evolutions": {
+        "981": {
+          "pokemon": 981,
+          "form": 0
+        }
+      },
+      "little": true
     },
     "204": {
       "name": "Pineco",
@@ -26625,7 +26637,14 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "evolutions": {
+        "982": {
+          "pokemon": 982,
+          "form": 2994
+        }
+      },
+      "little": true
     },
     "207": {
       "name": "Gligar",
@@ -28659,7 +28678,14 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "evolutions": {
+        "864": {
+          "pokemon": 864,
+          "form": 2507
+        }
+      },
+      "little": true
     },
     "223": {
       "name": "Remoraid",
@@ -36294,6 +36320,10 @@
           "pokemon": 291,
           "form": 0,
           "candyCost": 50
+        },
+        "292": {
+          "pokemon": 292,
+          "form": 0
         }
       },
       "little": true
@@ -53199,8 +53229,7 @@
       "evolutions": {
         "122": {
           "pokemon": 122,
-          "form": 2339,
-          "candyCost": 50
+          "form": 1080
         }
       },
       "little": true
@@ -60392,8 +60421,7 @@
       "evolutions": {
         "503": {
           "pokemon": 503,
-          "form": 2787,
-          "candyCost": 100
+          "form": 1913
         }
       }
     },
@@ -73768,6 +73796,12 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "evolutions": {
+        "983": {
+          "pokemon": 983,
+          "form": 0
+        }
       }
     },
     "626": {
@@ -73978,8 +74012,7 @@
       "evolutions": {
         "628": {
           "pokemon": 628,
-          "form": 2798,
-          "candyCost": 50
+          "form": 2276
         }
       },
       "little": true
@@ -83580,8 +83613,7 @@
       "evolutions": {
         "713": {
           "pokemon": 713,
-          "form": 2795,
-          "candyCost": 50
+          "form": 2812
         }
       },
       "little": true
@@ -84848,8 +84880,7 @@
       "evolutions": {
         "724": {
           "pokemon": 724,
-          "form": 2785,
-          "candyCost": 100
+          "form": 2809
         }
       }
     },
@@ -101630,8 +101661,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "900": {
       "name": "Kleavor",
@@ -102007,6 +102037,13 @@
           "proto": "SURF",
           "type": 11,
           "power": 65
+        },
+        "316": {
+          "moveId": 316,
+          "moveName": "Muddy Water",
+          "proto": "MUDDY_WATER",
+          "type": 11,
+          "power": 35
         },
         "321": {
           "moveId": 321,
@@ -116680,13 +116717,6 @@
           "attack": 339,
           "defense": 222,
           "stamina": 239,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 339,
-          "defense": 222,
-          "stamina": 239,
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
@@ -116704,13 +116734,6 @@
       "proto": "GARCHOMP_PURIFIED",
       "formId": 869,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 339,
-          "defense": 222,
-          "stamina": 239,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 339,

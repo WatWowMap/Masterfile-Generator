@@ -1318,6 +1318,10 @@
           "evoId": 26,
           "formId": 50,
           "candyCost": 50
+        },
+        {
+          "evoId": 26,
+          "formId": 49
         }
       ]
     },
@@ -2846,7 +2850,12 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 979
+        }
+      ]
     },
     "58": {
       "pokemonName": "Growlithe",
@@ -5053,6 +5062,10 @@
           "evoId": 103,
           "formId": 78,
           "candyCost": 50
+        },
+        {
+          "evoId": 103,
+          "formId": 77
         }
       ],
       "little": true
@@ -5151,6 +5164,10 @@
           "evoId": 105,
           "formId": 80,
           "candyCost": 50
+        },
+        {
+          "evoId": 105,
+          "formId": 79
         }
       ],
       "little": true
@@ -5381,6 +5398,10 @@
           "evoId": 110,
           "formId": 944,
           "candyCost": 50
+        },
+        {
+          "evoId": 110,
+          "formId": 706
         }
       ],
       "little": true
@@ -6054,6 +6075,9 @@
           "formId": 250,
           "candyCost": 50,
           "itemRequirement": 1103
+        },
+        {
+          "evoId": 900
         }
       ],
       "little": true
@@ -7680,6 +7704,10 @@
           "evoId": 157,
           "formId": 2786,
           "candyCost": 100
+        },
+        {
+          "evoId": 157,
+          "formId": 1133
         }
       ]
     },
@@ -9931,7 +9959,13 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 981
+        }
+      ],
+      "little": true
     },
     "204": {
       "pokemonName": "Pineco",
@@ -10066,7 +10100,14 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 982,
+          "formId": 2994
+        }
+      ],
+      "little": true
     },
     "207": {
       "pokemonName": "Gligar",
@@ -10849,7 +10890,14 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 864,
+          "formId": 2507
+        }
+      ],
+      "little": true
     },
     "223": {
       "pokemonName": "Remoraid",
@@ -14098,6 +14146,9 @@
         {
           "evoId": 291,
           "candyCost": 50
+        },
+        {
+          "evoId": 292
         }
       ],
       "little": true
@@ -21215,6 +21266,10 @@
           "evoId": 122,
           "formId": 2339,
           "candyCost": 50
+        },
+        {
+          "evoId": 122,
+          "formId": 1080
         }
       ],
       "little": true
@@ -21496,13 +21551,6 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 339,
-          "defense": 222,
-          "stamina": 239,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 339,
@@ -24097,6 +24145,10 @@
           "evoId": 503,
           "formId": 2787,
           "candyCost": 100
+        },
+        {
+          "evoId": 503,
+          "formId": 1913
         }
       ]
     },
@@ -29824,7 +29876,12 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 983
+        }
+      ]
     },
     "626": {
       "pokemonName": "Bouffalant",
@@ -29920,6 +29977,10 @@
           "evoId": 628,
           "formId": 2798,
           "candyCost": 50
+        },
+        {
+          "evoId": 628,
+          "formId": 2276
         }
       ],
       "little": true
@@ -33734,6 +33795,10 @@
           "evoId": 713,
           "formId": 2795,
           "candyCost": 50
+        },
+        {
+          "evoId": 713,
+          "formId": 2812
         }
       ],
       "little": true
@@ -34224,6 +34289,10 @@
           "evoId": 724,
           "formId": 2785,
           "candyCost": 100
+        },
+        {
+          "evoId": 724,
+          "formId": 2809
         }
       ]
     },
@@ -41681,8 +41750,7 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "unreleased": true
+      "transferable": true
     },
     "900": {
       "pokemonName": "Kleavor",
@@ -41805,6 +41873,7 @@
         277,
         279,
         284,
+        316,
         321,
         353,
         383
@@ -51413,13 +51482,6 @@
           "attack": 339,
           "defense": 222,
           "stamina": 239,
-          "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 339,
-          "defense": 222,
-          "stamina": 239,
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
@@ -51437,13 +51499,6 @@
       "proto": "GARCHOMP_PURIFIED",
       "formId": 869,
       "tempEvolutions": [
-        {
-          "tempEvoId": 1,
-          "attack": 339,
-          "defense": 222,
-          "stamina": 239,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 339,
