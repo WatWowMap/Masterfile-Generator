@@ -4294,6 +4294,15 @@
       "evolutions": [
         {
           "evoId": 979,
+          "id": 0,
+          "candyCost": 100,
+          "questRequirement": {
+            "target": 30,
+            "i18n": "Defeat {{amount}} Psychic- or Ghost-type Pokémon"
+          }
+        },
+        {
+          "evoId": 979,
           "id": 0
         }
       ]

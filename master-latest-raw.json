@@ -207,13 +207,6 @@
           "candyCost": 25
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
-        }
-      ],
       "little": true
     },
     "5": {
@@ -263,13 +256,6 @@
           "evoId": 6,
           "formId": 178,
           "candyCost": 100
-        }
-      ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
         }
       ]
     },
@@ -390,13 +376,6 @@
           "candyCost": 25
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
-        }
-      ],
       "little": true
     },
     "8": {
@@ -446,13 +425,6 @@
           "evoId": 9,
           "formId": 187,
           "candyCost": 100
-        }
-      ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
         }
       ]
     },
@@ -2519,13 +2491,6 @@
           "candyCost": 50
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 57,
-          "costumeProto": "FALL_2022",
-          "costumeName": "Fall 2022"
-        }
-      ],
       "little": true
     },
     "51": {
@@ -2852,6 +2817,11 @@
       "tradable": true,
       "transferable": true,
       "evolutions": [
+        {
+          "evoId": 979,
+          "candyCost": 100,
+          "questRequirement": "ANNIHILAPE_EVOLUTION_QUEST"
+        },
         {
           "evoId": 979
         }
@@ -8031,13 +8001,6 @@
           "candyCost": 50
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 54,
-          "costumeProto": "JAN_2022_NOEVOLVE",
-          "costumeName": "Jan 2022 Noevolve"
-        }
-      ],
       "little": true
     },
     "164": {
@@ -8604,13 +8567,6 @@
           "candyCost": 25
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 12,
-          "costumeProto": "APRIL_2020_NOEVOLVE",
-          "costumeName": "April 2020 Noevolve"
-        }
-      ],
       "little": true
     },
     "176": {
@@ -8662,13 +8618,6 @@
           "evoId": 468,
           "candyCost": 100,
           "itemRequirement": 1106
-        }
-      ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 12,
-          "costumeProto": "APRIL_2020_NOEVOLVE",
-          "costumeName": "April 2020 Noevolve"
         }
       ]
     },
@@ -17261,13 +17210,6 @@
           "candyCost": 25
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 58,
-          "costumeProto": "FALL_2022_NOEVOLVE",
-          "costumeName": "Fall 2022 Noevolve"
-        }
-      ],
       "little": true
     },
     "356": {
@@ -17318,13 +17260,6 @@
           "formId": 920,
           "candyCost": 100,
           "itemRequirement": 1106
-        }
-      ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 58,
-          "costumeProto": "FALL_2022_NOEVOLVE",
-          "costumeName": "Fall 2022 Noevolve"
         }
       ]
     },
@@ -20678,13 +20613,6 @@
           "candyCost": 50
         }
       ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 12,
-          "costumeProto": "APRIL_2020_NOEVOLVE",
-          "costumeName": "April 2020 Noevolve"
-        }
-      ],
       "little": true
     },
     "428": {
@@ -21950,13 +21878,6 @@
         {
           "evoId": 454,
           "candyCost": 50
-        }
-      ],
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 16,
-          "costumeProto": "FALL_2020_NOEVOLVE",
-          "costumeName": "Fall 2020 Noevolve"
         }
       ],
       "little": true
@@ -46867,14 +46788,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 57,
-          "costumeProto": "FALL_2022",
-          "costumeName": "Fall 2022"
-        }
-      ]
+      "purificationCandy": 3
     },
     "60": {
       "formName": "Alola",
@@ -48127,14 +48041,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "173": {
       "formName": "Shadow",
@@ -48158,14 +48065,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "176": {
       "formName": "Shadow",
@@ -48230,14 +48130,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "182": {
       "formName": "Shadow",
@@ -48261,14 +48154,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 11,
-          "costumeProto": "JAN_2020_NOEVOLVE",
-          "costumeName": "Jan 2020 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "185": {
       "formName": "Shadow",
@@ -51898,14 +51784,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 58,
-          "costumeProto": "FALL_2022_NOEVOLVE",
-          "costumeName": "Fall 2022 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "915": {
       "formName": "Shadow",
@@ -51930,14 +51809,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "costumeOverrideEvos": [
-        {
-          "costumeId": 58,
-          "costumeProto": "FALL_2022_NOEVOLVE",
-          "costumeName": "Fall 2022 Noevolve"
-        }
-      ]
+      "purificationCandy": 3
     },
     "918": {
       "formName": "Shadow",
