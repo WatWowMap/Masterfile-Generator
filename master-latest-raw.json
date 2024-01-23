@@ -1255,6 +1255,16 @@
         2826,
         2827,
         2828,
+        2832,
+        2833,
+        2834,
+        2835,
+        2836,
+        2837,
+        2838,
+        2839,
+        2840,
+        2841,
         3002,
         3003,
         3004,
@@ -62877,6 +62887,56 @@
         }
       ]
     },
+    "2832": {
+      "formName": "Tshirt 03",
+      "proto": "PIKACHU_TSHIRT_03",
+      "formId": 2832
+    },
+    "2833": {
+      "formName": "Flying 04",
+      "proto": "PIKACHU_FLYING_04",
+      "formId": 2833
+    },
+    "2834": {
+      "formName": "Tshirt 04",
+      "proto": "PIKACHU_TSHIRT_04",
+      "formId": 2834
+    },
+    "2835": {
+      "formName": "Tshirt 05",
+      "proto": "PIKACHU_TSHIRT_05",
+      "formId": 2835
+    },
+    "2836": {
+      "formName": "Tshirt 06",
+      "proto": "PIKACHU_TSHIRT_06",
+      "formId": 2836
+    },
+    "2837": {
+      "formName": "Tshirt 07",
+      "proto": "PIKACHU_TSHIRT_07",
+      "formId": 2837
+    },
+    "2838": {
+      "formName": "Flying 05",
+      "proto": "PIKACHU_FLYING_05",
+      "formId": 2838
+    },
+    "2839": {
+      "formName": "Flying 06",
+      "proto": "PIKACHU_FLYING_06",
+      "formId": 2839
+    },
+    "2840": {
+      "formName": "Flying 07",
+      "proto": "PIKACHU_FLYING_07",
+      "formId": 2840
+    },
+    "2841": {
+      "formName": "Flying 08",
+      "proto": "PIKACHU_FLYING_08",
+      "formId": 2841
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -64143,14 +64203,6 @@
       "category": "Team Change",
       "minTrainerLevel": 100
     },
-    "1407": {
-      "itemId": 1407,
-      "itemName": "Route Maker",
-      "proto": "ITEM_ROUTE_MAKER",
-      "type": "Route Maker",
-      "category": "Route Maker",
-      "minTrainerLevel": 100
-    },
     "1408": {
       "itemId": 1408,
       "itemName": "Remote Raid Ticket",
@@ -64282,6 +64334,13 @@
       "proto": "ITEM_TICKET_CITY_SAFARI_02",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "undefined": {
+      "itemName": "Route Maker",
+      "proto": "ITEM_ROUTE_MAKER",
+      "type": "Route Maker",
+      "category": "Route Maker",
+      "minTrainerLevel": 100
     }
   },
   "moves": {
@@ -66688,6 +66747,11 @@
       "id": 14,
       "proto": "PLAYER_ATTRIBUTE",
       "formatted": "Player Attribute"
+    },
+    "15": {
+      "id": 15,
+      "proto": "EVENT_BADGE",
+      "formatted": "Event Badge"
     }
   },
   "questConditions": {
@@ -70269,6 +70333,94 @@
       "gender": 0,
       "grunt": "Event",
       "proto": "CHARACTER_EVENT_NPC_20",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": [
+        {
+          "position": "first"
+        },
+        {
+          "position": "second"
+        },
+        {
+          "position": "third"
+        }
+      ]
+    },
+    "524": {
+      "id": 524,
+      "type": "Giovanni Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_GIOVANNI_UNTICKETED",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": [
+        {
+          "position": "first"
+        },
+        {
+          "position": "second"
+        },
+        {
+          "position": "third"
+        }
+      ]
+    },
+    "525": {
+      "id": 525,
+      "type": "Sierra Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_SIERRA_UNTICKETED",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": [
+        {
+          "position": "first"
+        },
+        {
+          "position": "second"
+        },
+        {
+          "position": "third"
+        }
+      ]
+    },
+    "526": {
+      "id": 526,
+      "type": "Arlo Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_ARLO_UNTICKETED",
+      "active": false,
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": [
+        {
+          "position": "first"
+        },
+        {
+          "position": "second"
+        },
+        {
+          "position": "third"
+        }
+      ]
+    },
+    "527": {
+      "id": 527,
+      "type": "Cliff Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "proto": "CHARACTER_EVENT_CLIFF_UNTICKETED",
       "active": false,
       "firstReward": false,
       "secondReward": false,

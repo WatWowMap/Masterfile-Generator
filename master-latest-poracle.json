@@ -2161,6 +2161,216 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_2832": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Tshirt 03",
+        "id": 2832
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2833": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Flying 04",
+        "id": 2833
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2834": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Tshirt 04",
+        "id": 2834
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2835": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Tshirt 05",
+        "id": 2835
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2836": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Tshirt 06",
+        "id": 2836
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2837": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Tshirt 07",
+        "id": 2837
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2838": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Flying 05",
+        "id": 2838
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2839": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Flying 06",
+        "id": 2839
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2840": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Flying 07",
+        "id": 2840
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2841": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Flying 08",
+        "id": 2841
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "25_3002": {
       "name": "Pikachu",
       "id": 25,
@@ -56354,9 +56564,6 @@
     "1406": {
       "name": "Team Medallion"
     },
-    "1407": {
-      "name": "Route Maker"
-    },
     "1408": {
       "name": "Remote Raid Pass"
     },
@@ -59049,6 +59256,58 @@
     },
     "523": {
       "type": "NPC 20",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "524": {
+      "type": "Giovanni Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "525": {
+      "type": "Sierra Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "526": {
+      "type": "Arlo Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "527": {
+      "type": "Cliff Unticketed",
       "gender": 0,
       "grunt": "Event",
       "firstReward": false,

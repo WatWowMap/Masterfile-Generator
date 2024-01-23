@@ -1638,6 +1638,46 @@
           "proto": "PIKACHU_GOTOUR_2024_B_02",
           "is_costume": true
         },
+        "2832": {
+          "name": "Tshirt 03",
+          "proto": "PIKACHU_TSHIRT_03"
+        },
+        "2833": {
+          "name": "Flying 04",
+          "proto": "PIKACHU_FLYING_04"
+        },
+        "2834": {
+          "name": "Tshirt 04",
+          "proto": "PIKACHU_TSHIRT_04"
+        },
+        "2835": {
+          "name": "Tshirt 05",
+          "proto": "PIKACHU_TSHIRT_05"
+        },
+        "2836": {
+          "name": "Tshirt 06",
+          "proto": "PIKACHU_TSHIRT_06"
+        },
+        "2837": {
+          "name": "Tshirt 07",
+          "proto": "PIKACHU_TSHIRT_07"
+        },
+        "2838": {
+          "name": "Flying 05",
+          "proto": "PIKACHU_FLYING_05"
+        },
+        "2839": {
+          "name": "Flying 06",
+          "proto": "PIKACHU_FLYING_06"
+        },
+        "2840": {
+          "name": "Flying 07",
+          "proto": "PIKACHU_FLYING_07"
+        },
+        "2841": {
+          "name": "Flying 08",
+          "proto": "PIKACHU_FLYING_08"
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -54808,13 +54848,6 @@
       "category": "Team Change",
       "min_trainer_level": 100
     },
-    "1407": {
-      "name": "Route Maker",
-      "proto": "ITEM_ROUTE_MAKER",
-      "type": "Route Maker",
-      "category": "Route Maker",
-      "min_trainer_level": 100
-    },
     "1408": {
       "name": "Remote Raid Ticket",
       "proto": "ITEM_REMOTE_RAID_TICKET",
@@ -57112,6 +57145,10 @@
     "14": {
       "proto": "PLAYER_ATTRIBUTE",
       "text": "Player Attribute"
+    },
+    "15": {
+      "proto": "EVENT_BADGE",
+      "text": "Event Badge"
     }
   },
   "quest_conditions": {
@@ -58508,6 +58545,50 @@
     },
     "523": {
       "type": "NPC 20",
+      "gender": 0,
+      "grunt": "Event",
+      "second_reward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "524": {
+      "type": "Giovanni Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "second_reward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "525": {
+      "type": "Sierra Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "second_reward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "526": {
+      "type": "Arlo Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "second_reward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "527": {
+      "type": "Cliff Unticketed",
       "gender": 0,
       "grunt": "Event",
       "second_reward": false,

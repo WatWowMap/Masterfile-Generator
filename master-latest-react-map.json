@@ -956,6 +956,36 @@
           "name": "Gotour 2024 B 02",
           "isCostume": true
         },
+        "2832": {
+          "name": "Tshirt 03"
+        },
+        "2833": {
+          "name": "Flying 04"
+        },
+        "2834": {
+          "name": "Tshirt 04"
+        },
+        "2835": {
+          "name": "Tshirt 05"
+        },
+        "2836": {
+          "name": "Tshirt 06"
+        },
+        "2837": {
+          "name": "Tshirt 07"
+        },
+        "2838": {
+          "name": "Flying 05"
+        },
+        "2839": {
+          "name": "Flying 06"
+        },
+        "2840": {
+          "name": "Flying 07"
+        },
+        "2841": {
+          "name": "Flying 08"
+        },
         "3002": {
           "name": "Summer 2023 A",
           "isCostume": true
@@ -35260,7 +35290,8 @@
     "11": "Sticker",
     "12": "Mega Resource",
     "13": "Incident",
-    "14": "Player Attribute"
+    "14": "Player Attribute",
+    "15": "Event Badge"
   },
   "invasions": {
     "0": {
@@ -37079,6 +37110,58 @@
     },
     "523": {
       "type": "NPC 20",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "524": {
+      "type": "Giovanni Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "525": {
+      "type": "Sierra Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "526": {
+      "type": "Arlo Unticketed",
+      "gender": 0,
+      "grunt": "Event",
+      "firstReward": false,
+      "secondReward": false,
+      "thirdReward": false,
+      "encounters": {
+        "first": [],
+        "second": [],
+        "third": []
+      }
+    },
+    "527": {
+      "type": "Cliff Unticketed",
       "gender": 0,
       "grunt": "Event",
       "firstReward": false,
