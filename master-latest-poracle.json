@@ -1681,10 +1681,6 @@
           "evoId": 26,
           "id": 50,
           "candyCost": 50
-        },
-        {
-          "evoId": 26,
-          "id": 49
         }
       ]
     },
@@ -4510,10 +4506,6 @@
             "target": 30,
             "i18n": "Defeat {{amount}} Psychic- or Ghost-type Pokémon"
           }
-        },
-        {
-          "evoId": 979,
-          "id": 0
         }
       ]
     },
@@ -7579,10 +7571,6 @@
           "evoId": 103,
           "id": 78,
           "candyCost": 50
-        },
-        {
-          "evoId": 103,
-          "id": 77
         }
       ]
     },
@@ -7728,10 +7716,6 @@
           "evoId": 105,
           "id": 80,
           "candyCost": 50
-        },
-        {
-          "evoId": 105,
-          "id": 79
         }
       ]
     },
@@ -7999,10 +7983,6 @@
           "evoId": 110,
           "id": 944,
           "candyCost": 50
-        },
-        {
-          "evoId": 110,
-          "id": 706
         }
       ]
     },
@@ -10970,10 +10950,6 @@
           "evoId": 157,
           "id": 2786,
           "candyCost": 100
-        },
-        {
-          "evoId": 157,
-          "id": 1133
         }
       ]
     },
@@ -28193,10 +28169,6 @@
           "evoId": 122,
           "id": 2339,
           "candyCost": 50
-        },
-        {
-          "evoId": 122,
-          "id": 1080
         }
       ]
     },
@@ -31977,10 +31949,6 @@
           "evoId": 503,
           "id": 2787,
           "candyCost": 100
-        },
-        {
-          "evoId": 503,
-          "id": 1913
         }
       ]
     },
@@ -38758,10 +38726,6 @@
           "evoId": 628,
           "id": 2798,
           "candyCost": 50
-        },
-        {
-          "evoId": 628,
-          "id": 2276
         }
       ]
     },
@@ -44633,10 +44597,6 @@
           "evoId": 713,
           "id": 2795,
           "candyCost": 50
-        },
-        {
-          "evoId": 713,
-          "id": 2812
         }
       ]
     },
@@ -45225,10 +45185,6 @@
           "evoId": 724,
           "id": 2785,
           "candyCost": 100
-        },
-        {
-          "evoId": 724,
-          "id": 2809
         }
       ]
     },
@@ -55167,6 +55123,406 @@
       },
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
+    },
+    "1009_0": {
+      "name": "Walking-wake",
+      "id": 1009,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 256,
+        "baseDefense": 188,
+        "baseStamina": 223
+      },
+      "unreleased": true
+    },
+    "1010_0": {
+      "name": "Iron-leaves",
+      "id": 1010,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 259,
+        "baseDefense": 213,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1011_0": {
+      "name": "Dipplin",
+      "id": 1011,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 173,
+        "baseDefense": 184,
+        "baseStamina": 190
+      },
+      "unreleased": true
+    },
+    "1012_0": {
+      "name": "Poltchageist",
+      "id": 1012,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 96,
+        "baseStamina": 120
+      },
+      "unreleased": true
+    },
+    "1013_0": {
+      "name": "Sinistcha",
+      "id": 1013,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 225,
+        "baseDefense": 191,
+        "baseStamina": 174
+      },
+      "unreleased": true
+    },
+    "1014_0": {
+      "name": "Okidogi",
+      "id": 1014,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 210,
+        "baseStamina": 204
+      },
+      "unreleased": true
+    },
+    "1015_0": {
+      "name": "Munkidori",
+      "id": 1015,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 261,
+        "baseDefense": 172,
+        "baseStamina": 204
+      },
+      "unreleased": true
+    },
+    "1016_0": {
+      "name": "Fezandipiti",
+      "id": 1016,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "stats": {
+        "baseAttack": 185,
+        "baseDefense": 228,
+        "baseStamina": 204
+      },
+      "unreleased": true
+    },
+    "1017_0": {
+      "name": "Ogerpon",
+      "id": 1017,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 196,
+        "baseStamina": 190
+      },
+      "unreleased": true
+    },
+    "1018_0": {
+      "name": "Archaludon",
+      "id": 1018,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 250,
+        "baseDefense": 215,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1019_0": {
+      "name": "Hydrapple",
+      "id": 1019,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 216,
+        "baseDefense": 186,
+        "baseStamina": 235
+      },
+      "unreleased": true
+    },
+    "1020_0": {
+      "name": "Gouging-fire",
+      "id": 1020,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 225,
+        "baseDefense": 228,
+        "baseStamina": 233
+      },
+      "unreleased": true
+    },
+    "1021_0": {
+      "name": "Raging-bolt",
+      "id": 1021,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "stats": {
+        "baseAttack": 235,
+        "baseDefense": 165,
+        "baseStamina": 245
+      },
+      "unreleased": true
+    },
+    "1022_0": {
+      "name": "Iron-boulder",
+      "id": 1022,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 249,
+        "baseDefense": 214,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1023_0": {
+      "name": "Iron-crown",
+      "id": 1023,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "stats": {
+        "baseAttack": 243,
+        "baseDefense": 220,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1024_0": {
+      "name": "Terapagos",
+      "id": 1024,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 165,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1025_0": {
+      "name": "Pecharunt",
+      "id": 1025,
+      "form": {
+        "name": "",
+        "id": 0
+      },
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "stats": {
+        "baseAttack": 181,
+        "baseDefense": 273,
+        "baseStamina": 204
+      },
+      "unreleased": true
     }
   },
   "types": {

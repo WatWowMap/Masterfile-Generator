@@ -1749,10 +1749,6 @@
         {
           "pokemon": 26,
           "form": 50
-        },
-        {
-          "pokemon": 26,
-          "form": 49
         }
       ]
     },
@@ -3753,9 +3749,6 @@
       "third_move_candy": 50,
       "gym_defender_eligible": true,
       "evolutions": [
-        {
-          "pokemon": 979
-        },
         {
           "pokemon": 979
         }
@@ -6662,10 +6655,6 @@
         {
           "pokemon": 103,
           "form": 78
-        },
-        {
-          "pokemon": 103,
-          "form": 77
         }
       ],
       "little": true
@@ -6803,10 +6792,6 @@
         {
           "pokemon": 105,
           "form": 80
-        },
-        {
-          "pokemon": 105,
-          "form": 79
         }
       ],
       "little": true
@@ -7094,10 +7079,6 @@
         {
           "pokemon": 110,
           "form": 944
-        },
-        {
-          "pokemon": 110,
-          "form": 706
         }
       ],
       "little": true
@@ -9914,10 +9895,6 @@
         {
           "pokemon": 157,
           "form": 2786
-        },
-        {
-          "pokemon": 157,
-          "form": 1133
         }
       ]
     },
@@ -26123,10 +26100,6 @@
         {
           "pokemon": 122,
           "form": 2339
-        },
-        {
-          "pokemon": 122,
-          "form": 1080
         }
       ],
       "little": true
@@ -29653,10 +29626,6 @@
         {
           "pokemon": 503,
           "form": 2787
-        },
-        {
-          "pokemon": 503,
-          "form": 1913
         }
       ]
     },
@@ -36588,10 +36557,6 @@
         {
           "pokemon": 628,
           "form": 2798
-        },
-        {
-          "pokemon": 628,
-          "form": 2276
         }
       ],
       "little": true
@@ -41225,10 +41190,6 @@
         {
           "pokemon": 713,
           "form": 2795
-        },
-        {
-          "pokemon": 713,
-          "form": 2812
         }
       ],
       "little": true
@@ -41796,10 +41757,6 @@
         {
           "pokemon": 724,
           "form": 2785
-        },
-        {
-          "pokemon": 724,
-          "form": 2809
         }
       ]
     },
@@ -54046,6 +54003,748 @@
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
+    },
+    "1009": {
+      "name": "Walking-wake",
+      "pokedex_id": 1009,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "quick_moves": [
+        "Bite",
+        "Dragon Breath",
+        "Low Kick",
+        "Mud Shot",
+        "Fire Fang",
+        "Snarl",
+        "Take Down",
+        "Waterfall"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Aqua Jet",
+        "Twister",
+        "Dragon Pulse",
+        "Dragon Claw",
+        "Water Pulse",
+        "Scald",
+        "Hydro Pump",
+        "Hurricane",
+        "Swift",
+        "Body Slam",
+        "Rest",
+        "Outrage",
+        "Crunch",
+        "Surf",
+        "Draco Meteor",
+        "Giga Impact",
+        "Breaking Swipe",
+        "Liquidation"
+      ],
+      "gen_id": 9,
+      "generation": "Paldea",
+      "attack": 256,
+      "defense": 188,
+      "stamina": 223
+    },
+    "1010": {
+      "name": "Iron-leaves",
+      "pokedex_id": 1010,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "quick_moves": [
+        "Quick Attack",
+        "Air Slash",
+        "Take Down",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Megahorn",
+        "Aerial Ace",
+        "Night Slash",
+        "X Scissor",
+        "Giga Drain",
+        "Solar Beam",
+        "Leaf Blade",
+        "Brick Break",
+        "Swift",
+        "Rest",
+        "Close Combat",
+        "Focus Blast",
+        "Wild Charge",
+        "Grass Knot",
+        "Energy Ball",
+        "Giga Impact",
+        "Sacred Sword",
+        "Leaf Storm",
+        "Trailblaze"
+      ],
+      "gen_id": 9,
+      "generation": "Paldea",
+      "attack": 259,
+      "defense": 213,
+      "stamina": 207
+    },
+    "1011": {
+      "name": "Dipplin",
+      "pokedex_id": 1011,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "quick_moves": [
+        "Bug Bite",
+        "Sucker Punch",
+        "Dragon Breath",
+        "Dragon Tail",
+        "Infestation",
+        "Astonish",
+        "Bullet Seed",
+        "Take Down",
+        "Rollout"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Seed Bomb",
+        "Dragon Pulse",
+        "Giga Drain",
+        "Solar Beam",
+        "Body Slam",
+        "Rest",
+        "Gyro Ball",
+        "Grass Knot",
+        "Energy Ball",
+        "Outrage",
+        "Draco Meteor",
+        "Giga Impact",
+        "Leaf Storm"
+      ],
+      "gen_id": null,
+      "attack": 173,
+      "defense": 184,
+      "stamina": 190
+    },
+    "1012": {
+      "name": "Poltchageist",
+      "pokedex_id": 1012,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "quick_moves": [
+        "Astonish",
+        "Hex",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Mega Drain",
+        "Shadow Ball",
+        "Scald",
+        "Giga Drain",
+        "Solar Beam",
+        "Rest",
+        "Night Shade",
+        "Energy Ball",
+        "Foul Play",
+        "Leaf Storm",
+        "Poltergeist"
+      ],
+      "gen_id": null,
+      "attack": 134,
+      "defense": 96,
+      "stamina": 120
+    },
+    "1013": {
+      "name": "Sinistcha",
+      "pokedex_id": 1013,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "quick_moves": [
+        "Astonish",
+        "Hex",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Mega Drain",
+        "Shadow Ball",
+        "Scald",
+        "Giga Drain",
+        "Solar Beam",
+        "Rest",
+        "Night Shade",
+        "Energy Ball",
+        "Foul Play",
+        "Leaf Storm",
+        "Poltergeist"
+      ],
+      "gen_id": null,
+      "attack": 225,
+      "defense": 191,
+      "stamina": 174
+    },
+    "1014": {
+      "name": "Okidogi",
+      "pokedex_id": 1014,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Fighting",
+        "Poison"
+      ],
+      "quick_moves": [
+        "Bite",
+        "Low Kick",
+        "Shadow Claw",
+        "Poison Jab",
+        "Metal Claw",
+        "Fire Fang",
+        "Counter",
+        "Snarl",
+        "Take Down",
+        "Thunder Fang",
+        "Ice Fang"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dig",
+        "Ice Punch",
+        "Poison Fang",
+        "Low Sweep",
+        "Rock Tomb",
+        "Iron Head",
+        "Thunder Punch",
+        "Sludge Bomb",
+        "Sludge Wave",
+        "Gunk Shot",
+        "Fire Punch",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Focus Blast",
+        "Outrage",
+        "Crunch",
+        "Drain Punch",
+        "Giga Impact",
+        "Psychic Fangs",
+        "Brutal Swing",
+        "High Horsepower"
+      ],
+      "gen_id": null,
+      "attack": 241,
+      "defense": 210,
+      "stamina": 204
+    },
+    "1015": {
+      "name": "Munkidori",
+      "pokedex_id": 1015,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Poison",
+        "Psychic"
+      ],
+      "quick_moves": [
+        "Shadow Claw",
+        "Scratch",
+        "Poison Jab",
+        "Mud Slap",
+        "Confusion",
+        "Hex"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Psybeam",
+        "Psyshock",
+        "Shadow Ball",
+        "Sludge Bomb",
+        "Sludge Wave",
+        "Gunk Shot",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Focus Blast",
+        "Night Shade",
+        "Grass Knot",
+        "Acid Spray",
+        "Giga Impact",
+        "Poltergeist",
+        "Trailblaze"
+      ],
+      "gen_id": null,
+      "attack": 261,
+      "defense": 172,
+      "stamina": 204
+    },
+    "1016": {
+      "name": "Fezandipiti",
+      "pokedex_id": 1016,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Poison",
+        "Fairy"
+      ],
+      "quick_moves": [
+        "Wing Attack",
+        "Peck",
+        "Shadow Claw",
+        "Quick Attack",
+        "Poison Jab",
+        "Air Slash",
+        "Hex",
+        "Take Down",
+        "Charm",
+        "Double Kick"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Heat Wave",
+        "Aerial Ace",
+        "Shadow Ball",
+        "Disarming Voice",
+        "Dazzling Gleam",
+        "Moonblast",
+        "Play Rough",
+        "Cross Poison",
+        "Sludge Bomb",
+        "Gunk Shot",
+        "Icy Wind",
+        "Air Cutter",
+        "Hurricane",
+        "Swift",
+        "Rest",
+        "Brave Bird",
+        "Acid Spray",
+        "Giga Impact",
+        "Fly",
+        "Acrobatics"
+      ],
+      "gen_id": null,
+      "attack": 185,
+      "defense": 228,
+      "stamina": 204
+    },
+    "1017": {
+      "name": "Ogerpon",
+      "pokedex_id": 1017,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Grass"
+      ],
+      "quick_moves": [
+        "Low Kick",
+        "Vine Whip",
+        "Quick Attack",
+        "Zen Headbutt",
+        "Counter",
+        "Bullet Seed",
+        "Take Down",
+        "Charm",
+        "Double Kick",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Low Sweep",
+        "Seed Bomb",
+        "Rock Tomb",
+        "Play Rough",
+        "Giga Drain",
+        "Solar Beam",
+        "Power Whip",
+        "Brick Break",
+        "Rest",
+        "Grass Knot",
+        "Energy Ball",
+        "Giga Impact",
+        "Leaf Storm",
+        "Trailblaze"
+      ],
+      "gen_id": null,
+      "attack": 241,
+      "defense": 196,
+      "stamina": 190
+    },
+    "1018": {
+      "name": "Archaludon",
+      "pokedex_id": 1018,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Steel",
+        "Dragon"
+      ],
+      "quick_moves": [
+        "Metal Claw",
+        "Rock Smash",
+        "Dragon Tail",
+        "Snarl",
+        "Take Down",
+        "Smack Down"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Earthquake",
+        "Stone Edge",
+        "Flash Cannon",
+        "Night Slash",
+        "Rock Tomb",
+        "Rock Slide",
+        "Iron Head",
+        "Thunder",
+        "Thunderbolt",
+        "Dragon Pulse",
+        "Dragon Claw",
+        "Solar Beam",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Gyro Ball",
+        "Heavy Slam",
+        "Mirror Coat",
+        "Outrage",
+        "Foul Play",
+        "Draco Meteor",
+        "Giga Impact",
+        "Aura Sphere",
+        "Meteor Beam",
+        "Breaking Swipe"
+      ],
+      "gen_id": null,
+      "attack": 250,
+      "defense": 215,
+      "stamina": 207
+    },
+    "1019": {
+      "name": "Hydrapple",
+      "pokedex_id": 1019,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "quick_moves": [
+        "Bug Bite",
+        "Sucker Punch",
+        "Dragon Breath",
+        "Dragon Tail",
+        "Infestation",
+        "Astonish",
+        "Bullet Seed",
+        "Take Down",
+        "Magical Leaf",
+        "Rollout"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Earthquake",
+        "Seed Bomb",
+        "Dragon Pulse",
+        "Hydro Pump",
+        "Giga Drain",
+        "Solar Beam",
+        "Power Whip",
+        "Body Slam",
+        "Rest",
+        "Gyro Ball",
+        "Heavy Slam",
+        "Grass Knot",
+        "Energy Ball",
+        "Outrage",
+        "Draco Meteor",
+        "Earth Power",
+        "Giga Impact",
+        "Leaf Storm",
+        "Breaking Swipe"
+      ],
+      "gen_id": null,
+      "attack": 216,
+      "defense": 186,
+      "stamina": 235
+    },
+    "1020": {
+      "name": "Gouging-fire",
+      "pokedex_id": 1020,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Fire",
+        "Dragon"
+      ],
+      "quick_moves": [
+        "Bite",
+        "Fire Fang",
+        "Dragon Tail",
+        "Fire Spin",
+        "Snarl",
+        "Take Down",
+        "Thunder Fang",
+        "Incinerate",
+        "Double Kick"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Earthquake",
+        "Stone Edge",
+        "Heat Wave",
+        "Ancient Power",
+        "Iron Head",
+        "Dragon Pulse",
+        "Dragon Claw",
+        "Bulldoze",
+        "Flame Charge",
+        "Fire Blast",
+        "Stomp",
+        "Body Slam",
+        "Rest",
+        "Overheat",
+        "Outrage",
+        "Crunch",
+        "Draco Meteor",
+        "Giga Impact",
+        "Psychic Fangs",
+        "Breaking Swipe",
+        "Scorching Sands"
+      ],
+      "gen_id": null,
+      "attack": 225,
+      "defense": 228,
+      "stamina": 233
+    },
+    "1021": {
+      "name": "Raging-bolt",
+      "pokedex_id": 1021,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "quick_moves": [
+        "Dragon Breath",
+        "Charge Beam",
+        "Volt Switch",
+        "Dragon Tail",
+        "Snarl",
+        "Take Down",
+        "Thunder Fang"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Earthquake",
+        "Discharge",
+        "Ancient Power",
+        "Thunder",
+        "Thunderbolt",
+        "Twister",
+        "Dragon Pulse",
+        "Solar Beam",
+        "Stomp",
+        "Body Slam",
+        "Rest",
+        "Wild Charge",
+        "Zap Cannon",
+        "Heavy Slam",
+        "Outrage",
+        "Crunch",
+        "Draco Meteor",
+        "Giga Impact",
+        "Breaking Swipe"
+      ],
+      "gen_id": null,
+      "attack": 235,
+      "defense": 165,
+      "stamina": 245
+    },
+    "1022": {
+      "name": "Iron-boulder",
+      "pokedex_id": 1022,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Rock",
+        "Psychic"
+      ],
+      "quick_moves": [
+        "Quick Attack",
+        "Poison Jab",
+        "Psycho Cut",
+        "Rock Throw",
+        "Zen Headbutt",
+        "Counter",
+        "Air Slash",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Megahorn",
+        "Earthquake",
+        "Stone Edge",
+        "Aerial Ace",
+        "Psyshock",
+        "Rock Tomb",
+        "Iron Head",
+        "Bulldoze",
+        "X Scissor",
+        "Psychic",
+        "Brick Break",
+        "Horn Attack",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Wild Charge",
+        "Rock Blast",
+        "Giga Impact",
+        "Sacred Sword",
+        "Meteor Beam"
+      ],
+      "gen_id": null,
+      "attack": 249,
+      "defense": 214,
+      "stamina": 207
+    },
+    "1023": {
+      "name": "Iron-crown",
+      "pokedex_id": 1023,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "quick_moves": [
+        "Psycho Cut",
+        "Metal Claw",
+        "Zen Headbutt",
+        "Confusion",
+        "Volt Switch",
+        "Air Slash",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flash Cannon",
+        "Psyshock",
+        "Iron Head",
+        "Bulldoze",
+        "X Scissor",
+        "Psychic",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Focus Blast",
+        "Heavy Slam",
+        "Giga Impact",
+        "Sacred Sword"
+      ],
+      "gen_id": null,
+      "attack": 243,
+      "defense": 220,
+      "stamina": 207
+    },
+    "1024": {
+      "name": "Terapagos",
+      "pokedex_id": 1024,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Normal"
+      ],
+      "quick_moves": [
+        "Zen Headbutt",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Flamethrower",
+        "Earthquake",
+        "Stone Edge",
+        "Flash Cannon",
+        "Ice Beam",
+        "Bug Buzz",
+        "Ancient Power",
+        "Rock Slide",
+        "Power Gem",
+        "Iron Head",
+        "Thunder",
+        "Thunderbolt",
+        "Dragon Pulse",
+        "Dazzling Gleam",
+        "Water Pulse",
+        "Solar Beam",
+        "Body Slam",
+        "Rest",
+        "Wild Charge",
+        "Gyro Ball",
+        "Heavy Slam",
+        "Energy Ball",
+        "Crunch",
+        "Surf",
+        "Earth Power",
+        "Giga Impact",
+        "Aura Sphere",
+        "Tri Attack",
+        "Meteor Beam",
+        "Scorching Sands"
+      ],
+      "gen_id": null,
+      "attack": 126,
+      "defense": 165,
+      "stamina": 207
+    },
+    "1025": {
+      "name": "Pecharunt",
+      "pokedex_id": 1025,
+      "default_form_id": 0,
+      "forms": {},
+      "types": [
+        "Poison",
+        "Ghost"
+      ],
+      "quick_moves": [
+        "Astonish",
+        "Hex",
+        "Rollout"
+      ],
+      "charged_moves": [
+        "Shadow Ball",
+        "Sludge Bomb",
+        "Sludge Wave",
+        "Gunk Shot",
+        "Rest",
+        "Night Shade",
+        "Foul Play",
+        "Acid Spray",
+        "Poltergeist"
+      ],
+      "gen_id": null,
+      "attack": 181,
+      "defense": 273,
+      "stamina": 204
     }
   },
   "types": {
