@@ -58377,13 +58377,25 @@
       "type": "Mixed",
       "gender": 1,
       "grunt": "Grunt",
-      "firstReward": false,
+      "firstReward": true,
       "secondReward": false,
       "thirdReward": false,
       "encounters": {
-        "first": [],
-        "second": [],
-        "third": []
+        "first": [
+          252,
+          255,
+          258
+        ],
+        "second": [
+          253,
+          256,
+          259
+        ],
+        "third": [
+          254,
+          257,
+          260
+        ]
       }
     },
     "5": {
@@ -58433,12 +58445,16 @@
         "first": [
           165,
           204,
+          213,
+          557,
           595
         ],
         "second": [
           13,
           14,
-          15
+          15,
+          213,
+          451
         ],
         "third": [
           15,
@@ -58483,14 +58499,17 @@
       "encounters": {
         "first": [
           19,
-          88
+          88,
+          228,
+          434
         ],
         "second": [
           20,
           89
         ],
         "third": [
-          89
+          89,
+          435
         ]
       }
     },
@@ -58517,16 +58536,20 @@
       "encounters": {
         "first": [
           103,
+          147,
           443
         ],
         "second": [
           103,
-          148
+          148,
+          444
         ],
         "third": [
           148,
           149,
-          444
+          373,
+          444,
+          445
         ]
       }
     },
@@ -58552,6 +58575,7 @@
       "thirdReward": false,
       "encounters": {
         "first": [
+          37,
           209,
           280,
           303
@@ -58562,8 +58586,10 @@
           281
         ],
         "third": [
+          38,
           210,
-          281
+          281,
+          282
         ]
       }
     },
@@ -58589,9 +58615,11 @@
       "thirdReward": false,
       "encounters": {
         "first": [
+          66,
           106,
           107,
-          215
+          215,
+          296
         ],
         "second": [
           106,
@@ -58599,7 +58627,10 @@
           237
         ],
         "third": [
-          237
+          68,
+          237,
+          392,
+          454
         ]
       }
     },
@@ -58626,17 +58657,24 @@
       "encounters": {
         "first": [
           37,
+          58,
+          228,
           322,
+          390,
           607
         ],
         "second": [
           126,
-          156
+          156,
+          229,
+          391
         ],
         "third": [
           38,
           157,
-          323
+          229,
+          323,
+          392
         ]
       }
     },
@@ -58658,23 +58696,29 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           41,
           177,
+          198,
+          207,
+          396,
           580
         ],
         "second": [
           42,
           178,
+          207,
           397
         ],
         "third": [
           130,
           149,
-          169
+          169,
+          227,
+          398
         ]
       }
     },
@@ -58715,15 +58759,21 @@
         "first": [
           43,
           69,
-          331
+          187,
+          273,
+          331,
+          387
         ],
         "second": [
           44,
-          153
+          153,
+          388,
+          598
         ],
         "third": [
           154,
           332,
+          389,
           591
         ]
       }
@@ -58750,15 +58800,21 @@
       "thirdReward": false,
       "encounters": {
         "first": [
+          50,
           111,
+          194,
           529
         ],
         "second": [
+          111,
           111,
           449
         ],
         "third": [
           195,
+          195,
+          340,
+          389,
           450
         ]
       }
@@ -58774,17 +58830,23 @@
         "first": [
           27,
           37,
-          220
+          220,
+          361,
+          459
         ],
         "second": [
           28,
           38,
-          459
+          362,
+          459,
+          478
         ],
         "third": [
           91,
           131,
-          460
+          362,
+          460,
+          478
         ]
       }
     },
@@ -58825,16 +58887,21 @@
         "first": [
           27,
           50,
-          304
+          227,
+          304,
+          597
         ],
         "second": [
           27,
+          227,
           305,
           375
         ],
         "third": [
+          28,
           212,
-          306
+          306,
+          395
         ]
       }
     },
@@ -58856,19 +58923,24 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           52,
+          52,
+          216,
+          234,
           431
         ],
         "second": [
           19,
+          52,
           432
         ],
         "third": [
           217,
+          234,
           400
         ]
       }
@@ -58878,19 +58950,24 @@
       "gender": 2,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           88,
+          109,
+          453,
           590
         ],
         "second": [
-          30
+          30,
+          33
         ],
         "third": [
           89,
-          110
+          110,
+          454,
+          591
         ]
       }
     },
@@ -58930,17 +59007,23 @@
       "encounters": {
         "first": [
           63,
+          79,
           177,
+          202,
           325
         ],
         "second": [
+          202,
           203,
+          280,
           280
         ],
         "third": [
           65,
           97,
-          375
+          375,
+          376,
+          475
         ]
       }
     },
@@ -58967,6 +59050,7 @@
       "encounters": {
         "first": [
           74,
+          95,
           408,
           410
         ],
@@ -58977,7 +59061,9 @@
         ],
         "third": [
           76,
-          76
+          76,
+          409,
+          411
         ]
       }
     },
@@ -58991,16 +59077,22 @@
       "encounters": {
         "first": [
           90,
-          339
+          339,
+          341,
+          393
         ],
         "second": [
           55,
-          159
+          159,
+          342,
+          394
         ],
         "third": [
           55,
           160,
-          321
+          321,
+          340,
+          395
         ]
       }
     },
@@ -59178,13 +59270,16 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
           92,
+          200,
           353,
-          355
+          355,
+          425,
+          622
         ],
         "second": [
           354,
@@ -59192,7 +59287,9 @@
           622
         ],
         "third": [
+          94,
           477,
+          478,
           623
         ]
       }
@@ -59207,16 +59304,20 @@
       "encounters": {
         "first": [
           81,
-          179
+          179,
+          522,
+          595
         ],
         "second": [
           74,
+          100,
           100
         ],
         "third": [
           181,
           405,
-          523
+          523,
+          596
         ]
       }
     },
