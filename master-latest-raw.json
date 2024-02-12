@@ -41960,44 +41960,36 @@
       "quickMoves": [
         234,
         263,
-        274,
-        282,
         350
       ],
       "chargedMoves": [
-        14,
-        74,
-        80,
-        84,
-        85,
         86,
-        87,
-        88,
-        90,
-        108,
-        131,
-        132,
-        247,
         272,
-        277,
-        304,
-        321,
-        341,
-        382
+        341
       ],
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        0,
         2802,
         2803
       ],
       "attack": 281,
       "defense": 162,
       "stamina": 179,
-      "unreleased": true,
+      "height": 1.6,
+      "weight": 48,
+      "family": 905,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyGroupNumber": 5,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true,
+      "unreleased": true
     },
     "906": {
       "pokemonName": "Sprigatito",
@@ -63532,7 +63524,10 @@
     "2803": {
       "formName": "Therian",
       "proto": "ENAMORUS_THERIAN",
-      "formId": 2803
+      "formId": 2803,
+      "attack": 211,
+      "defense": 244,
+      "stamina": 197
     },
     "2804": {
       "formName": "White Striped",
@@ -65204,6 +65199,34 @@
       "itemId": 1612,
       "itemName": "Ticket City Safari 02",
       "proto": "ITEM_TICKET_CITY_SAFARI_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1619": {
+      "itemId": 1619,
+      "itemName": "Event Ticket 05",
+      "proto": "ITEM_EVENT_TICKET_05",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1620": {
+      "itemId": 1620,
+      "itemName": "Event Ticket 06",
+      "proto": "ITEM_EVENT_TICKET_06",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1629": {
+      "itemId": 1629,
+      "itemName": "Event Ticket 05 To Gift",
+      "proto": "ITEM_EVENT_TICKET_05_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1630": {
+      "itemId": 1630,
+      "itemName": "Event Ticket 06 To Gift",
+      "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
