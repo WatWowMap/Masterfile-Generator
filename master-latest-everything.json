@@ -102391,20 +102391,6 @@
           "type": 8,
           "power": 9
         },
-        "274": {
-          "moveId": 274,
-          "moveName": "Extrasensory",
-          "proto": "EXTRASENSORY_FAST",
-          "type": 14,
-          "power": 8
-        },
-        "282": {
-          "moveId": 282,
-          "moveName": "Take Down",
-          "proto": "TAKE_DOWN_FAST",
-          "type": 1,
-          "power": 5
-        },
         "350": {
           "moveId": 350,
           "moveName": "Fairy Wind",
@@ -102414,96 +102400,12 @@
         }
       },
       "chargedMoves": {
-        "14": {
-          "moveId": 14,
-          "moveName": "Hyper Beam",
-          "proto": "HYPER_BEAM",
-          "type": 1,
-          "power": 150
-        },
-        "74": {
-          "moveId": 74,
-          "moveName": "Iron Head",
-          "proto": "IRON_HEAD",
-          "type": 9,
-          "power": 70
-        },
-        "80": {
-          "moveId": 80,
-          "moveName": "Twister",
-          "proto": "TWISTER",
-          "type": 16,
-          "power": 45
-        },
-        "84": {
-          "moveId": 84,
-          "moveName": "Disarming Voice",
-          "proto": "DISARMING_VOICE",
-          "type": 18,
-          "power": 70
-        },
-        "85": {
-          "moveId": 85,
-          "moveName": "Draining Kiss",
-          "proto": "DRAINING_KISS",
-          "type": 18,
-          "power": 60
-        },
         "86": {
           "moveId": 86,
           "moveName": "Dazzling Gleam",
           "proto": "DAZZLING_GLEAM",
           "type": 18,
           "power": 110
-        },
-        "87": {
-          "moveId": 87,
-          "moveName": "Moonblast",
-          "proto": "MOONBLAST",
-          "type": 18,
-          "power": 110
-        },
-        "88": {
-          "moveId": 88,
-          "moveName": "Play Rough",
-          "proto": "PLAY_ROUGH",
-          "type": 18,
-          "power": 90
-        },
-        "90": {
-          "moveId": 90,
-          "moveName": "Sludge Bomb",
-          "proto": "SLUDGE_BOMB",
-          "type": 4,
-          "power": 80
-        },
-        "108": {
-          "moveId": 108,
-          "moveName": "Psychic",
-          "proto": "PSYCHIC",
-          "type": 14,
-          "power": 75
-        },
-        "131": {
-          "moveId": 131,
-          "moveName": "Body Slam",
-          "proto": "BODY_SLAM",
-          "type": 1,
-          "power": 60
-        },
-        "132": {
-          "moveId": 132,
-          "moveName": "Rest",
-          "proto": "REST",
-          "type": 1,
-          "power": 50
-        },
-        "247": {
-          "moveId": 247,
-          "moveName": "Focus Blast",
-          "proto": "FOCUS_BLAST",
-          "type": 2,
-          "power": 150
         },
         "272": {
           "moveId": 272,
@@ -102512,40 +102414,12 @@
           "type": 12,
           "power": 90
         },
-        "277": {
-          "moveId": 277,
-          "moveName": "Outrage",
-          "proto": "OUTRAGE",
-          "type": 16,
-          "power": 110
-        },
-        "304": {
-          "moveId": 304,
-          "moveName": "Earth Power",
-          "proto": "EARTH_POWER",
-          "type": 5,
-          "power": 90
-        },
-        "321": {
-          "moveId": 321,
-          "moveName": "Giga Impact",
-          "proto": "GIGA_IMPACT",
-          "type": 1,
-          "power": 150
-        },
         "341": {
           "moveId": 341,
           "moveName": "Fly",
           "proto": "FLY",
           "type": 3,
           "power": 80
-        },
-        "382": {
-          "moveId": 382,
-          "moveName": "Mystical Fire",
-          "proto": "MYSTICAL_FIRE",
-          "type": 10,
-          "power": 60
         }
       },
       "genId": 8,
@@ -102564,7 +102438,12 @@
         "2803": {
           "name": "Therian Forme",
           "proto": "ENAMORUS_THERIAN",
-          "form": 2803
+          "form": 2803,
+          "stats": {
+            "attack": 211,
+            "defense": 244,
+            "stamina": 197
+          }
         }
       },
       "stats": {
@@ -102572,9 +102451,22 @@
         "defense": 162,
         "stamina": 179
       },
-      "unreleased": true,
+      "height": 1.6,
+      "weight": 48,
+      "family": 905,
       "legendary": true,
-      "mythic": false
+      "mythic": false,
+      "ultraBeast": false,
+      "misc": {
+        "buddyGroupNumber": 5,
+        "buddyDistance": 20,
+        "thirdMoveStardust": 100000,
+        "thirdMoveCandy": 100,
+        "gymDefenderEligible": true,
+        "tradable": true,
+        "transferable": true
+      },
+      "unreleased": true
     },
     "906": {
       "name": "Sprigatito",
@@ -131849,7 +131741,10 @@
     "2803": {
       "formName": "Therian Forme",
       "proto": "ENAMORUS_THERIAN",
-      "formId": 2803
+      "formId": 2803,
+      "attack": 211,
+      "defense": 244,
+      "stamina": 197
     },
     "2804": {
       "formName": "White-Striped Form",
@@ -134700,6 +134595,34 @@
       "id": 1612,
       "name": "Safari Ticket: Mexico City",
       "proto": "ITEM_TICKET_CITY_SAFARI_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1619": {
+      "id": 1619,
+      "name": "Event Ticket 05",
+      "proto": "ITEM_EVENT_TICKET_05",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1620": {
+      "id": 1620,
+      "name": "Event Ticket 06",
+      "proto": "ITEM_EVENT_TICKET_06",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1629": {
+      "id": 1629,
+      "name": "Event Ticket 05 To Gift",
+      "proto": "ITEM_EVENT_TICKET_05_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1630": {
+      "id": 1630,
+      "name": "Event Ticket 06 To Gift",
+      "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
