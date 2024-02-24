@@ -3357,12 +3357,44 @@
         "2832": {
           "name": "Tshirt 03",
           "proto": "PIKACHU_TSHIRT_03",
-          "form": 2832
+          "form": 2832,
+          "isCostume": true
         },
         "2833": {
           "name": "Flying 04",
           "proto": "PIKACHU_FLYING_04",
-          "form": 2833
+          "form": 2833,
+          "isCostume": true,
+          "chargedMoves": {
+            "35": {
+              "moveId": 35,
+              "moveName": "Discharge",
+              "proto": "DISCHARGE",
+              "type": 13,
+              "power": 65
+            },
+            "79": {
+              "moveId": 79,
+              "moveName": "Thunderbolt",
+              "proto": "THUNDERBOLT",
+              "type": 13,
+              "power": 90
+            },
+            "251": {
+              "moveId": 251,
+              "moveName": "Wild Charge",
+              "proto": "WILD_CHARGE",
+              "type": 13,
+              "power": 100
+            },
+            "341": {
+              "moveId": 341,
+              "moveName": "Fly",
+              "proto": "FLY",
+              "type": 3,
+              "power": 80
+            }
+          }
         },
         "2834": {
           "name": "Tshirt 04",
@@ -58307,7 +58339,9 @@
             "attack": 270,
             "defense": 225,
             "stamina": 205
-          }
+          },
+          "height": 7,
+          "weight": 850
         }
       },
       "stats": {
@@ -58421,7 +58455,9 @@
             "attack": 286,
             "defense": 223,
             "stamina": 189
-          }
+          },
+          "height": 6.3,
+          "weight": 660
         }
       },
       "stats": {
@@ -102462,7 +102498,6 @@
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
-        "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
       },
@@ -131937,7 +131972,9 @@
       "formId": 2829,
       "attack": 270,
       "defense": 225,
-      "stamina": 205
+      "stamina": 205,
+      "height": 7,
+      "weight": 850
     },
     "2830": {
       "formName": "Origin Forme",
@@ -131945,7 +131982,9 @@
       "formId": 2830,
       "attack": 286,
       "defense": 223,
-      "stamina": 189
+      "stamina": 189,
+      "height": 6.3,
+      "weight": 660
     },
     "2831": {
       "formName": "Normal",
@@ -131969,12 +132008,20 @@
     "2832": {
       "formName": "Tshirt 03",
       "proto": "PIKACHU_TSHIRT_03",
-      "formId": 2832
+      "formId": 2832,
+      "isCostume": true
     },
     "2833": {
       "formName": "Flying 04",
       "proto": "PIKACHU_FLYING_04",
-      "formId": 2833
+      "formId": 2833,
+      "isCostume": true,
+      "chargedMoves": [
+        35,
+        79,
+        251,
+        341
+      ]
     },
     "2834": {
       "formName": "Tshirt 04",
