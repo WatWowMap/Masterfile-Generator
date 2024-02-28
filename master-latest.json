@@ -55694,6 +55694,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1624": {
+      "name": "Event Ticket 10",
+      "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1629": {
       "name": "Event Ticket 05 To Gift",
       "proto": "ITEM_EVENT_TICKET_05_TO_GIFT",
@@ -55703,6 +55709,12 @@
     "1630": {
       "name": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1634": {
+      "name": "Event Ticket 10 To Gift",
+      "proto": "ITEM_EVENT_TICKET_10_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
@@ -57571,7 +57583,9 @@
     },
     "390": {
       "name": "Natures Madness",
-      "proto": "NATURES_MADNESS"
+      "proto": "NATURES_MADNESS",
+      "type": "Fairy",
+      "power": 80
     },
     "391": {
       "name": "Triple Axel",
@@ -57623,23 +57637,33 @@
     },
     "399": {
       "name": "Volt Tackle",
-      "proto": "VOLT_TACKLE"
+      "proto": "VOLT_TACKLE",
+      "type": "Electric",
+      "power": 90
     },
     "400": {
       "name": "Darkest Lariat",
-      "proto": "DARKEST_LARIAT"
+      "proto": "DARKEST_LARIAT",
+      "type": "Dark",
+      "power": 120
     },
     "401": {
       "name": "Psywave",
-      "proto": "PSYWAVE_FAST"
+      "proto": "PSYWAVE_FAST",
+      "type": "Psychic",
+      "power": 3
     },
     "402": {
       "name": "Metal Sound",
-      "proto": "METAL_SOUND_FAST"
+      "proto": "METAL_SOUND_FAST",
+      "type": "Steel",
+      "power": 3
     },
     "403": {
       "name": "Sand Attack",
-      "proto": "SAND_ATTACK_FAST"
+      "proto": "SAND_ATTACK_FAST",
+      "type": "Ground",
+      "power": 2
     }
   },
   "quest_types": {

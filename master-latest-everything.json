@@ -134659,6 +134659,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1624": {
+      "id": 1624,
+      "name": "Event Ticket 10",
+      "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1629": {
       "id": 1629,
       "name": "Event Ticket 05 To Gift",
@@ -134670,6 +134677,13 @@
       "id": 1630,
       "name": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1634": {
+      "id": 1634,
+      "name": "Event Ticket 10 To Gift",
+      "proto": "ITEM_EVENT_TICKET_10_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
@@ -136591,7 +136605,8 @@
     "390": {
       "id": 390,
       "name": "Natures Madness",
-      "proto": "NATURES_MADNESS"
+      "proto": "NATURES_MADNESS",
+      "power": 80
     },
     "391": {
       "id": 391,
@@ -136644,27 +136659,32 @@
     "399": {
       "id": 399,
       "name": "Volt Tackle",
-      "proto": "VOLT_TACKLE"
+      "proto": "VOLT_TACKLE",
+      "power": 90
     },
     "400": {
       "id": 400,
       "name": "Darkest Lariat",
-      "proto": "DARKEST_LARIAT"
+      "proto": "DARKEST_LARIAT",
+      "power": 120
     },
     "401": {
       "id": 401,
       "name": "Psywave Fast",
-      "proto": "PSYWAVE_FAST"
+      "proto": "PSYWAVE_FAST",
+      "power": 3
     },
     "402": {
       "id": 402,
       "name": "Metal Sound Fast",
-      "proto": "METAL_SOUND_FAST"
+      "proto": "METAL_SOUND_FAST",
+      "power": 3
     },
     "403": {
       "id": 403,
       "name": "Sand Attack Fast",
-      "proto": "SAND_ATTACK_FAST"
+      "proto": "SAND_ATTACK_FAST",
+      "power": 2
     }
   },
   "questTypes": {
