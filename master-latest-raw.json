@@ -37662,8 +37662,7 @@
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "tradable": true
     },
     "804": {
       "pokemonName": "Naganadel",
@@ -37703,8 +37702,7 @@
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "tradable": true
     },
     "805": {
       "pokemonName": "Stakataka",
@@ -64032,7 +64030,16 @@
     "3013": {
       "formName": "Doctor",
       "proto": "PIKACHU_DOCTOR",
-      "formId": 3013
+      "formId": 3013,
+      "isCostume": true,
+      "quickMoves": [
+        205,
+        320
+      ],
+      "chargedMoves": [
+        77,
+        88
+      ]
     },
     "3014": {
       "formName": "Wcs 2023",

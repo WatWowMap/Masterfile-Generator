@@ -1033,7 +1033,16 @@
           "isCostume": true
         },
         "3013": {
-          "name": "Doctor"
+          "name": "Doctor",
+          "isCostume": true,
+          "quickMoves": [
+            205,
+            320
+          ],
+          "chargedMoves": [
+            77,
+            88
+          ]
         },
         "3014": {
           "name": "Wcs 2023",

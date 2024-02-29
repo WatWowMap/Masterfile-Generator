@@ -3517,7 +3517,40 @@
         "3013": {
           "name": "Doctor",
           "proto": "PIKACHU_DOCTOR",
-          "form": 3013
+          "form": 3013,
+          "isCostume": true,
+          "quickMoves": {
+            "205": {
+              "moveId": 205,
+              "moveName": "Thunder Shock",
+              "proto": "THUNDER_SHOCK_FAST",
+              "type": 13,
+              "power": 3
+            },
+            "320": {
+              "moveId": 320,
+              "moveName": "Charm",
+              "proto": "CHARM_FAST",
+              "type": 18,
+              "power": 15
+            }
+          },
+          "chargedMoves": {
+            "77": {
+              "moveId": 77,
+              "moveName": "Thunder Punch",
+              "proto": "THUNDER_PUNCH",
+              "type": 13,
+              "power": 55
+            },
+            "88": {
+              "moveId": 88,
+              "moveName": "Play Rough",
+              "proto": "PLAY_ROUGH",
+              "type": 18,
+              "power": 90
+            }
+          }
         },
         "3014": {
           "name": "Wcs 2023",
@@ -92701,8 +92734,7 @@
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
+        "tradable": true
       }
     },
     "804": {
@@ -92794,8 +92826,7 @@
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
+        "tradable": true
       }
     },
     "805": {
@@ -132298,7 +132329,16 @@
     "3013": {
       "formName": "Doctor",
       "proto": "PIKACHU_DOCTOR",
-      "formId": 3013
+      "formId": 3013,
+      "isCostume": true,
+      "quickMoves": [
+        205,
+        320
+      ],
+      "chargedMoves": [
+        77,
+        88
+      ]
     },
     "3014": {
       "formName": "Wcs 2023",

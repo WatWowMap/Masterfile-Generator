@@ -1734,7 +1734,16 @@
         },
         "3013": {
           "name": "Doctor",
-          "proto": "PIKACHU_DOCTOR"
+          "proto": "PIKACHU_DOCTOR",
+          "is_costume": true,
+          "quick_moves": [
+            "Thunder Shock",
+            "Charm"
+          ],
+          "charged_moves": [
+            "Thunder Punch",
+            "Play Rough"
+          ]
         },
         "3014": {
           "name": "Wcs 2023",
