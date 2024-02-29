@@ -3439,7 +3439,8 @@
         "2842": {
           "name": "Horizons",
           "proto": "PIKACHU_HORIZONS",
-          "form": 2842
+          "form": 2842,
+          "isCostume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -92702,15 +92703,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "804": {
-          "pokemon": 804,
-          "form": 0,
-          "candyCost": 200
-        }
-      },
-      "little": true
+      }
     },
     "804": {
       "name": "Naganadel",
@@ -105256,12 +105249,26 @@
         "936": {
           "pokemon": 936,
           "form": 0,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "questType": 71,
+            "target": 30,
+            "assetsRef": "quest_fight_type_psychic_plural",
+            "i18n": "Defeat {{amount}} Psychic-type Pokémon",
+            "translated": "Defeat 30 Psychic-type Pokémon"
+          }
         },
         "937": {
           "pokemon": 937,
           "form": 0,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "questType": 71,
+            "target": 30,
+            "assetsRef": "quest_fight_type_ghost_plural",
+            "i18n": "Defeat {{amount}} Ghost-type Pokémon",
+            "translated": "Defeat 30 Ghost-type Pokémon"
+          }
         }
       },
       "little": true
@@ -132066,7 +132073,8 @@
     "2842": {
       "formName": "Horizons",
       "proto": "PIKACHU_HORIZONS",
-      "formId": 2842
+      "formId": 2842,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",

@@ -48542,14 +48542,7 @@
         "baseStamina": 167
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "evolutions": [
-        {
-          "evoId": 804,
-          "id": 0,
-          "candyCost": 200
-        }
-      ]
+      "thirdMoveCandy": 100
     },
     "804_0": {
       "name": "Naganadel",
@@ -53006,12 +52999,20 @@
         {
           "evoId": 936,
           "id": 0,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "target": 30,
+            "i18n": "Defeat {{amount}} Psychic-type Pokémon"
+          }
         },
         {
           "evoId": 937,
           "id": 0,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "target": 30,
+            "i18n": "Defeat {{amount}} Ghost-type Pokémon"
+          }
         }
       ]
     },

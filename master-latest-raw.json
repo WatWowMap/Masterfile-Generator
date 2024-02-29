@@ -37663,14 +37663,7 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 804,
-          "candyCost": 200
-        }
-      ],
-      "little": true
+      "transferable": true
     },
     "804": {
       "pokemonName": "Naganadel",
@@ -43312,11 +43305,13 @@
       "evolutions": [
         {
           "evoId": 936,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": "CHARCADET_ARMAROUGE_EVOLUTION_QUEST"
         },
         {
           "evoId": 937,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": "CHARCADET_CERULEDGE_EVOLUTION_QUEST"
         }
       ],
       "little": true
@@ -63813,7 +63808,8 @@
     "2842": {
       "formName": "Horizons",
       "proto": "PIKACHU_HORIZONS",
-      "formId": 2842
+      "formId": 2842,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",
