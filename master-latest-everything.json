@@ -825,14 +825,14 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 1,
@@ -3830,6 +3830,13 @@
           "proto": "SCRATCH_FAST",
           "type": 1,
           "power": 4
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -4007,6 +4014,13 @@
           "proto": "METAL_CLAW_FAST",
           "type": 9,
           "power": 5
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -6722,6 +6736,13 @@
         }
       },
       "quickMoves": {
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "220": {
           "moveId": 220,
           "moveName": "Scratch",
@@ -6805,6 +6826,13 @@
               "proto": "MUD_SLAP_FAST",
               "type": 5,
               "power": 11
+            },
+            "403": {
+              "moveId": 403,
+              "moveName": "Sand Attack Fast",
+              "proto": "SAND_ATTACK_FAST",
+              "type": 5,
+              "power": 2
             }
           },
           "types": {
@@ -6883,6 +6911,13 @@
           "type": 17,
           "power": 5
         },
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "233": {
           "moveId": 233,
           "moveName": "Mud-Slap",
@@ -6957,6 +6992,13 @@
               "proto": "MUD_SLAP_FAST",
               "type": 5,
               "power": 11
+            },
+            "403": {
+              "moveId": 403,
+              "moveName": "Sand Attack Fast",
+              "proto": "SAND_ATTACK_FAST",
+              "type": 5,
+              "power": 2
             }
           },
           "chargedMoves": {
@@ -7478,7 +7520,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "30": {
           "moveId": 30,
@@ -7492,7 +7534,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         }
       },
       "genId": 1,
@@ -7587,7 +7629,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "39": {
           "moveId": 39,
@@ -7713,7 +7755,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "56": {
           "moveId": 56,
@@ -8419,7 +8461,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 1,
@@ -9013,7 +9055,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "56": {
           "moveId": 56,
@@ -9236,7 +9278,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "64": {
           "moveId": 64,
@@ -9732,7 +9774,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 1,
@@ -10095,6 +10137,13 @@
         }
       },
       "quickMoves": {
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "227": {
           "moveId": 227,
           "moveName": "Rock Throw",
@@ -10277,6 +10326,13 @@
         }
       },
       "quickMoves": {
+        "216": {
+          "moveId": 216,
+          "moveName": "Mud Shot",
+          "proto": "MUD_SHOT_FAST",
+          "type": 5,
+          "power": 3
+        },
         "227": {
           "moveId": 227,
           "moveName": "Rock Throw",
@@ -10834,7 +10890,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "108": {
           "moveId": 108,
@@ -11055,7 +11111,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "106": {
           "moveId": 106,
@@ -11255,6 +11311,13 @@
           "proto": "VOLT_SWITCH_FAST",
           "type": 13,
           "power": 12
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -11382,6 +11445,13 @@
           "proto": "VOLT_SWITCH_FAST",
           "type": 13,
           "power": 12
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -11886,7 +11956,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "111": {
           "moveId": 111,
@@ -12006,7 +12076,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "248": {
           "moveId": 248,
@@ -12465,7 +12535,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "111": {
           "moveId": 111,
@@ -13468,7 +13538,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "318": {
           "moveId": 318,
@@ -13584,7 +13654,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "305": {
           "moveId": 305,
@@ -16009,14 +16079,14 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "126": {
           "moveId": 126,
@@ -16125,7 +16195,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 1,
@@ -16313,6 +16383,13 @@
         }
       },
       "chargedMoves": {
+        "30": {
+          "moveId": 30,
+          "moveName": "Psybeam",
+          "proto": "PSYBEAM",
+          "type": 14,
+          "power": 70
+        },
         "39": {
           "moveId": 39,
           "moveName": "Ice Beam",
@@ -16433,6 +16510,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -17934,14 +18018,14 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "107": {
           "moveId": 107,
@@ -18699,7 +18783,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 1,
@@ -19583,7 +19667,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "80": {
           "moveId": 80,
@@ -19692,7 +19776,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "82": {
           "moveId": 82,
@@ -21212,7 +21296,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "279": {
           "moveId": 279,
@@ -21321,7 +21405,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "279": {
           "moveId": 279,
@@ -21411,6 +21495,13 @@
           "proto": "BITE_FAST",
           "type": 17,
           "power": 4
+        },
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
         },
         "283": {
           "moveId": 283,
@@ -22517,7 +22608,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 2,
@@ -23965,7 +24056,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "131": {
           "moveId": 131,
@@ -25945,6 +26036,13 @@
           "proto": "HEX_FAST",
           "type": 8,
           "power": 6
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -27300,7 +27398,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "91": {
           "moveId": 91,
@@ -27399,7 +27497,7 @@
               "moveName": "Aqua Tail",
               "proto": "AQUA_TAIL",
               "type": 11,
-              "power": 50
+              "power": 55
             },
             "70": {
               "moveId": 70,
@@ -28045,7 +28143,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "88": {
           "moveId": 88,
@@ -28853,7 +28951,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "248": {
           "moveId": 248,
@@ -28969,7 +29067,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "248": {
           "moveId": 248,
@@ -29220,7 +29318,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 2,
@@ -31251,7 +31349,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "106": {
           "moveId": 106,
@@ -33331,6 +33429,13 @@
           "proto": "ROCK_SMASH_FAST",
           "type": 2,
           "power": 9
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -33501,6 +33606,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -35050,7 +35162,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "121": {
           "moveId": 121,
@@ -35387,6 +35499,13 @@
           "proto": "DISARMING_VOICE",
           "type": 18,
           "power": 70
+        },
+        "85": {
+          "moveId": 85,
+          "moveName": "Draining Kiss",
+          "proto": "DRAINING_KISS",
+          "type": 18,
+          "power": 60
         },
         "108": {
           "moveId": 108,
@@ -37024,7 +37143,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "56": {
           "moveId": 56,
@@ -39780,7 +39899,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "106": {
           "moveId": 106,
@@ -40701,6 +40820,13 @@
           "proto": "STRUGGLE_BUG_FAST",
           "type": 7,
           "power": 9
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -40821,6 +40947,13 @@
           "proto": "MUD_SHOT_FAST",
           "type": 5,
           "power": 3
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -40944,6 +41077,13 @@
           "proto": "DRAGON_TAIL_FAST",
           "type": 16,
           "power": 13
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -41056,6 +41196,13 @@
           "proto": "POISON_STING_FAST",
           "type": 4,
           "power": 3
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -41183,6 +41330,13 @@
           "proto": "POISON_JAB_FAST",
           "type": 4,
           "power": 7
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -41720,6 +41874,13 @@
           "proto": "CONFUSION_FAST",
           "type": 14,
           "power": 16
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -41818,6 +41979,13 @@
           "proto": "CONFUSION_FAST",
           "type": 14,
           "power": 16
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -41931,7 +42099,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "96": {
           "moveId": 96,
@@ -42051,7 +42219,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "106": {
           "moveId": 106,
@@ -42627,6 +42795,13 @@
           "proto": "INFESTATION_FAST",
           "type": 7,
           "power": 6
+        },
+        "271": {
+          "moveId": 271,
+          "moveName": "Bullet Seed",
+          "proto": "BULLET_SEED_FAST",
+          "type": 12,
+          "power": 5
         }
       },
       "chargedMoves": {
@@ -42984,7 +43159,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "259": {
           "moveId": 259,
@@ -44753,7 +44928,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -44866,7 +45041,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -44996,7 +45171,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 3,
@@ -45080,7 +45255,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -45187,7 +45362,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "279": {
           "moveId": 279,
@@ -45285,7 +45460,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "108": {
           "moveId": 108,
@@ -45380,7 +45555,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "62": {
           "moveId": 62,
@@ -45487,7 +45662,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 3,
@@ -48359,6 +48534,13 @@
           "type": 9,
           "power": 5
         },
+        "239": {
+          "moveId": 239,
+          "moveName": "Steel Wing",
+          "proto": "STEEL_WING_FAST",
+          "type": 9,
+          "power": 7
+        },
         "283": {
           "moveId": 283,
           "moveName": "Waterfall",
@@ -48474,6 +48656,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -48587,6 +48776,13 @@
           "proto": "QUICK_ATTACK_FAST",
           "type": 1,
           "power": 5
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -48710,6 +48906,13 @@
           "proto": "QUICK_ATTACK_FAST",
           "type": 1,
           "power": 5
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -50450,6 +50653,13 @@
               "proto": "CONFUSION_FAST",
               "type": 14,
               "power": 16
+            },
+            "402": {
+              "moveId": 402,
+              "moveName": "Metal Sound Fast",
+              "proto": "METAL_SOUND_FAST",
+              "type": 9,
+              "power": 3
             }
           },
           "chargedMoves": {
@@ -50981,7 +51191,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "125": {
           "moveId": 125,
@@ -51428,7 +51638,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -51551,7 +51761,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "131": {
           "moveId": 131,
@@ -51579,12 +51789,72 @@
         "98": {
           "name": "West Sea",
           "proto": "GASTRODON_WEST_SEA",
-          "form": 98
+          "form": 98,
+          "chargedMoves": {
+            "31": {
+              "moveId": 31,
+              "moveName": "Earthquake",
+              "proto": "EARTHQUAKE",
+              "type": 5,
+              "power": 110
+            },
+            "105": {
+              "moveId": 105,
+              "moveName": "Water Pulse",
+              "proto": "WATER_PULSE",
+              "type": 11,
+              "power": 80
+            },
+            "131": {
+              "moveId": 131,
+              "moveName": "Body Slam",
+              "proto": "BODY_SLAM",
+              "type": 1,
+              "power": 60
+            },
+            "304": {
+              "moveId": 304,
+              "moveName": "Earth Power",
+              "proto": "EARTH_POWER",
+              "type": 5,
+              "power": 90
+            }
+          }
         },
         "99": {
           "name": "East Sea",
           "proto": "GASTRODON_EAST_SEA",
-          "form": 99
+          "form": 99,
+          "chargedMoves": {
+            "31": {
+              "moveId": 31,
+              "moveName": "Earthquake",
+              "proto": "EARTHQUAKE",
+              "type": 5,
+              "power": 110
+            },
+            "105": {
+              "moveId": 105,
+              "moveName": "Water Pulse",
+              "proto": "WATER_PULSE",
+              "type": 11,
+              "power": 80
+            },
+            "131": {
+              "moveId": 131,
+              "moveName": "Body Slam",
+              "proto": "BODY_SLAM",
+              "type": 1,
+              "power": 60
+            },
+            "304": {
+              "moveId": 304,
+              "moveName": "Earth Power",
+              "proto": "EARTH_POWER",
+              "type": 5,
+              "power": 90
+            }
+          }
         },
         "1739": {
           "name": "Normal",
@@ -52204,6 +52474,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -53059,6 +53336,13 @@
           "proto": "FEINT_ATTACK_FAST",
           "type": 17,
           "power": 6
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -54157,7 +54441,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "56": {
           "moveId": 56,
@@ -54402,6 +54686,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -54525,6 +54816,13 @@
           "proto": "ICE_FANG_FAST",
           "type": 15,
           "power": 8
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -54656,7 +54954,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "89": {
           "moveId": 89,
@@ -54783,7 +55081,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "90": {
           "moveId": 90,
@@ -55218,7 +55516,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "262": {
           "moveId": 262,
@@ -55320,7 +55618,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "262": {
           "moveId": 262,
@@ -55429,7 +55727,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 4,
@@ -55900,6 +56198,13 @@
           "proto": "VOLT_SWITCH_FAST",
           "type": 13,
           "power": 12
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -57304,6 +57609,13 @@
           "type": 2,
           "power": 4
         },
+        "226": {
+          "moveId": 226,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT_FAST",
+          "type": 14,
+          "power": 3
+        },
         "235": {
           "moveId": 235,
           "moveName": "Confusion",
@@ -58434,7 +58746,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "103": {
           "moveId": 103,
@@ -59003,7 +59315,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -60397,14 +60709,14 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 5,
@@ -60492,7 +60804,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "100": {
           "moveId": 100,
@@ -60506,7 +60818,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 5,
@@ -60976,6 +61288,13 @@
           "proto": "TAKE_DOWN_FAST",
           "type": 1,
           "power": 5
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -61078,6 +61397,13 @@
           "proto": "TAKE_DOWN_FAST",
           "type": 1,
           "power": 5
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -61190,6 +61516,13 @@
           "proto": "ICE_FANG_FAST",
           "type": 15,
           "power": 8
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -61905,7 +62238,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "279": {
           "moveId": 279,
@@ -64032,7 +64365,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 5,
@@ -64131,7 +64464,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "304": {
           "moveId": 304,
@@ -64333,6 +64666,13 @@
           "type": 2,
           "power": 40
         },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
         "131": {
           "moveId": 131,
           "moveName": "Body Slam",
@@ -64424,6 +64764,13 @@
           "moveId": 56,
           "moveName": "Low Sweep",
           "proto": "LOW_SWEEP",
+          "type": 2,
+          "power": 40
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
           "type": 2,
           "power": 40
         },
@@ -65607,7 +65954,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "316": {
           "moveId": 316,
@@ -65921,6 +66268,13 @@
           "proto": "EARTHQUAKE",
           "type": 5,
           "power": 110
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
         },
         "277": {
           "moveId": 277,
@@ -68157,7 +68511,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "79": {
           "moveId": 79,
@@ -68267,7 +68621,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "79": {
           "moveId": 79,
@@ -71045,6 +71399,13 @@
           "proto": "VOLT_SWITCH_FAST",
           "type": 13,
           "power": 12
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -71147,6 +71508,13 @@
           "proto": "CHARGE_BEAM_FAST",
           "type": 13,
           "power": 5
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -71252,6 +71620,13 @@
           "proto": "CHARGE_BEAM_FAST",
           "type": 13,
           "power": 5
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound Fast",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -72210,7 +72585,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "82": {
           "moveId": 82,
@@ -72319,7 +72694,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "83": {
           "moveId": 83,
@@ -72762,7 +73137,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "116": {
           "moveId": 116,
@@ -77505,7 +77880,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -77592,7 +77967,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -80144,6 +80519,13 @@
           "proto": "TAKE_DOWN_FAST",
           "type": 1,
           "power": 5
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -81122,6 +81504,13 @@
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -81203,6 +81592,13 @@
           "moveId": 226,
           "moveName": "Psycho Cut",
           "proto": "PSYCHO_CUT_FAST",
+          "type": 14,
+          "power": 3
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave Fast",
+          "proto": "PSYWAVE_FAST",
           "type": 14,
           "power": 3
         }
@@ -81313,7 +81709,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "62": {
           "moveId": 62,
@@ -81403,7 +81799,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "32": {
           "moveId": 32,
@@ -81503,7 +81899,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "80": {
           "moveId": 80,
@@ -81524,7 +81920,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 6,
@@ -81608,7 +82004,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "92": {
           "moveId": 92,
@@ -81705,7 +82101,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "305": {
           "moveId": 305,
@@ -81798,7 +82194,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "305": {
           "moveId": 305,
@@ -82921,7 +83317,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "316": {
           "moveId": 316,
@@ -83020,6 +83416,13 @@
         }
       },
       "chargedMoves": {
+        "58": {
+          "moveId": 58,
+          "moveName": "Aqua Tail",
+          "proto": "AQUA_TAIL",
+          "type": 11,
+          "power": 55
+        },
         "91": {
           "moveId": 91,
           "moveName": "Sludge Wave",
@@ -85524,14 +85927,14 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 7,
@@ -85618,7 +86021,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         }
       },
       "genId": 7,
@@ -86515,6 +86918,13 @@
         }
       },
       "chargedMoves": {
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
         "305": {
           "moveId": 305,
           "moveName": "Crabhammer",
@@ -86612,6 +87022,13 @@
           "proto": "ICE_PUNCH",
           "type": 15,
           "power": 55
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
         },
         "305": {
           "moveId": 305,
@@ -87341,7 +87758,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "104": {
           "moveId": 104,
@@ -87803,7 +88220,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "276": {
           "moveId": 276,
@@ -87895,6 +88312,13 @@
           "proto": "BUBBLE_BEAM",
           "type": 11,
           "power": 25
+        },
+        "105": {
+          "moveId": 105,
+          "moveName": "Water Pulse",
+          "proto": "WATER_PULSE",
+          "type": 11,
+          "power": 80
         },
         "276": {
           "moveId": 276,
@@ -89430,6 +89854,13 @@
           "proto": "ASTONISH_FAST",
           "type": 8,
           "power": 9
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -89528,6 +89959,13 @@
           "proto": "ASTONISH_FAST",
           "type": 8,
           "power": 9
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack Fast",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -90622,7 +91060,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "279": {
           "moveId": 279,
@@ -91060,6 +91498,13 @@
           "proto": "DRAGON_CLAW",
           "type": 16,
           "power": 50
+        },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
         },
         "245": {
           "moveId": 245,
@@ -92730,7 +93175,7 @@
       "mythic": false,
       "ultraBeast": true,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 4,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -92822,7 +93267,7 @@
       "mythic": false,
       "ultraBeast": true,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 6,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -93829,7 +94274,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -93909,7 +94354,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -93999,7 +94444,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "284": {
           "moveId": 284,
@@ -97985,7 +98430,7 @@
           "moveName": "Cross Chop",
           "proto": "CROSS_CHOP",
           "type": 2,
-          "power": 50
+          "power": 55
         },
         "51": {
           "moveId": 51,
@@ -102119,7 +102564,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "107": {
           "moveId": 107,
@@ -102371,7 +102816,7 @@
           "moveName": "Aqua Tail",
           "proto": "AQUA_TAIL",
           "type": 11,
-          "power": 50
+          "power": 55
         },
         "70": {
           "moveId": 70,
@@ -107701,7 +108146,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "111": {
           "moveId": 111,
@@ -107794,7 +108239,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "111": {
           "moveId": 111,
@@ -108854,7 +109299,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "279": {
           "moveId": 279,
@@ -109247,7 +109692,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "303": {
           "moveId": 303,
@@ -111525,7 +111970,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "106": {
           "moveId": 106,
@@ -114785,7 +115230,7 @@
           "moveName": "Water Pulse",
           "proto": "WATER_PULSE",
           "type": 11,
-          "power": 70
+          "power": 80
         },
         "116": {
           "moveId": 116,
@@ -115611,7 +116056,8 @@
       "weight": 1,
       "quickMoves": [
         228,
-        233
+        233,
+        403
       ],
       "types": [
         5,
@@ -115648,7 +116094,8 @@
       "weight": 66.6,
       "quickMoves": [
         228,
-        233
+        233,
+        403
       ],
       "chargedMoves": [
         31,
@@ -116119,7 +116566,8 @@
       "stamina": 155,
       "quickMoves": [
         201,
-        235
+        235,
+        402
       ],
       "chargedMoves": [
         30,
@@ -116217,12 +116665,24 @@
     "98": {
       "formName": "West Sea",
       "proto": "GASTRODON_WEST_SEA",
-      "formId": 98
+      "formId": 98,
+      "chargedMoves": [
+        31,
+        105,
+        131,
+        304
+      ]
     },
     "99": {
       "formName": "East Sea",
       "proto": "GASTRODON_EAST_SEA",
-      "formId": 99
+      "formId": 99,
+      "chargedMoves": [
+        31,
+        105,
+        131,
+        304
+      ]
     },
     "100": {
       "formName": "Normal",
@@ -134890,7 +135350,7 @@
       "id": 28,
       "name": "Cross Chop",
       "proto": "CROSS_CHOP",
-      "power": 50
+      "power": 55
     },
     "29": {
       "id": 29,
@@ -135063,7 +135523,7 @@
       "id": 58,
       "name": "Aqua Tail",
       "proto": "AQUA_TAIL",
-      "power": 50
+      "power": 55
     },
     "59": {
       "id": 59,
@@ -135336,7 +135796,7 @@
       "id": 105,
       "name": "Water Pulse",
       "proto": "WATER_PULSE",
-      "power": 70
+      "power": 80
     },
     "106": {
       "id": 106,
@@ -136211,7 +136671,7 @@
       "id": 315,
       "name": "Shadow Bone",
       "proto": "SHADOW_BONE",
-      "power": 75
+      "power": 80
     },
     "316": {
       "id": 316,
