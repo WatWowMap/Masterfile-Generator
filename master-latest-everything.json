@@ -93181,7 +93181,14 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "evolutions": {
+        "804": {
+          "pokemon": 804,
+          "form": 0
+        }
+      },
+      "little": true
     },
     "804": {
       "name": "Naganadel",
@@ -102971,8 +102978,7 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "906": {
       "name": "Sprigatito",
@@ -112127,6 +112133,13 @@
           "proto": "MAGICAL_LEAF_FAST",
           "type": 12,
           "power": 10
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -113739,6 +113752,13 @@
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
           "power": 12
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {
@@ -114973,6 +114993,13 @@
           "proto": "TAKE_DOWN_FAST",
           "type": 1,
           "power": 5
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 3
         }
       },
       "chargedMoves": {

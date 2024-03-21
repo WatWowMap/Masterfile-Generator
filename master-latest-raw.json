@@ -37716,7 +37716,13 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 804
+        }
+      ],
+      "little": true
     },
     "804": {
       "pokemonName": "Naganadel",
@@ -42033,8 +42039,7 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true,
-      "unreleased": true
+      "transferable": true
     },
     "906": {
       "pokemonName": "Sprigatito",
@@ -46374,7 +46379,8 @@
         219,
         255,
         282,
-        357
+        357,
+        402
       ],
       "chargedMoves": [
         14,
@@ -46725,7 +46731,8 @@
         253,
         278,
         282,
-        297
+        297,
+        402
       ],
       "chargedMoves": [
         14,
@@ -46977,7 +46984,8 @@
         235,
         250,
         255,
-        282
+        282,
+        402
       ],
       "chargedMoves": [
         14,
