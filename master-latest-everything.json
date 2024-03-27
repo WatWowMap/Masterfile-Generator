@@ -85852,6 +85852,13 @@
           "proto": "BLAZE_KICK",
           "type": 10,
           "power": 60
+        },
+        "400": {
+          "moveId": 400,
+          "moveName": "Darkest Lariat",
+          "proto": "DARKEST_LARIAT",
+          "type": 17,
+          "power": 120
         }
       },
       "genId": 7,
@@ -107937,6 +107944,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -108027,6 +108035,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -117035,7 +117044,9 @@
     "138": {
       "formName": "Standard",
       "proto": "DARMANITAN_STANDARD",
-      "formId": 138
+      "formId": 138,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "139": {
       "formName": "Zen",
@@ -117047,7 +117058,9 @@
       "types": [
         10,
         14
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "140": {
       "formName": "Incarnate Forme",
@@ -129749,7 +129762,9 @@
       ],
       "types": [
         15
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2343": {
       "formName": "Galarian Zen",
@@ -129773,7 +129788,9 @@
       "types": [
         10,
         15
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2344": {
       "formName": "Galarian",
@@ -135199,6 +135216,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1623": {
+      "id": 1623,
+      "name": "Event Ticket 09",
+      "proto": "ITEM_EVENT_TICKET_09",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1624": {
       "id": 1624,
       "name": "Wonder Ticket",
@@ -135217,6 +135241,13 @@
       "id": 1630,
       "name": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1633": {
+      "id": 1633,
+      "name": "Event Ticket 09 To Gift",
+      "proto": "ITEM_EVENT_TICKET_09_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },

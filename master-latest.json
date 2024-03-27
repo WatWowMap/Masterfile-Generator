@@ -42016,7 +42016,8 @@
         "Dark Pulse",
         "Flame Charge",
         "Fire Blast",
-        "Blaze Kick"
+        "Blaze Kick",
+        "Darkest Lariat"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -52205,6 +52206,7 @@
       "family": 960,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -52248,6 +52250,7 @@
       "family": 960,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -55778,6 +55781,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1623": {
+      "name": "Event Ticket 09",
+      "proto": "ITEM_EVENT_TICKET_09",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1624": {
       "name": "Event Ticket 10",
       "proto": "ITEM_EVENT_TICKET_10",
@@ -55793,6 +55802,12 @@
     "1630": {
       "name": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1633": {
+      "name": "Event Ticket 09 To Gift",
+      "proto": "ITEM_EVENT_TICKET_09_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },

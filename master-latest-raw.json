@@ -34467,7 +34467,8 @@
         16,
         101,
         103,
-        317
+        317,
+        400
       ],
       "genId": 7,
       "generation": "Alola",
@@ -44418,6 +44419,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -44464,6 +44466,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -48621,7 +48624,9 @@
     "138": {
       "formName": "Standard",
       "proto": "DARMANITAN_STANDARD",
-      "formId": 138
+      "formId": 138,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "139": {
       "formName": "Zen",
@@ -48633,7 +48638,9 @@
       "types": [
         10,
         14
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "140": {
       "formName": "Incarnate",
@@ -61042,7 +61049,9 @@
       ],
       "types": [
         15
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2343": {
       "formName": "Galarian Zen",
@@ -61066,7 +61075,9 @@
       "types": [
         10,
         15
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2344": {
       "formName": "Galarian",
@@ -65311,6 +65322,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1623": {
+      "itemId": 1623,
+      "itemName": "Event Ticket 09",
+      "proto": "ITEM_EVENT_TICKET_09",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1624": {
       "itemId": 1624,
       "itemName": "Event Ticket 10",
@@ -65329,6 +65347,13 @@
       "itemId": 1630,
       "itemName": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1633": {
+      "itemId": 1633,
+      "itemName": "Event Ticket 09 To Gift",
+      "proto": "ITEM_EVENT_TICKET_09_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
