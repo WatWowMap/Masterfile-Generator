@@ -3442,6 +3442,16 @@
           "form": 2842,
           "isCostume": true
         },
+        "2843": {
+          "name": "Gofest 2024 Stiara",
+          "proto": "PIKACHU_GOFEST_2024_STIARA",
+          "form": 2843
+        },
+        "2844": {
+          "name": "Gofest 2024 Mtiara",
+          "proto": "PIKACHU_GOFEST_2024_MTIARA",
+          "form": 2844
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -17891,6 +17901,16 @@
               "tempEvoId": "Gmax"
             }
           }
+        },
+        "2845": {
+          "name": "Gofest 2024 Stiara",
+          "proto": "EEVEE_GOFEST_2024_STIARA",
+          "form": 2845
+        },
+        "2846": {
+          "name": "Gofest 2024 Mtiara",
+          "proto": "EEVEE_GOFEST_2024_MTIARA",
+          "form": 2846
         }
       },
       "stats": {
@@ -25588,6 +25608,11 @@
           "name": "Purified",
           "proto": "ESPEON_PURIFIED",
           "form": 1234
+        },
+        "2847": {
+          "name": "Gofest 2024 Sscarf",
+          "proto": "ESPEON_GOFEST_2024_SSCARF",
+          "form": 2847
         }
       },
       "stats": {
@@ -25679,6 +25704,11 @@
           "name": "Purified",
           "proto": "UMBREON_PURIFIED",
           "form": 1237
+        },
+        "2848": {
+          "name": "Gofest 2024 Mscarf",
+          "proto": "UMBREON_GOFEST_2024_MSCARF",
+          "form": 2848
         }
       },
       "stats": {
@@ -132616,6 +132646,36 @@
       "formId": 2842,
       "isCostume": true
     },
+    "2843": {
+      "formName": "Gofest 2024 Stiara",
+      "proto": "PIKACHU_GOFEST_2024_STIARA",
+      "formId": 2843
+    },
+    "2844": {
+      "formName": "Gofest 2024 Mtiara",
+      "proto": "PIKACHU_GOFEST_2024_MTIARA",
+      "formId": 2844
+    },
+    "2845": {
+      "formName": "Gofest 2024 Stiara",
+      "proto": "EEVEE_GOFEST_2024_STIARA",
+      "formId": 2845
+    },
+    "2846": {
+      "formName": "Gofest 2024 Mtiara",
+      "proto": "EEVEE_GOFEST_2024_MTIARA",
+      "formId": 2846
+    },
+    "2847": {
+      "formName": "Gofest 2024 Sscarf",
+      "proto": "ESPEON_GOFEST_2024_SSCARF",
+      "formId": 2847
+    },
+    "2848": {
+      "formName": "Gofest 2024 Mscarf",
+      "proto": "UMBREON_GOFEST_2024_MSCARF",
+      "formId": 2848
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -137608,6 +137668,11 @@
       "id": 74,
       "proto": "QUEST_UNFUSE_POKEMON",
       "formatted": "Unfuse Pokemon"
+    },
+    "75": {
+      "id": 75,
+      "proto": "QUEST_WALK_METERS",
+      "formatted": "Walk Meters"
     }
   },
   "questRewardTypes": {

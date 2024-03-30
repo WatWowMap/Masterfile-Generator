@@ -1294,6 +1294,8 @@
         2840,
         2841,
         2842,
+        2843,
+        2844,
         3002,
         3003,
         3004,
@@ -6542,7 +6544,9 @@
         0,
         1092,
         1093,
-        1094
+        1094,
+        2845,
+        2846
       ],
       "attack": 104,
       "defense": 114,
@@ -9609,7 +9613,8 @@
         0,
         1232,
         1233,
-        1234
+        1234,
+        2847
       ],
       "attack": 261,
       "defense": 175,
@@ -9651,7 +9656,8 @@
         0,
         1235,
         1236,
-        1237
+        1237,
+        2848
       ],
       "attack": 126,
       "defense": 240,
@@ -63901,6 +63907,36 @@
       "formId": 2842,
       "isCostume": true
     },
+    "2843": {
+      "formName": "Gofest 2024 Stiara",
+      "proto": "PIKACHU_GOFEST_2024_STIARA",
+      "formId": 2843
+    },
+    "2844": {
+      "formName": "Gofest 2024 Mtiara",
+      "proto": "PIKACHU_GOFEST_2024_MTIARA",
+      "formId": 2844
+    },
+    "2845": {
+      "formName": "Gofest 2024 Stiara",
+      "proto": "EEVEE_GOFEST_2024_STIARA",
+      "formId": 2845
+    },
+    "2846": {
+      "formName": "Gofest 2024 Mtiara",
+      "proto": "EEVEE_GOFEST_2024_MTIARA",
+      "formId": 2846
+    },
+    "2847": {
+      "formName": "Gofest 2024 Sscarf",
+      "proto": "ESPEON_GOFEST_2024_SSCARF",
+      "formId": 2847
+    },
+    "2848": {
+      "formName": "Gofest 2024 Mscarf",
+      "proto": "UMBREON_GOFEST_2024_MSCARF",
+      "formId": 2848
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -67751,6 +67787,11 @@
       "id": 74,
       "proto": "QUEST_UNFUSE_POKEMON",
       "formatted": "Unfuse Pokemon"
+    },
+    "75": {
+      "id": 75,
+      "proto": "QUEST_WALK_METERS",
+      "formatted": "Walk Meters"
     }
   },
   "questRewardTypes": {

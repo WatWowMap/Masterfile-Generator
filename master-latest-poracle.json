@@ -2388,6 +2388,48 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_2843": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2024 Stiara",
+        "id": 2843
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_2844": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2024 Mtiara",
+        "id": 2844
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "25_3002": {
       "name": "Pikachu",
       "id": 25,
@@ -9590,6 +9632,48 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
     },
+    "133_2845": {
+      "name": "Eevee",
+      "id": 133,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2024 Stiara",
+        "id": 2845
+      },
+      "stats": {
+        "baseAttack": 104,
+        "baseDefense": 114,
+        "baseStamina": 146
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
+    "133_2846": {
+      "name": "Eevee",
+      "id": 133,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2024 Mtiara",
+        "id": 2846
+      },
+      "stats": {
+        "baseAttack": 104,
+        "baseDefense": 114,
+        "baseStamina": 146
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
     "134_0": {
       "name": "Vaporeon",
       "id": 134,
@@ -13170,6 +13254,27 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
     },
+    "196_2847": {
+      "name": "Espeon",
+      "id": 196,
+      "types": [
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2024 Sscarf",
+        "id": 2847
+      },
+      "stats": {
+        "baseAttack": 261,
+        "baseDefense": 175,
+        "baseStamina": 163
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
     "197_0": {
       "name": "Umbreon",
       "id": 197,
@@ -13203,6 +13308,27 @@
       "form": {
         "name": "Normal",
         "id": 1235
+      },
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 240,
+        "baseStamina": 216
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
+    "197_2848": {
+      "name": "Umbreon",
+      "id": 197,
+      "types": [
+        {
+          "id": 17,
+          "name": "Dark"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2024 Mscarf",
+        "id": 2848
       },
       "stats": {
         "baseAttack": 126,
@@ -58403,6 +58529,9 @@
     },
     "74": {
       "text": "Unfuse Pokemon"
+    },
+    "75": {
+      "text": "Walk Meters"
     }
   },
   "grunts": {
