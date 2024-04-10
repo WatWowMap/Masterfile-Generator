@@ -27930,6 +27930,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -27944,7 +27945,10 @@
             "defense": 223,
             "stamina": 190
           },
-          "unreleased": true
+          "height": 1.7,
+          "weight": 62.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -123634,6 +123638,16 @@
           "defense": 223,
           "stamina": 190,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 334,
+          "defense": 223,
+          "stamina": 190,
+          "height": 1.7,
+          "weight": 62.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -123653,6 +123667,16 @@
           "defense": 223,
           "stamina": 190,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 334,
+          "defense": 223,
+          "stamina": 190,
+          "height": 1.7,
+          "weight": 62.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
