@@ -59659,6 +59659,29 @@
           },
           "height": 0.4,
           "weight": 5.2,
+          "quickMoves": {
+            "234": {
+              "moveId": 234,
+              "moveName": "Zen Headbutt",
+              "proto": "ZEN_HEADBUTT_FAST",
+              "type": 14,
+              "power": 8
+            },
+            "281": {
+              "moveId": 281,
+              "moveName": "Hidden Power",
+              "proto": "HIDDEN_POWER_FAST",
+              "type": 1,
+              "power": 9
+            },
+            "357": {
+              "moveId": 357,
+              "moveName": "Magical Leaf",
+              "proto": "MAGICAL_LEAF_FAST",
+              "type": 12,
+              "power": 10
+            }
+          },
           "types": {
             "3": {
               "typeId": 3,
@@ -92901,21 +92924,42 @@
         }
       },
       "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+        "226": {
+          "moveId": 226,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT_FAST",
+          "type": 14,
+          "power": 3
+        },
+        "235": {
+          "moveId": 235,
+          "moveName": "Confusion",
+          "proto": "CONFUSION_FAST",
+          "type": 14,
+          "power": 16
         }
       },
       "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+        "51": {
+          "moveId": 51,
+          "moveName": "Night Slash",
+          "proto": "NIGHT_SLASH",
+          "type": 17,
+          "power": 50
+        },
+        "65": {
+          "moveId": 65,
+          "moveName": "Power Gem",
+          "proto": "POWER_GEM",
+          "type": 6,
+          "power": 80
+        },
+        "259": {
+          "moveId": 259,
+          "moveName": "Rock Blast",
+          "proto": "ROCK_BLAST",
+          "type": 6,
+          "power": 50
         }
       },
       "genId": 7,
@@ -92986,6 +93030,24 @@
           },
           "height": 7.5,
           "weight": 230,
+          "quickMoves": {
+            "133": {
+              "moveId": 133,
+              "moveName": "Struggle",
+              "proto": "STRUGGLE",
+              "type": 1,
+              "power": 35
+            }
+          },
+          "chargedMoves": {
+            "133": {
+              "moveId": 133,
+              "moveName": "Struggle",
+              "proto": "STRUGGLE",
+              "type": 1,
+              "power": 35
+            }
+          },
           "types": {
             "14": {
               "typeId": 14,
@@ -93398,7 +93460,7 @@
       "mythic": false,
       "ultraBeast": true,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100,
@@ -116687,6 +116749,11 @@
       "stamina": 225,
       "height": 0.4,
       "weight": 5.2,
+      "quickMoves": [
+        234,
+        281,
+        357
+      ],
       "types": [
         3,
         12
@@ -131273,6 +131340,12 @@
       "stamina": 200,
       "height": 7.5,
       "weight": 230,
+      "quickMoves": [
+        133
+      ],
+      "chargedMoves": [
+        133
+      ],
       "types": [
         14,
         16
@@ -134772,6 +134845,22 @@
       "category": "Incense",
       "minTrainerLevel": 1
     },
+    "408": {
+      "id": 408,
+      "name": "Incense Day Bonus",
+      "proto": "ITEM_INCENSE_DAY_BONUS",
+      "type": "Incense",
+      "category": "Incense",
+      "minTrainerLevel": 1
+    },
+    "409": {
+      "id": 409,
+      "name": "Incense Night Bonus",
+      "proto": "ITEM_INCENSE_NIGHT_BONUS",
+      "type": "Incense",
+      "category": "Incense",
+      "minTrainerLevel": 1
+    },
     "501": {
       "id": 501,
       "name": "Lure Module",
@@ -135113,6 +135202,22 @@
       "type": "Candy",
       "category": "Candy",
       "minTrainerLevel": 31
+    },
+    "1350": {
+      "id": 1350,
+      "name": "Fusion Resource Dawnwings Necrozma",
+      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1351": {
+      "id": 1351,
+      "name": "Fusion Resource Duskmane Necrozma",
+      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
     },
     "1401": {
       "id": 1401,
@@ -137344,12 +137449,14 @@
     "404": {
       "id": 404,
       "name": "Sunsteel Strike",
-      "proto": "SUNSTEEL_STRIKE"
+      "proto": "SUNSTEEL_STRIKE",
+      "power": 1
     },
     "405": {
       "id": 405,
       "name": "Moongeist Beam",
-      "proto": "MOONGEIST_BEAM"
+      "proto": "MOONGEIST_BEAM",
+      "power": 1
     },
     "408": {
       "id": 408,

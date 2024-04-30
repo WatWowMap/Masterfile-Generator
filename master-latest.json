@@ -29046,6 +29046,11 @@
           "stamina": 225,
           "height": 0.4,
           "weight": 5.2,
+          "quick_moves": [
+            "Zen Headbutt",
+            "Hidden Power",
+            "Magical Leaf"
+          ],
           "types": [
             "Flying",
             "Grass"
@@ -45337,10 +45342,13 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Struggle"
+        "Psycho Cut",
+        "Confusion"
       ],
       "charged_moves": [
-        "Struggle"
+        "Night Slash",
+        "Power Gem",
+        "Rock Blast"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -45383,6 +45391,12 @@
           "stamina": 200,
           "height": 7.5,
           "weight": 230,
+          "quick_moves": [
+            "Struggle"
+          ],
+          "charged_moves": [
+            "Struggle"
+          ],
           "types": [
             "Psychic",
             "Dragon"
@@ -45591,7 +45605,7 @@
       "family": 805,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -55346,6 +55360,20 @@
       "category": "Incense",
       "min_trainer_level": 1
     },
+    "408": {
+      "name": "Incense Day Bonus",
+      "proto": "ITEM_INCENSE_DAY_BONUS",
+      "type": "Incense",
+      "category": "Incense",
+      "min_trainer_level": 1
+    },
+    "409": {
+      "name": "Incense Night Bonus",
+      "proto": "ITEM_INCENSE_NIGHT_BONUS",
+      "type": "Incense",
+      "category": "Incense",
+      "min_trainer_level": 1
+    },
     "501": {
       "name": "Troy Disk",
       "proto": "ITEM_TROY_DISK",
@@ -55644,6 +55672,20 @@
       "type": "Candy",
       "category": "Candy",
       "min_trainer_level": 31
+    },
+    "1350": {
+      "name": "Fusion Resource Dawnwings Necrozma",
+      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 1
+    },
+    "1351": {
+      "name": "Fusion Resource Duskmane Necrozma",
+      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 1
     },
     "1401": {
       "name": "Free Raid Ticket",
@@ -57791,11 +57833,15 @@
     },
     "404": {
       "name": "Sunsteel Strike",
-      "proto": "SUNSTEEL_STRIKE"
+      "proto": "SUNSTEEL_STRIKE",
+      "type": "Steel",
+      "power": 1
     },
     "405": {
       "name": "Moongeist Beam",
-      "proto": "MOONGEIST_BEAM"
+      "proto": "MOONGEIST_BEAM",
+      "type": "Ghost",
+      "power": 1
     },
     "408": {
       "name": "High Jump Kick",

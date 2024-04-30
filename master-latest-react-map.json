@@ -16908,6 +16908,11 @@
       "forms": {
         "92": {
           "name": "Sky",
+          "quickMoves": [
+            234,
+            281,
+            357
+          ],
           "types": [
             3,
             12
@@ -27426,10 +27431,13 @@
         14
       ],
       "quickMoves": [
-        133
+        226,
+        235
       ],
       "chargedMoves": [
-        133
+        51,
+        65,
+        259
       ],
       "genId": 7,
       "generation": "Alola",
@@ -27453,6 +27461,12 @@
         },
         "2720": {
           "name": "Ultra",
+          "quickMoves": [
+            133
+          ],
+          "chargedMoves": [
+            133
+          ],
           "types": [
             14,
             16
@@ -34744,6 +34758,8 @@
     "405": "Incense Beluga Box",
     "406": "Incense Daily Adventure",
     "407": "Incense Sparkly",
+    "408": "Incense Day Bonus",
+    "409": "Incense Night Bonus",
     "501": "Troy Disk",
     "502": "Troy Disk Glacial",
     "503": "Troy Disk Mossy",
@@ -34775,6 +34791,8 @@
     "1250": "Move Reroll Other Special Attack A",
     "1301": "Rare Candy",
     "1302": "XL Rare Candy",
+    "1350": "Fusion Resource Dawnwings Necrozma",
+    "1351": "Fusion Resource Duskmane Necrozma",
     "1402": "Paid Raid Ticket",
     "1404": "Star Piece",
     "1408": "Remote Raid Ticket",
@@ -36121,10 +36139,12 @@
       "type": 5
     },
     "404": {
-      "name": "Sunsteel Strike"
+      "name": "Sunsteel Strike",
+      "type": 9
     },
     "405": {
-      "name": "Moongeist Beam"
+      "name": "Moongeist Beam",
+      "type": 8
     },
     "408": {
       "name": "High Jump Kick"
