@@ -94125,6 +94125,21 @@
       "id": 75,
       "proto": "QUEST_WALK_METERS",
       "formatted": "Walk Meters"
+    },
+    "76": {
+      "id": 76,
+      "proto": "QUEST_CHANGE_INTO_POKEMON_FORM",
+      "formatted": "Change Into Pokemon Form"
+    },
+    "77": {
+      "id": 77,
+      "proto": "QUEST_FUSE_INTO_POKEMON",
+      "formatted": "Fuse Into Pokemon"
+    },
+    "78": {
+      "id": 78,
+      "proto": "QUEST_UNFUSE_INTO_POKEMON",
+      "formatted": "Unfuse Into Pokemon"
     }
   },
   "questRewardTypes": {
@@ -94534,6 +94549,11 @@
       "id": 64,
       "proto": "WITH_POKEMON_MOVE",
       "formatted": "With Pokemon Move"
+    },
+    "65": {
+      "id": 65,
+      "proto": "WITH_POKEMON_FORM",
+      "formatted": "With Pokemon Form"
     }
   },
   "invasions": {
