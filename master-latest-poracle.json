@@ -9630,7 +9630,65 @@
         "baseStamina": 146
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "evolutions": [
+        {
+          "evoId": 134,
+          "id": 0,
+          "candyCost": 25
+        },
+        {
+          "evoId": 135,
+          "id": 0,
+          "candyCost": 25
+        },
+        {
+          "evoId": 136,
+          "id": 0,
+          "candyCost": 25
+        },
+        {
+          "evoId": 196,
+          "id": 0,
+          "candyCost": 25,
+          "mustBeBuddy": true,
+          "onlyDaytime": true,
+          "questRequirement": {
+            "target": 10,
+            "i18n": "Walk {{amount}} km with your buddy"
+          }
+        },
+        {
+          "evoId": 197,
+          "id": 0,
+          "candyCost": 25,
+          "mustBeBuddy": true,
+          "onlyNighttime": true,
+          "questRequirement": {
+            "target": 10,
+            "i18n": "Walk {{amount}} km with your buddy"
+          }
+        },
+        {
+          "evoId": 470,
+          "id": 0,
+          "candyCost": 25
+        },
+        {
+          "evoId": 471,
+          "id": 0,
+          "candyCost": 25
+        },
+        {
+          "evoId": 700,
+          "id": 0,
+          "candyCost": 25,
+          "questRequirement": {
+            "target": 70,
+            "i18n": "Earn {{amount}} hearts with your buddy"
+          }
+        }
+      ]
     },
     "133_2845": {
       "name": "Eevee",

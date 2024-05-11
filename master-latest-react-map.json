@@ -999,10 +999,12 @@
           "isCostume": true
         },
         "2843": {
-          "name": "Gofest 2024 Stiara"
+          "name": "Gofest 2024 Stiara",
+          "isCostume": true
         },
         "2844": {
-          "name": "Gofest 2024 Mtiara"
+          "name": "Gofest 2024 Mtiara",
+          "isCostume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -4920,7 +4922,7 @@
     "133": {
       "name": "Eevee",
       "pokedexId": 133,
-      "defaultFormId": 0,
+      "defaultFormId": 1092,
       "types": [
         1
       ],
@@ -4935,14 +4937,16 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "1092": {
+          "name": "Normal"
         },
         "2845": {
-          "name": "Gofest 2024 Stiara"
+          "name": "Gofest 2024 Stiara",
+          "isCostume": true
         },
         "2846": {
-          "name": "Gofest 2024 Mtiara"
+          "name": "Gofest 2024 Mtiara",
+          "isCostume": true
         }
       },
       "height": 0.3,
@@ -7044,7 +7048,7 @@
     "196": {
       "name": "Espeon",
       "pokedexId": 196,
-      "defaultFormId": 0,
+      "defaultFormId": 1232,
       "types": [
         14
       ],
@@ -7061,11 +7065,12 @@
       "genId": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "1232": {
+          "name": "Normal"
         },
         "2847": {
-          "name": "Gofest 2024 Sscarf"
+          "name": "Gofest 2024 Sscarf",
+          "isCostume": true
         }
       },
       "height": 0.89,
@@ -7078,7 +7083,7 @@
     "197": {
       "name": "Umbreon",
       "pokedexId": 197,
-      "defaultFormId": 0,
+      "defaultFormId": 1235,
       "types": [
         17
       ],
@@ -7093,11 +7098,12 @@
       "genId": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "1235": {
+          "name": "Normal"
         },
         "2848": {
-          "name": "Gofest 2024 Mscarf"
+          "name": "Gofest 2024 Mscarf",
+          "isCostume": true
         }
       },
       "height": 0.99,
@@ -27431,13 +27437,15 @@
         14
       ],
       "quickMoves": [
+        213,
         226,
-        235
+        228
       ],
       "chargedMoves": [
-        51,
-        65,
-        259
+        16,
+        74,
+        275,
+        277
       ],
       "genId": 7,
       "generation": "Alola",

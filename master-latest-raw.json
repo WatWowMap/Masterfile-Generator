@@ -9958,7 +9958,7 @@
     "133": {
       "pokemonName": "Eevee",
       "pokedexId": 133,
-      "defaultFormId": 0,
+      "defaultFormId": 1092,
       "types": [
         1
       ],
@@ -9973,7 +9973,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         1092,
         1093,
         1094,
@@ -14663,7 +14662,7 @@
     "196": {
       "pokemonName": "Espeon",
       "pokedexId": 196,
-      "defaultFormId": 0,
+      "defaultFormId": 1232,
       "types": [
         14
       ],
@@ -14680,7 +14679,6 @@
       "genId": 2,
       "generation": "Johto",
       "forms": [
-        0,
         1232,
         1233,
         1234,
@@ -14734,7 +14732,7 @@
     "197": {
       "pokemonName": "Umbreon",
       "pokedexId": 197,
-      "defaultFormId": 0,
+      "defaultFormId": 1235,
       "types": [
         17
       ],
@@ -14749,7 +14747,6 @@
       "genId": 2,
       "generation": "Johto",
       "forms": [
-        0,
         1235,
         1236,
         1237,
@@ -58437,13 +58434,15 @@
         14
       ],
       "quickMoves": [
+        213,
         226,
-        235
+        228
       ],
       "chargedMoves": [
-        51,
-        65,
-        259
+        16,
+        74,
+        275,
+        277
       ],
       "genId": 7,
       "generation": "Alola",
@@ -80522,7 +80521,48 @@
     "1092": {
       "formName": "Normal",
       "proto": "EEVEE_NORMAL",
-      "formId": 1092
+      "formId": 1092,
+      "evolutions": [
+        {
+          "evoId": 134,
+          "candyCost": 25
+        },
+        {
+          "evoId": 135,
+          "candyCost": 25
+        },
+        {
+          "evoId": 136,
+          "candyCost": 25
+        },
+        {
+          "evoId": 196,
+          "candyCost": 25,
+          "mustBeBuddy": true,
+          "onlyDaytime": true,
+          "questRequirement": "ESPEON_EVOLUTION_QUEST"
+        },
+        {
+          "evoId": 197,
+          "candyCost": 25,
+          "mustBeBuddy": true,
+          "onlyNighttime": true,
+          "questRequirement": "UMBREON_EVOLUTION_QUEST"
+        },
+        {
+          "evoId": 470,
+          "candyCost": 25
+        },
+        {
+          "evoId": 471,
+          "candyCost": 25
+        },
+        {
+          "evoId": 700,
+          "candyCost": 25,
+          "questRequirement": "SYLVEON_EVOLUTION_QUEST"
+        }
+      ]
     },
     "1093": {
       "formName": "Shadow",
@@ -91547,32 +91587,38 @@
     "2843": {
       "formName": "Gofest 2024 Stiara",
       "proto": "PIKACHU_GOFEST_2024_STIARA",
-      "formId": 2843
+      "formId": 2843,
+      "isCostume": true
     },
     "2844": {
       "formName": "Gofest 2024 Mtiara",
       "proto": "PIKACHU_GOFEST_2024_MTIARA",
-      "formId": 2844
+      "formId": 2844,
+      "isCostume": true
     },
     "2845": {
       "formName": "Gofest 2024 Stiara",
       "proto": "EEVEE_GOFEST_2024_STIARA",
-      "formId": 2845
+      "formId": 2845,
+      "isCostume": true
     },
     "2846": {
       "formName": "Gofest 2024 Mtiara",
       "proto": "EEVEE_GOFEST_2024_MTIARA",
-      "formId": 2846
+      "formId": 2846,
+      "isCostume": true
     },
     "2847": {
       "formName": "Gofest 2024 Sscarf",
       "proto": "ESPEON_GOFEST_2024_SSCARF",
-      "formId": 2847
+      "formId": 2847,
+      "isCostume": true
     },
     "2848": {
       "formName": "Gofest 2024 Mscarf",
       "proto": "UMBREON_GOFEST_2024_MSCARF",
-      "formId": 2848
+      "formId": 2848,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",

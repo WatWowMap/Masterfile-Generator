@@ -1693,11 +1693,13 @@
         },
         "2843": {
           "name": "Gofest 2024 Stiara",
-          "proto": "PIKACHU_GOFEST_2024_STIARA"
+          "proto": "PIKACHU_GOFEST_2024_STIARA",
+          "is_costume": true
         },
         "2844": {
           "name": "Gofest 2024 Mtiara",
-          "proto": "PIKACHU_GOFEST_2024_MTIARA"
+          "proto": "PIKACHU_GOFEST_2024_MTIARA",
+          "is_costume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -8484,7 +8486,7 @@
     "133": {
       "name": "Eevee",
       "pokedex_id": 133,
-      "default_form_id": 0,
+      "default_form_id": 1092,
       "types": [
         "Normal"
       ],
@@ -8499,13 +8501,35 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1092": {
           "name": "Normal",
-          "proto": "EEVEE_NORMAL"
+          "proto": "EEVEE_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 134
+            },
+            {
+              "pokemon": 135
+            },
+            {
+              "pokemon": 136
+            },
+            {
+              "pokemon": 196
+            },
+            {
+              "pokemon": 197
+            },
+            {
+              "pokemon": 470
+            },
+            {
+              "pokemon": 471
+            },
+            {
+              "pokemon": 700
+            }
+          ]
         },
         "1093": {
           "name": "Shadow",
@@ -8517,11 +8541,13 @@
         },
         "2845": {
           "name": "Gofest 2024 Stiara",
-          "proto": "EEVEE_GOFEST_2024_STIARA"
+          "proto": "EEVEE_GOFEST_2024_STIARA",
+          "is_costume": true
         },
         "2846": {
           "name": "Gofest 2024 Mtiara",
-          "proto": "EEVEE_GOFEST_2024_MTIARA"
+          "proto": "EEVEE_GOFEST_2024_MTIARA",
+          "is_costume": true
         }
       },
       "attack": 104,
@@ -12127,7 +12153,7 @@
     "196": {
       "name": "Espeon",
       "pokedex_id": 196,
-      "default_form_id": 0,
+      "default_form_id": 1232,
       "types": [
         "Psychic"
       ],
@@ -12144,10 +12170,6 @@
       "gen_id": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1232": {
           "name": "Normal",
           "proto": "ESPEON_NORMAL"
@@ -12162,7 +12184,8 @@
         },
         "2847": {
           "name": "Gofest 2024 Sscarf",
-          "proto": "ESPEON_GOFEST_2024_SSCARF"
+          "proto": "ESPEON_GOFEST_2024_SSCARF",
+          "is_costume": true
         }
       },
       "attack": 261,
@@ -12182,7 +12205,7 @@
     "197": {
       "name": "Umbreon",
       "pokedex_id": 197,
-      "default_form_id": 0,
+      "default_form_id": 1235,
       "types": [
         "Dark"
       ],
@@ -12197,10 +12220,6 @@
       "gen_id": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1235": {
           "name": "Normal",
           "proto": "UMBREON_NORMAL"
@@ -12215,7 +12234,8 @@
         },
         "2848": {
           "name": "Gofest 2024 Mscarf",
-          "proto": "UMBREON_GOFEST_2024_MSCARF"
+          "proto": "UMBREON_GOFEST_2024_MSCARF",
+          "is_costume": true
         }
       },
       "attack": 126,
@@ -45342,13 +45362,15 @@
         "Psychic"
       ],
       "quick_moves": [
+        "Shadow Claw",
         "Psycho Cut",
-        "Confusion"
+        "Metal Claw"
       ],
       "charged_moves": [
-        "Night Slash",
-        "Power Gem",
-        "Rock Blast"
+        "Dark Pulse",
+        "Iron Head",
+        "Futuresight",
+        "Outrage"
       ],
       "gen_id": 7,
       "generation": "Alola",
