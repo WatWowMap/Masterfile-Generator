@@ -93251,21 +93251,63 @@
         }
       },
       "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
+        "224": {
+          "moveId": 224,
+          "moveName": "Poison Jab",
+          "proto": "POISON_JAB_FAST",
+          "type": 4,
+          "power": 7
+        },
+        "243": {
+          "moveId": 243,
+          "moveName": "Counter",
+          "proto": "COUNTER_FAST",
+          "type": 2,
+          "power": 8
         }
       },
       "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+        "33": {
+          "moveId": 33,
+          "moveName": "Ice Punch",
+          "proto": "ICE_PUNCH",
+          "type": 15,
+          "power": 55
+        },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
+        "77": {
+          "moveId": 77,
+          "moveName": "Thunder Punch",
+          "proto": "THUNDER_PUNCH",
+          "type": 13,
+          "power": 55
+        },
+        "115": {
+          "moveId": 115,
+          "moveName": "Fire Punch",
+          "proto": "FIRE_PUNCH",
+          "type": 10,
+          "power": 55
+        },
+        "245": {
+          "moveId": 245,
+          "moveName": "Close Combat",
+          "proto": "CLOSE_COMBAT",
+          "type": 2,
+          "power": 100
         }
       },
       "genId": 7,
@@ -138994,18 +139036,19 @@
       "id": 404,
       "name": "Sunsteel Strike",
       "proto": "SUNSTEEL_STRIKE",
-      "power": 1
+      "power": 135
     },
     "405": {
       "id": 405,
       "name": "Moongeist Beam",
       "proto": "MOONGEIST_BEAM",
-      "power": 1
+      "power": 135
     },
     "408": {
       "id": 408,
       "name": "High Jump Kick",
-      "proto": "HIGH_JUMP_KICK"
+      "proto": "HIGH_JUMP_KICK",
+      "power": 110
     }
   },
   "questTypes": {

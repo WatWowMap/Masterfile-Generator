@@ -45486,10 +45486,16 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Struggle"
+        "Sucker Punch",
+        "Poison Jab",
+        "Counter"
       ],
       "charged_moves": [
-        "Struggle"
+        "Ice Punch",
+        "Rock Slide",
+        "Thunder Punch",
+        "Fire Punch",
+        "Close Combat"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -57857,17 +57863,19 @@
       "name": "Sunsteel Strike",
       "proto": "SUNSTEEL_STRIKE",
       "type": "Steel",
-      "power": 1
+      "power": 135
     },
     "405": {
       "name": "Moongeist Beam",
       "proto": "MOONGEIST_BEAM",
       "type": "Ghost",
-      "power": 1
+      "power": 135
     },
     "408": {
       "name": "High Jump Kick",
-      "proto": "HIGH_JUMP_KICK"
+      "proto": "HIGH_JUMP_KICK",
+      "type": "Fighting",
+      "power": 110
     }
   },
   "quest_types": {
