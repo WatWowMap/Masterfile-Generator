@@ -1665,7 +1665,8 @@
       "chargedMoves": [
         45,
         46,
-        257
+        257,
+        341
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -2661,6 +2662,7 @@
       "chargedMoves": [
         84,
         87,
+        125,
         131
       ],
       "genId": 1,
@@ -2737,6 +2739,7 @@
         86,
         87,
         108,
+        125,
         301
       ],
       "genId": 1,
@@ -2955,6 +2958,7 @@
       "chargedMoves": [
         84,
         86,
+        125,
         267
       ],
       "genId": 1,
@@ -3033,7 +3037,8 @@
         84,
         86,
         88,
-        111
+        111,
+        125
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -11786,6 +11791,7 @@
         346
       ],
       "chargedMoves": [
+        77,
         103,
         116,
         270
@@ -12954,6 +12960,7 @@
       "chargedMoves": [
         60,
         99,
+        125,
         272
       ],
       "genId": 2,
@@ -13029,6 +13036,7 @@
       "chargedMoves": [
         70,
         108,
+        125,
         251
       ],
       "genId": 2,
@@ -16182,6 +16190,7 @@
       "chargedMoves": [
         28,
         88,
+        125,
         279,
         392
       ],
@@ -16258,6 +16267,7 @@
       "chargedMoves": [
         14,
         88,
+        125,
         245,
         392
       ],
@@ -27810,7 +27820,8 @@
       "chargedMoves": [
         103,
         107,
-        285
+        285,
+        341
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -31478,6 +31489,7 @@
         281
       ],
       "chargedMoves": [
+        31,
         105,
         131,
         304
@@ -33259,6 +33271,7 @@
       "chargedMoves": [
         28,
         56,
+        77,
         123,
         317
       ],
@@ -33335,6 +33348,7 @@
       "chargedMoves": [
         36,
         70,
+        77,
         245,
         317,
         319,
@@ -39076,6 +39090,7 @@
         45,
         108,
         275,
+        341,
         353
       ],
       "genId": 5,
@@ -41341,6 +41356,7 @@
         241
       ],
       "chargedMoves": [
+        77,
         123,
         280,
         303
@@ -41416,6 +41432,7 @@
         278
       ],
       "chargedMoves": [
+        77,
         280,
         303,
         319
@@ -42935,7 +42952,8 @@
       "chargedMoves": [
         39,
         53,
-        122
+        122,
+        341
       ],
       "genId": 5,
       "generation": "Unova",
@@ -48008,6 +48026,7 @@
         297
       ],
       "chargedMoves": [
+        77,
         116,
         267,
         273,
@@ -57314,7 +57333,6 @@
       "chargedMoves": [
         82,
         83,
-        123,
         123
       ],
       "genId": 7,
@@ -58683,6 +58701,11 @@
       "transferable": true,
       "evolutions": [
         {
+          "evoId": 804,
+          "candyCost": 200,
+          "questRequirement": "NAGANADEL_EVOLUTION_QUEST"
+        },
+        {
           "evoId": 804
         }
       ],
@@ -58702,6 +58725,7 @@
       ],
       "chargedMoves": [
         82,
+        83,
         90,
         311,
         364
@@ -65296,6 +65320,7 @@
         45,
         77,
         115,
+        125,
         392
       ],
       "genId": 8,
@@ -66627,7 +66652,8 @@
       ],
       "quickMoves": [
         201,
-        203
+        203,
+        243
       ],
       "chargedMoves": [
         16,
@@ -66770,6 +66796,7 @@
       ],
       "chargedMoves": [
         35,
+        77,
         79,
         251
       ],
@@ -66845,6 +66872,7 @@
       ],
       "chargedMoves": [
         35,
+        77,
         79,
         245,
         251
@@ -70337,7 +70365,8 @@
       ],
       "quickMoves": [
         217,
-        221
+        221,
+        244
       ],
       "chargedMoves": [
         131,
@@ -70408,7 +70437,8 @@
       ],
       "quickMoves": [
         217,
-        221
+        221,
+        244
       ],
       "chargedMoves": [
         131,
@@ -74821,24 +74851,12 @@
     "98": {
       "formName": "West Sea",
       "proto": "GASTRODON_WEST_SEA",
-      "formId": 98,
-      "chargedMoves": [
-        31,
-        105,
-        131,
-        304
-      ]
+      "formId": 98
     },
     "99": {
       "formName": "East Sea",
       "proto": "GASTRODON_EAST_SEA",
-      "formId": 99,
-      "chargedMoves": [
-        31,
-        105,
-        131,
-        304
-      ]
+      "formId": 99
     },
     "100": {
       "formName": "Normal",
@@ -93418,7 +93436,7 @@
       "moveName": "Seed Bomb",
       "proto": "SEED_BOMB",
       "type": 12,
-      "power": 60
+      "power": 65
     },
     "60": {
       "moveId": 60,
@@ -93775,7 +93793,7 @@
       "moveName": "Swift",
       "proto": "SWIFT",
       "type": 1,
-      "power": 60
+      "power": 55
     },
     "126": {
       "moveId": 126,
@@ -93894,7 +93912,7 @@
       "moveName": "Spark",
       "proto": "SPARK_FAST",
       "type": 13,
-      "power": 6
+      "power": 5
     },
     "207": {
       "moveId": 207,

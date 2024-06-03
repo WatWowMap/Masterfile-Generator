@@ -1294,7 +1294,8 @@
       "charged_moves": [
         "Aerial Ace",
         "Drill Run",
-        "Sky Attack"
+        "Sky Attack",
+        "Fly"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -2369,6 +2370,7 @@
       "charged_moves": [
         "Disarming Voice",
         "Moonblast",
+        "Swift",
         "Body Slam"
       ],
       "gen_id": 1,
@@ -2427,6 +2429,7 @@
         "Dazzling Gleam",
         "Moonblast",
         "Psychic",
+        "Swift",
         "Meteor Mash"
       ],
       "gen_id": 1,
@@ -2633,6 +2636,7 @@
       "charged_moves": [
         "Disarming Voice",
         "Dazzling Gleam",
+        "Swift",
         "Gyro Ball"
       ],
       "gen_id": 1,
@@ -2693,7 +2697,8 @@
         "Disarming Voice",
         "Dazzling Gleam",
         "Play Rough",
-        "Icy Wind"
+        "Icy Wind",
+        "Swift"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -9987,6 +9992,7 @@
         "Incinerate"
       ],
       "charged_moves": [
+        "Thunder Punch",
         "Fire Blast",
         "Solar Beam",
         "Overheat"
@@ -10867,6 +10873,7 @@
       "charged_moves": [
         "Psyshock",
         "Signal Beam",
+        "Swift",
         "Grass Knot"
       ],
       "gen_id": 2,
@@ -10924,6 +10931,7 @@
       "charged_moves": [
         "Shadow Ball",
         "Psychic",
+        "Swift",
         "Wild Charge"
       ],
       "gen_id": 2,
@@ -13453,6 +13461,7 @@
       "charged_moves": [
         "Cross Chop",
         "Play Rough",
+        "Swift",
         "Crunch",
         "Trailblaze"
       ],
@@ -13514,6 +13523,7 @@
       "charged_moves": [
         "Hyper Beam",
         "Play Rough",
+        "Swift",
         "Close Combat",
         "Trailblaze"
       ],
@@ -22374,7 +22384,8 @@
       "charged_moves": [
         "Fire Blast",
         "Hydro Pump",
-        "Draco Meteor"
+        "Draco Meteor",
+        "Fly"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -25289,6 +25300,7 @@
         "Hidden Power"
       ],
       "charged_moves": [
+        "Earthquake",
         "Water Pulse",
         "Body Slam",
         "Earth Power"
@@ -25298,23 +25310,11 @@
       "forms": {
         "98": {
           "name": "West Sea",
-          "proto": "GASTRODON_WEST_SEA",
-          "charged_moves": [
-            "Earthquake",
-            "Water Pulse",
-            "Body Slam",
-            "Earth Power"
-          ]
+          "proto": "GASTRODON_WEST_SEA"
         },
         "99": {
           "name": "East Sea",
-          "proto": "GASTRODON_EAST_SEA",
-          "charged_moves": [
-            "Earthquake",
-            "Water Pulse",
-            "Body Slam",
-            "Earth Power"
-          ]
+          "proto": "GASTRODON_EAST_SEA"
         },
         "1739": {
           "name": "Normal",
@@ -26621,6 +26621,7 @@
       "charged_moves": [
         "Cross Chop",
         "Low Sweep",
+        "Thunder Punch",
         "Brick Break",
         "Blaze Kick"
       ],
@@ -26679,6 +26680,7 @@
       "charged_moves": [
         "Flash Cannon",
         "Shadow Ball",
+        "Thunder Punch",
         "Close Combat",
         "Blaze Kick",
         "Power Up Punch",
@@ -31132,6 +31134,7 @@
         "Aerial Ace",
         "Psychic",
         "Futuresight",
+        "Fly",
         "Psychic Fangs"
       ],
       "gen_id": 5,
@@ -32892,6 +32895,7 @@
         "Rock Smash"
       ],
       "charged_moves": [
+        "Thunder Punch",
         "Brick Break",
         "Foul Play",
         "Acid Spray"
@@ -32949,6 +32953,7 @@
         "Snarl"
       ],
       "charged_moves": [
+        "Thunder Punch",
         "Foul Play",
         "Acid Spray",
         "Power Up Punch"
@@ -34104,7 +34109,8 @@
       "charged_moves": [
         "Ice Beam",
         "Bubble Beam",
-        "Hurricane"
+        "Hurricane",
+        "Fly"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -38025,6 +38031,7 @@
         "Smack Down"
       ],
       "charged_moves": [
+        "Thunder Punch",
         "Solar Beam",
         "Gyro Ball",
         "Energy Ball",
@@ -44694,7 +44701,6 @@
       "charged_moves": [
         "Dragon Pulse",
         "Dragon Claw",
-        "Brick Break",
         "Brick Break"
       ],
       "gen_id": 7,
@@ -45557,6 +45563,9 @@
       "evolutions": [
         {
           "pokemon": 804
+        },
+        {
+          "pokemon": 804
         }
       ],
       "little": true
@@ -45575,6 +45584,7 @@
       ],
       "charged_moves": [
         "Dragon Pulse",
+        "Dragon Claw",
         "Sludge Bomb",
         "Fell Stinger",
         "Acrobatics"
@@ -49747,6 +49757,7 @@
         "Aerial Ace",
         "Thunder Punch",
         "Fire Punch",
+        "Swift",
         "Trailblaze"
       ],
       "gen_id": 8,
@@ -50581,7 +50592,8 @@
       ],
       "quick_moves": [
         "Bug Bite",
-        "Sucker Punch"
+        "Sucker Punch",
+        "Counter"
       ],
       "charged_moves": [
         "Dark Pulse",
@@ -50669,6 +50681,7 @@
       ],
       "charged_moves": [
         "Discharge",
+        "Thunder Punch",
         "Thunderbolt",
         "Wild Charge"
       ],
@@ -50714,6 +50727,7 @@
       ],
       "charged_moves": [
         "Discharge",
+        "Thunder Punch",
         "Thunderbolt",
         "Close Combat",
         "Wild Charge"
@@ -52825,7 +52839,8 @@
       ],
       "quick_moves": [
         "Ice Shard",
-        "Tackle"
+        "Tackle",
+        "Powder Snow"
       ],
       "charged_moves": [
         "Body Slam",
@@ -52869,7 +52884,8 @@
       ],
       "quick_moves": [
         "Ice Shard",
-        "Tackle"
+        "Tackle",
+        "Powder Snow"
       ],
       "charged_moves": [
         "Body Slam",
@@ -56220,7 +56236,7 @@
       "name": "Seed Bomb",
       "proto": "SEED_BOMB",
       "type": "Grass",
-      "power": 60
+      "power": 65
     },
     "60": {
       "name": "Psyshock",
@@ -56586,7 +56602,7 @@
       "name": "Swift",
       "proto": "SWIFT",
       "type": "Normal",
-      "power": 60
+      "power": 55
     },
     "126": {
       "name": "Horn Attack",
@@ -56696,7 +56712,7 @@
       "name": "Spark",
       "proto": "SPARK_FAST",
       "type": "Electric",
-      "power": 6
+      "power": 5
     },
     "207": {
       "name": "Low Kick",

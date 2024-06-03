@@ -48750,6 +48750,15 @@
       "evolutions": [
         {
           "evoId": 804,
+          "id": 0,
+          "candyCost": 200,
+          "questRequirement": {
+            "target": 20,
+            "i18n": "Catch {{amount}} Dragon-type Pokémon"
+          }
+        },
+        {
+          "evoId": 804,
           "id": 0
         }
       ]
