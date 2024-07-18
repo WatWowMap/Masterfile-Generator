@@ -52752,6 +52752,10 @@
     "461": {
       "name": "Vn Bm 053",
       "proto": "VN_BM_053"
+    },
+    "462": {
+      "name": "Force Palm",
+      "proto": "FORCE_PALM_FAST"
     }
   },
   "quest_types": {
@@ -52977,6 +52981,15 @@
     },
     "78": {
       "text": "Unfuse Into Pokemon"
+    },
+    "82": {
+      "text": "Collect Mp"
+    },
+    "83": {
+      "text": "Loot Station"
+    },
+    "84": {
+      "text": "Complete Bread Battle"
     }
   },
   "quest_reward_types": {
@@ -53309,6 +53322,18 @@
     "65": {
       "proto": "WITH_POKEMON_FORM",
       "text": "With Pokemon Form"
+    },
+    "66": {
+      "proto": "WITH_BREAD_POKEMON",
+      "text": "With Bread Pokemon"
+    },
+    "67": {
+      "proto": "WITH_BREAD_DOUGH_POKEMON",
+      "text": "With Bread Dough Pokemon"
+    },
+    "68": {
+      "proto": "WITH_WIN_BREAD_BATTLE",
+      "text": "With Win Bread Battle"
     }
   },
   "invasions": {
