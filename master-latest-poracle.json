@@ -28908,6 +28908,16 @@
             "baseStamina": 172
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 310,
+            "baseDefense": 175,
+            "baseStamina": 172
+          },
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -28944,6 +28954,16 @@
             "baseStamina": 172
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 310,
+            "baseDefense": 175,
+            "baseStamina": 172
+          },
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -58426,6 +58446,10 @@
     },
     "408": {
       "name": "High Jump Kick",
+      "type": "Fighting"
+    },
+    "462": {
+      "name": "Force Palm Fast",
       "type": "Fighting"
     }
   },

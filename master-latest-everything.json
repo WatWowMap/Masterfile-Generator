@@ -49993,6 +49993,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -50126,6 +50127,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -50140,7 +50142,10 @@
             "defense": 175,
             "stamina": 172
           },
-          "unreleased": true
+          "height": 1.3,
+          "weight": 57.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -98408,7 +98413,7 @@
     "925": {
       "name": "Maushold",
       "pokedexId": 925,
-      "defaultFormId": 2983,
+      "defaultFormId": 2984,
       "types": {
         "1": {
           "typeId": 1,
@@ -115781,6 +115786,16 @@
           "defense": 175,
           "stamina": 172,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 310,
+          "defense": 175,
+          "stamina": 172,
+          "height": 1.3,
+          "weight": 57.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -125678,7 +125693,8 @@
     "462": {
       "id": 462,
       "name": "Force Palm Fast",
-      "proto": "FORCE_PALM_FAST"
+      "proto": "FORCE_PALM_FAST",
+      "power": 13
     }
   },
   "questTypes": {

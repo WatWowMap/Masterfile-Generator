@@ -23090,7 +23090,8 @@
           "attack": 310,
           "defense": 175,
           "stamina": 172,
-          "unreleased": true
+          "height": 1.3,
+          "weight": 57.5
         }
       }
     },
@@ -45585,7 +45586,7 @@
     "925": {
       "name": "Maushold",
       "pokedex_id": 925,
-      "default_form_id": 2983,
+      "default_form_id": 2984,
       "types": [
         "Normal"
       ],
@@ -52754,8 +52755,10 @@
       "proto": "VN_BM_053"
     },
     "462": {
-      "name": "Force Palm",
-      "proto": "FORCE_PALM_FAST"
+      "name": "Force Palm Fast",
+      "proto": "FORCE_PALM_FAST",
+      "type": "Fighting",
+      "power": 13
     }
   },
   "quest_types": {
