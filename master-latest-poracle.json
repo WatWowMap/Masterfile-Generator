@@ -2619,6 +2619,27 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_3015": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Wcs 2024",
+        "id": 3015
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -58685,6 +58706,15 @@
     },
     "84": {
       "text": "Complete Bread Battle"
+    },
+    "85": {
+      "text": "Use Bread Move"
+    },
+    "86": {
+      "text": "Unlock Bread Move"
+    },
+    "87": {
+      "text": "Enhance Bread Move"
     }
   },
   "grunts": {

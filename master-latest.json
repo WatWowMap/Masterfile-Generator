@@ -1560,6 +1560,10 @@
           "name": "Wcs 2023",
           "proto": "PIKACHU_WCS_2023",
           "is_costume": true
+        },
+        "3015": {
+          "name": "Wcs 2024",
+          "proto": "PIKACHU_WCS_2024"
         }
       },
       "attack": 112,
@@ -52993,6 +52997,15 @@
     },
     "84": {
       "text": "Complete Bread Battle"
+    },
+    "85": {
+      "text": "Use Bread Move"
+    },
+    "86": {
+      "text": "Unlock Bread Move"
+    },
+    "87": {
+      "text": "Enhance Bread Move"
     }
   },
   "quest_reward_types": {
@@ -53059,6 +53072,10 @@
     "15": {
       "proto": "EVENT_BADGE",
       "text": "Event Badge"
+    },
+    "16": {
+      "proto": "POKEMON_EGG",
+      "text": "Pokemon Egg"
     }
   },
   "quest_conditions": {
@@ -53337,6 +53354,10 @@
     "68": {
       "proto": "WITH_WIN_BREAD_BATTLE",
       "text": "With Win Bread Battle"
+    },
+    "69": {
+      "proto": "WITH_BREAD_MOVE_TYPE",
+      "text": "With Bread Move Type"
     }
   },
   "invasions": {

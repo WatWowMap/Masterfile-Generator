@@ -1879,7 +1879,8 @@
         3011,
         3012,
         3013,
-        3014
+        3014,
+        3015
       ],
       "sizeSettings": [
         {
@@ -83905,6 +83906,11 @@
       "proto": "PIKACHU_WCS_2023",
       "formId": 3014,
       "isCostume": true
+    },
+    "3015": {
+      "formName": "Wcs 2024",
+      "proto": "PIKACHU_WCS_2024",
+      "formId": 3015
     }
   },
   "types": {
@@ -87613,6 +87619,21 @@
       "id": 84,
       "proto": "QUEST_COMPLETE_BREAD_BATTLE",
       "formatted": "Complete Bread Battle"
+    },
+    "85": {
+      "id": 85,
+      "proto": "QUEST_USE_BREAD_MOVE",
+      "formatted": "Use Bread Move"
+    },
+    "86": {
+      "id": 86,
+      "proto": "QUEST_UNLOCK_BREAD_MOVE",
+      "formatted": "Unlock Bread Move"
+    },
+    "87": {
+      "id": 87,
+      "proto": "QUEST_ENHANCE_BREAD_MOVE",
+      "formatted": "Enhance Bread Move"
     }
   },
   "questRewardTypes": {
@@ -87695,6 +87716,11 @@
       "id": 15,
       "proto": "EVENT_BADGE",
       "formatted": "Event Badge"
+    },
+    "16": {
+      "id": 16,
+      "proto": "POKEMON_EGG",
+      "formatted": "Pokemon Egg"
     }
   },
   "questConditions": {
@@ -88042,6 +88068,11 @@
       "id": 68,
       "proto": "WITH_WIN_BREAD_BATTLE",
       "formatted": "With Win Bread Battle"
+    },
+    "69": {
+      "id": 69,
+      "proto": "WITH_BREAD_MOVE_TYPE",
+      "formatted": "With Bread Move Type"
     }
   },
   "invasions": {
