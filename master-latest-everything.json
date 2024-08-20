@@ -3293,7 +3293,8 @@
         "3015": {
           "name": "Wcs 2024",
           "proto": "PIKACHU_WCS_2024",
-          "form": 3015
+          "form": 3015,
+          "isCostume": true
         }
       },
       "stats": {
@@ -49998,7 +49999,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 15,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -50132,7 +50133,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 15,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -121134,7 +121135,8 @@
     "3015": {
       "formName": "Wcs 2024",
       "proto": "PIKACHU_WCS_2024",
-      "formId": 3015
+      "formId": 3015,
+      "isCostume": true
     }
   },
   "types": {
@@ -123442,6 +123444,22 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "minTrainerLevel": 100
+    },
+    "1506": {
+      "id": 1506,
+      "name": "Mp",
+      "proto": "ITEM_MP",
+      "type": "Mp",
+      "category": "Mp",
+      "minTrainerLevel": 99
+    },
+    "1507": {
+      "id": 1507,
+      "name": "Mp Replenish",
+      "proto": "ITEM_MP_REPLENISH",
+      "type": "Mp Replenish",
+      "category": "Bread",
+      "minTrainerLevel": 99
     },
     "1600": {
       "id": 1600,

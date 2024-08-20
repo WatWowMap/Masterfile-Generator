@@ -1563,7 +1563,8 @@
         },
         "3015": {
           "name": "Wcs 2024",
-          "proto": "PIKACHU_WCS_2024"
+          "proto": "PIKACHU_WCS_2024",
+          "is_costume": true
         }
       },
       "attack": 112,
@@ -10860,10 +10861,6 @@
       "gen_id": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1": {
           "name": "A",
           "proto": "UNOWN_A"
@@ -17083,10 +17080,6 @@
       "gen_id": 3,
       "generation": "Hoenn",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "37": {
           "name": "00",
           "proto": "SPINDA_00"
@@ -50593,6 +50586,20 @@
       "category": "Incident Ticket",
       "min_trainer_level": 100
     },
+    "1506": {
+      "name": "Mp",
+      "proto": "ITEM_MP",
+      "type": "Mp",
+      "category": "Mp",
+      "min_trainer_level": 99
+    },
+    "1507": {
+      "name": "Mp Replenish",
+      "proto": "ITEM_MP_REPLENISH",
+      "type": "Mp Replenish",
+      "category": "Bread",
+      "min_trainer_level": 99
+    },
     "1600": {
       "name": "Global Event Ticket",
       "proto": "ITEM_GLOBAL_EVENT_TICKET",
@@ -52759,7 +52766,7 @@
       "proto": "VN_BM_053"
     },
     "462": {
-      "name": "Force Palm Fast",
+      "name": "V0462 Move Force Palm",
       "proto": "FORCE_PALM_FAST",
       "type": "Fighting",
       "power": 13

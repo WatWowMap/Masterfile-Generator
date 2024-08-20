@@ -14646,7 +14646,6 @@
       "genId": 2,
       "generation": "Johto",
       "forms": [
-        0,
         1,
         2,
         3,
@@ -23767,7 +23766,6 @@
       "genId": 3,
       "generation": "Hoenn",
       "forms": [
-        0,
         37,
         38,
         39,
@@ -32435,7 +32433,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 15,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -32515,7 +32513,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
-      "buddyMegaEnergy": 15,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -83910,7 +83908,8 @@
     "3015": {
       "formName": "Wcs 2024",
       "proto": "PIKACHU_WCS_2024",
-      "formId": 3015
+      "formId": 3015,
+      "isCostume": true
     }
   },
   "types": {
@@ -85028,6 +85027,22 @@
       "type": "Incident Ticket",
       "category": "Incident Ticket",
       "minTrainerLevel": 100
+    },
+    "1506": {
+      "itemId": 1506,
+      "itemName": "Mp",
+      "proto": "ITEM_MP",
+      "type": "Mp",
+      "category": "Mp",
+      "minTrainerLevel": 99
+    },
+    "1507": {
+      "itemId": 1507,
+      "itemName": "Mp Replenish",
+      "proto": "ITEM_MP_REPLENISH",
+      "type": "Mp Replenish",
+      "category": "Bread",
+      "minTrainerLevel": 99
     },
     "1600": {
       "itemId": 1600,
@@ -87228,7 +87243,7 @@
     },
     "462": {
       "moveId": 462,
-      "moveName": "Force Palm Fast",
+      "moveName": "V0462 Move Force Palm",
       "proto": "FORCE_PALM_FAST",
       "type": 2,
       "power": 13
