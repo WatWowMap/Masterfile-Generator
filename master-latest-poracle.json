@@ -15568,12 +15568,8 @@
       "id": 222,
       "types": [
         {
-          "id": 6,
-          "name": "Rock"
-        },
-        {
-          "id": 11,
-          "name": "Water"
+          "id": 8,
+          "name": "Ghost"
         }
       ],
       "form": {
@@ -15581,12 +15577,19 @@
         "id": 2340
       },
       "stats": {
-        "baseAttack": 118,
-        "baseDefense": 156,
-        "baseStamina": 146
+        "baseAttack": 116,
+        "baseDefense": 182,
+        "baseStamina": 155
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 864,
+          "id": 2507,
+          "candyCost": 50
+        }
+      ]
     },
     "223_0": {
       "name": "Remoraid",
@@ -58478,6 +58481,10 @@
     "462": {
       "name": "Force Palm Fast",
       "type": "Fighting"
+    },
+    "463": {
+      "name": "Sparkling Aria",
+      "type": "Water"
     }
   },
   "questTypes": {

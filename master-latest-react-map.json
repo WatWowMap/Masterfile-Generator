@@ -8033,7 +8033,7 @@
     "222": {
       "name": "Corsola",
       "pokedexId": 222,
-      "defaultFormId": 0,
+      "defaultFormId": 1283,
       "types": [
         6,
         11
@@ -8050,11 +8050,23 @@
       "genId": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "1283": {
+          "name": "Normal"
         },
         "2340": {
-          "name": "Galarian"
+          "name": "Galarian",
+          "quickMoves": [
+            221,
+            263
+          ],
+          "chargedMoves": [
+            65,
+            259,
+            265
+          ],
+          "types": [
+            8
+          ]
         }
       },
       "height": 0.61,
@@ -27871,8 +27883,8 @@
         10
       ],
       "quickMoves": [
-        209,
-        221
+        221,
+        269
       ],
       "chargedMoves": [
         24,
@@ -27900,8 +27912,8 @@
         10
       ],
       "quickMoves": [
-        209,
-        221
+        221,
+        269
       ],
       "chargedMoves": [
         24,
@@ -27929,8 +27941,8 @@
         10
       ],
       "quickMoves": [
-        209,
-        221
+        221,
+        269
       ],
       "chargedMoves": [
         24,
@@ -29423,12 +29435,11 @@
         8
       ],
       "quickMoves": [
-        263,
-        264
+        221,
+        263
       ],
       "chargedMoves": [
-        70,
-        104,
+        65,
         259,
         265
       ],
@@ -30143,12 +30154,13 @@
       ],
       "quickMoves": [
         253,
-        264
+        263
       ],
       "chargedMoves": [
         70,
         82,
-        277
+        277,
+        379
       ],
       "genId": 8,
       "generation": "Galar",
@@ -36240,11 +36252,12 @@
       "name": "Vn Bm 053"
     },
     "462": {
-      "name": "V0462 Move Force Palm",
+      "name": "Force Palm",
       "type": 2
     },
     "463": {
-      "name": "Sparkling Aria"
+      "name": "Sparkling Aria",
+      "type": 11
     }
   },
   "questRewardTypes": {

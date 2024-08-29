@@ -12015,7 +12015,7 @@
     "222": {
       "name": "Corsola",
       "pokedex_id": 222,
-      "default_form_id": 0,
+      "default_form_id": 1283,
       "types": [
         "Rock",
         "Water"
@@ -12032,17 +12032,36 @@
       "gen_id": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1283": {
           "name": "Normal",
           "proto": "CORSOLA_NORMAL"
         },
         "2340": {
           "name": "Galarian",
-          "proto": "CORSOLA_GALARIAN"
+          "proto": "CORSOLA_GALARIAN",
+          "attack": 116,
+          "defense": 182,
+          "stamina": 155,
+          "height": 0.61,
+          "weight": 0.5,
+          "quick_moves": [
+            "Tackle",
+            "Astonish"
+          ],
+          "charged_moves": [
+            "Power Gem",
+            "Rock Blast",
+            "Night Shade"
+          ],
+          "types": [
+            "Ghost"
+          ],
+          "evolutions": [
+            {
+              "pokemon": 864,
+              "form": 2507
+            }
+          ]
         }
       },
       "attack": 118,
@@ -40791,8 +40810,8 @@
         "Fire"
       ],
       "quick_moves": [
-        "Ember",
-        "Tackle"
+        "Tackle",
+        "Fire Spin"
       ],
       "charged_moves": [
         "Flamethrower",
@@ -40834,8 +40853,8 @@
         "Fire"
       ],
       "quick_moves": [
-        "Ember",
-        "Tackle"
+        "Tackle",
+        "Fire Spin"
       ],
       "charged_moves": [
         "Flamethrower",
@@ -40876,8 +40895,8 @@
         "Fire"
       ],
       "quick_moves": [
-        "Ember",
-        "Tackle"
+        "Tackle",
+        "Fire Spin"
       ],
       "charged_moves": [
         "Flamethrower",
@@ -42929,12 +42948,11 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Astonish",
-        "Hex"
+        "Tackle",
+        "Astonish"
       ],
       "charged_moves": [
-        "Shadow Ball",
-        "Brine",
+        "Power Gem",
         "Rock Blast",
         "Night Shade"
       ],
@@ -43805,7 +43823,7 @@
       "family": 885,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 4,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -43850,7 +43868,7 @@
       "family": 885,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 4,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -43871,12 +43889,13 @@
       ],
       "quick_moves": [
         "Dragon Tail",
-        "Hex"
+        "Astonish"
       ],
       "charged_moves": [
         "Shadow Ball",
         "Dragon Pulse",
-        "Outrage"
+        "Outrage",
+        "Breaking Swipe"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -43894,7 +43913,7 @@
       "family": 885,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 5,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -52766,14 +52785,16 @@
       "proto": "VN_BM_053"
     },
     "462": {
-      "name": "V0462 Move Force Palm",
+      "name": "Force Palm",
       "proto": "FORCE_PALM_FAST",
       "type": "Fighting",
       "power": 13
     },
     "463": {
       "name": "Sparkling Aria",
-      "proto": "SPARKLING_ARIA"
+      "proto": "SPARKLING_ARIA",
+      "type": "Water",
+      "power": 80
     }
   },
   "quest_types": {

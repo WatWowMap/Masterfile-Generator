@@ -26677,7 +26677,7 @@
     "222": {
       "name": "Corsola",
       "pokedexId": 222,
-      "defaultFormId": 0,
+      "defaultFormId": 1283,
       "types": {
         "6": {
           "typeId": 6,
@@ -26743,7 +26743,66 @@
         "2340": {
           "name": "Galarian",
           "proto": "CORSOLA_GALARIAN",
-          "form": 2340
+          "form": 2340,
+          "stats": {
+            "attack": 116,
+            "defense": 182,
+            "stamina": 155
+          },
+          "height": 0.61,
+          "weight": 0.5,
+          "quickMoves": {
+            "221": {
+              "moveId": 221,
+              "moveName": "Tackle",
+              "proto": "TACKLE_FAST",
+              "type": 1,
+              "power": 3
+            },
+            "263": {
+              "moveId": 263,
+              "moveName": "Astonish",
+              "proto": "ASTONISH_FAST",
+              "type": 8,
+              "power": 9
+            }
+          },
+          "chargedMoves": {
+            "65": {
+              "moveId": 65,
+              "moveName": "Power Gem",
+              "proto": "POWER_GEM",
+              "type": 6,
+              "power": 80
+            },
+            "259": {
+              "moveId": 259,
+              "moveName": "Rock Blast",
+              "proto": "ROCK_BLAST",
+              "type": 6,
+              "power": 50
+            },
+            "265": {
+              "moveId": 265,
+              "moveName": "Night Shade",
+              "proto": "NIGHT_SHADE",
+              "type": 8,
+              "power": 60
+            }
+          },
+          "types": {
+            "8": {
+              "typeId": 8,
+              "typeName": "Ghost"
+            }
+          },
+          "evolutions": {
+            "864": {
+              "pokemon": 864,
+              "form": 2507,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -87745,19 +87804,19 @@
         }
       },
       "quickMoves": {
-        "209": {
-          "moveId": 209,
-          "moveName": "Ember",
-          "proto": "EMBER_FAST",
-          "type": 10,
-          "power": 7
-        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "269": {
+          "moveId": 269,
+          "moveName": "Fire Spin",
+          "proto": "FIRE_SPIN_FAST",
+          "type": 10,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -87825,19 +87884,19 @@
         }
       },
       "quickMoves": {
-        "209": {
-          "moveId": 209,
-          "moveName": "Ember",
-          "proto": "EMBER_FAST",
-          "type": 10,
-          "power": 7
-        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "269": {
+          "moveId": 269,
+          "moveName": "Fire Spin",
+          "proto": "FIRE_SPIN_FAST",
+          "type": 10,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -87908,19 +87967,19 @@
         }
       },
       "quickMoves": {
-        "209": {
-          "moveId": 209,
-          "moveName": "Ember",
-          "proto": "EMBER_FAST",
-          "type": 10,
-          "power": 7
-        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 3
+        },
+        "269": {
+          "moveId": 269,
+          "moveName": "Fire Spin",
+          "proto": "FIRE_SPIN_FAST",
+          "type": 10,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -92348,35 +92407,28 @@
         }
       },
       "quickMoves": {
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 3
+        },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
           "power": 9
-        },
-        "264": {
-          "moveId": 264,
-          "moveName": "Hex",
-          "proto": "HEX_FAST",
-          "type": 8,
-          "power": 6
         }
       },
       "chargedMoves": {
-        "70": {
-          "moveId": 70,
-          "moveName": "Shadow Ball",
-          "proto": "SHADOW_BALL",
-          "type": 8,
-          "power": 100
-        },
-        "104": {
-          "moveId": 104,
-          "moveName": "Brine",
-          "proto": "BRINE",
-          "type": 11,
-          "power": 60
+        "65": {
+          "moveId": 65,
+          "moveName": "Power Gem",
+          "proto": "POWER_GEM",
+          "type": 6,
+          "power": 80
         },
         "259": {
           "moveId": 259,
@@ -94289,7 +94341,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 4,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -94384,7 +94436,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 4,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -94422,12 +94474,12 @@
           "type": 16,
           "power": 13
         },
-        "264": {
-          "moveId": 264,
-          "moveName": "Hex",
-          "proto": "HEX_FAST",
+        "263": {
+          "moveId": 263,
+          "moveName": "Astonish",
+          "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 6
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -94451,6 +94503,13 @@
           "proto": "OUTRAGE",
           "type": 16,
           "power": 110
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 50
         }
       },
       "genId": 8,
@@ -94478,7 +94537,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 5,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -117034,7 +117093,31 @@
     "2340": {
       "formName": "Galarian",
       "proto": "CORSOLA_GALARIAN",
-      "formId": 2340
+      "formId": 2340,
+      "attack": 116,
+      "defense": 182,
+      "stamina": 155,
+      "height": 0.61,
+      "weight": 0.5,
+      "quickMoves": [
+        221,
+        263
+      ],
+      "chargedMoves": [
+        65,
+        259,
+        265
+      ],
+      "types": [
+        8
+      ],
+      "evolutions": [
+        {
+          "evoId": 864,
+          "formId": 2507,
+          "candyCost": 50
+        }
+      ]
     },
     "2341": {
       "sizeSettings": [
@@ -117299,9 +117382,7 @@
     "2507": {
       "formName": "Normal",
       "proto": "CURSOLA_NORMAL",
-      "formId": 2507,
-      "purificationDust": 3000,
-      "purificationCandy": 3
+      "formId": 2507
     },
     "2510": {
       "formName": "Normal",
@@ -125727,7 +125808,8 @@
     "463": {
       "id": 463,
       "name": "Sparkling Aria",
-      "proto": "SPARKLING_ARIA"
+      "proto": "SPARKLING_ARIA",
+      "power": 80
     }
   },
   "questTypes": {
