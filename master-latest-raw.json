@@ -84971,22 +84971,6 @@
       "category": "Candy",
       "minTrainerLevel": 31
     },
-    "1350": {
-      "itemId": 1350,
-      "itemName": "Fusion Resource Dawnwings Necrozma",
-      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "minTrainerLevel": 1
-    },
-    "1351": {
-      "itemId": 1351,
-      "itemName": "Fusion Resource Duskmane Necrozma",
-      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "minTrainerLevel": 1
-    },
     "1401": {
       "itemId": 1401,
       "itemName": "Free Raid Ticket",
@@ -87703,6 +87687,11 @@
       "id": 87,
       "proto": "QUEST_ENHANCE_BREAD_MOVE",
       "formatted": "Enhance Bread Move"
+    },
+    "88": {
+      "id": 88,
+      "proto": "QUEST_COLLECT_STAMP",
+      "formatted": "Collect Stamp"
     }
   },
   "questRewardTypes": {
@@ -88147,6 +88136,11 @@
       "id": 70,
       "proto": "WITH_STRONG_POKEMON",
       "formatted": "With Strong Pokemon"
+    },
+    "71": {
+      "id": 71,
+      "proto": "WITH_POI_SPONSOR_ID",
+      "formatted": "With POI Sponsor Id"
     }
   },
   "invasions": {

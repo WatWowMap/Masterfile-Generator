@@ -50514,20 +50514,6 @@
       "category": "Candy",
       "min_trainer_level": 31
     },
-    "1350": {
-      "name": "Fusion Resource Dawnwings Necrozma",
-      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "min_trainer_level": 1
-    },
-    "1351": {
-      "name": "Fusion Resource Duskmane Necrozma",
-      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "min_trainer_level": 1
-    },
     "1401": {
       "name": "Free Raid Ticket",
       "proto": "ITEM_FREE_RAID_TICKET",
@@ -52698,6 +52684,14 @@
       "type": "Ghost",
       "power": 135
     },
+    "406": {
+      "name": "Aura Wheel Electric",
+      "proto": "AURA_WHEEL_ELECTRIC"
+    },
+    "407": {
+      "name": "Aura Wheel Dark",
+      "proto": "AURA_WHEEL_DARK"
+    },
     "408": {
       "name": "High Jump Kick",
       "proto": "HIGH_JUMP_KICK",
@@ -53038,6 +53032,9 @@
     },
     "87": {
       "text": "Enhance Bread Move"
+    },
+    "88": {
+      "text": "Collect Stamp"
     }
   },
   "quest_reward_types": {
@@ -53394,6 +53391,10 @@
     "70": {
       "proto": "WITH_STRONG_POKEMON",
       "text": "With Strong Pokemon"
+    },
+    "71": {
+      "proto": "WITH_POI_SPONSOR_ID",
+      "text": "With POI Sponsor Id"
     }
   },
   "invasions": {

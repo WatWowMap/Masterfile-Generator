@@ -122925,6 +122925,12 @@
       "name": "Anniversary 2024",
       "proto": "ANNIVERSARY_2024",
       "noEvolve": false
+    },
+    "79": {
+      "id": 79,
+      "name": "Fall 2024",
+      "proto": "FALL_2024",
+      "noEvolve": false
     }
   },
   "items": {
@@ -123421,22 +123427,6 @@
       "type": "Candy",
       "category": "Candy",
       "minTrainerLevel": 31
-    },
-    "1350": {
-      "id": 1350,
-      "name": "Lunar Fusion Energy",
-      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "minTrainerLevel": 1
-    },
-    "1351": {
-      "id": 1351,
-      "name": "Solar Fusion Energy",
-      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "minTrainerLevel": 1
     },
     "1401": {
       "id": 1401,
@@ -125693,6 +125683,16 @@
       "proto": "MOONGEIST_BEAM",
       "power": 135
     },
+    "406": {
+      "id": 406,
+      "name": "Aura Wheel Electric",
+      "proto": "AURA_WHEEL_ELECTRIC"
+    },
+    "407": {
+      "id": 407,
+      "name": "Aura Wheel Dark",
+      "proto": "AURA_WHEEL_DARK"
+    },
     "408": {
       "id": 408,
       "name": "High Jump Kick",
@@ -126212,6 +126212,11 @@
       "id": 87,
       "proto": "QUEST_ENHANCE_BREAD_MOVE",
       "formatted": "Enhance Bread Move"
+    },
+    "88": {
+      "id": 88,
+      "proto": "QUEST_COLLECT_STAMP",
+      "formatted": "Collect Stamp"
     }
   },
   "questRewardTypes": {
@@ -126656,6 +126661,11 @@
       "id": 70,
       "proto": "WITH_STRONG_POKEMON",
       "formatted": "With Strong Pokemon"
+    },
+    "71": {
+      "id": 71,
+      "proto": "WITH_POI_SPONSOR_ID",
+      "formatted": "With POI Sponsor Id"
     }
   },
   "invasions": {
