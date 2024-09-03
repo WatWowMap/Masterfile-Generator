@@ -2151,6 +2151,7 @@
         "Fairy Wind"
       ],
       "charged_moves": [
+        "Draining Kiss",
         "Dazzling Gleam",
         "Moonblast",
         "Psychic",
@@ -4666,7 +4667,8 @@
             "Sludge Bomb",
             "Scald",
             "Psychic",
-            "Focus Blast"
+            "Focus Blast",
+            "Brutal Swing"
           ],
           "types": [
             "Poison",
@@ -8761,6 +8763,7 @@
             "Shadow Ball",
             "Fire Punch",
             "Wild Charge",
+            "Night Shade",
             "Overheat"
           ],
           "types": [
@@ -9162,6 +9165,7 @@
       ],
       "quick_moves": [
         "Bug Bite",
+        "Counter",
         "Struggle Bug"
       ],
       "charged_moves": [
@@ -9635,6 +9639,7 @@
       "charged_moves": [
         "Aerial Ace",
         "Ancient Power",
+        "Draining Kiss",
         "Dazzling Gleam"
       ],
       "gen_id": 2,
@@ -11142,6 +11147,7 @@
       ],
       "quick_moves": [
         "Bug Bite",
+        "Volt Switch",
         "Struggle Bug"
       ],
       "charged_moves": [
@@ -15130,7 +15136,8 @@
       ],
       "quick_moves": [
         "Counter",
-        "Bullet Seed"
+        "Bullet Seed",
+        "Force Palm"
       ],
       "charged_moves": [
         "Seed Bomb",
@@ -15633,7 +15640,8 @@
       ],
       "quick_moves": [
         "Bullet Punch",
-        "Counter"
+        "Counter",
+        "Force Palm"
       ],
       "charged_moves": [
         "Close Combat",
@@ -18630,7 +18638,8 @@
       "charged_moves": [
         "Aerial Ace",
         "Leaf Blade",
-        "Stomp"
+        "Stomp",
+        "Brutal Swing"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -22771,6 +22780,7 @@
         "Feint Attack"
       ],
       "charged_moves": [
+        "Rock Tomb",
         "Shadow Sneak",
         "Ominous Wind",
         "Shadow Ball"
@@ -23776,7 +23786,8 @@
       ],
       "quick_moves": [
         "Lick",
-        "Zen Headbutt"
+        "Zen Headbutt",
+        "Rollout"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -24368,6 +24379,7 @@
       ],
       "charged_moves": [
         "Dark Pulse",
+        "Shadow Punch",
         "Ominous Wind",
         "Psychic",
         "Poltergeist"
@@ -28944,6 +28956,7 @@
       "charged_moves": [
         "Dark Pulse",
         "Aerial Ace",
+        "Night Shade",
         "Foul Play"
       ],
       "gen_id": 5,
@@ -28996,6 +29009,7 @@
       "charged_moves": [
         "Flamethrower",
         "Sludge Bomb",
+        "Night Shade",
         "Foul Play"
       ],
       "gen_id": 5,
@@ -31322,13 +31336,15 @@
       ],
       "quick_moves": [
         "Low Kick",
-        "Poison Jab"
+        "Poison Jab",
+        "Force Palm"
       ],
       "charged_moves": [
         "Stone Edge",
         "Brick Break",
         "Grass Knot",
-        "Blaze Kick"
+        "Blaze Kick",
+        "Brutal Swing"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -34461,6 +34477,7 @@
       ],
       "quick_moves": [
         "Low Kick",
+        "Karate Chop",
         "Bullet Punch",
         "Snarl"
       ],
@@ -36808,6 +36825,7 @@
           ],
           "charged_moves": [
             "Aerial Ace",
+            "Night Shade",
             "Energy Ball",
             "Aura Sphere",
             "Trailblaze"
@@ -37068,7 +37086,8 @@
         "Disarming Voice",
         "Moonblast",
         "Hydro Pump",
-        "Psychic"
+        "Psychic",
+        "Sparkling Aria"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -37639,6 +37658,7 @@
       ],
       "charged_moves": [
         "Bug Buzz",
+        "Draining Kiss",
         "Dazzling Gleam"
       ],
       "gen_id": 7,
@@ -38631,6 +38651,7 @@
         "Psychic",
         "Futuresight",
         "Foul Play",
+        "Brutal Swing",
         "Trailblaze"
       ],
       "gen_id": 7,
@@ -38670,7 +38691,8 @@
       "charged_moves": [
         "Brick Break",
         "Close Combat",
-        "Super Power"
+        "Super Power",
+        "Brutal Swing"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -39691,6 +39713,7 @@
       ],
       "charged_moves": [
         "Psyshock",
+        "Draining Kiss",
         "Moonblast",
         "Focus Blast",
         "Futuresight"
@@ -43074,7 +43097,8 @@
       "charged_moves": [
         "Rock Tomb",
         "Shadow Ball",
-        "Sand Tomb"
+        "Sand Tomb",
+        "Brutal Swing"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -50689,6 +50713,18 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1621": {
+      "name": "Event Ticket 07",
+      "proto": "ITEM_EVENT_TICKET_07",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1622": {
+      "name": "Event Ticket 08",
+      "proto": "ITEM_EVENT_TICKET_08",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1623": {
       "name": "Event Ticket 09",
       "proto": "ITEM_EVENT_TICKET_09",
@@ -50710,6 +50746,18 @@
     "1630": {
       "name": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1631": {
+      "name": "Event Ticket 07 To Gift",
+      "proto": "ITEM_EVENT_TICKET_07_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1632": {
+      "name": "Event Ticket 08 To Gift",
+      "proto": "ITEM_EVENT_TICKET_08_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -50851,7 +50899,7 @@
       "name": "Dig",
       "proto": "DIG",
       "type": "Ground",
-      "power": 80
+      "power": 70
     },
     "27": {
       "name": "Low Kick",
@@ -51061,13 +51109,13 @@
       "name": "Rock Slide",
       "proto": "ROCK_SLIDE",
       "type": "Rock",
-      "power": 75
+      "power": 65
     },
     "65": {
       "name": "Power Gem",
       "proto": "POWER_GEM",
       "type": "Rock",
-      "power": 80
+      "power": 85
     },
     "66": {
       "name": "Shadow Sneak",
@@ -51079,7 +51127,7 @@
       "name": "Shadow Punch",
       "proto": "SHADOW_PUNCH",
       "type": "Ghost",
-      "power": 40
+      "power": 55
     },
     "68": {
       "name": "Shadow Claw",
@@ -51121,7 +51169,7 @@
       "name": "Parabolic Charge",
       "proto": "PARABOLIC_CHARGE",
       "type": "Electric",
-      "power": 65
+      "power": 70
     },
     "76": {
       "name": "Spark",
@@ -51229,7 +51277,7 @@
       "name": "Bone Club",
       "proto": "BONE_CLUB",
       "type": "Ground",
-      "power": 40
+      "power": 55
     },
     "95": {
       "name": "Bulldoze",
@@ -51431,7 +51479,7 @@
       "name": "Body Slam",
       "proto": "BODY_SLAM",
       "type": "Normal",
-      "power": 60
+      "power": 50
     },
     "132": {
       "name": "Rest",
@@ -51491,7 +51539,7 @@
       "name": "Sucker Punch",
       "proto": "SUCKER_PUNCH_FAST",
       "type": "Dark",
-      "power": 5
+      "power": 8
     },
     "204": {
       "name": "Dragon Breath",
@@ -51563,13 +51611,13 @@
       "name": "Razor Leaf",
       "proto": "RAZOR_LEAF_FAST",
       "type": "Grass",
-      "power": 10
+      "power": 9
     },
     "216": {
       "name": "Mud Shot",
       "proto": "MUD_SHOT_FAST",
       "type": "Ground",
-      "power": 3
+      "power": 4
     },
     "217": {
       "name": "Ice Shard",
@@ -51670,7 +51718,7 @@
       "name": "Mud Slap",
       "proto": "MUD_SLAP_FAST",
       "type": "Ground",
-      "power": 11
+      "power": 12
     },
     "234": {
       "name": "Zen Headbutt",
@@ -51688,7 +51736,7 @@
       "name": "Poison Sting",
       "proto": "POISON_STING_FAST",
       "type": "Poison",
-      "power": 3
+      "power": 4
     },
     "237": {
       "name": "Bubble",
@@ -51813,7 +51861,7 @@
       "name": "Sky Attack",
       "proto": "SKY_ATTACK",
       "type": "Flying",
-      "power": 75
+      "power": 85
     },
     "258": {
       "name": "Sand Tomb",
@@ -51849,7 +51897,7 @@
       "name": "Astonish",
       "proto": "ASTONISH_FAST",
       "type": "Ghost",
-      "power": 9
+      "power": 12
     },
     "264": {
       "name": "Hex",
@@ -51861,7 +51909,7 @@
       "name": "Night Shade",
       "proto": "NIGHT_SHADE",
       "type": "Ghost",
-      "power": 60
+      "power": 80
     },
     "266": {
       "name": "Iron Tail",
@@ -51885,7 +51933,7 @@
       "name": "Fire Spin",
       "proto": "FIRE_SPIN_FAST",
       "type": "Fire",
-      "power": 10
+      "power": 11
     },
     "270": {
       "name": "Overheat",
@@ -51921,7 +51969,7 @@
       "name": "Futuresight",
       "proto": "FUTURESIGHT",
       "type": "Psychic",
-      "power": 120
+      "power": 110
     },
     "276": {
       "name": "Mirror Coat",
@@ -51975,7 +52023,7 @@
       "name": "Surf",
       "proto": "SURF",
       "type": "Water",
-      "power": 65
+      "power": 75
     },
     "285": {
       "name": "Draco Meteor",
@@ -52052,7 +52100,7 @@
       "name": "Smack Down",
       "proto": "SMACK_DOWN_FAST",
       "type": "Rock",
-      "power": 12
+      "power": 11
     },
     "298": {
       "name": "Blast Burn",
@@ -52358,7 +52406,7 @@
       "name": "Fairy Wind",
       "proto": "FAIRY_WIND_FAST",
       "type": "Fairy",
-      "power": 3
+      "power": 4
     },
     "351": {
       "name": "Relic Song",
@@ -52454,13 +52502,13 @@
       "name": "Brutal Swing",
       "proto": "BRUTAL_SWING",
       "type": "Dark",
-      "power": 65
+      "power": 55
     },
     "368": {
       "name": "Rollout",
       "proto": "ROLLOUT_FAST",
       "type": "Rock",
-      "power": 5
+      "power": 8
     },
     "369": {
       "name": "Seed Flare",

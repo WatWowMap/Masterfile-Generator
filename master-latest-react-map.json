@@ -1454,6 +1454,7 @@
         350
       ],
       "chargedMoves": [
+        85,
         86,
         87,
         108,
@@ -3099,7 +3100,8 @@
             90,
             106,
             108,
-            247
+            247,
+            367
           ],
           "types": [
             4,
@@ -5832,6 +5834,7 @@
             70,
             115,
             251,
+            265,
             270
           ],
           "types": [
@@ -6103,6 +6106,7 @@
       ],
       "quickMoves": [
         201,
+        243,
         261
       ],
       "chargedMoves": [
@@ -6424,6 +6428,7 @@
       "chargedMoves": [
         45,
         62,
+        85,
         86
       ],
       "genId": 2,
@@ -7455,6 +7460,7 @@
       ],
       "quickMoves": [
         201,
+        250,
         261
       ],
       "chargedMoves": [
@@ -10121,7 +10127,8 @@
       ],
       "quickMoves": [
         243,
-        271
+        271,
+        462
       ],
       "chargedMoves": [
         59,
@@ -10454,7 +10461,8 @@
       ],
       "quickMoves": [
         229,
-        243
+        243,
+        462
       ],
       "chargedMoves": [
         245,
@@ -12493,7 +12501,8 @@
       "chargedMoves": [
         45,
         117,
-        127
+        127,
+        367
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -15253,6 +15262,7 @@
         238
       ],
       "chargedMoves": [
+        63,
         66,
         69,
         70
@@ -15931,7 +15941,8 @@
       ],
       "quickMoves": [
         212,
-        234
+        234,
+        368
       ],
       "chargedMoves": [
         14,
@@ -16385,6 +16396,7 @@
       ],
       "chargedMoves": [
         16,
+        67,
         69,
         108,
         376
@@ -19540,6 +19552,7 @@
       "chargedMoves": [
         16,
         45,
+        265,
         280
       ],
       "genId": 5,
@@ -19573,6 +19586,7 @@
       "chargedMoves": [
         24,
         90,
+        265,
         280
       ],
       "genId": 5,
@@ -21133,13 +21147,15 @@
       ],
       "quickMoves": [
         207,
-        224
+        224,
+        462
       ],
       "chargedMoves": [
         32,
         123,
         272,
-        317
+        317,
+        367
       ],
       "genId": 5,
       "generation": "Unova",
@@ -23200,6 +23216,7 @@
       ],
       "quickMoves": [
         207,
+        208,
         229,
         278
       ],
@@ -24894,6 +24911,7 @@
           ],
           "chargedMoves": [
             45,
+            265,
             273,
             332,
             392
@@ -25084,7 +25102,8 @@
         84,
         87,
         107,
-        108
+        108,
+        463
       ],
       "genId": 7,
       "generation": "Alola",
@@ -25508,6 +25527,7 @@
       ],
       "chargedMoves": [
         49,
+        85,
         86
       ],
       "genId": 7,
@@ -26226,6 +26246,7 @@
         108,
         275,
         280,
+        367,
         392
       ],
       "genId": 7,
@@ -26257,7 +26278,8 @@
       "chargedMoves": [
         123,
         245,
-        310
+        310,
+        367
       ],
       "genId": 7,
       "generation": "Alola",
@@ -27025,6 +27047,7 @@
       ],
       "chargedMoves": [
         60,
+        85,
         87,
         247,
         275
@@ -29537,7 +29560,8 @@
       "chargedMoves": [
         63,
         70,
-        258
+        258,
+        367
       ],
       "genId": 8,
       "generation": "Galar",
@@ -34853,10 +34877,14 @@
     "1612": "Ticket City Safari 02",
     "1619": "Event Ticket 05",
     "1620": "Event Ticket 06",
+    "1621": "Event Ticket 07",
+    "1622": "Event Ticket 08",
     "1623": "Event Ticket 09",
     "1624": "Event Ticket 10",
     "1629": "Event Ticket 05 To Gift",
     "1630": "Event Ticket 06 To Gift",
+    "1631": "Event Ticket 07 To Gift",
+    "1632": "Event Ticket 08 To Gift",
     "1633": "Event Ticket 09 To Gift",
     "1634": "Event Ticket 10 To Gift"
   },

@@ -2667,6 +2667,7 @@
         350
       ],
       "chargedMoves": [
+        85,
         86,
         87,
         108,
@@ -12118,6 +12119,7 @@
       ],
       "quickMoves": [
         201,
+        243,
         261
       ],
       "chargedMoves": [
@@ -12845,6 +12847,7 @@
       "chargedMoves": [
         45,
         62,
+        85,
         86
       ],
       "genId": 2,
@@ -14943,6 +14946,7 @@
       ],
       "quickMoves": [
         201,
+        250,
         261
       ],
       "chargedMoves": [
@@ -20805,7 +20809,8 @@
       ],
       "quickMoves": [
         243,
-        271
+        271,
+        462
       ],
       "chargedMoves": [
         59,
@@ -21577,7 +21582,8 @@
       ],
       "quickMoves": [
         229,
-        243
+        243,
+        462
       ],
       "chargedMoves": [
         245,
@@ -25939,7 +25945,8 @@
       "chargedMoves": [
         45,
         117,
-        127
+        127,
+        367
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -32018,6 +32025,7 @@
         238
       ],
       "chargedMoves": [
+        63,
         66,
         69,
         70
@@ -33560,7 +33568,8 @@
       ],
       "quickMoves": [
         212,
-        234
+        234,
+        368
       ],
       "chargedMoves": [
         14,
@@ -34528,6 +34537,7 @@
       ],
       "chargedMoves": [
         16,
+        67,
         69,
         108,
         376
@@ -41039,6 +41049,7 @@
       "chargedMoves": [
         16,
         45,
+        265,
         280
       ],
       "genId": 5,
@@ -41112,6 +41123,7 @@
       "chargedMoves": [
         24,
         90,
+        265,
         280
       ],
       "genId": 5,
@@ -44567,13 +44579,15 @@
       ],
       "quickMoves": [
         207,
-        224
+        224,
+        462
       ],
       "chargedMoves": [
         32,
         123,
         272,
-        317
+        317,
+        367
       ],
       "genId": 5,
       "generation": "Unova",
@@ -48480,6 +48494,7 @@
       ],
       "quickMoves": [
         207,
+        208,
         229,
         278
       ],
@@ -52394,7 +52409,8 @@
         84,
         87,
         107,
-        108
+        108,
+        463
       ],
       "genId": 7,
       "generation": "Alola",
@@ -53304,6 +53320,7 @@
       ],
       "chargedMoves": [
         49,
+        85,
         86
       ],
       "genId": 7,
@@ -54843,6 +54860,7 @@
         108,
         275,
         280,
+        367,
         392
       ],
       "genId": 7,
@@ -54908,7 +54926,8 @@
       "chargedMoves": [
         123,
         245,
-        310
+        310,
+        367
       ],
       "genId": 7,
       "generation": "Alola",
@@ -56285,6 +56304,7 @@
       ],
       "chargedMoves": [
         60,
+        85,
         87,
         247,
         275
@@ -61809,7 +61829,8 @@
       "chargedMoves": [
         63,
         70,
-        258
+        258,
+        367
       ],
       "genId": 8,
       "generation": "Galar",
@@ -80289,7 +80310,8 @@
         90,
         106,
         108,
-        247
+        247,
+        367
       ],
       "types": [
         4,
@@ -82701,6 +82723,7 @@
       ],
       "chargedMoves": [
         45,
+        265,
         273,
         332,
         392
@@ -82753,6 +82776,7 @@
         70,
         115,
         251,
+        265,
         270
       ],
       "types": [
@@ -85173,6 +85197,20 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1621": {
+      "itemId": 1621,
+      "itemName": "Event Ticket 07",
+      "proto": "ITEM_EVENT_TICKET_07",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1622": {
+      "itemId": 1622,
+      "itemName": "Event Ticket 08",
+      "proto": "ITEM_EVENT_TICKET_08",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1623": {
       "itemId": 1623,
       "itemName": "Event Ticket 09",
@@ -85198,6 +85236,20 @@
       "itemId": 1630,
       "itemName": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1631": {
+      "itemId": 1631,
+      "itemName": "Event Ticket 07 To Gift",
+      "proto": "ITEM_EVENT_TICKET_07_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1632": {
+      "itemId": 1632,
+      "itemName": "Event Ticket 08 To Gift",
+      "proto": "ITEM_EVENT_TICKET_08_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -85285,7 +85337,7 @@
       "moveName": "Dig",
       "proto": "DIG",
       "type": 5,
-      "power": 80
+      "power": 70
     },
     "28": {
       "moveId": 28,
@@ -85488,14 +85540,14 @@
       "moveName": "Rock Slide",
       "proto": "ROCK_SLIDE",
       "type": 6,
-      "power": 75
+      "power": 65
     },
     "65": {
       "moveId": 65,
       "moveName": "Power Gem",
       "proto": "POWER_GEM",
       "type": 6,
-      "power": 80
+      "power": 85
     },
     "66": {
       "moveId": 66,
@@ -85509,7 +85561,7 @@
       "moveName": "Shadow Punch",
       "proto": "SHADOW_PUNCH",
       "type": 8,
-      "power": 40
+      "power": 55
     },
     "69": {
       "moveId": 69,
@@ -85544,7 +85596,7 @@
       "moveName": "Parabolic Charge",
       "proto": "PARABOLIC_CHARGE",
       "type": 13,
-      "power": 65
+      "power": 70
     },
     "77": {
       "moveId": 77,
@@ -85656,7 +85708,7 @@
       "moveName": "Bone Club",
       "proto": "BONE_CLUB",
       "type": 5,
-      "power": 40
+      "power": 55
     },
     "95": {
       "moveId": 95,
@@ -85845,7 +85897,7 @@
       "moveName": "Body Slam",
       "proto": "BODY_SLAM",
       "type": 1,
-      "power": 60
+      "power": 50
     },
     "132": {
       "moveId": 132,
@@ -85915,7 +85967,7 @@
       "moveName": "Sucker Punch",
       "proto": "SUCKER_PUNCH_FAST",
       "type": 17,
-      "power": 5
+      "power": 8
     },
     "204": {
       "moveId": 204,
@@ -85999,14 +86051,14 @@
       "moveName": "Razor Leaf",
       "proto": "RAZOR_LEAF_FAST",
       "type": 12,
-      "power": 10
+      "power": 9
     },
     "216": {
       "moveId": 216,
       "moveName": "Mud Shot",
       "proto": "MUD_SHOT_FAST",
       "type": 5,
-      "power": 3
+      "power": 4
     },
     "217": {
       "moveId": 217,
@@ -86124,7 +86176,7 @@
       "moveName": "Mud Slap",
       "proto": "MUD_SLAP_FAST",
       "type": 5,
-      "power": 11
+      "power": 12
     },
     "234": {
       "moveId": 234,
@@ -86145,7 +86197,7 @@
       "moveName": "Poison Sting",
       "proto": "POISON_STING_FAST",
       "type": 4,
-      "power": 3
+      "power": 4
     },
     "237": {
       "moveId": 237,
@@ -86291,7 +86343,7 @@
       "moveName": "Sky Attack",
       "proto": "SKY_ATTACK",
       "type": 3,
-      "power": 75
+      "power": 85
     },
     "258": {
       "moveId": 258,
@@ -86333,7 +86385,7 @@
       "moveName": "Astonish",
       "proto": "ASTONISH_FAST",
       "type": 8,
-      "power": 9
+      "power": 12
     },
     "264": {
       "moveId": 264,
@@ -86347,7 +86399,7 @@
       "moveName": "Night Shade",
       "proto": "NIGHT_SHADE",
       "type": 8,
-      "power": 60
+      "power": 80
     },
     "266": {
       "moveId": 266,
@@ -86375,7 +86427,7 @@
       "moveName": "Fire Spin",
       "proto": "FIRE_SPIN_FAST",
       "type": 10,
-      "power": 10
+      "power": 11
     },
     "270": {
       "moveId": 270,
@@ -86417,7 +86469,7 @@
       "moveName": "Futuresight",
       "proto": "FUTURESIGHT",
       "type": 14,
-      "power": 120
+      "power": 110
     },
     "276": {
       "moveId": 276,
@@ -86480,7 +86532,7 @@
       "moveName": "Surf",
       "proto": "SURF",
       "type": 11,
-      "power": 65
+      "power": 75
     },
     "285": {
       "moveId": 285,
@@ -86570,7 +86622,7 @@
       "moveName": "Smack Down",
       "proto": "SMACK_DOWN_FAST",
       "type": 6,
-      "power": 12
+      "power": 11
     },
     "298": {
       "moveId": 298,
@@ -86899,7 +86951,7 @@
       "moveName": "Fairy Wind",
       "proto": "FAIRY_WIND_FAST",
       "type": 18,
-      "power": 3
+      "power": 4
     },
     "352": {
       "moveId": 352,
@@ -86997,14 +87049,14 @@
       "moveName": "Brutal Swing",
       "proto": "BRUTAL_SWING",
       "type": 17,
-      "power": 65
+      "power": 55
     },
     "368": {
       "moveId": 368,
       "moveName": "Rollout",
       "proto": "ROLLOUT_FAST",
       "type": 6,
-      "power": 5
+      "power": 8
     },
     "369": {
       "moveId": 369,

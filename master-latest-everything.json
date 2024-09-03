@@ -137,7 +137,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -244,7 +244,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -582,7 +582,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -1342,7 +1342,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -1432,7 +1432,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -1960,7 +1960,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "129": {
           "moveId": 129,
@@ -1974,7 +1974,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -2113,7 +2113,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "129": {
           "moveId": 129,
@@ -2262,7 +2262,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 1,
@@ -2358,7 +2358,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         },
         "341": {
           "moveId": 341,
@@ -2430,7 +2430,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -3550,7 +3550,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "220": {
           "moveId": 220,
@@ -3573,14 +3573,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "64": {
           "moveId": 64,
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "258": {
           "moveId": 258,
@@ -3724,7 +3724,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "228": {
           "moveId": 228,
@@ -3915,7 +3915,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -3938,7 +3938,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -4014,7 +4014,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -4023,7 +4023,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "50": {
           "moveId": 50,
@@ -4229,7 +4229,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -4252,7 +4252,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -4328,7 +4328,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -4337,7 +4337,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "39": {
           "moveId": 39,
@@ -4580,7 +4580,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -4662,10 +4662,17 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
+        "85": {
+          "moveId": 85,
+          "moveName": "Draining Kiss",
+          "proto": "DRAINING_KISS",
+          "type": 18,
+          "power": 60
+        },
         "86": {
           "moveId": 86,
           "moveName": "Dazzling Gleam",
@@ -4787,7 +4794,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "292": {
           "moveId": 292,
@@ -4934,7 +4941,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -5558,7 +5565,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "225": {
           "moveId": 225,
@@ -5661,7 +5668,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "225": {
           "moveId": 225,
@@ -5779,7 +5786,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "225": {
           "moveId": 225,
@@ -6267,7 +6274,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "220": {
           "moveId": 220,
@@ -6281,7 +6288,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -6290,7 +6297,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "63": {
           "moveId": 63,
@@ -6351,7 +6358,7 @@
               "moveName": "Mud-Slap",
               "proto": "MUD_SLAP_FAST",
               "type": 5,
-              "power": 11
+              "power": 12
             },
             "403": {
               "moveId": 403,
@@ -6425,21 +6432,21 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "216": {
           "moveId": 216,
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "233": {
           "moveId": 233,
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -6507,7 +6514,7 @@
               "moveName": "Mud-Slap",
               "proto": "MUD_SLAP_FAST",
               "type": 5,
-              "power": 11
+              "power": 12
             },
             "403": {
               "moveId": 403,
@@ -6737,7 +6744,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 80
+              "power": 70
             },
             "51": {
               "moveId": 51,
@@ -6851,7 +6858,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "88": {
           "moveId": 88,
@@ -7431,7 +7438,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -7478,7 +7485,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "279": {
               "moveId": 279,
@@ -7673,7 +7680,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "251": {
               "moveId": 251,
@@ -7743,7 +7750,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -7773,7 +7780,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -7842,7 +7849,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -7960,7 +7967,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -8318,7 +8325,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 1,
@@ -8621,7 +8628,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "245": {
           "moveId": 245,
@@ -8929,7 +8936,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "225": {
           "moveId": 225,
@@ -9035,7 +9042,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -9253,7 +9260,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "63": {
           "moveId": 63,
@@ -9267,7 +9274,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         }
       },
       "genId": 1,
@@ -9325,7 +9332,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "79": {
               "moveId": 79,
@@ -9403,7 +9410,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "227": {
           "moveId": 227,
@@ -9417,7 +9424,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -9426,7 +9433,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "32": {
           "moveId": 32,
@@ -9582,7 +9589,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "227": {
           "moveId": 227,
@@ -9596,7 +9603,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -9905,7 +9912,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         },
         "346": {
           "moveId": 346,
@@ -9991,7 +9998,7 @@
               "moveName": "Fairy Wind",
               "proto": "FAIRY_WIND_FAST",
               "type": 18,
-              "power": 3
+              "power": 4
             }
           },
           "chargedMoves": {
@@ -10021,7 +10028,7 @@
               "moveName": "Body Slam",
               "proto": "BODY_SLAM",
               "type": 1,
-              "power": 60
+              "power": 50
             },
             "377": {
               "moveId": 377,
@@ -10187,7 +10194,7 @@
               "moveName": "Surf",
               "proto": "SURF",
               "type": 11,
-              "power": 65
+              "power": 75
             }
           },
           "types": {
@@ -10412,6 +10419,13 @@
               "proto": "FOCUS_BLAST",
               "type": 2,
               "power": 150
+            },
+            "367": {
+              "moveId": 367,
+              "moveName": "Brutal Swing",
+              "proto": "BRUTAL_SWING",
+              "type": 17,
+              "power": 55
             }
           },
           "types": {
@@ -11296,7 +11310,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -11856,7 +11870,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -11879,7 +11893,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 1,
@@ -11953,7 +11967,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -11976,7 +11990,7 @@
           "moveName": "Shadow Punch",
           "proto": "SHADOW_PUNCH",
           "type": 8,
-          "power": 40
+          "power": 55
         },
         "70": {
           "moveId": 70,
@@ -12061,7 +12075,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "213": {
           "moveId": 213,
@@ -12473,7 +12487,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 1,
@@ -12531,7 +12545,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -13336,7 +13350,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "241": {
           "moveId": 241,
@@ -13352,14 +13366,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "94": {
           "moveId": 94,
           "moveName": "Bone Club",
           "proto": "BONE_CLUB",
           "type": 5,
-          "power": 40
+          "power": 55
         },
         "95": {
           "moveId": 95,
@@ -13435,7 +13449,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "241": {
           "moveId": 241,
@@ -13451,7 +13465,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "31": {
           "moveId": 31,
@@ -13465,14 +13479,14 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "94": {
           "moveId": 94,
           "moveName": "Bone Club",
           "proto": "BONE_CLUB",
           "type": 5,
-          "power": 40
+          "power": 55
         }
       },
       "genId": 1,
@@ -13514,7 +13528,7 @@
               "moveName": "Fire Spin",
               "proto": "FIRE_SPIN_FAST",
               "type": 10,
-              "power": 10
+              "power": 11
             }
           },
           "chargedMoves": {
@@ -13537,7 +13551,7 @@
               "moveName": "Bone Club",
               "proto": "BONE_CLUB",
               "type": 5,
-              "power": 40
+              "power": 55
             },
             "103": {
               "moveId": 103,
@@ -14060,7 +14074,7 @@
               "moveName": "Fairy Wind",
               "proto": "FAIRY_WIND_FAST",
               "type": 18,
-              "power": 3
+              "power": 4
             }
           },
           "chargedMoves": {
@@ -14097,7 +14111,7 @@
               "moveName": "Brutal Swing",
               "proto": "BRUTAL_SWING",
               "type": 17,
-              "power": 65
+              "power": 55
             }
           },
           "types": {
@@ -14157,7 +14171,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "241": {
           "moveId": 241,
@@ -14260,7 +14274,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "241": {
           "moveId": 241,
@@ -14290,7 +14304,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "379": {
           "moveId": 379,
@@ -14570,7 +14584,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -14883,7 +14897,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -15079,7 +15093,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "125": {
           "moveId": 125,
@@ -15185,7 +15199,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "78": {
           "moveId": 78,
@@ -16341,7 +16355,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "302": {
           "moveId": 302,
@@ -16502,7 +16516,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "125": {
           "moveId": 125,
@@ -16909,7 +16923,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -17095,7 +17109,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -17198,7 +17212,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -17290,7 +17304,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "220": {
           "moveId": 220,
@@ -17393,7 +17407,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "241": {
           "moveId": 241,
@@ -17529,7 +17543,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "74": {
           "moveId": 74,
@@ -17658,7 +17672,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "268": {
           "moveId": 268,
@@ -17867,7 +17881,7 @@
               "moveName": "Future Sight",
               "proto": "FUTURESIGHT",
               "type": 14,
-              "power": 120
+              "power": 110
             }
           },
           "types": {
@@ -18077,7 +18091,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -18140,7 +18154,7 @@
               "moveName": "Sucker Punch",
               "proto": "SUCKER_PUNCH_FAST",
               "type": 17,
-              "power": 5
+              "power": 8
             },
             "210": {
               "moveId": 210,
@@ -18357,7 +18371,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 1,
@@ -18641,7 +18655,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "246": {
               "moveId": 246,
@@ -18655,7 +18669,7 @@
               "moveName": "Future Sight",
               "proto": "FUTURESIGHT",
               "type": 14,
-              "power": 120
+              "power": 110
             }
           }
         },
@@ -18902,7 +18916,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "78": {
           "moveId": 78,
@@ -19007,7 +19021,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 1,
@@ -19081,7 +19095,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "272": {
           "moveId": 272,
@@ -19164,7 +19178,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -19280,7 +19294,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "357": {
           "moveId": 357,
@@ -19490,7 +19504,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "101": {
           "moveId": 101,
@@ -19677,6 +19691,13 @@
               "proto": "WILD_CHARGE",
               "type": 13,
               "power": 100
+            },
+            "265": {
+              "moveId": 265,
+              "moveName": "Night Shade",
+              "proto": "NIGHT_SHADE",
+              "type": 8,
+              "power": 80
             },
             "270": {
               "moveId": 270,
@@ -20058,7 +20079,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "123": {
           "moveId": 123,
@@ -20134,7 +20155,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "219": {
           "moveId": 219,
@@ -20157,7 +20178,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "123": {
           "moveId": 123,
@@ -20249,14 +20270,14 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         },
         "265": {
           "moveId": 265,
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 2,
@@ -20352,14 +20373,14 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         },
         "265": {
           "moveId": 265,
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 2,
@@ -20519,6 +20540,13 @@
           "type": 7,
           "power": 3
         },
+        "243": {
+          "moveId": 243,
+          "moveName": "Counter",
+          "proto": "COUNTER_FAST",
+          "type": 2,
+          "power": 8
+        },
         "261": {
           "moveId": 261,
           "moveName": "Struggle Bug",
@@ -20623,7 +20651,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -20712,7 +20740,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         },
         "260": {
           "moveId": 260,
@@ -21064,7 +21092,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 2,
@@ -21519,7 +21547,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -21535,6 +21563,13 @@
           "moveName": "Ancient Power",
           "proto": "ANCIENT_POWER",
           "type": 6,
+          "power": 60
+        },
+        "85": {
+          "moveId": 85,
+          "moveName": "Draining Kiss",
+          "proto": "DRAINING_KISS",
+          "type": 18,
           "power": 60
         },
         "86": {
@@ -21642,7 +21677,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 2,
@@ -21738,7 +21773,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 2,
@@ -21826,7 +21861,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "392": {
           "moveId": 392,
@@ -21926,7 +21961,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "79": {
           "moveId": 79,
@@ -22029,7 +22064,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "77": {
           "moveId": 77,
@@ -22064,7 +22099,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         },
         "392": {
           "moveId": 392,
@@ -22157,7 +22192,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "225": {
           "moveId": 225,
@@ -22293,7 +22328,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 2,
@@ -22483,7 +22518,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "372": {
           "moveId": 372,
@@ -22551,7 +22586,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -22588,7 +22623,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "295": {
           "moveId": 295,
@@ -22880,7 +22915,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -22975,7 +23010,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -23069,7 +23104,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "223": {
           "moveId": 223,
@@ -23162,7 +23197,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "271": {
           "moveId": 271,
@@ -23358,7 +23393,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -23374,7 +23409,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "96": {
           "moveId": 96,
@@ -23388,7 +23423,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 2,
@@ -23423,7 +23458,7 @@
               "moveName": "Mud Shot",
               "proto": "MUD_SHOT_FAST",
               "type": 5,
-              "power": 3
+              "power": 4
             },
             "224": {
               "moveId": 224,
@@ -23439,7 +23474,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 80
+              "power": 70
             },
             "91": {
               "moveId": 91,
@@ -23453,7 +23488,7 @@
               "moveName": "Body Slam",
               "proto": "BODY_SLAM",
               "type": 1,
-              "power": 60
+              "power": 50
             }
           },
           "types": {
@@ -23524,7 +23559,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -23656,7 +23691,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         },
         "353": {
           "moveId": 353,
@@ -24037,7 +24072,7 @@
               "moveName": "Future Sight",
               "proto": "FUTURESIGHT",
               "type": 14,
-              "power": 120
+              "power": 110
             }
           },
           "types": {
@@ -24100,7 +24135,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -24708,6 +24743,13 @@
           "type": 7,
           "power": 3
         },
+        "250": {
+          "moveId": 250,
+          "moveName": "Volt Switch",
+          "proto": "VOLT_SWITCH_FAST",
+          "type": 13,
+          "power": 12
+        },
         "261": {
           "moveId": 261,
           "moveName": "Struggle Bug",
@@ -24815,14 +24857,14 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "368": {
           "moveId": 368,
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -24831,7 +24873,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "46": {
           "moveId": 46,
@@ -24845,7 +24887,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         }
       },
       "genId": 2,
@@ -24926,7 +24968,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "45": {
           "moveId": 45,
@@ -25349,7 +25391,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -25431,7 +25473,7 @@
               "moveName": "Poison Sting",
               "proto": "POISON_STING_FAST",
               "type": 4,
-              "power": 3
+              "power": 4
             }
           },
           "chargedMoves": {
@@ -26290,7 +26332,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "101": {
           "moveId": 101,
@@ -26492,7 +26534,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "111": {
           "moveId": 111,
@@ -26506,7 +26548,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 2,
@@ -26717,7 +26759,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "259": {
           "moveId": 259,
@@ -26764,7 +26806,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 9
+              "power": 12
             }
           },
           "chargedMoves": {
@@ -26773,7 +26815,7 @@
               "moveName": "Power Gem",
               "proto": "POWER_GEM",
               "type": 6,
-              "power": 80
+              "power": 85
             },
             "259": {
               "moveId": 259,
@@ -26787,7 +26829,7 @@
               "moveName": "Night Shade",
               "proto": "NIGHT_SHADE",
               "type": 8,
-              "power": 60
+              "power": 80
             }
           },
           "types": {
@@ -26849,7 +26891,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -26941,7 +26983,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -27290,7 +27332,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 2,
@@ -27682,7 +27724,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "95": {
           "moveId": 95,
@@ -27696,7 +27738,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "392": {
           "moveId": 392,
@@ -27772,7 +27814,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "243": {
           "moveId": 243,
@@ -27809,7 +27851,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "268": {
           "moveId": 268,
@@ -28159,7 +28201,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "123": {
           "moveId": 123,
@@ -28623,7 +28665,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -28653,7 +28695,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "267": {
           "moveId": 267,
@@ -28904,7 +28946,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -29239,7 +29281,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "62": {
           "moveId": 62,
@@ -29367,7 +29409,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         }
       },
       "genId": 2,
@@ -29472,14 +29514,14 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         },
         "275": {
           "moveId": 275,
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 2,
@@ -30190,7 +30232,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "101": {
           "moveId": 101,
@@ -30281,7 +30323,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -30411,7 +30453,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "127": {
           "moveId": 127,
@@ -30492,7 +30534,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -30522,7 +30564,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 3,
@@ -30599,7 +30641,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -30629,7 +30671,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "316": {
           "moveId": 316,
@@ -30730,7 +30772,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "50": {
           "moveId": 50,
@@ -30938,7 +30980,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "79": {
           "moveId": 79,
@@ -31001,7 +31043,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 80
+              "power": 70
             },
             "125": {
               "moveId": 125,
@@ -31015,7 +31057,7 @@
               "moveName": "Body Slam",
               "proto": "BODY_SLAM",
               "type": 1,
-              "power": 60
+              "power": 50
             }
           },
           "types": {
@@ -31105,7 +31147,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "78": {
           "moveId": 78,
@@ -31161,7 +31203,7 @@
               "moveName": "Dig",
               "proto": "DIG",
               "type": 5,
-              "power": 80
+              "power": 70
             },
             "92": {
               "moveId": 92,
@@ -31175,7 +31217,7 @@
               "moveName": "Body Slam",
               "proto": "BODY_SLAM",
               "type": 1,
-              "power": 60
+              "power": 50
             }
           },
           "types": {
@@ -31333,7 +31375,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -31506,7 +31548,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -31676,7 +31718,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "230": {
           "moveId": 230,
@@ -31772,7 +31814,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "237": {
           "moveId": 237,
@@ -31878,7 +31920,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "237": {
           "moveId": 237,
@@ -32097,7 +32139,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "238": {
           "moveId": 238,
@@ -32203,7 +32245,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "238": {
           "moveId": 238,
@@ -32421,7 +32463,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 3,
@@ -33360,6 +33402,13 @@
           "proto": "BULLET_SEED_FAST",
           "type": 12,
           "power": 5
+        },
+        "462": {
+          "moveId": 462,
+          "moveName": "Force Palm Fast",
+          "proto": "FORCE_PALM_FAST",
+          "type": 2,
+          "power": 13
         }
       },
       "chargedMoves": {
@@ -33462,7 +33511,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 3,
@@ -33540,7 +33589,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "95": {
           "moveId": 95,
@@ -33561,7 +33610,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 3,
@@ -33918,7 +33967,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "45": {
           "moveId": 45,
@@ -33997,7 +34046,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -34198,7 +34247,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -34393,6 +34442,13 @@
           "proto": "COUNTER_FAST",
           "type": 2,
           "power": 8
+        },
+        "462": {
+          "moveId": 462,
+          "moveName": "Force Palm Fast",
+          "proto": "FORCE_PALM_FAST",
+          "type": 2,
+          "power": 13
         }
       },
       "chargedMoves": {
@@ -34513,7 +34569,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 3,
@@ -34591,7 +34647,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "79": {
           "moveId": 79,
@@ -34690,7 +34746,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "84": {
           "moveId": 84,
@@ -34881,7 +34937,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "66": {
           "moveId": 66,
@@ -35006,7 +35062,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "327": {
           "moveId": 327,
@@ -35020,7 +35076,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -35154,7 +35210,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 3,
@@ -35251,14 +35307,14 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "131": {
           "moveId": 131,
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "268": {
           "moveId": 268,
@@ -35356,7 +35412,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -36274,7 +36330,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "224": {
           "moveId": 224,
@@ -36465,7 +36521,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "241": {
           "moveId": 241,
@@ -36807,7 +36863,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "268": {
           "moveId": 268,
@@ -36913,7 +36969,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 3,
@@ -37196,7 +37252,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -37452,7 +37508,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "226": {
           "moveId": 226,
@@ -37468,7 +37524,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "63": {
           "moveId": 63,
@@ -37631,7 +37687,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "261": {
           "moveId": 261,
@@ -37654,7 +37710,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "258": {
           "moveId": 258,
@@ -37755,7 +37811,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "403": {
           "moveId": 403,
@@ -37868,7 +37924,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "253": {
           "moveId": 253,
@@ -37977,14 +38033,14 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "236": {
           "moveId": 236,
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         },
         "403": {
           "moveId": 403,
@@ -38101,7 +38157,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "224": {
           "moveId": 224,
@@ -38221,7 +38277,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -38341,7 +38397,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 3,
@@ -38439,7 +38495,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "51": {
           "moveId": 51,
@@ -38618,7 +38674,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "87": {
           "moveId": 87,
@@ -38713,7 +38769,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "108": {
           "moveId": 108,
@@ -38785,7 +38841,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -38888,7 +38944,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "230": {
           "moveId": 230,
@@ -39222,7 +39278,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "30": {
           "moveId": 30,
@@ -39302,7 +39358,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "235": {
           "moveId": 235,
@@ -39576,7 +39632,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "95": {
           "moveId": 95,
@@ -39964,7 +40020,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 3,
@@ -40279,7 +40335,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "212": {
           "moveId": 212,
@@ -40391,7 +40447,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -40414,7 +40470,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 3,
@@ -40592,7 +40648,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -40622,7 +40678,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 3,
@@ -40714,7 +40770,7 @@
           "moveName": "Shadow Punch",
           "proto": "SHADOW_PUNCH",
           "type": 8,
-          "power": 40
+          "power": 55
         },
         "115": {
           "moveId": 115,
@@ -40806,7 +40862,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "255": {
           "moveId": 255,
@@ -40836,6 +40892,13 @@
           "moveName": "Stomp",
           "proto": "STOMP",
           "type": 1,
+          "power": 55
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
           "power": 55
         }
       },
@@ -40890,7 +40953,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "274": {
           "moveId": 274,
@@ -41399,7 +41462,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "248": {
           "moveId": 248,
@@ -41502,7 +41565,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "248": {
           "moveId": 248,
@@ -41696,7 +41759,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 3,
@@ -43276,7 +43339,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 3,
@@ -43344,7 +43407,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "253": {
           "moveId": 253,
@@ -43793,7 +43856,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "79": {
               "moveId": 79,
@@ -43880,7 +43943,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -43903,7 +43966,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "273": {
           "moveId": 273,
@@ -43986,7 +44049,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -44002,7 +44065,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "273": {
           "moveId": 273,
@@ -44092,7 +44155,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -44396,7 +44459,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -45239,7 +45302,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 4,
@@ -45749,7 +45812,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "281": {
           "moveId": 281,
@@ -45838,7 +45901,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "224": {
           "moveId": 224,
@@ -46046,7 +46109,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -46062,7 +46125,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "277": {
           "moveId": 277,
@@ -46234,7 +46297,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -46888,7 +46951,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         },
         "255": {
           "moveId": 255,
@@ -46911,7 +46974,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "99": {
           "moveId": 99,
@@ -47353,7 +47416,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "271": {
           "moveId": 271,
@@ -47481,7 +47544,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "281": {
           "moveId": 281,
@@ -47511,7 +47574,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 4,
@@ -47601,7 +47664,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "281": {
           "moveId": 281,
@@ -47631,7 +47694,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "304": {
           "moveId": 304,
@@ -47713,7 +47776,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -47798,7 +47861,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -47894,7 +47957,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -48202,7 +48265,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "264": {
           "moveId": 264,
@@ -48345,7 +48408,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 4,
@@ -48590,7 +48653,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -49137,7 +49200,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         }
       },
       "genId": 4,
@@ -49414,14 +49477,14 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         },
         "265": {
           "moveId": 265,
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 4,
@@ -49479,7 +49542,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "238": {
           "moveId": 238,
@@ -49490,6 +49553,13 @@
         }
       },
       "chargedMoves": {
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 70
+        },
         "66": {
           "moveId": 66,
           "moveName": "Shadow Sneak",
@@ -49567,7 +49637,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "282": {
           "moveId": 282,
@@ -49583,7 +49653,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "80": {
           "moveId": 80,
@@ -49597,7 +49667,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 4,
@@ -49671,7 +49741,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "282": {
           "moveId": 282,
@@ -49694,7 +49764,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "80": {
           "moveId": 80,
@@ -49778,7 +49848,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "253": {
           "moveId": 253,
@@ -49921,7 +49991,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 4,
@@ -50253,7 +50323,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "63": {
           "moveId": 63,
@@ -50267,7 +50337,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 4,
@@ -50387,7 +50457,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "294": {
           "moveId": 294,
@@ -50470,7 +50540,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         },
         "260": {
           "moveId": 260,
@@ -50580,7 +50650,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         },
         "260": {
           "moveId": 260,
@@ -50686,7 +50756,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "224": {
           "moveId": 224,
@@ -50700,7 +50770,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -50789,7 +50859,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "224": {
           "moveId": 224,
@@ -51366,7 +51436,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "244": {
           "moveId": 244,
@@ -51722,6 +51792,13 @@
           "proto": "ZEN_HEADBUTT_FAST",
           "type": 14,
           "power": 8
+        },
+        "368": {
+          "moveId": 368,
+          "moveName": "Rollout",
+          "proto": "ROLLOUT_FAST",
+          "type": 6,
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -51813,14 +51890,14 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -51843,7 +51920,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "302": {
           "moveId": 302,
@@ -51945,7 +52022,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "90": {
           "moveId": 90,
@@ -52126,7 +52203,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -52419,7 +52496,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "219": {
           "moveId": 219,
@@ -52698,7 +52775,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "244": {
           "moveId": 244,
@@ -53038,7 +53115,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "72": {
           "moveId": 72,
@@ -53117,7 +53194,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -53134,6 +53211,13 @@
           "proto": "DARK_PULSE",
           "type": 17,
           "power": 80
+        },
+        "67": {
+          "moveId": 67,
+          "moveName": "Shadow Punch",
+          "proto": "SHADOW_PUNCH",
+          "type": 8,
+          "power": 55
         },
         "69": {
           "moveId": 69,
@@ -53323,7 +53407,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -53427,7 +53511,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 9
+              "power": 12
             }
           },
           "types": {
@@ -53615,7 +53699,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 4,
@@ -53698,7 +53782,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 4,
@@ -53781,7 +53865,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 4,
@@ -54050,7 +54134,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -54396,7 +54480,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 4,
@@ -54479,7 +54563,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 4,
@@ -54560,7 +54644,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 4,
@@ -54854,7 +54938,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         },
         "277": {
           "moveId": 277,
@@ -55496,7 +55580,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 5,
@@ -55684,7 +55768,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "101": {
           "moveId": 101,
@@ -56136,7 +56220,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "129": {
           "moveId": 129,
@@ -56323,7 +56407,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "63": {
           "moveId": 63,
@@ -56422,7 +56506,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "79": {
           "moveId": 79,
@@ -56603,7 +56687,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "220": {
           "moveId": 220,
@@ -56978,7 +57062,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -57071,7 +57155,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -57182,7 +57266,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 5,
@@ -57275,7 +57359,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 5,
@@ -57456,7 +57540,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 5,
@@ -57644,7 +57728,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 5,
@@ -57743,7 +57827,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 5,
@@ -57988,7 +58072,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -58073,14 +58157,14 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -58096,7 +58180,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "95": {
           "moveId": 95,
@@ -58169,14 +58253,14 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -58185,7 +58269,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "116": {
           "moveId": 116,
@@ -58401,7 +58485,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         },
         "341": {
           "moveId": 341,
@@ -58480,7 +58564,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -58489,7 +58573,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "46": {
           "moveId": 46,
@@ -58569,7 +58653,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "228": {
           "moveId": 228,
@@ -58583,7 +58667,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -58606,7 +58690,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "74": {
           "moveId": 74,
@@ -59067,7 +59151,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -59163,7 +59247,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -59262,7 +59346,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "237": {
           "moveId": 237,
@@ -59380,7 +59464,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "247": {
           "moveId": 247,
@@ -59471,7 +59555,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "247": {
           "moveId": 247,
@@ -59738,7 +59822,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -59837,7 +59921,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -59933,7 +60017,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -60124,7 +60208,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "320": {
           "moveId": 320,
@@ -60221,7 +60305,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "320": {
           "moveId": 320,
@@ -60235,7 +60319,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -60625,7 +60709,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -60634,7 +60718,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "95": {
           "moveId": 95,
@@ -60721,7 +60805,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -60813,7 +60897,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "278": {
           "moveId": 278,
@@ -61075,7 +61159,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "108": {
           "moveId": 108,
@@ -61396,7 +61480,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -61492,7 +61576,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -61501,7 +61585,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "100": {
           "moveId": 100,
@@ -61877,7 +61961,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -61933,7 +62017,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 9
+              "power": 12
             }
           },
           "chargedMoves": {
@@ -61949,7 +62033,7 @@
               "moveName": "Night Shade",
               "proto": "NIGHT_SHADE",
               "type": 8,
-              "power": 60
+              "power": 80
             }
           },
           "types": {
@@ -62037,7 +62121,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -62141,14 +62225,14 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "284": {
           "moveId": 284,
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 5,
@@ -62237,14 +62321,14 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "284": {
           "moveId": 284,
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "383": {
           "moveId": 383,
@@ -62615,7 +62699,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "303": {
           "moveId": 303,
@@ -62721,6 +62805,13 @@
           "type": 3,
           "power": 55
         },
+        "265": {
+          "moveId": 265,
+          "moveName": "Night Shade",
+          "proto": "NIGHT_SHADE",
+          "type": 8,
+          "power": 80
+        },
         "280": {
           "moveId": 280,
           "moveName": "Foul Play",
@@ -62816,6 +62907,13 @@
           "moveName": "Sludge Bomb",
           "proto": "SLUDGE_BOMB",
           "type": 4,
+          "power": 80
+        },
+        "265": {
+          "moveId": 265,
+          "moveName": "Night Shade",
+          "proto": "NIGHT_SHADE",
+          "type": 8,
           "power": 80
         },
         "280": {
@@ -63189,7 +63287,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 5,
@@ -63270,7 +63368,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "108": {
           "moveId": 108,
@@ -63284,7 +63382,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 5,
@@ -63372,7 +63470,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 5,
@@ -63464,7 +63562,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 5,
@@ -63559,7 +63657,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 5,
@@ -63819,7 +63917,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -63911,7 +64009,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -64006,7 +64104,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -64652,7 +64750,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -64661,7 +64759,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "272": {
           "moveId": 272,
@@ -64751,7 +64849,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -64866,7 +64964,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 5,
@@ -64988,7 +65086,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 5,
@@ -65139,7 +65237,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "249": {
           "moveId": 249,
@@ -66125,7 +66223,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -66217,7 +66315,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -66233,7 +66331,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "108": {
           "moveId": 108,
@@ -66309,7 +66407,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -66412,7 +66510,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -66512,7 +66610,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         },
         "346": {
           "moveId": 346,
@@ -66831,7 +66929,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 5,
@@ -67031,7 +67129,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "383": {
           "moveId": 383,
@@ -67230,7 +67328,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 5,
@@ -67406,7 +67504,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -67457,7 +67555,7 @@
               "moveName": "Mud Shot",
               "proto": "MUD_SHOT_FAST",
               "type": 5,
-              "power": 3
+              "power": 4
             },
             "228": {
               "moveId": 228,
@@ -67487,7 +67585,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "316": {
               "moveId": 316,
@@ -67646,6 +67744,13 @@
           "proto": "POISON_JAB_FAST",
           "type": 4,
           "power": 7
+        },
+        "462": {
+          "moveId": 462,
+          "moveName": "Force Palm Fast",
+          "proto": "FORCE_PALM_FAST",
+          "type": 2,
+          "power": 13
         }
       },
       "chargedMoves": {
@@ -67676,6 +67781,13 @@
           "proto": "BLAZE_KICK",
           "type": 10,
           "power": 60
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 55
         }
       },
       "genId": 5,
@@ -67821,14 +67933,14 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -67837,7 +67949,7 @@
           "moveName": "Shadow Punch",
           "proto": "SHADOW_PUNCH",
           "type": 8,
-          "power": 40
+          "power": 55
         },
         "123": {
           "moveId": 123,
@@ -67851,7 +67963,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 5,
@@ -67917,14 +68029,14 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -67933,7 +68045,7 @@
           "moveName": "Shadow Punch",
           "proto": "SHADOW_PUNCH",
           "type": 8,
-          "power": 40
+          "power": 55
         },
         "246": {
           "moveId": 246,
@@ -68213,7 +68325,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "234": {
           "moveId": 234,
@@ -68434,7 +68546,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "245": {
           "moveId": 245,
@@ -68790,7 +68902,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -68982,7 +69094,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "279": {
           "moveId": 279,
@@ -69085,7 +69197,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 5,
@@ -69349,7 +69461,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -69542,7 +69654,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         },
         "356": {
           "moveId": 356,
@@ -69565,7 +69677,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "245": {
           "moveId": 245,
@@ -69789,7 +69901,7 @@
               "moveName": "Astonish",
               "proto": "ASTONISH_FAST",
               "type": 8,
-              "power": 9
+              "power": 12
             },
             "345": {
               "moveId": 345,
@@ -69878,7 +69990,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -70211,7 +70323,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "227": {
           "moveId": 227,
@@ -70227,7 +70339,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "247": {
           "moveId": 247,
@@ -70281,7 +70393,7 @@
               "moveName": "Mud Shot",
               "proto": "MUD_SHOT_FAST",
               "type": 5,
-              "power": 3
+              "power": 4
             },
             "274": {
               "moveId": 274,
@@ -71025,7 +71137,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "267": {
           "moveId": 267,
@@ -71105,7 +71217,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "267": {
           "moveId": 267,
@@ -71197,7 +71309,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -71482,7 +71594,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -71602,7 +71714,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 6,
@@ -71689,7 +71801,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 6,
@@ -71797,7 +71909,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 6,
@@ -71857,7 +71969,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -71866,7 +71978,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "31": {
           "moveId": 31,
@@ -71941,7 +72053,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "219": {
           "moveId": 219,
@@ -71964,7 +72076,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "31": {
           "moveId": 31,
@@ -72262,7 +72374,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -73735,7 +73847,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -73749,7 +73861,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -74049,7 +74161,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "279": {
           "moveId": 279,
@@ -74125,6 +74237,13 @@
           "type": 2,
           "power": 4
         },
+        "208": {
+          "moveId": 208,
+          "moveName": "Karate Chop",
+          "proto": "KARATE_CHOP_FAST",
+          "type": 2,
+          "power": 5
+        },
         "229": {
           "moveId": 229,
           "moveName": "Bullet Punch",
@@ -74153,7 +74272,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "74": {
           "moveId": 74,
@@ -74226,7 +74345,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "282": {
           "moveId": 282,
@@ -74263,7 +74382,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 6,
@@ -74449,7 +74568,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "235": {
           "moveId": 235,
@@ -75125,7 +75244,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -75408,7 +75527,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -75417,7 +75536,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "28": {
           "moveId": 28,
@@ -75505,7 +75624,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -75800,7 +75919,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -75886,7 +76005,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -75988,7 +76107,7 @@
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
+          "power": 70
         },
         "79": {
           "moveId": 79,
@@ -76070,7 +76189,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "250": {
           "moveId": 250,
@@ -76086,7 +76205,7 @@
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
+          "power": 70
         },
         "79": {
           "moveId": 79,
@@ -76778,7 +76897,7 @@
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
+          "power": 70
         },
         "88": {
           "moveId": 88,
@@ -76853,14 +76972,14 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "65": {
           "moveId": 65,
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "87": {
           "moveId": 87,
@@ -77242,7 +77361,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -77332,7 +77451,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -77416,7 +77535,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "213": {
           "moveId": 213,
@@ -77503,14 +77622,14 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -77668,7 +77787,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "264": {
           "moveId": 264,
@@ -77923,7 +78042,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "254": {
           "moveId": 254,
@@ -78002,7 +78121,7 @@
               "moveName": "Rock Slide",
               "proto": "ROCK_SLIDE",
               "type": 6,
-              "power": 75
+              "power": 65
             },
             "111": {
               "moveId": 111,
@@ -78368,7 +78487,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "278": {
           "moveId": 278,
@@ -78655,14 +78774,14 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "65": {
           "moveId": 65,
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "87": {
           "moveId": 87,
@@ -78741,7 +78860,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -78958,7 +79077,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -79063,7 +79182,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "357": {
           "moveId": 357,
@@ -79164,14 +79283,14 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "357": {
           "moveId": 357,
@@ -79260,6 +79379,13 @@
               "proto": "AERIAL_ACE",
               "type": 3,
               "power": 55
+            },
+            "265": {
+              "moveId": 265,
+              "moveName": "Night Shade",
+              "proto": "NIGHT_SHADE",
+              "type": 8,
+              "power": 80
             },
             "273": {
               "moveId": 273,
@@ -79845,6 +79971,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 75
+        },
+        "463": {
+          "moveId": 463,
+          "moveName": "Sparkling Aria",
+          "proto": "SPARKLING_ARIA",
+          "type": 11,
+          "power": 80
         }
       },
       "genId": 7,
@@ -79931,7 +80064,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         }
       },
       "genId": 7,
@@ -80015,7 +80148,7 @@
           "moveName": "Sky Attack",
           "proto": "SKY_ATTACK",
           "type": 3,
-          "power": 75
+          "power": 85
         },
         "259": {
           "moveId": 259,
@@ -80546,7 +80679,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -80968,7 +81101,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -81052,7 +81185,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -81062,6 +81195,13 @@
           "proto": "BUG_BUZZ",
           "type": 7,
           "power": 100
+        },
+        "85": {
+          "moveId": 85,
+          "moveName": "Draining Kiss",
+          "proto": "DRAINING_KISS",
+          "type": 18,
+          "power": 60
         },
         "86": {
           "moveId": 86,
@@ -81241,7 +81381,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "227": {
           "moveId": 227,
@@ -81367,7 +81507,7 @@
               "moveName": "Sucker Punch",
               "proto": "SUCKER_PUNCH_FAST",
               "type": 17,
-              "power": 5
+              "power": 8
             },
             "227": {
               "moveId": 227,
@@ -81494,7 +81634,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 7,
@@ -81571,7 +81711,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -81738,7 +81878,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "241": {
           "moveId": 241,
@@ -81768,7 +81908,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         }
       },
       "genId": 7,
@@ -81825,7 +81965,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "241": {
           "moveId": 241,
@@ -81855,7 +81995,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "268": {
           "moveId": 268,
@@ -82107,7 +82247,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "385": {
           "moveId": 385,
@@ -82209,7 +82349,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "385": {
           "moveId": 385,
@@ -82310,7 +82450,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -82390,7 +82530,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -82837,7 +82977,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "320": {
           "moveId": 320,
@@ -82917,7 +83057,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "320": {
           "moveId": 320,
@@ -83014,7 +83154,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "320": {
           "moveId": 320,
@@ -83230,7 +83370,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         },
         "280": {
           "moveId": 280,
@@ -83238,6 +83378,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 55
         },
         "392": {
           "moveId": 392,
@@ -83331,6 +83478,13 @@
           "proto": "SUPER_POWER",
           "type": 2,
           "power": 85
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 55
         }
       },
       "genId": 7,
@@ -83568,14 +83722,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "403": {
           "moveId": 403,
@@ -83673,14 +83827,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "403": {
           "moveId": 403,
@@ -84213,7 +84367,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -84229,7 +84383,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "364": {
           "moveId": 364,
@@ -84410,7 +84564,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -84493,7 +84647,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         },
         "346": {
           "moveId": 346,
@@ -84939,7 +85093,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -85393,7 +85547,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -85403,6 +85557,13 @@
           "proto": "PSYSHOCK",
           "type": 14,
           "power": 70
+        },
+        "85": {
+          "moveId": 85,
+          "moveName": "Draining Kiss",
+          "proto": "DRAINING_KISS",
+          "type": 18,
+          "power": 60
         },
         "87": {
           "moveId": 87,
@@ -85423,7 +85584,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 7,
@@ -85601,7 +85762,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 7,
@@ -85794,7 +85955,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -85913,7 +86074,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         }
       },
       "genId": 7,
@@ -85988,14 +86149,14 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "65": {
           "moveId": 65,
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "90": {
           "moveId": 90,
@@ -86331,7 +86492,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -86354,7 +86515,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "268": {
           "moveId": 268,
@@ -86413,7 +86574,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "255": {
           "moveId": 255,
@@ -86539,7 +86700,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         }
       },
       "genId": 7,
@@ -86624,7 +86785,7 @@
           "moveName": "Future Sight",
           "proto": "FUTURESIGHT",
           "type": 14,
-          "power": 120
+          "power": 110
         },
         "277": {
           "moveId": 277,
@@ -86841,7 +87002,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "224": {
           "moveId": 224,
@@ -86871,7 +87032,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "77": {
           "moveId": 77,
@@ -87209,7 +87370,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "346": {
           "moveId": 346,
@@ -87464,7 +87625,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "79": {
           "moveId": 79,
@@ -87552,7 +87713,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "220": {
           "moveId": 220,
@@ -87632,7 +87793,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "220": {
           "moveId": 220,
@@ -87715,7 +87876,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "220": {
           "moveId": 220,
@@ -87816,7 +87977,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -87896,7 +88057,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -87979,7 +88140,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -88089,7 +88250,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 8,
@@ -88169,7 +88330,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 8,
@@ -88259,7 +88420,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 8,
@@ -88346,7 +88507,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "279": {
           "moveId": 279,
@@ -88424,7 +88585,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "221": {
           "moveId": 221,
@@ -88447,7 +88608,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "279": {
           "moveId": 279,
@@ -89175,7 +89336,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "271": {
           "moveId": 271,
@@ -89255,7 +89416,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "271": {
           "moveId": 271,
@@ -89441,7 +89602,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "251": {
           "moveId": 251,
@@ -89524,14 +89685,14 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "284": {
           "moveId": 284,
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 8,
@@ -89608,7 +89769,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "259": {
           "moveId": 259,
@@ -89622,7 +89783,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         }
       },
       "genId": 8,
@@ -89849,7 +90010,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -89858,7 +90019,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "259": {
           "moveId": 259,
@@ -89926,7 +90087,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         },
         "346": {
           "moveId": 346,
@@ -89942,7 +90103,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "101": {
           "moveId": 101,
@@ -90020,7 +90181,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         },
         "346": {
           "moveId": 346,
@@ -90036,7 +90197,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "101": {
           "moveId": 101,
@@ -90118,7 +90279,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -90298,7 +90459,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "271": {
           "moveId": 271,
@@ -90399,14 +90560,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "233": {
           "moveId": 233,
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -90415,7 +90576,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "95": {
           "moveId": 95,
@@ -90486,14 +90647,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "233": {
           "moveId": 233,
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -90502,7 +90663,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "95": {
           "moveId": 95,
@@ -91354,7 +91515,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "310": {
           "moveId": 310,
@@ -91414,14 +91575,14 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -91525,14 +91686,14 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -91925,7 +92086,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -92016,7 +92177,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -92110,7 +92271,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "207": {
           "moveId": 207,
@@ -92419,7 +92580,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -92428,7 +92589,7 @@
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "259": {
           "moveId": 259,
@@ -92442,7 +92603,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 8,
@@ -92719,7 +92880,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -92743,6 +92904,13 @@
           "proto": "SAND_TOMB",
           "type": 5,
           "power": 25
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 55
         }
       },
       "genId": 8,
@@ -93326,7 +93494,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "127": {
           "moveId": 127,
@@ -93398,7 +93566,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "293": {
           "moveId": 293,
@@ -93699,7 +93867,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "74": {
           "moveId": 74,
@@ -93786,7 +93954,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "74": {
           "moveId": 74,
@@ -94308,7 +94476,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -94385,7 +94553,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -94479,7 +94647,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -95074,7 +95242,7 @@
               "moveName": "Sucker Punch",
               "proto": "SUCKER_PUNCH_FAST",
               "type": 17,
-              "power": 5
+              "power": 8
             },
             "241": {
               "moveId": 241,
@@ -96031,7 +96199,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "100": {
           "moveId": 100,
@@ -96223,7 +96391,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "221": {
           "moveId": 221,
@@ -96337,7 +96505,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         },
         "277": {
           "moveId": 277,
@@ -96358,7 +96526,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "316": {
           "moveId": 316,
@@ -96538,7 +96706,7 @@
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -96639,14 +96807,14 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "350": {
           "moveId": 350,
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -97561,14 +97729,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "131": {
           "moveId": 131,
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "392": {
           "moveId": 392,
@@ -97649,14 +97817,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "131": {
           "moveId": 131,
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "392": {
           "moveId": 392,
@@ -98004,7 +98172,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "243": {
           "moveId": 243,
@@ -98397,7 +98565,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "271": {
           "moveId": 271,
@@ -98491,7 +98659,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "271": {
           "moveId": 271,
@@ -98616,7 +98784,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "353": {
           "moveId": 353,
@@ -98702,7 +98870,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "353": {
           "moveId": 353,
@@ -98765,7 +98933,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -98863,7 +99031,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -98971,7 +99139,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "221": {
           "moveId": 221,
@@ -99170,7 +99338,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "227": {
           "moveId": 227,
@@ -99256,14 +99424,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -99345,14 +99513,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -99375,7 +99543,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         }
       },
       "genId": 9,
@@ -99744,7 +99912,7 @@
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
+          "power": 70
         },
         "252": {
           "moveId": 252,
@@ -99830,7 +99998,7 @@
           "moveName": "Parabolic Charge",
           "proto": "PARABOLIC_CHARGE",
           "type": 13,
-          "power": 65
+          "power": 70
         },
         "252": {
           "moveId": 252,
@@ -100082,7 +100250,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "279": {
           "moveId": 279,
@@ -100168,7 +100336,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "279": {
           "moveId": 279,
@@ -100245,7 +100413,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -100335,7 +100503,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -100414,7 +100582,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "271": {
           "moveId": 271,
@@ -100444,7 +100612,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 9,
@@ -100534,7 +100702,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         }
       },
       "genId": 9,
@@ -100590,14 +100758,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "233": {
           "moveId": 233,
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -100680,14 +100848,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "233": {
           "moveId": 233,
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -100769,7 +100937,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -100785,7 +100953,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "95": {
           "moveId": 95,
@@ -100840,7 +101008,7 @@
           "moveName": "Razor Leaf",
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
-          "power": 10
+          "power": 9
         },
         "385": {
           "moveId": 385,
@@ -101035,7 +101203,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "49": {
           "moveId": 49,
@@ -101125,7 +101293,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "30": {
           "moveId": 30,
@@ -101377,7 +101545,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -101400,7 +101568,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         }
       },
       "genId": 9,
@@ -101467,7 +101635,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -101490,7 +101658,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         }
       },
       "genId": 9,
@@ -101560,7 +101728,7 @@
           "moveName": "Fairy Wind",
           "proto": "FAIRY_WIND_FAST",
           "type": 18,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -101590,7 +101758,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         }
       },
       "genId": 9,
@@ -101649,7 +101817,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -101658,14 +101826,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "284": {
           "moveId": 284,
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "383": {
           "moveId": 383,
@@ -101736,7 +101904,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -101745,14 +101913,14 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "284": {
           "moveId": 284,
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "383": {
           "moveId": 383,
@@ -102313,7 +102481,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "392": {
           "moveId": 392,
@@ -102368,7 +102536,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "266": {
           "moveId": 266,
@@ -102457,7 +102625,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -102466,7 +102634,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "86": {
           "moveId": 86,
@@ -102547,7 +102715,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         }
       },
       "chargedMoves": {
@@ -102556,7 +102724,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "86": {
           "moveId": 86,
@@ -102638,7 +102806,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "70": {
           "moveId": 70,
@@ -102725,7 +102893,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "70": {
           "moveId": 70,
@@ -102897,7 +103065,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "254": {
           "moveId": 254,
@@ -102991,7 +103159,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "254": {
           "moveId": 254,
@@ -103177,7 +103345,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "383": {
           "moveId": 383,
@@ -103266,7 +103434,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "316": {
           "moveId": 316,
@@ -103441,14 +103609,14 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "236": {
           "moveId": 236,
           "moveName": "Poison Sting",
           "proto": "POISON_STING_FAST",
           "type": 4,
-          "power": 3
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -103645,14 +103813,14 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "368": {
           "moveId": 368,
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -103661,7 +103829,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "46": {
           "moveId": 46,
@@ -103675,7 +103843,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         }
       },
       "genId": 9,
@@ -104852,7 +105020,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -104927,7 +105095,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -105181,7 +105349,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "278": {
           "moveId": 278,
@@ -105677,7 +105845,7 @@
           "moveName": "Mud Shot",
           "proto": "MUD_SHOT_FAST",
           "type": 5,
-          "power": 3
+          "power": 4
         },
         "240": {
           "moveId": 240,
@@ -105791,7 +105959,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -105819,7 +105987,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "285": {
           "moveId": 285,
@@ -106102,7 +106270,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "204": {
           "moveId": 204,
@@ -106130,7 +106298,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "271": {
           "moveId": 271,
@@ -106151,7 +106319,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -106195,7 +106363,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -106290,7 +106458,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -106355,7 +106523,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         },
         "273": {
           "moveId": 273,
@@ -106422,7 +106590,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -106494,7 +106662,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         },
         "273": {
           "moveId": 273,
@@ -106647,7 +106815,7 @@
           "moveName": "Dig",
           "proto": "DIG",
           "type": 5,
-          "power": 80
+          "power": 70
         },
         "33": {
           "moveId": 33,
@@ -106731,7 +106899,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -106794,7 +106962,7 @@
           "moveName": "Brutal Swing",
           "proto": "BRUTAL_SWING",
           "type": 17,
-          "power": 65
+          "power": 55
         },
         "377": {
           "moveId": 377,
@@ -106861,7 +107029,7 @@
           "moveName": "Mud-Slap",
           "proto": "MUD_SLAP_FAST",
           "type": 5,
-          "power": 11
+          "power": 12
         },
         "235": {
           "moveId": 235,
@@ -106961,7 +107129,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         },
         "272": {
           "moveId": 272,
@@ -107526,7 +107694,7 @@
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
-          "power": 12
+          "power": 11
         },
         "402": {
           "moveId": 402,
@@ -107591,7 +107759,7 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "74": {
           "moveId": 74,
@@ -107647,7 +107815,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -107770,7 +107938,7 @@
           "moveName": "Sucker Punch",
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
-          "power": 5
+          "power": 8
         },
         "204": {
           "moveId": 204,
@@ -107798,7 +107966,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "271": {
           "moveId": 271,
@@ -107826,7 +107994,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -107891,7 +108059,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -108028,7 +108196,7 @@
           "moveName": "Fire Spin",
           "proto": "FIRE_SPIN_FAST",
           "type": 10,
-          "power": 10
+          "power": 11
         },
         "278": {
           "moveId": 278,
@@ -108163,7 +108331,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -108386,7 +108554,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -108637,7 +108805,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -108839,7 +109007,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -108988,14 +109156,14 @@
           "moveName": "Rock Slide",
           "proto": "ROCK_SLIDE",
           "type": 6,
-          "power": 75
+          "power": 65
         },
         "65": {
           "moveId": 65,
           "moveName": "Power Gem",
           "proto": "POWER_GEM",
           "type": 6,
-          "power": 80
+          "power": 85
         },
         "74": {
           "moveId": 74,
@@ -109051,7 +109219,7 @@
           "moveName": "Body Slam",
           "proto": "BODY_SLAM",
           "type": 1,
-          "power": 60
+          "power": 50
         },
         "132": {
           "moveId": 132,
@@ -109100,7 +109268,7 @@
           "moveName": "Surf",
           "proto": "SURF",
           "type": 11,
-          "power": 65
+          "power": 75
         },
         "304": {
           "moveId": 304,
@@ -109181,7 +109349,7 @@
           "moveName": "Astonish",
           "proto": "ASTONISH_FAST",
           "type": 8,
-          "power": 9
+          "power": 12
         },
         "264": {
           "moveId": 264,
@@ -109195,7 +109363,7 @@
           "moveName": "Rollout",
           "proto": "ROLLOUT_FAST",
           "type": 6,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
@@ -109239,7 +109407,7 @@
           "moveName": "Night Shade",
           "proto": "NIGHT_SHADE",
           "type": 8,
-          "power": 60
+          "power": 80
         },
         "280": {
           "moveId": 280,
@@ -117547,7 +117715,8 @@
         90,
         106,
         108,
-        247
+        247,
+        367
       ],
       "types": [
         4,
@@ -119959,6 +120128,7 @@
       ],
       "chargedMoves": [
         45,
+        265,
         273,
         332,
         392
@@ -120011,6 +120181,7 @@
         70,
         115,
         251,
+        265,
         270
       ],
       "types": [
@@ -123630,6 +123801,20 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1621": {
+      "id": 1621,
+      "name": "Ticket",
+      "proto": "ITEM_EVENT_TICKET_07",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1622": {
+      "id": 1622,
+      "name": "Ticket",
+      "proto": "ITEM_EVENT_TICKET_08",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1623": {
       "id": 1623,
       "name": "Ticket",
@@ -123655,6 +123840,20 @@
       "id": 1630,
       "name": "Event Ticket 06 To Gift",
       "proto": "ITEM_EVENT_TICKET_06_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1631": {
+      "id": 1631,
+      "name": "Event Ticket 07 To Gift",
+      "proto": "ITEM_EVENT_TICKET_07_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1632": {
+      "id": 1632,
+      "name": "Event Ticket 08 To Gift",
+      "proto": "ITEM_EVENT_TICKET_08_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -123816,7 +124015,7 @@
       "id": 26,
       "name": "Dig",
       "proto": "DIG",
-      "power": 80
+      "power": 70
     },
     "27": {
       "id": 27,
@@ -124035,13 +124234,13 @@
       "id": 64,
       "name": "Rock Slide",
       "proto": "ROCK_SLIDE",
-      "power": 75
+      "power": 65
     },
     "65": {
       "id": 65,
       "name": "Power Gem",
       "proto": "POWER_GEM",
-      "power": 80
+      "power": 85
     },
     "66": {
       "id": 66,
@@ -124053,7 +124252,7 @@
       "id": 67,
       "name": "Shadow Punch",
       "proto": "SHADOW_PUNCH",
-      "power": 40
+      "power": 55
     },
     "68": {
       "id": 68,
@@ -124098,7 +124297,7 @@
       "id": 75,
       "name": "Parabolic Charge",
       "proto": "PARABOLIC_CHARGE",
-      "power": 65
+      "power": 70
     },
     "76": {
       "id": 76,
@@ -124209,7 +124408,7 @@
       "id": 94,
       "name": "Bone Club",
       "proto": "BONE_CLUB",
-      "power": 40
+      "power": 55
     },
     "95": {
       "id": 95,
@@ -124421,7 +124620,7 @@
       "id": 131,
       "name": "Body Slam",
       "proto": "BODY_SLAM",
-      "power": 60
+      "power": 50
     },
     "132": {
       "id": 132,
@@ -124481,7 +124680,7 @@
       "id": 203,
       "name": "Sucker Punch",
       "proto": "SUCKER_PUNCH_FAST",
-      "power": 5
+      "power": 8
     },
     "204": {
       "id": 204,
@@ -124553,13 +124752,13 @@
       "id": 215,
       "name": "Razor Leaf",
       "proto": "RAZOR_LEAF_FAST",
-      "power": 10
+      "power": 9
     },
     "216": {
       "id": 216,
       "name": "Mud Shot",
       "proto": "MUD_SHOT_FAST",
-      "power": 3
+      "power": 4
     },
     "217": {
       "id": 217,
@@ -124660,7 +124859,7 @@
       "id": 233,
       "name": "Mud-Slap",
       "proto": "MUD_SLAP_FAST",
-      "power": 11
+      "power": 12
     },
     "234": {
       "id": 234,
@@ -124678,7 +124877,7 @@
       "id": 236,
       "name": "Poison Sting",
       "proto": "POISON_STING_FAST",
-      "power": 3
+      "power": 4
     },
     "237": {
       "id": 237,
@@ -124803,7 +125002,7 @@
       "id": 257,
       "name": "Sky Attack",
       "proto": "SKY_ATTACK",
-      "power": 75
+      "power": 85
     },
     "258": {
       "id": 258,
@@ -124839,7 +125038,7 @@
       "id": 263,
       "name": "Astonish",
       "proto": "ASTONISH_FAST",
-      "power": 9
+      "power": 12
     },
     "264": {
       "id": 264,
@@ -124851,7 +125050,7 @@
       "id": 265,
       "name": "Night Shade",
       "proto": "NIGHT_SHADE",
-      "power": 60
+      "power": 80
     },
     "266": {
       "id": 266,
@@ -124875,7 +125074,7 @@
       "id": 269,
       "name": "Fire Spin",
       "proto": "FIRE_SPIN_FAST",
-      "power": 10
+      "power": 11
     },
     "270": {
       "id": 270,
@@ -124911,7 +125110,7 @@
       "id": 275,
       "name": "Future Sight",
       "proto": "FUTURESIGHT",
-      "power": 120
+      "power": 110
     },
     "276": {
       "id": 276,
@@ -124965,7 +125164,7 @@
       "id": 284,
       "name": "Surf",
       "proto": "SURF",
-      "power": 65
+      "power": 75
     },
     "285": {
       "id": 285,
@@ -125042,7 +125241,7 @@
       "id": 297,
       "name": "Smack Down",
       "proto": "SMACK_DOWN_FAST",
-      "power": 12
+      "power": 11
     },
     "298": {
       "id": 298,
@@ -125354,7 +125553,7 @@
       "id": 350,
       "name": "Fairy Wind",
       "proto": "FAIRY_WIND_FAST",
-      "power": 3
+      "power": 4
     },
     "351": {
       "id": 351,
@@ -125453,13 +125652,13 @@
       "id": 367,
       "name": "Brutal Swing",
       "proto": "BRUTAL_SWING",
-      "power": 65
+      "power": 55
     },
     "368": {
       "id": 368,
       "name": "Rollout",
       "proto": "ROLLOUT_FAST",
-      "power": 5
+      "power": 8
     },
     "369": {
       "id": 369,
