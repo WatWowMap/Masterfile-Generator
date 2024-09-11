@@ -285,9 +285,6 @@
           "tempEvolutions": {
             "1": {
               "tempEvoId": 1
-            },
-            "Gmax": {
-              "tempEvoId": "Gmax"
             }
           }
         },
@@ -334,15 +331,6 @@
           "weight": 155.5,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
-        },
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 198,
-            "defense": 189,
-            "stamina": 190
-          },
-          "unreleased": true
         }
       }
     },
@@ -626,9 +614,6 @@
             },
             "3": {
               "tempEvoId": 3
-            },
-            "Gmax": {
-              "tempEvoId": "Gmax"
             }
           }
         },
@@ -695,15 +680,6 @@
           "weight": 100.5,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
-        },
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 223,
-            "defense": 173,
-            "stamina": 186
-          },
-          "unreleased": true
         }
       }
     },
@@ -987,9 +963,6 @@
           "tempEvolutions": {
             "1": {
               "tempEvoId": 1
-            },
-            "Gmax": {
-              "tempEvoId": "Gmax"
             }
           }
         },
@@ -1036,15 +1009,6 @@
           "weight": 101.1,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
-        },
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 171,
-            "defense": 207,
-            "stamina": 188
-          },
-          "unreleased": true
         }
       }
     },
@@ -1271,12 +1235,7 @@
         "959": {
           "name": "Normal",
           "proto": "BUTTERFREE_NORMAL",
-          "form": 959,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 959
         }
       },
       "stats": {
@@ -1302,17 +1261,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 167,
-            "defense": 137,
-            "stamina": 155
-          },
-          "unreleased": true
-        }
       }
     },
     "13": {
@@ -2675,11 +2623,6 @@
               "form": 50,
               "candyCost": 50
             }
-          },
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
           }
         },
         "894": {
@@ -3322,17 +3265,6 @@
           "pokemon": 26,
           "form": 50,
           "candyCost": 50
-        }
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 112,
-            "defense": 96,
-            "stamina": 111
-          },
-          "unreleased": true
         }
       }
     },
@@ -6651,11 +6583,6 @@
               "form": 65,
               "candyCost": 50
             }
-          },
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
           }
         },
         "64": {
@@ -6811,17 +6738,6 @@
           "pokemon": 53,
           "form": 65,
           "candyCost": 50
-        }
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 92,
-            "defense": 78,
-            "stamina": 120
-          },
-          "unreleased": true
         }
       },
       "little": true
@@ -8663,12 +8579,7 @@
         "815": {
           "name": "Normal",
           "proto": "MACHAMP_NORMAL",
-          "form": 815,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 815
         }
       },
       "stats": {
@@ -8694,17 +8605,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 234,
-            "defense": 159,
-            "stamina": 207
-          },
-          "unreleased": true
-        }
       }
     },
     "69": {
@@ -12130,9 +12030,6 @@
           "tempEvolutions": {
             "1": {
               "tempEvoId": 1
-            },
-            "Gmax": {
-              "tempEvoId": "Gmax"
             }
           }
         },
@@ -12184,15 +12081,6 @@
           "height": 1.4,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
-        },
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 261,
-            "defense": 149,
-            "stamina": 155
-          },
-          "unreleased": true
         }
       }
     },
@@ -12709,12 +12597,7 @@
         "873": {
           "name": "Normal",
           "proto": "KINGLER_NORMAL",
-          "form": 873,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 873
         }
       },
       "stats": {
@@ -12740,17 +12623,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 240,
-            "defense": 181,
-            "stamina": 146
-          },
-          "unreleased": true
-        }
       }
     },
     "100": {
@@ -16376,12 +16248,7 @@
         "322": {
           "name": "Normal",
           "proto": "LAPRAS_NORMAL",
-          "form": 322,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 322
         },
         "2585": {
           "name": "Costume 2020",
@@ -16409,17 +16276,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 165,
-            "defense": 174,
-            "stamina": 277
-          },
-          "unreleased": true
-        }
       }
     },
     "132": {
@@ -16604,11 +16460,6 @@
                 "translated": "Earn 70 hearts with your buddy"
               }
             }
-          },
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
           }
         },
         "2845": {
@@ -16709,17 +16560,6 @@
             "i18n": "Earn {{amount}} hearts with your buddy",
             "translated": "Earn 70 hearts with your buddy"
           }
-        }
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 104,
-            "defense": 114,
-            "stamina": 146
-          },
-          "unreleased": true
         }
       },
       "little": true
@@ -17714,12 +17554,7 @@
         "199": {
           "name": "Normal",
           "proto": "SNORLAX_NORMAL",
-          "form": 199,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 199
         }
       },
       "stats": {
@@ -17741,17 +17576,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 190,
-            "defense": 169,
-            "stamina": 330
-          },
-          "unreleased": true
-        }
       }
     },
     "144": {
@@ -62720,12 +62544,7 @@
         "2105": {
           "name": "Normal",
           "proto": "GARBODOR_NORMAL",
-          "form": 2105,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 2105
         }
       },
       "stats": {
@@ -62751,17 +62570,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 181,
-            "defense": 164,
-            "stamina": 190
-          },
-          "unreleased": true
-        }
       }
     },
     "570": {
@@ -87653,12 +87461,7 @@
         "2324": {
           "name": "Normal",
           "proto": "MELMETAL_NORMAL",
-          "form": 2324,
-          "tempEvolutions": {
-            "Gmax": {
-              "tempEvoId": "Gmax"
-            }
-          }
+          "form": 2324
         }
       },
       "stats": {
@@ -87684,17 +87487,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 248,
-            "defense": 209,
-            "stamina": 286
-          },
-          "unreleased": true
-        }
       }
     },
     "810": {
@@ -87941,17 +87733,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 239,
-            "defense": 168,
-            "stamina": 225
-          },
-          "unreleased": true
-        }
       }
     },
     "813": {
@@ -88198,17 +87979,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 238,
-            "defense": 163,
-            "stamina": 190
-          },
-          "unreleased": true
-        }
       }
     },
     "816": {
@@ -88455,17 +88225,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 262,
-            "defense": 142,
-            "stamina": 172
-          },
-          "unreleased": true
-        }
       }
     },
     "819": {
@@ -88907,17 +88666,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 163,
-            "defense": 192,
-            "stamina": 221
-          },
-          "unreleased": true
-        }
       }
     },
     "824": {
@@ -89151,17 +88899,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 156,
-            "defense": 240,
-            "stamina": 155
-          },
-          "unreleased": true
-        }
       }
     },
     "827": {
@@ -89818,17 +89555,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 213,
-            "defense": 164,
-            "stamina": 207
-          },
-          "unreleased": true
-        }
       }
     },
     "835": {
@@ -90246,17 +89972,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 146,
-            "defense": 198,
-            "stamina": 242
-          },
-          "unreleased": true
-        }
       }
     },
     "840": {
@@ -90426,17 +90141,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 214,
-            "defense": 144,
-            "stamina": 172
-          },
-          "unreleased": true
-        }
       }
     },
     "842": {
@@ -90531,17 +90235,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 178,
-            "defense": 146,
-            "stamina": 242
-          },
-          "unreleased": true
-        }
       }
     },
     "843": {
@@ -90712,17 +90405,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 202,
-            "defense": 207,
-            "stamina": 176
-          },
-          "unreleased": true
-        }
       }
     },
     "845": {
@@ -91171,26 +90853,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Amped Gmax": {
-          "tempEvoId": "Amped Gmax",
-          "stats": {
-            "attack": 224,
-            "defense": 140,
-            "stamina": 181
-          },
-          "unreleased": true
-        },
-        "Low Key Gmax": {
-          "tempEvoId": "Low Key Gmax",
-          "stats": {
-            "attack": 224,
-            "defense": 140,
-            "stamina": 181
-          },
-          "unreleased": true
-        }
       }
     },
     "850": {
@@ -91376,17 +91038,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 220,
-            "defense": 158,
-            "stamina": 225
-          },
-          "unreleased": true
-        }
       }
     },
     "852": {
@@ -92046,17 +91697,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 237,
-            "defense": 182,
-            "stamina": 149
-          },
-          "unreleased": true
-        }
       }
     },
     "859": {
@@ -92343,17 +91983,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 227,
-            "defense": 139,
-            "stamina": 216
-          },
-          "unreleased": true
-        }
       }
     },
     "862": {
@@ -93106,17 +92735,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 203,
-            "defense": 203,
-            "stamina": 163
-          },
-          "unreleased": true
-        }
       }
     },
     "870": {
@@ -94010,17 +93628,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 226,
-            "defense": 126,
-            "stamina": 263
-          },
-          "unreleased": true
-        }
       }
     },
     "880": {
@@ -94436,17 +94043,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Gmax": {
-          "tempEvoId": "Gmax",
-          "stats": {
-            "attack": 239,
-            "defense": 185,
-            "stamina": 172
-          },
-          "unreleased": true
-        }
       }
     },
     "885": {
@@ -95391,46 +94987,6 @@
         "thirdMoveCandy": 100,
         "tradable": true,
         "transferable": true
-      },
-      "tempEvolutions": {
-        "Rapid Strike Gmax": {
-          "tempEvoId": "Rapid Strike Gmax",
-          "stats": {
-            "attack": 254,
-            "defense": 177,
-            "stamina": 225
-          },
-          "types": {
-            "2": {
-              "typeId": 2,
-              "typeName": "Fighting"
-            },
-            "11": {
-              "typeId": 11,
-              "typeName": "Water"
-            }
-          },
-          "unreleased": true
-        },
-        "Single Strike Gmax": {
-          "tempEvoId": "Single Strike Gmax",
-          "stats": {
-            "attack": 254,
-            "defense": 177,
-            "stamina": 225
-          },
-          "types": {
-            "2": {
-              "typeId": 2,
-              "typeName": "Fighting"
-            },
-            "17": {
-              "typeId": 17,
-              "typeName": "Dark"
-            }
-          },
-          "unreleased": true
-        }
       }
     },
     "893": {
@@ -110182,16 +109738,7 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 92,
-          "defense": 78,
-          "stamina": 120,
-          "unreleased": true
-        }
-      ]
+      "purificationCandy": 3
     },
     "64": {
       "formName": "Alola",
@@ -111574,13 +111121,6 @@
       "formId": 169,
       "tempEvolutions": [
         {
-          "tempEvoId": "Gmax",
-          "attack": 198,
-          "defense": 189,
-          "stamina": 190,
-          "unreleased": true
-        },
-        {
           "tempEvoId": 1,
           "attack": 241,
           "defense": 246,
@@ -111641,13 +111181,6 @@
       "proto": "CHARIZARD_NORMAL",
       "formId": 178,
       "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 223,
-          "defense": 173,
-          "stamina": 186,
-          "unreleased": true
-        },
         {
           "tempEvoId": 2,
           "attack": 273,
@@ -111722,13 +111255,6 @@
       "formId": 187,
       "tempEvolutions": [
         {
-          "tempEvoId": "Gmax",
-          "attack": 171,
-          "defense": 207,
-          "stamina": 188,
-          "unreleased": true
-        },
-        {
           "tempEvoId": 1,
           "attack": 264,
           "defense": 237,
@@ -111781,16 +111307,7 @@
       "proto": "SNORLAX_NORMAL",
       "formId": 199,
       "purificationDust": 5000,
-      "purificationCandy": 5,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 190,
-          "defense": 169,
-          "stamina": 330,
-          "unreleased": true
-        }
-      ]
+      "purificationCandy": 5
     },
     "202": {
       "formName": "Normal",
@@ -112321,16 +111838,7 @@
       "proto": "LAPRAS_NORMAL",
       "formId": 322,
       "purificationDust": 5000,
-      "purificationCandy": 5,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 165,
-          "defense": 174,
-          "stamina": 277,
-          "unreleased": true
-        }
-      ]
+      "purificationCandy": 5
     },
     "585": {
       "formName": "Spring Form",
@@ -112473,15 +111981,6 @@
           "evoId": 26,
           "formId": 50,
           "candyCost": 50
-        }
-      ],
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 112,
-          "defense": 96,
-          "stamina": 111,
-          "unreleased": true
         }
       ]
     },
@@ -113281,16 +112780,7 @@
       "proto": "MACHAMP_NORMAL",
       "formId": 815,
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 234,
-          "defense": 159,
-          "stamina": 207,
-          "unreleased": true
-        }
-      ]
+      "purificationCandy": 3
     },
     "818": {
       "formName": "Normal",
@@ -113515,16 +113005,7 @@
       "proto": "KINGLER_NORMAL",
       "formId": 873,
       "purificationDust": 3000,
-      "purificationCandy": 3,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 240,
-          "defense": 181,
-          "stamina": 146,
-          "unreleased": true
-        }
-      ]
+      "purificationCandy": 3
     },
     "876": {
       "formName": "Normal",
@@ -114009,16 +113490,7 @@
     "959": {
       "formName": "Normal",
       "proto": "BUTTERFREE_NORMAL",
-      "formId": 959,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 167,
-          "defense": 137,
-          "stamina": 155,
-          "unreleased": true
-        }
-      ]
+      "formId": 959
     },
     "962": {
       "formName": "Normal",
@@ -114197,13 +113669,6 @@
       "proto": "GENGAR_NORMAL",
       "formId": 1044,
       "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 261,
-          "defense": 149,
-          "stamina": 155,
-          "unreleased": true
-        },
         {
           "tempEvoId": 1,
           "attack": 349,
@@ -114385,15 +113850,6 @@
           "formId": 0,
           "candyCost": 25,
           "questRequirement": "SYLVEON_EVOLUTION_QUEST"
-        }
-      ],
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 104,
-          "defense": 114,
-          "stamina": 146,
-          "unreleased": true
         }
       ]
     },
@@ -116653,16 +116109,7 @@
     "2105": {
       "formName": "Normal",
       "proto": "GARBODOR_NORMAL",
-      "formId": 2105,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 181,
-          "defense": 164,
-          "stamina": 190,
-          "unreleased": true
-        }
-      ]
+      "formId": 2105
     },
     "2108": {
       "formName": "Normal",
@@ -117043,16 +116490,7 @@
     "2324": {
       "formName": "Normal",
       "proto": "MELMETAL_NORMAL",
-      "formId": 2324,
-      "tempEvolutions": [
-        {
-          "tempEvoId": "Gmax",
-          "attack": 248,
-          "defense": 209,
-          "stamina": 286,
-          "unreleased": true
-        }
-      ]
+      "formId": 2324
     },
     "2327": {
       "formName": "Spring 2020",
