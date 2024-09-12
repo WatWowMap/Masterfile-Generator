@@ -86672,12 +86672,11 @@
           "height": 7.5,
           "weight": 230,
           "quickMoves": {
-            "133": {
-              "moveId": 133,
-              "moveName": "Struggle",
-              "proto": "STRUGGLE",
-              "type": 1,
-              "power": 35
+            "231": {
+              "moveId": 231,
+              "moveName": "Splash",
+              "proto": "SPLASH_FAST",
+              "type": 11
             }
           },
           "chargedMoves": {
@@ -86736,12 +86735,11 @@
         }
       },
       "quickMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+        "231": {
+          "moveId": 231,
+          "moveName": "Splash",
+          "proto": "SPLASH_FAST",
+          "type": 11
         }
       },
       "chargedMoves": {
@@ -91448,12 +91446,12 @@
         }
       },
       "chargedMoves": {
-        "30": {
-          "moveId": 30,
-          "moveName": "Psybeam",
-          "proto": "PSYBEAM",
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
           "type": 14,
-          "power": 70
+          "power": 65
         },
         "86": {
           "moveId": 86,
@@ -91535,12 +91533,12 @@
         }
       },
       "chargedMoves": {
-        "30": {
-          "moveId": 30,
-          "moveName": "Psybeam",
-          "proto": "PSYBEAM",
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
           "type": 14,
-          "power": 70
+          "power": 65
         },
         "86": {
           "moveId": 86,
@@ -91636,12 +91634,12 @@
         }
       },
       "chargedMoves": {
-        "30": {
-          "moveId": 30,
-          "moveName": "Psybeam",
-          "proto": "PSYBEAM",
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
           "type": 14,
-          "power": 70
+          "power": 65
         },
         "86": {
           "moveId": 86,
@@ -118821,7 +118819,7 @@
       "height": 7.5,
       "weight": 230,
       "quickMoves": [
-        133
+        231
       ],
       "chargedMoves": [
         133
