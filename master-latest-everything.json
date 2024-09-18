@@ -33229,7 +33229,7 @@
         },
         "462": {
           "moveId": 462,
-          "moveName": "Force Palm Fast",
+          "moveName": "Force Palm",
           "proto": "FORCE_PALM_FAST",
           "type": 2,
           "power": 9
@@ -34269,7 +34269,7 @@
         },
         "462": {
           "moveId": 462,
-          "moveName": "Force Palm Fast",
+          "moveName": "Force Palm",
           "proto": "FORCE_PALM_FAST",
           "type": 2,
           "power": 9
@@ -67555,7 +67555,7 @@
         },
         "462": {
           "moveId": 462,
-          "moveName": "Force Palm Fast",
+          "moveName": "Force Palm",
           "proto": "FORCE_PALM_FAST",
           "type": 2,
           "power": 9
@@ -93420,12 +93420,12 @@
           "form": 0
         },
         "2544": {
-          "name": "Full Belly Mode",
+          "name": "Full Belly",
           "proto": "MORPEKO_FULL_BELLY",
           "form": 2544
         },
         "2545": {
-          "name": "Hangry Mode",
+          "name": "Hangry",
           "proto": "MORPEKO_HANGRY",
           "form": 2545
         }
@@ -117100,12 +117100,12 @@
       ]
     },
     "2544": {
-      "formName": "Full Belly Mode",
+      "formName": "Full Belly",
       "proto": "MORPEKO_FULL_BELLY",
       "formId": 2544
     },
     "2545": {
-      "formName": "Hangry Mode",
+      "formName": "Hangry",
       "proto": "MORPEKO_HANGRY",
       "formId": 2545
     },
@@ -122977,7 +122977,7 @@
     },
     "901": {
       "id": 901,
-      "name": "Egg Incubator ∞",
+      "name": "Incubator ∞",
       "proto": "ITEM_INCUBATOR_BASIC_UNLIMITED",
       "type": "Incubator",
       "category": "Incubator",
@@ -123232,7 +123232,7 @@
     },
     "1506": {
       "id": 1506,
-      "name": "Mp",
+      "name": "Max Particle",
       "proto": "ITEM_MP",
       "type": "Mp",
       "category": "Mp",
@@ -123240,7 +123240,7 @@
     },
     "1507": {
       "id": 1507,
-      "name": "Mp Replenish",
+      "name": "Max Particle Pack",
       "proto": "ITEM_MP_REPLENISH",
       "type": "Mp Replenish",
       "category": "Bread",
@@ -123332,42 +123332,42 @@
     },
     "1619": {
       "id": 1619,
-      "name": "Road to Sinnoh: Hatch",
+      "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_05",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
     "1620": {
       "id": 1620,
-      "name": "Road to Sinnoh: Raids",
+      "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_06",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
     "1621": {
       "id": 1621,
-      "name": "Event Ticket 07",
+      "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_07",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
     "1622": {
       "id": 1622,
-      "name": "Event Ticket 08",
+      "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_08",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
     "1623": {
       "id": 1623,
-      "name": "Event Ticket 09",
+      "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_09",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
     "1624": {
       "id": 1624,
-      "name": "Wonder Ticket",
+      "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_10",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
@@ -125429,12 +125429,12 @@
     },
     "406": {
       "id": 406,
-      "name": "Aura Wheel Electric",
+      "name": "Aura Wheel",
       "proto": "AURA_WHEEL_ELECTRIC"
     },
     "407": {
       "id": 407,
-      "name": "Aura Wheel Dark",
+      "name": "Aura Wheel",
       "proto": "AURA_WHEEL_DARK"
     },
     "408": {
@@ -125445,92 +125445,92 @@
     },
     "409": {
       "id": 409,
-      "name": "Vn Bm 001",
+      "name": "Max Flare",
       "proto": "VN_BM_001"
     },
     "410": {
       "id": 410,
-      "name": "Vn Bm 002",
+      "name": "Max Flutterby",
       "proto": "VN_BM_002"
     },
     "411": {
       "id": 411,
-      "name": "Vn Bm 003",
+      "name": "Max Lightning",
       "proto": "VN_BM_003"
     },
     "412": {
       "id": 412,
-      "name": "Vn Bm 004",
+      "name": "Max Strike",
       "proto": "VN_BM_004"
     },
     "413": {
       "id": 413,
-      "name": "Vn Bm 005",
+      "name": "Max Knuckle",
       "proto": "VN_BM_005"
     },
     "414": {
       "id": 414,
-      "name": "Vn Bm 006",
+      "name": "Max Phantasm",
       "proto": "VN_BM_006"
     },
     "415": {
       "id": 415,
-      "name": "Vn Bm 007",
+      "name": "Max Hailstorm",
       "proto": "VN_BM_007"
     },
     "416": {
       "id": 416,
-      "name": "Vn Bm 008",
+      "name": "Max Ooze",
       "proto": "VN_BM_008"
     },
     "417": {
       "id": 417,
-      "name": "Vn Bm 009",
+      "name": "Max Geyser",
       "proto": "VN_BM_009"
     },
     "418": {
       "id": 418,
-      "name": "Vn Bm 010",
+      "name": "Max Airstream",
       "proto": "VN_BM_010"
     },
     "419": {
       "id": 419,
-      "name": "Vn Bm 011",
+      "name": "Max Starfall",
       "proto": "VN_BM_011"
     },
     "420": {
       "id": 420,
-      "name": "Vn Bm 012",
+      "name": "Max Wyrmwind",
       "proto": "VN_BM_012"
     },
     "421": {
       "id": 421,
-      "name": "Vn Bm 013",
+      "name": "Max Mindstorm",
       "proto": "VN_BM_013"
     },
     "422": {
       "id": 422,
-      "name": "Vn Bm 014",
+      "name": "Max Rockfall",
       "proto": "VN_BM_014"
     },
     "423": {
       "id": 423,
-      "name": "Vn Bm 015",
+      "name": "Max Quake",
       "proto": "VN_BM_015"
     },
     "424": {
       "id": 424,
-      "name": "Vn Bm 016",
+      "name": "Max Darkness",
       "proto": "VN_BM_016"
     },
     "425": {
       "id": 425,
-      "name": "Vn Bm 017",
+      "name": "Max Overgrowth",
       "proto": "VN_BM_017"
     },
     "426": {
       "id": 426,
-      "name": "Vn Bm 018",
+      "name": "Max Steelspike",
       "proto": "VN_BM_018"
     },
     "460": {
@@ -125545,7 +125545,7 @@
     },
     "462": {
       "id": 462,
-      "name": "Force Palm Fast",
+      "name": "Force Palm",
       "proto": "FORCE_PALM_FAST",
       "power": 9
     },
