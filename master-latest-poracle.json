@@ -10318,6 +10318,27 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
     },
+    "143_2849": {
+      "name": "Snorlax",
+      "id": 143,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Wildarea 2024",
+        "id": 2849
+      },
+      "stats": {
+        "baseAttack": 190,
+        "baseDefense": 169,
+        "baseStamina": 330
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
     "144_0": {
       "name": "Articuno",
       "id": 144,
@@ -58753,6 +58774,9 @@
     },
     "88": {
       "text": "Collect Stamp"
+    },
+    "89": {
+      "text": "Complete Bread Dough Battle"
     }
   },
   "grunts": {

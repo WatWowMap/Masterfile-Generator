@@ -11198,7 +11198,8 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        199
+        199,
+        2849
       ],
       "sizeSettings": [
         {
@@ -87021,6 +87022,11 @@
       "formId": 2848,
       "isCostume": true
     },
+    "2849": {
+      "formName": "Wildarea 2024",
+      "proto": "SNORLAX_WILDAREA_2024",
+      "formId": 2849
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -92956,6 +92962,11 @@
       "id": 88,
       "proto": "QUEST_COLLECT_STAMP",
       "formatted": "Collect Stamp"
+    },
+    "89": {
+      "id": 89,
+      "proto": "QUEST_COMPLETE_BREAD_DOUGH_BATTLE",
+      "formatted": "Complete Bread Dough Battle"
     }
   },
   "questRewardTypes": {
@@ -93405,6 +93416,16 @@
       "id": 71,
       "proto": "WITH_POI_SPONSOR_ID",
       "formatted": "With POI Sponsor Id"
+    },
+    "72": {
+      "id": 72,
+      "proto": "WITH_COLLECTION_ID",
+      "formatted": "With Collection Id"
+    },
+    "73": {
+      "id": 73,
+      "proto": "WITH_WIN_BREAD_DOUGH_BATTLE",
+      "formatted": "With Win Bread Dough Battle"
     }
   },
   "invasions": {

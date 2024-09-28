@@ -7978,6 +7978,10 @@
         "199": {
           "name": "Normal",
           "proto": "SNORLAX_NORMAL"
+        },
+        "2849": {
+          "name": "Wildarea 2024",
+          "proto": "SNORLAX_WILDAREA_2024"
         }
       },
       "attack": 190,
@@ -53089,6 +53093,9 @@
     },
     "88": {
       "text": "Collect Stamp"
+    },
+    "89": {
+      "text": "Complete Bread Dough Battle"
     }
   },
   "quest_reward_types": {
@@ -53449,6 +53456,14 @@
     "71": {
       "proto": "WITH_POI_SPONSOR_ID",
       "text": "With POI Sponsor Id"
+    },
+    "72": {
+      "proto": "WITH_COLLECTION_ID",
+      "text": "With Collection Id"
+    },
+    "73": {
+      "proto": "WITH_WIN_BREAD_DOUGH_BATTLE",
+      "text": "With Win Bread Dough Battle"
     }
   },
   "invasions": {
