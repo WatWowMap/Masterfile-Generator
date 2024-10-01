@@ -6109,7 +6109,9 @@
       "eliteQuickMoves": [
         209
       ],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        251
+      ],
       "genId": 1,
       "generation": "Kanto",
       "forms": [
@@ -28731,7 +28733,7 @@
         282
       ],
       "chargedMoves": [
-        133
+        74
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -65448,13 +65450,12 @@
       ],
       "quickMoves": [
         202,
-        205
+        249
       ],
       "chargedMoves": [
-        79,
-        251,
-        279,
-        333
+        59,
+        277,
+        406
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -83499,7 +83500,12 @@
     "2545": {
       "formName": "Hangry",
       "proto": "MORPEKO_HANGRY",
-      "formId": 2545
+      "formId": 2545,
+      "chargedMoves": [
+        59,
+        277,
+        407
+      ]
     },
     "2576": {
       "formName": "Crowned Sword",
@@ -88528,6 +88534,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1618": {
+      "itemId": 1618,
+      "itemName": "Event Ticket 04",
+      "proto": "ITEM_EVENT_TICKET_04",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1619": {
       "itemId": 1619,
       "itemName": "Event Ticket 05",
@@ -88567,6 +88580,13 @@
       "itemId": 1624,
       "itemName": "Event Ticket 10",
       "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1628": {
+      "itemId": 1628,
+      "itemName": "Event Ticket 04 To Gift",
+      "proto": "ITEM_EVENT_TICKET_04_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -92514,6 +92534,38 @@
       "power": 230,
       "durationMs": 3100,
       "energyDelta": -100
+    },
+    "406": {
+      "moveId": 406,
+      "moveName": "Aura Wheel Electric",
+      "proto": "AURA_WHEEL_ELECTRIC",
+      "fast": false,
+      "type": 13,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      },
+      "power": 100,
+      "durationMs": 2700,
+      "energyDelta": -45
+    },
+    "407": {
+      "moveId": 407,
+      "moveName": "Aura Wheel Dark",
+      "proto": "AURA_WHEEL_DARK",
+      "fast": false,
+      "type": 17,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      },
+      "power": 100,
+      "durationMs": 2700,
+      "energyDelta": -45
     },
     "408": {
       "moveId": 408,

@@ -13028,7 +13028,7 @@
         282
       ],
       "chargedMoves": [
-        133
+        74
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -29870,13 +29870,12 @@
       ],
       "quickMoves": [
         202,
-        205
+        249
       ],
       "chargedMoves": [
-        79,
-        251,
-        279,
-        333
+        59,
+        277,
+        406
       ],
       "genId": 8,
       "generation": "Galar",
@@ -29885,7 +29884,12 @@
           "name": "Full Belly"
         },
         "2545": {
-          "name": "Hangry"
+          "name": "Hangry",
+          "chargedMoves": [
+            59,
+            277,
+            407
+          ]
         }
       },
       "height": 0.3,
@@ -34880,12 +34884,14 @@
     "1610": "Ticket City Safari 00",
     "1611": "Ticket City Safari 01",
     "1612": "Ticket City Safari 02",
+    "1618": "Event Ticket 04",
     "1619": "Event Ticket 05",
     "1620": "Event Ticket 06",
     "1621": "Event Ticket 07",
     "1622": "Event Ticket 08",
     "1623": "Event Ticket 09",
     "1624": "Event Ticket 10",
+    "1628": "Event Ticket 04 To Gift",
     "1629": "Event Ticket 05 To Gift",
     "1630": "Event Ticket 06 To Gift",
     "1631": "Event Ticket 07 To Gift",
@@ -36223,10 +36229,12 @@
       "type": 8
     },
     "406": {
-      "name": "Aura Wheel Electric"
+      "name": "Aura Wheel Electric",
+      "type": 13
     },
     "407": {
-      "name": "Aura Wheel Dark"
+      "name": "Aura Wheel Dark",
+      "type": 17
     },
     "408": {
       "name": "High Jump Kick",

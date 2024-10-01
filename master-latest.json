@@ -19443,7 +19443,7 @@
         "Take Down"
       ],
       "charged_moves": [
-        "Struggle"
+        "Iron Head"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -43508,13 +43508,12 @@
       ],
       "quick_moves": [
         "Bite",
-        "Thunder Shock"
+        "Charge Beam"
       ],
       "charged_moves": [
-        "Thunderbolt",
-        "Wild Charge",
-        "Crunch",
-        "Payback"
+        "Seed Bomb",
+        "Outrage",
+        "Aura Wheel Electric"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -43525,7 +43524,12 @@
         },
         "2545": {
           "name": "Hangry",
-          "proto": "MORPEKO_HANGRY"
+          "proto": "MORPEKO_HANGRY",
+          "charged_moves": [
+            "Seed Bomb",
+            "Outrage",
+            "Aura Wheel Dark"
+          ]
         }
       },
       "attack": 192,
@@ -50705,6 +50709,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1618": {
+      "name": "Event Ticket 04",
+      "proto": "ITEM_EVENT_TICKET_04",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1619": {
       "name": "Event Ticket 05",
       "proto": "ITEM_EVENT_TICKET_05",
@@ -50738,6 +50748,12 @@
     "1624": {
       "name": "Event Ticket 10",
       "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1628": {
+      "name": "Event Ticket 04 To Gift",
+      "proto": "ITEM_EVENT_TICKET_04_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -52744,11 +52760,15 @@
     },
     "406": {
       "name": "Aura Wheel Electric",
-      "proto": "AURA_WHEEL_ELECTRIC"
+      "proto": "AURA_WHEEL_ELECTRIC",
+      "type": "Electric",
+      "power": 100
     },
     "407": {
       "name": "Aura Wheel Dark",
-      "proto": "AURA_WHEEL_DARK"
+      "proto": "AURA_WHEEL_DARK",
+      "type": "Dark",
+      "power": 100
     },
     "408": {
       "name": "High Jump Kick",

@@ -42339,12 +42339,12 @@
         }
       },
       "chargedMoves": {
-        "133": {
-          "moveId": 133,
-          "moveName": "Struggle",
-          "proto": "STRUGGLE",
-          "type": 1,
-          "power": 35
+        "74": {
+          "moveId": 74,
+          "moveName": "Iron Head",
+          "proto": "IRON_HEAD",
+          "type": 9,
+          "power": 60
         }
       },
       "genId": 3,
@@ -93378,41 +93378,34 @@
           "type": 17,
           "power": 6
         },
-        "205": {
-          "moveId": 205,
-          "moveName": "Thunder Shock",
-          "proto": "THUNDER_SHOCK_FAST",
+        "249": {
+          "moveId": 249,
+          "moveName": "Charge Beam",
+          "proto": "CHARGE_BEAM_FAST",
           "type": 13,
-          "power": 5
+          "power": 8
         }
       },
       "chargedMoves": {
-        "79": {
-          "moveId": 79,
-          "moveName": "Thunderbolt",
-          "proto": "THUNDERBOLT",
+        "59": {
+          "moveId": 59,
+          "moveName": "Seed Bomb",
+          "proto": "SEED_BOMB",
+          "type": 12,
+          "power": 55
+        },
+        "277": {
+          "moveId": 277,
+          "moveName": "Outrage",
+          "proto": "OUTRAGE",
+          "type": 16,
+          "power": 110
+        },
+        "406": {
+          "moveId": 406,
+          "moveName": "Aura Wheel",
+          "proto": "AURA_WHEEL_ELECTRIC",
           "type": 13,
-          "power": 80
-        },
-        "251": {
-          "moveId": 251,
-          "moveName": "Wild Charge",
-          "proto": "WILD_CHARGE",
-          "type": 13,
-          "power": 90
-        },
-        "279": {
-          "moveId": 279,
-          "moveName": "Crunch",
-          "proto": "CRUNCH",
-          "type": 17,
-          "power": 70
-        },
-        "333": {
-          "moveId": 333,
-          "moveName": "Payback",
-          "proto": "PAYBACK",
-          "type": 17,
           "power": 100
         }
       },
@@ -93432,7 +93425,30 @@
         "2545": {
           "name": "Hangry",
           "proto": "MORPEKO_HANGRY",
-          "form": 2545
+          "form": 2545,
+          "chargedMoves": {
+            "59": {
+              "moveId": 59,
+              "moveName": "Seed Bomb",
+              "proto": "SEED_BOMB",
+              "type": 12,
+              "power": 55
+            },
+            "277": {
+              "moveId": 277,
+              "moveName": "Outrage",
+              "proto": "OUTRAGE",
+              "type": 16,
+              "power": 110
+            },
+            "407": {
+              "moveId": 407,
+              "moveName": "Aura Wheel",
+              "proto": "AURA_WHEEL_DARK",
+              "type": 17,
+              "power": 100
+            }
+          }
         }
       },
       "stats": {
@@ -117112,7 +117128,12 @@
     "2545": {
       "formName": "Hangry",
       "proto": "MORPEKO_HANGRY",
-      "formId": 2545
+      "formId": 2545,
+      "chargedMoves": [
+        59,
+        277,
+        407
+      ]
     },
     "2576": {
       "formName": "Crowned Sword",
@@ -123340,6 +123361,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1618": {
+      "id": 1618,
+      "name": "Ticket",
+      "proto": "ITEM_EVENT_TICKET_04",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1619": {
       "id": 1619,
       "name": "Ticket",
@@ -123379,6 +123407,13 @@
       "id": 1624,
       "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1628": {
+      "id": 1628,
+      "name": "Event Ticket 04 To Gift",
+      "proto": "ITEM_EVENT_TICKET_04_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -125440,12 +125475,14 @@
     "406": {
       "id": 406,
       "name": "Aura Wheel",
-      "proto": "AURA_WHEEL_ELECTRIC"
+      "proto": "AURA_WHEEL_ELECTRIC",
+      "power": 100
     },
     "407": {
       "id": 407,
       "name": "Aura Wheel",
-      "proto": "AURA_WHEEL_DARK"
+      "proto": "AURA_WHEEL_DARK",
+      "power": 100
     },
     "408": {
       "id": 408,
