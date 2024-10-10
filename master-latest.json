@@ -7981,7 +7981,8 @@
         },
         "2849": {
           "name": "Wildarea 2024",
-          "proto": "SNORLAX_WILDAREA_2024"
+          "proto": "SNORLAX_WILDAREA_2024",
+          "is_costume": true
         }
       },
       "attack": 190,
@@ -15978,7 +15979,8 @@
           "attack": 188,
           "defense": 217,
           "stamina": 137,
-          "unreleased": true
+          "height": 1,
+          "weight": 23.5
         }
       }
     },
@@ -42297,7 +42299,7 @@
       "family": 848,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 1,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -43508,11 +43510,13 @@
       ],
       "quick_moves": [
         "Bite",
+        "Thunder Shock",
         "Charge Beam"
       ],
       "charged_moves": [
         "Seed Bomb",
         "Outrage",
+        "Psychic Fangs",
         "Aura Wheel Electric"
       ],
       "gen_id": 8,
@@ -43528,6 +43532,7 @@
           "charged_moves": [
             "Seed Bomb",
             "Outrage",
+            "Psychic Fangs",
             "Aura Wheel Dark"
           ]
         }
@@ -50155,6 +50160,20 @@
       "type": "Pokeball",
       "category": "Pokeball",
       "min_trainer_level": 100
+    },
+    "7": {
+      "name": "Wild Ball",
+      "proto": "ITEM_WILD_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "min_trainer_level": 1
+    },
+    "8": {
+      "name": "Wild Ball Premier",
+      "proto": "ITEM_WILD_BALL_PREMIER",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "min_trainer_level": 1
     },
     "101": {
       "name": "Potion",

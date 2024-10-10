@@ -17559,7 +17559,8 @@
         "2849": {
           "name": "Wildarea 2024",
           "proto": "SNORLAX_WILDAREA_2024",
-          "form": 2849
+          "form": 2849,
+          "isCostume": true
         }
       },
       "stats": {
@@ -34971,6 +34972,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -34985,7 +34987,10 @@
             "defense": 217,
             "stamina": 137
           },
-          "unreleased": true
+          "height": 1,
+          "weight": 23.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -90730,7 +90735,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 1,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -93378,6 +93383,13 @@
           "type": 17,
           "power": 6
         },
+        "205": {
+          "moveId": 205,
+          "moveName": "Thunder Shock",
+          "proto": "THUNDER_SHOCK_FAST",
+          "type": 13,
+          "power": 5
+        },
         "249": {
           "moveId": 249,
           "moveName": "Charge Beam",
@@ -93400,6 +93412,13 @@
           "proto": "OUTRAGE",
           "type": 16,
           "power": 110
+        },
+        "353": {
+          "moveId": 353,
+          "moveName": "Psychic Fangs",
+          "proto": "PSYCHIC_FANGS",
+          "type": 14,
+          "power": 30
         },
         "406": {
           "moveId": 406,
@@ -93440,6 +93459,13 @@
               "proto": "OUTRAGE",
               "type": 16,
               "power": 110
+            },
+            "353": {
+              "moveId": 353,
+              "moveName": "Psychic Fangs",
+              "proto": "PSYCHIC_FANGS",
+              "type": 14,
+              "power": 30
             },
             "407": {
               "moveId": 407,
@@ -112865,8 +112891,6 @@
       "formName": "Normal",
       "proto": "MAWILE_NORMAL",
       "formId": 833,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -112874,8 +112898,20 @@
           "defense": 217,
           "stamina": 137,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 188,
+          "defense": 217,
+          "stamina": 137,
+          "height": 1,
+          "weight": 23.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "836": {
       "formName": "Normal",
@@ -117132,6 +117168,7 @@
       "chargedMoves": [
         59,
         277,
+        353,
         407
       ]
     },
@@ -120661,7 +120698,10 @@
     "2849": {
       "formName": "Wildarea 2024",
       "proto": "SNORLAX_WILDAREA_2024",
-      "formId": 2849
+      "formId": 2849,
+      "isCostume": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "2981": {
       "formName": "Normal",
@@ -120963,6 +121003,34 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
+    },
+    "SNORLAX_WILDAREA_2024": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 1.029
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 1.05
+        },
+        {
+          "name": "mLowerBound",
+          "value": 1.575
+        },
+        {
+          "name": "mUpperBound",
+          "value": 2.625
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 3.15
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 3.675
+        }
+      ]
     }
   },
   "types": {
@@ -122726,6 +122794,22 @@
       "type": "Pokeball",
       "category": "Pokeball",
       "minTrainerLevel": 100
+    },
+    "7": {
+      "id": 7,
+      "name": "Wild Ball",
+      "proto": "ITEM_WILD_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 1
+    },
+    "8": {
+      "id": 8,
+      "name": "Wild Ball Premier",
+      "proto": "ITEM_WILD_BALL_PREMIER",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 1
     },
     "101": {
       "id": 101,

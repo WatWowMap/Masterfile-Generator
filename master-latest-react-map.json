@@ -5280,7 +5280,8 @@
           "name": "Normal"
         },
         "2849": {
-          "name": "Wildarea 2024"
+          "name": "Wildarea 2024",
+          "isCostume": true
         }
       },
       "height": 2.1,
@@ -10685,9 +10686,7 @@
       "mythical": false,
       "ultraBeast": false,
       "tempEvolutions": {
-        "1": {
-          "unreleased": true
-        }
+        "1": {}
       }
     },
     "304": {
@@ -29870,11 +29869,13 @@
       ],
       "quickMoves": [
         202,
+        205,
         249
       ],
       "chargedMoves": [
         59,
         277,
+        353,
         406
       ],
       "genId": 8,
@@ -29888,6 +29889,7 @@
           "chargedMoves": [
             59,
             277,
+            353,
             407
           ]
         }
@@ -34819,6 +34821,8 @@
     "2": "Great Ball",
     "3": "Ultra Ball",
     "4": "Master Ball",
+    "7": "Wild Ball",
+    "8": "Wild Ball Premier",
     "101": "Potion",
     "102": "Super Potion",
     "103": "Hyper Potion",

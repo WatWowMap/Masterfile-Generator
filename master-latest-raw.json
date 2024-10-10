@@ -847,6 +847,8 @@
           "candyCost": 12
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "11": {
@@ -920,7 +922,9 @@
           "evoId": 12,
           "candyCost": 50
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "12": {
       "pokemonName": "Butterfree",
@@ -992,7 +996,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "13": {
       "pokemonName": "Weedle",
@@ -4431,6 +4437,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "57": {
@@ -4512,7 +4520,9 @@
           "candyCost": 100,
           "questRequirement": "ANNIHILAPE_EVOLUTION_QUEST"
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "58": {
       "pokemonName": "Growlithe",
@@ -23403,13 +23413,12 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -23417,8 +23426,20 @@
           "defense": 217,
           "stamina": 137,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 188,
+          "defense": 217,
+          "stamina": 137,
+          "height": 1,
+          "weight": 23.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "304": {
       "pokemonName": "Aron",
@@ -37110,7 +37131,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "486": {
       "pokemonName": "Regigigas",
@@ -39936,6 +39959,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "525": {
@@ -40012,7 +40037,9 @@
           "candyCost": 200,
           "tradeBonus": true
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "526": {
       "pokemonName": "Gigalith",
@@ -40084,7 +40111,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "527": {
       "pokemonName": "Woobat",
@@ -41222,7 +41251,9 @@
         262,
         343
       ],
-      "eliteQuickMoves": [],
+      "eliteQuickMoves": [
+        213
+      ],
       "eliteChargedMoves": [],
       "genId": 5,
       "generation": "Unova",
@@ -41348,6 +41379,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "544": {
@@ -41424,7 +41457,9 @@
           "evoId": 545,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "545": {
       "pokemonName": "Scolipede",
@@ -41495,7 +41530,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "546": {
       "pokemonName": "Cottonee",
@@ -44661,6 +44698,8 @@
           "tradeBonus": true
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "589": {
@@ -44732,7 +44771,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "590": {
       "pokemonName": "Foongus",
@@ -46725,6 +46766,8 @@
           "tradeBonus": true
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "617": {
@@ -46796,7 +46839,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "618": {
       "pokemonName": "Stunfisk",
@@ -63436,7 +63481,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 1,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -63447,7 +63492,7 @@
         {
           "evoId": 849,
           "formId": 2463,
-          "candyCost": 50
+          "candyCost": 400
         },
         {
           "evoId": 849,
@@ -65450,11 +65495,13 @@
       ],
       "quickMoves": [
         202,
+        205,
         249
       ],
       "chargedMoves": [
         59,
         277,
+        353,
         406
       ],
       "eliteQuickMoves": [],
@@ -72709,7 +72756,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "980": {
       "pokemonName": "Clodsire",
@@ -79253,8 +79302,6 @@
       "formName": "Normal",
       "proto": "MAWILE_NORMAL",
       "formId": 833,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -79262,8 +79309,20 @@
           "defense": 217,
           "stamina": 137,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 188,
+          "defense": 217,
+          "stamina": 137,
+          "height": 1,
+          "weight": 23.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "836": {
       "formName": "Normal",
@@ -83504,6 +83563,7 @@
       "chargedMoves": [
         59,
         277,
+        353,
         407
       ]
     },
@@ -87031,7 +87091,10 @@
     "2849": {
       "formName": "Wildarea 2024",
       "proto": "SNORLAX_WILDAREA_2024",
-      "formId": 2849
+      "formId": 2849,
+      "isCostume": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "2981": {
       "formName": "Normal",
@@ -87332,6 +87395,34 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
+    },
+    "SNORLAX_WILDAREA_2024": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 1.029
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 1.05
+        },
+        {
+          "name": "mLowerBound",
+          "value": 1.575
+        },
+        {
+          "name": "mUpperBound",
+          "value": 2.625
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 3.15
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 3.675
+        }
+      ]
     }
   },
   "types": {
@@ -87899,6 +87990,22 @@
       "type": "Pokeball",
       "category": "Pokeball",
       "minTrainerLevel": 100
+    },
+    "7": {
+      "itemId": 7,
+      "itemName": "Wild Ball",
+      "proto": "ITEM_WILD_BALL",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 1
+    },
+    "8": {
+      "itemId": 8,
+      "itemName": "Wild Ball Premier",
+      "proto": "ITEM_WILD_BALL_PREMIER",
+      "type": "Pokeball",
+      "category": "Pokeball",
+      "minTrainerLevel": 1
     },
     "101": {
       "itemId": 101,

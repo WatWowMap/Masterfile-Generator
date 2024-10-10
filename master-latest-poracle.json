@@ -20235,6 +20235,16 @@
             "baseStamina": 137
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 188,
+            "baseDefense": 217,
+            "baseStamina": 137
+          },
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -20271,6 +20281,16 @@
             "baseStamina": 137
           },
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 188,
+            "baseDefense": 217,
+            "baseStamina": 137
+          },
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -50033,7 +50053,7 @@
         {
           "evoId": 849,
           "id": 2463,
-          "candyCost": 50
+          "candyCost": 400
         },
         {
           "evoId": 849,
@@ -57051,6 +57071,12 @@
     },
     "6": {
       "name": "Beast Ball"
+    },
+    "7": {
+      "name": "Wild Ball"
+    },
+    "8": {
+      "name": "Wild Ball Premier"
     },
     "101": {
       "name": "Potion"
