@@ -3117,6 +3117,11 @@
           "form": 2844,
           "isCostume": true
         },
+        "2850": {
+          "name": "Diwali 2024",
+          "proto": "PIKACHU_DIWALI_2024",
+          "form": 2850
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -120703,6 +120708,11 @@
       "purificationDust": 5000,
       "purificationCandy": 5
     },
+    "2850": {
+      "formName": "Diwali 2024",
+      "proto": "PIKACHU_DIWALI_2024",
+      "formId": 2850
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -125664,6 +125674,171 @@
       "name": "Max Steelspike",
       "proto": "VN_BM_018"
     },
+    "427": {
+      "id": 427,
+      "name": "G-Max Wildfire",
+      "proto": "VN_BM_019"
+    },
+    "428": {
+      "id": 428,
+      "name": "G-Max Befuddle",
+      "proto": "VN_BM_020"
+    },
+    "429": {
+      "id": 429,
+      "name": "G-Max Volt Crash",
+      "proto": "VN_BM_021"
+    },
+    "430": {
+      "id": 430,
+      "name": "G-Max Gold Rush",
+      "proto": "VN_BM_022"
+    },
+    "431": {
+      "id": 431,
+      "name": "G-Max Chi Strike",
+      "proto": "VN_BM_023"
+    },
+    "432": {
+      "id": 432,
+      "name": "G-Max Terror",
+      "proto": "VN_BM_024"
+    },
+    "433": {
+      "id": 433,
+      "name": "G-Max Foam Burst",
+      "proto": "VN_BM_025"
+    },
+    "434": {
+      "id": 434,
+      "name": "G-Max Resonance",
+      "proto": "VN_BM_026"
+    },
+    "435": {
+      "id": 435,
+      "name": "G-Max Cuddle",
+      "proto": "VN_BM_027"
+    },
+    "436": {
+      "id": 436,
+      "name": "G-Max Replenish",
+      "proto": "VN_BM_028"
+    },
+    "437": {
+      "id": 437,
+      "name": "G-Max Malodor",
+      "proto": "VN_BM_029"
+    },
+    "438": {
+      "id": 438,
+      "name": "G-Max Meltdown",
+      "proto": "VN_BM_030"
+    },
+    "439": {
+      "id": 439,
+      "name": "G-Max Wind Rage",
+      "proto": "VN_BM_031"
+    },
+    "440": {
+      "id": 440,
+      "name": "G-Max Gravitas",
+      "proto": "VN_BM_032"
+    },
+    "441": {
+      "id": 441,
+      "name": "G-Max Stonesurge",
+      "proto": "VN_BM_033"
+    },
+    "442": {
+      "id": 442,
+      "name": "G-Max Volcalith",
+      "proto": "VN_BM_034"
+    },
+    "443": {
+      "id": 443,
+      "name": "G-Max Tartness",
+      "proto": "VN_BM_035"
+    },
+    "444": {
+      "id": 444,
+      "name": "G-Max Sweetness",
+      "proto": "VN_BM_036"
+    },
+    "445": {
+      "id": 445,
+      "name": "G-Max Sandblast",
+      "proto": "VN_BM_037"
+    },
+    "446": {
+      "id": 446,
+      "name": "G-Max Stun Shock",
+      "proto": "VN_BM_038"
+    },
+    "447": {
+      "id": 447,
+      "name": "G-Max Centiferno",
+      "proto": "VN_BM_039"
+    },
+    "448": {
+      "id": 448,
+      "name": "G-Max Smite",
+      "proto": "VN_BM_040"
+    },
+    "449": {
+      "id": 449,
+      "name": "G-Max Snooze",
+      "proto": "VN_BM_041"
+    },
+    "450": {
+      "id": 450,
+      "name": "G-Max Finale",
+      "proto": "VN_BM_042"
+    },
+    "451": {
+      "id": 451,
+      "name": "G-Max Steelsurge",
+      "proto": "VN_BM_043"
+    },
+    "452": {
+      "id": 452,
+      "name": "G-Max Depletion",
+      "proto": "VN_BM_044"
+    },
+    "453": {
+      "id": 453,
+      "name": "G-Max Vine Lash",
+      "proto": "VN_BM_045"
+    },
+    "454": {
+      "id": 454,
+      "name": "G-Max Cannonade",
+      "proto": "VN_BM_046"
+    },
+    "455": {
+      "id": 455,
+      "name": "G-Max Drum Solo",
+      "proto": "VN_BM_047"
+    },
+    "456": {
+      "id": 456,
+      "name": "G-Max Fireball",
+      "proto": "VN_BM_048"
+    },
+    "457": {
+      "id": 457,
+      "name": "G-Max Hydrosnipe",
+      "proto": "VN_BM_049"
+    },
+    "458": {
+      "id": 458,
+      "name": "G-Max One Blow",
+      "proto": "VN_BM_050"
+    },
+    "459": {
+      "id": 459,
+      "name": "G-Max Rapid Flow",
+      "proto": "VN_BM_051"
+    },
     "460": {
       "id": 460,
       "name": "Vn Bm 052",
@@ -125685,6 +125860,11 @@
       "name": "Sparkling Aria",
       "proto": "SPARKLING_ARIA",
       "power": 85
+    },
+    "464": {
+      "id": 464,
+      "name": "Rage Fist",
+      "proto": "RAGE_FIST"
     }
   },
   "questTypes": {
@@ -126097,6 +126277,41 @@
       "id": 89,
       "proto": "QUEST_COMPLETE_BREAD_DOUGH_BATTLE",
       "formatted": "Complete Bread Dough Battle"
+    },
+    "90": {
+      "id": 90,
+      "proto": "QUEST_VISIT_PAGE",
+      "formatted": "Visit Page"
+    },
+    "91": {
+      "id": 91,
+      "proto": "QUEST_USE_INCUBATOR",
+      "formatted": "Use Incubator"
+    },
+    "92": {
+      "id": 92,
+      "proto": "QUEST_CHOOSE_BUDDY",
+      "formatted": "Choose Buddy"
+    },
+    "93": {
+      "id": 93,
+      "proto": "QUEST_USE_LURE_MODULE",
+      "formatted": "Use Lure Module"
+    },
+    "94": {
+      "id": 94,
+      "proto": "QUEST_USE_LUCKY_EGG",
+      "formatted": "Use Lucky Egg"
+    },
+    "95": {
+      "id": 95,
+      "proto": "QUEST_PIN_POSTCARD",
+      "formatted": "Pin Postcard"
+    },
+    "96": {
+      "id": 96,
+      "proto": "QUEST_FEED_GYM_POKEMON",
+      "formatted": "Feed Gym Pokemon"
     }
   },
   "questRewardTypes": {
@@ -126556,6 +126771,11 @@
       "id": 73,
       "proto": "WITH_WIN_BREAD_DOUGH_BATTLE",
       "formatted": "With Win Bread Dough Battle"
+    },
+    "74": {
+      "id": 74,
+      "proto": "WITH_PAGE_TYPE",
+      "formatted": "With Page Type"
     }
   },
   "invasions": {

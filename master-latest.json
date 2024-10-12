@@ -1502,6 +1502,10 @@
           "proto": "PIKACHU_GOFEST_2024_MTIARA",
           "is_costume": true
         },
+        "2850": {
+          "name": "Diwali 2024",
+          "proto": "PIKACHU_DIWALI_2024"
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -52867,6 +52871,138 @@
       "name": "Vn Bm 018",
       "proto": "VN_BM_018"
     },
+    "427": {
+      "name": "Vn Bm 019",
+      "proto": "VN_BM_019"
+    },
+    "428": {
+      "name": "Vn Bm 020",
+      "proto": "VN_BM_020"
+    },
+    "429": {
+      "name": "Vn Bm 021",
+      "proto": "VN_BM_021"
+    },
+    "430": {
+      "name": "Vn Bm 022",
+      "proto": "VN_BM_022"
+    },
+    "431": {
+      "name": "Vn Bm 023",
+      "proto": "VN_BM_023"
+    },
+    "432": {
+      "name": "Vn Bm 024",
+      "proto": "VN_BM_024"
+    },
+    "433": {
+      "name": "Vn Bm 025",
+      "proto": "VN_BM_025"
+    },
+    "434": {
+      "name": "Vn Bm 026",
+      "proto": "VN_BM_026"
+    },
+    "435": {
+      "name": "Vn Bm 027",
+      "proto": "VN_BM_027"
+    },
+    "436": {
+      "name": "Vn Bm 028",
+      "proto": "VN_BM_028"
+    },
+    "437": {
+      "name": "Vn Bm 029",
+      "proto": "VN_BM_029"
+    },
+    "438": {
+      "name": "Vn Bm 030",
+      "proto": "VN_BM_030"
+    },
+    "439": {
+      "name": "Vn Bm 031",
+      "proto": "VN_BM_031"
+    },
+    "440": {
+      "name": "Vn Bm 032",
+      "proto": "VN_BM_032"
+    },
+    "441": {
+      "name": "Vn Bm 033",
+      "proto": "VN_BM_033"
+    },
+    "442": {
+      "name": "Vn Bm 034",
+      "proto": "VN_BM_034"
+    },
+    "443": {
+      "name": "Vn Bm 035",
+      "proto": "VN_BM_035"
+    },
+    "444": {
+      "name": "Vn Bm 036",
+      "proto": "VN_BM_036"
+    },
+    "445": {
+      "name": "Vn Bm 037",
+      "proto": "VN_BM_037"
+    },
+    "446": {
+      "name": "Vn Bm 038",
+      "proto": "VN_BM_038"
+    },
+    "447": {
+      "name": "Vn Bm 039",
+      "proto": "VN_BM_039"
+    },
+    "448": {
+      "name": "Vn Bm 040",
+      "proto": "VN_BM_040"
+    },
+    "449": {
+      "name": "Vn Bm 041",
+      "proto": "VN_BM_041"
+    },
+    "450": {
+      "name": "Vn Bm 042",
+      "proto": "VN_BM_042"
+    },
+    "451": {
+      "name": "Vn Bm 043",
+      "proto": "VN_BM_043"
+    },
+    "452": {
+      "name": "Vn Bm 044",
+      "proto": "VN_BM_044"
+    },
+    "453": {
+      "name": "Vn Bm 045",
+      "proto": "VN_BM_045"
+    },
+    "454": {
+      "name": "Vn Bm 046",
+      "proto": "VN_BM_046"
+    },
+    "455": {
+      "name": "Vn Bm 047",
+      "proto": "VN_BM_047"
+    },
+    "456": {
+      "name": "Vn Bm 048",
+      "proto": "VN_BM_048"
+    },
+    "457": {
+      "name": "Vn Bm 049",
+      "proto": "VN_BM_049"
+    },
+    "458": {
+      "name": "Vn Bm 050",
+      "proto": "VN_BM_050"
+    },
+    "459": {
+      "name": "Vn Bm 051",
+      "proto": "VN_BM_051"
+    },
     "460": {
       "name": "Vn Bm 052",
       "proto": "VN_BM_052"
@@ -52886,6 +53022,10 @@
       "proto": "SPARKLING_ARIA",
       "type": "Water",
       "power": 85
+    },
+    "464": {
+      "name": "Rage Fist",
+      "proto": "RAGE_FIST"
     }
   },
   "quest_types": {
@@ -53135,6 +53275,27 @@
     },
     "89": {
       "text": "Complete Bread Dough Battle"
+    },
+    "90": {
+      "text": "Visit Page"
+    },
+    "91": {
+      "text": "Use Incubator"
+    },
+    "92": {
+      "text": "Choose Buddy"
+    },
+    "93": {
+      "text": "Use Lure Module"
+    },
+    "94": {
+      "text": "Use Lucky Egg"
+    },
+    "95": {
+      "text": "Pin Postcard"
+    },
+    "96": {
+      "text": "Feed Gym Pokemon"
     }
   },
   "quest_reward_types": {
@@ -53503,6 +53664,10 @@
     "73": {
       "proto": "WITH_WIN_BREAD_DOUGH_BATTLE",
       "text": "With Win Bread Dough Battle"
+    },
+    "74": {
+      "proto": "WITH_PAGE_TYPE",
+      "text": "With Page Type"
     }
   },
   "invasions": {

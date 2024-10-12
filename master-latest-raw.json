@@ -2000,6 +2000,7 @@
         2842,
         2843,
         2844,
+        2850,
         3002,
         3003,
         3004,
@@ -87096,6 +87097,11 @@
       "purificationDust": 5000,
       "purificationCandy": 5
     },
+    "2850": {
+      "formName": "Diwali 2024",
+      "proto": "PIKACHU_DIWALI_2024",
+      "formId": 2850
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -93126,6 +93132,41 @@
       "id": 89,
       "proto": "QUEST_COMPLETE_BREAD_DOUGH_BATTLE",
       "formatted": "Complete Bread Dough Battle"
+    },
+    "90": {
+      "id": 90,
+      "proto": "QUEST_VISIT_PAGE",
+      "formatted": "Visit Page"
+    },
+    "91": {
+      "id": 91,
+      "proto": "QUEST_USE_INCUBATOR",
+      "formatted": "Use Incubator"
+    },
+    "92": {
+      "id": 92,
+      "proto": "QUEST_CHOOSE_BUDDY",
+      "formatted": "Choose Buddy"
+    },
+    "93": {
+      "id": 93,
+      "proto": "QUEST_USE_LURE_MODULE",
+      "formatted": "Use Lure Module"
+    },
+    "94": {
+      "id": 94,
+      "proto": "QUEST_USE_LUCKY_EGG",
+      "formatted": "Use Lucky Egg"
+    },
+    "95": {
+      "id": 95,
+      "proto": "QUEST_PIN_POSTCARD",
+      "formatted": "Pin Postcard"
+    },
+    "96": {
+      "id": 96,
+      "proto": "QUEST_FEED_GYM_POKEMON",
+      "formatted": "Feed Gym Pokemon"
     }
   },
   "questRewardTypes": {
@@ -93585,6 +93626,11 @@
       "id": 73,
       "proto": "WITH_WIN_BREAD_DOUGH_BATTLE",
       "formatted": "With Win Bread Dough Battle"
+    },
+    "74": {
+      "id": 74,
+      "proto": "WITH_PAGE_TYPE",
+      "formatted": "With Page Type"
     }
   },
   "invasions": {
