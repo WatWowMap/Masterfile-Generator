@@ -63498,7 +63498,7 @@
         {
           "evoId": 849,
           "formId": 2464,
-          "candyCost": 50
+          "candyCost": 400
         }
       ],
       "little": true
@@ -87100,7 +87100,8 @@
     "2850": {
       "formName": "Diwali 2024",
       "proto": "PIKACHU_DIWALI_2024",
-      "formId": 2850
+      "formId": 2850,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",
@@ -87401,6 +87402,34 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
+    },
+    "PIKACHU_DIWALI_2024": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.196
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.2
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.3
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.5
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.6
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.7
+        }
+      ]
     },
     "SNORLAX_WILDAREA_2024": {
       "sizeSettings": [
@@ -92720,6 +92749,22 @@
       "power": 85,
       "durationMs": 3000,
       "energyDelta": -33
+    },
+    "464": {
+      "moveId": 464,
+      "moveName": "Rage Fist",
+      "proto": "RAGE_FIST",
+      "fast": false,
+      "type": 8,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      },
+      "power": 100,
+      "durationMs": 3000,
+      "energyDelta": -50
     }
   },
   "questTypes": {

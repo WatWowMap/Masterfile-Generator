@@ -3120,7 +3120,8 @@
         "2850": {
           "name": "Diwali 2024",
           "proto": "PIKACHU_DIWALI_2024",
-          "form": 2850
+          "form": 2850,
+          "isCostume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -90752,7 +90753,7 @@
         "849": {
           "pokemon": 849,
           "form": 2464,
-          "candyCost": 50
+          "candyCost": 400
         }
       },
       "little": true
@@ -120711,7 +120712,8 @@
     "2850": {
       "formName": "Diwali 2024",
       "proto": "PIKACHU_DIWALI_2024",
-      "formId": 2850
+      "formId": 2850,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",
@@ -121013,6 +121015,34 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
+    },
+    "PIKACHU_DIWALI_2024": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.196
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.2
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.3
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.5
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.6
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.7
+        }
+      ]
     },
     "SNORLAX_WILDAREA_2024": {
       "sizeSettings": [
@@ -125864,7 +125894,8 @@
     "464": {
       "id": 464,
       "name": "Rage Fist",
-      "proto": "RAGE_FIST"
+      "proto": "RAGE_FIST",
+      "power": 100
     }
   },
   "questTypes": {

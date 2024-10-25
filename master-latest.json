@@ -1504,7 +1504,8 @@
         },
         "2850": {
           "name": "Diwali 2024",
-          "proto": "PIKACHU_DIWALI_2024"
+          "proto": "PIKACHU_DIWALI_2024",
+          "is_costume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -53025,7 +53026,9 @@
     },
     "464": {
       "name": "Rage Fist",
-      "proto": "RAGE_FIST"
+      "proto": "RAGE_FIST",
+      "type": "Ghost",
+      "power": 100
     }
   },
   "quest_types": {
