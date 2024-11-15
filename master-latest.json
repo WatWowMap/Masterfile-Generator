@@ -50241,6 +50241,13 @@
       "category": "Xp Boost",
       "min_trainer_level": 1
     },
+    "302": {
+      "name": "Max Boost",
+      "proto": "ITEM_MAX_BOOST",
+      "type": "Battle",
+      "category": "Boost",
+      "min_trainer_level": 99
+    },
     "401": {
       "name": "Incense Ordinary",
       "proto": "ITEM_INCENSE_ORDINARY",
@@ -50742,6 +50749,12 @@
     "1612": {
       "name": "Ticket City Safari 02",
       "proto": "ITEM_TICKET_CITY_SAFARI_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1614": {
+      "name": "Ticket City Safari 04",
+      "proto": "ITEM_TICKET_CITY_SAFARI_04",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },

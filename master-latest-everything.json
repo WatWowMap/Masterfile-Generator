@@ -91316,7 +91316,7 @@
             "855": {
               "pokemon": 855,
               "form": 2481,
-              "candyCost": 50
+              "candyCost": 400
             }
           }
         }
@@ -117092,7 +117092,7 @@
         {
           "evoId": 855,
           "formId": 2481,
-          "candyCost": 50
+          "candyCost": 400
         }
       ]
     },
@@ -122937,6 +122937,14 @@
       "category": "Xp Boost",
       "minTrainerLevel": 1
     },
+    "302": {
+      "id": 302,
+      "name": "Max Boost",
+      "proto": "ITEM_MAX_BOOST",
+      "type": "Battle",
+      "category": "Boost",
+      "minTrainerLevel": 99
+    },
     "401": {
       "id": 401,
       "name": "Incense",
@@ -123512,6 +123520,13 @@
       "id": 1612,
       "name": "Safari Ticket: Mexico City",
       "proto": "ITEM_TICKET_CITY_SAFARI_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1614": {
+      "id": 1614,
+      "name": "Ticket City Safari 04",
+      "proto": "ITEM_TICKET_CITY_SAFARI_04",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },

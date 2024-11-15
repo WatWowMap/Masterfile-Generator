@@ -4463,7 +4463,8 @@
         208
       ],
       "eliteChargedMoves": [
-        28
+        28,
+        464
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -72711,7 +72712,9 @@
         245
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        464
+      ],
       "genId": 9,
       "generation": "Paldea",
       "forms": [
@@ -83470,7 +83473,7 @@
         {
           "evoId": 855,
           "formId": 2481,
-          "candyCost": 50
+          "candyCost": 400
         }
       ]
     },
@@ -88116,6 +88119,14 @@
       "category": "Xp Boost",
       "minTrainerLevel": 1
     },
+    "302": {
+      "itemId": 302,
+      "itemName": "Max Boost",
+      "proto": "ITEM_MAX_BOOST",
+      "type": "Battle",
+      "category": "Boost",
+      "minTrainerLevel": 99
+    },
     "401": {
       "itemId": 401,
       "itemName": "Incense Ordinary",
@@ -88691,6 +88702,13 @@
       "itemId": 1612,
       "itemName": "Ticket City Safari 02",
       "proto": "ITEM_TICKET_CITY_SAFARI_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1614": {
+      "itemId": 1614,
+      "itemName": "Ticket City Safari 04",
+      "proto": "ITEM_TICKET_CITY_SAFARI_04",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
