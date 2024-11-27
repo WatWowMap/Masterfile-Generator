@@ -76738,11 +76738,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        },
-        "2851": {
-          "name": "Winter 2024",
-          "proto": "DEDENNE_WINTER_2024",
-          "form": 2851
         }
       },
       "stats": {
@@ -89288,11 +89283,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        },
-        "2852": {
-          "name": "Winter 2024",
-          "proto": "WOOLOO_WINTER_2024",
-          "form": 2852
         }
       },
       "stats": {
@@ -89387,11 +89377,6 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
-        },
-        "2853": {
-          "name": "Winter 2024",
-          "proto": "DUBWOOL_WINTER_2024",
-          "form": 2853
         }
       },
       "stats": {
@@ -120730,21 +120715,6 @@
       "formId": 2850,
       "isCostume": true
     },
-    "2851": {
-      "formName": "Winter 2024",
-      "proto": "DEDENNE_WINTER_2024",
-      "formId": 2851
-    },
-    "2852": {
-      "formName": "Winter 2024",
-      "proto": "WOOLOO_WINTER_2024",
-      "formId": 2852
-    },
-    "2853": {
-      "formName": "Winter 2024",
-      "proto": "DUBWOOL_WINTER_2024",
-      "formId": 2853
-    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -122813,6 +122783,12 @@
       "id": 79,
       "name": "Fall 2024",
       "proto": "FALL_2024",
+      "noEvolve": false
+    },
+    "80": {
+      "id": 80,
+      "name": "Winter 2024",
+      "proto": "WINTER_2024",
       "noEvolve": false
     }
   },
