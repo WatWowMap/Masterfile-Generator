@@ -6829,7 +6829,8 @@
       ],
       "quick_moves": [
         "Water Gun",
-        "Hidden Power"
+        "Hidden Power",
+        "Psywave"
       ],
       "charged_moves": [
         "Psybeam",
@@ -6837,7 +6838,8 @@
         "Power Gem",
         "Thunder",
         "Hydro Pump",
-        "Psychic"
+        "Psychic",
+        "Surf"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -20745,7 +20747,8 @@
       ],
       "quick_moves": [
         "Water Gun",
-        "Take Down"
+        "Take Down",
+        "Rollout"
       ],
       "charged_moves": [
         "Hyper Beam",
@@ -24175,7 +24178,8 @@
       ],
       "quick_moves": [
         "Fury Cutter",
-        "Wing Attack"
+        "Wing Attack",
+        "Sand Attack"
       ],
       "charged_moves": [
         "Earthquake",
@@ -24333,7 +24337,7 @@
           "attack": 326,
           "defense": 230,
           "stamina": 169,
-          "unreleased": true
+          "weight": 56.4
         }
       }
     },
@@ -35221,6 +35225,7 @@
         "Aqua Tail",
         "Gunk Shot",
         "Hydro Pump",
+        "Focus Blast",
         "Outrage"
       ],
       "gen_id": 6,
@@ -41198,7 +41203,7 @@
       "family": 821,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 1,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -41285,7 +41290,7 @@
       "family": 821,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -45718,6 +45723,7 @@
       "family": 926,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -45761,6 +45767,7 @@
       "family": 926,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -50234,7 +50241,7 @@
       "proto": "ITEM_MAX_BOOST",
       "type": "Battle",
       "category": "Boost",
-      "min_trainer_level": 99
+      "min_trainer_level": 12
     },
     "401": {
       "name": "Incense Ordinary",
@@ -50746,6 +50753,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1616": {
+      "name": "Event Ticket 02",
+      "proto": "ITEM_EVENT_TICKET_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1618": {
       "name": "Event Ticket 04",
       "proto": "ITEM_EVENT_TICKET_04",
@@ -50785,6 +50798,12 @@
     "1624": {
       "name": "Event Ticket 10",
       "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1626": {
+      "name": "Event Ticket 02 To Gift",
+      "proto": "ITEM_EVENT_TICKET_02_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },

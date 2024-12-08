@@ -9462,7 +9462,8 @@
       ],
       "quickMoves": [
         230,
-        281
+        281,
+        401
       ],
       "chargedMoves": [
         30,
@@ -9470,7 +9471,8 @@
         65,
         78,
         107,
-        108
+        108,
+        284
       ],
       "eliteQuickMoves": [
         221
@@ -30753,7 +30755,8 @@
       ],
       "quickMoves": [
         230,
-        282
+        282,
+        368
       ],
       "chargedMoves": [
         14,
@@ -36144,7 +36147,8 @@
       ],
       "quickMoves": [
         200,
-        210
+        210,
+        403
       ],
       "chargedMoves": [
         31,
@@ -36427,8 +36431,6 @@
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -36436,8 +36438,19 @@
           "defense": 230,
           "stamina": 169,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 230,
+          "stamina": 169,
+          "weight": 56.4,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "476": {
       "pokemonName": "Probopass",
@@ -52216,6 +52229,7 @@
         58,
         92,
         107,
+        247,
         277
       ],
       "eliteQuickMoves": [],
@@ -61576,7 +61590,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 1,
       "buddyDistance": 1,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
@@ -61725,7 +61739,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 1,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
@@ -69021,6 +69035,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -69095,6 +69110,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -78187,8 +78203,6 @@
       "formName": "Normal",
       "proto": "GALLADE_NORMAL",
       "formId": 301,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -78196,8 +78210,19 @@
           "defense": 230,
           "stamina": 169,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 230,
+          "stamina": 169,
+          "weight": 56.4,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "304": {
       "formName": "Normal",
@@ -88107,7 +88132,7 @@
       "proto": "ITEM_MAX_BOOST",
       "type": "Battle",
       "category": "Boost",
-      "minTrainerLevel": 99
+      "minTrainerLevel": 12
     },
     "401": {
       "itemId": 401,
@@ -88694,6 +88719,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1616": {
+      "itemId": 1616,
+      "itemName": "Event Ticket 02",
+      "proto": "ITEM_EVENT_TICKET_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1618": {
       "itemId": 1618,
       "itemName": "Event Ticket 04",
@@ -88740,6 +88772,13 @@
       "itemId": 1624,
       "itemName": "Event Ticket 10",
       "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1626": {
+      "itemId": 1626,
+      "itemName": "Event Ticket 02 To Gift",
+      "proto": "ITEM_EVENT_TICKET_02_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -88963,7 +89002,7 @@
       "proto": "ICE_PUNCH",
       "fast": false,
       "type": 15,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -40,
       "power": 50,
       "durationMs": 2000,
@@ -89393,7 +89432,7 @@
       "proto": "THUNDER_PUNCH",
       "fast": false,
       "type": 13,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -40,
       "power": 50,
       "durationMs": 2000,
@@ -89593,8 +89632,12 @@
       "proto": "BULLDOZE",
       "fast": false,
       "type": 5,
-      "pvpPower": 80,
-      "pvpEnergyDelta": -60,
+      "pvpPower": 45,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.5
+      },
       "power": 80,
       "durationMs": 3500,
       "energyDelta": -50
@@ -89794,7 +89837,7 @@
       "proto": "FIRE_PUNCH",
       "fast": false,
       "type": 10,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -40,
       "power": 50,
       "durationMs": 2000,
@@ -90074,7 +90117,7 @@
       "proto": "THUNDER_SHOCK_FAST",
       "fast": true,
       "type": 13,
-      "pvpPower": 3,
+      "pvpPower": 4,
       "pvpEnergyDelta": 9,
       "pvpDurationTurns": 1,
       "power": 4,
@@ -90523,7 +90566,7 @@
       "fast": true,
       "type": 10,
       "pvpPower": 8,
-      "pvpEnergyDelta": 5,
+      "pvpEnergyDelta": 6,
       "pvpDurationTurns": 1,
       "power": 13,
       "durationMs": 1000,
@@ -91672,7 +91715,7 @@
       "fast": true,
       "type": 13,
       "pvpPower": 8,
-      "pvpEnergyDelta": 5,
+      "pvpEnergyDelta": 6,
       "pvpDurationTurns": 1,
       "power": 10,
       "durationMs": 1000,
@@ -91685,7 +91728,7 @@
       "fast": true,
       "type": 15,
       "pvpPower": 8,
-      "pvpEnergyDelta": 5,
+      "pvpEnergyDelta": 6,
       "pvpDurationTurns": 1,
       "power": 12,
       "durationMs": 1500,

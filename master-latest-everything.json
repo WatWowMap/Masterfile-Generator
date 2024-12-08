@@ -15055,6 +15055,13 @@
           "proto": "HIDDEN_POWER_FAST",
           "type": 1,
           "power": 15
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -15099,6 +15106,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 95
+        },
+        "284": {
+          "moveId": 284,
+          "moveName": "Surf",
+          "proto": "SURF",
+          "type": 11,
+          "power": 60
         }
       },
       "genId": 1,
@@ -45120,6 +45134,13 @@
           "proto": "TAKE_DOWN_FAST",
           "type": 1,
           "power": 7
+        },
+        "368": {
+          "moveId": 368,
+          "moveName": "Rollout",
+          "proto": "ROLLOUT_FAST",
+          "type": 6,
+          "power": 15
         }
       },
       "chargedMoves": {
@@ -52524,6 +52545,13 @@
           "proto": "WING_ATTACK_FAST",
           "type": 3,
           "power": 10
+        },
+        "403": {
+          "moveId": 403,
+          "moveName": "Sand Attack",
+          "proto": "SAND_ATTACK_FAST",
+          "type": 5,
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -52915,7 +52943,9 @@
             "defense": 230,
             "stamina": 169
           },
-          "unreleased": true
+          "weight": 56.4,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -75678,6 +75708,13 @@
           "type": 11,
           "power": 135
         },
+        "247": {
+          "moveId": 247,
+          "moveName": "Focus Blast",
+          "proto": "FOCUS_BLAST",
+          "type": 2,
+          "power": 140
+        },
         "277": {
           "moveId": 277,
           "moveName": "Outrage",
@@ -88495,7 +88532,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 1,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -88673,7 +88710,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 1,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
@@ -98422,6 +98459,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -98512,6 +98550,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -111778,8 +111817,6 @@
       "formName": "Normal",
       "proto": "GALLADE_NORMAL",
       "formId": 301,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -111787,8 +111824,19 @@
           "defense": 230,
           "stamina": 169,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 326,
+          "defense": 230,
+          "stamina": 169,
+          "weight": 56.4,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "304": {
       "formName": "Normal",
@@ -122919,7 +122967,7 @@
       "proto": "ITEM_MAX_BOOST",
       "type": "Battle",
       "category": "Boost",
-      "minTrainerLevel": 99
+      "minTrainerLevel": 12
     },
     "401": {
       "id": 401,
@@ -123506,6 +123554,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1616": {
+      "id": 1616,
+      "name": "Ticket",
+      "proto": "ITEM_EVENT_TICKET_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1618": {
       "id": 1618,
       "name": "Ticket",
@@ -123552,6 +123607,13 @@
       "id": 1624,
       "name": "Ticket",
       "proto": "ITEM_EVENT_TICKET_10",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1626": {
+      "id": 1626,
+      "name": "Event Ticket 02 To Gift",
+      "proto": "ITEM_EVENT_TICKET_02_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
