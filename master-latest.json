@@ -41271,7 +41271,6 @@
       ],
       "charged_moves": [
         "Drill Peck",
-        "Iron Head",
         "Brave Bird"
       ],
       "gen_id": 8,
@@ -46481,6 +46480,7 @@
       "family": 944,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -46525,6 +46525,7 @@
       "family": 944,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -50759,6 +50760,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1617": {
+      "name": "Event Ticket 03",
+      "proto": "ITEM_EVENT_TICKET_03",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1618": {
       "name": "Event Ticket 04",
       "proto": "ITEM_EVENT_TICKET_04",
@@ -50804,6 +50811,12 @@
     "1626": {
       "name": "Event Ticket 02 To Gift",
       "proto": "ITEM_EVENT_TICKET_02_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1627": {
+      "name": "Event Ticket 03 To Gift",
+      "proto": "ITEM_EVENT_TICKET_03_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -53064,7 +53077,9 @@
     },
     "465": {
       "name": "Flower Trick",
-      "proto": "FLOWER_TRICK"
+      "proto": "FLOWER_TRICK",
+      "type": "Grass",
+      "power": 75
     },
     "466": {
       "name": "Freeze Shock",

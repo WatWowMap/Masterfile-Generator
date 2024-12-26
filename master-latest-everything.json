@@ -32638,7 +32638,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -32774,7 +32773,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -32907,7 +32905,6 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -52928,7 +52925,6 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
-        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -88670,13 +88666,6 @@
           "type": 3,
           "power": 70
         },
-        "74": {
-          "moveId": 74,
-          "moveName": "Iron Head",
-          "proto": "IRON_HEAD",
-          "type": 9,
-          "power": 60
-        },
         "256": {
           "moveId": 256,
           "moveName": "Brave Bird",
@@ -94854,7 +94843,7 @@
         "892": {
           "pokemon": 892,
           "form": 2724,
-          "candyCost": 400
+          "candyCost": 200
         }
       },
       "little": true
@@ -100106,6 +100095,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 1,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -100200,6 +100190,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 1,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -112071,6 +112062,13 @@
       "formName": "Normal",
       "proto": "PIKACHU_NORMAL",
       "formId": 598,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ],
       "evolutions": [
         {
           "evoId": 26,
@@ -113224,9 +113222,7 @@
         77,
         88,
         331
-      ],
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      ]
     },
     "902": {
       "formName": "Normal",
@@ -118327,7 +118323,14 @@
       "formName": "Winter 2020",
       "proto": "PIKACHU_WINTER_2020",
       "formId": 2670,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "2671": {
       "formName": "Winter 2020",
@@ -118395,9 +118398,7 @@
       "formName": "Kariyushi",
       "proto": "PIKACHU_KARIYUSHI",
       "formId": 2675,
-      "isCostume": true,
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      "isCostume": true
     },
     "2676": {
       "formName": "Pop Star",
@@ -118412,9 +118413,7 @@
         77,
         85,
         88
-      ],
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      ]
     },
     "2677": {
       "formName": "Rock Star",
@@ -118429,9 +118428,7 @@
         77,
         88,
         301
-      ],
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      ]
     },
     "2678": {
       "formName": "Flying 5th Anniv",
@@ -120261,7 +120258,14 @@
       "formName": "Wcs 2022",
       "proto": "PIKACHU_WCS_2022",
       "formId": 2806,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "2807": {
       "sizeSettings": [
@@ -120349,17 +120353,13 @@
       "formName": "Tshirt 01",
       "proto": "PIKACHU_TSHIRT_01",
       "formId": 2813,
-      "isCostume": true,
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      "isCostume": true
     },
     "2814": {
       "formName": "Tshirt 02",
       "proto": "PIKACHU_TSHIRT_02",
       "formId": 2814,
-      "isCostume": true,
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      "isCostume": true
     },
     "2815": {
       "formName": "Flying 01",
@@ -120642,9 +120642,7 @@
       "formName": "Tshirt 03",
       "proto": "PIKACHU_TSHIRT_03",
       "formId": 2832,
-      "isCostume": true,
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      "isCostume": true
     },
     "2833": {
       "formName": "Flying 04",
@@ -120704,7 +120702,6 @@
       "proto": "PIKACHU_HORIZONS",
       "formId": 2842,
       "isCostume": true,
-      "eliteQuickMoves": [],
       "eliteChargedMoves": [
         399
       ]
@@ -120761,6 +120758,30 @@
       "formName": "Diwali 2024",
       "proto": "PIKACHU_DIWALI_2024",
       "formId": 2850,
+      "isCostume": true
+    },
+    "2856": {
+      "formName": "",
+      "proto": "",
+      "formId": 2856,
+      "isCostume": true
+    },
+    "2857": {
+      "formName": "",
+      "proto": "",
+      "formId": 2857,
+      "isCostume": true
+    },
+    "2858": {
+      "formName": "",
+      "proto": "",
+      "formId": 2858,
+      "isCostume": true
+    },
+    "2859": {
+      "formName": "",
+      "proto": "",
+      "formId": 2859,
       "isCostume": true
     },
     "2981": {
@@ -120946,25 +120967,53 @@
       "formName": "Summer 2023 A",
       "proto": "PIKACHU_SUMMER_2023_A",
       "formId": 3002,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "3003": {
       "formName": "Summer 2023 B",
       "proto": "PIKACHU_SUMMER_2023_B",
       "formId": 3003,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "3004": {
       "formName": "Summer 2023 C",
       "proto": "PIKACHU_SUMMER_2023_C",
       "formId": 3004,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "3005": {
       "formName": "Summer 2023 D",
       "proto": "PIKACHU_SUMMER_2023_D",
       "formId": 3005,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "3006": {
       "formName": "Paldea Combat",
@@ -121014,7 +121063,14 @@
       "formName": "Summer 2023 E",
       "proto": "PIKACHU_SUMMER_2023_E",
       "formId": 3010,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "3011": {
       "formName": "Flying 03",
@@ -121033,9 +121089,7 @@
       "formName": "Jeju",
       "proto": "PIKACHU_JEJU",
       "formId": 3012,
-      "isCostume": true,
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": []
+      "isCostume": true
     },
     "3013": {
       "formName": "Doctor",
@@ -121056,13 +121110,27 @@
       "formName": "Wcs 2023",
       "proto": "PIKACHU_WCS_2023",
       "formId": 3014,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "3015": {
       "formName": "Wcs 2024",
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ]
     },
     "PIKACHU_DIWALI_2024": {
       "sizeSettings": [
@@ -123567,6 +123635,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "1617": {
+      "id": 1617,
+      "name": "Ticket",
+      "proto": "ITEM_EVENT_TICKET_03",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "1618": {
       "id": 1618,
       "name": "Ticket",
@@ -123620,6 +123695,13 @@
       "id": 1626,
       "name": "Event Ticket 02 To Gift",
       "proto": "ITEM_EVENT_TICKET_02_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "1627": {
+      "id": 1627,
+      "name": "Event Ticket 03 To Gift",
+      "proto": "ITEM_EVENT_TICKET_03_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -125989,7 +126071,8 @@
     "465": {
       "id": 465,
       "name": "Flower Trick",
-      "proto": "FLOWER_TRICK"
+      "proto": "FLOWER_TRICK",
+      "power": 75
     },
     "466": {
       "id": 466,
