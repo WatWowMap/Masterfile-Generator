@@ -44924,7 +44924,8 @@
         "Night Slash",
         "Play Rough",
         "Grass Knot",
-        "Energy Ball"
+        "Energy Ball",
+        "Flower Trick"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50244,6 +50245,12 @@
       "category": "Boost",
       "min_trainer_level": 12
     },
+    "303": {
+      "name": "Lucky Friend Applicator",
+      "proto": "ITEM_LUCKY_FRIEND_APPLICATOR",
+      "type": "Friend Boost",
+      "category": "Xp Boost"
+    },
     "401": {
       "name": "Incense Ordinary",
       "proto": "ITEM_INCENSE_ORDINARY",
@@ -50861,6 +50868,12 @@
       "proto": "ITEM_EVENT_TICKET_10_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2001": {
+      "name": "Event Pass Point Go Tour 01",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
     }
   },
   "moves": {
@@ -53083,11 +53096,15 @@
     },
     "466": {
       "name": "Freeze Shock",
-      "proto": "FREEZE_SHOCK"
+      "proto": "FREEZE_SHOCK",
+      "type": "Ice",
+      "power": 1
     },
     "467": {
       "name": "Ice Burn",
-      "proto": "ICE_BURN"
+      "proto": "ICE_BURN",
+      "type": "Ice",
+      "power": 1
     }
   },
   "quest_types": {

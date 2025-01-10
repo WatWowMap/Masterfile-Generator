@@ -30971,7 +30971,8 @@
         51,
         88,
         272,
-        273
+        273,
+        465
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -34837,6 +34838,7 @@
     "202": "Max Revive",
     "301": "Lucky Egg",
     "302": "Max Boost",
+    "303": "Lucky Friend Applicator",
     "401": "Incense Ordinary",
     "405": "Incense Beluga Box",
     "406": "Incense Daily Adventure",
@@ -34913,7 +34915,8 @@
     "1631": "Event Ticket 07 To Gift",
     "1632": "Event Ticket 08 To Gift",
     "1633": "Event Ticket 09 To Gift",
-    "1634": "Event Ticket 10 To Gift"
+    "1634": "Event Ticket 10 To Gift",
+    "2001": "Event Pass Point Go Tour 01"
   },
   "moves": {
     "0": {
@@ -36432,10 +36435,12 @@
       "type": 12
     },
     "466": {
-      "name": "Freeze Shock"
+      "name": "Freeze Shock",
+      "type": 15
     },
     "467": {
-      "name": "Ice Burn"
+      "name": "Ice Burn",
+      "type": 15
     }
   },
   "questRewardTypes": {

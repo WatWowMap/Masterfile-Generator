@@ -96752,6 +96752,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "465": {
+          "moveId": 465,
+          "moveName": "Flower Trick",
+          "proto": "FLOWER_TRICK",
+          "type": 12,
+          "power": 75
         }
       },
       "genId": 9,
@@ -115771,7 +115778,9 @@
     "1859": {
       "formName": "Normal",
       "proto": "PALKIA_NORMAL",
-      "formId": 1859
+      "formId": 1859,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "1862": {
       "formName": "Normal",
@@ -115861,7 +115870,9 @@
     "1913": {
       "formName": "Normal",
       "proto": "SAMUROTT_NORMAL",
-      "formId": 1913
+      "formId": 1913,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1916": {
       "formName": "Normal",
@@ -119837,7 +119848,9 @@
       "types": [
         11,
         17
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2788": {
       "formName": "Hisuian",
@@ -120617,7 +120630,9 @@
       "defense": 223,
       "stamina": 189,
       "height": 6.3,
-      "weight": 660
+      "weight": 660,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "2831": {
       "formName": "Normal",
@@ -121130,62 +121145,6 @@
       "eliteChargedMoves": [
         78,
         284
-      ]
-    },
-    "PIKACHU_DIWALI_2024": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "SNORLAX_WILDAREA_2024": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 1.029
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 1.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 1.575
-        },
-        {
-          "name": "mUpperBound",
-          "value": 2.625
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 3.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 3.675
-        }
       ]
     }
   },
@@ -123043,6 +123002,13 @@
       "category": "Boost",
       "minTrainerLevel": 12
     },
+    "303": {
+      "id": 303,
+      "name": "Lucky Friend Applicator",
+      "proto": "ITEM_LUCKY_FRIEND_APPLICATOR",
+      "type": "Friend Boost",
+      "category": "Xp Boost"
+    },
     "401": {
       "id": 401,
       "name": "Incense",
@@ -123753,6 +123719,13 @@
       "proto": "ITEM_EVENT_TICKET_10_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2001": {
+      "id": 2001,
+      "name": "Event Pass Point Go Tour 01",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
     }
   },
   "moves": {
@@ -126077,12 +126050,14 @@
     "466": {
       "id": 466,
       "name": "Freeze Shock",
-      "proto": "FREEZE_SHOCK"
+      "proto": "FREEZE_SHOCK",
+      "power": 1
     },
     "467": {
       "id": 467,
       "name": "Ice Burn",
-      "proto": "ICE_BURN"
+      "proto": "ICE_BURN",
+      "power": 1
     }
   },
   "questTypes": {

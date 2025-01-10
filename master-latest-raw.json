@@ -21392,6 +21392,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "277": {
@@ -21462,7 +21464,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "278": {
       "pokemonName": "Wingull",
@@ -37066,7 +37070,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "485": {
       "pokemonName": "Heatran",
@@ -37828,6 +37834,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "496": {
@@ -37903,7 +37911,9 @@
           "evoId": 497,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "497": {
       "pokemonName": "Serperior",
@@ -37974,7 +37984,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "498": {
       "pokemonName": "Tepig",
@@ -38048,6 +38060,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "499": {
@@ -38124,7 +38138,9 @@
           "evoId": 500,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "500": {
       "pokemonName": "Emboar",
@@ -38197,7 +38213,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "501": {
       "pokemonName": "Oshawott",
@@ -38271,6 +38289,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "502": {
@@ -38351,7 +38371,9 @@
           "formId": 2787,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "503": {
       "pokemonName": "Samurott",
@@ -38424,7 +38446,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "504": {
       "pokemonName": "Patrat",
@@ -43236,6 +43260,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "569": {
@@ -43306,7 +43332,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "570": {
       "pokemonName": "Zorua",
@@ -49865,6 +49893,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "660": {
@@ -49936,7 +49966,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "661": {
       "pokemonName": "Fletchling",
@@ -67673,10 +67705,13 @@
         51,
         88,
         272,
-        273
+        273,
+        465
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        296
+      ],
       "genId": 9,
       "generation": "Paldea",
       "forms": [
@@ -82142,7 +82177,9 @@
     "1859": {
       "formName": "Normal",
       "proto": "PALKIA_NORMAL",
-      "formId": 1859
+      "formId": 1859,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "1862": {
       "formName": "Normal",
@@ -82232,7 +82269,9 @@
     "1913": {
       "formName": "Normal",
       "proto": "SAMUROTT_NORMAL",
-      "formId": 1913
+      "formId": 1913,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1916": {
       "formName": "Normal",
@@ -86208,7 +86247,9 @@
       "types": [
         11,
         17
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2788": {
       "formName": "Hisuian",
@@ -86986,7 +87027,9 @@
       "defense": 223,
       "stamina": 189,
       "height": 6.3,
-      "weight": 660
+      "weight": 660,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "2831": {
       "formName": "Normal",
@@ -87498,62 +87541,6 @@
       "eliteChargedMoves": [
         78,
         284
-      ]
-    },
-    "PIKACHU_DIWALI_2024": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "SNORLAX_WILDAREA_2024": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 1.029
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 1.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 1.575
-        },
-        {
-          "name": "mUpperBound",
-          "value": 2.625
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 3.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 3.675
-        }
       ]
     }
   },
@@ -88202,6 +88189,13 @@
       "type": "Battle",
       "category": "Boost",
       "minTrainerLevel": 12
+    },
+    "303": {
+      "itemId": 303,
+      "itemName": "Lucky Friend Applicator",
+      "proto": "ITEM_LUCKY_FRIEND_APPLICATOR",
+      "type": "Friend Boost",
+      "category": "Xp Boost"
     },
     "401": {
       "itemId": 401,
@@ -88913,6 +88907,13 @@
       "proto": "ITEM_EVENT_TICKET_10_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2001": {
+      "itemId": 2001,
+      "itemName": "Event Pass Point Go Tour 01",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
     },
     "undefined": {
       "itemName": "Route Maker",
@@ -92925,6 +92926,30 @@
       "power": 75,
       "durationMs": 2700,
       "energyDelta": -33
+    },
+    "466": {
+      "moveId": 466,
+      "moveName": "Freeze Shock",
+      "proto": "FREEZE_SHOCK",
+      "fast": false,
+      "type": 15,
+      "pvpPower": 1,
+      "pvpEnergyDelta": -65,
+      "power": 1,
+      "durationMs": 1500,
+      "energyDelta": -100
+    },
+    "467": {
+      "moveId": 467,
+      "moveName": "Ice Burn",
+      "proto": "ICE_BURN",
+      "fast": false,
+      "type": 15,
+      "pvpPower": 1,
+      "pvpEnergyDelta": -65,
+      "power": 1,
+      "durationMs": 2000,
+      "energyDelta": -100
     }
   },
   "questTypes": {
