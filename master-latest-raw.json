@@ -1955,8 +1955,13 @@
         79,
         251
       ],
-      "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteQuickMoves": [
+        291
+      ],
+      "eliteChargedMoves": [
+        78,
+        284
+      ],
       "genId": 1,
       "generation": "Kanto",
       "forms": [
@@ -1996,6 +2001,10 @@
         2843,
         2844,
         2850,
+        2856,
+        2857,
+        2858,
+        2859,
         3002,
         3003,
         3004,
@@ -78484,13 +78493,6 @@
       "formName": "Normal",
       "proto": "PIKACHU_NORMAL",
       "formId": 598,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ],
       "evolutions": [
         {
           "evoId": 26,
@@ -79644,7 +79646,9 @@
         77,
         88,
         331
-      ]
+      ],
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "902": {
       "formName": "Normal",
@@ -84733,14 +84737,7 @@
       "formName": "Winter 2020",
       "proto": "PIKACHU_WINTER_2020",
       "formId": 2670,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "2671": {
       "formName": "Winter 2020",
@@ -84808,7 +84805,9 @@
       "formName": "Kariyushi",
       "proto": "PIKACHU_KARIYUSHI",
       "formId": 2675,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2676": {
       "formName": "Pop Star",
@@ -84823,7 +84822,9 @@
         77,
         85,
         88
-      ]
+      ],
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2677": {
       "formName": "Rock Star",
@@ -84838,7 +84839,9 @@
         77,
         88,
         301
-      ]
+      ],
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2678": {
       "formName": "Flying 5th Anniv",
@@ -86668,14 +86671,7 @@
       "formName": "Wcs 2022",
       "proto": "PIKACHU_WCS_2022",
       "formId": 2806,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "2807": {
       "sizeSettings": [
@@ -86763,13 +86759,17 @@
       "formName": "Tshirt 01",
       "proto": "PIKACHU_TSHIRT_01",
       "formId": 2813,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2814": {
       "formName": "Tshirt 02",
       "proto": "PIKACHU_TSHIRT_02",
       "formId": 2814,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2815": {
       "formName": "Flying 01",
@@ -87054,7 +87054,9 @@
       "formName": "Tshirt 03",
       "proto": "PIKACHU_TSHIRT_03",
       "formId": 2832,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2833": {
       "formName": "Flying 04",
@@ -87114,6 +87116,7 @@
       "proto": "PIKACHU_HORIZONS",
       "formId": 2842,
       "isCostume": true,
+      "eliteQuickMoves": [],
       "eliteChargedMoves": [
         399
       ]
@@ -87173,28 +87176,36 @@
       "isCostume": true
     },
     "2856": {
-      "formName": "",
-      "proto": "",
+      "formName": "Gotour 2025 A",
+      "proto": "PIKACHU_GOTOUR_2025_A",
       "formId": 2856,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2857": {
-      "formName": "",
-      "proto": "",
+      "formName": "Gotour 2025 B",
+      "proto": "PIKACHU_GOTOUR_2025_B",
       "formId": 2857,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2858": {
-      "formName": "",
-      "proto": "",
+      "formName": "Gotour 2025 A 02",
+      "proto": "PIKACHU_GOTOUR_2025_A_02",
       "formId": 2858,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2859": {
-      "formName": "",
-      "proto": "",
+      "formName": "Gotour 2025 B 02",
+      "proto": "PIKACHU_GOTOUR_2025_B_02",
       "formId": 2859,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "2981": {
       "formName": "Normal",
@@ -87379,53 +87390,25 @@
       "formName": "Summer 2023 A",
       "proto": "PIKACHU_SUMMER_2023_A",
       "formId": 3002,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "3003": {
       "formName": "Summer 2023 B",
       "proto": "PIKACHU_SUMMER_2023_B",
       "formId": 3003,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "3004": {
       "formName": "Summer 2023 C",
       "proto": "PIKACHU_SUMMER_2023_C",
       "formId": 3004,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "3005": {
       "formName": "Summer 2023 D",
       "proto": "PIKACHU_SUMMER_2023_D",
       "formId": 3005,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "3006": {
       "formName": "Paldea Combat",
@@ -87474,14 +87457,7 @@
       "formName": "Summer 2023 E",
       "proto": "PIKACHU_SUMMER_2023_E",
       "formId": 3010,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "3011": {
       "formName": "Flying 03",
@@ -87500,7 +87476,9 @@
       "formName": "Jeju",
       "proto": "PIKACHU_JEJU",
       "formId": 3012,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3013": {
       "formName": "Doctor",
@@ -87521,26 +87499,124 @@
       "formName": "Wcs 2023",
       "proto": "PIKACHU_WCS_2023",
       "formId": 3014,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
-      ]
+      "isCostume": true
     },
     "3015": {
       "formName": "Wcs 2024",
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
-      "isCostume": true,
-      "eliteQuickMoves": [
-        291
-      ],
-      "eliteChargedMoves": [
-        78,
-        284
+      "isCostume": true
+    },
+    "PIKACHU_GOTOUR_2025_A": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.196
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.2
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.3
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.5
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.6
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.7
+        }
+      ]
+    },
+    "PIKACHU_GOTOUR_2025_A_02": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.196
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.2
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.3
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.5
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.6
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.7
+        }
+      ]
+    },
+    "PIKACHU_GOTOUR_2025_B": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.196
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.2
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.3
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.5
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.6
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.7
+        }
+      ]
+    },
+    "PIKACHU_GOTOUR_2025_B_02": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.196
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.2
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.3
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.5
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.6
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.7
+        }
       ]
     }
   },
