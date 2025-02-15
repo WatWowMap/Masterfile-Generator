@@ -1234,8 +1234,8 @@
         },
         "959": {
           "name": "Normal",
-          "proto": "BUTTERFREE_NORMAL",
-          "form": 959
+          "form": 959,
+          "proto": "BUTTERFREE_NORMAL"
         }
       },
       "stats": {
@@ -24786,6 +24786,9 @@
       "height": 1.5,
       "weight": 14,
       "family": 206,
+      "encounter": {
+        "bonusStardustCapture": 500
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -54675,6 +54678,13 @@
           "proto": "HIDDEN_POWER_FAST",
           "type": 1,
           "power": 15
+        },
+        "357": {
+          "moveId": 357,
+          "moveName": "Magical Leaf",
+          "proto": "MAGICAL_LEAF_FAST",
+          "type": 12,
+          "power": 17
         }
       },
       "chargedMoves": {
@@ -54726,29 +54736,6 @@
           },
           "height": 0.4,
           "weight": 5.2,
-          "quickMoves": {
-            "234": {
-              "moveId": 234,
-              "moveName": "Zen Headbutt",
-              "proto": "ZEN_HEADBUTT_FAST",
-              "type": 14,
-              "power": 11
-            },
-            "281": {
-              "moveId": 281,
-              "moveName": "Hidden Power",
-              "proto": "HIDDEN_POWER_FAST",
-              "type": 1,
-              "power": 15
-            },
-            "357": {
-              "moveId": 357,
-              "moveName": "Magical Leaf",
-              "proto": "MAGICAL_LEAF_FAST",
-              "type": 12,
-              "power": 17
-            }
-          },
           "types": {
             "3": {
               "typeId": 3,
@@ -62609,8 +62596,8 @@
         },
         "2105": {
           "name": "Normal",
-          "proto": "GARBODOR_NORMAL",
-          "form": 2105
+          "form": 2105,
+          "proto": "GARBODOR_NORMAL"
         }
       },
       "stats": {
@@ -70404,6 +70391,8 @@
             "defense": 183,
             "stamina": 245
           },
+          "height": 3.3,
+          "weight": 325,
           "quickMoves": {
             "213": {
               "moveId": 213,
@@ -70448,6 +70437,13 @@
               "proto": "OUTRAGE",
               "type": 16,
               "power": 110
+            },
+            "374": {
+              "moveId": 374,
+              "moveName": "Fusion Bolt",
+              "proto": "FUSION_BOLT",
+              "type": 13,
+              "power": 140
             }
           }
         },
@@ -70459,6 +70455,31 @@
             "attack": 310,
             "defense": 183,
             "stamina": 245
+          },
+          "height": 3.6,
+          "weight": 325,
+          "quickMoves": {
+            "204": {
+              "moveId": 204,
+              "moveName": "Dragon Breath",
+              "proto": "DRAGON_BREATH_FAST",
+              "type": 16,
+              "power": 6
+            },
+            "239": {
+              "moveId": 239,
+              "moveName": "Steel Wing",
+              "proto": "STEEL_WING_FAST",
+              "type": 9,
+              "power": 14
+            },
+            "327": {
+              "moveId": 327,
+              "moveName": "Ice Fang",
+              "proto": "ICE_FANG_FAST",
+              "type": 15,
+              "power": 12
+            }
           },
           "chargedMoves": {
             "40": {
@@ -70487,6 +70508,13 @@
               "moveName": "Focus Blast",
               "proto": "FOCUS_BLAST",
               "type": 2,
+              "power": 140
+            },
+            "375": {
+              "moveId": 375,
+              "moveName": "Fusion Flare",
+              "proto": "FUSION_FLARE",
+              "type": 10,
               "power": 140
             }
           }
@@ -78840,8 +78868,7 @@
       "misc": {
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "transferable": true
+        "thirdMoveCandy": 100
       }
     },
     "721": {
@@ -81018,6 +81045,9 @@
       "height": 0.1,
       "weight": 0.2,
       "family": 742,
+      "encounter": {
+        "bonusStardustCapture": 500
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -82185,6 +82215,9 @@
       "height": 0.3,
       "weight": 1.5,
       "family": 753,
+      "encounter": {
+        "bonusStardustCapture": 500
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -87531,8 +87564,8 @@
         },
         "2324": {
           "name": "Normal",
-          "proto": "MELMETAL_NORMAL",
-          "form": 2324
+          "form": 2324,
+          "proto": "MELMETAL_NORMAL"
         }
       },
       "stats": {
@@ -94880,9 +94913,7 @@
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
+        "thirdMoveCandy": 100
       },
       "evolutions": {
         "892": {
@@ -95106,9 +95137,7 @@
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
+        "thirdMoveCandy": 100
       }
     },
     "893": {
@@ -109863,6 +109892,7 @@
       "formName": "Normal",
       "proto": "MEOWTH_NORMAL",
       "formId": 63,
+      "gmaxMove": 430,
       "evolutions": [
         {
           "evoId": 53,
@@ -110549,11 +110579,6 @@
       "stamina": 225,
       "height": 0.4,
       "weight": 5.2,
-      "quickMoves": [
-        234,
-        281,
-        357
-      ],
       "types": [
         3,
         12
@@ -111128,6 +111153,8 @@
       "attack": 310,
       "defense": 183,
       "stamina": 245,
+      "height": 3.3,
+      "weight": 325,
       "quickMoves": [
         213,
         253
@@ -111136,7 +111163,8 @@
         32,
         40,
         74,
-        277
+        277,
+        374
       ],
       "eliteChargedMoves": []
     },
@@ -111147,11 +111175,19 @@
       "attack": 310,
       "defense": 183,
       "stamina": 245,
+      "height": 3.6,
+      "weight": 325,
+      "quickMoves": [
+        204,
+        239,
+        327
+      ],
       "chargedMoves": [
         40,
         62,
         82,
-        247
+        247,
+        375
       ],
       "eliteChargedMoves": []
     },
@@ -111252,6 +111288,7 @@
       "formName": "Normal",
       "proto": "VENUSAUR_NORMAL",
       "formId": 169,
+      "gmaxMove": 453,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -111313,6 +111350,7 @@
       "formName": "Normal",
       "proto": "CHARIZARD_NORMAL",
       "formId": 178,
+      "gmaxMove": 427,
       "tempEvolutions": [
         {
           "tempEvoId": 2,
@@ -111386,6 +111424,7 @@
       "formName": "Normal",
       "proto": "BLASTOISE_NORMAL",
       "formId": 187,
+      "gmaxMove": 454,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -111439,6 +111478,7 @@
       "formName": "Normal",
       "proto": "SNORLAX_NORMAL",
       "formId": 199,
+      "gmaxMove": 436,
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -111979,6 +112019,7 @@
       "formName": "Normal",
       "proto": "LAPRAS_NORMAL",
       "formId": 322,
+      "gmaxMove": 434,
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -112114,6 +112155,7 @@
       "formName": "Normal",
       "proto": "PIKACHU_NORMAL",
       "formId": 598,
+      "gmaxMove": 429,
       "evolutions": [
         {
           "evoId": 26,
@@ -112921,6 +112963,7 @@
       "formName": "Normal",
       "proto": "MACHAMP_NORMAL",
       "formId": 815,
+      "gmaxMove": 431,
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -113156,6 +113199,7 @@
       "formName": "Normal",
       "proto": "KINGLER_NORMAL",
       "formId": 873,
+      "gmaxMove": 433,
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -113641,8 +113685,9 @@
     },
     "959": {
       "formName": "Normal",
-      "proto": "BUTTERFREE_NORMAL",
-      "formId": 959
+      "formId": 959,
+      "gmaxMove": 428,
+      "proto": "BUTTERFREE_NORMAL"
     },
     "962": {
       "formName": "Normal",
@@ -113820,6 +113865,7 @@
       "formName": "Normal",
       "proto": "GENGAR_NORMAL",
       "formId": 1044,
+      "gmaxMove": 432,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -113955,6 +114001,7 @@
       "formName": "Normal",
       "proto": "EEVEE_NORMAL",
       "formId": 1092,
+      "gmaxMove": 435,
       "evolutions": [
         {
           "evoId": 134,
@@ -116264,8 +116311,9 @@
     },
     "2105": {
       "formName": "Normal",
-      "proto": "GARBODOR_NORMAL",
-      "formId": 2105
+      "formId": 2105,
+      "gmaxMove": 437,
+      "proto": "GARBODOR_NORMAL"
     },
     "2108": {
       "formName": "Normal",
@@ -116645,8 +116693,9 @@
     },
     "2324": {
       "formName": "Normal",
-      "proto": "MELMETAL_NORMAL",
-      "formId": 2324
+      "formId": 2324,
+      "gmaxMove": 438,
+      "proto": "MELMETAL_NORMAL"
     },
     "2327": {
       "formName": "Spring 2020",
@@ -117145,12 +117194,14 @@
     "2463": {
       "formName": "Low Key Form",
       "proto": "TOXTRICITY_LOW_KEY",
-      "formId": 2463
+      "formId": 2463,
+      "gmaxMove": 446
     },
     "2464": {
       "formName": "Amped Form",
       "proto": "TOXTRICITY_AMPED",
-      "formId": 2464
+      "formId": 2464,
+      "gmaxMove": 446
     },
     "2477": {
       "formName": "Phony Form",
@@ -117535,9 +117586,7 @@
           "formId": 2592,
           "itemRequirement": 650
         }
-      ],
-      "purificationDust": 100,
-      "purificationCandy": 100
+      ]
     },
     "2592": {
       "formName": "Fifty Percent",
@@ -117549,9 +117598,7 @@
           "formId": 2593,
           "itemRequirement": 650
         }
-      ],
-      "purificationDust": 100,
-      "purificationCandy": 100
+      ]
     },
     "2593": {
       "sizeSettings": [
@@ -117587,9 +117634,7 @@
       "defense": 207,
       "stamina": 389,
       "height": 4.5,
-      "weight": 610,
-      "purificationDust": 100,
-      "purificationCandy": 100
+      "weight": 610
     },
     "2594": {
       "formName": "Archipelago",
@@ -119007,6 +119052,7 @@
       "formName": "Single Strike",
       "proto": "URSHIFU_SINGLE_STRIKE",
       "formId": 2723,
+      "gmaxMove": 458,
       "quickMoves": [
         203,
         241,
@@ -119027,6 +119073,7 @@
       "formName": "Rapid Strike",
       "proto": "URSHIFU_RAPID_STRIKE",
       "formId": 2724,
+      "gmaxMove": 459,
       "quickMoves": [
         241,
         243,
@@ -120523,9 +120570,7 @@
       "defense": 173,
       "stamina": 144,
       "height": 1.2,
-      "weight": 33.5,
-      "purificationDust": 100,
-      "purificationCandy": 100
+      "weight": 33.5
     },
     "2824": {
       "sizeSettings": [
@@ -120560,9 +120605,7 @@
       ],
       "formName": "Complete Fifty Percent",
       "proto": "ZYGARDE_COMPLETE_FIFTY_PERCENT",
-      "formId": 2824,
-      "purificationDust": 100,
-      "purificationCandy": 100
+      "formId": 2824
     },
     "2825": {
       "formName": "Gotour 2024 A",
@@ -121146,118 +121189,6 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
-    },
-    "PIKACHU_GOTOUR_2025_A": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "PIKACHU_GOTOUR_2025_A_02": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "PIKACHU_GOTOUR_2025_B": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "PIKACHU_GOTOUR_2025_B_02": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
     }
   },
   "types": {
@@ -123838,6 +123769,13 @@
       "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
+    },
+    "2002": {
+      "id": 2002,
+      "name": "Event Pass Point Go Tour 02",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
     }
   },
   "moves": {
@@ -125873,267 +125811,320 @@
     "409": {
       "id": 409,
       "name": "Max Flare",
-      "proto": "VN_BM_001"
+      "proto": "VN_BM_001",
+      "power": 350
     },
     "410": {
       "id": 410,
       "name": "Max Flutterby",
-      "proto": "VN_BM_002"
+      "proto": "VN_BM_002",
+      "power": 350
     },
     "411": {
       "id": 411,
       "name": "Max Lightning",
-      "proto": "VN_BM_003"
+      "proto": "VN_BM_003",
+      "power": 350
     },
     "412": {
       "id": 412,
       "name": "Max Strike",
-      "proto": "VN_BM_004"
+      "proto": "VN_BM_004",
+      "power": 350
     },
     "413": {
       "id": 413,
       "name": "Max Knuckle",
-      "proto": "VN_BM_005"
+      "proto": "VN_BM_005",
+      "power": 350
     },
     "414": {
       "id": 414,
       "name": "Max Phantasm",
-      "proto": "VN_BM_006"
+      "proto": "VN_BM_006",
+      "power": 350
     },
     "415": {
       "id": 415,
       "name": "Max Hailstorm",
-      "proto": "VN_BM_007"
+      "proto": "VN_BM_007",
+      "power": 350
     },
     "416": {
       "id": 416,
       "name": "Max Ooze",
-      "proto": "VN_BM_008"
+      "proto": "VN_BM_008",
+      "power": 350
     },
     "417": {
       "id": 417,
       "name": "Max Geyser",
-      "proto": "VN_BM_009"
+      "proto": "VN_BM_009",
+      "power": 350
     },
     "418": {
       "id": 418,
       "name": "Max Airstream",
-      "proto": "VN_BM_010"
+      "proto": "VN_BM_010",
+      "power": 350
     },
     "419": {
       "id": 419,
       "name": "Max Starfall",
-      "proto": "VN_BM_011"
+      "proto": "VN_BM_011",
+      "power": 350
     },
     "420": {
       "id": 420,
       "name": "Max Wyrmwind",
-      "proto": "VN_BM_012"
+      "proto": "VN_BM_012",
+      "power": 350
     },
     "421": {
       "id": 421,
       "name": "Max Mindstorm",
-      "proto": "VN_BM_013"
+      "proto": "VN_BM_013",
+      "power": 350
     },
     "422": {
       "id": 422,
       "name": "Max Rockfall",
-      "proto": "VN_BM_014"
+      "proto": "VN_BM_014",
+      "power": 350
     },
     "423": {
       "id": 423,
       "name": "Max Quake",
-      "proto": "VN_BM_015"
+      "proto": "VN_BM_015",
+      "power": 350
     },
     "424": {
       "id": 424,
       "name": "Max Darkness",
-      "proto": "VN_BM_016"
+      "proto": "VN_BM_016",
+      "power": 350
     },
     "425": {
       "id": 425,
       "name": "Max Overgrowth",
-      "proto": "VN_BM_017"
+      "proto": "VN_BM_017",
+      "power": 350
     },
     "426": {
       "id": 426,
       "name": "Max Steelspike",
-      "proto": "VN_BM_018"
+      "proto": "VN_BM_018",
+      "power": 350
     },
     "427": {
       "id": 427,
       "name": "G-Max Wildfire",
-      "proto": "VN_BM_019"
+      "proto": "VN_BM_019",
+      "power": 450
     },
     "428": {
       "id": 428,
       "name": "G-Max Befuddle",
-      "proto": "VN_BM_020"
+      "proto": "VN_BM_020",
+      "power": 450
     },
     "429": {
       "id": 429,
       "name": "G-Max Volt Crash",
-      "proto": "VN_BM_021"
+      "proto": "VN_BM_021",
+      "power": 450
     },
     "430": {
       "id": 430,
       "name": "G-Max Gold Rush",
-      "proto": "VN_BM_022"
+      "proto": "VN_BM_022",
+      "power": 450
     },
     "431": {
       "id": 431,
       "name": "G-Max Chi Strike",
-      "proto": "VN_BM_023"
+      "proto": "VN_BM_023",
+      "power": 450
     },
     "432": {
       "id": 432,
       "name": "G-Max Terror",
-      "proto": "VN_BM_024"
+      "proto": "VN_BM_024",
+      "power": 450
     },
     "433": {
       "id": 433,
       "name": "G-Max Foam Burst",
-      "proto": "VN_BM_025"
+      "proto": "VN_BM_025",
+      "power": 450
     },
     "434": {
       "id": 434,
       "name": "G-Max Resonance",
-      "proto": "VN_BM_026"
+      "proto": "VN_BM_026",
+      "power": 450
     },
     "435": {
       "id": 435,
       "name": "G-Max Cuddle",
-      "proto": "VN_BM_027"
+      "proto": "VN_BM_027",
+      "power": 450
     },
     "436": {
       "id": 436,
       "name": "G-Max Replenish",
-      "proto": "VN_BM_028"
+      "proto": "VN_BM_028",
+      "power": 450
     },
     "437": {
       "id": 437,
       "name": "G-Max Malodor",
-      "proto": "VN_BM_029"
+      "proto": "VN_BM_029",
+      "power": 450
     },
     "438": {
       "id": 438,
       "name": "G-Max Meltdown",
-      "proto": "VN_BM_030"
+      "proto": "VN_BM_030",
+      "power": 450
     },
     "439": {
       "id": 439,
       "name": "G-Max Wind Rage",
-      "proto": "VN_BM_031"
+      "proto": "VN_BM_031",
+      "power": 450
     },
     "440": {
       "id": 440,
       "name": "G-Max Gravitas",
-      "proto": "VN_BM_032"
+      "proto": "VN_BM_032",
+      "power": 450
     },
     "441": {
       "id": 441,
       "name": "G-Max Stonesurge",
-      "proto": "VN_BM_033"
+      "proto": "VN_BM_033",
+      "power": 450
     },
     "442": {
       "id": 442,
       "name": "G-Max Volcalith",
-      "proto": "VN_BM_034"
+      "proto": "VN_BM_034",
+      "power": 450
     },
     "443": {
       "id": 443,
       "name": "G-Max Tartness",
-      "proto": "VN_BM_035"
+      "proto": "VN_BM_035",
+      "power": 450
     },
     "444": {
       "id": 444,
       "name": "G-Max Sweetness",
-      "proto": "VN_BM_036"
+      "proto": "VN_BM_036",
+      "power": 450
     },
     "445": {
       "id": 445,
       "name": "G-Max Sandblast",
-      "proto": "VN_BM_037"
+      "proto": "VN_BM_037",
+      "power": 450
     },
     "446": {
       "id": 446,
       "name": "G-Max Stun Shock",
-      "proto": "VN_BM_038"
+      "proto": "VN_BM_038",
+      "power": 450
     },
     "447": {
       "id": 447,
       "name": "G-Max Centiferno",
-      "proto": "VN_BM_039"
+      "proto": "VN_BM_039",
+      "power": 450
     },
     "448": {
       "id": 448,
       "name": "G-Max Smite",
-      "proto": "VN_BM_040"
+      "proto": "VN_BM_040",
+      "power": 450
     },
     "449": {
       "id": 449,
       "name": "G-Max Snooze",
-      "proto": "VN_BM_041"
+      "proto": "VN_BM_041",
+      "power": 450
     },
     "450": {
       "id": 450,
       "name": "G-Max Finale",
-      "proto": "VN_BM_042"
+      "proto": "VN_BM_042",
+      "power": 450
     },
     "451": {
       "id": 451,
       "name": "G-Max Steelsurge",
-      "proto": "VN_BM_043"
+      "proto": "VN_BM_043",
+      "power": 450
     },
     "452": {
       "id": 452,
       "name": "G-Max Depletion",
-      "proto": "VN_BM_044"
+      "proto": "VN_BM_044",
+      "power": 450
     },
     "453": {
       "id": 453,
       "name": "G-Max Vine Lash",
-      "proto": "VN_BM_045"
+      "proto": "VN_BM_045",
+      "power": 450
     },
     "454": {
       "id": 454,
       "name": "G-Max Cannonade",
-      "proto": "VN_BM_046"
+      "proto": "VN_BM_046",
+      "power": 450
     },
     "455": {
       "id": 455,
       "name": "G-Max Drum Solo",
-      "proto": "VN_BM_047"
+      "proto": "VN_BM_047",
+      "power": 450
     },
     "456": {
       "id": 456,
       "name": "G-Max Fireball",
-      "proto": "VN_BM_048"
+      "proto": "VN_BM_048",
+      "power": 450
     },
     "457": {
       "id": 457,
       "name": "G-Max Hydrosnipe",
-      "proto": "VN_BM_049"
+      "proto": "VN_BM_049",
+      "power": 450
     },
     "458": {
       "id": 458,
       "name": "G-Max One Blow",
-      "proto": "VN_BM_050"
+      "proto": "VN_BM_050",
+      "power": 450
     },
     "459": {
       "id": 459,
       "name": "G-Max Rapid Flow",
-      "proto": "VN_BM_051"
+      "proto": "VN_BM_051",
+      "power": 450
     },
     "460": {
       "id": 460,
       "name": "Vn Bm 052",
-      "proto": "VN_BM_052"
+      "proto": "VN_BM_052",
+      "power": 0
     },
     "461": {
       "id": 461,
       "name": "Vn Bm 053",
-      "proto": "VN_BM_053"
+      "proto": "VN_BM_053",
+      "power": 0
     },
     "462": {
       "id": 462,
@@ -126163,13 +126154,13 @@
       "id": 466,
       "name": "Freeze Shock",
       "proto": "FREEZE_SHOCK",
-      "power": 1
+      "power": 160
     },
     "467": {
       "id": 467,
       "name": "Ice Burn",
       "proto": "ICE_BURN",
-      "power": 1
+      "power": 90
     }
   },
   "questTypes": {

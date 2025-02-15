@@ -384,6 +384,9 @@
       "forms": {
         "0": {
           "name": "Unset"
+        },
+        "959": {
+          "name": "Normal"
         }
       },
       "height": 1.1,
@@ -16953,7 +16956,8 @@
       ],
       "quickMoves": [
         234,
-        281
+        281,
+        357
       ],
       "chargedMoves": [
         116,
@@ -16966,11 +16970,6 @@
       "forms": {
         "92": {
           "name": "Sky",
-          "quickMoves": [
-            234,
-            281,
-            357
-          ],
           "types": [
             3,
             12
@@ -19553,6 +19552,9 @@
       "forms": {
         "0": {
           "name": "Unset"
+        },
+        "2105": {
+          "name": "Normal"
         }
       },
       "height": 1.9,
@@ -22072,16 +22074,23 @@
             32,
             40,
             74,
-            277
+            277,
+            374
           ]
         },
         "148": {
           "name": "White",
+          "quickMoves": [
+            204,
+            239,
+            327
+          ],
           "chargedMoves": [
             40,
             62,
             82,
-            247
+            247,
+            375
           ]
         }
       },
@@ -27826,6 +27835,9 @@
       "forms": {
         "0": {
           "name": "Unset"
+        },
+        "2324": {
+          "name": "Normal"
         }
       },
       "height": 2.5,
@@ -34935,7 +34947,8 @@
     "1632": "Event Ticket 08 To Gift",
     "1633": "Event Ticket 09 To Gift",
     "1634": "Event Ticket 10 To Gift",
-    "2001": "Event Pass Point Go Tour 01"
+    "2001": "Event Pass Point Go Tour 01",
+    "2002": "Event Pass Point Go Tour 02"
   },
   "moves": {
     "0": {
@@ -36279,163 +36292,216 @@
       "type": 2
     },
     "409": {
-      "name": "Vn Bm 001"
+      "name": "Max Flare",
+      "type": 10
     },
     "410": {
-      "name": "Vn Bm 002"
+      "name": "Max Flutterby",
+      "type": 7
     },
     "411": {
-      "name": "Vn Bm 003"
+      "name": "Max Lightning",
+      "type": 13
     },
     "412": {
-      "name": "Vn Bm 004"
+      "name": "Max Strike",
+      "type": 1
     },
     "413": {
-      "name": "Vn Bm 005"
+      "name": "Max Knuckle",
+      "type": 2
     },
     "414": {
-      "name": "Vn Bm 006"
+      "name": "Max Phantasm",
+      "type": 8
     },
     "415": {
-      "name": "Vn Bm 007"
+      "name": "Max Hailstorm",
+      "type": 15
     },
     "416": {
-      "name": "Vn Bm 008"
+      "name": "Max Ooze",
+      "type": 4
     },
     "417": {
-      "name": "Vn Bm 009"
+      "name": "Max Geyser",
+      "type": 11
     },
     "418": {
-      "name": "Vn Bm 010"
+      "name": "Max Airstream",
+      "type": 3
     },
     "419": {
-      "name": "Vn Bm 011"
+      "name": "Max Starfall",
+      "type": 18
     },
     "420": {
-      "name": "Vn Bm 012"
+      "name": "Max Wyrmwind",
+      "type": 16
     },
     "421": {
-      "name": "Vn Bm 013"
+      "name": "Max Mindstorm",
+      "type": 14
     },
     "422": {
-      "name": "Vn Bm 014"
+      "name": "Max Rockfall",
+      "type": 6
     },
     "423": {
-      "name": "Vn Bm 015"
+      "name": "Max Quake",
+      "type": 5
     },
     "424": {
-      "name": "Vn Bm 016"
+      "name": "Max Darkness",
+      "type": 17
     },
     "425": {
-      "name": "Vn Bm 017"
+      "name": "Max Overgrowth",
+      "type": 12
     },
     "426": {
-      "name": "Vn Bm 018"
+      "name": "Max Steelspike",
+      "type": 9
     },
     "427": {
-      "name": "Vn Bm 019"
+      "name": "Gmax Wildfire",
+      "type": 10
     },
     "428": {
-      "name": "Vn Bm 020"
+      "name": "Gmax Befuddle",
+      "type": 7
     },
     "429": {
-      "name": "Vn Bm 021"
+      "name": "Gmax Voltcrash",
+      "type": 13
     },
     "430": {
-      "name": "Vn Bm 022"
+      "name": "Gmax Goldrush",
+      "type": 1
     },
     "431": {
-      "name": "Vn Bm 023"
+      "name": "Gmax Chistrike",
+      "type": 2
     },
     "432": {
-      "name": "Vn Bm 024"
+      "name": "Gmax Terror",
+      "type": 8
     },
     "433": {
-      "name": "Vn Bm 025"
+      "name": "Gmax Foamburst",
+      "type": 11
     },
     "434": {
-      "name": "Vn Bm 026"
+      "name": "Gmax Resonance",
+      "type": 15
     },
     "435": {
-      "name": "Vn Bm 027"
+      "name": "Gmax Cuddle",
+      "type": 1
     },
     "436": {
-      "name": "Vn Bm 028"
+      "name": "Gmax Replenish",
+      "type": 1
     },
     "437": {
-      "name": "Vn Bm 029"
+      "name": "Gmax Malodor",
+      "type": 4
     },
     "438": {
-      "name": "Vn Bm 030"
+      "name": "Gmax Meltdown",
+      "type": 9
     },
     "439": {
-      "name": "Vn Bm 031"
+      "name": "Gmax Windrage",
+      "type": 3
     },
     "440": {
-      "name": "Vn Bm 032"
+      "name": "Gmax Gravitas",
+      "type": 14
     },
     "441": {
-      "name": "Vn Bm 033"
+      "name": "Gmax Stonesurge",
+      "type": 11
     },
     "442": {
-      "name": "Vn Bm 034"
+      "name": "Gmax Volcalith",
+      "type": 6
     },
     "443": {
-      "name": "Vn Bm 035"
+      "name": "Gmax Tartness",
+      "type": 12
     },
     "444": {
-      "name": "Vn Bm 036"
+      "name": "Gmax Sweetness",
+      "type": 12
     },
     "445": {
-      "name": "Vn Bm 037"
+      "name": "Gmax Sandblast",
+      "type": 5
     },
     "446": {
-      "name": "Vn Bm 038"
+      "name": "Gmax Stun Shock",
+      "type": 13
     },
     "447": {
-      "name": "Vn Bm 039"
+      "name": "Gmax Centiferno",
+      "type": 10
     },
     "448": {
-      "name": "Vn Bm 040"
+      "name": "Gmax Smite",
+      "type": 18
     },
     "449": {
-      "name": "Vn Bm 041"
+      "name": "Gmax Snooze",
+      "type": 17
     },
     "450": {
-      "name": "Vn Bm 042"
+      "name": "Gmax Finale",
+      "type": 18
     },
     "451": {
-      "name": "Vn Bm 043"
+      "name": "Gmax Steelsurge",
+      "type": 9
     },
     "452": {
-      "name": "Vn Bm 044"
+      "name": "Gmax Depletion",
+      "type": 16
     },
     "453": {
-      "name": "Vn Bm 045"
+      "name": "Gmax Vinelash",
+      "type": 12
     },
     "454": {
-      "name": "Vn Bm 046"
+      "name": "Gmax Cannonade",
+      "type": 11
     },
     "455": {
-      "name": "Vn Bm 047"
+      "name": "Gmax Drumsolo",
+      "type": 12
     },
     "456": {
-      "name": "Vn Bm 048"
+      "name": "Gmax Fireball",
+      "type": 10
     },
     "457": {
-      "name": "Vn Bm 049"
+      "name": "Gmax Hydrosnipe",
+      "type": 11
     },
     "458": {
-      "name": "Vn Bm 050"
+      "name": "Gmax Oneblow",
+      "type": 17
     },
     "459": {
-      "name": "Vn Bm 051"
+      "name": "Gmax Rapidflow",
+      "type": 11
     },
     "460": {
-      "name": "Vn Bm 052"
+      "name": "Max Shield",
+      "type": 1
     },
     "461": {
-      "name": "Vn Bm 053"
+      "name": "Max Heal",
+      "type": 1
     },
     "462": {
       "name": "Force Palm",

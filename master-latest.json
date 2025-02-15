@@ -25134,7 +25134,8 @@
       ],
       "quick_moves": [
         "Zen Headbutt",
-        "Hidden Power"
+        "Hidden Power",
+        "Magical Leaf"
       ],
       "charged_moves": [
         "Solar Beam",
@@ -25153,11 +25154,6 @@
           "stamina": 225,
           "height": 0.4,
           "weight": 5.2,
-          "quick_moves": [
-            "Zen Headbutt",
-            "Hidden Power",
-            "Magical Leaf"
-          ],
           "types": [
             "Flying",
             "Grass"
@@ -32632,6 +32628,8 @@
           "attack": 310,
           "defense": 183,
           "stamina": 245,
+          "height": 3.3,
+          "weight": 325,
           "quick_moves": [
             "Shadow Claw",
             "Dragon Tail"
@@ -32640,7 +32638,8 @@
             "Stone Edge",
             "Blizzard",
             "Iron Head",
-            "Outrage"
+            "Outrage",
+            "Fusion Bolt"
           ]
         },
         "148": {
@@ -32649,11 +32648,19 @@
           "attack": 310,
           "defense": 183,
           "stamina": 245,
+          "height": 3.6,
+          "weight": 325,
+          "quick_moves": [
+            "Dragon Breath",
+            "Steel Wing",
+            "Ice Fang"
+          ],
           "charged_moves": [
             "Blizzard",
             "Ancient Power",
             "Dragon Pulse",
-            "Focus Blast"
+            "Focus Blast",
+            "Fusion Flare"
           ]
         }
       },
@@ -50897,6 +50904,12 @@
       "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
+    },
+    "2002": {
+      "name": "Event Pass Point Go Tour 02",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
     }
   },
   "moves": {
@@ -52882,216 +52895,322 @@
       "power": 90
     },
     "409": {
-      "name": "Vn Bm 001",
-      "proto": "VN_BM_001"
+      "name": "Max Flare",
+      "proto": "VN_BM_001",
+      "type": "Fire",
+      "power": 350
     },
     "410": {
-      "name": "Vn Bm 002",
-      "proto": "VN_BM_002"
+      "name": "Max Flutterby",
+      "proto": "VN_BM_002",
+      "type": "Bug",
+      "power": 350
     },
     "411": {
-      "name": "Vn Bm 003",
-      "proto": "VN_BM_003"
+      "name": "Max Lightning",
+      "proto": "VN_BM_003",
+      "type": "Electric",
+      "power": 350
     },
     "412": {
-      "name": "Vn Bm 004",
-      "proto": "VN_BM_004"
+      "name": "Max Strike",
+      "proto": "VN_BM_004",
+      "type": "Normal",
+      "power": 350
     },
     "413": {
-      "name": "Vn Bm 005",
-      "proto": "VN_BM_005"
+      "name": "Max Knuckle",
+      "proto": "VN_BM_005",
+      "type": "Fighting",
+      "power": 350
     },
     "414": {
-      "name": "Vn Bm 006",
-      "proto": "VN_BM_006"
+      "name": "Max Phantasm",
+      "proto": "VN_BM_006",
+      "type": "Ghost",
+      "power": 350
     },
     "415": {
-      "name": "Vn Bm 007",
-      "proto": "VN_BM_007"
+      "name": "Max Hailstorm",
+      "proto": "VN_BM_007",
+      "type": "Ice",
+      "power": 350
     },
     "416": {
-      "name": "Vn Bm 008",
-      "proto": "VN_BM_008"
+      "name": "Max Ooze",
+      "proto": "VN_BM_008",
+      "type": "Poison",
+      "power": 350
     },
     "417": {
-      "name": "Vn Bm 009",
-      "proto": "VN_BM_009"
+      "name": "Max Geyser",
+      "proto": "VN_BM_009",
+      "type": "Water",
+      "power": 350
     },
     "418": {
-      "name": "Vn Bm 010",
-      "proto": "VN_BM_010"
+      "name": "Max Airstream",
+      "proto": "VN_BM_010",
+      "type": "Flying",
+      "power": 350
     },
     "419": {
-      "name": "Vn Bm 011",
-      "proto": "VN_BM_011"
+      "name": "Max Starfall",
+      "proto": "VN_BM_011",
+      "type": "Fairy",
+      "power": 350
     },
     "420": {
-      "name": "Vn Bm 012",
-      "proto": "VN_BM_012"
+      "name": "Max Wyrmwind",
+      "proto": "VN_BM_012",
+      "type": "Dragon",
+      "power": 350
     },
     "421": {
-      "name": "Vn Bm 013",
-      "proto": "VN_BM_013"
+      "name": "Max Mindstorm",
+      "proto": "VN_BM_013",
+      "type": "Psychic",
+      "power": 350
     },
     "422": {
-      "name": "Vn Bm 014",
-      "proto": "VN_BM_014"
+      "name": "Max Rockfall",
+      "proto": "VN_BM_014",
+      "type": "Rock",
+      "power": 350
     },
     "423": {
-      "name": "Vn Bm 015",
-      "proto": "VN_BM_015"
+      "name": "Max Quake",
+      "proto": "VN_BM_015",
+      "type": "Ground",
+      "power": 350
     },
     "424": {
-      "name": "Vn Bm 016",
-      "proto": "VN_BM_016"
+      "name": "Max Darkness",
+      "proto": "VN_BM_016",
+      "type": "Dark",
+      "power": 350
     },
     "425": {
-      "name": "Vn Bm 017",
-      "proto": "VN_BM_017"
+      "name": "Max Overgrowth",
+      "proto": "VN_BM_017",
+      "type": "Grass",
+      "power": 350
     },
     "426": {
-      "name": "Vn Bm 018",
-      "proto": "VN_BM_018"
+      "name": "Max Steelspike",
+      "proto": "VN_BM_018",
+      "type": "Steel",
+      "power": 350
     },
     "427": {
-      "name": "Vn Bm 019",
-      "proto": "VN_BM_019"
+      "name": "Gmax Wildfire",
+      "proto": "VN_BM_019",
+      "type": "Fire",
+      "power": 450
     },
     "428": {
-      "name": "Vn Bm 020",
-      "proto": "VN_BM_020"
+      "name": "Gmax Befuddle",
+      "proto": "VN_BM_020",
+      "type": "Bug",
+      "power": 450
     },
     "429": {
-      "name": "Vn Bm 021",
-      "proto": "VN_BM_021"
+      "name": "Gmax Voltcrash",
+      "proto": "VN_BM_021",
+      "type": "Electric",
+      "power": 450
     },
     "430": {
-      "name": "Vn Bm 022",
-      "proto": "VN_BM_022"
+      "name": "Gmax Goldrush",
+      "proto": "VN_BM_022",
+      "type": "Normal",
+      "power": 450
     },
     "431": {
-      "name": "Vn Bm 023",
-      "proto": "VN_BM_023"
+      "name": "Gmax Chistrike",
+      "proto": "VN_BM_023",
+      "type": "Fighting",
+      "power": 450
     },
     "432": {
-      "name": "Vn Bm 024",
-      "proto": "VN_BM_024"
+      "name": "Gmax Terror",
+      "proto": "VN_BM_024",
+      "type": "Ghost",
+      "power": 450
     },
     "433": {
-      "name": "Vn Bm 025",
-      "proto": "VN_BM_025"
+      "name": "Gmax Foamburst",
+      "proto": "VN_BM_025",
+      "type": "Water",
+      "power": 450
     },
     "434": {
-      "name": "Vn Bm 026",
-      "proto": "VN_BM_026"
+      "name": "Gmax Resonance",
+      "proto": "VN_BM_026",
+      "type": "Ice",
+      "power": 450
     },
     "435": {
-      "name": "Vn Bm 027",
-      "proto": "VN_BM_027"
+      "name": "Gmax Cuddle",
+      "proto": "VN_BM_027",
+      "type": "Normal",
+      "power": 450
     },
     "436": {
-      "name": "Vn Bm 028",
-      "proto": "VN_BM_028"
+      "name": "Gmax Replenish",
+      "proto": "VN_BM_028",
+      "type": "Normal",
+      "power": 450
     },
     "437": {
-      "name": "Vn Bm 029",
-      "proto": "VN_BM_029"
+      "name": "Gmax Malodor",
+      "proto": "VN_BM_029",
+      "type": "Poison",
+      "power": 450
     },
     "438": {
-      "name": "Vn Bm 030",
-      "proto": "VN_BM_030"
+      "name": "Gmax Meltdown",
+      "proto": "VN_BM_030",
+      "type": "Steel",
+      "power": 450
     },
     "439": {
-      "name": "Vn Bm 031",
-      "proto": "VN_BM_031"
+      "name": "Gmax Windrage",
+      "proto": "VN_BM_031",
+      "type": "Flying",
+      "power": 450
     },
     "440": {
-      "name": "Vn Bm 032",
-      "proto": "VN_BM_032"
+      "name": "Gmax Gravitas",
+      "proto": "VN_BM_032",
+      "type": "Psychic",
+      "power": 450
     },
     "441": {
-      "name": "Vn Bm 033",
-      "proto": "VN_BM_033"
+      "name": "Gmax Stonesurge",
+      "proto": "VN_BM_033",
+      "type": "Water",
+      "power": 450
     },
     "442": {
-      "name": "Vn Bm 034",
-      "proto": "VN_BM_034"
+      "name": "Gmax Volcalith",
+      "proto": "VN_BM_034",
+      "type": "Rock",
+      "power": 450
     },
     "443": {
-      "name": "Vn Bm 035",
-      "proto": "VN_BM_035"
+      "name": "Gmax Tartness",
+      "proto": "VN_BM_035",
+      "type": "Grass",
+      "power": 450
     },
     "444": {
-      "name": "Vn Bm 036",
-      "proto": "VN_BM_036"
+      "name": "Gmax Sweetness",
+      "proto": "VN_BM_036",
+      "type": "Grass",
+      "power": 450
     },
     "445": {
-      "name": "Vn Bm 037",
-      "proto": "VN_BM_037"
+      "name": "Gmax Sandblast",
+      "proto": "VN_BM_037",
+      "type": "Ground",
+      "power": 450
     },
     "446": {
-      "name": "Vn Bm 038",
-      "proto": "VN_BM_038"
+      "name": "Gmax Stun Shock",
+      "proto": "VN_BM_038",
+      "type": "Electric",
+      "power": 450
     },
     "447": {
-      "name": "Vn Bm 039",
-      "proto": "VN_BM_039"
+      "name": "Gmax Centiferno",
+      "proto": "VN_BM_039",
+      "type": "Fire",
+      "power": 450
     },
     "448": {
-      "name": "Vn Bm 040",
-      "proto": "VN_BM_040"
+      "name": "Gmax Smite",
+      "proto": "VN_BM_040",
+      "type": "Fairy",
+      "power": 450
     },
     "449": {
-      "name": "Vn Bm 041",
-      "proto": "VN_BM_041"
+      "name": "Gmax Snooze",
+      "proto": "VN_BM_041",
+      "type": "Dark",
+      "power": 450
     },
     "450": {
-      "name": "Vn Bm 042",
-      "proto": "VN_BM_042"
+      "name": "Gmax Finale",
+      "proto": "VN_BM_042",
+      "type": "Fairy",
+      "power": 450
     },
     "451": {
-      "name": "Vn Bm 043",
-      "proto": "VN_BM_043"
+      "name": "Gmax Steelsurge",
+      "proto": "VN_BM_043",
+      "type": "Steel",
+      "power": 450
     },
     "452": {
-      "name": "Vn Bm 044",
-      "proto": "VN_BM_044"
+      "name": "Gmax Depletion",
+      "proto": "VN_BM_044",
+      "type": "Dragon",
+      "power": 450
     },
     "453": {
-      "name": "Vn Bm 045",
-      "proto": "VN_BM_045"
+      "name": "Gmax Vinelash",
+      "proto": "VN_BM_045",
+      "type": "Grass",
+      "power": 450
     },
     "454": {
-      "name": "Vn Bm 046",
-      "proto": "VN_BM_046"
+      "name": "Gmax Cannonade",
+      "proto": "VN_BM_046",
+      "type": "Water",
+      "power": 450
     },
     "455": {
-      "name": "Vn Bm 047",
-      "proto": "VN_BM_047"
+      "name": "Gmax Drumsolo",
+      "proto": "VN_BM_047",
+      "type": "Grass",
+      "power": 450
     },
     "456": {
-      "name": "Vn Bm 048",
-      "proto": "VN_BM_048"
+      "name": "Gmax Fireball",
+      "proto": "VN_BM_048",
+      "type": "Fire",
+      "power": 450
     },
     "457": {
-      "name": "Vn Bm 049",
-      "proto": "VN_BM_049"
+      "name": "Gmax Hydrosnipe",
+      "proto": "VN_BM_049",
+      "type": "Water",
+      "power": 450
     },
     "458": {
-      "name": "Vn Bm 050",
-      "proto": "VN_BM_050"
+      "name": "Gmax Oneblow",
+      "proto": "VN_BM_050",
+      "type": "Dark",
+      "power": 450
     },
     "459": {
-      "name": "Vn Bm 051",
-      "proto": "VN_BM_051"
+      "name": "Gmax Rapidflow",
+      "proto": "VN_BM_051",
+      "type": "Water",
+      "power": 450
     },
     "460": {
-      "name": "Vn Bm 052",
-      "proto": "VN_BM_052"
+      "name": "Max Shield",
+      "proto": "VN_BM_052",
+      "type": "Normal",
+      "power": 0
     },
     "461": {
-      "name": "Vn Bm 053",
-      "proto": "VN_BM_053"
+      "name": "Max Heal",
+      "proto": "VN_BM_053",
+      "type": "Normal",
+      "power": 0
     },
     "462": {
       "name": "Force Palm",
@@ -53121,13 +53240,13 @@
       "name": "Freeze Shock",
       "proto": "FREEZE_SHOCK",
       "type": "Ice",
-      "power": 1
+      "power": 160
     },
     "467": {
       "name": "Ice Burn",
       "proto": "ICE_BURN",
       "type": "Ice",
-      "power": 1
+      "power": 90
     }
   },
   "quest_types": {

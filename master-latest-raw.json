@@ -16071,6 +16071,7 @@
       "height": 1.5,
       "weight": 14,
       "family": 206,
+      "bonusStardustCapture": 500,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -37568,7 +37569,8 @@
       ],
       "quickMoves": [
         234,
-        281
+        281,
+        357
       ],
       "chargedMoves": [
         116,
@@ -44764,7 +44766,9 @@
         303
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        318
+      ],
       "genId": 5,
       "generation": "Unova",
       "forms": [
@@ -46832,7 +46836,9 @@
         303
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        273
+      ],
       "genId": 5,
       "generation": "Unova",
       "forms": [
@@ -54311,9 +54317,7 @@
           "formId": 2592,
           "itemRequirement": 650
         }
-      ],
-      "purificationDust": 100,
-      "purificationCandy": 100
+      ]
     },
     "719": {
       "pokemonName": "Diancie",
@@ -54454,8 +54458,7 @@
       "ultraBeast": false,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "transferable": true
+      "thirdMoveCandy": 100
     },
     "721": {
       "pokemonName": "Volcanion",
@@ -56050,6 +56053,7 @@
       "height": 0.1,
       "weight": 0.2,
       "family": 742,
+      "bonusStardustCapture": 500,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -56845,6 +56849,7 @@
       "height": 0.3,
       "weight": 1.5,
       "family": 753,
+      "bonusStardustCapture": 500,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -60976,6 +60981,7 @@
           "value": 3.255
         }
       ],
+      "gmaxMove": 455,
       "attack": 239,
       "defense": 168,
       "stamina": 225,
@@ -61189,6 +61195,7 @@
           "value": 2.45
         }
       ],
+      "gmaxMove": 456,
       "attack": 238,
       "defense": 163,
       "stamina": 190,
@@ -61402,6 +61409,7 @@
           "value": 2.945
         }
       ],
+      "gmaxMove": 457,
       "attack": 262,
       "defense": 142,
       "stamina": 172,
@@ -61730,7 +61738,9 @@
         333
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        74
+      ],
       "genId": 8,
       "generation": "Galar",
       "forms": [
@@ -61762,6 +61772,7 @@
           "value": 3.41
         }
       ],
+      "gmaxMove": 439,
       "attack": 163,
       "defense": 192,
       "stamina": 221,
@@ -61974,6 +61985,7 @@
           "value": 0.8
         }
       ],
+      "gmaxMove": 440,
       "attack": 156,
       "defense": 240,
       "stamina": 155,
@@ -62535,6 +62547,7 @@
           "value": 1.75
         }
       ],
+      "gmaxMove": 441,
       "attack": 213,
       "defense": 164,
       "stamina": 207,
@@ -62890,6 +62903,7 @@
           "value": 4.34
         }
       ],
+      "gmaxMove": 442,
       "attack": 146,
       "defense": 198,
       "stamina": 242,
@@ -63035,6 +63049,7 @@
           "value": 0.525
         }
       ],
+      "gmaxMove": 443,
       "attack": 214,
       "defense": 144,
       "stamina": 172,
@@ -63105,6 +63120,7 @@
           "value": 0.7
         }
       ],
+      "gmaxMove": 444,
       "attack": 178,
       "defense": 146,
       "stamina": 242,
@@ -63246,6 +63262,7 @@
           "value": 5.89
         }
       ],
+      "gmaxMove": 445,
       "attack": 202,
       "defense": 207,
       "stamina": 176,
@@ -63749,6 +63766,7 @@
           "value": 4.65
         }
       ],
+      "gmaxMove": 447,
       "attack": 220,
       "defense": 158,
       "stamina": 225,
@@ -64252,6 +64270,7 @@
           "value": 3.255
         }
       ],
+      "gmaxMove": 448,
       "attack": 237,
       "defense": 182,
       "stamina": 149,
@@ -64472,6 +64491,7 @@
           "value": 2.325
         }
       ],
+      "gmaxMove": 449,
       "attack": 227,
       "defense": 139,
       "stamina": 216,
@@ -65042,6 +65062,7 @@
           "value": 0.6
         }
       ],
+      "gmaxMove": 450,
       "attack": 203,
       "defense": 203,
       "stamina": 163,
@@ -65728,6 +65749,7 @@
           "value": 2.1
         }
       ],
+      "gmaxMove": 451,
       "attack": 226,
       "defense": 126,
       "stamina": 263,
@@ -66065,6 +66087,7 @@
           "value": 3.15
         }
       ],
+      "gmaxMove": 452,
       "attack": 239,
       "defense": 185,
       "stamina": 172,
@@ -66568,8 +66591,6 @@
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true,
       "evolutions": [
         {
           "evoId": 892,
@@ -66648,9 +66669,7 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "thirdMoveCandy": 100
     },
     "893": {
       "pokemonName": "Zarude",
@@ -76248,6 +76267,7 @@
       "formName": "Normal",
       "proto": "MEOWTH_NORMAL",
       "formId": 63,
+      "gmaxMove": 430,
       "evolutions": [
         {
           "evoId": 53,
@@ -76934,11 +76954,6 @@
       "stamina": 225,
       "height": 0.4,
       "weight": 5.2,
-      "quickMoves": [
-        234,
-        281,
-        357
-      ],
       "types": [
         3,
         12
@@ -77510,6 +77525,8 @@
       "attack": 310,
       "defense": 183,
       "stamina": 245,
+      "height": 3.3,
+      "weight": 325,
       "quickMoves": [
         213,
         253
@@ -77518,7 +77535,8 @@
         32,
         40,
         74,
-        277
+        277,
+        374
       ],
       "eliteChargedMoves": []
     },
@@ -77529,11 +77547,19 @@
       "attack": 310,
       "defense": 183,
       "stamina": 245,
+      "height": 3.6,
+      "weight": 325,
+      "quickMoves": [
+        204,
+        239,
+        327
+      ],
       "chargedMoves": [
         40,
         62,
         82,
-        247
+        247,
+        375
       ],
       "eliteChargedMoves": []
     },
@@ -77634,6 +77660,7 @@
       "formName": "Normal",
       "proto": "VENUSAUR_NORMAL",
       "formId": 169,
+      "gmaxMove": 453,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -77695,6 +77722,7 @@
       "formName": "Normal",
       "proto": "CHARIZARD_NORMAL",
       "formId": 178,
+      "gmaxMove": 427,
       "tempEvolutions": [
         {
           "tempEvoId": 2,
@@ -77768,6 +77796,7 @@
       "formName": "Normal",
       "proto": "BLASTOISE_NORMAL",
       "formId": 187,
+      "gmaxMove": 454,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -77821,6 +77850,7 @@
       "formName": "Normal",
       "proto": "SNORLAX_NORMAL",
       "formId": 199,
+      "gmaxMove": 436,
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -78361,6 +78391,7 @@
       "formName": "Normal",
       "proto": "LAPRAS_NORMAL",
       "formId": 322,
+      "gmaxMove": 434,
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -78496,6 +78527,7 @@
       "formName": "Normal",
       "proto": "PIKACHU_NORMAL",
       "formId": 598,
+      "gmaxMove": 429,
       "evolutions": [
         {
           "evoId": 26,
@@ -79303,6 +79335,7 @@
       "formName": "Normal",
       "proto": "MACHAMP_NORMAL",
       "formId": 815,
+      "gmaxMove": 431,
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -79538,6 +79571,7 @@
       "formName": "Normal",
       "proto": "KINGLER_NORMAL",
       "formId": 873,
+      "gmaxMove": 433,
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -80023,8 +80057,9 @@
     },
     "959": {
       "formName": "Normal",
-      "proto": "BUTTERFREE_NORMAL",
-      "formId": 959
+      "formId": 959,
+      "gmaxMove": 428,
+      "proto": "BUTTERFREE_NORMAL"
     },
     "962": {
       "formName": "Normal",
@@ -80202,6 +80237,7 @@
       "formName": "Normal",
       "proto": "GENGAR_NORMAL",
       "formId": 1044,
+      "gmaxMove": 432,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -80337,6 +80373,7 @@
       "formName": "Normal",
       "proto": "EEVEE_NORMAL",
       "formId": 1092,
+      "gmaxMove": 435,
       "evolutions": [
         {
           "evoId": 134,
@@ -82630,8 +82667,9 @@
     },
     "2105": {
       "formName": "Normal",
-      "proto": "GARBODOR_NORMAL",
-      "formId": 2105
+      "formId": 2105,
+      "gmaxMove": 437,
+      "proto": "GARBODOR_NORMAL"
     },
     "2108": {
       "formName": "Normal",
@@ -83011,8 +83049,9 @@
     },
     "2324": {
       "formName": "Normal",
-      "proto": "MELMETAL_NORMAL",
-      "formId": 2324
+      "formId": 2324,
+      "gmaxMove": 438,
+      "proto": "MELMETAL_NORMAL"
     },
     "2327": {
       "formName": "Spring 2020",
@@ -83511,12 +83550,14 @@
     "2463": {
       "formName": "Low Key",
       "proto": "TOXTRICITY_LOW_KEY",
-      "formId": 2463
+      "formId": 2463,
+      "gmaxMove": 446
     },
     "2464": {
       "formName": "Amped",
       "proto": "TOXTRICITY_AMPED",
-      "formId": 2464
+      "formId": 2464,
+      "gmaxMove": 446
     },
     "2477": {
       "formName": "Phony",
@@ -83901,9 +83942,7 @@
           "formId": 2592,
           "itemRequirement": 650
         }
-      ],
-      "purificationDust": 100,
-      "purificationCandy": 100
+      ]
     },
     "2592": {
       "formName": "Fifty Percent",
@@ -83915,9 +83954,7 @@
           "formId": 2593,
           "itemRequirement": 650
         }
-      ],
-      "purificationDust": 100,
-      "purificationCandy": 100
+      ]
     },
     "2593": {
       "sizeSettings": [
@@ -83953,9 +83990,7 @@
       "defense": 207,
       "stamina": 389,
       "height": 4.5,
-      "weight": 610,
-      "purificationDust": 100,
-      "purificationCandy": 100
+      "weight": 610
     },
     "2594": {
       "formName": "Archipelago",
@@ -85373,6 +85408,7 @@
       "formName": "Single Strike",
       "proto": "URSHIFU_SINGLE_STRIKE",
       "formId": 2723,
+      "gmaxMove": 458,
       "quickMoves": [
         203,
         241,
@@ -85393,6 +85429,7 @@
       "formName": "Rapid Strike",
       "proto": "URSHIFU_RAPID_STRIKE",
       "formId": 2724,
+      "gmaxMove": 459,
       "quickMoves": [
         241,
         243,
@@ -86887,9 +86924,7 @@
       "defense": 173,
       "stamina": 144,
       "height": 1.2,
-      "weight": 33.5,
-      "purificationDust": 100,
-      "purificationCandy": 100
+      "weight": 33.5
     },
     "2824": {
       "sizeSettings": [
@@ -86924,9 +86959,7 @@
       ],
       "formName": "Complete Fifty Percent",
       "proto": "ZYGARDE_COMPLETE_FIFTY_PERCENT",
-      "formId": 2824,
-      "purificationDust": 100,
-      "purificationCandy": 100
+      "formId": 2824
     },
     "2825": {
       "formName": "Gotour 2024 A",
@@ -87509,118 +87542,6 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
-    },
-    "PIKACHU_GOTOUR_2025_A": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "PIKACHU_GOTOUR_2025_A_02": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "PIKACHU_GOTOUR_2025_B": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
-    },
-    "PIKACHU_GOTOUR_2025_B_02": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.196
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.2
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.3
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.5
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.6
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.7
-        }
-      ]
     }
   },
   "types": {
@@ -88991,6 +88912,13 @@
       "itemId": 2001,
       "itemName": "Event Pass Point Go Tour 01",
       "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_01",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
+    "2002": {
+      "itemId": 2002,
+      "itemName": "Event Pass Point Go Tour 02",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
@@ -92949,6 +92877,483 @@
       "durationMs": 1500,
       "energyDelta": -100
     },
+    "409": {
+      "moveId": 409,
+      "moveName": "Max Flare",
+      "proto": "VN_BM_001",
+      "fast": false,
+      "type": 10,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "410": {
+      "moveId": 410,
+      "moveName": "Max Flutterby",
+      "proto": "VN_BM_002",
+      "fast": false,
+      "type": 7,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "411": {
+      "moveId": 411,
+      "moveName": "Max Lightning",
+      "proto": "VN_BM_003",
+      "fast": false,
+      "type": 13,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "412": {
+      "moveId": 412,
+      "moveName": "Max Strike",
+      "proto": "VN_BM_004",
+      "fast": false,
+      "type": 1,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "413": {
+      "moveId": 413,
+      "moveName": "Max Knuckle",
+      "proto": "VN_BM_005",
+      "fast": false,
+      "type": 2,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "414": {
+      "moveId": 414,
+      "moveName": "Max Phantasm",
+      "proto": "VN_BM_006",
+      "fast": false,
+      "type": 8,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "415": {
+      "moveId": 415,
+      "moveName": "Max Hailstorm",
+      "proto": "VN_BM_007",
+      "fast": false,
+      "type": 15,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "416": {
+      "moveId": 416,
+      "moveName": "Max Ooze",
+      "proto": "VN_BM_008",
+      "fast": false,
+      "type": 4,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "417": {
+      "moveId": 417,
+      "moveName": "Max Geyser",
+      "proto": "VN_BM_009",
+      "fast": false,
+      "type": 11,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "418": {
+      "moveId": 418,
+      "moveName": "Max Airstream",
+      "proto": "VN_BM_010",
+      "fast": false,
+      "type": 3,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "419": {
+      "moveId": 419,
+      "moveName": "Max Starfall",
+      "proto": "VN_BM_011",
+      "fast": false,
+      "type": 18,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "420": {
+      "moveId": 420,
+      "moveName": "Max Wyrmwind",
+      "proto": "VN_BM_012",
+      "fast": false,
+      "type": 16,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "421": {
+      "moveId": 421,
+      "moveName": "Max Mindstorm",
+      "proto": "VN_BM_013",
+      "fast": false,
+      "type": 14,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "422": {
+      "moveId": 422,
+      "moveName": "Max Rockfall",
+      "proto": "VN_BM_014",
+      "fast": false,
+      "type": 6,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "423": {
+      "moveId": 423,
+      "moveName": "Max Quake",
+      "proto": "VN_BM_015",
+      "fast": false,
+      "type": 5,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "424": {
+      "moveId": 424,
+      "moveName": "Max Darkness",
+      "proto": "VN_BM_016",
+      "fast": false,
+      "type": 17,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "425": {
+      "moveId": 425,
+      "moveName": "Max Overgrowth",
+      "proto": "VN_BM_017",
+      "fast": false,
+      "type": 12,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "426": {
+      "moveId": 426,
+      "moveName": "Max Steelspike",
+      "proto": "VN_BM_018",
+      "fast": false,
+      "type": 9,
+      "power": 350,
+      "durationMs": 2500
+    },
+    "427": {
+      "moveId": 427,
+      "moveName": "Gmax Wildfire",
+      "proto": "VN_BM_019",
+      "fast": false,
+      "type": 10,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "428": {
+      "moveId": 428,
+      "moveName": "Gmax Befuddle",
+      "proto": "VN_BM_020",
+      "fast": false,
+      "type": 7,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "429": {
+      "moveId": 429,
+      "moveName": "Gmax Voltcrash",
+      "proto": "VN_BM_021",
+      "fast": false,
+      "type": 13,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "430": {
+      "moveId": 430,
+      "moveName": "Gmax Goldrush",
+      "proto": "VN_BM_022",
+      "fast": false,
+      "type": 1,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "431": {
+      "moveId": 431,
+      "moveName": "Gmax Chistrike",
+      "proto": "VN_BM_023",
+      "fast": false,
+      "type": 2,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "432": {
+      "moveId": 432,
+      "moveName": "Gmax Terror",
+      "proto": "VN_BM_024",
+      "fast": false,
+      "type": 8,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "433": {
+      "moveId": 433,
+      "moveName": "Gmax Foamburst",
+      "proto": "VN_BM_025",
+      "fast": false,
+      "type": 11,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "434": {
+      "moveId": 434,
+      "moveName": "Gmax Resonance",
+      "proto": "VN_BM_026",
+      "fast": false,
+      "type": 15,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "435": {
+      "moveId": 435,
+      "moveName": "Gmax Cuddle",
+      "proto": "VN_BM_027",
+      "fast": false,
+      "type": 1,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "436": {
+      "moveId": 436,
+      "moveName": "Gmax Replenish",
+      "proto": "VN_BM_028",
+      "fast": false,
+      "type": 1,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "437": {
+      "moveId": 437,
+      "moveName": "Gmax Malodor",
+      "proto": "VN_BM_029",
+      "fast": false,
+      "type": 4,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "438": {
+      "moveId": 438,
+      "moveName": "Gmax Meltdown",
+      "proto": "VN_BM_030",
+      "fast": false,
+      "type": 9,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "439": {
+      "moveId": 439,
+      "moveName": "Gmax Windrage",
+      "proto": "VN_BM_031",
+      "fast": false,
+      "type": 3,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "440": {
+      "moveId": 440,
+      "moveName": "Gmax Gravitas",
+      "proto": "VN_BM_032",
+      "fast": false,
+      "type": 14,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "441": {
+      "moveId": 441,
+      "moveName": "Gmax Stonesurge",
+      "proto": "VN_BM_033",
+      "fast": false,
+      "type": 11,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "442": {
+      "moveId": 442,
+      "moveName": "Gmax Volcalith",
+      "proto": "VN_BM_034",
+      "fast": false,
+      "type": 6,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "443": {
+      "moveId": 443,
+      "moveName": "Gmax Tartness",
+      "proto": "VN_BM_035",
+      "fast": false,
+      "type": 12,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "444": {
+      "moveId": 444,
+      "moveName": "Gmax Sweetness",
+      "proto": "VN_BM_036",
+      "fast": false,
+      "type": 12,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "445": {
+      "moveId": 445,
+      "moveName": "Gmax Sandblast",
+      "proto": "VN_BM_037",
+      "fast": false,
+      "type": 5,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "446": {
+      "moveId": 446,
+      "moveName": "Gmax Stun Shock",
+      "proto": "VN_BM_038",
+      "fast": false,
+      "type": 13,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "447": {
+      "moveId": 447,
+      "moveName": "Gmax Centiferno",
+      "proto": "VN_BM_039",
+      "fast": false,
+      "type": 10,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "448": {
+      "moveId": 448,
+      "moveName": "Gmax Smite",
+      "proto": "VN_BM_040",
+      "fast": false,
+      "type": 18,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "449": {
+      "moveId": 449,
+      "moveName": "Gmax Snooze",
+      "proto": "VN_BM_041",
+      "fast": false,
+      "type": 17,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "450": {
+      "moveId": 450,
+      "moveName": "Gmax Finale",
+      "proto": "VN_BM_042",
+      "fast": false,
+      "type": 18,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "451": {
+      "moveId": 451,
+      "moveName": "Gmax Steelsurge",
+      "proto": "VN_BM_043",
+      "fast": false,
+      "type": 9,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "452": {
+      "moveId": 452,
+      "moveName": "Gmax Depletion",
+      "proto": "VN_BM_044",
+      "fast": false,
+      "type": 16,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "453": {
+      "moveId": 453,
+      "moveName": "Gmax Vinelash",
+      "proto": "VN_BM_045",
+      "fast": false,
+      "type": 12,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "454": {
+      "moveId": 454,
+      "moveName": "Gmax Cannonade",
+      "proto": "VN_BM_046",
+      "fast": false,
+      "type": 11,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "455": {
+      "moveId": 455,
+      "moveName": "Gmax Drumsolo",
+      "proto": "VN_BM_047",
+      "fast": false,
+      "type": 12,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "456": {
+      "moveId": 456,
+      "moveName": "Gmax Fireball",
+      "proto": "VN_BM_048",
+      "fast": false,
+      "type": 10,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "457": {
+      "moveId": 457,
+      "moveName": "Gmax Hydrosnipe",
+      "proto": "VN_BM_049",
+      "fast": false,
+      "type": 11,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "458": {
+      "moveId": 458,
+      "moveName": "Gmax Oneblow",
+      "proto": "VN_BM_050",
+      "fast": false,
+      "type": 17,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "459": {
+      "moveId": 459,
+      "moveName": "Gmax Rapidflow",
+      "proto": "VN_BM_051",
+      "fast": false,
+      "type": 11,
+      "power": 450,
+      "durationMs": 2500
+    },
+    "460": {
+      "moveId": 460,
+      "moveName": "Max Shield",
+      "proto": "VN_BM_052",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "461": {
+      "moveId": 461,
+      "moveName": "Max Heal",
+      "proto": "VN_BM_053",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
     "462": {
       "moveId": 462,
       "moveName": "Force Palm",
@@ -93012,9 +93417,13 @@
       "proto": "FREEZE_SHOCK",
       "fast": false,
       "type": 15,
-      "pvpPower": 1,
-      "pvpEnergyDelta": -65,
-      "power": 1,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.3
+      },
+      "power": 160,
       "durationMs": 1500,
       "energyDelta": -100
     },
@@ -93024,11 +93433,15 @@
       "proto": "ICE_BURN",
       "fast": false,
       "type": 15,
-      "pvpPower": 1,
-      "pvpEnergyDelta": -65,
-      "power": 1,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.3
+      },
+      "power": 90,
       "durationMs": 2000,
-      "energyDelta": -100
+      "energyDelta": -50
     }
   },
   "questTypes": {
