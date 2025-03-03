@@ -88612,6 +88612,14 @@
       "category": "Team Change",
       "minTrainerLevel": 100
     },
+    "1407": {
+      "itemId": 1407,
+      "itemName": "Route Maker",
+      "proto": "ITEM_ROUTE_MAKER",
+      "type": "Route Maker",
+      "category": "Route Maker",
+      "minTrainerLevel": 100
+    },
     "1408": {
       "itemId": 1408,
       "itemName": "Remote Raid Ticket",
@@ -88908,11 +88916,11 @@
       "category": "Event Pass Point"
     },
     "undefined": {
-      "itemName": "Route Maker",
-      "proto": "ITEM_ROUTE_MAKER",
-      "type": "Route Maker",
-      "category": "Route Maker",
-      "minTrainerLevel": 100
+      "itemName": "Fusion Resource White Kyurem",
+      "proto": "FUSION_RESOURCE_WHITE_KYUREM",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
     }
   },
   "moves": {
