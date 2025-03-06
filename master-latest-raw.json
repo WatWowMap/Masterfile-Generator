@@ -93478,6 +93478,22 @@
       "power": 90,
       "durationMs": 2000,
       "energyDelta": -50
+    },
+    "468": {
+      "moveId": 468,
+      "moveName": "Torch Song",
+      "proto": "TORCH_SONG",
+      "fast": false,
+      "type": 10,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      },
+      "power": 100,
+      "durationMs": 3500,
+      "energyDelta": -50
     }
   },
   "questTypes": {
