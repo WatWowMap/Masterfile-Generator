@@ -3157,7 +3157,8 @@
         "2863": {
           "name": "Kurta",
           "proto": "PIKACHU_KURTA",
-          "form": 2863
+          "form": 2863,
+          "isCostume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -94759,7 +94760,7 @@
           "proto": "ZACIAN_CROWNED_SWORD",
           "form": 2576,
           "stats": {
-            "attack": 332,
+            "attack": 295,
             "defense": 240,
             "stamina": 192
           }
@@ -94883,8 +94884,8 @@
           "proto": "ZAMAZENTA_CROWNED_SHIELD",
           "form": 2578,
           "stats": {
-            "attack": 250,
-            "defense": 292,
+            "attack": 231,
+            "defense": 282,
             "stamina": 192
           }
         },
@@ -117555,7 +117556,7 @@
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
       "formId": 2576,
-      "attack": 332,
+      "attack": 295,
       "defense": 240,
       "stamina": 192
     },
@@ -117571,8 +117572,8 @@
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
       "formId": 2578,
-      "attack": 250,
-      "defense": 292,
+      "attack": 231,
+      "defense": 282,
       "stamina": 192
     },
     "2579": {
@@ -121119,7 +121120,8 @@
     "2863": {
       "formName": "Kurta",
       "proto": "PIKACHU_KURTA",
-      "formId": 2863
+      "formId": 2863,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",

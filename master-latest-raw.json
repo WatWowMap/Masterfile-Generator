@@ -43235,7 +43235,6 @@
       ],
       "chargedMoves": [
         59,
-        92,
         92
       ],
       "eliteQuickMoves": [],
@@ -83706,7 +83705,7 @@
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
       "formId": 2576,
-      "attack": 332,
+      "attack": 295,
       "defense": 240,
       "stamina": 192
     },
@@ -83722,8 +83721,8 @@
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
       "formId": 2578,
-      "attack": 250,
-      "defense": 292,
+      "attack": 231,
+      "defense": 282,
       "stamina": 192
     },
     "2579": {
@@ -87268,7 +87267,8 @@
     "2863": {
       "formName": "Kurta",
       "proto": "PIKACHU_KURTA",
-      "formId": 2863
+      "formId": 2863,
+      "isCostume": true
     },
     "2981": {
       "formName": "Normal",

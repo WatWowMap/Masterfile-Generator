@@ -1530,7 +1530,8 @@
         },
         "2863": {
           "name": "Kurta",
-          "proto": "PIKACHU_KURTA"
+          "proto": "PIKACHU_KURTA",
+          "is_costume": true
         },
         "3002": {
           "name": "Summer 2023 A",
@@ -28923,7 +28924,6 @@
       ],
       "charged_moves": [
         "Seed Bomb",
-        "Gunk Shot",
         "Gunk Shot"
       ],
       "gen_id": 5,
@@ -44055,7 +44055,7 @@
         "2576": {
           "name": "Crowned Sword",
           "proto": "ZACIAN_CROWNED_SWORD",
-          "attack": 332,
+          "attack": 295,
           "defense": 240,
           "stamina": 192
         },
@@ -44106,8 +44106,8 @@
         "2578": {
           "name": "Crowned Shield",
           "proto": "ZAMAZENTA_CROWNED_SHIELD",
-          "attack": 250,
-          "defense": 292,
+          "attack": 231,
+          "defense": 282,
           "stamina": 192
         },
         "2579": {
