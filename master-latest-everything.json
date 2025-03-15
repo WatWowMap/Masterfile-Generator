@@ -126409,6 +126409,21 @@
       "name": "Torch Song",
       "proto": "TORCH_SONG",
       "power": 100
+    },
+    "469": {
+      "id": 469,
+      "name": "Behemoth Blade",
+      "proto": "BEHEMOTH_BLADE"
+    },
+    "470": {
+      "id": 470,
+      "name": "Behemoth Bash",
+      "proto": "BEHEMOTH_BASH"
+    },
+    "471": {
+      "id": 471,
+      "name": "Upper Hand",
+      "proto": "UPPER_HAND"
     }
   },
   "questTypes": {
@@ -127320,6 +127335,16 @@
       "id": 74,
       "proto": "WITH_PAGE_TYPE",
       "formatted": "With Page Type"
+    },
+    "75": {
+      "id": 75,
+      "proto": "WITH_MAX_POKEMON",
+      "formatted": "With Max Pokemon"
+    },
+    "76": {
+      "id": 76,
+      "proto": "WITH_TRAINEE_POKEMON_ATTRIBUTES",
+      "formatted": "With Trainee Pokemon Attributes"
     }
   },
   "invasions": {
