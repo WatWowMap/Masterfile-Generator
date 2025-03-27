@@ -7225,7 +7225,7 @@
     "128": {
       "name": "Tauros",
       "pokedex_id": 128,
-      "default_form_id": 0,
+      "default_form_id": 1086,
       "types": [
         "Normal"
       ],
@@ -7242,25 +7242,80 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1086": {
           "name": "Normal",
           "proto": "TAUROS_NORMAL"
         },
         "3006": {
           "name": "Paldea Combat",
-          "proto": "TAUROS_PALDEA_COMBAT"
+          "proto": "TAUROS_PALDEA_COMBAT",
+          "attack": 210,
+          "defense": 193,
+          "stamina": 181,
+          "height": 1.4,
+          "weight": 115,
+          "quick_moves": [
+            "Tackle",
+            "Zen Headbutt",
+            "Double Kick"
+          ],
+          "charged_moves": [
+            "Earthquake",
+            "Iron Head",
+            "Close Combat",
+            "Trailblaze"
+          ],
+          "types": [
+            "Fighting"
+          ]
         },
         "3007": {
           "name": "Paldea Blaze",
-          "proto": "TAUROS_PALDEA_BLAZE"
+          "proto": "TAUROS_PALDEA_BLAZE",
+          "attack": 210,
+          "defense": 193,
+          "stamina": 181,
+          "height": 1.4,
+          "weight": 85,
+          "quick_moves": [
+            "Tackle",
+            "Zen Headbutt",
+            "Double Kick"
+          ],
+          "charged_moves": [
+            "Earthquake",
+            "Iron Head",
+            "Flame Charge",
+            "Trailblaze"
+          ],
+          "types": [
+            "Fighting",
+            "Fire"
+          ]
         },
         "3008": {
           "name": "Paldea Aqua",
-          "proto": "TAUROS_PALDEA_AQUA"
+          "proto": "TAUROS_PALDEA_AQUA",
+          "attack": 210,
+          "defense": 193,
+          "stamina": 181,
+          "height": 1.4,
+          "weight": 110,
+          "quick_moves": [
+            "Tackle",
+            "Zen Headbutt",
+            "Double Kick"
+          ],
+          "charged_moves": [
+            "Earthquake",
+            "Aqua Jet",
+            "Iron Head",
+            "Trailblaze"
+          ],
+          "types": [
+            "Fighting",
+            "Water"
+          ]
         }
       },
       "attack": 198,

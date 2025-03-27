@@ -10014,7 +10014,7 @@
     "128": {
       "pokemonName": "Tauros",
       "pokedexId": 128,
-      "defaultFormId": 0,
+      "defaultFormId": 1086,
       "types": [
         1
       ],
@@ -10033,7 +10033,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         1086,
         3006,
         3007,
@@ -87478,17 +87477,76 @@
     "3006": {
       "formName": "Paldea Combat",
       "proto": "TAUROS_PALDEA_COMBAT",
-      "formId": 3006
+      "formId": 3006,
+      "attack": 210,
+      "defense": 193,
+      "stamina": 181,
+      "height": 1.4,
+      "weight": 115,
+      "quickMoves": [
+        221,
+        234,
+        356
+      ],
+      "chargedMoves": [
+        31,
+        74,
+        245,
+        392
+      ],
+      "types": [
+        2
+      ]
     },
     "3007": {
       "formName": "Paldea Blaze",
       "proto": "TAUROS_PALDEA_BLAZE",
-      "formId": 3007
+      "formId": 3007,
+      "attack": 210,
+      "defense": 193,
+      "stamina": 181,
+      "height": 1.4,
+      "weight": 85,
+      "quickMoves": [
+        221,
+        234,
+        356
+      ],
+      "chargedMoves": [
+        31,
+        74,
+        101,
+        392
+      ],
+      "types": [
+        2,
+        10
+      ]
     },
     "3008": {
       "formName": "Paldea Aqua",
       "proto": "TAUROS_PALDEA_AQUA",
-      "formId": 3008
+      "formId": 3008,
+      "attack": 210,
+      "defense": 193,
+      "stamina": 181,
+      "height": 1.4,
+      "weight": 110,
+      "quickMoves": [
+        221,
+        234,
+        356
+      ],
+      "chargedMoves": [
+        31,
+        57,
+        74,
+        392
+      ],
+      "types": [
+        2,
+        11
+      ]
     },
     "3009": {
       "formName": "Paldea",

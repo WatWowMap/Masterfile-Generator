@@ -4799,7 +4799,7 @@
     "128": {
       "name": "Tauros",
       "pokedexId": 128,
-      "defaultFormId": 0,
+      "defaultFormId": 1086,
       "types": [
         1
       ],
@@ -4816,17 +4816,61 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "1086": {
+          "name": "Normal"
         },
         "3006": {
-          "name": "Paldea Combat"
+          "name": "Paldea Combat",
+          "quickMoves": [
+            221,
+            234,
+            356
+          ],
+          "chargedMoves": [
+            31,
+            74,
+            245,
+            392
+          ],
+          "types": [
+            2
+          ]
         },
         "3007": {
-          "name": "Paldea Blaze"
+          "name": "Paldea Blaze",
+          "quickMoves": [
+            221,
+            234,
+            356
+          ],
+          "chargedMoves": [
+            31,
+            74,
+            101,
+            392
+          ],
+          "types": [
+            2,
+            10
+          ]
         },
         "3008": {
-          "name": "Paldea Aqua"
+          "name": "Paldea Aqua",
+          "quickMoves": [
+            221,
+            234,
+            356
+          ],
+          "chargedMoves": [
+            31,
+            57,
+            74,
+            392
+          ],
+          "types": [
+            2,
+            11
+          ]
         }
       },
       "height": 1.4,
