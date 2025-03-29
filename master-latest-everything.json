@@ -123413,6 +123413,12 @@
       "name": "Fashion 2025",
       "proto": "FASHION_2025",
       "noEvolve": false
+    },
+    "82": {
+      "id": 82,
+      "name": "Horizons 2025 Noevolve",
+      "proto": "HORIZONS_2025_NOEVOLVE",
+      "noEvolve": true
     }
   },
   "items": {
@@ -126696,6 +126702,11 @@
       "id": 471,
       "name": "Upper Hand",
       "proto": "UPPER_HAND"
+    },
+    "472": {
+      "id": 472,
+      "name": "Thunder Cage",
+      "proto": "THUNDER_CAGE"
     }
   },
   "questTypes": {
@@ -127148,6 +127159,11 @@
       "id": 97,
       "proto": "QUEST_USE_STAR_PIECE",
       "formatted": "Use Star Piece"
+    },
+    "98": {
+      "id": 98,
+      "proto": "QUEST_POKEMON_REACH_CP",
+      "formatted": "Pokemon Reach CP"
     }
   },
   "questRewardTypes": {
