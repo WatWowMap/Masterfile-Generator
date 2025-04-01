@@ -89444,6 +89444,13 @@
         }
       },
       "quickMoves": {
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
         "219": {
           "moveId": 219,
           "moveName": "Quick Attack",
@@ -89524,6 +89531,13 @@
         }
       },
       "quickMoves": {
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
         "219": {
           "moveId": 219,
           "moveName": "Quick Attack",
@@ -90046,6 +90060,13 @@
           "proto": "ROCK_BLAST",
           "type": 6,
           "power": 50
+        },
+        "279": {
+          "moveId": 279,
+          "moveName": "Crunch",
+          "proto": "CRUNCH",
+          "type": 17,
+          "power": 65
         },
         "284": {
           "moveId": 284,
@@ -90796,6 +90817,13 @@
         }
       },
       "chargedMoves": {
+        "13": {
+          "moveId": 13,
+          "moveName": "Wrap",
+          "proto": "WRAP",
+          "type": 1,
+          "power": 60
+        },
         "26": {
           "moveId": 26,
           "moveName": "Dig",
@@ -90883,6 +90911,13 @@
         }
       },
       "chargedMoves": {
+        "13": {
+          "moveId": 13,
+          "moveName": "Wrap",
+          "proto": "WRAP",
+          "type": 1,
+          "power": 60
+        },
         "26": {
           "moveId": 26,
           "moveName": "Dig",
@@ -99667,12 +99702,12 @@
           "type": 6,
           "power": 65
         },
-        "64": {
-          "moveId": 64,
-          "moveName": "Rock Slide",
-          "proto": "ROCK_SLIDE",
+        "259": {
+          "moveId": 259,
+          "moveName": "Rock Blast",
+          "proto": "ROCK_BLAST",
           "type": 6,
-          "power": 75
+          "power": 50
         }
       },
       "genId": 9,
@@ -100997,6 +101032,13 @@
         }
       },
       "chargedMoves": {
+        "13": {
+          "moveId": 13,
+          "moveName": "Wrap",
+          "proto": "WRAP",
+          "type": 1,
+          "power": 60
+        },
         "59": {
           "moveId": 59,
           "moveName": "Seed Bomb",
@@ -101614,6 +101656,13 @@
           "proto": "PSYSHOCK",
           "type": 14,
           "power": 60
+        },
+        "86": {
+          "moveId": 86,
+          "moveName": "Dazzling Gleam",
+          "proto": "DAZZLING_GLEAM",
+          "type": 18,
+          "power": 100
         },
         "108": {
           "moveId": 108,
@@ -102781,12 +102830,12 @@
         }
       },
       "chargedMoves": {
-        "64": {
-          "moveId": 64,
-          "moveName": "Rock Slide",
-          "proto": "ROCK_SLIDE",
+        "65": {
+          "moveId": 65,
+          "moveName": "Power Gem",
+          "proto": "POWER_GEM",
           "type": 6,
-          "power": 75
+          "power": 80
         },
         "86": {
           "moveId": 86,
@@ -102871,12 +102920,12 @@
         }
       },
       "chargedMoves": {
-        "64": {
-          "moveId": 64,
-          "moveName": "Rock Slide",
-          "proto": "ROCK_SLIDE",
+        "65": {
+          "moveId": 65,
+          "moveName": "Power Gem",
+          "proto": "POWER_GEM",
           "type": 6,
-          "power": 75
+          "power": 80
         },
         "86": {
           "moveId": 86,
