@@ -59085,6 +59085,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -59099,6 +59100,8 @@
             "defense": 239,
             "stamina": 230
           },
+          "height": 1.5,
+          "weight": 32,
           "types": {
             "1": {
               "typeId": 1,
@@ -59109,7 +59112,8 @@
               "typeName": "Fairy"
             }
           },
-          "unreleased": true
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -116594,6 +116598,20 @@
             18
           ],
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 147,
+          "defense": 239,
+          "stamina": 230,
+          "height": 1.5,
+          "weight": 32,
+          "types": [
+            1,
+            18
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
