@@ -71285,8 +71285,7 @@
       ],
       "chargedMoves": [
         36,
-        88,
-        367
+        88
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -71358,8 +71357,7 @@
       ],
       "chargedMoves": [
         36,
-        88,
-        367
+        88
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -71433,8 +71431,8 @@
       "chargedMoves": [
         36,
         88,
-        268,
-        367
+        95,
+        268
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -79975,7 +79973,6 @@
       ],
       "chargedMoves": [
         14,
-        14,
         18,
         88,
         270,
@@ -83743,9 +83740,18 @@
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
       "formId": 2576,
-      "attack": 295,
+      "attack": 332,
       "defense": 240,
-      "stamina": 192
+      "stamina": 192,
+      "quickMoves": [
+        228,
+        255
+      ],
+      "chargedMoves": [
+        88,
+        245,
+        321
+      ]
     },
     "2577": {
       "formName": "Hero",
@@ -83759,9 +83765,18 @@
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
       "formId": 2578,
-      "attack": 231,
-      "defense": 282,
-      "stamina": 192
+      "attack": 250,
+      "defense": 292,
+      "stamina": 192,
+      "quickMoves": [
+        228,
+        327
+      ],
+      "chargedMoves": [
+        87,
+        245,
+        321
+      ]
     },
     "2579": {
       "formName": "Hero",
@@ -88655,6 +88670,22 @@
       "type": "Evolution Requirement",
       "category": "Evolution Requirement",
       "minTrainerLevel": 10
+    },
+    "1153": {
+      "itemId": 1153,
+      "itemName": "Resource Crowned Zacian",
+      "proto": "ITEM_RESOURCE_CROWNED_ZACIAN",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1154": {
+      "itemId": 1154,
+      "itemName": "Resource Crowned Zamazenta",
+      "proto": "ITEM_RESOURCE_CROWNED_ZAMAZENTA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
     },
     "1201": {
       "itemId": 1201,
@@ -93601,6 +93632,30 @@
       "power": 100,
       "durationMs": 3500,
       "energyDelta": -50
+    },
+    "469": {
+      "moveId": 469,
+      "moveName": "Behemoth Blade",
+      "proto": "BEHEMOTH_BLADE",
+      "fast": false,
+      "type": 9,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -55,
+      "power": 1,
+      "durationMs": 3500,
+      "energyDelta": -1
+    },
+    "470": {
+      "moveId": 470,
+      "moveName": "Behemoth Bash",
+      "proto": "BEHEMOTH_BASH",
+      "fast": false,
+      "type": 9,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
+      "power": 1,
+      "durationMs": 1500,
+      "energyDelta": -1
     }
   },
   "questTypes": {

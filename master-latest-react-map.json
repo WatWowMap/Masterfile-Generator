@@ -4224,7 +4224,6 @@
           ],
           "chargedMoves": [
             14,
-            14,
             18,
             88,
             270,
@@ -30351,7 +30350,16 @@
       "generation": "Galar",
       "forms": {
         "2576": {
-          "name": "Crowned Sword"
+          "name": "Crowned Sword",
+          "quickMoves": [
+            228,
+            255
+          ],
+          "chargedMoves": [
+            88,
+            245,
+            321
+          ]
         },
         "2577": {
           "name": "Hero",
@@ -30391,7 +30399,16 @@
       "generation": "Galar",
       "forms": {
         "2578": {
-          "name": "Crowned Shield"
+          "name": "Crowned Shield",
+          "quickMoves": [
+            228,
+            327
+          ],
+          "chargedMoves": [
+            87,
+            245,
+            321
+          ]
         },
         "2579": {
           "name": "Hero",
@@ -32614,8 +32631,7 @@
       ],
       "chargedMoves": [
         36,
-        88,
-        367
+        88
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32645,8 +32661,7 @@
       ],
       "chargedMoves": [
         36,
-        88,
-        367
+        88
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -32677,8 +32692,8 @@
       "chargedMoves": [
         36,
         88,
-        268,
-        367
+        95,
+        268
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -34987,6 +35002,8 @@
     "1106": "Gen4 Evolution Stone",
     "1107": "Gen5 Evolution Stone",
     "1150": "Other Evolution Stone A",
+    "1153": "Resource Crowned Zacian",
+    "1154": "Resource Crowned Zamazenta",
     "1201": "Move Reroll Fast Attack",
     "1202": "Move Reroll Special Attack",
     "1203": "Move Reroll Elite Fast Attack",
@@ -36620,10 +36637,12 @@
       "type": 10
     },
     "469": {
-      "name": "Behemoth Blade"
+      "name": "Behemoth Blade",
+      "type": 9
     },
     "470": {
-      "name": "Behemoth Bash"
+      "name": "Behemoth Bash",
+      "type": 9
     },
     "471": {
       "name": "Upper Hand"

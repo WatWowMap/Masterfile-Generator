@@ -95012,9 +95012,48 @@
           "proto": "ZACIAN_CROWNED_SWORD",
           "form": 2576,
           "stats": {
-            "attack": 295,
+            "attack": 332,
             "defense": 240,
             "stamina": 192
+          },
+          "quickMoves": {
+            "228": {
+              "moveId": 228,
+              "moveName": "Metal Claw",
+              "proto": "METAL_CLAW_FAST",
+              "type": 9,
+              "power": 6
+            },
+            "255": {
+              "moveId": 255,
+              "moveName": "Air Slash",
+              "proto": "AIR_SLASH_FAST",
+              "type": 3,
+              "power": 12
+            }
+          },
+          "chargedMoves": {
+            "88": {
+              "moveId": 88,
+              "moveName": "Play Rough",
+              "proto": "PLAY_ROUGH",
+              "type": 18,
+              "power": 90
+            },
+            "245": {
+              "moveId": 245,
+              "moveName": "Close Combat",
+              "proto": "CLOSE_COMBAT",
+              "type": 2,
+              "power": 105
+            },
+            "321": {
+              "moveId": 321,
+              "moveName": "Giga Impact",
+              "proto": "GIGA_IMPACT",
+              "type": 1,
+              "power": 200
+            }
           }
         },
         "2577": {
@@ -95136,9 +95175,48 @@
           "proto": "ZAMAZENTA_CROWNED_SHIELD",
           "form": 2578,
           "stats": {
-            "attack": 231,
-            "defense": 282,
+            "attack": 250,
+            "defense": 292,
             "stamina": 192
+          },
+          "quickMoves": {
+            "228": {
+              "moveId": 228,
+              "moveName": "Metal Claw",
+              "proto": "METAL_CLAW_FAST",
+              "type": 9,
+              "power": 6
+            },
+            "327": {
+              "moveId": 327,
+              "moveName": "Ice Fang",
+              "proto": "ICE_FANG_FAST",
+              "type": 15,
+              "power": 12
+            }
+          },
+          "chargedMoves": {
+            "87": {
+              "moveId": 87,
+              "moveName": "Moonblast",
+              "proto": "MOONBLAST",
+              "type": 18,
+              "power": 130
+            },
+            "245": {
+              "moveId": 245,
+              "moveName": "Close Combat",
+              "proto": "CLOSE_COMBAT",
+              "type": 2,
+              "power": 105
+            },
+            "321": {
+              "moveId": 321,
+              "moveName": "Giga Impact",
+              "proto": "GIGA_IMPACT",
+              "type": 1,
+              "power": 200
+            }
           }
         },
         "2579": {
@@ -101760,13 +101838,6 @@
           "proto": "PLAY_ROUGH",
           "type": 18,
           "power": 90
-        },
-        "367": {
-          "moveId": 367,
-          "moveName": "Brutal Swing",
-          "proto": "BRUTAL_SWING",
-          "type": 17,
-          "power": 65
         }
       },
       "genId": 9,
@@ -101850,13 +101921,6 @@
           "proto": "PLAY_ROUGH",
           "type": 18,
           "power": 90
-        },
-        "367": {
-          "moveId": 367,
-          "moveName": "Brutal Swing",
-          "proto": "BRUTAL_SWING",
-          "type": 17,
-          "power": 65
         }
       },
       "genId": 9,
@@ -101944,19 +102008,19 @@
           "type": 18,
           "power": 90
         },
+        "95": {
+          "moveId": 95,
+          "moveName": "Bulldoze",
+          "proto": "BULLDOZE",
+          "type": 5,
+          "power": 80
+        },
         "268": {
           "moveId": 268,
           "moveName": "Heavy Slam",
           "proto": "HEAVY_SLAM",
           "type": 9,
           "power": 70
-        },
-        "367": {
-          "moveId": 367,
-          "moveName": "Brutal Swing",
-          "proto": "BRUTAL_SWING",
-          "type": 17,
-          "power": 65
         }
       },
       "genId": 9,
@@ -114052,7 +114116,6 @@
       ],
       "chargedMoves": [
         14,
-        14,
         18,
         88,
         270,
@@ -117836,9 +117899,18 @@
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
       "formId": 2576,
-      "attack": 295,
+      "attack": 332,
       "defense": 240,
-      "stamina": 192
+      "stamina": 192,
+      "quickMoves": [
+        228,
+        255
+      ],
+      "chargedMoves": [
+        88,
+        245,
+        321
+      ]
     },
     "2577": {
       "formName": "Hero of Many Battles",
@@ -117852,9 +117924,18 @@
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
       "formId": 2578,
-      "attack": 231,
-      "defense": 282,
-      "stamina": 192
+      "attack": 250,
+      "defense": 292,
+      "stamina": 192,
+      "quickMoves": [
+        228,
+        327
+      ],
+      "chargedMoves": [
+        87,
+        245,
+        321
+      ]
     },
     "2579": {
       "formName": "Hero of Many Battles",
@@ -123966,6 +124047,22 @@
       "category": "Evolution Requirement",
       "minTrainerLevel": 10
     },
+    "1153": {
+      "id": 1153,
+      "name": "Resource Crowned Zacian",
+      "proto": "ITEM_RESOURCE_CROWNED_ZACIAN",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1154": {
+      "id": 1154,
+      "name": "Resource Crowned Zamazenta",
+      "proto": "ITEM_RESOURCE_CROWNED_ZAMAZENTA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
     "1201": {
       "id": 1201,
       "name": "Fast TM",
@@ -126765,12 +126862,14 @@
     "469": {
       "id": 469,
       "name": "Behemoth Blade",
-      "proto": "BEHEMOTH_BLADE"
+      "proto": "BEHEMOTH_BLADE",
+      "power": 1
     },
     "470": {
       "id": 470,
       "name": "Behemoth Bash",
-      "proto": "BEHEMOTH_BASH"
+      "proto": "BEHEMOTH_BASH",
+      "power": 1
     },
     "471": {
       "id": 471,

@@ -6330,7 +6330,6 @@
           ],
           "charged_moves": [
             "Hyper Beam",
-            "Hyper Beam",
             "Sludge",
             "Play Rough",
             "Overheat",
@@ -44117,9 +44116,18 @@
         "2576": {
           "name": "Crowned Sword",
           "proto": "ZACIAN_CROWNED_SWORD",
-          "attack": 295,
+          "attack": 332,
           "defense": 240,
-          "stamina": 192
+          "stamina": 192,
+          "quick_moves": [
+            "Metal Claw",
+            "Air Slash"
+          ],
+          "charged_moves": [
+            "Play Rough",
+            "Close Combat",
+            "Giga Impact"
+          ]
         },
         "2577": {
           "name": "Hero",
@@ -44168,9 +44176,18 @@
         "2578": {
           "name": "Crowned Shield",
           "proto": "ZAMAZENTA_CROWNED_SHIELD",
-          "attack": 231,
-          "defense": 282,
-          "stamina": 192
+          "attack": 250,
+          "defense": 292,
+          "stamina": 192,
+          "quick_moves": [
+            "Metal Claw",
+            "Ice Fang"
+          ],
+          "charged_moves": [
+            "Moonblast",
+            "Close Combat",
+            "Giga Impact"
+          ]
         },
         "2579": {
           "name": "Hero",
@@ -47110,8 +47127,7 @@
       ],
       "charged_moves": [
         "Flash Cannon",
-        "Play Rough",
-        "Brutal Swing"
+        "Play Rough"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -47154,8 +47170,7 @@
       ],
       "charged_moves": [
         "Flash Cannon",
-        "Play Rough",
-        "Brutal Swing"
+        "Play Rough"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -47198,8 +47213,8 @@
       "charged_moves": [
         "Flash Cannon",
         "Play Rough",
-        "Heavy Slam",
-        "Brutal Swing"
+        "Bulldoze",
+        "Heavy Slam"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50665,6 +50680,20 @@
       "category": "Evolution Requirement",
       "min_trainer_level": 10
     },
+    "1153": {
+      "name": "Resource Crowned Zacian",
+      "proto": "ITEM_RESOURCE_CROWNED_ZACIAN",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 1
+    },
+    "1154": {
+      "name": "Resource Crowned Zamazenta",
+      "proto": "ITEM_RESOURCE_CROWNED_ZAMAZENTA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 1
+    },
     "1201": {
       "name": "Move Reroll Fast Attack",
       "proto": "ITEM_MOVE_REROLL_FAST_ATTACK",
@@ -53360,11 +53389,15 @@
     },
     "469": {
       "name": "Behemoth Blade",
-      "proto": "BEHEMOTH_BLADE"
+      "proto": "BEHEMOTH_BLADE",
+      "type": "Steel",
+      "power": 1
     },
     "470": {
       "name": "Behemoth Bash",
-      "proto": "BEHEMOTH_BASH"
+      "proto": "BEHEMOTH_BASH",
+      "type": "Steel",
+      "power": 1
     },
     "471": {
       "name": "Upper Hand",
