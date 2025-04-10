@@ -93656,6 +93656,22 @@
       "power": 1,
       "durationMs": 1500,
       "energyDelta": -1
+    },
+    "471": {
+      "moveId": 471,
+      "moveName": "Upper Hand",
+      "proto": "UPPER_HAND",
+      "fast": false,
+      "type": 2,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 0.3
+      },
+      "power": 50,
+      "durationMs": 2000,
+      "energyDelta": -33
     }
   },
   "questTypes": {
