@@ -47145,6 +47145,7 @@
       "family": 957,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
       "buddy_distance": 3,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -47188,6 +47189,7 @@
       "family": 957,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
       "buddy_distance": 3,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -47232,6 +47234,7 @@
       "family": 957,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
       "buddy_distance": 3,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -50676,6 +50679,20 @@
     "1150": {
       "name": "Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 10
+    },
+    "1151": {
+      "name": "Other Evolution Stone Maple A",
+      "proto": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_A",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 10
+    },
+    "1152": {
+      "name": "Other Evolution Stone Maple B",
+      "proto": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_B",
       "type": "Evolution Requirement",
       "category": "Evolution Requirement",
       "min_trainer_level": 10

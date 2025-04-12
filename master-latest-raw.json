@@ -63037,11 +63037,13 @@
       "evolutions": [
         {
           "evoId": 841,
-          "candyCost": 400
+          "candyCost": 200,
+          "itemRequirement": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_B"
         },
         {
           "evoId": 842,
-          "candyCost": 400
+          "candyCost": 200,
+          "itemRequirement": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_A"
         }
       ],
       "little": true
@@ -71329,6 +71331,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 1,
       "buddyDistance": 3,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -71403,6 +71406,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 1,
       "buddyDistance": 3,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -71478,6 +71482,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 1,
       "buddyDistance": 3,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -88667,6 +88672,22 @@
       "itemId": 1150,
       "itemName": "Other Evolution Stone A",
       "proto": "ITEM_OTHER_EVOLUTION_STONE_A",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 10
+    },
+    "1151": {
+      "itemId": 1151,
+      "itemName": "Other Evolution Stone Maple A",
+      "proto": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_A",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 10
+    },
+    "1152": {
+      "itemId": 1152,
+      "itemName": "Other Evolution Stone Maple B",
+      "proto": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_B",
       "type": "Evolution Requirement",
       "category": "Evolution Requirement",
       "minTrainerLevel": 10
