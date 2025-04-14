@@ -83750,6 +83750,7 @@
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
       "formId": 2576,
+      "gmaxMove": 479,
       "attack": 332,
       "defense": 240,
       "stamina": 192,
@@ -83775,6 +83776,7 @@
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
       "formId": 2578,
+      "gmaxMove": 480,
       "attack": 250,
       "defense": 292,
       "stamina": 192,
@@ -93698,6 +93700,78 @@
       "power": 50,
       "durationMs": 2000,
       "energyDelta": -33
+    },
+    "473": {
+      "moveId": 473,
+      "moveName": "Max Shield",
+      "proto": "VN_BM_054",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "474": {
+      "moveId": 474,
+      "moveName": "Max Heal",
+      "proto": "VN_BM_055",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "475": {
+      "moveId": 475,
+      "moveName": "Max Shield",
+      "proto": "VN_BM_056",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "476": {
+      "moveId": 476,
+      "moveName": "Max Heal",
+      "proto": "VN_BM_057",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "477": {
+      "moveId": 477,
+      "moveName": "Max Shield",
+      "proto": "VN_BM_058",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "478": {
+      "moveId": 478,
+      "moveName": "Max Heal",
+      "proto": "VN_BM_059",
+      "fast": false,
+      "type": 1,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "479": {
+      "moveId": 479,
+      "moveName": "Max Behemoth Blade",
+      "proto": "VN_BM_060",
+      "fast": false,
+      "type": 9,
+      "power": 0,
+      "durationMs": 2500
+    },
+    "480": {
+      "moveId": 480,
+      "moveName": "Max Behemoth Bash",
+      "proto": "VN_BM_061",
+      "fast": false,
+      "type": 9,
+      "power": 0,
+      "durationMs": 2500
     }
   },
   "questTypes": {

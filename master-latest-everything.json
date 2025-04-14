@@ -117939,6 +117939,7 @@
       "formName": "Crowned Sword",
       "proto": "ZACIAN_CROWNED_SWORD",
       "formId": 2576,
+      "gmaxMove": 479,
       "attack": 332,
       "defense": 240,
       "stamina": 192,
@@ -117964,6 +117965,7 @@
       "formName": "Crowned Shield",
       "proto": "ZAMAZENTA_CROWNED_SHIELD",
       "formId": 2578,
+      "gmaxMove": 480,
       "attack": 250,
       "defense": 292,
       "stamina": 192,
@@ -123614,6 +123616,12 @@
       "name": "Horizons 2025 Noevolve",
       "proto": "HORIZONS_2025_NOEVOLVE",
       "noEvolve": true
+    },
+    "83": {
+      "id": 83,
+      "name": "Royal Noevolve",
+      "proto": "ROYAL_NOEVOLVE",
+      "noEvolve": true
     }
   },
   "items": {
@@ -126937,6 +126945,54 @@
       "id": 472,
       "name": "Thunder Cage",
       "proto": "THUNDER_CAGE"
+    },
+    "473": {
+      "id": 473,
+      "name": "Guard",
+      "proto": "VN_BM_054",
+      "power": 0
+    },
+    "474": {
+      "id": 474,
+      "name": "Spirit",
+      "proto": "VN_BM_055",
+      "power": 0
+    },
+    "475": {
+      "id": 475,
+      "name": "Guard",
+      "proto": "VN_BM_056",
+      "power": 0
+    },
+    "476": {
+      "id": 476,
+      "name": "Spirit",
+      "proto": "VN_BM_057",
+      "power": 0
+    },
+    "477": {
+      "id": 477,
+      "name": "Guard",
+      "proto": "VN_BM_058",
+      "power": 0
+    },
+    "478": {
+      "id": 478,
+      "name": "Spirit",
+      "proto": "VN_BM_059",
+      "power": 0
+    },
+    "479": {
+      "id": 479,
+      "name": "Behemoth Blade",
+      "proto": "VN_BM_060",
+      "power": 0
+    },
+    "480": {
+      "id": 480,
+      "name": "Behemoth Bash",
+      "proto": "VN_BM_061",
+      "power": 0
     }
   },
   "questTypes": {
