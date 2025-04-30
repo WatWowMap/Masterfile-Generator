@@ -83123,6 +83123,32 @@
       "proto": "MELMETAL_NORMAL"
     },
     "2325": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 1.47
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 1.5
+        },
+        {
+          "name": "mLowerBound",
+          "value": 2.25
+        },
+        {
+          "name": "mUpperBound",
+          "value": 3.75
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 4.5
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 4.65
+        }
+      ],
       "formName": "Normal",
       "proto": "FALINKS_NORMAL",
       "formId": 2325
