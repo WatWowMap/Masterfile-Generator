@@ -65144,7 +65144,7 @@
     "870": {
       "pokemonName": "Falinks",
       "pokedexId": 870,
-      "defaultFormId": 0,
+      "defaultFormId": 2325,
       "types": [
         2
       ],
@@ -65162,7 +65162,6 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        0,
         2325
       ],
       "sizeSettings": [
@@ -83123,32 +83122,6 @@
       "proto": "MELMETAL_NORMAL"
     },
     "2325": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 1.47
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 1.5
-        },
-        {
-          "name": "mLowerBound",
-          "value": 2.25
-        },
-        {
-          "name": "mUpperBound",
-          "value": 3.75
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 4.5
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 4.65
-        }
-      ],
       "formName": "Normal",
       "proto": "FALINKS_NORMAL",
       "formId": 2325
@@ -87727,6 +87700,11 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
+    },
+    "undefined": {
+      "formName": "Gofest 2025 Train Conductor",
+      "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+      "isCostume": true
     }
   },
   "types": {
@@ -89144,6 +89122,13 @@
       "itemId": 2002,
       "itemName": "Event Pass Point Go Tour 02",
       "proto": "ITEM_EVENT_PASS_POINT_GO_TOUR_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
+    "2021": {
+      "itemId": 2021,
+      "itemName": "Event Pass Point Go Fest 01",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
@@ -93710,9 +93695,9 @@
       "type": 9,
       "pvpPower": 100,
       "pvpEnergyDelta": -55,
-      "power": 1,
+      "power": 200,
       "durationMs": 3500,
-      "energyDelta": -1
+      "energyDelta": -100
     },
     "470": {
       "moveId": 470,
@@ -93722,9 +93707,9 @@
       "type": 9,
       "pvpPower": 80,
       "pvpEnergyDelta": -45,
-      "power": 1,
+      "power": 125,
       "durationMs": 1500,
-      "energyDelta": -1
+      "energyDelta": -50
     },
     "471": {
       "moveId": 471,

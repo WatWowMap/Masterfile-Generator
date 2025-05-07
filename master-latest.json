@@ -43350,7 +43350,7 @@
     "870": {
       "name": "Falinks",
       "pokedex_id": 870,
-      "default_form_id": 0,
+      "default_form_id": 2325,
       "types": [
         "Fighting"
       ],
@@ -43366,10 +43366,6 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2325": {
           "name": "Normal",
           "proto": "FALINKS_NORMAL"
@@ -51064,6 +51060,12 @@
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
+    "2021": {
+      "name": "Event Pass Point Go Fest 01",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
     "2102": {
       "name": "Event Pass Point Live Ops 02",
       "proto": "ITEM_EVENT_PASS_POINT_LIVE_OPS_02",
@@ -53423,13 +53425,13 @@
       "name": "Behemoth Blade",
       "proto": "BEHEMOTH_BLADE",
       "type": "Steel",
-      "power": 1
+      "power": 200
     },
     "470": {
       "name": "Behemoth Bash",
       "proto": "BEHEMOTH_BASH",
       "type": "Steel",
-      "power": 1
+      "power": 125
     },
     "471": {
       "name": "Upper Hand",

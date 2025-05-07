@@ -93355,7 +93355,7 @@
     "870": {
       "name": "Falinks",
       "pokedexId": 870,
-      "defaultFormId": 0,
+      "defaultFormId": 2325,
       "types": {
         "2": {
           "typeId": 2,
@@ -117314,32 +117314,6 @@
       "proto": "MELMETAL_NORMAL"
     },
     "2325": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 1.47
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 1.5
-        },
-        {
-          "name": "mLowerBound",
-          "value": 2.25
-        },
-        {
-          "name": "mUpperBound",
-          "value": 3.75
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 4.5
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 4.65
-        }
-      ],
       "formName": "Normal",
       "proto": "FALINKS_NORMAL",
       "formId": 2325
@@ -121921,6 +121895,11 @@
       "proto": "PIKACHU_WCS_2024",
       "formId": 3015,
       "isCostume": true
+    },
+    "undefined": {
+      "formName": "Gofest 2025 Train Conductor",
+      "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+      "isCostume": true
     }
   },
   "types": {
@@ -124561,6 +124540,13 @@
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
+    "2021": {
+      "id": 2021,
+      "name": "Pass Points",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_FEST_01",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
     "2102": {
       "id": 2102,
       "name": "Pass Points",
@@ -126970,13 +126956,13 @@
       "id": 469,
       "name": "Behemoth Blade",
       "proto": "BEHEMOTH_BLADE",
-      "power": 1
+      "power": 200
     },
     "470": {
       "id": 470,
       "name": "Behemoth Bash",
       "proto": "BEHEMOTH_BASH",
-      "power": 1
+      "power": 125
     },
     "471": {
       "id": 471,
