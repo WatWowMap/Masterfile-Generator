@@ -22253,6 +22253,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "288": {
@@ -22329,7 +22331,9 @@
           "evoId": 289,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "289": {
       "pokemonName": "Slaking",
@@ -22399,7 +22403,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "290": {
       "pokemonName": "Nincada",
@@ -37040,7 +37046,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "484": {
       "pokemonName": "Palkia",
@@ -52008,6 +52016,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "687": {
@@ -52078,7 +52088,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "688": {
       "pokemonName": "Binacle",
@@ -52730,6 +52742,8 @@
           "onlyDaytime": true
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "697": {
@@ -52802,7 +52816,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "698": {
       "pokemonName": "Amaura",
@@ -52878,6 +52894,8 @@
           "onlyNighttime": true
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "699": {
@@ -52951,7 +52969,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "700": {
       "pokemonName": "Sylveon",
@@ -82272,7 +82292,9 @@
     "1856": {
       "formName": "Normal",
       "proto": "DIALGA_NORMAL",
-      "formId": 1856
+      "formId": 1856,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "1859": {
       "formName": "Normal",
@@ -87122,7 +87144,9 @@
       "defense": 225,
       "stamina": 205,
       "height": 7,
-      "weight": 850
+      "weight": 850,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "2830": {
       "sizeSettings": [
@@ -88361,6 +88385,20 @@
       "proto": "ITEM_LUCKY_FRIEND_APPLICATOR",
       "type": "Friend Boost",
       "category": "Xp Boost"
+    },
+    "304": {
+      "itemId": 304,
+      "itemName": "Single Stat Increase",
+      "proto": "ITEM_SINGLE_STAT_INCREASE",
+      "type": "Stat Increase",
+      "category": "Stat Increase"
+    },
+    "305": {
+      "itemId": 305,
+      "itemName": "Triple Stat Increase",
+      "proto": "ITEM_TRIPLE_STAT_INCREASE",
+      "type": "Stat Increase",
+      "category": "Stat Increase"
     },
     "401": {
       "itemId": 401,

@@ -116476,7 +116476,9 @@
     "1856": {
       "formName": "Normal",
       "proto": "DIALGA_NORMAL",
-      "formId": 1856
+      "formId": 1856,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "1859": {
       "formName": "Normal",
@@ -121328,7 +121330,9 @@
       "defense": 225,
       "stamina": 205,
       "height": 7,
-      "weight": 850
+      "weight": 850,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "2830": {
       "sizeSettings": [
@@ -123788,6 +123792,20 @@
       "proto": "ITEM_LUCKY_FRIEND_APPLICATOR",
       "type": "Friend Boost",
       "category": "Xp Boost"
+    },
+    "304": {
+      "id": 304,
+      "name": "Silver Bottle Cap",
+      "proto": "ITEM_SINGLE_STAT_INCREASE",
+      "type": "Stat Increase",
+      "category": "Stat Increase"
+    },
+    "305": {
+      "id": 305,
+      "name": "Gold Bottle Cap",
+      "proto": "ITEM_TRIPLE_STAT_INCREASE",
+      "type": "Stat Increase",
+      "category": "Stat Increase"
     },
     "401": {
       "id": 401,
