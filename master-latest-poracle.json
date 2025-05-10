@@ -39125,6 +39125,15 @@
       "evolutions": [
         {
           "evoId": 983,
+          "id": 0,
+          "candyCost": 100,
+          "questRequirement": {
+            "target": 15,
+            "i18n": "Defeat {{amount}} Dark- or Steel-type Raid Bosses"
+          }
+        },
+        {
+          "evoId": 983,
           "id": 0
         }
       ]
