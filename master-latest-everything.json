@@ -68596,7 +68596,15 @@
       "evolutions": {
         "983": {
           "pokemon": 983,
-          "form": 0
+          "form": 0,
+          "candyCost": 100,
+          "questRequirement": {
+            "questType": 21,
+            "target": 15,
+            "assetsRef": "quest_defeat_dark_or_steel_type_raid",
+            "i18n": "Defeat {{amount}} Dark- or Steel-type Raid Bosses",
+            "translated": "Defeat 15 Dark- or Steel-type Raid Bosses"
+          }
         }
       }
     },
@@ -87535,7 +87543,15 @@
       "evolutions": {
         "804": {
           "pokemon": 804,
-          "form": 0
+          "form": 0,
+          "candyCost": 200,
+          "questRequirement": {
+            "questType": 4,
+            "target": 20,
+            "assetsRef": "quest_catch_type_dragon_plural",
+            "i18n": "Catch {{amount}} Dragon-type Pokémon",
+            "translated": "Catch 20 Dragon-type Pokémon"
+          }
         }
       },
       "little": true
