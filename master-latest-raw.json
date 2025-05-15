@@ -2007,6 +2007,12 @@
         2858,
         2859,
         2863,
+        2864,
+        2865,
+        2866,
+        2867,
+        2868,
+        2869,
         3002,
         3003,
         3004,
@@ -61024,7 +61030,8 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        0
+        0,
+        2326
       ],
       "sizeSettings": [
         {
@@ -61238,7 +61245,8 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        0
+        0,
+        3016
       ],
       "sizeSettings": [
         {
@@ -65181,7 +65189,8 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        2325
+        2325,
+        2870
       ],
       "sizeSettings": [
         {
@@ -83151,6 +83160,11 @@
       "proto": "FALINKS_NORMAL",
       "formId": 2325
     },
+    "2326": {
+      "formName": "Normal",
+      "proto": "RILLABOOM_NORMAL",
+      "formId": 2326
+    },
     "2327": {
       "formName": "Spring 2020",
       "proto": "WURMPLE_SPRING_2020",
@@ -87369,6 +87383,48 @@
       "formId": 2863,
       "isCostume": true
     },
+    "2864": {
+      "formName": "Gofest 2025 Goggles Red",
+      "proto": "PIKACHU_GOFEST_2025_GOGGLES_RED",
+      "formId": 2864,
+      "isCostume": true
+    },
+    "2865": {
+      "formName": "Gofest 2025 Goggles Blue",
+      "proto": "PIKACHU_GOFEST_2025_GOGGLES_BLUE",
+      "formId": 2865,
+      "isCostume": true
+    },
+    "2866": {
+      "formName": "Gofest 2025 Goggles Yellow",
+      "proto": "PIKACHU_GOFEST_2025_GOGGLES_YELLOW",
+      "formId": 2866,
+      "isCostume": true
+    },
+    "2867": {
+      "formName": "Gofest 2025 Monocle Red",
+      "proto": "PIKACHU_GOFEST_2025_MONOCLE_RED",
+      "formId": 2867,
+      "isCostume": true
+    },
+    "2868": {
+      "formName": "Gofest 2025 Monocle Blue",
+      "proto": "PIKACHU_GOFEST_2025_MONOCLE_BLUE",
+      "formId": 2868,
+      "isCostume": true
+    },
+    "2869": {
+      "formName": "Gofest 2025 Monocle Yellow",
+      "proto": "PIKACHU_GOFEST_2025_MONOCLE_YELLOW",
+      "formId": 2869,
+      "isCostume": true
+    },
+    "2870": {
+      "formName": "Gofest 2025 Train Conductor",
+      "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+      "formId": 2870,
+      "isCostume": true
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -87728,10 +87784,10 @@
       "formId": 3015,
       "isCostume": true
     },
-    "undefined": {
-      "formName": "Gofest 2025 Train Conductor",
-      "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
-      "isCostume": true
+    "3016": {
+      "formName": "Normal",
+      "proto": "CINDERACE_NORMAL",
+      "formId": 3016
     }
   },
   "types": {

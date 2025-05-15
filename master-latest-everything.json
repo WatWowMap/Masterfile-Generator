@@ -3160,6 +3160,42 @@
           "form": 2863,
           "isCostume": true
         },
+        "2864": {
+          "name": "Gofest 2025 Goggles Red",
+          "proto": "PIKACHU_GOFEST_2025_GOGGLES_RED",
+          "form": 2864,
+          "isCostume": true
+        },
+        "2865": {
+          "name": "Gofest 2025 Goggles Blue",
+          "proto": "PIKACHU_GOFEST_2025_GOGGLES_BLUE",
+          "form": 2865,
+          "isCostume": true
+        },
+        "2866": {
+          "name": "Gofest 2025 Goggles Yellow",
+          "proto": "PIKACHU_GOFEST_2025_GOGGLES_YELLOW",
+          "form": 2866,
+          "isCostume": true
+        },
+        "2867": {
+          "name": "Gofest 2025 Monocle Red",
+          "proto": "PIKACHU_GOFEST_2025_MONOCLE_RED",
+          "form": 2867,
+          "isCostume": true
+        },
+        "2868": {
+          "name": "Gofest 2025 Monocle Blue",
+          "proto": "PIKACHU_GOFEST_2025_MONOCLE_BLUE",
+          "form": 2868,
+          "isCostume": true
+        },
+        "2869": {
+          "name": "Gofest 2025 Monocle Yellow",
+          "proto": "PIKACHU_GOFEST_2025_MONOCLE_YELLOW",
+          "form": 2869,
+          "isCostume": true
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -88288,6 +88324,11 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2326": {
+          "name": "Normal",
+          "proto": "RILLABOOM_NORMAL",
+          "form": 2326
         }
       },
       "stats": {
@@ -88534,6 +88575,11 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "3016": {
+          "name": "Normal",
+          "proto": "CINDERACE_NORMAL",
+          "form": 3016
         }
       },
       "stats": {
@@ -93429,6 +93475,12 @@
           "name": "Normal",
           "proto": "FALINKS_NORMAL",
           "form": 2325
+        },
+        "2870": {
+          "name": "Gofest 2025 Train Conductor",
+          "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+          "form": 2870,
+          "isCostume": true
         }
       },
       "stats": {
@@ -117350,6 +117402,11 @@
       "proto": "FALINKS_NORMAL",
       "formId": 2325
     },
+    "2326": {
+      "formName": "Normal",
+      "proto": "RILLABOOM_NORMAL",
+      "formId": 2326
+    },
     "2327": {
       "formName": "Spring 2020",
       "proto": "WURMPLE_SPRING_2020",
@@ -121570,6 +121627,48 @@
       "formId": 2863,
       "isCostume": true
     },
+    "2864": {
+      "formName": "Gofest 2025 Goggles Red",
+      "proto": "PIKACHU_GOFEST_2025_GOGGLES_RED",
+      "formId": 2864,
+      "isCostume": true
+    },
+    "2865": {
+      "formName": "Gofest 2025 Goggles Blue",
+      "proto": "PIKACHU_GOFEST_2025_GOGGLES_BLUE",
+      "formId": 2865,
+      "isCostume": true
+    },
+    "2866": {
+      "formName": "Gofest 2025 Goggles Yellow",
+      "proto": "PIKACHU_GOFEST_2025_GOGGLES_YELLOW",
+      "formId": 2866,
+      "isCostume": true
+    },
+    "2867": {
+      "formName": "Gofest 2025 Monocle Red",
+      "proto": "PIKACHU_GOFEST_2025_MONOCLE_RED",
+      "formId": 2867,
+      "isCostume": true
+    },
+    "2868": {
+      "formName": "Gofest 2025 Monocle Blue",
+      "proto": "PIKACHU_GOFEST_2025_MONOCLE_BLUE",
+      "formId": 2868,
+      "isCostume": true
+    },
+    "2869": {
+      "formName": "Gofest 2025 Monocle Yellow",
+      "proto": "PIKACHU_GOFEST_2025_MONOCLE_YELLOW",
+      "formId": 2869,
+      "isCostume": true
+    },
+    "2870": {
+      "formName": "Gofest 2025 Train Conductor",
+      "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+      "formId": 2870,
+      "isCostume": true
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -121930,10 +122029,10 @@
       "formId": 3015,
       "isCostume": true
     },
-    "undefined": {
-      "formName": "Gofest 2025 Train Conductor",
-      "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
-      "isCostume": true
+    "3016": {
+      "formName": "Normal",
+      "proto": "CINDERACE_NORMAL",
+      "formId": 3016
     }
   },
   "types": {
@@ -123670,6 +123769,12 @@
       "id": 83,
       "name": "Royal Noevolve",
       "proto": "ROYAL_NOEVOLVE",
+      "noEvolve": true
+    },
+    "84": {
+      "id": 84,
+      "name": "Indonesia 2025 Noevolve",
+      "proto": "INDONESIA_2025_NOEVOLVE",
       "noEvolve": true
     }
   },
@@ -127070,6 +127175,21 @@
       "name": "Behemoth Bash",
       "proto": "VN_BM_061",
       "power": 350
+    },
+    "481": {
+      "id": 481,
+      "name": "Thunder Cage Fast",
+      "proto": "THUNDER_CAGE_FAST"
+    },
+    "483": {
+      "id": 483,
+      "name": "Vn Bm 062",
+      "proto": "VN_BM_062"
+    },
+    "484": {
+      "id": 484,
+      "name": "Clanging Scales",
+      "proto": "CLANGING_SCALES"
     }
   },
   "questTypes": {

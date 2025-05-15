@@ -1533,6 +1533,36 @@
           "proto": "PIKACHU_KURTA",
           "is_costume": true
         },
+        "2864": {
+          "name": "Gofest 2025 Goggles Red",
+          "proto": "PIKACHU_GOFEST_2025_GOGGLES_RED",
+          "is_costume": true
+        },
+        "2865": {
+          "name": "Gofest 2025 Goggles Blue",
+          "proto": "PIKACHU_GOFEST_2025_GOGGLES_BLUE",
+          "is_costume": true
+        },
+        "2866": {
+          "name": "Gofest 2025 Goggles Yellow",
+          "proto": "PIKACHU_GOFEST_2025_GOGGLES_YELLOW",
+          "is_costume": true
+        },
+        "2867": {
+          "name": "Gofest 2025 Monocle Red",
+          "proto": "PIKACHU_GOFEST_2025_MONOCLE_RED",
+          "is_costume": true
+        },
+        "2868": {
+          "name": "Gofest 2025 Monocle Blue",
+          "proto": "PIKACHU_GOFEST_2025_MONOCLE_BLUE",
+          "is_costume": true
+        },
+        "2869": {
+          "name": "Gofest 2025 Monocle Yellow",
+          "proto": "PIKACHU_GOFEST_2025_MONOCLE_YELLOW",
+          "is_costume": true
+        },
         "3002": {
           "name": "Summer 2023 A",
           "proto": "PIKACHU_SUMMER_2023_A",
@@ -40944,6 +40974,10 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "2326": {
+          "name": "Normal",
+          "proto": "RILLABOOM_NORMAL"
         }
       },
       "attack": 239,
@@ -41067,6 +41101,10 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "3016": {
+          "name": "Normal",
+          "proto": "CINDERACE_NORMAL"
         }
       },
       "attack": 238,
@@ -43366,6 +43404,11 @@
         "2325": {
           "name": "Normal",
           "proto": "FALINKS_NORMAL"
+        },
+        "2870": {
+          "name": "Gofest 2025 Train Conductor",
+          "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
+          "is_costume": true
         }
       },
       "attack": 193,
@@ -53501,6 +53544,18 @@
       "proto": "VN_BM_061",
       "type": "Steel",
       "power": 350
+    },
+    "481": {
+      "name": "Thunder Cage",
+      "proto": "THUNDER_CAGE_FAST"
+    },
+    "483": {
+      "name": "Vn Bm 062",
+      "proto": "VN_BM_062"
+    },
+    "484": {
+      "name": "Clanging Scales",
+      "proto": "CLANGING_SCALES"
     }
   },
   "quest_types": {
