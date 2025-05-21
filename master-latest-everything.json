@@ -97094,8 +97094,24 @@
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
-      }
+        "thirdMoveCandy": 100,
+        "tradable": true
+      },
+      "evolutions": {
+        "892": {
+          "pokemon": 892,
+          "form": 2724,
+          "candyCost": 200,
+          "questRequirement": {
+            "questType": 21,
+            "target": 30,
+            "assetsRef": "quest_defeat_water_type_raid_and_max_battle",
+            "i18n": "Defeat {{amount}} Water-type Pokémon in raids or Max Battles",
+            "translated": "Defeat 30 Water-type Pokémon in raids or Max Battles"
+          }
+        }
+      },
+      "little": true
     },
     "892": {
       "name": "Urshifu",
@@ -97310,7 +97326,8 @@
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100
+        "thirdMoveCandy": 100,
+        "tradable": true
       }
     },
     "893": {

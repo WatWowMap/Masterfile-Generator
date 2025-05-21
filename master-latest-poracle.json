@@ -52124,7 +52124,27 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "evolutions": [
+        {
+          "evoId": 892,
+          "id": 2723,
+          "candyCost": 200,
+          "questRequirement": {
+            "target": 30,
+            "i18n": "Defeat {{amount}} Dark-type Pokémon in raids or Max Battles"
+          }
+        },
+        {
+          "evoId": 892,
+          "id": 2724,
+          "candyCost": 200,
+          "questRequirement": {
+            "target": 30,
+            "i18n": "Defeat {{amount}} Water-type Pokémon in raids or Max Battles"
+          }
+        }
+      ]
     },
     "892_0": {
       "name": "Urshifu",

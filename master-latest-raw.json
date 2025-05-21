@@ -66898,7 +66898,23 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "evolutions": [
+        {
+          "evoId": 892,
+          "formId": 2723,
+          "candyCost": 200,
+          "questRequirement": "KUBFU_SINGLE_STRIKE_EVOLUTION_QUEST"
+        },
+        {
+          "evoId": 892,
+          "formId": 2724,
+          "candyCost": 200,
+          "questRequirement": "KUBFU_RAPID_STRIKE_EVOLUTION_QUEST"
+        }
+      ],
+      "little": true
     },
     "892": {
       "pokemonName": "Urshifu",
@@ -66964,7 +66980,8 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tradable": true
     },
     "893": {
       "pokemonName": "Zarude",
