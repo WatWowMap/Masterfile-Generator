@@ -94145,6 +94145,30 @@
       "type": 9,
       "power": 350,
       "durationMs": 2500
+    },
+    "485": {
+      "moveId": 485,
+      "moveName": "Crush Grip",
+      "proto": "CRUSH_GRIP",
+      "fast": false,
+      "type": 1,
+      "pvpPower": 1,
+      "pvpEnergyDelta": -1,
+      "power": 1,
+      "durationMs": 1800,
+      "energyDelta": -1
+    },
+    "486": {
+      "moveId": 486,
+      "moveName": "Dragon Energy",
+      "proto": "DRAGON_ENERGY",
+      "fast": false,
+      "type": 16,
+      "pvpPower": 1,
+      "pvpEnergyDelta": -1,
+      "power": 1,
+      "durationMs": 3300,
+      "energyDelta": -1
     }
   },
   "questTypes": {
