@@ -94075,8 +94075,12 @@
       "proto": "THUNDER_CAGE",
       "fast": false,
       "type": 13,
-      "pvpPower": 1,
-      "pvpEnergyDelta": -1,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": {
+        "targetDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      },
       "power": 1,
       "durationMs": 3300,
       "energyDelta": -1
@@ -94159,8 +94163,8 @@
       "proto": "CRUSH_GRIP",
       "fast": false,
       "type": 1,
-      "pvpPower": 1,
-      "pvpEnergyDelta": -1,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -50,
       "power": 1,
       "durationMs": 1800,
       "energyDelta": -1
@@ -94171,8 +94175,8 @@
       "proto": "DRAGON_ENERGY",
       "fast": false,
       "type": 16,
-      "pvpPower": 1,
-      "pvpEnergyDelta": -1,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
       "power": 1,
       "durationMs": 3300,
       "energyDelta": -1
