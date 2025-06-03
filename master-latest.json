@@ -739,6 +739,7 @@
       ],
       "quick_moves": [
         "Poison Jab",
+        "Poison Sting",
         "Infestation"
       ],
       "charged_moves": [
@@ -1217,6 +1218,7 @@
       "quick_moves": [
         "Bite",
         "Acid",
+        "Poison Sting",
         "Dragon Tail"
       ],
       "charged_moves": [
@@ -1668,6 +1670,7 @@
         "Thunder Punch",
         "Brick Break",
         "Wild Charge",
+        "Surf",
         "Skull Bash",
         "Trailblaze"
       ],
@@ -1696,6 +1699,7 @@
             "Psychic",
             "Wild Charge",
             "Grass Knot",
+            "Surf",
             "Trailblaze"
           ],
           "types": [
@@ -1975,7 +1979,8 @@
       ],
       "quick_moves": [
         "Bite",
-        "Poison Jab"
+        "Poison Jab",
+        "Poison Sting"
       ],
       "charged_moves": [
         "Earthquake",
@@ -2118,6 +2123,7 @@
       ],
       "quick_moves": [
         "Poison Jab",
+        "Poison Sting",
         "Iron Tail",
         "Double Kick"
       ],
@@ -3122,7 +3128,8 @@
           "weight": 7.5,
           "quick_moves": [
             "Scratch",
-            "Metal Claw"
+            "Metal Claw",
+            "Metal Sound"
           ],
           "charged_moves": [
             "Dig",
@@ -4197,7 +4204,8 @@
       ],
       "quick_moves": [
         "Poison Jab",
-        "Acid"
+        "Acid",
+        "Poison Sting"
       ],
       "charged_moves": [
         "Blizzard",
@@ -6229,6 +6237,7 @@
         "Zen Headbutt"
       ],
       "charged_moves": [
+        "Wrap",
         "Hyper Beam",
         "Power Whip",
         "Stomp"
@@ -8160,7 +8169,8 @@
           "charged_moves": [
             "Ancient Power",
             "Brave Bird",
-            "Futuresight"
+            "Futuresight",
+            "Fly"
           ],
           "types": [
             "Flying",
@@ -8220,7 +8230,8 @@
           "charged_moves": [
             "Ancient Power",
             "Close Combat",
-            "Brave Bird"
+            "Brave Bird",
+            "Fly"
           ],
           "types": [
             "Fighting",
@@ -8281,7 +8292,8 @@
           "charged_moves": [
             "Ancient Power",
             "Brave Bird",
-            "Payback"
+            "Payback",
+            "Fly"
           ],
           "types": [
             "Flying",
@@ -13662,7 +13674,8 @@
       "charged_moves": [
         "Hydro Pump",
         "Sky Attack",
-        "Futuresight"
+        "Futuresight",
+        "Fly"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -16346,7 +16359,8 @@
       ],
       "quick_moves": [
         "Tackle",
-        "Metal Claw"
+        "Metal Claw",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Rock Tomb",
@@ -16398,7 +16412,8 @@
       ],
       "quick_moves": [
         "Metal Claw",
-        "Iron Tail"
+        "Iron Tail",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Rock Tomb",
@@ -16451,7 +16466,8 @@
       "quick_moves": [
         "Dragon Tail",
         "Iron Tail",
-        "Smack Down"
+        "Smack Down",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Stone Edge",
@@ -18618,6 +18634,7 @@
         "Waterfall"
       ],
       "charged_moves": [
+        "Wrap",
         "Hyper Beam",
         "Blizzard",
         "Surf"
@@ -19344,7 +19361,8 @@
       "charged_moves": [
         "Water Pulse",
         "Body Slam",
-        "Aurora Beam"
+        "Aurora Beam",
+        "Surf"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19850,6 +19868,7 @@
         "Psychic"
       ],
       "quick_moves": [
+        "Fury Cutter",
         "Metal Claw",
         "Zen Headbutt"
       ],
@@ -19901,6 +19920,7 @@
         "Psychic"
       ],
       "quick_moves": [
+        "Fury Cutter",
         "Bullet Punch",
         "Zen Headbutt"
       ],
@@ -23739,6 +23759,7 @@
       "quick_moves": [
         "Mud Shot",
         "Poison Jab",
+        "Poison Sting",
         "Counter"
       ],
       "charged_moves": [
@@ -28063,7 +28084,8 @@
       ],
       "quick_moves": [
         "Bug Bite",
-        "Poison Jab"
+        "Poison Jab",
+        "Poison Sting"
       ],
       "charged_moves": [
         "Megahorn",
@@ -39890,9 +39912,11 @@
       ],
       "quick_moves": [
         "Shadow Claw",
-        "Astonish"
+        "Astonish",
+        "Metal Sound"
       ],
       "charged_moves": [
+        "Wrap",
         "Shadow Ball",
         "Power Whip",
         "Heavy Slam"
@@ -40335,6 +40359,7 @@
         "Psychic"
       ],
       "quick_moves": [
+        "Shadow Claw",
         "Confusion",
         "Air Slash"
       ],
@@ -43332,7 +43357,8 @@
       ],
       "quick_moves": [
         "Shadow Claw",
-        "Metal Claw"
+        "Metal Claw",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Iron Head",
@@ -44966,6 +44992,7 @@
         "Bug"
       ],
       "quick_moves": [
+        "Fury Cutter",
         "Quick Attack",
         "Air Slash"
       ],
@@ -45454,6 +45481,7 @@
       ],
       "quick_moves": [
         "Bite",
+        "Hex",
         "Incinerate"
       ],
       "charged_moves": [
@@ -45882,6 +45910,7 @@
         "Electric"
       ],
       "quick_moves": [
+        "Thunder Shock",
         "Spark",
         "Charge Beam"
       ],
@@ -45927,6 +45956,7 @@
         "Electric"
       ],
       "quick_moves": [
+        "Thunder Shock",
         "Spark",
         "Charge Beam"
       ],
@@ -45972,6 +46002,7 @@
         "Electric"
       ],
       "quick_moves": [
+        "Thunder Shock",
         "Spark",
         "Low Kick",
         "Charge Beam"
@@ -47741,7 +47772,8 @@
       ],
       "quick_moves": [
         "Lick",
-        "Poison Jab"
+        "Poison Jab",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Gunk Shot",
@@ -47786,7 +47818,8 @@
       ],
       "quick_moves": [
         "Lick",
-        "Poison Jab"
+        "Poison Jab",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Gunk Shot",
@@ -49118,6 +49151,7 @@
         "Hex"
       ],
       "charged_moves": [
+        "Power Gem",
         "Shadow Ball",
         "Dazzling Gleam",
         "Focus Blast"
