@@ -16643,7 +16643,8 @@
         "2585": {
           "name": "Costume 2020",
           "proto": "LAPRAS_COSTUME_2020",
-          "form": 2585
+          "form": 2585,
+          "isCostume": true
         }
       },
       "stats": {
@@ -120011,6 +120012,7 @@
       "formName": "Costume 2020",
       "proto": "LAPRAS_COSTUME_2020",
       "formId": 2585,
+      "isCostume": true,
       "purificationDust": 5000,
       "purificationCandy": 5
     },
