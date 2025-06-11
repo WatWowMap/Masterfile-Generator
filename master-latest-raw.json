@@ -94195,6 +94195,22 @@
       "power": 350,
       "durationMs": 2500
     },
+    "484": {
+      "moveId": 484,
+      "moveName": "Clanging Scales",
+      "proto": "CLANGING_SCALES",
+      "fast": false,
+      "type": 16,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": {
+        "attackerDefenseStatStageChange": -1,
+        "buffActivationChance": 1
+      },
+      "power": 120,
+      "durationMs": 3300,
+      "energyDelta": -100
+    },
     "485": {
       "moveId": 485,
       "moveName": "Crush Grip",
