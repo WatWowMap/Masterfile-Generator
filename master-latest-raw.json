@@ -74456,7 +74456,7 @@
     "999": {
       "pokemonName": "Gimmighoul",
       "pokedexId": 999,
-      "defaultFormId": 0,
+      "defaultFormId": 2998,
       "types": [
         8
       ],
@@ -74471,7 +74471,6 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0,
         2998,
         3018
       ],
@@ -87853,7 +87852,13 @@
     "2998": {
       "formName": "Normal",
       "proto": "GIMMIGHOUL_NORMAL",
-      "formId": 2998
+      "formId": 2998,
+      "evolutions": [
+        {
+          "evoId": 1000,
+          "itemRequirement": 1150
+        }
+      ]
     },
     "3000": {
       "formName": "Normal",
@@ -88074,6 +88079,34 @@
       "formName": "Coin A1",
       "proto": "GIMMIGHOUL_COIN_A1",
       "formId": 3018
+    },
+    "GIMMIGHOUL_COIN_A1": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.049
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.05
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.075
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.125
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.15
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.155
+        }
+      ]
     }
   },
   "types": {

@@ -55587,7 +55587,14 @@
         "baseStamina": 128
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 1000,
+          "id": 0,
+          "itemRequirement": "Gimmighoul Coins"
+        }
+      ]
     },
     "999_3018": {
       "name": "Gimmighoul",

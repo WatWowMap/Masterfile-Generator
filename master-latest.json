@@ -49101,7 +49101,7 @@
     "999": {
       "name": "Gimmighoul",
       "pokedex_id": 999,
-      "default_form_id": 0,
+      "default_form_id": 2998,
       "types": [
         "Ghost"
       ],
@@ -49114,13 +49114,14 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2998": {
           "name": "Normal",
-          "proto": "GIMMIGHOUL_NORMAL"
+          "proto": "GIMMIGHOUL_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 1000
+            }
+          ]
         },
         "3018": {
           "name": "Coin A1",
