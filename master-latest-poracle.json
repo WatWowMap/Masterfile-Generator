@@ -2892,6 +2892,27 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_3017": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Wcs 2025",
+        "id": 3017
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -55559,6 +55580,27 @@
       "form": {
         "name": "Normal",
         "id": 2998
+      },
+      "stats": {
+        "baseAttack": 140,
+        "baseDefense": 76,
+        "baseStamina": 128
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "999_3018": {
+      "name": "Gimmighoul",
+      "id": 999,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "form": {
+        "name": "Coin A1",
+        "id": 3018
       },
       "stats": {
         "baseAttack": 140,

@@ -1628,6 +1628,10 @@
           "name": "Wcs 2024",
           "proto": "PIKACHU_WCS_2024",
           "is_costume": true
+        },
+        "3017": {
+          "name": "Wcs 2025",
+          "proto": "PIKACHU_WCS_2025"
         }
       },
       "attack": 112,
@@ -49117,6 +49121,10 @@
         "2998": {
           "name": "Normal",
           "proto": "GIMMIGHOUL_NORMAL"
+        },
+        "3018": {
+          "name": "Coin A1",
+          "proto": "GIMMIGHOUL_COIN_A1"
         }
       },
       "attack": 140,
@@ -53844,6 +53852,10 @@
       "proto": "DRAGON_ENERGY",
       "type": "Dragon",
       "power": 155
+    },
+    "487": {
+      "name": "Aqua Step",
+      "proto": "AQUA_STEP"
     }
   },
   "quest_types": {
@@ -54190,6 +54202,18 @@
     "16": {
       "proto": "POKEMON_EGG",
       "text": "Pokemon Egg"
+    },
+    "17": {
+      "proto": "POKEMON_INDIVIDUAL_STAT",
+      "text": "Pokemon Individual Stat"
+    },
+    "18": {
+      "proto": "LOOT_TABLE",
+      "text": "Loot Table"
+    },
+    "19": {
+      "proto": "FRIENDSHIP_POINTS",
+      "text": "Friendship Points"
     }
   },
   "quest_conditions": {

@@ -2024,7 +2024,8 @@
         3012,
         3013,
         3014,
-        3015
+        3015,
+        3017
       ],
       "sizeSettings": [
         {
@@ -74471,7 +74472,8 @@
       "generation": "Paldea",
       "forms": [
         0,
-        2998
+        2998,
+        3018
       ],
       "sizeSettings": [
         {
@@ -88062,6 +88064,16 @@
       "formName": "Normal",
       "proto": "CINDERACE_NORMAL",
       "formId": 3016
+    },
+    "3017": {
+      "formName": "Wcs 2025",
+      "proto": "PIKACHU_WCS_2025",
+      "formId": 3017
+    },
+    "3018": {
+      "formName": "Coin A1",
+      "proto": "GIMMIGHOUL_COIN_A1",
+      "formId": 3018
     }
   },
   "types": {
@@ -94780,6 +94792,21 @@
       "id": 16,
       "proto": "POKEMON_EGG",
       "formatted": "Pokemon Egg"
+    },
+    "17": {
+      "id": 17,
+      "proto": "POKEMON_INDIVIDUAL_STAT",
+      "formatted": "Pokemon Individual Stat"
+    },
+    "18": {
+      "id": 18,
+      "proto": "LOOT_TABLE",
+      "formatted": "Loot Table"
+    },
+    "19": {
+      "id": 19,
+      "proto": "FRIENDSHIP_POINTS",
+      "formatted": "Friendship Points"
     }
   },
   "questConditions": {
