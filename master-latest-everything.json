@@ -64779,7 +64779,7 @@
     "570": {
       "name": "Zorua",
       "pokedexId": 570,
-      "defaultFormId": 0,
+      "defaultFormId": 2108,
       "types": {
         "17": {
           "typeId": 17,
@@ -64843,12 +64843,87 @@
         "2108": {
           "name": "Normal",
           "proto": "ZORUA_NORMAL",
-          "form": 2108
+          "form": 2108,
+          "evolutions": {
+            "571": {
+              "pokemon": 571,
+              "form": 2111,
+              "candyCost": 50
+            }
+          }
         },
         "2796": {
           "name": "Hisuian",
           "proto": "ZORUA_HISUIAN",
-          "form": 2796
+          "form": 2796,
+          "stats": {
+            "attack": 162,
+            "defense": 79,
+            "stamina": 111
+          },
+          "quickMoves": {
+            "220": {
+              "moveId": 220,
+              "moveName": "Scratch",
+              "proto": "SCRATCH_FAST",
+              "type": 1,
+              "power": 6
+            },
+            "278": {
+              "moveId": 278,
+              "moveName": "Snarl",
+              "proto": "SNARL_FAST",
+              "type": 17,
+              "power": 11
+            }
+          },
+          "chargedMoves": {
+            "16": {
+              "moveId": 16,
+              "moveName": "Dark Pulse",
+              "proto": "DARK_PULSE",
+              "type": 17,
+              "power": 80
+            },
+            "70": {
+              "moveId": 70,
+              "moveName": "Shadow Ball",
+              "proto": "SHADOW_BALL",
+              "type": 8,
+              "power": 100
+            },
+            "265": {
+              "moveId": 265,
+              "moveName": "Night Shade",
+              "proto": "NIGHT_SHADE",
+              "type": 8,
+              "power": 60
+            },
+            "280": {
+              "moveId": 280,
+              "moveName": "Foul Play",
+              "proto": "FOUL_PLAY",
+              "type": 17,
+              "power": 70
+            }
+          },
+          "types": {
+            "1": {
+              "typeId": 1,
+              "typeName": "Normal"
+            },
+            "8": {
+              "typeId": 8,
+              "typeName": "Ghost"
+            }
+          },
+          "evolutions": {
+            "571": {
+              "pokemon": 571,
+              "form": 2797,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -64874,7 +64949,7 @@
       "evolutions": {
         "571": {
           "pokemon": 571,
-          "form": 0,
+          "form": 2111,
           "candyCost": 50
         }
       },
@@ -64883,7 +64958,7 @@
     "571": {
       "name": "Zoroark",
       "pokedexId": 571,
-      "defaultFormId": 0,
+      "defaultFormId": 2111,
       "types": {
         "17": {
           "typeId": 17,
@@ -64952,7 +65027,52 @@
         "2797": {
           "name": "Hisuian",
           "proto": "ZOROARK_HISUIAN",
-          "form": 2797
+          "form": 2797,
+          "stats": {
+            "attack": 261,
+            "defense": 128,
+            "stamina": 146
+          },
+          "chargedMoves": {
+            "24": {
+              "moveId": 24,
+              "moveName": "Flamethrower",
+              "proto": "FLAMETHROWER",
+              "type": 10,
+              "power": 65
+            },
+            "70": {
+              "moveId": 70,
+              "moveName": "Shadow Ball",
+              "proto": "SHADOW_BALL",
+              "type": 8,
+              "power": 100
+            },
+            "90": {
+              "moveId": 90,
+              "moveName": "Sludge Bomb",
+              "proto": "SLUDGE_BOMB",
+              "type": 4,
+              "power": 85
+            },
+            "280": {
+              "moveId": 280,
+              "moveName": "Foul Play",
+              "proto": "FOUL_PLAY",
+              "type": 17,
+              "power": 70
+            }
+          },
+          "types": {
+            "1": {
+              "typeId": 1,
+              "typeName": "Normal"
+            },
+            "8": {
+              "typeId": 8,
+              "typeName": "Ghost"
+            }
+          }
         }
       },
       "stats": {
@@ -113760,7 +113880,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "166": {
       "formName": "Normal",
@@ -113774,7 +113901,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "169": {
       "formName": "Normal",
@@ -118825,7 +118959,14 @@
     "2108": {
       "formName": "Normal",
       "proto": "ZORUA_NORMAL",
-      "formId": 2108
+      "formId": 2108,
+      "evolutions": [
+        {
+          "evoId": 571,
+          "formId": 2111,
+          "candyCost": 50
+        }
+      ]
     },
     "2111": {
       "formName": "Normal",
@@ -122732,12 +122873,49 @@
     "2796": {
       "formName": "Hisuian",
       "proto": "ZORUA_HISUIAN",
-      "formId": 2796
+      "formId": 2796,
+      "attack": 162,
+      "defense": 79,
+      "stamina": 111,
+      "quickMoves": [
+        220,
+        278
+      ],
+      "chargedMoves": [
+        16,
+        70,
+        265,
+        280
+      ],
+      "types": [
+        1,
+        8
+      ],
+      "evolutions": [
+        {
+          "evoId": 571,
+          "formId": 2797,
+          "candyCost": 50
+        }
+      ]
     },
     "2797": {
       "formName": "Hisuian",
       "proto": "ZOROARK_HISUIAN",
-      "formId": 2797
+      "formId": 2797,
+      "attack": 261,
+      "defense": 128,
+      "stamina": 146,
+      "chargedMoves": [
+        24,
+        70,
+        90,
+        280
+      ],
+      "types": [
+        1,
+        8
+      ]
     },
     "2798": {
       "sizeSettings": [
@@ -123862,34 +124040,6 @@
       "proto": "GIMMIGHOUL_COIN_A1",
       "formId": 3018,
       "isCostume": true
-    },
-    "GIMMIGHOUL_COIN_A1": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.049
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.075
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.125
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.155
-        }
-      ]
     }
   },
   "types": {

@@ -29342,7 +29342,7 @@
     "570": {
       "name": "Zorua",
       "pokedex_id": 570,
-      "default_form_id": 0,
+      "default_form_id": 2108,
       "types": [
         "Dark"
       ],
@@ -29359,17 +29359,42 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2108": {
           "name": "Normal",
-          "proto": "ZORUA_NORMAL"
+          "proto": "ZORUA_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 571,
+              "form": 2111
+            }
+          ]
         },
         "2796": {
           "name": "Hisuian",
-          "proto": "ZORUA_HISUIAN"
+          "proto": "ZORUA_HISUIAN",
+          "attack": 162,
+          "defense": 79,
+          "stamina": 111,
+          "quick_moves": [
+            "Scratch",
+            "Snarl"
+          ],
+          "charged_moves": [
+            "Dark Pulse",
+            "Shadow Ball",
+            "Night Shade",
+            "Foul Play"
+          ],
+          "types": [
+            "Normal",
+            "Ghost"
+          ],
+          "evolutions": [
+            {
+              "pokemon": 571,
+              "form": 2797
+            }
+          ]
         }
       },
       "attack": 153,
@@ -29387,7 +29412,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 571
+          "pokemon": 571,
+          "form": 2111
         }
       ],
       "little": true
@@ -29395,7 +29421,7 @@
     "571": {
       "name": "Zoroark",
       "pokedex_id": 571,
-      "default_form_id": 0,
+      "default_form_id": 2111,
       "types": [
         "Dark"
       ],
@@ -29412,17 +29438,26 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2111": {
           "name": "Normal",
           "proto": "ZOROARK_NORMAL"
         },
         "2797": {
           "name": "Hisuian",
-          "proto": "ZOROARK_HISUIAN"
+          "proto": "ZOROARK_HISUIAN",
+          "attack": 261,
+          "defense": 128,
+          "stamina": 146,
+          "charged_moves": [
+            "Flamethrower",
+            "Shadow Ball",
+            "Sludge Bomb",
+            "Foul Play"
+          ],
+          "types": [
+            "Normal",
+            "Ghost"
+          ]
         }
       },
       "attack": 250,

@@ -36224,7 +36224,7 @@
       "evolutions": [
         {
           "evoId": 571,
-          "id": 0,
+          "id": 2111,
           "candyCost": 50
         }
       ]
@@ -36248,15 +36248,26 @@
         "baseStamina": 120
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "evolutions": [
+        {
+          "evoId": 571,
+          "id": 2111,
+          "candyCost": 50
+        }
+      ]
     },
     "570_2796": {
       "name": "Zorua",
       "id": 570,
       "types": [
         {
-          "id": 17,
-          "name": "Dark"
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
         }
       ],
       "form": {
@@ -36264,12 +36275,19 @@
         "id": 2796
       },
       "stats": {
-        "baseAttack": 153,
-        "baseDefense": 78,
-        "baseStamina": 120
+        "baseAttack": 162,
+        "baseDefense": 79,
+        "baseStamina": 111
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "evolutions": [
+        {
+          "evoId": 571,
+          "id": 2797,
+          "candyCost": 50
+        }
+      ]
     },
     "571_0": {
       "name": "Zoroark",
@@ -36318,8 +36336,12 @@
       "id": 571,
       "types": [
         {
-          "id": 17,
-          "name": "Dark"
+          "id": 1,
+          "name": "Normal"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
         }
       ],
       "form": {
@@ -36327,9 +36349,9 @@
         "id": 2797
       },
       "stats": {
-        "baseAttack": 250,
-        "baseDefense": 127,
-        "baseStamina": 155
+        "baseAttack": 261,
+        "baseDefense": 128,
+        "baseStamina": 146
       },
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75

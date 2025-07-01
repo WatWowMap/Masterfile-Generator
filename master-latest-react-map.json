@@ -19911,7 +19911,7 @@
     "570": {
       "name": "Zorua",
       "pokedexId": 570,
-      "defaultFormId": 0,
+      "defaultFormId": 2108,
       "types": [
         17
       ],
@@ -19928,11 +19928,25 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "2108": {
+          "name": "Normal"
         },
         "2796": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            220,
+            278
+          ],
+          "chargedMoves": [
+            16,
+            70,
+            265,
+            280
+          ],
+          "types": [
+            1,
+            8
+          ]
         }
       },
       "height": 0.7,
@@ -19945,7 +19959,7 @@
     "571": {
       "name": "Zoroark",
       "pokedexId": 571,
-      "defaultFormId": 0,
+      "defaultFormId": 2111,
       "types": [
         17
       ],
@@ -19962,11 +19976,21 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "2111": {
+          "name": "Normal"
         },
         "2797": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "chargedMoves": [
+            24,
+            70,
+            90,
+            280
+          ],
+          "types": [
+            1,
+            8
+          ]
         }
       },
       "height": 1.6,

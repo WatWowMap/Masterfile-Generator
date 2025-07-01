@@ -8,6 +8,9 @@
               "pokemon": 2,
               "form": 166
             }
+          ],
+          "costume_override_evos": [
+            11
           ]
         },
         "897": {}
@@ -21,6 +24,9 @@
           "form": 166
         }
       ],
+      "costume_override_evos": [
+        11
+      ],
       "little": true
     },
     "2": {
@@ -31,6 +37,9 @@
               "pokemon": 3,
               "form": 169
             }
+          ],
+          "costume_override_evos": [
+            11
           ]
         }
       },
@@ -42,6 +51,9 @@
           "pokemon": 3,
           "form": 169
         }
+      ],
+      "costume_override_evos": [
+        11
       ]
     },
     "3": {
@@ -8888,25 +8900,45 @@
     },
     "570": {
       "forms": {
-        "0": {},
-        "2108": {},
-        "2796": {}
+        "2108": {
+          "evolutions": [
+            {
+              "pokemon": 571,
+              "form": 2111
+            }
+          ]
+        },
+        "2796": {
+          "attack": 162,
+          "defense": 79,
+          "stamina": 111,
+          "evolutions": [
+            {
+              "pokemon": 571,
+              "form": 2797
+            }
+          ]
+        }
       },
       "attack": 153,
       "defense": 78,
       "stamina": 120,
       "evolutions": [
         {
-          "pokemon": 571
+          "pokemon": 571,
+          "form": 2111
         }
       ],
       "little": true
     },
     "571": {
       "forms": {
-        "0": {},
         "2111": {},
-        "2797": {}
+        "2797": {
+          "attack": 261,
+          "defense": 128,
+          "stamina": 146
+        }
       },
       "attack": 250,
       "defense": 127,

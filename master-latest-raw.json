@@ -75,6 +75,13 @@
           "candyCost": 25
         }
       ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ],
       "purificationDust": 3000,
       "purificationCandy": 3,
       "little": true
@@ -153,6 +160,13 @@
           "evoId": 3,
           "formId": 169,
           "candyCost": 100
+        }
+      ],
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
         }
       ],
       "purificationDust": 3000,
@@ -43650,7 +43664,7 @@
     "570": {
       "pokemonName": "Zorua",
       "pokedexId": 570,
-      "defaultFormId": 0,
+      "defaultFormId": 2108,
       "types": [
         17
       ],
@@ -43669,7 +43683,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         2108,
         2796
       ],
@@ -43718,6 +43731,7 @@
       "evolutions": [
         {
           "evoId": 571,
+          "formId": 2111,
           "candyCost": 50
         }
       ],
@@ -43726,7 +43740,7 @@
     "571": {
       "pokemonName": "Zoroark",
       "pokedexId": 571,
-      "defaultFormId": 0,
+      "defaultFormId": 2111,
       "types": [
         17
       ],
@@ -43745,7 +43759,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         2111,
         2797
       ],
@@ -78006,7 +78019,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "166": {
       "formName": "Normal",
@@ -78020,7 +78040,14 @@
         }
       ],
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "costumeOverrideEvos": [
+        {
+          "costumeId": 11,
+          "costumeProto": "JAN_2020_NOEVOLVE",
+          "costumeName": "Jan 2020 Noevolve"
+        }
+      ]
     },
     "169": {
       "formName": "Normal",
@@ -83055,7 +83082,14 @@
     "2108": {
       "formName": "Normal",
       "proto": "ZORUA_NORMAL",
-      "formId": 2108
+      "formId": 2108,
+      "evolutions": [
+        {
+          "evoId": 571,
+          "formId": 2111,
+          "candyCost": 50
+        }
+      ]
     },
     "2111": {
       "formName": "Normal",
@@ -86960,12 +86994,49 @@
     "2796": {
       "formName": "Hisuian",
       "proto": "ZORUA_HISUIAN",
-      "formId": 2796
+      "formId": 2796,
+      "attack": 162,
+      "defense": 79,
+      "stamina": 111,
+      "quickMoves": [
+        220,
+        278
+      ],
+      "chargedMoves": [
+        16,
+        70,
+        265,
+        280
+      ],
+      "types": [
+        1,
+        8
+      ],
+      "evolutions": [
+        {
+          "evoId": 571,
+          "formId": 2797,
+          "candyCost": 50
+        }
+      ]
     },
     "2797": {
       "formName": "Hisuian",
       "proto": "ZOROARK_HISUIAN",
-      "formId": 2797
+      "formId": 2797,
+      "attack": 261,
+      "defense": 128,
+      "stamina": 146,
+      "chargedMoves": [
+        24,
+        70,
+        90,
+        280
+      ],
+      "types": [
+        1,
+        8
+      ]
     },
     "2798": {
       "sizeSettings": [
@@ -88088,34 +88159,6 @@
       "proto": "GIMMIGHOUL_COIN_A1",
       "formId": 3018,
       "isCostume": true
-    },
-    "GIMMIGHOUL_COIN_A1": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.049
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.075
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.125
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.155
-        }
-      ]
     }
   },
   "types": {
