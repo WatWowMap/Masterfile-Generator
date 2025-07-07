@@ -42118,7 +42118,7 @@
     "549": {
       "pokemonName": "Lilligant",
       "pokedexId": 549,
-      "defaultFormId": 0,
+      "defaultFormId": 2051,
       "types": [
         12
       ],
@@ -42137,7 +42137,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         2051,
         2789
       ],
@@ -86776,7 +86775,23 @@
       "formId": 2789,
       "attack": 208,
       "defense": 159,
-      "stamina": 172
+      "stamina": 172,
+      "height": 1.2,
+      "weight": 19.2,
+      "quickMoves": [
+        271,
+        357
+      ],
+      "chargedMoves": [
+        47,
+        116,
+        245,
+        471
+      ],
+      "types": [
+        2,
+        12
+      ]
     },
     "2790": {
       "formName": "Hisuian",

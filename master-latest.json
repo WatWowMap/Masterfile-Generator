@@ -28272,7 +28272,7 @@
     "549": {
       "name": "Lilligant",
       "pokedex_id": 549,
-      "default_form_id": 0,
+      "default_form_id": 2051,
       "types": [
         "Grass"
       ],
@@ -28289,10 +28289,6 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2051": {
           "name": "Normal",
           "proto": "LILLIGANT_NORMAL"
@@ -28302,7 +28298,23 @@
           "proto": "LILLIGANT_HISUIAN",
           "attack": 208,
           "defense": 159,
-          "stamina": 172
+          "stamina": 172,
+          "height": 1.2,
+          "weight": 19.2,
+          "quick_moves": [
+            "Bullet Seed",
+            "Magical Leaf"
+          ],
+          "charged_moves": [
+            "Petal Blizzard",
+            "Solar Beam",
+            "Close Combat",
+            "Upper Hand"
+          ],
+          "types": [
+            "Fighting",
+            "Grass"
+          ]
         }
       },
       "attack": 214,

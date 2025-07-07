@@ -62493,7 +62493,7 @@
     "549": {
       "name": "Lilligant",
       "pokedexId": 549,
-      "defaultFormId": 0,
+      "defaultFormId": 2051,
       "types": {
         "12": {
           "typeId": 12,
@@ -62567,6 +62567,64 @@
             "attack": 208,
             "defense": 159,
             "stamina": 172
+          },
+          "height": 1.2,
+          "weight": 19.2,
+          "quickMoves": {
+            "271": {
+              "moveId": 271,
+              "moveName": "Bullet Seed",
+              "proto": "BULLET_SEED_FAST",
+              "type": 12,
+              "power": 7
+            },
+            "357": {
+              "moveId": 357,
+              "moveName": "Magical Leaf",
+              "proto": "MAGICAL_LEAF_FAST",
+              "type": 12,
+              "power": 17
+            }
+          },
+          "chargedMoves": {
+            "47": {
+              "moveId": 47,
+              "moveName": "Petal Blizzard",
+              "proto": "PETAL_BLIZZARD",
+              "type": 12,
+              "power": 110
+            },
+            "116": {
+              "moveId": 116,
+              "moveName": "Solar Beam",
+              "proto": "SOLAR_BEAM",
+              "type": 12,
+              "power": 180
+            },
+            "245": {
+              "moveId": 245,
+              "moveName": "Close Combat",
+              "proto": "CLOSE_COMBAT",
+              "type": 2,
+              "power": 105
+            },
+            "471": {
+              "moveId": 471,
+              "moveName": "Upper Hand",
+              "proto": "UPPER_HAND",
+              "type": 2,
+              "power": 50
+            }
+          },
+          "types": {
+            "2": {
+              "typeId": 2,
+              "typeName": "Fighting"
+            },
+            "12": {
+              "typeId": 12,
+              "typeName": "Grass"
+            }
           }
         }
       },
@@ -122654,7 +122712,23 @@
       "formId": 2789,
       "attack": 208,
       "defense": 159,
-      "stamina": 172
+      "stamina": 172,
+      "height": 1.2,
+      "weight": 19.2,
+      "quickMoves": [
+        271,
+        357
+      ],
+      "chargedMoves": [
+        47,
+        116,
+        245,
+        471
+      ],
+      "types": [
+        2,
+        12
+      ]
     },
     "2790": {
       "formName": "Hisuian",

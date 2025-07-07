@@ -19179,7 +19179,7 @@
     "549": {
       "name": "Lilligant",
       "pokedexId": 549,
-      "defaultFormId": 0,
+      "defaultFormId": 2051,
       "types": [
         12
       ],
@@ -19196,11 +19196,25 @@
       "genId": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "2051": {
+          "name": "Normal"
         },
         "2789": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            271,
+            357
+          ],
+          "chargedMoves": [
+            47,
+            116,
+            245,
+            471
+          ],
+          "types": [
+            2,
+            12
+          ]
         }
       },
       "height": 1.1,
