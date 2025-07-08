@@ -25797,10 +25797,10 @@
               "candyCost": 50,
               "questRequirement": {
                 "questType": 8,
-                "target": 10,
-                "assetsRef": "quest_win_raid_plural",
-                "i18n": "Win {{amount}} raids",
-                "translated": "Win 10 raids"
+                "target": 1,
+                "assetsRef": "quest_win_raid_singular",
+                "i18n": "Win a raid",
+                "translated": "Win a raid"
               }
             }
           }
