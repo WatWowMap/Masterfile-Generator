@@ -66823,7 +66823,7 @@
       "chargedMoves": [
         24,
         82,
-        89
+        90
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -66871,9 +66871,7 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100,
-      "tradable": true,
-      "transferable": true
+      "thirdMoveCandy": 100
     },
     "891": {
       "pokemonName": "Kubfu",
@@ -84168,7 +84166,7 @@
         14,
         24,
         82,
-        89
+        90
       ]
     },
     "2581": {
@@ -94308,6 +94306,18 @@
       "type": 9,
       "power": 350,
       "durationMs": 2500
+    },
+    "482": {
+      "moveId": 482,
+      "moveName": "Dynamax Cannon",
+      "proto": "DYNAMAX_CANNON",
+      "fast": false,
+      "type": 16,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
+      "power": 215,
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "484": {
       "moveId": 484,

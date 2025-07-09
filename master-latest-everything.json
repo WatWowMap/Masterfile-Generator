@@ -97304,12 +97304,12 @@
           "type": 16,
           "power": 90
         },
-        "89": {
-          "moveId": 89,
-          "moveName": "Cross Poison",
-          "proto": "CROSS_POISON",
+        "90": {
+          "moveId": 90,
+          "moveName": "Sludge Bomb",
+          "proto": "SLUDGE_BOMB",
           "type": 4,
-          "power": 40
+          "power": 85
         }
       },
       "genId": 8,
@@ -97351,12 +97351,12 @@
               "type": 16,
               "power": 90
             },
-            "89": {
-              "moveId": 89,
-              "moveName": "Cross Poison",
-              "proto": "CROSS_POISON",
+            "90": {
+              "moveId": 90,
+              "moveName": "Sludge Bomb",
+              "proto": "SLUDGE_BOMB",
               "type": 4,
-              "power": 40
+              "power": 85
             }
           }
         },
@@ -97381,9 +97381,7 @@
         "buddyGroupNumber": 2,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
-        "thirdMoveCandy": 100,
-        "tradable": true,
-        "transferable": true
+        "thirdMoveCandy": 100
       }
     },
     "891": {
@@ -120104,7 +120102,7 @@
         14,
         24,
         82,
-        89
+        90
       ]
     },
     "2581": {
@@ -129273,7 +129271,8 @@
     "482": {
       "id": 482,
       "name": "Dynamax Cannon",
-      "proto": "DYNAMAX_CANNON"
+      "proto": "DYNAMAX_CANNON",
+      "power": 215
     },
     "483": {
       "id": 483,
