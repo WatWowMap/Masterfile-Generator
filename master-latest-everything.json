@@ -76959,19 +76959,19 @@
         }
       },
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 4
-        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
           "proto": "TACKLE_FAST",
           "type": 1,
           "power": 5
+        },
+        "226": {
+          "moveId": 226,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT_FAST",
+          "type": 14,
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -77043,12 +77043,12 @@
         }
       },
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 4
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 5
         },
         "226": {
           "moveId": 226,
@@ -77130,19 +77130,19 @@
         }
       },
       "quickMoves": {
-        "200": {
-          "moveId": 200,
-          "moveName": "Fury Cutter",
-          "proto": "FURY_CUTTER_FAST",
-          "type": 7,
-          "power": 4
-        },
         "226": {
           "moveId": 226,
           "moveName": "Psycho Cut",
           "proto": "PSYCHO_CUT_FAST",
           "type": 14,
           "power": 4
+        },
+        "255": {
+          "moveId": 255,
+          "moveName": "Air Slash",
+          "proto": "AIR_SLASH_FAST",
+          "type": 3,
+          "power": 12
         }
       },
       "chargedMoves": {
@@ -105831,6 +105831,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 1,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -106341,6 +106342,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
