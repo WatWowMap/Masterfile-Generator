@@ -16813,10 +16813,10 @@
               "onlyDaytime": true,
               "questRequirement": {
                 "questType": 50,
-                "target": 1,
+                "target": 10,
                 "assetsRef": "quest_buddy_walk_km_plural",
                 "i18n": "Walk {{amount}} km with your buddy",
-                "translated": "Walk 1 km with your buddy"
+                "translated": "Walk 10 km with your buddy"
               }
             },
             "197": {
@@ -16827,10 +16827,10 @@
               "onlyNighttime": true,
               "questRequirement": {
                 "questType": 50,
-                "target": 1,
+                "target": 10,
                 "assetsRef": "quest_buddy_walk_km_plural",
                 "i18n": "Walk {{amount}} km with your buddy",
-                "translated": "Walk 1 km with your buddy"
+                "translated": "Walk 10 km with your buddy"
               }
             },
             "470": {
@@ -16849,10 +16849,10 @@
               "candyCost": 25,
               "questRequirement": {
                 "questType": 34,
-                "target": 7,
+                "target": 70,
                 "assetsRef": "challenge_buddy_affection_plural",
                 "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 7 hearts with your buddy"
+                "translated": "Earn 70 hearts with your buddy"
               }
             }
           }
@@ -16914,10 +16914,10 @@
           "onlyDaytime": true,
           "questRequirement": {
             "questType": 50,
-            "target": 1,
+            "target": 10,
             "assetsRef": "quest_buddy_walk_km_plural",
             "i18n": "Walk {{amount}} km with your buddy",
-            "translated": "Walk 1 km with your buddy"
+            "translated": "Walk 10 km with your buddy"
           }
         },
         "197": {
@@ -16928,10 +16928,10 @@
           "onlyNighttime": true,
           "questRequirement": {
             "questType": 50,
-            "target": 1,
+            "target": 10,
             "assetsRef": "quest_buddy_walk_km_plural",
             "i18n": "Walk {{amount}} km with your buddy",
-            "translated": "Walk 1 km with your buddy"
+            "translated": "Walk 10 km with your buddy"
           }
         },
         "470": {
@@ -16950,10 +16950,10 @@
           "candyCost": 25,
           "questRequirement": {
             "questType": 34,
-            "target": 7,
+            "target": 70,
             "assetsRef": "challenge_buddy_affection_plural",
             "i18n": "Earn {{amount}} hearts with your buddy",
-            "translated": "Earn 7 hearts with your buddy"
+            "translated": "Earn 70 hearts with your buddy"
           }
         }
       },
@@ -116707,7 +116707,7 @@
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyDaytime": true,
-          "questRequirement": "ESPEON_CD_EVOLUTION_QUEST"
+          "questRequirement": "ESPEON_EVOLUTION_QUEST"
         },
         {
           "evoId": 197,
@@ -116715,7 +116715,7 @@
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyNighttime": true,
-          "questRequirement": "UMBREON_CD_EVOLUTION_QUEST"
+          "questRequirement": "UMBREON_EVOLUTION_QUEST"
         },
         {
           "evoId": 470,
@@ -116731,7 +116731,7 @@
           "evoId": 700,
           "formId": 0,
           "candyCost": 25,
-          "questRequirement": "SYLVEON_CD_EVOLUTION_QUEST"
+          "questRequirement": "SYLVEON_EVOLUTION_QUEST"
         }
       ]
     },
