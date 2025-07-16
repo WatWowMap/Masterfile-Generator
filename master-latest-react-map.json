@@ -23854,7 +23854,7 @@
     "681": {
       "name": "Aegislash",
       "pokedexId": 681,
-      "defaultFormId": 0,
+      "defaultFormId": 2639,
       "types": [
         8,
         9
@@ -23871,9 +23871,6 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": {
-        "0": {
-          "name": "Unset"
-        },
         "2639": {
           "name": "Shield"
         },
@@ -37049,7 +37046,8 @@
       "type": 16
     },
     "487": {
-      "name": "Aqua Step"
+      "name": "Aqua Step",
+      "type": 11
     }
   },
   "questRewardTypes": {

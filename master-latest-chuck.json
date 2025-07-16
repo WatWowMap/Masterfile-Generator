@@ -13424,7 +13424,8 @@
       "stamina": 153,
       "evolutions": [
         {
-          "pokemon": 681
+          "pokemon": 681,
+          "form": 2639
         }
       ]
     },
@@ -13434,9 +13435,12 @@
         9
       ],
       "forms": {
-        "0": {},
         "2639": {},
-        "2640": {}
+        "2640": {
+          "attack": 272,
+          "defense": 97,
+          "stamina": 155
+        }
       },
       "attack": 97,
       "defense": 272,

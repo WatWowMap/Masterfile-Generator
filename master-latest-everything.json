@@ -77109,7 +77109,7 @@
       "evolutions": {
         "681": {
           "pokemon": 681,
-          "form": 0,
+          "form": 2639,
           "candyCost": 100
         }
       },
@@ -77118,7 +77118,7 @@
     "681": {
       "name": "Aegislash",
       "pokedexId": 681,
-      "defaultFormId": 0,
+      "defaultFormId": 2639,
       "types": {
         "8": {
           "typeId": 8,
@@ -77184,7 +77184,12 @@
         "2640": {
           "name": "Blade",
           "proto": "AEGISLASH_BLADE",
-          "form": 2640
+          "form": 2640,
+          "stats": {
+            "attack": 272,
+            "defense": 97,
+            "stamina": 155
+          }
         }
       },
       "stats": {
@@ -120681,7 +120686,10 @@
     "2640": {
       "formName": "Blade",
       "proto": "AEGISLASH_BLADE",
-      "formId": 2640
+      "formId": 2640,
+      "attack": 272,
+      "defense": 97,
+      "stamina": 155
     },
     "2641": {
       "formName": "Small",
@@ -129302,7 +129310,8 @@
     "487": {
       "id": 487,
       "name": "Aqua Step",
-      "proto": "AQUA_STEP"
+      "proto": "AQUA_STEP",
+      "power": 55
     }
   },
   "questTypes": {

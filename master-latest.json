@@ -35224,14 +35224,15 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 681
+          "pokemon": 681,
+          "form": 2639
         }
       ]
     },
     "681": {
       "name": "Aegislash",
       "pokedex_id": 681,
-      "default_form_id": 0,
+      "default_form_id": 2639,
       "types": [
         "Ghost",
         "Steel"
@@ -35248,17 +35249,16 @@
       "gen_id": 6,
       "generation": "Kalos",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2639": {
           "name": "Shield",
           "proto": "AEGISLASH_SHIELD"
         },
         "2640": {
           "name": "Blade",
-          "proto": "AEGISLASH_BLADE"
+          "proto": "AEGISLASH_BLADE",
+          "attack": 272,
+          "defense": 97,
+          "stamina": 155
         }
       },
       "attack": 97,
@@ -53912,7 +53912,9 @@
     },
     "487": {
       "name": "Aqua Step",
-      "proto": "AQUA_STEP"
+      "proto": "AQUA_STEP",
+      "type": "Water",
+      "power": 55
     }
   },
   "quest_types": {

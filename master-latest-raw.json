@@ -51849,6 +51849,7 @@
       "evolutions": [
         {
           "evoId": 681,
+          "formId": 2639,
           "candyCost": 100
         }
       ],
@@ -51857,7 +51858,7 @@
     "681": {
       "pokemonName": "Aegislash",
       "pokedexId": 681,
-      "defaultFormId": 0,
+      "defaultFormId": 2639,
       "types": [
         8,
         9
@@ -51876,7 +51877,6 @@
       "genId": 6,
       "generation": "Kalos",
       "forms": [
-        0,
         2639,
         2640
       ],
@@ -84745,7 +84745,10 @@
     "2640": {
       "formName": "Blade",
       "proto": "AEGISLASH_BLADE",
-      "formId": 2640
+      "formId": 2640,
+      "attack": 272,
+      "defense": 97,
+      "stamina": 155
     },
     "2641": {
       "formName": "Small",
@@ -94360,6 +94363,22 @@
       "power": 155,
       "durationMs": 3300,
       "energyDelta": -50
+    },
+    "487": {
+      "moveId": 487,
+      "moveName": "Aqua Step",
+      "proto": "AQUA_STEP",
+      "fast": false,
+      "type": 11,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      },
+      "power": 55,
+      "durationMs": 3500,
+      "energyDelta": -40
     }
   },
   "questTypes": {
