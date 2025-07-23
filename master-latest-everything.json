@@ -97309,12 +97309,12 @@
           "type": 16,
           "power": 90
         },
-        "90": {
-          "moveId": 90,
-          "moveName": "Sludge Bomb",
-          "proto": "SLUDGE_BOMB",
+        "89": {
+          "moveId": 89,
+          "moveName": "Cross Poison",
+          "proto": "CROSS_POISON",
           "type": 4,
-          "power": 85
+          "power": 40
         }
       },
       "genId": 8,
@@ -97356,12 +97356,12 @@
               "type": 16,
               "power": 90
             },
-            "90": {
-              "moveId": 90,
-              "moveName": "Sludge Bomb",
-              "proto": "SLUDGE_BOMB",
+            "89": {
+              "moveId": 89,
+              "moveName": "Cross Poison",
+              "proto": "CROSS_POISON",
               "type": 4,
-              "power": 85
+              "power": 40
             }
           }
         },
@@ -97383,7 +97383,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 20,
         "thirdMoveStardust": 100000,
         "thirdMoveCandy": 100
@@ -103144,6 +103144,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -103245,6 +103246,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -120109,6 +120111,7 @@
       "formName": "Eternamax",
       "proto": "ETERNATUS_ETERNAMAX",
       "formId": 2580,
+      "gmaxMove": 483,
       "attack": 251,
       "defense": 505,
       "stamina": 452,
@@ -120116,13 +120119,14 @@
         14,
         24,
         82,
-        90
+        89
       ]
     },
     "2581": {
       "formName": "Normal",
       "proto": "ETERNATUS_NORMAL",
-      "formId": 2581
+      "formId": 2581,
+      "gmaxMove": 483
     },
     "2582": {
       "formName": "Galarian",
@@ -126796,6 +126800,13 @@
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
+    "2022": {
+      "id": 2022,
+      "name": "Pass Points",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
     "2101": {
       "id": 2101,
       "name": "Pass Points",
@@ -129294,7 +129305,8 @@
     "483": {
       "id": 483,
       "name": "Vn Bm 062",
-      "proto": "VN_BM_062"
+      "proto": "VN_BM_062",
+      "power": 350
     },
     "484": {
       "id": 484,

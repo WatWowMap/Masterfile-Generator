@@ -44568,7 +44568,7 @@
       "charged_moves": [
         "Flamethrower",
         "Dragon Pulse",
-        "Sludge Bomb"
+        "Cross Poison"
       ],
       "gen_id": 8,
       "generation": "Galar",
@@ -44583,7 +44583,7 @@
             "Hyper Beam",
             "Flamethrower",
             "Dragon Pulse",
-            "Sludge Bomb"
+            "Cross Poison"
           ]
         },
         "2581": {
@@ -44599,7 +44599,7 @@
       "family": 890,
       "legendary": true,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -47141,6 +47141,7 @@
       "family": 948,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -47186,6 +47187,7 @@
       "family": 948,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -51446,6 +51448,12 @@
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
+    "2022": {
+      "name": "Event Pass Point Go Fest 02",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
     "2101": {
       "name": "Event Pass Point Live Ops 01",
       "proto": "ITEM_EVENT_PASS_POINT_LIVE_OPS_01",
@@ -53890,8 +53898,10 @@
       "power": 215
     },
     "483": {
-      "name": "Vn Bm 062",
-      "proto": "VN_BM_062"
+      "name": "Max Dynamax Cannon",
+      "proto": "VN_BM_062",
+      "type": "Dragon",
+      "power": 350
     },
     "484": {
       "name": "Clanging Scales",

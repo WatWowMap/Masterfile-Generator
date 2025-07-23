@@ -66823,10 +66823,12 @@
       "chargedMoves": [
         24,
         82,
-        90
+        89
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        482
+      ],
       "genId": 8,
       "generation": "Galar",
       "forms": [
@@ -66868,7 +66870,7 @@
       "legendary": true,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
@@ -71028,6 +71030,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -71104,6 +71107,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -84164,6 +84168,7 @@
       "formName": "Eternamax",
       "proto": "ETERNATUS_ETERNAMAX",
       "formId": 2580,
+      "gmaxMove": 483,
       "attack": 251,
       "defense": 505,
       "stamina": 452,
@@ -84171,13 +84176,14 @@
         14,
         24,
         82,
-        90
+        89
       ]
     },
     "2581": {
       "formName": "Normal",
       "proto": "ETERNATUS_NORMAL",
-      "formId": 2581
+      "formId": 2581,
+      "gmaxMove": 483
     },
     "2582": {
       "formName": "Galarian",
@@ -89621,6 +89627,13 @@
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
+    "2022": {
+      "itemId": 2022,
+      "itemName": "Event Pass Point Go Fest 02",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_FEST_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
     "2101": {
       "itemId": 2101,
       "itemName": "Event Pass Point Live Ops 01",
@@ -94326,6 +94339,15 @@
       "power": 215,
       "durationMs": 1500,
       "energyDelta": -100
+    },
+    "483": {
+      "moveId": 483,
+      "moveName": "Max Dynamax Cannon",
+      "proto": "VN_BM_062",
+      "fast": false,
+      "type": 16,
+      "power": 350,
+      "durationMs": 2500
     },
     "484": {
       "moveId": 484,
