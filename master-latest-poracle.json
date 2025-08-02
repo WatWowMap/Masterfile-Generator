@@ -51409,7 +51409,12 @@
         {
           "evoId": 873,
           "id": 0,
-          "candyCost": 50
+          "candyCost": 400,
+          "onlyNighttime": true,
+          "questRequirement": {
+            "target": 10,
+            "i18n": "Earn {{amount}} hearts with your buddy"
+          }
         }
       ]
     },

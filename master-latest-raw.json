@@ -65620,7 +65620,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 1,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -65630,7 +65630,9 @@
       "evolutions": [
         {
           "evoId": 873,
-          "candyCost": 50
+          "candyCost": 400,
+          "onlyNighttime": true,
+          "questRequirement": "SNOM_FROSMOTH_EVOLUTION_QUEST"
         }
       ],
       "little": true

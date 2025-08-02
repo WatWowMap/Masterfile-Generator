@@ -95560,7 +95560,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 1,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -95572,7 +95572,15 @@
         "873": {
           "pokemon": 873,
           "form": 0,
-          "candyCost": 50
+          "candyCost": 400,
+          "onlyNighttime": true,
+          "questRequirement": {
+            "questType": 34,
+            "target": 10,
+            "assetsRef": "challenge_buddy_affection_plural",
+            "i18n": "Earn {{amount}} hearts with your buddy",
+            "translated": "Earn 10 hearts with your buddy"
+          }
         }
       },
       "little": true
