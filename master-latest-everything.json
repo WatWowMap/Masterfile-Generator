@@ -3335,7 +3335,8 @@
         "3017": {
           "name": "Wcs 2025",
           "proto": "PIKACHU_WCS_2025",
-          "form": 3017
+          "form": 3017,
+          "isCostume": true
         }
       },
       "stats": {
@@ -64981,7 +64982,8 @@
               "form": 2797,
               "candyCost": 50
             }
-          }
+          },
+          "tempEvolutions": {}
         }
       },
       "stats": {
@@ -86311,7 +86313,7 @@
       "height": 1.9,
       "weight": 120.5,
       "family": 772,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "ultraBeast": false,
       "misc": {
@@ -86607,7 +86609,7 @@
         "bonusCandyCapture": 2,
         "bonusStardustCapture": 200
       },
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "ultraBeast": false,
       "misc": {
@@ -95560,7 +95562,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 1,
+        "buddyGroupNumber": 2,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -113182,7 +113184,9 @@
     "90": {
       "formName": "Altered Forme",
       "proto": "GIRATINA_ALTERED",
-      "formId": 90
+      "formId": 90,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "91": {
       "sizeSettings": [
@@ -113227,7 +113231,9 @@
         69,
         70,
         82
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "92": {
       "sizeSettings": [
@@ -122989,7 +122995,8 @@
           "formId": 2797,
           "candyCost": 50
         }
-      ]
+      ],
+      "tempEvolutions": []
     },
     "2797": {
       "formName": "Hisuian",
@@ -124125,7 +124132,8 @@
     "3017": {
       "formName": "Wcs 2025",
       "proto": "PIKACHU_WCS_2025",
-      "formId": 3017
+      "formId": 3017,
+      "isCostume": true
     },
     "3018": {
       "formName": "Coin A1",

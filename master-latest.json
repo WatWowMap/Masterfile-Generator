@@ -1631,7 +1631,8 @@
         },
         "3017": {
           "name": "Wcs 2025",
-          "proto": "PIKACHU_WCS_2025"
+          "proto": "PIKACHU_WCS_2025",
+          "is_costume": true
         }
       },
       "attack": 112,
@@ -29406,7 +29407,8 @@
               "pokemon": 571,
               "form": 2797
             }
-          ]
+          ],
+          "temp_evolutions": {}
         }
       },
       "attack": 153,
@@ -39414,7 +39416,7 @@
       "height": 1.9,
       "weight": 120.5,
       "family": 772,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -39579,7 +39581,7 @@
       "height": 2.3,
       "weight": 100.5,
       "family": 772,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
@@ -43794,7 +43796,7 @@
       "family": 872,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 1,
+      "buddy_group_number": 2,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,

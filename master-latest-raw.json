@@ -9487,6 +9487,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "121": {
@@ -9564,7 +9566,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "122": {
       "pokemonName": "Mr Mime",
@@ -37590,7 +37594,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "488": {
       "pokemonName": "Cresselia",
@@ -50376,6 +50382,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "662": {
@@ -50453,7 +50461,9 @@
           "evoId": 663,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "663": {
       "pokemonName": "Talonflame",
@@ -50527,7 +50537,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "664": {
       "pokemonName": "Scatterbug",
@@ -55604,6 +55616,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "732": {
@@ -55679,7 +55693,9 @@
           "evoId": 733,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "733": {
       "pokemonName": "Toucannon",
@@ -55749,7 +55765,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "734": {
       "pokemonName": "Yungoos",
@@ -55964,6 +55982,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "737": {
@@ -56041,7 +56061,9 @@
           "evoId": 738,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "738": {
       "pokemonName": "Vikavolt",
@@ -56114,7 +56136,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "739": {
       "pokemonName": "Crabrawler",
@@ -58537,7 +58561,7 @@
       "height": 1.9,
       "weight": 120.5,
       "family": 772,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "ultraBeast": false,
       "buddyGroupNumber": 2,
@@ -58631,7 +58655,7 @@
       "family": 772,
       "bonusCandyCapture": 2,
       "bonusStardustCapture": 200,
-      "legendary": false,
+      "legendary": true,
       "mythic": false,
       "ultraBeast": false,
       "buddyGroupNumber": 2,
@@ -65620,7 +65644,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 1,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -77328,7 +77352,9 @@
     "90": {
       "formName": "Altered",
       "proto": "GIRATINA_ALTERED",
-      "formId": 90
+      "formId": 90,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "91": {
       "sizeSettings": [
@@ -77373,7 +77399,9 @@
         69,
         70,
         82
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "92": {
       "sizeSettings": [
@@ -87114,7 +87142,8 @@
           "formId": 2797,
           "candyCost": 50
         }
-      ]
+      ],
+      "tempEvolutions": []
     },
     "2797": {
       "formName": "Hisuian",
@@ -88248,7 +88277,8 @@
     "3017": {
       "formName": "Wcs 2025",
       "proto": "PIKACHU_WCS_2025",
-      "formId": 3017
+      "formId": 3017,
+      "isCostume": true
     },
     "3018": {
       "formName": "Coin A1",
