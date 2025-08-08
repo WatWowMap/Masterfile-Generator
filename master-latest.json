@@ -43796,7 +43796,7 @@
       "family": 872,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 1,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -51078,6 +51078,13 @@
       "type": "Incubator",
       "category": "Incubator",
       "min_trainer_level": 1
+    },
+    "904": {
+      "name": "Incubator Timed",
+      "proto": "ITEM_INCUBATOR_TIMED",
+      "type": "Incubator",
+      "category": "Incubator",
+      "min_trainer_level": 100
     },
     "1001": {
       "name": "Pokemon Storage Upgrade",

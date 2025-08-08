@@ -95562,7 +95562,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 1,
         "buddyDistance": 5,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
@@ -126287,6 +126287,14 @@
       "type": "Incubator",
       "category": "Incubator",
       "minTrainerLevel": 1
+    },
+    "904": {
+      "id": 904,
+      "name": "Incubator Timed",
+      "proto": "ITEM_INCUBATOR_TIMED",
+      "type": "Incubator",
+      "category": "Incubator",
+      "minTrainerLevel": 100
     },
     "1001": {
       "id": 1001,
