@@ -38588,6 +38588,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -38693,6 +38694,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -38707,7 +38709,8 @@
             "defense": 144,
             "stamina": 172
           },
-          "unreleased": true
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       }
     },
@@ -115344,8 +115347,6 @@
       "formName": "Normal",
       "proto": "SHARPEDO_NORMAL",
       "formId": 737,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -115353,8 +115354,18 @@
           "defense": 144,
           "stamina": 172,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 144,
+          "stamina": 172,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "740": {
       "formName": "Normal",
@@ -129245,13 +129256,13 @@
       "id": 469,
       "name": "Behemoth Blade",
       "proto": "BEHEMOTH_BLADE",
-      "power": 210
+      "power": 230
     },
     "470": {
       "id": 470,
       "name": "Behemoth Bash",
       "proto": "BEHEMOTH_BASH",
-      "power": 131.25
+      "power": 143.75
     },
     "471": {
       "id": 471,
@@ -129305,13 +129316,13 @@
       "id": 479,
       "name": "Behemoth Blade",
       "proto": "VN_BM_060",
-      "power": 367.5
+      "power": 402.5
     },
     "480": {
       "id": 480,
       "name": "Behemoth Bash",
       "proto": "VN_BM_061",
-      "power": 367.5
+      "power": 402.5
     },
     "481": {
       "id": 481,
