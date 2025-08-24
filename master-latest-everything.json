@@ -110557,7 +110557,7 @@
       "unreleased": true
     },
     "1020": {
-      "name": "Goughingfire",
+      "name": "Gougingfire",
       "pokedexId": 1020,
       "defaultFormId": 0,
       "types": {
@@ -130315,6 +130315,11 @@
       "id": 77,
       "proto": "WITH_BATTLE_OPPONENT_POKEMON",
       "formatted": "With Battle Opponent Pokemon"
+    },
+    "78": {
+      "id": 78,
+      "proto": "WITH_POKEMON_TYPE_MOVE",
+      "formatted": "With Pokemon Type Move"
     }
   },
   "invasions": {
