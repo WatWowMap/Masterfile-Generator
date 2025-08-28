@@ -25171,6 +25171,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -25252,13 +25253,12 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -25266,8 +25266,20 @@
           "defense": 183,
           "stamina": 172,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 253,
+          "defense": 183,
+          "stamina": 172,
+          "height": 2.5,
+          "weight": 320.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "324": {
       "pokemonName": "Torkoal",
@@ -29110,6 +29122,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -82019,6 +82032,16 @@
           "defense": 183,
           "stamina": 172,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 253,
+          "defense": 183,
+          "stamina": 172,
+          "height": 2.5,
+          "weight": 320.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -88304,6 +88327,11 @@
       "proto": "GIMMIGHOUL_COIN_A1",
       "formId": 3018,
       "isCostume": true
+    },
+    "3019": {
+      "formName": "",
+      "proto": "",
+      "formId": 3019
     }
   },
   "types": {
