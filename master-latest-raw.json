@@ -4271,7 +4271,8 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        286
+        286,
+        3019
       ],
       "sizeSettings": [
         {
@@ -75371,7 +75372,9 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0
+        0,
+        2871,
+        2872
       ],
       "attack": 134,
       "defense": 96,
@@ -75410,7 +75413,9 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0
+        0,
+        2873,
+        2874
       ],
       "attack": 225,
       "defense": 191,
@@ -75619,7 +75624,11 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0
+        0,
+        2875,
+        2876,
+        2877,
+        2879
       ],
       "attack": 241,
       "defense": 196,
@@ -75994,7 +76003,10 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0
+        0,
+        2880,
+        2881,
+        2882
       ],
       "attack": 126,
       "defense": 165,
@@ -87947,6 +87959,61 @@
       "formId": 2870,
       "isCostume": true
     },
+    "2871": {
+      "formName": "Counterfeit",
+      "proto": "POLTCHAGEIST_COUNTERFEIT",
+      "formId": 2871
+    },
+    "2872": {
+      "formName": "Artisan",
+      "proto": "POLTCHAGEIST_ARTISAN",
+      "formId": 2872
+    },
+    "2873": {
+      "formName": "Unremarkable",
+      "proto": "SINISTCHA_UNREMARKABLE",
+      "formId": 2873
+    },
+    "2874": {
+      "formName": "Masterpiece",
+      "proto": "SINISTCHA_MASTERPIECE",
+      "formId": 2874
+    },
+    "2875": {
+      "formName": "Teal",
+      "proto": "OGERPON_TEAL",
+      "formId": 2875
+    },
+    "2876": {
+      "formName": "Wellspring",
+      "proto": "OGERPON_WELLSPRING",
+      "formId": 2876
+    },
+    "2877": {
+      "formName": "Hearthflame",
+      "proto": "OGERPON_HEARTHFLAME",
+      "formId": 2877
+    },
+    "2879": {
+      "formName": "Cornerstone",
+      "proto": "OGERPON_CORNERSTONE",
+      "formId": 2879
+    },
+    "2880": {
+      "formName": "Normal",
+      "proto": "TERAPAGOS_NORMAL",
+      "formId": 2880
+    },
+    "2881": {
+      "formName": "Terastal",
+      "proto": "TERAPAGOS_TERASTAL",
+      "formId": 2881
+    },
+    "2882": {
+      "formName": "Stellar",
+      "proto": "TERAPAGOS_STELLAR",
+      "formId": 2882
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -88330,9 +88397,39 @@
       "isCostume": true
     },
     "3019": {
-      "formName": "",
-      "proto": "",
-      "formId": 3019
+      "formName": "Swim 2025",
+      "proto": "PSYDUCK_SWIM_2025",
+      "formId": 3019,
+      "purificationDust": 3000,
+      "purificationCandy": 3
+    },
+    "PSYDUCK_SWIM_2025": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.392
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.4
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.6
+        },
+        {
+          "name": "mUpperBound",
+          "value": 1
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 1.2
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 1.4
+        }
+      ]
     }
   },
   "types": {
@@ -94557,6 +94654,22 @@
         "buffActivationChance": 1
       },
       "power": 55,
+      "durationMs": 3500,
+      "energyDelta": -33
+    },
+    "488": {
+      "moveId": 488,
+      "moveName": "Chilling Water",
+      "proto": "CHILLING_WATER",
+      "fast": false,
+      "type": 11,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      },
+      "power": 65,
       "durationMs": 3500,
       "energyDelta": -33
     }

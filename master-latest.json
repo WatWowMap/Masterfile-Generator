@@ -3260,6 +3260,10 @@
               "form": 289
             }
           ]
+        },
+        "3019": {
+          "name": "Swim 2025",
+          "proto": "PSYDUCK_SWIM_2025"
         }
       },
       "attack": 122,
@@ -49721,6 +49725,14 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "2871": {
+          "name": "Counterfeit",
+          "proto": "POLTCHAGEIST_COUNTERFEIT"
+        },
+        "2872": {
+          "name": "Artisan",
+          "proto": "POLTCHAGEIST_ARTISAN"
         }
       },
       "attack": 134,
@@ -49760,6 +49772,14 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "2873": {
+          "name": "Unremarkable",
+          "proto": "SINISTCHA_UNREMARKABLE"
+        },
+        "2874": {
+          "name": "Masterpiece",
+          "proto": "SINISTCHA_MASTERPIECE"
         }
       },
       "attack": 225,
@@ -49969,6 +49989,22 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "2875": {
+          "name": "Teal",
+          "proto": "OGERPON_TEAL"
+        },
+        "2876": {
+          "name": "Wellspring",
+          "proto": "OGERPON_WELLSPRING"
+        },
+        "2877": {
+          "name": "Hearthflame",
+          "proto": "OGERPON_HEARTHFLAME"
+        },
+        "2879": {
+          "name": "Cornerstone",
+          "proto": "OGERPON_CORNERSTONE"
         }
       },
       "attack": 241,
@@ -50344,6 +50380,18 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "2880": {
+          "name": "Normal",
+          "proto": "TERAPAGOS_NORMAL"
+        },
+        "2881": {
+          "name": "Terastal",
+          "proto": "TERAPAGOS_TERASTAL"
+        },
+        "2882": {
+          "name": "Stellar",
+          "proto": "TERAPAGOS_STELLAR"
         }
       },
       "attack": 126,
@@ -54020,6 +54068,12 @@
       "proto": "AQUA_STEP",
       "type": "Water",
       "power": 55
+    },
+    "488": {
+      "name": "Chilling Water",
+      "proto": "CHILLING_WATER",
+      "type": "Water",
+      "power": 65
     }
   },
   "quest_types": {

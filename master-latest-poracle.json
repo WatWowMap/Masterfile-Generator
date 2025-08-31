@@ -4743,6 +4743,27 @@
         }
       ]
     },
+    "54_3019": {
+      "name": "Psyduck",
+      "id": 54,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Swim 2025",
+        "id": 3019
+      },
+      "stats": {
+        "baseAttack": 122,
+        "baseDefense": 95,
+        "baseStamina": 137
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
     "55_0": {
       "name": "Golduck",
       "id": 55,
@@ -56085,6 +56106,54 @@
       },
       "unreleased": true
     },
+    "1012_2871": {
+      "name": "Poltchageist",
+      "id": 1012,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Counterfeit",
+        "id": 2871
+      },
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 96,
+        "baseStamina": 120
+      },
+      "unreleased": true
+    },
+    "1012_2872": {
+      "name": "Poltchageist",
+      "id": 1012,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Artisan",
+        "id": 2872
+      },
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 96,
+        "baseStamina": 120
+      },
+      "unreleased": true
+    },
     "1013_0": {
       "name": "Sinistcha",
       "id": 1013,
@@ -56101,6 +56170,54 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 225,
+        "baseDefense": 191,
+        "baseStamina": 174
+      },
+      "unreleased": true
+    },
+    "1013_2873": {
+      "name": "Sinistcha",
+      "id": 1013,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Unremarkable",
+        "id": 2873
+      },
+      "stats": {
+        "baseAttack": 225,
+        "baseDefense": 191,
+        "baseStamina": 174
+      },
+      "unreleased": true
+    },
+    "1013_2874": {
+      "name": "Sinistcha",
+      "id": 1013,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        },
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Masterpiece",
+        "id": 2874
       },
       "stats": {
         "baseAttack": 225,
@@ -56193,6 +56310,86 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 196,
+        "baseStamina": 190
+      },
+      "unreleased": true
+    },
+    "1017_2875": {
+      "name": "Ogerpon",
+      "id": 1017,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Teal",
+        "id": 2875
+      },
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 196,
+        "baseStamina": 190
+      },
+      "unreleased": true
+    },
+    "1017_2876": {
+      "name": "Ogerpon",
+      "id": 1017,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Wellspring",
+        "id": 2876
+      },
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 196,
+        "baseStamina": 190
+      },
+      "unreleased": true
+    },
+    "1017_2877": {
+      "name": "Ogerpon",
+      "id": 1017,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Hearthflame",
+        "id": 2877
+      },
+      "stats": {
+        "baseAttack": 241,
+        "baseDefense": 196,
+        "baseStamina": 190
+      },
+      "unreleased": true
+    },
+    "1017_2879": {
+      "name": "Ogerpon",
+      "id": 1017,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        }
+      ],
+      "form": {
+        "name": "Cornerstone",
+        "id": 2879
       },
       "stats": {
         "baseAttack": 241,
@@ -56357,6 +56554,66 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 165,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1024_2880": {
+      "name": "Terapagos",
+      "id": 1024,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 2880
+      },
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 165,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1024_2881": {
+      "name": "Terapagos",
+      "id": 1024,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Terastal",
+        "id": 2881
+      },
+      "stats": {
+        "baseAttack": 126,
+        "baseDefense": 165,
+        "baseStamina": 207
+      },
+      "unreleased": true
+    },
+    "1024_2882": {
+      "name": "Terapagos",
+      "id": 1024,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Stellar",
+        "id": 2882
       },
       "stats": {
         "baseAttack": 126,
@@ -59473,6 +59730,10 @@
     },
     "487": {
       "name": "Aqua Step",
+      "type": "Water"
+    },
+    "488": {
+      "name": "Chilling Water",
       "type": "Water"
     }
   },

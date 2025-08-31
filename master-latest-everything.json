@@ -7101,6 +7101,11 @@
               "candyCost": 50
             }
           }
+        },
+        "3019": {
+          "name": "Swim 2025",
+          "proto": "PSYDUCK_SWIM_2025",
+          "form": 3019
         }
       },
       "stats": {
@@ -108968,6 +108973,16 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2871": {
+          "name": "Counterfeit",
+          "proto": "POLTCHAGEIST_COUNTERFEIT",
+          "form": 2871
+        },
+        "2872": {
+          "name": "Artisan",
+          "proto": "POLTCHAGEIST_ARTISAN",
+          "form": 2872
         }
       },
       "stats": {
@@ -109107,6 +109122,16 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2873": {
+          "name": "Unremarkable",
+          "proto": "SINISTCHA_UNREMARKABLE",
+          "form": 2873
+        },
+        "2874": {
+          "name": "Masterpiece",
+          "proto": "SINISTCHA_MASTERPIECE",
+          "form": 2874
         }
       },
       "stats": {
@@ -110037,6 +110062,26 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2875": {
+          "name": "Teal",
+          "proto": "OGERPON_TEAL",
+          "form": 2875
+        },
+        "2876": {
+          "name": "Wellspring",
+          "proto": "OGERPON_WELLSPRING",
+          "form": 2876
+        },
+        "2877": {
+          "name": "Hearthflame",
+          "proto": "OGERPON_HEARTHFLAME",
+          "form": 2877
+        },
+        "2879": {
+          "name": "Cornerstone",
+          "proto": "OGERPON_CORNERSTONE",
+          "form": 2879
         }
       },
       "stats": {
@@ -111727,6 +111772,21 @@
           "name": "Unset",
           "proto": "FORM_UNSET",
           "form": 0
+        },
+        "2880": {
+          "name": "Normal",
+          "proto": "TERAPAGOS_NORMAL",
+          "form": 2880
+        },
+        "2881": {
+          "name": "Terastal",
+          "proto": "TERAPAGOS_TERASTAL",
+          "form": 2881
+        },
+        "2882": {
+          "name": "Stellar",
+          "proto": "TERAPAGOS_STELLAR",
+          "form": 2882
         }
       },
       "stats": {
@@ -123785,6 +123845,61 @@
       "formId": 2870,
       "isCostume": true
     },
+    "2871": {
+      "formName": "Counterfeit",
+      "proto": "POLTCHAGEIST_COUNTERFEIT",
+      "formId": 2871
+    },
+    "2872": {
+      "formName": "Artisan",
+      "proto": "POLTCHAGEIST_ARTISAN",
+      "formId": 2872
+    },
+    "2873": {
+      "formName": "Unremarkable",
+      "proto": "SINISTCHA_UNREMARKABLE",
+      "formId": 2873
+    },
+    "2874": {
+      "formName": "Masterpiece",
+      "proto": "SINISTCHA_MASTERPIECE",
+      "formId": 2874
+    },
+    "2875": {
+      "formName": "Teal",
+      "proto": "OGERPON_TEAL",
+      "formId": 2875
+    },
+    "2876": {
+      "formName": "Wellspring",
+      "proto": "OGERPON_WELLSPRING",
+      "formId": 2876
+    },
+    "2877": {
+      "formName": "Hearthflame",
+      "proto": "OGERPON_HEARTHFLAME",
+      "formId": 2877
+    },
+    "2879": {
+      "formName": "Cornerstone",
+      "proto": "OGERPON_CORNERSTONE",
+      "formId": 2879
+    },
+    "2880": {
+      "formName": "Normal",
+      "proto": "TERAPAGOS_NORMAL",
+      "formId": 2880
+    },
+    "2881": {
+      "formName": "Terastal",
+      "proto": "TERAPAGOS_TERASTAL",
+      "formId": 2881
+    },
+    "2882": {
+      "formName": "Stellar",
+      "proto": "TERAPAGOS_STELLAR",
+      "formId": 2882
+    },
     "2981": {
       "formName": "Normal",
       "proto": "OINKOLOGNE_NORMAL",
@@ -124170,9 +124285,39 @@
       "isCostume": true
     },
     "3019": {
-      "formName": "",
-      "proto": "",
-      "formId": 3019
+      "formName": "Swim 2025",
+      "proto": "PSYDUCK_SWIM_2025",
+      "formId": 3019,
+      "purificationDust": 3000,
+      "purificationCandy": 3
+    },
+    "PSYDUCK_SWIM_2025": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.392
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.4
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.6
+        },
+        {
+          "name": "mUpperBound",
+          "value": 1
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 1.2
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 1.4
+        }
+      ]
     }
   },
   "types": {
@@ -129385,6 +129530,12 @@
       "name": "Aqua Step",
       "proto": "AQUA_STEP",
       "power": 55
+    },
+    "488": {
+      "id": 488,
+      "name": "Chilling Water",
+      "proto": "CHILLING_WATER",
+      "power": 65
     }
   },
   "questTypes": {
