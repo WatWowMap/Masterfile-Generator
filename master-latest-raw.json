@@ -185,6 +185,7 @@
         215
       ],
       "chargedMoves": [
+        18,
         47,
         90,
         116
@@ -446,6 +447,7 @@
       "chargedMoves": [
         83,
         103,
+        121,
         270
       ],
       "eliteQuickMoves": [
@@ -1746,6 +1748,7 @@
         239
       ],
       "chargedMoves": [
+        38,
         45,
         46,
         257,
@@ -2492,6 +2495,7 @@
       "quickMoves": [
         202,
         224,
+        233,
         236
       ],
       "chargedMoves": [
@@ -6315,7 +6319,8 @@
         39,
         105,
         106,
-        108
+        108,
+        314
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -6706,13 +6711,15 @@
         3
       ],
       "quickMoves": [
+        211,
         238,
         239
       ],
       "chargedMoves": [
         38,
         45,
-        256
+        256,
+        392
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -7412,7 +7419,8 @@
       "chargedMoves": [
         70,
         90,
-        247
+        247,
+        314
       ],
       "eliteQuickMoves": [
         212
@@ -11691,6 +11699,7 @@
       ],
       "chargedMoves": [
         14,
+        77,
         83,
         122,
         277,
@@ -13934,11 +13943,13 @@
         14
       ],
       "quickMoves": [
+        211,
         238,
         255
       ],
       "chargedMoves": [
         45,
+        60,
         69,
         275
       ],
@@ -15231,7 +15242,8 @@
         32,
         90,
         96,
-        303
+        303,
+        314
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -17908,6 +17920,7 @@
       "chargedMoves": [
         40,
         107,
+        125,
         277,
         308
       ],
@@ -19090,7 +19103,8 @@
         70,
         78,
         79,
-        251
+        251,
+        332
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -19695,6 +19709,7 @@
         59,
         86,
         108,
+        332,
         343
       ],
       "eliteQuickMoves": [
@@ -23565,7 +23580,8 @@
         65,
         66,
         86,
-        280
+        280,
+        314
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -25294,6 +25310,7 @@
         269
       ],
       "chargedMoves": [
+        21,
         31,
         116,
         270
@@ -25762,6 +25779,7 @@
         31,
         32,
         83,
+        258,
         380,
         393
       ],
@@ -26063,6 +26081,7 @@
         211
       ],
       "chargedMoves": [
+        24,
         82,
         86,
         257
@@ -28913,7 +28932,8 @@
       "chargedMoves": [
         24,
         80,
-        82
+        82,
+        279
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -28993,8 +29013,10 @@
       "chargedMoves": [
         103,
         107,
+        279,
         285,
-        341
+        341,
+        367
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -29204,6 +29226,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -29285,13 +29308,12 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -29299,8 +29321,20 @@
           "defense": 289,
           "stamina": 190,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 300,
+          "defense": 289,
+          "stamina": 190,
+          "height": 2.5,
+          "weight": 942.9,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "377": {
       "pokemonName": "Regirock",
@@ -29531,7 +29565,8 @@
       "chargedMoves": [
         78,
         108,
-        277
+        277,
+        332
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -29615,7 +29650,8 @@
       "chargedMoves": [
         83,
         108,
-        116
+        116,
+        332
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -29953,7 +29989,8 @@
       "chargedMoves": [
         86,
         108,
-        286
+        286,
+        332
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -30233,7 +30270,8 @@
       ],
       "quickMoves": [
         202,
-        215
+        215,
+        233
       ],
       "chargedMoves": [
         31,
@@ -30688,7 +30726,8 @@
       "quickMoves": [
         228,
         239,
-        283
+        283,
+        402
       ],
       "chargedMoves": [
         36,
@@ -32338,7 +32377,8 @@
       "chargedMoves": [
         77,
         78,
-        79
+        79,
+        129
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -34426,7 +34466,8 @@
         31,
         103,
         258,
-        277
+        277,
+        379
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -35149,7 +35190,8 @@
         70,
         90,
         96,
-        246
+        246,
+        314
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -36181,6 +36223,7 @@
         18
       ],
       "quickMoves": [
+        211,
         255,
         281,
         320
@@ -38047,6 +38090,7 @@
         235
       ],
       "chargedMoves": [
+        60,
         108,
         247,
         270,
@@ -42457,6 +42501,7 @@
       "chargedMoves": [
         31,
         123,
+        258,
         277,
         279
       ],
@@ -42823,7 +42868,8 @@
       "chargedMoves": [
         64,
         100,
-        259
+        259,
+        334
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -47322,7 +47368,8 @@
       "chargedMoves": [
         56,
         123,
-        247
+        247,
+        314
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -47400,6 +47447,7 @@
         32,
         123,
         272,
+        314,
         317,
         367
       ],
@@ -47470,6 +47518,7 @@
       "chargedMoves": [
         14,
         51,
+        63,
         83
       ],
       "eliteQuickMoves": [],
@@ -49906,6 +49955,7 @@
       ],
       "chargedMoves": [
         24,
+        60,
         101,
         103,
         108,
@@ -52046,6 +52096,7 @@
         320
       ],
       "chargedMoves": [
+        60,
         79,
         85,
         87,
@@ -52981,6 +53032,7 @@
       ],
       "chargedMoves": [
         62,
+        63,
         83,
         127
       ],
@@ -53060,6 +53112,7 @@
       "chargedMoves": [
         31,
         32,
+        63,
         277,
         279,
         372
@@ -55291,7 +55344,9 @@
         16,
         101,
         103,
+        314,
         317,
+        367,
         400
       ],
       "eliteQuickMoves": [],
@@ -58124,6 +58179,7 @@
         123,
         245,
         310,
+        314,
         367
       ],
       "eliteQuickMoves": [],
@@ -58852,7 +58908,9 @@
         24,
         36,
         82,
-        270
+        83,
+        270,
+        367
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -59331,6 +59389,7 @@
         253
       ],
       "chargedMoves": [
+        63,
         82,
         83,
         123
@@ -59403,14 +59462,16 @@
       ],
       "quickMoves": [
         224,
-        253
+        253,
+        402
       ],
       "chargedMoves": [
         24,
         83,
         123,
         245,
-        380
+        380,
+        471
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -76468,6 +76529,7 @@
         250
       ],
       "chargedMoves": [
+        60,
         77,
         108,
         251,
@@ -79700,8 +79762,6 @@
       "formName": "Normal",
       "proto": "METAGROSS_NORMAL",
       "formId": 770,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -79709,8 +79769,20 @@
           "defense": 289,
           "stamina": 190,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 300,
+          "defense": 289,
+          "stamina": 190,
+          "height": 2.5,
+          "weight": 942.9,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "773": {
       "formName": "Normal",
@@ -84388,6 +84460,7 @@
         106,
         108,
         247,
+        314,
         367
       ],
       "types": [
@@ -84438,6 +84511,7 @@
         264
       ],
       "chargedMoves": [
+        60,
         70,
         91,
         106,
@@ -88402,34 +88476,6 @@
       "formId": 3019,
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "PSYDUCK_SWIM_2025": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.392
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.4
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.6
-        },
-        {
-          "name": "mUpperBound",
-          "value": 1
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 1.2
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 1.4
-        }
-      ]
     }
   },
   "types": {
@@ -89986,8 +90032,8 @@
       "proto": "FLAME_WHEEL",
       "fast": false,
       "type": 10,
-      "pvpPower": 60,
-      "pvpEnergyDelta": -55,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 55,
       "durationMs": 2500,
       "energyDelta": -50
@@ -90130,7 +90176,7 @@
       "proto": "DRILL_PECK",
       "fast": false,
       "type": 3,
-      "pvpPower": 65,
+      "pvpPower": 70,
       "pvpEnergyDelta": -40,
       "power": 70,
       "durationMs": 2500,
@@ -90178,8 +90224,8 @@
       "proto": "AERIAL_ACE",
       "fast": false,
       "type": 3,
-      "pvpPower": 55,
-      "pvpEnergyDelta": -40,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
       "power": 55,
       "durationMs": 2500,
       "energyDelta": -33
@@ -90338,8 +90384,8 @@
       "proto": "SEED_BOMB",
       "fast": false,
       "type": 12,
-      "pvpPower": 65,
-      "pvpEnergyDelta": -45,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
       "power": 55,
       "durationMs": 2000,
       "energyDelta": -33
@@ -90395,7 +90441,7 @@
       "proto": "ROCK_SLIDE",
       "fast": false,
       "type": 6,
-      "pvpPower": 65,
+      "pvpPower": 75,
       "pvpEnergyDelta": -45,
       "power": 75,
       "durationMs": 2500,
@@ -90561,7 +90607,7 @@
       "fast": false,
       "type": 16,
       "pvpPower": 90,
-      "pvpEnergyDelta": -60,
+      "pvpEnergyDelta": -55,
       "power": 90,
       "durationMs": 3500,
       "energyDelta": -50
@@ -90572,8 +90618,8 @@
       "proto": "DRAGON_CLAW",
       "fast": false,
       "type": 16,
-      "pvpPower": 50,
-      "pvpEnergyDelta": -35,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 45,
       "durationMs": 1500,
       "energyDelta": -33
@@ -90822,7 +90868,7 @@
       "fast": false,
       "type": 11,
       "pvpPower": 80,
-      "pvpEnergyDelta": -55,
+      "pvpEnergyDelta": -50,
       "power": 65,
       "durationMs": 3000,
       "energyDelta": -50
@@ -91057,7 +91103,7 @@
       "proto": "BODY_SLAM",
       "fast": false,
       "type": 1,
-      "pvpPower": 50,
+      "pvpPower": 55,
       "pvpEnergyDelta": -35,
       "power": 50,
       "durationMs": 2000,
@@ -91189,8 +91235,8 @@
       "proto": "DRAGON_BREATH_FAST",
       "fast": true,
       "type": 16,
-      "pvpPower": 4,
-      "pvpEnergyDelta": 3,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 4,
       "power": 6,
       "durationMs": 500,
       "energyDelta": 4
@@ -91253,8 +91299,8 @@
       "proto": "EMBER_FAST",
       "fast": true,
       "type": 10,
-      "pvpPower": 7,
-      "pvpEnergyDelta": 7,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 9,
       "pvpDurationTurns": 1,
       "power": 10,
       "durationMs": 1000,
@@ -91280,7 +91326,7 @@
       "fast": true,
       "type": 3,
       "pvpPower": 6,
-      "pvpEnergyDelta": 5,
+      "pvpEnergyDelta": 8,
       "pvpDurationTurns": 1,
       "power": 10,
       "durationMs": 1000,
@@ -91585,7 +91631,7 @@
       "fast": true,
       "type": 14,
       "pvpPower": 16,
-      "pvpEnergyDelta": 12,
+      "pvpEnergyDelta": 14,
       "pvpDurationTurns": 3,
       "power": 19,
       "durationMs": 1500,
@@ -91637,7 +91683,7 @@
       "fast": true,
       "type": 9,
       "pvpPower": 7,
-      "pvpEnergyDelta": 6,
+      "pvpEnergyDelta": 5,
       "pvpDurationTurns": 1,
       "power": 14,
       "durationMs": 1000,
@@ -91775,7 +91821,7 @@
       "proto": "VOLT_SWITCH_FAST",
       "fast": true,
       "type": 13,
-      "pvpPower": 12,
+      "pvpPower": 14,
       "pvpEnergyDelta": 16,
       "pvpDurationTurns": 3,
       "power": 13,
@@ -91820,8 +91866,8 @@
       "proto": "DRAGON_TAIL_FAST",
       "fast": true,
       "type": 16,
-      "pvpPower": 13,
-      "pvpEnergyDelta": 9,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 12,
       "pvpDurationTurns": 2,
       "power": 14,
       "durationMs": 1000,
@@ -91874,8 +91920,8 @@
       "proto": "SKY_ATTACK",
       "fast": false,
       "type": 3,
-      "pvpPower": 85,
-      "pvpEnergyDelta": -55,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -50,
       "power": 80,
       "durationMs": 2000,
       "energyDelta": -50
@@ -92009,7 +92055,7 @@
       "fast": false,
       "type": 9,
       "pvpPower": 80,
-      "pvpEnergyDelta": -60,
+      "pvpEnergyDelta": -50,
       "power": 85,
       "durationMs": 3500,
       "energyDelta": -50
@@ -92335,7 +92381,7 @@
       "proto": "WEATHER_BALL_FIRE",
       "fast": false,
       "type": 10,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -35,
       "power": 55,
       "durationMs": 1500,
@@ -92347,7 +92393,7 @@
       "proto": "WEATHER_BALL_ICE",
       "fast": false,
       "type": 15,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -35,
       "power": 55,
       "durationMs": 1500,
@@ -92359,7 +92405,7 @@
       "proto": "WEATHER_BALL_ROCK",
       "fast": false,
       "type": 6,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -35,
       "power": 55,
       "durationMs": 1500,
@@ -92371,7 +92417,7 @@
       "proto": "WEATHER_BALL_WATER",
       "fast": false,
       "type": 11,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -35,
       "power": 55,
       "durationMs": 1500,
@@ -92395,7 +92441,7 @@
       "proto": "SMACK_DOWN_FAST",
       "fast": true,
       "type": 6,
-      "pvpPower": 11,
+      "pvpPower": 12,
       "pvpEnergyDelta": 8,
       "pvpDurationTurns": 2,
       "power": 13,
@@ -92725,8 +92771,8 @@
       "proto": "CHARM_FAST",
       "fast": true,
       "type": 18,
-      "pvpPower": 15,
-      "pvpEnergyDelta": 6,
+      "pvpPower": 13,
+      "pvpEnergyDelta": 8,
       "pvpDurationTurns": 2,
       "power": 20,
       "durationMs": 1500,
@@ -92868,8 +92914,8 @@
       "proto": "AURA_SPHERE",
       "fast": false,
       "type": 2,
-      "pvpPower": 100,
-      "pvpEnergyDelta": -55,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -40,
       "power": 100,
       "durationMs": 2000,
       "energyDelta": -50
@@ -93096,7 +93142,7 @@
       "proto": "WEATHER_BALL_NORMAL",
       "fast": false,
       "type": 1,
-      "pvpPower": 55,
+      "pvpPower": 60,
       "pvpEnergyDelta": -35,
       "power": 55,
       "durationMs": 1500,
@@ -93450,10 +93496,10 @@
       "fast": false,
       "type": 16,
       "pvpPower": 50,
-      "pvpEnergyDelta": -35,
+      "pvpEnergyDelta": -50,
       "pvpBuffs": {
         "targetAttackStatStageChange": -1,
-        "buffActivationChance": 0.5
+        "buffActivationChance": 1
       },
       "power": 45,
       "durationMs": 1000,
@@ -93538,7 +93584,7 @@
       "fast": true,
       "type": 12,
       "pvpPower": 6,
-      "pvpEnergyDelta": 7,
+      "pvpEnergyDelta": 8,
       "pvpDurationTurns": 1,
       "power": 6,
       "durationMs": 500,
@@ -93651,7 +93697,7 @@
       "pvpEnergyDelta": -50,
       "pvpBuffs": {
         "targetAttackStatStageChange": -1,
-        "buffActivationChance": 0.3
+        "buffActivationChance": 0.1
       },
       "power": 90,
       "durationMs": 3000,

@@ -121,6 +121,7 @@
         "Razor Leaf"
       ],
       "charged_moves": [
+        "Sludge",
         "Petal Blizzard",
         "Sludge Bomb",
         "Solar Beam"
@@ -284,6 +285,7 @@
       "charged_moves": [
         "Dragon Claw",
         "Fire Blast",
+        "Air Cutter",
         "Overheat"
       ],
       "gen_id": 1,
@@ -1126,6 +1128,7 @@
         "Steel Wing"
       ],
       "charged_moves": [
+        "Drill Peck",
         "Aerial Ace",
         "Drill Run",
         "Sky Attack",
@@ -1700,6 +1703,7 @@
             "Volt Switch"
           ],
           "charged_moves": [
+            "Psyshock",
             "Thunder Punch",
             "Psychic",
             "Wild Charge",
@@ -1985,6 +1989,7 @@
       "quick_moves": [
         "Bite",
         "Poison Jab",
+        "Mud Slap",
         "Poison Sting"
       ],
       "charged_moves": [
@@ -4718,7 +4723,8 @@
         "Ice Beam",
         "Water Pulse",
         "Scald",
-        "Psychic"
+        "Psychic",
+        "Drain Punch"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -4747,6 +4753,7 @@
             "Scald",
             "Psychic",
             "Focus Blast",
+            "Drain Punch",
             "Brutal Swing"
           ],
           "types": [
@@ -5019,13 +5026,15 @@
         "Flying"
       ],
       "quick_moves": [
+        "Peck",
         "Feint Attack",
         "Steel Wing"
       ],
       "charged_moves": [
         "Drill Peck",
         "Aerial Ace",
-        "Brave Bird"
+        "Brave Bird",
+        "Trailblaze"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -5492,7 +5501,8 @@
       "charged_moves": [
         "Shadow Ball",
         "Sludge Bomb",
-        "Focus Blast"
+        "Focus Blast",
+        "Drain Punch"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -8441,6 +8451,7 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Thunder Punch",
         "Dragon Claw",
         "Hurricane",
         "Outrage",
@@ -9881,11 +9892,13 @@
         "Psychic"
       ],
       "quick_moves": [
+        "Peck",
         "Feint Attack",
         "Air Slash"
       ],
       "charged_moves": [
         "Aerial Ace",
+        "Psyshock",
         "Ominous Wind",
         "Futuresight"
       ],
@@ -10718,7 +10731,8 @@
         "Stone Edge",
         "Sludge Bomb",
         "Mud Bomb",
-        "Acid Spray"
+        "Acid Spray",
+        "Drain Punch"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -10919,6 +10933,7 @@
             "Hex"
           ],
           "charged_moves": [
+            "Psyshock",
             "Shadow Ball",
             "Sludge Wave",
             "Scald",
@@ -12584,6 +12599,7 @@
       "charged_moves": [
         "Blizzard",
         "Hydro Pump",
+        "Swift",
         "Outrage",
         "Octazooka"
       ],
@@ -13399,7 +13415,8 @@
         "Shadow Ball",
         "Thunder",
         "Thunderbolt",
-        "Wild Charge"
+        "Wild Charge",
+        "Aura Sphere"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -13773,6 +13790,7 @@
         "Seed Bomb",
         "Dazzling Gleam",
         "Psychic",
+        "Aura Sphere",
         "Leaf Storm"
       ],
       "gen_id": 2,
@@ -16256,7 +16274,8 @@
         "Power Gem",
         "Shadow Sneak",
         "Dazzling Gleam",
-        "Foul Play"
+        "Foul Play",
+        "Drain Punch"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -17355,6 +17374,7 @@
         "Fire Spin"
       ],
       "charged_moves": [
+        "Flame Wheel",
         "Earthquake",
         "Solar Beam",
         "Overheat"
@@ -17714,6 +17734,7 @@
         "Earthquake",
         "Stone Edge",
         "Dragon Claw",
+        "Sand Tomb",
         "Boomburst",
         "Scorching Sands"
       ],
@@ -17897,6 +17918,7 @@
         "Peck"
       ],
       "charged_moves": [
+        "Flamethrower",
         "Dragon Pulse",
         "Dazzling Gleam",
         "Sky Attack"
@@ -19731,7 +19753,8 @@
       "charged_moves": [
         "Flamethrower",
         "Twister",
-        "Dragon Pulse"
+        "Dragon Pulse",
+        "Crunch"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19783,8 +19806,10 @@
       "charged_moves": [
         "Fire Blast",
         "Hydro Pump",
+        "Crunch",
         "Draco Meteor",
-        "Fly"
+        "Fly",
+        "Brutal Swing"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -19968,7 +19993,8 @@
           "attack": 300,
           "defense": 289,
           "stamina": 190,
-          "unreleased": true
+          "height": 2.5,
+          "weight": 942.9
         }
       }
     },
@@ -20114,7 +20140,8 @@
       "charged_moves": [
         "Thunder",
         "Psychic",
-        "Outrage"
+        "Outrage",
+        "Aura Sphere"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -20171,7 +20198,8 @@
       "charged_moves": [
         "Dragon Claw",
         "Psychic",
-        "Solar Beam"
+        "Solar Beam",
+        "Aura Sphere"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -20386,7 +20414,8 @@
       "charged_moves": [
         "Dazzling Gleam",
         "Psychic",
-        "Doom Desire"
+        "Doom Desire",
+        "Aura Sphere"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -20610,7 +20639,8 @@
       ],
       "quick_moves": [
         "Bite",
-        "Razor Leaf"
+        "Razor Leaf",
+        "Mud Slap"
       ],
       "charged_moves": [
         "Earthquake",
@@ -20887,7 +20917,8 @@
       "quick_moves": [
         "Metal Claw",
         "Steel Wing",
-        "Waterfall"
+        "Waterfall",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Flash Cannon",
@@ -21994,7 +22025,8 @@
       "charged_moves": [
         "Thunder Punch",
         "Thunder",
-        "Thunderbolt"
+        "Thunderbolt",
+        "Hyper Fang"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -23327,7 +23359,8 @@
         "Earthquake",
         "Fire Blast",
         "Sand Tomb",
-        "Outrage"
+        "Outrage",
+        "Breaking Swipe"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -23776,7 +23809,8 @@
         "Shadow Ball",
         "Sludge Bomb",
         "Mud Bomb",
-        "Dynamic Punch"
+        "Dynamic Punch",
+        "Drain Punch"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -24389,6 +24423,7 @@
         "Fairy"
       ],
       "quick_moves": [
+        "Peck",
         "Air Slash",
         "Hidden Power",
         "Charm"
@@ -25717,6 +25752,7 @@
         "Confusion"
       ],
       "charged_moves": [
+        "Psyshock",
         "Psychic",
         "Focus Blast",
         "Overheat",
@@ -28501,6 +28537,7 @@
       "charged_moves": [
         "Earthquake",
         "Brick Break",
+        "Sand Tomb",
         "Outrage",
         "Crunch"
       ],
@@ -28802,7 +28839,8 @@
       "charged_moves": [
         "Rock Slide",
         "X Scissor",
-        "Rock Blast"
+        "Rock Blast",
+        "Rock Wrecker"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -31744,7 +31782,8 @@
       "charged_moves": [
         "Low Sweep",
         "Brick Break",
-        "Focus Blast"
+        "Focus Blast",
+        "Drain Punch"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -31794,6 +31833,7 @@
         "Stone Edge",
         "Brick Break",
         "Grass Knot",
+        "Drain Punch",
         "Blaze Kick",
         "Brutal Swing"
       ],
@@ -31837,6 +31877,7 @@
       "charged_moves": [
         "Hyper Beam",
         "Night Slash",
+        "Rock Tomb",
         "Dragon Claw"
       ],
       "gen_id": 5,
@@ -33506,6 +33547,7 @@
       ],
       "charged_moves": [
         "Flamethrower",
+        "Psyshock",
         "Flame Charge",
         "Fire Blast",
         "Psychic",
@@ -35334,6 +35376,7 @@
         "Charm"
       ],
       "charged_moves": [
+        "Psyshock",
         "Thunderbolt",
         "Draining Kiss",
         "Moonblast",
@@ -35879,6 +35922,7 @@
       ],
       "charged_moves": [
         "Ancient Power",
+        "Rock Tomb",
         "Dragon Claw",
         "Stomp"
       ],
@@ -35926,6 +35970,7 @@
       "charged_moves": [
         "Earthquake",
         "Stone Edge",
+        "Rock Tomb",
         "Outrage",
         "Crunch",
         "Meteor Beam"
@@ -37423,7 +37468,9 @@
         "Dark Pulse",
         "Flame Charge",
         "Fire Blast",
+        "Drain Punch",
         "Blaze Kick",
+        "Brutal Swing",
         "Darkest Lariat"
       ],
       "gen_id": 7,
@@ -39158,6 +39205,7 @@
         "Brick Break",
         "Close Combat",
         "Super Power",
+        "Drain Punch",
         "Brutal Swing"
       ],
       "gen_id": 7,
@@ -39773,7 +39821,9 @@
         "Flamethrower",
         "Flash Cannon",
         "Dragon Pulse",
-        "Overheat"
+        "Dragon Claw",
+        "Overheat",
+        "Brutal Swing"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -40058,6 +40108,7 @@
         "Dragon Tail"
       ],
       "charged_moves": [
+        "Rock Tomb",
         "Dragon Pulse",
         "Dragon Claw",
         "Brick Break"
@@ -40099,14 +40150,16 @@
       ],
       "quick_moves": [
         "Poison Jab",
-        "Dragon Tail"
+        "Dragon Tail",
+        "Metal Sound"
       ],
       "charged_moves": [
         "Flamethrower",
         "Dragon Claw",
         "Brick Break",
         "Close Combat",
-        "Boomburst"
+        "Boomburst",
+        "Upper Hand"
       ],
       "gen_id": 7,
       "generation": "Alola",

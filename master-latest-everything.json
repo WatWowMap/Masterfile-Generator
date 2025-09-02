@@ -248,6 +248,13 @@
         }
       },
       "chargedMoves": {
+        "18": {
+          "moveId": 18,
+          "moveName": "Sludge",
+          "proto": "SLUDGE",
+          "type": 4,
+          "power": 50
+        },
         "47": {
           "moveId": 47,
           "moveName": "Petal Blizzard",
@@ -587,6 +594,13 @@
           "proto": "FIRE_BLAST",
           "type": 10,
           "power": 140
+        },
+        "121": {
+          "moveId": 121,
+          "moveName": "Air Cutter",
+          "proto": "AIR_CUTTER",
+          "type": 3,
+          "power": 55
         },
         "270": {
           "moveId": 270,
@@ -2301,6 +2315,13 @@
         }
       },
       "chargedMoves": {
+        "38": {
+          "moveId": 38,
+          "moveName": "Drill Peck",
+          "proto": "DRILL_PECK",
+          "type": 3,
+          "power": 70
+        },
         "45": {
           "moveId": 45,
           "moveName": "Aerial Ace",
@@ -3499,6 +3520,13 @@
             }
           },
           "chargedMoves": {
+            "60": {
+              "moveId": 60,
+              "moveName": "Psyshock",
+              "proto": "PSYSHOCK",
+              "type": 14,
+              "power": 60
+            },
             "77": {
               "moveId": 77,
               "moveName": "Thunder Punch",
@@ -4173,6 +4201,13 @@
           "proto": "POISON_JAB_FAST",
           "type": 4,
           "power": 13
+        },
+        "233": {
+          "moveId": 233,
+          "moveName": "Mud-Slap",
+          "proto": "MUD_SLAP_FAST",
+          "type": 5,
+          "power": 19
         },
         "236": {
           "moveId": 236,
@@ -10397,6 +10432,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 95
+        },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 1,
@@ -10472,6 +10514,13 @@
               "proto": "FOCUS_BLAST",
               "type": 2,
               "power": 140
+            },
+            "314": {
+              "moveId": 314,
+              "moveName": "Drain Punch",
+              "proto": "DRAIN_PUNCH",
+              "type": 2,
+              "power": 50
             },
             "367": {
               "moveId": 367,
@@ -11065,6 +11114,13 @@
         }
       },
       "quickMoves": {
+        "211": {
+          "moveId": 211,
+          "moveName": "Peck",
+          "proto": "PECK_FAST",
+          "type": 3,
+          "power": 10
+        },
         "238": {
           "moveId": 238,
           "moveName": "Feint Attack",
@@ -11101,6 +11157,13 @@
           "proto": "BRAVE_BIRD",
           "type": 3,
           "power": 130
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 1,
@@ -12166,6 +12229,13 @@
           "proto": "FOCUS_BLAST",
           "type": 2,
           "power": 140
+        },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 1,
@@ -18724,6 +18794,13 @@
           "type": 1,
           "power": 150
         },
+        "77": {
+          "moveId": 77,
+          "moveName": "Thunder Punch",
+          "proto": "THUNDER_PUNCH",
+          "type": 13,
+          "power": 50
+        },
         "83": {
           "moveId": 83,
           "moveName": "Dragon Claw",
@@ -22011,6 +22088,13 @@
         }
       },
       "quickMoves": {
+        "211": {
+          "moveId": 211,
+          "moveName": "Peck",
+          "proto": "PECK_FAST",
+          "type": 3,
+          "power": 10
+        },
         "238": {
           "moveId": 238,
           "moveName": "Feint Attack",
@@ -22033,6 +22117,13 @@
           "proto": "AERIAL_ACE",
           "type": 3,
           "power": 55
+        },
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
+          "type": 14,
+          "power": 60
         },
         "69": {
           "moveId": 69,
@@ -23877,6 +23968,13 @@
           "proto": "ACID_SPRAY",
           "type": 4,
           "power": 20
+        },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 2,
@@ -24319,6 +24417,13 @@
             }
           },
           "chargedMoves": {
+            "60": {
+              "moveId": 60,
+              "moveName": "Psyshock",
+              "proto": "PSYSHOCK",
+              "type": 14,
+              "power": 60
+            },
             "70": {
               "moveId": 70,
               "moveName": "Shadow Ball",
@@ -27925,6 +28030,13 @@
           "type": 11,
           "power": 135
         },
+        "125": {
+          "moveId": 125,
+          "moveName": "Swift",
+          "proto": "SWIFT",
+          "type": 1,
+          "power": 65
+        },
         "277": {
           "moveId": 277,
           "moveName": "Outrage",
@@ -30702,6 +30814,13 @@
           "proto": "WILD_CHARGE",
           "type": 13,
           "power": 90
+        },
+        "332": {
+          "moveId": 332,
+          "moveName": "Aura Sphere",
+          "proto": "AURA_SPHERE",
+          "type": 2,
+          "power": 100
         }
       },
       "genId": 2,
@@ -31554,6 +31673,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 95
+        },
+        "332": {
+          "moveId": 332,
+          "moveName": "Aura Sphere",
+          "proto": "AURA_SPHERE",
+          "type": 2,
+          "power": 100
         },
         "343": {
           "moveId": 343,
@@ -36818,6 +36944,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 3,
@@ -39176,6 +39309,13 @@
         }
       },
       "chargedMoves": {
+        "21": {
+          "moveId": 21,
+          "moveName": "Flame Wheel",
+          "proto": "FLAME_WHEEL",
+          "type": 10,
+          "power": 55
+        },
         "31": {
           "moveId": 31,
           "moveName": "Earthquake",
@@ -39897,6 +40037,13 @@
           "type": 16,
           "power": 45
         },
+        "258": {
+          "moveId": 258,
+          "moveName": "Sand Tomb",
+          "proto": "SAND_TOMB",
+          "type": 5,
+          "power": 60
+        },
         "380": {
           "moveId": 380,
           "moveName": "Boomburst",
@@ -40312,6 +40459,13 @@
         }
       },
       "chargedMoves": {
+        "24": {
+          "moveId": 24,
+          "moveName": "Flamethrower",
+          "proto": "FLAMETHROWER",
+          "type": 10,
+          "power": 65
+        },
         "82": {
           "moveId": 82,
           "moveName": "Dragon Pulse",
@@ -44266,6 +44420,13 @@
           "proto": "DRAGON_PULSE",
           "type": 16,
           "power": 90
+        },
+        "279": {
+          "moveId": 279,
+          "moveName": "Crunch",
+          "proto": "CRUNCH",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 3,
@@ -44374,6 +44535,13 @@
           "type": 11,
           "power": 135
         },
+        "279": {
+          "moveId": 279,
+          "moveName": "Crunch",
+          "proto": "CRUNCH",
+          "type": 17,
+          "power": 65
+        },
         "285": {
           "moveId": 285,
           "moveName": "Draco Meteor",
@@ -44387,6 +44555,13 @@
           "proto": "FLY",
           "type": 3,
           "power": 90
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 3,
@@ -44630,6 +44805,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -44741,6 +44917,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -44755,7 +44932,10 @@
             "defense": 289,
             "stamina": 190
           },
-          "unreleased": true
+          "height": 2.5,
+          "weight": 942.9,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -45087,6 +45267,13 @@
           "proto": "OUTRAGE",
           "type": 16,
           "power": 110
+        },
+        "332": {
+          "moveId": 332,
+          "moveName": "Aura Sphere",
+          "proto": "AURA_SPHERE",
+          "type": 2,
+          "power": 100
         }
       },
       "genId": 3,
@@ -45204,6 +45391,13 @@
           "proto": "SOLAR_BEAM",
           "type": 12,
           "power": 180
+        },
+        "332": {
+          "moveId": 332,
+          "moveName": "Aura Sphere",
+          "proto": "AURA_SPHERE",
+          "type": 2,
+          "power": 100
         }
       },
       "genId": 3,
@@ -45634,6 +45828,13 @@
           "proto": "DOOM_DESIRE",
           "type": 9,
           "power": 65
+        },
+        "332": {
+          "moveId": 332,
+          "moveName": "Aura Sphere",
+          "proto": "AURA_SPHERE",
+          "type": 2,
+          "power": 100
         }
       },
       "genId": 3,
@@ -46133,6 +46334,13 @@
           "proto": "RAZOR_LEAF_FAST",
           "type": 12,
           "power": 13
+        },
+        "233": {
+          "moveId": 233,
+          "moveName": "Mud-Slap",
+          "proto": "MUD_SLAP_FAST",
+          "type": 5,
+          "power": 19
         }
       },
       "chargedMoves": {
@@ -46723,6 +46931,13 @@
           "proto": "WATERFALL_FAST",
           "type": 11,
           "power": 13
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -49074,6 +49289,13 @@
           "moveName": "Thunderbolt",
           "proto": "THUNDERBOLT",
           "type": 13,
+          "power": 80
+        },
+        "129": {
+          "moveId": 129,
+          "moveName": "Hyper Fang",
+          "proto": "HYPER_FANG",
+          "type": 1,
           "power": 80
         }
       },
@@ -51877,6 +52099,13 @@
           "proto": "OUTRAGE",
           "type": 16,
           "power": 110
+        },
+        "379": {
+          "moveId": 379,
+          "moveName": "Breaking Swipe",
+          "proto": "BREAKING_SWIPE",
+          "type": 16,
+          "power": 45
         }
       },
       "genId": 4,
@@ -52902,6 +53131,13 @@
           "proto": "DYNAMIC_PUNCH",
           "type": 2,
           "power": 85
+        },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 4,
@@ -54295,6 +54531,13 @@
         }
       },
       "quickMoves": {
+        "211": {
+          "moveId": 211,
+          "moveName": "Peck",
+          "proto": "PECK_FAST",
+          "type": 3,
+          "power": 10
+        },
         "255": {
           "moveId": 255,
           "moveName": "Air Slash",
@@ -57209,6 +57452,13 @@
         }
       },
       "chargedMoves": {
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
+          "type": 14,
+          "power": 60
+        },
         "108": {
           "moveId": 108,
           "moveName": "Psychic",
@@ -63009,6 +63259,13 @@
           "type": 2,
           "power": 40
         },
+        "258": {
+          "moveId": 258,
+          "moveName": "Sand Tomb",
+          "proto": "SAND_TOMB",
+          "type": 5,
+          "power": 60
+        },
         "277": {
           "moveId": 277,
           "moveName": "Outrage",
@@ -63687,6 +63944,13 @@
           "proto": "ROCK_BLAST",
           "type": 6,
           "power": 50
+        },
+        "334": {
+          "moveId": 334,
+          "moveName": "Rock Wrecker",
+          "proto": "ROCK_WRECKER",
+          "type": 6,
+          "power": 110
         }
       },
       "genId": 5,
@@ -69888,6 +70152,13 @@
           "proto": "FOCUS_BLAST",
           "type": 2,
           "power": 140
+        },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 5,
@@ -69988,6 +70259,13 @@
           "type": 12,
           "power": 90
         },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
+        },
         "317": {
           "moveId": 317,
           "moveName": "Blaze Kick",
@@ -70082,6 +70360,13 @@
           "proto": "NIGHT_SLASH",
           "type": 17,
           "power": 45
+        },
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 65
         },
         "83": {
           "moveId": 83,
@@ -73867,6 +74152,13 @@
           "type": 10,
           "power": 65
         },
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
+          "type": 14,
+          "power": 60
+        },
         "101": {
           "moveId": 101,
           "moveName": "Flame Charge",
@@ -77346,6 +77638,13 @@
         }
       },
       "chargedMoves": {
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
+          "type": 14,
+          "power": 60
+        },
         "79": {
           "moveId": 79,
           "moveName": "Thunderbolt",
@@ -78595,6 +78894,13 @@
           "type": 6,
           "power": 70
         },
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 65
+        },
         "83": {
           "moveId": 83,
           "moveName": "Dragon Claw",
@@ -78700,6 +79006,13 @@
           "proto": "STONE_EDGE",
           "type": 6,
           "power": 105
+        },
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 65
         },
         "277": {
           "moveId": 277,
@@ -81975,12 +82288,26 @@
           "type": 10,
           "power": 140
         },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
+        },
         "317": {
           "moveId": 317,
           "moveName": "Blaze Kick",
           "proto": "BLAZE_KICK",
           "type": 10,
           "power": 40
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         },
         "400": {
           "moveId": 400,
@@ -85774,6 +86101,13 @@
           "type": 2,
           "power": 85
         },
+        "314": {
+          "moveId": 314,
+          "moveName": "Drain Punch",
+          "proto": "DRAIN_PUNCH",
+          "type": 2,
+          "power": 50
+        },
         "367": {
           "moveId": 367,
           "moveName": "Brutal Swing",
@@ -86974,12 +87308,26 @@
           "type": 16,
           "power": 90
         },
+        "83": {
+          "moveId": 83,
+          "moveName": "Dragon Claw",
+          "proto": "DRAGON_CLAW",
+          "type": 16,
+          "power": 45
+        },
         "270": {
           "moveId": 270,
           "moveName": "Overheat",
           "proto": "OVERHEAT",
           "type": 10,
           "power": 160
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 7,
@@ -87590,6 +87938,13 @@
         }
       },
       "chargedMoves": {
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 65
+        },
         "82": {
           "moveId": 82,
           "moveName": "Dragon Pulse",
@@ -87681,6 +88036,13 @@
           "proto": "DRAGON_TAIL_FAST",
           "type": 16,
           "power": 14
+        },
+        "402": {
+          "moveId": 402,
+          "moveName": "Metal Sound",
+          "proto": "METAL_SOUND_FAST",
+          "type": 9,
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -87718,6 +88080,13 @@
           "proto": "BOOMBURST",
           "type": 1,
           "power": 150
+        },
+        "471": {
+          "moveId": 471,
+          "moveName": "Upper Hand",
+          "proto": "UPPER_HAND",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 7,
@@ -112333,6 +112702,7 @@
         250
       ],
       "chargedMoves": [
+        60,
         77,
         108,
         251,
@@ -115568,8 +115938,6 @@
       "formName": "Normal",
       "proto": "METAGROSS_NORMAL",
       "formId": 770,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -115577,8 +115945,20 @@
           "defense": 289,
           "stamina": 190,
           "unreleased": true
+        },
+        {
+          "tempEvoId": 1,
+          "attack": 300,
+          "defense": 289,
+          "stamina": 190,
+          "height": 2.5,
+          "weight": 942.9,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "773": {
       "formName": "Normal",
@@ -120272,6 +120652,7 @@
         106,
         108,
         247,
+        314,
         367
       ],
       "types": [
@@ -120322,6 +120703,7 @@
         264
       ],
       "chargedMoves": [
+        60,
         70,
         91,
         106,
@@ -124290,34 +124672,6 @@
       "formId": 3019,
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "PSYDUCK_SWIM_2025": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.392
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.4
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.6
-        },
-        {
-          "name": "mUpperBound",
-          "value": 1
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 1.2
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 1.4
-        }
-      ]
     }
   },
   "types": {
