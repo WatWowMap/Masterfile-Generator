@@ -10816,7 +10816,20 @@
       "forms": {
         "136": {},
         "137": {},
-        "2804": {}
+        "2804": {
+          "evolutions": [
+            {
+              "pokemon": 902,
+              "form": 2807,
+              "gender_requirement": 1
+            },
+            {
+              "pokemon": 902,
+              "form": 2808,
+              "gender_requirement": 2
+            }
+          ]
+        }
       },
       "attack": 189,
       "defense": 129,
@@ -16943,7 +16956,11 @@
       "forms": {
         "0": {},
         "2807": {},
-        "2808": {}
+        "2808": {
+          "attack": 199,
+          "defense": 144,
+          "stamina": 260
+        }
       },
       "attack": 217,
       "defense": 144,
@@ -18639,8 +18656,16 @@
       "forms": {
         "0": {},
         "2880": {},
-        "2881": {},
-        "2882": {}
+        "2881": {
+          "attack": 212,
+          "defense": 224,
+          "stamina": 216
+        },
+        "2882": {
+          "attack": 259,
+          "defense": 224,
+          "stamina": 330
+        }
       },
       "attack": 126,
       "defense": 165,

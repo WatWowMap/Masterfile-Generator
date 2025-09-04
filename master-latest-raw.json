@@ -87439,7 +87439,21 @@
     "2804": {
       "formName": "White Striped",
       "proto": "BASCULIN_WHITE_STRIPED",
-      "formId": 2804
+      "formId": 2804,
+      "evolutions": [
+        {
+          "evoId": 902,
+          "formId": 2807,
+          "candyCost": 50,
+          "genderRequirement": 1
+        },
+        {
+          "evoId": 902,
+          "formId": 2808,
+          "candyCost": 50,
+          "genderRequirement": 2
+        }
+      ]
     },
     "2805": {
       "formName": "Gofest 2022",
@@ -87513,7 +87527,10 @@
       ],
       "formName": "Female",
       "proto": "BASCULEGION_FEMALE",
-      "formId": 2808
+      "formId": 2808,
+      "attack": 199,
+      "defense": 144,
+      "stamina": 260
     },
     "2809": {
       "formName": "Normal",
@@ -88081,12 +88098,18 @@
     "2881": {
       "formName": "Terastal",
       "proto": "TERAPAGOS_TERASTAL",
-      "formId": 2881
+      "formId": 2881,
+      "attack": 212,
+      "defense": 224,
+      "stamina": 216
     },
     "2882": {
       "formName": "Stellar",
       "proto": "TERAPAGOS_STELLAR",
-      "formId": 2882
+      "formId": 2882,
+      "attack": 259,
+      "defense": 224,
+      "stamina": 330
     },
     "2981": {
       "formName": "Normal",

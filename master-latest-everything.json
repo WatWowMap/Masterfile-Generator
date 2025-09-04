@@ -62988,7 +62988,15 @@
         "2804": {
           "name": "White-Striped",
           "proto": "BASCULIN_WHITE_STRIPED",
-          "form": 2804
+          "form": 2804,
+          "evolutions": {
+            "902": {
+              "pokemon": 902,
+              "form": 2808,
+              "candyCost": 50,
+              "genderRequirement": 2
+            }
+          }
         }
       },
       "stats": {
@@ -99231,7 +99239,12 @@
         "2808": {
           "name": "Female",
           "proto": "BASCULEGION_FEMALE",
-          "form": 2808
+          "form": 2808,
+          "stats": {
+            "attack": 199,
+            "defense": 144,
+            "stamina": 260
+          }
         }
       },
       "stats": {
@@ -112150,12 +112163,22 @@
         "2881": {
           "name": "Terastal",
           "proto": "TERAPAGOS_TERASTAL",
-          "form": 2881
+          "form": 2881,
+          "stats": {
+            "attack": 212,
+            "defense": 224,
+            "stamina": 216
+          }
         },
         "2882": {
           "name": "Stellar",
           "proto": "TERAPAGOS_STELLAR",
-          "form": 2882
+          "form": 2882,
+          "stats": {
+            "attack": 259,
+            "defense": 224,
+            "stamina": 330
+          }
         }
       },
       "stats": {
@@ -123633,7 +123656,21 @@
     "2804": {
       "formName": "White-Striped",
       "proto": "BASCULIN_WHITE_STRIPED",
-      "formId": 2804
+      "formId": 2804,
+      "evolutions": [
+        {
+          "evoId": 902,
+          "formId": 2807,
+          "candyCost": 50,
+          "genderRequirement": 1
+        },
+        {
+          "evoId": 902,
+          "formId": 2808,
+          "candyCost": 50,
+          "genderRequirement": 2
+        }
+      ]
     },
     "2805": {
       "formName": "Gofest 2022",
@@ -123707,7 +123744,10 @@
       ],
       "formName": "Female",
       "proto": "BASCULEGION_FEMALE",
-      "formId": 2808
+      "formId": 2808,
+      "attack": 199,
+      "defense": 144,
+      "stamina": 260
     },
     "2809": {
       "formName": "Normal",
@@ -124275,12 +124315,18 @@
     "2881": {
       "formName": "Terastal",
       "proto": "TERAPAGOS_TERASTAL",
-      "formId": 2881
+      "formId": 2881,
+      "attack": 212,
+      "defense": 224,
+      "stamina": 216
     },
     "2882": {
       "formName": "Stellar",
       "proto": "TERAPAGOS_STELLAR",
-      "formId": 2882
+      "formId": 2882,
+      "attack": 259,
+      "defense": 224,
+      "stamina": 330
     },
     "2981": {
       "formName": "Normal",

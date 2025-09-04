@@ -35178,7 +35178,21 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 902,
+          "id": 2807,
+          "candyCost": 50,
+          "genderRequirement": 1
+        },
+        {
+          "evoId": 902,
+          "id": 2808,
+          "candyCost": 50,
+          "genderRequirement": 2
+        }
+      ]
     },
     "551_0": {
       "name": "Sandile",
@@ -52726,7 +52740,7 @@
         "id": 2808
       },
       "stats": {
-        "baseAttack": 217,
+        "baseAttack": 199,
         "baseDefense": 144,
         "baseStamina": 260
       },
@@ -56616,9 +56630,9 @@
         "id": 2881
       },
       "stats": {
-        "baseAttack": 126,
-        "baseDefense": 165,
-        "baseStamina": 207
+        "baseAttack": 212,
+        "baseDefense": 224,
+        "baseStamina": 216
       },
       "unreleased": true
     },
@@ -56636,9 +56650,9 @@
         "id": 2882
       },
       "stats": {
-        "baseAttack": 126,
-        "baseDefense": 165,
-        "baseStamina": 207
+        "baseAttack": 259,
+        "baseDefense": 224,
+        "baseStamina": 330
       },
       "unreleased": true
     },

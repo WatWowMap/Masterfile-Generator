@@ -28401,7 +28401,19 @@
         },
         "2804": {
           "name": "White Striped",
-          "proto": "BASCULIN_WHITE_STRIPED"
+          "proto": "BASCULIN_WHITE_STRIPED",
+          "evolutions": [
+            {
+              "pokemon": 902,
+              "form": 2807,
+              "gender_requirement": 1
+            },
+            {
+              "pokemon": 902,
+              "form": 2808,
+              "gender_requirement": 2
+            }
+          ]
         }
       },
       "attack": 189,
@@ -45230,7 +45242,10 @@
         },
         "2808": {
           "name": "Female",
-          "proto": "BASCULEGION_FEMALE"
+          "proto": "BASCULEGION_FEMALE",
+          "attack": 199,
+          "defense": 144,
+          "stamina": 260
         }
       },
       "attack": 217,
@@ -50440,11 +50455,17 @@
         },
         "2881": {
           "name": "Terastal",
-          "proto": "TERAPAGOS_TERASTAL"
+          "proto": "TERAPAGOS_TERASTAL",
+          "attack": 212,
+          "defense": 224,
+          "stamina": 216
         },
         "2882": {
           "name": "Stellar",
-          "proto": "TERAPAGOS_STELLAR"
+          "proto": "TERAPAGOS_STELLAR",
+          "attack": 259,
+          "defense": 224,
+          "stamina": 330
         }
       },
       "attack": 126,
