@@ -1,0 +1,182 @@
+{
+  "globalOptions": {
+    "genderString": true,
+    "snake_case": false,
+    "includeProtos": true
+  },
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "pokedexId",
+        "forms": "formId",
+        "evolutions": false,
+        "tempEvolutions": "tempEvoId",
+        "items": "itemId",
+        "questTypes": "id"
+      },
+      "customFields": {},
+      "customChildObj": {
+        "attack": "stats",
+        "defense": "stats",
+        "stamina": "stats"
+      },
+      "skipForms": ["Shadow", "Purified", "Complete Ten Percent", "Complete Fifty Percent", "Copy 2019", "Spring 2020"],
+      "skipNormalIfUnset": true
+    },
+    "template": {
+      "pokemonName": true,
+      "pokedexId": true,
+      "forms": {
+        "formId": true,
+        "formName": true,
+        "isCostume": true,
+        "types": "typeName",
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "quickMoves": "moveId",
+        "chargedMoves": "moveId",
+        "eliteQuickMoves": "moveId",
+        "eliteChargedMoves": "moveId",
+        "unreleased": true,
+        "evolutions": {
+          "evoId": true,
+          "formId": true,
+          "genderRequirement": true,
+          "candyCost": true,
+          "itemRequirement": {
+            "itemName": true,
+            "itemId": true,
+            "itemProto": true
+          },
+          "tradeBonus": true,
+          "mustBeBuddy": true,
+          "onlyDaytime": true,
+          "onlyNighttime": true,
+          "questRequirement": {
+            "questType": "questName",
+            "target": true
+          }
+        }
+      },
+      "defaultFormId": true,
+      "generation": true,
+      "types": "typeName",
+      "attack": true,
+      "defense": true,
+      "stamina": true,
+      "quickMoves": "moveId",
+      "chargedMoves": "moveId",
+      "eliteQuickMoves": "moveId",
+      "eliteChargedMoves": "moveId",
+      "legendary": true,
+      "mythic": true,
+      "ultraBeast": true,
+      "family": true,
+      "unreleased": true,
+      "tradable": true,
+      "transferable": true,
+      "buddyDistance": true,
+      "buddyGroupNumber": true,
+      "buddyMegaEnergy": true,
+      "thirdMoveStardust": true,
+      "thirdMoveCandy": true,
+      "gymDefenderEligible": true,
+      "fleeRate": true,
+      "captureRate": true,
+      "bonusCandyCapture": true,
+      "bonusStardustCapture": true,
+      "purificationDust": true,
+      "purificationCandy": true,
+      "evolutions": {
+        "evoId": true,
+        "formId": true,
+        "genderRequirement": true,
+        "candyCost": true,
+        "itemRequirement": {
+          "itemName": true,
+          "itemId": true,
+          "itemProto": true
+        },
+        "tradeBonus": true,
+        "mustBeBuddy": true,
+        "onlyDaytime": true,
+        "onlyNighttime": true,
+        "questRequirement": {
+          "questType": true,
+          "target": true
+        }
+      },
+      "tempEvolutions": {
+        "tempEvoId": true,
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "unreleased": true,
+        "firstEnergyCost": false,
+        "subsequentEnergyCost": false,
+        "types": "typeName",
+        "proto": true
+      }
+    }
+  },
+  "costumes": {
+    "enabled": false
+  },
+  "translations": {
+    "enabled": false
+  },
+  "types": {
+    "enabled": true,
+    "template": {
+      "typeId": true,
+      "typeName": true
+    }
+  },
+  "moves": {
+    "enabled": true,
+    "template": {
+      "moveId": true,
+      "moveName": true,
+      "proto": true,
+      "fast": true,
+      "type": "typeName",
+      "pvpPower": true,
+      "pvpEnergyDelta": true,
+      "pvpBuffs": {
+        "targetDefenseStatStageChange": true,
+        "buffActivationChance": true
+      },
+      "power": true,
+      "durationMs": true,
+      "energyDelta": true
+    }
+  },
+  "items": {
+    "enabled": true,
+    "template": {
+      "itemName": true,
+      "type": true,
+      "minTrainerLevel": true
+    }
+  },
+  "questTypes": {
+    "enabled": true,
+    "template": {
+      "formatted": true
+    }
+  },
+  "questConditions": {
+    "enabled": false
+  },
+  "questRewardTypes": {
+    "enabled": false
+  },
+  "invasions": {
+    "enabled": false
+  },
+  "weather": {
+    "enabled": false
+  }
+}
