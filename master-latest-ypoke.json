@@ -31925,7 +31925,21 @@
         },
         "2804": {
           "formName": "White Striped",
-          "formId": 2804
+          "formId": 2804,
+          "evolutions": [
+            {
+              "evoId": 902,
+              "formId": 2807,
+              "candyCost": 50,
+              "genderRequirement": 1
+            },
+            {
+              "evoId": 902,
+              "formId": 2808,
+              "candyCost": 50,
+              "genderRequirement": 2
+            }
+          ]
         }
       },
       "stats": {
@@ -50600,7 +50614,12 @@
         },
         "2808": {
           "formName": "Female",
-          "formId": 2808
+          "formId": 2808,
+          "stats": {
+            "attack": 199,
+            "defense": 144,
+            "stamina": 260
+          }
         }
       }
     },
@@ -55835,11 +55854,21 @@
         },
         "2881": {
           "formName": "Terastal",
-          "formId": 2881
+          "formId": 2881,
+          "stats": {
+            "attack": 212,
+            "defense": 224,
+            "stamina": 216
+          }
         },
         "2882": {
           "formName": "Stellar",
-          "formId": 2882
+          "formId": 2882,
+          "stats": {
+            "attack": 259,
+            "defense": 224,
+            "stamina": 330
+          }
         }
       }
     },
