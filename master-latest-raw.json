@@ -16524,7 +16524,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "212": {
       "pokemonName": "Scizor",
@@ -26066,6 +26068,8 @@
           "candyCost": 400
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "334": {
@@ -26155,7 +26159,9 @@
           "firstEnergyCost": 300,
           "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "335": {
       "pokemonName": "Zangoose",
@@ -26806,6 +26812,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "344": {
@@ -26882,7 +26890,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "345": {
       "pokemonName": "Lileep",
@@ -37928,7 +37938,9 @@
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "492": {
       "pokemonName": "Shaymin",
@@ -48451,6 +48463,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "little": true
     },
     "634": {
@@ -48527,7 +48541,9 @@
           "evoId": 635,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "635": {
       "pokemonName": "Hydreigon",
@@ -48599,7 +48615,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "636": {
       "pokemonName": "Larvesta",
@@ -49022,7 +49040,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "642": {
       "pokemonName": "Thundurus",
@@ -67973,7 +67993,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "905": {
       "pokemonName": "Enamorus",
@@ -77937,7 +77959,9 @@
     "140": {
       "formName": "Incarnate",
       "proto": "TORNADUS_INCARNATE",
-      "formId": 140
+      "formId": 140,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "141": {
       "sizeSettings": [
@@ -77986,7 +78010,9 @@
       ],
       "eliteChargedMoves": [
         395
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "142": {
       "formName": "Incarnate",
@@ -81451,7 +81477,9 @@
     "1259": {
       "formName": "Normal",
       "proto": "QWILFISH_NORMAL",
-      "formId": 1259
+      "formId": 1259,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1262": {
       "formName": "Normal",
@@ -87005,7 +87033,9 @@
           "candyCost": 50,
           "questRequirement": "OVERQWIL_EVOLUTION_QUEST"
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2789": {
       "formName": "Hisuian",

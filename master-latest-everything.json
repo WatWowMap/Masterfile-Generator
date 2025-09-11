@@ -114136,7 +114136,9 @@
     "140": {
       "formName": "Incarnate Forme",
       "proto": "TORNADUS_INCARNATE",
-      "formId": 140
+      "formId": 140,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "141": {
       "sizeSettings": [
@@ -114185,7 +114187,9 @@
       ],
       "eliteChargedMoves": [
         395
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "142": {
       "formName": "Incarnate Forme",
@@ -117663,7 +117667,9 @@
     "1259": {
       "formName": "Normal",
       "proto": "QWILFISH_NORMAL",
-      "formId": 1259
+      "formId": 1259,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1262": {
       "formName": "Normal",
@@ -123221,7 +123227,9 @@
           "candyCost": 50,
           "questRequirement": "OVERQWIL_EVOLUTION_QUEST"
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "2789": {
       "formName": "Hisuian",
