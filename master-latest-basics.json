@@ -2349,6 +2349,9 @@
             {
               "pokemon": 212,
               "form": 250
+            },
+            {
+              "pokemon": 900
             }
           ]
         }
@@ -3975,14 +3978,7 @@
       },
       "attack": 118,
       "defense": 156,
-      "stamina": 146,
-      "evolutions": [
-        {
-          "pokemon": 864,
-          "form": 2507
-        }
-      ],
-      "little": true
+      "stamina": 146
     },
     "223": {
       "forms": {
@@ -4130,7 +4126,13 @@
     },
     "234": {
       "forms": {
-        "941": {}
+        "941": {
+          "evolutions": [
+            {
+              "pokemon": 899
+            }
+          ]
+        }
       },
       "attack": 192,
       "defense": 131,
@@ -8636,14 +8638,7 @@
       },
       "attack": 189,
       "defense": 129,
-      "stamina": 172,
-      "evolutions": [
-        {
-          "pokemon": 902,
-          "form": 2807
-        }
-      ],
-      "little": true
+      "stamina": 172
     },
     "551": {
       "forms": {
@@ -12682,6 +12677,9 @@
         },
         {
           "pokemon": 842
+        },
+        {
+          "pokemon": 1011
         }
       ],
       "little": true
@@ -13146,7 +13144,13 @@
       },
       "attack": 239,
       "defense": 185,
-      "stamina": 172
+      "stamina": 172,
+      "evolutions": [
+        {
+          "pokemon": 1018
+        }
+      ],
+      "little": true
     },
     "885": {
       "forms": {
@@ -14482,7 +14486,13 @@
       },
       "attack": 173,
       "defense": 184,
-      "stamina": 190
+      "stamina": 190,
+      "evolutions": [
+        {
+          "pokemon": 1019
+        }
+      ],
+      "little": true
     },
     "1012": {
       "forms": {

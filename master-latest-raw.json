@@ -9731,7 +9731,8 @@
           "itemRequirement": 1103
         },
         {
-          "evoId": 900
+          "evoId": 900,
+          "candyCost": 50
         }
       ],
       "purificationDust": 5000,
@@ -17378,14 +17379,7 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 864,
-          "formId": 2507
-        }
-      ],
-      "little": true
+      "transferable": true
     },
     "223": {
       "pokemonName": "Remoraid",
@@ -42338,14 +42332,7 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "evolutions": [
-        {
-          "evoId": 902,
-          "formId": 2807
-        }
-      ],
-      "little": true
+      "transferable": true
     },
     "551": {
       "pokemonName": "Sandile",
@@ -51884,7 +51871,6 @@
           "candyCost": 25
         }
       ],
-      "unreleased": true,
       "little": true
     },
     "680": {
@@ -51959,8 +51945,7 @@
           "formId": 2639,
           "candyCost": 100
         }
-      ],
-      "unreleased": true
+      ]
     },
     "681": {
       "pokemonName": "Aegislash",
@@ -52029,8 +52014,7 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true,
-      "unreleased": true
+      "transferable": true
     },
     "682": {
       "pokemonName": "Spritzee",
@@ -63467,6 +63451,9 @@
           "evoId": 842,
           "candyCost": 200,
           "itemRequirement": 1151
+        },
+        {
+          "evoId": 1011
         }
       ],
       "little": true
@@ -66582,7 +66569,13 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 1018
+        }
+      ],
+      "little": true
     },
     "885": {
       "pokemonName": "Dreepy",
@@ -75422,7 +75415,13 @@
       "attack": 173,
       "defense": 184,
       "stamina": 190,
-      "unreleased": true
+      "evolutions": [
+        {
+          "evoId": 1019
+        }
+      ],
+      "unreleased": true,
+      "little": true
     },
     "1012": {
       "pokemonName": "Poltchageist",
@@ -78662,6 +78661,10 @@
           "formId": 250,
           "candyCost": 50,
           "itemRequirement": 1103
+        },
+        {
+          "evoId": 900,
+          "candyCost": 50
         }
       ],
       "purificationDust": 5000,
@@ -80531,7 +80534,12 @@
       "proto": "STANTLER_NORMAL",
       "formId": 941,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "evolutions": [
+        {
+          "evoId": 899
+        }
+      ]
     },
     "944": {
       "sizeSettings": [

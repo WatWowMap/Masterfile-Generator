@@ -7050,6 +7050,9 @@
             {
               "pokemon": 212,
               "form": 250
+            },
+            {
+              "pokemon": 900
             }
           ]
         }
@@ -12249,14 +12252,7 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true,
-      "evolutions": [
-        {
-          "pokemon": 864,
-          "form": 2507
-        }
-      ],
-      "little": true
+      "gym_defender_eligible": true
     },
     "223": {
       "name": "Remoraid",
@@ -12793,7 +12789,12 @@
       "forms": {
         "941": {
           "name": "Normal",
-          "proto": "STANTLER_NORMAL"
+          "proto": "STANTLER_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 899
+            }
+          ]
         }
       },
       "attack": 192,
@@ -28428,14 +28429,7 @@
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
-      "gym_defender_eligible": true,
-      "evolutions": [
-        {
-          "pokemon": 902,
-          "form": 2807
-        }
-      ],
-      "little": true
+      "gym_defender_eligible": true
     },
     "551": {
       "name": "Sandile",
@@ -42520,6 +42514,9 @@
         },
         {
           "pokemon": 842
+        },
+        {
+          "pokemon": 1011
         }
       ],
       "little": true
@@ -44375,7 +44372,13 @@
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 1018
+        }
+      ],
+      "little": true
     },
     "885": {
       "name": "Dreepy",
@@ -49759,7 +49762,13 @@
       },
       "attack": 173,
       "defense": 184,
-      "stamina": 190
+      "stamina": 190,
+      "evolutions": [
+        {
+          "pokemon": 1019
+        }
+      ],
+      "little": true
     },
     "1012": {
       "name": "Poltchageist",

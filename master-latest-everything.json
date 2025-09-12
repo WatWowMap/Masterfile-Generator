@@ -15640,6 +15640,10 @@
               "form": 250,
               "candyCost": 50,
               "itemRequirement": "Metal Coat"
+            },
+            "900": {
+              "pokemon": 900,
+              "candyCost": 50
             }
           }
         }
@@ -15674,7 +15678,7 @@
         },
         "900": {
           "pokemon": 900,
-          "form": 0
+          "candyCost": 50
         }
       },
       "little": true
@@ -27258,14 +27262,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "864": {
-          "pokemon": 864,
-          "form": 2507
-        }
-      },
-      "little": true
+      }
     },
     "223": {
       "name": "Remoraid",
@@ -28484,7 +28481,12 @@
         "941": {
           "name": "Normal",
           "proto": "STANTLER_NORMAL",
-          "form": 941
+          "form": 941,
+          "evolutions": {
+            "899": {
+              "pokemon": 899
+            }
+          }
         }
       },
       "stats": {
@@ -63018,14 +63020,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "902": {
-          "pokemon": 902,
-          "form": 2807
-        }
-      },
-      "little": true
+      }
     },
     "551": {
       "name": "Sandile",
@@ -77341,7 +77336,6 @@
           "candyCost": 25
         }
       },
-      "unreleased": true,
       "little": true
     },
     "680": {
@@ -77428,8 +77422,7 @@
           "form": 2639,
           "candyCost": 100
         }
-      },
-      "unreleased": true
+      }
     },
     "681": {
       "name": "Aegislash",
@@ -77530,8 +77523,7 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "unreleased": true
+      }
     },
     "682": {
       "name": "Spritzee",
@@ -92997,6 +92989,10 @@
           "form": 0,
           "candyCost": 200,
           "itemRequirement": "Sweet Apple"
+        },
+        "1011": {
+          "pokemon": 1011,
+          "form": 0
         }
       },
       "little": true
@@ -97072,7 +97068,14 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      }
+      },
+      "evolutions": {
+        "1018": {
+          "pokemon": 1018,
+          "form": 0
+        }
+      },
+      "little": true
     },
     "885": {
       "name": "Dreepy",
@@ -109230,7 +109233,14 @@
         "defense": 184,
         "stamina": 190
       },
-      "unreleased": true
+      "evolutions": {
+        "1019": {
+          "pokemon": 1019,
+          "form": 0
+        }
+      },
+      "unreleased": true,
+      "little": true
     },
     "1012": {
       "name": "Poltchageist",
@@ -114839,6 +114849,10 @@
           "formId": 250,
           "candyCost": 50,
           "itemRequirement": 1103
+        },
+        {
+          "evoId": 900,
+          "candyCost": 50
         }
       ],
       "purificationDust": 5000,
@@ -116708,7 +116722,12 @@
       "proto": "STANTLER_NORMAL",
       "formId": 941,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "evolutions": [
+        {
+          "evoId": 899
+        }
+      ]
     },
     "944": {
       "sizeSettings": [

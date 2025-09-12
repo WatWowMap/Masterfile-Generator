@@ -9186,7 +9186,7 @@
         },
         {
           "evoId": 900,
-          "id": 0
+          "candyCost": 50
         }
       ]
     },
@@ -9220,6 +9220,10 @@
           "id": 250,
           "candyCost": 50,
           "itemRequirement": "Metal Coat"
+        },
+        {
+          "evoId": 900,
+          "candyCost": 50
         }
       ]
     },
@@ -15853,13 +15857,7 @@
         "baseStamina": 146
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50,
-      "evolutions": [
-        {
-          "evoId": 864,
-          "id": 2507
-        }
-      ]
+      "thirdMoveCandy": 50
     },
     "222_1283": {
       "name": "Corsola",
@@ -16563,7 +16561,12 @@
         "baseStamina": 177
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 899
+        }
+      ]
     },
     "235_0": {
       "name": "Smeargle",
@@ -35109,13 +35112,7 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25,
-      "evolutions": [
-        {
-          "evoId": 902,
-          "id": 2807
-        }
-      ]
+      "thirdMoveCandy": 25
     },
     "550_136": {
       "name": "Basculin",
@@ -44091,8 +44088,7 @@
           "id": 0,
           "candyCost": 25
         }
-      ],
-      "unreleased": true
+      ]
     },
     "680_0": {
       "name": "Doublade",
@@ -44124,8 +44120,7 @@
           "id": 2639,
           "candyCost": 100
         }
-      ],
-      "unreleased": true
+      ]
     },
     "681_0": {
       "name": "Aegislash",
@@ -44150,8 +44145,7 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "unreleased": true
+      "thirdMoveCandy": 75
     },
     "681_2639": {
       "name": "Aegislash",
@@ -44176,8 +44170,7 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "unreleased": true
+      "thirdMoveCandy": 75
     },
     "681_2640": {
       "name": "Aegislash",
@@ -44202,8 +44195,7 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75,
-      "unreleased": true
+      "thirdMoveCandy": 75
     },
     "682_0": {
       "name": "Spritzee",
@@ -50357,6 +50349,10 @@
           "id": 0,
           "candyCost": 200,
           "itemRequirement": "Sweet Apple"
+        },
+        {
+          "evoId": 1011,
+          "id": 0
         }
       ]
     },
@@ -51945,7 +51941,13 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "evolutions": [
+        {
+          "evoId": 1018,
+          "id": 0
+        }
+      ]
     },
     "885_0": {
       "name": "Dreepy",
@@ -56114,6 +56116,12 @@
         "baseDefense": 184,
         "baseStamina": 190
       },
+      "evolutions": [
+        {
+          "evoId": 1019,
+          "id": 0
+        }
+      ],
       "unreleased": true
     },
     "1012_0": {
