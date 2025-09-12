@@ -19094,7 +19094,6 @@
       ],
       "charged_moves": [
         "Psyshock",
-        "Psyshock",
         "Shadow Ball",
         "Energy Ball"
       ],
@@ -49625,36 +49624,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bite",
-        "Dragon Breath",
-        "Low Kick",
-        "Mud Shot",
-        "Fire Fang",
-        "Snarl",
-        "Take Down",
-        "Waterfall"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Aqua Jet",
-        "Twister",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Water Pulse",
-        "Scald",
-        "Hydro Pump",
-        "Hurricane",
-        "Swift",
-        "Body Slam",
-        "Rest",
-        "Outrage",
-        "Crunch",
-        "Surf",
-        "Draco Meteor",
-        "Giga Impact",
-        "Breaking Swipe",
-        "Liquidation"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49666,7 +49639,15 @@
       },
       "attack": 256,
       "defense": 188,
-      "stamina": 223
+      "stamina": 223,
+      "height": 3.5,
+      "weight": 280,
+      "family": "FAMILY_WALKINGWAKE",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1010": {
       "name": "Ironleaves",
@@ -49677,33 +49658,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Quick Attack",
-        "Air Slash",
-        "Take Down",
-        "Magical Leaf",
-        "Metal Sound"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Megahorn",
-        "Aerial Ace",
-        "Night Slash",
-        "X Scissor",
-        "Giga Drain",
-        "Solar Beam",
-        "Leaf Blade",
-        "Brick Break",
-        "Swift",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Wild Charge",
-        "Grass Knot",
-        "Energy Ball",
-        "Giga Impact",
-        "Sacred Sword",
-        "Leaf Storm",
-        "Trailblaze"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49715,7 +49673,15 @@
       },
       "attack": 259,
       "defense": 213,
-      "stamina": 207
+      "stamina": 207,
+      "height": 1.5,
+      "weight": 125,
+      "family": "FAMILY_IRONLEAVES",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1011": {
       "name": "Dipplin",
@@ -49726,31 +49692,14 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Sucker Punch",
-        "Dragon Breath",
         "Dragon Tail",
-        "Infestation",
-        "Astonish",
         "Bullet Seed",
-        "Take Down",
         "Rollout"
       ],
       "charged_moves": [
-        "Hyper Beam",
         "Seed Bomb",
         "Dragon Pulse",
-        "Giga Drain",
-        "Solar Beam",
-        "Body Slam",
-        "Rest",
-        "Gyro Ball",
-        "Grass Knot",
-        "Energy Ball",
-        "Outrage",
-        "Draco Meteor",
-        "Giga Impact",
-        "Leaf Storm"
+        "Outrage"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49763,6 +49712,15 @@
       "attack": 173,
       "defense": 184,
       "stamina": 190,
+      "height": 0.4,
+      "weight": 4.4,
+      "family": 840,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true,
       "evolutions": [
         {
           "pokemon": 1019
@@ -49780,20 +49738,11 @@
       ],
       "quick_moves": [
         "Astonish",
-        "Hex",
         "Magical Leaf"
       ],
       "charged_moves": [
-        "Mega Drain",
         "Shadow Ball",
-        "Scald",
-        "Giga Drain",
-        "Solar Beam",
-        "Rest",
-        "Night Shade",
         "Energy Ball",
-        "Foul Play",
-        "Leaf Storm",
         "Poltergeist"
       ],
       "gen_id": 9,
@@ -49814,7 +49763,16 @@
       },
       "attack": 134,
       "defense": 96,
-      "stamina": 120
+      "stamina": 120,
+      "height": 0.1,
+      "weight": 1.1,
+      "family": "FAMILY_POLTCHAGEIST",
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "1013": {
       "name": "Sinistcha",
@@ -49826,21 +49784,11 @@
       ],
       "quick_moves": [
         "Astonish",
-        "Hex",
         "Magical Leaf"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Mega Drain",
         "Shadow Ball",
-        "Scald",
-        "Giga Drain",
-        "Solar Beam",
-        "Rest",
-        "Night Shade",
         "Energy Ball",
-        "Foul Play",
-        "Leaf Storm",
         "Poltergeist"
       ],
       "gen_id": 9,
@@ -49861,7 +49809,16 @@
       },
       "attack": 225,
       "defense": 191,
-      "stamina": 174
+      "stamina": 174,
+      "height": 0.2,
+      "weight": 2.2,
+      "family": "FAMILY_POLTCHAGEIST",
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 3,
+      "third_move_stardust": 50000,
+      "third_move_candy": 50,
+      "gym_defender_eligible": true
     },
     "1014": {
       "name": "Okidogi",
@@ -49872,43 +49829,13 @@
         "Poison"
       ],
       "quick_moves": [
-        "Bite",
-        "Low Kick",
-        "Shadow Claw",
         "Poison Jab",
-        "Metal Claw",
-        "Fire Fang",
-        "Counter",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Ice Fang"
+        "Force Palm"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dig",
-        "Ice Punch",
-        "Poison Fang",
-        "Low Sweep",
-        "Rock Tomb",
-        "Iron Head",
-        "Thunder Punch",
         "Sludge Bomb",
-        "Sludge Wave",
-        "Gunk Shot",
-        "Fire Punch",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Focus Blast",
-        "Outrage",
-        "Crunch",
-        "Drain Punch",
-        "Giga Impact",
-        "Psychic Fangs",
-        "Brutal Swing",
-        "High Horsepower"
+        "Super Power",
+        "Upper Hand"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49920,7 +49847,15 @@
       },
       "attack": 241,
       "defense": 210,
-      "stamina": 204
+      "stamina": 204,
+      "height": 1.8,
+      "weight": 92.2,
+      "family": "FAMILY_OKIDOGI",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1015": {
       "name": "Munkidori",
@@ -49931,31 +49866,13 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Shadow Claw",
-        "Scratch",
         "Poison Jab",
-        "Mud Slap",
-        "Confusion",
-        "Hex"
+        "Confusion"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Psybeam",
-        "Psyshock",
-        "Shadow Ball",
         "Sludge Bomb",
-        "Sludge Wave",
-        "Gunk Shot",
         "Psychic",
-        "Swift",
-        "Rest",
-        "Focus Blast",
-        "Night Shade",
-        "Grass Knot",
-        "Acid Spray",
-        "Giga Impact",
-        "Poltergeist",
-        "Trailblaze"
+        "Futuresight"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -49967,7 +49884,15 @@
       },
       "attack": 261,
       "defense": 172,
-      "stamina": 204
+      "stamina": 204,
+      "height": 1,
+      "weight": 12.2,
+      "family": "FAMILY_MUNKIDORI",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1016": {
       "name": "Fezandipiti",
@@ -49978,40 +49903,13 @@
         "Fairy"
       ],
       "quick_moves": [
-        "Wing Attack",
-        "Peck",
-        "Shadow Claw",
-        "Quick Attack",
         "Poison Jab",
-        "Air Slash",
-        "Hex",
-        "Take Down",
-        "Charm",
-        "Double Kick"
+        "Charm"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Heat Wave",
-        "Aerial Ace",
-        "Shadow Ball",
         "Disarming Voice",
-        "Dazzling Gleam",
         "Moonblast",
-        "Play Rough",
-        "Cross Poison",
-        "Sludge Bomb",
-        "Gunk Shot",
-        "Icy Wind",
-        "Air Cutter",
-        "Hurricane",
-        "Swift",
-        "Rest",
-        "Brave Bird",
-        "Acid Spray",
-        "Giga Impact",
-        "Fly",
-        "Acrobatics"
+        "Sludge Bomb"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50023,7 +49921,15 @@
       },
       "attack": 185,
       "defense": 228,
-      "stamina": 204
+      "stamina": 204,
+      "height": 1.4,
+      "weight": 30.1,
+      "family": "FAMILY_FEZANDIPITI",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1017": {
       "name": "Ogerpon",
@@ -50033,32 +49939,14 @@
         "Grass"
       ],
       "quick_moves": [
-        "Low Kick",
         "Vine Whip",
-        "Quick Attack",
-        "Zen Headbutt",
-        "Counter",
-        "Bullet Seed",
-        "Take Down",
-        "Charm",
         "Double Kick",
         "Magical Leaf"
       ],
       "charged_moves": [
-        "Low Sweep",
-        "Seed Bomb",
-        "Rock Tomb",
         "Play Rough",
-        "Giga Drain",
-        "Solar Beam",
         "Power Whip",
-        "Brick Break",
-        "Rest",
-        "Grass Knot",
-        "Energy Ball",
-        "Giga Impact",
-        "Leaf Storm",
-        "Trailblaze"
+        "Grass Knot"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50086,7 +49974,15 @@
       },
       "attack": 241,
       "defense": 196,
-      "stamina": 190
+      "stamina": 190,
+      "height": 1.2,
+      "weight": 39.8,
+      "family": "FAMILY_OGERPON",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1018": {
       "name": "Archaludon",
@@ -50098,41 +49994,12 @@
       ],
       "quick_moves": [
         "Metal Claw",
-        "Rock Smash",
-        "Dragon Tail",
-        "Snarl",
-        "Take Down",
-        "Smack Down",
-        "Metal Sound"
+        "Dragon Tail"
       ],
       "charged_moves": [
         "Hyper Beam",
-        "Dark Pulse",
-        "Earthquake",
-        "Stone Edge",
         "Flash Cannon",
-        "Night Slash",
-        "Rock Tomb",
-        "Rock Slide",
-        "Iron Head",
-        "Thunder",
-        "Thunderbolt",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Solar Beam",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Gyro Ball",
-        "Heavy Slam",
-        "Mirror Coat",
-        "Outrage",
-        "Foul Play",
-        "Draco Meteor",
-        "Giga Impact",
-        "Aura Sphere",
-        "Meteor Beam",
-        "Breaking Swipe"
+        "Dragon Claw"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50144,7 +50011,16 @@
       },
       "attack": 250,
       "defense": 215,
-      "stamina": 207
+      "stamina": 207,
+      "height": 2,
+      "weight": 60,
+      "family": 884,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "1019": {
       "name": "Hydrapple",
@@ -50155,38 +50031,14 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bug Bite",
-        "Sucker Punch",
-        "Dragon Breath",
         "Dragon Tail",
-        "Infestation",
-        "Astonish",
         "Bullet Seed",
-        "Take Down",
-        "Magical Leaf",
         "Rollout"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
         "Seed Bomb",
         "Dragon Pulse",
-        "Hydro Pump",
-        "Giga Drain",
-        "Solar Beam",
-        "Power Whip",
-        "Body Slam",
-        "Rest",
-        "Gyro Ball",
-        "Heavy Slam",
-        "Grass Knot",
-        "Energy Ball",
-        "Outrage",
-        "Draco Meteor",
-        "Earth Power",
-        "Giga Impact",
-        "Leaf Storm",
-        "Breaking Swipe"
+        "Outrage"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50198,7 +50050,16 @@
       },
       "attack": 216,
       "defense": 186,
-      "stamina": 235
+      "stamina": 235,
+      "height": 1.8,
+      "weight": 93,
+      "family": 840,
+      "legendary": false,
+      "mythic": false,
+      "buddy_distance": 5,
+      "third_move_stardust": 75000,
+      "third_move_candy": 75,
+      "gym_defender_eligible": true
     },
     "1020": {
       "name": "Gougingfire",
@@ -50209,40 +50070,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Bite",
-        "Fire Fang",
-        "Dragon Tail",
-        "Fire Spin",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang",
-        "Incinerate",
-        "Double Kick"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flamethrower",
-        "Earthquake",
-        "Stone Edge",
-        "Heat Wave",
-        "Ancient Power",
-        "Iron Head",
-        "Dragon Pulse",
-        "Dragon Claw",
-        "Bulldoze",
-        "Flame Charge",
-        "Fire Blast",
-        "Stomp",
-        "Body Slam",
-        "Rest",
-        "Overheat",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Giga Impact",
-        "Psychic Fangs",
-        "Breaking Swipe",
-        "Scorching Sands"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50254,7 +50085,15 @@
       },
       "attack": 225,
       "defense": 228,
-      "stamina": 233
+      "stamina": 233,
+      "height": 3.5,
+      "weight": 590,
+      "family": "FAMILY_GOUGINGFIRE",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1021": {
       "name": "Ragingbolt",
@@ -50265,35 +50104,10 @@
         "Dragon"
       ],
       "quick_moves": [
-        "Dragon Breath",
-        "Charge Beam",
-        "Volt Switch",
-        "Dragon Tail",
-        "Snarl",
-        "Take Down",
-        "Thunder Fang"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Earthquake",
-        "Discharge",
-        "Ancient Power",
-        "Thunder",
-        "Thunderbolt",
-        "Twister",
-        "Dragon Pulse",
-        "Solar Beam",
-        "Stomp",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Zap Cannon",
-        "Heavy Slam",
-        "Outrage",
-        "Crunch",
-        "Draco Meteor",
-        "Giga Impact",
-        "Breaking Swipe"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50305,7 +50119,15 @@
       },
       "attack": 235,
       "defense": 165,
-      "stamina": 245
+      "stamina": 245,
+      "height": 5.2,
+      "weight": 480,
+      "family": "FAMILY_RAGINGBOLT",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1022": {
       "name": "Ironboulder",
@@ -50316,37 +50138,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Quick Attack",
-        "Poison Jab",
-        "Psycho Cut",
-        "Rock Throw",
-        "Zen Headbutt",
-        "Counter",
-        "Air Slash",
-        "Take Down"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Megahorn",
-        "Earthquake",
-        "Stone Edge",
-        "Aerial Ace",
-        "Psyshock",
-        "Rock Tomb",
-        "Iron Head",
-        "Bulldoze",
-        "X Scissor",
-        "Psychic",
-        "Brick Break",
-        "Horn Attack",
-        "Body Slam",
-        "Rest",
-        "Close Combat",
-        "Wild Charge",
-        "Rock Blast",
-        "Giga Impact",
-        "Sacred Sword",
-        "Meteor Beam"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50358,7 +50153,15 @@
       },
       "attack": 249,
       "defense": 214,
-      "stamina": 207
+      "stamina": 207,
+      "height": 1.5,
+      "weight": 162.5,
+      "family": "FAMILY_IRONBOULDER",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1023": {
       "name": "Ironcrown",
@@ -50369,30 +50172,10 @@
         "Psychic"
       ],
       "quick_moves": [
-        "Psycho Cut",
-        "Metal Claw",
-        "Zen Headbutt",
-        "Confusion",
-        "Volt Switch",
-        "Air Slash",
-        "Take Down",
-        "Metal Sound"
+        "Splash"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Flash Cannon",
-        "Psyshock",
-        "Iron Head",
-        "Bulldoze",
-        "X Scissor",
-        "Psychic",
-        "Brick Break",
-        "Body Slam",
-        "Rest",
-        "Focus Blast",
-        "Heavy Slam",
-        "Giga Impact",
-        "Sacred Sword"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50404,7 +50187,15 @@
       },
       "attack": 243,
       "defense": 220,
-      "stamina": 207
+      "stamina": 207,
+      "height": 1.6,
+      "weight": 156,
+      "family": "FAMILY_IRONCROWN",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1024": {
       "name": "Terapagos",
@@ -50414,42 +50205,10 @@
         "Normal"
       ],
       "quick_moves": [
-        "Zen Headbutt",
         "Take Down"
       ],
       "charged_moves": [
-        "Hyper Beam",
-        "Dark Pulse",
-        "Flamethrower",
-        "Earthquake",
-        "Stone Edge",
-        "Flash Cannon",
-        "Ice Beam",
-        "Bug Buzz",
-        "Ancient Power",
-        "Rock Slide",
-        "Power Gem",
-        "Iron Head",
-        "Thunder",
-        "Thunderbolt",
-        "Dragon Pulse",
-        "Dazzling Gleam",
-        "Water Pulse",
-        "Solar Beam",
-        "Body Slam",
-        "Rest",
-        "Wild Charge",
-        "Gyro Ball",
-        "Heavy Slam",
-        "Energy Ball",
-        "Crunch",
-        "Surf",
-        "Earth Power",
-        "Giga Impact",
-        "Aura Sphere",
-        "Tri Attack",
-        "Meteor Beam",
-        "Scorching Sands"
+        "Struggle"
       ],
       "gen_id": 9,
       "generation": "Paldea",
@@ -50479,7 +50238,15 @@
       },
       "attack": 126,
       "defense": 165,
-      "stamina": 207
+      "stamina": 207,
+      "height": 0.2,
+      "weight": 6.5,
+      "family": "FAMILY_TERAPAGOS",
+      "legendary": true,
+      "mythic": false,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     },
     "1025": {
       "name": "Pecharunt",
@@ -50490,19 +50257,11 @@
         "Ghost"
       ],
       "quick_moves": [
-        "Astonish",
-        "Hex",
-        "Rollout"
+        "Astonish"
       ],
       "charged_moves": [
         "Shadow Ball",
-        "Sludge Bomb",
-        "Sludge Wave",
         "Gunk Shot",
-        "Rest",
-        "Night Shade",
-        "Foul Play",
-        "Acid Spray",
         "Poltergeist"
       ],
       "gen_id": 9,
@@ -50515,7 +50274,15 @@
       },
       "attack": 181,
       "defense": 273,
-      "stamina": 204
+      "stamina": 204,
+      "height": 0.3,
+      "weight": 0.3,
+      "family": "FAMILY_PECHARUNT",
+      "legendary": false,
+      "mythic": true,
+      "buddy_distance": 20,
+      "third_move_stardust": 100000,
+      "third_move_candy": 100
     }
   },
   "types": {
@@ -51322,6 +51089,13 @@
       "type": "Evolution Requirement",
       "category": "Evolution Requirement",
       "min_trainer_level": 1
+    },
+    "1155": {
+      "name": "Other Evolution Stone Maple C",
+      "proto": "ITEM_OTHER_EVOLUTION_STONE_MAPLE_C",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "min_trainer_level": 10
     },
     "1201": {
       "name": "Move Reroll Fast Attack",

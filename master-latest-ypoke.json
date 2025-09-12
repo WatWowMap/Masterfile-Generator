@@ -21743,7 +21743,6 @@
       ],
       "chargedMoves": [
         60,
-        60,
         70,
         273
       ],
@@ -55584,9 +55583,16 @@
       "pokemonName": "Walkingwake",
       "pokedexId": 1009,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "quickMoves": [
+        231
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55595,15 +55601,36 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 233,
+        "defense": 171,
+        "stamina": 203
+      },
+      "family": "FAMILY_WALKINGWAKE",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1010": {
       "pokemonName": "Ironleaves",
       "pokedexId": 1010,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "quickMoves": [
+        231
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55612,15 +55639,40 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 236,
+        "defense": 194,
+        "stamina": 189
+      },
+      "family": "FAMILY_IRONLEAVES",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1011": {
       "pokemonName": "Dipplin",
       "pokedexId": 1011,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "quickMoves": [
+        253,
+        271,
+        368
+      ],
+      "chargedMoves": [
+        59,
+        82,
+        277
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55629,15 +55681,42 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 173,
+        "defense": 184,
+        "stamina": 190
+      },
+      "family": 840,
+      "bonusCandyCapture": 2,
+      "bonusStardustCapture": 200,
+      "legendary": false,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true
     },
     "1012": {
       "pokemonName": "Poltchageist",
       "pokedexId": 1012,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "quickMoves": [
+        263,
+        357
+      ],
+      "chargedMoves": [
+        70,
+        273,
+        376
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55654,15 +55733,40 @@
           "formName": "Artisan",
           "formId": 2872
         }
-      }
+      },
+      "stats": {
+        "attack": 134,
+        "defense": 96,
+        "stamina": 120
+      },
+      "family": "FAMILY_POLTCHAGEIST",
+      "legendary": false,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true
     },
     "1013": {
       "pokemonName": "Sinistcha",
       "pokedexId": 1013,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "quickMoves": [
+        263,
+        357
+      ],
+      "chargedMoves": [
+        70,
+        273,
+        376
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55679,15 +55783,42 @@
           "formName": "Masterpiece",
           "formId": 2874
         }
-      }
+      },
+      "stats": {
+        "attack": 225,
+        "defense": 191,
+        "stamina": 174
+      },
+      "family": "FAMILY_POLTCHAGEIST",
+      "bonusCandyCapture": 2,
+      "bonusStardustCapture": 200,
+      "legendary": false,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 3,
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true
     },
     "1014": {
       "pokemonName": "Okidogi",
       "pokedexId": 1014,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Fighting",
+        "Poison"
+      ],
+      "quickMoves": [
+        224,
+        462
+      ],
+      "chargedMoves": [
+        90,
+        310,
+        471
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55696,15 +55827,39 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 220,
+        "defense": 191,
+        "stamina": 186
+      },
+      "family": "FAMILY_OKIDOGI",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1015": {
       "pokemonName": "Munkidori",
       "pokedexId": 1015,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Poison",
+        "Psychic"
+      ],
+      "quickMoves": [
+        224,
+        235
+      ],
+      "chargedMoves": [
+        90,
+        108,
+        275
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55713,15 +55868,39 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 238,
+        "defense": 157,
+        "stamina": 186
+      },
+      "family": "FAMILY_MUNKIDORI",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1016": {
       "pokemonName": "Fezandipiti",
       "pokedexId": 1016,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Poison",
+        "Fairy"
+      ],
+      "quickMoves": [
+        224,
+        320
+      ],
+      "chargedMoves": [
+        84,
+        87,
+        90
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55730,15 +55909,39 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 169,
+        "defense": 208,
+        "stamina": 186
+      },
+      "family": "FAMILY_FEZANDIPITI",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1017": {
       "pokemonName": "Ogerpon",
       "pokedexId": 1017,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Grass"
+      ],
+      "quickMoves": [
+        214,
+        356,
+        357
+      ],
+      "chargedMoves": [
+        88,
+        118,
+        272
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55763,15 +55966,39 @@
           "formName": "Cornerstone",
           "formId": 2879
         }
-      }
+      },
+      "stats": {
+        "attack": 219,
+        "defense": 178,
+        "stamina": 173
+      },
+      "family": "FAMILY_OGERPON",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1018": {
       "pokemonName": "Archaludon",
       "pokedexId": 1018,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Steel",
+        "Dragon"
+      ],
+      "quickMoves": [
+        228,
+        253
+      ],
+      "chargedMoves": [
+        14,
+        36,
+        83
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55780,15 +56007,43 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 250,
+        "defense": 215,
+        "stamina": 207
+      },
+      "family": 884,
+      "bonusCandyCapture": 2,
+      "bonusStardustCapture": 200,
+      "legendary": false,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true
     },
     "1019": {
       "pokemonName": "Hydrapple",
       "pokedexId": 1019,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Grass",
+        "Dragon"
+      ],
+      "quickMoves": [
+        253,
+        271,
+        368
+      ],
+      "chargedMoves": [
+        59,
+        82,
+        277
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55797,15 +56052,39 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 216,
+        "defense": 186,
+        "stamina": 235
+      },
+      "family": 840,
+      "bonusCandyCapture": 7,
+      "bonusStardustCapture": 700,
+      "legendary": false,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 5,
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75,
+      "gymDefenderEligible": true,
+      "tradable": true,
+      "transferable": true
     },
     "1020": {
       "pokemonName": "Gougingfire",
       "pokedexId": 1020,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Fire",
+        "Dragon"
+      ],
+      "quickMoves": [
+        231
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55814,15 +56093,36 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 205,
+        "defense": 208,
+        "stamina": 213
+      },
+      "family": "FAMILY_GOUGINGFIRE",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1021": {
       "pokemonName": "Ragingbolt",
       "pokedexId": 1021,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "quickMoves": [
+        231
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55831,15 +56131,36 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 235,
+        "defense": 165,
+        "stamina": 245
+      },
+      "family": "FAMILY_RAGINGBOLT",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1022": {
       "pokemonName": "Ironboulder",
       "pokedexId": 1022,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Rock",
+        "Psychic"
+      ],
+      "quickMoves": [
+        231
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55848,15 +56169,36 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 227,
+        "defense": 195,
+        "stamina": 189
+      },
+      "family": "FAMILY_IRONBOULDER",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1023": {
       "pokemonName": "Ironcrown",
       "pokedexId": 1023,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "quickMoves": [
+        231
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55865,15 +56207,35 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 221,
+        "defense": 200,
+        "stamina": 189
+      },
+      "family": "FAMILY_IRONCROWN",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1024": {
       "pokemonName": "Terapagos",
       "pokedexId": 1024,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Normal"
+      ],
+      "quickMoves": [
+        282
+      ],
+      "chargedMoves": [
+        133
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55900,15 +56262,38 @@
             "stamina": 330
           }
         }
-      }
+      },
+      "stats": {
+        "attack": 126,
+        "defense": 165,
+        "stamina": 207
+      },
+      "family": "FAMILY_TERAPAGOS",
+      "legendary": true,
+      "mythic": false,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     },
     "1025": {
       "pokemonName": "Pecharunt",
       "pokedexId": 1025,
       "defaultFormId": 0,
-      "types": [],
-      "quickMoves": [],
-      "chargedMoves": [],
+      "types": [
+        "Poison",
+        "Ghost"
+      ],
+      "quickMoves": [
+        263
+      ],
+      "chargedMoves": [
+        70,
+        92,
+        376
+      ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
       "generation": "Paldea",
@@ -55917,7 +56302,21 @@
           "formName": "Unset",
           "formId": 0
         }
-      }
+      },
+      "stats": {
+        "attack": 164,
+        "defense": 248,
+        "stamina": 186
+      },
+      "family": "FAMILY_PECHARUNT",
+      "legendary": false,
+      "mythic": true,
+      "ultraBeast": false,
+      "buddyDistance": 20,
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100,
+      "tradable": true,
+      "transferable": true
     }
   },
   "types": {
@@ -56249,6 +56648,11 @@
       "name": "Resource Crowned Zamazenta",
       "type": "Evolution Requirement",
       "minTrainerLevel": 1
+    },
+    "1155": {
+      "name": "Other Evolution Stone Maple C",
+      "type": "Evolution Requirement",
+      "minTrainerLevel": 10
     },
     "1201": {
       "name": "Move Reroll Fast Attack",
