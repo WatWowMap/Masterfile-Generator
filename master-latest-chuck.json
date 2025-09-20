@@ -18514,13 +18514,33 @@
         12
       ],
       "forms": {
-        "0": {},
-        "2871": {},
-        "2872": {}
+        "2871": {
+          "evolutions": [
+            {
+              "pokemon": 1013,
+              "form": "SINISTCHA_UNREMARKABLE"
+            }
+          ]
+        },
+        "2872": {
+          "evolutions": [
+            {
+              "pokemon": 1013,
+              "form": "SINISTCHA_MASTERPIECE"
+            }
+          ]
+        }
       },
       "attack": 134,
       "defense": 96,
-      "stamina": 120
+      "stamina": 120,
+      "evolutions": [
+        {
+          "pokemon": 1013,
+          "form": "SINISTCHA_UNREMARKABLE"
+        }
+      ],
+      "little": true
     },
     "1013": {
       "types": [
@@ -18528,7 +18548,6 @@
         12
       ],
       "forms": {
-        "0": {},
         "2873": {},
         "2874": {}
       },

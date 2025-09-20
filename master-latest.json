@@ -49731,7 +49731,7 @@
     "1012": {
       "name": "Poltchageist",
       "pokedex_id": 1012,
-      "default_form_id": 0,
+      "default_form_id": 2871,
       "types": [
         "Ghost",
         "Grass"
@@ -49748,17 +49748,25 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2871": {
           "name": "Counterfeit",
-          "proto": "POLTCHAGEIST_COUNTERFEIT"
+          "proto": "POLTCHAGEIST_COUNTERFEIT",
+          "evolutions": [
+            {
+              "pokemon": 1013,
+              "form": "SINISTCHA_UNREMARKABLE"
+            }
+          ]
         },
         "2872": {
           "name": "Artisan",
-          "proto": "POLTCHAGEIST_ARTISAN"
+          "proto": "POLTCHAGEIST_ARTISAN",
+          "evolutions": [
+            {
+              "pokemon": 1013,
+              "form": "SINISTCHA_MASTERPIECE"
+            }
+          ]
         }
       },
       "attack": 134,
@@ -49769,15 +49777,23 @@
       "family": 1012,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "evolutions": [
+        {
+          "pokemon": 1013,
+          "form": "SINISTCHA_UNREMARKABLE"
+        }
+      ],
+      "little": true
     },
     "1013": {
       "name": "Sinistcha",
       "pokedex_id": 1013,
-      "default_form_id": 0,
+      "default_form_id": 2873,
       "types": [
         "Ghost",
         "Grass"
@@ -49794,10 +49810,6 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2873": {
           "name": "Unremarkable",
           "proto": "SINISTCHA_UNREMARKABLE"
@@ -49815,6 +49827,7 @@
       "family": 1012,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,

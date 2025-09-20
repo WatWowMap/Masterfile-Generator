@@ -55705,7 +55705,7 @@
     "1012": {
       "pokemonName": "Poltchageist",
       "pokedexId": 1012,
-      "defaultFormId": 0,
+      "defaultFormId": 2871,
       "types": [
         "Ghost",
         "Grass"
@@ -55723,17 +55723,27 @@
       "eliteChargedMoves": [],
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
-        },
         "2871": {
           "formName": "Counterfeit",
-          "formId": 2871
+          "formId": 2871,
+          "evolutions": [
+            {
+              "evoId": 1013,
+              "formId": "SINISTCHA_UNREMARKABLE",
+              "candyCost": 50
+            }
+          ]
         },
         "2872": {
           "formName": "Artisan",
-          "formId": 2872
+          "formId": 2872,
+          "evolutions": [
+            {
+              "evoId": 1013,
+              "formId": "SINISTCHA_MASTERPIECE",
+              "candyCost": 400
+            }
+          ]
         }
       },
       "stats": {
@@ -55745,17 +55755,25 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 1013,
+          "formId": "SINISTCHA_UNREMARKABLE",
+          "candyCost": 50
+        }
+      ]
     },
     "1013": {
       "pokemonName": "Sinistcha",
       "pokedexId": 1013,
-      "defaultFormId": 0,
+      "defaultFormId": 2873,
       "types": [
         "Ghost",
         "Grass"
@@ -55773,10 +55791,6 @@
       "eliteChargedMoves": [],
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
-        },
         "2873": {
           "formName": "Unremarkable",
           "formId": 2873
@@ -55797,6 +55811,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,

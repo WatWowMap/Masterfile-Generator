@@ -75475,7 +75475,7 @@
     "1012": {
       "pokemonName": "Poltchageist",
       "pokedexId": 1012,
-      "defaultFormId": 0,
+      "defaultFormId": 2871,
       "types": [
         8,
         12
@@ -75494,7 +75494,6 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0,
         2871,
         2872
       ],
@@ -75533,18 +75532,27 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "unreleased": true
+      "evolutions": [
+        {
+          "evoId": 1013,
+          "formId": "SINISTCHA_UNREMARKABLE",
+          "candyCost": 50
+        }
+      ],
+      "unreleased": true,
+      "little": true
     },
     "1013": {
       "pokemonName": "Sinistcha",
       "pokedexId": 1013,
-      "defaultFormId": 0,
+      "defaultFormId": 2873,
       "types": [
         8,
         12
@@ -75563,7 +75571,6 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0,
         2873,
         2874
       ],
@@ -75604,6 +75611,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -88361,12 +88369,26 @@
     "2871": {
       "formName": "Counterfeit",
       "proto": "POLTCHAGEIST_COUNTERFEIT",
-      "formId": 2871
+      "formId": 2871,
+      "evolutions": [
+        {
+          "evoId": 1013,
+          "formId": "SINISTCHA_UNREMARKABLE",
+          "candyCost": 50
+        }
+      ]
     },
     "2872": {
       "formName": "Artisan",
       "proto": "POLTCHAGEIST_ARTISAN",
-      "formId": 2872
+      "formId": 2872,
+      "evolutions": [
+        {
+          "evoId": 1013,
+          "formId": "SINISTCHA_MASTERPIECE",
+          "candyCost": 400
+        }
+      ]
     },
     "2873": {
       "formName": "Unremarkable",
@@ -88807,6 +88829,118 @@
       "formId": 3019,
       "purificationDust": 3000,
       "purificationCandy": 3
+    },
+    "POLTCHAGEIST_ARTISAN": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.049
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.05
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.075
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.125
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.15
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.155
+        }
+      ]
+    },
+    "POLTCHAGEIST_COUNTERFEIT": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.049
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.05
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.075
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.125
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.15
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.155
+        }
+      ]
+    },
+    "SINISTCHA_MASTERPIECE": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.098
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.1
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.15
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.25
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.3
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.31
+        }
+      ]
+    },
+    "SINISTCHA_UNREMARKABLE": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.098
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.1
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.15
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.25
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.3
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.31
+        }
+      ]
     }
   },
   "types": {
