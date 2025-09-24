@@ -797,7 +797,7 @@
     "10": {
       "pokemonName": "Caterpie",
       "pokedexId": 10,
-      "defaultFormId": 0,
+      "defaultFormId": 953,
       "types": [
         7
       ],
@@ -813,7 +813,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         953
       ],
       "sizeSettings": [
@@ -861,6 +860,7 @@
       "evolutions": [
         {
           "evoId": 11,
+          "formId": 956,
           "candyCost": 12
         }
       ],
@@ -871,7 +871,7 @@
     "11": {
       "pokemonName": "Metapod",
       "pokedexId": 11,
-      "defaultFormId": 0,
+      "defaultFormId": 956,
       "types": [
         7
       ],
@@ -887,7 +887,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         956
       ],
       "sizeSettings": [
@@ -937,6 +936,7 @@
       "evolutions": [
         {
           "evoId": 12,
+          "formId": 959,
           "candyCost": 50
         }
       ],
@@ -946,7 +946,7 @@
     "12": {
       "pokemonName": "Butterfree",
       "pokedexId": 12,
-      "defaultFormId": 0,
+      "defaultFormId": 959,
       "types": [
         3,
         7
@@ -967,7 +967,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         959
       ],
       "sizeSettings": [
@@ -7240,7 +7239,7 @@
     "92": {
       "pokemonName": "Gastly",
       "pokedexId": 92,
-      "defaultFormId": 0,
+      "defaultFormId": 1038,
       "types": [
         4,
         8
@@ -7263,7 +7262,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         1038
       ],
       "sizeSettings": [
@@ -7312,6 +7310,7 @@
       "evolutions": [
         {
           "evoId": 93,
+          "formId": 1041,
           "candyCost": 25
         }
       ],
@@ -7322,7 +7321,7 @@
     "93": {
       "pokemonName": "Haunter",
       "pokedexId": 93,
-      "defaultFormId": 0,
+      "defaultFormId": 1041,
       "types": [
         4,
         8
@@ -7345,7 +7344,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         1041
       ],
       "sizeSettings": [
@@ -7396,6 +7394,7 @@
       "evolutions": [
         {
           "evoId": 94,
+          "formId": 1044,
           "candyCost": 100,
           "tradeBonus": true
         }
@@ -8886,7 +8885,7 @@
     "113": {
       "pokemonName": "Chansey",
       "pokedexId": 113,
-      "defaultFormId": 0,
+      "defaultFormId": 1056,
       "types": [
         1
       ],
@@ -8904,7 +8903,6 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        0,
         1056
       ],
       "sizeSettings": [
@@ -8952,6 +8950,7 @@
       "evolutions": [
         {
           "evoId": 242,
+          "formId": 1328,
           "candyCost": 50
         }
       ]
@@ -16139,6 +16138,16 @@
       "evolutions": [
         {
           "evoId": 982,
+          "formId": 2994,
+          "candyCost": 50
+        },
+        {
+          "evoId": 982,
+          "formId": 2995,
+          "candyCost": 50
+        },
+        {
+          "evoId": 982,
           "formId": 2994
         }
       ],
@@ -19016,7 +19025,7 @@
     "242": {
       "pokemonName": "Blissey",
       "pokedexId": 242,
-      "defaultFormId": 0,
+      "defaultFormId": 1328,
       "types": [
         1
       ],
@@ -19036,7 +19045,6 @@
       "genId": 2,
       "generation": "Johto",
       "forms": [
-        0,
         1328
       ],
       "sizeSettings": [
@@ -24974,7 +24982,7 @@
     "320": {
       "pokemonName": "Wailmer",
       "pokedexId": 320,
-      "defaultFormId": 0,
+      "defaultFormId": 1511,
       "types": [
         11
       ],
@@ -24994,7 +25002,6 @@
       "genId": 3,
       "generation": "Hoenn",
       "forms": [
-        0,
         1511
       ],
       "sizeSettings": [
@@ -25042,6 +25049,7 @@
       "evolutions": [
         {
           "evoId": 321,
+          "formId": 1514,
           "candyCost": 400
         }
       ],
@@ -25052,7 +25060,7 @@
     "321": {
       "pokemonName": "Wailord",
       "pokedexId": 321,
-      "defaultFormId": 0,
+      "defaultFormId": 1514,
       "types": [
         11
       ],
@@ -25072,7 +25080,6 @@
       "genId": 3,
       "generation": "Hoenn",
       "forms": [
-        0,
         1514
       ],
       "sizeSettings": [
@@ -34089,7 +34096,7 @@
     "440": {
       "pokemonName": "Happiny",
       "pokedexId": 440,
-      "defaultFormId": 0,
+      "defaultFormId": 1778,
       "types": [
         1
       ],
@@ -34105,7 +34112,6 @@
       "genId": 4,
       "generation": "Sinnoh",
       "forms": [
-        0,
         1778
       ],
       "sizeSettings": [
@@ -34153,6 +34159,7 @@
       "evolutions": [
         {
           "evoId": 113,
+          "formId": 1056,
           "candyCost": 25,
           "questRequirement": "CHANSEY_EVOLUTION_QUEST"
         }
@@ -40683,7 +40690,7 @@
     "529": {
       "pokemonName": "Drilbur",
       "pokedexId": 529,
-      "defaultFormId": 0,
+      "defaultFormId": 1991,
       "types": [
         5
       ],
@@ -40701,7 +40708,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         1991
       ],
       "sizeSettings": [
@@ -40749,6 +40755,7 @@
       "evolutions": [
         {
           "evoId": 530,
+          "formId": 1994,
           "candyCost": 50
         }
       ],
@@ -40759,7 +40766,7 @@
     "530": {
       "pokemonName": "Excadrill",
       "pokedexId": 530,
-      "defaultFormId": 0,
+      "defaultFormId": 1994,
       "types": [
         5,
         9
@@ -40781,7 +40788,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         1994
       ],
       "sizeSettings": [
@@ -47064,7 +47070,7 @@
     "615": {
       "pokemonName": "Cryogonal",
       "pokedexId": 615,
-      "defaultFormId": 0,
+      "defaultFormId": 2237,
       "types": [
         15
       ],
@@ -47084,7 +47090,6 @@
       "genId": 5,
       "generation": "Unova",
       "forms": [
-        0,
         2237
       ],
       "sizeSettings": [
@@ -75542,7 +75547,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "formId": "SINISTCHA_UNREMARKABLE",
+          "formId": 2873,
           "candyCost": 50
         }
       ],
@@ -80974,17 +80979,37 @@
     "953": {
       "formName": "Normal",
       "proto": "CATERPIE_NORMAL",
-      "formId": 953
+      "formId": 953,
+      "evolutions": [
+        {
+          "evoId": 11,
+          "formId": 956,
+          "candyCost": 12
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "956": {
       "formName": "Normal",
       "proto": "METAPOD_NORMAL",
-      "formId": 956
+      "formId": 956,
+      "evolutions": [
+        {
+          "evoId": 12,
+          "formId": 959,
+          "candyCost": 50
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "959": {
       "formName": "Normal",
       "proto": "BUTTERFREE_NORMAL",
-      "formId": 959
+      "formId": 959,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "962": {
       "formName": "Normal",
@@ -81151,12 +81176,31 @@
     "1038": {
       "formName": "Normal",
       "proto": "GASTLY_NORMAL",
-      "formId": 1038
+      "formId": 1038,
+      "evolutions": [
+        {
+          "evoId": 93,
+          "formId": 1041,
+          "candyCost": 25
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1041": {
       "formName": "Normal",
       "proto": "HAUNTER_NORMAL",
-      "formId": 1041
+      "formId": 1041,
+      "evolutions": [
+        {
+          "evoId": 94,
+          "formId": 1044,
+          "candyCost": 100,
+          "tradeBonus": true
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1044": {
       "formName": "Normal",
@@ -81206,7 +81250,14 @@
     "1056": {
       "formName": "Normal",
       "proto": "CHANSEY_NORMAL",
-      "formId": 1056
+      "formId": 1056,
+      "evolutions": [
+        {
+          "evoId": 242,
+          "formId": 1328,
+          "candyCost": 50
+        }
+      ]
     },
     "1059": {
       "formName": "Normal",
@@ -82408,12 +82459,23 @@
     "1511": {
       "formName": "Normal",
       "proto": "WAILMER_NORMAL",
-      "formId": 1511
+      "formId": 1511,
+      "evolutions": [
+        {
+          "evoId": 321,
+          "formId": 1514,
+          "candyCost": 400
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "1514": {
       "formName": "Normal",
       "proto": "WAILORD_NORMAL",
-      "formId": 1514
+      "formId": 1514,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "1517": {
       "formName": "Normal",
@@ -82987,7 +83049,15 @@
     "1778": {
       "formName": "Normal",
       "proto": "HAPPINY_NORMAL",
-      "formId": 1778
+      "formId": 1778,
+      "evolutions": [
+        {
+          "evoId": 113,
+          "formId": 1056,
+          "candyCost": 25,
+          "questRequirement": "CHANSEY_EVOLUTION_QUEST"
+        }
+      ]
     },
     "1781": {
       "formName": "Normal",
@@ -83384,12 +83454,23 @@
     "1991": {
       "formName": "Normal",
       "proto": "DRILBUR_NORMAL",
-      "formId": 1991
+      "formId": 1991,
+      "evolutions": [
+        {
+          "evoId": 530,
+          "formId": 1994,
+          "candyCost": 50
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1994": {
       "formName": "Normal",
       "proto": "EXCADRILL_NORMAL",
-      "formId": 1994
+      "formId": 1994,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1997": {
       "formName": "Normal",
@@ -88373,7 +88454,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "formId": "SINISTCHA_UNREMARKABLE",
+          "formId": 2873,
           "candyCost": 50
         }
       ]
@@ -88385,7 +88466,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "formId": "SINISTCHA_MASTERPIECE",
+          "formId": 2874,
           "candyCost": 400
         }
       ]
@@ -88829,118 +88910,6 @@
       "formId": 3019,
       "purificationDust": 3000,
       "purificationCandy": 3
-    },
-    "POLTCHAGEIST_ARTISAN": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.049
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.075
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.125
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.155
-        }
-      ]
-    },
-    "POLTCHAGEIST_COUNTERFEIT": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.049
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.075
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.125
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.155
-        }
-      ]
-    },
-    "SINISTCHA_MASTERPIECE": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.098
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.1
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.15
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.25
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.3
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.31
-        }
-      ]
-    },
-    "SINISTCHA_UNREMARKABLE": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.098
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.1
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.15
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.25
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.3
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.31
-        }
-      ]
     }
   },
   "types": {

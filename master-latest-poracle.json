@@ -768,7 +768,7 @@
       "evolutions": [
         {
           "evoId": 11,
-          "id": 0,
+          "id": 956,
           "candyCost": 12
         }
       ]
@@ -792,7 +792,14 @@
         "baseStamina": 128
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 11,
+          "id": 956,
+          "candyCost": 12
+        }
+      ]
     },
     "11_0": {
       "name": "Metapod",
@@ -817,7 +824,7 @@
       "evolutions": [
         {
           "evoId": 12,
-          "id": 0,
+          "id": 959,
           "candyCost": 50
         }
       ]
@@ -841,7 +848,14 @@
         "baseStamina": 137
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 12,
+          "id": 959,
+          "candyCost": 50
+        }
+      ]
     },
     "12_0": {
       "name": "Butterfree",
@@ -7274,7 +7288,7 @@
       "evolutions": [
         {
           "evoId": 93,
-          "id": 0,
+          "id": 1041,
           "candyCost": 25
         }
       ]
@@ -7302,7 +7316,14 @@
         "baseStamina": 102
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 93,
+          "id": 1041,
+          "candyCost": 25
+        }
+      ]
     },
     "93_0": {
       "name": "Haunter",
@@ -7331,7 +7352,7 @@
       "evolutions": [
         {
           "evoId": 94,
-          "id": 0,
+          "id": 1044,
           "candyCost": 100,
           "tradeBonus": true
         }
@@ -7360,7 +7381,15 @@
         "baseStamina": 128
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 94,
+          "id": 1044,
+          "candyCost": 100,
+          "tradeBonus": true
+        }
+      ]
     },
     "94_0": {
       "name": "Gengar",
@@ -8617,7 +8646,7 @@
       "evolutions": [
         {
           "evoId": 242,
-          "id": 0,
+          "id": 1328,
           "candyCost": 50
         }
       ]
@@ -8641,7 +8670,14 @@
         "baseStamina": 487
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "evolutions": [
+        {
+          "evoId": 242,
+          "id": 1328,
+          "candyCost": 50
+        }
+      ]
     },
     "114_0": {
       "name": "Tangela",
@@ -14823,6 +14859,16 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "evolutions": [
+        {
+          "evoId": 982,
+          "id": 2994,
+          "candyCost": 50
+        },
+        {
+          "evoId": 982,
+          "id": 2995,
+          "candyCost": 50
+        },
         {
           "evoId": 982,
           "id": 2994
@@ -21562,7 +21608,7 @@
       "evolutions": [
         {
           "evoId": 321,
-          "id": 0,
+          "id": 1514,
           "candyCost": 400
         }
       ]
@@ -21586,7 +21632,14 @@
         "baseStamina": 277
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 321,
+          "id": 1514,
+          "candyCost": 400
+        }
+      ]
     },
     "321_0": {
       "name": "Wailord",
@@ -28875,7 +28928,7 @@
       "evolutions": [
         {
           "evoId": 113,
-          "id": 0,
+          "id": 1056,
           "candyCost": 25,
           "questRequirement": {
             "target": 15,
@@ -28903,7 +28956,18 @@
         "baseStamina": 225
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 113,
+          "id": 1056,
+          "candyCost": 25,
+          "questRequirement": {
+            "target": 15,
+            "i18n": "Walk {{amount}} km with your buddy"
+          }
+        }
+      ]
     },
     "441_0": {
       "name": "Chatot",
@@ -33955,7 +34019,7 @@
       "evolutions": [
         {
           "evoId": 530,
-          "id": 0,
+          "id": 1994,
           "candyCost": 50
         }
       ]
@@ -33979,7 +34043,14 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 530,
+          "id": 1994,
+          "candyCost": 50
+        }
+      ]
     },
     "530_0": {
       "name": "Excadrill",
@@ -56157,7 +56228,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "id": "SINISTCHA_UNREMARKABLE",
+          "id": 2873,
           "candyCost": 50
         }
       ],
@@ -56190,7 +56261,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "id": "SINISTCHA_UNREMARKABLE",
+          "id": 2873,
           "candyCost": 50
         }
       ],
@@ -56223,7 +56294,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "id": "SINISTCHA_MASTERPIECE",
+          "id": 2874,
           "candyCost": 400
         }
       ],

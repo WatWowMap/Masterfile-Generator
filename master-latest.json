@@ -501,7 +501,7 @@
     "10": {
       "name": "Caterpie",
       "pokedex_id": 10,
-      "default_form_id": 0,
+      "default_form_id": 953,
       "types": [
         "Bug"
       ],
@@ -515,13 +515,15 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "953": {
           "name": "Normal",
-          "proto": "CATERPIE_NORMAL"
+          "proto": "CATERPIE_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 11,
+              "form": 956
+            }
+          ]
         }
       },
       "attack": 55,
@@ -539,7 +541,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 11
+          "pokemon": 11,
+          "form": 956
         }
       ],
       "little": true
@@ -547,7 +550,7 @@
     "11": {
       "name": "Metapod",
       "pokedex_id": 11,
-      "default_form_id": 0,
+      "default_form_id": 956,
       "types": [
         "Bug"
       ],
@@ -561,13 +564,15 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "956": {
           "name": "Normal",
-          "proto": "METAPOD_NORMAL"
+          "proto": "METAPOD_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 12,
+              "form": 959
+            }
+          ]
         }
       },
       "attack": 45,
@@ -585,14 +590,15 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 12
+          "pokemon": 12,
+          "form": 959
         }
       ]
     },
     "12": {
       "name": "Butterfree",
       "pokedex_id": 12,
-      "default_form_id": 0,
+      "default_form_id": 959,
       "types": [
         "Flying",
         "Bug"
@@ -609,10 +615,6 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "959": {
           "name": "Normal",
           "proto": "BUTTERFREE_NORMAL"
@@ -5389,7 +5391,7 @@
     "92": {
       "name": "Gastly",
       "pokedex_id": 92,
-      "default_form_id": 0,
+      "default_form_id": 1038,
       "types": [
         "Poison",
         "Ghost"
@@ -5406,13 +5408,15 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1038": {
           "name": "Normal",
-          "proto": "GASTLY_NORMAL"
+          "proto": "GASTLY_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 93,
+              "form": 1041
+            }
+          ]
         }
       },
       "attack": 186,
@@ -5430,7 +5434,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 93
+          "pokemon": 93,
+          "form": 1041
         }
       ],
       "little": true
@@ -5438,7 +5443,7 @@
     "93": {
       "name": "Haunter",
       "pokedex_id": 93,
-      "default_form_id": 0,
+      "default_form_id": 1041,
       "types": [
         "Poison",
         "Ghost"
@@ -5457,13 +5462,15 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1041": {
           "name": "Normal",
-          "proto": "HAUNTER_NORMAL"
+          "proto": "HAUNTER_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 94,
+              "form": 1044
+            }
+          ]
         }
       },
       "attack": 223,
@@ -5481,7 +5488,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 94
+          "pokemon": 94,
+          "form": 1044
         }
       ]
     },
@@ -6520,7 +6528,7 @@
     "113": {
       "name": "Chansey",
       "pokedex_id": 113,
-      "default_form_id": 0,
+      "default_form_id": 1056,
       "types": [
         "Normal"
       ],
@@ -6536,13 +6544,15 @@
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1056": {
           "name": "Normal",
-          "proto": "CHANSEY_NORMAL"
+          "proto": "CHANSEY_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 242,
+              "form": 1328
+            }
+          ]
         }
       },
       "attack": 60,
@@ -6560,7 +6570,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 242
+          "pokemon": 242,
+          "form": 1328
         }
       ]
     },
@@ -11393,6 +11404,14 @@
         {
           "pokemon": 982,
           "form": 2994
+        },
+        {
+          "pokemon": 982,
+          "form": 2995
+        },
+        {
+          "pokemon": 982,
+          "form": 2994
         }
       ],
       "little": true
@@ -13362,7 +13381,7 @@
     "242": {
       "name": "Blissey",
       "pokedex_id": 242,
-      "default_form_id": 0,
+      "default_form_id": 1328,
       "types": [
         "Normal"
       ],
@@ -13378,10 +13397,6 @@
       "gen_id": 2,
       "generation": "Johto",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1328": {
           "name": "Normal",
           "proto": "BLISSEY_NORMAL"
@@ -17166,7 +17181,7 @@
     "320": {
       "name": "Wailmer",
       "pokedex_id": 320,
-      "default_form_id": 0,
+      "default_form_id": 1511,
       "types": [
         "Water"
       ],
@@ -17184,13 +17199,15 @@
       "gen_id": 3,
       "generation": "Hoenn",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1511": {
           "name": "Normal",
-          "proto": "WAILMER_NORMAL"
+          "proto": "WAILMER_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 321,
+              "form": 1514
+            }
+          ]
         }
       },
       "attack": 136,
@@ -17208,7 +17225,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 321
+          "pokemon": 321,
+          "form": 1514
         }
       ],
       "little": true
@@ -17216,7 +17234,7 @@
     "321": {
       "name": "Wailord",
       "pokedex_id": 321,
-      "default_form_id": 0,
+      "default_form_id": 1514,
       "types": [
         "Water"
       ],
@@ -17234,10 +17252,6 @@
       "gen_id": 3,
       "generation": "Hoenn",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1514": {
           "name": "Normal",
           "proto": "WAILORD_NORMAL"
@@ -23110,7 +23124,7 @@
     "440": {
       "name": "Happiny",
       "pokedex_id": 440,
-      "default_form_id": 0,
+      "default_form_id": 1778,
       "types": [
         "Normal"
       ],
@@ -23124,13 +23138,15 @@
       "gen_id": 4,
       "generation": "Sinnoh",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1778": {
           "name": "Normal",
-          "proto": "HAPPINY_NORMAL"
+          "proto": "HAPPINY_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 113,
+              "form": 1056
+            }
+          ]
         }
       },
       "attack": 25,
@@ -23148,7 +23164,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 113
+          "pokemon": 113,
+          "form": 1056
         }
       ],
       "little": true
@@ -27370,7 +27387,7 @@
     "529": {
       "name": "Drilbur",
       "pokedex_id": 529,
-      "default_form_id": 0,
+      "default_form_id": 1991,
       "types": [
         "Ground"
       ],
@@ -27386,13 +27403,15 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1991": {
           "name": "Normal",
-          "proto": "DRILBUR_NORMAL"
+          "proto": "DRILBUR_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 530,
+              "form": 1994
+            }
+          ]
         }
       },
       "attack": 154,
@@ -27410,7 +27429,8 @@
       "gym_defender_eligible": true,
       "evolutions": [
         {
-          "pokemon": 530
+          "pokemon": 530,
+          "form": 1994
         }
       ],
       "little": true
@@ -27418,7 +27438,7 @@
     "530": {
       "name": "Excadrill",
       "pokedex_id": 530,
-      "default_form_id": 0,
+      "default_form_id": 1994,
       "types": [
         "Ground",
         "Steel"
@@ -27438,10 +27458,6 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "1994": {
           "name": "Normal",
           "proto": "EXCADRILL_NORMAL"
@@ -31581,7 +31597,7 @@
     "615": {
       "name": "Cryogonal",
       "pokedex_id": 615,
-      "default_form_id": 0,
+      "default_form_id": 2237,
       "types": [
         "Ice"
       ],
@@ -31599,10 +31615,6 @@
       "gen_id": 5,
       "generation": "Unova",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2237": {
           "name": "Normal",
           "proto": "CRYOGONAL_NORMAL"
@@ -49754,7 +49766,7 @@
           "evolutions": [
             {
               "pokemon": 1013,
-              "form": "SINISTCHA_UNREMARKABLE"
+              "form": 2873
             }
           ]
         },
@@ -49764,7 +49776,7 @@
           "evolutions": [
             {
               "pokemon": 1013,
-              "form": "SINISTCHA_MASTERPIECE"
+              "form": 2874
             }
           ]
         }
@@ -49785,7 +49797,7 @@
       "evolutions": [
         {
           "pokemon": 1013,
-          "form": "SINISTCHA_UNREMARKABLE"
+          "form": 2873
         }
       ],
       "little": true

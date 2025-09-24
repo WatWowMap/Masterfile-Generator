@@ -582,7 +582,7 @@
     "10": {
       "pokemonName": "Caterpie",
       "pokedexId": 10,
-      "defaultFormId": 0,
+      "defaultFormId": 953,
       "types": [
         "Bug"
       ],
@@ -597,9 +597,16 @@
       "eliteChargedMoves": [],
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "953": {
+          "formName": "Normal",
+          "formId": 953,
+          "evolutions": [
+            {
+              "evoId": 11,
+              "formId": 956,
+              "candyCost": 12
+            }
+          ]
         }
       },
       "stats": {
@@ -621,6 +628,7 @@
       "evolutions": [
         {
           "evoId": 11,
+          "formId": 956,
           "candyCost": 12
         }
       ],
@@ -630,7 +638,7 @@
     "11": {
       "pokemonName": "Metapod",
       "pokedexId": 11,
-      "defaultFormId": 0,
+      "defaultFormId": 956,
       "types": [
         "Bug"
       ],
@@ -645,9 +653,16 @@
       "eliteChargedMoves": [],
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "956": {
+          "formName": "Normal",
+          "formId": 956,
+          "evolutions": [
+            {
+              "evoId": 12,
+              "formId": 959,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -671,6 +686,7 @@
       "evolutions": [
         {
           "evoId": 12,
+          "formId": 959,
           "candyCost": 50
         }
       ],
@@ -680,7 +696,7 @@
     "12": {
       "pokemonName": "Butterfree",
       "pokedexId": 12,
-      "defaultFormId": 0,
+      "defaultFormId": 959,
       "types": [
         "Flying",
         "Bug"
@@ -700,9 +716,9 @@
       "eliteChargedMoves": [],
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "959": {
+          "formName": "Normal",
+          "formId": 959
         }
       },
       "stats": {
@@ -6262,7 +6278,7 @@
     "92": {
       "pokemonName": "Gastly",
       "pokedexId": 92,
-      "defaultFormId": 0,
+      "defaultFormId": 1038,
       "types": [
         "Poison",
         "Ghost"
@@ -6284,9 +6300,16 @@
       ],
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1038": {
+          "formName": "Normal",
+          "formId": 1038,
+          "evolutions": [
+            {
+              "evoId": 93,
+              "formId": 1041,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -6309,6 +6332,7 @@
       "evolutions": [
         {
           "evoId": 93,
+          "formId": 1041,
           "candyCost": 25
         }
       ],
@@ -6318,7 +6342,7 @@
     "93": {
       "pokemonName": "Haunter",
       "pokedexId": 93,
-      "defaultFormId": 0,
+      "defaultFormId": 1041,
       "types": [
         "Poison",
         "Ghost"
@@ -6340,9 +6364,17 @@
       "eliteChargedMoves": [],
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1041": {
+          "formName": "Normal",
+          "formId": 1041,
+          "evolutions": [
+            {
+              "evoId": 94,
+              "formId": 1044,
+              "candyCost": 100,
+              "tradeBonus": true
+            }
+          ]
         }
       },
       "stats": {
@@ -6367,6 +6399,7 @@
       "evolutions": [
         {
           "evoId": 94,
+          "formId": 1044,
           "candyCost": 100,
           "tradeBonus": true
         }
@@ -7612,7 +7645,7 @@
     "113": {
       "pokemonName": "Chansey",
       "pokedexId": 113,
-      "defaultFormId": 0,
+      "defaultFormId": 1056,
       "types": [
         "Normal"
       ],
@@ -7629,9 +7662,16 @@
       "eliteChargedMoves": [],
       "generation": "Kanto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1056": {
+          "formName": "Normal",
+          "formId": 1056,
+          "evolutions": [
+            {
+              "evoId": 242,
+              "formId": 1328,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -7653,6 +7693,7 @@
       "evolutions": [
         {
           "evoId": 242,
+          "formId": 1328,
           "candyCost": 50
         }
       ]
@@ -13228,7 +13269,19 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 982,
+          "formId": 2994,
+          "candyCost": 50
+        },
+        {
+          "evoId": 982,
+          "formId": 2995,
+          "candyCost": 50
+        }
+      ]
     },
     "207": {
       "pokemonName": "Gligar",
@@ -15415,7 +15468,7 @@
     "242": {
       "pokemonName": "Blissey",
       "pokedexId": 242,
-      "defaultFormId": 0,
+      "defaultFormId": 1328,
       "types": [
         "Normal"
       ],
@@ -15434,9 +15487,9 @@
       ],
       "generation": "Johto",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1328": {
+          "formName": "Normal",
+          "formId": 1328
         }
       },
       "stats": {
@@ -19631,7 +19684,7 @@
     "320": {
       "pokemonName": "Wailmer",
       "pokedexId": 320,
-      "defaultFormId": 0,
+      "defaultFormId": 1511,
       "types": [
         "Water"
       ],
@@ -19650,9 +19703,16 @@
       "eliteChargedMoves": [],
       "generation": "Hoenn",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1511": {
+          "formName": "Normal",
+          "formId": 1511,
+          "evolutions": [
+            {
+              "evoId": 321,
+              "formId": 1514,
+              "candyCost": 400
+            }
+          ]
         }
       },
       "stats": {
@@ -19674,6 +19734,7 @@
       "evolutions": [
         {
           "evoId": 321,
+          "formId": 1514,
           "candyCost": 400
         }
       ],
@@ -19683,7 +19744,7 @@
     "321": {
       "pokemonName": "Wailord",
       "pokedexId": 321,
-      "defaultFormId": 0,
+      "defaultFormId": 1514,
       "types": [
         "Water"
       ],
@@ -19702,9 +19763,9 @@
       "eliteChargedMoves": [],
       "generation": "Hoenn",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1514": {
+          "formName": "Normal",
+          "formId": 1514
         }
       },
       "stats": {
@@ -26176,7 +26237,7 @@
     "440": {
       "pokemonName": "Happiny",
       "pokedexId": 440,
-      "defaultFormId": 0,
+      "defaultFormId": 1778,
       "types": [
         "Normal"
       ],
@@ -26191,9 +26252,22 @@
       "eliteChargedMoves": [],
       "generation": "Sinnoh",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1778": {
+          "formName": "Normal",
+          "formId": 1778,
+          "evolutions": [
+            {
+              "evoId": 113,
+              "formId": 1056,
+              "candyCost": 25,
+              "questRequirement": [
+                {
+                  "questType": 50,
+                  "target": 15
+                }
+              ]
+            }
+          ]
         }
       },
       "stats": {
@@ -26215,6 +26289,7 @@
       "evolutions": [
         {
           "evoId": 113,
+          "formId": 1056,
           "candyCost": 25,
           "questRequirement": [
             {
@@ -30844,7 +30919,7 @@
     "529": {
       "pokemonName": "Drilbur",
       "pokedexId": 529,
-      "defaultFormId": 0,
+      "defaultFormId": 1991,
       "types": [
         "Ground"
       ],
@@ -30861,9 +30936,16 @@
       "eliteChargedMoves": [],
       "generation": "Unova",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1991": {
+          "formName": "Normal",
+          "formId": 1991,
+          "evolutions": [
+            {
+              "evoId": 530,
+              "formId": 1994,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -30885,6 +30967,7 @@
       "evolutions": [
         {
           "evoId": 530,
+          "formId": 1994,
           "candyCost": 50
         }
       ],
@@ -30894,7 +30977,7 @@
     "530": {
       "pokemonName": "Excadrill",
       "pokedexId": 530,
-      "defaultFormId": 0,
+      "defaultFormId": 1994,
       "types": [
         "Ground",
         "Steel"
@@ -30915,9 +30998,9 @@
       "eliteChargedMoves": [],
       "generation": "Unova",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "1994": {
+          "formName": "Normal",
+          "formId": 1994
         }
       },
       "stats": {
@@ -35368,7 +35451,7 @@
     "615": {
       "pokemonName": "Cryogonal",
       "pokedexId": 615,
-      "defaultFormId": 0,
+      "defaultFormId": 2237,
       "types": [
         "Ice"
       ],
@@ -35387,9 +35470,9 @@
       "eliteChargedMoves": [],
       "generation": "Unova",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "2237": {
+          "formName": "Normal",
+          "formId": 2237
         }
       },
       "stats": {
@@ -55729,7 +55812,7 @@
           "evolutions": [
             {
               "evoId": 1013,
-              "formId": "SINISTCHA_UNREMARKABLE",
+              "formId": 2873,
               "candyCost": 50
             }
           ]
@@ -55740,7 +55823,7 @@
           "evolutions": [
             {
               "evoId": 1013,
-              "formId": "SINISTCHA_MASTERPIECE",
+              "formId": 2874,
               "candyCost": 400
             }
           ]
@@ -55765,7 +55848,7 @@
       "evolutions": [
         {
           "evoId": 1013,
-          "formId": "SINISTCHA_UNREMARKABLE",
+          "formId": 2873,
           "candyCost": 50
         }
       ]
