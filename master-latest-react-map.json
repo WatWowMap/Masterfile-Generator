@@ -26531,7 +26531,7 @@
     "760": {
       "name": "Bewear",
       "pokedexId": 760,
-      "defaultFormId": 0,
+      "defaultFormId": 3020,
       "types": [
         1,
         2
@@ -26549,8 +26549,12 @@
       "genId": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "3020": {
+          "name": "Normal"
+        },
+        "3021": {
+          "name": "Wildarea 2025",
+          "isCostume": true
         }
       },
       "height": 2.1,
@@ -36919,6 +36923,9 @@
     "488": {
       "name": "Chilling Water",
       "type": 11
+    },
+    "489": {
+      "name": "Secret Sword"
     }
   },
   "questRewardTypes": {

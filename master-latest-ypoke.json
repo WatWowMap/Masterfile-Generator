@@ -43710,7 +43710,7 @@
     "760": {
       "pokemonName": "Bewear",
       "pokedexId": 760,
-      "defaultFormId": 0,
+      "defaultFormId": 3020,
       "types": [
         "Normal",
         "Fighting"
@@ -43731,9 +43731,14 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3020": {
+          "formName": "Normal",
+          "formId": 3020
+        },
+        "3021": {
+          "formName": "Wildarea 2025",
+          "formId": 3021,
+          "isCostume": true
         }
       },
       "stats": {
