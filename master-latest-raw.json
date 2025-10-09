@@ -54018,6 +54018,8 @@
           "tradeBonus": true
         }
       ],
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "little": true
     },
     "709": {
@@ -54088,7 +54090,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "710": {
       "pokemonName": "Pumpkaboo",
@@ -96951,6 +96955,19 @@
       "power": 65,
       "durationMs": 3500,
       "energyDelta": -33
+    },
+    "489": {
+      "moveId": 489,
+      "moveName": "Secret Sword",
+      "proto": "SECRET_SWORD",
+      "fast": false,
+      "type": 2,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": {},
+      "power": 120,
+      "durationMs": 2000,
+      "energyDelta": -50
     }
   },
   "questTypes": {

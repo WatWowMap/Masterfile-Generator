@@ -40934,7 +40934,9 @@
           "candyCost": 200,
           "tradeBonus": true
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "709": {
       "pokemonName": "Trevenant",
@@ -40979,7 +40981,9 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "710": {
       "pokemonName": "Pumpkaboo",
@@ -61791,6 +61795,21 @@
       "power": 65,
       "durationMs": 3500,
       "energyDelta": -33
+    },
+    "489": {
+      "id": 489,
+      "name": "Secret Sword",
+      "proto": "SECRET_SWORD",
+      "fast": false,
+      "type": "Fighting",
+      "pvpPower": 70,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
+        {}
+      ],
+      "power": 120,
+      "durationMs": 2000,
+      "energyDelta": -50
     }
   },
   "questTypes": {
