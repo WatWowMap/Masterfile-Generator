@@ -54092,6 +54092,12 @@
         },
         {
           "evoId": 1011,
+          "id": 0,
+          "candyCost": 200,
+          "itemRequirement": "Syrupy Apple"
+        },
+        {
+          "evoId": 1011,
           "id": 0
         }
       ]
@@ -63093,6 +63099,15 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "evolutions": [
+        {
+          "evoId": 1019,
+          "id": 0,
+          "candyCost": 400,
+          "questRequirement": {
+            "target": 7,
+            "i18n": "Catch {{amount}} Dragon-type Pokémon"
+          }
+        },
         {
           "evoId": 1019,
           "id": 0

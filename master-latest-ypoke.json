@@ -47696,6 +47696,16 @@
               "itemName": "Other Evolution Stone Maple A"
             }
           ]
+        },
+        {
+          "evoId": 1011,
+          "candyCost": 200,
+          "itemRequirement": [
+            {
+              "itemId": 1155,
+              "itemName": "Other Evolution Stone Maple C"
+            }
+          ]
         }
       ]
     },
@@ -55789,12 +55799,25 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "evolutions": [
+        {
+          "evoId": 1019,
+          "candyCost": 400,
+          "questRequirement": [
+            {
+              "questType": 4,
+              "target": 7
+            }
+          ]
+        }
+      ]
     },
     "1012": {
       "pokemonName": "Poltchageist",
@@ -56175,6 +56198,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,

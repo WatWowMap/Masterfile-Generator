@@ -63622,6 +63622,11 @@
           "itemRequirement": 1151
         },
         {
+          "evoId": 1011,
+          "candyCost": 200,
+          "itemRequirement": 1155
+        },
+        {
           "evoId": 1011
         }
       ],
@@ -75763,6 +75768,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -75771,11 +75777,15 @@
       "transferable": true,
       "evolutions": [
         {
+          "evoId": 1019,
+          "candyCost": 400,
+          "questRequirement": "DIPPLIN_EVOLUTION_QUEST"
+        },
+        {
           "evoId": 1019
         }
       ],
-      "unreleased": true,
-      "little": true
+      "unreleased": true
     },
     "1012": {
       "pokemonName": "Poltchageist",
@@ -76324,6 +76334,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
