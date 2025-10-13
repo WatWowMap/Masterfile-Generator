@@ -1,0 +1,15 @@
+{
+  "pokemon": {
+    "enabled": true,
+    "template": "pokemonName"
+  },
+  "locationCards": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": "imageUrl"
+  }
+}

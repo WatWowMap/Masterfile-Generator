@@ -222,10 +222,18 @@
         "weather": "weather_",
         "types": "poke_type_",
         "grunts": "grunt_",
+        "gruntsAlt": "grunt_a_",
         "characterCategories": "character_category_",
         "lures": "lure_",
         "throwTypes": "throw_type_",
-        "pokemonCategories": "pokemon_categories_"
+        "pokemonCategories": "pokemon_categories_",
+        "bonuses": "",
+        "questTypes": "quest_",
+        "questConditions": "quest_condition_",
+        "questRewardTypes": "quest_reward_",
+        "questTitles": "quest_title_",
+        "raidLevel": "raid_",
+        "eggLevel": "egg_"
       },
       "questVariables": {
         "prefix": "{{",
@@ -234,19 +242,24 @@
       "masterfileLocale": "en",
       "manualTranslations": true,
       "mergeCategories": true,
-      "useLanguageAsRef": false
+      "useLanguageAsRef": false,
+      "questTitleTermsToSkip": []
     },
     "locales": {
       "de": true,
       "en": true,
       "es": false,
+      "es-mx": false,
       "fr": true,
+      "hi": false,
+      "id": false,
       "it": false,
-      "jp": false,
+      "ja": false,
       "ko": false,
       "pt-br": false,
       "ru": false,
       "th": false,
+      "tr": false,
       "zh-tw": false
     },
     "template": {
@@ -459,6 +472,65 @@
         "typeId": true,
         "typeName": true
       }
+    }
+  },
+  "raids": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "raids",
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true
+    }
+  },
+  "locationCards": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "locationCards",
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true,
+      "imageUrl": true,
+      "cardType": true,
+      "vfxAddress": true
+    }
+  },
+  "teams": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "teams",
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true
+    }
+  },
+  "routeTypes": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "routeTypes",
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "id": true,
+      "proto": true,
+      "formatted": true
     }
   }
 }
