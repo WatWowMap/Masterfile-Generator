@@ -134122,5 +134122,800 @@
         }
       ]
     }
+  },
+  "raids": {
+    "0": {
+      "id": 0,
+      "formatted": "Raid Level Unset",
+      "proto": "RAID_LEVEL_UNSET"
+    },
+    "1": {
+      "id": 1,
+      "formatted": "Raid Level 1",
+      "proto": "RAID_LEVEL_1"
+    },
+    "2": {
+      "id": 2,
+      "formatted": "Raid Level 2",
+      "proto": "RAID_LEVEL_2"
+    },
+    "3": {
+      "id": 3,
+      "formatted": "Raid Level 3",
+      "proto": "RAID_LEVEL_3"
+    },
+    "4": {
+      "id": 4,
+      "formatted": "Raid Level 4",
+      "proto": "RAID_LEVEL_4"
+    },
+    "5": {
+      "id": 5,
+      "formatted": "Raid Level 5",
+      "proto": "RAID_LEVEL_5"
+    },
+    "6": {
+      "id": 6,
+      "formatted": "Raid Level Mega",
+      "proto": "RAID_LEVEL_MEGA"
+    },
+    "7": {
+      "id": 7,
+      "formatted": "Raid Level Mega 5",
+      "proto": "RAID_LEVEL_MEGA_5"
+    },
+    "8": {
+      "id": 8,
+      "formatted": "Raid Level Ultra Beast",
+      "proto": "RAID_LEVEL_ULTRA_BEAST"
+    },
+    "9": {
+      "id": 9,
+      "formatted": "Raid Level Extended Egg",
+      "proto": "RAID_LEVEL_EXTENDED_EGG"
+    },
+    "10": {
+      "id": 10,
+      "formatted": "Raid Level Primal",
+      "proto": "RAID_LEVEL_PRIMAL"
+    },
+    "11": {
+      "id": 11,
+      "formatted": "Raid Level 1 Shadow",
+      "proto": "RAID_LEVEL_1_SHADOW"
+    },
+    "12": {
+      "id": 12,
+      "formatted": "Raid Level 2 Shadow",
+      "proto": "RAID_LEVEL_2_SHADOW"
+    },
+    "13": {
+      "id": 13,
+      "formatted": "Raid Level 3 Shadow",
+      "proto": "RAID_LEVEL_3_SHADOW"
+    },
+    "14": {
+      "id": 14,
+      "formatted": "Raid Level 4 Shadow",
+      "proto": "RAID_LEVEL_4_SHADOW"
+    },
+    "15": {
+      "id": 15,
+      "formatted": "Raid Level 5 Shadow",
+      "proto": "RAID_LEVEL_5_SHADOW"
+    }
+  },
+  "locationCards": {
+    "1": {
+      "id": 1,
+      "proto": "LC_2023_LASVEGAS_GOTOUR_001",
+      "formatted": "2023 Lasvegas Gotour 001",
+      "imageUrl": "lc_GoTour2023"
+    },
+    "2": {
+      "id": 2,
+      "proto": "LC_2023_JEJU_AIRADVENTURES_001",
+      "formatted": "2023 Jeju Airadventures 001",
+      "imageUrl": "lc_JejuAirAdv2023"
+    },
+    "3": {
+      "id": 3,
+      "proto": "LC_2023_NYC_GOFEST_001",
+      "formatted": "2023 Nyc Gofest 001",
+      "imageUrl": "lc_GoFest2023_newyork"
+    },
+    "4": {
+      "id": 4,
+      "proto": "LC_2023_LONDON_GOFEST_001",
+      "formatted": "2023 London Gofest 001",
+      "imageUrl": "lc_GoFest2023_london"
+    },
+    "5": {
+      "id": 5,
+      "proto": "LC_2023_OSAKA_GOFEST_001",
+      "formatted": "2023 Osaka Gofest 001",
+      "imageUrl": "lc_GoFest2023_osaka"
+    },
+    "6": {
+      "id": 6,
+      "proto": "LC_2023_SEOUL_CITYSAFARI_001",
+      "formatted": "2023 Seoul Citysafari 001",
+      "imageUrl": "lc_CitySafari2023_seoul_2023"
+    },
+    "7": {
+      "id": 7,
+      "proto": "LC_2023_BARCELONA_CITYSAFARI_001",
+      "formatted": "2023 Barcelona Citysafari 001",
+      "imageUrl": "lc_CitySafari2023_barcelona_2023"
+    },
+    "8": {
+      "id": 8,
+      "proto": "LC_2023_MEXICOCITY_CITYSAFARI_001",
+      "formatted": "2023 Mexicocity Citysafari 001",
+      "imageUrl": "lc_CitySafari2023_mexicoCity_2023"
+    },
+    "9": {
+      "id": 9,
+      "proto": "LC_2024_LOSANGELES_GOTOUR_001",
+      "formatted": "2024 Losangeles Gotour 001",
+      "imageUrl": "lc_GoTour2024_losAngeles"
+    },
+    "10": {
+      "id": 10,
+      "proto": "LC_2024_BALI_AIRADVENTURES_001",
+      "formatted": "2024 Bali Airadventures 001",
+      "imageUrl": "lc_AirAdv2024_bali"
+    },
+    "11": {
+      "id": 11,
+      "proto": "LC_2024_TAINAN_CITYSAFARI_001",
+      "formatted": "2024 Tainan Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_tainan"
+    },
+    "12": {
+      "id": 12,
+      "proto": "LC_2024_SENDAI_GOFEST_001",
+      "formatted": "2024 Sendai Gofest 001",
+      "imageUrl": "lc_GoFest2024_sendai",
+      "cardType": "LOCATION_CARD"
+    },
+    "13": {
+      "id": 13,
+      "proto": "LC_2024_MADRID_GOFEST_001",
+      "formatted": "2024 Madrid Gofest 001",
+      "imageUrl": "lc_GoFest2024_madrid",
+      "cardType": "LOCATION_CARD"
+    },
+    "14": {
+      "id": 14,
+      "proto": "LC_2024_NYC_GOFEST_001",
+      "formatted": "2024 Nyc Gofest 001",
+      "imageUrl": "lc_GoFest2024_newyork",
+      "cardType": "LOCATION_CARD"
+    },
+    "15": {
+      "id": 15,
+      "proto": "LC_SPECIALBACKGROUND_2024_GLOBAL_GOFEST_RADIANCE_001",
+      "formatted": "2024 Global Gofest Radiance 001",
+      "imageUrl": "sb_GoFest2024_radiance",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Sun"
+    },
+    "16": {
+      "id": 16,
+      "proto": "LC_SPECIALBACKGROUND_2024_GLOBAL_GOFEST_UMBRA_001",
+      "formatted": "2024 Global Gofest Umbra 001",
+      "imageUrl": "sb_GoFest2024_umbra",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Moon"
+    },
+    "18": {
+      "id": 18,
+      "proto": "LC_SPECIALBACKGROUND_TEAM_BLUE",
+      "formatted": "Team Blue",
+      "imageUrl": "sb_TeamLeader_blue",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_TeamLeader_blue"
+    },
+    "19": {
+      "id": 19,
+      "proto": "LC_SPECIALBACKGROUND_TEAM_RED",
+      "formatted": "Team Red",
+      "imageUrl": "sb_TeamLeader_red",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_TeamLeader_red"
+    },
+    "20": {
+      "id": 20,
+      "proto": "LC_SPECIALBACKGROUND_TEAM_YELLOW",
+      "formatted": "Team Yellow",
+      "imageUrl": "sb_TeamLeader_yellow",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_TeamLeader_yellow"
+    },
+    "21": {
+      "id": 21,
+      "proto": "LC_2024_SURABAYA_AIRADVENTURES_001",
+      "formatted": "2024 Surabaya Airadventures 001",
+      "imageUrl": "lc_AirAdv2024_surabaya"
+    },
+    "22": {
+      "id": 22,
+      "proto": "LC_2024_YOGYAKARTA_AIRADVENTURES_001",
+      "formatted": "2024 Yogyakarta Airadventures 001",
+      "imageUrl": "lc_AirAdv2024_yogyakarta"
+    },
+    "23": {
+      "id": 23,
+      "proto": "LC_2024_JAKARTA_AIRADVENTURES_001",
+      "formatted": "2024 Jakarta Airadventures 001",
+      "imageUrl": "lc_AirAdv2024_jakarta"
+    },
+    "24": {
+      "id": 24,
+      "proto": "LC_SPECIAL_BACKGROUND_2024_GLOBAL_GOFEST_ULTRA_WORMHOLE_001",
+      "formatted": "2024 Global Gofest Ultra Wormhole 001",
+      "imageUrl": "sb_GoFest2024_wormhole",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_UltraWormhole"
+    },
+    "25": {
+      "id": 25,
+      "proto": "LC_SPECIAL_BACKGROUND_2024_GLOBAL_GOFEST_SUN_ULTRA_WORMHOLE_001",
+      "formatted": "2024 Global Gofest Sun Ultra Wormhole 001",
+      "imageUrl": "sb_GoFest2024_wormhole_sun",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_UltraWormhole"
+    },
+    "26": {
+      "id": 26,
+      "proto": "LC_SPECIAL_BACKGROUND_2024_GLOBAL_GOFEST_MOON_ULTRA_WORMHOLE_001",
+      "formatted": "2024 Global Gofest Moon Ultra Wormhole 001",
+      "imageUrl": "sb_GoFest2024_wormhole_moon",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_UltraWormhole"
+    },
+    "27": {
+      "id": 27,
+      "proto": "LC_2024_INCHEON_SAFARI_ZONE_001",
+      "formatted": "2024 Incheon Safari Zone 001",
+      "imageUrl": "lc_CitySafari2024_incheon"
+    },
+    "28": {
+      "id": 28,
+      "proto": "LC_2024_HONOLULU_WORLD_CHAMPIONSHIPS_001",
+      "formatted": "2024 Honolulu World Championships 001",
+      "imageUrl": "lc_wcs2024"
+    },
+    "29": {
+      "id": 29,
+      "proto": "LC_2024_MLB_001",
+      "formatted": "2024 Mlb 001",
+      "imageUrl": "lc_MLB_marlins"
+    },
+    "30": {
+      "id": 30,
+      "proto": "LC_2024_MLB_002",
+      "formatted": "2024 Mlb 002",
+      "imageUrl": "lc_MLB_mariners"
+    },
+    "31": {
+      "id": 31,
+      "proto": "LC_2024_MLB_003",
+      "formatted": "2024 Mlb 003",
+      "imageUrl": "lc_MLB_clevelandGuardians"
+    },
+    "32": {
+      "id": 32,
+      "proto": "LC_2024_MLB_004",
+      "formatted": "2024 Mlb 004",
+      "imageUrl": "lc_MLB_tampaBayRays"
+    },
+    "33": {
+      "id": 33,
+      "proto": "LC_2024_MLB_005",
+      "formatted": "2024 Mlb 005",
+      "imageUrl": "lc_MLB_milwaukeeBrewers"
+    },
+    "34": {
+      "id": 34,
+      "proto": "LC_2024_MLB_006",
+      "formatted": "2024 Mlb 006",
+      "imageUrl": "lc_MLB_washingtonNationals"
+    },
+    "35": {
+      "id": 35,
+      "proto": "LC_2024_MLB_007",
+      "formatted": "2024 Mlb 007",
+      "imageUrl": "lc_MLB_arizonaDiamondbacks"
+    },
+    "36": {
+      "id": 36,
+      "proto": "LC_2024_MLB_008",
+      "formatted": "2024 Mlb 008",
+      "imageUrl": "lc_MLB_chicagoWhiteSox"
+    },
+    "37": {
+      "id": 37,
+      "proto": "LC_2024_MLB_009",
+      "formatted": "2024 Mlb 009",
+      "imageUrl": "lc_MLB_baltimoreOrioles"
+    },
+    "38": {
+      "id": 38,
+      "proto": "LC_2024_MLB_010",
+      "formatted": "2024 Mlb 010",
+      "imageUrl": "lc_MLB_newyorkMets"
+    },
+    "39": {
+      "id": 39,
+      "proto": "LC_2024_MLB_011",
+      "formatted": "2024 Mlb 011",
+      "imageUrl": "lc_MLB_sanFranciscoGiants"
+    },
+    "40": {
+      "id": 40,
+      "proto": "LC_2024_MLB_012",
+      "formatted": "2024 Mlb 012",
+      "imageUrl": "lc_MLB_bostonRedSox"
+    },
+    "41": {
+      "id": 41,
+      "proto": "LC_2024_MLB_013",
+      "formatted": "2024 Mlb 013",
+      "imageUrl": "lc_MLB_minnesotaTwins"
+    },
+    "42": {
+      "id": 42,
+      "proto": "LC_2024_MLB_014",
+      "formatted": "2024 Mlb 014",
+      "imageUrl": "lc_MLB_texasRangers"
+    },
+    "59": {
+      "id": 59,
+      "proto": "LC_2024_FUKUOKA_GOWA_001",
+      "formatted": "2024 Fukuoka Gowa 001",
+      "imageUrl": "lc_GOWA_fukuoka"
+    },
+    "60": {
+      "id": 60,
+      "proto": "LC_SPECIALBACKGROUND_2024_GLOBAL_GOWA_001",
+      "formatted": "2024 Global Gowa 001",
+      "imageUrl": "sb_GOWA_fukuoka",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "61": {
+      "id": 61,
+      "proto": "LC_2024_HONGKONG_CITYSAFARI_001",
+      "formatted": "2024 Hongkong Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_hongkong"
+    },
+    "62": {
+      "id": 62,
+      "proto": "LC_2024_SAOPAULO_CITYSAFARI_001",
+      "formatted": "2024 Saopaulo Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_saopaulo"
+    },
+    "63": {
+      "id": 63,
+      "proto": "LC_2025_NEWTAIPEICITY_GOTOUR_001",
+      "formatted": "2025 Newtaipeicity Gotour 001",
+      "imageUrl": "lc_GoTour2025_newTaipeiCity",
+      "cardType": "LOCATION_CARD"
+    },
+    "64": {
+      "id": 64,
+      "proto": "LC_2025_LOSANGELES_GOTOUR_001",
+      "formatted": "2025 Losangeles Gotour 001",
+      "imageUrl": "lc_GoTour2025_losAngeles",
+      "cardType": "LOCATION_CARD"
+    },
+    "65": {
+      "id": 65,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOTOUR_WHITE_001",
+      "formatted": "2025 Global Gotour White 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_White"
+    },
+    "66": {
+      "id": 66,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOTOUR_BLACK_001",
+      "formatted": "2025 Global Gotour Black 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Black"
+    },
+    "67": {
+      "id": 67,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOTOUR_BLACK_WHITE_001",
+      "formatted": "2025 Global Gotour Black White 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Fusion"
+    },
+    "69": {
+      "id": 69,
+      "proto": "LC_SPECIALBACKGROUND_2025_SEASON17",
+      "formatted": "2025 Season17",
+      "imageUrl": "sb_Season17_DuelDestiny",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "70": {
+      "id": 70,
+      "proto": "LC_SPECIALBACKGROUND_2024_DECEMBERCDRECAP",
+      "formatted": "2024 Decembercdrecap",
+      "imageUrl": "sb_2024_decemberCdRecap",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "71": {
+      "id": 71,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_ENIGMA_001",
+      "formatted": "2025 Global Enigma 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_N"
+    },
+    "72": {
+      "id": 72,
+      "proto": "LC_2024_MILAN_CITYSAFARI_001",
+      "formatted": "2024 Milan Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_milan"
+    },
+    "73": {
+      "id": 73,
+      "proto": "LC_2024_MUMBAI_CITYSAFARI_001",
+      "formatted": "2024 Mumbai Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_mumbai"
+    },
+    "74": {
+      "id": 74,
+      "proto": "LC_2024_SANTIAGO_CITYSAFARI_001",
+      "formatted": "2024 Santiago Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_santiago"
+    },
+    "75": {
+      "id": 75,
+      "proto": "LC_2024_SINGAPORE_CITYSAFARI_001",
+      "formatted": "2024 Singapore Citysafari 001",
+      "imageUrl": "lc_CitySafari2024_singapore"
+    },
+    "76": {
+      "id": 76,
+      "proto": "LC_SPECIALBACKGROUND_2025_S18",
+      "formatted": "2025 S18",
+      "imageUrl": "sb_Season18_MightAndMastery",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_MightAndMastery"
+    },
+    "77": {
+      "id": 77,
+      "proto": "LC_2025_OSAKA_EVENT_001",
+      "formatted": "2025 Osaka Event 001",
+      "imageUrl": "lc_OsakaEvent2025_01"
+    },
+    "78": {
+      "id": 78,
+      "proto": "LC_2025_OSAKA_GOFEST_001",
+      "formatted": "2025 Osaka Gofest 001",
+      "imageUrl": "lc_GoFest2025_osaka",
+      "cardType": "LOCATION_CARD"
+    },
+    "79": {
+      "id": 79,
+      "proto": "LC_2025_JERSEYCITY_GOFEST_001",
+      "formatted": "2025 Jerseycity Gofest 001",
+      "imageUrl": "lc_GoFest2025_jerseycity",
+      "cardType": "LOCATION_CARD"
+    },
+    "80": {
+      "id": 80,
+      "proto": "LC_2025_PARIS_GOFEST_001",
+      "formatted": "2025 Paris Gofest 001",
+      "imageUrl": "lc_GoFest2025_paris",
+      "cardType": "LOCATION_CARD"
+    },
+    "81": {
+      "id": 81,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_001",
+      "formatted": "2025 Global Gofest Regi 001",
+      "imageUrl": "sb_GoFest2025",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_rock_001"
+    },
+    "82": {
+      "id": 82,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_002",
+      "formatted": "2025 Global Gofest Regi 002",
+      "imageUrl": "sb_GoFest2025",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_rock_002"
+    },
+    "83": {
+      "id": 83,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_003",
+      "formatted": "2025 Global Gofest Regi 003",
+      "imageUrl": "sb_GoFest2025",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_rock_003"
+    },
+    "84": {
+      "id": 84,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_004",
+      "formatted": "2025 Global Gofest Regi 004",
+      "imageUrl": "sb_GoFest2025",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_rock_004"
+    },
+    "85": {
+      "id": 85,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_005",
+      "formatted": "2025 Global Gofest Regi 005",
+      "imageUrl": "sb_GoFest2025",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_rock_005"
+    },
+    "86": {
+      "id": 86,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_006",
+      "formatted": "2025 Global Gofest Regi 006",
+      "imageUrl": "sb_GoFest2025",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_rock_006"
+    },
+    "87": {
+      "id": 87,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SWORD_001",
+      "formatted": "2025 Global Gofest Sword 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_sword"
+    },
+    "88": {
+      "id": 88,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SHIELD_001",
+      "formatted": "2025 Global Gofest Shield 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_shield"
+    },
+    "89": {
+      "id": 89,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_DD_001",
+      "formatted": "2025 Global Gofest Dd 001",
+      "imageUrl": "sb_GoFest2025_Eternatus",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_eternatus"
+    },
+    "90": {
+      "id": 90,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SWORD_CROWNED_001",
+      "formatted": "2025 Global Gofest Sword Crowned 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_sword_c"
+    },
+    "91": {
+      "id": 91,
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SHIELD_CROWNED_001",
+      "formatted": "2025 Global Gofest Shield Crowned 001",
+      "imageUrl": "sb_GoTour2025_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2025_shield_c"
+    },
+    "93": {
+      "id": 93,
+      "proto": "LC_2025_OSAKA_EVENT_002",
+      "formatted": "2025 Osaka Event 002",
+      "imageUrl": "lc_OsakaEvent2025_02"
+    },
+    "94": {
+      "id": 94,
+      "proto": "LC_2025_OSAKA_EVENT_003",
+      "formatted": "2025 Osaka Event 003",
+      "imageUrl": "lc_OsakaEvent2025_03"
+    },
+    "98": {
+      "id": 98,
+      "proto": "LC_2025_CHERRY_BLOSSOM_FESTIVAL",
+      "formatted": "2025 Cherry Blossom Festival",
+      "imageUrl": "lc_CherryBlossomFest2025_yeouido"
+    },
+    "100": {
+      "id": 100,
+      "proto": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
+      "formatted": "Kr2025 Lotte 01",
+      "imageUrl": "lc_LotteGiants"
+    },
+    "101": {
+      "id": 101,
+      "proto": "LC_2025_MANCHESTER_ROADTRIP_001",
+      "formatted": "2025 Manchester Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_manchester"
+    },
+    "102": {
+      "id": 102,
+      "proto": "LC_2025_LONDON_ROADTRIP_001",
+      "formatted": "2025 London Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_london"
+    },
+    "103": {
+      "id": 103,
+      "proto": "LC_2025_PARIS_ROADTRIP_001",
+      "formatted": "2025 Paris Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_paris"
+    },
+    "104": {
+      "id": 104,
+      "proto": "LC_2025_VALENCIA_ROADTRIP_001",
+      "formatted": "2025 Valencia Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_valencia"
+    },
+    "105": {
+      "id": 105,
+      "proto": "LC_2025_BERLIN_ROADTRIP_001",
+      "formatted": "2025 Berlin Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_berlin"
+    },
+    "106": {
+      "id": 106,
+      "proto": "LC_2025_HAGUE_ROADTRIP_001",
+      "formatted": "2025 Hague Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_hague"
+    },
+    "107": {
+      "id": 107,
+      "proto": "LC_2025_COLOGNE_ROADTRIP_001",
+      "formatted": "2025 Cologne Roadtrip 001",
+      "imageUrl": "lc_roadtrip2025_cologne"
+    },
+    "108": {
+      "id": 108,
+      "proto": "LC_SPECIALBACKGROUND_2025_SEASON19",
+      "formatted": "2025 Season19",
+      "imageUrl": "sb_Season19_DelightfulDays",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_DelightfulDays"
+    },
+    "109": {
+      "id": 109,
+      "proto": "LC_SPECIALBACKGROUND_2025_9THANNIVERSARY",
+      "formatted": "2025 9thanniversary",
+      "imageUrl": "sb_9thAnniversary",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_9thAnni"
+    },
+    "111": {
+      "id": 111,
+      "proto": "LC_SPECIALBACKGROUND_2025_SEASON20",
+      "formatted": "2025 Season20",
+      "imageUrl": "sb_Season20_TalesOfTransformation",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_TalesOfTransformation"
+    },
+    "143": {
+      "id": 143,
+      "proto": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
+      "formatted": "2025 Anaheim World Championships 001",
+      "imageUrl": "lc_Wcs2025_anaheim"
+    },
+    "144": {
+      "id": 144,
+      "proto": "LC_SPECIALBACKGROUND_CON2025",
+      "formatted": "Con2025",
+      "imageUrl": "sb_Concierge2025",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "145": {
+      "id": 145,
+      "proto": "LC_2025_JANGHEUNG_SUMMER_FESTIVAL",
+      "formatted": "2025 Jangheung Summer Festival",
+      "imageUrl": "lc_Jangheung_Water_Festival_2025"
+    },
+    "146": {
+      "id": 146,
+      "proto": "LC_2025_AMSTERDAM_CITYSAFARI_001",
+      "formatted": "2025 Amsterdam Citysafari 001",
+      "imageUrl": "lc_citysafari2025_amsterdam"
+    },
+    "147": {
+      "id": 147,
+      "proto": "LC_2025_BANGKOK_CITYSAFARI_001",
+      "formatted": "2025 Bangkok Citysafari 001",
+      "imageUrl": "lc_citysafari2025_bangkok"
+    },
+    "148": {
+      "id": 148,
+      "proto": "LC_2025_CANCUN_CITYSAFARI_001",
+      "formatted": "2025 Cancun Citysafari 001",
+      "imageUrl": "lc_citysafari2025_cancun"
+    },
+    "149": {
+      "id": 149,
+      "proto": "LC_2025_VALENCIA_CITYSAFARI_001",
+      "formatted": "2025 Valencia Citysafari 001",
+      "imageUrl": "lc_citysafari2025_valencia"
+    },
+    "150": {
+      "id": 150,
+      "proto": "LC_2025_VANCOUVER_CITYSAFARI_001",
+      "formatted": "2025 Vancouver Citysafari 001",
+      "imageUrl": "lc_citysafari2025_vancouver"
+    },
+    "151": {
+      "id": 151,
+      "proto": "LC_2025_PARIS_001",
+      "formatted": "2025 Paris 001",
+      "imageUrl": "lc_Paris2025_01"
+    },
+    "152": {
+      "id": 152,
+      "proto": "LC_2025_PARIS_002",
+      "formatted": "2025 Paris 002",
+      "imageUrl": "lc_Paris2025_02"
+    },
+    "156": {
+      "id": 156,
+      "proto": "LC_SPECIALBACKGROUND_2025_GOWA_GLOBAL",
+      "formatted": "2025 Gowa Global",
+      "imageUrl": "sb_gowa2025_global",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_gowa"
+    },
+    "158": {
+      "id": 158,
+      "proto": "LC_JEJU_STAMP_RALLY",
+      "formatted": "Jeju Stamp Rally",
+      "imageUrl": "lc_stampRally2025_Jeju"
+    }
+  },
+  "routeTypes": {
+    "0": {
+      "id": 0,
+      "formatted": "Route Type Unset",
+      "proto": "ROUTE_TYPE_UNSET"
+    },
+    "1": {
+      "id": 1,
+      "formatted": "Route Type Organic",
+      "proto": "ROUTE_TYPE_ORGANIC"
+    },
+    "2": {
+      "id": 2,
+      "formatted": "Route Type Official",
+      "proto": "ROUTE_TYPE_OFFICIAL"
+    },
+    "3": {
+      "id": 3,
+      "formatted": "Route Type Event",
+      "proto": "ROUTE_TYPE_EVENT"
+    },
+    "4": {
+      "id": 4,
+      "formatted": "Route Type Sponsored",
+      "proto": "ROUTE_TYPE_SPONSORED"
+    }
+  },
+  "teams": {
+    "0": {
+      "id": 0,
+      "formatted": "Team Unset",
+      "proto": "TEAM_UNSET"
+    },
+    "1": {
+      "id": 1,
+      "formatted": "Team Blue",
+      "proto": "TEAM_BLUE"
+    },
+    "2": {
+      "id": 2,
+      "formatted": "Team Red",
+      "proto": "TEAM_RED"
+    },
+    "3": {
+      "id": 3,
+      "formatted": "Team Yellow",
+      "proto": "TEAM_YELLOW"
+    }
   }
 }
