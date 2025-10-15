@@ -132004,6 +132004,14 @@
       "category": "Incubator",
       "minTrainerLevel": 100
     },
+    "905": {
+      "id": 905,
+      "name": "Incubator Special",
+      "proto": "ITEM_INCUBATOR_SPECIAL",
+      "type": "Incubator",
+      "category": "Incubator",
+      "minTrainerLevel": 15
+    },
     "1001": {
       "id": 1001,
       "name": "Pokémon Storage",
@@ -139203,6 +139211,42 @@
       "proto": "LC_JEJU_STAMP_RALLY",
       "formatted": "Jeju Stamp Rally",
       "imageUrl": "lc_stampRally2025_Jeju"
+    },
+    "198": {
+      "id": 198,
+      "proto": "LC_POKELID_FUKUOKA",
+      "formatted": "Pokelid Fukuoka",
+      "imageUrl": "lc_pokelid_fukuoka"
+    },
+    "199": {
+      "id": 199,
+      "proto": "LC_POKELID_SAGA",
+      "formatted": "Pokelid Saga",
+      "imageUrl": "lc_pokelid_saga"
+    },
+    "200": {
+      "id": 200,
+      "proto": "LC_POKELID_NAGASAKI",
+      "formatted": "Pokelid Nagasaki",
+      "imageUrl": "lc_pokelid_nagasaki"
+    },
+    "201": {
+      "id": 201,
+      "proto": "LC_POKELID_MIYAZAKI",
+      "formatted": "Pokelid Miyazaki",
+      "imageUrl": "lc_pokelid_miyazaki"
+    },
+    "202": {
+      "id": 202,
+      "proto": "LC_POKELID_KAGOSHIMA",
+      "formatted": "Pokelid Kagoshima",
+      "imageUrl": "lc_pokelid_kagoshima"
+    },
+    "203": {
+      "id": 203,
+      "proto": "LC_POKELID_OKINAWA",
+      "formatted": "Pokelid Okinawa",
+      "imageUrl": "lc_pokelid_okinawa"
     }
   },
   "routeTypes": {
