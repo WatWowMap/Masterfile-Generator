@@ -4861,7 +4861,12 @@
         "984": {
           "name": "Normal",
           "proto": "CLEFABLE_NORMAL",
-          "form": 984
+          "form": 984,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -4887,6 +4892,27 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 253,
+            "defense": 205,
+            "stamina": 216
+          },
+          "types": {
+            "3": {
+              "typeId": 3,
+              "typeName": "Flying"
+            },
+            "18": {
+              "typeId": 18,
+              "typeName": "Fairy"
+            }
+          },
+          "unreleased": true
+        }
       }
     },
     "37": {
@@ -9157,7 +9183,12 @@
         "670": {
           "name": "Normal",
           "proto": "VICTREEBEL_NORMAL",
-          "form": 670
+          "form": 670,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -9183,6 +9214,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 265,
+            "defense": 181,
+            "stamina": 190
+          },
+          "unreleased": true
+        }
       }
     },
     "72": {
@@ -15504,7 +15546,12 @@
         "1077": {
           "name": "Normal",
           "proto": "STARMIE_NORMAL",
-          "form": 1077
+          "form": 1077,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -15530,6 +15577,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 303,
+            "defense": 229,
+            "stamina": 155
+          },
+          "unreleased": true
+        }
       }
     },
     "122": {
@@ -18992,7 +19050,12 @@
         "196": {
           "name": "Normal",
           "proto": "DRAGONITE_NORMAL",
-          "form": 196
+          "form": 196,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         },
         "2333": {
           "name": "Costume 2020",
@@ -19023,6 +19086,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 299,
+            "defense": 255,
+            "stamina": 209
+          },
+          "unreleased": true
+        }
       }
     },
     "150": {
@@ -19825,7 +19899,12 @@
         "1124": {
           "name": "Normal",
           "proto": "MEGANIUM_NORMAL",
-          "form": 1124
+          "form": 1124,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -19851,6 +19930,27 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 276,
+            "defense": 232,
+            "stamina": 190
+          },
+          "types": {
+            "12": {
+              "typeId": 12,
+              "typeName": "Grass"
+            },
+            "18": {
+              "typeId": 18,
+              "typeName": "Fairy"
+            }
+          },
+          "unreleased": true
+        }
       }
     },
     "155": {
@@ -20513,7 +20613,12 @@
         "1142": {
           "name": "Normal",
           "proto": "FERALIGATR_NORMAL",
-          "form": 1142
+          "form": 1142,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -20539,6 +20644,27 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 304,
+            "defense": 227,
+            "stamina": 198
+          },
+          "types": {
+            "11": {
+              "typeId": 11,
+              "typeName": "Water"
+            },
+            "16": {
+              "typeId": 16,
+              "typeName": "Dragon"
+            }
+          },
+          "unreleased": true
+        }
       }
     },
     "161": {
@@ -25151,6 +25277,12 @@
       }
     },
     "203": {
+      "evolutions": {
+        "981": {
+          "pokemon": 981,
+          "form": 3292
+        }
+      },
       "name": "Girafarig",
       "pokedexId": 203,
       "defaultFormId": 1241,
@@ -25257,12 +25389,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "981": {
-          "pokemon": 981,
-          "form": 3292
-        }
       },
       "little": true
     },
@@ -28019,7 +28145,12 @@
         "1295": {
           "name": "Normal",
           "proto": "SKARMORY_NORMAL",
-          "form": 1295
+          "form": 1295,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -28041,6 +28172,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 273,
+            "defense": 228,
+            "stamina": 163
+          },
+          "unreleased": true
+        }
       }
     },
     "228": {
@@ -28713,6 +28855,12 @@
       }
     },
     "234": {
+      "evolutions": {
+        "899": {
+          "pokemon": 899,
+          "form": 3218
+        }
+      },
       "name": "Stantler",
       "pokedexId": 234,
       "defaultFormId": 941,
@@ -28799,12 +28947,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "899": {
-          "pokemon": 899,
-          "form": 3218
-        }
       },
       "little": true
     },
@@ -36140,6 +36282,19 @@
       }
     },
     "290": {
+      "evolutions": {
+        "291": {
+          "pokemon": 291,
+          "form": 0,
+          "candyCost": 50
+        },
+        "292": {
+          "pokemon": 292,
+          "form": 1439
+        }
+      },
+      "legendary": false,
+      "mythic": false,
       "name": "Nincada",
       "pokedexId": 290,
       "defaultFormId": 1433,
@@ -36221,8 +36376,6 @@
       "height": 0.51,
       "weight": 5.5,
       "family": 290,
-      "legendary": false,
-      "mythic": false,
       "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
@@ -36232,17 +36385,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "291": {
-          "pokemon": 291,
-          "form": 0,
-          "candyCost": 50
-        },
-        "292": {
-          "pokemon": 292,
-          "form": 1439
-        }
       },
       "little": true
     },
@@ -56392,7 +56534,12 @@
         "1844": {
           "name": "Normal",
           "proto": "FROSLASS_NORMAL",
-          "form": 1844
+          "form": 1844,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -56419,6 +56566,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 289,
+            "defense": 194,
+            "stamina": 172
+          },
+          "unreleased": true
+        }
       }
     },
     "479": {
@@ -58863,7 +59021,12 @@
         "1904": {
           "name": "Normal",
           "proto": "EMBOAR_NORMAL",
-          "form": 1904
+          "form": 1904,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -58889,6 +59052,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 287,
+            "defense": 194,
+            "stamina": 242
+          },
+          "unreleased": true
+        }
       }
     },
     "501": {
@@ -61916,7 +62090,12 @@
         "1994": {
           "name": "Normal",
           "proto": "EXCADRILL_NORMAL",
-          "form": 1994
+          "form": 1994,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -61942,6 +62121,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 322,
+            "defense": 184,
+            "stamina": 242
+          },
+          "unreleased": true
+        }
       }
     },
     "531": {
@@ -63433,7 +63623,12 @@
         "2039": {
           "name": "Normal",
           "proto": "SCOLIPEDE_NORMAL",
-          "form": 2039
+          "form": 2039,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -63459,6 +63654,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 257,
+            "defense": 254,
+            "stamina": 155
+          },
+          "unreleased": true
+        }
       }
     },
     "546": {
@@ -65218,7 +65424,12 @@
         "2078": {
           "name": "Normal",
           "proto": "SCRAFTY_NORMAL",
-          "form": 2078
+          "form": 2078,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -65244,6 +65455,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 238,
+            "defense": 266,
+            "stamina": 163
+          },
+          "unreleased": true
+        }
       }
     },
     "561": {
@@ -69823,7 +70045,12 @@
         "2204": {
           "name": "Normal",
           "proto": "EELEKTROSS_NORMAL",
-          "form": 2204
+          "form": 2204,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -69849,6 +70076,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 291,
+            "defense": 175,
+            "stamina": 198
+          },
+          "unreleased": true
+        }
       }
     },
     "605": {
@@ -70334,7 +70572,12 @@
         "2219": {
           "name": "Normal",
           "proto": "CHANDELURE_NORMAL",
-          "form": 2219
+          "form": 2219,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -70360,6 +70603,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 335,
+            "defense": 227,
+            "stamina": 155
+          },
+          "unreleased": true
+        }
       }
     },
     "610": {
@@ -75219,7 +75473,12 @@
         "3024": {
           "name": "Normal",
           "proto": "CHESNAUGHT_NORMAL",
-          "form": 3024
+          "form": 3024,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -75245,6 +75504,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 242,
+            "defense": 282,
+            "stamina": 204
+          },
+          "unreleased": true
+        }
       }
     },
     "653": {
@@ -75540,7 +75810,12 @@
         "3027": {
           "name": "Normal",
           "proto": "DELPHOX_NORMAL",
-          "form": 3027
+          "form": 3027,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -75566,6 +75841,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 331,
+            "defense": 235,
+            "stamina": 181
+          },
+          "unreleased": true
+        }
       }
     },
     "656": {
@@ -75847,7 +76133,12 @@
         "3030": {
           "name": "Normal",
           "proto": "GRENINJA_NORMAL",
-          "form": 3030
+          "form": 3030,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -75873,6 +76164,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 299,
+            "defense": 180,
+            "stamina": 176
+          },
+          "unreleased": true
+        }
       }
     },
     "659": {
@@ -77441,7 +77743,12 @@
         "2587": {
           "name": "Normal",
           "proto": "PYROAR_NORMAL",
-          "form": 2587
+          "form": 2587,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         },
         "2588": {
           "name": "Female",
@@ -77471,6 +77778,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 273,
+            "defense": 198,
+            "stamina": 200
+          },
+          "unreleased": true
+        }
       }
     },
     "669": {
@@ -77809,6 +78127,17 @@
             "i18n": "Earn {{amount}} hearts with your buddy",
             "translated": "Earn 20 hearts with your buddy"
           }
+        }
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 309,
+            "defense": 264,
+            "stamina": 179
+          },
+          "unreleased": true
         }
       }
     },
@@ -79620,7 +79949,12 @@
         "3049": {
           "name": "Normal",
           "proto": "MALAMAR_NORMAL",
-          "form": 3049
+          "form": 3049,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -79645,6 +79979,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 208,
+            "defense": 222,
+            "stamina": 200
+          },
+          "unreleased": true
+        }
       }
     },
     "688": {
@@ -79834,7 +80179,12 @@
         "3051": {
           "name": "Normal",
           "proto": "BARBARACLE_NORMAL",
-          "form": 3051
+          "form": 3051,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -79859,6 +80209,27 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 268,
+            "defense": 248,
+            "stamina": 176
+          },
+          "types": {
+            "2": {
+              "typeId": 2,
+              "typeName": "Fighting"
+            },
+            "6": {
+              "typeId": 6,
+              "typeName": "Rock"
+            }
+          },
+          "unreleased": true
+        }
       }
     },
     "690": {
@@ -80063,7 +80434,12 @@
         "3053": {
           "name": "Normal",
           "proto": "DRAGALGE_NORMAL",
-          "form": 3053
+          "form": 3053,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -80089,6 +80465,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 236,
+            "defense": 265,
+            "stamina": 163
+          },
+          "unreleased": true
+        }
       }
     },
     "692": {
@@ -81121,7 +81508,12 @@
         "3063": {
           "name": "Normal",
           "proto": "HAWLUCHA_NORMAL",
-          "form": 3063
+          "form": 3063,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -81142,6 +81534,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 280,
+            "defense": 212,
+            "stamina": 186
+          },
+          "unreleased": true
+        }
       }
     },
     "702": {
@@ -83116,6 +83519,17 @@
           "pokemon": 718,
           "form": 2592,
           "itemRequirement": "Zygarde Cell"
+        }
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 416,
+            "defense": 187,
+            "stamina": 428
+          },
+          "unreleased": true
         }
       }
     },
@@ -89755,7 +90169,12 @@
         "3125": {
           "name": "Normal",
           "proto": "DRAMPA_NORMAL",
-          "form": 3125
+          "form": 3125,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         }
       },
       "stats": {
@@ -89777,6 +90196,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 278,
+            "defense": 210,
+            "stamina": 186
+          },
+          "unreleased": true
+        }
       }
     },
     "781": {
@@ -98410,7 +98840,12 @@
         "2325": {
           "name": "Normal",
           "proto": "FALINKS_NORMAL",
-          "form": 2325
+          "form": 2325,
+          "tempEvolutions": {
+            "1": {
+              "tempEvoId": 1
+            }
+          }
         },
         "2870": {
           "name": "Gofest 2025 Train Conductor",
@@ -98438,6 +98873,17 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
+      },
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 267,
+            "defense": 229,
+            "stamina": 163
+          },
+          "unreleased": true
+        }
       }
     },
     "871": {
@@ -99704,6 +100150,14 @@
       }
     },
     "884": {
+      "evolutions": {
+        "1018": {
+          "pokemon": 1018,
+          "form": 0
+        }
+      },
+      "legendary": false,
+      "mythic": false,
       "name": "Duraludon",
       "pokedexId": 884,
       "defaultFormId": 3208,
@@ -99778,8 +100232,6 @@
       "height": 1.8,
       "weight": 40,
       "family": 884,
-      "legendary": false,
-      "mythic": false,
       "ultraBeast": false,
       "misc": {
         "buddyGroupNumber": 2,
@@ -99789,12 +100241,6 @@
         "gymDefenderEligible": true,
         "tradable": true,
         "transferable": true
-      },
-      "evolutions": {
-        "1018": {
-          "pokemon": 1018,
-          "form": 0
-        }
       },
       "little": true
     },
@@ -101839,18 +102285,6 @@
     },
     "902": {
       "name": "Basculegion",
-      "pokedexId": 902,
-      "defaultFormId": 2807,
-      "types": {
-        "8": {
-          "typeId": 8,
-          "typeName": "Ghost"
-        },
-        "11": {
-          "typeId": 11,
-          "typeName": "Water"
-        }
-      },
       "quickMoves": {
         "202": {
           "moveId": 202,
@@ -102044,6 +102478,26 @@
           "power": 65
         }
       },
+      "stats": {
+        "attack": 217,
+        "defense": 144,
+        "stamina": 260
+      },
+      "types": {
+        "8": {
+          "typeId": 8,
+          "typeName": "Ghost"
+        },
+        "11": {
+          "typeId": 11,
+          "typeName": "Water"
+        }
+      },
+      "unreleased": true,
+      "legendary": false,
+      "mythic": false,
+      "pokedexId": 902,
+      "defaultFormId": 2807,
       "genId": 8,
       "generation": "Galar",
       "forms": {
@@ -102067,15 +102521,7 @@
             "stamina": 260
           }
         }
-      },
-      "stats": {
-        "attack": 217,
-        "defense": 144,
-        "stamina": 260
-      },
-      "unreleased": true,
-      "legendary": false,
-      "mythic": false
+      }
     },
     "903": {
       "name": "Sneasler",
@@ -115874,7 +116320,16 @@
       "proto": "DRAGONITE_NORMAL",
       "formId": 196,
       "purificationDust": 5000,
-      "purificationCandy": 5
+      "purificationCandy": 5,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 299,
+          "defense": 255,
+          "stamina": 209,
+          "unreleased": true
+        }
+      ]
     },
     "199": {
       "formName": "Normal",
@@ -116855,7 +117310,16 @@
       "proto": "VICTREEBEL_NORMAL",
       "formId": 670,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 265,
+          "defense": 181,
+          "stamina": 190,
+          "unreleased": true
+        }
+      ]
     },
     "677": {
       "formName": "Normal",
@@ -118217,7 +118681,20 @@
     "984": {
       "formName": "Normal",
       "proto": "CLEFABLE_NORMAL",
-      "formId": 984
+      "formId": 984,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 253,
+          "defense": 205,
+          "stamina": 216,
+          "types": [
+            3,
+            18
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "987": {
       "formName": "Normal",
@@ -118578,7 +119055,16 @@
       "proto": "STARMIE_NORMAL",
       "formId": 1077,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 303,
+          "defense": 229,
+          "stamina": 155,
+          "unreleased": true
+        }
+      ]
     },
     "1080": {
       "formName": "Normal",
@@ -118750,7 +119236,20 @@
       "proto": "MEGANIUM_NORMAL",
       "formId": 1124,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 276,
+          "defense": 232,
+          "stamina": 190,
+          "types": [
+            12,
+            18
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "1127": {
       "formName": "Normal",
@@ -118824,7 +119323,20 @@
       "proto": "FERALIGATR_NORMAL",
       "formId": 1142,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 304,
+          "defense": 227,
+          "stamina": 198,
+          "types": [
+            11,
+            16
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "1145": {
       "formName": "Normal",
@@ -119357,7 +119869,16 @@
       "proto": "SKARMORY_NORMAL",
       "formId": 1295,
       "purificationDust": 5000,
-      "purificationCandy": 5
+      "purificationCandy": 5,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 273,
+          "defense": 228,
+          "stamina": 163,
+          "unreleased": true
+        }
+      ]
     },
     "1298": {
       "formName": "Normal",
@@ -121198,7 +121719,16 @@
       "proto": "FROSLASS_NORMAL",
       "formId": 1844,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 289,
+          "defense": 194,
+          "stamina": 172,
+          "unreleased": true
+        }
+      ]
     },
     "1847": {
       "formName": "Normal",
@@ -121350,7 +121880,16 @@
       "proto": "EMBOAR_NORMAL",
       "formId": 1904,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 287,
+          "defense": 194,
+          "stamina": 242,
+          "unreleased": true
+        }
+      ]
     },
     "1907": {
       "formName": "Normal",
@@ -121663,7 +122202,16 @@
       "proto": "EXCADRILL_NORMAL",
       "formId": 1994,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 322,
+          "defense": 184,
+          "stamina": 242,
+          "unreleased": true
+        }
+      ]
     },
     "1997": {
       "formName": "Normal",
@@ -121827,7 +122375,16 @@
       "proto": "SCOLIPEDE_NORMAL",
       "formId": 2039,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 257,
+          "defense": 254,
+          "stamina": 155,
+          "unreleased": true
+        }
+      ]
     },
     "2042": {
       "formName": "Normal",
@@ -121953,7 +122510,16 @@
     "2078": {
       "formName": "Normal",
       "proto": "SCRAFTY_NORMAL",
-      "formId": 2078
+      "formId": 2078,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 238,
+          "defense": 266,
+          "stamina": 163,
+          "unreleased": true
+        }
+      ]
     },
     "2081": {
       "formName": "Normal",
@@ -122369,7 +122935,16 @@
     "2204": {
       "formName": "Normal",
       "proto": "EELEKTROSS_NORMAL",
-      "formId": 2204
+      "formId": 2204,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 291,
+          "defense": 175,
+          "stamina": 198,
+          "unreleased": true
+        }
+      ]
     },
     "2207": {
       "formName": "Normal",
@@ -122422,7 +122997,16 @@
       "proto": "CHANDELURE_NORMAL",
       "formId": 2219,
       "purificationDust": 5000,
-      "purificationCandy": 5
+      "purificationCandy": 5,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 335,
+          "defense": 227,
+          "stamina": 155,
+          "unreleased": true
+        }
+      ]
     },
     "2222": {
       "formName": "Normal",
@@ -122724,7 +123308,16 @@
     "2325": {
       "formName": "Normal",
       "proto": "FALINKS_NORMAL",
-      "formId": 2325
+      "formId": 2325,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 267,
+          "defense": 229,
+          "stamina": 163,
+          "unreleased": true
+        }
+      ]
     },
     "2326": {
       "formName": "Normal",
@@ -123576,7 +124169,16 @@
     "2587": {
       "formName": "Normal",
       "proto": "PYROAR_NORMAL",
-      "formId": 2587
+      "formId": 2587,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 273,
+          "defense": 198,
+          "stamina": 200,
+          "unreleased": true
+        }
+      ]
     },
     "2588": {
       "formName": "Female",
@@ -127604,7 +128206,16 @@
     "3024": {
       "formName": "Normal",
       "proto": "CHESNAUGHT_NORMAL",
-      "formId": 3024
+      "formId": 3024,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 242,
+          "defense": 282,
+          "stamina": 204,
+          "unreleased": true
+        }
+      ]
     },
     "3025": {
       "formName": "Normal",
@@ -127633,7 +128244,16 @@
     "3027": {
       "formName": "Normal",
       "proto": "DELPHOX_NORMAL",
-      "formId": 3027
+      "formId": 3027,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 331,
+          "defense": 235,
+          "stamina": 181,
+          "unreleased": true
+        }
+      ]
     },
     "3028": {
       "formName": "Normal",
@@ -127662,7 +128282,16 @@
     "3030": {
       "formName": "Normal",
       "proto": "GRENINJA_NORMAL",
-      "formId": 3030
+      "formId": 3030,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 299,
+          "defense": 180,
+          "stamina": 176,
+          "unreleased": true
+        }
+      ]
     },
     "3031": {
       "formName": "Normal",
@@ -127872,7 +128501,16 @@
       "proto": "MALAMAR_NORMAL",
       "formId": 3049,
       "purificationDust": 3000,
-      "purificationCandy": 3
+      "purificationCandy": 3,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 208,
+          "defense": 222,
+          "stamina": 200,
+          "unreleased": true
+        }
+      ]
     },
     "3050": {
       "formName": "Normal",
@@ -127889,7 +128527,20 @@
     "3051": {
       "formName": "Normal",
       "proto": "BARBARACLE_NORMAL",
-      "formId": 3051
+      "formId": 3051,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 268,
+          "defense": 248,
+          "stamina": 176,
+          "types": [
+            2,
+            6
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "3052": {
       "formName": "Normal",
@@ -127906,7 +128557,16 @@
     "3053": {
       "formName": "Normal",
       "proto": "DRAGALGE_NORMAL",
-      "formId": 3053
+      "formId": 3053,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 236,
+          "defense": 265,
+          "stamina": 163,
+          "unreleased": true
+        }
+      ]
     },
     "3054": {
       "formName": "Normal",
@@ -127995,7 +128655,16 @@
     "3063": {
       "formName": "Normal",
       "proto": "HAWLUCHA_NORMAL",
-      "formId": 3063
+      "formId": 3063,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 280,
+          "defense": 212,
+          "stamina": 186,
+          "unreleased": true
+        }
+      ]
     },
     "3064": {
       "formName": "Normal",
@@ -128358,7 +129027,16 @@
     "3125": {
       "formName": "Normal",
       "proto": "DRAMPA_NORMAL",
-      "formId": 3125
+      "formId": 3125,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 278,
+          "defense": 210,
+          "stamina": 186,
+          "unreleased": true
+        }
+      ]
     },
     "3126": {
       "formName": "Normal",
