@@ -159,6 +159,19 @@
     },
     "template": "formatted"
   },
+  "locationCards": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": {
+      "proto": true,
+      "formatted": true,
+      "cardType": true
+    }
+  },
   "teams": {
     "enabled": true,
     "options": {
