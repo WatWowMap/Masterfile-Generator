@@ -39168,6 +39168,472 @@
     "14": "Raid Level 4 Shadow",
     "15": "Raid Level 5 Shadow"
   },
+  "locationCards": {
+    "1": {
+      "proto": "LC_2023_LASVEGAS_GOTOUR_001",
+      "formatted": "2023 Lasvegas Gotour 001"
+    },
+    "2": {
+      "proto": "LC_2023_JEJU_AIRADVENTURES_001",
+      "formatted": "2023 Jeju Airadventures 001"
+    },
+    "3": {
+      "proto": "LC_2023_NYC_GOFEST_001",
+      "formatted": "2023 Nyc Gofest 001"
+    },
+    "4": {
+      "proto": "LC_2023_LONDON_GOFEST_001",
+      "formatted": "2023 London Gofest 001"
+    },
+    "5": {
+      "proto": "LC_2023_OSAKA_GOFEST_001",
+      "formatted": "2023 Osaka Gofest 001"
+    },
+    "6": {
+      "proto": "LC_2023_SEOUL_CITYSAFARI_001",
+      "formatted": "2023 Seoul Citysafari 001"
+    },
+    "7": {
+      "proto": "LC_2023_BARCELONA_CITYSAFARI_001",
+      "formatted": "2023 Barcelona Citysafari 001"
+    },
+    "8": {
+      "proto": "LC_2023_MEXICOCITY_CITYSAFARI_001",
+      "formatted": "2023 Mexicocity Citysafari 001"
+    },
+    "9": {
+      "proto": "LC_2024_LOSANGELES_GOTOUR_001",
+      "formatted": "2024 Losangeles Gotour 001"
+    },
+    "10": {
+      "proto": "LC_2024_BALI_AIRADVENTURES_001",
+      "formatted": "2024 Bali Airadventures 001"
+    },
+    "11": {
+      "proto": "LC_2024_TAINAN_CITYSAFARI_001",
+      "formatted": "2024 Tainan Citysafari 001"
+    },
+    "12": {
+      "proto": "LC_2024_SENDAI_GOFEST_001",
+      "formatted": "2024 Sendai Gofest 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "13": {
+      "proto": "LC_2024_MADRID_GOFEST_001",
+      "formatted": "2024 Madrid Gofest 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "14": {
+      "proto": "LC_2024_NYC_GOFEST_001",
+      "formatted": "2024 Nyc Gofest 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "15": {
+      "proto": "LC_SPECIALBACKGROUND_2024_GLOBAL_GOFEST_RADIANCE_001",
+      "formatted": "2024 Global Gofest Radiance 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "16": {
+      "proto": "LC_SPECIALBACKGROUND_2024_GLOBAL_GOFEST_UMBRA_001",
+      "formatted": "2024 Global Gofest Umbra 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "18": {
+      "proto": "LC_SPECIALBACKGROUND_TEAM_BLUE",
+      "formatted": "Team Blue",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "19": {
+      "proto": "LC_SPECIALBACKGROUND_TEAM_RED",
+      "formatted": "Team Red",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "20": {
+      "proto": "LC_SPECIALBACKGROUND_TEAM_YELLOW",
+      "formatted": "Team Yellow",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "21": {
+      "proto": "LC_2024_SURABAYA_AIRADVENTURES_001",
+      "formatted": "2024 Surabaya Airadventures 001"
+    },
+    "22": {
+      "proto": "LC_2024_YOGYAKARTA_AIRADVENTURES_001",
+      "formatted": "2024 Yogyakarta Airadventures 001"
+    },
+    "23": {
+      "proto": "LC_2024_JAKARTA_AIRADVENTURES_001",
+      "formatted": "2024 Jakarta Airadventures 001"
+    },
+    "24": {
+      "proto": "LC_SPECIAL_BACKGROUND_2024_GLOBAL_GOFEST_ULTRA_WORMHOLE_001",
+      "formatted": "2024 Global Gofest Ultra Wormhole 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "25": {
+      "proto": "LC_SPECIAL_BACKGROUND_2024_GLOBAL_GOFEST_SUN_ULTRA_WORMHOLE_001",
+      "formatted": "2024 Global Gofest Sun Ultra Wormhole 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "26": {
+      "proto": "LC_SPECIAL_BACKGROUND_2024_GLOBAL_GOFEST_MOON_ULTRA_WORMHOLE_001",
+      "formatted": "2024 Global Gofest Moon Ultra Wormhole 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "27": {
+      "proto": "LC_2024_INCHEON_SAFARI_ZONE_001",
+      "formatted": "2024 Incheon Safari Zone 001"
+    },
+    "28": {
+      "proto": "LC_2024_HONOLULU_WORLD_CHAMPIONSHIPS_001",
+      "formatted": "2024 Honolulu World Championships 001"
+    },
+    "29": {
+      "proto": "LC_2024_MLB_001",
+      "formatted": "2024 Mlb 001"
+    },
+    "30": {
+      "proto": "LC_2024_MLB_002",
+      "formatted": "2024 Mlb 002"
+    },
+    "31": {
+      "proto": "LC_2024_MLB_003",
+      "formatted": "2024 Mlb 003"
+    },
+    "32": {
+      "proto": "LC_2024_MLB_004",
+      "formatted": "2024 Mlb 004"
+    },
+    "33": {
+      "proto": "LC_2024_MLB_005",
+      "formatted": "2024 Mlb 005"
+    },
+    "34": {
+      "proto": "LC_2024_MLB_006",
+      "formatted": "2024 Mlb 006"
+    },
+    "35": {
+      "proto": "LC_2024_MLB_007",
+      "formatted": "2024 Mlb 007"
+    },
+    "36": {
+      "proto": "LC_2024_MLB_008",
+      "formatted": "2024 Mlb 008"
+    },
+    "37": {
+      "proto": "LC_2024_MLB_009",
+      "formatted": "2024 Mlb 009"
+    },
+    "38": {
+      "proto": "LC_2024_MLB_010",
+      "formatted": "2024 Mlb 010"
+    },
+    "39": {
+      "proto": "LC_2024_MLB_011",
+      "formatted": "2024 Mlb 011"
+    },
+    "40": {
+      "proto": "LC_2024_MLB_012",
+      "formatted": "2024 Mlb 012"
+    },
+    "41": {
+      "proto": "LC_2024_MLB_013",
+      "formatted": "2024 Mlb 013"
+    },
+    "42": {
+      "proto": "LC_2024_MLB_014",
+      "formatted": "2024 Mlb 014"
+    },
+    "59": {
+      "proto": "LC_2024_FUKUOKA_GOWA_001",
+      "formatted": "2024 Fukuoka Gowa 001"
+    },
+    "60": {
+      "proto": "LC_SPECIALBACKGROUND_2024_GLOBAL_GOWA_001",
+      "formatted": "2024 Global Gowa 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "61": {
+      "proto": "LC_2024_HONGKONG_CITYSAFARI_001",
+      "formatted": "2024 Hongkong Citysafari 001"
+    },
+    "62": {
+      "proto": "LC_2024_SAOPAULO_CITYSAFARI_001",
+      "formatted": "2024 Saopaulo Citysafari 001"
+    },
+    "63": {
+      "proto": "LC_2025_NEWTAIPEICITY_GOTOUR_001",
+      "formatted": "2025 Newtaipeicity Gotour 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "64": {
+      "proto": "LC_2025_LOSANGELES_GOTOUR_001",
+      "formatted": "2025 Losangeles Gotour 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "65": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOTOUR_WHITE_001",
+      "formatted": "2025 Global Gotour White 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "66": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOTOUR_BLACK_001",
+      "formatted": "2025 Global Gotour Black 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "67": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOTOUR_BLACK_WHITE_001",
+      "formatted": "2025 Global Gotour Black White 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "69": {
+      "proto": "LC_SPECIALBACKGROUND_2025_SEASON17",
+      "formatted": "2025 Season17",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "70": {
+      "proto": "LC_SPECIALBACKGROUND_2024_DECEMBERCDRECAP",
+      "formatted": "2024 Decembercdrecap",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "71": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_ENIGMA_001",
+      "formatted": "2025 Global Enigma 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "72": {
+      "proto": "LC_2024_MILAN_CITYSAFARI_001",
+      "formatted": "2024 Milan Citysafari 001"
+    },
+    "73": {
+      "proto": "LC_2024_MUMBAI_CITYSAFARI_001",
+      "formatted": "2024 Mumbai Citysafari 001"
+    },
+    "74": {
+      "proto": "LC_2024_SANTIAGO_CITYSAFARI_001",
+      "formatted": "2024 Santiago Citysafari 001"
+    },
+    "75": {
+      "proto": "LC_2024_SINGAPORE_CITYSAFARI_001",
+      "formatted": "2024 Singapore Citysafari 001"
+    },
+    "76": {
+      "proto": "LC_SPECIALBACKGROUND_2025_S18",
+      "formatted": "2025 S18",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "77": {
+      "proto": "LC_2025_OSAKA_EVENT_001",
+      "formatted": "2025 Osaka Event 001"
+    },
+    "78": {
+      "proto": "LC_2025_OSAKA_GOFEST_001",
+      "formatted": "2025 Osaka Gofest 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "79": {
+      "proto": "LC_2025_JERSEYCITY_GOFEST_001",
+      "formatted": "2025 Jerseycity Gofest 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "80": {
+      "proto": "LC_2025_PARIS_GOFEST_001",
+      "formatted": "2025 Paris Gofest 001",
+      "cardType": "LOCATION_CARD"
+    },
+    "81": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_001",
+      "formatted": "2025 Global Gofest Regi 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "82": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_002",
+      "formatted": "2025 Global Gofest Regi 002",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "83": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_003",
+      "formatted": "2025 Global Gofest Regi 003",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "84": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_004",
+      "formatted": "2025 Global Gofest Regi 004",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "85": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_005",
+      "formatted": "2025 Global Gofest Regi 005",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "86": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_REGI_006",
+      "formatted": "2025 Global Gofest Regi 006",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "87": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SWORD_001",
+      "formatted": "2025 Global Gofest Sword 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "88": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SHIELD_001",
+      "formatted": "2025 Global Gofest Shield 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "89": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_DD_001",
+      "formatted": "2025 Global Gofest Dd 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "90": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SWORD_CROWNED_001",
+      "formatted": "2025 Global Gofest Sword Crowned 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "91": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GLOBAL_GOFEST_SHIELD_CROWNED_001",
+      "formatted": "2025 Global Gofest Shield Crowned 001",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "93": {
+      "proto": "LC_2025_OSAKA_EVENT_002",
+      "formatted": "2025 Osaka Event 002"
+    },
+    "94": {
+      "proto": "LC_2025_OSAKA_EVENT_003",
+      "formatted": "2025 Osaka Event 003"
+    },
+    "98": {
+      "proto": "LC_2025_CHERRY_BLOSSOM_FESTIVAL",
+      "formatted": "2025 Cherry Blossom Festival"
+    },
+    "100": {
+      "proto": "LC_SPECIALBACKGROUND_KR2025_LOTTE_01",
+      "formatted": "Kr2025 Lotte 01"
+    },
+    "101": {
+      "proto": "LC_2025_MANCHESTER_ROADTRIP_001",
+      "formatted": "2025 Manchester Roadtrip 001"
+    },
+    "102": {
+      "proto": "LC_2025_LONDON_ROADTRIP_001",
+      "formatted": "2025 London Roadtrip 001"
+    },
+    "103": {
+      "proto": "LC_2025_PARIS_ROADTRIP_001",
+      "formatted": "2025 Paris Roadtrip 001"
+    },
+    "104": {
+      "proto": "LC_2025_VALENCIA_ROADTRIP_001",
+      "formatted": "2025 Valencia Roadtrip 001"
+    },
+    "105": {
+      "proto": "LC_2025_BERLIN_ROADTRIP_001",
+      "formatted": "2025 Berlin Roadtrip 001"
+    },
+    "106": {
+      "proto": "LC_2025_HAGUE_ROADTRIP_001",
+      "formatted": "2025 Hague Roadtrip 001"
+    },
+    "107": {
+      "proto": "LC_2025_COLOGNE_ROADTRIP_001",
+      "formatted": "2025 Cologne Roadtrip 001"
+    },
+    "108": {
+      "proto": "LC_SPECIALBACKGROUND_2025_SEASON19",
+      "formatted": "2025 Season19",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "109": {
+      "proto": "LC_SPECIALBACKGROUND_2025_9THANNIVERSARY",
+      "formatted": "2025 9thanniversary",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "111": {
+      "proto": "LC_SPECIALBACKGROUND_2025_SEASON20",
+      "formatted": "2025 Season20",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "143": {
+      "proto": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
+      "formatted": "2025 Anaheim World Championships 001"
+    },
+    "144": {
+      "proto": "LC_SPECIALBACKGROUND_CON2025",
+      "formatted": "Con2025",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "145": {
+      "proto": "LC_2025_JANGHEUNG_SUMMER_FESTIVAL",
+      "formatted": "2025 Jangheung Summer Festival"
+    },
+    "146": {
+      "proto": "LC_2025_AMSTERDAM_CITYSAFARI_001",
+      "formatted": "2025 Amsterdam Citysafari 001"
+    },
+    "147": {
+      "proto": "LC_2025_BANGKOK_CITYSAFARI_001",
+      "formatted": "2025 Bangkok Citysafari 001"
+    },
+    "148": {
+      "proto": "LC_2025_CANCUN_CITYSAFARI_001",
+      "formatted": "2025 Cancun Citysafari 001"
+    },
+    "149": {
+      "proto": "LC_2025_VALENCIA_CITYSAFARI_001",
+      "formatted": "2025 Valencia Citysafari 001"
+    },
+    "150": {
+      "proto": "LC_2025_VANCOUVER_CITYSAFARI_001",
+      "formatted": "2025 Vancouver Citysafari 001"
+    },
+    "151": {
+      "proto": "LC_2025_PARIS_001",
+      "formatted": "2025 Paris 001"
+    },
+    "152": {
+      "proto": "LC_2025_PARIS_002",
+      "formatted": "2025 Paris 002"
+    },
+    "153": {
+      "proto": "LC_2025_TAIPEICITY_AMUSEMENT_PARK",
+      "formatted": "2025 Taipeicity Amusement Park"
+    },
+    "156": {
+      "proto": "LC_SPECIALBACKGROUND_2025_GOWA_GLOBAL",
+      "formatted": "2025 Gowa Global",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "158": {
+      "proto": "LC_JEJU_STAMP_RALLY",
+      "formatted": "Jeju Stamp Rally"
+    },
+    "198": {
+      "proto": "LC_POKELID_FUKUOKA",
+      "formatted": "Pokelid Fukuoka"
+    },
+    "199": {
+      "proto": "LC_POKELID_SAGA",
+      "formatted": "Pokelid Saga"
+    },
+    "200": {
+      "proto": "LC_POKELID_NAGASAKI",
+      "formatted": "Pokelid Nagasaki"
+    },
+    "201": {
+      "proto": "LC_POKELID_MIYAZAKI",
+      "formatted": "Pokelid Miyazaki"
+    },
+    "202": {
+      "proto": "LC_POKELID_KAGOSHIMA",
+      "formatted": "Pokelid Kagoshima"
+    },
+    "203": {
+      "proto": "LC_POKELID_OKINAWA",
+      "formatted": "Pokelid Okinawa"
+    }
+  },
   "routeTypes": {
     "0": "Route Type Unset",
     "1": "Route Type Organic",
