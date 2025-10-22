@@ -19879,13 +19879,6 @@
           "proto": "SOLAR_BEAM",
           "type": 12,
           "power": 180
-        },
-        "296": {
-          "moveId": 296,
-          "moveName": "Frenzy Plant",
-          "proto": "FRENZY_PLANT",
-          "type": 12,
-          "power": 100
         }
       },
       "genId": 2,
@@ -20593,13 +20586,6 @@
           "proto": "CRUNCH",
           "type": 17,
           "power": 65
-        },
-        "299": {
-          "moveId": 299,
-          "moveName": "Hydro Cannon",
-          "proto": "HYDRO_CANNON",
-          "type": 11,
-          "power": 90
         }
       },
       "genId": 2,
@@ -59001,13 +58987,6 @@
           "proto": "FOCUS_BLAST",
           "type": 2,
           "power": 140
-        },
-        "298": {
-          "moveId": 298,
-          "moveName": "Blast Burn",
-          "proto": "BLAST_BURN",
-          "type": 10,
-          "power": 120
         }
       },
       "genId": 5,
@@ -81550,7 +81529,7 @@
     "702": {
       "name": "Dedenne",
       "pokedexId": 702,
-      "defaultFormId": 0,
+      "defaultFormId": 2860,
       "types": {
         "13": {
           "typeId": 13,
@@ -83870,7 +83849,7 @@
     "722": {
       "name": "Rowlet",
       "pokedexId": 722,
-      "defaultFormId": 0,
+      "defaultFormId": 3076,
       "types": {
         "3": {
           "typeId": 3,
@@ -83938,7 +83917,14 @@
         "3076": {
           "name": "Normal",
           "proto": "ROWLET_NORMAL",
-          "form": 3076
+          "form": 3076,
+          "evolutions": {
+            "723": {
+              "pokemon": 723,
+              "form": 3077,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -83973,7 +83959,7 @@
     "723": {
       "name": "Dartrix",
       "pokedexId": 723,
-      "defaultFormId": 0,
+      "defaultFormId": 3077,
       "types": {
         "3": {
           "typeId": 3,
@@ -84048,7 +84034,14 @@
         "3077": {
           "name": "Normal",
           "proto": "DARTRIX_NORMAL",
-          "form": 3077
+          "form": 3077,
+          "evolutions": {
+            "724": {
+              "pokemon": 724,
+              "form": 2785,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -84274,7 +84267,7 @@
     "725": {
       "name": "Litten",
       "pokedexId": 725,
-      "defaultFormId": 0,
+      "defaultFormId": 3078,
       "types": {
         "10": {
           "typeId": 10,
@@ -84331,7 +84324,14 @@
         "3078": {
           "name": "Normal",
           "proto": "LITTEN_NORMAL",
-          "form": 3078
+          "form": 3078,
+          "evolutions": {
+            "726": {
+              "pokemon": 726,
+              "form": 3079,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -84366,7 +84366,7 @@
     "726": {
       "name": "Torracat",
       "pokedexId": 726,
-      "defaultFormId": 0,
+      "defaultFormId": 3079,
       "types": {
         "10": {
           "typeId": 10,
@@ -84423,7 +84423,14 @@
         "3079": {
           "name": "Normal",
           "proto": "TORRACAT_NORMAL",
-          "form": 3079
+          "form": 3079,
+          "evolutions": {
+            "727": {
+              "pokemon": 727,
+              "form": 3080,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -84461,7 +84468,7 @@
     "727": {
       "name": "Incineroar",
       "pokedexId": 727,
-      "defaultFormId": 0,
+      "defaultFormId": 3080,
       "types": {
         "10": {
           "typeId": 10,
@@ -84588,7 +84595,7 @@
     "728": {
       "name": "Popplio",
       "pokedexId": 728,
-      "defaultFormId": 0,
+      "defaultFormId": 3081,
       "types": {
         "11": {
           "typeId": 11,
@@ -84645,7 +84652,14 @@
         "3081": {
           "name": "Normal",
           "proto": "POPPLIO_NORMAL",
-          "form": 3081
+          "form": 3081,
+          "evolutions": {
+            "729": {
+              "pokemon": 729,
+              "form": 3082,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -84680,7 +84694,7 @@
     "729": {
       "name": "Brionne",
       "pokedexId": 729,
-      "defaultFormId": 0,
+      "defaultFormId": 3082,
       "types": {
         "11": {
           "typeId": 11,
@@ -84737,7 +84751,14 @@
         "3082": {
           "name": "Normal",
           "proto": "BRIONNE_NORMAL",
-          "form": 3082
+          "form": 3082,
+          "evolutions": {
+            "730": {
+              "pokemon": 730,
+              "form": 3083,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -84775,7 +84796,7 @@
     "730": {
       "name": "Primarina",
       "pokedexId": 730,
-      "defaultFormId": 0,
+      "defaultFormId": 3083,
       "types": {
         "11": {
           "typeId": 11,
@@ -84881,7 +84902,7 @@
     "731": {
       "name": "Pikipek",
       "pokedexId": 731,
-      "defaultFormId": 0,
+      "defaultFormId": 3084,
       "types": {
         "1": {
           "typeId": 1,
@@ -84942,7 +84963,14 @@
         "3084": {
           "name": "Normal",
           "proto": "PIKIPEK_NORMAL",
-          "form": 3084
+          "form": 3084,
+          "evolutions": {
+            "732": {
+              "pokemon": 732,
+              "form": 3085,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -84977,7 +85005,7 @@
     "732": {
       "name": "Trumbeak",
       "pokedexId": 732,
-      "defaultFormId": 0,
+      "defaultFormId": 3085,
       "types": {
         "1": {
           "typeId": 1,
@@ -85038,7 +85066,14 @@
         "3085": {
           "name": "Normal",
           "proto": "TRUMBEAK_NORMAL",
-          "form": 3085
+          "form": 3085,
+          "evolutions": {
+            "733": {
+              "pokemon": 733,
+              "form": 3086,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -85076,7 +85111,7 @@
     "733": {
       "name": "Toucannon",
       "pokedexId": 733,
-      "defaultFormId": 0,
+      "defaultFormId": 3086,
       "types": {
         "1": {
           "typeId": 1,
@@ -85175,7 +85210,7 @@
     "734": {
       "name": "Yungoos",
       "pokedexId": 734,
-      "defaultFormId": 0,
+      "defaultFormId": 3087,
       "types": {
         "1": {
           "typeId": 1,
@@ -85232,7 +85267,15 @@
         "3087": {
           "name": "Normal",
           "proto": "YUNGOOS_NORMAL",
-          "form": 3087
+          "form": 3087,
+          "evolutions": {
+            "735": {
+              "pokemon": 735,
+              "form": 3088,
+              "candyCost": 50,
+              "onlyDaytime": true
+            }
+          }
         }
       },
       "stats": {
@@ -85268,7 +85311,7 @@
     "735": {
       "name": "Gumshoos",
       "pokedexId": 735,
-      "defaultFormId": 0,
+      "defaultFormId": 3088,
       "types": {
         "1": {
           "typeId": 1,
@@ -85356,7 +85399,7 @@
     "736": {
       "name": "Grubbin",
       "pokedexId": 736,
-      "defaultFormId": 0,
+      "defaultFormId": 3089,
       "types": {
         "7": {
           "typeId": 7,
@@ -85413,7 +85456,14 @@
         "3089": {
           "name": "Normal",
           "proto": "GRUBBIN_NORMAL",
-          "form": 3089
+          "form": 3089,
+          "evolutions": {
+            "737": {
+              "pokemon": 737,
+              "form": 3090,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -85448,7 +85498,7 @@
     "737": {
       "name": "Charjabug",
       "pokedexId": 737,
-      "defaultFormId": 0,
+      "defaultFormId": 3090,
       "types": {
         "7": {
           "typeId": 7,
@@ -85509,7 +85559,14 @@
         "3090": {
           "name": "Normal",
           "proto": "CHARJABUG_NORMAL",
-          "form": 3090
+          "form": 3090,
+          "evolutions": {
+            "738": {
+              "pokemon": 738,
+              "form": 3091,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -85547,7 +85604,7 @@
     "738": {
       "name": "Vikavolt",
       "pokedexId": 738,
-      "defaultFormId": 0,
+      "defaultFormId": 3091,
       "types": {
         "7": {
           "typeId": 7,
@@ -85653,7 +85710,7 @@
     "739": {
       "name": "Crabrawler",
       "pokedexId": 739,
-      "defaultFormId": 0,
+      "defaultFormId": 3092,
       "types": {
         "2": {
           "typeId": 2,
@@ -85717,7 +85774,14 @@
         "3092": {
           "name": "Normal",
           "proto": "CRABRAWLER_NORMAL",
-          "form": 3092
+          "form": 3092,
+          "evolutions": {
+            "740": {
+              "pokemon": 740,
+              "form": 3093,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -85752,7 +85816,7 @@
     "740": {
       "name": "Crabominable",
       "pokedexId": 740,
-      "defaultFormId": 0,
+      "defaultFormId": 3093,
       "types": {
         "2": {
           "typeId": 2,
@@ -85991,7 +86055,7 @@
     "742": {
       "name": "Cutiefly",
       "pokedexId": 742,
-      "defaultFormId": 0,
+      "defaultFormId": 3094,
       "types": {
         "7": {
           "typeId": 7,
@@ -86045,7 +86109,14 @@
         "3094": {
           "name": "Normal",
           "proto": "CUTIEFLY_NORMAL",
-          "form": 3094
+          "form": 3094,
+          "evolutions": {
+            "743": {
+              "pokemon": 743,
+              "form": 3095,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -86080,7 +86151,7 @@
     "743": {
       "name": "Ribombee",
       "pokedexId": 743,
-      "defaultFormId": 0,
+      "defaultFormId": 3095,
       "types": {
         "7": {
           "typeId": 7,
@@ -86618,7 +86689,7 @@
     "747": {
       "name": "Mareanie",
       "pokedexId": 747,
-      "defaultFormId": 0,
+      "defaultFormId": 3096,
       "types": {
         "4": {
           "typeId": 4,
@@ -86679,7 +86750,14 @@
         "3096": {
           "name": "Normal",
           "proto": "MAREANIE_NORMAL",
-          "form": 3096
+          "form": 3096,
+          "evolutions": {
+            "748": {
+              "pokemon": 748,
+              "form": 3097,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -86714,7 +86792,7 @@
     "748": {
       "name": "Toxapex",
       "pokedexId": 748,
-      "defaultFormId": 0,
+      "defaultFormId": 3097,
       "types": {
         "4": {
           "typeId": 4,
@@ -86806,7 +86884,7 @@
     "749": {
       "name": "Mudbray",
       "pokedexId": 749,
-      "defaultFormId": 0,
+      "defaultFormId": 3098,
       "types": {
         "5": {
           "typeId": 5,
@@ -86863,7 +86941,14 @@
         "3098": {
           "name": "Normal",
           "proto": "MUDBRAY_NORMAL",
-          "form": 3098
+          "form": 3098,
+          "evolutions": {
+            "750": {
+              "pokemon": 750,
+              "form": 3099,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -86898,7 +86983,7 @@
     "750": {
       "name": "Mudsdale",
       "pokedexId": 750,
-      "defaultFormId": 0,
+      "defaultFormId": 3099,
       "types": {
         "5": {
           "typeId": 5,
@@ -86993,7 +87078,7 @@
     "751": {
       "name": "Dewpider",
       "pokedexId": 751,
-      "defaultFormId": 0,
+      "defaultFormId": 3100,
       "types": {
         "7": {
           "typeId": 7,
@@ -87054,7 +87139,14 @@
         "3100": {
           "name": "Normal",
           "proto": "DEWPIDER_NORMAL",
-          "form": 3100
+          "form": 3100,
+          "evolutions": {
+            "752": {
+              "pokemon": 752,
+              "form": 3101,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -87089,7 +87181,7 @@
     "752": {
       "name": "Araquanid",
       "pokedexId": 752,
-      "defaultFormId": 0,
+      "defaultFormId": 3101,
       "types": {
         "7": {
           "typeId": 7,
@@ -87188,7 +87280,7 @@
     "753": {
       "name": "Fomantis",
       "pokedexId": 753,
-      "defaultFormId": 0,
+      "defaultFormId": 3102,
       "types": {
         "12": {
           "typeId": 12,
@@ -87259,7 +87351,15 @@
         "3102": {
           "name": "Normal",
           "proto": "FOMANTIS_NORMAL",
-          "form": 3102
+          "form": 3102,
+          "evolutions": {
+            "754": {
+              "pokemon": 754,
+              "form": 3103,
+              "candyCost": 50,
+              "onlyDaytime": true
+            }
+          }
         }
       },
       "stats": {
@@ -87295,7 +87395,7 @@
     "754": {
       "name": "Lurantis",
       "pokedexId": 754,
-      "defaultFormId": 0,
+      "defaultFormId": 3103,
       "types": {
         "12": {
           "typeId": 12,
@@ -87404,7 +87504,7 @@
     "755": {
       "name": "Morelull",
       "pokedexId": 755,
-      "defaultFormId": 0,
+      "defaultFormId": 3104,
       "types": {
         "12": {
           "typeId": 12,
@@ -87451,7 +87551,14 @@
         "3104": {
           "name": "Normal",
           "proto": "MORELULL_NORMAL",
-          "form": 3104
+          "form": 3104,
+          "evolutions": {
+            "756": {
+              "pokemon": 756,
+              "form": 3105,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -87489,7 +87596,7 @@
     "756": {
       "name": "Shiinotic",
       "pokedexId": 756,
-      "defaultFormId": 0,
+      "defaultFormId": 3105,
       "types": {
         "12": {
           "typeId": 12,
@@ -87574,7 +87681,7 @@
     "757": {
       "name": "Salandit",
       "pokedexId": 757,
-      "defaultFormId": 0,
+      "defaultFormId": 3106,
       "types": {
         "4": {
           "typeId": 4,
@@ -87635,7 +87742,15 @@
         "3106": {
           "name": "Normal",
           "proto": "SALANDIT_NORMAL",
-          "form": 3106
+          "form": 3106,
+          "evolutions": {
+            "758": {
+              "pokemon": 758,
+              "form": 3107,
+              "genderRequirement": 2,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -87671,7 +87786,7 @@
     "758": {
       "name": "Salazzle",
       "pokedexId": 758,
-      "defaultFormId": 0,
+      "defaultFormId": 3107,
       "types": {
         "4": {
           "typeId": 4,
@@ -87770,7 +87885,7 @@
     "759": {
       "name": "Stufful",
       "pokedexId": 759,
-      "defaultFormId": 0,
+      "defaultFormId": 3108,
       "types": {
         "1": {
           "typeId": 1,
@@ -87831,7 +87946,14 @@
         "3108": {
           "name": "Normal",
           "proto": "STUFFUL_NORMAL",
-          "form": 3108
+          "form": 3108,
+          "evolutions": {
+            "760": {
+              "pokemon": 760,
+              "form": 3020,
+              "candyCost": 400
+            }
+          }
         }
       },
       "stats": {
@@ -87971,7 +88093,7 @@
     "761": {
       "name": "Bounsweet",
       "pokedexId": 761,
-      "defaultFormId": 0,
+      "defaultFormId": 3109,
       "types": {
         "12": {
           "typeId": 12,
@@ -88021,7 +88143,14 @@
         "3109": {
           "name": "Normal",
           "proto": "BOUNSWEET_NORMAL",
-          "form": 3109
+          "form": 3109,
+          "evolutions": {
+            "762": {
+              "pokemon": 762,
+              "form": 3110,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -88056,7 +88185,7 @@
     "762": {
       "name": "Steenee",
       "pokedexId": 762,
-      "defaultFormId": 0,
+      "defaultFormId": 3110,
       "types": {
         "12": {
           "typeId": 12,
@@ -88120,7 +88249,14 @@
         "3110": {
           "name": "Normal",
           "proto": "STEENEE_NORMAL",
-          "form": 3110
+          "form": 3110,
+          "evolutions": {
+            "763": {
+              "pokemon": 763,
+              "form": 3111,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -88158,7 +88294,7 @@
     "763": {
       "name": "Tsareena",
       "pokedexId": 763,
-      "defaultFormId": 0,
+      "defaultFormId": 3111,
       "types": {
         "12": {
           "typeId": 12,
@@ -88267,7 +88403,7 @@
     "764": {
       "name": "Comfey",
       "pokedexId": 764,
-      "defaultFormId": 0,
+      "defaultFormId": 3112,
       "types": {
         "18": {
           "typeId": 18,
@@ -88351,7 +88487,7 @@
     "765": {
       "name": "Oranguru",
       "pokedexId": 765,
-      "defaultFormId": 0,
+      "defaultFormId": 3113,
       "types": {
         "1": {
           "typeId": 1,
@@ -88459,7 +88595,7 @@
     "766": {
       "name": "Passimian",
       "pokedexId": 766,
-      "defaultFormId": 0,
+      "defaultFormId": 3114,
       "types": {
         "2": {
           "typeId": 2,
@@ -88564,7 +88700,7 @@
     "767": {
       "name": "Wimpod",
       "pokedexId": 767,
-      "defaultFormId": 0,
+      "defaultFormId": 3115,
       "types": {
         "7": {
           "typeId": 7,
@@ -88604,7 +88740,14 @@
         "3115": {
           "name": "Normal",
           "proto": "WIMPOD_NORMAL",
-          "form": 3115
+          "form": 3115,
+          "evolutions": {
+            "768": {
+              "pokemon": 768,
+              "form": 3116,
+              "candyCost": 400
+            }
+          }
         }
       },
       "stats": {
@@ -88639,7 +88782,7 @@
     "768": {
       "name": "Golisopod",
       "pokedexId": 768,
-      "defaultFormId": 0,
+      "defaultFormId": 3116,
       "types": {
         "7": {
           "typeId": 7,
@@ -88759,7 +88902,7 @@
     "769": {
       "name": "Sandygast",
       "pokedexId": 769,
-      "defaultFormId": 0,
+      "defaultFormId": 3117,
       "types": {
         "5": {
           "typeId": 5,
@@ -88834,7 +88977,14 @@
         "3117": {
           "name": "Normal",
           "proto": "SANDYGAST_NORMAL",
-          "form": 3117
+          "form": 3117,
+          "evolutions": {
+            "770": {
+              "pokemon": 770,
+              "form": 3118,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -88869,7 +89019,7 @@
     "770": {
       "name": "Palossand",
       "pokedexId": 770,
-      "defaultFormId": 0,
+      "defaultFormId": 3118,
       "types": {
         "5": {
           "typeId": 5,
@@ -88975,7 +89125,7 @@
     "771": {
       "name": "Pyukumuku",
       "pokedexId": 771,
-      "defaultFormId": 0,
+      "defaultFormId": 3119,
       "types": {
         "11": {
           "typeId": 11,
@@ -89038,7 +89188,7 @@
     "772": {
       "name": "Type: Null",
       "pokedexId": 772,
-      "defaultFormId": 0,
+      "defaultFormId": 3120,
       "types": {
         "1": {
           "typeId": 1,
@@ -89095,7 +89245,14 @@
         "3120": {
           "name": "Normal",
           "proto": "TYPE_NULL_NORMAL",
-          "form": 3120
+          "form": 3120,
+          "evolutions": {
+            "773": {
+              "pokemon": 773,
+              "form": 2689,
+              "candyCost": 200
+            }
+          }
         }
       },
       "stats": {
@@ -89619,7 +89776,7 @@
     "775": {
       "name": "Komala",
       "pokedexId": 775,
-      "defaultFormId": 0,
+      "defaultFormId": 3121,
       "types": {
         "1": {
           "typeId": 1,
@@ -89702,7 +89859,7 @@
     "776": {
       "name": "Turtonator",
       "pokedexId": 776,
-      "defaultFormId": 0,
+      "defaultFormId": 3122,
       "types": {
         "10": {
           "typeId": 10,
@@ -89818,7 +89975,7 @@
     "777": {
       "name": "Togedemaru",
       "pokedexId": 777,
-      "defaultFormId": 0,
+      "defaultFormId": 3123,
       "types": {
         "9": {
           "typeId": 9,
@@ -89999,7 +90156,7 @@
     "779": {
       "name": "Bruxish",
       "pokedexId": 779,
-      "defaultFormId": 0,
+      "defaultFormId": 3124,
       "types": {
         "11": {
           "typeId": 11,
@@ -90101,7 +90258,7 @@
     "780": {
       "name": "Drampa",
       "pokedexId": 780,
-      "defaultFormId": 0,
+      "defaultFormId": 3125,
       "types": {
         "1": {
           "typeId": 1,
@@ -90212,7 +90369,7 @@
     "781": {
       "name": "Dhelmise",
       "pokedexId": 781,
-      "defaultFormId": 0,
+      "defaultFormId": 3126,
       "types": {
         "8": {
           "typeId": 8,
@@ -90314,7 +90471,7 @@
     "782": {
       "name": "Jangmo-o",
       "pokedexId": 782,
-      "defaultFormId": 0,
+      "defaultFormId": 3127,
       "types": {
         "16": {
           "typeId": 16,
@@ -90371,7 +90528,14 @@
         "3127": {
           "name": "Normal",
           "proto": "JANGMO_O_NORMAL",
-          "form": 3127
+          "form": 3127,
+          "evolutions": {
+            "783": {
+              "pokemon": 783,
+              "form": 3128,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -90406,7 +90570,7 @@
     "783": {
       "name": "Hakamo-o",
       "pokedexId": 783,
-      "defaultFormId": 0,
+      "defaultFormId": 3128,
       "types": {
         "2": {
           "typeId": 2,
@@ -90474,7 +90638,14 @@
         "3128": {
           "name": "Normal",
           "proto": "HAKAMO_O_NORMAL",
-          "form": 3128
+          "form": 3128,
+          "evolutions": {
+            "784": {
+              "pokemon": 784,
+              "form": 3129,
+              "candyCost": 100
+            }
+          }
         }
       },
       "stats": {
@@ -90512,7 +90683,7 @@
     "784": {
       "name": "Kommo-o",
       "pokedexId": 784,
-      "defaultFormId": 0,
+      "defaultFormId": 3129,
       "types": {
         "2": {
           "typeId": 2,
@@ -90632,7 +90803,7 @@
     "785": {
       "name": "Tapu Koko",
       "pokedexId": 785,
-      "defaultFormId": 0,
+      "defaultFormId": 3130,
       "types": {
         "13": {
           "typeId": 13,
@@ -90726,7 +90897,7 @@
     "786": {
       "name": "Tapu Lele",
       "pokedexId": 786,
-      "defaultFormId": 0,
+      "defaultFormId": 3131,
       "types": {
         "14": {
           "typeId": 14,
@@ -90827,7 +90998,7 @@
     "787": {
       "name": "Tapu Bulu",
       "pokedexId": 787,
-      "defaultFormId": 0,
+      "defaultFormId": 3132,
       "types": {
         "12": {
           "typeId": 12,
@@ -90921,7 +91092,7 @@
     "788": {
       "name": "Tapu Fini",
       "pokedexId": 788,
-      "defaultFormId": 0,
+      "defaultFormId": 3133,
       "types": {
         "11": {
           "typeId": 11,
@@ -91015,7 +91186,7 @@
     "789": {
       "name": "Cosmog",
       "pokedexId": 789,
-      "defaultFormId": 0,
+      "defaultFormId": 3134,
       "types": {
         "14": {
           "typeId": 14,
@@ -91050,7 +91221,14 @@
         "3134": {
           "name": "Normal",
           "proto": "COSMOG_NORMAL",
-          "form": 3134
+          "form": 3134,
+          "evolutions": {
+            "790": {
+              "pokemon": 790,
+              "form": 3135,
+              "candyCost": 25
+            }
+          }
         }
       },
       "stats": {
@@ -91084,7 +91262,7 @@
     "790": {
       "name": "Cosmoem",
       "pokedexId": 790,
-      "defaultFormId": 0,
+      "defaultFormId": 3135,
       "types": {
         "14": {
           "typeId": 14,
@@ -91119,7 +91297,21 @@
         "3135": {
           "name": "Normal",
           "proto": "COSMOEM_NORMAL",
-          "form": 3135
+          "form": 3135,
+          "evolutions": {
+            "791": {
+              "pokemon": 791,
+              "form": 3136,
+              "candyCost": 100,
+              "onlyDaytime": true
+            },
+            "792": {
+              "pokemon": 792,
+              "form": 3137,
+              "candyCost": 100,
+              "onlyNighttime": true
+            }
+          }
         }
       },
       "stats": {
@@ -91159,7 +91351,7 @@
     "791": {
       "name": "Solgaleo",
       "pokedexId": 791,
-      "defaultFormId": 0,
+      "defaultFormId": 3136,
       "types": {
         "9": {
           "typeId": 9,
@@ -91253,7 +91445,7 @@
     "792": {
       "name": "Lunala",
       "pokedexId": 792,
-      "defaultFormId": 0,
+      "defaultFormId": 3137,
       "types": {
         "8": {
           "typeId": 8,
@@ -91354,7 +91546,7 @@
     "793": {
       "name": "Nihilego",
       "pokedexId": 793,
-      "defaultFormId": 0,
+      "defaultFormId": 3138,
       "types": {
         "4": {
           "typeId": 4,
@@ -91455,7 +91647,7 @@
     "794": {
       "name": "Buzzwole",
       "pokedexId": 794,
-      "defaultFormId": 0,
+      "defaultFormId": 3139,
       "types": {
         "2": {
           "typeId": 2,
@@ -91549,7 +91741,7 @@
     "795": {
       "name": "Pheromosa",
       "pokedexId": 795,
-      "defaultFormId": 0,
+      "defaultFormId": 3140,
       "types": {
         "2": {
           "typeId": 2,
@@ -91643,7 +91835,7 @@
     "796": {
       "name": "Xurkitree",
       "pokedexId": 796,
-      "defaultFormId": 0,
+      "defaultFormId": 3141,
       "types": {
         "13": {
           "typeId": 13,
@@ -91733,7 +91925,7 @@
     "797": {
       "name": "Celesteela",
       "pokedexId": 797,
-      "defaultFormId": 0,
+      "defaultFormId": 3142,
       "types": {
         "3": {
           "typeId": 3,
@@ -91827,7 +92019,7 @@
     "798": {
       "name": "Kartana",
       "pokedexId": 798,
-      "defaultFormId": 0,
+      "defaultFormId": 3143,
       "types": {
         "9": {
           "typeId": 9,
@@ -91921,7 +92113,7 @@
     "799": {
       "name": "Guzzlord",
       "pokedexId": 799,
-      "defaultFormId": 0,
+      "defaultFormId": 3144,
       "types": {
         "16": {
           "typeId": 16,
@@ -92263,7 +92455,7 @@
     "802": {
       "name": "Marshadow",
       "pokedexId": 802,
-      "defaultFormId": 0,
+      "defaultFormId": 3145,
       "types": {
         "2": {
           "typeId": 2,
@@ -92369,7 +92561,7 @@
     "803": {
       "name": "Poipole",
       "pokedexId": 803,
-      "defaultFormId": 0,
+      "defaultFormId": 3146,
       "types": {
         "4": {
           "typeId": 4,
@@ -92426,7 +92618,21 @@
         "3146": {
           "name": "Normal",
           "proto": "POIPOLE_NORMAL",
-          "form": 3146
+          "form": 3146,
+          "evolutions": {
+            "804": {
+              "pokemon": 804,
+              "form": 3147,
+              "candyCost": 200,
+              "questRequirement": {
+                "questType": 4,
+                "target": 20,
+                "assetsRef": "quest_catch_type_dragon_plural",
+                "i18n": "Catch {{amount}} Dragon-type Pokémon",
+                "translated": "Catch 20 Dragon-type Pokémon"
+              }
+            }
+          }
         }
       },
       "stats": {
@@ -92467,7 +92673,7 @@
     "804": {
       "name": "Naganadel",
       "pokedexId": 804,
-      "defaultFormId": 0,
+      "defaultFormId": 3147,
       "types": {
         "4": {
           "typeId": 4,
@@ -92572,7 +92778,7 @@
     "805": {
       "name": "Stakataka",
       "pokedexId": 805,
-      "defaultFormId": 0,
+      "defaultFormId": 3148,
       "types": {
         "6": {
           "typeId": 6,
@@ -92659,7 +92865,7 @@
     "806": {
       "name": "Blacephalon",
       "pokedexId": 806,
-      "defaultFormId": 0,
+      "defaultFormId": 3149,
       "types": {
         "8": {
           "typeId": 8,
@@ -92746,7 +92952,7 @@
     "807": {
       "name": "Zeraora",
       "pokedexId": 807,
-      "defaultFormId": 0,
+      "defaultFormId": 3150,
       "types": {
         "13": {
           "typeId": 13,
@@ -94955,7 +95161,7 @@
     "831": {
       "name": "Wooloo",
       "pokedexId": 831,
-      "defaultFormId": 0,
+      "defaultFormId": 2861,
       "types": {
         "1": {
           "typeId": 1,
@@ -95012,7 +95218,14 @@
         "2861": {
           "name": "Normal",
           "proto": "WOOLOO_NORMAL",
-          "form": 2861
+          "form": 2861,
+          "evolutions": {
+            "832": {
+              "pokemon": 832,
+              "form": 2862,
+              "candyCost": 50
+            }
+          }
         }
       },
       "stats": {
@@ -95047,7 +95260,7 @@
     "832": {
       "name": "Dubwool",
       "pokedexId": 832,
-      "defaultFormId": 0,
+      "defaultFormId": 2862,
       "types": {
         "1": {
           "typeId": 1,
@@ -112629,7 +112842,7 @@
     "1009": {
       "name": "Walkingwake",
       "pokedexId": 1009,
-      "defaultFormId": 0,
+      "defaultFormId": 3324,
       "types": {
         "11": {
           "typeId": 11,
@@ -112688,7 +112901,7 @@
     "1010": {
       "name": "Ironleaves",
       "pokedexId": 1010,
-      "defaultFormId": 0,
+      "defaultFormId": 3325,
       "types": {
         "12": {
           "typeId": 12,
@@ -112747,7 +112960,7 @@
     "1011": {
       "name": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 0,
+      "defaultFormId": 3326,
       "types": {
         "12": {
           "typeId": 12,
@@ -113067,7 +113280,7 @@
     "1014": {
       "name": "Okidogi",
       "pokedexId": 1014,
-      "defaultFormId": 0,
+      "defaultFormId": 3327,
       "types": {
         "2": {
           "typeId": 2,
@@ -113148,7 +113361,7 @@
     "1015": {
       "name": "Munkidori",
       "pokedexId": 1015,
-      "defaultFormId": 0,
+      "defaultFormId": 3328,
       "types": {
         "4": {
           "typeId": 4,
@@ -113229,7 +113442,7 @@
     "1016": {
       "name": "Fezandipiti",
       "pokedexId": 1016,
-      "defaultFormId": 0,
+      "defaultFormId": 3329,
       "types": {
         "4": {
           "typeId": 4,
@@ -113414,7 +113627,7 @@
     "1018": {
       "name": "Archaludon",
       "pokedexId": 1018,
-      "defaultFormId": 0,
+      "defaultFormId": 3330,
       "types": {
         "9": {
           "typeId": 9,
@@ -113500,7 +113713,7 @@
     "1019": {
       "name": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 0,
+      "defaultFormId": 3331,
       "types": {
         "12": {
           "typeId": 12,
@@ -113594,7 +113807,7 @@
     "1020": {
       "name": "Gougingfire",
       "pokedexId": 1020,
-      "defaultFormId": 0,
+      "defaultFormId": 3332,
       "types": {
         "10": {
           "typeId": 10,
@@ -113653,7 +113866,7 @@
     "1021": {
       "name": "Ragingbolt",
       "pokedexId": 1021,
-      "defaultFormId": 0,
+      "defaultFormId": 3333,
       "types": {
         "13": {
           "typeId": 13,
@@ -113712,7 +113925,7 @@
     "1022": {
       "name": "Ironboulder",
       "pokedexId": 1022,
-      "defaultFormId": 0,
+      "defaultFormId": 3334,
       "types": {
         "6": {
           "typeId": 6,
@@ -113771,7 +113984,7 @@
     "1023": {
       "name": "Ironcrown",
       "pokedexId": 1023,
-      "defaultFormId": 0,
+      "defaultFormId": 3335,
       "types": {
         "9": {
           "typeId": 9,
@@ -113830,7 +114043,7 @@
     "1024": {
       "name": "Terapagos",
       "pokedexId": 1024,
-      "defaultFormId": 0,
+      "defaultFormId": 2880,
       "types": {
         "1": {
           "typeId": 1,
@@ -113911,7 +114124,7 @@
     "1025": {
       "name": "Pecharunt",
       "pokedexId": 1025,
-      "defaultFormId": 0,
+      "defaultFormId": 3336,
       "types": {
         "4": {
           "typeId": 4,
@@ -127647,7 +127860,14 @@
     "2861": {
       "formName": "Normal",
       "proto": "WOOLOO_NORMAL",
-      "formId": 2861
+      "formId": 2861,
+      "evolutions": [
+        {
+          "evoId": 832,
+          "formId": 2862,
+          "candyCost": 50
+        }
+      ]
     },
     "2862": {
       "formName": "Normal",
@@ -128782,22 +129002,54 @@
     "3076": {
       "formName": "Normal",
       "proto": "ROWLET_NORMAL",
-      "formId": 3076
+      "formId": 3076,
+      "evolutions": [
+        {
+          "evoId": 723,
+          "formId": 3077,
+          "candyCost": 25
+        }
+      ]
     },
     "3077": {
       "formName": "Normal",
       "proto": "DARTRIX_NORMAL",
-      "formId": 3077
+      "formId": 3077,
+      "evolutions": [
+        {
+          "evoId": 724,
+          "candyCost": 100
+        },
+        {
+          "evoId": 724,
+          "formId": 2785,
+          "candyCost": 100
+        }
+      ]
     },
     "3078": {
       "formName": "Normal",
       "proto": "LITTEN_NORMAL",
-      "formId": 3078
+      "formId": 3078,
+      "evolutions": [
+        {
+          "evoId": 726,
+          "formId": 3079,
+          "candyCost": 25
+        }
+      ]
     },
     "3079": {
       "formName": "Normal",
       "proto": "TORRACAT_NORMAL",
-      "formId": 3079
+      "formId": 3079,
+      "evolutions": [
+        {
+          "evoId": 727,
+          "formId": 3080,
+          "candyCost": 100
+        }
+      ]
     },
     "3080": {
       "formName": "Normal",
@@ -128807,12 +129059,26 @@
     "3081": {
       "formName": "Normal",
       "proto": "POPPLIO_NORMAL",
-      "formId": 3081
+      "formId": 3081,
+      "evolutions": [
+        {
+          "evoId": 729,
+          "formId": 3082,
+          "candyCost": 25
+        }
+      ]
     },
     "3082": {
       "formName": "Normal",
       "proto": "BRIONNE_NORMAL",
-      "formId": 3082
+      "formId": 3082,
+      "evolutions": [
+        {
+          "evoId": 730,
+          "formId": 3083,
+          "candyCost": 100
+        }
+      ]
     },
     "3083": {
       "formName": "Normal",
@@ -128822,22 +129088,50 @@
     "3084": {
       "formName": "Normal",
       "proto": "PIKIPEK_NORMAL",
-      "formId": 3084
+      "formId": 3084,
+      "evolutions": [
+        {
+          "evoId": 732,
+          "formId": 3085,
+          "candyCost": 25
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3085": {
       "formName": "Normal",
       "proto": "TRUMBEAK_NORMAL",
-      "formId": 3085
+      "formId": 3085,
+      "evolutions": [
+        {
+          "evoId": 733,
+          "formId": 3086,
+          "candyCost": 100
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3086": {
       "formName": "Normal",
       "proto": "TOUCANNON_NORMAL",
-      "formId": 3086
+      "formId": 3086,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3087": {
       "formName": "Normal",
       "proto": "YUNGOOS_NORMAL",
-      "formId": 3087
+      "formId": 3087,
+      "evolutions": [
+        {
+          "evoId": 735,
+          "formId": 3088,
+          "candyCost": 50,
+          "onlyDaytime": true
+        }
+      ]
     },
     "3088": {
       "formName": "Normal",
@@ -128847,22 +129141,49 @@
     "3089": {
       "formName": "Normal",
       "proto": "GRUBBIN_NORMAL",
-      "formId": 3089
+      "formId": 3089,
+      "evolutions": [
+        {
+          "evoId": 737,
+          "formId": 3090,
+          "candyCost": 25
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3090": {
       "formName": "Normal",
       "proto": "CHARJABUG_NORMAL",
-      "formId": 3090
+      "formId": 3090,
+      "evolutions": [
+        {
+          "evoId": 738,
+          "formId": 3091,
+          "candyCost": 100
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3091": {
       "formName": "Normal",
       "proto": "VIKAVOLT_NORMAL",
-      "formId": 3091
+      "formId": 3091,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3092": {
       "formName": "Normal",
       "proto": "CRABRAWLER_NORMAL",
-      "formId": 3092
+      "formId": 3092,
+      "evolutions": [
+        {
+          "evoId": 740,
+          "formId": 3093,
+          "candyCost": 50
+        }
+      ]
     },
     "3093": {
       "formName": "Normal",
@@ -128872,7 +129193,14 @@
     "3094": {
       "formName": "Normal",
       "proto": "CUTIEFLY_NORMAL",
-      "formId": 3094
+      "formId": 3094,
+      "evolutions": [
+        {
+          "evoId": 743,
+          "formId": 3095,
+          "candyCost": 50
+        }
+      ]
     },
     "3095": {
       "formName": "Normal",
@@ -128882,7 +129210,14 @@
     "3096": {
       "formName": "Normal",
       "proto": "MAREANIE_NORMAL",
-      "formId": 3096
+      "formId": 3096,
+      "evolutions": [
+        {
+          "evoId": 748,
+          "formId": 3097,
+          "candyCost": 50
+        }
+      ]
     },
     "3097": {
       "formName": "Normal",
@@ -128892,7 +129227,14 @@
     "3098": {
       "formName": "Normal",
       "proto": "MUDBRAY_NORMAL",
-      "formId": 3098
+      "formId": 3098,
+      "evolutions": [
+        {
+          "evoId": 750,
+          "formId": 3099,
+          "candyCost": 50
+        }
+      ]
     },
     "3099": {
       "formName": "Normal",
@@ -128902,7 +129244,14 @@
     "3100": {
       "formName": "Normal",
       "proto": "DEWPIDER_NORMAL",
-      "formId": 3100
+      "formId": 3100,
+      "evolutions": [
+        {
+          "evoId": 752,
+          "formId": 3101,
+          "candyCost": 50
+        }
+      ]
     },
     "3101": {
       "formName": "Normal",
@@ -128912,7 +129261,15 @@
     "3102": {
       "formName": "Normal",
       "proto": "FOMANTIS_NORMAL",
-      "formId": 3102
+      "formId": 3102,
+      "evolutions": [
+        {
+          "evoId": 754,
+          "formId": 3103,
+          "candyCost": 50,
+          "onlyDaytime": true
+        }
+      ]
     },
     "3103": {
       "formName": "Normal",
@@ -128922,7 +129279,14 @@
     "3104": {
       "formName": "Normal",
       "proto": "MORELULL_NORMAL",
-      "formId": 3104
+      "formId": 3104,
+      "evolutions": [
+        {
+          "evoId": 756,
+          "formId": 3105,
+          "candyCost": 50
+        }
+      ]
     },
     "3105": {
       "formName": "Normal",
@@ -128932,7 +129296,15 @@
     "3106": {
       "formName": "Normal",
       "proto": "SALANDIT_NORMAL",
-      "formId": 3106
+      "formId": 3106,
+      "evolutions": [
+        {
+          "evoId": 758,
+          "formId": 3107,
+          "genderRequirement": 2,
+          "candyCost": 50
+        }
+      ]
     },
     "3107": {
       "formName": "Normal",
@@ -128942,17 +129314,38 @@
     "3108": {
       "formName": "Normal",
       "proto": "STUFFUL_NORMAL",
-      "formId": 3108
+      "formId": 3108,
+      "evolutions": [
+        {
+          "evoId": 760,
+          "formId": 3020,
+          "candyCost": 400
+        }
+      ]
     },
     "3109": {
       "formName": "Normal",
       "proto": "BOUNSWEET_NORMAL",
-      "formId": 3109
+      "formId": 3109,
+      "evolutions": [
+        {
+          "evoId": 762,
+          "formId": 3110,
+          "candyCost": 25
+        }
+      ]
     },
     "3110": {
       "formName": "Normal",
       "proto": "STEENEE_NORMAL",
-      "formId": 3110
+      "formId": 3110,
+      "evolutions": [
+        {
+          "evoId": 763,
+          "formId": 3111,
+          "candyCost": 100
+        }
+      ]
     },
     "3111": {
       "formName": "Normal",
@@ -128977,7 +129370,14 @@
     "3115": {
       "formName": "Normal",
       "proto": "WIMPOD_NORMAL",
-      "formId": 3115
+      "formId": 3115,
+      "evolutions": [
+        {
+          "evoId": 768,
+          "formId": 3116,
+          "candyCost": 400
+        }
+      ]
     },
     "3116": {
       "formName": "Normal",
@@ -128987,7 +129387,14 @@
     "3117": {
       "formName": "Normal",
       "proto": "SANDYGAST_NORMAL",
-      "formId": 3117
+      "formId": 3117,
+      "evolutions": [
+        {
+          "evoId": 770,
+          "formId": 3118,
+          "candyCost": 50
+        }
+      ]
     },
     "3118": {
       "formName": "Normal",
@@ -129002,7 +129409,14 @@
     "3120": {
       "formName": "Normal",
       "proto": "TYPE_NULL_NORMAL",
-      "formId": 3120
+      "formId": 3120,
+      "evolutions": [
+        {
+          "evoId": 773,
+          "formId": 2689,
+          "candyCost": 200
+        }
+      ]
     },
     "3121": {
       "formName": "Normal",
@@ -129046,12 +129460,26 @@
     "3127": {
       "formName": "Normal",
       "proto": "JANGMO_O_NORMAL",
-      "formId": 3127
+      "formId": 3127,
+      "evolutions": [
+        {
+          "evoId": 783,
+          "formId": 3128,
+          "candyCost": 25
+        }
+      ]
     },
     "3128": {
       "formName": "Normal",
       "proto": "HAKAMO_O_NORMAL",
-      "formId": 3128
+      "formId": 3128,
+      "evolutions": [
+        {
+          "evoId": 784,
+          "formId": 3129,
+          "candyCost": 100
+        }
+      ]
     },
     "3129": {
       "formName": "Normal",
@@ -129081,12 +129509,33 @@
     "3134": {
       "formName": "Normal",
       "proto": "COSMOG_NORMAL",
-      "formId": 3134
+      "formId": 3134,
+      "evolutions": [
+        {
+          "evoId": 790,
+          "formId": 3135,
+          "candyCost": 25
+        }
+      ]
     },
     "3135": {
       "formName": "Normal",
       "proto": "COSMOEM_NORMAL",
-      "formId": 3135
+      "formId": 3135,
+      "evolutions": [
+        {
+          "evoId": 791,
+          "formId": 3136,
+          "candyCost": 100,
+          "onlyDaytime": true
+        },
+        {
+          "evoId": 792,
+          "formId": 3137,
+          "candyCost": 100,
+          "onlyNighttime": true
+        }
+      ]
     },
     "3136": {
       "formName": "Normal",
@@ -129141,7 +129590,15 @@
     "3146": {
       "formName": "Normal",
       "proto": "POIPOLE_NORMAL",
-      "formId": 3146
+      "formId": 3146,
+      "evolutions": [
+        {
+          "evoId": 804,
+          "formId": 3147,
+          "candyCost": 200,
+          "questRequirement": "NAGANADEL_EVOLUTION_QUEST"
+        }
+      ]
     },
     "3147": {
       "formName": "Normal",
@@ -130525,6 +130982,71 @@
       "formName": "Normal",
       "proto": "IRONVALIANT_NORMAL",
       "formId": 3314
+    },
+    "3324": {
+      "formName": "",
+      "proto": "",
+      "formId": 3324
+    },
+    "3325": {
+      "formName": "",
+      "proto": "",
+      "formId": 3325
+    },
+    "3326": {
+      "formName": "",
+      "proto": "",
+      "formId": 3326
+    },
+    "3327": {
+      "formName": "",
+      "proto": "",
+      "formId": 3327
+    },
+    "3328": {
+      "formName": "",
+      "proto": "",
+      "formId": 3328
+    },
+    "3329": {
+      "formName": "",
+      "proto": "",
+      "formId": 3329
+    },
+    "3330": {
+      "formName": "",
+      "proto": "",
+      "formId": 3330
+    },
+    "3331": {
+      "formName": "",
+      "proto": "",
+      "formId": 3331
+    },
+    "3332": {
+      "formName": "",
+      "proto": "",
+      "formId": 3332
+    },
+    "3333": {
+      "formName": "",
+      "proto": "",
+      "formId": 3333
+    },
+    "3334": {
+      "formName": "",
+      "proto": "",
+      "formId": 3334
+    },
+    "3335": {
+      "formName": "",
+      "proto": "",
+      "formId": 3335
+    },
+    "3336": {
+      "formName": "",
+      "proto": "",
+      "formId": 3336
     }
   },
   "types": {

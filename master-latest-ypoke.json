@@ -10415,8 +10415,7 @@
       "chargedMoves": [
         31,
         47,
-        116,
-        296
+        116
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -10779,8 +10778,7 @@
       "chargedMoves": [
         39,
         107,
-        279,
-        299
+        279
       ],
       "eliteQuickMoves": [
         230
@@ -30219,8 +30217,7 @@
         42,
         64,
         101,
-        247,
-        298
+        247
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -42074,7 +42071,7 @@
     "702": {
       "pokemonName": "Dedenne",
       "pokedexId": 702,
-      "defaultFormId": 0,
+      "defaultFormId": 2860,
       "types": [
         "Electric",
         "Fairy"
@@ -42092,9 +42089,9 @@
       "eliteChargedMoves": [],
       "generation": "Kalos",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "2860": {
+          "formName": "Normal",
+          "formId": 2860
         }
       },
       "stats": {
@@ -43272,7 +43269,7 @@
     "722": {
       "pokemonName": "Rowlet",
       "pokedexId": 722,
-      "defaultFormId": 0,
+      "defaultFormId": 3076,
       "types": [
         "Flying",
         "Grass"
@@ -43291,9 +43288,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3076": {
+          "formName": "Normal",
+          "formId": 3076,
+          "evolutions": [
+            {
+              "evoId": 723,
+              "formId": 3077,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -43322,7 +43326,7 @@
     "723": {
       "pokemonName": "Dartrix",
       "pokedexId": 723,
-      "defaultFormId": 0,
+      "defaultFormId": 3077,
       "types": [
         "Flying",
         "Grass"
@@ -43342,9 +43346,20 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3077": {
+          "formName": "Normal",
+          "formId": 3077,
+          "evolutions": [
+            {
+              "evoId": 724,
+              "candyCost": 100
+            },
+            {
+              "evoId": 724,
+              "formId": 2785,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -43455,7 +43470,7 @@
     "725": {
       "pokemonName": "Litten",
       "pokedexId": 725,
-      "defaultFormId": 0,
+      "defaultFormId": 3078,
       "types": [
         "Fire"
       ],
@@ -43472,9 +43487,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3078": {
+          "formName": "Normal",
+          "formId": 3078,
+          "evolutions": [
+            {
+              "evoId": 726,
+              "formId": 3079,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -43503,7 +43525,7 @@
     "726": {
       "pokemonName": "Torracat",
       "pokedexId": 726,
-      "defaultFormId": 0,
+      "defaultFormId": 3079,
       "types": [
         "Fire"
       ],
@@ -43520,9 +43542,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3079": {
+          "formName": "Normal",
+          "formId": 3079,
+          "evolutions": [
+            {
+              "evoId": 727,
+              "formId": 3080,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -43553,7 +43582,7 @@
     "727": {
       "pokemonName": "Incineroar",
       "pokedexId": 727,
-      "defaultFormId": 0,
+      "defaultFormId": 3080,
       "types": [
         "Fire",
         "Dark"
@@ -43578,9 +43607,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3080": {
+          "formName": "Normal",
+          "formId": 3080
         }
       },
       "stats": {
@@ -43605,7 +43634,7 @@
     "728": {
       "pokemonName": "Popplio",
       "pokedexId": 728,
-      "defaultFormId": 0,
+      "defaultFormId": 3081,
       "types": [
         "Water"
       ],
@@ -43622,9 +43651,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3081": {
+          "formName": "Normal",
+          "formId": 3081,
+          "evolutions": [
+            {
+              "evoId": 729,
+              "formId": 3082,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -43653,7 +43689,7 @@
     "729": {
       "pokemonName": "Brionne",
       "pokedexId": 729,
-      "defaultFormId": 0,
+      "defaultFormId": 3082,
       "types": [
         "Water"
       ],
@@ -43670,9 +43706,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3082": {
+          "formName": "Normal",
+          "formId": 3082,
+          "evolutions": [
+            {
+              "evoId": 730,
+              "formId": 3083,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -43703,7 +43746,7 @@
     "730": {
       "pokemonName": "Primarina",
       "pokedexId": 730,
-      "defaultFormId": 0,
+      "defaultFormId": 3083,
       "types": [
         "Water",
         "Fairy"
@@ -43725,9 +43768,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3083": {
+          "formName": "Normal",
+          "formId": 3083
         }
       },
       "stats": {
@@ -43752,7 +43795,7 @@
     "731": {
       "pokemonName": "Pikipek",
       "pokedexId": 731,
-      "defaultFormId": 0,
+      "defaultFormId": 3084,
       "types": [
         "Normal",
         "Flying"
@@ -43770,9 +43813,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3084": {
+          "formName": "Normal",
+          "formId": 3084,
+          "evolutions": [
+            {
+              "evoId": 732,
+              "formId": 3085,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -43803,7 +43853,7 @@
     "732": {
       "pokemonName": "Trumbeak",
       "pokedexId": 732,
-      "defaultFormId": 0,
+      "defaultFormId": 3085,
       "types": [
         "Normal",
         "Flying"
@@ -43821,9 +43871,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3085": {
+          "formName": "Normal",
+          "formId": 3085,
+          "evolutions": [
+            {
+              "evoId": 733,
+              "formId": 3086,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -43856,7 +43913,7 @@
     "733": {
       "pokemonName": "Toucannon",
       "pokedexId": 733,
-      "defaultFormId": 0,
+      "defaultFormId": 3086,
       "types": [
         "Normal",
         "Flying"
@@ -43875,9 +43932,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3086": {
+          "formName": "Normal",
+          "formId": 3086
         }
       },
       "stats": {
@@ -43904,7 +43961,7 @@
     "734": {
       "pokemonName": "Yungoos",
       "pokedexId": 734,
-      "defaultFormId": 0,
+      "defaultFormId": 3087,
       "types": [
         "Normal"
       ],
@@ -43921,9 +43978,17 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3087": {
+          "formName": "Normal",
+          "formId": 3087,
+          "evolutions": [
+            {
+              "evoId": 735,
+              "formId": 3088,
+              "candyCost": 50,
+              "onlyDaytime": true
+            }
+          ]
         }
       },
       "stats": {
@@ -43953,7 +44018,7 @@
     "735": {
       "pokemonName": "Gumshoos",
       "pokedexId": 735,
-      "defaultFormId": 0,
+      "defaultFormId": 3088,
       "types": [
         "Normal"
       ],
@@ -43970,9 +44035,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3088": {
+          "formName": "Normal",
+          "formId": 3088
         }
       },
       "stats": {
@@ -43997,7 +44062,7 @@
     "736": {
       "pokemonName": "Grubbin",
       "pokedexId": 736,
-      "defaultFormId": 0,
+      "defaultFormId": 3089,
       "types": [
         "Bug"
       ],
@@ -44014,9 +44079,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3089": {
+          "formName": "Normal",
+          "formId": 3089,
+          "evolutions": [
+            {
+              "evoId": 737,
+              "formId": 3090,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -44047,7 +44119,7 @@
     "737": {
       "pokemonName": "Charjabug",
       "pokedexId": 737,
-      "defaultFormId": 0,
+      "defaultFormId": 3090,
       "types": [
         "Bug",
         "Electric"
@@ -44067,9 +44139,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3090": {
+          "formName": "Normal",
+          "formId": 3090,
+          "evolutions": [
+            {
+              "evoId": 738,
+              "formId": 3091,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -44102,7 +44181,7 @@
     "738": {
       "pokemonName": "Vikavolt",
       "pokedexId": 738,
-      "defaultFormId": 0,
+      "defaultFormId": 3091,
       "types": [
         "Bug",
         "Electric"
@@ -44124,9 +44203,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3091": {
+          "formName": "Normal",
+          "formId": 3091
         }
       },
       "stats": {
@@ -44153,7 +44232,7 @@
     "739": {
       "pokemonName": "Crabrawler",
       "pokedexId": 739,
-      "defaultFormId": 0,
+      "defaultFormId": 3092,
       "types": [
         "Fighting"
       ],
@@ -44171,9 +44250,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3092": {
+          "formName": "Normal",
+          "formId": 3092,
+          "evolutions": [
+            {
+              "evoId": 740,
+              "formId": 3093,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -44202,7 +44288,7 @@
     "740": {
       "pokemonName": "Crabominable",
       "pokedexId": 740,
-      "defaultFormId": 0,
+      "defaultFormId": 3093,
       "types": [
         "Fighting",
         "Ice"
@@ -44222,9 +44308,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3093": {
+          "formName": "Normal",
+          "formId": 3093
         }
       },
       "stats": {
@@ -44316,7 +44402,7 @@
     "742": {
       "pokemonName": "Cutiefly",
       "pokedexId": 742,
-      "defaultFormId": 0,
+      "defaultFormId": 3094,
       "types": [
         "Bug",
         "Fairy"
@@ -44333,9 +44419,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3094": {
+          "formName": "Normal",
+          "formId": 3094,
+          "evolutions": [
+            {
+              "evoId": 743,
+              "formId": 3095,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -44364,7 +44457,7 @@
     "743": {
       "pokemonName": "Ribombee",
       "pokedexId": 743,
-      "defaultFormId": 0,
+      "defaultFormId": 3095,
       "types": [
         "Bug",
         "Fairy"
@@ -44383,9 +44476,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3095": {
+          "formName": "Normal",
+          "formId": 3095
         }
       },
       "stats": {
@@ -44628,7 +44721,7 @@
     "747": {
       "pokemonName": "Mareanie",
       "pokedexId": 747,
-      "defaultFormId": 0,
+      "defaultFormId": 3096,
       "types": [
         "Poison",
         "Water"
@@ -44646,9 +44739,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3096": {
+          "formName": "Normal",
+          "formId": 3096,
+          "evolutions": [
+            {
+              "evoId": 748,
+              "formId": 3097,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -44677,7 +44777,7 @@
     "748": {
       "pokemonName": "Toxapex",
       "pokedexId": 748,
-      "defaultFormId": 0,
+      "defaultFormId": 3097,
       "types": [
         "Poison",
         "Water"
@@ -44695,9 +44795,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3097": {
+          "formName": "Normal",
+          "formId": 3097
         }
       },
       "stats": {
@@ -44722,7 +44822,7 @@
     "749": {
       "pokemonName": "Mudbray",
       "pokedexId": 749,
-      "defaultFormId": 0,
+      "defaultFormId": 3098,
       "types": [
         "Ground"
       ],
@@ -44739,9 +44839,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3098": {
+          "formName": "Normal",
+          "formId": 3098,
+          "evolutions": [
+            {
+              "evoId": 750,
+              "formId": 3099,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -44770,7 +44877,7 @@
     "750": {
       "pokemonName": "Mudsdale",
       "pokedexId": 750,
-      "defaultFormId": 0,
+      "defaultFormId": 3099,
       "types": [
         "Ground"
       ],
@@ -44788,9 +44895,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3099": {
+          "formName": "Normal",
+          "formId": 3099
         }
       },
       "stats": {
@@ -44815,7 +44922,7 @@
     "751": {
       "pokemonName": "Dewpider",
       "pokedexId": 751,
-      "defaultFormId": 0,
+      "defaultFormId": 3100,
       "types": [
         "Bug",
         "Water"
@@ -44833,9 +44940,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3100": {
+          "formName": "Normal",
+          "formId": 3100,
+          "evolutions": [
+            {
+              "evoId": 752,
+              "formId": 3101,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -44864,7 +44978,7 @@
     "752": {
       "pokemonName": "Araquanid",
       "pokedexId": 752,
-      "defaultFormId": 0,
+      "defaultFormId": 3101,
       "types": [
         "Bug",
         "Water"
@@ -44883,9 +44997,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3101": {
+          "formName": "Normal",
+          "formId": 3101
         }
       },
       "stats": {
@@ -44910,7 +45024,7 @@
     "753": {
       "pokemonName": "Fomantis",
       "pokedexId": 753,
-      "defaultFormId": 0,
+      "defaultFormId": 3102,
       "types": [
         "Grass"
       ],
@@ -44929,9 +45043,17 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3102": {
+          "formName": "Normal",
+          "formId": 3102,
+          "evolutions": [
+            {
+              "evoId": 754,
+              "formId": 3103,
+              "candyCost": 50,
+              "onlyDaytime": true
+            }
+          ]
         }
       },
       "stats": {
@@ -44961,7 +45083,7 @@
     "754": {
       "pokemonName": "Lurantis",
       "pokedexId": 754,
-      "defaultFormId": 0,
+      "defaultFormId": 3103,
       "types": [
         "Grass"
       ],
@@ -44981,9 +45103,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3103": {
+          "formName": "Normal",
+          "formId": 3103
         }
       },
       "stats": {
@@ -45008,7 +45130,7 @@
     "755": {
       "pokemonName": "Morelull",
       "pokedexId": 755,
-      "defaultFormId": 0,
+      "defaultFormId": 3104,
       "types": [
         "Grass",
         "Fairy"
@@ -45024,9 +45146,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3104": {
+          "formName": "Normal",
+          "formId": 3104,
+          "evolutions": [
+            {
+              "evoId": 756,
+              "formId": 3105,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -45056,7 +45185,7 @@
     "756": {
       "pokemonName": "Shiinotic",
       "pokedexId": 756,
-      "defaultFormId": 0,
+      "defaultFormId": 3105,
       "types": [
         "Grass",
         "Fairy"
@@ -45073,9 +45202,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3105": {
+          "formName": "Normal",
+          "formId": 3105
         }
       },
       "stats": {
@@ -45100,7 +45229,7 @@
     "757": {
       "pokemonName": "Salandit",
       "pokedexId": 757,
-      "defaultFormId": 0,
+      "defaultFormId": 3106,
       "types": [
         "Poison",
         "Fire"
@@ -45118,9 +45247,17 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3106": {
+          "formName": "Normal",
+          "formId": 3106,
+          "evolutions": [
+            {
+              "evoId": 758,
+              "formId": 3107,
+              "genderRequirement": "Female",
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -45150,7 +45287,7 @@
     "758": {
       "pokemonName": "Salazzle",
       "pokedexId": 758,
-      "defaultFormId": 0,
+      "defaultFormId": 3107,
       "types": [
         "Poison",
         "Fire"
@@ -45169,9 +45306,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3107": {
+          "formName": "Normal",
+          "formId": 3107
         }
       },
       "stats": {
@@ -45196,7 +45333,7 @@
     "759": {
       "pokemonName": "Stufful",
       "pokedexId": 759,
-      "defaultFormId": 0,
+      "defaultFormId": 3108,
       "types": [
         "Normal",
         "Fighting"
@@ -45214,9 +45351,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3108": {
+          "formName": "Normal",
+          "formId": 3108,
+          "evolutions": [
+            {
+              "evoId": 760,
+              "formId": 3020,
+              "candyCost": 400
+            }
+          ]
         }
       },
       "stats": {
@@ -45298,7 +45442,7 @@
     "761": {
       "pokemonName": "Bounsweet",
       "pokedexId": 761,
-      "defaultFormId": 0,
+      "defaultFormId": 3109,
       "types": [
         "Grass"
       ],
@@ -45314,9 +45458,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3109": {
+          "formName": "Normal",
+          "formId": 3109,
+          "evolutions": [
+            {
+              "evoId": 762,
+              "formId": 3110,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -45345,7 +45496,7 @@
     "762": {
       "pokemonName": "Steenee",
       "pokedexId": 762,
-      "defaultFormId": 0,
+      "defaultFormId": 3110,
       "types": [
         "Grass"
       ],
@@ -45363,9 +45514,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3110": {
+          "formName": "Normal",
+          "formId": 3110,
+          "evolutions": [
+            {
+              "evoId": 763,
+              "formId": 3111,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -45396,7 +45554,7 @@
     "763": {
       "pokemonName": "Tsareena",
       "pokedexId": 763,
-      "defaultFormId": 0,
+      "defaultFormId": 3111,
       "types": [
         "Grass"
       ],
@@ -45418,9 +45576,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3111": {
+          "formName": "Normal",
+          "formId": 3111
         }
       },
       "stats": {
@@ -45445,7 +45603,7 @@
     "764": {
       "pokemonName": "Comfey",
       "pokedexId": 764,
-      "defaultFormId": 0,
+      "defaultFormId": 3112,
       "types": [
         "Fairy"
       ],
@@ -45462,9 +45620,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3112": {
+          "formName": "Normal",
+          "formId": 3112
         }
       },
       "stats": {
@@ -45487,7 +45645,7 @@
     "765": {
       "pokemonName": "Oranguru",
       "pokedexId": 765,
-      "defaultFormId": 0,
+      "defaultFormId": 3113,
       "types": [
         "Normal",
         "Psychic"
@@ -45508,9 +45666,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3113": {
+          "formName": "Normal",
+          "formId": 3113
         }
       },
       "stats": {
@@ -45533,7 +45691,7 @@
     "766": {
       "pokemonName": "Passimian",
       "pokedexId": 766,
-      "defaultFormId": 0,
+      "defaultFormId": 3114,
       "types": [
         "Fighting"
       ],
@@ -45553,9 +45711,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3114": {
+          "formName": "Normal",
+          "formId": 3114
         }
       },
       "stats": {
@@ -45578,7 +45736,7 @@
     "767": {
       "pokemonName": "Wimpod",
       "pokedexId": 767,
-      "defaultFormId": 0,
+      "defaultFormId": 3115,
       "types": [
         "Bug",
         "Water"
@@ -45593,9 +45751,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3115": {
+          "formName": "Normal",
+          "formId": 3115,
+          "evolutions": [
+            {
+              "evoId": 768,
+              "formId": 3116,
+              "candyCost": 400
+            }
+          ]
         }
       },
       "stats": {
@@ -45624,7 +45789,7 @@
     "768": {
       "pokemonName": "Golisopod",
       "pokedexId": 768,
-      "defaultFormId": 0,
+      "defaultFormId": 3116,
       "types": [
         "Bug",
         "Water"
@@ -45646,9 +45811,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3116": {
+          "formName": "Normal",
+          "formId": 3116
         }
       },
       "stats": {
@@ -45673,7 +45838,7 @@
     "769": {
       "pokemonName": "Sandygast",
       "pokedexId": 769,
-      "defaultFormId": 0,
+      "defaultFormId": 3117,
       "types": [
         "Ground",
         "Ghost"
@@ -45693,9 +45858,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3117": {
+          "formName": "Normal",
+          "formId": 3117,
+          "evolutions": [
+            {
+              "evoId": 770,
+              "formId": 3118,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -45724,7 +45896,7 @@
     "770": {
       "pokemonName": "Palossand",
       "pokedexId": 770,
-      "defaultFormId": 0,
+      "defaultFormId": 3118,
       "types": [
         "Ground",
         "Ghost"
@@ -45744,9 +45916,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3118": {
+          "formName": "Normal",
+          "formId": 3118
         }
       },
       "stats": {
@@ -45771,7 +45943,7 @@
     "771": {
       "pokemonName": "Pyukumuku",
       "pokedexId": 771,
-      "defaultFormId": 0,
+      "defaultFormId": 3119,
       "types": [
         "Water"
       ],
@@ -45785,9 +45957,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3119": {
+          "formName": "Normal",
+          "formId": 3119
         }
       },
       "stats": {
@@ -45810,7 +45982,7 @@
     "772": {
       "pokemonName": "Type Null",
       "pokedexId": 772,
-      "defaultFormId": 0,
+      "defaultFormId": 3120,
       "types": [
         "Normal"
       ],
@@ -45827,9 +45999,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3120": {
+          "formName": "Normal",
+          "formId": 3120,
+          "evolutions": [
+            {
+              "evoId": 773,
+              "formId": 2689,
+              "candyCost": 200
+            }
+          ]
         }
       },
       "stats": {
@@ -46152,7 +46331,7 @@
     "775": {
       "pokemonName": "Komala",
       "pokedexId": 775,
-      "defaultFormId": 0,
+      "defaultFormId": 3121,
       "types": [
         "Normal"
       ],
@@ -46169,9 +46348,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3121": {
+          "formName": "Normal",
+          "formId": 3121
         }
       },
       "stats": {
@@ -46194,7 +46373,7 @@
     "776": {
       "pokemonName": "Turtonator",
       "pokedexId": 776,
-      "defaultFormId": 0,
+      "defaultFormId": 3122,
       "types": [
         "Fire",
         "Dragon"
@@ -46216,9 +46395,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3122": {
+          "formName": "Normal",
+          "formId": 3122
         }
       },
       "stats": {
@@ -46241,7 +46420,7 @@
     "777": {
       "pokemonName": "Togedemaru",
       "pokedexId": 777,
-      "defaultFormId": 0,
+      "defaultFormId": 3123,
       "types": [
         "Steel",
         "Electric"
@@ -46259,9 +46438,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3123": {
+          "formName": "Normal",
+          "formId": 3123
         }
       },
       "stats": {
@@ -46331,7 +46510,7 @@
     "779": {
       "pokemonName": "Bruxish",
       "pokedexId": 779,
-      "defaultFormId": 0,
+      "defaultFormId": 3124,
       "types": [
         "Water",
         "Psychic"
@@ -46351,9 +46530,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3124": {
+          "formName": "Normal",
+          "formId": 3124
         }
       },
       "stats": {
@@ -46376,7 +46555,7 @@
     "780": {
       "pokemonName": "Drampa",
       "pokedexId": 780,
-      "defaultFormId": 0,
+      "defaultFormId": 3125,
       "types": [
         "Normal",
         "Dragon"
@@ -46395,9 +46574,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3125": {
+          "formName": "Normal",
+          "formId": 3125
         }
       },
       "stats": {
@@ -46420,7 +46599,7 @@
     "781": {
       "pokemonName": "Dhelmise",
       "pokedexId": 781,
-      "defaultFormId": 0,
+      "defaultFormId": 3126,
       "types": [
         "Ghost",
         "Grass"
@@ -46440,9 +46619,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3126": {
+          "formName": "Normal",
+          "formId": 3126
         }
       },
       "stats": {
@@ -46465,7 +46644,7 @@
     "782": {
       "pokemonName": "Jangmo O",
       "pokedexId": 782,
-      "defaultFormId": 0,
+      "defaultFormId": 3127,
       "types": [
         "Dragon"
       ],
@@ -46482,9 +46661,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3127": {
+          "formName": "Normal",
+          "formId": 3127,
+          "evolutions": [
+            {
+              "evoId": 783,
+              "formId": 3128,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -46513,7 +46699,7 @@
     "783": {
       "pokemonName": "Hakamo O",
       "pokedexId": 783,
-      "defaultFormId": 0,
+      "defaultFormId": 3128,
       "types": [
         "Fighting",
         "Dragon"
@@ -46532,9 +46718,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3128": {
+          "formName": "Normal",
+          "formId": 3128,
+          "evolutions": [
+            {
+              "evoId": 784,
+              "formId": 3129,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -46565,7 +46758,7 @@
     "784": {
       "pokemonName": "Kommo O",
       "pokedexId": 784,
-      "defaultFormId": 0,
+      "defaultFormId": 3129,
       "types": [
         "Fighting",
         "Dragon"
@@ -46589,9 +46782,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3129": {
+          "formName": "Normal",
+          "formId": 3129
         }
       },
       "stats": {
@@ -46616,7 +46809,7 @@
     "785": {
       "pokemonName": "Tapu Koko",
       "pokedexId": 785,
-      "defaultFormId": 0,
+      "defaultFormId": 3130,
       "types": [
         "Electric",
         "Fairy"
@@ -46637,9 +46830,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3130": {
+          "formName": "Normal",
+          "formId": 3130
         }
       },
       "stats": {
@@ -46661,7 +46854,7 @@
     "786": {
       "pokemonName": "Tapu Lele",
       "pokedexId": 786,
-      "defaultFormId": 0,
+      "defaultFormId": 3131,
       "types": [
         "Psychic",
         "Fairy"
@@ -46683,9 +46876,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3131": {
+          "formName": "Normal",
+          "formId": 3131
         }
       },
       "stats": {
@@ -46707,7 +46900,7 @@
     "787": {
       "pokemonName": "Tapu Bulu",
       "pokedexId": 787,
-      "defaultFormId": 0,
+      "defaultFormId": 3132,
       "types": [
         "Grass",
         "Fairy"
@@ -46728,9 +46921,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3132": {
+          "formName": "Normal",
+          "formId": 3132
         }
       },
       "stats": {
@@ -46752,7 +46945,7 @@
     "788": {
       "pokemonName": "Tapu Fini",
       "pokedexId": 788,
-      "defaultFormId": 0,
+      "defaultFormId": 3133,
       "types": [
         "Water",
         "Fairy"
@@ -46773,9 +46966,9 @@
       ],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3133": {
+          "formName": "Normal",
+          "formId": 3133
         }
       },
       "stats": {
@@ -46797,7 +46990,7 @@
     "789": {
       "pokemonName": "Cosmog",
       "pokedexId": 789,
-      "defaultFormId": 0,
+      "defaultFormId": 3134,
       "types": [
         "Psychic"
       ],
@@ -46811,9 +47004,16 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3134": {
+          "formName": "Normal",
+          "formId": 3134,
+          "evolutions": [
+            {
+              "evoId": 790,
+              "formId": 3135,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -46841,7 +47041,7 @@
     "790": {
       "pokemonName": "Cosmoem",
       "pokedexId": 790,
-      "defaultFormId": 0,
+      "defaultFormId": 3135,
       "types": [
         "Psychic"
       ],
@@ -46855,9 +47055,23 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3135": {
+          "formName": "Normal",
+          "formId": 3135,
+          "evolutions": [
+            {
+              "evoId": 791,
+              "formId": 3136,
+              "candyCost": 100,
+              "onlyDaytime": true
+            },
+            {
+              "evoId": 792,
+              "formId": 3137,
+              "candyCost": 100,
+              "onlyNighttime": true
+            }
+          ]
         }
       },
       "stats": {
@@ -46891,7 +47105,7 @@
     "791": {
       "pokemonName": "Solgaleo",
       "pokedexId": 791,
-      "defaultFormId": 0,
+      "defaultFormId": 3136,
       "types": [
         "Steel",
         "Psychic"
@@ -46910,9 +47124,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3136": {
+          "formName": "Normal",
+          "formId": 3136
         }
       },
       "stats": {
@@ -46934,7 +47148,7 @@
     "792": {
       "pokemonName": "Lunala",
       "pokedexId": 792,
-      "defaultFormId": 0,
+      "defaultFormId": 3137,
       "types": [
         "Ghost",
         "Psychic"
@@ -46954,9 +47168,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3137": {
+          "formName": "Normal",
+          "formId": 3137
         }
       },
       "stats": {
@@ -46978,7 +47192,7 @@
     "793": {
       "pokemonName": "Nihilego",
       "pokedexId": 793,
-      "defaultFormId": 0,
+      "defaultFormId": 3138,
       "types": [
         "Poison",
         "Rock"
@@ -46998,9 +47212,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3138": {
+          "formName": "Normal",
+          "formId": 3138
         }
       },
       "stats": {
@@ -47022,7 +47236,7 @@
     "794": {
       "pokemonName": "Buzzwole",
       "pokedexId": 794,
-      "defaultFormId": 0,
+      "defaultFormId": 3139,
       "types": [
         "Fighting",
         "Bug"
@@ -47041,9 +47255,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3139": {
+          "formName": "Normal",
+          "formId": 3139
         }
       },
       "stats": {
@@ -47065,7 +47279,7 @@
     "795": {
       "pokemonName": "Pheromosa",
       "pokedexId": 795,
-      "defaultFormId": 0,
+      "defaultFormId": 3140,
       "types": [
         "Fighting",
         "Bug"
@@ -47084,9 +47298,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3140": {
+          "formName": "Normal",
+          "formId": 3140
         }
       },
       "stats": {
@@ -47108,7 +47322,7 @@
     "796": {
       "pokemonName": "Xurkitree",
       "pokedexId": 796,
-      "defaultFormId": 0,
+      "defaultFormId": 3141,
       "types": [
         "Electric"
       ],
@@ -47126,9 +47340,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3141": {
+          "formName": "Normal",
+          "formId": 3141
         }
       },
       "stats": {
@@ -47150,7 +47364,7 @@
     "797": {
       "pokemonName": "Celesteela",
       "pokedexId": 797,
-      "defaultFormId": 0,
+      "defaultFormId": 3142,
       "types": [
         "Flying",
         "Steel"
@@ -47169,9 +47383,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3142": {
+          "formName": "Normal",
+          "formId": 3142
         }
       },
       "stats": {
@@ -47193,7 +47407,7 @@
     "798": {
       "pokemonName": "Kartana",
       "pokedexId": 798,
-      "defaultFormId": 0,
+      "defaultFormId": 3143,
       "types": [
         "Steel",
         "Grass"
@@ -47212,9 +47426,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3143": {
+          "formName": "Normal",
+          "formId": 3143
         }
       },
       "stats": {
@@ -47236,7 +47450,7 @@
     "799": {
       "pokemonName": "Guzzlord",
       "pokedexId": 799,
-      "defaultFormId": 0,
+      "defaultFormId": 3144,
       "types": [
         "Dragon",
         "Dark"
@@ -47255,9 +47469,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3144": {
+          "formName": "Normal",
+          "formId": 3144
         }
       },
       "stats": {
@@ -47408,7 +47622,7 @@
     "802": {
       "pokemonName": "Marshadow",
       "pokedexId": 802,
-      "defaultFormId": 0,
+      "defaultFormId": 3145,
       "types": [
         "Fighting",
         "Ghost"
@@ -47429,9 +47643,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3145": {
+          "formName": "Normal",
+          "formId": 3145
         }
       },
       "stats": {
@@ -47451,7 +47665,7 @@
     "803": {
       "pokemonName": "Poipole",
       "pokedexId": 803,
-      "defaultFormId": 0,
+      "defaultFormId": 3146,
       "types": [
         "Poison"
       ],
@@ -47468,9 +47682,22 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3146": {
+          "formName": "Normal",
+          "formId": 3146,
+          "evolutions": [
+            {
+              "evoId": 804,
+              "formId": 3147,
+              "candyCost": 200,
+              "questRequirement": [
+                {
+                  "questType": 4,
+                  "target": 20
+                }
+              ]
+            }
+          ]
         }
       },
       "stats": {
@@ -47504,7 +47731,7 @@
     "804": {
       "pokemonName": "Naganadel",
       "pokedexId": 804,
-      "defaultFormId": 0,
+      "defaultFormId": 3147,
       "types": [
         "Poison",
         "Dragon"
@@ -47524,9 +47751,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3147": {
+          "formName": "Normal",
+          "formId": 3147
         }
       },
       "stats": {
@@ -47550,7 +47777,7 @@
     "805": {
       "pokemonName": "Stakataka",
       "pokedexId": 805,
-      "defaultFormId": 0,
+      "defaultFormId": 3148,
       "types": [
         "Rock",
         "Steel"
@@ -47568,9 +47795,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3148": {
+          "formName": "Normal",
+          "formId": 3148
         }
       },
       "stats": {
@@ -47592,7 +47819,7 @@
     "806": {
       "pokemonName": "Blacephalon",
       "pokedexId": 806,
-      "defaultFormId": 0,
+      "defaultFormId": 3149,
       "types": [
         "Ghost",
         "Fire"
@@ -47610,9 +47837,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3149": {
+          "formName": "Normal",
+          "formId": 3149
         }
       },
       "stats": {
@@ -47634,7 +47861,7 @@
     "807": {
       "pokemonName": "Zeraora",
       "pokedexId": 807,
-      "defaultFormId": 0,
+      "defaultFormId": 3150,
       "types": [
         "Electric"
       ],
@@ -47651,9 +47878,9 @@
       "eliteChargedMoves": [],
       "generation": "Alola",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3150": {
+          "formName": "Normal",
+          "formId": 3150
         }
       },
       "stats": {
@@ -48846,7 +49073,7 @@
     "831": {
       "pokemonName": "Wooloo",
       "pokedexId": 831,
-      "defaultFormId": 0,
+      "defaultFormId": 2861,
       "types": [
         "Normal"
       ],
@@ -48863,9 +49090,16 @@
       "eliteChargedMoves": [],
       "generation": "Galar",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "2861": {
+          "formName": "Normal",
+          "formId": 2861,
+          "evolutions": [
+            {
+              "evoId": 832,
+              "formId": 2862,
+              "candyCost": 50
+            }
+          ]
         }
       },
       "stats": {
@@ -48894,7 +49128,7 @@
     "832": {
       "pokemonName": "Dubwool",
       "pokedexId": 832,
-      "defaultFormId": 0,
+      "defaultFormId": 2862,
       "types": [
         "Normal"
       ],
@@ -48912,9 +49146,9 @@
       "eliteChargedMoves": [],
       "generation": "Galar",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "2862": {
+          "formName": "Normal",
+          "formId": 2862
         }
       },
       "stats": {
@@ -57805,7 +58039,7 @@
     "1009": {
       "pokemonName": "Walkingwake",
       "pokedexId": 1009,
-      "defaultFormId": 0,
+      "defaultFormId": 3324,
       "types": [
         "Water",
         "Dragon"
@@ -57843,7 +58077,7 @@
     "1010": {
       "pokemonName": "Ironleaves",
       "pokedexId": 1010,
-      "defaultFormId": 0,
+      "defaultFormId": 3325,
       "types": [
         "Grass",
         "Psychic"
@@ -57881,7 +58115,7 @@
     "1011": {
       "pokemonName": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 0,
+      "defaultFormId": 3326,
       "types": [
         "Grass",
         "Dragon"
@@ -58056,7 +58290,7 @@
     "1014": {
       "pokemonName": "Okidogi",
       "pokedexId": 1014,
-      "defaultFormId": 0,
+      "defaultFormId": 3327,
       "types": [
         "Fighting",
         "Poison"
@@ -58097,7 +58331,7 @@
     "1015": {
       "pokemonName": "Munkidori",
       "pokedexId": 1015,
-      "defaultFormId": 0,
+      "defaultFormId": 3328,
       "types": [
         "Poison",
         "Psychic"
@@ -58138,7 +58372,7 @@
     "1016": {
       "pokemonName": "Fezandipiti",
       "pokedexId": 1016,
-      "defaultFormId": 0,
+      "defaultFormId": 3329,
       "types": [
         "Poison",
         "Fairy"
@@ -58236,7 +58470,7 @@
     "1018": {
       "pokemonName": "Archaludon",
       "pokedexId": 1018,
-      "defaultFormId": 0,
+      "defaultFormId": 3330,
       "types": [
         "Steel",
         "Dragon"
@@ -58280,7 +58514,7 @@
     "1019": {
       "pokemonName": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 0,
+      "defaultFormId": 3331,
       "types": [
         "Grass",
         "Dragon"
@@ -58326,7 +58560,7 @@
     "1020": {
       "pokemonName": "Gougingfire",
       "pokedexId": 1020,
-      "defaultFormId": 0,
+      "defaultFormId": 3332,
       "types": [
         "Fire",
         "Dragon"
@@ -58364,7 +58598,7 @@
     "1021": {
       "pokemonName": "Ragingbolt",
       "pokedexId": 1021,
-      "defaultFormId": 0,
+      "defaultFormId": 3333,
       "types": [
         "Electric",
         "Dragon"
@@ -58402,7 +58636,7 @@
     "1022": {
       "pokemonName": "Ironboulder",
       "pokedexId": 1022,
-      "defaultFormId": 0,
+      "defaultFormId": 3334,
       "types": [
         "Rock",
         "Psychic"
@@ -58440,7 +58674,7 @@
     "1023": {
       "pokemonName": "Ironcrown",
       "pokedexId": 1023,
-      "defaultFormId": 0,
+      "defaultFormId": 3335,
       "types": [
         "Steel",
         "Psychic"
@@ -58478,7 +58712,7 @@
     "1024": {
       "pokemonName": "Terapagos",
       "pokedexId": 1024,
-      "defaultFormId": 0,
+      "defaultFormId": 2880,
       "types": [
         "Normal"
       ],
@@ -58492,9 +58726,9 @@
       "eliteChargedMoves": [],
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "2880": {
+          "formName": "Normal",
+          "formId": 2880
         },
         "2881": {
           "formName": "Terastal",
@@ -58533,7 +58767,7 @@
     "1025": {
       "pokemonName": "Pecharunt",
       "pokedexId": 1025,
-      "defaultFormId": 0,
+      "defaultFormId": 3336,
       "types": [
         "Poison",
         "Ghost"

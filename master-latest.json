@@ -8780,8 +8780,7 @@
       "charged_moves": [
         "Earthquake",
         "Petal Blizzard",
-        "Solar Beam",
-        "Frenzy Plant"
+        "Solar Beam"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -9102,8 +9101,7 @@
       "charged_moves": [
         "Ice Beam",
         "Hydro Pump",
-        "Crunch",
-        "Hydro Cannon"
+        "Crunch"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -25916,8 +25914,7 @@
         "Heat Wave",
         "Rock Slide",
         "Flame Charge",
-        "Focus Blast",
-        "Blast Burn"
+        "Focus Blast"
       ],
       "gen_id": 5,
       "generation": "Unova",
@@ -36274,7 +36271,7 @@
     "702": {
       "name": "Dedenne",
       "pokedex_id": 702,
-      "default_form_id": 0,
+      "default_form_id": 2860,
       "types": [
         "Electric",
         "Fairy"
@@ -36291,10 +36288,6 @@
       "gen_id": 6,
       "generation": "Kalos",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2860": {
           "name": "Normal",
           "proto": "DEDENNE_NORMAL"
@@ -37357,7 +37350,7 @@
     "722": {
       "name": "Rowlet",
       "pokedex_id": 722,
-      "default_form_id": 0,
+      "default_form_id": 3076,
       "types": [
         "Flying",
         "Grass"
@@ -37375,13 +37368,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3076": {
           "name": "Normal",
-          "proto": "ROWLET_NORMAL"
+          "proto": "ROWLET_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 723,
+              "form": 3077
+            }
+          ]
         }
       },
       "attack": 102,
@@ -37407,7 +37402,7 @@
     "723": {
       "name": "Dartrix",
       "pokedex_id": 723,
-      "default_form_id": 0,
+      "default_form_id": 3077,
       "types": [
         "Flying",
         "Grass"
@@ -37426,13 +37421,18 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3077": {
           "name": "Normal",
-          "proto": "DARTRIX_NORMAL"
+          "proto": "DARTRIX_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 724
+            },
+            {
+              "pokemon": 724,
+              "form": 2785
+            }
+          ]
         }
       },
       "attack": 142,
@@ -37527,7 +37527,7 @@
     "725": {
       "name": "Litten",
       "pokedex_id": 725,
-      "default_form_id": 0,
+      "default_form_id": 3078,
       "types": [
         "Fire"
       ],
@@ -37543,13 +37543,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3078": {
           "name": "Normal",
-          "proto": "LITTEN_NORMAL"
+          "proto": "LITTEN_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 726,
+              "form": 3079
+            }
+          ]
         }
       },
       "attack": 128,
@@ -37575,7 +37577,7 @@
     "726": {
       "name": "Torracat",
       "pokedex_id": 726,
-      "default_form_id": 0,
+      "default_form_id": 3079,
       "types": [
         "Fire"
       ],
@@ -37591,13 +37593,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3079": {
           "name": "Normal",
-          "proto": "TORRACAT_NORMAL"
+          "proto": "TORRACAT_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 727,
+              "form": 3080
+            }
+          ]
         }
       },
       "attack": 174,
@@ -37622,7 +37626,7 @@
     "727": {
       "name": "Incineroar",
       "pokedex_id": 727,
-      "default_form_id": 0,
+      "default_form_id": 3080,
       "types": [
         "Fire",
         "Dark"
@@ -37644,10 +37648,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3080": {
           "name": "Normal",
           "proto": "INCINEROAR_NORMAL"
@@ -37670,7 +37670,7 @@
     "728": {
       "name": "Popplio",
       "pokedex_id": 728,
-      "default_form_id": 0,
+      "default_form_id": 3081,
       "types": [
         "Water"
       ],
@@ -37686,13 +37686,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3081": {
           "name": "Normal",
-          "proto": "POPPLIO_NORMAL"
+          "proto": "POPPLIO_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 729,
+              "form": 3082
+            }
+          ]
         }
       },
       "attack": 120,
@@ -37718,7 +37720,7 @@
     "729": {
       "name": "Brionne",
       "pokedex_id": 729,
-      "default_form_id": 0,
+      "default_form_id": 3082,
       "types": [
         "Water"
       ],
@@ -37734,13 +37736,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3082": {
           "name": "Normal",
-          "proto": "BRIONNE_NORMAL"
+          "proto": "BRIONNE_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 730,
+              "form": 3083
+            }
+          ]
         }
       },
       "attack": 168,
@@ -37765,7 +37769,7 @@
     "730": {
       "name": "Primarina",
       "pokedex_id": 730,
-      "default_form_id": 0,
+      "default_form_id": 3083,
       "types": [
         "Water",
         "Fairy"
@@ -37784,10 +37788,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3083": {
           "name": "Normal",
           "proto": "PRIMARINA_NORMAL"
@@ -37810,7 +37810,7 @@
     "731": {
       "name": "Pikipek",
       "pokedex_id": 731,
-      "default_form_id": 0,
+      "default_form_id": 3084,
       "types": [
         "Normal",
         "Flying"
@@ -37827,13 +37827,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3084": {
           "name": "Normal",
-          "proto": "PIKIPEK_NORMAL"
+          "proto": "PIKIPEK_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 732,
+              "form": 3085
+            }
+          ]
         }
       },
       "attack": 136,
@@ -37859,7 +37861,7 @@
     "732": {
       "name": "Trumbeak",
       "pokedex_id": 732,
-      "default_form_id": 0,
+      "default_form_id": 3085,
       "types": [
         "Normal",
         "Flying"
@@ -37876,13 +37878,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3085": {
           "name": "Normal",
-          "proto": "TRUMBEAK_NORMAL"
+          "proto": "TRUMBEAK_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 733,
+              "form": 3086
+            }
+          ]
         }
       },
       "attack": 159,
@@ -37907,7 +37911,7 @@
     "733": {
       "name": "Toucannon",
       "pokedex_id": 733,
-      "default_form_id": 0,
+      "default_form_id": 3086,
       "types": [
         "Normal",
         "Flying"
@@ -37925,10 +37929,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3086": {
           "name": "Normal",
           "proto": "TOUCANNON_NORMAL"
@@ -37951,7 +37951,7 @@
     "734": {
       "name": "Yungoos",
       "pokedex_id": 734,
-      "default_form_id": 0,
+      "default_form_id": 3087,
       "types": [
         "Normal"
       ],
@@ -37967,13 +37967,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3087": {
           "name": "Normal",
-          "proto": "YUNGOOS_NORMAL"
+          "proto": "YUNGOOS_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 735,
+              "form": 3088
+            }
+          ]
         }
       },
       "attack": 122,
@@ -37999,7 +38001,7 @@
     "735": {
       "name": "Gumshoos",
       "pokedex_id": 735,
-      "default_form_id": 0,
+      "default_form_id": 3088,
       "types": [
         "Normal"
       ],
@@ -38015,10 +38017,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3088": {
           "name": "Normal",
           "proto": "GUMSHOOS_NORMAL"
@@ -38041,7 +38039,7 @@
     "736": {
       "name": "Grubbin",
       "pokedex_id": 736,
-      "default_form_id": 0,
+      "default_form_id": 3089,
       "types": [
         "Bug"
       ],
@@ -38057,13 +38055,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3089": {
           "name": "Normal",
-          "proto": "GRUBBIN_NORMAL"
+          "proto": "GRUBBIN_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 737,
+              "form": 3090
+            }
+          ]
         }
       },
       "attack": 115,
@@ -38089,7 +38089,7 @@
     "737": {
       "name": "Charjabug",
       "pokedex_id": 737,
-      "default_form_id": 0,
+      "default_form_id": 3090,
       "types": [
         "Bug",
         "Electric"
@@ -38106,13 +38106,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3090": {
           "name": "Normal",
-          "proto": "CHARJABUG_NORMAL"
+          "proto": "CHARJABUG_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 738,
+              "form": 3091
+            }
+          ]
         }
       },
       "attack": 145,
@@ -38137,7 +38139,7 @@
     "738": {
       "name": "Vikavolt",
       "pokedex_id": 738,
-      "default_form_id": 0,
+      "default_form_id": 3091,
       "types": [
         "Bug",
         "Electric"
@@ -38156,10 +38158,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3091": {
           "name": "Normal",
           "proto": "VIKAVOLT_NORMAL"
@@ -38182,7 +38180,7 @@
     "739": {
       "name": "Crabrawler",
       "pokedex_id": 739,
-      "default_form_id": 0,
+      "default_form_id": 3092,
       "types": [
         "Fighting"
       ],
@@ -38199,13 +38197,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3092": {
           "name": "Normal",
-          "proto": "CRABRAWLER_NORMAL"
+          "proto": "CRABRAWLER_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 740,
+              "form": 3093
+            }
+          ]
         }
       },
       "attack": 150,
@@ -38231,7 +38231,7 @@
     "740": {
       "name": "Crabominable",
       "pokedex_id": 740,
-      "default_form_id": 0,
+      "default_form_id": 3093,
       "types": [
         "Fighting",
         "Ice"
@@ -38250,10 +38250,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3093": {
           "name": "Normal",
           "proto": "CRABOMINABLE_NORMAL"
@@ -38339,7 +38335,7 @@
     "742": {
       "name": "Cutiefly",
       "pokedex_id": 742,
-      "default_form_id": 0,
+      "default_form_id": 3094,
       "types": [
         "Bug",
         "Fairy"
@@ -38355,13 +38351,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3094": {
           "name": "Normal",
-          "proto": "CUTIEFLY_NORMAL"
+          "proto": "CUTIEFLY_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 743,
+              "form": 3095
+            }
+          ]
         }
       },
       "attack": 110,
@@ -38387,7 +38385,7 @@
     "743": {
       "name": "Ribombee",
       "pokedex_id": 743,
-      "default_form_id": 0,
+      "default_form_id": 3095,
       "types": [
         "Bug",
         "Fairy"
@@ -38405,10 +38403,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3095": {
           "name": "Normal",
           "proto": "RIBOMBEE_NORMAL"
@@ -38625,7 +38619,7 @@
     "747": {
       "name": "Mareanie",
       "pokedex_id": 747,
-      "default_form_id": 0,
+      "default_form_id": 3096,
       "types": [
         "Poison",
         "Water"
@@ -38642,13 +38636,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3096": {
           "name": "Normal",
-          "proto": "MAREANIE_NORMAL"
+          "proto": "MAREANIE_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 748,
+              "form": 3097
+            }
+          ]
         }
       },
       "attack": 98,
@@ -38674,7 +38670,7 @@
     "748": {
       "name": "Toxapex",
       "pokedex_id": 748,
-      "default_form_id": 0,
+      "default_form_id": 3097,
       "types": [
         "Poison",
         "Water"
@@ -38691,10 +38687,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3097": {
           "name": "Normal",
           "proto": "TOXAPEX_NORMAL"
@@ -38717,7 +38709,7 @@
     "749": {
       "name": "Mudbray",
       "pokedex_id": 749,
-      "default_form_id": 0,
+      "default_form_id": 3098,
       "types": [
         "Ground"
       ],
@@ -38733,13 +38725,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3098": {
           "name": "Normal",
-          "proto": "MUDBRAY_NORMAL"
+          "proto": "MUDBRAY_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 750,
+              "form": 3099
+            }
+          ]
         }
       },
       "attack": 175,
@@ -38765,7 +38759,7 @@
     "750": {
       "name": "Mudsdale",
       "pokedex_id": 750,
-      "default_form_id": 0,
+      "default_form_id": 3099,
       "types": [
         "Ground"
       ],
@@ -38782,10 +38776,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3099": {
           "name": "Normal",
           "proto": "MUDSDALE_NORMAL"
@@ -38808,7 +38798,7 @@
     "751": {
       "name": "Dewpider",
       "pokedex_id": 751,
-      "default_form_id": 0,
+      "default_form_id": 3100,
       "types": [
         "Bug",
         "Water"
@@ -38825,13 +38815,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3100": {
           "name": "Normal",
-          "proto": "DEWPIDER_NORMAL"
+          "proto": "DEWPIDER_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 752,
+              "form": 3101
+            }
+          ]
         }
       },
       "attack": 72,
@@ -38857,7 +38849,7 @@
     "752": {
       "name": "Araquanid",
       "pokedex_id": 752,
-      "default_form_id": 0,
+      "default_form_id": 3101,
       "types": [
         "Bug",
         "Water"
@@ -38875,10 +38867,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3101": {
           "name": "Normal",
           "proto": "ARAQUANID_NORMAL"
@@ -38901,7 +38889,7 @@
     "753": {
       "name": "Fomantis",
       "pokedex_id": 753,
-      "default_form_id": 0,
+      "default_form_id": 3102,
       "types": [
         "Grass"
       ],
@@ -38919,13 +38907,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3102": {
           "name": "Normal",
-          "proto": "FOMANTIS_NORMAL"
+          "proto": "FOMANTIS_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 754,
+              "form": 3103
+            }
+          ]
         }
       },
       "attack": 100,
@@ -38951,7 +38941,7 @@
     "754": {
       "name": "Lurantis",
       "pokedex_id": 754,
-      "default_form_id": 0,
+      "default_form_id": 3103,
       "types": [
         "Grass"
       ],
@@ -38970,10 +38960,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3103": {
           "name": "Normal",
           "proto": "LURANTIS_NORMAL"
@@ -38996,7 +38982,7 @@
     "755": {
       "name": "Morelull",
       "pokedex_id": 755,
-      "default_form_id": 0,
+      "default_form_id": 3104,
       "types": [
         "Grass",
         "Fairy"
@@ -39011,13 +38997,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3104": {
           "name": "Normal",
-          "proto": "MORELULL_NORMAL"
+          "proto": "MORELULL_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 756,
+              "form": 3105
+            }
+          ]
         }
       },
       "attack": 108,
@@ -39043,7 +39031,7 @@
     "756": {
       "name": "Shiinotic",
       "pokedex_id": 756,
-      "default_form_id": 0,
+      "default_form_id": 3105,
       "types": [
         "Grass",
         "Fairy"
@@ -39059,10 +39047,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3105": {
           "name": "Normal",
           "proto": "SHIINOTIC_NORMAL"
@@ -39085,7 +39069,7 @@
     "757": {
       "name": "Salandit",
       "pokedex_id": 757,
-      "default_form_id": 0,
+      "default_form_id": 3106,
       "types": [
         "Poison",
         "Fire"
@@ -39102,13 +39086,16 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3106": {
           "name": "Normal",
-          "proto": "SALANDIT_NORMAL"
+          "proto": "SALANDIT_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 758,
+              "form": 3107,
+              "gender_requirement": 2
+            }
+          ]
         }
       },
       "attack": 136,
@@ -39135,7 +39122,7 @@
     "758": {
       "name": "Salazzle",
       "pokedex_id": 758,
-      "default_form_id": 0,
+      "default_form_id": 3107,
       "types": [
         "Poison",
         "Fire"
@@ -39153,10 +39140,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3107": {
           "name": "Normal",
           "proto": "SALAZZLE_NORMAL"
@@ -39179,7 +39162,7 @@
     "759": {
       "name": "Stufful",
       "pokedex_id": 759,
-      "default_form_id": 0,
+      "default_form_id": 3108,
       "types": [
         "Normal",
         "Fighting"
@@ -39196,13 +39179,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3108": {
           "name": "Normal",
-          "proto": "STUFFUL_NORMAL"
+          "proto": "STUFFUL_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 760,
+              "form": 3020
+            }
+          ]
         }
       },
       "attack": 136,
@@ -39273,7 +39258,7 @@
     "761": {
       "name": "Bounsweet",
       "pokedex_id": 761,
-      "default_form_id": 0,
+      "default_form_id": 3109,
       "types": [
         "Grass"
       ],
@@ -39288,13 +39273,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3109": {
           "name": "Normal",
-          "proto": "BOUNSWEET_NORMAL"
+          "proto": "BOUNSWEET_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 762,
+              "form": 3110
+            }
+          ]
         }
       },
       "attack": 55,
@@ -39320,7 +39307,7 @@
     "762": {
       "name": "Steenee",
       "pokedex_id": 762,
-      "default_form_id": 0,
+      "default_form_id": 3110,
       "types": [
         "Grass"
       ],
@@ -39337,13 +39324,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3110": {
           "name": "Normal",
-          "proto": "STEENEE_NORMAL"
+          "proto": "STEENEE_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 763,
+              "form": 3111
+            }
+          ]
         }
       },
       "attack": 78,
@@ -39368,7 +39357,7 @@
     "763": {
       "name": "Tsareena",
       "pokedex_id": 763,
-      "default_form_id": 0,
+      "default_form_id": 3111,
       "types": [
         "Grass"
       ],
@@ -39387,10 +39376,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3111": {
           "name": "Normal",
           "proto": "TSAREENA_NORMAL"
@@ -39413,7 +39398,7 @@
     "764": {
       "name": "Comfey",
       "pokedex_id": 764,
-      "default_form_id": 0,
+      "default_form_id": 3112,
       "types": [
         "Fairy"
       ],
@@ -39429,10 +39414,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3112": {
           "name": "Normal",
           "proto": "COMFEY_NORMAL"
@@ -39455,7 +39436,7 @@
     "765": {
       "name": "Oranguru",
       "pokedex_id": 765,
-      "default_form_id": 0,
+      "default_form_id": 3113,
       "types": [
         "Normal",
         "Psychic"
@@ -39475,10 +39456,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3113": {
           "name": "Normal",
           "proto": "ORANGURU_NORMAL"
@@ -39501,7 +39478,7 @@
     "766": {
       "name": "Passimian",
       "pokedex_id": 766,
-      "default_form_id": 0,
+      "default_form_id": 3114,
       "types": [
         "Fighting"
       ],
@@ -39520,10 +39497,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3114": {
           "name": "Normal",
           "proto": "PASSIMIAN_NORMAL"
@@ -39546,7 +39519,7 @@
     "767": {
       "name": "Wimpod",
       "pokedex_id": 767,
-      "default_form_id": 0,
+      "default_form_id": 3115,
       "types": [
         "Bug",
         "Water"
@@ -39560,13 +39533,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3115": {
           "name": "Normal",
-          "proto": "WIMPOD_NORMAL"
+          "proto": "WIMPOD_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 768,
+              "form": 3116
+            }
+          ]
         }
       },
       "attack": 67,
@@ -39592,7 +39567,7 @@
     "768": {
       "name": "Golisopod",
       "pokedex_id": 768,
-      "default_form_id": 0,
+      "default_form_id": 3116,
       "types": [
         "Bug",
         "Water"
@@ -39613,10 +39588,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3116": {
           "name": "Normal",
           "proto": "GOLISOPOD_NORMAL"
@@ -39639,7 +39610,7 @@
     "769": {
       "name": "Sandygast",
       "pokedex_id": 769,
-      "default_form_id": 0,
+      "default_form_id": 3117,
       "types": [
         "Ground",
         "Ghost"
@@ -39658,13 +39629,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3117": {
           "name": "Normal",
-          "proto": "SANDYGAST_NORMAL"
+          "proto": "SANDYGAST_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 770,
+              "form": 3118
+            }
+          ]
         }
       },
       "attack": 120,
@@ -39690,7 +39663,7 @@
     "770": {
       "name": "Palossand",
       "pokedex_id": 770,
-      "default_form_id": 0,
+      "default_form_id": 3118,
       "types": [
         "Ground",
         "Ghost"
@@ -39709,10 +39682,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3118": {
           "name": "Normal",
           "proto": "PALOSSAND_NORMAL"
@@ -39735,7 +39704,7 @@
     "771": {
       "name": "Pyukumuku",
       "pokedex_id": 771,
-      "default_form_id": 0,
+      "default_form_id": 3119,
       "types": [
         "Water"
       ],
@@ -39748,10 +39717,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3119": {
           "name": "Normal",
           "proto": "PYUKUMUKU_NORMAL"
@@ -39774,7 +39739,7 @@
     "772": {
       "name": "Type Null",
       "pokedex_id": 772,
-      "default_form_id": 0,
+      "default_form_id": 3120,
       "types": [
         "Normal"
       ],
@@ -39790,13 +39755,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3120": {
           "name": "Normal",
-          "proto": "TYPE_NULL_NORMAL"
+          "proto": "TYPE_NULL_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 773,
+              "form": 2689
+            }
+          ]
         }
       },
       "attack": 184,
@@ -40106,7 +40073,7 @@
     "775": {
       "name": "Komala",
       "pokedex_id": 775,
-      "default_form_id": 0,
+      "default_form_id": 3121,
       "types": [
         "Normal"
       ],
@@ -40122,10 +40089,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3121": {
           "name": "Normal",
           "proto": "KOMALA_NORMAL"
@@ -40148,7 +40111,7 @@
     "776": {
       "name": "Turtonator",
       "pokedex_id": 776,
-      "default_form_id": 0,
+      "default_form_id": 3122,
       "types": [
         "Fire",
         "Dragon"
@@ -40169,10 +40132,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3122": {
           "name": "Normal",
           "proto": "TURTONATOR_NORMAL"
@@ -40195,7 +40154,7 @@
     "777": {
       "name": "Togedemaru",
       "pokedex_id": 777,
-      "default_form_id": 0,
+      "default_form_id": 3123,
       "types": [
         "Steel",
         "Electric"
@@ -40212,10 +40171,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3123": {
           "name": "Normal",
           "proto": "TOGEDEMARU_NORMAL"
@@ -40281,7 +40236,7 @@
     "779": {
       "name": "Bruxish",
       "pokedex_id": 779,
-      "default_form_id": 0,
+      "default_form_id": 3124,
       "types": [
         "Water",
         "Psychic"
@@ -40300,10 +40255,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3124": {
           "name": "Normal",
           "proto": "BRUXISH_NORMAL"
@@ -40326,7 +40277,7 @@
     "780": {
       "name": "Drampa",
       "pokedex_id": 780,
-      "default_form_id": 0,
+      "default_form_id": 3125,
       "types": [
         "Normal",
         "Dragon"
@@ -40344,10 +40295,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3125": {
           "name": "Normal",
           "proto": "DRAMPA_NORMAL",
@@ -40381,7 +40328,7 @@
     "781": {
       "name": "Dhelmise",
       "pokedex_id": 781,
-      "default_form_id": 0,
+      "default_form_id": 3126,
       "types": [
         "Ghost",
         "Grass"
@@ -40400,10 +40347,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3126": {
           "name": "Normal",
           "proto": "DHELMISE_NORMAL"
@@ -40426,7 +40369,7 @@
     "782": {
       "name": "Jangmo O",
       "pokedex_id": 782,
-      "default_form_id": 0,
+      "default_form_id": 3127,
       "types": [
         "Dragon"
       ],
@@ -40442,13 +40385,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3127": {
           "name": "Normal",
-          "proto": "JANGMO_O_NORMAL"
+          "proto": "JANGMO_O_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 783,
+              "form": 3128
+            }
+          ]
         }
       },
       "attack": 102,
@@ -40474,7 +40419,7 @@
     "783": {
       "name": "Hakamo O",
       "pokedex_id": 783,
-      "default_form_id": 0,
+      "default_form_id": 3128,
       "types": [
         "Fighting",
         "Dragon"
@@ -40492,13 +40437,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3128": {
           "name": "Normal",
-          "proto": "HAKAMO_O_NORMAL"
+          "proto": "HAKAMO_O_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 784,
+              "form": 3129
+            }
+          ]
         }
       },
       "attack": 145,
@@ -40523,7 +40470,7 @@
     "784": {
       "name": "Kommo O",
       "pokedex_id": 784,
-      "default_form_id": 0,
+      "default_form_id": 3129,
       "types": [
         "Fighting",
         "Dragon"
@@ -40544,10 +40491,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3129": {
           "name": "Normal",
           "proto": "KOMMO_O_NORMAL"
@@ -40570,7 +40513,7 @@
     "785": {
       "name": "Tapu Koko",
       "pokedex_id": 785,
-      "default_form_id": 0,
+      "default_form_id": 3130,
       "types": [
         "Electric",
         "Fairy"
@@ -40588,10 +40531,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3130": {
           "name": "Normal",
           "proto": "TAPU_KOKO_NORMAL"
@@ -40613,7 +40552,7 @@
     "786": {
       "name": "Tapu Lele",
       "pokedex_id": 786,
-      "default_form_id": 0,
+      "default_form_id": 3131,
       "types": [
         "Psychic",
         "Fairy"
@@ -40632,10 +40571,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3131": {
           "name": "Normal",
           "proto": "TAPU_LELE_NORMAL"
@@ -40657,7 +40592,7 @@
     "787": {
       "name": "Tapu Bulu",
       "pokedex_id": 787,
-      "default_form_id": 0,
+      "default_form_id": 3132,
       "types": [
         "Grass",
         "Fairy"
@@ -40675,10 +40610,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3132": {
           "name": "Normal",
           "proto": "TAPU_BULU_NORMAL"
@@ -40700,7 +40631,7 @@
     "788": {
       "name": "Tapu Fini",
       "pokedex_id": 788,
-      "default_form_id": 0,
+      "default_form_id": 3133,
       "types": [
         "Water",
         "Fairy"
@@ -40718,10 +40649,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3133": {
           "name": "Normal",
           "proto": "TAPU_FINI_NORMAL"
@@ -40743,7 +40670,7 @@
     "789": {
       "name": "Cosmog",
       "pokedex_id": 789,
-      "default_form_id": 0,
+      "default_form_id": 3134,
       "types": [
         "Psychic"
       ],
@@ -40756,13 +40683,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3134": {
           "name": "Normal",
-          "proto": "COSMOG_NORMAL"
+          "proto": "COSMOG_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 790,
+              "form": 3135
+            }
+          ]
         }
       },
       "attack": 54,
@@ -40787,7 +40716,7 @@
     "790": {
       "name": "Cosmoem",
       "pokedex_id": 790,
-      "default_form_id": 0,
+      "default_form_id": 3135,
       "types": [
         "Psychic"
       ],
@@ -40800,13 +40729,19 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3135": {
           "name": "Normal",
-          "proto": "COSMOEM_NORMAL"
+          "proto": "COSMOEM_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 791,
+              "form": 3136
+            },
+            {
+              "pokemon": 792,
+              "form": 3137
+            }
+          ]
         }
       },
       "attack": 54,
@@ -40833,7 +40768,7 @@
     "791": {
       "name": "Solgaleo",
       "pokedex_id": 791,
-      "default_form_id": 0,
+      "default_form_id": 3136,
       "types": [
         "Steel",
         "Psychic"
@@ -40851,10 +40786,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3136": {
           "name": "Normal",
           "proto": "SOLGALEO_NORMAL"
@@ -40876,7 +40807,7 @@
     "792": {
       "name": "Lunala",
       "pokedex_id": 792,
-      "default_form_id": 0,
+      "default_form_id": 3137,
       "types": [
         "Ghost",
         "Psychic"
@@ -40895,10 +40826,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3137": {
           "name": "Normal",
           "proto": "LUNALA_NORMAL"
@@ -40920,7 +40847,7 @@
     "793": {
       "name": "Nihilego",
       "pokedex_id": 793,
-      "default_form_id": 0,
+      "default_form_id": 3138,
       "types": [
         "Poison",
         "Rock"
@@ -40939,10 +40866,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3138": {
           "name": "Normal",
           "proto": "NIHILEGO_NORMAL"
@@ -40964,7 +40887,7 @@
     "794": {
       "name": "Buzzwole",
       "pokedex_id": 794,
-      "default_form_id": 0,
+      "default_form_id": 3139,
       "types": [
         "Fighting",
         "Bug"
@@ -40982,10 +40905,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3139": {
           "name": "Normal",
           "proto": "BUZZWOLE_NORMAL"
@@ -41007,7 +40926,7 @@
     "795": {
       "name": "Pheromosa",
       "pokedex_id": 795,
-      "default_form_id": 0,
+      "default_form_id": 3140,
       "types": [
         "Fighting",
         "Bug"
@@ -41025,10 +40944,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3140": {
           "name": "Normal",
           "proto": "PHEROMOSA_NORMAL"
@@ -41050,7 +40965,7 @@
     "796": {
       "name": "Xurkitree",
       "pokedex_id": 796,
-      "default_form_id": 0,
+      "default_form_id": 3141,
       "types": [
         "Electric"
       ],
@@ -41067,10 +40982,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3141": {
           "name": "Normal",
           "proto": "XURKITREE_NORMAL"
@@ -41092,7 +41003,7 @@
     "797": {
       "name": "Celesteela",
       "pokedex_id": 797,
-      "default_form_id": 0,
+      "default_form_id": 3142,
       "types": [
         "Flying",
         "Steel"
@@ -41110,10 +41021,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3142": {
           "name": "Normal",
           "proto": "CELESTEELA_NORMAL"
@@ -41135,7 +41042,7 @@
     "798": {
       "name": "Kartana",
       "pokedex_id": 798,
-      "default_form_id": 0,
+      "default_form_id": 3143,
       "types": [
         "Steel",
         "Grass"
@@ -41153,10 +41060,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3143": {
           "name": "Normal",
           "proto": "KARTANA_NORMAL"
@@ -41178,7 +41081,7 @@
     "799": {
       "name": "Guzzlord",
       "pokedex_id": 799,
-      "default_form_id": 0,
+      "default_form_id": 3144,
       "types": [
         "Dragon",
         "Dark"
@@ -41196,10 +41099,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3144": {
           "name": "Normal",
           "proto": "GUZZLORD_NORMAL"
@@ -41344,7 +41243,7 @@
     "802": {
       "name": "Marshadow",
       "pokedex_id": 802,
-      "default_form_id": 0,
+      "default_form_id": 3145,
       "types": [
         "Fighting",
         "Ghost"
@@ -41364,10 +41263,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3145": {
           "name": "Normal",
           "proto": "MARSHADOW_NORMAL"
@@ -41389,7 +41284,7 @@
     "803": {
       "name": "Poipole",
       "pokedex_id": 803,
-      "default_form_id": 0,
+      "default_form_id": 3146,
       "types": [
         "Poison"
       ],
@@ -41405,13 +41300,15 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3146": {
           "name": "Normal",
-          "proto": "POIPOLE_NORMAL"
+          "proto": "POIPOLE_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 804,
+              "form": 3147
+            }
+          ]
         }
       },
       "attack": 145,
@@ -41436,7 +41333,7 @@
     "804": {
       "name": "Naganadel",
       "pokedex_id": 804,
-      "default_form_id": 0,
+      "default_form_id": 3147,
       "types": [
         "Poison",
         "Dragon"
@@ -41455,10 +41352,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3147": {
           "name": "Normal",
           "proto": "NAGANADEL_NORMAL"
@@ -41480,7 +41373,7 @@
     "805": {
       "name": "Stakataka",
       "pokedex_id": 805,
-      "default_form_id": 0,
+      "default_form_id": 3148,
       "types": [
         "Rock",
         "Steel"
@@ -41497,10 +41390,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3148": {
           "name": "Normal",
           "proto": "STAKATAKA_NORMAL"
@@ -41522,7 +41411,7 @@
     "806": {
       "name": "Blacephalon",
       "pokedex_id": 806,
-      "default_form_id": 0,
+      "default_form_id": 3149,
       "types": [
         "Ghost",
         "Fire"
@@ -41539,10 +41428,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3149": {
           "name": "Normal",
           "proto": "BLACEPHALON_NORMAL"
@@ -41564,7 +41449,7 @@
     "807": {
       "name": "Zeraora",
       "pokedex_id": 807,
-      "default_form_id": 0,
+      "default_form_id": 3150,
       "types": [
         "Electric"
       ],
@@ -41580,10 +41465,6 @@
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3150": {
           "name": "Normal",
           "proto": "ZERAORA_NORMAL"
@@ -42634,7 +42515,7 @@
     "831": {
       "name": "Wooloo",
       "pokedex_id": 831,
-      "default_form_id": 0,
+      "default_form_id": 2861,
       "types": [
         "Normal"
       ],
@@ -42650,13 +42531,15 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2861": {
           "name": "Normal",
-          "proto": "WOOLOO_NORMAL"
+          "proto": "WOOLOO_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 832,
+              "form": 2862
+            }
+          ]
         }
       },
       "attack": 76,
@@ -42682,7 +42565,7 @@
     "832": {
       "name": "Dubwool",
       "pokedex_id": 832,
-      "default_form_id": 0,
+      "default_form_id": 2862,
       "types": [
         "Normal"
       ],
@@ -42699,10 +42582,6 @@
       "gen_id": 8,
       "generation": "Galar",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2862": {
           "name": "Normal",
           "proto": "DUBWOOL_NORMAL"
@@ -50536,7 +50415,7 @@
     "1009": {
       "name": "Walkingwake",
       "pokedex_id": 1009,
-      "default_form_id": 0,
+      "default_form_id": 3324,
       "types": [
         "Water",
         "Dragon"
@@ -50570,7 +50449,7 @@
     "1010": {
       "name": "Ironleaves",
       "pokedex_id": 1010,
-      "default_form_id": 0,
+      "default_form_id": 3325,
       "types": [
         "Grass",
         "Psychic"
@@ -50604,7 +50483,7 @@
     "1011": {
       "name": "Dipplin",
       "pokedex_id": 1011,
-      "default_form_id": 0,
+      "default_form_id": 3326,
       "types": [
         "Grass",
         "Dragon"
@@ -50754,7 +50633,7 @@
     "1014": {
       "name": "Okidogi",
       "pokedex_id": 1014,
-      "default_form_id": 0,
+      "default_form_id": 3327,
       "types": [
         "Fighting",
         "Poison"
@@ -50791,7 +50670,7 @@
     "1015": {
       "name": "Munkidori",
       "pokedex_id": 1015,
-      "default_form_id": 0,
+      "default_form_id": 3328,
       "types": [
         "Poison",
         "Psychic"
@@ -50828,7 +50707,7 @@
     "1016": {
       "name": "Fezandipiti",
       "pokedex_id": 1016,
-      "default_form_id": 0,
+      "default_form_id": 3329,
       "types": [
         "Poison",
         "Fairy"
@@ -50918,7 +50797,7 @@
     "1018": {
       "name": "Archaludon",
       "pokedex_id": 1018,
-      "default_form_id": 0,
+      "default_form_id": 3330,
       "types": [
         "Steel",
         "Dragon"
@@ -50956,7 +50835,7 @@
     "1019": {
       "name": "Hydrapple",
       "pokedex_id": 1019,
-      "default_form_id": 0,
+      "default_form_id": 3331,
       "types": [
         "Grass",
         "Dragon"
@@ -50996,7 +50875,7 @@
     "1020": {
       "name": "Gougingfire",
       "pokedex_id": 1020,
-      "default_form_id": 0,
+      "default_form_id": 3332,
       "types": [
         "Fire",
         "Dragon"
@@ -51030,7 +50909,7 @@
     "1021": {
       "name": "Ragingbolt",
       "pokedex_id": 1021,
-      "default_form_id": 0,
+      "default_form_id": 3333,
       "types": [
         "Electric",
         "Dragon"
@@ -51064,7 +50943,7 @@
     "1022": {
       "name": "Ironboulder",
       "pokedex_id": 1022,
-      "default_form_id": 0,
+      "default_form_id": 3334,
       "types": [
         "Rock",
         "Psychic"
@@ -51098,7 +50977,7 @@
     "1023": {
       "name": "Ironcrown",
       "pokedex_id": 1023,
-      "default_form_id": 0,
+      "default_form_id": 3335,
       "types": [
         "Steel",
         "Psychic"
@@ -51132,7 +51011,7 @@
     "1024": {
       "name": "Terapagos",
       "pokedex_id": 1024,
-      "default_form_id": 0,
+      "default_form_id": 2880,
       "types": [
         "Normal"
       ],
@@ -51145,10 +51024,6 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "2880": {
           "name": "Normal",
           "proto": "TERAPAGOS_NORMAL"
@@ -51183,7 +51058,7 @@
     "1025": {
       "name": "Pecharunt",
       "pokedex_id": 1025,
-      "default_form_id": 0,
+      "default_form_id": 3336,
       "types": [
         "Poison",
         "Ghost"
