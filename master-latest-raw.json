@@ -75143,7 +75143,7 @@
     "1009": {
       "pokemonName": "Walkingwake",
       "pokedexId": 1009,
-      "defaultFormId": 3324,
+      "defaultFormId": 0,
       "types": [
         11,
         16
@@ -75205,7 +75205,7 @@
     "1010": {
       "pokemonName": "Ironleaves",
       "pokedexId": 1010,
-      "defaultFormId": 3325,
+      "defaultFormId": 0,
       "types": [
         12,
         14
@@ -75267,7 +75267,7 @@
     "1011": {
       "pokemonName": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 3326,
+      "defaultFormId": 0,
       "types": [
         12,
         16
@@ -75490,7 +75490,7 @@
     "1014": {
       "pokemonName": "Okidogi",
       "pokedexId": 1014,
-      "defaultFormId": 3327,
+      "defaultFormId": 0,
       "types": [
         2,
         4
@@ -75555,7 +75555,7 @@
     "1015": {
       "pokemonName": "Munkidori",
       "pokedexId": 1015,
-      "defaultFormId": 3328,
+      "defaultFormId": 0,
       "types": [
         4,
         14
@@ -75620,7 +75620,7 @@
     "1016": {
       "pokemonName": "Fezandipiti",
       "pokedexId": 1016,
-      "defaultFormId": 3329,
+      "defaultFormId": 0,
       "types": [
         4,
         18
@@ -75754,7 +75754,7 @@
     "1018": {
       "pokemonName": "Archaludon",
       "pokedexId": 1018,
-      "defaultFormId": 3330,
+      "defaultFormId": 0,
       "types": [
         9,
         16
@@ -75822,7 +75822,7 @@
     "1019": {
       "pokemonName": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 3331,
+      "defaultFormId": 0,
       "types": [
         12,
         16
@@ -75892,7 +75892,7 @@
     "1020": {
       "pokemonName": "Gougingfire",
       "pokedexId": 1020,
-      "defaultFormId": 3332,
+      "defaultFormId": 0,
       "types": [
         10,
         16
@@ -75954,7 +75954,7 @@
     "1021": {
       "pokemonName": "Ragingbolt",
       "pokedexId": 1021,
-      "defaultFormId": 3333,
+      "defaultFormId": 0,
       "types": [
         13,
         16
@@ -76016,7 +76016,7 @@
     "1022": {
       "pokemonName": "Ironboulder",
       "pokedexId": 1022,
-      "defaultFormId": 3334,
+      "defaultFormId": 0,
       "types": [
         6,
         14
@@ -76078,7 +76078,7 @@
     "1023": {
       "pokemonName": "Ironcrown",
       "pokedexId": 1023,
-      "defaultFormId": 3335,
+      "defaultFormId": 0,
       "types": [
         9,
         14
@@ -76203,7 +76203,7 @@
     "1025": {
       "pokemonName": "Pecharunt",
       "pokedexId": 1025,
-      "defaultFormId": 3336,
+      "defaultFormId": 0,
       "types": [
         4,
         8
@@ -93028,70 +93028,9 @@
       "proto": "IRONVALIANT_NORMAL",
       "formId": 3314
     },
-    "3324": {
-      "formName": "",
-      "proto": "",
-      "formId": 3324
-    },
-    "3325": {
-      "formName": "",
-      "proto": "",
-      "formId": 3325
-    },
-    "3326": {
-      "formName": "",
-      "proto": "",
-      "formId": 3326
-    },
-    "3327": {
-      "formName": "",
-      "proto": "",
-      "formId": 3327
-    },
-    "3328": {
-      "formName": "",
-      "proto": "",
-      "formId": 3328
-    },
-    "3329": {
-      "formName": "",
-      "proto": "",
-      "formId": 3329
-    },
-    "3330": {
-      "formName": "",
-      "proto": "",
-      "formId": 3330
-    },
-    "3331": {
-      "formName": "",
-      "proto": "",
-      "formId": 3331
-    },
-    "3332": {
-      "formName": "",
-      "proto": "",
-      "formId": 3332
-    },
-    "3333": {
-      "formName": "",
-      "proto": "",
-      "formId": 3333
-    },
-    "3334": {
-      "formName": "",
-      "proto": "",
-      "formId": 3334
-    },
-    "3335": {
-      "formName": "",
-      "proto": "",
-      "formId": 3335
-    },
-    "3336": {
-      "formName": "",
-      "proto": "",
-      "formId": 3336
+    "undefined": {
+      "formName": "Normal",
+      "proto": "PECHARUNT_NORMAL"
     }
   },
   "types": {
