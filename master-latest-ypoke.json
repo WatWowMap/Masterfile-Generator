@@ -9051,18 +9051,22 @@
           "evolutions": [
             {
               "evoId": 134,
+              "formId": 1095,
               "candyCost": 25
             },
             {
               "evoId": 135,
+              "formId": 1098,
               "candyCost": 25
             },
             {
               "evoId": 136,
+              "formId": 1101,
               "candyCost": 25
             },
             {
               "evoId": 196,
+              "formId": 1232,
               "candyCost": 25,
               "mustBeBuddy": true,
               "onlyDaytime": true,
@@ -9075,6 +9079,7 @@
             },
             {
               "evoId": 197,
+              "formId": 1235,
               "candyCost": 25,
               "mustBeBuddy": true,
               "onlyNighttime": true,
@@ -9087,14 +9092,17 @@
             },
             {
               "evoId": 470,
+              "formId": 1832,
               "candyCost": 25
             },
             {
               "evoId": 471,
+              "formId": 1835,
               "candyCost": 25
             },
             {
               "evoId": 700,
+              "formId": 3062,
               "candyCost": 25,
               "questRequirement": [
                 {
@@ -9135,18 +9143,22 @@
       "evolutions": [
         {
           "evoId": 134,
+          "formId": 1095,
           "candyCost": 25
         },
         {
           "evoId": 135,
+          "formId": 1098,
           "candyCost": 25
         },
         {
           "evoId": 136,
+          "formId": 1101,
           "candyCost": 25
         },
         {
           "evoId": 196,
+          "formId": 1232,
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyDaytime": true,
@@ -9159,6 +9171,7 @@
         },
         {
           "evoId": 197,
+          "formId": 1235,
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyNighttime": true,
@@ -9171,14 +9184,17 @@
         },
         {
           "evoId": 470,
+          "formId": 1832,
           "candyCost": 25
         },
         {
           "evoId": 471,
+          "formId": 1835,
           "candyCost": 25
         },
         {
           "evoId": 700,
+          "formId": 3062,
           "candyCost": 25,
           "questRequirement": [
             {
@@ -53610,6 +53626,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 1,
       "buddyDistance": 1,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,

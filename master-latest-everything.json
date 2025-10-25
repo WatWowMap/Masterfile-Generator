@@ -17077,22 +17077,22 @@
           "evolutions": {
             "134": {
               "pokemon": 134,
-              "form": 0,
+              "form": 1095,
               "candyCost": 25
             },
             "135": {
               "pokemon": 135,
-              "form": 0,
+              "form": 1098,
               "candyCost": 25
             },
             "136": {
               "pokemon": 136,
-              "form": 0,
+              "form": 1101,
               "candyCost": 25
             },
             "196": {
               "pokemon": 196,
-              "form": 0,
+              "form": 1232,
               "candyCost": 25,
               "mustBeBuddy": true,
               "onlyDaytime": true,
@@ -17106,7 +17106,7 @@
             },
             "197": {
               "pokemon": 197,
-              "form": 0,
+              "form": 1235,
               "candyCost": 25,
               "mustBeBuddy": true,
               "onlyNighttime": true,
@@ -17120,17 +17120,17 @@
             },
             "470": {
               "pokemon": 470,
-              "form": 0,
+              "form": 1832,
               "candyCost": 25
             },
             "471": {
               "pokemon": 471,
-              "form": 0,
+              "form": 1835,
               "candyCost": 25
             },
             "700": {
               "pokemon": 700,
-              "form": 0,
+              "form": 3062,
               "candyCost": 25,
               "questRequirement": {
                 "questType": 34,
@@ -17178,22 +17178,22 @@
       "evolutions": {
         "134": {
           "pokemon": 134,
-          "form": 0,
+          "form": 1095,
           "candyCost": 25
         },
         "135": {
           "pokemon": 135,
-          "form": 0,
+          "form": 1098,
           "candyCost": 25
         },
         "136": {
           "pokemon": 136,
-          "form": 0,
+          "form": 1101,
           "candyCost": 25
         },
         "196": {
           "pokemon": 196,
-          "form": 0,
+          "form": 1232,
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyDaytime": true,
@@ -17207,7 +17207,7 @@
         },
         "197": {
           "pokemon": 197,
-          "form": 0,
+          "form": 1235,
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyNighttime": true,
@@ -17221,17 +17221,17 @@
         },
         "470": {
           "pokemon": 470,
-          "form": 0,
+          "form": 1832,
           "candyCost": 25
         },
         "471": {
           "pokemon": 471,
-          "form": 0,
+          "form": 1835,
           "candyCost": 25
         },
         "700": {
           "pokemon": 700,
-          "form": 0,
+          "form": 3062,
           "candyCost": 25,
           "questRequirement": {
             "questType": 34,
@@ -104254,6 +104254,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 1,
         "buddyDistance": 1,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -118812,6 +118813,7 @@
       "formName": "Normal",
       "proto": "BUTTERFREE_NORMAL",
       "formId": 959,
+      "gmaxMove": 428,
       "purificationDust": 1000,
       "purificationCandy": 1
     },
@@ -119309,22 +119311,22 @@
       "evolutions": [
         {
           "evoId": 134,
-          "formId": 0,
+          "formId": 1095,
           "candyCost": 25
         },
         {
           "evoId": 135,
-          "formId": 0,
+          "formId": 1098,
           "candyCost": 25
         },
         {
           "evoId": 136,
-          "formId": 0,
+          "formId": 1101,
           "candyCost": 25
         },
         {
           "evoId": 196,
-          "formId": 0,
+          "formId": 1232,
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyDaytime": true,
@@ -119332,7 +119334,7 @@
         },
         {
           "evoId": 197,
-          "formId": 0,
+          "formId": 1235,
           "candyCost": 25,
           "mustBeBuddy": true,
           "onlyNighttime": true,
@@ -119340,17 +119342,17 @@
         },
         {
           "evoId": 470,
-          "formId": 0,
+          "formId": 1832,
           "candyCost": 25
         },
         {
           "evoId": 471,
-          "formId": 0,
+          "formId": 1835,
           "candyCost": 25
         },
         {
           "evoId": 700,
-          "formId": 0,
+          "formId": 3062,
           "candyCost": 25,
           "questRequirement": "SYLVEON_EVOLUTION_QUEST"
         }
@@ -123535,7 +123537,8 @@
     "2326": {
       "formName": "Normal",
       "proto": "RILLABOOM_NORMAL",
-      "formId": 2326
+      "formId": 2326,
+      "gmaxMove": 455
     },
     "2327": {
       "formName": "Spring 2020",
@@ -128367,7 +128370,8 @@
     "3016": {
       "formName": "Normal",
       "proto": "CINDERACE_NORMAL",
-      "formId": 3016
+      "formId": 3016,
+      "gmaxMove": 456
     },
     "3017": {
       "formName": "Wcs 2025",
@@ -129695,7 +129699,8 @@
     "3157": {
       "formName": "Normal",
       "proto": "INTELEON_NORMAL",
-      "formId": 3157
+      "formId": 3157,
+      "gmaxMove": 457
     },
     "3158": {
       "formName": "Normal",
@@ -129741,7 +129746,8 @@
     "3162": {
       "formName": "Normal",
       "proto": "CORVIKNIGHT_NORMAL",
-      "formId": 3162
+      "formId": 3162,
+      "gmaxMove": 439
     },
     "3163": {
       "formName": "Normal",
@@ -129770,7 +129776,8 @@
     "3165": {
       "formName": "Normal",
       "proto": "ORBEETLE_NORMAL",
-      "formId": 3165
+      "formId": 3165,
+      "gmaxMove": 440
     },
     "3166": {
       "formName": "Normal",
@@ -129821,7 +129828,8 @@
     "3171": {
       "formName": "Normal",
       "proto": "DREDNAW_NORMAL",
-      "formId": 3171
+      "formId": 3171,
+      "gmaxMove": 441
     },
     "3172": {
       "formName": "Normal",
@@ -129867,7 +129875,8 @@
     "3176": {
       "formName": "Normal",
       "proto": "COALOSSAL_NORMAL",
-      "formId": 3176
+      "formId": 3176,
+      "gmaxMove": 442
     },
     "3177": {
       "formName": "Normal",
@@ -129897,12 +129906,14 @@
     "3178": {
       "formName": "Normal",
       "proto": "FLAPPLE_NORMAL",
-      "formId": 3178
+      "formId": 3178,
+      "gmaxMove": 443
     },
     "3179": {
       "formName": "Normal",
       "proto": "APPLETUN_NORMAL",
-      "formId": 3179
+      "formId": 3179,
+      "gmaxMove": 444
     },
     "3180": {
       "formName": "Normal",
@@ -129919,7 +129930,8 @@
     "3181": {
       "formName": "Normal",
       "proto": "SANDACONDA_NORMAL",
-      "formId": 3181
+      "formId": 3181,
+      "gmaxMove": 445
     },
     "3182": {
       "formName": "Normal",
@@ -129975,7 +129987,8 @@
     "3187": {
       "formName": "Normal",
       "proto": "CENTISKORCH_NORMAL",
-      "formId": 3187
+      "formId": 3187,
+      "gmaxMove": 447
     },
     "3188": {
       "formName": "Normal",
@@ -130021,7 +130034,8 @@
     "3192": {
       "formName": "Normal",
       "proto": "HATTERENE_NORMAL",
-      "formId": 3192
+      "formId": 3192,
+      "gmaxMove": 448
     },
     "3193": {
       "formName": "Normal",
@@ -130050,7 +130064,8 @@
     "3195": {
       "formName": "Normal",
       "proto": "GRIMMSNARL_NORMAL",
-      "formId": 3195
+      "formId": 3195,
+      "gmaxMove": 449
     },
     "3196": {
       "formName": "Normal",
@@ -130067,7 +130082,8 @@
     "3197": {
       "formName": "Normal",
       "proto": "ALCREMIE_NORMAL",
-      "formId": 3197
+      "formId": 3197,
+      "gmaxMove": 450
     },
     "3198": {
       "formName": "Normal",
@@ -130113,7 +130129,8 @@
     "3203": {
       "formName": "Normal",
       "proto": "COPPERAJAH_NORMAL",
-      "formId": 3203
+      "formId": 3203,
+      "gmaxMove": 451
     },
     "3204": {
       "formName": "Normal",
@@ -130138,7 +130155,8 @@
     "3208": {
       "formName": "Normal",
       "proto": "DURALUDON_NORMAL",
-      "formId": 3208
+      "formId": 3208,
+      "gmaxMove": 452
     },
     "3209": {
       "formName": "Normal",
