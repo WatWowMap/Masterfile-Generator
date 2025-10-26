@@ -1,7 +1,20 @@
 {
+  "globalOptions": {
+    "snake_case": false
+  },
   "pokemon": {
     "enabled": true,
-    "template": "pokemonName"
+    "options": {
+      "keys": {
+        "main": "pokedexId",
+        "forms": false,
+        "tempEvolutions": false
+      }
+    },
+    "template": {
+      "pokemonName": true,
+      "defaultFormId": true
+    }
   },
   "locationCards": {
     "enabled": true,
