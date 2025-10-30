@@ -104289,6 +104289,13 @@
           "type": 7,
           "power": 5
         },
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
+        },
         "243": {
           "moveId": 243,
           "moveName": "Counter",
@@ -140410,6 +140417,13 @@
       "proto": "LC_POKELID_OKINAWA",
       "formatted": "Pokelid Okinawa",
       "imageUrl": "lc_pokelid_okinawa"
+    },
+    "211": {
+      "id": 211,
+      "proto": "LC_SPECIALBACKGROUND_OBSERVATORY_EXHIBITION_TOUR",
+      "formatted": "Observatory Exhibition Tour",
+      "imageUrl": "sb_ObservatoryExhibitionTour",
+      "cardType": "SPECIAL_BACKGROUND"
     }
   },
   "routeTypes": {
