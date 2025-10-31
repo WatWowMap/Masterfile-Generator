@@ -112988,7 +112988,7 @@
     "1011": {
       "name": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 0,
+      "defaultFormId": 3326,
       "types": {
         "12": {
           "typeId": 12,
@@ -113056,7 +113056,21 @@
         "3326": {
           "name": "Normal",
           "proto": "DIPPLIN_NORMAL",
-          "form": 3326
+          "form": 3326,
+          "evolutions": {
+            "1019": {
+              "pokemon": 1019,
+              "form": 3331,
+              "candyCost": 400,
+              "questRequirement": {
+                "questType": 4,
+                "target": 7,
+                "assetsRef": "quest_catch_type_dragon_plural",
+                "i18n": "Catch {{amount}} Dragon-type Pokémon",
+                "translated": "Catch 7 Dragon-type Pokémon"
+              }
+            }
+          }
         }
       },
       "stats": {
@@ -113766,7 +113780,7 @@
     "1019": {
       "name": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 0,
+      "defaultFormId": 3331,
       "types": {
         "12": {
           "typeId": 12,
@@ -131106,7 +131120,15 @@
     "3326": {
       "formName": "Normal",
       "proto": "DIPPLIN_NORMAL",
-      "formId": 3326
+      "formId": 3326,
+      "evolutions": [
+        {
+          "evoId": 1019,
+          "formId": 3331,
+          "candyCost": 400,
+          "questRequirement": "DIPPLIN_EVOLUTION_QUEST"
+        }
+      ]
     },
     "3327": {
       "formName": "Normal",
@@ -140526,6 +140548,12 @@
       "imageUrl": "sb_gowa2025_global",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_gowa"
+    },
+    "157": {
+      "id": 157,
+      "proto": "LC_2025_GOWA_NAGASAKI",
+      "formatted": "2025 Gowa Nagasaki",
+      "imageUrl": "lc_nagasaki2025"
     },
     "158": {
       "id": 158,

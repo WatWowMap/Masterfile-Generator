@@ -75279,7 +75279,7 @@
     "1011": {
       "pokemonName": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 0,
+      "defaultFormId": 3326,
       "types": [
         12,
         16
@@ -75299,7 +75299,6 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0,
         3326
       ],
       "sizeSettings": [
@@ -75835,7 +75834,7 @@
     "1019": {
       "pokemonName": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 0,
+      "defaultFormId": 3331,
       "types": [
         12,
         16
@@ -75855,7 +75854,6 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        0,
         3331
       ],
       "sizeSettings": [
@@ -93090,7 +93088,15 @@
     "3326": {
       "formName": "Normal",
       "proto": "DIPPLIN_NORMAL",
-      "formId": 3326
+      "formId": 3326,
+      "evolutions": [
+        {
+          "evoId": 1019,
+          "formId": 3331,
+          "candyCost": 400,
+          "questRequirement": "DIPPLIN_EVOLUTION_QUEST"
+        }
+      ]
     },
     "3327": {
       "formName": "Normal",

@@ -34781,7 +34781,7 @@
     "1011": {
       "name": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 0,
+      "defaultFormId": 3326,
       "types": [
         12,
         16
@@ -34799,8 +34799,8 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "3326": {
+          "name": "Normal"
         }
       },
       "height": 0.4,
@@ -35048,7 +35048,7 @@
     "1019": {
       "name": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 0,
+      "defaultFormId": 3331,
       "types": [
         12,
         16
@@ -35066,8 +35066,8 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset"
+        "3331": {
+          "name": "Normal"
         }
       },
       "height": 1.8,
@@ -39612,6 +39612,10 @@
       "proto": "LC_SPECIALBACKGROUND_2025_GOWA_GLOBAL",
       "formatted": "2025 Gowa Global",
       "cardType": "SPECIAL_BACKGROUND"
+    },
+    "157": {
+      "proto": "LC_2025_GOWA_NAGASAKI",
+      "formatted": "2025 Gowa Nagasaki"
     },
     "158": {
       "proto": "LC_JEJU_STAMP_RALLY",

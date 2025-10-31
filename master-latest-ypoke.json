@@ -58141,7 +58141,7 @@
     "1011": {
       "pokemonName": "Dipplin",
       "pokedexId": 1011,
-      "defaultFormId": 0,
+      "defaultFormId": 3326,
       "types": [
         "Grass",
         "Dragon"
@@ -58160,9 +58160,22 @@
       "eliteChargedMoves": [],
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3326": {
+          "formName": "Normal",
+          "formId": 3326,
+          "evolutions": [
+            {
+              "evoId": 1019,
+              "formId": 3331,
+              "candyCost": 400,
+              "questRequirement": [
+                {
+                  "questType": 4,
+                  "target": 7
+                }
+              ]
+            }
+          ]
         }
       },
       "stats": {
@@ -58540,7 +58553,7 @@
     "1019": {
       "pokemonName": "Hydrapple",
       "pokedexId": 1019,
-      "defaultFormId": 0,
+      "defaultFormId": 3331,
       "types": [
         "Grass",
         "Dragon"
@@ -58559,9 +58572,9 @@
       "eliteChargedMoves": [],
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "formName": "Unset",
-          "formId": 0
+        "3331": {
+          "formName": "Normal",
+          "formId": 3331
         }
       },
       "stats": {

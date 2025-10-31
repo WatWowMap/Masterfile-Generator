@@ -50509,7 +50509,7 @@
     "1011": {
       "name": "Dipplin",
       "pokedex_id": 1011,
-      "default_form_id": 0,
+      "default_form_id": 3326,
       "types": [
         "Grass",
         "Dragon"
@@ -50527,13 +50527,15 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3326": {
           "name": "Normal",
-          "proto": "DIPPLIN_NORMAL"
+          "proto": "DIPPLIN_NORMAL",
+          "evolutions": [
+            {
+              "pokemon": 1019,
+              "form": 3331
+            }
+          ]
         }
       },
       "attack": 173,
@@ -50865,7 +50867,7 @@
     "1019": {
       "name": "Hydrapple",
       "pokedex_id": 1019,
-      "default_form_id": 0,
+      "default_form_id": 3331,
       "types": [
         "Grass",
         "Dragon"
@@ -50883,10 +50885,6 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
-        },
         "3331": {
           "name": "Normal",
           "proto": "HYDRAPPLE_NORMAL"
