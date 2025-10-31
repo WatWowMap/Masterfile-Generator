@@ -2960,6 +2960,48 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_3322": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gotour 2026 C",
+        "id": 3322
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3323": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gotour 2026 C 02",
+        "id": 3323
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -65889,6 +65931,31 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
     },
+    "1009_3324": {
+      "name": "Walkingwake",
+      "id": 1009,
+      "types": [
+        {
+          "id": 11,
+          "name": "Water"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3324
+      },
+      "stats": {
+        "baseAttack": 233,
+        "baseDefense": 171,
+        "baseStamina": 203
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
     "1010_0": {
       "name": "Ironleaves",
       "id": 1010,
@@ -65905,6 +65972,31 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 236,
+        "baseDefense": 194,
+        "baseStamina": 189
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
+    "1010_3325": {
+      "name": "Ironleaves",
+      "id": 1010,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3325
       },
       "stats": {
         "baseAttack": 236,
@@ -65949,6 +66041,31 @@
           }
         }
       ]
+    },
+    "1011_3326": {
+      "name": "Dipplin",
+      "id": 1011,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3326
+      },
+      "stats": {
+        "baseAttack": 173,
+        "baseDefense": 184,
+        "baseStamina": 190
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
     },
     "1012_0": {
       "name": "Poltchageist",
@@ -66146,6 +66263,31 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
     },
+    "1014_3327": {
+      "name": "Okidogi",
+      "id": 1014,
+      "types": [
+        {
+          "id": 2,
+          "name": "Fighting"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3327
+      },
+      "stats": {
+        "baseAttack": 220,
+        "baseDefense": 191,
+        "baseStamina": 186
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
     "1015_0": {
       "name": "Munkidori",
       "id": 1015,
@@ -66171,6 +66313,31 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
     },
+    "1015_3328": {
+      "name": "Munkidori",
+      "id": 1015,
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3328
+      },
+      "stats": {
+        "baseAttack": 238,
+        "baseDefense": 157,
+        "baseStamina": 186
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
     "1016_0": {
       "name": "Fezandipiti",
       "id": 1016,
@@ -66187,6 +66354,31 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 169,
+        "baseDefense": 208,
+        "baseStamina": 186
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
+    "1016_3329": {
+      "name": "Fezandipiti",
+      "id": 1016,
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 18,
+          "name": "Fairy"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3329
       },
       "stats": {
         "baseAttack": 169,
@@ -66326,6 +66518,31 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
     },
+    "1018_3330": {
+      "name": "Archaludon",
+      "id": 1018,
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3330
+      },
+      "stats": {
+        "baseAttack": 250,
+        "baseDefense": 215,
+        "baseStamina": 207
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
     "1019_0": {
       "name": "Hydrapple",
       "id": 1019,
@@ -66342,6 +66559,31 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 216,
+        "baseDefense": 186,
+        "baseStamina": 235
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
+    "1019_3331": {
+      "name": "Hydrapple",
+      "id": 1019,
+      "types": [
+        {
+          "id": 12,
+          "name": "Grass"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3331
       },
       "stats": {
         "baseAttack": 216,
@@ -66376,6 +66618,31 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
     },
+    "1020_3332": {
+      "name": "Gougingfire",
+      "id": 1020,
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3332
+      },
+      "stats": {
+        "baseAttack": 205,
+        "baseDefense": 208,
+        "baseStamina": 213
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
     "1021_0": {
       "name": "Ragingbolt",
       "id": 1021,
@@ -66392,6 +66659,31 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 235,
+        "baseDefense": 165,
+        "baseStamina": 245
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
+    "1021_3333": {
+      "name": "Ragingbolt",
+      "id": 1021,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        },
+        {
+          "id": 16,
+          "name": "Dragon"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3333
       },
       "stats": {
         "baseAttack": 235,
@@ -66426,6 +66718,31 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100
     },
+    "1022_3334": {
+      "name": "Ironboulder",
+      "id": 1022,
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3334
+      },
+      "stats": {
+        "baseAttack": 227,
+        "baseDefense": 195,
+        "baseStamina": 189
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
     "1023_0": {
       "name": "Ironcrown",
       "id": 1023,
@@ -66442,6 +66759,31 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 221,
+        "baseDefense": 200,
+        "baseStamina": 189
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
+    "1023_3335": {
+      "name": "Ironcrown",
+      "id": 1023,
+      "types": [
+        {
+          "id": 9,
+          "name": "Steel"
+        },
+        {
+          "id": 14,
+          "name": "Psychic"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3335
       },
       "stats": {
         "baseAttack": 221,
@@ -66551,6 +66893,31 @@
       "form": {
         "name": "",
         "id": 0
+      },
+      "stats": {
+        "baseAttack": 164,
+        "baseDefense": 248,
+        "baseStamina": 186
+      },
+      "thirdMoveStardust": 100000,
+      "thirdMoveCandy": 100
+    },
+    "1025_3336": {
+      "name": "Pecharunt",
+      "id": 1025,
+      "types": [
+        {
+          "id": 4,
+          "name": "Poison"
+        },
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "form": {
+        "name": "Normal",
+        "id": 3336
       },
       "stats": {
         "baseAttack": 164,

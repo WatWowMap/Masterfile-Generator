@@ -1639,6 +1639,14 @@
           "name": "Wcs 2025",
           "proto": "PIKACHU_WCS_2025",
           "is_costume": true
+        },
+        "3322": {
+          "name": "Gotour 2026 C",
+          "proto": "PIKACHU_GOTOUR_2026_C"
+        },
+        "3323": {
+          "name": "Gotour 2026 C 02",
+          "proto": "PIKACHU_GOTOUR_2026_C_02"
         }
       },
       "attack": 112,
@@ -50433,7 +50441,7 @@
     "1009": {
       "name": "Walkingwake",
       "pokedex_id": 1009,
-      "default_form_id": 0,
+      "default_form_id": 3324,
       "types": [
         "Water",
         "Dragon"
@@ -50447,9 +50455,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3324": {
+          "name": "Normal",
+          "proto": "WALKINGWAKE_NORMAL"
         }
       },
       "attack": 233,
@@ -50467,7 +50475,7 @@
     "1010": {
       "name": "Ironleaves",
       "pokedex_id": 1010,
-      "default_form_id": 0,
+      "default_form_id": 3325,
       "types": [
         "Grass",
         "Psychic"
@@ -50481,9 +50489,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3325": {
+          "name": "Normal",
+          "proto": "IRONLEAVES_NORMAL"
         }
       },
       "attack": 236,
@@ -50522,6 +50530,10 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "3326": {
+          "name": "Normal",
+          "proto": "DIPPLIN_NORMAL"
         }
       },
       "attack": 173,
@@ -50651,7 +50663,7 @@
     "1014": {
       "name": "Okidogi",
       "pokedex_id": 1014,
-      "default_form_id": 0,
+      "default_form_id": 3327,
       "types": [
         "Fighting",
         "Poison"
@@ -50668,9 +50680,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3327": {
+          "name": "Normal",
+          "proto": "OKIDOGI_NORMAL"
         }
       },
       "attack": 220,
@@ -50688,7 +50700,7 @@
     "1015": {
       "name": "Munkidori",
       "pokedex_id": 1015,
-      "default_form_id": 0,
+      "default_form_id": 3328,
       "types": [
         "Poison",
         "Psychic"
@@ -50705,9 +50717,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3328": {
+          "name": "Normal",
+          "proto": "MUNKIDORI_NORMAL"
         }
       },
       "attack": 238,
@@ -50725,7 +50737,7 @@
     "1016": {
       "name": "Fezandipiti",
       "pokedex_id": 1016,
-      "default_form_id": 0,
+      "default_form_id": 3329,
       "types": [
         "Poison",
         "Fairy"
@@ -50742,9 +50754,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3329": {
+          "name": "Normal",
+          "proto": "FEZANDIPITI_NORMAL"
         }
       },
       "attack": 169,
@@ -50815,7 +50827,7 @@
     "1018": {
       "name": "Archaludon",
       "pokedex_id": 1018,
-      "default_form_id": 0,
+      "default_form_id": 3330,
       "types": [
         "Steel",
         "Dragon"
@@ -50832,9 +50844,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3330": {
+          "name": "Normal",
+          "proto": "ARCHALUDON_NORMAL"
         }
       },
       "attack": 250,
@@ -50874,6 +50886,10 @@
         "0": {
           "name": "Unset",
           "proto": "FORM_UNSET"
+        },
+        "3331": {
+          "name": "Normal",
+          "proto": "HYDRAPPLE_NORMAL"
         }
       },
       "attack": 216,
@@ -50893,7 +50909,7 @@
     "1020": {
       "name": "Gougingfire",
       "pokedex_id": 1020,
-      "default_form_id": 0,
+      "default_form_id": 3332,
       "types": [
         "Fire",
         "Dragon"
@@ -50907,9 +50923,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3332": {
+          "name": "Normal",
+          "proto": "GOUGINGFIRE_NORMAL"
         }
       },
       "attack": 205,
@@ -50927,7 +50943,7 @@
     "1021": {
       "name": "Ragingbolt",
       "pokedex_id": 1021,
-      "default_form_id": 0,
+      "default_form_id": 3333,
       "types": [
         "Electric",
         "Dragon"
@@ -50941,9 +50957,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3333": {
+          "name": "Normal",
+          "proto": "RAGINGBOLT_NORMAL"
         }
       },
       "attack": 235,
@@ -50961,7 +50977,7 @@
     "1022": {
       "name": "Ironboulder",
       "pokedex_id": 1022,
-      "default_form_id": 0,
+      "default_form_id": 3334,
       "types": [
         "Rock",
         "Psychic"
@@ -50975,9 +50991,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3334": {
+          "name": "Normal",
+          "proto": "IRONBOULDER_NORMAL"
         }
       },
       "attack": 227,
@@ -50995,7 +51011,7 @@
     "1023": {
       "name": "Ironcrown",
       "pokedex_id": 1023,
-      "default_form_id": 0,
+      "default_form_id": 3335,
       "types": [
         "Steel",
         "Psychic"
@@ -51009,9 +51025,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3335": {
+          "name": "Normal",
+          "proto": "IRONCROWN_NORMAL"
         }
       },
       "attack": 221,
@@ -51076,7 +51092,7 @@
     "1025": {
       "name": "Pecharunt",
       "pokedex_id": 1025,
-      "default_form_id": 0,
+      "default_form_id": 3336,
       "types": [
         "Poison",
         "Ghost"
@@ -51092,9 +51108,9 @@
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
-        "0": {
-          "name": "Unset",
-          "proto": "FORM_UNSET"
+        "3336": {
+          "name": "Normal",
+          "proto": "PECHARUNT_NORMAL"
         }
       },
       "attack": 164,
@@ -54781,6 +54797,10 @@
       "proto": "SECRET_SWORD",
       "type": "Fighting",
       "power": 120
+    },
+    "490": {
+      "name": "Beak Blast",
+      "proto": "BEAK_BLAST"
     }
   },
   "quest_types": {
