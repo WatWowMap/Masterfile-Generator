@@ -64236,6 +64236,23 @@
       "power": 120,
       "durationMs": 2000,
       "energyDelta": -50
+    },
+    "490": {
+      "id": 490,
+      "name": "Beak Blast",
+      "proto": "BEAK_BLAST",
+      "fast": false,
+      "type": "Flying",
+      "pvpPower": 110,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 125,
+      "durationMs": 2500,
+      "energyDelta": -50
     }
   },
   "questTypes": {
