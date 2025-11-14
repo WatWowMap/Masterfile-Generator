@@ -1,6 +1,10 @@
 {
   "pokemon": {
     "1": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "163": {
           "evolutions": [
@@ -30,6 +34,10 @@
       "little": true
     },
     "2": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "166": {
           "evolutions": [
@@ -57,6 +65,10 @@
       ]
     },
     "3": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "169": {
           "temp_evolutions": {
@@ -77,6 +89,9 @@
       }
     },
     "4": {
+      "types": [
+        10
+      ],
       "forms": {
         "172": {
           "evolutions": [
@@ -106,6 +121,9 @@
       "little": true
     },
     "5": {
+      "types": [
+        10
+      ],
       "forms": {
         "175": {
           "evolutions": [
@@ -133,6 +151,10 @@
       ]
     },
     "6": {
+      "types": [
+        3,
+        10
+      ],
       "forms": {
         "178": {
           "temp_evolutions": {
@@ -159,6 +181,9 @@
       }
     },
     "7": {
+      "types": [
+        11
+      ],
       "forms": {
         "181": {
           "evolutions": [
@@ -188,6 +213,9 @@
       "little": true
     },
     "8": {
+      "types": [
+        11
+      ],
       "forms": {
         "184": {
           "evolutions": [
@@ -215,6 +243,9 @@
       ]
     },
     "9": {
+      "types": [
+        11
+      ],
       "forms": {
         "187": {
           "temp_evolutions": {
@@ -237,6 +268,9 @@
       }
     },
     "10": {
+      "types": [
+        7
+      ],
       "forms": {
         "953": {
           "evolutions": [
@@ -259,6 +293,9 @@
       "little": true
     },
     "11": {
+      "types": [
+        7
+      ],
       "forms": {
         "956": {
           "evolutions": [
@@ -280,6 +317,10 @@
       ]
     },
     "12": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "959": {}
       },
@@ -288,6 +329,10 @@
       "stamina": 155
     },
     "13": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "616": {
           "evolutions": [
@@ -310,6 +355,10 @@
       "little": true
     },
     "14": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "619": {
           "evolutions": [
@@ -331,6 +380,10 @@
       ]
     },
     "15": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "622": {
           "temp_evolutions": {
@@ -350,6 +403,10 @@
       }
     },
     "16": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "962": {
           "evolutions": [
@@ -371,6 +428,10 @@
       "little": true
     },
     "17": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "965": {
           "evolutions": [
@@ -391,6 +452,10 @@
       ]
     },
     "18": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "968": {
           "temp_evolutions": {
@@ -410,6 +475,9 @@
       }
     },
     "19": {
+      "types": [
+        1
+      ],
       "forms": {
         "45": {
           "evolutions": [
@@ -420,6 +488,10 @@
           ]
         },
         "46": {
+          "types": [
+            1,
+            17
+          ],
           "evolutions": [
             {
               "pokemon": 20,
@@ -440,12 +512,19 @@
       "little": true
     },
     "20": {
+      "types": [
+        1
+      ],
       "forms": {
         "47": {},
         "48": {
           "attack": 135,
           "defense": 154,
-          "stamina": 181
+          "stamina": 181,
+          "types": [
+            1,
+            17
+          ]
         },
         "2329": {}
       },
@@ -454,6 +533,10 @@
       "stamina": 146
     },
     "21": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "971": {
           "evolutions": [
@@ -475,6 +558,10 @@
       "little": true
     },
     "22": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "974": {}
       },
@@ -483,6 +570,9 @@
       "stamina": 163
     },
     "23": {
+      "types": [
+        4
+      ],
       "forms": {
         "697": {
           "evolutions": [
@@ -505,6 +595,9 @@
       "little": true
     },
     "24": {
+      "types": [
+        4
+      ],
       "forms": {
         "700": {}
       },
@@ -513,6 +606,9 @@
       "stamina": 155
     },
     "25": {
+      "types": [
+        13
+      ],
       "forms": {
         "598": {
           "evolutions": [
@@ -599,12 +695,19 @@
       ]
     },
     "26": {
+      "types": [
+        13
+      ],
       "forms": {
         "49": {},
         "50": {
           "attack": 201,
           "defense": 154,
-          "stamina": 155
+          "stamina": 155,
+          "types": [
+            13,
+            14
+          ]
         }
       },
       "attack": 193,
@@ -612,6 +715,9 @@
       "stamina": 155
     },
     "27": {
+      "types": [
+        5
+      ],
       "forms": {
         "51": {
           "evolutions": [
@@ -625,6 +731,10 @@
           "attack": 125,
           "defense": 129,
           "stamina": 137,
+          "types": [
+            9,
+            15
+          ],
           "evolutions": [
             {
               "pokemon": 28,
@@ -645,12 +755,19 @@
       "little": true
     },
     "28": {
+      "types": [
+        5
+      ],
       "forms": {
         "53": {},
         "54": {
           "attack": 177,
           "defense": 195,
-          "stamina": 181
+          "stamina": 181,
+          "types": [
+            9,
+            15
+          ]
         }
       },
       "attack": 182,
@@ -658,6 +775,9 @@
       "stamina": 181
     },
     "29": {
+      "types": [
+        4
+      ],
       "forms": {
         "776": {
           "evolutions": [
@@ -680,6 +800,9 @@
       "little": true
     },
     "30": {
+      "types": [
+        4
+      ],
       "forms": {
         "779": {
           "evolutions": [
@@ -701,6 +824,10 @@
       ]
     },
     "31": {
+      "types": [
+        4,
+        5
+      ],
       "forms": {
         "782": {}
       },
@@ -709,6 +836,9 @@
       "stamina": 207
     },
     "32": {
+      "types": [
+        4
+      ],
       "forms": {
         "776": {
           "evolutions": [
@@ -731,6 +861,9 @@
       "little": true
     },
     "33": {
+      "types": [
+        4
+      ],
       "forms": {
         "785": {
           "evolutions": [
@@ -752,6 +885,10 @@
       ]
     },
     "34": {
+      "types": [
+        4,
+        5
+      ],
       "forms": {
         "788": {}
       },
@@ -760,6 +897,9 @@
       "stamina": 191
     },
     "35": {
+      "types": [
+        18
+      ],
       "forms": {
         "981": {
           "evolutions": [
@@ -780,6 +920,9 @@
       ]
     },
     "36": {
+      "types": [
+        18
+      ],
       "forms": {
         "984": {
           "temp_evolutions": {
@@ -800,6 +943,9 @@
       }
     },
     "37": {
+      "types": [
+        10
+      ],
       "forms": {
         "55": {
           "evolutions": [
@@ -810,6 +956,9 @@
           ]
         },
         "56": {
+          "types": [
+            15
+          ],
           "evolutions": [
             {
               "pokemon": 38,
@@ -830,12 +979,19 @@
       "little": true
     },
     "38": {
+      "types": [
+        10
+      ],
       "forms": {
         "57": {},
         "58": {
           "attack": 170,
           "defense": 193,
-          "stamina": 177
+          "stamina": 177,
+          "types": [
+            15,
+            18
+          ]
         }
       },
       "attack": 169,
@@ -843,6 +999,10 @@
       "stamina": 177
     },
     "39": {
+      "types": [
+        1,
+        18
+      ],
       "forms": {
         "987": {
           "evolutions": [
@@ -863,6 +1023,10 @@
       ]
     },
     "40": {
+      "types": [
+        1,
+        18
+      ],
       "forms": {
         "990": {}
       },
@@ -871,6 +1035,10 @@
       "stamina": 295
     },
     "41": {
+      "types": [
+        3,
+        4
+      ],
       "forms": {
         "157": {
           "evolutions": [
@@ -893,6 +1061,10 @@
       "little": true
     },
     "42": {
+      "types": [
+        3,
+        4
+      ],
       "forms": {
         "160": {
           "evolutions": [
@@ -914,6 +1086,10 @@
       ]
     },
     "43": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "265": {
           "evolutions": [
@@ -936,6 +1112,10 @@
       "little": true
     },
     "44": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "268": {
           "evolutions": [
@@ -965,6 +1145,10 @@
       ]
     },
     "45": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "271": {}
       },
@@ -973,6 +1157,10 @@
       "stamina": 181
     },
     "46": {
+      "types": [
+        7,
+        12
+      ],
       "forms": {
         "993": {
           "evolutions": [
@@ -994,6 +1182,10 @@
       "little": true
     },
     "47": {
+      "types": [
+        7,
+        12
+      ],
       "forms": {
         "996": {}
       },
@@ -1002,6 +1194,10 @@
       "stamina": 155
     },
     "48": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "259": {
           "evolutions": [
@@ -1024,6 +1220,10 @@
       "little": true
     },
     "49": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "262": {}
       },
@@ -1032,6 +1232,9 @@
       "stamina": 172
     },
     "50": {
+      "types": [
+        5
+      ],
       "forms": {
         "59": {
           "evolutions": [
@@ -1048,6 +1251,10 @@
           "attack": 108,
           "defense": 81,
           "stamina": 67,
+          "types": [
+            5,
+            9
+          ],
           "evolutions": [
             {
               "pokemon": 51,
@@ -1071,6 +1278,9 @@
       "little": true
     },
     "51": {
+      "types": [
+        5
+      ],
       "forms": {
         "61": {
           "attack": 167,
@@ -1080,7 +1290,11 @@
         "62": {
           "attack": 201,
           "defense": 142,
-          "stamina": 111
+          "stamina": 111,
+          "types": [
+            5,
+            9
+          ]
         }
       },
       "attack": 167,
@@ -1088,6 +1302,9 @@
       "stamina": 111
     },
     "52": {
+      "types": [
+        1
+      ],
       "forms": {
         "63": {
           "evolutions": [
@@ -1101,6 +1318,9 @@
           "attack": 99,
           "defense": 78,
           "stamina": 120,
+          "types": [
+            17
+          ],
           "evolutions": [
             {
               "pokemon": 53,
@@ -1112,6 +1332,9 @@
           "attack": 115,
           "defense": 92,
           "stamina": 137,
+          "types": [
+            9
+          ],
           "evolutions": [
             {
               "pokemon": 863,
@@ -1132,12 +1355,18 @@
       "little": true
     },
     "53": {
+      "types": [
+        1
+      ],
       "forms": {
         "65": {},
         "66": {
           "attack": 158,
           "defense": 136,
-          "stamina": 163
+          "stamina": 163,
+          "types": [
+            17
+          ]
         }
       },
       "attack": 150,
@@ -1145,6 +1374,9 @@
       "stamina": 163
     },
     "54": {
+      "types": [
+        11
+      ],
       "forms": {
         "286": {
           "evolutions": [
@@ -1168,6 +1400,9 @@
       "little": true
     },
     "55": {
+      "types": [
+        11
+      ],
       "forms": {
         "289": {}
       },
@@ -1176,6 +1411,9 @@
       "stamina": 190
     },
     "56": {
+      "types": [
+        2
+      ],
       "forms": {
         "999": {
           "evolutions": [
@@ -1197,6 +1435,9 @@
       "little": true
     },
     "57": {
+      "types": [
+        2
+      ],
       "forms": {
         "1002": {
           "evolutions": [
@@ -1217,6 +1458,9 @@
       ]
     },
     "58": {
+      "types": [
+        10
+      ],
       "forms": {
         "280": {
           "evolutions": [
@@ -1230,6 +1474,10 @@
           "attack": 142,
           "defense": 92,
           "stamina": 155,
+          "types": [
+            6,
+            10
+          ],
           "evolutions": [
             {
               "pokemon": 59,
@@ -1250,12 +1498,19 @@
       "little": true
     },
     "59": {
+      "types": [
+        10
+      ],
       "forms": {
         "283": {},
         "2793": {
           "attack": 232,
           "defense": 165,
-          "stamina": 216
+          "stamina": 216,
+          "types": [
+            6,
+            10
+          ]
         }
       },
       "attack": 227,
@@ -1263,6 +1518,9 @@
       "stamina": 207
     },
     "60": {
+      "types": [
+        11
+      ],
       "forms": {
         "235": {
           "evolutions": [
@@ -1285,6 +1543,9 @@
       "little": true
     },
     "61": {
+      "types": [
+        11
+      ],
       "forms": {
         "238": {
           "evolutions": [
@@ -1314,6 +1575,10 @@
       ]
     },
     "62": {
+      "types": [
+        2,
+        11
+      ],
       "forms": {
         "241": {}
       },
@@ -1322,6 +1587,9 @@
       "stamina": 207
     },
     "63": {
+      "types": [
+        14
+      ],
       "forms": {
         "304": {
           "evolutions": [
@@ -1344,6 +1612,9 @@
       "little": true
     },
     "64": {
+      "types": [
+        14
+      ],
       "forms": {
         "307": {
           "evolutions": [
@@ -1365,6 +1636,9 @@
       ]
     },
     "65": {
+      "types": [
+        14
+      ],
       "forms": {
         "310": {
           "temp_evolutions": {
@@ -1384,6 +1658,9 @@
       }
     },
     "66": {
+      "types": [
+        2
+      ],
       "forms": {
         "809": {
           "evolutions": [
@@ -1406,6 +1683,9 @@
       "little": true
     },
     "67": {
+      "types": [
+        2
+      ],
       "forms": {
         "812": {
           "evolutions": [
@@ -1427,6 +1707,9 @@
       ]
     },
     "68": {
+      "types": [
+        2
+      ],
       "forms": {
         "815": {}
       },
@@ -1435,6 +1718,10 @@
       "stamina": 207
     },
     "69": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "664": {
           "evolutions": [
@@ -1457,6 +1744,10 @@
       "little": true
     },
     "70": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "667": {
           "evolutions": [
@@ -1478,6 +1769,10 @@
       ]
     },
     "71": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "670": {
           "temp_evolutions": {
@@ -1498,6 +1793,10 @@
       }
     },
     "72": {
+      "types": [
+        4,
+        11
+      ],
       "forms": {
         "1005": {
           "evolutions": [
@@ -1519,6 +1818,10 @@
       "little": true
     },
     "73": {
+      "types": [
+        4,
+        11
+      ],
       "forms": {
         "1008": {}
       },
@@ -1527,6 +1830,10 @@
       "stamina": 190
     },
     "74": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "67": {
           "evolutions": [
@@ -1537,6 +1844,10 @@
           ]
         },
         "68": {
+          "types": [
+            6,
+            13
+          ],
           "evolutions": [
             {
               "pokemon": 75,
@@ -1557,6 +1868,10 @@
       "little": true
     },
     "75": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "69": {
           "evolutions": [
@@ -1567,6 +1882,10 @@
           ]
         },
         "70": {
+          "types": [
+            6,
+            13
+          ],
           "evolutions": [
             {
               "pokemon": 76,
@@ -1586,15 +1905,27 @@
       ]
     },
     "76": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "71": {},
-        "72": {}
+        "72": {
+          "types": [
+            6,
+            13
+          ]
+        }
       },
       "attack": 211,
       "defense": 198,
       "stamina": 190
     },
     "77": {
+      "types": [
+        10
+      ],
       "forms": {
         "1011": {
           "evolutions": [
@@ -1605,6 +1936,9 @@
           ]
         },
         "2336": {
+          "types": [
+            14
+          ],
           "evolutions": [
             {
               "pokemon": 78,
@@ -1625,15 +1959,27 @@
       "little": true
     },
     "78": {
+      "types": [
+        10
+      ],
       "forms": {
         "1014": {},
-        "2337": {}
+        "2337": {
+          "types": [
+            14,
+            18
+          ]
+        }
       },
       "attack": 207,
       "defense": 162,
       "stamina": 163
     },
     "79": {
+      "types": [
+        11,
+        14
+      ],
       "forms": {
         "1017": {
           "evolutions": [
@@ -1648,6 +1994,9 @@
           ]
         },
         "2582": {
+          "types": [
+            14
+          ],
           "evolutions": [
             {
               "pokemon": 80,
@@ -1688,6 +2037,10 @@
       "little": true
     },
     "80": {
+      "types": [
+        11,
+        14
+      ],
       "forms": {
         "1020": {
           "temp_evolutions": {
@@ -1697,7 +2050,11 @@
         "2583": {
           "attack": 182,
           "defense": 156,
-          "stamina": 216
+          "stamina": 216,
+          "types": [
+            4,
+            14
+          ]
         },
         "2674": {
           "temp_evolutions": {
@@ -1717,6 +2074,10 @@
       }
     },
     "81": {
+      "types": [
+        9,
+        13
+      ],
       "forms": {
         "655": {
           "evolutions": [
@@ -1739,6 +2100,10 @@
       "little": true
     },
     "82": {
+      "types": [
+        9,
+        13
+      ],
       "forms": {
         "658": {
           "evolutions": [
@@ -1759,12 +2124,19 @@
       ]
     },
     "83": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1023": {},
         "2338": {
           "attack": 174,
           "defense": 114,
           "stamina": 141,
+          "types": [
+            2
+          ],
           "evolutions": [
             {
               "pokemon": 865,
@@ -1779,6 +2151,10 @@
       "stamina": 141
     },
     "84": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1026": {
           "evolutions": [
@@ -1800,6 +2176,10 @@
       "little": true
     },
     "85": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1029": {}
       },
@@ -1808,6 +2188,9 @@
       "stamina": 155
     },
     "86": {
+      "types": [
+        11
+      ],
       "forms": {
         "1032": {
           "evolutions": [
@@ -1829,6 +2212,10 @@
       "little": true
     },
     "87": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "1035": {}
       },
@@ -1837,6 +2224,9 @@
       "stamina": 207
     },
     "88": {
+      "types": [
+        4
+      ],
       "forms": {
         "73": {
           "evolutions": [
@@ -1847,6 +2237,10 @@
           ]
         },
         "74": {
+          "types": [
+            4,
+            17
+          ],
           "evolutions": [
             {
               "pokemon": 89,
@@ -1867,15 +2261,26 @@
       "little": true
     },
     "89": {
+      "types": [
+        4
+      ],
       "forms": {
         "75": {},
-        "76": {}
+        "76": {
+          "types": [
+            4,
+            17
+          ]
+        }
       },
       "attack": 190,
       "defense": 172,
       "stamina": 233
     },
     "90": {
+      "types": [
+        11
+      ],
       "forms": {
         "876": {
           "evolutions": [
@@ -1898,6 +2303,10 @@
       "little": true
     },
     "91": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "879": {}
       },
@@ -1906,6 +2315,10 @@
       "stamina": 137
     },
     "92": {
+      "types": [
+        4,
+        8
+      ],
       "forms": {
         "1038": {
           "evolutions": [
@@ -1928,6 +2341,10 @@
       "little": true
     },
     "93": {
+      "types": [
+        4,
+        8
+      ],
       "forms": {
         "1041": {
           "evolutions": [
@@ -1949,6 +2366,10 @@
       ]
     },
     "94": {
+      "types": [
+        4,
+        8
+      ],
       "forms": {
         "1044": {
           "temp_evolutions": {
@@ -1973,6 +2394,10 @@
       }
     },
     "95": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "902": {
           "evolutions": [
@@ -1996,6 +2421,9 @@
       "little": true
     },
     "96": {
+      "types": [
+        14
+      ],
       "forms": {
         "214": {
           "evolutions": [
@@ -2018,6 +2446,9 @@
       "little": true
     },
     "97": {
+      "types": [
+        14
+      ],
       "forms": {
         "217": {}
       },
@@ -2026,6 +2457,9 @@
       "stamina": 198
     },
     "98": {
+      "types": [
+        11
+      ],
       "forms": {
         "870": {
           "evolutions": [
@@ -2048,6 +2482,9 @@
       "little": true
     },
     "99": {
+      "types": [
+        11
+      ],
       "forms": {
         "873": {}
       },
@@ -2056,6 +2493,9 @@
       "stamina": 146
     },
     "100": {
+      "types": [
+        13
+      ],
       "forms": {
         "1047": {
           "evolutions": [
@@ -2066,6 +2506,10 @@
           ]
         },
         "2728": {
+          "types": [
+            12,
+            13
+          ],
           "evolutions": [
             {
               "pokemon": 101,
@@ -2085,12 +2529,19 @@
       "little": true
     },
     "101": {
+      "types": [
+        13
+      ],
       "forms": {
         "1050": {},
         "2735": {
           "attack": 176,
           "defense": 176,
-          "stamina": 155
+          "stamina": 155,
+          "types": [
+            12,
+            13
+          ]
         }
       },
       "attack": 173,
@@ -2098,6 +2549,10 @@
       "stamina": 155
     },
     "102": {
+      "types": [
+        12,
+        14
+      ],
       "forms": {
         "729": {
           "evolutions": [
@@ -2128,12 +2583,20 @@
       "little": true
     },
     "103": {
+      "types": [
+        12,
+        14
+      ],
       "forms": {
         "77": {},
         "78": {
           "attack": 230,
           "defense": 153,
-          "stamina": 216
+          "stamina": 216,
+          "types": [
+            12,
+            16
+          ]
         }
       },
       "attack": 233,
@@ -2141,6 +2604,9 @@
       "stamina": 216
     },
     "104": {
+      "types": [
+        5
+      ],
       "forms": {
         "224": {
           "evolutions": [
@@ -2171,15 +2637,26 @@
       "little": true
     },
     "105": {
+      "types": [
+        5
+      ],
       "forms": {
         "79": {},
-        "80": {}
+        "80": {
+          "types": [
+            8,
+            10
+          ]
+        }
       },
       "attack": 144,
       "defense": 186,
       "stamina": 155
     },
     "106": {
+      "types": [
+        2
+      ],
       "forms": {
         "713": {}
       },
@@ -2188,6 +2665,9 @@
       "stamina": 137
     },
     "107": {
+      "types": [
+        2
+      ],
       "forms": {
         "277": {}
       },
@@ -2196,6 +2676,9 @@
       "stamina": 137
     },
     "108": {
+      "types": [
+        1
+      ],
       "forms": {
         "1053": {
           "evolutions": [
@@ -2217,6 +2700,9 @@
       "little": true
     },
     "109": {
+      "types": [
+        4
+      ],
       "forms": {
         "703": {
           "evolutions": [
@@ -2247,15 +2733,27 @@
       "little": true
     },
     "110": {
+      "types": [
+        4
+      ],
       "forms": {
         "706": {},
-        "944": {}
+        "944": {
+          "types": [
+            4,
+            18
+          ]
+        }
       },
       "attack": 174,
       "defense": 197,
       "stamina": 163
     },
     "111": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "846": {
           "evolutions": [
@@ -2278,6 +2776,10 @@
       "little": true
     },
     "112": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "849": {
           "evolutions": [
@@ -2299,6 +2801,9 @@
       ]
     },
     "113": {
+      "types": [
+        1
+      ],
       "forms": {
         "1056": {
           "evolutions": [
@@ -2320,6 +2825,9 @@
       ]
     },
     "114": {
+      "types": [
+        12
+      ],
       "forms": {
         "1059": {
           "evolutions": [
@@ -2342,6 +2850,9 @@
       "little": true
     },
     "115": {
+      "types": [
+        1
+      ],
       "forms": {
         "839": {
           "temp_evolutions": {
@@ -2361,6 +2872,9 @@
       }
     },
     "116": {
+      "types": [
+        11
+      ],
       "forms": {
         "1062": {
           "evolutions": [
@@ -2383,6 +2897,9 @@
       "little": true
     },
     "117": {
+      "types": [
+        11
+      ],
       "forms": {
         "1065": {
           "evolutions": [
@@ -2404,6 +2921,9 @@
       ]
     },
     "118": {
+      "types": [
+        11
+      ],
       "forms": {
         "1068": {
           "evolutions": [
@@ -2425,6 +2945,9 @@
       "little": true
     },
     "119": {
+      "types": [
+        11
+      ],
       "forms": {
         "1071": {}
       },
@@ -2433,6 +2956,9 @@
       "stamina": 190
     },
     "120": {
+      "types": [
+        11
+      ],
       "forms": {
         "1074": {
           "evolutions": [
@@ -2454,6 +2980,10 @@
       "little": true
     },
     "121": {
+      "types": [
+        11,
+        14
+      ],
       "forms": {
         "1077": {
           "temp_evolutions": {
@@ -2474,12 +3004,20 @@
       }
     },
     "122": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "1080": {},
         "2339": {
           "attack": 183,
           "defense": 169,
           "stamina": 137,
+          "types": [
+            14,
+            15
+          ],
           "evolutions": [
             {
               "pokemon": 866,
@@ -2493,6 +3031,10 @@
       "stamina": 120
     },
     "123": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "247": {
           "evolutions": [
@@ -2521,6 +3063,10 @@
       "little": true
     },
     "124": {
+      "types": [
+        14,
+        15
+      ],
       "forms": {
         "1083": {}
       },
@@ -2529,6 +3075,9 @@
       "stamina": 163
     },
     "125": {
+      "types": [
+        13
+      ],
       "forms": {
         "640": {
           "evolutions": [
@@ -2550,6 +3099,9 @@
       ]
     },
     "126": {
+      "types": [
+        10
+      ],
       "forms": {
         "634": {
           "evolutions": [
@@ -2571,6 +3123,9 @@
       ]
     },
     "127": {
+      "types": [
+        7
+      ],
       "forms": {
         "898": {
           "temp_evolutions": {
@@ -2590,22 +3145,36 @@
       }
     },
     "128": {
+      "types": [
+        1
+      ],
       "forms": {
         "1086": {},
         "3006": {
           "attack": 210,
           "defense": 193,
-          "stamina": 181
+          "stamina": 181,
+          "types": [
+            2
+          ]
         },
         "3007": {
           "attack": 210,
           "defense": 193,
-          "stamina": 181
+          "stamina": 181,
+          "types": [
+            2,
+            10
+          ]
         },
         "3008": {
           "attack": 210,
           "defense": 193,
-          "stamina": 181
+          "stamina": 181,
+          "types": [
+            2,
+            11
+          ]
         }
       },
       "attack": 198,
@@ -2613,6 +3182,9 @@
       "stamina": 181
     },
     "129": {
+      "types": [
+        11
+      ],
       "forms": {
         "253": {
           "evolutions": [
@@ -2635,6 +3207,10 @@
       "little": true
     },
     "130": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "256": {
           "temp_evolutions": {
@@ -2654,6 +3230,10 @@
       }
     },
     "131": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "322": {},
         "2585": {}
@@ -2663,6 +3243,9 @@
       "stamina": 277
     },
     "132": {
+      "types": [
+        1
+      ],
       "forms": {
         "1089": {}
       },
@@ -2671,6 +3254,9 @@
       "stamina": 134
     },
     "133": {
+      "types": [
+        1
+      ],
       "forms": {
         "1092": {
           "evolutions": [
@@ -2751,6 +3337,9 @@
       "little": true
     },
     "134": {
+      "types": [
+        11
+      ],
       "forms": {
         "1095": {}
       },
@@ -2759,6 +3348,9 @@
       "stamina": 277
     },
     "135": {
+      "types": [
+        13
+      ],
       "forms": {
         "1098": {}
       },
@@ -2767,6 +3359,9 @@
       "stamina": 163
     },
     "136": {
+      "types": [
+        10
+      ],
       "forms": {
         "1101": {}
       },
@@ -2775,6 +3370,9 @@
       "stamina": 163
     },
     "137": {
+      "types": [
+        1
+      ],
       "forms": {
         "677": {
           "evolutions": [
@@ -2797,6 +3395,10 @@
       "little": true
     },
     "138": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "740": {
           "evolutions": [
@@ -2819,6 +3421,10 @@
       "little": true
     },
     "139": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "743": {}
       },
@@ -2827,6 +3433,10 @@
       "stamina": 172
     },
     "140": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "1104": {
           "evolutions": [
@@ -2849,6 +3459,10 @@
       "little": true
     },
     "141": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "1107": {}
       },
@@ -2857,6 +3471,10 @@
       "stamina": 155
     },
     "142": {
+      "types": [
+        3,
+        6
+      ],
       "forms": {
         "1110": {
           "temp_evolutions": {
@@ -2881,6 +3499,9 @@
       }
     },
     "143": {
+      "types": [
+        1
+      ],
       "forms": {
         "199": {},
         "2849": {}
@@ -2890,12 +3511,20 @@
       "stamina": 330
     },
     "144": {
+      "types": [
+        3,
+        15
+      ],
       "forms": {
         "716": {},
         "2801": {
           "attack": 250,
           "defense": 197,
-          "stamina": 207
+          "stamina": 207,
+          "types": [
+            3,
+            14
+          ]
         }
       },
       "attack": 192,
@@ -2903,12 +3532,20 @@
       "stamina": 207
     },
     "145": {
+      "types": [
+        3,
+        13
+      ],
       "forms": {
         "773": {},
         "2800": {
           "attack": 252,
           "defense": 189,
-          "stamina": 207
+          "stamina": 207,
+          "types": [
+            2,
+            3
+          ]
         }
       },
       "attack": 253,
@@ -2916,12 +3553,20 @@
       "stamina": 207
     },
     "146": {
+      "types": [
+        3,
+        10
+      ],
       "forms": {
         "836": {},
         "2799": {
           "attack": 202,
           "defense": 231,
-          "stamina": 207
+          "stamina": 207,
+          "types": [
+            3,
+            17
+          ]
         }
       },
       "attack": 251,
@@ -2929,6 +3574,9 @@
       "stamina": 207
     },
     "147": {
+      "types": [
+        16
+      ],
       "forms": {
         "190": {
           "evolutions": [
@@ -2951,6 +3599,9 @@
       "little": true
     },
     "148": {
+      "types": [
+        16
+      ],
       "forms": {
         "193": {
           "evolutions": [
@@ -2972,6 +3623,10 @@
       ]
     },
     "149": {
+      "types": [
+        3,
+        16
+      ],
       "forms": {
         "196": {
           "temp_evolutions": {
@@ -2993,6 +3648,9 @@
       }
     },
     "150": {
+      "types": [
+        14
+      ],
       "forms": {
         "133": {
           "attack": 182,
@@ -3025,6 +3683,9 @@
       }
     },
     "151": {
+      "types": [
+        14
+      ],
       "forms": {
         "1115": {}
       },
@@ -3033,6 +3694,9 @@
       "stamina": 225
     },
     "152": {
+      "types": [
+        12
+      ],
       "forms": {
         "1118": {
           "evolutions": [
@@ -3053,6 +3717,9 @@
       "little": true
     },
     "153": {
+      "types": [
+        12
+      ],
       "forms": {
         "1121": {
           "evolutions": [
@@ -3072,6 +3739,9 @@
       ]
     },
     "154": {
+      "types": [
+        12
+      ],
       "forms": {
         "1124": {
           "temp_evolutions": {
@@ -3092,6 +3762,9 @@
       }
     },
     "155": {
+      "types": [
+        10
+      ],
       "forms": {
         "1127": {
           "evolutions": [
@@ -3112,6 +3785,9 @@
       "little": true
     },
     "156": {
+      "types": [
+        10
+      ],
       "forms": {
         "1130": {
           "evolutions": [
@@ -3139,12 +3815,19 @@
       ]
     },
     "157": {
+      "types": [
+        10
+      ],
       "forms": {
         "1133": {},
         "2786": {
           "attack": 238,
           "defense": 172,
-          "stamina": 177
+          "stamina": 177,
+          "types": [
+            8,
+            10
+          ]
         }
       },
       "attack": 223,
@@ -3152,6 +3835,9 @@
       "stamina": 186
     },
     "158": {
+      "types": [
+        11
+      ],
       "forms": {
         "1136": {
           "evolutions": [
@@ -3172,6 +3858,9 @@
       "little": true
     },
     "159": {
+      "types": [
+        11
+      ],
       "forms": {
         "1139": {
           "evolutions": [
@@ -3191,6 +3880,9 @@
       ]
     },
     "160": {
+      "types": [
+        11
+      ],
       "forms": {
         "1142": {
           "temp_evolutions": {
@@ -3211,6 +3903,9 @@
       }
     },
     "161": {
+      "types": [
+        1
+      ],
       "forms": {
         "1145": {
           "evolutions": [
@@ -3232,6 +3927,9 @@
       "little": true
     },
     "162": {
+      "types": [
+        1
+      ],
       "forms": {
         "1148": {}
       },
@@ -3240,6 +3938,10 @@
       "stamina": 198
     },
     "163": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1151": {
           "evolutions": [
@@ -3267,6 +3969,10 @@
       "little": true
     },
     "164": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1154": {}
       },
@@ -3275,6 +3981,10 @@
       "stamina": 225
     },
     "165": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1157": {
           "evolutions": [
@@ -3296,6 +4006,10 @@
       "little": true
     },
     "166": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1160": {}
       },
@@ -3304,6 +4018,10 @@
       "stamina": 146
     },
     "167": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "1163": {
           "evolutions": [
@@ -3325,6 +4043,10 @@
       "little": true
     },
     "168": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "1166": {}
       },
@@ -3333,6 +4055,10 @@
       "stamina": 172
     },
     "169": {
+      "types": [
+        3,
+        4
+      ],
       "forms": {
         "202": {}
       },
@@ -3341,6 +4067,10 @@
       "stamina": 198
     },
     "170": {
+      "types": [
+        11,
+        13
+      ],
       "forms": {
         "1169": {
           "evolutions": [
@@ -3362,6 +4092,10 @@
       "little": true
     },
     "171": {
+      "types": [
+        11,
+        13
+      ],
       "forms": {
         "1172": {}
       },
@@ -3370,6 +4104,9 @@
       "stamina": 268
     },
     "172": {
+      "types": [
+        13
+      ],
       "forms": {
         "1175": {
           "evolutions": [
@@ -3391,6 +4128,9 @@
       "little": true
     },
     "173": {
+      "types": [
+        18
+      ],
       "forms": {
         "1178": {
           "evolutions": [
@@ -3412,6 +4152,10 @@
       "little": true
     },
     "174": {
+      "types": [
+        1,
+        18
+      ],
       "forms": {
         "1181": {
           "evolutions": [
@@ -3433,6 +4177,9 @@
       "little": true
     },
     "175": {
+      "types": [
+        18
+      ],
       "forms": {
         "1184": {
           "evolutions": [
@@ -3460,6 +4207,10 @@
       "little": true
     },
     "176": {
+      "types": [
+        3,
+        18
+      ],
       "forms": {
         "1187": {
           "evolutions": [
@@ -3486,6 +4237,10 @@
       ]
     },
     "177": {
+      "types": [
+        3,
+        14
+      ],
       "forms": {
         "1190": {
           "evolutions": [
@@ -3507,6 +4262,10 @@
       "little": true
     },
     "178": {
+      "types": [
+        3,
+        14
+      ],
       "forms": {
         "1193": {}
       },
@@ -3515,6 +4274,9 @@
       "stamina": 163
     },
     "179": {
+      "types": [
+        13
+      ],
       "forms": {
         "646": {
           "evolutions": [
@@ -3537,6 +4299,9 @@
       "little": true
     },
     "180": {
+      "types": [
+        13
+      ],
       "forms": {
         "649": {
           "evolutions": [
@@ -3558,6 +4323,9 @@
       ]
     },
     "181": {
+      "types": [
+        13
+      ],
       "forms": {
         "652": {
           "temp_evolutions": {
@@ -3577,6 +4345,9 @@
       }
     },
     "182": {
+      "types": [
+        12
+      ],
       "forms": {
         "274": {}
       },
@@ -3585,6 +4356,10 @@
       "stamina": 181
     },
     "183": {
+      "types": [
+        11,
+        18
+      ],
       "forms": {
         "1196": {
           "evolutions": [
@@ -3605,6 +4380,10 @@
       ]
     },
     "184": {
+      "types": [
+        11,
+        18
+      ],
       "forms": {
         "1199": {}
       },
@@ -3613,6 +4392,9 @@
       "stamina": 225
     },
     "185": {
+      "types": [
+        6
+      ],
       "forms": {
         "1202": {}
       },
@@ -3621,6 +4403,9 @@
       "stamina": 172
     },
     "186": {
+      "types": [
+        11
+      ],
       "forms": {
         "244": {}
       },
@@ -3629,6 +4414,10 @@
       "stamina": 207
     },
     "187": {
+      "types": [
+        3,
+        12
+      ],
       "forms": {
         "1205": {
           "evolutions": [
@@ -3651,6 +4440,10 @@
       "little": true
     },
     "188": {
+      "types": [
+        3,
+        12
+      ],
       "forms": {
         "1208": {
           "evolutions": [
@@ -3672,6 +4465,10 @@
       ]
     },
     "189": {
+      "types": [
+        3,
+        12
+      ],
       "forms": {
         "1211": {}
       },
@@ -3680,6 +4477,9 @@
       "stamina": 181
     },
     "190": {
+      "types": [
+        1
+      ],
       "forms": {
         "1214": {
           "evolutions": [
@@ -3702,6 +4502,9 @@
       "little": true
     },
     "191": {
+      "types": [
+        12
+      ],
       "forms": {
         "1217": {
           "evolutions": [
@@ -3723,6 +4526,9 @@
       "little": true
     },
     "192": {
+      "types": [
+        12
+      ],
       "forms": {
         "1220": {}
       },
@@ -3731,6 +4537,10 @@
       "stamina": 181
     },
     "193": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1223": {
           "evolutions": [
@@ -3752,6 +4562,10 @@
       "little": true
     },
     "194": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "1226": {
           "evolutions": [
@@ -3762,6 +4576,10 @@
           ]
         },
         "3009": {
+          "types": [
+            4,
+            5
+          ],
           "evolutions": [
             {
               "pokemon": 980
@@ -3781,6 +4599,10 @@
       "little": true
     },
     "195": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "1229": {}
       },
@@ -3789,6 +4611,9 @@
       "stamina": 216
     },
     "196": {
+      "types": [
+        14
+      ],
       "forms": {
         "1232": {},
         "2847": {}
@@ -3798,6 +4623,9 @@
       "stamina": 163
     },
     "197": {
+      "types": [
+        17
+      ],
       "forms": {
         "1235": {},
         "2848": {}
@@ -3807,6 +4635,10 @@
       "stamina": 216
     },
     "198": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "855": {
           "evolutions": [
@@ -3829,12 +4661,20 @@
       "little": true
     },
     "199": {
+      "types": [
+        11,
+        14
+      ],
       "forms": {
         "1238": {},
         "2584": {
           "attack": 190,
           "defense": 180,
-          "stamina": 216
+          "stamina": 216,
+          "types": [
+            4,
+            14
+          ]
         },
         "2734": {}
       },
@@ -3843,6 +4683,9 @@
       "stamina": 216
     },
     "200": {
+      "types": [
+        8
+      ],
       "forms": {
         "719": {
           "evolutions": [
@@ -3864,6 +4707,9 @@
       "little": true
     },
     "201": {
+      "types": [
+        14
+      ],
       "forms": {
         "1": {},
         "2": {},
@@ -3899,6 +4745,9 @@
       "stamina": 134
     },
     "202": {
+      "types": [
+        14
+      ],
       "forms": {
         "602": {},
         "2328": {}
@@ -3914,6 +4763,10 @@
           "form": 3292
         }
       ],
+      "types": [
+        1,
+        14
+      ],
       "forms": {
         "1241": {}
       },
@@ -3923,6 +4776,9 @@
       "little": true
     },
     "204": {
+      "types": [
+        7
+      ],
       "forms": {
         "1244": {
           "evolutions": [
@@ -3945,6 +4801,10 @@
       "little": true
     },
     "205": {
+      "types": [
+        7,
+        9
+      ],
       "forms": {
         "1247": {}
       },
@@ -3953,6 +4813,9 @@
       "stamina": 181
     },
     "206": {
+      "types": [
+        1
+      ],
       "forms": {
         "1250": {
           "evolutions": [
@@ -3983,6 +4846,10 @@
       "little": true
     },
     "207": {
+      "types": [
+        3,
+        5
+      ],
       "forms": {
         "803": {
           "evolutions": [
@@ -4005,6 +4872,10 @@
       "little": true
     },
     "208": {
+      "types": [
+        5,
+        9
+      ],
       "forms": {
         "905": {
           "temp_evolutions": {
@@ -4024,6 +4895,9 @@
       }
     },
     "209": {
+      "types": [
+        18
+      ],
       "forms": {
         "1253": {
           "evolutions": [
@@ -4046,6 +4920,9 @@
       "little": true
     },
     "210": {
+      "types": [
+        18
+      ],
       "forms": {
         "1256": {}
       },
@@ -4054,12 +4931,20 @@
       "stamina": 207
     },
     "211": {
+      "types": [
+        4,
+        11
+      ],
       "forms": {
         "1259": {},
         "2788": {
           "attack": 184,
           "defense": 151,
           "stamina": 163,
+          "types": [
+            4,
+            17
+          ],
           "evolutions": [
             {
               "pokemon": 904
@@ -4072,6 +4957,10 @@
       "stamina": 163
     },
     "212": {
+      "types": [
+        7,
+        9
+      ],
       "forms": {
         "250": {
           "temp_evolutions": {
@@ -4091,6 +4980,10 @@
       }
     },
     "213": {
+      "types": [
+        6,
+        7
+      ],
       "forms": {
         "827": {}
       },
@@ -4099,6 +4992,10 @@
       "stamina": 85
     },
     "214": {
+      "types": [
+        2,
+        7
+      ],
       "forms": {
         "1262": {
           "temp_evolutions": {
@@ -4118,6 +5015,10 @@
       }
     },
     "215": {
+      "types": [
+        15,
+        17
+      ],
       "forms": {
         "797": {
           "evolutions": [
@@ -4128,6 +5029,10 @@
           ]
         },
         "2794": {
+          "types": [
+            2,
+            4
+          ],
           "evolutions": [
             {
               "pokemon": 903
@@ -4147,6 +5052,9 @@
       "little": true
     },
     "216": {
+      "types": [
+        1
+      ],
       "forms": {
         "1265": {
           "evolutions": [
@@ -4169,6 +5077,9 @@
       "little": true
     },
     "217": {
+      "types": [
+        1
+      ],
       "forms": {
         "1268": {
           "evolutions": [
@@ -4188,6 +5099,9 @@
       ]
     },
     "218": {
+      "types": [
+        10
+      ],
       "forms": {
         "1271": {
           "evolutions": [
@@ -4209,6 +5123,10 @@
       "little": true
     },
     "219": {
+      "types": [
+        6,
+        10
+      ],
       "forms": {
         "1274": {}
       },
@@ -4217,6 +5135,10 @@
       "stamina": 137
     },
     "220": {
+      "types": [
+        5,
+        15
+      ],
       "forms": {
         "1277": {
           "evolutions": [
@@ -4239,6 +5161,10 @@
       "little": true
     },
     "221": {
+      "types": [
+        5,
+        15
+      ],
       "forms": {
         "1280": {
           "evolutions": [
@@ -4260,12 +5186,19 @@
       ]
     },
     "222": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "1283": {},
         "2340": {
           "attack": 116,
           "defense": 182,
           "stamina": 155,
+          "types": [
+            8
+          ],
           "evolutions": [
             {
               "pokemon": 864,
@@ -4279,6 +5212,9 @@
       "stamina": 146
     },
     "223": {
+      "types": [
+        11
+      ],
       "forms": {
         "1286": {
           "evolutions": [
@@ -4300,6 +5236,9 @@
       "little": true
     },
     "224": {
+      "types": [
+        11
+      ],
       "forms": {
         "1289": {}
       },
@@ -4308,6 +5247,10 @@
       "stamina": 181
     },
     "225": {
+      "types": [
+        3,
+        15
+      ],
       "forms": {
         "938": {},
         "2671": {}
@@ -4317,6 +5260,10 @@
       "stamina": 128
     },
     "226": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "1292": {}
       },
@@ -4325,6 +5272,10 @@
       "stamina": 163
     },
     "227": {
+      "types": [
+        3,
+        9
+      ],
       "forms": {
         "1295": {
           "temp_evolutions": {
@@ -4345,6 +5296,10 @@
       }
     },
     "228": {
+      "types": [
+        10,
+        17
+      ],
       "forms": {
         "229": {
           "evolutions": [
@@ -4367,6 +5322,10 @@
       "little": true
     },
     "229": {
+      "types": [
+        10,
+        17
+      ],
       "forms": {
         "232": {
           "temp_evolutions": {
@@ -4386,6 +5345,10 @@
       }
     },
     "230": {
+      "types": [
+        11,
+        16
+      ],
       "forms": {
         "1298": {}
       },
@@ -4394,6 +5357,9 @@
       "stamina": 181
     },
     "231": {
+      "types": [
+        5
+      ],
       "forms": {
         "1301": {
           "evolutions": [
@@ -4415,6 +5381,9 @@
       "little": true
     },
     "232": {
+      "types": [
+        5
+      ],
       "forms": {
         "1304": {}
       },
@@ -4423,6 +5392,9 @@
       "stamina": 207
     },
     "233": {
+      "types": [
+        1
+      ],
       "forms": {
         "680": {
           "evolutions": [
@@ -4450,6 +5422,9 @@
           "form": 3218
         }
       ],
+      "types": [
+        1
+      ],
       "forms": {
         "941": {
           "evolutions": [
@@ -4465,6 +5440,9 @@
       "little": true
     },
     "235": {
+      "types": [
+        1
+      ],
       "forms": {
         "1307": {}
       },
@@ -4473,6 +5451,9 @@
       "stamina": 146
     },
     "236": {
+      "types": [
+        2
+      ],
       "forms": {
         "1310": {
           "evolutions": [
@@ -4508,6 +5489,9 @@
       "little": true
     },
     "237": {
+      "types": [
+        2
+      ],
       "forms": {
         "1313": {}
       },
@@ -4516,6 +5500,10 @@
       "stamina": 137
     },
     "238": {
+      "types": [
+        14,
+        15
+      ],
       "forms": {
         "1316": {
           "evolutions": [
@@ -4537,6 +5525,9 @@
       "little": true
     },
     "239": {
+      "types": [
+        13
+      ],
       "forms": {
         "1319": {
           "evolutions": [
@@ -4558,6 +5549,9 @@
       "little": true
     },
     "240": {
+      "types": [
+        10
+      ],
       "forms": {
         "1322": {
           "evolutions": [
@@ -4579,6 +5573,9 @@
       "little": true
     },
     "241": {
+      "types": [
+        1
+      ],
       "forms": {
         "1325": {}
       },
@@ -4587,6 +5584,9 @@
       "stamina": 216
     },
     "242": {
+      "types": [
+        1
+      ],
       "forms": {
         "1328": {}
       },
@@ -4595,6 +5595,9 @@
       "stamina": 496
     },
     "243": {
+      "types": [
+        13
+      ],
       "forms": {
         "1331": {},
         "2731": {}
@@ -4604,6 +5607,9 @@
       "stamina": 207
     },
     "244": {
+      "types": [
+        10
+      ],
       "forms": {
         "1334": {},
         "2732": {}
@@ -4613,6 +5619,9 @@
       "stamina": 251
     },
     "245": {
+      "types": [
+        11
+      ],
       "forms": {
         "1337": {},
         "2733": {}
@@ -4622,6 +5631,10 @@
       "stamina": 225
     },
     "246": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "313": {
           "evolutions": [
@@ -4644,6 +5657,10 @@
       "little": true
     },
     "247": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "316": {
           "evolutions": [
@@ -4665,6 +5682,10 @@
       ]
     },
     "248": {
+      "types": [
+        6,
+        17
+      ],
       "forms": {
         "319": {
           "temp_evolutions": {
@@ -4684,6 +5705,10 @@
       }
     },
     "249": {
+      "types": [
+        3,
+        14
+      ],
       "forms": {
         "1340": {},
         "2729": {}
@@ -4693,6 +5718,10 @@
       "stamina": 235
     },
     "250": {
+      "types": [
+        3,
+        10
+      ],
       "forms": {
         "1343": {},
         "2730": {}
@@ -4702,6 +5731,10 @@
       "stamina": 214
     },
     "251": {
+      "types": [
+        12,
+        14
+      ],
       "forms": {
         "1346": {}
       },
@@ -4710,6 +5743,9 @@
       "stamina": 225
     },
     "252": {
+      "types": [
+        12
+      ],
       "forms": {
         "1349": {
           "evolutions": [
@@ -4731,6 +5767,9 @@
       "little": true
     },
     "253": {
+      "types": [
+        12
+      ],
       "forms": {
         "1352": {
           "evolutions": [
@@ -4751,6 +5790,9 @@
       ]
     },
     "254": {
+      "types": [
+        12
+      ],
       "forms": {
         "1355": {
           "temp_evolutions": {
@@ -4770,6 +5812,9 @@
       }
     },
     "255": {
+      "types": [
+        10
+      ],
       "forms": {
         "1358": {
           "evolutions": [
@@ -4792,6 +5837,10 @@
       "little": true
     },
     "256": {
+      "types": [
+        2,
+        10
+      ],
       "forms": {
         "1361": {
           "evolutions": [
@@ -4813,6 +5862,10 @@
       ]
     },
     "257": {
+      "types": [
+        2,
+        10
+      ],
       "forms": {
         "1364": {
           "temp_evolutions": {
@@ -4832,6 +5885,9 @@
       }
     },
     "258": {
+      "types": [
+        11
+      ],
       "forms": {
         "205": {
           "evolutions": [
@@ -4854,6 +5910,10 @@
       "little": true
     },
     "259": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "208": {
           "evolutions": [
@@ -4875,6 +5935,10 @@
       ]
     },
     "260": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "211": {
           "temp_evolutions": {
@@ -4894,6 +5958,9 @@
       }
     },
     "261": {
+      "types": [
+        17
+      ],
       "forms": {
         "1367": {
           "evolutions": [
@@ -4916,6 +5983,9 @@
       "little": true
     },
     "262": {
+      "types": [
+        17
+      ],
       "forms": {
         "1370": {}
       },
@@ -4924,6 +5994,9 @@
       "stamina": 172
     },
     "263": {
+      "types": [
+        1
+      ],
       "forms": {
         "945": {
           "evolutions": [
@@ -4934,6 +6007,10 @@
           ]
         },
         "946": {
+          "types": [
+            1,
+            17
+          ],
           "evolutions": [
             {
               "pokemon": 264,
@@ -4954,9 +6031,16 @@
       "little": true
     },
     "264": {
+      "types": [
+        1
+      ],
       "forms": {
         "947": {},
         "948": {
+          "types": [
+            1,
+            17
+          ],
           "evolutions": [
             {
               "pokemon": 862,
@@ -4970,6 +6054,9 @@
       "stamina": 186
     },
     "265": {
+      "types": [
+        7
+      ],
       "forms": {
         "600": {
           "evolutions": [
@@ -4999,6 +6086,9 @@
       "little": true
     },
     "266": {
+      "types": [
+        7
+      ],
       "forms": {
         "1379": {
           "evolutions": [
@@ -5019,6 +6109,10 @@
       ]
     },
     "267": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1382": {}
       },
@@ -5027,6 +6121,9 @@
       "stamina": 155
     },
     "268": {
+      "types": [
+        7
+      ],
       "forms": {
         "1385": {
           "evolutions": [
@@ -5047,6 +6144,10 @@
       ]
     },
     "269": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "1388": {}
       },
@@ -5055,6 +6156,10 @@
       "stamina": 155
     },
     "270": {
+      "types": [
+        11,
+        12
+      ],
       "forms": {
         "1391": {
           "evolutions": [
@@ -5076,6 +6181,10 @@
       "little": true
     },
     "271": {
+      "types": [
+        11,
+        12
+      ],
       "forms": {
         "1394": {
           "evolutions": [
@@ -5096,6 +6205,10 @@
       ]
     },
     "272": {
+      "types": [
+        11,
+        12
+      ],
       "forms": {
         "1397": {}
       },
@@ -5104,6 +6217,9 @@
       "stamina": 190
     },
     "273": {
+      "types": [
+        12
+      ],
       "forms": {
         "625": {
           "evolutions": [
@@ -5126,6 +6242,10 @@
       "little": true
     },
     "274": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "628": {
           "evolutions": [
@@ -5147,6 +6267,10 @@
       ]
     },
     "275": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "631": {}
       },
@@ -5155,6 +6279,10 @@
       "stamina": 207
     },
     "276": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1400": {
           "evolutions": [
@@ -5176,6 +6304,10 @@
       "little": true
     },
     "277": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1403": {}
       },
@@ -5184,6 +6316,10 @@
       "stamina": 155
     },
     "278": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "1406": {
           "evolutions": [
@@ -5205,6 +6341,10 @@
       "little": true
     },
     "279": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "1409": {}
       },
@@ -5213,6 +6353,10 @@
       "stamina": 155
     },
     "280": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "292": {
           "evolutions": [
@@ -5235,6 +6379,10 @@
       "little": true
     },
     "281": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "295": {
           "evolutions": [
@@ -5266,6 +6414,10 @@
       ]
     },
     "282": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "298": {
           "temp_evolutions": {
@@ -5285,6 +6437,10 @@
       }
     },
     "283": {
+      "types": [
+        7,
+        11
+      ],
       "forms": {
         "1412": {
           "evolutions": [
@@ -5306,6 +6462,10 @@
       "little": true
     },
     "284": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1415": {}
       },
@@ -5314,6 +6474,9 @@
       "stamina": 172
     },
     "285": {
+      "types": [
+        12
+      ],
       "forms": {
         "1418": {
           "evolutions": [
@@ -5335,6 +6498,10 @@
       "little": true
     },
     "286": {
+      "types": [
+        2,
+        12
+      ],
       "forms": {
         "1421": {}
       },
@@ -5343,6 +6510,9 @@
       "stamina": 155
     },
     "287": {
+      "types": [
+        1
+      ],
       "forms": {
         "1424": {
           "evolutions": [
@@ -5364,6 +6534,9 @@
       "little": true
     },
     "288": {
+      "types": [
+        1
+      ],
       "forms": {
         "1427": {
           "evolutions": [
@@ -5384,6 +6557,9 @@
       ]
     },
     "289": {
+      "types": [
+        1
+      ],
       "forms": {
         "1430": {}
       },
@@ -5401,6 +6577,10 @@
           "form": 1439
         }
       ],
+      "types": [
+        5,
+        7
+      ],
       "forms": {
         "1433": {
           "evolutions": [
@@ -5417,6 +6597,10 @@
       "little": true
     },
     "291": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1436": {}
       },
@@ -5425,6 +6609,10 @@
       "stamina": 156
     },
     "292": {
+      "types": [
+        7,
+        8
+      ],
       "forms": {
         "1439": {}
       },
@@ -5433,6 +6621,9 @@
       "stamina": 1
     },
     "293": {
+      "types": [
+        1
+      ],
       "forms": {
         "1442": {
           "evolutions": [
@@ -5453,6 +6644,9 @@
       "little": true
     },
     "294": {
+      "types": [
+        1
+      ],
       "forms": {
         "1445": {
           "evolutions": [
@@ -5472,6 +6666,9 @@
       ]
     },
     "295": {
+      "types": [
+        1
+      ],
       "forms": {
         "1448": {}
       },
@@ -5480,6 +6677,9 @@
       "stamina": 232
     },
     "296": {
+      "types": [
+        2
+      ],
       "forms": {
         "1451": {
           "evolutions": [
@@ -5502,6 +6702,9 @@
       "little": true
     },
     "297": {
+      "types": [
+        2
+      ],
       "forms": {
         "1454": {}
       },
@@ -5510,6 +6713,10 @@
       "stamina": 302
     },
     "298": {
+      "types": [
+        1,
+        18
+      ],
       "forms": {
         "1457": {
           "evolutions": [
@@ -5531,6 +6738,9 @@
       "little": true
     },
     "299": {
+      "types": [
+        6
+      ],
       "forms": {
         "1460": {
           "evolutions": [
@@ -5552,6 +6762,9 @@
       "little": true
     },
     "300": {
+      "types": [
+        1
+      ],
       "forms": {
         "1463": {
           "evolutions": [
@@ -5573,6 +6786,9 @@
       "little": true
     },
     "301": {
+      "types": [
+        1
+      ],
       "forms": {
         "1466": {}
       },
@@ -5581,6 +6797,10 @@
       "stamina": 172
     },
     "302": {
+      "types": [
+        8,
+        17
+      ],
       "forms": {
         "923": {
           "temp_evolutions": {
@@ -5606,6 +6826,10 @@
       }
     },
     "303": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "833": {
           "temp_evolutions": {
@@ -5625,6 +6849,10 @@
       }
     },
     "304": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "1469": {
           "evolutions": [
@@ -5647,6 +6875,10 @@
       "little": true
     },
     "305": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "1472": {
           "evolutions": [
@@ -5668,6 +6900,10 @@
       ]
     },
     "306": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "1475": {
           "temp_evolutions": {
@@ -5687,6 +6923,10 @@
       }
     },
     "307": {
+      "types": [
+        2,
+        14
+      ],
       "forms": {
         "1478": {
           "evolutions": [
@@ -5708,6 +6948,10 @@
       "little": true
     },
     "308": {
+      "types": [
+        2,
+        14
+      ],
       "forms": {
         "1481": {
           "temp_evolutions": {
@@ -5727,6 +6971,9 @@
       }
     },
     "309": {
+      "types": [
+        13
+      ],
       "forms": {
         "1484": {
           "evolutions": [
@@ -5749,6 +6996,9 @@
       "little": true
     },
     "310": {
+      "types": [
+        13
+      ],
       "forms": {
         "1487": {
           "temp_evolutions": {
@@ -5768,6 +7018,9 @@
       }
     },
     "311": {
+      "types": [
+        13
+      ],
       "forms": {
         "1490": {}
       },
@@ -5776,6 +7029,9 @@
       "stamina": 155
     },
     "312": {
+      "types": [
+        13
+      ],
       "forms": {
         "1493": {}
       },
@@ -5784,6 +7040,9 @@
       "stamina": 155
     },
     "313": {
+      "types": [
+        7
+      ],
       "forms": {
         "1496": {}
       },
@@ -5792,6 +7051,9 @@
       "stamina": 163
     },
     "314": {
+      "types": [
+        7
+      ],
       "forms": {
         "1499": {}
       },
@@ -5800,6 +7062,10 @@
       "stamina": 163
     },
     "315": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "1502": {
           "evolutions": [
@@ -5820,6 +7086,9 @@
       ]
     },
     "316": {
+      "types": [
+        4
+      ],
       "forms": {
         "1505": {
           "evolutions": [
@@ -5841,6 +7110,9 @@
       "little": true
     },
     "317": {
+      "types": [
+        4
+      ],
       "forms": {
         "1508": {}
       },
@@ -5849,6 +7121,10 @@
       "stamina": 225
     },
     "318": {
+      "types": [
+        11,
+        17
+      ],
       "forms": {
         "734": {
           "evolutions": [
@@ -5871,6 +7147,10 @@
       "little": true
     },
     "319": {
+      "types": [
+        11,
+        17
+      ],
       "forms": {
         "737": {
           "temp_evolutions": {
@@ -5890,6 +7170,9 @@
       }
     },
     "320": {
+      "types": [
+        11
+      ],
       "forms": {
         "1511": {
           "evolutions": [
@@ -5912,6 +7195,9 @@
       "little": true
     },
     "321": {
+      "types": [
+        11
+      ],
       "forms": {
         "1514": {}
       },
@@ -5920,6 +7206,10 @@
       "stamina": 347
     },
     "322": {
+      "types": [
+        5,
+        10
+      ],
       "forms": {
         "1517": {
           "evolutions": [
@@ -5941,6 +7231,10 @@
       "little": true
     },
     "323": {
+      "types": [
+        5,
+        10
+      ],
       "forms": {
         "1520": {
           "temp_evolutions": {
@@ -5960,6 +7254,9 @@
       }
     },
     "324": {
+      "types": [
+        10
+      ],
       "forms": {
         "1523": {}
       },
@@ -5968,6 +7265,9 @@
       "stamina": 172
     },
     "325": {
+      "types": [
+        14
+      ],
       "forms": {
         "1526": {
           "evolutions": [
@@ -5989,6 +7289,9 @@
       "little": true
     },
     "326": {
+      "types": [
+        14
+      ],
       "forms": {
         "1529": {}
       },
@@ -5997,6 +7300,9 @@
       "stamina": 190
     },
     "327": {
+      "types": [
+        1
+      ],
       "forms": {
         "37": {},
         "38": {},
@@ -6024,6 +7330,9 @@
       "stamina": 155
     },
     "328": {
+      "types": [
+        5
+      ],
       "forms": {
         "746": {
           "evolutions": [
@@ -6046,6 +7355,10 @@
       "little": true
     },
     "329": {
+      "types": [
+        5,
+        16
+      ],
       "forms": {
         "749": {
           "evolutions": [
@@ -6067,6 +7380,10 @@
       ]
     },
     "330": {
+      "types": [
+        5,
+        16
+      ],
       "forms": {
         "752": {}
       },
@@ -6075,6 +7392,9 @@
       "stamina": 190
     },
     "331": {
+      "types": [
+        12
+      ],
       "forms": {
         "610": {
           "evolutions": [
@@ -6097,6 +7417,10 @@
       "little": true
     },
     "332": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "613": {}
       },
@@ -6105,6 +7429,10 @@
       "stamina": 172
     },
     "333": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1532": {
           "evolutions": [
@@ -6126,6 +7454,10 @@
       "little": true
     },
     "334": {
+      "types": [
+        3,
+        16
+      ],
       "forms": {
         "1535": {
           "temp_evolutions": {
@@ -6145,6 +7477,9 @@
       }
     },
     "335": {
+      "types": [
+        1
+      ],
       "forms": {
         "1538": {}
       },
@@ -6153,6 +7488,9 @@
       "stamina": 177
     },
     "336": {
+      "types": [
+        4
+      ],
       "forms": {
         "1541": {}
       },
@@ -6161,6 +7499,10 @@
       "stamina": 177
     },
     "337": {
+      "types": [
+        6,
+        14
+      ],
       "forms": {
         "1544": {}
       },
@@ -6169,6 +7511,10 @@
       "stamina": 207
     },
     "338": {
+      "types": [
+        6,
+        14
+      ],
       "forms": {
         "1547": {}
       },
@@ -6177,6 +7523,10 @@
       "stamina": 207
     },
     "339": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "1550": {
           "evolutions": [
@@ -6198,6 +7548,10 @@
       "little": true
     },
     "340": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "1553": {}
       },
@@ -6206,6 +7560,9 @@
       "stamina": 242
     },
     "341": {
+      "types": [
+        11
+      ],
       "forms": {
         "1556": {
           "evolutions": [
@@ -6227,6 +7584,10 @@
       "little": true
     },
     "342": {
+      "types": [
+        11,
+        17
+      ],
       "forms": {
         "1559": {}
       },
@@ -6235,6 +7596,10 @@
       "stamina": 160
     },
     "343": {
+      "types": [
+        5,
+        14
+      ],
       "forms": {
         "1562": {
           "evolutions": [
@@ -6256,6 +7621,10 @@
       "little": true
     },
     "344": {
+      "types": [
+        5,
+        14
+      ],
       "forms": {
         "1565": {}
       },
@@ -6264,6 +7633,10 @@
       "stamina": 155
     },
     "345": {
+      "types": [
+        6,
+        12
+      ],
       "forms": {
         "1568": {
           "evolutions": [
@@ -6286,6 +7659,10 @@
       "little": true
     },
     "346": {
+      "types": [
+        6,
+        12
+      ],
       "forms": {
         "1571": {}
       },
@@ -6294,6 +7671,10 @@
       "stamina": 200
     },
     "347": {
+      "types": [
+        6,
+        7
+      ],
       "forms": {
         "1574": {
           "evolutions": [
@@ -6316,6 +7697,10 @@
       "little": true
     },
     "348": {
+      "types": [
+        6,
+        7
+      ],
       "forms": {
         "1577": {}
       },
@@ -6324,6 +7709,9 @@
       "stamina": 181
     },
     "349": {
+      "types": [
+        11
+      ],
       "forms": {
         "1580": {
           "evolutions": [
@@ -6345,6 +7733,9 @@
       "little": true
     },
     "350": {
+      "types": [
+        11
+      ],
       "forms": {
         "1583": {}
       },
@@ -6353,17 +7744,35 @@
       "stamina": 216
     },
     "351": {
+      "types": [
+        1
+      ],
       "forms": {
         "29": {},
-        "30": {},
-        "31": {},
-        "32": {}
+        "30": {
+          "types": [
+            10
+          ]
+        },
+        "31": {
+          "types": [
+            11
+          ]
+        },
+        "32": {
+          "types": [
+            15
+          ]
+        }
       },
       "attack": 139,
       "defense": 139,
       "stamina": 172
     },
     "352": {
+      "types": [
+        1
+      ],
       "forms": {
         "1586": {}
       },
@@ -6372,6 +7781,9 @@
       "stamina": 155
     },
     "353": {
+      "types": [
+        8
+      ],
       "forms": {
         "908": {
           "evolutions": [
@@ -6394,6 +7806,9 @@
       "little": true
     },
     "354": {
+      "types": [
+        8
+      ],
       "forms": {
         "911": {
           "temp_evolutions": {
@@ -6413,6 +7828,9 @@
       }
     },
     "355": {
+      "types": [
+        8
+      ],
       "forms": {
         "914": {
           "evolutions": [
@@ -6441,6 +7859,9 @@
       "little": true
     },
     "356": {
+      "types": [
+        8
+      ],
       "forms": {
         "917": {
           "evolutions": [
@@ -6468,6 +7889,10 @@
       ]
     },
     "357": {
+      "types": [
+        3,
+        12
+      ],
       "forms": {
         "1589": {}
       },
@@ -6476,6 +7901,9 @@
       "stamina": 223
     },
     "358": {
+      "types": [
+        14
+      ],
       "forms": {
         "1592": {}
       },
@@ -6484,6 +7912,9 @@
       "stamina": 181
     },
     "359": {
+      "types": [
+        17
+      ],
       "forms": {
         "830": {
           "temp_evolutions": {
@@ -6503,6 +7934,9 @@
       }
     },
     "360": {
+      "types": [
+        14
+      ],
       "forms": {
         "1595": {
           "evolutions": [
@@ -6524,6 +7958,9 @@
       "little": true
     },
     "361": {
+      "types": [
+        15
+      ],
       "forms": {
         "926": {
           "evolutions": [
@@ -6554,6 +7991,9 @@
       "little": true
     },
     "362": {
+      "types": [
+        15
+      ],
       "forms": {
         "929": {
           "temp_evolutions": {
@@ -6573,6 +8013,10 @@
       }
     },
     "363": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "1598": {
           "evolutions": [
@@ -6595,6 +8039,10 @@
       "little": true
     },
     "364": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "1601": {
           "evolutions": [
@@ -6616,6 +8064,10 @@
       ]
     },
     "365": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "1604": {}
       },
@@ -6624,6 +8076,9 @@
       "stamina": 242
     },
     "366": {
+      "types": [
+        11
+      ],
       "forms": {
         "1607": {
           "evolutions": [
@@ -6652,6 +8107,9 @@
       "little": true
     },
     "367": {
+      "types": [
+        11
+      ],
       "forms": {
         "1610": {}
       },
@@ -6660,6 +8118,9 @@
       "stamina": 146
     },
     "368": {
+      "types": [
+        11
+      ],
       "forms": {
         "1613": {}
       },
@@ -6668,6 +8129,10 @@
       "stamina": 146
     },
     "369": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "1616": {}
       },
@@ -6676,6 +8141,9 @@
       "stamina": 225
     },
     "370": {
+      "types": [
+        11
+      ],
       "forms": {
         "1619": {}
       },
@@ -6684,6 +8152,9 @@
       "stamina": 125
     },
     "371": {
+      "types": [
+        16
+      ],
       "forms": {
         "755": {
           "evolutions": [
@@ -6706,6 +8177,9 @@
       "little": true
     },
     "372": {
+      "types": [
+        16
+      ],
       "forms": {
         "758": {
           "evolutions": [
@@ -6727,6 +8201,10 @@
       ]
     },
     "373": {
+      "types": [
+        3,
+        16
+      ],
       "forms": {
         "761": {
           "temp_evolutions": {
@@ -6746,6 +8224,10 @@
       }
     },
     "374": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "764": {
           "evolutions": [
@@ -6768,6 +8250,10 @@
       "little": true
     },
     "375": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "767": {
           "evolutions": [
@@ -6789,6 +8275,10 @@
       ]
     },
     "376": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "770": {
           "temp_evolutions": {
@@ -6808,6 +8298,9 @@
       }
     },
     "377": {
+      "types": [
+        6
+      ],
       "forms": {
         "1622": {}
       },
@@ -6816,6 +8309,9 @@
       "stamina": 190
     },
     "378": {
+      "types": [
+        15
+      ],
       "forms": {
         "1625": {}
       },
@@ -6824,6 +8320,9 @@
       "stamina": 190
     },
     "379": {
+      "types": [
+        9
+      ],
       "forms": {
         "1628": {}
       },
@@ -6832,6 +8331,10 @@
       "stamina": 190
     },
     "380": {
+      "types": [
+        14,
+        16
+      ],
       "forms": {
         "1631": {
           "temp_evolutions": {
@@ -6856,6 +8359,10 @@
       }
     },
     "381": {
+      "types": [
+        14,
+        16
+      ],
       "forms": {
         "1634": {
           "temp_evolutions": {
@@ -6880,6 +8387,9 @@
       }
     },
     "382": {
+      "types": [
+        11
+      ],
       "forms": {
         "1637": {
           "temp_evolutions": {
@@ -6899,6 +8409,9 @@
       }
     },
     "383": {
+      "types": [
+        5
+      ],
       "forms": {
         "1640": {
           "temp_evolutions": {
@@ -6918,6 +8431,10 @@
       }
     },
     "384": {
+      "types": [
+        3,
+        16
+      ],
       "forms": {
         "1643": {
           "temp_evolutions": {
@@ -6937,6 +8454,10 @@
       }
     },
     "385": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "1646": {}
       },
@@ -6945,6 +8466,9 @@
       "stamina": 225
     },
     "386": {
+      "types": [
+        14
+      ],
       "forms": {
         "33": {},
         "34": {
@@ -6968,6 +8492,9 @@
       "stamina": 137
     },
     "387": {
+      "types": [
+        12
+      ],
       "forms": {
         "688": {
           "evolutions": [
@@ -6990,6 +8517,9 @@
       "little": true
     },
     "388": {
+      "types": [
+        12
+      ],
       "forms": {
         "691": {
           "evolutions": [
@@ -7011,6 +8541,10 @@
       ]
     },
     "389": {
+      "types": [
+        5,
+        12
+      ],
       "forms": {
         "694": {}
       },
@@ -7019,6 +8553,9 @@
       "stamina": 216
     },
     "390": {
+      "types": [
+        10
+      ],
       "forms": {
         "818": {
           "evolutions": [
@@ -7041,6 +8578,10 @@
       "little": true
     },
     "391": {
+      "types": [
+        2,
+        10
+      ],
       "forms": {
         "821": {
           "evolutions": [
@@ -7062,6 +8603,10 @@
       ]
     },
     "392": {
+      "types": [
+        2,
+        10
+      ],
       "forms": {
         "824": {}
       },
@@ -7070,6 +8615,9 @@
       "stamina": 183
     },
     "393": {
+      "types": [
+        11
+      ],
       "forms": {
         "1649": {
           "evolutions": [
@@ -7091,6 +8639,9 @@
       "little": true
     },
     "394": {
+      "types": [
+        11
+      ],
       "forms": {
         "1652": {
           "evolutions": [
@@ -7111,6 +8662,10 @@
       ]
     },
     "395": {
+      "types": [
+        9,
+        11
+      ],
       "forms": {
         "1655": {}
       },
@@ -7119,6 +8674,10 @@
       "stamina": 197
     },
     "396": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1658": {
           "evolutions": [
@@ -7141,6 +8700,10 @@
       "little": true
     },
     "397": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1661": {
           "evolutions": [
@@ -7162,6 +8725,10 @@
       ]
     },
     "398": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1664": {}
       },
@@ -7170,6 +8737,9 @@
       "stamina": 198
     },
     "399": {
+      "types": [
+        1
+      ],
       "forms": {
         "1667": {
           "evolutions": [
@@ -7192,6 +8762,10 @@
       "little": true
     },
     "400": {
+      "types": [
+        1,
+        11
+      ],
       "forms": {
         "1670": {}
       },
@@ -7200,6 +8774,9 @@
       "stamina": 188
     },
     "401": {
+      "types": [
+        7
+      ],
       "forms": {
         "1673": {
           "evolutions": [
@@ -7221,6 +8798,9 @@
       "little": true
     },
     "402": {
+      "types": [
+        7
+      ],
       "forms": {
         "1676": {}
       },
@@ -7229,6 +8809,9 @@
       "stamina": 184
     },
     "403": {
+      "types": [
+        13
+      ],
       "forms": {
         "1679": {
           "evolutions": [
@@ -7250,6 +8833,9 @@
       "little": true
     },
     "404": {
+      "types": [
+        13
+      ],
       "forms": {
         "1682": {
           "evolutions": [
@@ -7270,6 +8856,9 @@
       ]
     },
     "405": {
+      "types": [
+        13
+      ],
       "forms": {
         "1685": {}
       },
@@ -7278,6 +8867,10 @@
       "stamina": 190
     },
     "406": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "1688": {
           "evolutions": [
@@ -7299,6 +8892,10 @@
       "little": true
     },
     "407": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "1691": {}
       },
@@ -7307,6 +8904,9 @@
       "stamina": 155
     },
     "408": {
+      "types": [
+        6
+      ],
       "forms": {
         "1694": {
           "evolutions": [
@@ -7328,6 +8928,9 @@
       "little": true
     },
     "409": {
+      "types": [
+        6
+      ],
       "forms": {
         "1697": {}
       },
@@ -7336,6 +8939,10 @@
       "stamina": 219
     },
     "410": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "1700": {
           "evolutions": [
@@ -7357,6 +8964,10 @@
       "little": true
     },
     "411": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "1703": {}
       },
@@ -7365,6 +8976,9 @@
       "stamina": 155
     },
     "412": {
+      "types": [
+        7
+      ],
       "forms": {
         "118": {
           "evolutions": [
@@ -7424,13 +9038,26 @@
       "little": true
     },
     "413": {
+      "types": [
+        7,
+        12
+      ],
       "forms": {
         "87": {},
-        "88": {},
+        "88": {
+          "types": [
+            5,
+            7
+          ]
+        },
         "89": {
           "attack": 127,
           "defense": 175,
-          "stamina": 155
+          "stamina": 155,
+          "types": [
+            7,
+            9
+          ]
         },
         "1709": {}
       },
@@ -7439,6 +9066,10 @@
       "stamina": 155
     },
     "414": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1712": {}
       },
@@ -7447,6 +9078,10 @@
       "stamina": 172
     },
     "415": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1715": {
           "evolutions": [
@@ -7470,6 +9105,10 @@
       "little": true
     },
     "416": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1718": {}
       },
@@ -7478,6 +9117,9 @@
       "stamina": 172
     },
     "417": {
+      "types": [
+        13
+      ],
       "forms": {
         "1721": {}
       },
@@ -7486,6 +9128,9 @@
       "stamina": 155
     },
     "418": {
+      "types": [
+        11
+      ],
       "forms": {
         "1724": {
           "evolutions": [
@@ -7507,6 +9152,9 @@
       "little": true
     },
     "419": {
+      "types": [
+        11
+      ],
       "forms": {
         "1727": {}
       },
@@ -7515,6 +9163,9 @@
       "stamina": 198
     },
     "420": {
+      "types": [
+        12
+      ],
       "forms": {
         "1730": {
           "evolutions": [
@@ -7545,6 +9196,9 @@
       "little": true
     },
     "421": {
+      "types": [
+        12
+      ],
       "forms": {
         "94": {},
         "95": {},
@@ -7555,6 +9209,9 @@
       "stamina": 172
     },
     "422": {
+      "types": [
+        11
+      ],
       "forms": {
         "96": {
           "evolutions": [
@@ -7586,6 +9243,10 @@
       "little": true
     },
     "423": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "98": {},
         "99": {},
@@ -7596,6 +9257,9 @@
       "stamina": 244
     },
     "424": {
+      "types": [
+        1
+      ],
       "forms": {
         "1742": {}
       },
@@ -7604,6 +9268,10 @@
       "stamina": 181
     },
     "425": {
+      "types": [
+        3,
+        8
+      ],
       "forms": {
         "1745": {
           "evolutions": [
@@ -7625,6 +9293,10 @@
       "little": true
     },
     "426": {
+      "types": [
+        3,
+        8
+      ],
       "forms": {
         "1748": {}
       },
@@ -7633,6 +9305,9 @@
       "stamina": 312
     },
     "427": {
+      "types": [
+        1
+      ],
       "forms": {
         "1751": {
           "evolutions": [
@@ -7660,6 +9335,9 @@
       "little": true
     },
     "428": {
+      "types": [
+        1
+      ],
       "forms": {
         "1754": {
           "temp_evolutions": {
@@ -7679,6 +9357,9 @@
       }
     },
     "429": {
+      "types": [
+        8
+      ],
       "forms": {
         "722": {}
       },
@@ -7687,6 +9368,10 @@
       "stamina": 155
     },
     "430": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "858": {}
       },
@@ -7695,6 +9380,9 @@
       "stamina": 225
     },
     "431": {
+      "types": [
+        1
+      ],
       "forms": {
         "1757": {
           "evolutions": [
@@ -7716,6 +9404,9 @@
       "little": true
     },
     "432": {
+      "types": [
+        1
+      ],
       "forms": {
         "1760": {}
       },
@@ -7724,6 +9415,9 @@
       "stamina": 174
     },
     "433": {
+      "types": [
+        14
+      ],
       "forms": {
         "1763": {
           "evolutions": [
@@ -7745,6 +9439,10 @@
       "little": true
     },
     "434": {
+      "types": [
+        4,
+        17
+      ],
       "forms": {
         "791": {
           "evolutions": [
@@ -7767,6 +9465,10 @@
       "little": true
     },
     "435": {
+      "types": [
+        4,
+        17
+      ],
       "forms": {
         "794": {}
       },
@@ -7775,6 +9477,10 @@
       "stamina": 230
     },
     "436": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "1766": {
           "evolutions": [
@@ -7796,6 +9502,10 @@
       "little": true
     },
     "437": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "1769": {}
       },
@@ -7804,6 +9514,9 @@
       "stamina": 167
     },
     "438": {
+      "types": [
+        6
+      ],
       "forms": {
         "1772": {
           "evolutions": [
@@ -7825,6 +9538,10 @@
       "little": true
     },
     "439": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "1775": {
           "evolutions": [
@@ -7853,6 +9570,9 @@
       "little": true
     },
     "440": {
+      "types": [
+        1
+      ],
       "forms": {
         "1778": {
           "evolutions": [
@@ -7875,6 +9595,10 @@
       "little": true
     },
     "441": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1781": {}
       },
@@ -7883,6 +9607,10 @@
       "stamina": 183
     },
     "442": {
+      "types": [
+        8,
+        17
+      ],
       "forms": {
         "1784": {}
       },
@@ -7891,6 +9619,10 @@
       "stamina": 137
     },
     "443": {
+      "types": [
+        5,
+        16
+      ],
       "forms": {
         "861": {
           "evolutions": [
@@ -7913,6 +9645,10 @@
       "little": true
     },
     "444": {
+      "types": [
+        5,
+        16
+      ],
       "forms": {
         "864": {
           "evolutions": [
@@ -7934,6 +9670,10 @@
       ]
     },
     "445": {
+      "types": [
+        5,
+        16
+      ],
       "forms": {
         "867": {
           "temp_evolutions": {
@@ -7953,6 +9693,9 @@
       }
     },
     "446": {
+      "types": [
+        1
+      ],
       "forms": {
         "1787": {
           "evolutions": [
@@ -7974,6 +9717,9 @@
       "little": true
     },
     "447": {
+      "types": [
+        2
+      ],
       "forms": {
         "1790": {
           "evolutions": [
@@ -7995,6 +9741,10 @@
       "little": true
     },
     "448": {
+      "types": [
+        2,
+        9
+      ],
       "forms": {
         "1793": {
           "temp_evolutions": {
@@ -8014,6 +9764,9 @@
       }
     },
     "449": {
+      "types": [
+        5
+      ],
       "forms": {
         "888": {
           "evolutions": [
@@ -8036,6 +9789,9 @@
       "little": true
     },
     "450": {
+      "types": [
+        5
+      ],
       "forms": {
         "891": {}
       },
@@ -8044,6 +9800,10 @@
       "stamina": 239
     },
     "451": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "1796": {
           "evolutions": [
@@ -8066,6 +9826,10 @@
       "little": true
     },
     "452": {
+      "types": [
+        4,
+        17
+      ],
       "forms": {
         "1799": {}
       },
@@ -8074,6 +9838,10 @@
       "stamina": 172
     },
     "453": {
+      "types": [
+        2,
+        4
+      ],
       "forms": {
         "1802": {
           "evolutions": [
@@ -8101,6 +9869,10 @@
       "little": true
     },
     "454": {
+      "types": [
+        2,
+        4
+      ],
       "forms": {
         "1805": {}
       },
@@ -8109,6 +9881,9 @@
       "stamina": 195
     },
     "455": {
+      "types": [
+        12
+      ],
       "forms": {
         "1808": {}
       },
@@ -8117,6 +9892,9 @@
       "stamina": 179
     },
     "456": {
+      "types": [
+        11
+      ],
       "forms": {
         "1811": {
           "evolutions": [
@@ -8138,6 +9916,9 @@
       "little": true
     },
     "457": {
+      "types": [
+        11
+      ],
       "forms": {
         "1814": {}
       },
@@ -8146,6 +9927,10 @@
       "stamina": 170
     },
     "458": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "1817": {
           "evolutions": [
@@ -8167,6 +9952,10 @@
       "little": true
     },
     "459": {
+      "types": [
+        12,
+        15
+      ],
       "forms": {
         "932": {
           "evolutions": [
@@ -8189,6 +9978,10 @@
       "little": true
     },
     "460": {
+      "types": [
+        12,
+        15
+      ],
       "forms": {
         "935": {
           "temp_evolutions": {
@@ -8208,6 +10001,10 @@
       }
     },
     "461": {
+      "types": [
+        15,
+        17
+      ],
       "forms": {
         "800": {}
       },
@@ -8216,6 +10013,10 @@
       "stamina": 172
     },
     "462": {
+      "types": [
+        9,
+        13
+      ],
       "forms": {
         "661": {}
       },
@@ -8224,6 +10025,9 @@
       "stamina": 172
     },
     "463": {
+      "types": [
+        1
+      ],
       "forms": {
         "1820": {}
       },
@@ -8232,6 +10036,10 @@
       "stamina": 242
     },
     "464": {
+      "types": [
+        5,
+        6
+      ],
       "forms": {
         "852": {}
       },
@@ -8240,6 +10048,9 @@
       "stamina": 251
     },
     "465": {
+      "types": [
+        12
+      ],
       "forms": {
         "1823": {}
       },
@@ -8248,6 +10059,9 @@
       "stamina": 225
     },
     "466": {
+      "types": [
+        13
+      ],
       "forms": {
         "643": {}
       },
@@ -8256,6 +10070,9 @@
       "stamina": 181
     },
     "467": {
+      "types": [
+        10
+      ],
       "forms": {
         "637": {}
       },
@@ -8264,6 +10081,10 @@
       "stamina": 181
     },
     "468": {
+      "types": [
+        3,
+        18
+      ],
       "forms": {
         "1826": {}
       },
@@ -8272,6 +10093,10 @@
       "stamina": 198
     },
     "469": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "1829": {}
       },
@@ -8280,6 +10105,9 @@
       "stamina": 200
     },
     "470": {
+      "types": [
+        12
+      ],
       "forms": {
         "1832": {}
       },
@@ -8288,6 +10116,9 @@
       "stamina": 163
     },
     "471": {
+      "types": [
+        15
+      ],
       "forms": {
         "1835": {}
       },
@@ -8296,6 +10127,10 @@
       "stamina": 163
     },
     "472": {
+      "types": [
+        3,
+        5
+      ],
       "forms": {
         "806": {}
       },
@@ -8304,6 +10139,10 @@
       "stamina": 181
     },
     "473": {
+      "types": [
+        5,
+        15
+      ],
       "forms": {
         "1838": {}
       },
@@ -8312,6 +10151,9 @@
       "stamina": 242
     },
     "474": {
+      "types": [
+        1
+      ],
       "forms": {
         "683": {}
       },
@@ -8320,6 +10162,10 @@
       "stamina": 198
     },
     "475": {
+      "types": [
+        2,
+        14
+      ],
       "forms": {
         "301": {
           "temp_evolutions": {
@@ -8339,6 +10185,10 @@
       }
     },
     "476": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "1841": {}
       },
@@ -8347,6 +10197,9 @@
       "stamina": 155
     },
     "477": {
+      "types": [
+        8
+      ],
       "forms": {
         "920": {}
       },
@@ -8355,6 +10208,10 @@
       "stamina": 128
     },
     "478": {
+      "types": [
+        8,
+        15
+      ],
       "forms": {
         "1844": {
           "temp_evolutions": {
@@ -8375,32 +10232,56 @@
       }
     },
     "479": {
+      "types": [
+        8,
+        13
+      ],
       "forms": {
         "81": {},
         "82": {
           "attack": 204,
           "defense": 219,
-          "stamina": 137
+          "stamina": 137,
+          "types": [
+            13,
+            15
+          ]
         },
         "83": {
           "attack": 204,
           "defense": 219,
-          "stamina": 137
+          "stamina": 137,
+          "types": [
+            3,
+            13
+          ]
         },
         "84": {
           "attack": 204,
           "defense": 219,
-          "stamina": 137
+          "stamina": 137,
+          "types": [
+            12,
+            13
+          ]
         },
         "85": {
           "attack": 204,
           "defense": 219,
-          "stamina": 137
+          "stamina": 137,
+          "types": [
+            11,
+            13
+          ]
         },
         "86": {
           "attack": 204,
           "defense": 219,
-          "stamina": 137
+          "stamina": 137,
+          "types": [
+            10,
+            13
+          ]
         }
       },
       "attack": 185,
@@ -8408,6 +10289,9 @@
       "stamina": 137
     },
     "480": {
+      "types": [
+        14
+      ],
       "forms": {
         "1847": {}
       },
@@ -8416,6 +10300,9 @@
       "stamina": 181
     },
     "481": {
+      "types": [
+        14
+      ],
       "forms": {
         "1850": {}
       },
@@ -8424,6 +10311,9 @@
       "stamina": 190
     },
     "482": {
+      "types": [
+        14
+      ],
       "forms": {
         "1853": {}
       },
@@ -8432,6 +10322,10 @@
       "stamina": 181
     },
     "483": {
+      "types": [
+        9,
+        16
+      ],
       "forms": {
         "1856": {},
         "2829": {
@@ -8445,6 +10339,10 @@
       "stamina": 205
     },
     "484": {
+      "types": [
+        11,
+        16
+      ],
       "forms": {
         "1859": {},
         "2830": {
@@ -8458,6 +10356,10 @@
       "stamina": 189
     },
     "485": {
+      "types": [
+        9,
+        10
+      ],
       "forms": {
         "1862": {}
       },
@@ -8466,6 +10368,9 @@
       "stamina": 209
     },
     "486": {
+      "types": [
+        1
+      ],
       "forms": {
         "1865": {}
       },
@@ -8474,6 +10379,10 @@
       "stamina": 221
     },
     "487": {
+      "types": [
+        8,
+        16
+      ],
       "forms": {
         "90": {},
         "91": {
@@ -8488,6 +10397,9 @@
       "stamina": 284
     },
     "488": {
+      "types": [
+        14
+      ],
       "forms": {
         "1871": {}
       },
@@ -8496,6 +10408,9 @@
       "stamina": 260
     },
     "489": {
+      "types": [
+        11
+      ],
       "forms": {
         "1874": {}
       },
@@ -8504,6 +10419,9 @@
       "stamina": 190
     },
     "490": {
+      "types": [
+        11
+      ],
       "forms": {
         "1877": {}
       },
@@ -8512,6 +10430,9 @@
       "stamina": 225
     },
     "491": {
+      "types": [
+        17
+      ],
       "forms": {
         "1880": {}
       },
@@ -8520,11 +10441,18 @@
       "stamina": 172
     },
     "492": {
+      "types": [
+        12
+      ],
       "forms": {
         "92": {
           "attack": 261,
           "defense": 166,
-          "stamina": 225
+          "stamina": 225,
+          "types": [
+            3,
+            12
+          ]
         },
         "93": {},
         "1883": {}
@@ -8534,31 +10462,106 @@
       "stamina": 225
     },
     "493": {
+      "types": [
+        1
+      ],
       "forms": {
         "100": {},
-        "101": {},
-        "102": {},
-        "103": {},
-        "104": {},
-        "105": {},
-        "106": {},
-        "107": {},
-        "108": {},
-        "109": {},
-        "110": {},
-        "111": {},
-        "112": {},
-        "113": {},
-        "114": {},
-        "115": {},
-        "116": {},
-        "117": {}
+        "101": {
+          "types": [
+            2
+          ]
+        },
+        "102": {
+          "types": [
+            3
+          ]
+        },
+        "103": {
+          "types": [
+            4
+          ]
+        },
+        "104": {
+          "types": [
+            5
+          ]
+        },
+        "105": {
+          "types": [
+            6
+          ]
+        },
+        "106": {
+          "types": [
+            7
+          ]
+        },
+        "107": {
+          "types": [
+            8
+          ]
+        },
+        "108": {
+          "types": [
+            9
+          ]
+        },
+        "109": {
+          "types": [
+            10
+          ]
+        },
+        "110": {
+          "types": [
+            11
+          ]
+        },
+        "111": {
+          "types": [
+            12
+          ]
+        },
+        "112": {
+          "types": [
+            13
+          ]
+        },
+        "113": {
+          "types": [
+            14
+          ]
+        },
+        "114": {
+          "types": [
+            15
+          ]
+        },
+        "115": {
+          "types": [
+            16
+          ]
+        },
+        "116": {
+          "types": [
+            17
+          ]
+        },
+        "117": {
+          "types": [
+            18
+          ]
+        }
       },
       "attack": 238,
       "defense": 238,
       "stamina": 237
     },
     "494": {
+      "types": [
+        10,
+        14
+      ],
       "forms": {
         "1886": {}
       },
@@ -8567,6 +10570,9 @@
       "stamina": 225
     },
     "495": {
+      "types": [
+        12
+      ],
       "forms": {
         "1889": {
           "evolutions": [
@@ -8588,6 +10594,9 @@
       "little": true
     },
     "496": {
+      "types": [
+        12
+      ],
       "forms": {
         "1892": {
           "evolutions": [
@@ -8608,6 +10617,9 @@
       ]
     },
     "497": {
+      "types": [
+        12
+      ],
       "forms": {
         "1895": {}
       },
@@ -8616,6 +10628,9 @@
       "stamina": 181
     },
     "498": {
+      "types": [
+        10
+      ],
       "forms": {
         "1898": {
           "evolutions": [
@@ -8637,6 +10652,10 @@
       "little": true
     },
     "499": {
+      "types": [
+        2,
+        10
+      ],
       "forms": {
         "1901": {
           "evolutions": [
@@ -8657,6 +10676,10 @@
       ]
     },
     "500": {
+      "types": [
+        2,
+        10
+      ],
       "forms": {
         "1904": {
           "temp_evolutions": {
@@ -8677,6 +10700,9 @@
       }
     },
     "501": {
+      "types": [
+        11
+      ],
       "forms": {
         "1907": {
           "evolutions": [
@@ -8698,6 +10724,9 @@
       "little": true
     },
     "502": {
+      "types": [
+        11
+      ],
       "forms": {
         "1910": {
           "evolutions": [
@@ -8725,12 +10754,19 @@
       ]
     },
     "503": {
+      "types": [
+        11
+      ],
       "forms": {
         "1913": {},
         "2787": {
           "attack": 218,
           "defense": 152,
-          "stamina": 207
+          "stamina": 207,
+          "types": [
+            11,
+            17
+          ]
         }
       },
       "attack": 212,
@@ -8738,6 +10774,9 @@
       "stamina": 216
     },
     "504": {
+      "types": [
+        1
+      ],
       "forms": {
         "1916": {
           "evolutions": [
@@ -8759,6 +10798,9 @@
       "little": true
     },
     "505": {
+      "types": [
+        1
+      ],
       "forms": {
         "1919": {}
       },
@@ -8767,6 +10809,9 @@
       "stamina": 155
     },
     "506": {
+      "types": [
+        1
+      ],
       "forms": {
         "1922": {
           "evolutions": [
@@ -8788,6 +10833,9 @@
       "little": true
     },
     "507": {
+      "types": [
+        1
+      ],
       "forms": {
         "1925": {
           "evolutions": [
@@ -8808,6 +10856,9 @@
       ]
     },
     "508": {
+      "types": [
+        1
+      ],
       "forms": {
         "1928": {}
       },
@@ -8816,6 +10867,9 @@
       "stamina": 198
     },
     "509": {
+      "types": [
+        17
+      ],
       "forms": {
         "1931": {
           "evolutions": [
@@ -8837,6 +10891,9 @@
       "little": true
     },
     "510": {
+      "types": [
+        17
+      ],
       "forms": {
         "1934": {}
       },
@@ -8845,6 +10902,9 @@
       "stamina": 162
     },
     "511": {
+      "types": [
+        12
+      ],
       "forms": {
         "1937": {
           "evolutions": [
@@ -8866,6 +10926,9 @@
       "little": true
     },
     "512": {
+      "types": [
+        12
+      ],
       "forms": {
         "1940": {}
       },
@@ -8874,6 +10937,9 @@
       "stamina": 181
     },
     "513": {
+      "types": [
+        10
+      ],
       "forms": {
         "1943": {
           "evolutions": [
@@ -8895,6 +10961,9 @@
       "little": true
     },
     "514": {
+      "types": [
+        10
+      ],
       "forms": {
         "1946": {}
       },
@@ -8903,6 +10972,9 @@
       "stamina": 181
     },
     "515": {
+      "types": [
+        11
+      ],
       "forms": {
         "1949": {
           "evolutions": [
@@ -8924,6 +10996,9 @@
       "little": true
     },
     "516": {
+      "types": [
+        11
+      ],
       "forms": {
         "1952": {}
       },
@@ -8932,6 +11007,9 @@
       "stamina": 181
     },
     "517": {
+      "types": [
+        14
+      ],
       "forms": {
         "1955": {
           "evolutions": [
@@ -8953,6 +11031,9 @@
       "little": true
     },
     "518": {
+      "types": [
+        14
+      ],
       "forms": {
         "1958": {}
       },
@@ -8961,6 +11042,10 @@
       "stamina": 253
     },
     "519": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1961": {
           "evolutions": [
@@ -8982,6 +11067,10 @@
       "little": true
     },
     "520": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1964": {
           "evolutions": [
@@ -9002,6 +11091,10 @@
       ]
     },
     "521": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "1967": {}
       },
@@ -9010,6 +11103,9 @@
       "stamina": 190
     },
     "522": {
+      "types": [
+        13
+      ],
       "forms": {
         "1970": {
           "evolutions": [
@@ -9031,6 +11127,9 @@
       "little": true
     },
     "523": {
+      "types": [
+        13
+      ],
       "forms": {
         "1973": {}
       },
@@ -9039,6 +11138,9 @@
       "stamina": 181
     },
     "524": {
+      "types": [
+        6
+      ],
       "forms": {
         "1976": {
           "evolutions": [
@@ -9060,6 +11162,9 @@
       "little": true
     },
     "525": {
+      "types": [
+        6
+      ],
       "forms": {
         "1979": {
           "evolutions": [
@@ -9080,6 +11185,9 @@
       ]
     },
     "526": {
+      "types": [
+        6
+      ],
       "forms": {
         "1982": {}
       },
@@ -9088,6 +11196,10 @@
       "stamina": 198
     },
     "527": {
+      "types": [
+        3,
+        14
+      ],
       "forms": {
         "1985": {
           "evolutions": [
@@ -9109,6 +11221,10 @@
       "little": true
     },
     "528": {
+      "types": [
+        3,
+        14
+      ],
       "forms": {
         "1988": {}
       },
@@ -9117,6 +11233,9 @@
       "stamina": 167
     },
     "529": {
+      "types": [
+        5
+      ],
       "forms": {
         "1991": {
           "evolutions": [
@@ -9139,6 +11258,10 @@
       "little": true
     },
     "530": {
+      "types": [
+        5,
+        9
+      ],
       "forms": {
         "1994": {
           "temp_evolutions": {
@@ -9159,6 +11282,9 @@
       }
     },
     "531": {
+      "types": [
+        1
+      ],
       "forms": {
         "1997": {
           "temp_evolutions": {
@@ -9178,6 +11304,9 @@
       }
     },
     "532": {
+      "types": [
+        2
+      ],
       "forms": {
         "2000": {
           "evolutions": [
@@ -9199,6 +11328,9 @@
       "little": true
     },
     "533": {
+      "types": [
+        2
+      ],
       "forms": {
         "2003": {
           "evolutions": [
@@ -9219,6 +11351,9 @@
       ]
     },
     "534": {
+      "types": [
+        2
+      ],
       "forms": {
         "2006": {}
       },
@@ -9227,6 +11362,9 @@
       "stamina": 233
     },
     "535": {
+      "types": [
+        11
+      ],
       "forms": {
         "2009": {
           "evolutions": [
@@ -9248,6 +11386,10 @@
       "little": true
     },
     "536": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "2012": {
           "evolutions": [
@@ -9268,6 +11410,10 @@
       ]
     },
     "537": {
+      "types": [
+        5,
+        11
+      ],
       "forms": {
         "2015": {}
       },
@@ -9276,6 +11422,9 @@
       "stamina": 233
     },
     "538": {
+      "types": [
+        2
+      ],
       "forms": {
         "2018": {}
       },
@@ -9284,6 +11433,9 @@
       "stamina": 260
     },
     "539": {
+      "types": [
+        2
+      ],
       "forms": {
         "2021": {}
       },
@@ -9292,6 +11444,10 @@
       "stamina": 181
     },
     "540": {
+      "types": [
+        7,
+        12
+      ],
       "forms": {
         "2024": {
           "evolutions": [
@@ -9313,6 +11469,10 @@
       "little": true
     },
     "541": {
+      "types": [
+        7,
+        12
+      ],
       "forms": {
         "2027": {
           "evolutions": [
@@ -9333,6 +11493,10 @@
       ]
     },
     "542": {
+      "types": [
+        7,
+        12
+      ],
       "forms": {
         "2030": {}
       },
@@ -9341,6 +11505,10 @@
       "stamina": 181
     },
     "543": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "2033": {
           "evolutions": [
@@ -9362,6 +11530,10 @@
       "little": true
     },
     "544": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "2036": {
           "evolutions": [
@@ -9382,6 +11554,10 @@
       ]
     },
     "545": {
+      "types": [
+        4,
+        7
+      ],
       "forms": {
         "2039": {
           "temp_evolutions": {
@@ -9402,6 +11578,10 @@
       }
     },
     "546": {
+      "types": [
+        12,
+        18
+      ],
       "forms": {
         "2042": {
           "evolutions": [
@@ -9423,6 +11603,10 @@
       "little": true
     },
     "547": {
+      "types": [
+        12,
+        18
+      ],
       "forms": {
         "2045": {}
       },
@@ -9431,6 +11615,9 @@
       "stamina": 155
     },
     "548": {
+      "types": [
+        12
+      ],
       "forms": {
         "2048": {
           "evolutions": [
@@ -9459,12 +11646,19 @@
       "little": true
     },
     "549": {
+      "types": [
+        12
+      ],
       "forms": {
         "2051": {},
         "2789": {
           "attack": 208,
           "defense": 159,
-          "stamina": 172
+          "stamina": 172,
+          "types": [
+            2,
+            12
+          ]
         }
       },
       "attack": 214,
@@ -9472,6 +11666,9 @@
       "stamina": 172
     },
     "550": {
+      "types": [
+        11
+      ],
       "forms": {
         "136": {},
         "137": {},
@@ -9495,6 +11692,10 @@
       "stamina": 172
     },
     "551": {
+      "types": [
+        5,
+        17
+      ],
       "forms": {
         "2054": {
           "evolutions": [
@@ -9516,6 +11717,10 @@
       "little": true
     },
     "552": {
+      "types": [
+        5,
+        17
+      ],
       "forms": {
         "2057": {
           "evolutions": [
@@ -9536,6 +11741,10 @@
       ]
     },
     "553": {
+      "types": [
+        5,
+        17
+      ],
       "forms": {
         "2060": {}
       },
@@ -9544,6 +11753,9 @@
       "stamina": 216
     },
     "554": {
+      "types": [
+        10
+      ],
       "forms": {
         "2063": {
           "evolutions": [
@@ -9554,6 +11766,9 @@
           ]
         },
         "2341": {
+          "types": [
+            15
+          ],
           "evolutions": [
             {
               "pokemon": 555,
@@ -9574,18 +11789,33 @@
       "little": true
     },
     "555": {
+      "types": [
+        10
+      ],
       "forms": {
         "138": {},
         "139": {
           "attack": 243,
           "defense": 202,
-          "stamina": 233
+          "stamina": 233,
+          "types": [
+            10,
+            14
+          ]
         },
-        "2342": {},
+        "2342": {
+          "types": [
+            15
+          ]
+        },
         "2343": {
           "attack": 323,
           "defense": 123,
-          "stamina": 233
+          "stamina": 233,
+          "types": [
+            10,
+            15
+          ]
         }
       },
       "attack": 263,
@@ -9593,6 +11823,9 @@
       "stamina": 233
     },
     "556": {
+      "types": [
+        12
+      ],
       "forms": {
         "2066": {}
       },
@@ -9601,6 +11834,10 @@
       "stamina": 181
     },
     "557": {
+      "types": [
+        6,
+        7
+      ],
       "forms": {
         "2069": {
           "evolutions": [
@@ -9622,6 +11859,10 @@
       "little": true
     },
     "558": {
+      "types": [
+        6,
+        7
+      ],
       "forms": {
         "2072": {}
       },
@@ -9630,6 +11871,10 @@
       "stamina": 172
     },
     "559": {
+      "types": [
+        2,
+        17
+      ],
       "forms": {
         "2075": {
           "evolutions": [
@@ -9651,6 +11896,10 @@
       "little": true
     },
     "560": {
+      "types": [
+        2,
+        17
+      ],
       "forms": {
         "2078": {
           "temp_evolutions": {
@@ -9671,6 +11920,10 @@
       }
     },
     "561": {
+      "types": [
+        3,
+        14
+      ],
       "forms": {
         "2081": {}
       },
@@ -9679,6 +11932,9 @@
       "stamina": 176
     },
     "562": {
+      "types": [
+        8
+      ],
       "forms": {
         "2084": {
           "evolutions": [
@@ -9689,6 +11945,10 @@
           ]
         },
         "2344": {
+          "types": [
+            5,
+            8
+          ],
           "evolutions": [
             {
               "pokemon": 867,
@@ -9709,6 +11969,9 @@
       "little": true
     },
     "563": {
+      "types": [
+        8
+      ],
       "forms": {
         "2087": {}
       },
@@ -9717,6 +11980,10 @@
       "stamina": 151
     },
     "564": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "2090": {
           "evolutions": [
@@ -9738,6 +12005,10 @@
       "little": true
     },
     "565": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "2093": {}
       },
@@ -9746,6 +12017,10 @@
       "stamina": 179
     },
     "566": {
+      "types": [
+        3,
+        6
+      ],
       "forms": {
         "2096": {
           "evolutions": [
@@ -9767,6 +12042,10 @@
       "little": true
     },
     "567": {
+      "types": [
+        3,
+        6
+      ],
       "forms": {
         "2099": {}
       },
@@ -9775,6 +12054,9 @@
       "stamina": 181
     },
     "568": {
+      "types": [
+        4
+      ],
       "forms": {
         "2102": {
           "evolutions": [
@@ -9796,6 +12078,9 @@
       "little": true
     },
     "569": {
+      "types": [
+        4
+      ],
       "forms": {
         "2105": {}
       },
@@ -9804,6 +12089,9 @@
       "stamina": 190
     },
     "570": {
+      "types": [
+        17
+      ],
       "forms": {
         "2108": {
           "evolutions": [
@@ -9817,6 +12105,10 @@
           "attack": 162,
           "defense": 79,
           "stamina": 111,
+          "types": [
+            1,
+            8
+          ],
           "evolutions": [
             {
               "pokemon": 571,
@@ -9838,12 +12130,19 @@
       "little": true
     },
     "571": {
+      "types": [
+        17
+      ],
       "forms": {
         "2111": {},
         "2797": {
           "attack": 261,
           "defense": 128,
-          "stamina": 146
+          "stamina": 146,
+          "types": [
+            1,
+            8
+          ]
         }
       },
       "attack": 250,
@@ -9851,6 +12150,9 @@
       "stamina": 155
     },
     "572": {
+      "types": [
+        1
+      ],
       "forms": {
         "2114": {
           "evolutions": [
@@ -9872,6 +12174,9 @@
       "little": true
     },
     "573": {
+      "types": [
+        1
+      ],
       "forms": {
         "2117": {}
       },
@@ -9880,6 +12185,9 @@
       "stamina": 181
     },
     "574": {
+      "types": [
+        14
+      ],
       "forms": {
         "2120": {
           "evolutions": [
@@ -9901,6 +12209,9 @@
       "little": true
     },
     "575": {
+      "types": [
+        14
+      ],
       "forms": {
         "2123": {
           "evolutions": [
@@ -9921,6 +12232,9 @@
       ]
     },
     "576": {
+      "types": [
+        14
+      ],
       "forms": {
         "2126": {}
       },
@@ -9929,6 +12243,9 @@
       "stamina": 172
     },
     "577": {
+      "types": [
+        14
+      ],
       "forms": {
         "2129": {
           "evolutions": [
@@ -9950,6 +12267,9 @@
       "little": true
     },
     "578": {
+      "types": [
+        14
+      ],
       "forms": {
         "2132": {
           "evolutions": [
@@ -9970,6 +12290,9 @@
       ]
     },
     "579": {
+      "types": [
+        14
+      ],
       "forms": {
         "2135": {}
       },
@@ -9978,6 +12301,10 @@
       "stamina": 242
     },
     "580": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "2138": {
           "evolutions": [
@@ -9999,6 +12326,10 @@
       "little": true
     },
     "581": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "2141": {}
       },
@@ -10007,6 +12338,9 @@
       "stamina": 181
     },
     "582": {
+      "types": [
+        15
+      ],
       "forms": {
         "2144": {
           "evolutions": [
@@ -10028,6 +12362,9 @@
       "little": true
     },
     "583": {
+      "types": [
+        15
+      ],
       "forms": {
         "2147": {
           "evolutions": [
@@ -10048,6 +12385,9 @@
       ]
     },
     "584": {
+      "types": [
+        15
+      ],
       "forms": {
         "2150": {}
       },
@@ -10056,6 +12396,10 @@
       "stamina": 174
     },
     "585": {
+      "types": [
+        1,
+        12
+      ],
       "forms": {
         "585": {
           "evolutions": [
@@ -10096,6 +12440,10 @@
       "little": true
     },
     "586": {
+      "types": [
+        1,
+        12
+      ],
       "forms": {
         "589": {},
         "590": {},
@@ -10107,6 +12455,10 @@
       "stamina": 190
     },
     "587": {
+      "types": [
+        3,
+        13
+      ],
       "forms": {
         "2153": {}
       },
@@ -10115,6 +12467,9 @@
       "stamina": 146
     },
     "588": {
+      "types": [
+        7
+      ],
       "forms": {
         "2156": {
           "evolutions": [
@@ -10136,6 +12491,10 @@
       "little": true
     },
     "589": {
+      "types": [
+        7,
+        9
+      ],
       "forms": {
         "2159": {}
       },
@@ -10144,6 +12503,10 @@
       "stamina": 172
     },
     "590": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "2162": {
           "evolutions": [
@@ -10165,6 +12528,10 @@
       "little": true
     },
     "591": {
+      "types": [
+        4,
+        12
+      ],
       "forms": {
         "2165": {}
       },
@@ -10173,6 +12540,10 @@
       "stamina": 249
     },
     "592": {
+      "types": [
+        8,
+        11
+      ],
       "forms": {
         "2168": {
           "evolutions": [
@@ -10202,6 +12573,10 @@
       "little": true
     },
     "593": {
+      "types": [
+        8,
+        11
+      ],
       "forms": {
         "2171": {},
         "2331": {}
@@ -10211,6 +12586,9 @@
       "stamina": 225
     },
     "594": {
+      "types": [
+        11
+      ],
       "forms": {
         "2174": {}
       },
@@ -10219,6 +12597,10 @@
       "stamina": 338
     },
     "595": {
+      "types": [
+        7,
+        13
+      ],
       "forms": {
         "2177": {
           "evolutions": [
@@ -10240,6 +12622,10 @@
       "little": true
     },
     "596": {
+      "types": [
+        7,
+        13
+      ],
       "forms": {
         "2180": {}
       },
@@ -10248,6 +12634,10 @@
       "stamina": 172
     },
     "597": {
+      "types": [
+        9,
+        12
+      ],
       "forms": {
         "2183": {
           "evolutions": [
@@ -10269,6 +12659,10 @@
       "little": true
     },
     "598": {
+      "types": [
+        9,
+        12
+      ],
       "forms": {
         "2186": {}
       },
@@ -10277,6 +12671,9 @@
       "stamina": 179
     },
     "599": {
+      "types": [
+        9
+      ],
       "forms": {
         "2189": {
           "evolutions": [
@@ -10298,6 +12695,9 @@
       "little": true
     },
     "600": {
+      "types": [
+        9
+      ],
       "forms": {
         "2192": {
           "evolutions": [
@@ -10318,6 +12718,9 @@
       ]
     },
     "601": {
+      "types": [
+        9
+      ],
       "forms": {
         "2195": {}
       },
@@ -10326,6 +12729,9 @@
       "stamina": 155
     },
     "602": {
+      "types": [
+        13
+      ],
       "forms": {
         "2198": {
           "evolutions": [
@@ -10347,6 +12753,9 @@
       "little": true
     },
     "603": {
+      "types": [
+        13
+      ],
       "forms": {
         "2201": {
           "evolutions": [
@@ -10367,6 +12776,9 @@
       ]
     },
     "604": {
+      "types": [
+        13
+      ],
       "forms": {
         "2204": {
           "temp_evolutions": {
@@ -10387,6 +12799,9 @@
       }
     },
     "605": {
+      "types": [
+        14
+      ],
       "forms": {
         "2207": {
           "evolutions": [
@@ -10408,6 +12823,9 @@
       "little": true
     },
     "606": {
+      "types": [
+        14
+      ],
       "forms": {
         "2210": {}
       },
@@ -10416,6 +12834,10 @@
       "stamina": 181
     },
     "607": {
+      "types": [
+        8,
+        10
+      ],
       "forms": {
         "2213": {
           "evolutions": [
@@ -10437,6 +12859,10 @@
       "little": true
     },
     "608": {
+      "types": [
+        8,
+        10
+      ],
       "forms": {
         "2216": {
           "evolutions": [
@@ -10457,6 +12883,10 @@
       ]
     },
     "609": {
+      "types": [
+        8,
+        10
+      ],
       "forms": {
         "2219": {
           "temp_evolutions": {
@@ -10477,6 +12907,9 @@
       }
     },
     "610": {
+      "types": [
+        16
+      ],
       "forms": {
         "2222": {
           "evolutions": [
@@ -10498,6 +12931,9 @@
       "little": true
     },
     "611": {
+      "types": [
+        16
+      ],
       "forms": {
         "2225": {
           "evolutions": [
@@ -10518,6 +12954,9 @@
       ]
     },
     "612": {
+      "types": [
+        16
+      ],
       "forms": {
         "2228": {}
       },
@@ -10526,6 +12965,9 @@
       "stamina": 183
     },
     "613": {
+      "types": [
+        15
+      ],
       "forms": {
         "2231": {
           "evolutions": [
@@ -10555,6 +12997,9 @@
       "little": true
     },
     "614": {
+      "types": [
+        15
+      ],
       "forms": {
         "2234": {},
         "2820": {}
@@ -10564,6 +13009,9 @@
       "stamina": 216
     },
     "615": {
+      "types": [
+        15
+      ],
       "forms": {
         "2237": {}
       },
@@ -10572,6 +13020,9 @@
       "stamina": 190
     },
     "616": {
+      "types": [
+        7
+      ],
       "forms": {
         "2240": {
           "evolutions": [
@@ -10593,6 +13044,9 @@
       "little": true
     },
     "617": {
+      "types": [
+        7
+      ],
       "forms": {
         "2243": {}
       },
@@ -10601,15 +13055,27 @@
       "stamina": 190
     },
     "618": {
+      "types": [
+        5,
+        13
+      ],
       "forms": {
         "2246": {},
-        "2345": {}
+        "2345": {
+          "types": [
+            5,
+            9
+          ]
+        }
       },
       "attack": 144,
       "defense": 171,
       "stamina": 240
     },
     "619": {
+      "types": [
+        2
+      ],
       "forms": {
         "2249": {
           "evolutions": [
@@ -10631,6 +13097,9 @@
       "little": true
     },
     "620": {
+      "types": [
+        2
+      ],
       "forms": {
         "2252": {}
       },
@@ -10639,6 +13108,9 @@
       "stamina": 163
     },
     "621": {
+      "types": [
+        16
+      ],
       "forms": {
         "2255": {}
       },
@@ -10647,6 +13119,10 @@
       "stamina": 184
     },
     "622": {
+      "types": [
+        5,
+        8
+      ],
       "forms": {
         "2258": {
           "evolutions": [
@@ -10668,6 +13144,10 @@
       "little": true
     },
     "623": {
+      "types": [
+        5,
+        8
+      ],
       "forms": {
         "2261": {}
       },
@@ -10676,6 +13156,10 @@
       "stamina": 205
     },
     "624": {
+      "types": [
+        9,
+        17
+      ],
       "forms": {
         "2264": {
           "evolutions": [
@@ -10697,6 +13181,10 @@
       "little": true
     },
     "625": {
+      "types": [
+        9,
+        17
+      ],
       "forms": {
         "2267": {
           "evolutions": [
@@ -10717,6 +13205,9 @@
       ]
     },
     "626": {
+      "types": [
+        1
+      ],
       "forms": {
         "2270": {}
       },
@@ -10725,6 +13216,10 @@
       "stamina": 216
     },
     "627": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "2273": {
           "evolutions": [
@@ -10755,12 +13250,20 @@
       "little": true
     },
     "628": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "2276": {},
         "2798": {
           "attack": 213,
           "defense": 137,
-          "stamina": 242
+          "stamina": 242,
+          "types": [
+            3,
+            14
+          ]
         }
       },
       "attack": 232,
@@ -10768,6 +13271,10 @@
       "stamina": 225
     },
     "629": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "2279": {
           "evolutions": [
@@ -10789,6 +13296,10 @@
       "little": true
     },
     "630": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "2282": {}
       },
@@ -10797,6 +13308,9 @@
       "stamina": 242
     },
     "631": {
+      "types": [
+        10
+      ],
       "forms": {
         "2285": {}
       },
@@ -10805,6 +13319,10 @@
       "stamina": 198
     },
     "632": {
+      "types": [
+        7,
+        9
+      ],
       "forms": {
         "2288": {}
       },
@@ -10813,6 +13331,10 @@
       "stamina": 151
     },
     "633": {
+      "types": [
+        16,
+        17
+      ],
       "forms": {
         "2291": {
           "evolutions": [
@@ -10834,6 +13356,10 @@
       "little": true
     },
     "634": {
+      "types": [
+        16,
+        17
+      ],
       "forms": {
         "2294": {
           "evolutions": [
@@ -10854,6 +13380,10 @@
       ]
     },
     "635": {
+      "types": [
+        16,
+        17
+      ],
       "forms": {
         "2297": {}
       },
@@ -10862,6 +13392,10 @@
       "stamina": 211
     },
     "636": {
+      "types": [
+        7,
+        10
+      ],
       "forms": {
         "2300": {
           "evolutions": [
@@ -10883,6 +13417,10 @@
       "little": true
     },
     "637": {
+      "types": [
+        7,
+        10
+      ],
       "forms": {
         "2303": {}
       },
@@ -10891,6 +13429,10 @@
       "stamina": 198
     },
     "638": {
+      "types": [
+        2,
+        9
+      ],
       "forms": {
         "2306": {}
       },
@@ -10899,6 +13441,10 @@
       "stamina": 209
     },
     "639": {
+      "types": [
+        2,
+        6
+      ],
       "forms": {
         "2309": {}
       },
@@ -10907,6 +13453,10 @@
       "stamina": 209
     },
     "640": {
+      "types": [
+        2,
+        12
+      ],
       "forms": {
         "2312": {}
       },
@@ -10915,6 +13465,9 @@
       "stamina": 209
     },
     "641": {
+      "types": [
+        3
+      ],
       "forms": {
         "140": {},
         "141": {
@@ -10928,6 +13481,10 @@
       "stamina": 188
     },
     "642": {
+      "types": [
+        3,
+        13
+      ],
       "forms": {
         "142": {},
         "143": {
@@ -10941,6 +13498,10 @@
       "stamina": 188
     },
     "643": {
+      "types": [
+        10,
+        16
+      ],
       "forms": {
         "2315": {}
       },
@@ -10949,6 +13510,10 @@
       "stamina": 205
     },
     "644": {
+      "types": [
+        13,
+        16
+      ],
       "forms": {
         "2318": {}
       },
@@ -10957,6 +13522,10 @@
       "stamina": 205
     },
     "645": {
+      "types": [
+        3,
+        5
+      ],
       "forms": {
         "144": {},
         "145": {
@@ -10970,6 +13539,10 @@
       "stamina": 205
     },
     "646": {
+      "types": [
+        15,
+        16
+      ],
       "forms": {
         "146": {},
         "147": {
@@ -10988,6 +13561,10 @@
       "stamina": 245
     },
     "647": {
+      "types": [
+        2,
+        11
+      ],
       "forms": {
         "149": {},
         "150": {}
@@ -10997,12 +13574,20 @@
       "stamina": 209
     },
     "648": {
+      "types": [
+        1,
+        14
+      ],
       "forms": {
         "151": {},
         "152": {
           "attack": 269,
           "defense": 188,
-          "stamina": 225
+          "stamina": 225,
+          "types": [
+            1,
+            2
+          ]
         }
       },
       "attack": 250,
@@ -11010,6 +13595,10 @@
       "stamina": 225
     },
     "649": {
+      "types": [
+        7,
+        9
+      ],
       "forms": {
         "593": {},
         "594": {},
@@ -11022,6 +13611,9 @@
       "stamina": 174
     },
     "650": {
+      "types": [
+        12
+      ],
       "forms": {
         "3022": {
           "evolutions": [
@@ -11043,6 +13635,9 @@
       "little": true
     },
     "651": {
+      "types": [
+        12
+      ],
       "forms": {
         "3023": {
           "evolutions": [
@@ -11063,6 +13658,10 @@
       ]
     },
     "652": {
+      "types": [
+        2,
+        12
+      ],
       "forms": {
         "3024": {
           "temp_evolutions": {
@@ -11083,6 +13682,9 @@
       }
     },
     "653": {
+      "types": [
+        10
+      ],
       "forms": {
         "3025": {
           "evolutions": [
@@ -11104,6 +13706,9 @@
       "little": true
     },
     "654": {
+      "types": [
+        10
+      ],
       "forms": {
         "3026": {
           "evolutions": [
@@ -11124,6 +13729,10 @@
       ]
     },
     "655": {
+      "types": [
+        10,
+        14
+      ],
       "forms": {
         "3027": {
           "temp_evolutions": {
@@ -11144,6 +13753,9 @@
       }
     },
     "656": {
+      "types": [
+        11
+      ],
       "forms": {
         "3028": {
           "evolutions": [
@@ -11165,6 +13777,9 @@
       "little": true
     },
     "657": {
+      "types": [
+        11
+      ],
       "forms": {
         "3029": {
           "evolutions": [
@@ -11185,6 +13800,10 @@
       ]
     },
     "658": {
+      "types": [
+        11,
+        17
+      ],
       "forms": {
         "3030": {
           "temp_evolutions": {
@@ -11205,6 +13824,9 @@
       }
     },
     "659": {
+      "types": [
+        1
+      ],
       "forms": {
         "3031": {
           "evolutions": [
@@ -11226,6 +13848,10 @@
       "little": true
     },
     "660": {
+      "types": [
+        1,
+        5
+      ],
       "forms": {
         "3032": {}
       },
@@ -11234,6 +13860,10 @@
       "stamina": 198
     },
     "661": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "3033": {
           "evolutions": [
@@ -11255,6 +13885,10 @@
       "little": true
     },
     "662": {
+      "types": [
+        3,
+        10
+      ],
       "forms": {
         "3034": {
           "evolutions": [
@@ -11275,6 +13909,10 @@
       ]
     },
     "663": {
+      "types": [
+        3,
+        10
+      ],
       "forms": {
         "3035": {}
       },
@@ -11283,6 +13921,9 @@
       "stamina": 186
     },
     "664": {
+      "types": [
+        7
+      ],
       "forms": {
         "2745": {
           "evolutions": [
@@ -11456,6 +14097,9 @@
       "little": true
     },
     "665": {
+      "types": [
+        7
+      ],
       "forms": {
         "2765": {
           "evolutions": [
@@ -11628,6 +14272,10 @@
       ]
     },
     "666": {
+      "types": [
+        3,
+        7
+      ],
       "forms": {
         "2594": {},
         "2595": {},
@@ -11655,6 +14303,10 @@
       "stamina": 190
     },
     "667": {
+      "types": [
+        1,
+        10
+      ],
       "forms": {
         "3036": {
           "evolutions": [
@@ -11689,6 +14341,10 @@
       "little": true
     },
     "668": {
+      "types": [
+        1,
+        10
+      ],
       "forms": {
         "2587": {
           "temp_evolutions": {
@@ -11710,6 +14366,9 @@
       }
     },
     "669": {
+      "types": [
+        18
+      ],
       "forms": {
         "2614": {
           "evolutions": [
@@ -11764,6 +14423,9 @@
       "little": true
     },
     "670": {
+      "types": [
+        18
+      ],
       "forms": {
         "2619": {
           "evolutions": [
@@ -11825,6 +14487,9 @@
       }
     },
     "671": {
+      "types": [
+        18
+      ],
       "forms": {
         "2624": {},
         "2625": {},
@@ -11837,6 +14502,9 @@
       "stamina": 186
     },
     "672": {
+      "types": [
+        12
+      ],
       "forms": {
         "3037": {
           "evolutions": [
@@ -11858,6 +14526,9 @@
       "little": true
     },
     "673": {
+      "types": [
+        12
+      ],
       "forms": {
         "3038": {}
       },
@@ -11866,6 +14537,9 @@
       "stamina": 265
     },
     "674": {
+      "types": [
+        2
+      ],
       "forms": {
         "3039": {
           "evolutions": [
@@ -11887,6 +14561,10 @@
       "little": true
     },
     "675": {
+      "types": [
+        2,
+        17
+      ],
       "forms": {
         "3040": {}
       },
@@ -11895,6 +14573,9 @@
       "stamina": 216
     },
     "676": {
+      "types": [
+        1
+      ],
       "forms": {
         "2629": {},
         "2630": {},
@@ -11912,6 +14593,9 @@
       "stamina": 181
     },
     "677": {
+      "types": [
+        14
+      ],
       "forms": {
         "3041": {
           "evolutions": [
@@ -11946,6 +14630,9 @@
       "little": true
     },
     "678": {
+      "types": [
+        14
+      ],
       "forms": {
         "2589": {},
         "2590": {}
@@ -11955,6 +14642,10 @@
       "stamina": 179
     },
     "679": {
+      "types": [
+        8,
+        9
+      ],
       "forms": {
         "3042": {
           "evolutions": [
@@ -11976,6 +14667,10 @@
       "little": true
     },
     "680": {
+      "types": [
+        8,
+        9
+      ],
       "forms": {
         "3043": {
           "evolutions": [
@@ -11997,6 +14692,10 @@
       ]
     },
     "681": {
+      "types": [
+        8,
+        9
+      ],
       "forms": {
         "2639": {},
         "2640": {
@@ -12010,6 +14709,9 @@
       "stamina": 155
     },
     "682": {
+      "types": [
+        18
+      ],
       "forms": {
         "3044": {
           "evolutions": [
@@ -12031,6 +14733,9 @@
       "little": true
     },
     "683": {
+      "types": [
+        18
+      ],
       "forms": {
         "3045": {}
       },
@@ -12039,6 +14744,9 @@
       "stamina": 226
     },
     "684": {
+      "types": [
+        18
+      ],
       "forms": {
         "3046": {
           "evolutions": [
@@ -12060,6 +14768,9 @@
       "little": true
     },
     "685": {
+      "types": [
+        18
+      ],
       "forms": {
         "3047": {}
       },
@@ -12068,6 +14779,10 @@
       "stamina": 193
     },
     "686": {
+      "types": [
+        14,
+        17
+      ],
       "forms": {
         "3048": {
           "evolutions": [
@@ -12089,6 +14804,10 @@
       "little": true
     },
     "687": {
+      "types": [
+        14,
+        17
+      ],
       "forms": {
         "3049": {
           "temp_evolutions": {
@@ -12109,6 +14828,10 @@
       }
     },
     "688": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "3050": {
           "evolutions": [
@@ -12130,6 +14853,10 @@
       "little": true
     },
     "689": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "3051": {
           "temp_evolutions": {
@@ -12150,6 +14877,10 @@
       }
     },
     "690": {
+      "types": [
+        4,
+        11
+      ],
       "forms": {
         "3052": {
           "evolutions": [
@@ -12171,6 +14902,10 @@
       "little": true
     },
     "691": {
+      "types": [
+        4,
+        16
+      ],
       "forms": {
         "3053": {
           "temp_evolutions": {
@@ -12191,6 +14926,9 @@
       }
     },
     "692": {
+      "types": [
+        11
+      ],
       "forms": {
         "3054": {
           "evolutions": [
@@ -12212,6 +14950,9 @@
       "little": true
     },
     "693": {
+      "types": [
+        11
+      ],
       "forms": {
         "3055": {}
       },
@@ -12220,6 +14961,10 @@
       "stamina": 174
     },
     "694": {
+      "types": [
+        1,
+        13
+      ],
       "forms": {
         "3056": {
           "evolutions": [
@@ -12241,6 +14986,10 @@
       "little": true
     },
     "695": {
+      "types": [
+        1,
+        13
+      ],
       "forms": {
         "3057": {}
       },
@@ -12249,6 +14998,10 @@
       "stamina": 158
     },
     "696": {
+      "types": [
+        6,
+        16
+      ],
       "forms": {
         "3058": {
           "evolutions": [
@@ -12270,6 +15023,10 @@
       "little": true
     },
     "697": {
+      "types": [
+        6,
+        16
+      ],
       "forms": {
         "3059": {}
       },
@@ -12278,6 +15035,10 @@
       "stamina": 193
     },
     "698": {
+      "types": [
+        6,
+        15
+      ],
       "forms": {
         "3060": {
           "evolutions": [
@@ -12299,6 +15060,10 @@
       "little": true
     },
     "699": {
+      "types": [
+        6,
+        15
+      ],
       "forms": {
         "3061": {}
       },
@@ -12307,6 +15072,9 @@
       "stamina": 265
     },
     "700": {
+      "types": [
+        18
+      ],
       "forms": {
         "3062": {}
       },
@@ -12315,6 +15083,10 @@
       "stamina": 216
     },
     "701": {
+      "types": [
+        2,
+        3
+      ],
       "forms": {
         "3063": {
           "temp_evolutions": {
@@ -12335,6 +15107,10 @@
       }
     },
     "702": {
+      "types": [
+        13,
+        18
+      ],
       "forms": {
         "2860": {}
       },
@@ -12343,6 +15119,10 @@
       "stamina": 167
     },
     "703": {
+      "types": [
+        6,
+        18
+      ],
       "forms": {
         "3064": {}
       },
@@ -12351,6 +15131,9 @@
       "stamina": 137
     },
     "704": {
+      "types": [
+        16
+      ],
       "forms": {
         "3065": {
           "evolutions": [
@@ -12379,6 +15162,9 @@
       "little": true
     },
     "705": {
+      "types": [
+        16
+      ],
       "forms": {
         "2790": {
           "attack": 153,
@@ -12410,6 +15196,9 @@
       ]
     },
     "706": {
+      "types": [
+        16
+      ],
       "forms": {
         "2791": {
           "attack": 211,
@@ -12423,6 +15212,10 @@
       "stamina": 207
     },
     "707": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "3066": {}
       },
@@ -12431,6 +15224,10 @@
       "stamina": 149
     },
     "708": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "3067": {
           "evolutions": [
@@ -12452,6 +15249,10 @@
       "little": true
     },
     "709": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "3068": {}
       },
@@ -12460,6 +15261,10 @@
       "stamina": 198
     },
     "710": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "2641": {
           "evolutions": [
@@ -12515,6 +15320,10 @@
       "little": true
     },
     "711": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "2645": {},
         "2646": {
@@ -12538,6 +15347,9 @@
       "stamina": 146
     },
     "712": {
+      "types": [
+        15
+      ],
       "forms": {
         "3069": {
           "evolutions": [
@@ -12566,11 +15378,18 @@
       "little": true
     },
     "713": {
+      "types": [
+        15
+      ],
       "forms": {
         "2795": {
           "attack": 214,
           "defense": 238,
-          "stamina": 216
+          "stamina": 216,
+          "types": [
+            6,
+            15
+          ]
         },
         "2812": {}
       },
@@ -12579,6 +15398,10 @@
       "stamina": 216
     },
     "714": {
+      "types": [
+        3,
+        16
+      ],
       "forms": {
         "3070": {
           "evolutions": [
@@ -12600,6 +15423,10 @@
       "little": true
     },
     "715": {
+      "types": [
+        3,
+        16
+      ],
       "forms": {
         "3071": {}
       },
@@ -12608,6 +15435,9 @@
       "stamina": 198
     },
     "716": {
+      "types": [
+        18
+      ],
       "forms": {
         "2649": {},
         "2650": {},
@@ -12618,6 +15448,10 @@
       "stamina": 246
     },
     "717": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "3073": {}
       },
@@ -12626,6 +15460,10 @@
       "stamina": 246
     },
     "718": {
+      "types": [
+        5,
+        16
+      ],
       "forms": {
         "2591": {
           "attack": 205,
@@ -12677,6 +15515,10 @@
       }
     },
     "719": {
+      "types": [
+        6,
+        18
+      ],
       "forms": {
         "3074": {
           "temp_evolutions": {
@@ -12696,12 +15538,20 @@
       }
     },
     "720": {
+      "types": [
+        8,
+        14
+      ],
       "forms": {
         "2651": {},
         "2652": {
           "attack": 311,
           "defense": 191,
-          "stamina": 173
+          "stamina": 173,
+          "types": [
+            14,
+            17
+          ]
         }
       },
       "attack": 261,
@@ -12709,6 +15559,10 @@
       "stamina": 173
     },
     "721": {
+      "types": [
+        10,
+        11
+      ],
       "forms": {
         "3075": {}
       },
@@ -12717,6 +15571,10 @@
       "stamina": 190
     },
     "722": {
+      "types": [
+        3,
+        12
+      ],
       "forms": {
         "3076": {
           "evolutions": [
@@ -12738,6 +15596,10 @@
       "little": true
     },
     "723": {
+      "types": [
+        3,
+        12
+      ],
       "forms": {
         "3077": {
           "evolutions": [
@@ -12765,11 +15627,19 @@
       ]
     },
     "724": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "2785": {
           "attack": 213,
           "defense": 174,
-          "stamina": 204
+          "stamina": 204,
+          "types": [
+            2,
+            12
+          ]
         },
         "2809": {}
       },
@@ -12778,6 +15648,9 @@
       "stamina": 186
     },
     "725": {
+      "types": [
+        10
+      ],
       "forms": {
         "3078": {
           "evolutions": [
@@ -12799,6 +15672,9 @@
       "little": true
     },
     "726": {
+      "types": [
+        10
+      ],
       "forms": {
         "3079": {
           "evolutions": [
@@ -12819,6 +15695,10 @@
       ]
     },
     "727": {
+      "types": [
+        10,
+        17
+      ],
       "forms": {
         "3080": {}
       },
@@ -12827,6 +15707,9 @@
       "stamina": 216
     },
     "728": {
+      "types": [
+        11
+      ],
       "forms": {
         "3081": {
           "evolutions": [
@@ -12848,6 +15731,9 @@
       "little": true
     },
     "729": {
+      "types": [
+        11
+      ],
       "forms": {
         "3082": {
           "evolutions": [
@@ -12868,6 +15754,10 @@
       ]
     },
     "730": {
+      "types": [
+        11,
+        18
+      ],
       "forms": {
         "3083": {}
       },
@@ -12876,6 +15766,10 @@
       "stamina": 190
     },
     "731": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "3084": {
           "evolutions": [
@@ -12897,6 +15791,10 @@
       "little": true
     },
     "732": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "3085": {
           "evolutions": [
@@ -12917,6 +15815,10 @@
       ]
     },
     "733": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "3086": {}
       },
@@ -12925,6 +15827,9 @@
       "stamina": 190
     },
     "734": {
+      "types": [
+        1
+      ],
       "forms": {
         "3087": {
           "evolutions": [
@@ -12946,6 +15851,9 @@
       "little": true
     },
     "735": {
+      "types": [
+        1
+      ],
       "forms": {
         "3088": {}
       },
@@ -12954,6 +15862,9 @@
       "stamina": 204
     },
     "736": {
+      "types": [
+        7
+      ],
       "forms": {
         "3089": {
           "evolutions": [
@@ -12975,6 +15886,10 @@
       "little": true
     },
     "737": {
+      "types": [
+        7,
+        13
+      ],
       "forms": {
         "3090": {
           "evolutions": [
@@ -12995,6 +15910,10 @@
       ]
     },
     "738": {
+      "types": [
+        7,
+        13
+      ],
       "forms": {
         "3091": {}
       },
@@ -13003,6 +15922,9 @@
       "stamina": 184
     },
     "739": {
+      "types": [
+        2
+      ],
       "forms": {
         "3092": {
           "evolutions": [
@@ -13024,6 +15946,10 @@
       "little": true
     },
     "740": {
+      "types": [
+        2,
+        15
+      ],
       "forms": {
         "3093": {}
       },
@@ -13032,17 +15958,40 @@
       "stamina": 219
     },
     "741": {
+      "types": [
+        3,
+        10
+      ],
       "forms": {
         "2679": {},
-        "2680": {},
-        "2681": {},
-        "2683": {}
+        "2680": {
+          "types": [
+            3,
+            13
+          ]
+        },
+        "2681": {
+          "types": [
+            3,
+            14
+          ]
+        },
+        "2683": {
+          "types": [
+            3,
+            8
+          ]
+        }
       },
       "attack": 196,
       "defense": 145,
       "stamina": 181
     },
     "742": {
+      "types": [
+        7,
+        18
+      ],
       "forms": {
         "3094": {
           "evolutions": [
@@ -13064,6 +16013,10 @@
       "little": true
     },
     "743": {
+      "types": [
+        7,
+        18
+      ],
       "forms": {
         "3095": {}
       },
@@ -13072,6 +16025,9 @@
       "stamina": 155
     },
     "744": {
+      "types": [
+        6
+      ],
       "forms": {
         "2737": {
           "evolutions": [
@@ -13110,6 +16066,9 @@
       "little": true
     },
     "745": {
+      "types": [
+        6
+      ],
       "forms": {
         "2684": {},
         "2685": {
@@ -13128,6 +16087,9 @@
       "stamina": 181
     },
     "746": {
+      "types": [
+        11
+      ],
       "forms": {
         "2687": {},
         "2688": {
@@ -13141,6 +16103,10 @@
       "stamina": 128
     },
     "747": {
+      "types": [
+        4,
+        11
+      ],
       "forms": {
         "3096": {
           "evolutions": [
@@ -13162,6 +16128,10 @@
       "little": true
     },
     "748": {
+      "types": [
+        4,
+        11
+      ],
       "forms": {
         "3097": {}
       },
@@ -13170,6 +16140,9 @@
       "stamina": 137
     },
     "749": {
+      "types": [
+        5
+      ],
       "forms": {
         "3098": {
           "evolutions": [
@@ -13191,6 +16164,9 @@
       "little": true
     },
     "750": {
+      "types": [
+        5
+      ],
       "forms": {
         "3099": {}
       },
@@ -13199,6 +16175,10 @@
       "stamina": 225
     },
     "751": {
+      "types": [
+        7,
+        11
+      ],
       "forms": {
         "3100": {
           "evolutions": [
@@ -13220,6 +16200,10 @@
       "little": true
     },
     "752": {
+      "types": [
+        7,
+        11
+      ],
       "forms": {
         "3101": {}
       },
@@ -13228,6 +16212,9 @@
       "stamina": 169
     },
     "753": {
+      "types": [
+        12
+      ],
       "forms": {
         "3102": {
           "evolutions": [
@@ -13249,6 +16236,9 @@
       "little": true
     },
     "754": {
+      "types": [
+        12
+      ],
       "forms": {
         "3103": {}
       },
@@ -13257,6 +16247,10 @@
       "stamina": 172
     },
     "755": {
+      "types": [
+        12,
+        18
+      ],
       "forms": {
         "3104": {
           "evolutions": [
@@ -13278,6 +16272,10 @@
       "little": true
     },
     "756": {
+      "types": [
+        12,
+        18
+      ],
       "forms": {
         "3105": {}
       },
@@ -13286,6 +16284,10 @@
       "stamina": 155
     },
     "757": {
+      "types": [
+        4,
+        10
+      ],
       "forms": {
         "3106": {
           "evolutions": [
@@ -13309,6 +16311,10 @@
       "little": true
     },
     "758": {
+      "types": [
+        4,
+        10
+      ],
       "forms": {
         "3107": {}
       },
@@ -13317,6 +16323,10 @@
       "stamina": 169
     },
     "759": {
+      "types": [
+        1,
+        2
+      ],
       "forms": {
         "3108": {
           "evolutions": [
@@ -13338,6 +16348,10 @@
       "little": true
     },
     "760": {
+      "types": [
+        1,
+        2
+      ],
       "forms": {
         "3020": {},
         "3021": {}
@@ -13347,6 +16361,9 @@
       "stamina": 260
     },
     "761": {
+      "types": [
+        12
+      ],
       "forms": {
         "3109": {
           "evolutions": [
@@ -13368,6 +16385,9 @@
       "little": true
     },
     "762": {
+      "types": [
+        12
+      ],
       "forms": {
         "3110": {
           "evolutions": [
@@ -13388,6 +16408,9 @@
       ]
     },
     "763": {
+      "types": [
+        12
+      ],
       "forms": {
         "3111": {}
       },
@@ -13396,6 +16419,9 @@
       "stamina": 176
     },
     "764": {
+      "types": [
+        18
+      ],
       "forms": {
         "3112": {}
       },
@@ -13404,6 +16430,10 @@
       "stamina": 139
     },
     "765": {
+      "types": [
+        1,
+        14
+      ],
       "forms": {
         "3113": {}
       },
@@ -13412,6 +16442,9 @@
       "stamina": 207
     },
     "766": {
+      "types": [
+        2
+      ],
       "forms": {
         "3114": {}
       },
@@ -13420,6 +16453,10 @@
       "stamina": 225
     },
     "767": {
+      "types": [
+        7,
+        11
+      ],
       "forms": {
         "3115": {
           "evolutions": [
@@ -13441,6 +16478,10 @@
       "little": true
     },
     "768": {
+      "types": [
+        7,
+        11
+      ],
       "forms": {
         "3116": {}
       },
@@ -13449,6 +16490,10 @@
       "stamina": 181
     },
     "769": {
+      "types": [
+        5,
+        8
+      ],
       "forms": {
         "3117": {
           "evolutions": [
@@ -13470,6 +16515,10 @@
       "little": true
     },
     "770": {
+      "types": [
+        5,
+        8
+      ],
       "forms": {
         "3118": {}
       },
@@ -13478,6 +16527,9 @@
       "stamina": 198
     },
     "771": {
+      "types": [
+        11
+      ],
       "forms": {
         "3119": {}
       },
@@ -13486,6 +16538,9 @@
       "stamina": 146
     },
     "772": {
+      "types": [
+        1
+      ],
       "forms": {
         "3120": {
           "evolutions": [
@@ -13508,31 +16563,106 @@
       "little": true
     },
     "773": {
+      "types": [
+        1
+      ],
       "forms": {
         "2689": {},
-        "2690": {},
-        "2691": {},
-        "2692": {},
-        "2693": {},
-        "2694": {},
-        "2695": {},
-        "2696": {},
-        "2697": {},
-        "2698": {},
-        "2699": {},
-        "2700": {},
-        "2701": {},
-        "2702": {},
-        "2703": {},
-        "2704": {},
-        "2705": {},
-        "2706": {}
+        "2690": {
+          "types": [
+            7
+          ]
+        },
+        "2691": {
+          "types": [
+            17
+          ]
+        },
+        "2692": {
+          "types": [
+            16
+          ]
+        },
+        "2693": {
+          "types": [
+            13
+          ]
+        },
+        "2694": {
+          "types": [
+            18
+          ]
+        },
+        "2695": {
+          "types": [
+            2
+          ]
+        },
+        "2696": {
+          "types": [
+            10
+          ]
+        },
+        "2697": {
+          "types": [
+            3
+          ]
+        },
+        "2698": {
+          "types": [
+            8
+          ]
+        },
+        "2699": {
+          "types": [
+            12
+          ]
+        },
+        "2700": {
+          "types": [
+            5
+          ]
+        },
+        "2701": {
+          "types": [
+            15
+          ]
+        },
+        "2702": {
+          "types": [
+            4
+          ]
+        },
+        "2703": {
+          "types": [
+            14
+          ]
+        },
+        "2704": {
+          "types": [
+            6
+          ]
+        },
+        "2705": {
+          "types": [
+            9
+          ]
+        },
+        "2706": {
+          "types": [
+            11
+          ]
+        }
       },
       "attack": 198,
       "defense": 198,
       "stamina": 216
     },
     "774": {
+      "types": [
+        3,
+        6
+      ],
       "forms": {
         "2707": {},
         "2708": {
@@ -13582,6 +16712,9 @@
       "stamina": 155
     },
     "775": {
+      "types": [
+        1
+      ],
       "forms": {
         "3121": {}
       },
@@ -13590,6 +16723,10 @@
       "stamina": 163
     },
     "776": {
+      "types": [
+        10,
+        16
+      ],
       "forms": {
         "3122": {}
       },
@@ -13598,6 +16735,10 @@
       "stamina": 155
     },
     "777": {
+      "types": [
+        9,
+        13
+      ],
       "forms": {
         "3123": {}
       },
@@ -13606,6 +16747,10 @@
       "stamina": 163
     },
     "778": {
+      "types": [
+        8,
+        18
+      ],
       "forms": {
         "2715": {},
         "2716": {}
@@ -13615,6 +16760,10 @@
       "stamina": 146
     },
     "779": {
+      "types": [
+        11,
+        14
+      ],
       "forms": {
         "3124": {}
       },
@@ -13623,6 +16772,10 @@
       "stamina": 169
     },
     "780": {
+      "types": [
+        1,
+        16
+      ],
       "forms": {
         "3125": {
           "temp_evolutions": {
@@ -13643,6 +16796,10 @@
       }
     },
     "781": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "3126": {}
       },
@@ -13651,6 +16808,9 @@
       "stamina": 172
     },
     "782": {
+      "types": [
+        16
+      ],
       "forms": {
         "3127": {
           "evolutions": [
@@ -13672,6 +16832,10 @@
       "little": true
     },
     "783": {
+      "types": [
+        2,
+        16
+      ],
       "forms": {
         "3128": {
           "evolutions": [
@@ -13692,6 +16856,10 @@
       ]
     },
     "784": {
+      "types": [
+        2,
+        16
+      ],
       "forms": {
         "3129": {}
       },
@@ -13700,6 +16868,10 @@
       "stamina": 181
     },
     "785": {
+      "types": [
+        13,
+        18
+      ],
       "forms": {
         "3130": {}
       },
@@ -13708,6 +16880,10 @@
       "stamina": 172
     },
     "786": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "3131": {}
       },
@@ -13716,6 +16892,10 @@
       "stamina": 172
     },
     "787": {
+      "types": [
+        12,
+        18
+      ],
       "forms": {
         "3132": {}
       },
@@ -13724,6 +16904,10 @@
       "stamina": 172
     },
     "788": {
+      "types": [
+        11,
+        18
+      ],
       "forms": {
         "3133": {}
       },
@@ -13732,6 +16916,9 @@
       "stamina": 172
     },
     "789": {
+      "types": [
+        14
+      ],
       "forms": {
         "3134": {
           "evolutions": [
@@ -13753,6 +16940,9 @@
       "little": true
     },
     "790": {
+      "types": [
+        14
+      ],
       "forms": {
         "3135": {
           "evolutions": [
@@ -13780,6 +16970,10 @@
       ]
     },
     "791": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "3136": {}
       },
@@ -13788,6 +16982,10 @@
       "stamina": 264
     },
     "792": {
+      "types": [
+        8,
+        14
+      ],
       "forms": {
         "3137": {}
       },
@@ -13796,6 +16994,10 @@
       "stamina": 264
     },
     "793": {
+      "types": [
+        4,
+        6
+      ],
       "forms": {
         "3138": {}
       },
@@ -13804,6 +17006,10 @@
       "stamina": 240
     },
     "794": {
+      "types": [
+        2,
+        7
+      ],
       "forms": {
         "3139": {}
       },
@@ -13812,6 +17018,10 @@
       "stamina": 216
     },
     "795": {
+      "types": [
+        2,
+        7
+      ],
       "forms": {
         "3140": {}
       },
@@ -13820,6 +17030,9 @@
       "stamina": 174
     },
     "796": {
+      "types": [
+        13
+      ],
       "forms": {
         "3141": {}
       },
@@ -13828,6 +17041,10 @@
       "stamina": 195
     },
     "797": {
+      "types": [
+        3,
+        9
+      ],
       "forms": {
         "3142": {}
       },
@@ -13836,6 +17053,10 @@
       "stamina": 219
     },
     "798": {
+      "types": [
+        9,
+        12
+      ],
       "forms": {
         "3143": {}
       },
@@ -13844,6 +17065,10 @@
       "stamina": 139
     },
     "799": {
+      "types": [
+        16,
+        17
+      ],
       "forms": {
         "3144": {}
       },
@@ -13852,22 +17077,37 @@
       "stamina": 440
     },
     "800": {
+      "types": [
+        14
+      ],
       "forms": {
         "2717": {},
         "2718": {
           "attack": 277,
           "defense": 220,
-          "stamina": 200
+          "stamina": 200,
+          "types": [
+            9,
+            14
+          ]
         },
         "2719": {
           "attack": 277,
           "defense": 220,
-          "stamina": 200
+          "stamina": 200,
+          "types": [
+            8,
+            14
+          ]
         },
         "2720": {
           "attack": 337,
           "defense": 196,
-          "stamina": 200
+          "stamina": 200,
+          "types": [
+            14,
+            16
+          ]
         }
       },
       "attack": 251,
@@ -13875,6 +17115,10 @@
       "stamina": 219
     },
     "801": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "2721": {},
         "2722": {}
@@ -13884,6 +17128,10 @@
       "stamina": 190
     },
     "802": {
+      "types": [
+        2,
+        8
+      ],
       "forms": {
         "3145": {}
       },
@@ -13892,6 +17140,9 @@
       "stamina": 207
     },
     "803": {
+      "types": [
+        4
+      ],
       "forms": {
         "3146": {
           "evolutions": [
@@ -13913,6 +17164,10 @@
       "little": true
     },
     "804": {
+      "types": [
+        4,
+        16
+      ],
       "forms": {
         "3147": {}
       },
@@ -13921,6 +17176,10 @@
       "stamina": 177
     },
     "805": {
+      "types": [
+        6,
+        9
+      ],
       "forms": {
         "3148": {}
       },
@@ -13929,6 +17188,10 @@
       "stamina": 156
     },
     "806": {
+      "types": [
+        8,
+        10
+      ],
       "forms": {
         "3149": {}
       },
@@ -13937,6 +17200,9 @@
       "stamina": 142
     },
     "807": {
+      "types": [
+        13
+      ],
       "forms": {
         "3150": {}
       },
@@ -13945,6 +17211,9 @@
       "stamina": 204
     },
     "808": {
+      "types": [
+        9
+      ],
       "forms": {
         "2321": {
           "evolutions": [
@@ -13966,6 +17235,9 @@
       "little": true
     },
     "809": {
+      "types": [
+        9
+      ],
       "forms": {
         "2324": {}
       },
@@ -13974,6 +17246,9 @@
       "stamina": 264
     },
     "810": {
+      "types": [
+        12
+      ],
       "forms": {
         "3151": {
           "evolutions": [
@@ -13995,6 +17270,9 @@
       "little": true
     },
     "811": {
+      "types": [
+        12
+      ],
       "forms": {
         "3152": {
           "evolutions": [
@@ -14015,6 +17293,9 @@
       ]
     },
     "812": {
+      "types": [
+        12
+      ],
       "forms": {
         "2326": {}
       },
@@ -14023,6 +17304,9 @@
       "stamina": 225
     },
     "813": {
+      "types": [
+        10
+      ],
       "forms": {
         "3153": {
           "evolutions": [
@@ -14044,6 +17328,9 @@
       "little": true
     },
     "814": {
+      "types": [
+        10
+      ],
       "forms": {
         "3154": {
           "evolutions": [
@@ -14064,6 +17351,9 @@
       ]
     },
     "815": {
+      "types": [
+        10
+      ],
       "forms": {
         "3016": {}
       },
@@ -14072,6 +17362,9 @@
       "stamina": 190
     },
     "816": {
+      "types": [
+        11
+      ],
       "forms": {
         "3155": {
           "evolutions": [
@@ -14093,6 +17386,9 @@
       "little": true
     },
     "817": {
+      "types": [
+        11
+      ],
       "forms": {
         "3156": {
           "evolutions": [
@@ -14113,6 +17409,9 @@
       ]
     },
     "818": {
+      "types": [
+        11
+      ],
       "forms": {
         "3157": {}
       },
@@ -14121,6 +17420,9 @@
       "stamina": 172
     },
     "819": {
+      "types": [
+        1
+      ],
       "forms": {
         "3158": {
           "evolutions": [
@@ -14142,6 +17444,9 @@
       "little": true
     },
     "820": {
+      "types": [
+        1
+      ],
       "forms": {
         "3159": {}
       },
@@ -14150,6 +17455,9 @@
       "stamina": 260
     },
     "821": {
+      "types": [
+        3
+      ],
       "forms": {
         "3160": {
           "evolutions": [
@@ -14171,6 +17479,9 @@
       "little": true
     },
     "822": {
+      "types": [
+        3
+      ],
       "forms": {
         "3161": {
           "evolutions": [
@@ -14191,6 +17502,10 @@
       ]
     },
     "823": {
+      "types": [
+        3,
+        9
+      ],
       "forms": {
         "3162": {}
       },
@@ -14199,6 +17514,9 @@
       "stamina": 221
     },
     "824": {
+      "types": [
+        7
+      ],
       "forms": {
         "3163": {
           "evolutions": [
@@ -14220,6 +17538,10 @@
       "little": true
     },
     "825": {
+      "types": [
+        7,
+        14
+      ],
       "forms": {
         "3164": {
           "evolutions": [
@@ -14240,6 +17562,10 @@
       ]
     },
     "826": {
+      "types": [
+        7,
+        14
+      ],
       "forms": {
         "3165": {}
       },
@@ -14248,6 +17574,9 @@
       "stamina": 155
     },
     "827": {
+      "types": [
+        17
+      ],
       "forms": {
         "3166": {
           "evolutions": [
@@ -14269,6 +17598,9 @@
       "little": true
     },
     "828": {
+      "types": [
+        17
+      ],
       "forms": {
         "3167": {}
       },
@@ -14277,6 +17609,9 @@
       "stamina": 172
     },
     "829": {
+      "types": [
+        12
+      ],
       "forms": {
         "3168": {
           "evolutions": [
@@ -14298,6 +17633,9 @@
       "little": true
     },
     "830": {
+      "types": [
+        12
+      ],
       "forms": {
         "3169": {}
       },
@@ -14306,6 +17644,9 @@
       "stamina": 155
     },
     "831": {
+      "types": [
+        1
+      ],
       "forms": {
         "2861": {
           "evolutions": [
@@ -14327,6 +17668,9 @@
       "little": true
     },
     "832": {
+      "types": [
+        1
+      ],
       "forms": {
         "2862": {}
       },
@@ -14335,6 +17679,9 @@
       "stamina": 176
     },
     "833": {
+      "types": [
+        11
+      ],
       "forms": {
         "3170": {
           "evolutions": [
@@ -14356,6 +17703,10 @@
       "little": true
     },
     "834": {
+      "types": [
+        6,
+        11
+      ],
       "forms": {
         "3171": {}
       },
@@ -14364,6 +17715,9 @@
       "stamina": 207
     },
     "835": {
+      "types": [
+        13
+      ],
       "forms": {
         "3172": {
           "evolutions": [
@@ -14385,6 +17739,9 @@
       "little": true
     },
     "836": {
+      "types": [
+        13
+      ],
       "forms": {
         "3173": {}
       },
@@ -14393,6 +17750,9 @@
       "stamina": 170
     },
     "837": {
+      "types": [
+        6
+      ],
       "forms": {
         "3174": {
           "evolutions": [
@@ -14414,6 +17774,10 @@
       "little": true
     },
     "838": {
+      "types": [
+        6,
+        10
+      ],
       "forms": {
         "3175": {
           "evolutions": [
@@ -14434,6 +17798,10 @@
       ]
     },
     "839": {
+      "types": [
+        6,
+        10
+      ],
       "forms": {
         "3176": {}
       },
@@ -14442,6 +17810,10 @@
       "stamina": 242
     },
     "840": {
+      "types": [
+        12,
+        16
+      ],
       "forms": {
         "3177": {
           "evolutions": [
@@ -14480,6 +17852,10 @@
       "little": true
     },
     "841": {
+      "types": [
+        12,
+        16
+      ],
       "forms": {
         "3178": {}
       },
@@ -14488,6 +17864,10 @@
       "stamina": 172
     },
     "842": {
+      "types": [
+        12,
+        16
+      ],
       "forms": {
         "3179": {}
       },
@@ -14496,6 +17876,9 @@
       "stamina": 242
     },
     "843": {
+      "types": [
+        5
+      ],
       "forms": {
         "3180": {
           "evolutions": [
@@ -14517,6 +17900,9 @@
       "little": true
     },
     "844": {
+      "types": [
+        5
+      ],
       "forms": {
         "3181": {}
       },
@@ -14525,6 +17911,10 @@
       "stamina": 176
     },
     "845": {
+      "types": [
+        3,
+        11
+      ],
       "forms": {
         "3182": {}
       },
@@ -14533,6 +17923,9 @@
       "stamina": 172
     },
     "846": {
+      "types": [
+        11
+      ],
       "forms": {
         "3183": {
           "evolutions": [
@@ -14554,6 +17947,9 @@
       "little": true
     },
     "847": {
+      "types": [
+        11
+      ],
       "forms": {
         "3184": {}
       },
@@ -14562,6 +17958,10 @@
       "stamina": 156
     },
     "848": {
+      "types": [
+        4,
+        13
+      ],
       "forms": {
         "3185": {
           "evolutions": [
@@ -14592,6 +17992,10 @@
       "little": true
     },
     "849": {
+      "types": [
+        4,
+        13
+      ],
       "forms": {
         "2463": {},
         "2464": {}
@@ -14601,6 +18005,10 @@
       "stamina": 181
     },
     "850": {
+      "types": [
+        7,
+        10
+      ],
       "forms": {
         "3186": {
           "evolutions": [
@@ -14622,6 +18030,10 @@
       "little": true
     },
     "851": {
+      "types": [
+        7,
+        10
+      ],
       "forms": {
         "3187": {}
       },
@@ -14630,6 +18042,9 @@
       "stamina": 225
     },
     "852": {
+      "types": [
+        2
+      ],
       "forms": {
         "3188": {
           "evolutions": [
@@ -14651,6 +18066,9 @@
       "little": true
     },
     "853": {
+      "types": [
+        2
+      ],
       "forms": {
         "3189": {}
       },
@@ -14659,6 +18077,9 @@
       "stamina": 190
     },
     "854": {
+      "types": [
+        8
+      ],
       "forms": {
         "2477": {
           "evolutions": [
@@ -14688,6 +18109,9 @@
       "little": true
     },
     "855": {
+      "types": [
+        8
+      ],
       "forms": {
         "2480": {},
         "2481": {}
@@ -14697,6 +18121,9 @@
       "stamina": 155
     },
     "856": {
+      "types": [
+        14
+      ],
       "forms": {
         "3190": {
           "evolutions": [
@@ -14718,6 +18145,9 @@
       "little": true
     },
     "857": {
+      "types": [
+        14
+      ],
       "forms": {
         "3191": {
           "evolutions": [
@@ -14738,6 +18168,10 @@
       ]
     },
     "858": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "3192": {}
       },
@@ -14746,6 +18180,10 @@
       "stamina": 149
     },
     "859": {
+      "types": [
+        17,
+        18
+      ],
       "forms": {
         "3193": {
           "evolutions": [
@@ -14767,6 +18205,10 @@
       "little": true
     },
     "860": {
+      "types": [
+        17,
+        18
+      ],
       "forms": {
         "3194": {
           "evolutions": [
@@ -14787,6 +18229,10 @@
       ]
     },
     "861": {
+      "types": [
+        17,
+        18
+      ],
       "forms": {
         "3195": {}
       },
@@ -14795,6 +18241,10 @@
       "stamina": 216
     },
     "862": {
+      "types": [
+        1,
+        17
+      ],
       "forms": {
         "2501": {}
       },
@@ -14803,6 +18253,9 @@
       "stamina": 212
     },
     "863": {
+      "types": [
+        9
+      ],
       "forms": {
         "2504": {}
       },
@@ -14811,6 +18264,9 @@
       "stamina": 172
     },
     "864": {
+      "types": [
+        8
+      ],
       "forms": {
         "2507": {}
       },
@@ -14819,6 +18275,9 @@
       "stamina": 155
     },
     "865": {
+      "types": [
+        2
+      ],
       "forms": {
         "2510": {}
       },
@@ -14827,6 +18286,10 @@
       "stamina": 158
     },
     "866": {
+      "types": [
+        14,
+        15
+      ],
       "forms": {
         "2513": {}
       },
@@ -14835,6 +18298,10 @@
       "stamina": 190
     },
     "867": {
+      "types": [
+        5,
+        8
+      ],
       "forms": {
         "2516": {}
       },
@@ -14843,6 +18310,9 @@
       "stamina": 151
     },
     "868": {
+      "types": [
+        18
+      ],
       "forms": {
         "3196": {
           "evolutions": [
@@ -14864,6 +18334,9 @@
       "little": true
     },
     "869": {
+      "types": [
+        18
+      ],
       "forms": {
         "3197": {}
       },
@@ -14872,6 +18345,9 @@
       "stamina": 163
     },
     "870": {
+      "types": [
+        2
+      ],
       "forms": {
         "2325": {
           "temp_evolutions": {
@@ -14893,6 +18369,9 @@
       }
     },
     "871": {
+      "types": [
+        13
+      ],
       "forms": {
         "3198": {}
       },
@@ -14901,6 +18380,10 @@
       "stamina": 134
     },
     "872": {
+      "types": [
+        7,
+        15
+      ],
       "forms": {
         "3199": {
           "evolutions": [
@@ -14922,6 +18405,10 @@
       "little": true
     },
     "873": {
+      "types": [
+        7,
+        15
+      ],
       "forms": {
         "3200": {}
       },
@@ -14930,6 +18417,9 @@
       "stamina": 172
     },
     "874": {
+      "types": [
+        6
+      ],
       "forms": {
         "3201": {}
       },
@@ -14938,6 +18428,9 @@
       "stamina": 225
     },
     "875": {
+      "types": [
+        15
+      ],
       "forms": {
         "2540": {},
         "2541": {
@@ -14951,6 +18444,10 @@
       "stamina": 181
     },
     "876": {
+      "types": [
+        1,
+        14
+      ],
       "forms": {
         "2542": {},
         "2543": {
@@ -14964,6 +18461,10 @@
       "stamina": 155
     },
     "877": {
+      "types": [
+        13,
+        17
+      ],
       "forms": {
         "2544": {},
         "2545": {}
@@ -14973,6 +18474,9 @@
       "stamina": 151
     },
     "878": {
+      "types": [
+        9
+      ],
       "forms": {
         "3202": {
           "evolutions": [
@@ -14994,6 +18498,9 @@
       "little": true
     },
     "879": {
+      "types": [
+        9
+      ],
       "forms": {
         "3203": {}
       },
@@ -15002,6 +18509,10 @@
       "stamina": 263
     },
     "880": {
+      "types": [
+        13,
+        16
+      ],
       "forms": {
         "3204": {}
       },
@@ -15010,6 +18521,10 @@
       "stamina": 207
     },
     "881": {
+      "types": [
+        13,
+        15
+      ],
       "forms": {
         "3205": {}
       },
@@ -15018,6 +18533,10 @@
       "stamina": 207
     },
     "882": {
+      "types": [
+        11,
+        16
+      ],
       "forms": {
         "3206": {}
       },
@@ -15026,6 +18545,10 @@
       "stamina": 207
     },
     "883": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "3207": {}
       },
@@ -15040,6 +18563,10 @@
           "form": 0
         }
       ],
+      "types": [
+        9,
+        16
+      ],
       "forms": {
         "3208": {}
       },
@@ -15049,6 +18576,10 @@
       "little": true
     },
     "885": {
+      "types": [
+        8,
+        16
+      ],
       "forms": {
         "3209": {
           "evolutions": [
@@ -15070,6 +18601,10 @@
       "little": true
     },
     "886": {
+      "types": [
+        8,
+        16
+      ],
       "forms": {
         "3210": {
           "evolutions": [
@@ -15090,6 +18625,10 @@
       ]
     },
     "887": {
+      "types": [
+        8,
+        16
+      ],
       "forms": {
         "3211": {}
       },
@@ -15098,32 +18637,52 @@
       "stamina": 204
     },
     "888": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "2576": {
           "attack": 332,
           "defense": 240,
           "stamina": 192
         },
-        "2577": {}
+        "2577": {
+          "types": [
+            18
+          ]
+        }
       },
       "attack": 254,
       "defense": 236,
       "stamina": 192
     },
     "889": {
+      "types": [
+        2,
+        9
+      ],
       "forms": {
         "2578": {
           "attack": 250,
           "defense": 292,
           "stamina": 192
         },
-        "2579": {}
+        "2579": {
+          "types": [
+            2
+          ]
+        }
       },
       "attack": 254,
       "defense": 236,
       "stamina": 192
     },
     "890": {
+      "types": [
+        4,
+        16
+      ],
       "forms": {
         "2580": {
           "attack": 251,
@@ -15137,6 +18696,9 @@
       "stamina": 268
     },
     "891": {
+      "types": [
+        2
+      ],
       "forms": {
         "3212": {
           "evolutions": [
@@ -15167,15 +18729,32 @@
       "little": true
     },
     "892": {
+      "types": [
+        2
+      ],
       "forms": {
-        "2723": {},
-        "2724": {}
+        "2723": {
+          "types": [
+            2,
+            17
+          ]
+        },
+        "2724": {
+          "types": [
+            2,
+            11
+          ]
+        }
       },
       "attack": 254,
       "defense": 177,
       "stamina": 225
     },
     "893": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "3213": {}
       },
@@ -15184,6 +18763,9 @@
       "stamina": 233
     },
     "894": {
+      "types": [
+        13
+      ],
       "forms": {
         "3214": {}
       },
@@ -15192,6 +18774,9 @@
       "stamina": 190
     },
     "895": {
+      "types": [
+        16
+      ],
       "forms": {
         "3215": {}
       },
@@ -15200,6 +18785,9 @@
       "stamina": 400
     },
     "896": {
+      "types": [
+        15
+      ],
       "forms": {
         "3216": {}
       },
@@ -15208,6 +18796,9 @@
       "stamina": 225
     },
     "897": {
+      "types": [
+        8
+      ],
       "forms": {
         "3217": {}
       },
@@ -15216,17 +18807,29 @@
       "stamina": 205
     },
     "898": {
+      "types": [
+        12,
+        14
+      ],
       "forms": {
         "2725": {},
         "2726": {
           "attack": 268,
           "defense": 246,
-          "stamina": 205
+          "stamina": 205,
+          "types": [
+            14,
+            15
+          ]
         },
         "2727": {
           "attack": 324,
           "defense": 194,
-          "stamina": 205
+          "stamina": 205,
+          "types": [
+            8,
+            14
+          ]
         }
       },
       "attack": 162,
@@ -15234,6 +18837,10 @@
       "stamina": 225
     },
     "899": {
+      "types": [
+        1,
+        14
+      ],
       "forms": {
         "3218": {}
       },
@@ -15242,6 +18849,10 @@
       "stamina": 230
     },
     "900": {
+      "types": [
+        6,
+        7
+      ],
       "forms": {
         "3219": {}
       },
@@ -15250,6 +18861,10 @@
       "stamina": 172
     },
     "901": {
+      "types": [
+        1,
+        5
+      ],
       "forms": {
         "2817": {}
       },
@@ -15261,6 +18876,10 @@
       "attack": 217,
       "defense": 144,
       "stamina": 260,
+      "types": [
+        8,
+        11
+      ],
       "forms": {
         "0": {},
         "2807": {},
@@ -15272,6 +18891,10 @@
       }
     },
     "903": {
+      "types": [
+        2,
+        4
+      ],
       "forms": {
         "3220": {}
       },
@@ -15280,6 +18903,10 @@
       "stamina": 190
     },
     "904": {
+      "types": [
+        4,
+        17
+      ],
       "forms": {
         "3221": {}
       },
@@ -15288,6 +18915,10 @@
       "stamina": 198
     },
     "905": {
+      "types": [
+        3,
+        18
+      ],
       "forms": {
         "2802": {},
         "2803": {
@@ -15301,6 +18932,9 @@
       "stamina": 179
     },
     "906": {
+      "types": [
+        12
+      ],
       "forms": {
         "3222": {
           "evolutions": [
@@ -15322,6 +18956,9 @@
       "little": true
     },
     "907": {
+      "types": [
+        12
+      ],
       "forms": {
         "3223": {
           "evolutions": [
@@ -15342,6 +18979,10 @@
       ]
     },
     "908": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "3224": {}
       },
@@ -15350,6 +18991,9 @@
       "stamina": 183
     },
     "909": {
+      "types": [
+        10
+      ],
       "forms": {
         "3225": {
           "evolutions": [
@@ -15371,6 +19015,9 @@
       "little": true
     },
     "910": {
+      "types": [
+        10
+      ],
       "forms": {
         "3226": {
           "evolutions": [
@@ -15391,6 +19038,10 @@
       ]
     },
     "911": {
+      "types": [
+        8,
+        10
+      ],
       "forms": {
         "3227": {}
       },
@@ -15399,6 +19050,9 @@
       "stamina": 232
     },
     "912": {
+      "types": [
+        11
+      ],
       "forms": {
         "3228": {
           "evolutions": [
@@ -15420,6 +19074,9 @@
       "little": true
     },
     "913": {
+      "types": [
+        11
+      ],
       "forms": {
         "3229": {
           "evolutions": [
@@ -15440,6 +19097,10 @@
       ]
     },
     "914": {
+      "types": [
+        2,
+        11
+      ],
       "forms": {
         "3230": {}
       },
@@ -15448,6 +19109,9 @@
       "stamina": 198
     },
     "915": {
+      "types": [
+        1
+      ],
       "forms": {
         "3231": {
           "evolutions": [
@@ -15482,6 +19146,9 @@
       "little": true
     },
     "916": {
+      "types": [
+        1
+      ],
       "forms": {
         "2981": {},
         "2982": {
@@ -15495,6 +19162,9 @@
       "stamina": 242
     },
     "917": {
+      "types": [
+        7
+      ],
       "forms": {
         "3232": {
           "evolutions": [
@@ -15516,6 +19186,9 @@
       "little": true
     },
     "918": {
+      "types": [
+        7
+      ],
       "forms": {
         "3233": {}
       },
@@ -15524,6 +19197,9 @@
       "stamina": 155
     },
     "919": {
+      "types": [
+        7
+      ],
       "forms": {
         "3234": {
           "evolutions": [
@@ -15545,6 +19221,10 @@
       "little": true
     },
     "920": {
+      "types": [
+        7,
+        17
+      ],
       "forms": {
         "3235": {}
       },
@@ -15553,6 +19233,9 @@
       "stamina": 174
     },
     "921": {
+      "types": [
+        13
+      ],
       "forms": {
         "3236": {
           "evolutions": [
@@ -15574,6 +19257,10 @@
       "little": true
     },
     "922": {
+      "types": [
+        2,
+        13
+      ],
       "forms": {
         "3237": {
           "evolutions": [
@@ -15594,6 +19281,10 @@
       ]
     },
     "923": {
+      "types": [
+        2,
+        13
+      ],
       "forms": {
         "3238": {}
       },
@@ -15602,6 +19293,9 @@
       "stamina": 172
     },
     "924": {
+      "types": [
+        1
+      ],
       "forms": {
         "3239": {
           "evolutions": [
@@ -15632,6 +19326,9 @@
       "little": true
     },
     "925": {
+      "types": [
+        1
+      ],
       "forms": {
         "2983": {},
         "2984": {}
@@ -15641,6 +19338,9 @@
       "stamina": 179
     },
     "926": {
+      "types": [
+        18
+      ],
       "forms": {
         "3240": {
           "evolutions": [
@@ -15662,6 +19362,9 @@
       "little": true
     },
     "927": {
+      "types": [
+        18
+      ],
       "forms": {
         "3241": {}
       },
@@ -15670,6 +19373,10 @@
       "stamina": 149
     },
     "928": {
+      "types": [
+        1,
+        12
+      ],
       "forms": {
         "3242": {
           "evolutions": [
@@ -15691,6 +19398,10 @@
       "little": true
     },
     "929": {
+      "types": [
+        1,
+        12
+      ],
       "forms": {
         "3243": {
           "evolutions": [
@@ -15711,6 +19422,10 @@
       ]
     },
     "930": {
+      "types": [
+        1,
+        12
+      ],
       "forms": {
         "3244": {}
       },
@@ -15719,6 +19434,10 @@
       "stamina": 186
     },
     "931": {
+      "types": [
+        1,
+        3
+      ],
       "forms": {
         "2985": {},
         "2986": {},
@@ -15730,6 +19449,9 @@
       "stamina": 193
     },
     "932": {
+      "types": [
+        6
+      ],
       "forms": {
         "3245": {
           "evolutions": [
@@ -15751,6 +19473,9 @@
       "little": true
     },
     "933": {
+      "types": [
+        6
+      ],
       "forms": {
         "3246": {
           "evolutions": [
@@ -15771,6 +19496,9 @@
       ]
     },
     "934": {
+      "types": [
+        6
+      ],
       "forms": {
         "3247": {}
       },
@@ -15779,6 +19507,9 @@
       "stamina": 225
     },
     "935": {
+      "types": [
+        10
+      ],
       "forms": {
         "3248": {
           "evolutions": [
@@ -15807,6 +19538,10 @@
       "little": true
     },
     "936": {
+      "types": [
+        10,
+        14
+      ],
       "forms": {
         "3249": {}
       },
@@ -15815,6 +19550,10 @@
       "stamina": 198
     },
     "937": {
+      "types": [
+        8,
+        10
+      ],
       "forms": {
         "3250": {}
       },
@@ -15823,6 +19562,9 @@
       "stamina": 181
     },
     "938": {
+      "types": [
+        13
+      ],
       "forms": {
         "3251": {
           "evolutions": [
@@ -15844,6 +19586,9 @@
       "little": true
     },
     "939": {
+      "types": [
+        13
+      ],
       "forms": {
         "3252": {}
       },
@@ -15852,6 +19597,10 @@
       "stamina": 240
     },
     "940": {
+      "types": [
+        3,
+        13
+      ],
       "forms": {
         "3253": {
           "evolutions": [
@@ -15873,6 +19622,10 @@
       "little": true
     },
     "941": {
+      "types": [
+        3,
+        13
+      ],
       "forms": {
         "3254": {}
       },
@@ -15881,6 +19634,9 @@
       "stamina": 172
     },
     "942": {
+      "types": [
+        17
+      ],
       "forms": {
         "3255": {
           "evolutions": [
@@ -15902,6 +19658,9 @@
       "little": true
     },
     "943": {
+      "types": [
+        17
+      ],
       "forms": {
         "3256": {}
       },
@@ -15910,6 +19669,10 @@
       "stamina": 190
     },
     "944": {
+      "types": [
+        1,
+        4
+      ],
       "forms": {
         "3257": {
           "evolutions": [
@@ -15931,6 +19694,10 @@
       "little": true
     },
     "945": {
+      "types": [
+        1,
+        4
+      ],
       "forms": {
         "3258": {}
       },
@@ -15939,6 +19706,10 @@
       "stamina": 160
     },
     "946": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "3259": {
           "evolutions": [
@@ -15960,6 +19731,10 @@
       "little": true
     },
     "947": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "3260": {}
       },
@@ -15968,6 +19743,10 @@
       "stamina": 146
     },
     "948": {
+      "types": [
+        5,
+        12
+      ],
       "forms": {
         "3261": {
           "evolutions": [
@@ -15989,6 +19768,10 @@
       "little": true
     },
     "949": {
+      "types": [
+        5,
+        12
+      ],
       "forms": {
         "3262": {}
       },
@@ -15997,6 +19780,9 @@
       "stamina": 190
     },
     "950": {
+      "types": [
+        6
+      ],
       "forms": {
         "3263": {}
       },
@@ -16005,6 +19791,9 @@
       "stamina": 172
     },
     "951": {
+      "types": [
+        12
+      ],
       "forms": {
         "3264": {
           "evolutions": [
@@ -16026,6 +19815,10 @@
       "little": true
     },
     "952": {
+      "types": [
+        10,
+        12
+      ],
       "forms": {
         "3265": {}
       },
@@ -16034,6 +19827,9 @@
       "stamina": 163
     },
     "953": {
+      "types": [
+        7
+      ],
       "forms": {
         "3266": {
           "evolutions": [
@@ -16055,6 +19851,10 @@
       "little": true
     },
     "954": {
+      "types": [
+        7,
+        14
+      ],
       "forms": {
         "3267": {}
       },
@@ -16063,6 +19863,9 @@
       "stamina": 181
     },
     "955": {
+      "types": [
+        14
+      ],
       "forms": {
         "3268": {
           "evolutions": [
@@ -16084,6 +19887,9 @@
       "little": true
     },
     "956": {
+      "types": [
+        14
+      ],
       "forms": {
         "3269": {}
       },
@@ -16092,6 +19898,10 @@
       "stamina": 216
     },
     "957": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "3270": {
           "evolutions": [
@@ -16113,6 +19923,10 @@
       "little": true
     },
     "958": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "3271": {
           "evolutions": [
@@ -16133,6 +19947,10 @@
       ]
     },
     "959": {
+      "types": [
+        9,
+        18
+      ],
       "forms": {
         "3272": {}
       },
@@ -16141,6 +19959,9 @@
       "stamina": 198
     },
     "960": {
+      "types": [
+        11
+      ],
       "forms": {
         "3273": {
           "evolutions": [
@@ -16162,6 +19983,9 @@
       "little": true
     },
     "961": {
+      "types": [
+        11
+      ],
       "forms": {
         "3274": {}
       },
@@ -16170,6 +19994,10 @@
       "stamina": 111
     },
     "962": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "3275": {}
       },
@@ -16178,6 +20006,9 @@
       "stamina": 172
     },
     "963": {
+      "types": [
+        11
+      ],
       "forms": {
         "3276": {
           "evolutions": [
@@ -16199,6 +20030,9 @@
       "little": true
     },
     "964": {
+      "types": [
+        11
+      ],
       "forms": {
         "2989": {},
         "2990": {
@@ -16212,6 +20046,10 @@
       "stamina": 225
     },
     "965": {
+      "types": [
+        4,
+        9
+      ],
       "forms": {
         "3277": {
           "evolutions": [
@@ -16233,6 +20071,10 @@
       "little": true
     },
     "966": {
+      "types": [
+        4,
+        9
+      ],
       "forms": {
         "3278": {}
       },
@@ -16241,6 +20083,10 @@
       "stamina": 190
     },
     "967": {
+      "types": [
+        1,
+        16
+      ],
       "forms": {
         "3279": {}
       },
@@ -16249,6 +20095,9 @@
       "stamina": 172
     },
     "968": {
+      "types": [
+        9
+      ],
       "forms": {
         "3280": {}
       },
@@ -16257,6 +20106,10 @@
       "stamina": 172
     },
     "969": {
+      "types": [
+        4,
+        6
+      ],
       "forms": {
         "3281": {
           "evolutions": [
@@ -16278,6 +20131,10 @@
       "little": true
     },
     "970": {
+      "types": [
+        4,
+        6
+      ],
       "forms": {
         "3282": {}
       },
@@ -16286,6 +20143,9 @@
       "stamina": 195
     },
     "971": {
+      "types": [
+        8
+      ],
       "forms": {
         "3283": {
           "evolutions": [
@@ -16307,6 +20167,9 @@
       "little": true
     },
     "972": {
+      "types": [
+        8
+      ],
       "forms": {
         "3284": {}
       },
@@ -16315,6 +20178,10 @@
       "stamina": 176
     },
     "973": {
+      "types": [
+        2,
+        3
+      ],
       "forms": {
         "3285": {}
       },
@@ -16323,6 +20190,9 @@
       "stamina": 193
     },
     "974": {
+      "types": [
+        15
+      ],
       "forms": {
         "3286": {
           "evolutions": [
@@ -16344,6 +20214,9 @@
       "little": true
     },
     "975": {
+      "types": [
+        15
+      ],
       "forms": {
         "3287": {}
       },
@@ -16352,6 +20225,10 @@
       "stamina": 347
     },
     "976": {
+      "types": [
+        11,
+        14
+      ],
       "forms": {
         "3288": {}
       },
@@ -16360,6 +20237,9 @@
       "stamina": 207
     },
     "977": {
+      "types": [
+        11
+      ],
       "forms": {
         "3289": {}
       },
@@ -16368,6 +20248,10 @@
       "stamina": 312
     },
     "978": {
+      "types": [
+        11,
+        16
+      ],
       "forms": {
         "2991": {},
         "2992": {},
@@ -16378,6 +20262,10 @@
       "stamina": 169
     },
     "979": {
+      "types": [
+        2,
+        8
+      ],
       "forms": {
         "3290": {}
       },
@@ -16386,6 +20274,10 @@
       "stamina": 242
     },
     "980": {
+      "types": [
+        4,
+        5
+      ],
       "forms": {
         "3291": {}
       },
@@ -16394,6 +20286,10 @@
       "stamina": 277
     },
     "981": {
+      "types": [
+        1,
+        14
+      ],
       "forms": {
         "3292": {}
       },
@@ -16402,6 +20298,9 @@
       "stamina": 260
     },
     "982": {
+      "types": [
+        1
+      ],
       "forms": {
         "2994": {},
         "2995": {}
@@ -16411,6 +20310,10 @@
       "stamina": 268
     },
     "983": {
+      "types": [
+        9,
+        17
+      ],
       "forms": {
         "3293": {}
       },
@@ -16419,6 +20322,10 @@
       "stamina": 225
     },
     "984": {
+      "types": [
+        2,
+        5
+      ],
       "forms": {
         "3294": {}
       },
@@ -16427,6 +20334,10 @@
       "stamina": 251
     },
     "985": {
+      "types": [
+        14,
+        18
+      ],
       "forms": {
         "3295": {}
       },
@@ -16435,6 +20346,10 @@
       "stamina": 251
     },
     "986": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "3296": {}
       },
@@ -16443,6 +20358,10 @@
       "stamina": 244
     },
     "987": {
+      "types": [
+        8,
+        18
+      ],
       "forms": {
         "3297": {}
       },
@@ -16451,6 +20370,10 @@
       "stamina": 146
     },
     "988": {
+      "types": [
+        2,
+        7
+      ],
       "forms": {
         "3298": {}
       },
@@ -16459,6 +20382,10 @@
       "stamina": 198
     },
     "989": {
+      "types": [
+        5,
+        13
+      ],
       "forms": {
         "3299": {}
       },
@@ -16467,6 +20394,10 @@
       "stamina": 198
     },
     "990": {
+      "types": [
+        5,
+        9
+      ],
       "forms": {
         "3300": {}
       },
@@ -16475,6 +20406,10 @@
       "stamina": 207
     },
     "991": {
+      "types": [
+        11,
+        15
+      ],
       "forms": {
         "3301": {}
       },
@@ -16483,6 +20418,10 @@
       "stamina": 148
     },
     "992": {
+      "types": [
+        2,
+        13
+      ],
       "forms": {
         "3302": {}
       },
@@ -16491,6 +20430,10 @@
       "stamina": 319
     },
     "993": {
+      "types": [
+        3,
+        17
+      ],
       "forms": {
         "3303": {}
       },
@@ -16499,6 +20442,10 @@
       "stamina": 214
     },
     "994": {
+      "types": [
+        4,
+        10
+      ],
       "forms": {
         "3304": {}
       },
@@ -16507,6 +20454,10 @@
       "stamina": 190
     },
     "995": {
+      "types": [
+        6,
+        13
+      ],
       "forms": {
         "3305": {}
       },
@@ -16515,6 +20466,10 @@
       "stamina": 225
     },
     "996": {
+      "types": [
+        15,
+        16
+      ],
       "forms": {
         "3306": {
           "evolutions": [
@@ -16536,6 +20491,10 @@
       "little": true
     },
     "997": {
+      "types": [
+        15,
+        16
+      ],
       "forms": {
         "3307": {
           "evolutions": [
@@ -16556,6 +20515,10 @@
       ]
     },
     "998": {
+      "types": [
+        15,
+        16
+      ],
       "forms": {
         "3308": {}
       },
@@ -16564,6 +20527,9 @@
       "stamina": 229
     },
     "999": {
+      "types": [
+        8
+      ],
       "forms": {
         "2998": {
           "evolutions": [
@@ -16585,6 +20551,10 @@
       "little": true
     },
     "1000": {
+      "types": [
+        8,
+        9
+      ],
       "forms": {
         "3000": {}
       },
@@ -16593,6 +20563,10 @@
       "stamina": 202
     },
     "1001": {
+      "types": [
+        12,
+        17
+      ],
       "forms": {
         "3309": {}
       },
@@ -16601,6 +20575,10 @@
       "stamina": 198
     },
     "1002": {
+      "types": [
+        15,
+        17
+      ],
       "forms": {
         "3310": {}
       },
@@ -16609,6 +20587,10 @@
       "stamina": 190
     },
     "1003": {
+      "types": [
+        5,
+        17
+      ],
       "forms": {
         "3311": {}
       },
@@ -16617,6 +20599,10 @@
       "stamina": 321
     },
     "1004": {
+      "types": [
+        10,
+        17
+      ],
       "forms": {
         "3312": {}
       },
@@ -16625,6 +20611,10 @@
       "stamina": 146
     },
     "1005": {
+      "types": [
+        16,
+        17
+      ],
       "forms": {
         "3313": {}
       },
@@ -16633,6 +20623,10 @@
       "stamina": 233
     },
     "1006": {
+      "types": [
+        2,
+        18
+      ],
       "forms": {
         "3314": {}
       },
@@ -16641,6 +20635,10 @@
       "stamina": 179
     },
     "1007": {
+      "types": [
+        2,
+        16
+      ],
       "forms": {
         "2996": {}
       },
@@ -16649,6 +20647,10 @@
       "stamina": 205
     },
     "1008": {
+      "types": [
+        13,
+        16
+      ],
       "forms": {
         "2997": {}
       },
@@ -16657,6 +20659,10 @@
       "stamina": 205
     },
     "1009": {
+      "types": [
+        11,
+        16
+      ],
       "forms": {
         "3324": {}
       },
@@ -16665,6 +20671,10 @@
       "stamina": 203
     },
     "1010": {
+      "types": [
+        12,
+        14
+      ],
       "forms": {
         "3325": {}
       },
@@ -16673,6 +20683,10 @@
       "stamina": 189
     },
     "1011": {
+      "types": [
+        12,
+        16
+      ],
       "forms": {
         "3326": {
           "evolutions": [
@@ -16694,6 +20708,10 @@
       ]
     },
     "1012": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "2871": {
           "evolutions": [
@@ -16724,6 +20742,10 @@
       "little": true
     },
     "1013": {
+      "types": [
+        8,
+        12
+      ],
       "forms": {
         "2873": {},
         "2874": {}
@@ -16733,6 +20755,10 @@
       "stamina": 174
     },
     "1014": {
+      "types": [
+        2,
+        4
+      ],
       "forms": {
         "3327": {}
       },
@@ -16741,6 +20767,10 @@
       "stamina": 186
     },
     "1015": {
+      "types": [
+        4,
+        14
+      ],
       "forms": {
         "3328": {}
       },
@@ -16749,6 +20779,10 @@
       "stamina": 186
     },
     "1016": {
+      "types": [
+        4,
+        18
+      ],
       "forms": {
         "3329": {}
       },
@@ -16757,6 +20791,9 @@
       "stamina": 186
     },
     "1017": {
+      "types": [
+        12
+      ],
       "forms": {
         "0": {},
         "2875": {},
@@ -16769,6 +20806,10 @@
       "stamina": 173
     },
     "1018": {
+      "types": [
+        9,
+        16
+      ],
       "forms": {
         "3330": {}
       },
@@ -16777,6 +20818,10 @@
       "stamina": 207
     },
     "1019": {
+      "types": [
+        12,
+        16
+      ],
       "forms": {
         "3331": {}
       },
@@ -16785,6 +20830,10 @@
       "stamina": 235
     },
     "1020": {
+      "types": [
+        10,
+        16
+      ],
       "forms": {
         "3332": {}
       },
@@ -16793,6 +20842,10 @@
       "stamina": 213
     },
     "1021": {
+      "types": [
+        13,
+        16
+      ],
       "forms": {
         "3333": {}
       },
@@ -16801,6 +20854,10 @@
       "stamina": 245
     },
     "1022": {
+      "types": [
+        6,
+        14
+      ],
       "forms": {
         "3334": {}
       },
@@ -16809,6 +20866,10 @@
       "stamina": 189
     },
     "1023": {
+      "types": [
+        9,
+        14
+      ],
       "forms": {
         "3335": {}
       },
@@ -16817,6 +20878,9 @@
       "stamina": 189
     },
     "1024": {
+      "types": [
+        1
+      ],
       "forms": {
         "2880": {},
         "2881": {
@@ -16835,6 +20899,10 @@
       "stamina": 207
     },
     "1025": {
+      "types": [
+        4,
+        8
+      ],
       "forms": {
         "3336": {}
       },

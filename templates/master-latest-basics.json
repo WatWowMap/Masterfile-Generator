@@ -1,4 +1,8 @@
 {
+  "globalOptions": {
+    "includeProtos": true,
+    "snake_case": true
+  },
   "pokemon": {
     "enabled": true,
     "options": {
@@ -23,6 +27,7 @@
         "attack": true,
         "defense": true,
         "stamina": true,
+        "types": "typeId",
         "tempEvolutions": {},
         "evolutions": {
           "evoId": true,
@@ -46,6 +51,7 @@
       "attack": true,
       "defense": true,
       "stamina": true,
+      "types": "typeId",
       "little": true,
       "costumeOverrideEvos": "costumeId"
     }
