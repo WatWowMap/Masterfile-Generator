@@ -94666,6 +94666,84 @@
     }
   },
   "moves": {
+    "0": {
+      "moveId": 0,
+      "moveName": "Move Unset",
+      "proto": "MOVE_UNSET",
+      "fast": false
+    },
+    "1": {
+      "moveId": 1,
+      "moveName": "Thunder Shock",
+      "proto": "THUNDER_SHOCK",
+      "fast": false
+    },
+    "2": {
+      "moveId": 2,
+      "moveName": "Quick Attack",
+      "proto": "QUICK_ATTACK",
+      "fast": false
+    },
+    "3": {
+      "moveId": 3,
+      "moveName": "Scratch",
+      "proto": "SCRATCH",
+      "fast": false
+    },
+    "4": {
+      "moveId": 4,
+      "moveName": "Ember",
+      "proto": "EMBER",
+      "fast": false
+    },
+    "5": {
+      "moveId": 5,
+      "moveName": "Vine Whip",
+      "proto": "VINE_WHIP",
+      "fast": false
+    },
+    "6": {
+      "moveId": 6,
+      "moveName": "Tackle",
+      "proto": "TACKLE",
+      "fast": false
+    },
+    "7": {
+      "moveId": 7,
+      "moveName": "Razor Leaf",
+      "proto": "RAZOR_LEAF",
+      "fast": false
+    },
+    "8": {
+      "moveId": 8,
+      "moveName": "Take Down",
+      "proto": "TAKE_DOWN",
+      "fast": false
+    },
+    "9": {
+      "moveId": 9,
+      "moveName": "Water Gun",
+      "proto": "WATER_GUN",
+      "fast": false
+    },
+    "10": {
+      "moveId": 10,
+      "moveName": "Bite",
+      "proto": "BITE",
+      "fast": false
+    },
+    "11": {
+      "moveId": 11,
+      "moveName": "Pound",
+      "proto": "POUND",
+      "fast": false
+    },
+    "12": {
+      "moveId": 12,
+      "moveName": "Double Slap",
+      "proto": "DOUBLE_SLAP",
+      "fast": false
+    },
     "13": {
       "moveId": 13,
       "moveName": "Wrap",
@@ -94694,6 +94772,12 @@
       "durationMs": 4000,
       "energyDelta": -100
     },
+    "15": {
+      "moveId": 15,
+      "moveName": "Lick",
+      "proto": "LICK",
+      "fast": false
+    },
     "16": {
       "moveId": 16,
       "moveName": "Dark Pulse",
@@ -94706,6 +94790,12 @@
       "durationMs": 3000,
       "energyDelta": -50
     },
+    "17": {
+      "moveId": 17,
+      "moveName": "Smog",
+      "proto": "SMOG",
+      "fast": false
+    },
     "18": {
       "moveId": 18,
       "moveName": "Sludge",
@@ -94717,6 +94807,12 @@
       "power": 50,
       "durationMs": 2000,
       "energyDelta": -33
+    },
+    "19": {
+      "moveId": 19,
+      "moveName": "Metal Claw",
+      "proto": "METAL_CLAW",
+      "fast": false
     },
     "20": {
       "moveId": 20,
@@ -94754,6 +94850,12 @@
       "durationMs": 2000,
       "energyDelta": -100
     },
+    "23": {
+      "moveId": 23,
+      "moveName": "Wing Attack",
+      "proto": "WING_ATTACK",
+      "fast": false
+    },
     "24": {
       "moveId": 24,
       "moveName": "Flamethrower",
@@ -94765,6 +94867,12 @@
       "power": 65,
       "durationMs": 2000,
       "energyDelta": -50
+    },
+    "25": {
+      "moveId": 25,
+      "moveName": "Sucker Punch",
+      "proto": "SUCKER_PUNCH",
+      "fast": false
     },
     "26": {
       "moveId": 26,
@@ -94778,6 +94886,12 @@
       "durationMs": 4500,
       "energyDelta": -50
     },
+    "27": {
+      "moveId": 27,
+      "moveName": "Low Kick",
+      "proto": "LOW_KICK",
+      "fast": false
+    },
     "28": {
       "moveId": 28,
       "moveName": "Cross Chop",
@@ -94789,6 +94903,12 @@
       "power": 50,
       "durationMs": 1500,
       "energyDelta": -50
+    },
+    "29": {
+      "moveId": 29,
+      "moveName": "Psycho Cut",
+      "proto": "PSYCHO_CUT",
+      "fast": false
     },
     "30": {
       "moveId": 30,
@@ -94874,6 +94994,12 @@
       "durationMs": 2500,
       "energyDelta": -100
     },
+    "37": {
+      "moveId": 37,
+      "moveName": "Peck",
+      "proto": "PECK",
+      "fast": false
+    },
     "38": {
       "moveId": 38,
       "moveName": "Drill Peck",
@@ -94910,6 +95036,12 @@
       "durationMs": 3000,
       "energyDelta": -100
     },
+    "41": {
+      "moveId": 41,
+      "moveName": "Air Slash",
+      "proto": "AIR_SLASH",
+      "fast": false
+    },
     "42": {
       "moveId": 42,
       "moveName": "Heat Wave",
@@ -94921,6 +95053,18 @@
       "power": 95,
       "durationMs": 3000,
       "energyDelta": -100
+    },
+    "43": {
+      "moveId": 43,
+      "moveName": "Twineedle",
+      "proto": "TWINEEDLE",
+      "fast": false
+    },
+    "44": {
+      "moveId": 44,
+      "moveName": "Poison Jab",
+      "proto": "POISON_JAB",
+      "fast": false
     },
     "45": {
       "moveId": 45,
@@ -95018,6 +95162,12 @@
       "durationMs": 2000,
       "energyDelta": -33
     },
+    "52": {
+      "moveId": 52,
+      "moveName": "Slash",
+      "proto": "SLASH",
+      "fast": false
+    },
     "53": {
       "moveId": 53,
       "moveName": "Bubble Beam",
@@ -95045,6 +95195,12 @@
       "power": 55,
       "durationMs": 2000,
       "energyDelta": -50
+    },
+    "55": {
+      "moveId": 55,
+      "moveName": "Karate Chop",
+      "proto": "KARATE_CHOP",
+      "fast": false
     },
     "56": {
       "moveId": 56,
@@ -95105,6 +95261,12 @@
       "power": 60,
       "durationMs": 2500,
       "energyDelta": -33
+    },
+    "61": {
+      "moveId": 61,
+      "moveName": "Rock Throw",
+      "proto": "ROCK_THROW",
+      "fast": false
     },
     "62": {
       "moveId": 62,
@@ -95187,6 +95349,12 @@
       "durationMs": 1500,
       "energyDelta": -33
     },
+    "68": {
+      "moveId": 68,
+      "moveName": "Shadow Claw",
+      "proto": "SHADOW_CLAW",
+      "fast": false
+    },
     "69": {
       "moveId": 69,
       "moveName": "Ominous Wind",
@@ -95216,6 +95384,12 @@
       "durationMs": 3000,
       "energyDelta": -50
     },
+    "71": {
+      "moveId": 71,
+      "moveName": "Bullet Punch",
+      "proto": "BULLET_PUNCH",
+      "fast": false
+    },
     "72": {
       "moveId": 72,
       "moveName": "Magnet Bomb",
@@ -95227,6 +95401,12 @@
       "power": 75,
       "durationMs": 3000,
       "energyDelta": -33
+    },
+    "73": {
+      "moveId": 73,
+      "moveName": "Steel Wing",
+      "proto": "STEEL_WING",
+      "fast": false
     },
     "74": {
       "moveId": 74,
@@ -95255,6 +95435,12 @@
       "power": 70,
       "durationMs": 3000,
       "energyDelta": -50
+    },
+    "76": {
+      "moveId": 76,
+      "moveName": "Spark",
+      "proto": "SPARK",
+      "fast": false
     },
     "77": {
       "moveId": 77,
@@ -95303,6 +95489,12 @@
       "power": 50,
       "durationMs": 3000,
       "energyDelta": -33
+    },
+    "81": {
+      "moveId": 81,
+      "moveName": "Dragon Breath",
+      "proto": "DRAGON_BREATH",
+      "fast": false
     },
     "82": {
       "moveId": 82,
@@ -95444,6 +95636,12 @@
       "durationMs": 3000,
       "energyDelta": -100
     },
+    "93": {
+      "moveId": 93,
+      "moveName": "Mud Shot",
+      "proto": "MUD_SHOT",
+      "fast": false
+    },
     "94": {
       "moveId": 94,
       "moveName": "Bone Club",
@@ -95483,6 +95681,18 @@
       "power": 60,
       "durationMs": 2500,
       "energyDelta": -33
+    },
+    "97": {
+      "moveId": 97,
+      "moveName": "Fury Cutter",
+      "proto": "FURY_CUTTER",
+      "fast": false
+    },
+    "98": {
+      "moveId": 98,
+      "moveName": "Bug Bite",
+      "proto": "BUG_BITE",
+      "fast": false
     },
     "99": {
       "moveId": 99,
@@ -95633,6 +95843,12 @@
       "durationMs": 2500,
       "energyDelta": -50
     },
+    "110": {
+      "moveId": 110,
+      "moveName": "Ice Shard",
+      "proto": "ICE_SHARD",
+      "fast": false
+    },
     "111": {
       "moveId": 111,
       "moveName": "Icy Wind",
@@ -95648,6 +95864,18 @@
       "power": 65,
       "durationMs": 3500,
       "energyDelta": -33
+    },
+    "112": {
+      "moveId": 112,
+      "moveName": "Frost Breath",
+      "proto": "FROST_BREATH",
+      "fast": false
+    },
+    "113": {
+      "moveId": 113,
+      "moveName": "Absorb",
+      "proto": "ABSORB",
+      "fast": false
     },
     "114": {
       "moveId": 114,
@@ -95709,6 +95937,18 @@
       "durationMs": 2500,
       "energyDelta": -50
     },
+    "119": {
+      "moveId": 119,
+      "moveName": "Splash",
+      "proto": "SPLASH",
+      "fast": false
+    },
+    "120": {
+      "moveId": 120,
+      "moveName": "Acid",
+      "proto": "ACID",
+      "fast": false
+    },
     "121": {
       "moveId": 121,
       "moveName": "Air Cutter",
@@ -95753,6 +95993,12 @@
       "durationMs": 1500,
       "energyDelta": -33
     },
+    "124": {
+      "moveId": 124,
+      "moveName": "Cut",
+      "proto": "CUT",
+      "fast": false
+    },
     "125": {
       "moveId": 125,
       "moveName": "Swift",
@@ -95789,6 +96035,12 @@
       "durationMs": 1500,
       "energyDelta": -50
     },
+    "128": {
+      "moveId": 128,
+      "moveName": "Headbutt",
+      "proto": "HEADBUTT",
+      "fast": false
+    },
     "129": {
       "moveId": 129,
       "moveName": "Hyper Fang",
@@ -95800,6 +96052,12 @@
       "power": 80,
       "durationMs": 2500,
       "energyDelta": -50
+    },
+    "130": {
+      "moveId": 130,
+      "moveName": "Slam",
+      "proto": "SLAM",
+      "fast": false
     },
     "131": {
       "moveId": 131,
@@ -97811,6 +98069,12 @@
       "durationMs": 2500,
       "energyDelta": 22
     },
+    "347": {
+      "moveId": 347,
+      "moveName": "Dark Void",
+      "proto": "DARK_VOID",
+      "fast": false
+    },
     "348": {
       "moveId": 348,
       "moveName": "Feather Dance",
@@ -97827,6 +98091,12 @@
       "durationMs": 3000,
       "energyDelta": -50
     },
+    "349": {
+      "moveId": 349,
+      "moveName": "Fiery Dance",
+      "proto": "FIERY_DANCE",
+      "fast": false
+    },
     "350": {
       "moveId": 350,
       "moveName": "Fairy Wind",
@@ -97839,6 +98109,12 @@
       "power": 9,
       "durationMs": 1000,
       "energyDelta": 13
+    },
+    "351": {
+      "moveId": 351,
+      "moveName": "Relic Song",
+      "proto": "RELIC_SONG",
+      "fast": false
     },
     "352": {
       "moveId": 352,
@@ -97867,6 +98143,18 @@
       "power": 25,
       "durationMs": 1000,
       "energyDelta": -33
+    },
+    "354": {
+      "moveId": 354,
+      "moveName": "Hyperspace Fury",
+      "proto": "HYPERSPACE_FURY",
+      "fast": false
+    },
+    "355": {
+      "moveId": 355,
+      "moveName": "Hyperspace Hole",
+      "proto": "HYPERSPACE_HOLE",
+      "fast": false
     },
     "356": {
       "moveId": 356,
@@ -99329,6 +99617,12 @@
       "type": 9,
       "power": 350,
       "durationMs": 2500
+    },
+    "481": {
+      "moveId": 481,
+      "moveName": "Thunder Cage",
+      "proto": "THUNDER_CAGE_FAST",
+      "fast": true
     },
     "482": {
       "moveId": 482,
