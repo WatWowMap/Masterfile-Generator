@@ -9412,6 +9412,13 @@
           "proto": "ACID_SPRAY",
           "type": 4,
           "power": 20
+        },
+        "333": {
+          "moveId": 333,
+          "moveName": "Payback",
+          "proto": "PAYBACK",
+          "type": 17,
+          "power": 95
         }
       },
       "genId": 1,
@@ -18036,6 +18043,13 @@
           "moveName": "Bite",
           "proto": "BITE_FAST",
           "type": 17,
+          "power": 6
+        },
+        "204": {
+          "moveId": 204,
+          "moveName": "Dragon Breath",
+          "proto": "DRAGON_BREATH_FAST",
+          "type": 16,
           "power": 6
         },
         "227": {
@@ -31453,6 +31467,13 @@
         }
       },
       "quickMoves": {
+        "230": {
+          "moveId": 230,
+          "moveName": "Water Gun",
+          "proto": "WATER_GUN_FAST",
+          "type": 11,
+          "power": 5
+        },
         "274": {
           "moveId": 274,
           "moveName": "Extrasensory",
@@ -31782,6 +31803,13 @@
           "moveName": "Bite",
           "proto": "BITE_FAST",
           "type": 17,
+          "power": 6
+        },
+        "204": {
+          "moveId": 204,
+          "moveName": "Dragon Breath",
+          "proto": "DRAGON_BREATH_FAST",
+          "type": 16,
           "power": 6
         },
         "266": {
@@ -32749,6 +32777,13 @@
         }
       },
       "quickMoves": {
+        "209": {
+          "moveId": 209,
+          "moveName": "Ember",
+          "proto": "EMBER_FAST",
+          "type": 10,
+          "power": 10
+        },
         "243": {
           "moveId": 243,
           "moveName": "Counter",
@@ -32792,6 +32827,13 @@
           "proto": "BLAZE_KICK",
           "type": 10,
           "power": 40
+        },
+        "332": {
+          "moveId": 332,
+          "moveName": "Aura Sphere",
+          "proto": "AURA_SPHERE",
+          "type": 2,
+          "power": 100
         }
       },
       "genId": 3,
@@ -34427,6 +34469,13 @@
           "proto": "BUBBLE_FAST",
           "type": 11,
           "power": 10
+        },
+        "263": {
+          "moveId": 263,
+          "moveName": "Astonish",
+          "proto": "ASTONISH_FAST",
+          "type": 8,
+          "power": 7
         }
       },
       "chargedMoves": {
@@ -34471,6 +34520,13 @@
           "proto": "ENERGY_BALL",
           "type": 12,
           "power": 90
+        },
+        "295": {
+          "moveId": 295,
+          "moveName": "Weather Ball",
+          "proto": "WEATHER_BALL_WATER",
+          "type": 11,
+          "power": 55
         },
         "343": {
           "moveId": 343,
@@ -41420,6 +41476,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 95
+        },
+        "293": {
+          "moveId": 293,
+          "moveName": "Weather Ball",
+          "proto": "WEATHER_BALL_ICE",
+          "type": 15,
+          "power": 55
         }
       },
       "genId": 3,
@@ -41515,6 +41578,13 @@
           "proto": "SOLAR_BEAM",
           "type": 12,
           "power": 180
+        },
+        "292": {
+          "moveId": 292,
+          "moveName": "Weather Ball",
+          "proto": "WEATHER_BALL_FIRE",
+          "type": 10,
+          "power": 55
         }
       },
       "genId": 3,
@@ -42794,6 +42864,13 @@
           "proto": "BLIZZARD",
           "type": 15,
           "power": 130
+        },
+        "58": {
+          "moveId": 58,
+          "moveName": "Aqua Tail",
+          "proto": "AQUA_TAIL",
+          "type": 11,
+          "power": 50
         },
         "284": {
           "moveId": 284,
@@ -44136,6 +44213,13 @@
           "proto": "FROST_BREATH_FAST",
           "type": 15,
           "power": 11
+        },
+        "244": {
+          "moveId": 244,
+          "moveName": "Powder Snow",
+          "proto": "POWDER_SNOW_FAST",
+          "type": 15,
+          "power": 6
         },
         "368": {
           "moveId": 368,
@@ -46215,6 +46299,13 @@
           "proto": "HYDRO_PUMP",
           "type": 11,
           "power": 135
+        },
+        "254": {
+          "moveId": 254,
+          "moveName": "Avalanche",
+          "proto": "AVALANCHE",
+          "type": 15,
+          "power": 85
         },
         "284": {
           "moveId": 284,
@@ -52159,6 +52250,13 @@
           "type": 9,
           "power": 70
         },
+        "295": {
+          "moveId": 295,
+          "moveName": "Weather Ball",
+          "proto": "WEATHER_BALL_WATER",
+          "type": 11,
+          "power": 55
+        },
         "333": {
           "moveId": 333,
           "moveName": "Payback",
@@ -53311,6 +53409,13 @@
           "type": 2,
           "power": 105
         },
+        "301": {
+          "moveId": 301,
+          "moveName": "Meteor Mash",
+          "proto": "METEOR_MASH",
+          "type": 9,
+          "power": 100
+        },
         "317": {
           "moveId": 317,
           "moveName": "Blaze Kick",
@@ -54290,6 +54395,13 @@
           "proto": "BLIZZARD",
           "type": 15,
           "power": 130
+        },
+        "58": {
+          "moveId": 58,
+          "moveName": "Aqua Tail",
+          "proto": "AQUA_TAIL",
+          "type": 11,
+          "power": 50
         },
         "105": {
           "moveId": 105,
@@ -59393,6 +59505,13 @@
               "proto": "RAZOR_SHELL",
               "type": 11,
               "power": 55
+            },
+            "330": {
+              "moveId": 330,
+              "moveName": "Sacred Sword",
+              "proto": "SACRED_SWORD",
+              "type": 2,
+              "power": 50
             }
           },
           "types": {
@@ -73327,6 +73446,13 @@
           "proto": "DRAGON_PULSE",
           "type": 16,
           "power": 90
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 90
         }
       },
       "genId": 5,
@@ -78398,6 +78524,13 @@
           "type": 12,
           "power": 55
         },
+        "64": {
+          "moveId": 64,
+          "moveName": "Rock Slide",
+          "proto": "ROCK_SLIDE",
+          "type": 6,
+          "power": 75
+        },
         "117": {
           "moveId": 117,
           "moveName": "Leaf Blade",
@@ -79168,6 +79301,13 @@
         }
       },
       "quickMoves": {
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
+        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
@@ -79197,6 +79337,13 @@
           "proto": "GYRO_BALL",
           "type": 9,
           "power": 85
+        },
+        "330": {
+          "moveId": 330,
+          "moveName": "Sacred Sword",
+          "proto": "SACRED_SWORD",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 6,
@@ -82529,6 +82676,13 @@
           "proto": "HEX_FAST",
           "type": 8,
           "power": 8
+        },
+        "346": {
+          "moveId": 346,
+          "moveName": "Incinerate",
+          "proto": "INCINERATE_FAST",
+          "type": 10,
+          "power": 32
         }
       },
       "chargedMoves": {
@@ -90441,6 +90595,13 @@
           "proto": "HEAVY_SLAM",
           "type": 9,
           "power": 70
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 7,
@@ -92041,6 +92202,13 @@
         }
       },
       "quickMoves": {
+        "200": {
+          "moveId": 200,
+          "moveName": "Fury Cutter",
+          "proto": "FURY_CUTTER_FAST",
+          "type": 7,
+          "power": 4
+        },
         "215": {
           "moveId": 215,
           "moveName": "Razor Leaf",
@@ -92084,6 +92252,13 @@
           "proto": "LEAF_BLADE",
           "type": 12,
           "power": 70
+        },
+        "330": {
+          "moveId": 330,
+          "moveName": "Sacred Sword",
+          "proto": "SACRED_SWORD",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 7,
@@ -101735,6 +101910,13 @@
           "type": 1,
           "power": 150
         },
+        "20": {
+          "moveId": 20,
+          "moveName": "Vise Grip",
+          "proto": "VICE_GRIP",
+          "type": 1,
+          "power": 35
+        },
         "82": {
           "moveId": 82,
           "moveName": "Dragon Pulse",
@@ -102421,6 +102603,13 @@
           "proto": "ROCK_SMASH_FAST",
           "type": 2,
           "power": 17
+        },
+        "297": {
+          "moveId": 297,
+          "moveName": "Smack Down",
+          "proto": "SMACK_DOWN_FAST",
+          "type": 6,
+          "power": 13
         }
       },
       "chargedMoves": {
@@ -102444,6 +102633,13 @@
           "proto": "THUNDER_PUNCH",
           "type": 13,
           "power": 50
+        },
+        "88": {
+          "moveId": 88,
+          "moveName": "Play Rough",
+          "proto": "PLAY_ROUGH",
+          "type": 18,
+          "power": 90
         },
         "115": {
           "moveId": 115,
@@ -105271,6 +105467,13 @@
           "proto": "BITE_FAST",
           "type": 17,
           "power": 6
+        },
+        "240": {
+          "moveId": 240,
+          "moveName": "Fire Fang",
+          "proto": "FIRE_FANG_FAST",
+          "type": 10,
+          "power": 13
         },
         "320": {
           "moveId": 320,
@@ -109749,6 +109952,13 @@
           "type": 8,
           "power": 100
         },
+        "88": {
+          "moveId": 88,
+          "moveName": "Play Rough",
+          "proto": "PLAY_ROUGH",
+          "type": 18,
+          "power": 90
+        },
         "353": {
           "moveId": 353,
           "moveName": "Psychic Fangs",
@@ -110043,6 +110253,20 @@
           "proto": "HEAVY_SLAM",
           "type": 9,
           "power": 70
+        },
+        "310": {
+          "moveId": 310,
+          "moveName": "Superpower",
+          "proto": "SUPER_POWER",
+          "type": 2,
+          "power": 85
+        },
+        "359": {
+          "moveId": 359,
+          "moveName": "Icicle Spear",
+          "proto": "ICICLE_SPEAR",
+          "type": 15,
+          "power": 55
         }
       },
       "genId": 9,
@@ -110709,6 +110933,13 @@
           "type": 17,
           "power": 6
         },
+        "253": {
+          "moveId": 253,
+          "moveName": "Dragon Tail",
+          "proto": "DRAGON_TAIL_FAST",
+          "type": 16,
+          "power": 14
+        },
         "263": {
           "moveId": 263,
           "moveName": "Astonish",
@@ -110745,6 +110976,13 @@
           "proto": "ROCK_SLIDE",
           "type": 6,
           "power": 75
+        },
+        "131": {
+          "moveId": 131,
+          "moveName": "Body Slam",
+          "proto": "BODY_SLAM",
+          "type": 1,
+          "power": 50
         }
       },
       "genId": 9,
@@ -126903,7 +127141,8 @@
         16,
         100,
         111,
-        318
+        318,
+        330
       ],
       "eliteChargedMoves": [],
       "types": [
@@ -140604,6 +140843,12 @@
       "formatted": "Observatory Exhibition Tour",
       "imageUrl": "sb_ObservatoryExhibitionTour",
       "cardType": "SPECIAL_BACKGROUND"
+    },
+    "225": {
+      "id": 225,
+      "proto": "LC_2025_NFL_001",
+      "formatted": "2025 Nfl 001",
+      "imageUrl": "lc_NFL_cardinals"
     }
   },
   "routeTypes": {
