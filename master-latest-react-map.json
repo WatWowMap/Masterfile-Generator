@@ -6899,6 +6899,9 @@
       "forms": {
         "1202": {
           "name": "Normal"
+        },
+        "3315": {
+          "name": "Winter 2025"
         }
       },
       "height": 1.19,
@@ -25925,6 +25928,9 @@
       "forms": {
         "3090": {
           "name": "Normal"
+        },
+        "3316": {
+          "name": "Winter 2025"
         }
       },
       "height": 0.5,
@@ -25958,6 +25964,9 @@
       "forms": {
         "3091": {
           "name": "Normal"
+        },
+        "3317": {
+          "name": "Winter 2025"
         }
       },
       "height": 1.5,
@@ -37086,6 +37095,9 @@
     "490": {
       "name": "Beak Blast",
       "type": 3
+    },
+    "491": {
+      "name": "Mind Blown"
     }
   },
   "questRewardTypes": {
@@ -39209,7 +39221,9 @@
     "12": "Raid Level 2 Shadow",
     "13": "Raid Level 3 Shadow",
     "14": "Raid Level 4 Shadow",
-    "15": "Raid Level 5 Shadow"
+    "15": "Raid Level 5 Shadow",
+    "16": "Raid Level 4 Mega Enhanced",
+    "17": "Raid Level 5 Mega Enhanced"
   },
   "locationCards": {
     "1": {
@@ -39696,6 +39710,10 @@
       "proto": "LC_SPECIALBACKGROUND_OBSERVATORY_EXHIBITION_TOUR",
       "formatted": "Observatory Exhibition Tour",
       "cardType": "SPECIAL_BACKGROUND"
+    },
+    "225": {
+      "proto": "LC_2025_NFL_001",
+      "formatted": "2025 Nfl 001"
     }
   },
   "routeTypes": {

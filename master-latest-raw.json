@@ -14525,7 +14525,8 @@
       "genId": 2,
       "generation": "Johto",
       "forms": [
-        1202
+        1202,
+        3315
       ],
       "sizeSettings": [
         {
@@ -55977,7 +55978,8 @@
       "genId": 7,
       "generation": "Alola",
       "forms": [
-        3090
+        3090,
+        3316
       ],
       "sizeSettings": [
         {
@@ -56058,7 +56060,8 @@
       "genId": 7,
       "generation": "Alola",
       "forms": [
-        3091
+        3091,
+        3317
       ],
       "sizeSettings": [
         {
@@ -93105,6 +93108,21 @@
       "proto": "IRONVALIANT_NORMAL",
       "formId": 3314
     },
+    "3315": {
+      "formName": "Winter 2025",
+      "proto": "SUDOWOODO_WINTER_2025",
+      "formId": 3315
+    },
+    "3316": {
+      "formName": "Winter 2025",
+      "proto": "CHARJABUG_WINTER_2025",
+      "formId": 3316
+    },
+    "3317": {
+      "formName": "Winter 2025",
+      "proto": "VIKAVOLT_WINTER_2025",
+      "formId": 3317
+    },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
@@ -99786,6 +99804,12 @@
       "power": 125,
       "durationMs": 2500,
       "energyDelta": -50
+    },
+    "491": {
+      "moveId": 491,
+      "moveName": "Mind Blown",
+      "proto": "MIND_BLOWN",
+      "fast": false
     }
   },
   "questTypes": {
@@ -100248,6 +100272,16 @@
       "id": 99,
       "proto": "QUEST_SPEND_STARDUST",
       "formatted": "Spend Stardust"
+    },
+    "100": {
+      "id": 100,
+      "proto": "QUEST_NOMINATE_POKESTOP",
+      "formatted": "Nominate Pokestop"
+    },
+    "101": {
+      "id": 101,
+      "proto": "QUEST_EDIT_POKESTOP",
+      "formatted": "Edit Pokestop"
     }
   },
   "questRewardTypes": {

@@ -23297,6 +23297,11 @@
           "name": "Normal",
           "proto": "SUDOWOODO_NORMAL",
           "form": 1202
+        },
+        "3315": {
+          "name": "Winter 2025",
+          "proto": "SUDOWOODO_WINTER_2025",
+          "form": 3315
         }
       },
       "stats": {
@@ -85731,6 +85736,11 @@
               "candyCost": 100
             }
           }
+        },
+        "3316": {
+          "name": "Winter 2025",
+          "proto": "CHARJABUG_WINTER_2025",
+          "form": 3316
         }
       },
       "stats": {
@@ -85844,6 +85854,11 @@
           "name": "Normal",
           "proto": "VIKAVOLT_NORMAL",
           "form": 3091
+        },
+        "3317": {
+          "name": "Winter 2025",
+          "proto": "VIKAVOLT_WINTER_2025",
+          "form": 3317
         }
       },
       "stats": {
@@ -131336,6 +131351,21 @@
       "proto": "IRONVALIANT_NORMAL",
       "formId": 3314
     },
+    "3315": {
+      "formName": "Winter 2025",
+      "proto": "SUDOWOODO_WINTER_2025",
+      "formId": 3315
+    },
+    "3316": {
+      "formName": "Winter 2025",
+      "proto": "CHARJABUG_WINTER_2025",
+      "formId": 3316
+    },
+    "3317": {
+      "formName": "Winter 2025",
+      "proto": "VIKAVOLT_WINTER_2025",
+      "formId": 3317
+    },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
@@ -136678,6 +136708,11 @@
       "name": "Beak Blast",
       "proto": "BEAK_BLAST",
       "power": 125
+    },
+    "491": {
+      "id": 491,
+      "name": "Mind Blown",
+      "proto": "MIND_BLOWN"
     }
   },
   "questTypes": {
@@ -137140,6 +137175,16 @@
       "id": 99,
       "proto": "QUEST_SPEND_STARDUST",
       "formatted": "Spend Stardust"
+    },
+    "100": {
+      "id": 100,
+      "proto": "QUEST_NOMINATE_POKESTOP",
+      "formatted": "Nominate Pokestop"
+    },
+    "101": {
+      "id": 101,
+      "proto": "QUEST_EDIT_POKESTOP",
+      "formatted": "Edit Pokestop"
     }
   },
   "questRewardTypes": {
@@ -140124,6 +140169,16 @@
       "id": 15,
       "formatted": "Raid Level 5 Shadow",
       "proto": "RAID_LEVEL_5_SHADOW"
+    },
+    "16": {
+      "id": 16,
+      "formatted": "Raid Level 4 Mega Enhanced",
+      "proto": "RAID_LEVEL_4_MEGA_ENHANCED"
+    },
+    "17": {
+      "id": 17,
+      "formatted": "Raid Level 5 Mega Enhanced",
+      "proto": "RAID_LEVEL_5_MEGA_ENHANCED"
     }
   },
   "locationCards": {
@@ -140861,6 +140916,12 @@
       "formatted": "Observatory Exhibition Tour",
       "imageUrl": "sb_ObservatoryExhibitionTour",
       "cardType": "SPECIAL_BACKGROUND"
+    },
+    "225": {
+      "id": 225,
+      "proto": "LC_2025_NFL_001",
+      "formatted": "2025 Nfl 001",
+      "imageUrl": "lc_NFL_cardinals"
     }
   },
   "routeTypes": {

@@ -10324,6 +10324,10 @@
         "1202": {
           "name": "Normal",
           "proto": "SUDOWOODO_NORMAL"
+        },
+        "3315": {
+          "name": "Winter 2025",
+          "proto": "SUDOWOODO_WINTER_2025"
         }
       },
       "attack": 167,
@@ -38161,6 +38165,10 @@
               "form": 3091
             }
           ]
+        },
+        "3316": {
+          "name": "Winter 2025",
+          "proto": "CHARJABUG_WINTER_2025"
         }
       },
       "attack": 145,
@@ -38207,6 +38215,10 @@
         "3091": {
           "name": "Normal",
           "proto": "VIKAVOLT_NORMAL"
+        },
+        "3317": {
+          "name": "Winter 2025",
+          "proto": "VIKAVOLT_WINTER_2025"
         }
       },
       "attack": 254,
@@ -54839,6 +54851,10 @@
       "proto": "BEAK_BLAST",
       "type": "Flying",
       "power": 125
+    },
+    "491": {
+      "name": "Mind Blown",
+      "proto": "MIND_BLOWN"
     }
   },
   "quest_types": {
@@ -55118,6 +55134,12 @@
     },
     "99": {
       "text": "Spend Stardust"
+    },
+    "100": {
+      "text": "Nominate Pokestop"
+    },
+    "101": {
+      "text": "Edit Pokestop"
     }
   },
   "quest_reward_types": {

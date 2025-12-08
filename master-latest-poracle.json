@@ -13514,6 +13514,27 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75
     },
+    "185_3315": {
+      "name": "Sudowoodo",
+      "id": 185,
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        }
+      ],
+      "form": {
+        "name": "Winter 2025",
+        "id": 3315
+      },
+      "stats": {
+        "baseAttack": 167,
+        "baseDefense": 176,
+        "baseStamina": 172
+      },
+      "thirdMoveStardust": 75000,
+      "thirdMoveCandy": 75
+    },
     "186_0": {
       "name": "Politoed",
       "id": 186,
@@ -50177,6 +50198,31 @@
         }
       ]
     },
+    "737_3316": {
+      "name": "Charjabug",
+      "id": 737,
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Winter 2025",
+        "id": 3316
+      },
+      "stats": {
+        "baseAttack": 145,
+        "baseDefense": 161,
+        "baseStamina": 149
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "738_0": {
       "name": "Vikavolt",
       "id": 738,
@@ -50218,6 +50264,31 @@
       "form": {
         "name": "Normal",
         "id": 3091
+      },
+      "stats": {
+        "baseAttack": 254,
+        "baseDefense": 158,
+        "baseStamina": 184
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "738_3317": {
+      "name": "Vikavolt",
+      "id": 738,
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        },
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Winter 2025",
+        "id": 3317
       },
       "stats": {
         "baseAttack": 254,
@@ -70326,6 +70397,12 @@
     },
     "99": {
       "text": "Spend Stardust"
+    },
+    "100": {
+      "text": "Nominate Pokestop"
+    },
+    "101": {
+      "text": "Edit Pokestop"
     }
   },
   "grunts": {
