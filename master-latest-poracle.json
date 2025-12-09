@@ -10181,7 +10181,7 @@
           "mustBeBuddy": true,
           "onlyDaytime": true,
           "questRequirement": {
-            "target": 1,
+            "target": 10,
             "i18n": "Walk {{amount}} km with your buddy"
           }
         },
@@ -10192,7 +10192,7 @@
           "mustBeBuddy": true,
           "onlyNighttime": true,
           "questRequirement": {
-            "target": 1,
+            "target": 10,
             "i18n": "Walk {{amount}} km with your buddy"
           }
         },
@@ -10211,7 +10211,7 @@
           "id": 3062,
           "candyCost": 25,
           "questRequirement": {
-            "target": 7,
+            "target": 70,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -10260,7 +10260,7 @@
           "mustBeBuddy": true,
           "onlyDaytime": true,
           "questRequirement": {
-            "target": 1,
+            "target": 10,
             "i18n": "Walk {{amount}} km with your buddy"
           }
         },
@@ -10271,7 +10271,7 @@
           "mustBeBuddy": true,
           "onlyNighttime": true,
           "questRequirement": {
-            "target": 1,
+            "target": 10,
             "i18n": "Walk {{amount}} km with your buddy"
           }
         },
@@ -10290,7 +10290,7 @@
           "id": 3062,
           "candyCost": 25,
           "questRequirement": {
-            "target": 7,
+            "target": 70,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -45456,7 +45456,7 @@
           "id": 2624,
           "candyCost": 100,
           "questRequirement": {
-            "target": 7,
+            "target": 20,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -45499,7 +45499,7 @@
           "id": 2624,
           "candyCost": 100,
           "questRequirement": {
-            "target": 7,
+            "target": 20,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -45531,7 +45531,7 @@
           "id": 2625,
           "candyCost": 100,
           "questRequirement": {
-            "target": 7,
+            "target": 20,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -45563,7 +45563,7 @@
           "id": 2626,
           "candyCost": 100,
           "questRequirement": {
-            "target": 7,
+            "target": 20,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -45595,7 +45595,7 @@
           "id": 2627,
           "candyCost": 100,
           "questRequirement": {
-            "target": 7,
+            "target": 20,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -45627,7 +45627,7 @@
           "id": 2628,
           "candyCost": 100,
           "questRequirement": {
-            "target": 7,
+            "target": 20,
             "i18n": "Earn {{amount}} hearts with your buddy"
           }
         }
@@ -61241,10 +61241,10 @@
       "evolutions": [
         {
           "evoId": 923,
-          "id": 3238,
+          "id": 0,
           "candyCost": 100,
           "questRequirement": {
-            "target": 1,
+            "target": 25,
             "i18n": "Walk {{amount}} km with your buddy"
           }
         }
@@ -61280,7 +61280,7 @@
           "id": 3238,
           "candyCost": 100,
           "questRequirement": {
-            "target": 1,
+            "target": 25,
             "i18n": "Walk {{amount}} km with your buddy"
           }
         }
