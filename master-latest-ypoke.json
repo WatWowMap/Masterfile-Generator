@@ -12184,7 +12184,8 @@
         },
         "3315": {
           "formName": "Winter 2025",
-          "formId": 3315
+          "formId": 3315,
+          "isCostume": true
         }
       },
       "stats": {
@@ -44204,7 +44205,15 @@
         },
         "3316": {
           "formName": "Winter 2025",
-          "formId": 3316
+          "formId": 3316,
+          "isCostume": true,
+          "evolutions": [
+            {
+              "evoId": 738,
+              "formId": "VIKAVOLT_WINTER_2025",
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -44265,7 +44274,8 @@
         },
         "3317": {
           "formName": "Winter 2025",
-          "formId": 3317
+          "formId": 3317,
+          "isCostume": true
         }
       },
       "stats": {
@@ -49579,7 +49589,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 3,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
@@ -55416,6 +55426,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -64605,7 +64616,18 @@
       "id": 491,
       "name": "Mind Blown",
       "proto": "MIND_BLOWN",
-      "fast": false
+      "fast": false,
+      "type": "Fire",
+      "pvp_power": 90,
+      "pvp_energy_delta": -35,
+      "pvp_buffs": [
+        {
+          "buff_activation_chance": 1
+        }
+      ],
+      "power": 130,
+      "duration_ms": 4000,
+      "energy_delta": -33
     }
   },
   "questTypes": {

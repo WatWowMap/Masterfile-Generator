@@ -50221,7 +50221,14 @@
         "baseStamina": 149
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 738,
+          "id": "VIKAVOLT_WINTER_2025",
+          "candyCost": 100
+        }
+      ]
     },
     "738_0": {
       "name": "Vikavolt",
@@ -70118,6 +70125,10 @@
     "490": {
       "name": "Beak Blast",
       "type": "Flying"
+    },
+    "491": {
+      "name": "Mind Blown",
+      "type": "Fire"
     }
   },
   "questTypes": {

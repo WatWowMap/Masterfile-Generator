@@ -10327,7 +10327,8 @@
         },
         "3315": {
           "name": "Winter 2025",
-          "proto": "SUDOWOODO_WINTER_2025"
+          "proto": "SUDOWOODO_WINTER_2025",
+          "is_costume": true
         }
       },
       "attack": 167,
@@ -38168,7 +38169,14 @@
         },
         "3316": {
           "name": "Winter 2025",
-          "proto": "CHARJABUG_WINTER_2025"
+          "proto": "CHARJABUG_WINTER_2025",
+          "is_costume": true,
+          "evolutions": [
+            {
+              "pokemon": 738,
+              "form": "VIKAVOLT_WINTER_2025"
+            }
+          ]
         }
       },
       "attack": 145,
@@ -38218,7 +38226,8 @@
         },
         "3317": {
           "name": "Winter 2025",
-          "proto": "VIKAVOLT_WINTER_2025"
+          "proto": "VIKAVOLT_WINTER_2025",
+          "is_costume": true
         }
       },
       "attack": 254,
@@ -42969,7 +42978,7 @@
       "family": 837,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
@@ -48092,6 +48101,7 @@
       "family": 950,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -54853,7 +54863,9 @@
     },
     "491": {
       "name": "Mind Blown",
-      "proto": "MIND_BLOWN"
+      "proto": "MIND_BLOWN",
+      "type": "Fire",
+      "power": 130
     }
   },
   "quest_types": {

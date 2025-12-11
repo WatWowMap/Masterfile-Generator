@@ -63266,7 +63266,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 3,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
@@ -71219,6 +71219,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -93110,17 +93111,33 @@
     "3315": {
       "formName": "Winter 2025",
       "proto": "SUDOWOODO_WINTER_2025",
-      "formId": 3315
+      "formId": 3315,
+      "isCostume": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "3316": {
       "formName": "Winter 2025",
       "proto": "CHARJABUG_WINTER_2025",
-      "formId": 3316
+      "formId": 3316,
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 738,
+          "formId": "VIKAVOLT_WINTER_2025",
+          "candyCost": 100
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3317": {
       "formName": "Winter 2025",
       "proto": "VIKAVOLT_WINTER_2025",
-      "formId": 3317
+      "formId": 3317,
+      "isCostume": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3322": {
       "formName": "Gotour 2026 C",
@@ -93204,6 +93221,90 @@
       "formName": "Normal",
       "proto": "PECHARUNT_NORMAL",
       "formId": 3336
+    },
+    "SUDOWOODO_WINTER_2025": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.5831
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.595
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.8925
+        },
+        {
+          "name": "mUpperBound",
+          "value": 1.4875
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 1.785
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 2.38
+        }
+      ]
+    },
+    "CHARJABUG_WINTER_2025": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.245
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.25
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.375
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.625
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.75
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.875
+        }
+      ]
+    },
+    "VIKAVOLT_WINTER_2025": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.735
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.75
+        },
+        {
+          "name": "mLowerBound",
+          "value": 1.125
+        },
+        {
+          "name": "mUpperBound",
+          "value": 1.875
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 2.25
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 2.625
+        }
+      ]
     }
   },
   "types": {
@@ -99808,7 +99909,17 @@
       "moveId": 491,
       "moveName": "Mind Blown",
       "proto": "MIND_BLOWN",
-      "fast": false
+      "fast": false,
+      "type": 10,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": {
+        "attackerDefenseStatStageChange": -4,
+        "buffActivationChance": 1
+      },
+      "power": 130,
+      "durationMs": 4000,
+      "energyDelta": -33
     }
   },
   "questTypes": {
