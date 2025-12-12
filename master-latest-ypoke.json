@@ -1905,6 +1905,22 @@
           "formId": 3017,
           "isCostume": true
         },
+        "3318": {
+          "formName": "Gotour 2026 A",
+          "formId": 3318
+        },
+        "3319": {
+          "formName": "Gotour 2026 A 02",
+          "formId": 3319
+        },
+        "3320": {
+          "formName": "Gotour 2026 B",
+          "formId": 3320
+        },
+        "3321": {
+          "formName": "Gotour 2026 B 02",
+          "formId": 3321
+        },
         "3322": {
           "formName": "Gotour 2026 C",
           "formId": 3322
@@ -64628,6 +64644,12 @@
       "power": 130,
       "duration_ms": 4000,
       "energy_delta": -33
+    },
+    "492": {
+      "id": 492,
+      "name": "Drum Beating",
+      "proto": "DRUM_BEATING",
+      "fast": false
     }
   },
   "questTypes": {
@@ -64912,6 +64934,15 @@
     },
     "101": {
       "formatted": "Edit Pokestop"
+    },
+    "102": {
+      "formatted": "First Day Night Catch Of The Day"
+    },
+    "103": {
+      "formatted": "First Day Catch Of The Day"
+    },
+    "104": {
+      "formatted": "First Night Catch Of The Day"
     }
   }
 }

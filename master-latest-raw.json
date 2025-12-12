@@ -2038,6 +2038,10 @@
         3014,
         3015,
         3017,
+        3318,
+        3319,
+        3320,
+        3321,
         3322,
         3323
       ],
@@ -93139,6 +93143,26 @@
       "purificationDust": 1000,
       "purificationCandy": 1
     },
+    "3318": {
+      "formName": "Gotour 2026 A",
+      "proto": "PIKACHU_GOTOUR_2026_A",
+      "formId": 3318
+    },
+    "3319": {
+      "formName": "Gotour 2026 A 02",
+      "proto": "PIKACHU_GOTOUR_2026_A_02",
+      "formId": 3319
+    },
+    "3320": {
+      "formName": "Gotour 2026 B",
+      "proto": "PIKACHU_GOTOUR_2026_B",
+      "formId": 3320
+    },
+    "3321": {
+      "formName": "Gotour 2026 B 02",
+      "proto": "PIKACHU_GOTOUR_2026_B_02",
+      "formId": 3321
+    },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
@@ -99920,6 +99944,12 @@
       "power": 130,
       "durationMs": 4000,
       "energyDelta": -33
+    },
+    "492": {
+      "moveId": 492,
+      "moveName": "Drum Beating",
+      "proto": "DRUM_BEATING",
+      "fast": false
     }
   },
   "questTypes": {
@@ -100392,6 +100422,21 @@
       "id": 101,
       "proto": "QUEST_EDIT_POKESTOP",
       "formatted": "Edit Pokestop"
+    },
+    "102": {
+      "id": 102,
+      "proto": "QUEST_FIRST_DAY_NIGHT_CATCH_OF_THE_DAY",
+      "formatted": "First Day Night Catch Of The Day"
+    },
+    "103": {
+      "id": 103,
+      "proto": "QUEST_FIRST_DAY_CATCH_OF_THE_DAY",
+      "formatted": "First Day Catch Of The Day"
+    },
+    "104": {
+      "id": 104,
+      "proto": "QUEST_FIRST_NIGHT_CATCH_OF_THE_DAY",
+      "formatted": "First Night Catch Of The Day"
     }
   },
   "questRewardTypes": {

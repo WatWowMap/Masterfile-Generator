@@ -1640,6 +1640,22 @@
           "proto": "PIKACHU_WCS_2025",
           "is_costume": true
         },
+        "3318": {
+          "name": "Gotour 2026 A",
+          "proto": "PIKACHU_GOTOUR_2026_A"
+        },
+        "3319": {
+          "name": "Gotour 2026 A 02",
+          "proto": "PIKACHU_GOTOUR_2026_A_02"
+        },
+        "3320": {
+          "name": "Gotour 2026 B",
+          "proto": "PIKACHU_GOTOUR_2026_B"
+        },
+        "3321": {
+          "name": "Gotour 2026 B 02",
+          "proto": "PIKACHU_GOTOUR_2026_B_02"
+        },
         "3322": {
           "name": "Gotour 2026 C",
           "proto": "PIKACHU_GOTOUR_2026_C"
@@ -54866,6 +54882,10 @@
       "proto": "MIND_BLOWN",
       "type": "Fire",
       "power": 130
+    },
+    "492": {
+      "name": "Drum Beating",
+      "proto": "DRUM_BEATING"
     }
   },
   "quest_types": {
@@ -55151,6 +55171,15 @@
     },
     "101": {
       "text": "Edit Pokestop"
+    },
+    "102": {
+      "text": "First Day Night Catch Of The Day"
+    },
+    "103": {
+      "text": "First Day Catch Of The Day"
+    },
+    "104": {
+      "text": "First Night Catch Of The Day"
     }
   },
   "quest_reward_types": {

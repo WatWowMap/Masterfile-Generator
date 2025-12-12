@@ -3399,6 +3399,26 @@
           "form": 3017,
           "isCostume": true
         },
+        "3318": {
+          "name": "Gotour 2026 A",
+          "proto": "PIKACHU_GOTOUR_2026_A",
+          "form": 3318
+        },
+        "3319": {
+          "name": "Gotour 2026 A 02",
+          "proto": "PIKACHU_GOTOUR_2026_A_02",
+          "form": 3319
+        },
+        "3320": {
+          "name": "Gotour 2026 B",
+          "proto": "PIKACHU_GOTOUR_2026_B",
+          "form": 3320
+        },
+        "3321": {
+          "name": "Gotour 2026 B 02",
+          "proto": "PIKACHU_GOTOUR_2026_B_02",
+          "form": 3321
+        },
         "3322": {
           "name": "Gotour 2026 C",
           "proto": "PIKACHU_GOTOUR_2026_C",
@@ -131393,6 +131413,26 @@
       "purificationDust": 1000,
       "purificationCandy": 1
     },
+    "3318": {
+      "formName": "Gotour 2026 A",
+      "proto": "PIKACHU_GOTOUR_2026_A",
+      "formId": 3318
+    },
+    "3319": {
+      "formName": "Gotour 2026 A 02",
+      "proto": "PIKACHU_GOTOUR_2026_A_02",
+      "formId": 3319
+    },
+    "3320": {
+      "formName": "Gotour 2026 B",
+      "proto": "PIKACHU_GOTOUR_2026_B",
+      "formId": 3320
+    },
+    "3321": {
+      "formName": "Gotour 2026 B 02",
+      "proto": "PIKACHU_GOTOUR_2026_B_02",
+      "formId": 3321
+    },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
@@ -136825,6 +136865,11 @@
       "name": "Mind Blown",
       "proto": "MIND_BLOWN",
       "power": 130
+    },
+    "492": {
+      "id": 492,
+      "name": "Drum Beating",
+      "proto": "DRUM_BEATING"
     }
   },
   "questTypes": {
@@ -137297,6 +137342,21 @@
       "id": 101,
       "proto": "QUEST_EDIT_POKESTOP",
       "formatted": "Edit Pokestop"
+    },
+    "102": {
+      "id": 102,
+      "proto": "QUEST_FIRST_DAY_NIGHT_CATCH_OF_THE_DAY",
+      "formatted": "First Day Night Catch Of The Day"
+    },
+    "103": {
+      "id": 103,
+      "proto": "QUEST_FIRST_DAY_CATCH_OF_THE_DAY",
+      "formatted": "First Day Catch Of The Day"
+    },
+    "104": {
+      "id": 104,
+      "proto": "QUEST_FIRST_NIGHT_CATCH_OF_THE_DAY",
+      "formatted": "First Night Catch Of The Day"
     }
   },
   "questRewardTypes": {
