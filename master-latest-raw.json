@@ -93128,7 +93128,7 @@
       "evolutions": [
         {
           "evoId": 738,
-          "formId": "VIKAVOLT_WINTER_2025",
+          "formId": 3317,
           "candyCost": 100
         }
       ],
@@ -93245,90 +93245,6 @@
       "formName": "Normal",
       "proto": "PECHARUNT_NORMAL",
       "formId": 3336
-    },
-    "SUDOWOODO_WINTER_2025": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.5831
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.595
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.8925
-        },
-        {
-          "name": "mUpperBound",
-          "value": 1.4875
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 1.785
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 2.38
-        }
-      ]
-    },
-    "CHARJABUG_WINTER_2025": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.245
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.25
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.375
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.625
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.75
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.875
-        }
-      ]
-    },
-    "VIKAVOLT_WINTER_2025": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.735
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.75
-        },
-        {
-          "name": "mLowerBound",
-          "value": 1.125
-        },
-        {
-          "name": "mUpperBound",
-          "value": 1.875
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 2.25
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 2.625
-        }
-      ]
     }
   },
   "types": {
