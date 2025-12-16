@@ -703,7 +703,12 @@
         13
       ],
       "forms": {
-        "49": {},
+        "49": {
+          "temp_evolutions": {
+            "2": {},
+            "3": {}
+          }
+        },
         "50": {
           "attack": 201,
           "defense": 154,
@@ -716,7 +721,21 @@
       },
       "attack": 193,
       "defense": 151,
-      "stamina": 155
+      "stamina": 155,
+      "temp_evolutions": {
+        "2": {
+          "attack": 277,
+          "defense": 203,
+          "stamina": 155,
+          "unreleased": true
+        },
+        "3": {
+          "attack": 339,
+          "defense": 157,
+          "stamina": 155,
+          "unreleased": true
+        }
+      }
     },
     "27": {
       "types": [
@@ -7910,11 +7929,23 @@
         14
       ],
       "forms": {
-        "1592": {}
+        "1592": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 175,
       "defense": 170,
-      "stamina": 181
+      "stamina": 181,
+      "temp_evolutions": {
+        "1": {
+          "attack": 244,
+          "defense": 228,
+          "stamina": 181,
+          "unreleased": true
+        }
+      }
     },
     "359": {
       "types": [
@@ -7923,7 +7954,8 @@
       "forms": {
         "830": {
           "temp_evolutions": {
-            "1": {}
+            "1": {},
+            "5": {}
           }
         }
       },
@@ -7935,6 +7967,12 @@
           "attack": 314,
           "defense": 130,
           "stamina": 163
+        },
+        "5": {
+          "attack": 332,
+          "defense": 138,
+          "stamina": 163,
+          "unreleased": true
         }
       }
     },
@@ -8735,11 +8773,23 @@
         3
       ],
       "forms": {
-        "1664": {}
+        "1664": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 234,
       "defense": 140,
-      "stamina": 198
+      "stamina": 198,
+      "temp_evolutions": {
+        "1": {
+          "attack": 278,
+          "defense": 207,
+          "stamina": 198,
+          "unreleased": true
+        }
+      }
     },
     "399": {
       "types": [
@@ -9682,7 +9732,8 @@
       "forms": {
         "867": {
           "temp_evolutions": {
-            "1": {}
+            "1": {},
+            "5": {}
           }
         }
       },
@@ -9694,6 +9745,12 @@
           "attack": 339,
           "defense": 222,
           "stamina": 239
+        },
+        "5": {
+          "attack": 321,
+          "defense": 196,
+          "stamina": 239,
+          "unreleased": true
         }
       }
     },
@@ -9753,7 +9810,8 @@
       "forms": {
         "1793": {
           "temp_evolutions": {
-            "1": {}
+            "1": {},
+            "5": {}
           }
         }
       },
@@ -9765,6 +9823,12 @@
           "attack": 310,
           "defense": 175,
           "stamina": 172
+        },
+        "5": {
+          "attack": 359,
+          "defense": 161,
+          "stamina": 172,
+          "unreleased": true
         }
       }
     },
@@ -10366,11 +10430,23 @@
         10
       ],
       "forms": {
-        "1862": {}
+        "1862": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 251,
       "defense": 213,
-      "stamina": 209
+      "stamina": 209,
+      "temp_evolutions": {
+        "1": {
+          "attack": 331,
+          "defense": 252,
+          "stamina": 209,
+          "unreleased": true
+        }
+      }
     },
     "486": {
       "types": [
@@ -10439,11 +10515,23 @@
         17
       ],
       "forms": {
-        "1880": {}
+        "1880": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 285,
       "defense": 198,
-      "stamina": 172
+      "stamina": 172,
+      "temp_evolutions": {
+        "1": {
+          "attack": 325,
+          "defense": 265,
+          "stamina": 172,
+          "unreleased": true
+        }
+      }
     },
     "492": {
       "types": [
@@ -13154,11 +13242,23 @@
         8
       ],
       "forms": {
-        "2261": {}
+        "2261": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 222,
       "defense": 154,
-      "stamina": 205
+      "stamina": 205,
+      "temp_evolutions": {
+        "1": {
+          "attack": 284,
+          "defense": 202,
+          "stamina": 205,
+          "unreleased": true
+        }
+      }
     },
     "624": {
       "types": [
@@ -14639,12 +14739,24 @@
         14
       ],
       "forms": {
-        "2589": {},
+        "2589": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        },
         "2590": {}
       },
       "attack": 166,
       "defense": 167,
-      "stamina": 179
+      "stamina": 179,
+      "temp_evolutions": {
+        "1": {
+          "attack": 288,
+          "defense": 201,
+          "stamina": 179,
+          "unreleased": true
+        }
+      }
     },
     "679": {
       "types": [
@@ -15965,11 +16077,23 @@
         15
       ],
       "forms": {
-        "3093": {}
+        "3093": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 231,
       "defense": 138,
-      "stamina": 219
+      "stamina": 219,
+      "temp_evolutions": {
+        "1": {
+          "attack": 266,
+          "defense": 213,
+          "stamina": 219,
+          "unreleased": true
+        }
+      }
     },
     "741": {
       "types": [
@@ -16497,11 +16621,23 @@
         11
       ],
       "forms": {
-        "3116": {}
+        "3116": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 218,
       "defense": 226,
-      "stamina": 181
+      "stamina": 181,
+      "temp_evolutions": {
+        "1": {
+          "attack": 260,
+          "defense": 287,
+          "stamina": 181,
+          "unreleased": true
+        }
+      }
     },
     "769": {
       "types": [
@@ -17134,12 +17270,24 @@
         18
       ],
       "forms": {
-        "2721": {},
+        "2721": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        },
         "2722": {}
       },
       "attack": 246,
       "defense": 225,
-      "stamina": 190
+      "stamina": 190,
+      "temp_evolutions": {
+        "1": {
+          "attack": 342,
+          "defense": 239,
+          "stamina": 190,
+          "unreleased": true
+        }
+      }
     },
     "802": {
       "types": [
@@ -17218,11 +17366,23 @@
         13
       ],
       "forms": {
-        "3150": {}
+        "3150": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 252,
       "defense": 177,
-      "stamina": 204
+      "stamina": 204,
+      "temp_evolutions": {
+        "1": {
+          "attack": 361,
+          "defense": 180,
+          "stamina": 204,
+          "unreleased": true
+        }
+      }
     },
     "808": {
       "types": [
@@ -18574,7 +18734,7 @@
       "evolutions": [
         {
           "pokemon": 1018,
-          "form": 0
+          "form": 3330
         }
       ],
       "types": [
@@ -19834,11 +19994,23 @@
         12
       ],
       "forms": {
-        "3265": {}
+        "3265": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 216,
       "defense": 130,
-      "stamina": 163
+      "stamina": 163,
+      "temp_evolutions": {
+        "1": {
+          "attack": 276,
+          "defense": 170,
+          "stamina": 163,
+          "unreleased": true
+        }
+      }
     },
     "953": {
       "types": [
@@ -20150,11 +20322,23 @@
         6
       ],
       "forms": {
-        "3282": {}
+        "3282": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 246,
       "defense": 177,
-      "stamina": 195
+      "stamina": 195,
+      "temp_evolutions": {
+        "1": {
+          "attack": 300,
+          "defense": 214,
+          "stamina": 195,
+          "unreleased": true
+        }
+      }
     },
     "971": {
       "types": [
@@ -20273,7 +20457,15 @@
       },
       "attack": 226,
       "defense": 166,
-      "stamina": 169
+      "stamina": 169,
+      "temp_evolutions": {
+        "1": {
+          "attack": 262,
+          "defense": 232,
+          "stamina": 169,
+          "unreleased": true
+        }
+      }
     },
     "979": {
       "types": [
@@ -20534,11 +20726,23 @@
         16
       ],
       "forms": {
-        "3308": {}
+        "3308": {
+          "temp_evolutions": {
+            "1": {}
+          }
+        }
       },
       "attack": 254,
       "defense": 168,
-      "stamina": 229
+      "stamina": 229,
+      "temp_evolutions": {
+        "1": {
+          "attack": 341,
+          "defense": 227,
+          "stamina": 251,
+          "unreleased": true
+        }
+      }
     },
     "999": {
       "types": [

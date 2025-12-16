@@ -3105,7 +3105,27 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 2,
+          "stats": {
+            "baseAttack": 277,
+            "baseDefense": 203,
+            "baseStamina": 155
+          },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 3,
+          "stats": {
+            "baseAttack": 339,
+            "baseDefense": 157,
+            "baseStamina": 155
+          },
+          "unreleased": true
+        }
+      ]
     },
     "26_49": {
       "name": "Raichu",
@@ -3126,7 +3146,27 @@
         "baseStamina": 155
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 2,
+          "stats": {
+            "baseAttack": 277,
+            "baseDefense": 203,
+            "baseStamina": 155
+          },
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 3,
+          "stats": {
+            "baseAttack": 339,
+            "baseDefense": 157,
+            "baseStamina": 155
+          },
+          "unreleased": true
+        }
+      ]
     },
     "26_50": {
       "name": "Raichu",
@@ -24869,7 +24909,28 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 244,
+            "baseDefense": 228,
+            "baseStamina": 181
+          },
+          "types": [
+            {
+              "id": 9,
+              "name": "Steel"
+            },
+            {
+              "id": 14,
+              "name": "Psychic"
+            }
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "358_1592": {
       "name": "Chimecho",
@@ -24890,7 +24951,28 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 244,
+            "baseDefense": 228,
+            "baseStamina": 181
+          },
+          "types": [
+            {
+              "id": 9,
+              "name": "Steel"
+            },
+            {
+              "id": 14,
+              "name": "Psychic"
+            }
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "359_0": {
       "name": "Absol",
@@ -24913,6 +24995,25 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "stats": {
+            "baseAttack": 332,
+            "baseDefense": 138,
+            "baseStamina": 163
+          },
+          "types": [
+            {
+              "id": 8,
+              "name": "Ghost"
+            },
+            {
+              "id": 17,
+              "name": "Dark"
+            }
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -24946,6 +25047,25 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "stats": {
+            "baseAttack": 332,
+            "baseDefense": 138,
+            "baseStamina": 163
+          },
+          "types": [
+            {
+              "id": 8,
+              "name": "Ghost"
+            },
+            {
+              "id": 17,
+              "name": "Dark"
+            }
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -27332,7 +27452,28 @@
         "baseStamina": 198
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 278,
+            "baseDefense": 207,
+            "baseStamina": 198
+          },
+          "types": [
+            {
+              "id": 2,
+              "name": "Fighting"
+            },
+            {
+              "id": 3,
+              "name": "Flying"
+            }
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "398_1664": {
       "name": "Staraptor",
@@ -27357,7 +27498,28 @@
         "baseStamina": 198
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 278,
+            "baseDefense": 207,
+            "baseStamina": 198
+          },
+          "types": [
+            {
+              "id": 2,
+              "name": "Fighting"
+            },
+            {
+              "id": 3,
+              "name": "Flying"
+            }
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "399_0": {
       "name": "Bidoof",
@@ -30224,6 +30386,21 @@
       "thirdMoveCandy": 75,
       "tempEvolutions": [
         {
+          "tempEvoId": 5,
+          "stats": {
+            "baseAttack": 321,
+            "baseDefense": 196,
+            "baseStamina": 239
+          },
+          "types": [
+            {
+              "id": 16,
+              "name": "Dragon"
+            }
+          ],
+          "unreleased": true
+        },
+        {
           "tempEvoId": 1,
           "stats": {
             "baseAttack": 339,
@@ -30260,6 +30437,21 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "stats": {
+            "baseAttack": 321,
+            "baseDefense": 196,
+            "baseStamina": 239
+          },
+          "types": [
+            {
+              "id": 16,
+              "name": "Dragon"
+            }
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -30410,6 +30602,15 @@
       "thirdMoveCandy": 75,
       "tempEvolutions": [
         {
+          "tempEvoId": 5,
+          "stats": {
+            "baseAttack": 359,
+            "baseDefense": 161,
+            "baseStamina": 172
+          },
+          "unreleased": true
+        },
+        {
           "tempEvoId": 1,
           "stats": {
             "baseAttack": 310,
@@ -30446,6 +30647,15 @@
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "stats": {
+            "baseAttack": 359,
+            "baseDefense": 161,
+            "baseStamina": 172
+          },
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "stats": {
@@ -32482,7 +32692,18 @@
         "baseStamina": 209
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 331,
+            "baseDefense": 252,
+            "baseStamina": 209
+          },
+          "unreleased": true
+        }
+      ]
     },
     "485_1862": {
       "name": "Heatran",
@@ -32507,7 +32728,18 @@
         "baseStamina": 209
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 331,
+            "baseDefense": 252,
+            "baseStamina": 209
+          },
+          "unreleased": true
+        }
+      ]
     },
     "486_0": {
       "name": "Regigigas",
@@ -32796,7 +33028,18 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 325,
+            "baseDefense": 265,
+            "baseStamina": 172
+          },
+          "unreleased": true
+        }
+      ]
     },
     "491_1880": {
       "name": "Darkrai",
@@ -32817,7 +33060,18 @@
         "baseStamina": 172
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 325,
+            "baseDefense": 265,
+            "baseStamina": 172
+          },
+          "unreleased": true
+        }
+      ]
     },
     "492_0": {
       "name": "Shaymin",
@@ -40919,7 +41173,18 @@
         "baseStamina": 205
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 284,
+            "baseDefense": 202,
+            "baseStamina": 205
+          },
+          "unreleased": true
+        }
+      ]
     },
     "623_2261": {
       "name": "Golurk",
@@ -40944,7 +41209,18 @@
         "baseStamina": 205
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 284,
+            "baseDefense": 202,
+            "baseStamina": 205
+          },
+          "unreleased": true
+        }
+      ]
     },
     "624_0": {
       "name": "Pawniard",
@@ -46375,7 +46651,18 @@
         "baseStamina": 179
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 288,
+            "baseDefense": 201,
+            "baseStamina": 179
+          },
+          "unreleased": true
+        }
+      ]
     },
     "678_2589": {
       "name": "Meowstic",
@@ -46396,7 +46683,18 @@
         "baseStamina": 179
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 288,
+            "baseDefense": 201,
+            "baseStamina": 179
+          },
+          "unreleased": true
+        }
+      ]
     },
     "678_2590": {
       "name": "Meowstic",
@@ -50468,7 +50766,18 @@
         "baseStamina": 219
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 266,
+            "baseDefense": 213,
+            "baseStamina": 219
+          },
+          "unreleased": true
+        }
+      ]
     },
     "740_3093": {
       "name": "Crabominable",
@@ -50493,7 +50802,18 @@
         "baseStamina": 219
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 266,
+            "baseDefense": 213,
+            "baseStamina": 219
+          },
+          "unreleased": true
+        }
+      ]
     },
     "741_0": {
       "name": "Oricorio",
@@ -52149,7 +52469,28 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 260,
+            "baseDefense": 287,
+            "baseStamina": 181
+          },
+          "types": [
+            {
+              "id": 7,
+              "name": "Bug"
+            },
+            {
+              "id": 9,
+              "name": "Steel"
+            }
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "768_3116": {
       "name": "Golisopod",
@@ -52174,7 +52515,28 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 260,
+            "baseDefense": 287,
+            "baseStamina": 181
+          },
+          "types": [
+            {
+              "id": 7,
+              "name": "Bug"
+            },
+            {
+              "id": 9,
+              "name": "Steel"
+            }
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "769_0": {
       "name": "Sandygast",
@@ -54629,7 +54991,18 @@
         "baseStamina": 190
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 342,
+            "baseDefense": 239,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        }
+      ]
     },
     "801_2721": {
       "name": "Magearna",
@@ -54654,7 +55027,18 @@
         "baseStamina": 190
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 342,
+            "baseDefense": 239,
+            "baseStamina": 190
+          },
+          "unreleased": true
+        }
+      ]
     },
     "801_2722": {
       "name": "Magearna",
@@ -54964,7 +55348,18 @@
         "baseStamina": 204
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 361,
+            "baseDefense": 180,
+            "baseStamina": 204
+          },
+          "unreleased": true
+        }
+      ]
     },
     "807_3150": {
       "name": "Zeraora",
@@ -54985,7 +55380,18 @@
         "baseStamina": 204
       },
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 361,
+            "baseDefense": 180,
+            "baseStamina": 204
+          },
+          "unreleased": true
+        }
+      ]
     },
     "808_0": {
       "name": "Meltan",
@@ -59111,7 +59517,7 @@
       "evolutions": [
         {
           "evoId": 1018,
-          "id": 0
+          "id": 3330
         }
       ],
       "name": "Duraludon",
@@ -63066,7 +63472,18 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 276,
+            "baseDefense": 170,
+            "baseStamina": 163
+          },
+          "unreleased": true
+        }
+      ]
     },
     "952_3265": {
       "name": "Scovillain",
@@ -63091,7 +63508,18 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 276,
+            "baseDefense": 170,
+            "baseStamina": 163
+          },
+          "unreleased": true
+        }
+      ]
     },
     "953_0": {
       "name": "Rellor",
@@ -64035,7 +64463,18 @@
         "baseStamina": 195
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 300,
+            "baseDefense": 214,
+            "baseStamina": 195
+          },
+          "unreleased": true
+        }
+      ]
     },
     "970_3282": {
       "name": "Glimmora",
@@ -64060,7 +64499,18 @@
         "baseStamina": 195
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 300,
+            "baseDefense": 214,
+            "baseStamina": 195
+          },
+          "unreleased": true
+        }
+      ]
     },
     "971_0": {
       "name": "Greavard",
@@ -64423,7 +64873,18 @@
         "baseStamina": 169
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 262,
+            "baseDefense": 232,
+            "baseStamina": 169
+          },
+          "unreleased": true
+        }
+      ]
     },
     "978_2991": {
       "name": "Tatsugiri",
@@ -65514,7 +65975,18 @@
         "baseStamina": 229
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 341,
+            "baseDefense": 227,
+            "baseStamina": 251
+          },
+          "unreleased": true
+        }
+      ]
     },
     "998_3308": {
       "name": "Baxcalibur",
@@ -65539,7 +66011,18 @@
         "baseStamina": 229
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 341,
+            "baseDefense": 227,
+            "baseStamina": 251
+          },
+          "unreleased": true
+        }
+      ]
     },
     "999_0": {
       "name": "Gimmighoul",

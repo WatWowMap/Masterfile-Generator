@@ -1714,7 +1714,11 @@
       "forms": {
         "49": {
           "name": "Normal",
-          "proto": "RAICHU_NORMAL"
+          "proto": "RAICHU_NORMAL",
+          "temp_evolutions": {
+            "2": {},
+            "3": {}
+          }
         },
         "50": {
           "name": "Alola",
@@ -1756,7 +1760,21 @@
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "2": {
+          "attack": 277,
+          "defense": 203,
+          "stamina": 155,
+          "unreleased": true
+        },
+        "3": {
+          "attack": 339,
+          "defense": 157,
+          "stamina": 155,
+          "unreleased": true
+        }
+      }
     },
     "27": {
       "name": "Sandshrew",
@@ -12874,6 +12892,8 @@
           "form": 3218
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "name": "Stantler",
       "pokedex_id": 234,
       "default_form_id": 941,
@@ -12908,8 +12928,6 @@
       "height": 1.4,
       "weight": 71.2,
       "family": 234,
-      "legendary": false,
-      "mythic": false,
       "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
@@ -19140,7 +19158,10 @@
       "forms": {
         "1592": {
           "name": "Normal",
-          "proto": "CHIMECHO_NORMAL"
+          "proto": "CHIMECHO_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 175,
@@ -19155,7 +19176,19 @@
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 244,
+          "defense": 228,
+          "stamina": 181,
+          "types": [
+            "Steel",
+            "Psychic"
+          ],
+          "unreleased": true
+        }
+      }
     },
     "359": {
       "name": "Absol",
@@ -19181,7 +19214,8 @@
           "name": "Normal",
           "proto": "ABSOL_NORMAL",
           "temp_evolutions": {
-            "1": {}
+            "1": {},
+            "5": {}
           }
         }
       },
@@ -19204,6 +19238,16 @@
           "defense": 130,
           "stamina": 163,
           "weight": 49
+        },
+        "5": {
+          "attack": 332,
+          "defense": 138,
+          "stamina": 163,
+          "types": [
+            "Ghost",
+            "Dark"
+          ],
+          "unreleased": true
         }
       }
     },
@@ -21091,7 +21135,10 @@
       "forms": {
         "1664": {
           "name": "Normal",
-          "proto": "STARAPTOR_NORMAL"
+          "proto": "STARAPTOR_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 234,
@@ -21106,7 +21153,19 @@
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 278,
+          "defense": 207,
+          "stamina": 198,
+          "types": [
+            "Fighting",
+            "Flying"
+          ],
+          "unreleased": true
+        }
+      }
     },
     "399": {
       "name": "Bidoof",
@@ -23365,7 +23424,8 @@
           "name": "Normal",
           "proto": "GARCHOMP_NORMAL",
           "temp_evolutions": {
-            "1": {}
+            "1": {},
+            "5": {}
           }
         }
       },
@@ -23387,6 +23447,15 @@
           "attack": 339,
           "defense": 222,
           "stamina": 239
+        },
+        "5": {
+          "attack": 321,
+          "defense": 196,
+          "stamina": 239,
+          "types": [
+            "Dragon"
+          ],
+          "unreleased": true
         }
       }
     },
@@ -23521,7 +23590,8 @@
           "name": "Normal",
           "proto": "LUCARIO_NORMAL",
           "temp_evolutions": {
-            "1": {}
+            "1": {},
+            "5": {}
           }
         }
       },
@@ -23545,6 +23615,12 @@
           "stamina": 172,
           "height": 1.3,
           "weight": 57.5
+        },
+        "5": {
+          "attack": 359,
+          "defense": 161,
+          "stamina": 172,
+          "unreleased": true
         }
       }
     },
@@ -25209,7 +25285,10 @@
       "forms": {
         "1862": {
           "name": "Normal",
-          "proto": "HEATRAN_NORMAL"
+          "proto": "HEATRAN_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 251,
@@ -25223,7 +25302,15 @@
       "buddy_group_number": 3,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100
+      "third_move_candy": 100,
+      "temp_evolutions": {
+        "1": {
+          "attack": 331,
+          "defense": 252,
+          "stamina": 209,
+          "unreleased": true
+        }
+      }
     },
     "486": {
       "name": "Regigigas",
@@ -25454,7 +25541,10 @@
       "forms": {
         "1880": {
           "name": "Normal",
-          "proto": "DARKRAI_NORMAL"
+          "proto": "DARKRAI_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 285,
@@ -25468,7 +25558,15 @@
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100
+      "third_move_candy": 100,
+      "temp_evolutions": {
+        "1": {
+          "attack": 325,
+          "defense": 265,
+          "stamina": 172,
+          "unreleased": true
+        }
+      }
     },
     "492": {
       "name": "Shaymin",
@@ -31920,7 +32018,10 @@
       "forms": {
         "2261": {
           "name": "Normal",
-          "proto": "GOLURK_NORMAL"
+          "proto": "GOLURK_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 222,
@@ -31935,7 +32036,15 @@
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 284,
+          "defense": 202,
+          "stamina": 205,
+          "unreleased": true
+        }
+      }
     },
     "624": {
       "name": "Pawniard",
@@ -35216,7 +35325,10 @@
       "forms": {
         "2589": {
           "name": "Normal",
-          "proto": "MEOWSTIC_NORMAL"
+          "proto": "MEOWSTIC_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         },
         "2590": {
           "name": "Female",
@@ -35245,7 +35357,15 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 288,
+          "defense": 201,
+          "stamina": 179,
+          "unreleased": true
+        }
+      }
     },
     "679": {
       "name": "Honedge",
@@ -38335,7 +38455,10 @@
       "forms": {
         "3093": {
           "name": "Normal",
-          "proto": "CRABOMINABLE_NORMAL"
+          "proto": "CRABOMINABLE_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 231,
@@ -38350,7 +38473,15 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 266,
+          "defense": 213,
+          "stamina": 219,
+          "unreleased": true
+        }
+      }
     },
     "741": {
       "name": "Oricorio",
@@ -39673,7 +39804,10 @@
       "forms": {
         "3116": {
           "name": "Normal",
-          "proto": "GOLISOPOD_NORMAL"
+          "proto": "GOLISOPOD_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 218,
@@ -39688,7 +39822,19 @@
       "buddy_distance": 1,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 260,
+          "defense": 287,
+          "stamina": 181,
+          "types": [
+            "Bug",
+            "Steel"
+          ],
+          "unreleased": true
+        }
+      }
     },
     "769": {
       "name": "Sandygast",
@@ -41306,7 +41452,10 @@
       "forms": {
         "2721": {
           "name": "Normal",
-          "proto": "MAGEARNA_NORMAL"
+          "proto": "MAGEARNA_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         },
         "2722": {
           "name": "Original Color",
@@ -41324,7 +41473,15 @@
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100
+      "third_move_candy": 100,
+      "temp_evolutions": {
+        "1": {
+          "attack": 342,
+          "defense": 239,
+          "stamina": 190,
+          "unreleased": true
+        }
+      }
     },
     "802": {
       "name": "Marshadow",
@@ -41553,7 +41710,10 @@
       "forms": {
         "3150": {
           "name": "Normal",
-          "proto": "ZERAORA_NORMAL"
+          "proto": "ZERAORA_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 252,
@@ -41567,7 +41727,15 @@
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
-      "third_move_candy": 100
+      "third_move_candy": 100,
+      "temp_evolutions": {
+        "1": {
+          "attack": 361,
+          "defense": 180,
+          "stamina": 204,
+          "unreleased": true
+        }
+      }
     },
     "808": {
       "name": "Meltan",
@@ -44970,7 +45138,7 @@
       "evolutions": [
         {
           "pokemon": 1018,
-          "form": 0
+          "form": 3330
         }
       ],
       "legendary": false,
@@ -48195,7 +48363,10 @@
       "forms": {
         "3265": {
           "name": "Normal",
-          "proto": "SCOVILLAIN_NORMAL"
+          "proto": "SCOVILLAIN_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 216,
@@ -48209,7 +48380,15 @@
       "buddy_distance": 3,
       "third_move_stardust": 10000,
       "third_move_candy": 25,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 276,
+          "defense": 170,
+          "stamina": 163,
+          "unreleased": true
+        }
+      }
     },
     "953": {
       "name": "Rellor",
@@ -48992,7 +49171,10 @@
       "forms": {
         "3282": {
           "name": "Normal",
-          "proto": "GLIMMORA_NORMAL"
+          "proto": "GLIMMORA_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 246,
@@ -49006,7 +49188,15 @@
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 300,
+          "defense": 214,
+          "stamina": 195,
+          "unreleased": true
+        }
+      }
     },
     "971": {
       "name": "Greavard",
@@ -49351,7 +49541,15 @@
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 262,
+          "defense": 232,
+          "stamina": 169,
+          "unreleased": true
+        }
+      }
     },
     "979": {
       "name": "Annihilape",
@@ -50110,7 +50308,10 @@
       "forms": {
         "3308": {
           "name": "Normal",
-          "proto": "BAXCALIBUR_NORMAL"
+          "proto": "BAXCALIBUR_NORMAL",
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 254,
@@ -50125,7 +50326,15 @@
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
-      "gym_defender_eligible": true
+      "gym_defender_eligible": true,
+      "temp_evolutions": {
+        "1": {
+          "attack": 341,
+          "defense": 227,
+          "stamina": 251,
+          "unreleased": true
+        }
+      }
     },
     "999": {
       "name": "Gimmighoul",

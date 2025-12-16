@@ -2173,7 +2173,23 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 2,
+          "attack": 277,
+          "defense": 203,
+          "stamina": 155,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 3,
+          "attack": 339,
+          "defense": 157,
+          "stamina": 155,
+          "unreleased": true
+        }
+      ]
     },
     "27": {
       "pokemonName": "Sandshrew",
@@ -18243,6 +18259,8 @@
           "formId": 3218
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "pokemonName": "Stantler",
       "pokedexId": 234,
       "defaultFormId": 941,
@@ -18297,8 +18315,6 @@
       "height": 1.4,
       "weight": 71.2,
       "family": 234,
-      "legendary": false,
-      "mythic": false,
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
@@ -27887,7 +27903,20 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 244,
+          "defense": 228,
+          "stamina": 181,
+          "types": [
+            9,
+            14
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "359": {
       "pokemonName": "Absol",
@@ -27959,6 +27988,17 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "attack": 332,
+          "defense": 138,
+          "stamina": 163,
+          "types": [
+            8,
+            17
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 314,
@@ -30954,7 +30994,20 @@
       "tradable": true,
       "transferable": true,
       "purificationDust": 1000,
-      "purificationCandy": 1
+      "purificationCandy": 1,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 278,
+          "defense": 207,
+          "stamina": 198,
+          "types": [
+            2,
+            3
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "399": {
       "pokemonName": "Bidoof",
@@ -34426,6 +34479,16 @@
       "transferable": true,
       "tempEvolutions": [
         {
+          "tempEvoId": 5,
+          "attack": 321,
+          "defense": 196,
+          "stamina": 239,
+          "types": [
+            16
+          ],
+          "unreleased": true
+        },
+        {
           "tempEvoId": 1,
           "attack": 339,
           "defense": 222,
@@ -34663,6 +34726,13 @@
       "tradable": true,
       "transferable": true,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "attack": 359,
+          "defense": 161,
+          "stamina": 172,
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 310,
@@ -37400,7 +37470,16 @@
       "tradable": true,
       "transferable": true,
       "purificationDust": 20000,
-      "purificationCandy": 20
+      "purificationCandy": 20,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 331,
+          "defense": 252,
+          "stamina": 209,
+          "unreleased": true
+        }
+      ]
     },
     "486": {
       "pokemonName": "Regigigas",
@@ -37804,7 +37883,16 @@
       "thirdMoveCandy": 100,
       "transferable": true,
       "purificationDust": 20000,
-      "purificationCandy": 20
+      "purificationCandy": 20,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 325,
+          "defense": 265,
+          "stamina": 172,
+          "unreleased": true
+        }
+      ]
     },
     "492": {
       "pokemonName": "Shaymin",
@@ -47521,7 +47609,16 @@
       "tradable": true,
       "transferable": true,
       "purificationDust": 5000,
-      "purificationCandy": 5
+      "purificationCandy": 5,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 284,
+          "defense": 202,
+          "stamina": 205,
+          "unreleased": true
+        }
+      ]
     },
     "624": {
       "pokemonName": "Pawniard",
@@ -51632,7 +51729,16 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 288,
+          "defense": 201,
+          "stamina": 179,
+          "unreleased": true
+        }
+      ]
     },
     "679": {
       "pokemonName": "Honedge",
@@ -56257,7 +56363,16 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 266,
+          "defense": 213,
+          "stamina": 219,
+          "unreleased": true
+        }
+      ]
     },
     "741": {
       "pokemonName": "Oricorio",
@@ -58270,7 +58385,20 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 260,
+          "defense": 287,
+          "stamina": 181,
+          "types": [
+            7,
+            9
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "769": {
       "pokemonName": "Sandygast",
@@ -60589,7 +60717,16 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 342,
+          "defense": 239,
+          "stamina": 190,
+          "unreleased": true
+        }
+      ]
     },
     "802": {
       "pokemonName": "Marshadow",
@@ -60994,7 +61131,16 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 361,
+          "defense": 180,
+          "stamina": 204,
+          "unreleased": true
+        }
+      ]
     },
     "808": {
       "pokemonName": "Meltan",
@@ -66421,7 +66567,7 @@
       "evolutions": [
         {
           "evoId": 1018,
-          "formId": 0
+          "formId": 3330
         }
       ],
       "legendary": false,
@@ -71370,7 +71516,16 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 276,
+          "defense": 170,
+          "stamina": 163,
+          "unreleased": true
+        }
+      ]
     },
     "953": {
       "pokemonName": "Rellor",
@@ -72639,7 +72794,16 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 300,
+          "defense": 214,
+          "stamina": 195,
+          "unreleased": true
+        }
+      ]
     },
     "971": {
       "pokemonName": "Greavard",
@@ -73196,7 +73360,16 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 262,
+          "defense": 232,
+          "stamina": 169,
+          "unreleased": true
+        }
+      ]
     },
     "979": {
       "pokemonName": "Annihilape",
@@ -74535,7 +74708,16 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 341,
+          "defense": 227,
+          "stamina": 251,
+          "unreleased": true
+        }
+      ]
     },
     "999": {
       "pokemonName": "Gimmighoul",
@@ -76697,7 +76879,23 @@
     "49": {
       "formName": "Normal",
       "proto": "RAICHU_NORMAL",
-      "formId": 49
+      "formId": 49,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 2,
+          "attack": 277,
+          "defense": 203,
+          "stamina": 155,
+          "unreleased": true
+        },
+        {
+          "tempEvoId": 3,
+          "attack": 339,
+          "defense": 157,
+          "stamina": 155,
+          "unreleased": true
+        }
+      ]
     },
     "50": {
       "sizeSettings": [
@@ -80230,6 +80428,17 @@
       "formId": 830,
       "tempEvolutions": [
         {
+          "tempEvoId": 5,
+          "attack": 332,
+          "defense": 138,
+          "stamina": 163,
+          "types": [
+            8,
+            17
+          ],
+          "unreleased": true
+        },
+        {
           "tempEvoId": 1,
           "attack": 314,
           "defense": 130,
@@ -80377,6 +80586,16 @@
       "proto": "GARCHOMP_NORMAL",
       "formId": 867,
       "tempEvolutions": [
+        {
+          "tempEvoId": 5,
+          "attack": 321,
+          "defense": 196,
+          "stamina": 239,
+          "types": [
+            16
+          ],
+          "unreleased": true
+        },
         {
           "tempEvoId": 1,
           "attack": 339,
@@ -83204,7 +83423,20 @@
     "1592": {
       "formName": "Normal",
       "proto": "CHIMECHO_NORMAL",
-      "formId": 1592
+      "formId": 1592,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 244,
+          "defense": 228,
+          "stamina": 181,
+          "types": [
+            9,
+            14
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "1595": {
       "formName": "Normal",
@@ -83481,7 +83713,20 @@
       "proto": "STARAPTOR_NORMAL",
       "formId": 1664,
       "purificationDust": 1000,
-      "purificationCandy": 1
+      "purificationCandy": 1,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 278,
+          "defense": 207,
+          "stamina": 198,
+          "types": [
+            2,
+            3
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "1667": {
       "formName": "Normal",
@@ -83903,6 +84148,13 @@
       "formId": 1793,
       "tempEvolutions": [
         {
+          "tempEvoId": 5,
+          "attack": 359,
+          "defense": 161,
+          "stamina": 172,
+          "unreleased": true
+        },
+        {
           "tempEvoId": 1,
           "attack": 310,
           "defense": 175,
@@ -84093,7 +84345,16 @@
       "proto": "HEATRAN_NORMAL",
       "formId": 1862,
       "purificationDust": 20000,
-      "purificationCandy": 20
+      "purificationCandy": 20,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 331,
+          "defense": 252,
+          "stamina": 209,
+          "unreleased": true
+        }
+      ]
     },
     "1865": {
       "formName": "Normal",
@@ -84129,7 +84390,16 @@
       "proto": "DARKRAI_NORMAL",
       "formId": 1880,
       "purificationDust": 20000,
-      "purificationCandy": 20
+      "purificationCandy": 20,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 325,
+          "defense": 265,
+          "stamina": 172,
+          "unreleased": true
+        }
+      ]
     },
     "1883": {
       "formName": "Normal",
@@ -85458,7 +85728,16 @@
       "proto": "GOLURK_NORMAL",
       "formId": 2261,
       "purificationDust": 5000,
-      "purificationCandy": 5
+      "purificationCandy": 5,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 284,
+          "defense": 202,
+          "stamina": 205,
+          "unreleased": true
+        }
+      ]
     },
     "2264": {
       "formName": "Normal",
@@ -86518,7 +86797,16 @@
     "2589": {
       "formName": "Normal",
       "proto": "MEOWSTIC_NORMAL",
-      "formId": 2589
+      "formId": 2589,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 288,
+          "defense": 201,
+          "stamina": 179,
+          "unreleased": true
+        }
+      ]
     },
     "2590": {
       "formName": "Female",
@@ -88034,7 +88322,16 @@
     "2721": {
       "formName": "Normal",
       "proto": "MAGEARNA_NORMAL",
-      "formId": 2721
+      "formId": 2721,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 342,
+          "defense": 239,
+          "stamina": 190,
+          "unreleased": true
+        }
+      ]
     },
     "2722": {
       "formName": "Original Color",
@@ -91303,7 +91600,16 @@
     "3093": {
       "formName": "Normal",
       "proto": "CRABOMINABLE_NORMAL",
-      "formId": 3093
+      "formId": 3093,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 266,
+          "defense": 213,
+          "stamina": 219,
+          "unreleased": true
+        }
+      ]
     },
     "3094": {
       "formName": "Normal",
@@ -91497,7 +91803,20 @@
     "3116": {
       "formName": "Normal",
       "proto": "GOLISOPOD_NORMAL",
-      "formId": 3116
+      "formId": 3116,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 260,
+          "defense": 287,
+          "stamina": 181,
+          "types": [
+            7,
+            9
+          ],
+          "unreleased": true
+        }
+      ]
     },
     "3117": {
       "formName": "Normal",
@@ -91733,7 +92052,16 @@
     "3150": {
       "formName": "Normal",
       "proto": "ZERAORA_NORMAL",
-      "formId": 3150
+      "formId": 3150,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 361,
+          "defense": 180,
+          "stamina": 204,
+          "unreleased": true
+        }
+      ]
     },
     "3151": {
       "formName": "Normal",
@@ -92779,7 +93107,16 @@
     "3265": {
       "formName": "Normal",
       "proto": "SCOVILLAIN_NORMAL",
-      "formId": 3265
+      "formId": 3265,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 276,
+          "defense": 170,
+          "stamina": 163,
+          "unreleased": true
+        }
+      ]
     },
     "3266": {
       "formName": "Normal",
@@ -92920,7 +93257,16 @@
     "3282": {
       "formName": "Normal",
       "proto": "GLIMMORA_NORMAL",
-      "formId": 3282
+      "formId": 3282,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 300,
+          "defense": 214,
+          "stamina": 195,
+          "unreleased": true
+        }
+      ]
     },
     "3283": {
       "formName": "Normal",
@@ -93080,7 +93426,16 @@
     "3308": {
       "formName": "Normal",
       "proto": "BAXCALIBUR_NORMAL",
-      "formId": 3308
+      "formId": 3308,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "attack": 341,
+          "defense": 227,
+          "stamina": 251,
+          "unreleased": true
+        }
+      ]
     },
     "3309": {
       "formName": "Normal",
