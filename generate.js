@@ -142,7 +142,7 @@ async function masterfile() {
               pokemon.temp_evolutions || {}
             )) {
               if (evo.attack && evo.defense && evo.stamina)
-                pushEntry(evo, ['Unset', 'Mega', 'Mega X', 'Mega Y', 'Primal'][id])
+                pushEntry(evo, ['Unset', 'Mega', 'Mega X', 'Mega Y', 'Primal', 'Mega Z'][id])
             }
           }
           fs.writeFileSync('./pokedex.js', `pokedex=[${pokedex.join(',')}]`)
