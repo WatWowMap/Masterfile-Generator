@@ -118842,6 +118842,15 @@
       "formId": 830,
       "tempEvolutions": [
         {
+          "tempEvoId": 1,
+          "attack": 314,
+          "defense": 130,
+          "stamina": 163,
+          "weight": 49,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        },
+        {
           "tempEvoId": 5,
           "attack": 332,
           "defense": 138,
@@ -118851,15 +118860,6 @@
             17
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 314,
-          "defense": 130,
-          "stamina": 163,
-          "weight": 49,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
         }
       ],
       "purificationDust": 5000,
@@ -119001,6 +119001,14 @@
       "formId": 867,
       "tempEvolutions": [
         {
+          "tempEvoId": 1,
+          "attack": 339,
+          "defense": 222,
+          "stamina": 239,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
+        },
+        {
           "tempEvoId": 5,
           "attack": 321,
           "defense": 196,
@@ -119009,14 +119017,6 @@
             16
           ],
           "unreleased": true
-        },
-        {
-          "tempEvoId": 1,
-          "attack": 339,
-          "defense": 222,
-          "stamina": 239,
-          "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
         }
       ],
       "purificationDust": 5000,
@@ -122570,13 +122570,6 @@
       "formId": 1793,
       "tempEvolutions": [
         {
-          "tempEvoId": 5,
-          "attack": 359,
-          "defense": 161,
-          "stamina": 172,
-          "unreleased": true
-        },
-        {
           "tempEvoId": 1,
           "attack": 310,
           "defense": 175,
@@ -122585,6 +122578,13 @@
           "weight": 57.5,
           "firstEnergyCost": 200,
           "subsequentEnergyCost": 40
+        },
+        {
+          "tempEvoId": 5,
+          "attack": 359,
+          "defense": 161,
+          "stamina": 172,
+          "unreleased": true
         }
       ]
     },

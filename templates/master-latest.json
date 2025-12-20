@@ -148,9 +148,10 @@
     "enabled": true,
     "options": {
       "keys": {
-        "main": "id"
+        "main": "questId"
       },
       "customFields": {
+        "questId": "id",
         "formatted": "text"
       },
       "topLevelName": "quest_conditions"
@@ -164,9 +165,10 @@
     "enabled": true,
     "options": {
       "keys": {
-        "main": "id"
+        "main": "questId"
       },
       "customFields": {
+        "questId": "id",
         "formatted": "text"
       },
       "topLevelName": "quest_reward_types"
@@ -180,9 +182,10 @@
     "enabled": true,
     "options": {
       "keys": {
-        "main": "id"
+        "main": "questId"
       },
       "customFields": {
+        "questId": "id",
         "formatted": "text"
       },
       "topLevelName": "quest_types"

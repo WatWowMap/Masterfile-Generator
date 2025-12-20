@@ -375,11 +375,14 @@
     "options": {
       "topLevelName": "questTypes",
       "keys": {
-        "main": "id"
+        "main": "questId"
+      },
+      "customFields": {
+        "questId": "id"
       }
     },
     "template": {
-      "id": true,
+      "questId": true,
       "proto": true,
       "formatted": true
     }
@@ -390,13 +393,15 @@
       "topLevelName": "questConditions",
       "keys": {
         "keyJoiner": "_",
-        "main": "id"
+        "main": "questId"
       },
-      "customFields": {},
+      "customFields": {
+        "questId": "id"
+      },
       "snake_case": false
     },
     "template": {
-      "id": true,
+      "questId": true,
       "proto": true,
       "formatted": true
     }
@@ -407,13 +412,15 @@
       "topLevelName": "questRewardTypes",
       "keys": {
         "keyJoiner": "_",
-        "main": "id"
+        "main": "questId"
       },
-      "customFields": {},
+      "customFields": {
+        "questId": "id"
+      },
       "snake_case": false
     },
     "template": {
-      "id": true,
+      "questId": true,
       "proto": true,
       "formatted": true
     }
