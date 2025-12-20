@@ -96323,19 +96323,19 @@
         }
       },
       "quickMoves": {
+        "269": {
+          "moveId": 269,
+          "moveName": "Fire Spin",
+          "proto": "FIRE_SPIN_FAST",
+          "type": 10,
+          "power": 13
+        },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
           "power": 13
-        },
-        "346": {
-          "moveId": 346,
-          "moveName": "Incinerate",
-          "proto": "INCINERATE_FAST",
-          "type": 10,
-          "power": 32
         }
       },
       "chargedMoves": {
@@ -96429,6 +96429,13 @@
         }
       },
       "quickMoves": {
+        "269": {
+          "moveId": 269,
+          "moveName": "Fire Spin",
+          "proto": "FIRE_SPIN_FAST",
+          "type": 10,
+          "power": 13
+        },
         "297": {
           "moveId": 297,
           "moveName": "Smack Down",
@@ -110037,6 +110044,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 4,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -110141,6 +110149,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 6,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
