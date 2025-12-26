@@ -96323,12 +96323,12 @@
         }
       },
       "quickMoves": {
-        "269": {
-          "moveId": 269,
-          "moveName": "Fire Spin",
-          "proto": "FIRE_SPIN_FAST",
-          "type": 10,
-          "power": 13
+        "221": {
+          "moveId": 221,
+          "moveName": "Tackle",
+          "proto": "TACKLE_FAST",
+          "type": 1,
+          "power": 5
         },
         "297": {
           "moveId": 297,
@@ -96442,13 +96442,6 @@
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
           "power": 13
-        },
-        "346": {
-          "moveId": 346,
-          "moveName": "Incinerate",
-          "proto": "INCINERATE_FAST",
-          "type": 10,
-          "power": 32
         }
       },
       "chargedMoves": {
@@ -141515,6 +141508,14 @@
       "formatted": "Observatory Exhibition Tour",
       "imageUrl": "sb_ObservatoryExhibitionTour",
       "cardType": "SPECIAL_BACKGROUND"
+    },
+    "213": {
+      "id": 213,
+      "proto": "LC_SPECIALBACKGROUND_2026_COMMUNITYDAY",
+      "formatted": "2026 Communityday",
+      "imageUrl": "sb_Community_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_CommunityDay_2026"
     },
     "225": {
       "id": 225,
