@@ -3428,6 +3428,16 @@
           "name": "Gotour 2026 C 02",
           "proto": "PIKACHU_GOTOUR_2026_C_02",
           "form": 3323
+        },
+        "3340": {
+          "name": "Bb 2026",
+          "proto": "PIKACHU_BB_2026",
+          "form": 3340
+        },
+        "3341": {
+          "name": "Visor 2026",
+          "proto": "PIKACHU_VISOR_2026",
+          "form": 3341
         }
       },
       "stats": {
@@ -17062,6 +17072,16 @@
           "name": "Normal",
           "proto": "DITTO_NORMAL",
           "form": 1089
+        },
+        "3337": {
+          "name": "Spring 2026 A",
+          "proto": "DITTO_SPRING_2026_A",
+          "form": 3337
+        },
+        "3338": {
+          "name": "Spring 2026 B",
+          "proto": "DITTO_SPRING_2026_B",
+          "form": 3338
         }
       },
       "stats": {
@@ -27708,6 +27728,11 @@
               "candyCost": 50
             }
           }
+        },
+        "3339": {
+          "name": "Spring 2026",
+          "proto": "CORSOLA_SPRING_2026",
+          "form": 3339
         }
       },
       "stats": {
@@ -132019,6 +132044,31 @@
       "formName": "Normal",
       "proto": "PECHARUNT_NORMAL",
       "formId": 3336
+    },
+    "3337": {
+      "formName": "Spring 2026 A",
+      "proto": "DITTO_SPRING_2026_A",
+      "formId": 3337
+    },
+    "3338": {
+      "formName": "Spring 2026 B",
+      "proto": "DITTO_SPRING_2026_B",
+      "formId": 3338
+    },
+    "3339": {
+      "formName": "Spring 2026",
+      "proto": "CORSOLA_SPRING_2026",
+      "formId": 3339
+    },
+    "3340": {
+      "formName": "Bb 2026",
+      "proto": "PIKACHU_BB_2026",
+      "formId": 3340
+    },
+    "3341": {
+      "formName": "Visor 2026",
+      "proto": "PIKACHU_VISOR_2026",
+      "formId": 3341
     }
   },
   "types": {

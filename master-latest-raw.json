@@ -2043,7 +2043,9 @@
         3320,
         3321,
         3322,
-        3323
+        3323,
+        3340,
+        3341
       ],
       "sizeSettings": [
         {
@@ -10416,7 +10418,9 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        1089
+        1089,
+        3337,
+        3338
       ],
       "sizeSettings": [
         {
@@ -17376,7 +17380,8 @@
       "generation": "Johto",
       "forms": [
         1283,
-        2340
+        2340,
+        3339
       ],
       "sizeSettings": [
         {
@@ -93604,6 +93609,31 @@
       "formName": "Normal",
       "proto": "PECHARUNT_NORMAL",
       "formId": 3336
+    },
+    "3337": {
+      "formName": "Spring 2026 A",
+      "proto": "DITTO_SPRING_2026_A",
+      "formId": 3337
+    },
+    "3338": {
+      "formName": "Spring 2026 B",
+      "proto": "DITTO_SPRING_2026_B",
+      "formId": 3338
+    },
+    "3339": {
+      "formName": "Spring 2026",
+      "proto": "CORSOLA_SPRING_2026",
+      "formId": 3339
+    },
+    "3340": {
+      "formName": "Bb 2026",
+      "proto": "PIKACHU_BB_2026",
+      "formId": 3340
+    },
+    "3341": {
+      "formName": "Visor 2026",
+      "proto": "PIKACHU_VISOR_2026",
+      "formId": 3341
     }
   },
   "types": {

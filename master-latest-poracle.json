@@ -3086,6 +3086,48 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "25_3340": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Bb 2026",
+        "id": 3340
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3341": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Visor 2026",
+        "id": 3341
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "26_0": {
       "name": "Raichu",
       "id": 26,
@@ -10262,6 +10304,48 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50
     },
+    "132_3337": {
+      "name": "Ditto",
+      "id": 132,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Spring 2026 A",
+        "id": 3337
+      },
+      "stats": {
+        "baseAttack": 91,
+        "baseDefense": 91,
+        "baseStamina": 134
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "132_3338": {
+      "name": "Ditto",
+      "id": 132,
+      "types": [
+        {
+          "id": 1,
+          "name": "Normal"
+        }
+      ],
+      "form": {
+        "name": "Spring 2026 B",
+        "id": 3338
+      },
+      "stats": {
+        "baseAttack": 91,
+        "baseDefense": 91,
+        "baseStamina": 134
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
     "133_0": {
       "name": "Eevee",
       "id": 133,
@@ -16549,6 +16633,31 @@
           "candyCost": 50
         }
       ]
+    },
+    "222_3339": {
+      "name": "Corsola",
+      "id": 222,
+      "types": [
+        {
+          "id": 6,
+          "name": "Rock"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Spring 2026",
+        "id": 3339
+      },
+      "stats": {
+        "baseAttack": 118,
+        "baseDefense": 156,
+        "baseStamina": 146
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
     },
     "223_0": {
       "name": "Remoraid",
