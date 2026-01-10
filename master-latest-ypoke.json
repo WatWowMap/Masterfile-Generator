@@ -1907,27 +1907,33 @@
         },
         "3318": {
           "formName": "Gotour 2026 A",
-          "formId": 3318
+          "formId": 3318,
+          "isCostume": true
         },
         "3319": {
           "formName": "Gotour 2026 A 02",
-          "formId": 3319
+          "formId": 3319,
+          "isCostume": true
         },
         "3320": {
           "formName": "Gotour 2026 B",
-          "formId": 3320
+          "formId": 3320,
+          "isCostume": true
         },
         "3321": {
           "formName": "Gotour 2026 B 02",
-          "formId": 3321
+          "formId": 3321,
+          "isCostume": true
         },
         "3322": {
           "formName": "Gotour 2026 C",
-          "formId": 3322
+          "formId": 3322,
+          "isCostume": true
         },
         "3323": {
           "formName": "Gotour 2026 C 02",
-          "formId": 3323
+          "formId": 3323,
+          "isCostume": true
         },
         "3340": {
           "formName": "Bb 2026",
@@ -38227,7 +38233,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "643": {
       "pokemonName": "Reshiram",
@@ -38726,7 +38734,9 @@
           "evoId": 651,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "651": {
       "pokemonName": "Quilladin",
@@ -38783,7 +38793,9 @@
           "evoId": 652,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "652": {
       "pokemonName": "Chesnaught",
@@ -38833,7 +38845,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "653": {
       "pokemonName": "Fennekin",
@@ -38888,7 +38902,9 @@
           "evoId": 654,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "654": {
       "pokemonName": "Braixen",
@@ -38945,7 +38961,9 @@
           "evoId": 655,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "655": {
       "pokemonName": "Delphox",
@@ -38996,7 +39014,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "656": {
       "pokemonName": "Froakie",
@@ -39051,7 +39071,9 @@
           "evoId": 657,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "657": {
       "pokemonName": "Frogadier",
@@ -39108,7 +39130,9 @@
           "evoId": 658,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "658": {
       "pokemonName": "Greninja",
@@ -39157,7 +39181,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "659": {
       "pokemonName": "Bunnelby",

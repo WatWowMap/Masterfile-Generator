@@ -3402,32 +3402,38 @@
         "3318": {
           "name": "Gotour 2026 A",
           "proto": "PIKACHU_GOTOUR_2026_A",
-          "form": 3318
+          "form": 3318,
+          "isCostume": true
         },
         "3319": {
           "name": "Gotour 2026 A 02",
           "proto": "PIKACHU_GOTOUR_2026_A_02",
-          "form": 3319
+          "form": 3319,
+          "isCostume": true
         },
         "3320": {
           "name": "Gotour 2026 B",
           "proto": "PIKACHU_GOTOUR_2026_B",
-          "form": 3320
+          "form": 3320,
+          "isCostume": true
         },
         "3321": {
           "name": "Gotour 2026 B 02",
           "proto": "PIKACHU_GOTOUR_2026_B_02",
-          "form": 3321
+          "form": 3321,
+          "isCostume": true
         },
         "3322": {
           "name": "Gotour 2026 C",
           "proto": "PIKACHU_GOTOUR_2026_C",
-          "form": 3322
+          "form": 3322,
+          "isCostume": true
         },
         "3323": {
           "name": "Gotour 2026 C 02",
           "proto": "PIKACHU_GOTOUR_2026_C_02",
-          "form": 3323
+          "form": 3323,
+          "isCostume": true
         },
         "3340": {
           "name": "Bb 2026",
@@ -116836,7 +116842,9 @@
     "142": {
       "formName": "Incarnate Forme",
       "proto": "THUNDURUS_INCARNATE",
-      "formId": 142
+      "formId": 142,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "143": {
       "sizeSettings": [
@@ -116885,7 +116893,9 @@
       ],
       "eliteChargedMoves": [
         397
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "144": {
       "formName": "Incarnate Forme",
@@ -129265,7 +129275,9 @@
           "formId": 3023,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3023": {
       "formName": "Normal",
@@ -129277,12 +129289,16 @@
           "formId": 3024,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3024": {
       "formName": "Normal",
       "proto": "CHESNAUGHT_NORMAL",
       "formId": 3024,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -129303,7 +129319,9 @@
           "formId": 3026,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3026": {
       "formName": "Normal",
@@ -129315,12 +129333,16 @@
           "formId": 3027,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3027": {
       "formName": "Normal",
       "proto": "DELPHOX_NORMAL",
       "formId": 3027,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -129341,7 +129363,9 @@
           "formId": 3029,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3029": {
       "formName": "Normal",
@@ -129353,12 +129377,16 @@
           "formId": 3030,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3030": {
       "formName": "Normal",
       "proto": "GRENINJA_NORMAL",
       "formId": 3030,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -131945,32 +131973,38 @@
     "3318": {
       "formName": "Gotour 2026 A",
       "proto": "PIKACHU_GOTOUR_2026_A",
-      "formId": 3318
+      "formId": 3318,
+      "isCostume": true
     },
     "3319": {
       "formName": "Gotour 2026 A 02",
       "proto": "PIKACHU_GOTOUR_2026_A_02",
-      "formId": 3319
+      "formId": 3319,
+      "isCostume": true
     },
     "3320": {
       "formName": "Gotour 2026 B",
       "proto": "PIKACHU_GOTOUR_2026_B",
-      "formId": 3320
+      "formId": 3320,
+      "isCostume": true
     },
     "3321": {
       "formName": "Gotour 2026 B 02",
       "proto": "PIKACHU_GOTOUR_2026_B_02",
-      "formId": 3321
+      "formId": 3321,
+      "isCostume": true
     },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
-      "formId": 3322
+      "formId": 3322,
+      "isCostume": true
     },
     "3323": {
       "formName": "Gotour 2026 C 02",
       "proto": "PIKACHU_GOTOUR_2026_C_02",
-      "formId": 3323
+      "formId": 3323,
+      "isCostume": true
     },
     "3324": {
       "formName": "Normal",
@@ -141572,6 +141606,18 @@
       "proto": "LC_2025_NFL_001",
       "formatted": "2025 Nfl 001",
       "imageUrl": "lc_NFL_cardinals"
+    },
+    "240": {
+      "id": 240,
+      "proto": "LC_ID_CAR_FREE_DAY",
+      "formatted": "Id Car Free Day",
+      "imageUrl": "lc_ID_CarFreeDay"
+    },
+    "241": {
+      "id": 241,
+      "proto": "LC_2026_PPK_001",
+      "formatted": "2026 Ppk 001",
+      "imageUrl": "lc_2026_ppk_001"
     }
   },
   "routeTypes": {

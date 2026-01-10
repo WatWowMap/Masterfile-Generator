@@ -48986,7 +48986,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "643": {
       "pokemonName": "Reshiram",
@@ -49537,6 +49539,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "651": {
@@ -49611,7 +49615,9 @@
           "evoId": 652,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "652": {
       "pokemonName": "Chesnaught",
@@ -49686,6 +49692,8 @@
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -49767,6 +49775,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "654": {
@@ -49841,7 +49851,9 @@
           "evoId": 655,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "655": {
       "pokemonName": "Delphox",
@@ -49917,6 +49929,8 @@
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -49998,6 +50012,8 @@
           "candyCost": 25
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "657": {
@@ -50072,7 +50088,9 @@
           "evoId": 658,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "658": {
       "pokemonName": "Greninja",
@@ -50146,6 +50164,8 @@
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -78413,7 +78433,9 @@
     "142": {
       "formName": "Incarnate",
       "proto": "THUNDURUS_INCARNATE",
-      "formId": 142
+      "formId": 142,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "143": {
       "sizeSettings": [
@@ -78462,7 +78484,9 @@
       ],
       "eliteChargedMoves": [
         397
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "144": {
       "formName": "Incarnate",
@@ -90830,7 +90854,9 @@
           "formId": 3023,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3023": {
       "formName": "Normal",
@@ -90842,12 +90868,16 @@
           "formId": 3024,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3024": {
       "formName": "Normal",
       "proto": "CHESNAUGHT_NORMAL",
       "formId": 3024,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -90868,7 +90898,9 @@
           "formId": 3026,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3026": {
       "formName": "Normal",
@@ -90880,12 +90912,16 @@
           "formId": 3027,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3027": {
       "formName": "Normal",
       "proto": "DELPHOX_NORMAL",
       "formId": 3027,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -90906,7 +90942,9 @@
           "formId": 3029,
           "candyCost": 25
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3029": {
       "formName": "Normal",
@@ -90918,12 +90956,16 @@
           "formId": 3030,
           "candyCost": 100
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3030": {
       "formName": "Normal",
       "proto": "GRENINJA_NORMAL",
       "formId": 3030,
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -93510,32 +93552,38 @@
     "3318": {
       "formName": "Gotour 2026 A",
       "proto": "PIKACHU_GOTOUR_2026_A",
-      "formId": 3318
+      "formId": 3318,
+      "isCostume": true
     },
     "3319": {
       "formName": "Gotour 2026 A 02",
       "proto": "PIKACHU_GOTOUR_2026_A_02",
-      "formId": 3319
+      "formId": 3319,
+      "isCostume": true
     },
     "3320": {
       "formName": "Gotour 2026 B",
       "proto": "PIKACHU_GOTOUR_2026_B",
-      "formId": 3320
+      "formId": 3320,
+      "isCostume": true
     },
     "3321": {
       "formName": "Gotour 2026 B 02",
       "proto": "PIKACHU_GOTOUR_2026_B_02",
-      "formId": 3321
+      "formId": 3321,
+      "isCostume": true
     },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
-      "formId": 3322
+      "formId": 3322,
+      "isCostume": true
     },
     "3323": {
       "formName": "Gotour 2026 C 02",
       "proto": "PIKACHU_GOTOUR_2026_C_02",
-      "formId": 3323
+      "formId": 3323,
+      "isCostume": true
     },
     "3324": {
       "formName": "Normal",
