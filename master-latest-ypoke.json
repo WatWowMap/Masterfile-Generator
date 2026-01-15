@@ -1908,32 +1908,44 @@
         "3318": {
           "formName": "Gotour 2026 A",
           "formId": 3318,
-          "isCostume": true
+          "isCostume": true,
+          "eliteQuickMoves": [],
+          "eliteChargedMoves": []
         },
         "3319": {
           "formName": "Gotour 2026 A 02",
           "formId": 3319,
-          "isCostume": true
+          "isCostume": true,
+          "eliteQuickMoves": [],
+          "eliteChargedMoves": []
         },
         "3320": {
           "formName": "Gotour 2026 B",
           "formId": 3320,
-          "isCostume": true
+          "isCostume": true,
+          "eliteQuickMoves": [],
+          "eliteChargedMoves": []
         },
         "3321": {
           "formName": "Gotour 2026 B 02",
           "formId": 3321,
-          "isCostume": true
+          "isCostume": true,
+          "eliteQuickMoves": [],
+          "eliteChargedMoves": []
         },
         "3322": {
           "formName": "Gotour 2026 C",
           "formId": 3322,
-          "isCostume": true
+          "isCostume": true,
+          "eliteQuickMoves": [],
+          "eliteChargedMoves": []
         },
         "3323": {
           "formName": "Gotour 2026 C 02",
           "formId": 3323,
-          "isCostume": true
+          "isCostume": true,
+          "eliteQuickMoves": [],
+          "eliteChargedMoves": []
         },
         "3340": {
           "formName": "Bb 2026",
@@ -33888,6 +33900,7 @@
         "stamina": 151
       },
       "family": 562,
+      "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -52911,7 +52924,7 @@
       },
       "family": 216,
       "bonusCandyCapture": 7,
-      "bonusStardustCapture": 200,
+      "bonusStardustCapture": 400,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -56463,7 +56476,8 @@
       "chargedMoves": [
         65,
         86,
-        91
+        91,
+        372
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],

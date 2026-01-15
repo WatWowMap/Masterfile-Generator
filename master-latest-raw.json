@@ -43202,6 +43202,7 @@
       "height": 1.7,
       "weight": 76.5,
       "family": 562,
+      "bonusStardustCapture": 200,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -67842,7 +67843,7 @@
       "weight": 290,
       "family": 216,
       "bonusCandyCapture": 7,
-      "bonusStardustCapture": 200,
+      "bonusStardustCapture": 400,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -72771,7 +72772,8 @@
       "chargedMoves": [
         65,
         86,
-        91
+        91,
+        372
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -93553,37 +93555,49 @@
       "formName": "Gotour 2026 A",
       "proto": "PIKACHU_GOTOUR_2026_A",
       "formId": 3318,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3319": {
       "formName": "Gotour 2026 A 02",
       "proto": "PIKACHU_GOTOUR_2026_A_02",
       "formId": 3319,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3320": {
       "formName": "Gotour 2026 B",
       "proto": "PIKACHU_GOTOUR_2026_B",
       "formId": 3320,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3321": {
       "formName": "Gotour 2026 B 02",
       "proto": "PIKACHU_GOTOUR_2026_B_02",
       "formId": 3321,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
       "formId": 3322,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3323": {
       "formName": "Gotour 2026 C 02",
       "proto": "PIKACHU_GOTOUR_2026_C_02",
       "formId": 3323,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3324": {
       "formName": "Normal",

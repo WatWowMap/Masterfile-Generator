@@ -66123,6 +66123,9 @@
       "height": 1.7,
       "weight": 76.5,
       "family": 562,
+      "encounter": {
+        "bonusStardustCapture": 200
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -103033,7 +103036,7 @@
       "family": 216,
       "encounter": {
         "bonusCandyCapture": 7,
-        "bonusStardustCapture": 200
+        "bonusStardustCapture": 400
       },
       "legendary": false,
       "mythic": false,
@@ -110136,6 +110139,13 @@
           "proto": "SLUDGE_WAVE",
           "type": 4,
           "power": 105
+        },
+        "372": {
+          "moveId": 372,
+          "moveName": "Meteor Beam",
+          "proto": "METEOR_BEAM",
+          "type": 6,
+          "power": 140
         }
       },
       "genId": 9,
@@ -131974,37 +131984,49 @@
       "formName": "Gotour 2026 A",
       "proto": "PIKACHU_GOTOUR_2026_A",
       "formId": 3318,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3319": {
       "formName": "Gotour 2026 A 02",
       "proto": "PIKACHU_GOTOUR_2026_A_02",
       "formId": 3319,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3320": {
       "formName": "Gotour 2026 B",
       "proto": "PIKACHU_GOTOUR_2026_B",
       "formId": 3320,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3321": {
       "formName": "Gotour 2026 B 02",
       "proto": "PIKACHU_GOTOUR_2026_B_02",
       "formId": 3321,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3322": {
       "formName": "Gotour 2026 C",
       "proto": "PIKACHU_GOTOUR_2026_C",
       "formId": 3322,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3323": {
       "formName": "Gotour 2026 C 02",
       "proto": "PIKACHU_GOTOUR_2026_C_02",
       "formId": 3323,
-      "isCostume": true
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3324": {
       "formName": "Normal",
@@ -141592,6 +141614,12 @@
       "formatted": "Observatory Exhibition Tour",
       "imageUrl": "sb_ObservatoryExhibitionTour",
       "cardType": "SPECIAL_BACKGROUND"
+    },
+    "212": {
+      "id": 212,
+      "proto": "LC_2025_KR_PYEONGCHANG_WINTER_FESTIVAL",
+      "formatted": "2025 Kr Pyeongchang Winter Festival",
+      "imageUrl": "lc_2025_kr_pyeongchangWinterFestival"
     },
     "213": {
       "id": 213,
