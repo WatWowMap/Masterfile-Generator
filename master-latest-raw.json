@@ -100316,7 +100316,17 @@
       "moveId": 492,
       "moveName": "Drum Beating",
       "proto": "DRUM_BEATING",
-      "fast": false
+      "fast": false,
+      "type": 12,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 1
+      },
+      "power": 115,
+      "durationMs": 4500,
+      "energyDelta": -33
     }
   },
   "questTypes": {
