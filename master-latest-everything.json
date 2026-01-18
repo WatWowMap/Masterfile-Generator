@@ -133874,6 +133874,18 @@
       "name": "Halloween 2025",
       "proto": "HALLOWEEN_2025",
       "noEvolve": false
+    },
+    "86": {
+      "id": 86,
+      "name": "Spring 2026 A",
+      "proto": "SPRING_2026_A",
+      "noEvolve": false
+    },
+    "87": {
+      "id": 87,
+      "name": "Spring 2026 B",
+      "proto": "SPRING_2026_B",
+      "noEvolve": false
     }
   },
   "items": {
@@ -137884,6 +137896,11 @@
       "id": 104,
       "proto": "QUEST_FIRST_NIGHT_CATCH_OF_THE_DAY",
       "formatted": "First Night Catch Of The Day"
+    },
+    "105": {
+      "id": 105,
+      "proto": "QUEST_SPEND_MEGA_RESOURCE",
+      "formatted": "Spend Mega Resource"
     }
   },
   "questRewardTypes": {
