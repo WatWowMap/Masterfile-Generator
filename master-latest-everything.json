@@ -17225,10 +17225,10 @@
               "candyCost": 25,
               "questRequirement": {
                 "questType": 34,
-                "target": 70,
+                "target": 20,
                 "assetsRef": "challenge_buddy_affection_plural",
                 "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 70 hearts with your buddy"
+                "translated": "Earn 20 hearts with your buddy"
               }
             }
           }
@@ -17326,10 +17326,10 @@
           "candyCost": 25,
           "questRequirement": {
             "questType": 34,
-            "target": 70,
+            "target": 20,
             "assetsRef": "challenge_buddy_affection_plural",
             "i18n": "Earn {{amount}} hearts with your buddy",
-            "translated": "Earn 70 hearts with your buddy"
+            "translated": "Earn 20 hearts with your buddy"
           }
         }
       },
@@ -78893,10 +78893,10 @@
               "candyCost": 50,
               "questRequirement": {
                 "questType": 4,
-                "target": 32,
+                "target": 10,
                 "assetsRef": "quest_catch_type_dark_plural",
                 "i18n": "Catch {{amount}} Dark-type Pokémon",
-                "translated": "Catch 32 Dark-type Pokémon"
+                "translated": "Catch 10 Dark-type Pokémon"
               }
             }
           }
@@ -78928,10 +78928,10 @@
           "candyCost": 50,
           "questRequirement": {
             "questType": 4,
-            "target": 32,
+            "target": 10,
             "assetsRef": "quest_catch_type_dark_plural",
             "i18n": "Catch {{amount}} Dark-type Pokémon",
-            "translated": "Catch 32 Dark-type Pokémon"
+            "translated": "Catch 10 Dark-type Pokémon"
           }
         }
       },
@@ -105331,10 +105331,10 @@
               "candyCost": 100,
               "questRequirement": {
                 "questType": 50,
-                "target": 25,
+                "target": 5,
                 "assetsRef": "quest_buddy_walk_km_plural",
                 "i18n": "Walk {{amount}} km with your buddy",
-                "translated": "Walk 25 km with your buddy"
+                "translated": "Walk 5 km with your buddy"
               }
             }
           }
@@ -105371,10 +105371,10 @@
           "candyCost": 100,
           "questRequirement": {
             "questType": 50,
-            "target": 25,
+            "target": 5,
             "assetsRef": "quest_buddy_walk_km_plural",
             "i18n": "Walk {{amount}} km with your buddy",
-            "translated": "Walk 25 km with your buddy"
+            "translated": "Walk 5 km with your buddy"
           }
         }
       }
@@ -120154,7 +120154,7 @@
           "evoId": 700,
           "formId": 3062,
           "candyCost": 25,
-          "questRequirement": "SYLVEON_EVOLUTION_QUEST"
+          "questRequirement": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
         }
       ]
     },
@@ -129515,7 +129515,7 @@
           "evoId": 675,
           "formId": 3040,
           "candyCost": 50,
-          "questRequirement": "PANCHAM_EVOLUTION_QUEST"
+          "questRequirement": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
         }
       ]
     },
@@ -131344,7 +131344,7 @@
           "evoId": 923,
           "formId": 3238,
           "candyCost": 100,
-          "questRequirement": "PAWMOT_EVOLUTION_QUEST"
+          "questRequirement": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
         }
       ]
     },
