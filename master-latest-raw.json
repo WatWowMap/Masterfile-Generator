@@ -10580,7 +10580,7 @@
           "evoId": 700,
           "formId": 3062,
           "candyCost": 25,
-          "questRequirement": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "SYLVEON_EVOLUTION_QUEST"
         }
       ],
       "little": true
@@ -51455,7 +51455,7 @@
         {
           "evoId": 675,
           "candyCost": 50,
-          "questRequirement": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "PANCHAM_EVOLUTION_QUEST"
         }
       ],
       "little": true
@@ -61475,9 +61475,7 @@
         492
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [
-        296
-      ],
+      "eliteChargedMoves": [],
       "genId": 8,
       "generation": "Galar",
       "forms": [
@@ -69399,7 +69397,7 @@
         {
           "evoId": 923,
           "candyCost": 100,
-          "questRequirement": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "PAWMOT_EVOLUTION_QUEST"
         }
       ]
     },
@@ -81733,7 +81731,7 @@
           "evoId": 700,
           "formId": 3062,
           "candyCost": 25,
-          "questRequirement": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "SYLVEON_EVOLUTION_QUEST"
         }
       ]
     },
@@ -91082,7 +91080,7 @@
           "evoId": 675,
           "formId": 3040,
           "candyCost": 50,
-          "questRequirement": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "PANCHAM_EVOLUTION_QUEST"
         }
       ]
     },
@@ -92911,7 +92909,7 @@
           "evoId": 923,
           "formId": 3238,
           "candyCost": 100,
-          "questRequirement": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "PAWMOT_EVOLUTION_QUEST"
         }
       ]
     },
@@ -99991,7 +99989,7 @@
         "attackerAttackStatStageChange": 1,
         "buffActivationChance": 1
       },
-      "power": 85,
+      "power": 75,
       "durationMs": 3000,
       "energyDelta": -33
     },
@@ -100095,7 +100093,7 @@
         "targetDefenseStatStageChange": -1,
         "buffActivationChance": 1
       },
-      "power": 230,
+      "power": 220,
       "durationMs": 3500,
       "energyDelta": -100
     },
@@ -100210,7 +100208,7 @@
         "attackerDefenseStatStageChange": -1,
         "buffActivationChance": 1
       },
-      "power": 130,
+      "power": 120,
       "durationMs": 3500,
       "energyDelta": -100
     },
@@ -100222,7 +100220,7 @@
       "type": 1,
       "pvpPower": 110,
       "pvpEnergyDelta": -50,
-      "power": 230,
+      "power": 210,
       "durationMs": 2000,
       "energyDelta": -100
     },
@@ -100234,7 +100232,7 @@
       "type": 16,
       "pvpPower": 90,
       "pvpEnergyDelta": -45,
-      "power": 165,
+      "power": 155,
       "durationMs": 3500,
       "energyDelta": -50
     },

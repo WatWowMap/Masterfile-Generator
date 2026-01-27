@@ -17225,10 +17225,10 @@
               "candyCost": 25,
               "questRequirement": {
                 "questType": 34,
-                "target": 20,
+                "target": 70,
                 "assetsRef": "challenge_buddy_affection_plural",
                 "i18n": "Earn {{amount}} hearts with your buddy",
-                "translated": "Earn 20 hearts with your buddy"
+                "translated": "Earn 70 hearts with your buddy"
               }
             }
           }
@@ -17326,10 +17326,10 @@
           "candyCost": 25,
           "questRequirement": {
             "questType": 34,
-            "target": 20,
+            "target": 70,
             "assetsRef": "challenge_buddy_affection_plural",
             "i18n": "Earn {{amount}} hearts with your buddy",
-            "translated": "Earn 20 hearts with your buddy"
+            "translated": "Earn 70 hearts with your buddy"
           }
         }
       },
@@ -78893,10 +78893,10 @@
               "candyCost": 50,
               "questRequirement": {
                 "questType": 4,
-                "target": 10,
+                "target": 32,
                 "assetsRef": "quest_catch_type_dark_plural",
                 "i18n": "Catch {{amount}} Dark-type Pokémon",
-                "translated": "Catch 10 Dark-type Pokémon"
+                "translated": "Catch 32 Dark-type Pokémon"
               }
             }
           }
@@ -78928,10 +78928,10 @@
           "candyCost": 50,
           "questRequirement": {
             "questType": 4,
-            "target": 10,
+            "target": 32,
             "assetsRef": "quest_catch_type_dark_plural",
             "i18n": "Catch {{amount}} Dark-type Pokémon",
-            "translated": "Catch 10 Dark-type Pokémon"
+            "translated": "Catch 32 Dark-type Pokémon"
           }
         }
       },
@@ -103872,7 +103872,7 @@
           "moveName": "Flower Trick",
           "proto": "FLOWER_TRICK",
           "type": 12,
-          "power": 85
+          "power": 75
         }
       },
       "genId": 9,
@@ -105331,10 +105331,10 @@
               "candyCost": 100,
               "questRequirement": {
                 "questType": 50,
-                "target": 5,
+                "target": 25,
                 "assetsRef": "quest_buddy_walk_km_plural",
                 "i18n": "Walk {{amount}} km with your buddy",
-                "translated": "Walk 5 km with your buddy"
+                "translated": "Walk 25 km with your buddy"
               }
             }
           }
@@ -105371,10 +105371,10 @@
           "candyCost": 100,
           "questRequirement": {
             "questType": 50,
-            "target": 5,
+            "target": 25,
             "assetsRef": "quest_buddy_walk_km_plural",
             "i18n": "Walk {{amount}} km with your buddy",
-            "translated": "Walk 5 km with your buddy"
+            "translated": "Walk 25 km with your buddy"
           }
         }
       }
@@ -120154,7 +120154,7 @@
           "evoId": 700,
           "formId": 3062,
           "candyCost": 25,
-          "questRequirement": "SYLVEON_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "SYLVEON_EVOLUTION_QUEST"
         }
       ]
     },
@@ -129515,7 +129515,7 @@
           "evoId": 675,
           "formId": 3040,
           "candyCost": 50,
-          "questRequirement": "PANCHAM_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "PANCHAM_EVOLUTION_QUEST"
         }
       ]
     },
@@ -131344,7 +131344,7 @@
           "evoId": 923,
           "formId": 3238,
           "candyCost": 100,
-          "questRequirement": "PAWMOT_BUDDY_EVENT_EVOLUTION_QUEST"
+          "questRequirement": "PAWMOT_EVOLUTION_QUEST"
         }
       ]
     },
@@ -137254,7 +137254,7 @@
       "id": 465,
       "name": "Flower Trick",
       "proto": "FLOWER_TRICK",
-      "power": 85
+      "power": 75
     },
     "466": {
       "id": 466,
@@ -137296,7 +137296,7 @@
       "id": 472,
       "name": "Thunder Cage",
       "proto": "THUNDER_CAGE",
-      "power": 230
+      "power": 220
     },
     "473": {
       "id": 473,
@@ -137367,19 +137367,19 @@
       "id": 484,
       "name": "Clanging Scales",
       "proto": "CLANGING_SCALES",
-      "power": 130
+      "power": 120
     },
     "485": {
       "id": 485,
       "name": "Crush Grip",
       "proto": "CRUSH_GRIP",
-      "power": 230
+      "power": 210
     },
     "486": {
       "id": 486,
       "name": "Dragon Energy",
       "proto": "DRAGON_ENERGY",
-      "power": 165
+      "power": 155
     },
     "487": {
       "id": 487,
@@ -141605,6 +141605,216 @@
       "formatted": "Citysafari2025 Sydney",
       "imageUrl": "lc_CitySafari2025_sydney"
     },
+    "163": {
+      "id": 163,
+      "proto": "LC_POKELID_HOKKAIDO",
+      "formatted": "Pokelid Hokkaido",
+      "imageUrl": "lc_pokelid_hokkaido"
+    },
+    "164": {
+      "id": 164,
+      "proto": "LC_POKELID_AOMORI",
+      "formatted": "Pokelid Aomori",
+      "imageUrl": "lc_pokelid_aomori"
+    },
+    "165": {
+      "id": 165,
+      "proto": "LC_POKELID_IWATE",
+      "formatted": "Pokelid Iwate",
+      "imageUrl": "lc_pokelid_iwate"
+    },
+    "166": {
+      "id": 166,
+      "proto": "LC_POKELID_MIYAGI",
+      "formatted": "Pokelid Miyagi",
+      "imageUrl": "lc_pokelid_miyagi"
+    },
+    "167": {
+      "id": 167,
+      "proto": "LC_POKELID_AKITA",
+      "formatted": "Pokelid Akita",
+      "imageUrl": "lc_pokelid_akita"
+    },
+    "168": {
+      "id": 168,
+      "proto": "LC_POKELID_FUKUSHIMA",
+      "formatted": "Pokelid Fukushima",
+      "imageUrl": "lc_pokelid_fukushima"
+    },
+    "169": {
+      "id": 169,
+      "proto": "LC_POKELID_YAMAGATA",
+      "formatted": "Pokelid Yamagata",
+      "imageUrl": "lc_pokelid_yamagata"
+    },
+    "170": {
+      "id": 170,
+      "proto": "LC_POKELID_TOCHIGI",
+      "formatted": "Pokelid Tochigi",
+      "imageUrl": "lc_pokelid_tochigi"
+    },
+    "171": {
+      "id": 171,
+      "proto": "LC_POKELID_SAITAMA",
+      "formatted": "Pokelid Saitama",
+      "imageUrl": "lc_pokelid_saitama"
+    },
+    "172": {
+      "id": 172,
+      "proto": "LC_POKELID_CHIBA",
+      "formatted": "Pokelid Chiba",
+      "imageUrl": "lc_pokelid_chiba"
+    },
+    "173": {
+      "id": 173,
+      "proto": "LC_POKELID_TOKYO",
+      "formatted": "Pokelid Tokyo",
+      "imageUrl": "lc_pokelid_tokyo"
+    },
+    "174": {
+      "id": 174,
+      "proto": "LC_POKELID_KANAGAWA",
+      "formatted": "Pokelid Kanagawa",
+      "imageUrl": "lc_pokelid_kanagawa"
+    },
+    "175": {
+      "id": 175,
+      "proto": "LC_POKELID_IBARAKI",
+      "formatted": "Pokelid Ibaraki",
+      "imageUrl": "lc_pokelid_ibaraki"
+    },
+    "176": {
+      "id": 176,
+      "proto": "LC_POKELID_NIIGATA",
+      "formatted": "Pokelid Niigata",
+      "imageUrl": "lc_pokelid_niigata"
+    },
+    "177": {
+      "id": 177,
+      "proto": "LC_POKELID_TOYAMA",
+      "formatted": "Pokelid Toyama",
+      "imageUrl": "lc_pokelid_toyama"
+    },
+    "178": {
+      "id": 178,
+      "proto": "LC_POKELID_ISHIKAWA",
+      "formatted": "Pokelid Ishikawa",
+      "imageUrl": "lc_pokelid_ishikawa"
+    },
+    "179": {
+      "id": 179,
+      "proto": "LC_POKELID_FUKUI",
+      "formatted": "Pokelid Fukui",
+      "imageUrl": "lc_pokelid_fukui"
+    },
+    "180": {
+      "id": 180,
+      "proto": "LC_POKELID_GIFU",
+      "formatted": "Pokelid Gifu",
+      "imageUrl": "lc_pokelid_gifu"
+    },
+    "181": {
+      "id": 181,
+      "proto": "LC_POKELID_SHIZUOKA",
+      "formatted": "Pokelid Shizuoka",
+      "imageUrl": "lc_pokelid_shizuoka"
+    },
+    "182": {
+      "id": 182,
+      "proto": "LC_POKELID_AICHI",
+      "formatted": "Pokelid Aichi",
+      "imageUrl": "lc_pokelid_aichi"
+    },
+    "183": {
+      "id": 183,
+      "proto": "LC_POKELID_MIE",
+      "formatted": "Pokelid Mie",
+      "imageUrl": "lc_pokelid_mie"
+    },
+    "184": {
+      "id": 184,
+      "proto": "LC_POKELID_SHIGA",
+      "formatted": "Pokelid Shiga",
+      "imageUrl": "lc_pokelid_shiga"
+    },
+    "185": {
+      "id": 185,
+      "proto": "LC_POKELID_KYOTO",
+      "formatted": "Pokelid Kyoto",
+      "imageUrl": "lc_pokelid_kyoto"
+    },
+    "186": {
+      "id": 186,
+      "proto": "LC_POKELID_OSAKA",
+      "formatted": "Pokelid Osaka",
+      "imageUrl": "lc_pokelid_osaka"
+    },
+    "187": {
+      "id": 187,
+      "proto": "LC_POKELID_HYOGO",
+      "formatted": "Pokelid Hyogo",
+      "imageUrl": "lc_pokelid_hyogo"
+    },
+    "188": {
+      "id": 188,
+      "proto": "LC_POKELID_NARA",
+      "formatted": "Pokelid Nara",
+      "imageUrl": "lc_pokelid_nara"
+    },
+    "189": {
+      "id": 189,
+      "proto": "LC_POKELID_WAKAYAMA",
+      "formatted": "Pokelid Wakayama",
+      "imageUrl": "lc_pokelid_wakayama"
+    },
+    "190": {
+      "id": 190,
+      "proto": "LC_POKELID_TOTTORI",
+      "formatted": "Pokelid Tottori",
+      "imageUrl": "lc_pokelid_tottori"
+    },
+    "191": {
+      "id": 191,
+      "proto": "LC_POKELID_SHIMANE",
+      "formatted": "Pokelid Shimane",
+      "imageUrl": "lc_pokelid_shimane"
+    },
+    "192": {
+      "id": 192,
+      "proto": "LC_POKELID_OKAYAMA",
+      "formatted": "Pokelid Okayama",
+      "imageUrl": "lc_pokelid_okayama"
+    },
+    "193": {
+      "id": 193,
+      "proto": "LC_POKELID_YAMAGUCHI",
+      "formatted": "Pokelid Yamaguchi",
+      "imageUrl": "lc_pokelid_yamaguchi"
+    },
+    "194": {
+      "id": 194,
+      "proto": "LC_POKELID_TOKUSHIMA",
+      "formatted": "Pokelid Tokushima",
+      "imageUrl": "lc_pokelid_tokushima"
+    },
+    "195": {
+      "id": 195,
+      "proto": "LC_POKELID_KAGAWA",
+      "formatted": "Pokelid Kagawa",
+      "imageUrl": "lc_pokelid_kagawa"
+    },
+    "196": {
+      "id": 196,
+      "proto": "LC_POKELID_EHIME",
+      "formatted": "Pokelid Ehime",
+      "imageUrl": "lc_pokelid_ehime"
+    },
+    "197": {
+      "id": 197,
+      "proto": "LC_POKELID_KOCHI",
+      "formatted": "Pokelid Kochi",
+      "imageUrl": "lc_pokelid_kochi"
+    },
     "198": {
       "id": 198,
       "proto": "LC_POKELID_FUKUOKA",
@@ -141676,26 +141886,77 @@
       "imageUrl": "lc_GoTour2026_tainan",
       "cardType": "LOCATION_CARD"
     },
+    "216": {
+      "id": 216,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOLD_001",
+      "formatted": "2026 Global Gold 001",
+      "imageUrl": "sb_GoTour2026_gold",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Gold"
+    },
+    "217": {
+      "id": 217,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_SILVER_001",
+      "formatted": "2026 Global Silver 001",
+      "imageUrl": "sb_GoTour2026_silver",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Silver"
+    },
+    "218": {
+      "id": 218,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_RUBY_001",
+      "formatted": "2026 Global Ruby 001",
+      "imageUrl": "sb_GoTour2026_ruby",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Ruby"
+    },
+    "219": {
+      "id": 219,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_SAPPHIRE_001",
+      "formatted": "2026 Global Sapphire 001",
+      "imageUrl": "sb_GoTour2026_sapphire",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Sapphire"
+    },
+    "220": {
+      "id": 220,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_DIAMOND_001",
+      "formatted": "2026 Global Diamond 001",
+      "imageUrl": "sb_GoTour2026_diamond",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Diamond"
+    },
+    "221": {
+      "id": 221,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_PEARL_001",
+      "formatted": "2026 Global Pearl 001",
+      "imageUrl": "sb_GoTour2026_pearl",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Pearl"
+    },
     "222": {
       "id": 222,
       "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_X_001",
       "formatted": "2026 Global X 001",
       "imageUrl": "sb_GoTour2026_x",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_X"
     },
     "223": {
       "id": 223,
       "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_Y_001",
       "formatted": "2026 Global Y 001",
       "imageUrl": "sb_GoTour2026_y",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Y"
     },
     "224": {
       "id": 224,
       "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_001",
       "formatted": "2026 Global Mega 001",
       "imageUrl": "sb_GoTour2026_mega",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Mega"
     },
     "225": {
       "id": 225,

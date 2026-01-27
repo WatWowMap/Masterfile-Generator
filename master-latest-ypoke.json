@@ -9166,7 +9166,7 @@
               "questRequirement": [
                 {
                   "questType": 34,
-                  "target": 20
+                  "target": 70
                 }
               ]
             }
@@ -9258,7 +9258,7 @@
           "questRequirement": [
             {
               "questType": 34,
-              "target": 20
+              "target": 70
             }
           ]
         }
@@ -40680,7 +40680,7 @@
               "questRequirement": [
                 {
                   "questType": 4,
-                  "target": 10
+                  "target": 32
                 }
               ]
             }
@@ -40709,7 +40709,7 @@
           "questRequirement": [
             {
               "questType": 4,
-              "target": 10
+              "target": 32
             }
           ]
         }
@@ -48275,9 +48275,7 @@
         492
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [
-        296
-      ],
+      "eliteChargedMoves": [],
       "generation": "Galar",
       "forms": {
         "2326": {
@@ -54019,7 +54017,7 @@
               "questRequirement": [
                 {
                   "questType": 50,
-                  "target": 5
+                  "target": 25
                 }
               ]
             }
@@ -54051,7 +54049,7 @@
           "questRequirement": [
             {
               "questType": 50,
-              "target": 5
+              "target": 25
             }
           ]
         }
@@ -64373,7 +64371,7 @@
           "buff_activation_chance": 1
         }
       ],
-      "power": 85,
+      "power": 75,
       "duration_ms": 3000,
       "energy_delta": -33
     },
@@ -64485,7 +64483,7 @@
           "buff_activation_chance": 1
         }
       ],
-      "power": 230,
+      "power": 220,
       "duration_ms": 3500,
       "energy_delta": -100
     },
@@ -64601,7 +64599,7 @@
           "buff_activation_chance": 1
         }
       ],
-      "power": 130,
+      "power": 120,
       "duration_ms": 3500,
       "energy_delta": -100
     },
@@ -64613,7 +64611,7 @@
       "type": "Normal",
       "pvp_power": 110,
       "pvp_energy_delta": -50,
-      "power": 230,
+      "power": 210,
       "duration_ms": 2000,
       "energy_delta": -100
     },
@@ -64625,7 +64623,7 @@
       "type": "Dragon",
       "pvp_power": 90,
       "pvp_energy_delta": -45,
-      "power": 165,
+      "power": 155,
       "duration_ms": 3500,
       "energy_delta": -50
     },
