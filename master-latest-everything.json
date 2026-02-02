@@ -115587,6 +115587,11 @@
       "formName": "Normal",
       "proto": "NINETALES_NORMAL",
       "formId": 57,
+      "eliteChargedMoves": [
+        24,
+        103,
+        273
+      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -115610,7 +115615,9 @@
         293
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        488
+      ],
       "types": [
         15,
         18

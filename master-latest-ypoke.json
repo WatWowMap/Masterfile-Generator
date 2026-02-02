@@ -2795,7 +2795,12 @@
       "forms": {
         "57": {
           "formName": "Normal",
-          "formId": 57
+          "formId": 57,
+          "eliteChargedMoves": [
+            24,
+            103,
+            273
+          ]
         },
         "58": {
           "formName": "Alola",
@@ -2818,7 +2823,9 @@
             293
           ],
           "eliteQuickMoves": [],
-          "eliteChargedMoves": [],
+          "eliteChargedMoves": [
+            488
+          ],
           "types": [
             "Ice",
             "Fairy"
@@ -48275,7 +48282,9 @@
         492
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        296
+      ],
       "generation": "Galar",
       "forms": {
         "2326": {
