@@ -2789,18 +2789,14 @@
       ],
       "eliteChargedMoves": [
         24,
-        103
+        103,
+        273
       ],
       "generation": "Kanto",
       "forms": {
         "57": {
           "formName": "Normal",
-          "formId": 57,
-          "eliteChargedMoves": [
-            24,
-            103,
-            273
-          ]
+          "formId": 57
         },
         "58": {
           "formName": "Alola",
@@ -56649,6 +56645,7 @@
         "stamina": 193
       },
       "family": 973,
+      "bonusStardustCapture": 500,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,

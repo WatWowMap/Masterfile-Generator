@@ -110479,6 +110479,9 @@
       "height": 1.6,
       "weight": 37,
       "family": 973,
+      "encounter": {
+        "bonusStardustCapture": 500
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -115587,11 +115590,6 @@
       "formName": "Normal",
       "proto": "NINETALES_NORMAL",
       "formId": 57,
-      "eliteChargedMoves": [
-        24,
-        103,
-        273
-      ],
       "purificationDust": 3000,
       "purificationCandy": 3
     },
