@@ -46611,7 +46611,7 @@
     "778": {
       "pokemonName": "Mimikyu",
       "pokedexId": 778,
-      "defaultFormId": 2715,
+      "defaultFormId": 2716,
       "types": [
         "Ghost",
         "Fairy"
@@ -53104,7 +53104,18 @@
             "attack": 250,
             "defense": 201,
             "stamina": 179
-          }
+          },
+          "quickMoves": [
+            263,
+            274,
+            350
+          ],
+          "chargedMoves": [
+            87,
+            304,
+            341,
+            382
+          ]
         }
       },
       "stats": {

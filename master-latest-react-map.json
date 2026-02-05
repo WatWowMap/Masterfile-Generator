@@ -27492,7 +27492,7 @@
     "778": {
       "name": "Mimikyu",
       "pokedexId": 778,
-      "defaultFormId": 2715,
+      "defaultFormId": 2716,
       "types": [
         8,
         18
@@ -31654,7 +31654,18 @@
           "name": "Incarnate"
         },
         "2803": {
-          "name": "Therian"
+          "name": "Therian",
+          "quickMoves": [
+            263,
+            274,
+            350
+          ],
+          "chargedMoves": [
+            87,
+            304,
+            341,
+            382
+          ]
         }
       },
       "height": 1.6,

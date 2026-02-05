@@ -90544,7 +90544,7 @@
     "778": {
       "name": "Mimikyu",
       "pokedexId": 778,
-      "defaultFormId": 2715,
+      "defaultFormId": 2716,
       "types": {
         "8": {
           "typeId": 8,
@@ -103584,6 +103584,59 @@
             "attack": 250,
             "defense": 201,
             "stamina": 179
+          },
+          "quickMoves": {
+            "263": {
+              "moveId": 263,
+              "moveName": "Astonish",
+              "proto": "ASTONISH_FAST",
+              "type": 8,
+              "power": 7
+            },
+            "274": {
+              "moveId": 274,
+              "moveName": "Extrasensory",
+              "proto": "EXTRASENSORY_FAST",
+              "type": 14,
+              "power": 11
+            },
+            "350": {
+              "moveId": 350,
+              "moveName": "Fairy Wind",
+              "proto": "FAIRY_WIND_FAST",
+              "type": 18,
+              "power": 9
+            }
+          },
+          "chargedMoves": {
+            "87": {
+              "moveId": 87,
+              "moveName": "Moonblast",
+              "proto": "MOONBLAST",
+              "type": 18,
+              "power": 130
+            },
+            "304": {
+              "moveId": 304,
+              "moveName": "Earth Power",
+              "proto": "EARTH_POWER",
+              "type": 5,
+              "power": 100
+            },
+            "341": {
+              "moveId": 341,
+              "moveName": "Fly",
+              "proto": "FLY",
+              "type": 3,
+              "power": 90
+            },
+            "382": {
+              "moveId": 382,
+              "moveName": "Mystical Fire",
+              "proto": "MYSTICAL_FIRE",
+              "type": 10,
+              "power": 60
+            }
           }
         }
       },
@@ -128162,7 +128215,18 @@
       "formId": 2803,
       "attack": 250,
       "defense": 201,
-      "stamina": 179
+      "stamina": 179,
+      "quickMoves": [
+        263,
+        274,
+        350
+      ],
+      "chargedMoves": [
+        87,
+        304,
+        341,
+        382
+      ]
     },
     "2804": {
       "formName": "White-Striped",

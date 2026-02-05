@@ -40448,7 +40448,7 @@
     "778": {
       "name": "Mimikyu",
       "pokedex_id": 778,
-      "default_form_id": 2715,
+      "default_form_id": 2716,
       "types": [
         "Ghost",
         "Fairy"
@@ -46218,7 +46218,18 @@
           "proto": "ENAMORUS_THERIAN",
           "attack": 250,
           "defense": 201,
-          "stamina": 179
+          "stamina": 179,
+          "quick_moves": [
+            "Astonish",
+            "Extrasensory",
+            "Fairy Wind"
+          ],
+          "charged_moves": [
+            "Moonblast",
+            "Earth Power",
+            "Fly",
+            "Mystical Fire"
+          ]
         }
       },
       "attack": 281,
