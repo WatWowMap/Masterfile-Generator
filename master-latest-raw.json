@@ -5689,22 +5689,26 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 265,
           "defense": 181,
           "stamina": 190,
-          "unreleased": true
+          "height": 4.5,
+          "weight": 125.5,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "72": {
       "pokemonName": "Tentacool",
@@ -79885,17 +79889,20 @@
       "formName": "Normal",
       "proto": "VICTREEBEL_NORMAL",
       "formId": 670,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 265,
           "defense": 181,
           "stamina": 190,
-          "unreleased": true
+          "height": 4.5,
+          "weight": 125.5,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "677": {
       "formName": "Normal",

@@ -4967,11 +4967,22 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 265,
+            "defense": 181,
+            "stamina": 190
+          }
+        }
+      },
       "purificationDust": 3000,
       "purificationCandy": 3
     },
