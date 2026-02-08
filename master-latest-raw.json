@@ -52408,23 +52408,28 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 208,
           "defense": 222,
           "stamina": 200,
-          "unreleased": true
+          "height": 2.9,
+          "weight": 69.8,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "688": {
       "pokemonName": "Binacle",
@@ -91210,17 +91215,20 @@
       "formName": "Normal",
       "proto": "MALAMAR_NORMAL",
       "formId": 3049,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 208,
           "defense": 222,
           "stamina": 200,
-          "unreleased": true
+          "height": 2.9,
+          "weight": 69.8,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3050": {
       "formName": "Normal",
