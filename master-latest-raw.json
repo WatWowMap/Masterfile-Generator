@@ -100850,8 +100850,28 @@
     },
     "105": {
       "questId": 105,
-      "proto": "QUEST_SPEND_MEGA_RESOURCE",
-      "formatted": "Spend Mega Resource"
+      "proto": "QUEST_SPEND_TEMP_EVO_RESOURCE",
+      "formatted": "Spend Temp Evo Resource"
+    },
+    "106": {
+      "questId": 106,
+      "proto": "QUEST_GET_CANDY",
+      "formatted": "Get Candy"
+    },
+    "107": {
+      "questId": 107,
+      "proto": "QUEST_GET_XL_CANDY",
+      "formatted": "Get XL Candy"
+    },
+    "108": {
+      "questId": 108,
+      "proto": "QUEST_GET_CANDY_OR_XL_CANDY",
+      "formatted": "Get Candy Or XL Candy"
+    },
+    "109": {
+      "questId": 109,
+      "proto": "QUEST_AR_PHOTO_SOCIAL",
+      "formatted": "Ar Photo Social"
     }
   },
   "questRewardTypes": {
@@ -101346,6 +101366,11 @@
       "questId": 78,
       "proto": "WITH_POKEMON_TYPE_MOVE",
       "formatted": "With Pokemon Type Move"
+    },
+    "79": {
+      "questId": 79,
+      "proto": "WITH_POKEMON_FAMILY",
+      "formatted": "With Pokemon Family"
     }
   },
   "invasions": {

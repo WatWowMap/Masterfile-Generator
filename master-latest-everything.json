@@ -137990,8 +137990,28 @@
     },
     "105": {
       "id": 105,
-      "proto": "QUEST_SPEND_MEGA_RESOURCE",
-      "formatted": "Spend Mega Resource"
+      "proto": "QUEST_SPEND_TEMP_EVO_RESOURCE",
+      "formatted": "Spend Temp Evo Resource"
+    },
+    "106": {
+      "id": 106,
+      "proto": "QUEST_GET_CANDY",
+      "formatted": "Get Candy"
+    },
+    "107": {
+      "id": 107,
+      "proto": "QUEST_GET_XL_CANDY",
+      "formatted": "Get XL Candy"
+    },
+    "108": {
+      "id": 108,
+      "proto": "QUEST_GET_CANDY_OR_XL_CANDY",
+      "formatted": "Get Candy Or XL Candy"
+    },
+    "109": {
+      "id": 109,
+      "proto": "QUEST_AR_PHOTO_SOCIAL",
+      "formatted": "Ar Photo Social"
     }
   },
   "questRewardTypes": {
@@ -138486,6 +138506,11 @@
       "id": 78,
       "proto": "WITH_POKEMON_TYPE_MOVE",
       "formatted": "With Pokemon Type Move"
+    },
+    "79": {
+      "id": 79,
+      "proto": "WITH_POKEMON_FAMILY",
+      "formatted": "With Pokemon Family"
     }
   },
   "invasions": {
