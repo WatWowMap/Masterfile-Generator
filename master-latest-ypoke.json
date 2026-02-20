@@ -4846,6 +4846,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -4909,6 +4910,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
@@ -10095,6 +10097,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -10156,6 +10159,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -10221,11 +10225,22 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 299,
+            "defense": 255,
+            "stamina": 209
+          }
+        }
+      },
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -41412,6 +41427,7 @@
       "mythic": false,
       "ultraBeast": false,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,

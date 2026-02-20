@@ -9058,6 +9058,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -9165,6 +9166,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -18936,6 +18938,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -19046,6 +19049,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -19183,6 +19187,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 5,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 75000,
         "thirdMoveCandy": 75,
         "gymDefenderEligible": true,
@@ -19197,7 +19202,9 @@
             "defense": 255,
             "stamina": 209
           },
-          "unreleased": true
+          "weight": 290,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -80252,6 +80259,7 @@
       "ultraBeast": false,
       "misc": {
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -117376,17 +117384,19 @@
       "formName": "Normal",
       "proto": "DRAGONITE_NORMAL",
       "formId": 196,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 299,
           "defense": 255,
           "stamina": 209,
-          "unreleased": true
+          "weight": 290,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "199": {
       "formName": "Normal",
