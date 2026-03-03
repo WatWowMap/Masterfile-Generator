@@ -900,6 +900,7 @@
         "Air Slash"
       ],
       "charged_moves": [
+        "Heat Wave",
         "Aerial Ace",
         "Hurricane",
         "Brave Bird",
@@ -7658,11 +7659,13 @@
         },
         "3337": {
           "name": "Spring 2026 A",
-          "proto": "DITTO_SPRING_2026_A"
+          "proto": "DITTO_SPRING_2026_A",
+          "is_costume": true
         },
         "3338": {
           "name": "Spring 2026 B",
-          "proto": "DITTO_SPRING_2026_B"
+          "proto": "DITTO_SPRING_2026_B",
+          "is_costume": true
         }
       },
       "attack": 91,
@@ -8263,7 +8266,8 @@
       ],
       "quick_moves": [
         "Ice Shard",
-        "Frost Breath"
+        "Frost Breath",
+        "Powder Snow"
       ],
       "charged_moves": [
         "Ice Beam",
@@ -8329,6 +8333,7 @@
       ],
       "charged_moves": [
         "Drill Peck",
+        "Heat Wave",
         "Ancient Power",
         "Thunder",
         "Thunderbolt",
@@ -8393,7 +8398,8 @@
         "Heat Wave",
         "Ancient Power",
         "Fire Blast",
-        "Overheat"
+        "Overheat",
+        "Fly"
       ],
       "gen_id": 1,
       "generation": "Kanto",
@@ -9937,6 +9943,7 @@
         "Fairy Wind"
       ],
       "charged_moves": [
+        "Heat Wave",
         "Aerial Ace",
         "Psyshock",
         "Ancient Power",
@@ -11904,12 +11911,14 @@
         "Bug"
       ],
       "quick_moves": [
+        "Fury Cutter",
         "Counter",
         "Struggle Bug"
       ],
       "charged_moves": [
         "Megahorn",
         "Earthquake",
+        "Rock Tomb",
         "Close Combat",
         "Rock Blast",
         "Upper Hand"
@@ -17442,9 +17451,11 @@
       ],
       "charged_moves": [
         "Earthquake",
+        "Rock Tomb",
         "Solar Beam",
         "Overheat",
-        "Earth Power"
+        "Earth Power",
+        "Scorching Sands"
       ],
       "gen_id": 3,
       "generation": "Hoenn",
@@ -17845,6 +17856,7 @@
       "charged_moves": [
         "Earthquake",
         "Stone Edge",
+        "Twister",
         "Dragon Claw",
         "Sand Tomb",
         "Boomburst",
@@ -21883,6 +21895,7 @@
       ],
       "quick_moves": [
         "Bug Bite",
+        "Sucker Punch",
         "Tackle"
       ],
       "charged_moves": [
@@ -21896,6 +21909,7 @@
           "proto": "WORMADAM_PLANT",
           "quick_moves": [
             "Bug Bite",
+            "Sucker Punch",
             "Confusion"
           ],
           "charged_moves": [
@@ -21909,6 +21923,7 @@
           "proto": "WORMADAM_SANDY",
           "quick_moves": [
             "Bug Bite",
+            "Sucker Punch",
             "Confusion"
           ],
           "charged_moves": [
@@ -21929,6 +21944,7 @@
           "stamina": 155,
           "quick_moves": [
             "Bug Bite",
+            "Sucker Punch",
             "Confusion",
             "Metal Sound"
           ],
@@ -23439,6 +23455,7 @@
       ],
       "charged_moves": [
         "Earthquake",
+        "Twister",
         "Fire Blast",
         "Sand Tomb",
         "Outrage",
@@ -24680,7 +24697,8 @@
         "Earthquake",
         "Aerial Ace",
         "Night Slash",
-        "Sand Tomb"
+        "Sand Tomb",
+        "Acrobatics"
       ],
       "gen_id": 4,
       "generation": "Sinnoh",
@@ -25030,6 +25048,12 @@
           "attack": 204,
           "defense": 219,
           "stamina": 137,
+          "charged_moves": [
+            "Ominous Wind",
+            "Thunder",
+            "Thunderbolt",
+            "Leaf Storm"
+          ],
           "types": [
             "Grass",
             "Electric"
@@ -28204,6 +28228,7 @@
       ],
       "charged_moves": [
         "Megahorn",
+        "Aqua Tail",
         "Sludge Bomb",
         "X Scissor",
         "Gyro Ball"
@@ -37538,6 +37563,7 @@
       ],
       "charged_moves": [
         "Sludge Bomb",
+        "Scald",
         "Hydro Pump",
         "Overheat",
         "Earth Power"
@@ -41522,6 +41548,7 @@
       ],
       "quick_moves": [
         "Sucker Punch",
+        "Shadow Claw",
         "Poison Jab",
         "Counter"
       ],
@@ -55163,7 +55190,9 @@
     },
     "493": {
       "name": "Pyroball",
-      "proto": "PYROBALL"
+      "proto": "PYROBALL",
+      "type": "Fire",
+      "power": 150
     }
   },
   "quest_types": {

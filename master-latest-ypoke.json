@@ -1057,6 +1057,7 @@
         255
       ],
       "chargedMoves": [
+        42,
         45,
         122,
         256,
@@ -9074,11 +9075,13 @@
         },
         "3337": {
           "formName": "Spring 2026 A",
-          "formId": 3337
+          "formId": 3337,
+          "isCostume": true
         },
         "3338": {
           "formName": "Spring 2026 B",
-          "formId": 3338
+          "formId": 3338,
+          "isCostume": true
         }
       },
       "stats": {
@@ -9851,7 +9854,8 @@
       ],
       "quickMoves": [
         217,
-        218
+        218,
+        244
       ],
       "chargedMoves": [
         39,
@@ -9926,6 +9930,7 @@
       ],
       "chargedMoves": [
         38,
+        42,
         62,
         78,
         79,
@@ -9999,7 +10004,8 @@
         42,
         62,
         103,
-        270
+        270,
+        341
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -11727,6 +11733,7 @@
         350
       ],
       "chargedMoves": [
+        42,
         45,
         60,
         62,
@@ -14065,12 +14072,14 @@
         "Bug"
       ],
       "quickMoves": [
+        200,
         243,
         261
       ],
       "chargedMoves": [
         22,
         31,
+        63,
         245,
         259,
         471
@@ -20426,9 +20435,11 @@
       ],
       "chargedMoves": [
         31,
+        63,
         116,
         270,
-        304
+        304,
+        393
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -20876,6 +20887,7 @@
       "chargedMoves": [
         31,
         32,
+        80,
         83,
         258,
         380,
@@ -25537,6 +25549,7 @@
       ],
       "quickMoves": [
         201,
+        203,
         221
       ],
       "chargedMoves": [
@@ -25551,6 +25564,7 @@
           "formId": 87,
           "quickMoves": [
             201,
+            203,
             235
           ],
           "chargedMoves": [
@@ -25564,6 +25578,7 @@
           "formId": 88,
           "quickMoves": [
             201,
+            203,
             235
           ],
           "chargedMoves": [
@@ -25586,6 +25601,7 @@
           },
           "quickMoves": [
             201,
+            203,
             235,
             402
           ],
@@ -27335,6 +27351,7 @@
       ],
       "chargedMoves": [
         31,
+        80,
         103,
         258,
         277,
@@ -28763,7 +28780,8 @@
         31,
         45,
         51,
-        258
+        258,
+        364
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -29173,6 +29191,12 @@
             "defense": 219,
             "stamina": 137
           },
+          "chargedMoves": [
+            69,
+            78,
+            79,
+            343
+          ],
           "types": [
             "Grass",
             "Electric"
@@ -32817,6 +32841,7 @@
       ],
       "chargedMoves": [
         22,
+        58,
         90,
         100,
         267
@@ -43407,6 +43432,7 @@
       ],
       "chargedMoves": [
         90,
+        106,
         107,
         270,
         304
@@ -47819,6 +47845,7 @@
       ],
       "quickMoves": [
         203,
+        213,
         224,
         243
       ],
@@ -60020,8 +60047,8 @@
       "proto": "HEAT_WAVE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 95,
-      "pvp_energy_delta": -75,
+      "pvp_power": 75,
+      "pvp_energy_delta": -45,
       "power": 95,
       "duration_ms": 3000,
       "energy_delta": -100
@@ -60269,7 +60296,7 @@
       "proto": "ROCK_TOMB",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 80,
+      "pvp_power": 75,
       "pvp_energy_delta": -50,
       "pvp_buffs": [
         {
@@ -60464,8 +60491,8 @@
       "proto": "TWISTER",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 45,
-      "pvp_energy_delta": -45,
+      "pvp_power": 70,
+      "pvp_energy_delta": -40,
       "power": 50,
       "duration_ms": 3000,
       "energy_delta": -33
@@ -60660,8 +60687,8 @@
       "proto": "MUD_BOMB",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
+      "pvp_power": 65,
+      "pvp_energy_delta": -45,
       "power": 60,
       "duration_ms": 2500,
       "energy_delta": -33
@@ -61225,8 +61252,8 @@
       "proto": "LOW_KICK_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 4,
-      "pvp_energy_delta": 5,
+      "pvp_power": 5,
+      "pvp_energy_delta": 8,
       "power": 5,
       "duration_ms": 500,
       "energy_delta": 5
@@ -61262,7 +61289,7 @@
       "fast": true,
       "type": "Flying",
       "pvp_power": 5,
-      "pvp_energy_delta": 7,
+      "pvp_energy_delta": 8,
       "power": 10,
       "duration_ms": 1000,
       "energy_delta": 11
@@ -61333,8 +61360,8 @@
       "proto": "MUD_SHOT_FAST",
       "fast": true,
       "type": "Ground",
-      "pvp_power": 4,
-      "pvp_energy_delta": 8,
+      "pvp_power": 3,
+      "pvp_energy_delta": 9,
       "power": 4,
       "duration_ms": 500,
       "energy_delta": 6
@@ -61453,7 +61480,7 @@
       "proto": "PSYCHO_CUT_FAST",
       "fast": true,
       "type": "Psychic",
-      "pvp_power": 3,
+      "pvp_power": 4,
       "pvp_energy_delta": 9,
       "power": 4,
       "duration_ms": 500,
@@ -61489,7 +61516,7 @@
       "proto": "BULLET_PUNCH_FAST",
       "fast": true,
       "type": "Steel",
-      "pvp_power": 8,
+      "pvp_power": 7,
       "pvp_energy_delta": 7,
       "power": 10,
       "duration_ms": 1000,
@@ -61535,7 +61562,7 @@
       "proto": "MUD_SLAP_FAST",
       "fast": true,
       "type": "Ground",
-      "pvp_power": 12,
+      "pvp_power": 11,
       "pvp_energy_delta": 10,
       "power": 19,
       "duration_ms": 1500,
@@ -61851,7 +61878,7 @@
       "proto": "SAND_TOMB",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 25,
+      "pvp_power": 40,
       "pvp_energy_delta": -40,
       "pvp_buffs": [
         {
@@ -62179,8 +62206,8 @@
       "proto": "WATERFALL_FAST",
       "fast": true,
       "type": "Water",
-      "pvp_power": 12,
-      "pvp_energy_delta": 8,
+      "pvp_power": 11,
+      "pvp_energy_delta": 10,
       "power": 13,
       "duration_ms": 1000,
       "energy_delta": 7
@@ -62355,7 +62382,7 @@
       "proto": "SMACK_DOWN_FAST",
       "fast": true,
       "type": "Rock",
-      "pvp_power": 12,
+      "pvp_power": 11,
       "pvp_energy_delta": 8,
       "power": 13,
       "duration_ms": 1000,
@@ -62603,7 +62630,7 @@
       "proto": "DRAIN_PUNCH",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 20,
+      "pvp_power": 40,
       "pvp_energy_delta": -40,
       "pvp_buffs": [
         {
@@ -63775,7 +63802,7 @@
       "fast": false,
       "type": "Electric",
       "pvp_power": 90,
-      "pvp_energy_delta": -50,
+      "pvp_energy_delta": -40,
       "pvp_buffs": [
         {
           "buff_activation_chance": 1
@@ -64799,7 +64826,13 @@
       "id": 493,
       "name": "Pyroball",
       "proto": "PYROBALL",
-      "fast": false
+      "fast": false,
+      "type": "Fire",
+      "pvp_power": 75,
+      "pvp_energy_delta": -40,
+      "power": 150,
+      "duration_ms": 2000,
+      "energy_delta": -100
     }
   },
   "questTypes": {

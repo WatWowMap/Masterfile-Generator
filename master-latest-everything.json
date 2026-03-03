@@ -1849,6 +1849,13 @@
         }
       },
       "chargedMoves": {
+        "42": {
+          "moveId": 42,
+          "moveName": "Heat Wave",
+          "proto": "HEAT_WAVE",
+          "type": 10,
+          "power": 95
+        },
         "45": {
           "moveId": 45,
           "moveName": "Aerial Ace",
@@ -17088,12 +17095,14 @@
         "3337": {
           "name": "Spring 2026 A",
           "proto": "DITTO_SPRING_2026_A",
-          "form": 3337
+          "form": 3337,
+          "isCostume": true
         },
         "3338": {
           "name": "Spring 2026 B",
           "proto": "DITTO_SPRING_2026_B",
-          "form": 3338
+          "form": 3338,
+          "isCostume": true
         }
       },
       "stats": {
@@ -18396,6 +18405,13 @@
           "proto": "FROST_BREATH_FAST",
           "type": 15,
           "power": 11
+        },
+        "244": {
+          "moveId": 244,
+          "moveName": "Powder Snow",
+          "proto": "POWDER_SNOW_FAST",
+          "type": 15,
+          "power": 6
         }
       },
       "chargedMoves": {
@@ -18567,6 +18583,13 @@
           "proto": "DRILL_PECK",
           "type": 3,
           "power": 70
+        },
+        "42": {
+          "moveId": 42,
+          "moveName": "Heat Wave",
+          "proto": "HEAT_WAVE",
+          "type": 10,
+          "power": 95
         },
         "62": {
           "moveId": 62,
@@ -18750,6 +18773,13 @@
           "proto": "OVERHEAT",
           "type": 10,
           "power": 160
+        },
+        "341": {
+          "moveId": 341,
+          "moveName": "Fly",
+          "proto": "FLY",
+          "type": 3,
+          "power": 90
         }
       },
       "genId": 1,
@@ -22343,6 +22373,13 @@
         }
       },
       "chargedMoves": {
+        "42": {
+          "moveId": 42,
+          "moveName": "Heat Wave",
+          "proto": "HEAT_WAVE",
+          "type": 10,
+          "power": 95
+        },
         "45": {
           "moveId": 45,
           "moveName": "Aerial Ace",
@@ -26660,6 +26697,13 @@
         }
       },
       "quickMoves": {
+        "200": {
+          "moveId": 200,
+          "moveName": "Fury Cutter",
+          "proto": "FURY_CUTTER_FAST",
+          "type": 7,
+          "power": 4
+        },
         "243": {
           "moveId": 243,
           "moveName": "Counter",
@@ -26689,6 +26733,13 @@
           "proto": "EARTHQUAKE",
           "type": 5,
           "power": 140
+        },
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 65
         },
         "245": {
           "moveId": 245,
@@ -39977,6 +40028,13 @@
           "type": 5,
           "power": 140
         },
+        "63": {
+          "moveId": 63,
+          "moveName": "Rock Tomb",
+          "proto": "ROCK_TOMB",
+          "type": 6,
+          "power": 65
+        },
         "116": {
           "moveId": 116,
           "moveName": "Solar Beam",
@@ -39997,6 +40055,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 100
+        },
+        "393": {
+          "moveId": 393,
+          "moveName": "Scorching Sands",
+          "proto": "SCORCHING_SANDS",
+          "type": 5,
+          "power": 90
         }
       },
       "genId": 3,
@@ -40812,6 +40877,13 @@
           "proto": "STONE_EDGE",
           "type": 6,
           "power": 105
+        },
+        "80": {
+          "moveId": 80,
+          "moveName": "Twister",
+          "proto": "TWISTER",
+          "type": 16,
+          "power": 50
         },
         "83": {
           "moveId": 83,
@@ -49770,6 +49842,13 @@
           "type": 7,
           "power": 5
         },
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
@@ -49805,6 +49884,13 @@
               "moveName": "Bug Bite",
               "proto": "BUG_BITE_FAST",
               "type": 7,
+              "power": 5
+            },
+            "203": {
+              "moveId": 203,
+              "moveName": "Sucker Punch",
+              "proto": "SUCKER_PUNCH_FAST",
+              "type": 17,
               "power": 5
             },
             "235": {
@@ -49849,6 +49935,13 @@
               "moveName": "Bug Bite",
               "proto": "BUG_BITE_FAST",
               "type": 7,
+              "power": 5
+            },
+            "203": {
+              "moveId": 203,
+              "moveName": "Sucker Punch",
+              "proto": "SUCKER_PUNCH_FAST",
+              "type": 17,
               "power": 5
             },
             "235": {
@@ -49908,6 +50001,13 @@
               "moveName": "Bug Bite",
               "proto": "BUG_BITE_FAST",
               "type": 7,
+              "power": 5
+            },
+            "203": {
+              "moveId": 203,
+              "moveName": "Sucker Punch",
+              "proto": "SUCKER_PUNCH_FAST",
+              "type": 17,
               "power": 5
             },
             "235": {
@@ -53221,6 +53321,13 @@
           "type": 5,
           "power": 140
         },
+        "80": {
+          "moveId": 80,
+          "moveName": "Twister",
+          "proto": "TWISTER",
+          "type": 16,
+          "power": 50
+        },
         "103": {
           "moveId": 103,
           "moveName": "Fire Blast",
@@ -56190,6 +56297,13 @@
           "proto": "SAND_TOMB",
           "type": 5,
           "power": 60
+        },
+        "364": {
+          "moveId": 364,
+          "moveName": "Acrobatics",
+          "proto": "ACROBATICS",
+          "type": 3,
+          "power": 100
         }
       },
       "genId": 4,
@@ -57040,6 +57154,36 @@
             "attack": 204,
             "defense": 219,
             "stamina": 137
+          },
+          "chargedMoves": {
+            "69": {
+              "moveId": 69,
+              "moveName": "Ominous Wind",
+              "proto": "OMINOUS_WIND",
+              "type": 8,
+              "power": 55
+            },
+            "78": {
+              "moveId": 78,
+              "moveName": "Thunder",
+              "proto": "THUNDER",
+              "type": 13,
+              "power": 100
+            },
+            "79": {
+              "moveId": 79,
+              "moveName": "Thunderbolt",
+              "proto": "THUNDERBOLT",
+              "type": 13,
+              "power": 80
+            },
+            "343": {
+              "moveId": 343,
+              "moveName": "Leaf Storm",
+              "proto": "LEAF_STORM",
+              "type": 12,
+              "power": 130
+            }
           },
           "types": {
             "12": {
@@ -63929,6 +64073,13 @@
           "proto": "MEGAHORN",
           "type": 7,
           "power": 105
+        },
+        "58": {
+          "moveId": 58,
+          "moveName": "Aqua Tail",
+          "proto": "AQUA_TAIL",
+          "type": 11,
+          "power": 50
         },
         "90": {
           "moveId": 90,
@@ -84229,6 +84380,13 @@
           "type": 4,
           "power": 85
         },
+        "106": {
+          "moveId": 106,
+          "moveName": "Scald",
+          "proto": "SCALD",
+          "type": 11,
+          "power": 75
+        },
         "107": {
           "moveId": 107,
           "moveName": "Hydro Pump",
@@ -93008,6 +93166,13 @@
           "proto": "SUCKER_PUNCH_FAST",
           "type": 17,
           "power": 5
+        },
+        "213": {
+          "moveId": 213,
+          "moveName": "Shadow Claw",
+          "proto": "SHADOW_CLAW_FAST",
+          "type": 8,
+          "power": 6
         },
         "224": {
           "moveId": 224,
@@ -116288,6 +116453,12 @@
       "attack": 204,
       "defense": 219,
       "stamina": 137,
+      "chargedMoves": [
+        69,
+        78,
+        79,
+        343
+      ],
       "types": [
         12,
         13
@@ -116333,6 +116504,7 @@
       "formId": 87,
       "quickMoves": [
         201,
+        203,
         235
       ],
       "chargedMoves": [
@@ -116347,6 +116519,7 @@
       "formId": 88,
       "quickMoves": [
         201,
+        203,
         235
       ],
       "chargedMoves": [
@@ -116368,6 +116541,7 @@
       "stamina": 155,
       "quickMoves": [
         201,
+        203,
         235,
         402
       ],
@@ -132202,12 +132376,14 @@
     "3337": {
       "formName": "Spring 2026 A",
       "proto": "DITTO_SPRING_2026_A",
-      "formId": 3337
+      "formId": 3337,
+      "isCostume": true
     },
     "3338": {
       "formName": "Spring 2026 B",
       "proto": "DITTO_SPRING_2026_B",
-      "formId": 3338
+      "formId": 3338,
+      "isCostume": true
     },
     "3339": {
       "formName": "Spring 2026",
@@ -137533,7 +137709,8 @@
     "493": {
       "id": 493,
       "name": "Pyro Ball",
-      "proto": "PYROBALL"
+      "proto": "PYROBALL",
+      "power": 150
     }
   },
   "questTypes": {
@@ -141643,6 +141820,14 @@
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_TalesOfTransformation"
     },
+    "133": {
+      "id": 133,
+      "proto": "LC_SPECIALBACKGROUND_EXTRA_2025_01",
+      "formatted": "Extra 2025 01",
+      "imageUrl": "sb_FestivalofColors_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_holi_2026"
+    },
     "143": {
       "id": 143,
       "proto": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
@@ -142118,6 +142303,13 @@
       "proto": "LC_2026_PPK_001",
       "formatted": "2026 Ppk 001",
       "imageUrl": "lc_2026_ppk_001"
+    },
+    "242": {
+      "id": 242,
+      "proto": "LC_SPECIALBACKGROUND_POK2026",
+      "formatted": "Pok2026",
+      "imageUrl": "lc_pokopia2026",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "243": {
       "id": 243,

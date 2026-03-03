@@ -565,6 +565,7 @@
         255
       ],
       "chargedMoves": [
+        42,
         45,
         122,
         256,
@@ -5099,10 +5100,12 @@
           "name": "Normal"
         },
         "3337": {
-          "name": "Spring 2026 A"
+          "name": "Spring 2026 A",
+          "isCostume": true
         },
         "3338": {
-          "name": "Spring 2026 B"
+          "name": "Spring 2026 B",
+          "isCostume": true
         }
       },
       "height": 0.3,
@@ -5484,7 +5487,8 @@
       ],
       "quickMoves": [
         217,
-        218
+        218,
+        244
       ],
       "chargedMoves": [
         39,
@@ -5537,6 +5541,7 @@
       ],
       "chargedMoves": [
         38,
+        42,
         62,
         78,
         79,
@@ -5588,7 +5593,8 @@
         42,
         62,
         103,
-        270
+        270,
+        341
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -6632,6 +6638,7 @@
         350
       ],
       "chargedMoves": [
+        42,
         45,
         60,
         62,
@@ -7986,12 +7993,14 @@
         7
       ],
       "quickMoves": [
+        200,
         243,
         261
       ],
       "chargedMoves": [
         22,
         31,
+        63,
         245,
         259,
         471
@@ -11777,9 +11786,11 @@
       ],
       "chargedMoves": [
         31,
+        63,
         116,
         270,
-        304
+        304,
+        393
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -12059,6 +12070,7 @@
       "chargedMoves": [
         31,
         32,
+        80,
         83,
         258,
         380,
@@ -14793,6 +14805,7 @@
       ],
       "quickMoves": [
         201,
+        203,
         221
       ],
       "chargedMoves": [
@@ -14805,6 +14818,7 @@
           "name": "Plant",
           "quickMoves": [
             201,
+            203,
             235
           ],
           "chargedMoves": [
@@ -14817,6 +14831,7 @@
           "name": "Sandy",
           "quickMoves": [
             201,
+            203,
             235
           ],
           "chargedMoves": [
@@ -14833,6 +14848,7 @@
           "name": "Trash",
           "quickMoves": [
             201,
+            203,
             235,
             402
           ],
@@ -15860,6 +15876,7 @@
       ],
       "chargedMoves": [
         31,
+        80,
         103,
         258,
         277,
@@ -16750,7 +16767,8 @@
         31,
         45,
         51,
-        258
+        258,
+        364
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -17017,6 +17035,12 @@
         },
         "84": {
           "name": "Mow",
+          "chargedMoves": [
+            69,
+            78,
+            79,
+            343
+          ],
           "types": [
             12,
             13
@@ -19239,6 +19263,7 @@
       ],
       "chargedMoves": [
         22,
+        58,
         90,
         100,
         267
@@ -25473,6 +25498,7 @@
       ],
       "chargedMoves": [
         90,
+        106,
         107,
         270,
         304
@@ -28297,6 +28323,7 @@
       ],
       "quickMoves": [
         203,
+        213,
         224,
         243
       ],
@@ -37238,7 +37265,8 @@
       "type": 12
     },
     "493": {
-      "name": "Pyroball"
+      "name": "Pyroball",
+      "type": 10
     }
   },
   "questRewardTypes": {
@@ -39761,6 +39789,11 @@
       "formatted": "2025 Season20",
       "cardType": "SPECIAL_BACKGROUND"
     },
+    "133": {
+      "proto": "LC_SPECIALBACKGROUND_EXTRA_2025_01",
+      "formatted": "Extra 2025 01",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
     "143": {
       "proto": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
       "formatted": "2025 Anaheim World Championships 001"
@@ -40075,6 +40108,11 @@
     "241": {
       "proto": "LC_2026_PPK_001",
       "formatted": "2026 Ppk 001"
+    },
+    "242": {
+      "proto": "LC_SPECIALBACKGROUND_POK2026",
+      "formatted": "Pok2026",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "243": {
       "proto": "LC_2026_RIODEJANEIRO_CARNIVAL_001",
