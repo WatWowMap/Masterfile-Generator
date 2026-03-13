@@ -95451,6 +95451,13 @@
         }
       },
       "quickMoves": {
+        "226": {
+          "moveId": 226,
+          "moveName": "Psycho Cut",
+          "proto": "PSYCHO_CUT_FAST",
+          "type": 14,
+          "power": 4
+        },
         "235": {
           "moveId": 235,
           "moveName": "Confusion",
@@ -95473,6 +95480,13 @@
           "proto": "BUG_BUZZ",
           "type": 7,
           "power": 95
+        },
+        "60": {
+          "moveId": 60,
+          "moveName": "Psyshock",
+          "proto": "PSYSHOCK",
+          "type": 14,
+          "power": 60
         },
         "108": {
           "moveId": 108,
@@ -135050,13 +135064,6 @@
       "id": 1627,
       "name": "Event Ticket 03 To Gift",
       "proto": "ITEM_EVENT_TICKET_03_TO_GIFT",
-      "type": "Global Event Ticket",
-      "category": "Global Event Ticket"
-    },
-    "1628": {
-      "id": 1628,
-      "name": "Event Ticket 04 To Gift",
-      "proto": "ITEM_EVENT_TICKET_04_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
