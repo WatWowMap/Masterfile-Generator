@@ -59079,80 +59079,80 @@
   },
   "types": {
     "0": {
-      "type_id": 0,
-      "type_name": "None"
+      "typeId": 0,
+      "typeName": "None"
     },
     "1": {
-      "type_id": 1,
-      "type_name": "Normal"
+      "typeId": 1,
+      "typeName": "Normal"
     },
     "2": {
-      "type_id": 2,
-      "type_name": "Fighting"
+      "typeId": 2,
+      "typeName": "Fighting"
     },
     "3": {
-      "type_id": 3,
-      "type_name": "Flying"
+      "typeId": 3,
+      "typeName": "Flying"
     },
     "4": {
-      "type_id": 4,
-      "type_name": "Poison"
+      "typeId": 4,
+      "typeName": "Poison"
     },
     "5": {
-      "type_id": 5,
-      "type_name": "Ground"
+      "typeId": 5,
+      "typeName": "Ground"
     },
     "6": {
-      "type_id": 6,
-      "type_name": "Rock"
+      "typeId": 6,
+      "typeName": "Rock"
     },
     "7": {
-      "type_id": 7,
-      "type_name": "Bug"
+      "typeId": 7,
+      "typeName": "Bug"
     },
     "8": {
-      "type_id": 8,
-      "type_name": "Ghost"
+      "typeId": 8,
+      "typeName": "Ghost"
     },
     "9": {
-      "type_id": 9,
-      "type_name": "Steel"
+      "typeId": 9,
+      "typeName": "Steel"
     },
     "10": {
-      "type_id": 10,
-      "type_name": "Fire"
+      "typeId": 10,
+      "typeName": "Fire"
     },
     "11": {
-      "type_id": 11,
-      "type_name": "Water"
+      "typeId": 11,
+      "typeName": "Water"
     },
     "12": {
-      "type_id": 12,
-      "type_name": "Grass"
+      "typeId": 12,
+      "typeName": "Grass"
     },
     "13": {
-      "type_id": 13,
-      "type_name": "Electric"
+      "typeId": 13,
+      "typeName": "Electric"
     },
     "14": {
-      "type_id": 14,
-      "type_name": "Psychic"
+      "typeId": 14,
+      "typeName": "Psychic"
     },
     "15": {
-      "type_id": 15,
-      "type_name": "Ice"
+      "typeId": 15,
+      "typeName": "Ice"
     },
     "16": {
-      "type_id": 16,
-      "type_name": "Dragon"
+      "typeId": 16,
+      "typeName": "Dragon"
     },
     "17": {
-      "type_id": 17,
-      "type_name": "Dark"
+      "typeId": 17,
+      "typeName": "Dark"
     },
     "18": {
-      "type_id": 18,
-      "type_name": "Fairy"
+      "typeId": 18,
+      "typeName": "Fairy"
     }
   },
   "items": {
@@ -59763,17 +59763,17 @@
       "proto": "WRAP",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 60,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "14": {
       "id": 14,
@@ -59781,11 +59781,11 @@
       "proto": "HYPER_BEAM",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 150,
-      "pvp_energy_delta": -80,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -80,
       "power": 150,
-      "duration_ms": 4000,
-      "energy_delta": -100
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "15": {
       "id": 15,
@@ -59799,11 +59799,11 @@
       "proto": "DARK_PULSE",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 80,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "17": {
       "id": 17,
@@ -59817,11 +59817,11 @@
       "proto": "SLUDGE",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "19": {
       "id": 19,
@@ -59835,11 +59835,11 @@
       "proto": "VICE_GRIP",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 35,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "21": {
       "id": 21,
@@ -59847,11 +59847,11 @@
       "proto": "FLAME_WHEEL",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 55,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "22": {
       "id": 22,
@@ -59859,11 +59859,11 @@
       "proto": "MEGAHORN",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 110,
-      "pvp_energy_delta": -55,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -55,
       "power": 105,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "23": {
       "id": 23,
@@ -59877,11 +59877,11 @@
       "proto": "FLAMETHROWER",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
       "power": 65,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "25": {
       "id": 25,
@@ -59895,11 +59895,11 @@
       "proto": "DIG",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 70,
-      "pvp_energy_delta": -50,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -50,
       "power": 100,
-      "duration_ms": 4500,
-      "energy_delta": -50
+      "durationMs": 4500,
+      "energyDelta": -50
     },
     "27": {
       "id": 27,
@@ -59913,11 +59913,11 @@
       "proto": "CROSS_CHOP",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 50,
-      "duration_ms": 1500,
-      "energy_delta": -50
+      "durationMs": 1500,
+      "energyDelta": -50
     },
     "29": {
       "id": 29,
@@ -59931,11 +59931,11 @@
       "proto": "PSYBEAM",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 70,
-      "pvp_energy_delta": -60,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -60,
       "power": 65,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "31": {
       "id": 31,
@@ -59943,11 +59943,11 @@
       "proto": "EARTHQUAKE",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 110,
-      "pvp_energy_delta": -65,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -65,
       "power": 140,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "32": {
       "id": 32,
@@ -59955,11 +59955,11 @@
       "proto": "STONE_EDGE",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 100,
-      "pvp_energy_delta": -55,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -55,
       "power": 105,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "33": {
       "id": 33,
@@ -59967,11 +59967,11 @@
       "proto": "ICE_PUNCH",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "34": {
       "id": 34,
@@ -59979,11 +59979,11 @@
       "proto": "HEART_STAMP",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 40,
-      "pvp_energy_delta": -40,
+      "pvpPower": 40,
+      "pvpEnergyDelta": -40,
       "power": 40,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "35": {
       "id": 35,
@@ -59991,11 +59991,11 @@
       "proto": "DISCHARGE",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 55,
-      "pvp_energy_delta": -40,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
       "power": 65,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "36": {
       "id": 36,
@@ -60003,11 +60003,11 @@
       "proto": "FLASH_CANNON",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 110,
-      "pvp_energy_delta": -70,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -70,
       "power": 100,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "37": {
       "id": 37,
@@ -60021,11 +60021,11 @@
       "proto": "DRILL_PECK",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 70,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "39": {
       "id": 39,
@@ -60033,11 +60033,11 @@
       "proto": "ICE_BEAM",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
       "power": 95,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "40": {
       "id": 40,
@@ -60045,11 +60045,11 @@
       "proto": "BLIZZARD",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 140,
-      "pvp_energy_delta": -75,
+      "pvpPower": 140,
+      "pvpEnergyDelta": -75,
       "power": 130,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "41": {
       "id": 41,
@@ -60063,11 +60063,11 @@
       "proto": "HEAT_WAVE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 75,
-      "pvp_energy_delta": -45,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -45,
       "power": 95,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "43": {
       "id": 43,
@@ -60087,11 +60087,11 @@
       "proto": "AERIAL_ACE",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
       "power": 55,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "46": {
       "id": 46,
@@ -60099,11 +60099,11 @@
       "proto": "DRILL_RUN",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 85,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "47": {
       "id": 47,
@@ -60111,11 +60111,11 @@
       "proto": "PETAL_BLIZZARD",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 110,
-      "pvp_energy_delta": -65,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -65,
       "power": 110,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "48": {
       "id": 48,
@@ -60123,11 +60123,11 @@
       "proto": "MEGA_DRAIN",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 25,
-      "pvp_energy_delta": -55,
+      "pvpPower": 25,
+      "pvpEnergyDelta": -55,
       "power": 25,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "49": {
       "id": 49,
@@ -60135,17 +60135,17 @@
       "proto": "BUG_BUZZ",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 100,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 100,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.3
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.3
         }
       ],
       "power": 95,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "50": {
       "id": 50,
@@ -60153,17 +60153,17 @@
       "proto": "POISON_FANG",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 45,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 45,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 30,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "51": {
       "id": 51,
@@ -60171,16 +60171,16 @@
       "proto": "NIGHT_SLASH",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 50,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.125
+          "buffActivationChance": 0.125
         }
       ],
       "power": 45,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "52": {
       "id": 52,
@@ -60194,16 +60194,16 @@
       "proto": "BUBBLE_BEAM",
       "fast": false,
       "type": "Water",
-      "pvp_power": 25,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 25,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 45,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "54": {
       "id": 54,
@@ -60211,11 +60211,11 @@
       "proto": "SUBMISSION",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 60,
-      "pvp_energy_delta": -50,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -50,
       "power": 55,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "55": {
       "id": 55,
@@ -60229,11 +60229,11 @@
       "proto": "LOW_SWEEP",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 40,
-      "pvp_energy_delta": -40,
+      "pvpPower": 40,
+      "pvpEnergyDelta": -40,
       "power": 40,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "57": {
       "id": 57,
@@ -60241,11 +60241,11 @@
       "proto": "AQUA_JET",
       "fast": false,
       "type": "Water",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 45,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "58": {
       "id": 58,
@@ -60253,11 +60253,11 @@
       "proto": "AQUA_TAIL",
       "fast": false,
       "type": "Water",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "59": {
       "id": 59,
@@ -60265,11 +60265,11 @@
       "proto": "SEED_BOMB",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 55,
-      "pvp_energy_delta": -40,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
       "power": 55,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "60": {
       "id": 60,
@@ -60277,11 +60277,11 @@
       "proto": "PSYSHOCK",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 60,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "61": {
       "id": 61,
@@ -60295,16 +60295,16 @@
       "proto": "ANCIENT_POWER",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.1
+          "buffActivationChance": 0.1
         }
       ],
       "power": 70,
-      "duration_ms": 3500,
-      "energy_delta": -33
+      "durationMs": 3500,
+      "energyDelta": -33
     },
     "63": {
       "id": 63,
@@ -60312,16 +60312,16 @@
       "proto": "ROCK_TOMB",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 75,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 75,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 65,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "64": {
       "id": 64,
@@ -60329,11 +60329,11 @@
       "proto": "ROCK_SLIDE",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 75,
-      "pvp_energy_delta": -45,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -45,
       "power": 75,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "65": {
       "id": 65,
@@ -60341,11 +60341,11 @@
       "proto": "POWER_GEM",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 85,
-      "pvp_energy_delta": -50,
+      "pvpPower": 85,
+      "pvpEnergyDelta": -50,
       "power": 80,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "66": {
       "id": 66,
@@ -60353,11 +60353,11 @@
       "proto": "SHADOW_SNEAK",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 75,
-      "pvp_energy_delta": -50,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -50,
       "power": 50,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "67": {
       "id": 67,
@@ -60365,11 +60365,11 @@
       "proto": "SHADOW_PUNCH",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 35,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "68": {
       "id": 68,
@@ -60383,16 +60383,16 @@
       "proto": "OMINOUS_WIND",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 45,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 45,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.1
+          "buffActivationChance": 0.1
         }
       ],
       "power": 55,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "70": {
       "id": 70,
@@ -60400,11 +60400,11 @@
       "proto": "SHADOW_BALL",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 100,
-      "pvp_energy_delta": -50,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -50,
       "power": 100,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "71": {
       "id": 71,
@@ -60418,11 +60418,11 @@
       "proto": "MAGNET_BOMB",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 70,
-      "pvp_energy_delta": -45,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
       "power": 75,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "73": {
       "id": 73,
@@ -60436,11 +60436,11 @@
       "proto": "IRON_HEAD",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 70,
-      "pvp_energy_delta": -50,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -50,
       "power": 60,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "75": {
       "id": 75,
@@ -60448,16 +60448,16 @@
       "proto": "PARABOLIC_CHARGE",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 70,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 70,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "76": {
       "id": 76,
@@ -60471,11 +60471,11 @@
       "proto": "THUNDER_PUNCH",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "78": {
       "id": 78,
@@ -60483,11 +60483,11 @@
       "proto": "THUNDER",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 100,
-      "pvp_energy_delta": -60,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -60,
       "power": 100,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "79": {
       "id": 79,
@@ -60495,11 +60495,11 @@
       "proto": "THUNDERBOLT",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
       "power": 80,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "80": {
       "id": 80,
@@ -60507,11 +60507,11 @@
       "proto": "TWISTER",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "81": {
       "id": 81,
@@ -60525,11 +60525,11 @@
       "proto": "DRAGON_PULSE",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
       "power": 90,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "83": {
       "id": 83,
@@ -60537,11 +60537,11 @@
       "proto": "DRAGON_CLAW",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 45,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "84": {
       "id": 84,
@@ -60549,11 +60549,11 @@
       "proto": "DISARMING_VOICE",
       "fast": false,
       "type": "Fairy",
-      "pvp_power": 70,
-      "pvp_energy_delta": -45,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
       "power": 70,
-      "duration_ms": 4000,
-      "energy_delta": -33
+      "durationMs": 4000,
+      "energyDelta": -33
     },
     "85": {
       "id": 85,
@@ -60561,11 +60561,11 @@
       "proto": "DRAINING_KISS",
       "fast": false,
       "type": "Fairy",
-      "pvp_power": 60,
-      "pvp_energy_delta": -55,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -55,
       "power": 60,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "86": {
       "id": 86,
@@ -60573,11 +60573,11 @@
       "proto": "DAZZLING_GLEAM",
       "fast": false,
       "type": "Fairy",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
       "power": 100,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "87": {
       "id": 87,
@@ -60585,16 +60585,16 @@
       "proto": "MOONBLAST",
       "fast": false,
       "type": "Fairy",
-      "pvp_power": 110,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 110,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.1
+          "buffActivationChance": 0.1
         }
       ],
       "power": 130,
-      "duration_ms": 4000,
-      "energy_delta": -100
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "88": {
       "id": 88,
@@ -60602,11 +60602,11 @@
       "proto": "PLAY_ROUGH",
       "fast": false,
       "type": "Fairy",
-      "pvp_power": 90,
-      "pvp_energy_delta": -60,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -60,
       "power": 90,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "89": {
       "id": 89,
@@ -60614,16 +60614,16 @@
       "proto": "CROSS_POISON",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 50,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.125
+          "buffActivationChance": 0.125
         }
       ],
       "power": 40,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "90": {
       "id": 90,
@@ -60631,11 +60631,11 @@
       "proto": "SLUDGE_BOMB",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 85,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "91": {
       "id": 91,
@@ -60643,11 +60643,11 @@
       "proto": "SLUDGE_WAVE",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 110,
-      "pvp_energy_delta": -65,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -65,
       "power": 105,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "92": {
       "id": 92,
@@ -60655,11 +60655,11 @@
       "proto": "GUNK_SHOT",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 130,
-      "pvp_energy_delta": -75,
+      "pvpPower": 130,
+      "pvpEnergyDelta": -75,
       "power": 130,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "93": {
       "id": 93,
@@ -60673,11 +60673,11 @@
       "proto": "BONE_CLUB",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 40,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "95": {
       "id": 95,
@@ -60685,17 +60685,17 @@
       "proto": "BULLDOZE",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 45,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 45,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.5
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.5
         }
       ],
       "power": 80,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "96": {
       "id": 96,
@@ -60703,11 +60703,11 @@
       "proto": "MUD_BOMB",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 65,
-      "pvp_energy_delta": -45,
+      "pvpPower": 65,
+      "pvpEnergyDelta": -45,
       "power": 60,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "97": {
       "id": 97,
@@ -60727,17 +60727,17 @@
       "proto": "SIGNAL_BEAM",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 75,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 75,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.2
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.2
         }
       ],
       "power": 75,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "100": {
       "id": 100,
@@ -60745,11 +60745,11 @@
       "proto": "X_SCISSOR",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 65,
-      "pvp_energy_delta": -40,
+      "pvpPower": 65,
+      "pvpEnergyDelta": -40,
       "power": 45,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "101": {
       "id": 101,
@@ -60757,16 +60757,16 @@
       "proto": "FLAME_CHARGE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 65,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 65,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 70,
-      "duration_ms": 4000,
-      "energy_delta": -33
+      "durationMs": 4000,
+      "energyDelta": -33
     },
     "102": {
       "id": 102,
@@ -60774,11 +60774,11 @@
       "proto": "FLAME_BURST",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 70,
-      "pvp_energy_delta": -55,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -55,
       "power": 70,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "103": {
       "id": 103,
@@ -60786,11 +60786,11 @@
       "proto": "FIRE_BLAST",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 140,
-      "pvp_energy_delta": -80,
+      "pvpPower": 140,
+      "pvpEnergyDelta": -80,
       "power": 140,
-      "duration_ms": 4000,
-      "energy_delta": -100
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "104": {
       "id": 104,
@@ -60798,11 +60798,11 @@
       "proto": "BRINE",
       "fast": false,
       "type": "Water",
-      "pvp_power": 60,
-      "pvp_energy_delta": -50,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -50,
       "power": 65,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "105": {
       "id": 105,
@@ -60810,11 +60810,11 @@
       "proto": "WATER_PULSE",
       "fast": false,
       "type": "Water",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 65,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "106": {
       "id": 106,
@@ -60822,16 +60822,16 @@
       "proto": "SCALD",
       "fast": false,
       "type": "Water",
-      "pvp_power": 85,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 85,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.3
+          "buffActivationChance": 0.3
         }
       ],
       "power": 75,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "107": {
       "id": 107,
@@ -60839,11 +60839,11 @@
       "proto": "HYDRO_PUMP",
       "fast": false,
       "type": "Water",
-      "pvp_power": 130,
-      "pvp_energy_delta": -75,
+      "pvpPower": 130,
+      "pvpEnergyDelta": -75,
       "power": 135,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "108": {
       "id": 108,
@@ -60851,17 +60851,17 @@
       "proto": "PSYCHIC",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 75,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 75,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.1
         }
       ],
       "power": 95,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "109": {
       "id": 109,
@@ -60869,11 +60869,11 @@
       "proto": "PSYSTRIKE",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 90,
-      "pvp_energy_delta": -45,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -45,
       "power": 95,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "110": {
       "id": 110,
@@ -60887,16 +60887,16 @@
       "proto": "ICY_WIND",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 65,
-      "duration_ms": 3500,
-      "energy_delta": -33
+      "durationMs": 3500,
+      "energyDelta": -33
     },
     "112": {
       "id": 112,
@@ -60916,11 +60916,11 @@
       "proto": "GIGA_DRAIN",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 50,
-      "pvp_energy_delta": -80,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -80,
       "power": 50,
-      "duration_ms": 4000,
-      "energy_delta": -100
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "115": {
       "id": 115,
@@ -60928,11 +60928,11 @@
       "proto": "FIRE_PUNCH",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "116": {
       "id": 116,
@@ -60940,11 +60940,11 @@
       "proto": "SOLAR_BEAM",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 150,
-      "pvp_energy_delta": -80,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -80,
       "power": 180,
-      "duration_ms": 5000,
-      "energy_delta": -100
+      "durationMs": 5000,
+      "energyDelta": -100
     },
     "117": {
       "id": 117,
@@ -60952,11 +60952,11 @@
       "proto": "LEAF_BLADE",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 70,
-      "pvp_energy_delta": -35,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -35,
       "power": 70,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "118": {
       "id": 118,
@@ -60964,11 +60964,11 @@
       "proto": "POWER_WHIP",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 90,
-      "pvp_energy_delta": -50,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -50,
       "power": 90,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "119": {
       "id": 119,
@@ -60988,16 +60988,16 @@
       "proto": "AIR_CUTTER",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 45,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 45,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.3
+          "buffActivationChance": 0.3
         }
       ],
       "power": 55,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "122": {
       "id": 122,
@@ -61005,11 +61005,11 @@
       "proto": "HURRICANE",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 110,
-      "pvp_energy_delta": -65,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -65,
       "power": 105,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "123": {
       "id": 123,
@@ -61017,17 +61017,17 @@
       "proto": "BRICK_BREAK",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 50,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 40,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "124": {
       "id": 124,
@@ -61041,11 +61041,11 @@
       "proto": "SWIFT",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 65,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "126": {
       "id": 126,
@@ -61053,11 +61053,11 @@
       "proto": "HORN_ATTACK",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 40,
-      "pvp_energy_delta": -35,
+      "pvpPower": 40,
+      "pvpEnergyDelta": -35,
       "power": 45,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "127": {
       "id": 127,
@@ -61065,11 +61065,11 @@
       "proto": "STOMP",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 55,
-      "pvp_energy_delta": -40,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 1500,
-      "energy_delta": -50
+      "durationMs": 1500,
+      "energyDelta": -50
     },
     "128": {
       "id": 128,
@@ -61083,11 +61083,11 @@
       "proto": "HYPER_FANG",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 80,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "130": {
       "id": 130,
@@ -61101,11 +61101,11 @@
       "proto": "BODY_SLAM",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "132": {
       "id": 132,
@@ -61113,11 +61113,11 @@
       "proto": "REST",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 50,
-      "pvp_energy_delta": -35,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "133": {
       "id": 133,
@@ -61125,10 +61125,10 @@
       "proto": "STRUGGLE",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 35,
-      "pvp_energy_delta": -100,
+      "pvpPower": 35,
+      "pvpEnergyDelta": -100,
       "power": 35,
-      "duration_ms": 2000
+      "durationMs": 2000
     },
     "134": {
       "id": 134,
@@ -61136,11 +61136,11 @@
       "proto": "SCALD_BLASTOISE",
       "fast": false,
       "type": "Water",
-      "pvp_power": 50,
-      "pvp_energy_delta": -80,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -80,
       "power": 50,
-      "duration_ms": 4500,
-      "energy_delta": -100
+      "durationMs": 4500,
+      "energyDelta": -100
     },
     "135": {
       "id": 135,
@@ -61148,11 +61148,11 @@
       "proto": "HYDRO_PUMP_BLASTOISE",
       "fast": false,
       "type": "Water",
-      "pvp_power": 90,
-      "pvp_energy_delta": -80,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -80,
       "power": 90,
-      "duration_ms": 4500,
-      "energy_delta": -100
+      "durationMs": 4500,
+      "energyDelta": -100
     },
     "136": {
       "id": 136,
@@ -61160,11 +61160,11 @@
       "proto": "WRAP_GREEN",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 25,
-      "pvp_energy_delta": -45,
+      "pvpPower": 25,
+      "pvpEnergyDelta": -45,
       "power": 25,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "137": {
       "id": 137,
@@ -61172,11 +61172,11 @@
       "proto": "WRAP_PINK",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 25,
-      "pvp_energy_delta": -45,
+      "pvpPower": 25,
+      "pvpEnergyDelta": -45,
       "power": 25,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "200": {
       "id": 200,
@@ -61184,11 +61184,11 @@
       "proto": "FURY_CUTTER_FAST",
       "fast": true,
       "type": "Bug",
-      "pvp_power": 3,
-      "pvp_energy_delta": 4,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 4,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 8
+      "durationMs": 500,
+      "energyDelta": 8
     },
     "201": {
       "id": 201,
@@ -61196,11 +61196,11 @@
       "proto": "BUG_BITE_FAST",
       "fast": true,
       "type": "Bug",
-      "pvp_power": 4,
-      "pvp_energy_delta": 3,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 3,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "202": {
       "id": 202,
@@ -61208,11 +61208,11 @@
       "proto": "BITE_FAST",
       "fast": true,
       "type": "Dark",
-      "pvp_power": 4,
-      "pvp_energy_delta": 2,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 2,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 4
+      "durationMs": 500,
+      "energyDelta": 4
     },
     "203": {
       "id": 203,
@@ -61220,11 +61220,11 @@
       "proto": "SUCKER_PUNCH_FAST",
       "fast": true,
       "type": "Dark",
-      "pvp_power": 8,
-      "pvp_energy_delta": 7,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 7,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "204": {
       "id": 204,
@@ -61232,11 +61232,11 @@
       "proto": "DRAGON_BREATH_FAST",
       "fast": true,
       "type": "Dragon",
-      "pvp_power": 3,
-      "pvp_energy_delta": 4,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 4,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 4
+      "durationMs": 500,
+      "energyDelta": 4
     },
     "205": {
       "id": 205,
@@ -61244,11 +61244,11 @@
       "proto": "THUNDER_SHOCK_FAST",
       "fast": true,
       "type": "Electric",
-      "pvp_power": 4,
-      "pvp_energy_delta": 9,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 9,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 7
+      "durationMs": 500,
+      "energyDelta": 7
     },
     "206": {
       "id": 206,
@@ -61256,11 +61256,11 @@
       "proto": "SPARK_FAST",
       "fast": true,
       "type": "Electric",
-      "pvp_power": 5,
-      "pvp_energy_delta": 7,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 7,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "207": {
       "id": 207,
@@ -61268,11 +61268,11 @@
       "proto": "LOW_KICK_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 5,
-      "pvp_energy_delta": 8,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 8,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "208": {
       "id": 208,
@@ -61280,11 +61280,11 @@
       "proto": "KARATE_CHOP_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 5,
-      "pvp_energy_delta": 9,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 9,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "209": {
       "id": 209,
@@ -61292,11 +61292,11 @@
       "proto": "EMBER_FAST",
       "fast": true,
       "type": "Fire",
-      "pvp_power": 4,
-      "pvp_energy_delta": 9,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 9,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 10
+      "durationMs": 1000,
+      "energyDelta": 10
     },
     "210": {
       "id": 210,
@@ -61304,11 +61304,11 @@
       "proto": "WING_ATTACK_FAST",
       "fast": true,
       "type": "Flying",
-      "pvp_power": 5,
-      "pvp_energy_delta": 8,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 8,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 11
+      "durationMs": 1000,
+      "energyDelta": 11
     },
     "211": {
       "id": 211,
@@ -61316,11 +61316,11 @@
       "proto": "PECK_FAST",
       "fast": true,
       "type": "Flying",
-      "pvp_power": 6,
-      "pvp_energy_delta": 8,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 10
+      "durationMs": 1000,
+      "energyDelta": 10
     },
     "212": {
       "id": 212,
@@ -61328,11 +61328,11 @@
       "proto": "LICK_FAST",
       "fast": true,
       "type": "Ghost",
-      "pvp_power": 3,
-      "pvp_energy_delta": 3,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 3,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "213": {
       "id": 213,
@@ -61340,11 +61340,11 @@
       "proto": "SHADOW_CLAW_FAST",
       "fast": true,
       "type": "Ghost",
-      "pvp_power": 6,
-      "pvp_energy_delta": 8,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 4
+      "durationMs": 500,
+      "energyDelta": 4
     },
     "214": {
       "id": 214,
@@ -61352,11 +61352,11 @@
       "proto": "VINE_WHIP_FAST",
       "fast": true,
       "type": "Grass",
-      "pvp_power": 5,
-      "pvp_energy_delta": 8,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 8,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "215": {
       "id": 215,
@@ -61364,11 +61364,11 @@
       "proto": "RAZOR_LEAF_FAST",
       "fast": true,
       "type": "Grass",
-      "pvp_power": 9,
-      "pvp_energy_delta": 4,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 4,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 7
+      "durationMs": 1000,
+      "energyDelta": 7
     },
     "216": {
       "id": 216,
@@ -61376,11 +61376,11 @@
       "proto": "MUD_SHOT_FAST",
       "fast": true,
       "type": "Ground",
-      "pvp_power": 3,
-      "pvp_energy_delta": 9,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 9,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "217": {
       "id": 217,
@@ -61388,11 +61388,11 @@
       "proto": "ICE_SHARD_FAST",
       "fast": true,
       "type": "Ice",
-      "pvp_power": 9,
-      "pvp_energy_delta": 10,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 10,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 10
+      "durationMs": 1000,
+      "energyDelta": 10
     },
     "218": {
       "id": 218,
@@ -61400,11 +61400,11 @@
       "proto": "FROST_BREATH_FAST",
       "fast": true,
       "type": "Ice",
-      "pvp_power": 7,
-      "pvp_energy_delta": 5,
+      "pvpPower": 7,
+      "pvpEnergyDelta": 5,
       "power": 11,
-      "duration_ms": 1000,
-      "energy_delta": 9
+      "durationMs": 1000,
+      "energyDelta": 9
     },
     "219": {
       "id": 219,
@@ -61412,11 +61412,11 @@
       "proto": "QUICK_ATTACK_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 5,
-      "pvp_energy_delta": 8,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 8,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "220": {
       "id": 220,
@@ -61424,11 +61424,11 @@
       "proto": "SCRATCH_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 4,
-      "pvp_energy_delta": 2,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 2,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 4
+      "durationMs": 500,
+      "energyDelta": 4
     },
     "221": {
       "id": 221,
@@ -61436,11 +61436,11 @@
       "proto": "TACKLE_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 3,
-      "pvp_energy_delta": 3,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 3,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "222": {
       "id": 222,
@@ -61448,11 +61448,11 @@
       "proto": "POUND_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 4,
-      "pvp_energy_delta": 4,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 4,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "223": {
       "id": 223,
@@ -61460,11 +61460,11 @@
       "proto": "CUT_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 3,
-      "pvp_energy_delta": 2,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 2,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "224": {
       "id": 224,
@@ -61472,11 +61472,11 @@
       "proto": "POISON_JAB_FAST",
       "fast": true,
       "type": "Poison",
-      "pvp_power": 7,
-      "pvp_energy_delta": 7,
+      "pvpPower": 7,
+      "pvpEnergyDelta": 7,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 9
+      "durationMs": 1000,
+      "energyDelta": 9
     },
     "225": {
       "id": 225,
@@ -61484,11 +61484,11 @@
       "proto": "ACID_FAST",
       "fast": true,
       "type": "Poison",
-      "pvp_power": 6,
-      "pvp_energy_delta": 8,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
       "power": 11,
-      "duration_ms": 1000,
-      "energy_delta": 10
+      "durationMs": 1000,
+      "energyDelta": 10
     },
     "226": {
       "id": 226,
@@ -61496,11 +61496,11 @@
       "proto": "PSYCHO_CUT_FAST",
       "fast": true,
       "type": "Psychic",
-      "pvp_power": 4,
-      "pvp_energy_delta": 9,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 9,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 7
+      "durationMs": 500,
+      "energyDelta": 7
     },
     "227": {
       "id": 227,
@@ -61508,11 +61508,11 @@
       "proto": "ROCK_THROW_FAST",
       "fast": true,
       "type": "Rock",
-      "pvp_power": 8,
-      "pvp_energy_delta": 5,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 5,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 8
+      "durationMs": 1000,
+      "energyDelta": 8
     },
     "228": {
       "id": 228,
@@ -61520,11 +61520,11 @@
       "proto": "METAL_CLAW_FAST",
       "fast": true,
       "type": "Steel",
-      "pvp_power": 5,
-      "pvp_energy_delta": 7,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 7,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "229": {
       "id": 229,
@@ -61532,11 +61532,11 @@
       "proto": "BULLET_PUNCH_FAST",
       "fast": true,
       "type": "Steel",
-      "pvp_power": 7,
-      "pvp_energy_delta": 7,
+      "pvpPower": 7,
+      "pvpEnergyDelta": 7,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 11
+      "durationMs": 1000,
+      "energyDelta": 11
     },
     "230": {
       "id": 230,
@@ -61544,11 +61544,11 @@
       "proto": "WATER_GUN_FAST",
       "fast": true,
       "type": "Water",
-      "pvp_power": 3,
-      "pvp_energy_delta": 3,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 3,
       "power": 5,
-      "duration_ms": 500,
-      "energy_delta": 5
+      "durationMs": 500,
+      "energyDelta": 5
     },
     "231": {
       "id": 231,
@@ -61556,9 +61556,9 @@
       "proto": "SPLASH_FAST",
       "fast": true,
       "type": "Water",
-      "pvp_energy_delta": 12,
-      "duration_ms": 1500,
-      "energy_delta": 17
+      "pvpEnergyDelta": 12,
+      "durationMs": 1500,
+      "energyDelta": 17
     },
     "232": {
       "id": 232,
@@ -61566,11 +61566,11 @@
       "proto": "WATER_GUN_FAST_BLASTOISE",
       "fast": false,
       "type": "Water",
-      "pvp_power": 6,
-      "pvp_energy_delta": 4,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 4,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 6
+      "durationMs": 1000,
+      "energyDelta": 6
     },
     "233": {
       "id": 233,
@@ -61578,11 +61578,11 @@
       "proto": "MUD_SLAP_FAST",
       "fast": true,
       "type": "Ground",
-      "pvp_power": 11,
-      "pvp_energy_delta": 10,
+      "pvpPower": 11,
+      "pvpEnergyDelta": 10,
       "power": 19,
-      "duration_ms": 1500,
-      "energy_delta": 13
+      "durationMs": 1500,
+      "energyDelta": 13
     },
     "234": {
       "id": 234,
@@ -61590,11 +61590,11 @@
       "proto": "ZEN_HEADBUTT_FAST",
       "fast": true,
       "type": "Psychic",
-      "pvp_power": 8,
-      "pvp_energy_delta": 6,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 6,
       "power": 11,
-      "duration_ms": 1000,
-      "energy_delta": 9
+      "durationMs": 1000,
+      "energyDelta": 9
     },
     "235": {
       "id": 235,
@@ -61602,11 +61602,11 @@
       "proto": "CONFUSION_FAST",
       "fast": true,
       "type": "Psychic",
-      "pvp_power": 16,
-      "pvp_energy_delta": 14,
+      "pvpPower": 16,
+      "pvpEnergyDelta": 14,
       "power": 19,
-      "duration_ms": 1500,
-      "energy_delta": 14
+      "durationMs": 1500,
+      "energyDelta": 14
     },
     "236": {
       "id": 236,
@@ -61614,11 +61614,11 @@
       "proto": "POISON_STING_FAST",
       "fast": true,
       "type": "Poison",
-      "pvp_power": 4,
-      "pvp_energy_delta": 9,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 9,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "237": {
       "id": 237,
@@ -61626,11 +61626,11 @@
       "proto": "BUBBLE_FAST",
       "fast": true,
       "type": "Water",
-      "pvp_power": 8,
-      "pvp_energy_delta": 11,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 11,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 12
+      "durationMs": 1000,
+      "energyDelta": 12
     },
     "238": {
       "id": 238,
@@ -61638,11 +61638,11 @@
       "proto": "FEINT_ATTACK_FAST",
       "fast": true,
       "type": "Dark",
-      "pvp_power": 6,
-      "pvp_energy_delta": 6,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 6,
       "power": 11,
-      "duration_ms": 1000,
-      "energy_delta": 10
+      "durationMs": 1000,
+      "energyDelta": 10
     },
     "239": {
       "id": 239,
@@ -61650,11 +61650,11 @@
       "proto": "STEEL_WING_FAST",
       "fast": true,
       "type": "Steel",
-      "pvp_power": 7,
-      "pvp_energy_delta": 5,
+      "pvpPower": 7,
+      "pvpEnergyDelta": 5,
       "power": 14,
-      "duration_ms": 1000,
-      "energy_delta": 8
+      "durationMs": 1000,
+      "energyDelta": 8
     },
     "240": {
       "id": 240,
@@ -61662,11 +61662,11 @@
       "proto": "FIRE_FANG_FAST",
       "fast": true,
       "type": "Fire",
-      "pvp_power": 8,
-      "pvp_energy_delta": 6,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 6,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 9
+      "durationMs": 1000,
+      "energyDelta": 9
     },
     "241": {
       "id": 241,
@@ -61674,11 +61674,11 @@
       "proto": "ROCK_SMASH_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 9,
-      "pvp_energy_delta": 7,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 7,
       "power": 17,
-      "duration_ms": 1500,
-      "energy_delta": 12
+      "durationMs": 1500,
+      "energyDelta": 12
     },
     "242": {
       "id": 242,
@@ -61686,7 +61686,7 @@
       "proto": "TRANSFORM_FAST",
       "fast": true,
       "type": "Normal",
-      "duration_ms": 2000
+      "durationMs": 2000
     },
     "243": {
       "id": 243,
@@ -61694,11 +61694,11 @@
       "proto": "COUNTER_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 8,
-      "pvp_energy_delta": 6,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 6,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 9
+      "durationMs": 1000,
+      "energyDelta": 9
     },
     "244": {
       "id": 244,
@@ -61706,11 +61706,11 @@
       "proto": "POWDER_SNOW_FAST",
       "fast": true,
       "type": "Ice",
-      "pvp_power": 6,
-      "pvp_energy_delta": 8,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
       "power": 6,
-      "duration_ms": 1000,
-      "energy_delta": 15
+      "durationMs": 1000,
+      "energyDelta": 15
     },
     "245": {
       "id": 245,
@@ -61718,16 +61718,16 @@
       "proto": "CLOSE_COMBAT",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 100,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 105,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "246": {
       "id": 246,
@@ -61735,11 +61735,11 @@
       "proto": "DYNAMIC_PUNCH",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 90,
-      "pvp_energy_delta": -45,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -45,
       "power": 85,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "247": {
       "id": 247,
@@ -61747,11 +61747,11 @@
       "proto": "FOCUS_BLAST",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 150,
-      "pvp_energy_delta": -75,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -75,
       "power": 140,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "248": {
       "id": 248,
@@ -61759,11 +61759,11 @@
       "proto": "AURORA_BEAM",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 80,
-      "pvp_energy_delta": -60,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -60,
       "power": 80,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "249": {
       "id": 249,
@@ -61771,11 +61771,11 @@
       "proto": "CHARGE_BEAM_FAST",
       "fast": true,
       "type": "Electric",
-      "pvp_power": 5,
-      "pvp_energy_delta": 11,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 11,
       "power": 7,
-      "duration_ms": 1000,
-      "energy_delta": 14
+      "durationMs": 1000,
+      "energyDelta": 14
     },
     "250": {
       "id": 250,
@@ -61783,11 +61783,11 @@
       "proto": "VOLT_SWITCH_FAST",
       "fast": true,
       "type": "Electric",
-      "pvp_power": 14,
-      "pvp_energy_delta": 16,
+      "pvpPower": 14,
+      "pvpEnergyDelta": 16,
       "power": 13,
-      "duration_ms": 1500,
-      "energy_delta": 20
+      "durationMs": 1500,
+      "energyDelta": 20
     },
     "251": {
       "id": 251,
@@ -61795,16 +61795,16 @@
       "proto": "WILD_CHARGE",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 100,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 90,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "252": {
       "id": 252,
@@ -61812,16 +61812,16 @@
       "proto": "ZAP_CANNON",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 150,
-      "pvp_energy_delta": -80,
-      "pvp_buffs": [
+      "pvpPower": 150,
+      "pvpEnergyDelta": -80,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.33
+          "buffActivationChance": 0.33
         }
       ],
       "power": 140,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "253": {
       "id": 253,
@@ -61829,11 +61829,11 @@
       "proto": "DRAGON_TAIL_FAST",
       "fast": true,
       "type": "Dragon",
-      "pvp_power": 9,
-      "pvp_energy_delta": 12,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 12,
       "power": 14,
-      "duration_ms": 1000,
-      "energy_delta": 8
+      "durationMs": 1000,
+      "energyDelta": 8
     },
     "254": {
       "id": 254,
@@ -61841,11 +61841,11 @@
       "proto": "AVALANCHE",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 90,
-      "pvp_energy_delta": -45,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -45,
       "power": 85,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "255": {
       "id": 255,
@@ -61853,11 +61853,11 @@
       "proto": "AIR_SLASH_FAST",
       "fast": true,
       "type": "Flying",
-      "pvp_power": 9,
-      "pvp_energy_delta": 9,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 9,
       "power": 12,
-      "duration_ms": 1000,
-      "energy_delta": 8
+      "durationMs": 1000,
+      "energyDelta": 8
     },
     "256": {
       "id": 256,
@@ -61865,16 +61865,16 @@
       "proto": "BRAVE_BIRD",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 130,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 130,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "257": {
       "id": 257,
@@ -61882,11 +61882,11 @@
       "proto": "SKY_ATTACK",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 75,
-      "pvp_energy_delta": -50,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -50,
       "power": 80,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "258": {
       "id": 258,
@@ -61894,17 +61894,17 @@
       "proto": "SAND_TOMB",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 40,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 40,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 60,
-      "duration_ms": 4000,
-      "energy_delta": -33
+      "durationMs": 4000,
+      "energyDelta": -33
     },
     "259": {
       "id": 259,
@@ -61912,11 +61912,11 @@
       "proto": "ROCK_BLAST",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 50,
-      "pvp_energy_delta": -40,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "260": {
       "id": 260,
@@ -61924,11 +61924,11 @@
       "proto": "INFESTATION_FAST",
       "fast": true,
       "type": "Bug",
-      "pvp_power": 6,
-      "pvp_energy_delta": 12,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 12,
       "power": 9,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "261": {
       "id": 261,
@@ -61936,11 +61936,11 @@
       "proto": "STRUGGLE_BUG_FAST",
       "fast": true,
       "type": "Bug",
-      "pvp_power": 9,
-      "pvp_energy_delta": 8,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 8,
       "power": 15,
-      "duration_ms": 1500,
-      "energy_delta": 15
+      "durationMs": 1500,
+      "energyDelta": 15
     },
     "262": {
       "id": 262,
@@ -61948,16 +61948,16 @@
       "proto": "SILVER_WIND",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.1
+          "buffActivationChance": 0.1
         }
       ],
       "power": 65,
-      "duration_ms": 3500,
-      "energy_delta": -33
+      "durationMs": 3500,
+      "energyDelta": -33
     },
     "263": {
       "id": 263,
@@ -61965,11 +61965,11 @@
       "proto": "ASTONISH_FAST",
       "fast": true,
       "type": "Ghost",
-      "pvp_power": 12,
-      "pvp_energy_delta": 10,
+      "pvpPower": 12,
+      "pvpEnergyDelta": 10,
       "power": 7,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "264": {
       "id": 264,
@@ -61977,11 +61977,11 @@
       "proto": "HEX_FAST",
       "fast": true,
       "type": "Ghost",
-      "pvp_power": 7,
-      "pvp_energy_delta": 13,
+      "pvpPower": 7,
+      "pvpEnergyDelta": 13,
       "power": 8,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "265": {
       "id": 265,
@@ -61989,11 +61989,11 @@
       "proto": "NIGHT_SHADE",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 70,
-      "pvp_energy_delta": -45,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
       "power": 60,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "266": {
       "id": 266,
@@ -62001,11 +62001,11 @@
       "proto": "IRON_TAIL_FAST",
       "fast": true,
       "type": "Steel",
-      "pvp_power": 10,
-      "pvp_energy_delta": 7,
+      "pvpPower": 10,
+      "pvpEnergyDelta": 7,
       "power": 14,
-      "duration_ms": 1000,
-      "energy_delta": 6
+      "durationMs": 1000,
+      "energyDelta": 6
     },
     "267": {
       "id": 267,
@@ -62013,11 +62013,11 @@
       "proto": "GYRO_BALL",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 85,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "268": {
       "id": 268,
@@ -62025,11 +62025,11 @@
       "proto": "HEAVY_SLAM",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 70,
-      "pvp_energy_delta": -50,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -50,
       "power": 70,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "269": {
       "id": 269,
@@ -62037,11 +62037,11 @@
       "proto": "FIRE_SPIN_FAST",
       "fast": true,
       "type": "Fire",
-      "pvp_power": 11,
-      "pvp_energy_delta": 10,
+      "pvpPower": 11,
+      "pvpEnergyDelta": 10,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 9
+      "durationMs": 1000,
+      "energyDelta": 9
     },
     "270": {
       "id": 270,
@@ -62049,16 +62049,16 @@
       "proto": "OVERHEAT",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 130,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 160,
-      "duration_ms": 4000,
-      "energy_delta": -100
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "271": {
       "id": 271,
@@ -62066,11 +62066,11 @@
       "proto": "BULLET_SEED_FAST",
       "fast": true,
       "type": "Grass",
-      "pvp_power": 5,
-      "pvp_energy_delta": 13,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 13,
       "power": 7,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "272": {
       "id": 272,
@@ -62078,11 +62078,11 @@
       "proto": "GRASS_KNOT",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 90,
-      "pvp_energy_delta": -50,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -50,
       "power": 90,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "273": {
       "id": 273,
@@ -62090,17 +62090,17 @@
       "proto": "ENERGY_BALL",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.1
         }
       ],
       "power": 90,
-      "duration_ms": 4000,
-      "energy_delta": -50
+      "durationMs": 4000,
+      "energyDelta": -50
     },
     "274": {
       "id": 274,
@@ -62108,11 +62108,11 @@
       "proto": "EXTRASENSORY_FAST",
       "fast": true,
       "type": "Psychic",
-      "pvp_power": 8,
-      "pvp_energy_delta": 10,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 10,
       "power": 11,
-      "duration_ms": 1000,
-      "energy_delta": 11
+      "durationMs": 1000,
+      "energyDelta": 11
     },
     "275": {
       "id": 275,
@@ -62120,11 +62120,11 @@
       "proto": "FUTURESIGHT",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 110,
-      "pvp_energy_delta": -65,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -65,
       "power": 115,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "276": {
       "id": 276,
@@ -62132,11 +62132,11 @@
       "proto": "MIRROR_COAT",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 60,
-      "pvp_energy_delta": -55,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -55,
       "power": 60,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "277": {
       "id": 277,
@@ -62144,11 +62144,11 @@
       "proto": "OUTRAGE",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 110,
-      "pvp_energy_delta": -60,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -60,
       "power": 110,
-      "duration_ms": 4000,
-      "energy_delta": -50
+      "durationMs": 4000,
+      "energyDelta": -50
     },
     "278": {
       "id": 278,
@@ -62156,11 +62156,11 @@
       "proto": "SNARL_FAST",
       "fast": true,
       "type": "Dark",
-      "pvp_power": 5,
-      "pvp_energy_delta": 13,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 13,
       "power": 11,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "279": {
       "id": 279,
@@ -62168,17 +62168,17 @@
       "proto": "CRUNCH",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 70,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.2
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.2
         }
       ],
       "power": 65,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "280": {
       "id": 280,
@@ -62186,11 +62186,11 @@
       "proto": "FOUL_PLAY",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 65,
-      "pvp_energy_delta": -40,
+      "pvpPower": 65,
+      "pvpEnergyDelta": -40,
       "power": 70,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "281": {
       "id": 281,
@@ -62198,11 +62198,11 @@
       "proto": "HIDDEN_POWER_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 9,
-      "pvp_energy_delta": 8,
+      "pvpPower": 9,
+      "pvpEnergyDelta": 8,
       "power": 15,
-      "duration_ms": 1500,
-      "energy_delta": 15
+      "durationMs": 1500,
+      "energyDelta": 15
     },
     "282": {
       "id": 282,
@@ -62210,11 +62210,11 @@
       "proto": "TAKE_DOWN_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 5,
-      "pvp_energy_delta": 8,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 8,
       "power": 7,
-      "duration_ms": 1000,
-      "energy_delta": 8
+      "durationMs": 1000,
+      "energyDelta": 8
     },
     "283": {
       "id": 283,
@@ -62222,11 +62222,11 @@
       "proto": "WATERFALL_FAST",
       "fast": true,
       "type": "Water",
-      "pvp_power": 11,
-      "pvp_energy_delta": 10,
+      "pvpPower": 11,
+      "pvpEnergyDelta": 10,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 7
+      "durationMs": 1000,
+      "energyDelta": 7
     },
     "284": {
       "id": 284,
@@ -62234,11 +62234,11 @@
       "proto": "SURF",
       "fast": false,
       "type": "Water",
-      "pvp_power": 75,
-      "pvp_energy_delta": -45,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -45,
       "power": 60,
-      "duration_ms": 1500,
-      "energy_delta": -50
+      "durationMs": 1500,
+      "energyDelta": -50
     },
     "285": {
       "id": 285,
@@ -62246,16 +62246,16 @@
       "proto": "DRACO_METEOR",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 150,
-      "pvp_energy_delta": -65,
-      "pvp_buffs": [
+      "pvpPower": 150,
+      "pvpEnergyDelta": -65,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 150,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "286": {
       "id": 286,
@@ -62263,11 +62263,11 @@
       "proto": "DOOM_DESIRE",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 80,
-      "pvp_energy_delta": -40,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -40,
       "power": 65,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "287": {
       "id": 287,
@@ -62275,9 +62275,9 @@
       "proto": "YAWN_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_energy_delta": 12,
-      "duration_ms": 1500,
-      "energy_delta": 13
+      "pvpEnergyDelta": 12,
+      "durationMs": 1500,
+      "energyDelta": 13
     },
     "288": {
       "id": 288,
@@ -62285,16 +62285,16 @@
       "proto": "PSYCHO_BOOST",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 70,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 70,
-      "duration_ms": 4000,
-      "energy_delta": -50
+      "durationMs": 4000,
+      "energyDelta": -50
     },
     "289": {
       "id": 289,
@@ -62302,11 +62302,11 @@
       "proto": "ORIGIN_PULSE",
       "fast": false,
       "type": "Water",
-      "pvp_power": 130,
-      "pvp_energy_delta": -60,
+      "pvpPower": 130,
+      "pvpEnergyDelta": -60,
       "power": 120,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "290": {
       "id": 290,
@@ -62314,11 +62314,11 @@
       "proto": "PRECIPICE_BLADES",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 130,
-      "pvp_energy_delta": -60,
+      "pvpPower": 130,
+      "pvpEnergyDelta": -60,
       "power": 120,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "291": {
       "id": 291,
@@ -62326,11 +62326,11 @@
       "proto": "PRESENT_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 3,
-      "pvp_energy_delta": 12,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 12,
       "power": 6,
-      "duration_ms": 1500,
-      "energy_delta": 23
+      "durationMs": 1500,
+      "energyDelta": 23
     },
     "292": {
       "id": 292,
@@ -62338,11 +62338,11 @@
       "proto": "WEATHER_BALL_FIRE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
       "power": 55,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "293": {
       "id": 293,
@@ -62350,11 +62350,11 @@
       "proto": "WEATHER_BALL_ICE",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
       "power": 55,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "294": {
       "id": 294,
@@ -62362,11 +62362,11 @@
       "proto": "WEATHER_BALL_ROCK",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
       "power": 55,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "295": {
       "id": 295,
@@ -62374,11 +62374,11 @@
       "proto": "WEATHER_BALL_WATER",
       "fast": false,
       "type": "Water",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
       "power": 55,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "296": {
       "id": 296,
@@ -62386,11 +62386,11 @@
       "proto": "FRENZY_PLANT",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 100,
-      "pvp_energy_delta": -45,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
       "power": 100,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "297": {
       "id": 297,
@@ -62398,11 +62398,11 @@
       "proto": "SMACK_DOWN_FAST",
       "fast": true,
       "type": "Rock",
-      "pvp_power": 11,
-      "pvp_energy_delta": 8,
+      "pvpPower": 11,
+      "pvpEnergyDelta": 8,
       "power": 13,
-      "duration_ms": 1000,
-      "energy_delta": 7
+      "durationMs": 1000,
+      "energyDelta": 7
     },
     "298": {
       "id": 298,
@@ -62410,11 +62410,11 @@
       "proto": "BLAST_BURN",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 110,
-      "pvp_energy_delta": -50,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -50,
       "power": 120,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "299": {
       "id": 299,
@@ -62422,11 +62422,11 @@
       "proto": "HYDRO_CANNON",
       "fast": false,
       "type": "Water",
-      "pvp_power": 80,
-      "pvp_energy_delta": -40,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -40,
       "power": 90,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "300": {
       "id": 300,
@@ -62434,11 +62434,11 @@
       "proto": "LAST_RESORT",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
       "power": 90,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "301": {
       "id": 301,
@@ -62446,11 +62446,11 @@
       "proto": "METEOR_MASH",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 100,
-      "pvp_energy_delta": -45,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
       "power": 100,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "302": {
       "id": 302,
@@ -62458,16 +62458,16 @@
       "proto": "SKULL_BASH",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 130,
-      "pvp_energy_delta": -75,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -75,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 130,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "303": {
       "id": 303,
@@ -62475,17 +62475,17 @@
       "proto": "ACID_SPRAY",
       "fast": false,
       "type": "Poison",
-      "pvp_power": 20,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 20,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -2,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -2,
+          "buffActivationChance": 1
         }
       ],
       "power": 20,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "304": {
       "id": 304,
@@ -62493,17 +62493,17 @@
       "proto": "EARTH_POWER",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 90,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 90,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.1
         }
       ],
       "power": 100,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "305": {
       "id": 305,
@@ -62511,16 +62511,16 @@
       "proto": "CRABHAMMER",
       "fast": false,
       "type": "Water",
-      "pvp_power": 85,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 85,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.125
+          "buffActivationChance": 0.125
         }
       ],
       "power": 85,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "306": {
       "id": 306,
@@ -62528,16 +62528,16 @@
       "proto": "LUNGE",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 55,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "307": {
       "id": 307,
@@ -62545,7 +62545,7 @@
       "proto": "CRUSH_CLAW",
       "fast": false,
       "type": "Normal",
-      "duration_ms": 2000
+      "durationMs": 2000
     },
     "308": {
       "id": 308,
@@ -62553,16 +62553,16 @@
       "proto": "OCTAZOOKA",
       "fast": false,
       "type": "Water",
-      "pvp_power": 50,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.5
+          "buffActivationChance": 0.5
         }
       ],
       "power": 55,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "309": {
       "id": 309,
@@ -62570,16 +62570,16 @@
       "proto": "MIRROR_SHOT",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 35,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 35,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.3
+          "buffActivationChance": 0.3
         }
       ],
       "power": 50,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "310": {
       "id": 310,
@@ -62587,16 +62587,16 @@
       "proto": "SUPER_POWER",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 85,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 85,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 85,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "311": {
       "id": 311,
@@ -62604,16 +62604,16 @@
       "proto": "FELL_STINGER",
       "fast": false,
       "type": "Bug",
-      "pvp_power": 20,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 20,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 45,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "312": {
       "id": 312,
@@ -62621,16 +62621,16 @@
       "proto": "LEAF_TORNADO",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 45,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 45,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.5
+          "buffActivationChance": 0.5
         }
       ],
       "power": 45,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "313": {
       "id": 313,
@@ -62638,7 +62638,7 @@
       "proto": "LEECH_LIFE",
       "fast": false,
       "type": "Bug",
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "314": {
       "id": 314,
@@ -62646,16 +62646,16 @@
       "proto": "DRAIN_PUNCH",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 40,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 40,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 50,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "315": {
       "id": 315,
@@ -62663,17 +62663,17 @@
       "proto": "SHADOW_BONE",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.2
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.2
         }
       ],
       "power": 85,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "316": {
       "id": 316,
@@ -62681,16 +62681,16 @@
       "proto": "MUDDY_WATER",
       "fast": false,
       "type": "Water",
-      "pvp_power": 35,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 35,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.3
+          "buffActivationChance": 0.3
         }
       ],
       "power": 45,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "317": {
       "id": 317,
@@ -62698,11 +62698,11 @@
       "proto": "BLAZE_KICK",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
       "power": 40,
-      "duration_ms": 1000,
-      "energy_delta": -33
+      "durationMs": 1000,
+      "energyDelta": -33
     },
     "318": {
       "id": 318,
@@ -62710,17 +62710,17 @@
       "proto": "RAZOR_SHELL",
       "fast": false,
       "type": "Water",
-      "pvp_power": 35,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 35,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.5
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.5
         }
       ],
       "power": 55,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "319": {
       "id": 319,
@@ -62728,16 +62728,16 @@
       "proto": "POWER_UP_PUNCH",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 20,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 20,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "320": {
       "id": 320,
@@ -62745,11 +62745,11 @@
       "proto": "CHARM_FAST",
       "fast": true,
       "type": "Fairy",
-      "pvp_power": 13,
-      "pvp_energy_delta": 8,
+      "pvpPower": 13,
+      "pvpEnergyDelta": 8,
       "power": 20,
-      "duration_ms": 1500,
-      "energy_delta": 11
+      "durationMs": 1500,
+      "energyDelta": 11
     },
     "321": {
       "id": 321,
@@ -62757,11 +62757,11 @@
       "proto": "GIGA_IMPACT",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 150,
-      "pvp_energy_delta": -80,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -80,
       "power": 200,
-      "duration_ms": 4500,
-      "energy_delta": -100
+      "durationMs": 4500,
+      "energyDelta": -100
     },
     "322": {
       "id": 322,
@@ -62769,11 +62769,11 @@
       "proto": "FRUSTRATION",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 10,
-      "pvp_energy_delta": -70,
+      "pvpPower": 10,
+      "pvpEnergyDelta": -70,
       "power": 10,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "323": {
       "id": 323,
@@ -62781,11 +62781,11 @@
       "proto": "RETURN",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 130,
-      "pvp_energy_delta": -70,
+      "pvpPower": 130,
+      "pvpEnergyDelta": -70,
       "power": 25,
-      "duration_ms": 500,
-      "energy_delta": -33
+      "durationMs": 500,
+      "energyDelta": -33
     },
     "324": {
       "id": 324,
@@ -62793,11 +62793,11 @@
       "proto": "SYNCHRONOISE",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
       "power": 80,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "325": {
       "id": 325,
@@ -62805,11 +62805,11 @@
       "proto": "LOCK_ON_FAST",
       "fast": true,
       "type": "Normal",
-      "pvp_power": 1,
-      "pvp_energy_delta": 5,
+      "pvpPower": 1,
+      "pvpEnergyDelta": 5,
       "power": 2,
-      "duration_ms": 500,
-      "energy_delta": 10
+      "durationMs": 500,
+      "energyDelta": 10
     },
     "326": {
       "id": 326,
@@ -62817,11 +62817,11 @@
       "proto": "THUNDER_FANG_FAST",
       "fast": true,
       "type": "Electric",
-      "pvp_power": 8,
-      "pvp_energy_delta": 6,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 6,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "327": {
       "id": 327,
@@ -62829,11 +62829,11 @@
       "proto": "ICE_FANG_FAST",
       "fast": true,
       "type": "Ice",
-      "pvp_power": 8,
-      "pvp_energy_delta": 6,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 6,
       "power": 12,
-      "duration_ms": 1500,
-      "energy_delta": 20
+      "durationMs": 1500,
+      "energyDelta": 20
     },
     "328": {
       "id": 328,
@@ -62842,8 +62842,8 @@
       "fast": false,
       "type": "Normal",
       "power": 9000,
-      "duration_ms": 2000,
-      "energy_delta": -25
+      "durationMs": 2000,
+      "energyDelta": -25
     },
     "329": {
       "id": 329,
@@ -62852,8 +62852,8 @@
       "fast": false,
       "type": "Ground",
       "power": 9001,
-      "duration_ms": 3000,
-      "energy_delta": -25
+      "durationMs": 3000,
+      "energyDelta": -25
     },
     "330": {
       "id": 330,
@@ -62861,11 +62861,11 @@
       "proto": "SACRED_SWORD",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
       "power": 50,
-      "duration_ms": 1000,
-      "energy_delta": -33
+      "durationMs": 1000,
+      "energyDelta": -33
     },
     "331": {
       "id": 331,
@@ -62873,11 +62873,11 @@
       "proto": "FLYING_PRESS",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 90,
-      "pvp_energy_delta": -40,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -40,
       "power": 115,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "332": {
       "id": 332,
@@ -62885,11 +62885,11 @@
       "proto": "AURA_SPHERE",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 80,
-      "pvp_energy_delta": -40,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -40,
       "power": 100,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "333": {
       "id": 333,
@@ -62897,11 +62897,11 @@
       "proto": "PAYBACK",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 110,
-      "pvp_energy_delta": -60,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -60,
       "power": 95,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "334": {
       "id": 334,
@@ -62909,11 +62909,11 @@
       "proto": "ROCK_WRECKER",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 110,
-      "pvp_energy_delta": -50,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -50,
       "power": 110,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "335": {
       "id": 335,
@@ -62921,16 +62921,16 @@
       "proto": "AEROBLAST",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 170,
-      "pvp_energy_delta": -75,
-      "pvp_buffs": [
+      "pvpPower": 170,
+      "pvpEnergyDelta": -75,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.125
+          "buffActivationChance": 0.125
         }
       ],
       "power": 180,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "336": {
       "id": 336,
@@ -62938,11 +62938,11 @@
       "proto": "TECHNO_BLAST_NORMAL",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 120,
-      "pvp_energy_delta": -55,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -55,
       "power": 120,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "337": {
       "id": 337,
@@ -62950,11 +62950,11 @@
       "proto": "TECHNO_BLAST_BURN",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 120,
-      "pvp_energy_delta": -55,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -55,
       "power": 120,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "338": {
       "id": 338,
@@ -62962,11 +62962,11 @@
       "proto": "TECHNO_BLAST_CHILL",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 120,
-      "pvp_energy_delta": -55,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -55,
       "power": 120,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "339": {
       "id": 339,
@@ -62974,11 +62974,11 @@
       "proto": "TECHNO_BLAST_WATER",
       "fast": false,
       "type": "Water",
-      "pvp_power": 120,
-      "pvp_energy_delta": -55,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -55,
       "power": 120,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "340": {
       "id": 340,
@@ -62986,11 +62986,11 @@
       "proto": "TECHNO_BLAST_SHOCK",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 120,
-      "pvp_energy_delta": -55,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -55,
       "power": 120,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "341": {
       "id": 341,
@@ -62998,11 +62998,11 @@
       "proto": "FLY",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 90,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "342": {
       "id": 342,
@@ -63010,16 +63010,16 @@
       "proto": "V_CREATE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 95,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 95,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 105,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "343": {
       "id": 343,
@@ -63027,16 +63027,16 @@
       "proto": "LEAF_STORM",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 130,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 130,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "344": {
       "id": 344,
@@ -63044,17 +63044,17 @@
       "proto": "TRI_ATTACK",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 65,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 65,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.5
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.5
         }
       ],
       "power": 75,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "345": {
       "id": 345,
@@ -63062,11 +63062,11 @@
       "proto": "GUST_FAST",
       "fast": true,
       "type": "Flying",
-      "pvp_power": 16,
-      "pvp_energy_delta": 12,
+      "pvpPower": 16,
+      "pvpEnergyDelta": 12,
       "power": 25,
-      "duration_ms": 2000,
-      "energy_delta": 20
+      "durationMs": 2000,
+      "energyDelta": 20
     },
     "346": {
       "id": 346,
@@ -63074,11 +63074,11 @@
       "proto": "INCINERATE_FAST",
       "fast": true,
       "type": "Fire",
-      "pvp_power": 20,
-      "pvp_energy_delta": 20,
+      "pvpPower": 20,
+      "pvpEnergyDelta": 20,
       "power": 32,
-      "duration_ms": 2500,
-      "energy_delta": 22
+      "durationMs": 2500,
+      "energyDelta": 22
     },
     "347": {
       "id": 347,
@@ -63092,16 +63092,16 @@
       "proto": "FEATHER_DANCE",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 35,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 35,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 35,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "349": {
       "id": 349,
@@ -63115,11 +63115,11 @@
       "proto": "FAIRY_WIND_FAST",
       "fast": true,
       "type": "Fairy",
-      "pvp_power": 4,
-      "pvp_energy_delta": 9,
+      "pvpPower": 4,
+      "pvpEnergyDelta": 9,
       "power": 9,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "351": {
       "id": 351,
@@ -63133,11 +63133,11 @@
       "proto": "WEATHER_BALL_NORMAL",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
       "power": 55,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "353": {
       "id": 353,
@@ -63145,17 +63145,17 @@
       "proto": "PSYCHIC_FANGS",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 40,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 40,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 25,
-      "duration_ms": 1000,
-      "energy_delta": -33
+      "durationMs": 1000,
+      "energyDelta": -33
     },
     "354": {
       "id": 354,
@@ -63175,11 +63175,11 @@
       "proto": "DOUBLE_KICK_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 8,
-      "pvp_energy_delta": 12,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 12,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 13
+      "durationMs": 1000,
+      "energyDelta": 13
     },
     "357": {
       "id": 357,
@@ -63187,11 +63187,11 @@
       "proto": "MAGICAL_LEAF_FAST",
       "fast": true,
       "type": "Grass",
-      "pvp_power": 10,
-      "pvp_energy_delta": 10,
+      "pvpPower": 10,
+      "pvpEnergyDelta": 10,
       "power": 17,
-      "duration_ms": 1500,
-      "energy_delta": 17
+      "durationMs": 1500,
+      "energyDelta": 17
     },
     "358": {
       "id": 358,
@@ -63199,16 +63199,16 @@
       "proto": "SACRED_FIRE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 130,
-      "pvp_energy_delta": -65,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -65,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.5
+          "buffActivationChance": 0.5
         }
       ],
       "power": 120,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "359": {
       "id": 359,
@@ -63216,11 +63216,11 @@
       "proto": "ICICLE_SPEAR",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
       "power": 55,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "360": {
       "id": 360,
@@ -63228,16 +63228,16 @@
       "proto": "AEROBLAST_PLUS",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 170,
-      "pvp_energy_delta": -75,
-      "pvp_buffs": [
+      "pvpPower": 170,
+      "pvpEnergyDelta": -75,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.125
+          "buffActivationChance": 0.125
         }
       ],
       "power": 200,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "361": {
       "id": 361,
@@ -63245,16 +63245,16 @@
       "proto": "AEROBLAST_PLUS_PLUS",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 170,
-      "pvp_energy_delta": -75,
-      "pvp_buffs": [
+      "pvpPower": 170,
+      "pvpEnergyDelta": -75,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.125
+          "buffActivationChance": 0.125
         }
       ],
       "power": 225,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "362": {
       "id": 362,
@@ -63262,16 +63262,16 @@
       "proto": "SACRED_FIRE_PLUS",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 130,
-      "pvp_energy_delta": -65,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -65,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.5
+          "buffActivationChance": 0.5
         }
       ],
       "power": 135,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "363": {
       "id": 363,
@@ -63279,16 +63279,16 @@
       "proto": "SACRED_FIRE_PLUS_PLUS",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 130,
-      "pvp_energy_delta": -65,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -65,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.5
+          "buffActivationChance": 0.5
         }
       ],
       "power": 155,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "364": {
       "id": 364,
@@ -63296,11 +63296,11 @@
       "proto": "ACROBATICS",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 110,
-      "pvp_energy_delta": -55,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -55,
       "power": 100,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "365": {
       "id": 365,
@@ -63308,17 +63308,17 @@
       "proto": "LUSTER_PURGE",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 120,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.5
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.5
         }
       ],
       "power": 100,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "366": {
       "id": 366,
@@ -63326,16 +63326,16 @@
       "proto": "MIST_BALL",
       "fast": false,
       "type": "Psychic",
-      "pvp_power": 120,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.5
+          "buffActivationChance": 0.5
         }
       ],
       "power": 105,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "367": {
       "id": 367,
@@ -63343,11 +63343,11 @@
       "proto": "BRUTAL_SWING",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 65,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "368": {
       "id": 368,
@@ -63355,11 +63355,11 @@
       "proto": "ROLLOUT_FAST",
       "fast": true,
       "type": "Rock",
-      "pvp_power": 7,
-      "pvp_energy_delta": 13,
+      "pvpPower": 7,
+      "pvpEnergyDelta": 13,
       "power": 15,
-      "duration_ms": 1500,
-      "energy_delta": 19
+      "durationMs": 1500,
+      "energyDelta": 19
     },
     "369": {
       "id": 369,
@@ -63367,17 +63367,17 @@
       "proto": "SEED_FLARE",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 130,
-      "pvp_energy_delta": -75,
-      "pvp_buffs": [
+      "pvpPower": 130,
+      "pvpEnergyDelta": -75,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -2,
-          "buff_activation_chance": 0.4
+          "targetDefenseStatStageChange": -2,
+          "buffActivationChance": 0.4
         }
       ],
       "power": 115,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "370": {
       "id": 370,
@@ -63385,17 +63385,17 @@
       "proto": "OBSTRUCT",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 15,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 15,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 20,
-      "duration_ms": 1500,
-      "energy_delta": -33
+      "durationMs": 1500,
+      "energyDelta": -33
     },
     "371": {
       "id": 371,
@@ -63403,11 +63403,11 @@
       "proto": "SHADOW_FORCE",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 120,
-      "pvp_energy_delta": -90,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -90,
       "power": 140,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "372": {
       "id": 372,
@@ -63415,16 +63415,16 @@
       "proto": "METEOR_BEAM",
       "fast": false,
       "type": "Rock",
-      "pvp_power": 120,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 140,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "373": {
       "id": 373,
@@ -63432,11 +63432,11 @@
       "proto": "WATER_SHURIKEN_FAST",
       "fast": true,
       "type": "Water",
-      "pvp_power": 6,
-      "pvp_energy_delta": 14,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 14,
       "power": 9,
-      "duration_ms": 1000,
-      "energy_delta": 14
+      "durationMs": 1000,
+      "energyDelta": 14
     },
     "374": {
       "id": 374,
@@ -63444,11 +63444,11 @@
       "proto": "FUSION_BOLT",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 90,
-      "pvp_energy_delta": -45,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -45,
       "power": 140,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "375": {
       "id": 375,
@@ -63456,11 +63456,11 @@
       "proto": "FUSION_FLARE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 90,
-      "pvp_energy_delta": -45,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -45,
       "power": 140,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "376": {
       "id": 376,
@@ -63468,11 +63468,11 @@
       "proto": "POLTERGEIST",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 150,
-      "pvp_energy_delta": -75,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -75,
       "power": 140,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "377": {
       "id": 377,
@@ -63480,11 +63480,11 @@
       "proto": "HIGH_HORSEPOWER",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 100,
-      "pvp_energy_delta": -60,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -60,
       "power": 105,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "378": {
       "id": 378,
@@ -63492,16 +63492,16 @@
       "proto": "GLACIATE",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 160,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "379": {
       "id": 379,
@@ -63509,16 +63509,16 @@
       "proto": "BREAKING_SWIPE",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 50,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 45,
-      "duration_ms": 1000,
-      "energy_delta": -33
+      "durationMs": 1000,
+      "energyDelta": -33
     },
     "380": {
       "id": 380,
@@ -63526,11 +63526,11 @@
       "proto": "BOOMBURST",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 150,
-      "pvp_energy_delta": -70,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -70,
       "power": 150,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "381": {
       "id": 381,
@@ -63538,11 +63538,11 @@
       "proto": "DOUBLE_IRON_BASH",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 55,
-      "pvp_energy_delta": -35,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
       "power": 70,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "382": {
       "id": 382,
@@ -63550,16 +63550,16 @@
       "proto": "MYSTICAL_FIRE",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 60,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "383": {
       "id": 383,
@@ -63567,17 +63567,17 @@
       "proto": "LIQUIDATION",
       "fast": false,
       "type": "Water",
-      "pvp_power": 70,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.3
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.3
         }
       ],
       "power": 70,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "384": {
       "id": 384,
@@ -63585,16 +63585,16 @@
       "proto": "DRAGON_ASCENT",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 150,
-      "pvp_energy_delta": -70,
-      "pvp_buffs": [
+      "pvpPower": 150,
+      "pvpEnergyDelta": -70,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 140,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "385": {
       "id": 385,
@@ -63602,11 +63602,11 @@
       "proto": "LEAFAGE_FAST",
       "fast": true,
       "type": "Grass",
-      "pvp_power": 6,
-      "pvp_energy_delta": 8,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
       "power": 6,
-      "duration_ms": 500,
-      "energy_delta": 4
+      "durationMs": 500,
+      "energyDelta": 4
     },
     "386": {
       "id": 386,
@@ -63614,11 +63614,11 @@
       "proto": "MAGMA_STORM",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 65,
-      "pvp_energy_delta": -40,
+      "pvpPower": 65,
+      "pvpEnergyDelta": -40,
       "power": 75,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "387": {
       "id": 387,
@@ -63626,11 +63626,11 @@
       "proto": "GEOMANCY_FAST",
       "fast": true,
       "type": "Fairy",
-      "pvp_power": 8,
-      "pvp_energy_delta": 13,
+      "pvpPower": 8,
+      "pvpEnergyDelta": 13,
       "power": 20,
-      "duration_ms": 1500,
-      "energy_delta": 14
+      "durationMs": 1500,
+      "energyDelta": 14
     },
     "388": {
       "id": 388,
@@ -63638,11 +63638,11 @@
       "proto": "SPACIAL_REND",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 95,
-      "pvp_energy_delta": -55,
+      "pvpPower": 95,
+      "pvpEnergyDelta": -55,
       "power": 160,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "389": {
       "id": 389,
@@ -63650,16 +63650,16 @@
       "proto": "OBLIVION_WING",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 85,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 85,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 85,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "390": {
       "id": 390,
@@ -63667,17 +63667,17 @@
       "proto": "NATURES_MADNESS",
       "fast": false,
       "type": "Fairy",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 90,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "391": {
       "id": 391,
@@ -63685,16 +63685,16 @@
       "proto": "TRIPLE_AXEL",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 60,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "392": {
       "id": 392,
@@ -63702,16 +63702,16 @@
       "proto": "TRAILBLAZE",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 65,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 65,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 65,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "393": {
       "id": 393,
@@ -63719,16 +63719,16 @@
       "proto": "SCORCHING_SANDS",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 80,
-      "pvp_energy_delta": -50,
-      "pvp_buffs": [
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.1
+          "buffActivationChance": 0.1
         }
       ],
       "power": 90,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "394": {
       "id": 394,
@@ -63736,11 +63736,11 @@
       "proto": "ROAR_OF_TIME",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 150,
-      "pvp_energy_delta": -65,
+      "pvpPower": 150,
+      "pvpEnergyDelta": -65,
       "power": 160,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "395": {
       "id": 395,
@@ -63748,16 +63748,16 @@
       "proto": "BLEAKWIND_STORM",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 150,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "396": {
       "id": 396,
@@ -63765,16 +63765,16 @@
       "proto": "SANDSEAR_STORM",
       "fast": false,
       "type": "Ground",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 150,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "397": {
       "id": 397,
@@ -63782,16 +63782,16 @@
       "proto": "WILDBOLT_STORM",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 150,
-      "duration_ms": 2500,
-      "energy_delta": -100
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "398": {
       "id": 398,
@@ -63799,17 +63799,17 @@
       "proto": "SPIRIT_SHACKLE",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 50,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.33
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.33
         }
       ],
       "power": 70,
-      "duration_ms": 2500,
-      "energy_delta": -33
+      "durationMs": 2500,
+      "energyDelta": -33
     },
     "399": {
       "id": 399,
@@ -63817,16 +63817,16 @@
       "proto": "VOLT_TACKLE",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 90,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 90,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 90,
-      "duration_ms": 3500,
-      "energy_delta": -33
+      "durationMs": 3500,
+      "energyDelta": -33
     },
     "400": {
       "id": 400,
@@ -63834,11 +63834,11 @@
       "proto": "DARKEST_LARIAT",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 120,
-      "pvp_energy_delta": -60,
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
       "power": 80,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "401": {
       "id": 401,
@@ -63846,11 +63846,11 @@
       "proto": "PSYWAVE_FAST",
       "fast": true,
       "type": "Psychic",
-      "pvp_power": 3,
-      "pvp_energy_delta": 4,
+      "pvpPower": 3,
+      "pvpEnergyDelta": 4,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 7
+      "durationMs": 500,
+      "energyDelta": 7
     },
     "402": {
       "id": 402,
@@ -63858,11 +63858,11 @@
       "proto": "METAL_SOUND_FAST",
       "fast": true,
       "type": "Steel",
-      "pvp_power": 5,
-      "pvp_energy_delta": 8,
+      "pvpPower": 5,
+      "pvpEnergyDelta": 8,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 6
+      "durationMs": 500,
+      "energyDelta": 6
     },
     "403": {
       "id": 403,
@@ -63870,11 +63870,11 @@
       "proto": "SAND_ATTACK_FAST",
       "fast": true,
       "type": "Ground",
-      "pvp_power": 2,
-      "pvp_energy_delta": 4,
+      "pvpPower": 2,
+      "pvpEnergyDelta": 4,
       "power": 4,
-      "duration_ms": 500,
-      "energy_delta": 7
+      "durationMs": 500,
+      "energyDelta": 7
     },
     "404": {
       "id": 404,
@@ -63882,11 +63882,11 @@
       "proto": "SUNSTEEL_STRIKE",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 135,
-      "pvp_energy_delta": -65,
+      "pvpPower": 135,
+      "pvpEnergyDelta": -65,
       "power": 230,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "405": {
       "id": 405,
@@ -63894,11 +63894,11 @@
       "proto": "MOONGEIST_BEAM",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 135,
-      "pvp_energy_delta": -65,
+      "pvpPower": 135,
+      "pvpEnergyDelta": -65,
       "power": 230,
-      "duration_ms": 3000,
-      "energy_delta": -100
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "406": {
       "id": 406,
@@ -63906,16 +63906,16 @@
       "proto": "AURA_WHEEL_ELECTRIC",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 100,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 100,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "407": {
       "id": 407,
@@ -63923,16 +63923,16 @@
       "proto": "AURA_WHEEL_DARK",
       "fast": false,
       "type": "Dark",
-      "pvp_power": 100,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 100,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 100,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "408": {
       "id": 408,
@@ -63940,16 +63940,16 @@
       "proto": "HIGH_JUMP_KICK",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 110,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 110,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.1
+          "buffActivationChance": 0.1
         }
       ],
       "power": 90,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "409": {
       "id": 409,
@@ -63958,7 +63958,7 @@
       "fast": false,
       "type": "Fire",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "410": {
       "id": 410,
@@ -63967,7 +63967,7 @@
       "fast": false,
       "type": "Bug",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "411": {
       "id": 411,
@@ -63976,7 +63976,7 @@
       "fast": false,
       "type": "Electric",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "412": {
       "id": 412,
@@ -63985,7 +63985,7 @@
       "fast": false,
       "type": "Normal",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "413": {
       "id": 413,
@@ -63994,7 +63994,7 @@
       "fast": false,
       "type": "Fighting",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "414": {
       "id": 414,
@@ -64003,7 +64003,7 @@
       "fast": false,
       "type": "Ghost",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "415": {
       "id": 415,
@@ -64012,7 +64012,7 @@
       "fast": false,
       "type": "Ice",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "416": {
       "id": 416,
@@ -64021,7 +64021,7 @@
       "fast": false,
       "type": "Poison",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "417": {
       "id": 417,
@@ -64030,7 +64030,7 @@
       "fast": false,
       "type": "Water",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "418": {
       "id": 418,
@@ -64039,7 +64039,7 @@
       "fast": false,
       "type": "Flying",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "419": {
       "id": 419,
@@ -64048,7 +64048,7 @@
       "fast": false,
       "type": "Fairy",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "420": {
       "id": 420,
@@ -64057,7 +64057,7 @@
       "fast": false,
       "type": "Dragon",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "421": {
       "id": 421,
@@ -64066,7 +64066,7 @@
       "fast": false,
       "type": "Psychic",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "422": {
       "id": 422,
@@ -64075,7 +64075,7 @@
       "fast": false,
       "type": "Rock",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "423": {
       "id": 423,
@@ -64084,7 +64084,7 @@
       "fast": false,
       "type": "Ground",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "424": {
       "id": 424,
@@ -64093,7 +64093,7 @@
       "fast": false,
       "type": "Dark",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "425": {
       "id": 425,
@@ -64102,7 +64102,7 @@
       "fast": false,
       "type": "Grass",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "426": {
       "id": 426,
@@ -64111,7 +64111,7 @@
       "fast": false,
       "type": "Steel",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "427": {
       "id": 427,
@@ -64120,7 +64120,7 @@
       "fast": false,
       "type": "Fire",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "428": {
       "id": 428,
@@ -64129,7 +64129,7 @@
       "fast": false,
       "type": "Bug",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "429": {
       "id": 429,
@@ -64138,7 +64138,7 @@
       "fast": false,
       "type": "Electric",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "430": {
       "id": 430,
@@ -64147,7 +64147,7 @@
       "fast": false,
       "type": "Normal",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "431": {
       "id": 431,
@@ -64156,7 +64156,7 @@
       "fast": false,
       "type": "Fighting",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "432": {
       "id": 432,
@@ -64165,7 +64165,7 @@
       "fast": false,
       "type": "Ghost",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "433": {
       "id": 433,
@@ -64174,7 +64174,7 @@
       "fast": false,
       "type": "Water",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "434": {
       "id": 434,
@@ -64183,7 +64183,7 @@
       "fast": false,
       "type": "Ice",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "435": {
       "id": 435,
@@ -64192,7 +64192,7 @@
       "fast": false,
       "type": "Normal",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "436": {
       "id": 436,
@@ -64201,7 +64201,7 @@
       "fast": false,
       "type": "Normal",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "437": {
       "id": 437,
@@ -64210,7 +64210,7 @@
       "fast": false,
       "type": "Poison",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "438": {
       "id": 438,
@@ -64219,7 +64219,7 @@
       "fast": false,
       "type": "Steel",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "439": {
       "id": 439,
@@ -64228,7 +64228,7 @@
       "fast": false,
       "type": "Flying",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "440": {
       "id": 440,
@@ -64237,7 +64237,7 @@
       "fast": false,
       "type": "Psychic",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "441": {
       "id": 441,
@@ -64246,7 +64246,7 @@
       "fast": false,
       "type": "Water",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "442": {
       "id": 442,
@@ -64255,7 +64255,7 @@
       "fast": false,
       "type": "Rock",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "443": {
       "id": 443,
@@ -64264,7 +64264,7 @@
       "fast": false,
       "type": "Grass",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "444": {
       "id": 444,
@@ -64273,7 +64273,7 @@
       "fast": false,
       "type": "Grass",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "445": {
       "id": 445,
@@ -64282,7 +64282,7 @@
       "fast": false,
       "type": "Ground",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "446": {
       "id": 446,
@@ -64291,7 +64291,7 @@
       "fast": false,
       "type": "Electric",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "447": {
       "id": 447,
@@ -64300,7 +64300,7 @@
       "fast": false,
       "type": "Fire",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "448": {
       "id": 448,
@@ -64309,7 +64309,7 @@
       "fast": false,
       "type": "Fairy",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "449": {
       "id": 449,
@@ -64318,7 +64318,7 @@
       "fast": false,
       "type": "Dark",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "450": {
       "id": 450,
@@ -64327,7 +64327,7 @@
       "fast": false,
       "type": "Fairy",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "451": {
       "id": 451,
@@ -64336,7 +64336,7 @@
       "fast": false,
       "type": "Steel",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "452": {
       "id": 452,
@@ -64345,7 +64345,7 @@
       "fast": false,
       "type": "Dragon",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "453": {
       "id": 453,
@@ -64354,7 +64354,7 @@
       "fast": false,
       "type": "Grass",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "454": {
       "id": 454,
@@ -64363,7 +64363,7 @@
       "fast": false,
       "type": "Water",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "455": {
       "id": 455,
@@ -64372,7 +64372,7 @@
       "fast": false,
       "type": "Grass",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "456": {
       "id": 456,
@@ -64381,7 +64381,7 @@
       "fast": false,
       "type": "Fire",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "457": {
       "id": 457,
@@ -64390,7 +64390,7 @@
       "fast": false,
       "type": "Water",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "458": {
       "id": 458,
@@ -64399,7 +64399,7 @@
       "fast": false,
       "type": "Dark",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "459": {
       "id": 459,
@@ -64408,7 +64408,7 @@
       "fast": false,
       "type": "Water",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "460": {
       "id": 460,
@@ -64417,7 +64417,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "461": {
       "id": 461,
@@ -64426,7 +64426,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "462": {
       "id": 462,
@@ -64434,11 +64434,11 @@
       "proto": "FORCE_PALM_FAST",
       "fast": true,
       "type": "Fighting",
-      "pvp_power": 13,
-      "pvp_energy_delta": 10,
+      "pvpPower": 13,
+      "pvpEnergyDelta": 10,
       "power": 10,
-      "duration_ms": 1000,
-      "energy_delta": 16
+      "durationMs": 1000,
+      "energyDelta": 16
     },
     "463": {
       "id": 463,
@@ -64446,11 +64446,11 @@
       "proto": "SPARKLING_ARIA",
       "fast": false,
       "type": "Water",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 85,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "464": {
       "id": 464,
@@ -64458,16 +64458,16 @@
       "proto": "RAGE_FIST",
       "fast": false,
       "type": "Ghost",
-      "pvp_power": 50,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 100,
-      "duration_ms": 3000,
-      "energy_delta": -50
+      "durationMs": 3000,
+      "energyDelta": -50
     },
     "465": {
       "id": 465,
@@ -64475,16 +64475,16 @@
       "proto": "FLOWER_TRICK",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 30,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 30,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 75,
-      "duration_ms": 3000,
-      "energy_delta": -33
+      "durationMs": 3000,
+      "energyDelta": -33
     },
     "466": {
       "id": 466,
@@ -64492,16 +64492,16 @@
       "proto": "FREEZE_SHOCK",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 120,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 0.3
+          "buffActivationChance": 0.3
         }
       ],
       "power": 160,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "467": {
       "id": 467,
@@ -64509,17 +64509,17 @@
       "proto": "ICE_BURN",
       "fast": false,
       "type": "Ice",
-      "pvp_power": 120,
-      "pvp_energy_delta": -60,
-      "pvp_buffs": [
+      "pvpPower": 120,
+      "pvpEnergyDelta": -60,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.3
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.3
         }
       ],
       "power": 90,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "468": {
       "id": 468,
@@ -64527,16 +64527,16 @@
       "proto": "TORCH_SONG",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 70,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 100,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "469": {
       "id": 469,
@@ -64544,11 +64544,11 @@
       "proto": "BEHEMOTH_BLADE",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 100,
-      "pvp_energy_delta": -55,
+      "pvpPower": 100,
+      "pvpEnergyDelta": -55,
       "power": 200,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "470": {
       "id": 470,
@@ -64556,11 +64556,11 @@
       "proto": "BEHEMOTH_BASH",
       "fast": false,
       "type": "Steel",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 125,
-      "duration_ms": 1500,
-      "energy_delta": -50
+      "durationMs": 1500,
+      "energyDelta": -50
     },
     "471": {
       "id": 471,
@@ -64568,17 +64568,17 @@
       "proto": "UPPER_HAND",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 70,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 0.3
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.3
         }
       ],
       "power": 50,
-      "duration_ms": 2000,
-      "energy_delta": -33
+      "durationMs": 2000,
+      "energyDelta": -33
     },
     "472": {
       "id": 472,
@@ -64586,17 +64586,17 @@
       "proto": "THUNDER_CAGE",
       "fast": false,
       "type": "Electric",
-      "pvp_power": 60,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "target_defense_stat_stage_change": -1,
-          "buff_activation_chance": 1
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
         }
       ],
       "power": 220,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "473": {
       "id": 473,
@@ -64605,7 +64605,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "474": {
       "id": 474,
@@ -64614,7 +64614,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "475": {
       "id": 475,
@@ -64623,7 +64623,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "476": {
       "id": 476,
@@ -64632,7 +64632,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "477": {
       "id": 477,
@@ -64641,7 +64641,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "478": {
       "id": 478,
@@ -64650,7 +64650,7 @@
       "fast": false,
       "type": "Normal",
       "power": 0,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "479": {
       "id": 479,
@@ -64659,7 +64659,7 @@
       "fast": false,
       "type": "Steel",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "480": {
       "id": 480,
@@ -64668,7 +64668,7 @@
       "fast": false,
       "type": "Steel",
       "power": 350,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "481": {
       "id": 481,
@@ -64682,11 +64682,11 @@
       "proto": "DYNAMAX_CANNON",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 80,
-      "pvp_energy_delta": -45,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -45,
       "power": 215,
-      "duration_ms": 1500,
-      "energy_delta": -100
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "483": {
       "id": 483,
@@ -64695,7 +64695,7 @@
       "fast": false,
       "type": "Dragon",
       "power": 450,
-      "duration_ms": 2500
+      "durationMs": 2500
     },
     "484": {
       "id": 484,
@@ -64703,16 +64703,16 @@
       "proto": "CLANGING_SCALES",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 120,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 120,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 120,
-      "duration_ms": 3500,
-      "energy_delta": -100
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "485": {
       "id": 485,
@@ -64720,11 +64720,11 @@
       "proto": "CRUSH_GRIP",
       "fast": false,
       "type": "Normal",
-      "pvp_power": 110,
-      "pvp_energy_delta": -50,
+      "pvpPower": 110,
+      "pvpEnergyDelta": -50,
       "power": 210,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "486": {
       "id": 486,
@@ -64732,11 +64732,11 @@
       "proto": "DRAGON_ENERGY",
       "fast": false,
       "type": "Dragon",
-      "pvp_power": 90,
-      "pvp_energy_delta": -45,
+      "pvpPower": 90,
+      "pvpEnergyDelta": -45,
       "power": 155,
-      "duration_ms": 3500,
-      "energy_delta": -50
+      "durationMs": 3500,
+      "energyDelta": -50
     },
     "487": {
       "id": 487,
@@ -64744,16 +64744,16 @@
       "proto": "AQUA_STEP",
       "fast": false,
       "type": "Water",
-      "pvp_power": 55,
-      "pvp_energy_delta": -40,
-      "pvp_buffs": [
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 55,
-      "duration_ms": 3500,
-      "energy_delta": -33
+      "durationMs": 3500,
+      "energyDelta": -33
     },
     "488": {
       "id": 488,
@@ -64761,16 +64761,16 @@
       "proto": "CHILLING_WATER",
       "fast": false,
       "type": "Water",
-      "pvp_power": 60,
-      "pvp_energy_delta": -45,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 65,
-      "duration_ms": 3500,
-      "energy_delta": -33
+      "durationMs": 3500,
+      "energyDelta": -33
     },
     "489": {
       "id": 489,
@@ -64778,14 +64778,14 @@
       "proto": "SECRET_SWORD",
       "fast": false,
       "type": "Fighting",
-      "pvp_power": 70,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 70,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {}
       ],
       "power": 120,
-      "duration_ms": 2000,
-      "energy_delta": -50
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "490": {
       "id": 490,
@@ -64793,16 +64793,16 @@
       "proto": "BEAK_BLAST",
       "fast": false,
       "type": "Flying",
-      "pvp_power": 110,
-      "pvp_energy_delta": -55,
-      "pvp_buffs": [
+      "pvpPower": 110,
+      "pvpEnergyDelta": -55,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 125,
-      "duration_ms": 2500,
-      "energy_delta": -50
+      "durationMs": 2500,
+      "energyDelta": -50
     },
     "491": {
       "id": 491,
@@ -64810,16 +64810,16 @@
       "proto": "MIND_BLOWN",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 90,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 90,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 130,
-      "duration_ms": 4000,
-      "energy_delta": -33
+      "durationMs": 4000,
+      "energyDelta": -33
     },
     "492": {
       "id": 492,
@@ -64827,16 +64827,16 @@
       "proto": "DRUM_BEATING",
       "fast": false,
       "type": "Grass",
-      "pvp_power": 60,
-      "pvp_energy_delta": -35,
-      "pvp_buffs": [
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
         {
-          "buff_activation_chance": 1
+          "buffActivationChance": 1
         }
       ],
       "power": 115,
-      "duration_ms": 4500,
-      "energy_delta": -33
+      "durationMs": 4500,
+      "energyDelta": -33
     },
     "493": {
       "id": 493,
@@ -64844,11 +64844,11 @@
       "proto": "PYROBALL",
       "fast": false,
       "type": "Fire",
-      "pvp_power": 75,
-      "pvp_energy_delta": -40,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -40,
       "power": 150,
-      "duration_ms": 2000,
-      "energy_delta": -100
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "494": {
       "id": 494,
