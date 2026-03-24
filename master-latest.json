@@ -1673,7 +1673,8 @@
         },
         "3340": {
           "name": "Bb 2026",
-          "proto": "PIKACHU_BB_2026"
+          "proto": "PIKACHU_BB_2026",
+          "is_costume": true
         },
         "3341": {
           "name": "Visor 2026",
@@ -52153,6 +52154,13 @@
       "type": "Postcard Inventory",
       "category": "Postcard Inventory",
       "min_trainer_level": 100
+    },
+    "804": {
+      "name": "Soft Sfida",
+      "proto": "ITEM_SOFT_SFIDA",
+      "type": "Soft Sfida",
+      "category": "Utilites",
+      "min_trainer_level": 99
     },
     "901": {
       "name": "Incubator Basic Unlimited",

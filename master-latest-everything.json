@@ -3445,7 +3445,8 @@
         "3340": {
           "name": "Bb 2026",
           "proto": "PIKACHU_BB_2026",
-          "form": 3340
+          "form": 3340,
+          "isCostume": true
         },
         "3341": {
           "name": "Visor 2026",
@@ -132414,7 +132415,10 @@
     "3340": {
       "formName": "Bb 2026",
       "proto": "PIKACHU_BB_2026",
-      "formId": 3340
+      "formId": 3340,
+      "isCostume": true,
+      "eliteQuickMoves": [],
+      "eliteChargedMoves": []
     },
     "3341": {
       "formName": "Visor 2026",
@@ -134555,6 +134559,14 @@
       "type": "Postcard Inventory",
       "category": "Postcard Inventory",
       "minTrainerLevel": 100
+    },
+    "804": {
+      "id": 804,
+      "name": "Soft Sfida",
+      "proto": "ITEM_SOFT_SFIDA",
+      "type": "Soft Sfida",
+      "category": "Utilites",
+      "minTrainerLevel": 99
     },
     "901": {
       "id": 901,
@@ -141868,6 +141880,12 @@
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_holi_2026"
     },
+    "134": {
+      "id": 134,
+      "proto": "LC_SPECIALBACKGROUND_EXTRA_2025_02",
+      "formatted": "Extra 2025 02",
+      "imageUrl": "lc_taipeiFlowerFestival_2026"
+    },
     "143": {
       "id": 143,
       "proto": "LC_2025_ANAHEIM_WORLD_CHAMPIONSHIPS_001",
@@ -142362,6 +142380,84 @@
       "proto": "LC_2026_COLOGNE_CARNIVAL_001",
       "formatted": "2026 Cologne Carnival 001",
       "imageUrl": "lc_carnivalFlamigo_cologne_2026"
+    },
+    "252": {
+      "id": 252,
+      "proto": "LC_2026_NPB_001",
+      "formatted": "2026 Npb 001",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "253": {
+      "id": 253,
+      "proto": "LC_2026_NPB_002",
+      "formatted": "2026 Npb 002",
+      "imageUrl": "lc_2026_NPB_yomiuriGiants"
+    },
+    "254": {
+      "id": 254,
+      "proto": "LC_2026_NPB_003",
+      "formatted": "2026 Npb 003",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "255": {
+      "id": 255,
+      "proto": "LC_2026_NPB_004",
+      "formatted": "2026 Npb 004",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "256": {
+      "id": 256,
+      "proto": "LC_2026_NPB_005",
+      "formatted": "2026 Npb 005",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "257": {
+      "id": 257,
+      "proto": "LC_2026_NPB_006",
+      "formatted": "2026 Npb 006",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "258": {
+      "id": 258,
+      "proto": "LC_2026_NPB_007",
+      "formatted": "2026 Npb 007",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "259": {
+      "id": 259,
+      "proto": "LC_2026_NPB_008",
+      "formatted": "2026 Npb 008",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "260": {
+      "id": 260,
+      "proto": "LC_2026_NPB_009",
+      "formatted": "2026 Npb 009",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "261": {
+      "id": 261,
+      "proto": "LC_2026_NPB_010",
+      "formatted": "2026 Npb 010",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "262": {
+      "id": 262,
+      "proto": "LC_2026_NPB_011",
+      "formatted": "2026 Npb 011",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "263": {
+      "id": 263,
+      "proto": "LC_2026_NPB_012",
+      "formatted": "2026 Npb 012",
+      "imageUrl": "lc_2026_ppk_001"
+    },
+    "264": {
+      "id": 264,
+      "proto": "LC_2026_NPB_013",
+      "formatted": "2026 Npb 013",
+      "imageUrl": "lc_2026_ppk_001"
     }
   },
   "routeTypes": {
