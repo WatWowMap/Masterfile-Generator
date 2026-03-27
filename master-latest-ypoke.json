@@ -64858,7 +64858,13 @@
       "id": 494,
       "name": "Gigaton Hammer",
       "proto": "GIGATON_HAMMER",
-      "fast": false
+      "fast": false,
+      "type": "Steel",
+      "pvpPower": 130,
+      "pvpEnergyDelta": -60,
+      "power": 300,
+      "durationMs": 3000,
+      "energyDelta": -100
     }
   },
   "questTypes": {

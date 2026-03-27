@@ -100472,7 +100472,13 @@
       "moveId": 494,
       "moveName": "Gigaton Hammer",
       "proto": "GIGATON_HAMMER",
-      "fast": false
+      "fast": false,
+      "type": 9,
+      "pvpPower": 130,
+      "pvpEnergyDelta": -60,
+      "power": 300,
+      "durationMs": 3000,
+      "energyDelta": -100
     }
   },
   "questTypes": {
