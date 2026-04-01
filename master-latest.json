@@ -1679,6 +1679,10 @@
         "3341": {
           "name": "Visor 2026",
           "proto": "PIKACHU_VISOR_2026"
+        },
+        "3342": {
+          "name": "Fossil 2026",
+          "proto": "PIKACHU_FOSSIL_2026"
         }
       },
       "attack": 112,
@@ -55613,6 +55617,10 @@
     "19": {
       "proto": "FRIENDSHIP_POINTS",
       "text": "Friendship Points"
+    },
+    "20": {
+      "proto": "TEMP_EVO_BRANCH_RESOURCE",
+      "text": "Temp Evo Branch Resource"
     }
   },
   "quest_conditions": {
@@ -55931,6 +55939,10 @@
     "79": {
       "proto": "WITH_POKEMON_FAMILY",
       "text": "With Pokemon Family"
+    },
+    "80": {
+      "proto": "WITH_QUEST_ID",
+      "text": "With Quest Id"
     }
   },
   "invasions": {

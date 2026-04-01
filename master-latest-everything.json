@@ -3452,6 +3452,11 @@
           "name": "Visor 2026",
           "proto": "PIKACHU_VISOR_2026",
           "form": 3341
+        },
+        "3342": {
+          "name": "Fossil 2026",
+          "proto": "PIKACHU_FOSSIL_2026",
+          "form": 3342
         }
       },
       "stats": {
@@ -132424,6 +132429,11 @@
       "formName": "Visor 2026",
       "proto": "PIKACHU_VISOR_2026",
       "formId": 3341
+    },
+    "3342": {
+      "formName": "Fossil 2026",
+      "proto": "PIKACHU_FOSSIL_2026",
+      "formId": 3342
     }
   },
   "types": {
@@ -138378,6 +138388,11 @@
       "id": 19,
       "proto": "FRIENDSHIP_POINTS",
       "formatted": "Friendship Points"
+    },
+    "20": {
+      "id": 20,
+      "proto": "TEMP_EVO_BRANCH_RESOURCE",
+      "formatted": "Temp Evo Branch Resource"
     }
   },
   "questConditions": {
@@ -138775,6 +138790,11 @@
       "id": 79,
       "proto": "WITH_POKEMON_FAMILY",
       "formatted": "With Pokemon Family"
+    },
+    "80": {
+      "id": 80,
+      "proto": "WITH_QUEST_ID",
+      "formatted": "With Quest Id"
     }
   },
   "invasions": {
@@ -141283,6 +141303,16 @@
       "id": 17,
       "formatted": "Raid Level 5 Mega Enhanced",
       "proto": "RAID_LEVEL_5_MEGA_ENHANCED"
+    },
+    "18": {
+      "id": 18,
+      "formatted": "Raid Level Coordinated 1",
+      "proto": "RAID_LEVEL_COORDINATED_1"
+    },
+    "19": {
+      "id": 19,
+      "formatted": "Raid Level Coordinated 2",
+      "proto": "RAID_LEVEL_COORDINATED_2"
     }
   },
   "locationCards": {
