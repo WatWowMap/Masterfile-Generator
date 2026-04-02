@@ -27806,7 +27806,60 @@
         "3339": {
           "name": "Spring 2026",
           "proto": "CORSOLA_SPRING_2026",
-          "form": 3339
+          "form": 3339,
+          "isCostume": true,
+          "stats": {
+            "attack": 116,
+            "defense": 182,
+            "stamina": 155
+          },
+          "height": 0.61,
+          "weight": 0.5,
+          "quickMoves": {
+            "221": {
+              "moveId": 221,
+              "moveName": "Tackle",
+              "proto": "TACKLE_FAST",
+              "type": 1,
+              "power": 5
+            },
+            "263": {
+              "moveId": 263,
+              "moveName": "Astonish",
+              "proto": "ASTONISH_FAST",
+              "type": 8,
+              "power": 7
+            }
+          },
+          "chargedMoves": {
+            "65": {
+              "moveId": 65,
+              "moveName": "Power Gem",
+              "proto": "POWER_GEM",
+              "type": 6,
+              "power": 80
+            },
+            "259": {
+              "moveId": 259,
+              "moveName": "Rock Blast",
+              "proto": "ROCK_BLAST",
+              "type": 6,
+              "power": 50
+            },
+            "265": {
+              "moveId": 265,
+              "moveName": "Night Shade",
+              "proto": "NIGHT_SHADE",
+              "type": 8,
+              "power": 60
+            }
+          },
+          "types": {
+            "8": {
+              "typeId": 8,
+              "typeName": "Ghost"
+            }
+          }
         }
       },
       "stats": {
@@ -97254,7 +97307,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
-        "buddyGroupNumber": 2,
+        "buddyGroupNumber": 3,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -132415,7 +132468,25 @@
     "3339": {
       "formName": "Spring 2026",
       "proto": "CORSOLA_SPRING_2026",
-      "formId": 3339
+      "formId": 3339,
+      "isCostume": true,
+      "attack": 116,
+      "defense": 182,
+      "stamina": 155,
+      "height": 0.61,
+      "weight": 0.5,
+      "quickMoves": [
+        221,
+        263
+      ],
+      "chargedMoves": [
+        65,
+        259,
+        265
+      ],
+      "types": [
+        8
+      ]
     },
     "3340": {
       "formName": "Bb 2026",

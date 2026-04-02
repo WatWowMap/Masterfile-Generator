@@ -14642,7 +14642,25 @@
         },
         "3339": {
           "formName": "Spring 2026",
-          "formId": 3339
+          "formId": 3339,
+          "isCostume": true,
+          "stats": {
+            "attack": 116,
+            "defense": 182,
+            "stamina": 155
+          },
+          "quickMoves": [
+            221,
+            263
+          ],
+          "chargedMoves": [
+            65,
+            259,
+            265
+          ],
+          "types": [
+            "Ghost"
+          ]
         }
       },
       "stats": {
@@ -50053,7 +50071,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
-      "buddyGroupNumber": 2,
+      "buddyGroupNumber": 3,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,

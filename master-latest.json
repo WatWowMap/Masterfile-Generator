@@ -12392,7 +12392,25 @@
         },
         "3339": {
           "name": "Spring 2026",
-          "proto": "CORSOLA_SPRING_2026"
+          "proto": "CORSOLA_SPRING_2026",
+          "is_costume": true,
+          "attack": 116,
+          "defense": 182,
+          "stamina": 155,
+          "height": 0.61,
+          "weight": 0.5,
+          "quick_moves": [
+            "Tackle",
+            "Astonish"
+          ],
+          "charged_moves": [
+            "Power Gem",
+            "Rock Blast",
+            "Night Shade"
+          ],
+          "types": [
+            "Ghost"
+          ]
         }
       },
       "attack": 118,
@@ -43462,7 +43480,7 @@
       "family": 843,
       "legendary": false,
       "mythic": false,
-      "buddy_group_number": 2,
+      "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
