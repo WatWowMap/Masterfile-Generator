@@ -3,6 +3,11 @@ const { exec } = require('child_process')
 const Fetch = require('node-fetch')
 const { generate } = require('pogo-data-generator')
 
+const formatOutput = (templateName, data) =>
+  templateName === 'master-latest-rotomata.json'
+    ? JSON.stringify(data)
+    : JSON.stringify(data, null, 2)
+
 const fetch = async (url) => {
   try {
     const data = await Fetch(url)
@@ -104,7 +109,7 @@ async function masterfile() {
         ) {
           delete newData.translations
         }
-        fs.writeFileSync(`./${templateName}`, JSON.stringify(newData, null, 2))
+        fs.writeFileSync(`./${templateName}`, formatOutput(templateName, newData))
 
         // compare content of both files
         if (exists) {

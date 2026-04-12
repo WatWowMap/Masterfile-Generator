@@ -1,0 +1,210 @@
+{
+  "globalOptions": {
+    "keyJoiner": "_",
+    "genderString": false,
+    "snake_case": false,
+    "includeProtos": true
+  },
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "pokemon",
+      "keys": {
+        "main": "pokedexId",
+        "forms": "formId",
+        "evolutions": "evoId",
+        "tempEvolutions": "tempEvoId",
+        "types": "typeId"
+      },
+      "customFields": {
+        "evoId": "pokemon",
+        "formId": "form",
+        "formName": "name",
+        "pokemonName": "name"
+      },
+      "customChildObj": {
+        "attack": "stats",
+        "defense": "stats",
+        "stamina": "stats"
+      },
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      },
+      "skipForms": [
+        "Shadow",
+        "Purified",
+        "Complete Ten Percent",
+        "Complete Fifty Percent",
+        "Copy 2019",
+        "Spring 2020"
+      ],
+      "skipNormalIfUnset": true
+    },
+    "template": {
+      "pokemonName": true,
+      "pokedexId": true,
+      "defaultFormId": true,
+      "forms": {
+        "formId": true,
+        "formName": true,
+        "proto": true,
+        "isCostume": true,
+        "types": {
+          "typeId": true,
+          "typeName": true
+        },
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "quickMoves": "moveId",
+        "chargedMoves": "moveId",
+        "eliteQuickMoves": "moveId",
+        "eliteChargedMoves": "moveId",
+        "purificationDust": true,
+        "evolutions": {
+          "evoId": true,
+          "formId": true
+        },
+        "tempEvolutions": {
+          "tempEvoId": true
+        }
+      },
+      "types": {
+        "typeId": true,
+        "typeName": true
+      },
+      "attack": true,
+      "defense": true,
+      "stamina": true,
+      "quickMoves": "moveId",
+      "chargedMoves": "moveId",
+      "eliteQuickMoves": "moveId",
+      "eliteChargedMoves": "moveId",
+      "purificationDust": true,
+      "legendary": true,
+      "mythic": true,
+      "ultraBeast": true,
+      "evolutions": {
+        "evoId": true,
+        "formId": true
+      },
+      "tempEvolutions": {
+        "tempEvoId": true,
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "types": {
+          "typeId": true,
+          "typeName": true
+        },
+        "unreleased": true
+      }
+    }
+  },
+  "types": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "types",
+      "keys": {
+        "main": "typeId"
+      },
+      "snake_case": false
+    },
+    "template": {
+      "typeId": true,
+      "typeName": true,
+      "strengths": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weaknesses": {
+        "typeId": true,
+        "typeName": true
+      },
+      "veryWeakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "immunes": {
+        "typeId": true,
+        "typeName": true
+      },
+      "weakAgainst": {
+        "typeId": true,
+        "typeName": true
+      },
+      "resistances": {
+        "typeId": true,
+        "typeName": true
+      }
+    }
+  },
+  "moves": {
+    "enabled": true,
+    "options": {
+      "topLevelName": "moves",
+      "keys": {
+        "main": "moveId"
+      },
+      "customFields": {
+        "moveId": "id",
+        "moveName": "name"
+      },
+      "includeProtos": true,
+      "snake_case": false
+    },
+    "template": {
+      "moveId": true,
+      "moveName": true,
+      "proto": true,
+      "fast": true,
+      "type": "typeId",
+      "power": true,
+      "pvpPower": true,
+      "pvpDurationTurns": true,
+      "pvpEnergyDelta": true,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": true,
+        "targetDefenseStatStageChange": true,
+        "buffActivationChance": true
+      }
+    }
+  },
+  "costumes": {
+    "enabled": false
+  },
+  "translations": {
+    "enabled": false
+  },
+  "items": {
+    "enabled": false
+  },
+  "questTypes": {
+    "enabled": false
+  },
+  "questConditions": {
+    "enabled": false
+  },
+  "questRewardTypes": {
+    "enabled": false
+  },
+  "invasions": {
+    "enabled": false
+  },
+  "weather": {
+    "enabled": false
+  },
+  "raids": {
+    "enabled": false
+  },
+  "locationCards": {
+    "enabled": false
+  },
+  "teams": {
+    "enabled": false
+  },
+  "routeTypes": {
+    "enabled": false
+  }
+}
