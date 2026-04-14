@@ -801,6 +801,27 @@
         }
       ]
     },
+    "10_3346": {
+      "name": "Caterpie",
+      "id": 10,
+      "types": [
+        {
+          "id": 7,
+          "name": "Bug"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2026",
+        "id": 3346
+      },
+      "stats": {
+        "baseAttack": 55,
+        "baseDefense": 55,
+        "baseStamina": 128
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "11_0": {
       "name": "Metapod",
       "id": 11,
@@ -3140,6 +3161,69 @@
       "form": {
         "name": "Fossil 2026",
         "id": 3342
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3343": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2026 Cap Blue",
+        "id": 3343
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3344": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2026 Cap Red",
+        "id": 3344
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3345": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Gofest 2026 Cap Yellow",
+        "id": 3345
       },
       "stats": {
         "baseAttack": 112,
