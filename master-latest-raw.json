@@ -49226,7 +49226,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "646": {
       "pokemonName": "Kyurem",
@@ -52984,6 +52986,8 @@
           "itemRequirement": 1101
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "695": {
@@ -53055,7 +53059,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "696": {
       "pokemonName": "Tyrunt",
@@ -57230,6 +57236,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "752": {
@@ -57300,7 +57308,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "753": {
       "pokemonName": "Fomantis",
@@ -57520,6 +57530,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "756": {
@@ -57588,7 +57600,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "757": {
       "pokemonName": "Salandit",
@@ -57807,6 +57821,8 @@
           "candyCost": 400
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "760": {
@@ -57880,7 +57896,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "761": {
       "pokemonName": "Bounsweet",
@@ -78553,7 +78571,9 @@
     "144": {
       "formName": "Incarnate",
       "proto": "LANDORUS_INCARNATE",
-      "formId": 144
+      "formId": 144,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "145": {
       "sizeSettings": [
@@ -78602,7 +78622,9 @@
       ],
       "eliteChargedMoves": [
         396
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "146": {
       "formName": "Normal",
@@ -90914,13 +90936,17 @@
     "3020": {
       "formName": "Normal",
       "proto": "BEWEAR_NORMAL",
-      "formId": 3020
+      "formId": 3020,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3021": {
       "formName": "Wildarea 2025",
       "proto": "BEWEAR_WILDAREA_2025",
       "formId": 3021,
-      "isCostume": true
+      "isCostume": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3022": {
       "formName": "Normal",
@@ -91360,12 +91386,16 @@
           "candyCost": 50,
           "itemRequirement": 1101
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3057": {
       "formName": "Normal",
       "proto": "HELIOLISK_NORMAL",
-      "formId": 3057
+      "formId": 3057,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3058": {
       "formName": "Normal",
@@ -91804,12 +91834,16 @@
           "formId": 3101,
           "candyCost": 50
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3101": {
       "formName": "Normal",
       "proto": "ARAQUANID_NORMAL",
-      "formId": 3101
+      "formId": 3101,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3102": {
       "formName": "Normal",
@@ -91839,12 +91873,16 @@
           "formId": 3105,
           "candyCost": 50
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3105": {
       "formName": "Normal",
       "proto": "SHIINOTIC_NORMAL",
-      "formId": 3105
+      "formId": 3105,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3106": {
       "formName": "Normal",
@@ -91874,7 +91912,9 @@
           "formId": 3020,
           "candyCost": 400
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3109": {
       "formName": "Normal",
