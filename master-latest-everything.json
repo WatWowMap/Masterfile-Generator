@@ -116747,12 +116747,30 @@
       "types": [
         3,
         12
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            93
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
       ]
     },
     "93": {
       "formName": "Land Forme",
       "proto": "SHAYMIN_LAND",
-      "formId": 93
+      "formId": 93,
+      "formChanges": [
+        {
+          "availableForms": [
+            92
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "94": {
       "formName": "Overcast Form",
@@ -117343,7 +117361,19 @@
         277,
         374
       ],
-      "eliteChargedMoves": []
+      "eliteChargedMoves": [],
+      "formChanges": [
+        {
+          "availableForms": [
+            146
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 644,
+            "formChangeType": "UNFUSE",
+            "familyId": 644
+          }
+        }
+      ]
     },
     "148": {
       "formName": "White Kyurem",
@@ -117366,7 +117396,19 @@
         247,
         375
       ],
-      "eliteChargedMoves": []
+      "eliteChargedMoves": [],
+      "formChanges": [
+        {
+          "availableForms": [
+            146
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 643,
+            "formChangeType": "UNFUSE",
+            "familyId": 643
+          }
+        }
+      ]
     },
     "149": {
       "formName": "Ordinary Form",
@@ -117376,7 +117418,32 @@
     "150": {
       "formName": "Resolute Form",
       "proto": "KELDEO_RESOLUTE",
-      "formId": 150
+      "formId": 150,
+      "formChanges": [
+        {
+          "availableForms": [
+            149
+          ],
+          "candyCost": 50,
+          "stardustCost": 10000,
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  489
+                ],
+                "replacementMoves": [
+                  57,
+                  100,
+                  107,
+                  245,
+                  330
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     "151": {
       "formName": "Aria Forme",
@@ -125399,6 +125466,37 @@
         88,
         245,
         321
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2577
+          ],
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  469
+                ],
+                "replacementMoves": [
+                  74
+                ]
+              }
+            ]
+          },
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2577,
+              "clearBreadMode": true
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 90,
+              "replacementLocationCard": 87
+            }
+          ]
+        }
       ]
     },
     "2577": {
@@ -125425,6 +125523,37 @@
         87,
         245,
         321
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2579
+          ],
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  470
+                ],
+                "replacementMoves": [
+                  74
+                ]
+              }
+            ]
+          },
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2579,
+              "clearBreadMode": true
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 91,
+              "replacementLocationCard": 88
+            }
+          ]
+        }
       ]
     },
     "2579": {
@@ -125734,7 +125863,16 @@
       "defense": 207,
       "stamina": 389,
       "height": 4.5,
-      "weight": 610
+      "weight": 610,
+      "formChanges": [
+        {
+          "availableForms": [
+            2824
+          ],
+          "candyCost": 10,
+          "stardustCost": 2000
+        }
+      ]
     },
     "2594": {
       "formName": "Archipelago",
@@ -125994,47 +126132,152 @@
     "2630": {
       "formName": "Heart Trim",
       "proto": "FURFROU_HEART",
-      "formId": 2630
+      "formId": 2630,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2631": {
       "formName": "Star Trim",
       "proto": "FURFROU_STAR",
-      "formId": 2631
+      "formId": 2631,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2632": {
       "formName": "Diamond Trim",
       "proto": "FURFROU_DIAMOND",
-      "formId": 2632
+      "formId": 2632,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2633": {
       "formName": "Debutante Trim",
       "proto": "FURFROU_DEBUTANTE",
-      "formId": 2633
+      "formId": 2633,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2634": {
       "formName": "Matron Trim",
       "proto": "FURFROU_MATRON",
-      "formId": 2634
+      "formId": 2634,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2635": {
       "formName": "Dandy Trim",
       "proto": "FURFROU_DANDY",
-      "formId": 2635
+      "formId": 2635,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2636": {
       "formName": "La Reine Trim",
       "proto": "FURFROU_LA_REINE",
-      "formId": 2636
+      "formId": 2636,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2637": {
       "formName": "Kabuki Trim",
       "proto": "FURFROU_KABUKI",
-      "formId": 2637
+      "formId": 2637,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2638": {
       "formName": "Pharaoh Trim",
       "proto": "FURFROU_PHARAOH",
-      "formId": 2638
+      "formId": 2638,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2639": {
       "formName": "Shield",
@@ -126485,6 +126728,15 @@
       "types": [
         14,
         17
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2651
+          ],
+          "candyCost": 10,
+          "stardustCost": 2000
+        }
       ]
     },
     "2666": {
@@ -127053,6 +127305,18 @@
       "types": [
         9,
         14
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2717
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 791,
+            "formChangeType": "UNFUSE",
+            "familyId": 789
+          }
+        }
       ]
     },
     "2719": {
@@ -127093,6 +127357,18 @@
       "types": [
         8,
         14
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2717
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 792,
+            "formChangeType": "UNFUSE",
+            "familyId": 789
+          }
+        }
       ]
     },
     "2720": {
@@ -128779,7 +129055,16 @@
       "defense": 173,
       "stamina": 144,
       "height": 1.2,
-      "weight": 33.5
+      "weight": 33.5,
+      "formChanges": [
+        {
+          "availableForms": [
+            2824
+          ],
+          "itemRequirement": 650,
+          "itemCostCount": 50
+        }
+      ]
     },
     "2824": {
       "sizeSettings": [
@@ -128814,7 +129099,23 @@
       ],
       "formName": "Complete Fifty Percent",
       "proto": "ZYGARDE_COMPLETE_FIFTY_PERCENT",
-      "formId": 2824
+      "formId": 2824,
+      "formChanges": [
+        {
+          "availableForms": [
+            2823
+          ],
+          "candyCost": 10,
+          "stardustCost": 2000
+        },
+        {
+          "availableForms": [
+            2593
+          ],
+          "itemRequirement": 650,
+          "itemCostCount": 200
+        }
+      ]
     },
     "2825": {
       "formName": "Gotour 2024 A",
@@ -134933,6 +135234,38 @@
       "type": "Candy",
       "category": "Candy",
       "minTrainerLevel": 31
+    },
+    "1350": {
+      "id": 1350,
+      "name": "Fusion Resource Dawnwings Necrozma",
+      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1351": {
+      "id": 1351,
+      "name": "Fusion Resource Duskmane Necrozma",
+      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1352": {
+      "id": 1352,
+      "name": "Fusion Resource Black Kyurem",
+      "proto": "FUSION_RESOURCE_BLACK_KYUREM",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1353": {
+      "id": 1353,
+      "name": "Fusion Resource White Kyurem",
+      "proto": "FUSION_RESOURCE_WHITE_KYUREM",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
     },
     "1401": {
       "id": 1401,

@@ -49298,7 +49298,75 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "formChanges": [
+        {
+          "availableForms": [
+            147
+          ],
+          "candyCost": 30,
+          "itemRequirement": 1352,
+          "itemCostCount": 1000,
+          "componentPokemonSettings": {
+            "pokedexId": 644,
+            "componentCandyCost": 30,
+            "formChangeType": "FUSE",
+            "locationCardSettings": [
+              {
+                "basePokemonLocationCard": 66,
+                "componentPokemonLocationCard": 65,
+                "fusionPokemonLocationCard": 67
+              }
+            ],
+            "familyId": 644
+          },
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  378
+                ],
+                "replacementMoves": [
+                  466
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "availableForms": [
+            148
+          ],
+          "candyCost": 30,
+          "itemRequirement": 1353,
+          "itemCostCount": 1000,
+          "componentPokemonSettings": {
+            "pokedexId": 643,
+            "componentCandyCost": 30,
+            "formChangeType": "FUSE",
+            "locationCardSettings": [
+              {
+                "basePokemonLocationCard": 65,
+                "componentPokemonLocationCard": 66,
+                "fusionPokemonLocationCard": 67
+              }
+            ],
+            "familyId": 643
+          },
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  378
+                ],
+                "replacementMoves": [
+                  467
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     "647": {
       "pokemonName": "Keldeo",
@@ -49365,7 +49433,26 @@
       "buddyGroupNumber": 2,
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
-      "thirdMoveCandy": 100
+      "thirdMoveCandy": 100,
+      "formChanges": [
+        {
+          "availableForms": [
+            150
+          ],
+          "candyCost": 50,
+          "stardustCost": 10000,
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [],
+                "replacementMoves": [
+                  489
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     "648": {
       "pokemonName": "Meloetta",
@@ -51638,7 +51725,18 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "formChanges": [
+        {
+          "availableForms": [
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "677": {
       "pokemonName": "Espurr",
@@ -54946,7 +55044,16 @@
       "buddyDistance": 20,
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
-      "transferable": true
+      "transferable": true,
+      "formChanges": [
+        {
+          "availableForms": [
+            2652
+          ],
+          "candyCost": 50,
+          "stardustCost": 10000
+        }
+      ]
     },
     "721": {
       "pokemonName": "Volcanion",
@@ -60737,7 +60844,71 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "formChanges": [
+        {
+          "availableForms": [
+            2718
+          ],
+          "candyCost": 30,
+          "itemRequirement": 1351,
+          "itemCostCount": 1000,
+          "componentPokemonSettings": {
+            "pokedexId": 791,
+            "componentCandyCost": 30,
+            "formChangeType": "FUSE",
+            "locationCardSettings": [
+              {
+                "basePokemonLocationCard": 24,
+                "componentPokemonLocationCard": 15,
+                "fusionPokemonLocationCard": 25
+              }
+            ],
+            "familyId": 789
+          },
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [],
+                "replacementMoves": [
+                  404
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "availableForms": [
+            2719
+          ],
+          "candyCost": 30,
+          "itemRequirement": 1350,
+          "itemCostCount": 1000,
+          "componentPokemonSettings": {
+            "pokedexId": 792,
+            "componentCandyCost": 30,
+            "formChangeType": "FUSE",
+            "locationCardSettings": [
+              {
+                "basePokemonLocationCard": 24,
+                "componentPokemonLocationCard": 16,
+                "fusionPokemonLocationCard": 26
+              }
+            ],
+            "familyId": 789
+          },
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [],
+                "replacementMoves": [
+                  405
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     "801": {
       "pokemonName": "Magearna",
@@ -67016,7 +67187,105 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "formChanges": [
+        {
+          "availableForms": [
+            2576
+          ],
+          "candyCost": 30,
+          "itemRequirement": 1153,
+          "itemCostCount": 1000,
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  74
+                ],
+                "replacementMoves": [
+                  469
+                ]
+              }
+            ]
+          },
+          "requiredChargedMoves": [
+            {
+              "requiredMoves": [
+                74
+              ]
+            }
+          ],
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2576,
+              "breadMode": "BREAD_SPECIAL_MODE",
+              "maxMoves": [
+                {
+                  "moveType": "A",
+                  "moveLevel": "LEVEL_1"
+                }
+              ]
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 87,
+              "replacementLocationCard": 90
+            }
+          ]
+        },
+        {
+          "availableForms": [
+            2576
+          ],
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  74
+                ],
+                "replacementMoves": [
+                  469
+                ]
+              }
+            ]
+          },
+          "requiredChargedMoves": [
+            {
+              "requiredMoves": [
+                74
+              ]
+            }
+          ],
+          "requiredBreadMoves": [
+            {
+              "moveTypes": [
+                "A"
+              ],
+              "moveLevel": "LEVEL_1"
+            }
+          ],
+          "priority": 1,
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2576,
+              "breadMode": "BREAD_SPECIAL_MODE",
+              "maxMoves": [
+                {
+                  "moveType": "A",
+                  "moveLevel": "LEVEL_1"
+                }
+              ]
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 87,
+              "replacementLocationCard": 90
+            }
+          ]
+        }
+      ]
     },
     "889": {
       "pokemonName": "Zamazenta",
@@ -67086,7 +67355,105 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "formChanges": [
+        {
+          "availableForms": [
+            2578
+          ],
+          "candyCost": 30,
+          "itemRequirement": 1154,
+          "itemCostCount": 1000,
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  74
+                ],
+                "replacementMoves": [
+                  470
+                ]
+              }
+            ]
+          },
+          "requiredChargedMoves": [
+            {
+              "requiredMoves": [
+                74
+              ]
+            }
+          ],
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2578,
+              "breadMode": "BREAD_SPECIAL_MODE",
+              "maxMoves": [
+                {
+                  "moveType": "A",
+                  "moveLevel": "LEVEL_1"
+                }
+              ]
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 88,
+              "replacementLocationCard": 91
+            }
+          ]
+        },
+        {
+          "availableForms": [
+            2578
+          ],
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  74
+                ],
+                "replacementMoves": [
+                  470
+                ]
+              }
+            ]
+          },
+          "requiredChargedMoves": [
+            {
+              "requiredMoves": [
+                74
+              ]
+            }
+          ],
+          "requiredBreadMoves": [
+            {
+              "moveTypes": [
+                "A"
+              ],
+              "moveLevel": "LEVEL_1"
+            }
+          ],
+          "priority": 1,
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2578,
+              "breadMode": "BREAD_SPECIAL_MODE",
+              "maxMoves": [
+                {
+                  "moveType": "A",
+                  "moveLevel": "LEVEL_1"
+                }
+              ]
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 88,
+              "replacementLocationCard": 91
+            }
+          ]
+        }
+      ]
     },
     "890": {
       "pokemonName": "Eternatus",
@@ -78058,12 +78425,30 @@
       "types": [
         3,
         12
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            93
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
       ]
     },
     "93": {
       "formName": "Land",
       "proto": "SHAYMIN_LAND",
-      "formId": 93
+      "formId": 93,
+      "formChanges": [
+        {
+          "availableForms": [
+            92
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "94": {
       "formName": "Overcast",
@@ -78651,7 +79036,19 @@
         277,
         374
       ],
-      "eliteChargedMoves": []
+      "eliteChargedMoves": [],
+      "formChanges": [
+        {
+          "availableForms": [
+            146
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 644,
+            "formChangeType": "UNFUSE",
+            "familyId": 644
+          }
+        }
+      ]
     },
     "148": {
       "formName": "White",
@@ -78674,7 +79071,19 @@
         247,
         375
       ],
-      "eliteChargedMoves": []
+      "eliteChargedMoves": [],
+      "formChanges": [
+        {
+          "availableForms": [
+            146
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 643,
+            "formChangeType": "UNFUSE",
+            "familyId": 643
+          }
+        }
+      ]
     },
     "149": {
       "formName": "Ordinary",
@@ -78684,7 +79093,32 @@
     "150": {
       "formName": "Resolute",
       "proto": "KELDEO_RESOLUTE",
-      "formId": 150
+      "formId": 150,
+      "formChanges": [
+        {
+          "availableForms": [
+            149
+          ],
+          "candyCost": 50,
+          "stardustCost": 10000,
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  489
+                ],
+                "replacementMoves": [
+                  57,
+                  100,
+                  107,
+                  245,
+                  330
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     "151": {
       "formName": "Aria",
@@ -86699,6 +87133,37 @@
         88,
         245,
         321
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2577
+          ],
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  469
+                ],
+                "replacementMoves": [
+                  74
+                ]
+              }
+            ]
+          },
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2577,
+              "clearBreadMode": true
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 90,
+              "replacementLocationCard": 87
+            }
+          ]
+        }
       ]
     },
     "2577": {
@@ -86725,6 +87190,37 @@
         87,
         245,
         321
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2579
+          ],
+          "moveReassignment": {
+            "chargedMoves": [
+              {
+                "existingMoves": [
+                  470
+                ],
+                "replacementMoves": [
+                  74
+                ]
+              }
+            ]
+          },
+          "formChangeBonusAttributes": [
+            {
+              "targetForm": 2579,
+              "clearBreadMode": true
+            }
+          ],
+          "locationCardSettings": [
+            {
+              "existingLocationCard": 91,
+              "replacementLocationCard": 88
+            }
+          ]
+        }
       ]
     },
     "2579": {
@@ -87034,7 +87530,16 @@
       "defense": 207,
       "stamina": 389,
       "height": 4.5,
-      "weight": 610
+      "weight": 610,
+      "formChanges": [
+        {
+          "availableForms": [
+            2824
+          ],
+          "candyCost": 10,
+          "stardustCost": 2000
+        }
+      ]
     },
     "2594": {
       "formName": "Archipelago",
@@ -87294,47 +87799,152 @@
     "2630": {
       "formName": "Heart",
       "proto": "FURFROU_HEART",
-      "formId": 2630
+      "formId": 2630,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2631": {
       "formName": "Star",
       "proto": "FURFROU_STAR",
-      "formId": 2631
+      "formId": 2631,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2632": {
       "formName": "Diamond",
       "proto": "FURFROU_DIAMOND",
-      "formId": 2632
+      "formId": 2632,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2633": {
       "formName": "Debutante",
       "proto": "FURFROU_DEBUTANTE",
-      "formId": 2633
+      "formId": 2633,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2634": {
       "formName": "Matron",
       "proto": "FURFROU_MATRON",
-      "formId": 2634
+      "formId": 2634,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2635": {
       "formName": "Dandy",
       "proto": "FURFROU_DANDY",
-      "formId": 2635
+      "formId": 2635,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2636": {
       "formName": "La Reine",
       "proto": "FURFROU_LA_REINE",
-      "formId": 2636
+      "formId": 2636,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2637": {
       "formName": "Kabuki",
       "proto": "FURFROU_KABUKI",
-      "formId": 2637
+      "formId": 2637,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2638": {
       "formName": "Pharaoh",
       "proto": "FURFROU_PHARAOH",
-      "formId": 2638
+      "formId": 2638,
+      "formChanges": [
+        {
+          "availableForms": [
+            2629,
+            2632,
+            2634,
+            2635
+          ],
+          "candyCost": 25,
+          "stardustCost": 10000
+        }
+      ]
     },
     "2639": {
       "formName": "Shield",
@@ -87785,6 +88395,15 @@
       "types": [
         14,
         17
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2651
+          ],
+          "candyCost": 10,
+          "stardustCost": 2000
+        }
       ]
     },
     "2666": {
@@ -88353,6 +88972,18 @@
       "types": [
         9,
         14
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2717
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 791,
+            "formChangeType": "UNFUSE",
+            "familyId": 789
+          }
+        }
       ]
     },
     "2719": {
@@ -88393,6 +89024,18 @@
       "types": [
         8,
         14
+      ],
+      "formChanges": [
+        {
+          "availableForms": [
+            2717
+          ],
+          "componentPokemonSettings": {
+            "pokedexId": 792,
+            "formChangeType": "UNFUSE",
+            "familyId": 789
+          }
+        }
       ]
     },
     "2720": {
@@ -90077,7 +90720,16 @@
       "defense": 173,
       "stamina": 144,
       "height": 1.2,
-      "weight": 33.5
+      "weight": 33.5,
+      "formChanges": [
+        {
+          "availableForms": [
+            2824
+          ],
+          "itemRequirement": 650,
+          "itemCostCount": 50
+        }
+      ]
     },
     "2824": {
       "sizeSettings": [
@@ -90112,7 +90764,23 @@
       ],
       "formName": "Complete Fifty Percent",
       "proto": "ZYGARDE_COMPLETE_FIFTY_PERCENT",
-      "formId": 2824
+      "formId": 2824,
+      "formChanges": [
+        {
+          "availableForms": [
+            2823
+          ],
+          "candyCost": 10,
+          "stardustCost": 2000
+        },
+        {
+          "availableForms": [
+            2593
+          ],
+          "itemRequirement": 650,
+          "itemCostCount": 200
+        }
+      ]
     },
     "2825": {
       "formName": "Gotour 2024 A",
@@ -94986,6 +95654,38 @@
       "category": "Candy",
       "minTrainerLevel": 31
     },
+    "1350": {
+      "itemId": 1350,
+      "itemName": "Fusion Resource Dawnwings Necrozma",
+      "proto": "FUSION_RESOURCE_DAWNWINGS_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1351": {
+      "itemId": 1351,
+      "itemName": "Fusion Resource Duskmane Necrozma",
+      "proto": "FUSION_RESOURCE_DUSKMANE_NECROZMA",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1352": {
+      "itemId": 1352,
+      "itemName": "Fusion Resource Black Kyurem",
+      "proto": "FUSION_RESOURCE_BLACK_KYUREM",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
+    "1353": {
+      "itemId": 1353,
+      "itemName": "Fusion Resource White Kyurem",
+      "proto": "FUSION_RESOURCE_WHITE_KYUREM",
+      "type": "Evolution Requirement",
+      "category": "Evolution Requirement",
+      "minTrainerLevel": 1
+    },
     "1401": {
       "itemId": 1401,
       "itemName": "Free Raid Ticket",
@@ -95427,13 +96127,6 @@
       "proto": "ITEM_EVENT_PASS_POINT_MONTHLY_02",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
-    },
-    "undefined": {
-      "itemName": "Fusion Resource White Kyurem",
-      "proto": "FUSION_RESOURCE_WHITE_KYUREM",
-      "type": "Evolution Requirement",
-      "category": "Evolution Requirement",
-      "minTrainerLevel": 1
     }
   },
   "moves": {
