@@ -1,5 +1,4 @@
-const fs = require('fs')
-const { exec } = require('child_process')
+const { promises: fs } = require('node:fs')
 const Fetch = require('node-fetch')
 const { generate } = require('pogo-data-generator')
 
@@ -21,7 +20,7 @@ const fetch = async (url) => {
 }
 
 async function masterfile() {
-  const templates = await fs.promises.readdir('./templates')
+  const templates = await fs.readdir('./templates')
   const pmsfQuestTypes = await fetch(
     'https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json'
   )
@@ -31,7 +30,7 @@ async function masterfile() {
       try {
         console.log('Generating', templateName)
         const template = JSON.parse(
-          fs.readFileSync(`./templates/${templateName}`)
+          await fs.readFile(`./templates/${templateName}`)
         )
         const newData = await generate({
           template,
@@ -58,7 +57,7 @@ async function masterfile() {
           newData[questKey] = mergedQuestTypes
           if (templateName === 'master-latest.json') {
             newData.type_ids = JSON.parse(
-              fs.readFileSync('./master-latest-react-map.json')
+              await fs.readFile('./master-latest-react-map.json')
             ).types
             newData.throw_types = {
               10: 'Nice',
@@ -74,24 +73,10 @@ async function masterfile() {
         ) {
           delete newData.translations
         }
-        fs.writeFileSync(
+        await fs.writeFile(
           `./${templateName}`,
           formatOutput(templateName, newData)
         )
-
-        // compare content of both files
-        if (exists) {
-          const newFile = fs.readFileSync(`./${templateName}`)
-          const previousFile = fs.readFileSync(previousFilePath)
-          if (previousFile.equals(newFile)) {
-            fs.unlinkSync(previousFilePath, (err) => {
-              if (err) console.error(err)
-              else {
-                console.log(`Deleted file ${templateName}`)
-              }
-            })
-          }
-        }
 
         if (templateName === 'master-latest.json') {
           const pokedex = []
@@ -121,7 +106,7 @@ async function masterfile() {
                 )
             }
           }
-          fs.writeFileSync('./pokedex.js', `pokedex=[${pokedex.join(',')}]`)
+          await fs.writeFile('./pokedex.js', `pokedex=[${pokedex.join(',')}]`)
         }
       } catch (e) {
         console.error(e, `Unable to process ${templateName}`)
