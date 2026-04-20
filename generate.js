@@ -20,49 +20,14 @@ const fetch = async (url) => {
   }
 }
 
-let sha = ''
-exec('git rev-parse HEAD', (err, stdout) => {
-  try {
-    if (err || typeof stdout !== 'string' || !stdout.trim()) {
-      throw new Error('Unable to get current sha', err)
-    }
-    sha = stdout.trim().substring(0, 7)
-  } catch (e) {
-    console.warn(
-      '[UPDATE] Unable to get current SHA',
-      e.message,
-      'Branch:',
-      branch
-    )
-  }
-})
-
 async function masterfile() {
   const templates = await fs.promises.readdir('./templates')
   const pmsfQuestTypes = await fetch(
     'https://raw.githubusercontent.com/pmsf/PMSF/develop/static/data/questtype.json'
   )
 
-  if (!fs.existsSync(`./previous-versions/${sha}`)) {
-    fs.mkdirSync(`./previous-versions/${sha}`)
-  }
-
   await Promise.all(
     templates.map(async (templateName) => {
-      const previousFilePath =
-        __dirname + `./previous-versions/${sha}/${templateName}`
-      const exists = fs.existsSync(previousFilePath)
-
-      if (exists) {
-        try {
-          fs.writeFileSync(
-            previousFilePath,
-            fs.readFileSync(`./${templateName}`)
-          )
-        } catch (e) {
-          console.warn(`Previous version of ${templateName} does not exist`)
-        }
-      }
       try {
         console.log('Generating', templateName)
         const template = JSON.parse(
@@ -109,7 +74,10 @@ async function masterfile() {
         ) {
           delete newData.translations
         }
-        fs.writeFileSync(`./${templateName}`, formatOutput(templateName, newData))
+        fs.writeFileSync(
+          `./${templateName}`,
+          formatOutput(templateName, newData)
+        )
 
         // compare content of both files
         if (exists) {
@@ -147,7 +115,10 @@ async function masterfile() {
               pokemon.temp_evolutions || {}
             )) {
               if (evo.attack && evo.defense && evo.stamina)
-                pushEntry(evo, ['Unset', 'Mega', 'Mega X', 'Mega Y', 'Primal', 'Mega Z'][id])
+                pushEntry(
+                  evo,
+                  ['Unset', 'Mega', 'Mega X', 'Mega Y', 'Primal', 'Mega Z'][id]
+                )
             }
           }
           fs.writeFileSync('./pokedex.js', `pokedex=[${pokedex.join(',')}]`)
