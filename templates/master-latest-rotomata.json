@@ -61,6 +61,7 @@
         "chargedMoves": "moveId",
         "eliteQuickMoves": "moveId",
         "eliteChargedMoves": "moveId",
+        "gmaxMove": "moveId",
         "purificationDust": true,
         "formChanges": {
           "availableForms": "formId",
@@ -92,6 +93,7 @@
       "chargedMoves": "moveId",
       "eliteQuickMoves": "moveId",
       "eliteChargedMoves": "moveId",
+      "gmaxMove": "moveId",
       "purificationDust": true,
       "formChanges": {
         "availableForms": "formId",
@@ -183,6 +185,7 @@
       "fast": true,
       "type": "typeId",
       "power": true,
+      "durationMs": true,
       "pvpPower": true,
       "pvpDurationTurns": true,
       "pvpEnergyDelta": true,
