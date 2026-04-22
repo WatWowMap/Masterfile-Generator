@@ -610,7 +610,8 @@
         },
         "3346": {
           "formName": "Gofest 2026",
-          "formId": 3346
+          "formId": 3346,
+          "isCostume": true
         }
       },
       "stats": {
@@ -1969,15 +1970,18 @@
         },
         "3343": {
           "formName": "Gofest 2026 Cap Blue",
-          "formId": 3343
+          "formId": 3343,
+          "isCostume": true
         },
         "3344": {
           "formName": "Gofest 2026 Cap Red",
-          "formId": 3344
+          "formId": 3344,
+          "isCostume": true
         },
         "3345": {
           "formName": "Gofest 2026 Cap Yellow",
-          "formId": 3345
+          "formId": 3345,
+          "isCostume": true
         }
       },
       "stats": {
@@ -59603,10 +59607,6 @@
       "name": "Event Ticket Pink To Gift",
       "type": "Global Event Ticket"
     },
-    "1605": {
-      "name": "Event Ticket Gray To Gift",
-      "type": "Global Event Ticket"
-    },
     "1606": {
       "name": "Battle Pass Ticket",
       "type": "Global Event Ticket"
@@ -59761,6 +59761,10 @@
     },
     "2152": {
       "name": "Event Pass Point Monthly 02",
+      "type": "Event Pass Point"
+    },
+    "2153": {
+      "name": "Event Pass Point Monthly 03",
       "type": "Event Pass Point"
     }
   },

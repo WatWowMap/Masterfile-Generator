@@ -94515,22 +94515,28 @@
     "3343": {
       "formName": "Gofest 2026 Cap Blue",
       "proto": "PIKACHU_GOFEST_2026_CAP_BLUE",
-      "formId": 3343
+      "formId": 3343,
+      "isCostume": true
     },
     "3344": {
       "formName": "Gofest 2026 Cap Red",
       "proto": "PIKACHU_GOFEST_2026_CAP_RED",
-      "formId": 3344
+      "formId": 3344,
+      "isCostume": true
     },
     "3345": {
       "formName": "Gofest 2026 Cap Yellow",
       "proto": "PIKACHU_GOFEST_2026_CAP_YELLOW",
-      "formId": 3345
+      "formId": 3345,
+      "isCostume": true
     },
     "3346": {
       "formName": "Gofest 2026",
       "proto": "CATERPIE_GOFEST_2026",
-      "formId": 3346
+      "formId": 3346,
+      "isCostume": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     }
   },
   "types": {
@@ -96372,13 +96378,6 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
-    "1605": {
-      "itemId": 1605,
-      "itemName": "Event Ticket Gray To Gift",
-      "proto": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
-      "type": "Global Event Ticket",
-      "category": "Global Event Ticket"
-    },
     "1606": {
       "itemId": 1606,
       "itemName": "Battle Pass Ticket",
@@ -96649,6 +96648,13 @@
       "itemId": 2152,
       "itemName": "Event Pass Point Monthly 02",
       "proto": "ITEM_EVENT_PASS_POINT_MONTHLY_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
+    "2153": {
+      "itemId": 2153,
+      "itemName": "Event Pass Point Monthly 03",
+      "proto": "ITEM_EVENT_PASS_POINT_MONTHLY_03",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     }
@@ -107622,6 +107628,13 @@
       "proto": "LC_2026_COLOGNE_CARNIVAL_001",
       "formatted": "2026 Cologne Carnival 001",
       "imageUrl": "lc_carnivalFlamigo_cologne_2026"
+    },
+    "248": {
+      "id": 248,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
+      "formatted": "2026 Global Gofest 001",
+      "imageUrl": "sb_GoTour2026_mega",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "252": {
       "id": 252,

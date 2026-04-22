@@ -527,7 +527,8 @@
         },
         "3346": {
           "name": "Gofest 2026",
-          "proto": "CATERPIE_GOFEST_2026"
+          "proto": "CATERPIE_GOFEST_2026",
+          "is_costume": true
         }
       },
       "attack": 55,
@@ -1690,15 +1691,18 @@
         },
         "3343": {
           "name": "Gofest 2026 Cap Blue",
-          "proto": "PIKACHU_GOFEST_2026_CAP_BLUE"
+          "proto": "PIKACHU_GOFEST_2026_CAP_BLUE",
+          "is_costume": true
         },
         "3344": {
           "name": "Gofest 2026 Cap Red",
-          "proto": "PIKACHU_GOFEST_2026_CAP_RED"
+          "proto": "PIKACHU_GOFEST_2026_CAP_RED",
+          "is_costume": true
         },
         "3345": {
           "name": "Gofest 2026 Cap Yellow",
-          "proto": "PIKACHU_GOFEST_2026_CAP_YELLOW"
+          "proto": "PIKACHU_GOFEST_2026_CAP_YELLOW",
+          "is_costume": true
         }
       },
       "attack": 112,
@@ -52564,12 +52568,6 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
-    "1605": {
-      "name": "Event Ticket Gray To Gift",
-      "proto": "ITEM_EVENT_TICKET_GRAY_TO_GIFT",
-      "type": "Global Event Ticket",
-      "category": "Global Event Ticket"
-    },
     "1606": {
       "name": "Battle Pass Ticket",
       "proto": "ITEM_BATTLE_PASS_TICKET",
@@ -52801,6 +52799,12 @@
     "2152": {
       "name": "Event Pass Point Monthly 02",
       "proto": "ITEM_EVENT_PASS_POINT_MONTHLY_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
+    "2153": {
+      "name": "Event Pass Point Monthly 03",
+      "proto": "ITEM_EVENT_PASS_POINT_MONTHLY_03",
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     }
