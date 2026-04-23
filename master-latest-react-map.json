@@ -5001,17 +5001,19 @@
     },
     "129": {
       "name": "Magikarp",
-      "pokedexId": 129,
-      "defaultFormId": 253,
-      "types": [
-        11
-      ],
       "quickMoves": [
         231
       ],
       "chargedMoves": [
         133
       ],
+      "types": [
+        11
+      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 129,
+      "defaultFormId": 253,
       "genId": 1,
       "generation": "Kanto",
       "forms": {
@@ -5022,8 +5024,6 @@
       "height": 0.9,
       "weight": 10,
       "family": 129,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "130": {
@@ -7629,6 +7629,8 @@
       "ultraBeast": false
     },
     "203": {
+      "legendary": false,
+      "mythical": false,
       "name": "Girafarig",
       "pokedexId": 203,
       "defaultFormId": 1241,
@@ -7658,8 +7660,6 @@
       "height": 1.5,
       "weight": 41.5,
       "family": 203,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "204": {
@@ -27908,17 +27908,19 @@
     },
     "789": {
       "name": "Cosmog",
-      "pokedexId": 789,
-      "defaultFormId": 3134,
-      "types": [
-        14
-      ],
       "quickMoves": [
         231
       ],
       "chargedMoves": [
         133
       ],
+      "types": [
+        14
+      ],
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 789,
+      "defaultFormId": 3134,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -27929,23 +27931,23 @@
       "height": 0.2,
       "weight": 0.1,
       "family": 789,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "790": {
       "name": "Cosmoem",
-      "pokedexId": 790,
-      "defaultFormId": 3135,
-      "types": [
-        14
-      ],
       "quickMoves": [
         231
       ],
       "chargedMoves": [
         133
       ],
+      "types": [
+        14
+      ],
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 790,
+      "defaultFormId": 3135,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -27956,8 +27958,6 @@
       "height": 0.1,
       "weight": 999.9,
       "family": 789,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "791": {
@@ -28312,18 +28312,58 @@
     },
     "801": {
       "name": "Magearna",
-      "pokedexId": 801,
-      "defaultFormId": 2721,
+      "quickMoves": [
+        234,
+        249,
+        250,
+        281,
+        282,
+        325,
+        368,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        30,
+        36,
+        39,
+        60,
+        70,
+        74,
+        79,
+        84,
+        85,
+        86,
+        88,
+        99,
+        108,
+        116,
+        123,
+        125,
+        131,
+        132,
+        247,
+        248,
+        252,
+        267,
+        268,
+        272,
+        273,
+        300,
+        309,
+        321,
+        324,
+        332,
+        344
+      ],
       "types": [
         9,
         18
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": true,
+      "pokedexId": 801,
+      "defaultFormId": 2721,
       "genId": 7,
       "generation": "Alola",
       "forms": {
@@ -28337,8 +28377,6 @@
       "height": 1,
       "weight": 80.5,
       "family": 801,
-      "legendary": false,
-      "mythical": true,
       "ultraBeast": false,
       "tempEvolutions": {
         "1": {
@@ -31586,10 +31624,12 @@
         39,
         40,
         57,
+        58,
         70,
         105,
         107,
         111,
+        125,
         132,
         265,
         277,
@@ -31605,7 +31645,6 @@
         8,
         11
       ],
-      "unreleased": true,
       "legendary": false,
       "mythical": false,
       "pokedexId": 902,
@@ -34215,18 +34254,48 @@
     },
     "984": {
       "name": "Greattusk",
-      "pokedexId": 984,
-      "defaultFormId": 3294,
+      "quickMoves": [
+        216,
+        233,
+        234,
+        240,
+        282,
+        297,
+        326,
+        327,
+        368
+      ],
+      "chargedMoves": [
+        14,
+        22,
+        26,
+        31,
+        32,
+        36,
+        60,
+        63,
+        64,
+        74,
+        88,
+        95,
+        123,
+        126,
+        131,
+        132,
+        245,
+        268,
+        304,
+        321,
+        377
+      ],
       "types": [
         2,
         5
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 984,
+      "defaultFormId": 3294,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34237,24 +34306,57 @@
       "height": 2.2,
       "weight": 320,
       "family": 984,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "985": {
       "name": "Screamtail",
-      "pokedexId": 985,
-      "defaultFormId": 3295,
+      "quickMoves": [
+        202,
+        222,
+        234,
+        240,
+        282,
+        326,
+        327
+      ],
+      "chargedMoves": [
+        14,
+        24,
+        26,
+        30,
+        33,
+        39,
+        40,
+        60,
+        63,
+        77,
+        78,
+        79,
+        86,
+        88,
+        103,
+        105,
+        108,
+        115,
+        131,
+        132,
+        247,
+        267,
+        272,
+        279,
+        314,
+        321,
+        353,
+        380
+      ],
       "types": [
         14,
         18
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 985,
+      "defaultFormId": 3295,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34265,24 +34367,46 @@
       "height": 1.2,
       "weight": 8,
       "family": 985,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "986": {
       "name": "Brutebonnet",
-      "pokedexId": 986,
-      "defaultFormId": 3296,
+      "quickMoves": [
+        203,
+        234,
+        263,
+        264,
+        271,
+        357
+      ],
+      "chargedMoves": [
+        14,
+        16,
+        48,
+        59,
+        114,
+        116,
+        131,
+        132,
+        245,
+        272,
+        273,
+        277,
+        279,
+        304,
+        321,
+        333,
+        343,
+        392
+      ],
       "types": [
         12,
         17
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 986,
+      "defaultFormId": 3296,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34293,24 +34417,47 @@
       "height": 1.2,
       "weight": 21,
       "family": 986,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "987": {
       "name": "Fluttermane",
-      "pokedexId": 987,
-      "defaultFormId": 3297,
+      "quickMoves": [
+        249,
+        263,
+        264,
+        320,
+        357
+      ],
+      "chargedMoves": [
+        14,
+        16,
+        30,
+        60,
+        65,
+        70,
+        78,
+        79,
+        84,
+        85,
+        86,
+        87,
+        111,
+        125,
+        132,
+        265,
+        273,
+        321,
+        376,
+        382
+      ],
       "types": [
         8,
         18
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 987,
+      "defaultFormId": 3297,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34321,24 +34468,50 @@
       "height": 1.4,
       "weight": 4,
       "family": 987,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "988": {
       "name": "Slitherwing",
-      "pokedexId": 988,
-      "defaultFormId": 3298,
+      "quickMoves": [
+        201,
+        207,
+        209,
+        234,
+        282,
+        345
+      ],
+      "chargedMoves": [
+        14,
+        31,
+        42,
+        45,
+        49,
+        56,
+        101,
+        114,
+        122,
+        123,
+        127,
+        131,
+        132,
+        245,
+        251,
+        268,
+        306,
+        313,
+        321,
+        364,
+        377,
+        392
+      ],
       "types": [
         2,
         7
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 988,
+      "defaultFormId": 3298,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34349,24 +34522,50 @@
       "height": 3.2,
       "weight": 92,
       "family": 988,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "989": {
       "name": "Sandyshocks",
-      "pokedexId": 989,
-      "defaultFormId": 3299,
+      "quickMoves": [
+        205,
+        206,
+        216,
+        249,
+        250,
+        282,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        31,
+        35,
+        36,
+        65,
+        78,
+        79,
+        95,
+        125,
+        131,
+        132,
+        251,
+        252,
+        258,
+        268,
+        276,
+        304,
+        321,
+        344,
+        377,
+        393
+      ],
       "types": [
         5,
         13
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 989,
+      "defaultFormId": 3299,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34377,24 +34576,50 @@
       "height": 2.3,
       "weight": 60,
       "family": 989,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "990": {
       "name": "Irontreads",
-      "pokedexId": 990,
-      "defaultFormId": 3300,
+      "quickMoves": [
+        216,
+        233,
+        234,
+        250,
+        282,
+        326,
+        327,
+        368,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        22,
+        31,
+        32,
+        36,
+        63,
+        64,
+        74,
+        78,
+        95,
+        126,
+        131,
+        132,
+        251,
+        267,
+        268,
+        304,
+        321,
+        377
+      ],
       "types": [
         5,
         9
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 990,
+      "defaultFormId": 3300,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34405,24 +34630,42 @@
       "height": 0.9,
       "weight": 240,
       "family": 990,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "991": {
       "name": "Ironbundle",
-      "pokedexId": 991,
-      "defaultFormId": 3301,
+      "quickMoves": [
+        244,
+        282,
+        291
+      ],
+      "chargedMoves": [
+        14,
+        33,
+        38,
+        39,
+        40,
+        88,
+        105,
+        107,
+        111,
+        121,
+        125,
+        131,
+        132,
+        254,
+        321,
+        364,
+        488
+      ],
       "types": [
         11,
         15
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 991,
+      "defaultFormId": 3301,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34433,24 +34676,50 @@
       "height": 0.6,
       "weight": 11,
       "family": 991,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "992": {
       "name": "Ironhands",
-      "pokedexId": 992,
-      "defaultFormId": 3302,
+      "quickMoves": [
+        207,
+        221,
+        250,
+        282,
+        403,
+        462
+      ],
+      "chargedMoves": [
+        14,
+        31,
+        33,
+        56,
+        63,
+        64,
+        74,
+        77,
+        78,
+        79,
+        88,
+        95,
+        115,
+        123,
+        131,
+        132,
+        245,
+        247,
+        251,
+        268,
+        314,
+        321
+      ],
       "types": [
         2,
         13
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 992,
+      "defaultFormId": 3302,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34461,24 +34730,54 @@
       "height": 1.8,
       "weight": 380.7,
       "family": 992,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "993": {
       "name": "Ironjugulis",
-      "pokedexId": 993,
-      "defaultFormId": 3303,
+      "quickMoves": [
+        204,
+        234,
+        240,
+        249,
+        253,
+        255,
+        278,
+        282,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        16,
+        24,
+        36,
+        42,
+        63,
+        74,
+        82,
+        103,
+        107,
+        121,
+        122,
+        131,
+        132,
+        247,
+        277,
+        279,
+        304,
+        321,
+        341,
+        344,
+        364,
+        372
+      ],
       "types": [
         3,
         17
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 993,
+      "defaultFormId": 3303,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34489,24 +34788,52 @@
       "height": 1.3,
       "weight": 111,
       "family": 993,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "994": {
       "name": "Ironmoth",
-      "pokedexId": 994,
-      "defaultFormId": 3304,
+      "quickMoves": [
+        209,
+        249,
+        255,
+        261,
+        269,
+        282,
+        345,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        24,
+        35,
+        36,
+        42,
+        49,
+        86,
+        91,
+        101,
+        103,
+        108,
+        116,
+        122,
+        125,
+        132,
+        270,
+        273,
+        303,
+        306,
+        321,
+        364,
+        372
+      ],
       "types": [
         4,
         10
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 994,
+      "defaultFormId": 3304,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34517,24 +34844,68 @@
       "height": 1.2,
       "weight": 36,
       "family": 994,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "995": {
       "name": "Ironthorns",
-      "pokedexId": 995,
-      "defaultFormId": 3305,
+      "quickMoves": [
+        202,
+        207,
+        227,
+        228,
+        240,
+        249,
+        250,
+        253,
+        278,
+        282,
+        297,
+        326,
+        327
+      ],
+      "chargedMoves": [
+        14,
+        24,
+        26,
+        31,
+        32,
+        33,
+        39,
+        40,
+        63,
+        64,
+        65,
+        74,
+        77,
+        78,
+        79,
+        83,
+        95,
+        103,
+        115,
+        123,
+        131,
+        132,
+        247,
+        251,
+        258,
+        259,
+        268,
+        279,
+        304,
+        321,
+        372,
+        377,
+        379
+      ],
       "types": [
         6,
         13
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 995,
+      "defaultFormId": 3305,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34545,8 +34916,6 @@
       "height": 1.6,
       "weight": 303,
       "family": 995,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "996": {
@@ -34840,18 +35209,58 @@
     },
     "1005": {
       "name": "Roaringmoon",
-      "pokedexId": 1005,
-      "defaultFormId": 3313,
+      "quickMoves": [
+        202,
+        204,
+        213,
+        228,
+        234,
+        240,
+        253,
+        255,
+        269,
+        278,
+        282,
+        326,
+        346
+      ],
+      "chargedMoves": [
+        14,
+        16,
+        24,
+        26,
+        31,
+        32,
+        42,
+        45,
+        51,
+        64,
+        74,
+        82,
+        83,
+        100,
+        103,
+        107,
+        122,
+        123,
+        131,
+        132,
+        277,
+        279,
+        285,
+        321,
+        341,
+        364,
+        379
+      ],
       "types": [
         16,
         17
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 1005,
+      "defaultFormId": 3313,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34862,24 +35271,59 @@
       "height": 2,
       "weight": 380,
       "family": 1005,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "1006": {
       "name": "Ironvaliant",
-      "pokedexId": 1006,
-      "defaultFormId": 3314,
+      "quickMoves": [
+        200,
+        207,
+        213,
+        224,
+        226,
+        234,
+        249,
+        264,
+        357
+      ],
+      "chargedMoves": [
+        14,
+        30,
+        33,
+        45,
+        51,
+        60,
+        66,
+        70,
+        77,
+        79,
+        86,
+        87,
+        100,
+        108,
+        111,
+        115,
+        117,
+        123,
+        125,
+        132,
+        245,
+        247,
+        272,
+        273,
+        314,
+        321,
+        332,
+        383
+      ],
       "types": [
         2,
         18
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": false,
+      "mythical": false,
+      "pokedexId": 1006,
+      "defaultFormId": 3314,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34890,8 +35334,6 @@
       "height": 1.4,
       "weight": 35,
       "family": 1006,
-      "legendary": false,
-      "mythical": false,
       "ultraBeast": false
     },
     "1007": {
@@ -34960,18 +35402,47 @@
     },
     "1009": {
       "name": "Walkingwake",
-      "pokedexId": 1009,
-      "defaultFormId": 3324,
+      "quickMoves": [
+        202,
+        204,
+        207,
+        216,
+        240,
+        278,
+        282,
+        283
+      ],
+      "chargedMoves": [
+        14,
+        24,
+        57,
+        80,
+        82,
+        83,
+        105,
+        106,
+        107,
+        122,
+        125,
+        131,
+        132,
+        277,
+        279,
+        284,
+        285,
+        321,
+        379,
+        383,
+        488
+      ],
       "types": [
         11,
         16
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 1009,
+      "defaultFormId": 3324,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -34982,24 +35453,47 @@
       "height": 3.5,
       "weight": 280,
       "family": 1009,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "1010": {
       "name": "Ironleaves",
-      "pokedexId": 1010,
-      "defaultFormId": 3325,
+      "quickMoves": [
+        219,
+        255,
+        282,
+        357,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        22,
+        45,
+        51,
+        100,
+        114,
+        116,
+        117,
+        123,
+        125,
+        132,
+        245,
+        247,
+        251,
+        272,
+        273,
+        321,
+        330,
+        343,
+        392
+      ],
       "types": [
         12,
         14
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 1010,
+      "defaultFormId": 3325,
       "genId": 9,
       "generation": "Paldea",
       "forms": {
@@ -35010,8 +35504,6 @@
       "height": 1.5,
       "weight": 125,
       "family": 1010,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "1011": {
@@ -35032,8 +35524,7 @@
         82,
         277
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3326": {
           "name": "Normal"
@@ -35063,8 +35554,7 @@
         273,
         376
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "2871": {
           "name": "Counterfeit"
@@ -35097,8 +35587,7 @@
         273,
         376
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "2873": {
           "name": "Unremarkable"
@@ -35131,8 +35620,7 @@
         310,
         471
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3327": {
           "name": "Normal"
@@ -35162,8 +35650,7 @@
         108,
         275
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3328": {
           "name": "Normal"
@@ -35193,8 +35680,7 @@
         87,
         90
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3329": {
           "name": "Normal"
@@ -35224,8 +35710,7 @@
         118,
         272
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "0": {
           "name": "Unset"
@@ -35267,8 +35752,7 @@
         36,
         83
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3330": {
           "name": "Normal"
@@ -35299,8 +35783,7 @@
         82,
         277
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3331": {
           "name": "Normal"
@@ -35315,20 +35798,52 @@
     },
     "1020": {
       "name": "Gougingfire",
-      "pokedexId": 1020,
-      "defaultFormId": 3332,
+      "quickMoves": [
+        202,
+        240,
+        253,
+        269,
+        278,
+        282,
+        326,
+        346,
+        356
+      ],
+      "chargedMoves": [
+        14,
+        24,
+        31,
+        32,
+        42,
+        62,
+        74,
+        82,
+        83,
+        95,
+        101,
+        103,
+        127,
+        131,
+        132,
+        270,
+        277,
+        279,
+        285,
+        307,
+        321,
+        353,
+        379,
+        393
+      ],
       "types": [
         10,
         16
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "genId": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 1020,
+      "defaultFormId": 3332,
+      "genId": null,
       "forms": {
         "3332": {
           "name": "Normal"
@@ -35337,26 +35852,50 @@
       "height": 3.5,
       "weight": 590,
       "family": 1020,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "1021": {
       "name": "Ragingbolt",
-      "pokedexId": 1021,
-      "defaultFormId": 3333,
+      "quickMoves": [
+        204,
+        249,
+        250,
+        253,
+        278,
+        282,
+        326
+      ],
+      "chargedMoves": [
+        14,
+        31,
+        35,
+        62,
+        78,
+        79,
+        80,
+        82,
+        116,
+        127,
+        131,
+        132,
+        251,
+        252,
+        268,
+        277,
+        279,
+        285,
+        321,
+        379
+      ],
       "types": [
         13,
         16
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "genId": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 1021,
+      "defaultFormId": 3333,
+      "genId": null,
       "forms": {
         "3333": {
           "name": "Normal"
@@ -35365,26 +35904,52 @@
       "height": 5.2,
       "weight": 480,
       "family": 1021,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "1022": {
       "name": "Ironboulder",
-      "pokedexId": 1022,
-      "defaultFormId": 3334,
+      "quickMoves": [
+        219,
+        224,
+        226,
+        227,
+        234,
+        243,
+        255,
+        282
+      ],
+      "chargedMoves": [
+        14,
+        22,
+        31,
+        32,
+        45,
+        60,
+        63,
+        74,
+        95,
+        100,
+        108,
+        123,
+        126,
+        131,
+        132,
+        245,
+        251,
+        259,
+        321,
+        330,
+        372
+      ],
       "types": [
         6,
         14
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "genId": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 1022,
+      "defaultFormId": 3334,
+      "genId": null,
       "forms": {
         "3334": {
           "name": "Normal"
@@ -35393,26 +35958,45 @@
       "height": 1.5,
       "weight": 162.5,
       "family": 1022,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "1023": {
       "name": "Ironcrown",
-      "pokedexId": 1023,
-      "defaultFormId": 3335,
+      "quickMoves": [
+        226,
+        228,
+        234,
+        235,
+        250,
+        255,
+        282,
+        402
+      ],
+      "chargedMoves": [
+        14,
+        36,
+        60,
+        74,
+        95,
+        100,
+        108,
+        123,
+        131,
+        132,
+        247,
+        268,
+        321,
+        330
+      ],
       "types": [
         9,
         14
       ],
-      "quickMoves": [
-        231
-      ],
-      "chargedMoves": [
-        133
-      ],
-      "genId": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythical": false,
+      "pokedexId": 1023,
+      "defaultFormId": 3335,
+      "genId": null,
       "forms": {
         "3335": {
           "name": "Normal"
@@ -35421,8 +36005,6 @@
       "height": 1.6,
       "weight": 156,
       "family": 1023,
-      "legendary": true,
-      "mythical": false,
       "ultraBeast": false
     },
     "1024": {
@@ -35438,8 +36020,7 @@
       "chargedMoves": [
         133
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "2880": {
           "name": "Normal"
@@ -35474,8 +36055,7 @@
         92,
         376
       ],
-      "genId": 9,
-      "generation": "Paldea",
+      "genId": null,
       "forms": {
         "3336": {
           "name": "Normal"

@@ -7513,17 +7513,22 @@
     },
     "129": {
       "name": "Magikarp",
-      "pokedex_id": 129,
-      "default_form_id": 253,
-      "types": [
-        "Water"
-      ],
       "quick_moves": [
         "Splash"
       ],
       "charged_moves": [
         "Struggle"
       ],
+      "attack": 29,
+      "defense": 85,
+      "stamina": 85,
+      "types": [
+        "Water"
+      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 129,
+      "default_form_id": 253,
       "gen_id": 1,
       "generation": "Kanto",
       "forms": {
@@ -7538,14 +7543,9 @@
           ]
         }
       },
-      "attack": 29,
-      "defense": 85,
-      "stamina": 85,
       "height": 0.9,
       "weight": 10,
       "family": 129,
-      "legendary": false,
-      "mythic": false,
       "buddy_group_number": 3,
       "buddy_distance": 1,
       "third_move_stardust": 10000,
@@ -11377,6 +11377,8 @@
           "form": 3292
         }
       ],
+      "legendary": false,
+      "mythic": false,
       "name": "Girafarig",
       "pokedex_id": 203,
       "default_form_id": 1241,
@@ -11410,8 +11412,6 @@
       "height": 1.5,
       "weight": 41.5,
       "family": 203,
-      "legendary": false,
-      "mythic": false,
       "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
@@ -40997,17 +40997,22 @@
     },
     "789": {
       "name": "Cosmog",
-      "pokedex_id": 789,
-      "default_form_id": 3134,
-      "types": [
-        "Psychic"
-      ],
       "quick_moves": [
         "Splash"
       ],
       "charged_moves": [
         "Struggle"
       ],
+      "attack": 54,
+      "defense": 57,
+      "stamina": 125,
+      "types": [
+        "Psychic"
+      ],
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 789,
+      "default_form_id": 3134,
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
@@ -41022,14 +41027,9 @@
           ]
         }
       },
-      "attack": 54,
-      "defense": 57,
-      "stamina": 125,
       "height": 0.2,
       "weight": 0.1,
       "family": 789,
-      "legendary": true,
-      "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
@@ -41043,17 +41043,22 @@
     },
     "790": {
       "name": "Cosmoem",
-      "pokedex_id": 790,
-      "default_form_id": 3135,
-      "types": [
-        "Psychic"
-      ],
       "quick_moves": [
         "Splash"
       ],
       "charged_moves": [
         "Struggle"
       ],
+      "attack": 54,
+      "defense": 242,
+      "stamina": 125,
+      "types": [
+        "Psychic"
+      ],
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 790,
+      "default_form_id": 3135,
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
@@ -41072,14 +41077,9 @@
           ]
         }
       },
-      "attack": 54,
-      "defense": 242,
-      "stamina": 125,
       "height": 0.1,
       "weight": 999.9,
       "family": 789,
-      "legendary": true,
-      "mythic": false,
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
@@ -41533,18 +41533,61 @@
     },
     "801": {
       "name": "Magearna",
-      "pokedex_id": 801,
-      "default_form_id": 2721,
+      "quick_moves": [
+        "Zen Headbutt",
+        "Charge Beam",
+        "Volt Switch",
+        "Hidden Power",
+        "Take Down",
+        "Lock On",
+        "Rollout",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Psybeam",
+        "Flash Cannon",
+        "Ice Beam",
+        "Psyshock",
+        "Shadow Ball",
+        "Iron Head",
+        "Thunderbolt",
+        "Disarming Voice",
+        "Draining Kiss",
+        "Dazzling Gleam",
+        "Play Rough",
+        "Signal Beam",
+        "Psychic",
+        "Solar Beam",
+        "Brick Break",
+        "Swift",
+        "Body Slam",
+        "Rest",
+        "Focus Blast",
+        "Aurora Beam",
+        "Zap Cannon",
+        "Gyro Ball",
+        "Heavy Slam",
+        "Grass Knot",
+        "Energy Ball",
+        "Last Resort",
+        "Mirror Shot",
+        "Giga Impact",
+        "Synchronoise",
+        "Aura Sphere",
+        "Tri Attack"
+      ],
+      "attack": 246,
+      "defense": 225,
+      "stamina": 190,
       "types": [
         "Steel",
         "Fairy"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": true,
+      "pokedex_id": 801,
+      "default_form_id": 2721,
       "gen_id": 7,
       "generation": "Alola",
       "forms": {
@@ -41560,14 +41603,9 @@
           "proto": "MAGEARNA_ORIGINAL_COLOR"
         }
       },
-      "attack": 246,
-      "defense": 225,
-      "stamina": 190,
       "height": 1,
       "weight": 80.5,
       "family": 801,
-      "legendary": false,
-      "mythic": true,
       "buddy_group_number": 2,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
@@ -46137,10 +46175,12 @@
         "Ice Beam",
         "Blizzard",
         "Aqua Jet",
+        "Aqua Tail",
         "Shadow Ball",
         "Water Pulse",
         "Hydro Pump",
         "Icy Wind",
+        "Swift",
         "Rest",
         "Night Shade",
         "Outrage",
@@ -49880,18 +49920,51 @@
     },
     "984": {
       "name": "Greattusk",
-      "pokedex_id": 984,
-      "default_form_id": 3294,
+      "quick_moves": [
+        "Mud Shot",
+        "Mud Slap",
+        "Zen Headbutt",
+        "Fire Fang",
+        "Take Down",
+        "Smack Down",
+        "Thunder Fang",
+        "Ice Fang",
+        "Rollout"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Megahorn",
+        "Dig",
+        "Earthquake",
+        "Stone Edge",
+        "Flash Cannon",
+        "Psyshock",
+        "Rock Tomb",
+        "Rock Slide",
+        "Iron Head",
+        "Play Rough",
+        "Bulldoze",
+        "Brick Break",
+        "Horn Attack",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Heavy Slam",
+        "Earth Power",
+        "Giga Impact",
+        "High Horsepower"
+      ],
+      "attack": 249,
+      "defense": 209,
+      "stamina": 251,
       "types": [
         "Fighting",
         "Ground"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 984,
+      "default_form_id": 3294,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -49900,14 +49973,9 @@
           "proto": "GREATTUSK_NORMAL"
         }
       },
-      "attack": 249,
-      "defense": 209,
-      "stamina": 251,
       "height": 2.2,
       "weight": 320,
       "family": 984,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -49915,18 +49983,56 @@
     },
     "985": {
       "name": "Screamtail",
-      "pokedex_id": 985,
-      "default_form_id": 3295,
+      "quick_moves": [
+        "Bite",
+        "Pound",
+        "Zen Headbutt",
+        "Fire Fang",
+        "Take Down",
+        "Thunder Fang",
+        "Ice Fang"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Dig",
+        "Psybeam",
+        "Ice Punch",
+        "Ice Beam",
+        "Blizzard",
+        "Psyshock",
+        "Rock Tomb",
+        "Thunder Punch",
+        "Thunder",
+        "Thunderbolt",
+        "Dazzling Gleam",
+        "Play Rough",
+        "Fire Blast",
+        "Water Pulse",
+        "Psychic",
+        "Fire Punch",
+        "Body Slam",
+        "Rest",
+        "Focus Blast",
+        "Gyro Ball",
+        "Grass Knot",
+        "Crunch",
+        "Drain Punch",
+        "Giga Impact",
+        "Psychic Fangs",
+        "Boomburst"
+      ],
+      "attack": 139,
+      "defense": 234,
+      "stamina": 251,
       "types": [
         "Psychic",
         "Fairy"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 985,
+      "default_form_id": 3295,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -49935,14 +50041,9 @@
           "proto": "SCREAMTAIL_NORMAL"
         }
       },
-      "attack": 139,
-      "defense": 234,
-      "stamina": 251,
       "height": 1.2,
       "weight": 8,
       "family": 985,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -49950,18 +50051,45 @@
     },
     "986": {
       "name": "Brutebonnet",
-      "pokedex_id": 986,
-      "default_form_id": 3296,
+      "quick_moves": [
+        "Sucker Punch",
+        "Zen Headbutt",
+        "Astonish",
+        "Hex",
+        "Bullet Seed",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Mega Drain",
+        "Seed Bomb",
+        "Giga Drain",
+        "Solar Beam",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Grass Knot",
+        "Energy Ball",
+        "Outrage",
+        "Crunch",
+        "Earth Power",
+        "Giga Impact",
+        "Payback",
+        "Leaf Storm",
+        "Trailblaze"
+      ],
+      "attack": 232,
+      "defense": 190,
+      "stamina": 244,
       "types": [
         "Grass",
         "Dark"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 986,
+      "default_form_id": 3296,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -49970,14 +50098,9 @@
           "proto": "BRUTEBONNET_NORMAL"
         }
       },
-      "attack": 232,
-      "defense": 190,
-      "stamina": 244,
       "height": 1.2,
       "weight": 21,
       "family": 986,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -49985,18 +50108,46 @@
     },
     "987": {
       "name": "Fluttermane",
-      "pokedex_id": 987,
-      "default_form_id": 3297,
+      "quick_moves": [
+        "Charge Beam",
+        "Astonish",
+        "Hex",
+        "Charm",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Psybeam",
+        "Psyshock",
+        "Power Gem",
+        "Shadow Ball",
+        "Thunder",
+        "Thunderbolt",
+        "Disarming Voice",
+        "Draining Kiss",
+        "Dazzling Gleam",
+        "Moonblast",
+        "Icy Wind",
+        "Swift",
+        "Rest",
+        "Night Shade",
+        "Energy Ball",
+        "Giga Impact",
+        "Poltergeist",
+        "Mystical Fire"
+      ],
+      "attack": 280,
+      "defense": 235,
+      "stamina": 146,
       "types": [
         "Ghost",
         "Fairy"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 987,
+      "default_form_id": 3297,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50005,14 +50156,9 @@
           "proto": "FLUTTERMANE_NORMAL"
         }
       },
-      "attack": 280,
-      "defense": 235,
-      "stamina": 146,
       "height": 1.4,
       "weight": 4,
       "family": 987,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50020,18 +50166,49 @@
     },
     "988": {
       "name": "Slitherwing",
-      "pokedex_id": 988,
-      "default_form_id": 3298,
+      "quick_moves": [
+        "Bug Bite",
+        "Low Kick",
+        "Ember",
+        "Zen Headbutt",
+        "Take Down",
+        "Gust"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Earthquake",
+        "Heat Wave",
+        "Aerial Ace",
+        "Bug Buzz",
+        "Low Sweep",
+        "Flame Charge",
+        "Giga Drain",
+        "Hurricane",
+        "Brick Break",
+        "Stomp",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Wild Charge",
+        "Heavy Slam",
+        "Lunge",
+        "Leech Life",
+        "Giga Impact",
+        "Acrobatics",
+        "High Horsepower",
+        "Trailblaze"
+      ],
+      "attack": 261,
+      "defense": 193,
+      "stamina": 198,
       "types": [
         "Fighting",
         "Bug"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 988,
+      "default_form_id": 3298,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50040,14 +50217,9 @@
           "proto": "SLITHERWING_NORMAL"
         }
       },
-      "attack": 261,
-      "defense": 193,
-      "stamina": 198,
       "height": 3.2,
       "weight": 92,
       "family": 988,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50055,18 +50227,49 @@
     },
     "989": {
       "name": "Sandyshocks",
-      "pokedex_id": 989,
-      "default_form_id": 3299,
+      "quick_moves": [
+        "Thunder Shock",
+        "Spark",
+        "Mud Shot",
+        "Charge Beam",
+        "Volt Switch",
+        "Take Down",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Earthquake",
+        "Discharge",
+        "Flash Cannon",
+        "Power Gem",
+        "Thunder",
+        "Thunderbolt",
+        "Bulldoze",
+        "Swift",
+        "Body Slam",
+        "Rest",
+        "Wild Charge",
+        "Zap Cannon",
+        "Sand Tomb",
+        "Heavy Slam",
+        "Mirror Coat",
+        "Earth Power",
+        "Giga Impact",
+        "Tri Attack",
+        "High Horsepower",
+        "Scorching Sands"
+      ],
+      "attack": 244,
+      "defense": 195,
+      "stamina": 198,
       "types": [
         "Ground",
         "Electric"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 989,
+      "default_form_id": 3299,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50075,14 +50278,9 @@
           "proto": "SANDYSHOCKS_NORMAL"
         }
       },
-      "attack": 244,
-      "defense": 195,
-      "stamina": 198,
       "height": 2.3,
       "weight": 60,
       "family": 989,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50090,18 +50288,49 @@
     },
     "990": {
       "name": "Irontreads",
-      "pokedex_id": 990,
-      "default_form_id": 3300,
+      "quick_moves": [
+        "Mud Shot",
+        "Mud Slap",
+        "Zen Headbutt",
+        "Volt Switch",
+        "Take Down",
+        "Thunder Fang",
+        "Ice Fang",
+        "Rollout",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Megahorn",
+        "Earthquake",
+        "Stone Edge",
+        "Flash Cannon",
+        "Rock Tomb",
+        "Rock Slide",
+        "Iron Head",
+        "Thunder",
+        "Bulldoze",
+        "Horn Attack",
+        "Body Slam",
+        "Rest",
+        "Wild Charge",
+        "Gyro Ball",
+        "Heavy Slam",
+        "Earth Power",
+        "Giga Impact",
+        "High Horsepower"
+      ],
+      "attack": 227,
+      "defense": 216,
+      "stamina": 207,
       "types": [
         "Ground",
         "Steel"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 990,
+      "default_form_id": 3300,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50110,14 +50339,9 @@
           "proto": "IRONTREADS_NORMAL"
         }
       },
-      "attack": 227,
-      "defense": 216,
-      "stamina": 207,
       "height": 0.9,
       "weight": 240,
       "family": 990,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50125,18 +50349,41 @@
     },
     "991": {
       "name": "Ironbundle",
-      "pokedex_id": 991,
-      "default_form_id": 3301,
+      "quick_moves": [
+        "Powder Snow",
+        "Take Down",
+        "Present"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Ice Punch",
+        "Drill Peck",
+        "Ice Beam",
+        "Blizzard",
+        "Play Rough",
+        "Water Pulse",
+        "Hydro Pump",
+        "Icy Wind",
+        "Air Cutter",
+        "Swift",
+        "Body Slam",
+        "Rest",
+        "Avalanche",
+        "Giga Impact",
+        "Acrobatics",
+        "Chilling Water"
+      ],
+      "attack": 266,
+      "defense": 211,
+      "stamina": 148,
       "types": [
         "Water",
         "Ice"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 991,
+      "default_form_id": 3301,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50145,14 +50392,9 @@
           "proto": "IRONBUNDLE_NORMAL"
         }
       },
-      "attack": 266,
-      "defense": 211,
-      "stamina": 148,
       "height": 0.6,
       "weight": 11,
       "family": 991,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50160,18 +50402,49 @@
     },
     "992": {
       "name": "Ironhands",
-      "pokedex_id": 992,
-      "default_form_id": 3302,
+      "quick_moves": [
+        "Low Kick",
+        "Tackle",
+        "Volt Switch",
+        "Take Down",
+        "Sand Attack",
+        "Force Palm"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Earthquake",
+        "Ice Punch",
+        "Low Sweep",
+        "Rock Tomb",
+        "Rock Slide",
+        "Iron Head",
+        "Thunder Punch",
+        "Thunder",
+        "Thunderbolt",
+        "Play Rough",
+        "Bulldoze",
+        "Fire Punch",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Focus Blast",
+        "Wild Charge",
+        "Heavy Slam",
+        "Drain Punch",
+        "Giga Impact"
+      ],
+      "attack": 245,
+      "defense": 177,
+      "stamina": 319,
       "types": [
         "Fighting",
         "Electric"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 992,
+      "default_form_id": 3302,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50180,14 +50453,9 @@
           "proto": "IRONHANDS_NORMAL"
         }
       },
-      "attack": 245,
-      "defense": 177,
-      "stamina": 319,
       "height": 1.8,
       "weight": 380.7,
       "family": 992,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50195,18 +50463,53 @@
     },
     "993": {
       "name": "Ironjugulis",
-      "pokedex_id": 993,
-      "default_form_id": 3303,
+      "quick_moves": [
+        "Dragon Breath",
+        "Zen Headbutt",
+        "Fire Fang",
+        "Charge Beam",
+        "Dragon Tail",
+        "Air Slash",
+        "Snarl",
+        "Take Down",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Flamethrower",
+        "Flash Cannon",
+        "Heat Wave",
+        "Rock Tomb",
+        "Iron Head",
+        "Dragon Pulse",
+        "Fire Blast",
+        "Hydro Pump",
+        "Air Cutter",
+        "Hurricane",
+        "Body Slam",
+        "Rest",
+        "Focus Blast",
+        "Outrage",
+        "Crunch",
+        "Earth Power",
+        "Giga Impact",
+        "Fly",
+        "Tri Attack",
+        "Acrobatics",
+        "Meteor Beam"
+      ],
+      "attack": 249,
+      "defense": 179,
+      "stamina": 214,
       "types": [
         "Flying",
         "Dark"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 993,
+      "default_form_id": 3303,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50215,14 +50518,9 @@
           "proto": "IRONJUGULIS_NORMAL"
         }
       },
-      "attack": 249,
-      "defense": 179,
-      "stamina": 214,
       "height": 1.3,
       "weight": 111,
       "family": 993,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50230,18 +50528,51 @@
     },
     "994": {
       "name": "Ironmoth",
-      "pokedex_id": 994,
-      "default_form_id": 3304,
+      "quick_moves": [
+        "Ember",
+        "Charge Beam",
+        "Air Slash",
+        "Struggle Bug",
+        "Fire Spin",
+        "Take Down",
+        "Gust",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Discharge",
+        "Flash Cannon",
+        "Heat Wave",
+        "Bug Buzz",
+        "Dazzling Gleam",
+        "Sludge Wave",
+        "Flame Charge",
+        "Fire Blast",
+        "Psychic",
+        "Solar Beam",
+        "Hurricane",
+        "Swift",
+        "Rest",
+        "Overheat",
+        "Energy Ball",
+        "Acid Spray",
+        "Lunge",
+        "Giga Impact",
+        "Acrobatics",
+        "Meteor Beam"
+      ],
+      "attack": 281,
+      "defense": 196,
+      "stamina": 190,
       "types": [
         "Poison",
         "Fire"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 994,
+      "default_form_id": 3304,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50250,14 +50581,9 @@
           "proto": "IRONMOTH_NORMAL"
         }
       },
-      "attack": 281,
-      "defense": 196,
-      "stamina": 190,
       "height": 1.2,
       "weight": 36,
       "family": 994,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50265,18 +50591,67 @@
     },
     "995": {
       "name": "Ironthorns",
-      "pokedex_id": 995,
-      "default_form_id": 3305,
+      "quick_moves": [
+        "Bite",
+        "Low Kick",
+        "Rock Throw",
+        "Metal Claw",
+        "Fire Fang",
+        "Charge Beam",
+        "Volt Switch",
+        "Dragon Tail",
+        "Snarl",
+        "Take Down",
+        "Smack Down",
+        "Thunder Fang",
+        "Ice Fang"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Dig",
+        "Earthquake",
+        "Stone Edge",
+        "Ice Punch",
+        "Ice Beam",
+        "Blizzard",
+        "Rock Tomb",
+        "Rock Slide",
+        "Power Gem",
+        "Iron Head",
+        "Thunder Punch",
+        "Thunder",
+        "Thunderbolt",
+        "Dragon Claw",
+        "Bulldoze",
+        "Fire Blast",
+        "Fire Punch",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Focus Blast",
+        "Wild Charge",
+        "Sand Tomb",
+        "Rock Blast",
+        "Heavy Slam",
+        "Crunch",
+        "Earth Power",
+        "Giga Impact",
+        "Meteor Beam",
+        "High Horsepower",
+        "Breaking Swipe"
+      ],
+      "attack": 250,
+      "defense": 200,
+      "stamina": 225,
       "types": [
         "Rock",
         "Electric"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 995,
+      "default_form_id": 3305,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50285,14 +50660,9 @@
           "proto": "IRONTHORNS_NORMAL"
         }
       },
-      "attack": 250,
-      "defense": 200,
-      "stamina": 225,
       "height": 1.6,
       "weight": 303,
       "family": 995,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50694,18 +51064,61 @@
     },
     "1005": {
       "name": "Roaringmoon",
-      "pokedex_id": 1005,
-      "default_form_id": 3313,
+      "quick_moves": [
+        "Bite",
+        "Dragon Breath",
+        "Shadow Claw",
+        "Metal Claw",
+        "Zen Headbutt",
+        "Fire Fang",
+        "Dragon Tail",
+        "Air Slash",
+        "Fire Spin",
+        "Snarl",
+        "Take Down",
+        "Thunder Fang",
+        "Incinerate"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Dark Pulse",
+        "Flamethrower",
+        "Dig",
+        "Earthquake",
+        "Stone Edge",
+        "Heat Wave",
+        "Aerial Ace",
+        "Night Slash",
+        "Rock Slide",
+        "Iron Head",
+        "Dragon Pulse",
+        "Dragon Claw",
+        "X Scissor",
+        "Fire Blast",
+        "Hydro Pump",
+        "Hurricane",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Outrage",
+        "Crunch",
+        "Draco Meteor",
+        "Giga Impact",
+        "Fly",
+        "Acrobatics",
+        "Breaking Swipe"
+      ],
+      "attack": 280,
+      "defense": 196,
+      "stamina": 233,
       "types": [
         "Dragon",
         "Dark"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 1005,
+      "default_form_id": 3313,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50714,14 +51127,9 @@
           "proto": "ROARINGMOON_NORMAL"
         }
       },
-      "attack": 280,
-      "defense": 196,
-      "stamina": 233,
       "height": 2,
       "weight": 380,
       "family": 1005,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50729,18 +51137,58 @@
     },
     "1006": {
       "name": "Ironvaliant",
-      "pokedex_id": 1006,
-      "default_form_id": 3314,
+      "quick_moves": [
+        "Fury Cutter",
+        "Low Kick",
+        "Shadow Claw",
+        "Poison Jab",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Hex",
+        "Magical Leaf"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Psybeam",
+        "Ice Punch",
+        "Aerial Ace",
+        "Night Slash",
+        "Psyshock",
+        "Shadow Sneak",
+        "Shadow Ball",
+        "Thunder Punch",
+        "Thunderbolt",
+        "Dazzling Gleam",
+        "Moonblast",
+        "X Scissor",
+        "Psychic",
+        "Icy Wind",
+        "Fire Punch",
+        "Leaf Blade",
+        "Brick Break",
+        "Swift",
+        "Rest",
+        "Close Combat",
+        "Focus Blast",
+        "Grass Knot",
+        "Energy Ball",
+        "Drain Punch",
+        "Giga Impact",
+        "Aura Sphere",
+        "Liquidation"
+      ],
+      "attack": 279,
+      "defense": 171,
+      "stamina": 179,
       "types": [
         "Fighting",
         "Fairy"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": false,
+      "mythic": false,
+      "pokedex_id": 1006,
+      "default_form_id": 3314,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50749,14 +51197,9 @@
           "proto": "IRONVALIANT_NORMAL"
         }
       },
-      "attack": 279,
-      "defense": 171,
-      "stamina": 179,
       "height": 1.4,
       "weight": 35,
       "family": 1006,
-      "legendary": false,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100,
@@ -50840,18 +51283,50 @@
     },
     "1009": {
       "name": "Walkingwake",
-      "pokedex_id": 1009,
-      "default_form_id": 3324,
+      "quick_moves": [
+        "Bite",
+        "Dragon Breath",
+        "Low Kick",
+        "Mud Shot",
+        "Fire Fang",
+        "Snarl",
+        "Take Down",
+        "Waterfall"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Aqua Jet",
+        "Twister",
+        "Dragon Pulse",
+        "Dragon Claw",
+        "Water Pulse",
+        "Scald",
+        "Hydro Pump",
+        "Hurricane",
+        "Swift",
+        "Body Slam",
+        "Rest",
+        "Outrage",
+        "Crunch",
+        "Surf",
+        "Draco Meteor",
+        "Giga Impact",
+        "Breaking Swipe",
+        "Liquidation",
+        "Chilling Water"
+      ],
+      "attack": 233,
+      "defense": 171,
+      "stamina": 203,
       "types": [
         "Water",
         "Dragon"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 1009,
+      "default_form_id": 3324,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50860,32 +51335,55 @@
           "proto": "WALKINGWAKE_NORMAL"
         }
       },
-      "attack": 233,
-      "defense": 171,
-      "stamina": 203,
       "height": 3.5,
       "weight": 280,
       "family": 1009,
-      "legendary": true,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
     },
     "1010": {
       "name": "Ironleaves",
-      "pokedex_id": 1010,
-      "default_form_id": 3325,
+      "quick_moves": [
+        "Quick Attack",
+        "Air Slash",
+        "Take Down",
+        "Magical Leaf",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Megahorn",
+        "Aerial Ace",
+        "Night Slash",
+        "X Scissor",
+        "Giga Drain",
+        "Solar Beam",
+        "Leaf Blade",
+        "Brick Break",
+        "Swift",
+        "Rest",
+        "Close Combat",
+        "Focus Blast",
+        "Wild Charge",
+        "Grass Knot",
+        "Energy Ball",
+        "Giga Impact",
+        "Sacred Sword",
+        "Leaf Storm",
+        "Trailblaze"
+      ],
+      "attack": 236,
+      "defense": 194,
+      "stamina": 189,
       "types": [
         "Grass",
         "Psychic"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 1010,
+      "default_form_id": 3325,
       "gen_id": 9,
       "generation": "Paldea",
       "forms": {
@@ -50894,14 +51392,9 @@
           "proto": "IRONLEAVES_NORMAL"
         }
       },
-      "attack": 236,
-      "defense": 194,
-      "stamina": 189,
       "height": 1.5,
       "weight": 125,
       "family": 1010,
-      "legendary": true,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -50924,8 +51417,7 @@
         "Dragon Pulse",
         "Outrage"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3326": {
           "name": "Normal",
@@ -50975,8 +51467,7 @@
         "Energy Ball",
         "Poltergeist"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "2871": {
           "name": "Counterfeit",
@@ -51037,8 +51528,7 @@
         "Energy Ball",
         "Poltergeist"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "2873": {
           "name": "Unremarkable",
@@ -51080,8 +51570,7 @@
         "Super Power",
         "Upper Hand"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3327": {
           "name": "Normal",
@@ -51117,8 +51606,7 @@
         "Psychic",
         "Futuresight"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3328": {
           "name": "Normal",
@@ -51154,8 +51642,7 @@
         "Moonblast",
         "Sludge Bomb"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3329": {
           "name": "Normal",
@@ -51191,8 +51678,7 @@
         "Power Whip",
         "Grass Knot"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "0": {
           "name": "Unset",
@@ -51244,8 +51730,7 @@
         "Flash Cannon",
         "Dragon Claw"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3330": {
           "name": "Normal",
@@ -51283,8 +51768,7 @@
         "Dragon Pulse",
         "Outrage"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3331": {
           "name": "Normal",
@@ -51307,136 +51791,235 @@
     },
     "1020": {
       "name": "Gougingfire",
-      "pokedex_id": 1020,
-      "default_form_id": 3332,
+      "quick_moves": [
+        "Bite",
+        "Fire Fang",
+        "Dragon Tail",
+        "Fire Spin",
+        "Snarl",
+        "Take Down",
+        "Thunder Fang",
+        "Incinerate",
+        "Double Kick"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flamethrower",
+        "Earthquake",
+        "Stone Edge",
+        "Heat Wave",
+        "Ancient Power",
+        "Iron Head",
+        "Dragon Pulse",
+        "Dragon Claw",
+        "Bulldoze",
+        "Flame Charge",
+        "Fire Blast",
+        "Stomp",
+        "Body Slam",
+        "Rest",
+        "Overheat",
+        "Outrage",
+        "Crunch",
+        "Draco Meteor",
+        "Crush Claw",
+        "Giga Impact",
+        "Psychic Fangs",
+        "Breaking Swipe",
+        "Scorching Sands"
+      ],
+      "attack": 205,
+      "defense": 208,
+      "stamina": 213,
       "types": [
         "Fire",
         "Dragon"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 1020,
+      "default_form_id": 3332,
+      "gen_id": null,
       "forms": {
         "3332": {
           "name": "Normal",
           "proto": "GOUGINGFIRE_NORMAL"
         }
       },
-      "attack": 205,
-      "defense": 208,
-      "stamina": 213,
       "height": 3.5,
       "weight": 590,
       "family": 1020,
-      "legendary": true,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
     },
     "1021": {
       "name": "Ragingbolt",
-      "pokedex_id": 1021,
-      "default_form_id": 3333,
+      "quick_moves": [
+        "Dragon Breath",
+        "Charge Beam",
+        "Volt Switch",
+        "Dragon Tail",
+        "Snarl",
+        "Take Down",
+        "Thunder Fang"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Earthquake",
+        "Discharge",
+        "Ancient Power",
+        "Thunder",
+        "Thunderbolt",
+        "Twister",
+        "Dragon Pulse",
+        "Solar Beam",
+        "Stomp",
+        "Body Slam",
+        "Rest",
+        "Wild Charge",
+        "Zap Cannon",
+        "Heavy Slam",
+        "Outrage",
+        "Crunch",
+        "Draco Meteor",
+        "Giga Impact",
+        "Breaking Swipe"
+      ],
+      "attack": 235,
+      "defense": 165,
+      "stamina": 245,
       "types": [
         "Electric",
         "Dragon"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 1021,
+      "default_form_id": 3333,
+      "gen_id": null,
       "forms": {
         "3333": {
           "name": "Normal",
           "proto": "RAGINGBOLT_NORMAL"
         }
       },
-      "attack": 235,
-      "defense": 165,
-      "stamina": 245,
       "height": 5.2,
       "weight": 480,
       "family": 1021,
-      "legendary": true,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
     },
     "1022": {
       "name": "Ironboulder",
-      "pokedex_id": 1022,
-      "default_form_id": 3334,
+      "quick_moves": [
+        "Quick Attack",
+        "Poison Jab",
+        "Psycho Cut",
+        "Rock Throw",
+        "Zen Headbutt",
+        "Counter",
+        "Air Slash",
+        "Take Down"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Megahorn",
+        "Earthquake",
+        "Stone Edge",
+        "Aerial Ace",
+        "Psyshock",
+        "Rock Tomb",
+        "Iron Head",
+        "Bulldoze",
+        "X Scissor",
+        "Psychic",
+        "Brick Break",
+        "Horn Attack",
+        "Body Slam",
+        "Rest",
+        "Close Combat",
+        "Wild Charge",
+        "Rock Blast",
+        "Giga Impact",
+        "Sacred Sword",
+        "Meteor Beam"
+      ],
+      "attack": 227,
+      "defense": 195,
+      "stamina": 189,
       "types": [
         "Rock",
         "Psychic"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 1022,
+      "default_form_id": 3334,
+      "gen_id": null,
       "forms": {
         "3334": {
           "name": "Normal",
           "proto": "IRONBOULDER_NORMAL"
         }
       },
-      "attack": 227,
-      "defense": 195,
-      "stamina": 189,
       "height": 1.5,
       "weight": 162.5,
       "family": 1022,
-      "legendary": true,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
     },
     "1023": {
       "name": "Ironcrown",
-      "pokedex_id": 1023,
-      "default_form_id": 3335,
+      "quick_moves": [
+        "Psycho Cut",
+        "Metal Claw",
+        "Zen Headbutt",
+        "Confusion",
+        "Volt Switch",
+        "Air Slash",
+        "Take Down",
+        "Metal Sound"
+      ],
+      "charged_moves": [
+        "Hyper Beam",
+        "Flash Cannon",
+        "Psyshock",
+        "Iron Head",
+        "Bulldoze",
+        "X Scissor",
+        "Psychic",
+        "Brick Break",
+        "Body Slam",
+        "Rest",
+        "Focus Blast",
+        "Heavy Slam",
+        "Giga Impact",
+        "Sacred Sword"
+      ],
+      "attack": 221,
+      "defense": 200,
+      "stamina": 189,
       "types": [
         "Steel",
         "Psychic"
       ],
-      "quick_moves": [
-        "Splash"
-      ],
-      "charged_moves": [
-        "Struggle"
-      ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "legendary": true,
+      "mythic": false,
+      "pokedex_id": 1023,
+      "default_form_id": 3335,
+      "gen_id": null,
       "forms": {
         "3335": {
           "name": "Normal",
           "proto": "IRONCROWN_NORMAL"
         }
       },
-      "attack": 221,
-      "defense": 200,
-      "stamina": 189,
       "height": 1.6,
       "weight": 156,
       "family": 1023,
-      "legendary": true,
-      "mythic": false,
       "buddy_distance": 20,
       "third_move_stardust": 100000,
       "third_move_candy": 100
@@ -51454,8 +52037,7 @@
       "charged_moves": [
         "Struggle"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "2880": {
           "name": "Normal",
@@ -51504,8 +52086,7 @@
         "Gunk Shot",
         "Poltergeist"
       ],
-      "gen_id": 9,
-      "generation": "Paldea",
+      "gen_id": null,
       "forms": {
         "3336": {
           "name": "Normal",
