@@ -1982,6 +1982,10 @@
           "formName": "Gofest 2026 Cap Yellow",
           "formId": 3345,
           "isCostume": true
+        },
+        "3348": {
+          "formName": "Anniversary 2026",
+          "formId": 3348
         }
       },
       "stats": {
@@ -64944,6 +64948,12 @@
       "power": 300,
       "durationMs": 3000,
       "energyDelta": -100
+    },
+    "497": {
+      "id": 497,
+      "name": "Plasma Fists",
+      "proto": "PLASMA_FISTS",
+      "fast": false
     }
   },
   "questTypes": {
