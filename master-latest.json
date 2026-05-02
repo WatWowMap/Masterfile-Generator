@@ -57123,7 +57123,7 @@
       "type": "Normal",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           52,
@@ -57131,8 +57131,8 @@
           759
         ],
         "second": [
-          19,
           216,
+          294,
           396
         ],
         "third": [
@@ -57306,10 +57306,13 @@
           143
         ],
         "second": [
-          282
+          110,
+          282,
+          623
         ],
         "third": [
-          248
+          248,
+          323
         ]
       }
     },
@@ -57328,6 +57331,8 @@
           526
         ],
         "third": [
+          6,
+          65,
           212
         ]
       }

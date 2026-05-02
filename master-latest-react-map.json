@@ -38832,7 +38832,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -38851,12 +38851,12 @@
         ],
         "second": [
           {
-            "id": 19,
-            "form": 45
-          },
-          {
             "id": 216,
             "form": 1265
+          },
+          {
+            "id": 294,
+            "form": 1445
           },
           {
             "id": 396,
@@ -39190,14 +39190,26 @@
         ],
         "second": [
           {
+            "id": 110,
+            "form": 944
+          },
+          {
             "id": 282,
             "form": 298
+          },
+          {
+            "id": 623,
+            "form": 2261
           }
         ],
         "third": [
           {
             "id": 248,
             "form": 319
+          },
+          {
+            "id": 323,
+            "form": 1520
           }
         ]
       }
@@ -39231,6 +39243,14 @@
           }
         ],
         "third": [
+          {
+            "id": 6,
+            "form": 178
+          },
+          {
+            "id": 65,
+            "form": 310
+          },
           {
             "id": 212,
             "form": 250

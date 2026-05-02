@@ -144491,7 +144491,7 @@
       "proto": "CHARACTER_NORMAL_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": false,
+      "secondReward": true,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -144510,12 +144510,12 @@
         ],
         "second": [
           {
-            "id": 19,
-            "formId": 45
-          },
-          {
             "id": 216,
             "formId": 1265
+          },
+          {
+            "id": 294,
+            "formId": 1445
           },
           {
             "id": 396,
@@ -144879,14 +144879,26 @@
         ],
         "second": [
           {
+            "id": 110,
+            "formId": 944
+          },
+          {
             "id": 282,
             "formId": 298
+          },
+          {
+            "id": 623,
+            "formId": 2261
           }
         ],
         "third": [
           {
             "id": 248,
             "formId": 319
+          },
+          {
+            "id": 323,
+            "formId": 1520
           }
         ]
       }
@@ -144923,6 +144935,14 @@
           }
         ],
         "third": [
+          {
+            "id": 6,
+            "formId": 178
+          },
+          {
+            "id": 65,
+            "formId": 310
+          },
           {
             "id": 212,
             "formId": 250
