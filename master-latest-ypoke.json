@@ -64954,7 +64954,13 @@
       "id": 497,
       "name": "Plasma Fists",
       "proto": "PLASMA_FISTS",
-      "fast": false
+      "fast": false,
+      "type": "Electric",
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
+      "power": 135,
+      "durationMs": 3500,
+      "energyDelta": -50
     }
   },
   "questTypes": {
