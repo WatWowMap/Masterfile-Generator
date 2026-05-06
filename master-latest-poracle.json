@@ -58974,7 +58974,8 @@
             "baseDefense": 229,
             "baseStamina": 163
           },
-          "unreleased": true
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -59006,7 +59007,8 @@
             "baseDefense": 229,
             "baseStamina": 163
           },
-          "unreleased": true
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
         }
       ]
     },
@@ -59029,7 +59031,19 @@
         "baseStamina": 163
       },
       "thirdMoveStardust": 75000,
-      "thirdMoveCandy": 75
+      "thirdMoveCandy": 75,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 1,
+          "stats": {
+            "baseAttack": 267,
+            "baseDefense": 229,
+            "baseStamina": 163
+          },
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        }
+      ]
     },
     "871_0": {
       "name": "Pincurchin",

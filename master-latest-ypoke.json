@@ -48159,7 +48159,8 @@
       "chargedMoves": [
         35,
         77,
-        251
+        251,
+        497
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -51447,7 +51448,17 @@
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 267,
+            "defense": 229,
+            "stamina": 163
+          }
+        }
+      }
     },
     "871": {
       "pokemonName": "Pincurchin",
@@ -55906,6 +55917,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 1,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,
@@ -55956,6 +55968,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 3,
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50,

@@ -41845,7 +41845,8 @@
       "charged_moves": [
         "Discharge",
         "Thunder Punch",
-        "Wild Charge"
+        "Wild Charge",
+        "Plasma Fists"
       ],
       "gen_id": 7,
       "generation": "Alola",
@@ -44699,7 +44700,10 @@
         "2870": {
           "name": "Gofest 2025 Train Conductor",
           "proto": "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR",
-          "is_costume": true
+          "is_costume": true,
+          "temp_evolutions": {
+            "1": {}
+          }
         }
       },
       "attack": 193,
@@ -44720,7 +44724,8 @@
           "attack": 267,
           "defense": 229,
           "stamina": 163,
-          "unreleased": true
+          "height": 1.6,
+          "weight": 99
         }
       }
     },
@@ -48675,6 +48680,7 @@
       "family": 955,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 1,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -48719,6 +48725,7 @@
       "family": 955,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
