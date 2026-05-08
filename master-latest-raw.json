@@ -108263,12 +108263,50 @@
       "formatted": "2026 Cologne Carnival 001",
       "imageUrl": "lc_carnivalFlamigo_cologne_2026"
     },
+    "245": {
+      "id": 245,
+      "proto": "LC_2026_COPENHAGEN_GOFEST_001",
+      "formatted": "2026 Copenhagen Gofest 001",
+      "imageUrl": "lc_GoFest2026_copenhagen",
+      "cardType": "LOCATION_CARD"
+    },
+    "246": {
+      "id": 246,
+      "proto": "LC_2026_TOKYO_GOFEST_001",
+      "formatted": "2026 Tokyo Gofest 001",
+      "imageUrl": "lc_GoFest2026_tokyo",
+      "cardType": "LOCATION_CARD"
+    },
+    "247": {
+      "id": 247,
+      "proto": "LC_2026_CHICAGO_GOFEST_001",
+      "formatted": "2026 Chicago Gofest 001",
+      "imageUrl": "lc_GoFest2026_chicago",
+      "cardType": "LOCATION_CARD"
+    },
     "248": {
       "id": 248,
       "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_GOFEST_001",
       "formatted": "2026 Global Gofest 001",
-      "imageUrl": "sb_GoTour2026_mega",
-      "cardType": "SPECIAL_BACKGROUND"
+      "imageUrl": "sb_GoFest2026_global",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2026_global"
+    },
+    "249": {
+      "id": 249,
+      "proto": "LC_SPECIALBACKGROUND_2026_MEWTWO_001",
+      "formatted": "2026 Mewtwo 001",
+      "imageUrl": "sb_GoFest2026_mewtwo",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2026_mewtwo_002"
+    },
+    "250": {
+      "id": 250,
+      "proto": "LC_SPECIALBACKGROUND_2026_MEWTWO_002",
+      "formatted": "2026 Mewtwo 002",
+      "imageUrl": "sb_GoFest2026_mewtwo",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_goFest_2026_mewtwo_001"
     },
     "252": {
       "id": 252,
@@ -108352,19 +108390,19 @@
       "id": 271,
       "proto": "LC_TOKMUN_STAMP_01",
       "formatted": "Tokmun Stamp 01",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_TokMun_shinagawa"
     },
     "272": {
       "id": 272,
       "proto": "LC_TOKMUN_STAMP_02",
       "formatted": "Tokmun Stamp 02",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_TokMun_koto"
     },
     "273": {
       "id": 273,
       "proto": "LC_TOKMUN_STAMP_03",
       "formatted": "Tokmun Stamp 03",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_TokMun_minato"
     }
   },
   "routeTypes": {
