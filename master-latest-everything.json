@@ -3463,7 +3463,8 @@
         "3342": {
           "name": "Fossil 2026",
           "proto": "PIKACHU_FOSSIL_2026",
-          "form": 3342
+          "form": 3342,
+          "isCostume": true
         },
         "3343": {
           "name": "Gofest 2026 Cap Blue",
@@ -100209,8 +100210,8 @@
           },
           "height": 1.6,
           "weight": 99,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -129016,8 +129017,8 @@
           "stamina": 163,
           "height": 1.6,
           "weight": 99,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -133683,8 +133684,8 @@
           "stamina": 163,
           "height": 1.6,
           "weight": 99,
-          "firstEnergyCost": 200,
-          "subsequentEnergyCost": 40
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -137065,7 +137066,8 @@
     "3342": {
       "formName": "Fossil 2026",
       "proto": "PIKACHU_FOSSIL_2026",
-      "formId": 3342
+      "formId": 3342,
+      "isCostume": true
     },
     "3343": {
       "formName": "Gofest 2026 Cap Blue",
