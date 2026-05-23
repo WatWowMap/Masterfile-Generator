@@ -19437,10 +19437,12 @@
         "2": {
           "tempEvoId": 2,
           "stats": {
-            "attack": 412,
-            "defense": 222,
-            "stamina": 235
+            "attack": 399,
+            "defense": 215,
+            "stamina": 228
           },
+          "height": 2.3,
+          "weight": 127,
           "types": {
             "2": {
               "typeId": 2,
@@ -19451,16 +19453,20 @@
               "typeName": "Psychic"
             }
           },
-          "unreleased": true
+          "firstEnergyCost": 7500,
+          "subsequentEnergyCost": 150
         },
         "3": {
           "tempEvoId": 3,
           "stats": {
-            "attack": 426,
-            "defense": 229,
-            "stamina": 235
+            "attack": 413,
+            "defense": 223,
+            "stamina": 228
           },
-          "unreleased": true
+          "height": 1.5,
+          "weight": 33,
+          "firstEnergyCost": 7500,
+          "subsequentEnergyCost": 150
         }
       }
     },
@@ -121309,28 +121315,34 @@
       "formName": "Normal",
       "proto": "MEWTWO_NORMAL",
       "formId": 135,
-      "purificationDust": 20000,
-      "purificationCandy": 20,
       "tempEvolutions": [
         {
           "tempEvoId": 2,
-          "attack": 412,
-          "defense": 222,
-          "stamina": 235,
+          "attack": 399,
+          "defense": 215,
+          "stamina": 228,
+          "height": 2.3,
+          "weight": 127,
           "types": [
             2,
             14
           ],
-          "unreleased": true
+          "firstEnergyCost": 7500,
+          "subsequentEnergyCost": 150
         },
         {
           "tempEvoId": 3,
-          "attack": 426,
-          "defense": 229,
-          "stamina": 235,
-          "unreleased": true
+          "attack": 413,
+          "defense": 223,
+          "stamina": 228,
+          "height": 1.5,
+          "weight": 33,
+          "firstEnergyCost": 7500,
+          "subsequentEnergyCost": 150
         }
-      ]
+      ],
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "136": {
       "formName": "Red-Striped",

@@ -10349,6 +10349,28 @@
       "thirdMoveCandy": 100,
       "tradable": true,
       "transferable": true,
+      "tempEvolutions": {
+        "2": {
+          "tempEvoId": 2,
+          "stats": {
+            "attack": 399,
+            "defense": 215,
+            "stamina": 228
+          },
+          "types": [
+            "Fighting",
+            "Psychic"
+          ]
+        },
+        "3": {
+          "tempEvoId": 3,
+          "stats": {
+            "attack": 413,
+            "defense": 223,
+            "stamina": 228
+          }
+        }
+      },
       "purificationDust": 20000,
       "purificationCandy": 20
     },
