@@ -1866,6 +1866,13 @@
           "type": 3,
           "power": 55
         },
+        "80": {
+          "moveId": 80,
+          "moveName": "Twister",
+          "proto": "TWISTER",
+          "type": 16,
+          "power": 50
+        },
         "122": {
           "moveId": 122,
           "moveName": "Hurricane",
@@ -15627,6 +15634,13 @@
           "type": 15,
           "power": 95
         },
+        "57": {
+          "moveId": 57,
+          "moveName": "Aqua Jet",
+          "proto": "AQUA_JET",
+          "type": 11,
+          "power": 45
+        },
         "65": {
           "moveId": 65,
           "moveName": "Power Gem",
@@ -18092,6 +18106,13 @@
           "type": 6,
           "power": 105
         },
+        "57": {
+          "moveId": 57,
+          "moveName": "Aqua Jet",
+          "proto": "AQUA_JET",
+          "type": 11,
+          "power": 45
+        },
         "62": {
           "moveId": 62,
           "moveName": "Ancient Power",
@@ -18679,6 +18700,13 @@
           "height": 1.6,
           "weight": 58.2,
           "quickMoves": {
+            "207": {
+              "moveId": 207,
+              "moveName": "Low Kick",
+              "proto": "LOW_KICK_FAST",
+              "type": 2,
+              "power": 5
+            },
             "243": {
               "moveId": 243,
               "moveName": "Counter",
@@ -21373,6 +21401,13 @@
           "proto": "STRUGGLE_BUG_FAST",
           "type": 7,
           "power": 15
+        },
+        "368": {
+          "moveId": 368,
+          "moveName": "Rollout",
+          "proto": "ROLLOUT_FAST",
+          "type": 6,
+          "power": 15
         }
       },
       "chargedMoves": {
@@ -21403,6 +21438,13 @@
           "proto": "SILVER_WIND",
           "type": 7,
           "power": 65
+        },
+        "364": {
+          "moveId": 364,
+          "moveName": "Acrobatics",
+          "proto": "ACROBATICS",
+          "type": 3,
+          "power": 100
         }
       },
       "genId": 2,
@@ -22672,6 +22714,13 @@
           "proto": "OMINOUS_WIND",
           "type": 8,
           "power": 55
+        },
+        "70": {
+          "moveId": 70,
+          "moveName": "Shadow Ball",
+          "proto": "SHADOW_BALL",
+          "type": 8,
+          "power": 100
         },
         "275": {
           "moveId": 275,
@@ -26365,6 +26414,13 @@
           "type": 11,
           "power": 50
         },
+        "70": {
+          "moveId": 70,
+          "moveName": "Shadow Ball",
+          "proto": "SHADOW_BALL",
+          "type": 8,
+          "power": 100
+        },
         "91": {
           "moveId": 91,
           "moveName": "Sludge Wave",
@@ -28288,6 +28344,13 @@
           "type": 11,
           "power": 45
         },
+        "80": {
+          "moveId": 80,
+          "moveName": "Twister",
+          "proto": "TWISTER",
+          "type": 16,
+          "power": 50
+        },
         "105": {
           "moveId": 105,
           "moveName": "Water Pulse",
@@ -28716,6 +28779,13 @@
           "proto": "OUTRAGE",
           "type": 16,
           "power": 110
+        },
+        "284": {
+          "moveId": 284,
+          "moveName": "Surf",
+          "proto": "SURF",
+          "type": 11,
+          "power": 60
         },
         "308": {
           "moveId": 308,
@@ -43492,12 +43562,26 @@
           "type": 8,
           "power": 50
         },
+        "77": {
+          "moveId": 77,
+          "moveName": "Thunder Punch",
+          "proto": "THUNDER_PUNCH",
+          "type": 13,
+          "power": 50
+        },
         "78": {
           "moveId": 78,
           "moveName": "Thunder",
           "proto": "THUNDER",
           "type": 13,
           "power": 100
+        },
+        "246": {
+          "moveId": 246,
+          "moveName": "Dynamic Punch",
+          "proto": "DYNAMIC_PUNCH",
+          "type": 2,
+          "power": 85
         },
         "280": {
           "moveId": 280,
@@ -51643,6 +51727,20 @@
           "type": 1,
           "power": 150
         },
+        "70": {
+          "moveId": 70,
+          "moveName": "Shadow Ball",
+          "proto": "SHADOW_BALL",
+          "type": 8,
+          "power": 100
+        },
+        "77": {
+          "moveId": 77,
+          "moveName": "Thunder Punch",
+          "proto": "THUNDER_PUNCH",
+          "type": 13,
+          "power": 50
+        },
         "115": {
           "moveId": 115,
           "moveName": "Fire Punch",
@@ -54786,6 +54884,13 @@
           "proto": "WATERFALL_FAST",
           "type": 11,
           "power": 13
+        },
+        "345": {
+          "moveId": 345,
+          "moveName": "Gust",
+          "proto": "GUST_FAST",
+          "type": 3,
+          "power": 25
         }
       },
       "chargedMoves": {
@@ -55569,6 +55674,13 @@
           "proto": "STONE_EDGE",
           "type": 6,
           "power": 105
+        },
+        "46": {
+          "moveId": 46,
+          "moveName": "Drill Run",
+          "proto": "DRILL_RUN",
+          "type": 5,
+          "power": 85
         },
         "284": {
           "moveId": 284,
@@ -62189,6 +62301,13 @@
           "proto": "SMACK_DOWN_FAST",
           "type": 6,
           "power": 13
+        },
+        "325": {
+          "moveId": 325,
+          "moveName": "Lock-On",
+          "proto": "LOCK_ON_FAST",
+          "type": 1,
+          "power": 2
         }
       },
       "chargedMoves": {
@@ -63062,6 +63181,13 @@
           "proto": "COUNTER_FAST",
           "type": 2,
           "power": 13
+        },
+        "462": {
+          "moveId": 462,
+          "moveName": "Force Palm",
+          "proto": "FORCE_PALM_FAST",
+          "type": 2,
+          "power": 10
         }
       },
       "chargedMoves": {
@@ -63368,6 +63494,13 @@
           "proto": "SLUDGE_BOMB",
           "type": 4,
           "power": 85
+        },
+        "111": {
+          "moveId": 111,
+          "moveName": "Icy Wind",
+          "proto": "ICY_WIND",
+          "type": 15,
+          "power": 65
         },
         "304": {
           "moveId": 304,
@@ -68211,6 +68344,13 @@
           "proto": "AIR_SLASH_FAST",
           "type": 3,
           "power": 12
+        },
+        "345": {
+          "moveId": 345,
+          "moveName": "Gust",
+          "proto": "GUST_FAST",
+          "type": 3,
+          "power": 25
         }
       },
       "chargedMoves": {
@@ -68225,6 +68365,13 @@
           "moveId": 53,
           "moveName": "Bubble Beam",
           "proto": "BUBBLE_BEAM",
+          "type": 11,
+          "power": 45
+        },
+        "57": {
+          "moveId": 57,
+          "moveName": "Aqua Jet",
+          "proto": "AQUA_JET",
           "type": 11,
           "power": 45
         },
@@ -80139,6 +80286,13 @@
           "proto": "CHARM_FAST",
           "type": 18,
           "power": 20
+        },
+        "350": {
+          "moveId": 350,
+          "moveName": "Fairy Wind",
+          "proto": "FAIRY_WIND_FAST",
+          "type": 18,
+          "power": 9
         }
       },
       "chargedMoves": {
@@ -82027,9 +82181,23 @@
           "proto": "CHARM_FAST",
           "type": 18,
           "power": 20
+        },
+        "350": {
+          "moveId": 350,
+          "moveName": "Fairy Wind",
+          "proto": "FAIRY_WIND_FAST",
+          "type": 18,
+          "power": 9
         }
       },
       "chargedMoves": {
+        "70": {
+          "moveId": 70,
+          "moveName": "Shadow Ball",
+          "proto": "SHADOW_BALL",
+          "type": 8,
+          "power": 100
+        },
         "85": {
           "moveId": 85,
           "moveName": "Draining Kiss",
@@ -82484,6 +82652,13 @@
         }
       },
       "quickMoves": {
+        "204": {
+          "moveId": 204,
+          "moveName": "Dragon Breath",
+          "proto": "DRAGON_BREATH_FAST",
+          "type": 16,
+          "power": 6
+        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
@@ -82520,6 +82695,13 @@
           "proto": "WATER_PULSE",
           "type": 11,
           "power": 65
+        },
+        "131": {
+          "moveId": 131,
+          "moveName": "Body Slam",
+          "proto": "BODY_SLAM",
+          "type": 1,
+          "power": 50
         },
         "316": {
           "moveId": 316,
@@ -94246,6 +94428,13 @@
           "type": 13,
           "power": 80
         },
+        "246": {
+          "moveId": 246,
+          "moveName": "Dynamic Punch",
+          "proto": "DYNAMIC_PUNCH",
+          "type": 2,
+          "power": 85
+        },
         "310": {
           "moveId": 310,
           "moveName": "Superpower",
@@ -105089,6 +105278,13 @@
         }
       },
       "quickMoves": {
+        "207": {
+          "moveId": 207,
+          "moveName": "Low Kick",
+          "proto": "LOW_KICK_FAST",
+          "type": 2,
+          "power": 5
+        },
         "210": {
           "moveId": 210,
           "moveName": "Wing Attack",
@@ -132960,6 +133156,7 @@
       "height": 1.6,
       "weight": 58.2,
       "quickMoves": [
+        207,
         243
       ],
       "chargedMoves": [

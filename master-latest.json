@@ -907,6 +907,7 @@
       "charged_moves": [
         "Heat Wave",
         "Aerial Ace",
+        "Twister",
         "Hurricane",
         "Brave Bird",
         "Feather Dance"
@@ -7042,6 +7043,7 @@
       "charged_moves": [
         "Psybeam",
         "Ice Beam",
+        "Aqua Jet",
         "Power Gem",
         "Thunder",
         "Hydro Pump",
@@ -8152,6 +8154,7 @@
       ],
       "charged_moves": [
         "Stone Edge",
+        "Aqua Jet",
         "Ancient Power",
         "Water Pulse"
       ],
@@ -8386,6 +8389,7 @@
           "height": 1.6,
           "weight": 58.2,
           "quick_moves": [
+            "Low Kick",
             "Counter"
           ],
           "charged_moves": [
@@ -9505,13 +9509,15 @@
       "quick_moves": [
         "Bug Bite",
         "Counter",
-        "Struggle Bug"
+        "Struggle Bug",
+        "Rollout"
       ],
       "charged_moves": [
         "Aerial Ace",
         "Bug Buzz",
         "Dynamic Punch",
-        "Silver Wind"
+        "Silver Wind",
+        "Acrobatics"
       ],
       "gen_id": 2,
       "generation": "Johto",
@@ -10084,6 +10090,7 @@
         "Aerial Ace",
         "Psyshock",
         "Ominous Wind",
+        "Shadow Ball",
         "Futuresight"
       ],
       "gen_id": 2,
@@ -11791,6 +11798,7 @@
       "charged_moves": [
         "Ice Beam",
         "Aqua Tail",
+        "Shadow Ball",
         "Sludge Wave",
         "Scald",
         "Acid Spray",
@@ -12608,6 +12616,7 @@
         "Ice Beam",
         "Aerial Ace",
         "Bubble Beam",
+        "Twister",
         "Water Pulse"
       ],
       "gen_id": 2,
@@ -12803,6 +12812,7 @@
         "Hydro Pump",
         "Swift",
         "Outrage",
+        "Surf",
         "Octazooka"
       ],
       "gen_id": 2,
@@ -18959,7 +18969,9 @@
         "Ice Beam",
         "Aerial Ace",
         "Shadow Sneak",
+        "Thunder Punch",
         "Thunder",
+        "Dynamic Punch",
         "Foul Play"
       ],
       "gen_id": 3,
@@ -22704,6 +22716,8 @@
       ],
       "charged_moves": [
         "Hyper Beam",
+        "Shadow Ball",
+        "Thunder Punch",
         "Fire Punch",
         "Focus Blast",
         "Triple Axel"
@@ -24101,7 +24115,8 @@
       ],
       "quick_moves": [
         "Water Gun",
-        "Waterfall"
+        "Waterfall",
+        "Gust"
       ],
       "charged_moves": [
         "Blizzard",
@@ -24427,6 +24442,7 @@
       "charged_moves": [
         "Earthquake",
         "Stone Edge",
+        "Drill Run",
         "Surf",
         "Skull Bash",
         "Super Power",
@@ -27387,7 +27403,8 @@
       ],
       "quick_moves": [
         "Mud Slap",
-        "Smack Down"
+        "Smack Down",
+        "Lock On"
       ],
       "charged_moves": [
         "Rock Slide",
@@ -27776,7 +27793,8 @@
       ],
       "quick_moves": [
         "Poison Jab",
-        "Counter"
+        "Counter",
+        "Force Palm"
       ],
       "charged_moves": [
         "Stone Edge",
@@ -27919,6 +27937,7 @@
       ],
       "charged_moves": [
         "Sludge Bomb",
+        "Icy Wind",
         "Earth Power",
         "Muddy Water"
       ],
@@ -30107,11 +30126,13 @@
       ],
       "quick_moves": [
         "Water Gun",
-        "Air Slash"
+        "Air Slash",
+        "Gust"
       ],
       "charged_moves": [
         "Ice Beam",
         "Bubble Beam",
+        "Aqua Jet",
         "Hurricane",
         "Fly"
       ],
@@ -35672,7 +35693,8 @@
       ],
       "quick_moves": [
         "Charge Beam",
-        "Charm"
+        "Charm",
+        "Fairy Wind"
       ],
       "charged_moves": [
         "Psyshock",
@@ -36481,9 +36503,11 @@
       ],
       "quick_moves": [
         "Quick Attack",
-        "Charm"
+        "Charm",
+        "Fairy Wind"
       ],
       "charged_moves": [
+        "Shadow Ball",
         "Draining Kiss",
         "Dazzling Gleam",
         "Moonblast"
@@ -36700,6 +36724,7 @@
         "Dragon"
       ],
       "quick_moves": [
+        "Dragon Breath",
         "Tackle",
         "Water Gun"
       ],
@@ -36707,6 +36732,7 @@
         "Dragon Pulse",
         "Sludge Wave",
         "Water Pulse",
+        "Body Slam",
         "Muddy Water"
       ],
       "gen_id": 6,
@@ -41946,6 +41972,7 @@
         "Flash Cannon",
         "Rock Slide",
         "Thunderbolt",
+        "Dynamic Punch",
         "Super Power"
       ],
       "gen_id": 7,
@@ -46763,6 +46790,7 @@
         "Water"
       ],
       "quick_moves": [
+        "Low Kick",
         "Wing Attack",
         "Water Gun"
       ],
