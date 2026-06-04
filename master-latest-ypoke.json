@@ -65594,7 +65594,18 @@
       "id": 590,
       "name": "Glaive Rush",
       "proto": "GLAIVE_RUSH",
-      "fast": false
+      "fast": false,
+      "type": "Dragon",
+      "pvpPower": 90,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 105,
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "592": {
       "id": 592,
