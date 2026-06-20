@@ -36240,6 +36240,8 @@
     "2152": "Event Pass Point Monthly 02",
     "2153": "Event Pass Point Monthly 03",
     "2205": "Event Ticket S23 2026 01",
+    "2207": "Event Ticket S23 2026 03",
+    "2213": "Event Ticket S23 2026 09",
     "2237": "Event Ticket S23 2026 01 To Gift"
   },
   "moves": {
@@ -41173,6 +41175,11 @@
     "273": {
       "proto": "LC_TOKMUN_STAMP_03",
       "formatted": "Tokmun Stamp 03"
+    },
+    "277": {
+      "proto": "LC_SPECIALBACKGROUND_2026_ARRAIA",
+      "formatted": "2026 Arraia",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "280": {
       "proto": "LC_2026_BR_001",

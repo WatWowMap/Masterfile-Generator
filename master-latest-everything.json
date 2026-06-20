@@ -137367,6 +137367,38 @@
       "formName": "Anniversary 2026",
       "proto": "PIKACHU_ANNIVERSARY_2026",
       "formId": 3348
+    },
+    "3351": {
+      "sizeSettings": [
+        {
+          "name": "xxsLowerBound",
+          "value": 0.049
+        },
+        {
+          "name": "xsLowerBound",
+          "value": 0.05
+        },
+        {
+          "name": "mLowerBound",
+          "value": 0.075
+        },
+        {
+          "name": "mUpperBound",
+          "value": 0.125
+        },
+        {
+          "name": "xlUpperBound",
+          "value": 0.15
+        },
+        {
+          "name": "xxlUpperBound",
+          "value": 0.155
+        }
+      ],
+      "formName": "",
+      "proto": "",
+      "formId": 3351,
+      "isCostume": true
     }
   },
   "types": {
@@ -140226,6 +140258,20 @@
       "id": 2205,
       "name": "Event Ticket S23 2026 01",
       "proto": "ITEM_EVENT_TICKET_S23_2026_01",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2207": {
+      "id": 2207,
+      "name": "Event Ticket S23 2026 03",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_03",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2213": {
+      "id": 2213,
+      "name": "Event Ticket S23 2026 09",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_09",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -148046,6 +148092,14 @@
       "proto": "LC_TOKMUN_STAMP_03",
       "formatted": "Tokmun Stamp 03",
       "imageUrl": "lc_TokMun_minato"
+    },
+    "277": {
+      "id": 277,
+      "proto": "LC_SPECIALBACKGROUND_2026_ARRAIA",
+      "formatted": "2026 Arraia",
+      "imageUrl": "sb_arraia_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_arraia_2026"
     },
     "280": {
       "id": 280,
