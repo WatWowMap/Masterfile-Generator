@@ -57192,7 +57192,8 @@
           736
         ],
         "second": [
-          347
+          347,
+          751
         ],
         "third": [
           738
@@ -57261,10 +57262,12 @@
         ],
         "second": [
           103,
-          148
+          148,
+          444
         ],
         "third": [
-          149
+          149,
+          445
         ]
       }
     },
@@ -57286,7 +57289,8 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          37
+          37,
+          209
         ],
         "second": [
           281
@@ -57340,7 +57344,7 @@
       "type": "Fire",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           77,
@@ -57378,7 +57382,8 @@
         ],
         "second": [
           41,
-          123
+          123,
+          207
         ],
         "third": [
           149,
@@ -57412,18 +57417,18 @@
       "type": "Grass",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           114,
-          252
+          252,
+          708
         ],
         "second": [
-          708,
+          254,
           755
         ],
         "third": [
-          254,
           652,
           709
         ]
@@ -57513,6 +57518,15 @@
           27,
           304,
           374
+        ],
+        "second": [
+          227,
+          375
+        ],
+        "third": [
+          28,
+          306,
+          476
         ]
       }
     },
@@ -57595,7 +57609,7 @@
       "type": "Psychic",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": false,
+      "second_reward": true,
       "encounters": {
         "first": [
           96,
@@ -57603,7 +57617,8 @@
           280
         ],
         "second": [
-          202
+          202,
+          578
         ],
         "third": [
           475,
@@ -57650,16 +57665,19 @@
       "type": "Water",
       "gender": 2,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
+          72,
           98,
           258
         ],
         "second": [
+          260,
           319
         ],
         "third": [
+          365,
           658
         ]
       }
@@ -57747,6 +57765,7 @@
           598
         ],
         "third": [
+          208,
           229,
           350
         ]
@@ -57820,14 +57839,16 @@
         "first": [
           92,
           355,
-          562
+          562,
+          607
         ],
         "second": [
           302,
           563
         ],
         "third": [
-          478
+          478,
+          563
         ]
       }
     },
@@ -57838,13 +57859,17 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          403
+          403,
+          694
         ],
         "second": [
+          74,
           100
         ],
         "third": [
-          405
+          181,
+          405,
+          596
         ]
       }
     },
