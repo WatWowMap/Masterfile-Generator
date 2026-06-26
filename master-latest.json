@@ -53487,6 +53487,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2206": {
+      "name": "Event Ticket S23 2026 02",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2207": {
       "name": "Event Ticket S23 2026 03",
       "proto": "ITEM_EVENT_TICKET_S23_2026_03",
@@ -53502,6 +53508,12 @@
     "2237": {
       "name": "Event Ticket S23 2026 01 To Gift",
       "proto": "ITEM_EVENT_TICKET_S23_2026_01_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2238": {
+      "name": "Event Ticket S23 2026 02 To Gift",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_02_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
@@ -56392,7 +56404,9 @@
     },
     "592": {
       "name": "Snipe Shot",
-      "proto": "SNIPE_SHOT"
+      "proto": "SNIPE_SHOT",
+      "type": "Water",
+      "power": 100
     },
     "594": {
       "name": "Gulp Missile Gulping",
@@ -57278,10 +57292,12 @@
         ],
         "second": [
           20,
+          228,
           359
         ],
         "third": [
-          510
+          510,
+          635
         ]
       }
     },
@@ -57406,7 +57422,8 @@
       "encounters": {
         "first": [
           77,
-          255
+          255,
+          607
         ],
         "second": [
           126,
@@ -57910,7 +57927,7 @@
       "type": "Ghost",
       "gender": 1,
       "grunt": "Grunt",
-      "second_reward": true,
+      "second_reward": false,
       "encounters": {
         "first": [
           92,
@@ -57919,6 +57936,7 @@
         ],
         "second": [
           302,
+          356,
           563
         ],
         "third": [

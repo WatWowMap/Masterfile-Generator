@@ -36268,9 +36268,11 @@
     "2152": "Event Pass Point Monthly 02",
     "2153": "Event Pass Point Monthly 03",
     "2205": "Event Ticket S23 2026 01",
+    "2206": "Event Ticket S23 2026 02",
     "2207": "Event Ticket S23 2026 03",
     "2213": "Event Ticket S23 2026 09",
-    "2237": "Event Ticket S23 2026 01 To Gift"
+    "2237": "Event Ticket S23 2026 01 To Gift",
+    "2238": "Event Ticket S23 2026 02 To Gift"
   },
   "moves": {
     "0": {
@@ -38247,7 +38249,8 @@
       "type": 16
     },
     "592": {
-      "name": "Snipe Shot"
+      "name": "Snipe Shot",
+      "type": 11
     },
     "594": {
       "name": "Gulp Missile Gulping"
@@ -38547,12 +38550,12 @@
         ],
         "second": [
           {
-            "id": [],
-            "form": 0
-          },
-          {
             "id": 20,
             "form": 48
+          },
+          {
+            "id": 228,
+            "form": 229
           },
           {
             "id": 359,
@@ -38565,12 +38568,12 @@
             "form": 0
           },
           {
-            "id": [],
-            "form": 0
-          },
-          {
             "id": 510,
             "form": 1934
+          },
+          {
+            "id": 635,
+            "form": 2297
           }
         ]
       }
@@ -38793,16 +38796,16 @@
       "encounters": {
         "first": [
           {
-            "id": [],
-            "form": 0
-          },
-          {
             "id": 77,
             "form": 1011
           },
           {
             "id": 255,
             "form": 1358
+          },
+          {
+            "id": 607,
+            "form": 2213
           }
         ],
         "second": [
@@ -39756,7 +39759,7 @@
       "gender": 1,
       "grunt": "Grunt",
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -39775,12 +39778,12 @@
         ],
         "second": [
           {
-            "id": [],
-            "form": 0
-          },
-          {
             "id": 302,
             "form": 923
+          },
+          {
+            "id": 356,
+            "form": 917
           },
           {
             "id": 563,

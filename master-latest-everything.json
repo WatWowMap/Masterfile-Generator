@@ -140321,6 +140321,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2206": {
+      "id": 2206,
+      "name": "Event Ticket S23 2026 02",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_02",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2207": {
       "id": 2207,
       "name": "Event Ticket S23 2026 03",
@@ -140339,6 +140346,13 @@
       "id": 2237,
       "name": "Event Ticket S23 2026 01 To Gift",
       "proto": "ITEM_EVENT_TICKET_S23_2026_01_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2238": {
+      "id": 2238,
+      "name": "Event Ticket S23 2026 02 To Gift",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_02_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
@@ -143373,7 +143387,8 @@
     "592": {
       "id": 592,
       "name": "Snipe Shot",
-      "proto": "SNIPE_SHOT"
+      "proto": "SNIPE_SHOT",
+      "power": 100
     },
     "594": {
       "id": 594,
@@ -144708,12 +144723,12 @@
         ],
         "second": [
           {
-            "id": [],
-            "formId": 0
-          },
-          {
             "id": 20,
             "formId": 48
+          },
+          {
+            "id": 228,
+            "formId": 229
           },
           {
             "id": 359,
@@ -144726,12 +144741,12 @@
             "formId": 0
           },
           {
-            "id": [],
-            "formId": 0
-          },
-          {
             "id": 510,
             "formId": 1934
+          },
+          {
+            "id": 635,
+            "formId": 2297
           }
         ]
       }
@@ -144978,16 +144993,16 @@
       "encounters": {
         "first": [
           {
-            "id": [],
-            "formId": 0
-          },
-          {
             "id": 77,
             "formId": 1011
           },
           {
             "id": 255,
             "formId": 1358
+          },
+          {
+            "id": 607,
+            "formId": 2213
           }
         ],
         "second": [
@@ -146031,7 +146046,7 @@
       "proto": "CHARACTER_GHOST_GRUNT_MALE",
       "active": true,
       "firstReward": true,
-      "secondReward": true,
+      "secondReward": false,
       "thirdReward": false,
       "encounters": {
         "first": [
@@ -146050,12 +146065,12 @@
         ],
         "second": [
           {
-            "id": [],
-            "formId": 0
-          },
-          {
             "id": 302,
             "formId": 923
+          },
+          {
+            "id": 356,
+            "formId": 917
           },
           {
             "id": 563,
