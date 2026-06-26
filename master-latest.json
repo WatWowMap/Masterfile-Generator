@@ -197,6 +197,10 @@
           "name": "Fall 2019",
           "proto": "CHARMANDER_FALL_2019",
           "is_costume": true
+        },
+        "3354": {
+          "name": "Goggles 2026",
+          "proto": "CHARMANDER_GOGGLES_2026"
         }
       },
       "attack": 116,
@@ -248,6 +252,10 @@
               "form": 178
             }
           ]
+        },
+        "3355": {
+          "name": "Goggles 2026",
+          "proto": "CHARMELEON_GOGGLES_2026"
         }
       },
       "attack": 158,
@@ -302,6 +310,10 @@
         "951": {
           "name": "Copy 2019",
           "proto": "CHARIZARD_COPY_2019"
+        },
+        "3356": {
+          "name": "Goggles 2026",
+          "proto": "CHARIZARD_GOGGLES_2026"
         }
       },
       "attack": 223,
@@ -1710,6 +1722,18 @@
         "3348": {
           "name": "Anniversary 2026",
           "proto": "PIKACHU_ANNIVERSARY_2026"
+        },
+        "3352": {
+          "name": "Pxp 2026",
+          "proto": "PIKACHU_PXP_2026"
+        },
+        "3353": {
+          "name": "Wcs 2026",
+          "proto": "PIKACHU_WCS_2026"
+        },
+        "3357": {
+          "name": "Glass Helmet 2026",
+          "proto": "PIKACHU_GLASS_HELMET_2026"
         }
       },
       "attack": 112,
@@ -43603,6 +43627,14 @@
         "3182": {
           "name": "Normal",
           "proto": "CRAMORANT_NORMAL"
+        },
+        "3349": {
+          "name": "Gulping",
+          "proto": "CRAMORANT_GULPING"
+        },
+        "3350": {
+          "name": "Gorging",
+          "proto": "CRAMORANT_GORGING"
         }
       },
       "attack": 173,
@@ -50897,8 +50929,8 @@
           "is_costume": true
         },
         "3351": {
-          "name": "Coin A2",
-          "proto": "GIMMIGHOUL_COIN_A2",
+          "name": "Coin A2 2026",
+          "proto": "GIMMIGHOUL_COIN_A2_2026",
           "is_costume": true
         }
       },
@@ -56361,6 +56393,14 @@
     "592": {
       "name": "Snipe Shot",
       "proto": "SNIPE_SHOT"
+    },
+    "594": {
+      "name": "Gulp Missile Gulping",
+      "proto": "GULP_MISSILE_GULPING"
+    },
+    "595": {
+      "name": "Gulp Missile Gorging",
+      "proto": "GULP_MISSILE_GORGING"
     }
   },
   "quest_types": {

@@ -292,7 +292,8 @@
       "generation": "Kanto",
       "forms": [
         172,
-        896
+        896,
+        3354
       ],
       "sizeSettings": [
         {
@@ -382,7 +383,8 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        175
+        175,
+        3355
       ],
       "sizeSettings": [
         {
@@ -481,7 +483,8 @@
       "generation": "Kanto",
       "forms": [
         178,
-        951
+        951,
+        3356
       ],
       "sizeSettings": [
         {
@@ -2080,7 +2083,10 @@
         3343,
         3344,
         3345,
-        3348
+        3348,
+        3352,
+        3353,
+        3357
       ],
       "sizeSettings": [
         {
@@ -64209,7 +64215,9 @@
       "genId": 8,
       "generation": "Galar",
       "forms": [
-        3182
+        3182,
+        3349,
+        3350
       ],
       "sizeSettings": [
         {
@@ -95307,37 +95315,51 @@
       "proto": "PIKACHU_ANNIVERSARY_2026",
       "formId": 3348
     },
+    "3349": {
+      "formName": "Gulping",
+      "proto": "CRAMORANT_GULPING",
+      "formId": 3349
+    },
+    "3350": {
+      "formName": "Gorging",
+      "proto": "CRAMORANT_GORGING",
+      "formId": 3350
+    },
     "3351": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.049
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.075
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.125
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.155
-        }
-      ],
-      "formName": "Coin A2",
-      "proto": "GIMMIGHOUL_COIN_A2",
+      "formName": "Coin A2 2026",
+      "proto": "GIMMIGHOUL_COIN_A2_2026",
       "formId": 3351,
       "isCostume": true
+    },
+    "3352": {
+      "formName": "Pxp 2026",
+      "proto": "PIKACHU_PXP_2026",
+      "formId": 3352
+    },
+    "3353": {
+      "formName": "Wcs 2026",
+      "proto": "PIKACHU_WCS_2026",
+      "formId": 3353
+    },
+    "3354": {
+      "formName": "Goggles 2026",
+      "proto": "CHARMANDER_GOGGLES_2026",
+      "formId": 3354
+    },
+    "3355": {
+      "formName": "Goggles 2026",
+      "proto": "CHARMELEON_GOGGLES_2026",
+      "formId": 3355
+    },
+    "3356": {
+      "formName": "Goggles 2026",
+      "proto": "CHARIZARD_GOGGLES_2026",
+      "formId": 3356
+    },
+    "3357": {
+      "formName": "Glass Helmet 2026",
+      "proto": "PIKACHU_GLASS_HELMET_2026",
+      "formId": 3357
     }
   },
   "types": {
@@ -103239,6 +103261,18 @@
       "moveId": 592,
       "moveName": "Snipe Shot",
       "proto": "SNIPE_SHOT",
+      "fast": false
+    },
+    "594": {
+      "moveId": 594,
+      "moveName": "Gulp Missile Gulping",
+      "proto": "GULP_MISSILE_GULPING",
+      "fast": false
+    },
+    "595": {
+      "moveId": 595,
+      "moveName": "Gulp Missile Gorging",
+      "proto": "GULP_MISSILE_GORGING",
       "fast": false
     }
   },

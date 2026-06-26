@@ -415,6 +415,11 @@
           "proto": "CHARMANDER_FALL_2019",
           "form": 896,
           "isCostume": true
+        },
+        "3354": {
+          "name": "Goggles 2026",
+          "proto": "CHARMANDER_GOGGLES_2026",
+          "form": 3354
         }
       },
       "stats": {
@@ -514,6 +519,11 @@
               "candyCost": 100
             }
           }
+        },
+        "3355": {
+          "name": "Goggles 2026",
+          "proto": "CHARMELEON_GOGGLES_2026",
+          "form": 3355
         }
       },
       "stats": {
@@ -633,6 +643,11 @@
           "name": "Copy 2019",
           "proto": "CHARIZARD_COPY_2019",
           "form": 951
+        },
+        "3356": {
+          "name": "Goggles 2026",
+          "proto": "CHARIZARD_GOGGLES_2026",
+          "form": 3356
         }
       },
       "stats": {
@@ -3492,6 +3507,21 @@
           "name": "Anniversary 2026",
           "proto": "PIKACHU_ANNIVERSARY_2026",
           "form": 3348
+        },
+        "3352": {
+          "name": "Pxp 2026",
+          "proto": "PIKACHU_PXP_2026",
+          "form": 3352
+        },
+        "3353": {
+          "name": "Wcs 2026",
+          "proto": "PIKACHU_WCS_2026",
+          "form": 3353
+        },
+        "3357": {
+          "name": "Glass Helmet 2026",
+          "proto": "PIKACHU_GLASS_HELMET_2026",
+          "form": 3357
         }
       },
       "stats": {
@@ -97881,6 +97911,16 @@
           "name": "Normal",
           "proto": "CRAMORANT_NORMAL",
           "form": 3182
+        },
+        "3349": {
+          "name": "Gulping Form",
+          "proto": "CRAMORANT_GULPING",
+          "form": 3349
+        },
+        "3350": {
+          "name": "Gorging Form",
+          "proto": "CRAMORANT_GORGING",
+          "form": 3350
         }
       },
       "stats": {
@@ -115899,8 +115939,8 @@
           "isCostume": true
         },
         "3351": {
-          "name": "Coin A2",
-          "proto": "GIMMIGHOUL_COIN_A2",
+          "name": "Coin A2 2026",
+          "proto": "GIMMIGHOUL_COIN_A2_2026",
           "form": 3351,
           "isCostume": true
         }
@@ -137374,37 +137414,51 @@
       "proto": "PIKACHU_ANNIVERSARY_2026",
       "formId": 3348
     },
+    "3349": {
+      "formName": "Gulping Form",
+      "proto": "CRAMORANT_GULPING",
+      "formId": 3349
+    },
+    "3350": {
+      "formName": "Gorging Form",
+      "proto": "CRAMORANT_GORGING",
+      "formId": 3350
+    },
     "3351": {
-      "sizeSettings": [
-        {
-          "name": "xxsLowerBound",
-          "value": 0.049
-        },
-        {
-          "name": "xsLowerBound",
-          "value": 0.05
-        },
-        {
-          "name": "mLowerBound",
-          "value": 0.075
-        },
-        {
-          "name": "mUpperBound",
-          "value": 0.125
-        },
-        {
-          "name": "xlUpperBound",
-          "value": 0.15
-        },
-        {
-          "name": "xxlUpperBound",
-          "value": 0.155
-        }
-      ],
-      "formName": "Coin A2",
-      "proto": "GIMMIGHOUL_COIN_A2",
+      "formName": "Coin A2 2026",
+      "proto": "GIMMIGHOUL_COIN_A2_2026",
       "formId": 3351,
       "isCostume": true
+    },
+    "3352": {
+      "formName": "Pxp 2026",
+      "proto": "PIKACHU_PXP_2026",
+      "formId": 3352
+    },
+    "3353": {
+      "formName": "Wcs 2026",
+      "proto": "PIKACHU_WCS_2026",
+      "formId": 3353
+    },
+    "3354": {
+      "formName": "Goggles 2026",
+      "proto": "CHARMANDER_GOGGLES_2026",
+      "formId": 3354
+    },
+    "3355": {
+      "formName": "Goggles 2026",
+      "proto": "CHARMELEON_GOGGLES_2026",
+      "formId": 3355
+    },
+    "3356": {
+      "formName": "Goggles 2026",
+      "proto": "CHARIZARD_GOGGLES_2026",
+      "formId": 3356
+    },
+    "3357": {
+      "formName": "Glass Helmet 2026",
+      "proto": "PIKACHU_GLASS_HELMET_2026",
+      "formId": 3357
     }
   },
   "types": {
@@ -143320,6 +143374,16 @@
       "id": 592,
       "name": "Snipe Shot",
       "proto": "SNIPE_SHOT"
+    },
+    "594": {
+      "id": 594,
+      "name": "Gulp Missile Gulping",
+      "proto": "GULP_MISSILE_GULPING"
+    },
+    "595": {
+      "id": 595,
+      "name": "Gulp Missile Gorging",
+      "proto": "GULP_MISSILE_GORGING"
     }
   },
   "questTypes": {

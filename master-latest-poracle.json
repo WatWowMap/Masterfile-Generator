@@ -329,6 +329,27 @@
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25
     },
+    "4_3354": {
+      "name": "Charmander",
+      "id": 4,
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "form": {
+        "name": "Goggles 2026",
+        "id": 3354
+      },
+      "stats": {
+        "baseAttack": 116,
+        "baseDefense": 93,
+        "baseStamina": 118
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "5_0": {
       "name": "Charmeleon",
       "id": 5,
@@ -384,6 +405,27 @@
           "candyCost": 100
         }
       ]
+    },
+    "5_3355": {
+      "name": "Charmeleon",
+      "id": 5,
+      "types": [
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "form": {
+        "name": "Goggles 2026",
+        "id": 3355
+      },
+      "stats": {
+        "baseAttack": 158,
+        "baseDefense": 126,
+        "baseStamina": 151
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
     },
     "6_0": {
       "name": "Charizard",
@@ -515,6 +557,31 @@
       "form": {
         "name": "Copy 2019",
         "id": 951
+      },
+      "stats": {
+        "baseAttack": 223,
+        "baseDefense": 173,
+        "baseStamina": 186
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "6_3356": {
+      "name": "Charizard",
+      "id": 6,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 10,
+          "name": "Fire"
+        }
+      ],
+      "form": {
+        "name": "Goggles 2026",
+        "id": 3356
       },
       "stats": {
         "baseAttack": 223,
@@ -3245,6 +3312,69 @@
       "form": {
         "name": "Anniversary 2026",
         "id": 3348
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3352": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Pxp 2026",
+        "id": 3352
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3353": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Wcs 2026",
+        "id": 3353
+      },
+      "stats": {
+        "baseAttack": 112,
+        "baseDefense": 96,
+        "baseStamina": 111
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "25_3357": {
+      "name": "Pikachu",
+      "id": 25,
+      "types": [
+        {
+          "id": 13,
+          "name": "Electric"
+        }
+      ],
+      "form": {
+        "name": "Glass Helmet 2026",
+        "id": 3357
       },
       "stats": {
         "baseAttack": 112,
@@ -57632,6 +57762,56 @@
       "thirdMoveStardust": 50000,
       "thirdMoveCandy": 50
     },
+    "845_3349": {
+      "name": "Cramorant",
+      "id": 845,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Gulping Form",
+        "id": 3349
+      },
+      "stats": {
+        "baseAttack": 173,
+        "baseDefense": 163,
+        "baseStamina": 172
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "845_3350": {
+      "name": "Cramorant",
+      "id": 845,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 11,
+          "name": "Water"
+        }
+      ],
+      "form": {
+        "name": "Gorging Form",
+        "id": 3350
+      },
+      "stats": {
+        "baseAttack": 173,
+        "baseDefense": 163,
+        "baseStamina": 172
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
     "846_0": {
       "name": "Arrokuda",
       "id": 846,
@@ -66365,7 +66545,7 @@
         }
       ],
       "form": {
-        "name": "Coin A2",
+        "name": "Coin A2 2026",
         "id": 3351
       },
       "stats": {

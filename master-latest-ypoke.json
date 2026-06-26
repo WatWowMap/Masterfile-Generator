@@ -223,6 +223,10 @@
           "formName": "Fall 2019",
           "formId": 896,
           "isCostume": true
+        },
+        "3354": {
+          "formName": "Goggles 2026",
+          "formId": 3354
         }
       },
       "stats": {
@@ -283,6 +287,10 @@
               "candyCost": 100
             }
           ]
+        },
+        "3355": {
+          "formName": "Goggles 2026",
+          "formId": 3355
         }
       },
       "stats": {
@@ -345,6 +353,10 @@
         "178": {
           "formName": "Normal",
           "formId": 178
+        },
+        "3356": {
+          "formName": "Goggles 2026",
+          "formId": 3356
         }
       },
       "stats": {
@@ -1986,6 +1998,18 @@
         "3348": {
           "formName": "Anniversary 2026",
           "formId": 3348
+        },
+        "3352": {
+          "formName": "Pxp 2026",
+          "formId": 3352
+        },
+        "3353": {
+          "formName": "Wcs 2026",
+          "formId": 3353
+        },
+        "3357": {
+          "formName": "Glass Helmet 2026",
+          "formId": 3357
         }
       },
       "stats": {
@@ -50231,6 +50255,14 @@
         "3182": {
           "formName": "Normal",
           "formId": 3182
+        },
+        "3349": {
+          "formName": "Gulping",
+          "formId": 3349
+        },
+        "3350": {
+          "formName": "Gorging",
+          "formId": 3350
         }
       },
       "stats": {
@@ -58064,7 +58096,7 @@
           "isCostume": true
         },
         "3351": {
-          "formName": "Coin A2",
+          "formName": "Coin A2 2026",
           "formId": 3351,
           "isCostume": true
         }
@@ -65671,6 +65703,18 @@
       "id": 592,
       "name": "Snipe Shot",
       "proto": "SNIPE_SHOT",
+      "fast": false
+    },
+    "594": {
+      "id": 594,
+      "name": "Gulp Missile Gulping",
+      "proto": "GULP_MISSILE_GULPING",
+      "fast": false
+    },
+    "595": {
+      "id": 595,
+      "name": "Gulp Missile Gorging",
+      "proto": "GULP_MISSILE_GORGING",
       "fast": false
     }
   },
