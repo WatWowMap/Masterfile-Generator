@@ -2117,7 +2117,25 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": {
+        "2": {
+          "tempEvoId": 2,
+          "stats": {
+            "attack": 277,
+            "defense": 203,
+            "stamina": 155
+          }
+        },
+        "3": {
+          "tempEvoId": 3,
+          "stats": {
+            "attack": 339,
+            "defense": 157,
+            "stamina": 155
+          }
+        }
+      }
     },
     "27": {
       "pokemonName": "Sandshrew",

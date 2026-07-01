@@ -3786,7 +3786,10 @@
             "defense": 203,
             "stamina": 155
           },
-          "unreleased": true
+          "height": 1.2,
+          "weight": 38,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         },
         "3": {
           "tempEvoId": 3,
@@ -3795,7 +3798,10 @@
             "defense": 157,
             "stamina": 155
           },
-          "unreleased": true
+          "height": 1,
+          "weight": 26,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -120125,14 +120131,20 @@
           "attack": 277,
           "defense": 203,
           "stamina": 155,
-          "unreleased": true
+          "height": 1.2,
+          "weight": 38,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         },
         {
           "tempEvoId": 3,
           "attack": 339,
           "defense": 157,
           "stamina": 155,
-          "unreleased": true
+          "height": 1,
+          "weight": 26,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -148175,6 +148187,13 @@
       "proto": "LC_TOKMUN_STAMP_03",
       "formatted": "Tokmun Stamp 03",
       "imageUrl": "lc_TokMun_minato"
+    },
+    "274": {
+      "id": 274,
+      "proto": "LC_CR_2026_001",
+      "formatted": "Cr 2026 001",
+      "imageUrl": "lc_GoTour2026_losAngeles",
+      "cardType": "LOCATION_CARD"
     },
     "277": {
       "id": 277,
