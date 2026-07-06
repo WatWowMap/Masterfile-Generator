@@ -29558,7 +29558,10 @@
             "attack": 270,
             "defense": 225,
             "stamina": 205
-          }
+          },
+          "eliteChargedMoves": [
+            394
+          ]
         }
       },
       "stats": {
@@ -29612,7 +29615,10 @@
             "attack": 286,
             "defense": 223,
             "stamina": 189
-          }
+          },
+          "eliteChargedMoves": [
+            388
+          ]
         }
       },
       "stats": {
@@ -48843,10 +48849,13 @@
       "chargedMoves": [
         70,
         105,
-        284
+        284,
+        592
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        299
+      ],
       "generation": "Galar",
       "forms": {
         "3157": {
@@ -59933,6 +59942,10 @@
     },
     "2207": {
       "name": "Event Ticket S23 2026 03",
+      "type": "Global Event Ticket"
+    },
+    "2208": {
+      "name": "Event Ticket S23 2026 04",
       "type": "Global Event Ticket"
     },
     "2213": {

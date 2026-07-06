@@ -28929,7 +28929,8 @@
       "chargedMoves": [
         70,
         105,
-        284
+        284,
+        592
       ],
       "genId": 8,
       "generation": "Galar",
@@ -36266,6 +36267,7 @@
     "2205": "Event Ticket S23 2026 01",
     "2206": "Event Ticket S23 2026 02",
     "2207": "Event Ticket S23 2026 03",
+    "2208": "Event Ticket S23 2026 04",
     "2213": "Event Ticket S23 2026 09",
     "2237": "Event Ticket S23 2026 01 To Gift",
     "2238": "Event Ticket S23 2026 02 To Gift"
@@ -41221,6 +41223,11 @@
       "proto": "LC_CR_2026_001",
       "formatted": "Cr 2026 001",
       "cardType": "LOCATION_CARD"
+    },
+    "275": {
+      "proto": "LC_SPECIALBACKGROUND_10ANI2026",
+      "formatted": "10ani2026",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "277": {
       "proto": "LC_SPECIALBACKGROUND_2026_ARRAIA",

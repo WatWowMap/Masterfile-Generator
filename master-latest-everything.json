@@ -95319,6 +95319,13 @@
           "proto": "SURF",
           "type": 11,
           "power": 60
+        },
+        "592": {
+          "moveId": 592,
+          "moveName": "Snipe Shot",
+          "proto": "SNIPE_SHOT",
+          "type": 11,
+          "power": 100
         }
       },
       "genId": 8,
@@ -122144,6 +122151,11 @@
           "costumeId": 11,
           "costumeProto": "JAN_2020_NOEVOLVE",
           "costumeName": "Jan 2020 Noevolve"
+        },
+        {
+          "costumeId": 14,
+          "costumeProto": "SPRING_2020_NOEVOLVE",
+          "costumeName": "Spring 2020 Noevolve"
         }
       ]
     },
@@ -122165,6 +122177,11 @@
           "costumeId": 11,
           "costumeProto": "JAN_2020_NOEVOLVE",
           "costumeName": "Jan 2020 Noevolve"
+        },
+        {
+          "costumeId": 14,
+          "costumeProto": "SPRING_2020_NOEVOLVE",
+          "costumeName": "Spring 2020 Noevolve"
         }
       ]
     },
@@ -133696,6 +133713,9 @@
       "stamina": 205,
       "height": 7,
       "weight": 850,
+      "eliteChargedMoves": [
+        394
+      ],
       "purificationDust": 20000,
       "purificationCandy": 20
     },
@@ -133734,6 +133754,9 @@
       "stamina": 189,
       "height": 6.3,
       "weight": 660,
+      "eliteChargedMoves": [
+        388
+      ],
       "purificationDust": 20000,
       "purificationCandy": 20
     },
@@ -140334,6 +140357,13 @@
       "id": 2207,
       "name": "Event Ticket S23 2026 03",
       "proto": "ITEM_EVENT_TICKET_S23_2026_03",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2208": {
+      "id": 2208,
+      "name": "Event Ticket S23 2026 04",
+      "proto": "ITEM_EVENT_TICKET_S23_2026_04",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -148108,7 +148138,7 @@
       "id": 254,
       "proto": "LC_2026_NPB_003",
       "formatted": "2026 Npb 003",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_tokyoSwallows"
     },
     "255": {
       "id": 255,
@@ -148132,7 +148162,7 @@
       "id": 258,
       "proto": "LC_2026_NPB_007",
       "formatted": "2026 Npb 007",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_toyamaAllstars"
     },
     "259": {
       "id": 259,
@@ -148162,13 +148192,13 @@
       "id": 263,
       "proto": "LC_2026_NPB_012",
       "formatted": "2026 Npb 012",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_chunichiDragons"
     },
     "264": {
       "id": 264,
       "proto": "LC_2026_NPB_013",
       "formatted": "2026 Npb 013",
-      "imageUrl": "lc_2026_ppk_001"
+      "imageUrl": "lc_2026_NPB_hokkaidoFighters"
     },
     "271": {
       "id": 271,
@@ -148194,6 +148224,14 @@
       "formatted": "Cr 2026 001",
       "imageUrl": "lc_GoTour2026_losAngeles",
       "cardType": "LOCATION_CARD"
+    },
+    "275": {
+      "id": 275,
+      "proto": "LC_SPECIALBACKGROUND_10ANI2026",
+      "formatted": "10ani2026",
+      "imageUrl": "sb_GoFest2024_wormhole_moon",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_UltraWormhole"
     },
     "277": {
       "id": 277,
