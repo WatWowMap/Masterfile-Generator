@@ -97891,13 +97891,6 @@
         }
       },
       "chargedMoves": {
-        "38": {
-          "moveId": 38,
-          "moveName": "Drill Peck",
-          "proto": "DRILL_PECK",
-          "type": 3,
-          "power": 70
-        },
         "107": {
           "moveId": 107,
           "moveName": "Hydro Pump",
@@ -97905,13 +97898,21 @@
           "type": 11,
           "power": 135
         },
+        "284": {
+          "moveId": 284,
+          "moveName": "Surf",
+          "proto": "SURF",
+          "type": 11,
+          "power": 60
+        },
         "341": {
           "moveId": 341,
           "moveName": "Fly",
           "proto": "FLY",
           "type": 3,
           "power": 90
-        }
+        },
+        "undefined": 593
       },
       "genId": 8,
       "generation": "Galar",
@@ -130666,6 +130667,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634,
             2635
           ],
@@ -130682,6 +130684,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634,
             2635
           ],
@@ -130714,6 +130717,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634,
             2635
           ],
@@ -130730,6 +130734,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2635
           ],
           "candyCost": 25,
@@ -130745,6 +130750,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634
           ],
           "candyCost": 25,
@@ -130760,6 +130766,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634,
             2635
           ],
@@ -130776,6 +130783,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634,
             2635
           ],
@@ -130792,6 +130800,7 @@
         {
           "availableForms": [
             2629,
+            2632,
             2634,
             2635
           ],

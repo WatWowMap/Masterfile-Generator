@@ -50266,9 +50266,10 @@
         230
       ],
       "chargedMoves": [
-        38,
         107,
-        341
+        284,
+        341,
+        593
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -65766,13 +65767,28 @@
       "id": 594,
       "name": "Gulp Missile Gulping",
       "proto": "GULP_MISSILE_GULPING",
-      "fast": false
+      "fast": false,
+      "type": "Normal",
+      "pvpBuffs": [
+        {
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
+        }
+      ],
+      "durationMs": 2500
     },
     "595": {
       "id": 595,
       "name": "Gulp Missile Gorging",
       "proto": "GULP_MISSILE_GORGING",
-      "fast": false
+      "fast": false,
+      "type": "Normal",
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "durationMs": 2500
     }
   },
   "questTypes": {
