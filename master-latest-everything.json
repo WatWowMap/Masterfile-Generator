@@ -97911,6 +97911,13 @@
           "proto": "FLY",
           "type": 3,
           "power": 90
+        },
+        "593": {
+          "moveId": 593,
+          "moveName": "Dive",
+          "proto": "DIVE",
+          "type": 11,
+          "power": 70
         }
       },
       "genId": 8,
@@ -139242,6 +139249,18 @@
       "name": "Spring 2026 B",
       "proto": "SPRING_2026_B",
       "noEvolve": false
+    },
+    "91": {
+      "id": 91,
+      "name": "Pikachu K 2026 A",
+      "proto": "PIKACHU_K_2026_A",
+      "noEvolve": false
+    },
+    "107": {
+      "id": 107,
+      "name": "Pikachu K 2026 B",
+      "proto": "PIKACHU_K_2026_B",
+      "noEvolve": false
     }
   },
   "items": {
@@ -143460,6 +143479,12 @@
       "name": "Snipe Shot",
       "proto": "SNIPE_SHOT",
       "power": 100
+    },
+    "593": {
+      "id": 593,
+      "name": "Dive",
+      "proto": "DIVE",
+      "power": 70
     },
     "594": {
       "id": 594,

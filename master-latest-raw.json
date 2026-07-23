@@ -64219,7 +64219,8 @@
       "chargedMoves": [
         107,
         284,
-        341
+        341,
+        593
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -96420,6 +96421,18 @@
       "name": "Spring 2026 B",
       "proto": "SPRING_2026_B",
       "noEvolve": false
+    },
+    "91": {
+      "id": 91,
+      "name": "Pikachu K 2026 A",
+      "proto": "PIKACHU_K_2026_A",
+      "noEvolve": false
+    },
+    "107": {
+      "id": 107,
+      "name": "Pikachu K 2026 B",
+      "proto": "PIKACHU_K_2026_B",
+      "noEvolve": false
     }
   },
   "items": {
@@ -103353,6 +103366,18 @@
       },
       "power": 100,
       "durationMs": 3500,
+      "energyDelta": -33
+    },
+    "593": {
+      "moveId": 593,
+      "moveName": "Dive",
+      "proto": "DIVE",
+      "fast": false,
+      "type": 11,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
+      "power": 70,
+      "durationMs": 3300,
       "energyDelta": -33
     },
     "594": {

@@ -50271,7 +50271,8 @@
       "chargedMoves": [
         107,
         284,
-        341
+        341,
+        593
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [],
@@ -65775,6 +65776,18 @@
       ],
       "power": 100,
       "durationMs": 3500,
+      "energyDelta": -33
+    },
+    "593": {
+      "id": 593,
+      "name": "Dive",
+      "proto": "DIVE",
+      "fast": false,
+      "type": "Water",
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
+      "power": 70,
+      "durationMs": 3300,
       "energyDelta": -33
     },
     "594": {
