@@ -15604,6 +15604,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -15751,6 +15752,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -15761,11 +15763,13 @@
         "1": {
           "tempEvoId": 1,
           "stats": {
-            "attack": 303,
+            "attack": 276,
             "defense": 229,
             "stamina": 155
           },
-          "unreleased": true
+          "height": 2.3,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -125011,17 +125015,19 @@
       "formName": "Normal",
       "proto": "STARMIE_NORMAL",
       "formId": 1077,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
-          "attack": 303,
+          "attack": 276,
           "defense": 229,
           "stamina": 155,
-          "unreleased": true
+          "height": 2.3,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "1080": {
       "formName": "Normal",
@@ -148600,6 +148606,14 @@
       "proto": "LC_JAPAN_STAMP_RALLY_18",
       "formatted": "Japan Stamp Rally 18",
       "imageUrl": "lc_pokecenter_GOLab"
+    },
+    "331": {
+      "id": 331,
+      "proto": "LC_SPECIALBACKGROUND_2026_GLOBAL_MEGA_002",
+      "formatted": "2026 Global Mega 002",
+      "imageUrl": "sb_GoTour2026_mega",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_MegaPlus"
     },
     "333": {
       "id": 333,

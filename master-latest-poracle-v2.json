@@ -9734,11 +9734,12 @@
         {
           "tempEvoId": 1,
           "stats": {
-            "baseAttack": 303,
+            "baseAttack": 276,
             "baseDefense": 229,
             "baseStamina": 155
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -9770,11 +9771,12 @@
         {
           "tempEvoId": 1,
           "stats": {
-            "baseAttack": 303,
+            "baseAttack": 276,
             "baseDefense": 229,
             "baseStamina": 155
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
