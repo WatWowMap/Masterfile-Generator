@@ -2002,11 +2002,13 @@
         },
         "3352": {
           "formName": "Pxp 2026",
-          "formId": 3352
+          "formId": 3352,
+          "isCostume": true
         },
         "3353": {
           "formName": "Wcs 2026",
-          "formId": 3353
+          "formId": 3353,
+          "isCostume": true
         },
         "3357": {
           "formName": "Glass Helmet 2026",
@@ -39086,11 +39088,22 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 242,
+            "defense": 282,
+            "stamina": 204
+          }
+        }
+      },
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -39255,11 +39268,22 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 331,
+            "defense": 235,
+            "stamina": 181
+          }
+        }
+      },
       "purificationDust": 3000,
       "purificationCandy": 3
     },
@@ -39422,11 +39446,22 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 299,
+            "defense": 180,
+            "stamina": 176
+          }
+        }
+      },
       "purificationDust": 3000,
       "purificationCandy": 3
     },

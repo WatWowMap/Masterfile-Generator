@@ -3512,12 +3512,14 @@
         "3352": {
           "name": "Pxp 2026",
           "proto": "PIKACHU_PXP_2026",
-          "form": 3352
+          "form": 3352,
+          "isCostume": true
         },
         "3353": {
           "name": "Wcs 2026",
           "proto": "PIKACHU_WCS_2026",
-          "form": 3353
+          "form": 3353,
+          "isCostume": true
         },
         "3357": {
           "name": "Glass Helmet 2026",
@@ -76300,6 +76302,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76314,7 +76317,8 @@
             "defense": 282,
             "stamina": 204
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 80
         }
       }
     },
@@ -76637,6 +76641,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76651,7 +76656,8 @@
             "defense": 235,
             "stamina": 181
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 80
         }
       }
     },
@@ -76960,6 +76966,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76974,7 +76981,8 @@
             "defense": 180,
             "stamina": 176
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 80
         }
       }
     },
@@ -134541,17 +134549,18 @@
       "formName": "Normal",
       "proto": "CHESNAUGHT_NORMAL",
       "formId": 3024,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 242,
           "defense": 282,
           "stamina": 204,
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 80
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3025": {
       "formName": "Normal",
@@ -134585,17 +134594,18 @@
       "formName": "Normal",
       "proto": "DELPHOX_NORMAL",
       "formId": 3027,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 331,
           "defense": 235,
           "stamina": 181,
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 80
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3028": {
       "formName": "Normal",
@@ -134629,17 +134639,18 @@
       "formName": "Normal",
       "proto": "GRENINJA_NORMAL",
       "formId": 3030,
-      "purificationDust": 3000,
-      "purificationCandy": 3,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 299,
           "defense": 180,
           "stamina": 176,
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 80
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3031": {
       "formName": "Normal",
@@ -137468,12 +137479,14 @@
     "3352": {
       "formName": "Pxp 2026",
       "proto": "PIKACHU_PXP_2026",
-      "formId": 3352
+      "formId": 3352,
+      "isCostume": true
     },
     "3353": {
       "formName": "Wcs 2026",
       "proto": "PIKACHU_WCS_2026",
-      "formId": 3353
+      "formId": 3353,
+      "isCostume": true
     },
     "3354": {
       "formName": "Goggles 2026",
@@ -148144,6 +148157,14 @@
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_UltraWormhole"
     },
+    "276": {
+      "id": 276,
+      "proto": "LC_SPECIALBACKGROUND_2026_WCS",
+      "formatted": "2026 Wcs",
+      "imageUrl": "sb_WorldSpecial_Blue",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_WorldSpecial"
+    },
     "277": {
       "id": 277,
       "proto": "LC_SPECIALBACKGROUND_2026_ARRAIA",
@@ -148454,6 +148475,12 @@
       "imageUrl": "sb_GoTour2026_mega",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_MegaPlus"
+    },
+    "332": {
+      "id": 332,
+      "proto": "LC_2026_SANFRANCISCO_WCS_001",
+      "formatted": "2026 Sanfrancisco Wcs 001",
+      "imageUrl": "lc_Wcs2026_sanFrancisco"
     },
     "333": {
       "id": 333,
