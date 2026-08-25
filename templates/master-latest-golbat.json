@@ -1,0 +1,72 @@
+{
+  "globalOptions": {
+    "includeProtos": true,
+    "snake_case": true
+  },
+  "pokemon": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "pokedexId",
+        "forms": "formId",
+        "tempEvolutions": "tempEvoId"
+      },
+      "customFields": {
+        "evoId": "pokemon",
+        "formId": "form"
+      },
+      "snake_case": true,
+      "includeProtos": true,
+      "includeEstimatedPokemon": {
+        "baseStats": true,
+        "mega": true
+      }
+    },
+    "template": {
+      "forms": {
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "types": "typeId",
+        "quickMoves": "moveId",
+        "chargedMoves": "moveId",
+        "tempEvolutions": {},
+        "evolutions": {
+          "evoId": true,
+          "formId": true,
+          "genderRequirement": true
+        },
+        "little": true,
+        "costumeOverrideEvos": "costumeId"
+      },
+      "evolutions": {
+        "evoId": true,
+        "formId": true,
+        "genderRequirement": true
+      },
+      "tempEvolutions": {
+        "attack": true,
+        "defense": true,
+        "stamina": true,
+        "unreleased": true
+      },
+      "attack": true,
+      "defense": true,
+      "stamina": true,
+      "types": "typeId",
+      "quickMoves": "moveId",
+      "chargedMoves": "moveId",
+      "little": true,
+      "costumeOverrideEvos": "costumeId"
+    }
+  },
+  "costumes": {
+    "enabled": true,
+    "options": {
+      "keys": {
+        "main": "id"
+      }
+    },
+    "template": "noEvolve"
+  }
+}
