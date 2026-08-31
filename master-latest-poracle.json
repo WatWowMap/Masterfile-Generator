@@ -4642,6 +4642,31 @@
         }
       ]
     },
+    "41_3362": {
+      "name": "Zubat",
+      "id": 41,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "form": {
+        "name": "Halloween 2026 01",
+        "id": 3362
+      },
+      "stats": {
+        "baseAttack": 83,
+        "baseDefense": 73,
+        "baseStamina": 120
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
     "42_0": {
       "name": "Golbat",
       "id": 42,
@@ -4705,6 +4730,31 @@
           "candyCost": 100
         }
       ]
+    },
+    "42_3363": {
+      "name": "Golbat",
+      "id": 42,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "form": {
+        "name": "Halloween 2026 01",
+        "id": 3363
+      },
+      "stats": {
+        "baseAttack": 161,
+        "baseDefense": 150,
+        "baseStamina": 181
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
     },
     "43_0": {
       "name": "Oddish",
@@ -13250,6 +13300,31 @@
       "form": {
         "name": "Normal",
         "id": 202
+      },
+      "stats": {
+        "baseAttack": 194,
+        "baseDefense": 178,
+        "baseStamina": 198
+      },
+      "thirdMoveStardust": 10000,
+      "thirdMoveCandy": 25
+    },
+    "169_3364": {
+      "name": "Crobat",
+      "id": 169,
+      "types": [
+        {
+          "id": 3,
+          "name": "Flying"
+        },
+        {
+          "id": 4,
+          "name": "Poison"
+        }
+      ],
+      "form": {
+        "name": "Halloween 2026 01",
+        "id": 3364
       },
       "stats": {
         "baseAttack": 194,
@@ -58581,6 +58656,48 @@
         }
       ]
     },
+    "854_3365": {
+      "name": "Sinistea",
+      "id": 854,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "form": {
+        "name": "P Halloween 2026 01",
+        "id": 3365
+      },
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 96,
+        "baseStamina": 120
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "854_3366": {
+      "name": "Sinistea",
+      "id": 854,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "form": {
+        "name": "A Halloween 2026 01",
+        "id": 3366
+      },
+      "stats": {
+        "baseAttack": 134,
+        "baseDefense": 96,
+        "baseStamina": 120
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
     "855_0": {
       "name": "Polteageist",
       "id": 855,
@@ -58635,6 +58752,48 @@
       "form": {
         "name": "Antique Form",
         "id": 2481
+      },
+      "stats": {
+        "baseAttack": 248,
+        "baseDefense": 189,
+        "baseStamina": 155
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "855_3367": {
+      "name": "Polteageist",
+      "id": 855,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "form": {
+        "name": "P Halloween 2026 01",
+        "id": 3367
+      },
+      "stats": {
+        "baseAttack": 248,
+        "baseDefense": 189,
+        "baseStamina": 155
+      },
+      "thirdMoveStardust": 50000,
+      "thirdMoveCandy": 50
+    },
+    "855_3368": {
+      "name": "Polteageist",
+      "id": 855,
+      "types": [
+        {
+          "id": 8,
+          "name": "Ghost"
+        }
+      ],
+      "form": {
+        "name": "A Halloween 2026 01",
+        "id": 3368
       },
       "stats": {
         "baseAttack": 248,

@@ -3358,7 +3358,8 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        157
+        157,
+        3362
       ],
       "sizeSettings": [
         {
@@ -3437,7 +3438,8 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        160
+        160,
+        3363
       ],
       "sizeSettings": [
         {
@@ -13418,7 +13420,8 @@
       "genId": 2,
       "generation": "Johto",
       "forms": [
-        202
+        202,
+        3364
       ],
       "sizeSettings": [
         {
@@ -64896,7 +64899,9 @@
       "generation": "Galar",
       "forms": [
         2477,
-        2478
+        2478,
+        3365,
+        3366
       ],
       "sizeSettings": [
         {
@@ -64971,7 +64976,9 @@
       "generation": "Galar",
       "forms": [
         2480,
-        2481
+        2481,
+        3367,
+        3368
       ],
       "sizeSettings": [
         {
@@ -95433,6 +95440,41 @@
       "proto": "PIKACHU_K_2026_A_01",
       "formId": 3361
     },
+    "3362": {
+      "formName": "Halloween 2026 01",
+      "proto": "ZUBAT_HALLOWEEN_2026_01",
+      "formId": 3362
+    },
+    "3363": {
+      "formName": "Halloween 2026 01",
+      "proto": "GOLBAT_HALLOWEEN_2026_01",
+      "formId": 3363
+    },
+    "3364": {
+      "formName": "Halloween 2026 01",
+      "proto": "CROBAT_HALLOWEEN_2026_01",
+      "formId": 3364
+    },
+    "3365": {
+      "formName": "P Halloween 2026 01",
+      "proto": "SINISTEA_P_HALLOWEEN_2026_01",
+      "formId": 3365
+    },
+    "3366": {
+      "formName": "A Halloween 2026 01",
+      "proto": "SINISTEA_A_HALLOWEEN_2026_01",
+      "formId": 3366
+    },
+    "3367": {
+      "formName": "P Halloween 2026 01",
+      "proto": "POLTEAGEIST_P_HALLOWEEN_2026_01",
+      "formId": 3367
+    },
+    "3368": {
+      "formName": "A Halloween 2026 01",
+      "proto": "POLTEAGEIST_A_HALLOWEEN_2026_01",
+      "formId": 3368
+    },
     "3375": {
       "formName": "Anniversary 2026 Philippine 01",
       "proto": "PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
@@ -108056,6 +108098,56 @@
       "id": 19,
       "formatted": "Raid Level Coordinated 2",
       "proto": "RAID_LEVEL_COORDINATED_2"
+    },
+    "20": {
+      "id": 20,
+      "formatted": "Raid Level 1 Worldwide",
+      "proto": "RAID_LEVEL_1_WORLDWIDE"
+    },
+    "21": {
+      "id": 21,
+      "formatted": "Raid Level 2 Worldwide",
+      "proto": "RAID_LEVEL_2_WORLDWIDE"
+    },
+    "22": {
+      "id": 22,
+      "formatted": "Raid Level 3 Worldwide",
+      "proto": "RAID_LEVEL_3_WORLDWIDE"
+    },
+    "23": {
+      "id": 23,
+      "formatted": "Raid Level 4 Worldwide",
+      "proto": "RAID_LEVEL_4_WORLDWIDE"
+    },
+    "24": {
+      "id": 24,
+      "formatted": "Raid Level 5 Worldwide",
+      "proto": "RAID_LEVEL_5_WORLDWIDE"
+    },
+    "25": {
+      "id": 25,
+      "formatted": "Raid Level 1 Worldwide Ultra Beast",
+      "proto": "RAID_LEVEL_1_WORLDWIDE_ULTRA_BEAST"
+    },
+    "26": {
+      "id": 26,
+      "formatted": "Raid Level 2 Worldwide Ultra Beast",
+      "proto": "RAID_LEVEL_2_WORLDWIDE_ULTRA_BEAST"
+    },
+    "27": {
+      "id": 27,
+      "formatted": "Raid Level 3 Worldwide Ultra Beast",
+      "proto": "RAID_LEVEL_3_WORLDWIDE_ULTRA_BEAST"
+    },
+    "28": {
+      "id": 28,
+      "formatted": "Raid Level 4 Worldwide Ultra Beast",
+      "proto": "RAID_LEVEL_4_WORLDWIDE_ULTRA_BEAST"
+    },
+    "29": {
+      "id": 29,
+      "formatted": "Raid Level 5 Worldwide Ultra Beast",
+      "proto": "RAID_LEVEL_5_WORLDWIDE_ULTRA_BEAST"
     }
   },
   "locationCards": {
