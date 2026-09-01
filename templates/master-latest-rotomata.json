@@ -27,6 +27,9 @@
         "defense": "stats",
         "stamina": "stats"
       },
+      "makeSingular": {
+        "specialMove": true
+      },
       "includeEstimatedPokemon": {
         "baseStats": true,
         "mega": true
@@ -79,7 +82,9 @@
           "formId": true
         },
         "tempEvolutions": {
-          "tempEvoId": true
+          "tempEvoId": true,
+          "specialMove": "moveId",
+          "unreleased": true
         }
       },
       "types": {
@@ -115,6 +120,7 @@
       },
       "tempEvolutions": {
         "tempEvoId": true,
+        "specialMove": "moveId",
         "attack": true,
         "defense": true,
         "stamina": true,
@@ -186,6 +192,7 @@
       "type": "typeId",
       "power": true,
       "durationMs": true,
+      "energyDelta": true,
       "pvpPower": true,
       "pvpDurationTurns": true,
       "pvpEnergyDelta": true,
