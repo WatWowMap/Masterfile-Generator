@@ -65315,15 +65315,27 @@
     },
     "495": {
       "id": 495,
-      "name": "Vm Move Temp Evolution Mega X V0150 Pokemon Mewtwo",
+      "name": "Dynamic Punch+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
-      "fast": false
+      "fast": false,
+      "type": "Fighting",
+      "pvpPower": 130,
+      "pvpEnergyDelta": -80,
+      "power": 130,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "496": {
       "id": 496,
-      "name": "Vm Move Temp Evolution Mega Y V0150 Pokemon Mewtwo",
+      "name": "Futuresight+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
-      "fast": false
+      "fast": false,
+      "type": "Psychic",
+      "pvpPower": 130,
+      "pvpEnergyDelta": -80,
+      "power": 140,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "497": {
       "id": 497,
@@ -65375,15 +65387,37 @@
     },
     "504": {
       "id": 504,
-      "name": "Vm Move Temp Evolution Mega X V0026 Pokemon Raichu",
+      "name": "Volt Tackle+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
-      "fast": false
+      "fast": false,
+      "type": "Electric",
+      "pvpPower": 65,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 170,
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "505": {
       "id": 505,
-      "name": "Vm Move Temp Evolution Mega Y V0026 Pokemon Raichu",
+      "name": "Zap Cannon+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
-      "fast": false
+      "fast": false,
+      "type": "Electric",
+      "pvpPower": 70,
+      "pvpEnergyDelta": -45,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 160,
+      "durationMs": 3500,
+      "energyDelta": -100
     },
     "506": {
       "id": 506,
@@ -65399,9 +65433,21 @@
     },
     "508": {
       "id": 508,
-      "name": "Vm Move Temp Evolution Mega V0071 Pokemon Victreebel",
+      "name": "Acid Spray+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
-      "fast": false
+      "fast": false,
+      "type": "Poison",
+      "pvpPower": 20,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
+        {
+          "targetDefenseStatStageChange": -2,
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 160,
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "509": {
       "id": 509,
@@ -65423,9 +65469,21 @@
     },
     "512": {
       "id": 512,
-      "name": "Vm Move Temp Evolution Mega V0121 Pokemon Starmie",
+      "name": "Liquidation+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
-      "fast": false
+      "fast": false,
+      "type": "Water",
+      "pvpPower": 55,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
+        {
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 0.3
+        }
+      ],
+      "power": 180,
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "513": {
       "id": 513,
@@ -65441,9 +65499,15 @@
     },
     "515": {
       "id": 515,
-      "name": "Vm Move Temp Evolution Mega V0149 Pokemon Dragonite",
+      "name": "Outrage+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
-      "fast": false
+      "fast": false,
+      "type": "Dragon",
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
+      "power": 185,
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "516": {
       "id": 516,
@@ -65483,9 +65547,15 @@
     },
     "522": {
       "id": 522,
-      "name": "Vm Move Temp Evolution Mega V0227 Pokemon Skarmory",
+      "name": "Drill Peck+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
-      "fast": false
+      "fast": false,
+      "type": "Flying",
+      "pvpPower": 60,
+      "pvpEnergyDelta": -35,
+      "power": 170,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "523": {
       "id": 523,
@@ -65747,21 +65817,44 @@
     },
     "566": {
       "id": 566,
-      "name": "Vm Move Temp Evolution Mega V0652 Pokemon Chesnaught",
+      "name": "Seed Bomb+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
-      "fast": false
+      "fast": false,
+      "type": "Grass",
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
+      "power": 150,
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "567": {
       "id": 567,
-      "name": "Vm Move Temp Evolution Mega V0655 Pokemon Delphox",
+      "name": "Mystical Fire+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
-      "fast": false
+      "fast": false,
+      "type": "Fire",
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 140,
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "568": {
       "id": 568,
-      "name": "Vm Move Temp Evolution Mega V0658 Pokemon Greninja",
+      "name": "Surf+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
-      "fast": false
+      "fast": false,
+      "type": "Water",
+      "pvpPower": 55,
+      "pvpEnergyDelta": -35,
+      "power": 130,
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "569": {
       "id": 569,
@@ -65783,9 +65876,15 @@
     },
     "572": {
       "id": 572,
-      "name": "Vm Move Temp Evolution Mega V0687 Pokemon Malamar",
+      "name": "Psybeam+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
-      "fast": false
+      "fast": false,
+      "type": "Psychic",
+      "pvpPower": 60,
+      "pvpEnergyDelta": -45,
+      "power": 170,
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "573": {
       "id": 573,
@@ -65849,9 +65948,21 @@
     },
     "583": {
       "id": 583,
-      "name": "Vm Move Temp Evolution Mega V0870 Pokemon Falinks",
+      "name": "Brick Break+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
-      "fast": false
+      "fast": false,
+      "type": "Fighting",
+      "pvpPower": 40,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
+        {
+          "targetDefenseStatStageChange": -1,
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 150,
+      "durationMs": 1500,
+      "energyDelta": -100
     },
     "584": {
       "id": 584,

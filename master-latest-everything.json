@@ -120250,7 +120250,8 @@
           "height": 1.2,
           "weight": 38,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 504
         },
         {
           "tempEvoId": 3,
@@ -120260,7 +120261,8 @@
           "height": 1,
           "weight": 26,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 505
         }
       ]
     },
@@ -121702,7 +121704,8 @@
             14
           ],
           "firstEnergyCost": 7500,
-          "subsequentEnergyCost": 150
+          "subsequentEnergyCost": 150,
+          "specialMove": 495
         },
         {
           "tempEvoId": 3,
@@ -121712,7 +121715,8 @@
           "height": 1.5,
           "weight": 33,
           "firstEnergyCost": 7500,
-          "subsequentEnergyCost": 150
+          "subsequentEnergyCost": 150,
+          "specialMove": 496
         }
       ],
       "purificationDust": 20000,
@@ -122354,7 +122358,8 @@
           "stamina": 209,
           "weight": 290,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 515
         }
       ],
       "purificationDust": 5000,
@@ -123347,7 +123352,8 @@
           "height": 4.5,
           "weight": 125.5,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 508
         }
       ],
       "purificationDust": 3000,
@@ -125120,7 +125126,8 @@
           "stamina": 155,
           "height": 2.3,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 512
         }
       ],
       "purificationDust": 3000,
@@ -125940,7 +125947,8 @@
           "stamina": 163,
           "weight": 40.4,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 522
         }
       ],
       "purificationDust": 5000,
@@ -129452,7 +129460,8 @@
           "height": 1.6,
           "weight": 99,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 583
         }
       ]
     },
@@ -134120,7 +134129,8 @@
           "height": 1.6,
           "weight": 99,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 583
         }
       ]
     },
@@ -134645,7 +134655,8 @@
           "defense": 282,
           "stamina": 204,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 566
         }
       ],
       "purificationDust": 3000,
@@ -134690,7 +134701,8 @@
           "defense": 235,
           "stamina": 181,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 567
         }
       ],
       "purificationDust": 3000,
@@ -134735,7 +134747,8 @@
           "defense": 180,
           "stamina": 176,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 568
         }
       ],
       "purificationDust": 3000,
@@ -134957,7 +134970,8 @@
           "height": 2.9,
           "weight": 69.8,
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 572
         }
       ],
       "purificationDust": 3000,
@@ -143012,13 +143026,13 @@
     },
     "460": {
       "id": 460,
-      "name": "Vn Bm 052",
+      "name": "Max Shield",
       "proto": "VN_BM_052",
       "power": 0
     },
     "461": {
       "id": 461,
-      "name": "Vn Bm 053",
+      "name": "Max Heal",
       "proto": "VN_BM_053",
       "power": 0
     },
@@ -143138,7 +143152,7 @@
     },
     "481": {
       "id": 481,
-      "name": "Thunder Cage Fast",
+      "name": "Thunder Cage",
       "proto": "THUNDER_CAGE_FAST"
     },
     "482": {
@@ -143222,12 +143236,14 @@
     "495": {
       "id": 495,
       "name": "Dynamic Punch+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+      "power": 130
     },
     "496": {
       "id": 496,
       "name": "Future Sight+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+      "power": 140
     },
     "497": {
       "id": 497,
@@ -143268,12 +143284,14 @@
     "504": {
       "id": 504,
       "name": "Volt Tackle+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+      "power": 170
     },
     "505": {
       "id": 505,
       "name": "Zap Cannon+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+      "power": 160
     },
     "506": {
       "id": 506,
@@ -143288,7 +143306,8 @@
     "508": {
       "id": 508,
       "name": "Acid Spray+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+      "power": 160
     },
     "509": {
       "id": 509,
@@ -143308,7 +143327,8 @@
     "512": {
       "id": 512,
       "name": "Liquidation+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+      "power": 180
     },
     "513": {
       "id": 513,
@@ -143323,7 +143343,8 @@
     "515": {
       "id": 515,
       "name": "Outrage+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+      "power": 185
     },
     "516": {
       "id": 516,
@@ -143358,7 +143379,8 @@
     "522": {
       "id": 522,
       "name": "Drill Peck+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+      "power": 170
     },
     "523": {
       "id": 523,
@@ -143578,17 +143600,20 @@
     "566": {
       "id": 566,
       "name": "Seed Bomb+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+      "power": 150
     },
     "567": {
       "id": 567,
       "name": "Mystical Fire+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+      "power": 140
     },
     "568": {
       "id": 568,
       "name": "Surf+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+      "power": 130
     },
     "569": {
       "id": 569,
@@ -143608,7 +143633,8 @@
     "572": {
       "id": 572,
       "name": "Psybeam+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+      "power": 170
     },
     "573": {
       "id": 573,
@@ -143663,7 +143689,8 @@
     "583": {
       "id": 583,
       "name": "Brick Break+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+      "power": 150
     },
     "584": {
       "id": 584,

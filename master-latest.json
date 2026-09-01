@@ -56169,12 +56169,16 @@
       "power": 300
     },
     "495": {
-      "name": "Vm Move Temp Evolution Mega X V0150 Pokemon Mewtwo",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO"
+      "name": "Dynamic Punch+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0150_POKEMON_MEWTWO",
+      "type": "Fighting",
+      "power": 130
     },
     "496": {
-      "name": "Vm Move Temp Evolution Mega Y V0150 Pokemon Mewtwo",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO"
+      "name": "Futuresight+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0150_POKEMON_MEWTWO",
+      "type": "Psychic",
+      "power": 140
     },
     "497": {
       "name": "Plasma Fists",
@@ -56207,12 +56211,16 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0018_POKEMON_PIDGEOT"
     },
     "504": {
-      "name": "Vm Move Temp Evolution Mega X V0026 Pokemon Raichu",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU"
+      "name": "Volt Tackle+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_X_V0026_POKEMON_RAICHU",
+      "type": "Electric",
+      "power": 170
     },
     "505": {
-      "name": "Vm Move Temp Evolution Mega Y V0026 Pokemon Raichu",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU"
+      "name": "Zap Cannon+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_Y_V0026_POKEMON_RAICHU",
+      "type": "Electric",
+      "power": 160
     },
     "506": {
       "name": "Vm Move Temp Evolution Mega V0036 Pokemon Clefable",
@@ -56223,8 +56231,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0065_POKEMON_ALAKAZAM"
     },
     "508": {
-      "name": "Vm Move Temp Evolution Mega V0071 Pokemon Victreebel",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL"
+      "name": "Acid Spray+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0071_POKEMON_VICTREEBEL",
+      "type": "Poison",
+      "power": 160
     },
     "509": {
       "name": "Vm Move Temp Evolution Mega V0080 Pokemon Slowbro",
@@ -56239,8 +56249,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0115_POKEMON_KANGASKHAN"
     },
     "512": {
-      "name": "Vm Move Temp Evolution Mega V0121 Pokemon Starmie",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE"
+      "name": "Liquidation+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0121_POKEMON_STARMIE",
+      "type": "Water",
+      "power": 180
     },
     "513": {
       "name": "Vm Move Temp Evolution Mega V0127 Pokemon Pinsir",
@@ -56251,8 +56263,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0130_POKEMON_GYARADOS"
     },
     "515": {
-      "name": "Vm Move Temp Evolution Mega V0149 Pokemon Dragonite",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE"
+      "name": "Outrage+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0149_POKEMON_DRAGONITE",
+      "type": "Dragon",
+      "power": 185
     },
     "516": {
       "name": "Vm Move Temp Evolution Mega V0154 Pokemon Meganium",
@@ -56279,8 +56293,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0214_POKEMON_HERACROSS"
     },
     "522": {
-      "name": "Vm Move Temp Evolution Mega V0227 Pokemon Skarmory",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY"
+      "name": "Drill Peck+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0227_POKEMON_SKARMORY",
+      "type": "Flying",
+      "power": 170
     },
     "523": {
       "name": "Vm Move Temp Evolution Mega V0229 Pokemon Houndoom",
@@ -56455,16 +56471,22 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0623_POKEMON_GOLURK"
     },
     "566": {
-      "name": "Vm Move Temp Evolution Mega V0652 Pokemon Chesnaught",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT"
+      "name": "Seed Bomb+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0652_POKEMON_CHESNAUGHT",
+      "type": "Grass",
+      "power": 150
     },
     "567": {
-      "name": "Vm Move Temp Evolution Mega V0655 Pokemon Delphox",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX"
+      "name": "Mystical Fire+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0655_POKEMON_DELPHOX",
+      "type": "Fire",
+      "power": 140
     },
     "568": {
-      "name": "Vm Move Temp Evolution Mega V0658 Pokemon Greninja",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA"
+      "name": "Surf+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0658_POKEMON_GRENINJA",
+      "type": "Water",
+      "power": 130
     },
     "569": {
       "name": "Vm Move Temp Evolution Mega V0668 Pokemon Pyroar",
@@ -56479,8 +56501,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0678_POKEMON_MEOWSTIC"
     },
     "572": {
-      "name": "Vm Move Temp Evolution Mega V0687 Pokemon Malamar",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR"
+      "name": "Psybeam+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0687_POKEMON_MALAMAR",
+      "type": "Psychic",
+      "power": 170
     },
     "573": {
       "name": "Vm Move Temp Evolution Mega V0689 Pokemon Barbaracle",
@@ -56523,8 +56547,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0807_POKEMON_ZERAORA"
     },
     "583": {
-      "name": "Vm Move Temp Evolution Mega V0870 Pokemon Falinks",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS"
+      "name": "Brick Break+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0870_POKEMON_FALINKS",
+      "type": "Fighting",
+      "power": 150
     },
     "584": {
       "name": "Vm Move Temp Evolution Mega V0952 Pokemon Scovillain",
