@@ -1755,7 +1755,8 @@
         },
         "3361": {
           "name": "K 2026 A 01",
-          "proto": "PIKACHU_K_2026_A_01"
+          "proto": "PIKACHU_K_2026_A_01",
+          "is_costume": true
         },
         "3375": {
           "name": "Anniversary 2026 Philippine 01",
@@ -21342,11 +21343,12 @@
           "attack": 278,
           "defense": 207,
           "stamina": 198,
+          "height": 1.9,
+          "weight": 50,
           "types": [
             "Fighting",
             "Flying"
-          ],
-          "unreleased": true
+          ]
         }
       }
     },
@@ -48214,7 +48216,7 @@
       ],
       "charged_moves": [
         "Crunch",
-        "Payback",
+        "Psychic Fangs",
         "Dig"
       ],
       "gen_id": 9,
@@ -48239,6 +48241,7 @@
       "family": 942,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -48263,7 +48266,7 @@
       ],
       "charged_moves": [
         "Crunch",
-        "Payback",
+        "Psychic Fangs",
         "Dig"
       ],
       "gen_id": 9,
@@ -48282,6 +48285,7 @@
       "family": 942,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 3,
       "buddy_distance": 3,
       "third_move_stardust": 50000,
       "third_move_candy": 50,
@@ -53668,6 +53672,18 @@
     "2248": {
       "name": "Event Ticket S23 2026 12 To Gift",
       "proto": "ITEM_EVENT_TICKET_S23_2026_12_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2253": {
+      "name": "Event Ticket S24 Sep 12 Community",
+      "proto": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2254": {
+      "name": "Event Ticket S24 Sep 12 Community To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

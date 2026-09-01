@@ -3547,7 +3547,8 @@
         "3361": {
           "name": "K 2026 A 01",
           "proto": "PIKACHU_K_2026_A_01",
-          "form": 3361
+          "form": 3361,
+          "isCostume": true
         },
         "3375": {
           "name": "Anniversary 2026 Philippine 01",
@@ -48433,6 +48434,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 1,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -48554,6 +48556,7 @@
       "misc": {
         "buddyGroupNumber": 4,
         "buddyDistance": 1,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -48672,6 +48675,7 @@
       "misc": {
         "buddyGroupNumber": 4,
         "buddyDistance": 1,
+        "buddyMegaEnergy": 25,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -48686,6 +48690,8 @@
             "defense": 207,
             "stamina": 198
           },
+          "height": 1.9,
+          "weight": 50,
           "types": {
             "2": {
               "typeId": 2,
@@ -48696,7 +48702,8 @@
               "typeName": "Flying"
             }
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -108393,12 +108400,12 @@
           "type": 17,
           "power": 65
         },
-        "333": {
-          "moveId": 333,
-          "moveName": "Payback",
-          "proto": "PAYBACK",
-          "type": 17,
-          "power": 95
+        "353": {
+          "moveId": 353,
+          "moveName": "Psychic Fangs",
+          "proto": "PSYCHIC_FANGS",
+          "type": 14,
+          "power": 25
         }
       },
       "genId": 9,
@@ -108434,6 +108441,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 2,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -108491,12 +108499,12 @@
           "type": 17,
           "power": 65
         },
-        "333": {
-          "moveId": 333,
-          "moveName": "Payback",
-          "proto": "PAYBACK",
-          "type": 17,
-          "power": 95
+        "353": {
+          "moveId": 353,
+          "moveName": "Psychic Fangs",
+          "proto": "PSYCHIC_FANGS",
+          "type": 14,
+          "power": 25
         }
       },
       "genId": 9,
@@ -108529,6 +108537,7 @@
       "mythic": false,
       "ultraBeast": false,
       "misc": {
+        "buddyGroupNumber": 3,
         "buddyDistance": 3,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
@@ -127238,21 +127247,24 @@
       "formName": "Normal",
       "proto": "STARAPTOR_NORMAL",
       "formId": 1664,
-      "purificationDust": 1000,
-      "purificationCandy": 1,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 278,
           "defense": 207,
           "stamina": 198,
+          "height": 1.9,
+          "weight": 50,
           "types": [
             2,
             3
           ],
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "1667": {
       "formName": "Normal",
@@ -137632,7 +137644,8 @@
     "3361": {
       "formName": "K 2026 A 01",
       "proto": "PIKACHU_K_2026_A_01",
-      "formId": 3361
+      "formId": 3361,
+      "isCostume": true
     },
     "3362": {
       "formName": "Halloween 2026 01",
@@ -140684,6 +140697,20 @@
       "id": 2248,
       "name": "Event Ticket S23 2026 12 To Gift",
       "proto": "ITEM_EVENT_TICKET_S23_2026_12_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2253": {
+      "id": 2253,
+      "name": "Event Ticket S24 Sep 12 Community",
+      "proto": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2254": {
+      "id": 2254,
+      "name": "Event Ticket S24 Sep 12 Community To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
