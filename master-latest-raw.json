@@ -30951,7 +30951,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 1,
-      "buddyMegaEnergy": 25,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -31033,7 +31033,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 4,
       "buddyDistance": 1,
-      "buddyMegaEnergy": 25,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -31116,7 +31116,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 4,
       "buddyDistance": 1,
-      "buddyMegaEnergy": 25,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -97825,6 +97825,13 @@
       "proto": "ITEM_EVENT_TICKET_S24_SEP_12_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2255": {
+      "itemId": 2255,
+      "itemName": "Event Ticket S24 Sep 19 Megaraid",
+      "proto": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -109890,6 +109897,36 @@
       "imageUrl": "sb_9thAnniversary",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_10thAnni"
+    },
+    "334": {
+      "id": 334,
+      "proto": "LC_TPC30_MY",
+      "formatted": "Tpc30 My",
+      "imageUrl": "lc_tpc30_my"
+    },
+    "335": {
+      "id": 335,
+      "proto": "LC_TPC30_TW",
+      "formatted": "Tpc30 Tw",
+      "imageUrl": "lc_tpc30_tw"
+    },
+    "336": {
+      "id": 336,
+      "proto": "LC_TPC30_SG",
+      "formatted": "Tpc30 Sg",
+      "imageUrl": "lc_tpc30_sg"
+    },
+    "337": {
+      "id": 337,
+      "proto": "LC_TPC30_PH",
+      "formatted": "Tpc30 Ph",
+      "imageUrl": "lc_tpc30_ph"
+    },
+    "350": {
+      "id": 350,
+      "proto": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
+      "formatted": "Midautumn 2026",
+      "imageUrl": "lc_specialbackground_midautumn_2026"
     },
     "407": {
       "id": 407,
