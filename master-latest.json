@@ -200,7 +200,13 @@
         },
         "3354": {
           "name": "Goggles 2026",
-          "proto": "CHARMANDER_GOGGLES_2026"
+          "proto": "CHARMANDER_GOGGLES_2026",
+          "evolutions": [
+            {
+              "pokemon": 5,
+              "form": 3355
+            }
+          ]
         }
       },
       "attack": 116,
@@ -255,7 +261,13 @@
         },
         "3355": {
           "name": "Goggles 2026",
-          "proto": "CHARMELEON_GOGGLES_2026"
+          "proto": "CHARMELEON_GOGGLES_2026",
+          "evolutions": [
+            {
+              "pokemon": 6,
+              "form": 3356
+            }
+          ]
         }
       },
       "attack": 158,
@@ -313,7 +325,11 @@
         },
         "3356": {
           "name": "Goggles 2026",
-          "proto": "CHARIZARD_GOGGLES_2026"
+          "proto": "CHARIZARD_GOGGLES_2026",
+          "temp_evolutions": {
+            "2": {},
+            "3": {}
+          }
         }
       },
       "attack": 223,

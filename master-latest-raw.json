@@ -95438,17 +95438,61 @@
     "3354": {
       "formName": "Goggles 2026",
       "proto": "CHARMANDER_GOGGLES_2026",
-      "formId": 3354
+      "formId": 3354,
+      "evolutions": [
+        {
+          "evoId": 5,
+          "formId": 3355,
+          "candyCost": 25
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3355": {
       "formName": "Goggles 2026",
       "proto": "CHARMELEON_GOGGLES_2026",
-      "formId": 3355
+      "formId": 3355,
+      "evolutions": [
+        {
+          "evoId": 6,
+          "formId": 3356,
+          "candyCost": 100
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3356": {
       "formName": "Goggles 2026",
       "proto": "CHARIZARD_GOGGLES_2026",
-      "formId": 3356
+      "formId": 3356,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 2,
+          "attack": 273,
+          "defense": 213,
+          "stamina": 186,
+          "weight": 110.5,
+          "types": [
+            10,
+            16
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        },
+        {
+          "tempEvoId": 3,
+          "attack": 319,
+          "defense": 212,
+          "stamina": 186,
+          "weight": 100.5,
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        }
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3357": {
       "formName": "Glass Helmet 2026",
@@ -109921,6 +109965,14 @@
       "proto": "LC_TPC30_PH",
       "formatted": "Tpc30 Ph",
       "imageUrl": "lc_tpc30_ph"
+    },
+    "349": {
+      "id": 349,
+      "proto": "LC_SPECIALBACKGROUND_S24_SEP_2026",
+      "formatted": "S24 Sep 2026",
+      "imageUrl": "sb_s24_sep_2026",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Horizons_2026"
     },
     "350": {
       "id": 350,

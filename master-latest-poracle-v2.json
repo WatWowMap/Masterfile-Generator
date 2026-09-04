@@ -348,7 +348,14 @@
         "baseStamina": 118
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 5,
+          "id": 3355,
+          "candyCost": 25
+        }
+      ]
     },
     "5_0": {
       "name": "Charmeleon",
@@ -425,7 +432,14 @@
         "baseStamina": 151
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 6,
+          "id": 3356,
+          "candyCost": 100
+        }
+      ]
     },
     "6_0": {
       "name": "Charizard",
@@ -589,7 +603,39 @@
         "baseStamina": 186
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "tempEvolutions": [
+        {
+          "tempEvoId": 2,
+          "stats": {
+            "baseAttack": 273,
+            "baseDefense": 213,
+            "baseStamina": 186
+          },
+          "types": [
+            {
+              "id": 10,
+              "name": "Fire"
+            },
+            {
+              "id": 16,
+              "name": "Dragon"
+            }
+          ],
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        },
+        {
+          "tempEvoId": 3,
+          "stats": {
+            "baseAttack": 319,
+            "baseDefense": 212,
+            "baseStamina": 186
+          },
+          "firstEnergyCost": 200,
+          "subsequentEnergyCost": 40
+        }
+      ]
     },
     "7_0": {
       "name": "Squirtle",

@@ -226,7 +226,14 @@
         },
         "3354": {
           "formName": "Goggles 2026",
-          "formId": 3354
+          "formId": 3354,
+          "evolutions": [
+            {
+              "evoId": 5,
+              "formId": 3355,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -290,7 +297,14 @@
         },
         "3355": {
           "formName": "Goggles 2026",
-          "formId": 3355
+          "formId": 3355,
+          "evolutions": [
+            {
+              "evoId": 6,
+              "formId": 3356,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
