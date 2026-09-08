@@ -2624,6 +2624,13 @@
         }
       },
       "chargedMoves": {
+        "13": {
+          "moveId": 13,
+          "moveName": "Wrap",
+          "proto": "WRAP",
+          "type": 1,
+          "power": 60
+        },
         "16": {
           "moveId": 16,
           "moveName": "Dark Pulse",
@@ -2651,6 +2658,13 @@
           "proto": "ACID_SPRAY",
           "type": 4,
           "power": 20
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 1,
@@ -3709,6 +3723,13 @@
           "proto": "TRAILBLAZE",
           "type": 12,
           "power": 65
+        },
+        "399": {
+          "moveId": 399,
+          "moveName": "Volt Tackle",
+          "proto": "VOLT_TACKLE",
+          "type": 13,
+          "power": 90
         }
       },
       "genId": 1,
@@ -3815,6 +3836,13 @@
               "proto": "TRAILBLAZE",
               "type": 12,
               "power": 65
+            },
+            "399": {
+              "moveId": 399,
+              "moveName": "Volt Tackle",
+              "proto": "VOLT_TACKLE",
+              "type": 13,
+              "power": 90
             }
           },
           "types": {
@@ -4839,6 +4867,13 @@
           "proto": "SLUDGE_WAVE",
           "type": 4,
           "power": 105
+        },
+        "254": {
+          "moveId": 254,
+          "moveName": "Avalanche",
+          "proto": "AVALANCHE",
+          "type": 15,
+          "power": 85
         },
         "258": {
           "moveId": 258,
@@ -9365,6 +9400,13 @@
         }
       },
       "quickMoves": {
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
         "215": {
           "moveId": 215,
           "moveName": "Razor Leaf",
@@ -12079,6 +12121,13 @@
               "type": 17,
               "power": 80
             },
+            "33": {
+              "moveId": 33,
+              "moveName": "Ice Punch",
+              "proto": "ICE_PUNCH",
+              "type": 15,
+              "power": 50
+            },
             "91": {
               "moveId": 91,
               "moveName": "Sludge Wave",
@@ -12099,6 +12148,13 @@
               "proto": "ACID_SPRAY",
               "type": 4,
               "power": 20
+            },
+            "367": {
+              "moveId": 367,
+              "moveName": "Brutal Swing",
+              "proto": "BRUTAL_SWING",
+              "type": 17,
+              "power": 65
             }
           },
           "types": {
@@ -18371,6 +18427,13 @@
           "proto": "EARTH_POWER",
           "type": 5,
           "power": 100
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 1,
@@ -18396,6 +18459,43 @@
           "proto": "AERODACTYL_SUMMER_2023",
           "form": 3001,
           "isCostume": true,
+          "chargedMoves": {
+            "14": {
+              "moveId": 14,
+              "moveName": "Hyper Beam",
+              "proto": "HYPER_BEAM",
+              "type": 1,
+              "power": 150
+            },
+            "62": {
+              "moveId": 62,
+              "moveName": "Ancient Power",
+              "proto": "ANCIENT_POWER",
+              "type": 6,
+              "power": 70
+            },
+            "64": {
+              "moveId": 64,
+              "moveName": "Rock Slide",
+              "proto": "ROCK_SLIDE",
+              "type": 6,
+              "power": 75
+            },
+            "74": {
+              "moveId": 74,
+              "moveName": "Iron Head",
+              "proto": "IRON_HEAD",
+              "type": 9,
+              "power": 60
+            },
+            "304": {
+              "moveId": 304,
+              "moveName": "Earth Power",
+              "proto": "EARTH_POWER",
+              "type": 5,
+              "power": 100
+            }
+          },
           "tempEvolutions": {
             "1": {
               "tempEvoId": 1
@@ -18463,6 +18563,13 @@
           "proto": "ZEN_HEADBUTT_FAST",
           "type": 14,
           "power": 11
+        },
+        "401": {
+          "moveId": 401,
+          "moveName": "Psywave",
+          "proto": "PSYWAVE_FAST",
+          "type": 14,
+          "power": 4
         }
       },
       "chargedMoves": {
@@ -18533,7 +18640,23 @@
           "name": "Wildarea 2024",
           "proto": "SNORLAX_WILDAREA_2024",
           "form": 2849,
-          "isCostume": true
+          "isCostume": true,
+          "quickMoves": {
+            "212": {
+              "moveId": 212,
+              "moveName": "Lick",
+              "proto": "LICK_FAST",
+              "type": 8,
+              "power": 5
+            },
+            "234": {
+              "moveId": 234,
+              "moveName": "Zen Headbutt",
+              "proto": "ZEN_HEADBUTT_FAST",
+              "type": 14,
+              "power": 11
+            }
+          }
         }
       },
       "stats": {
@@ -21766,6 +21889,13 @@
           "type": 4,
           "power": 40
         },
+        "280": {
+          "moveId": 280,
+          "moveName": "Foul Play",
+          "proto": "FOUL_PLAY",
+          "type": 17,
+          "power": 70
+        },
         "306": {
           "moveId": 306,
           "moveName": "Lunge",
@@ -21848,6 +21978,13 @@
           "proto": "AIR_SLASH_FAST",
           "type": 3,
           "power": 12
+        },
+        "345": {
+          "moveId": 345,
+          "moveName": "Gust",
+          "proto": "GUST_FAST",
+          "type": 3,
+          "power": 25
         }
       },
       "chargedMoves": {
@@ -28562,6 +28699,13 @@
           "type": 9,
           "power": 100
         },
+        "46": {
+          "moveId": 46,
+          "moveName": "Drill Run",
+          "proto": "DRILL_RUN",
+          "type": 5,
+          "power": 85
+        },
         "256": {
           "moveId": 256,
           "moveName": "Brave Bird",
@@ -28763,6 +28907,13 @@
           "proto": "SNARL_FAST",
           "type": 17,
           "power": 11
+        },
+        "346": {
+          "moveId": 346,
+          "moveName": "Incinerate",
+          "proto": "INCINERATE_FAST",
+          "type": 10,
+          "power": 32
         }
       },
       "chargedMoves": {
@@ -28793,6 +28944,13 @@
           "proto": "FOUL_PLAY",
           "type": 17,
           "power": 70
+        },
+        "392": {
+          "moveId": 392,
+          "moveName": "Trailblaze",
+          "proto": "TRAILBLAZE",
+          "type": 12,
+          "power": 65
         }
       },
       "genId": 2,
@@ -30679,7 +30837,7 @@
           "moveName": "Psycho Boost",
           "proto": "PSYCHO_BOOST",
           "type": 14,
-          "power": 70
+          "power": 130
         },
         "292": {
           "moveId": 292,
@@ -31563,6 +31721,13 @@
           "proto": "GYRO_BALL",
           "type": 9,
           "power": 85
+        },
+        "377": {
+          "moveId": 377,
+          "moveName": "High Horsepower",
+          "proto": "HIGH_HORSEPOWER",
+          "type": 5,
+          "power": 105
         }
       },
       "genId": 2,
@@ -32404,6 +32569,13 @@
           "type": 14,
           "power": 115
         },
+        "304": {
+          "moveId": 304,
+          "moveName": "Earth Power",
+          "proto": "EARTH_POWER",
+          "type": 5,
+          "power": 100
+        },
         "341": {
           "moveId": 341,
           "moveName": "Fly",
@@ -32428,7 +32600,37 @@
         "2729": {
           "name": "S",
           "proto": "LUGIA_S",
-          "form": 2729
+          "form": 2729,
+          "chargedMoves": {
+            "107": {
+              "moveId": 107,
+              "moveName": "Hydro Pump",
+              "proto": "HYDRO_PUMP",
+              "type": 11,
+              "power": 135
+            },
+            "257": {
+              "moveId": 257,
+              "moveName": "Sky Attack",
+              "proto": "SKY_ATTACK",
+              "type": 3,
+              "power": 80
+            },
+            "275": {
+              "moveId": 275,
+              "moveName": "Future Sight",
+              "proto": "FUTURESIGHT",
+              "type": 14,
+              "power": 115
+            },
+            "341": {
+              "moveId": 341,
+              "moveName": "Fly",
+              "proto": "FLY",
+              "type": 3,
+              "power": 90
+            }
+          }
         }
       },
       "stats": {
@@ -38548,6 +38750,13 @@
           "type": 13,
           "power": 100
         },
+        "123": {
+          "moveId": 123,
+          "moveName": "Brick Break",
+          "proto": "BRICK_BREAK",
+          "type": 2,
+          "power": 40
+        },
         "268": {
           "moveId": 268,
           "moveName": "Heavy Slam",
@@ -39278,6 +39487,13 @@
           "type": 1,
           "power": 5
         },
+        "260": {
+          "moveId": 260,
+          "moveName": "Infestation",
+          "proto": "INFESTATION_FAST",
+          "type": 7,
+          "power": 9
+        },
         "261": {
           "moveId": 261,
           "moveName": "Struggle Bug",
@@ -39307,6 +39523,13 @@
           "proto": "SIGNAL_BEAM",
           "type": 7,
           "power": 75
+        },
+        "306": {
+          "moveId": 306,
+          "moveName": "Lunge",
+          "proto": "LUNGE",
+          "type": 7,
+          "power": 55
         }
       },
       "genId": 3,
@@ -39362,6 +39585,13 @@
           "type": 1,
           "power": 5
         },
+        "260": {
+          "moveId": 260,
+          "moveName": "Infestation",
+          "proto": "INFESTATION_FAST",
+          "type": 7,
+          "power": 9
+        },
         "261": {
           "moveId": 261,
           "moveName": "Struggle Bug",
@@ -39377,6 +39607,13 @@
           "proto": "BUG_BUZZ",
           "type": 7,
           "power": 95
+        },
+        "70": {
+          "moveId": 70,
+          "moveName": "Shadow Ball",
+          "proto": "SHADOW_BALL",
+          "type": 8,
+          "power": 100
         },
         "86": {
           "moveId": 86,
@@ -47253,7 +47490,7 @@
           "moveName": "Psycho Boost",
           "proto": "PSYCHO_BOOST",
           "type": 14,
-          "power": 70
+          "power": 130
         }
       },
       "genId": 3,
@@ -47288,7 +47525,7 @@
               "moveName": "Psycho Boost",
               "proto": "PSYCHO_BOOST",
               "type": 14,
-              "power": 70
+              "power": 130
             }
           }
         },
@@ -47337,7 +47574,7 @@
               "moveName": "Psycho Boost",
               "proto": "PSYCHO_BOOST",
               "type": 14,
-              "power": 70
+              "power": 130
             }
           }
         },
@@ -47351,6 +47588,13 @@
             "stamina": 137
           },
           "quickMoves": {
+            "207": {
+              "moveId": 207,
+              "moveName": "Low Kick",
+              "proto": "LOW_KICK_FAST",
+              "type": 2,
+              "power": 5
+            },
             "234": {
               "moveId": 234,
               "moveName": "Zen Headbutt",
@@ -47386,7 +47630,7 @@
               "moveName": "Psycho Boost",
               "proto": "PSYCHO_BOOST",
               "type": 14,
-              "power": 70
+              "power": 130
             }
           }
         },
@@ -47419,7 +47663,7 @@
               "moveName": "Psycho Boost",
               "proto": "PSYCHO_BOOST",
               "type": 14,
-              "power": 70
+              "power": 130
             }
           }
         }
@@ -52032,6 +52276,13 @@
           "proto": "DAZZLING_GLEAM",
           "type": 18,
           "power": 100
+        },
+        "382": {
+          "moveId": 382,
+          "moveName": "Mystical Fire",
+          "proto": "MYSTICAL_FIRE",
+          "type": 10,
+          "power": 60
         }
       },
       "genId": 4,
@@ -56962,6 +57213,13 @@
           "proto": "CLOSE_COMBAT",
           "type": 2,
           "power": 105
+        },
+        "330": {
+          "moveId": 330,
+          "moveName": "Sacred Sword",
+          "proto": "SACRED_SWORD",
+          "type": 2,
+          "power": 50
         }
       },
       "genId": 4,
@@ -58701,6 +58959,13 @@
         }
       },
       "quickMoves": {
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
         "238": {
           "moveId": 238,
           "moveName": "Feint Attack",
@@ -58737,6 +59002,13 @@
           "proto": "FOCUS_BLAST",
           "type": 2,
           "power": 140
+        },
+        "280": {
+          "moveId": 280,
+          "moveName": "Foul Play",
+          "proto": "FOUL_PLAY",
+          "type": 17,
+          "power": 70
         }
       },
       "genId": 4,
@@ -62993,6 +63265,13 @@
           "proto": "ZEN_HEADBUTT_FAST",
           "type": 14,
           "power": 11
+        },
+        "249": {
+          "moveId": 249,
+          "moveName": "Charge Beam",
+          "proto": "CHARGE_BEAM_FAST",
+          "type": 13,
+          "power": 7
         }
       },
       "chargedMoves": {
@@ -66626,6 +66905,13 @@
           "proto": "PSYCHIC",
           "type": 14,
           "power": 95
+        },
+        "273": {
+          "moveId": 273,
+          "moveName": "Energy Ball",
+          "proto": "ENERGY_BALL",
+          "type": 12,
+          "power": 90
         }
       },
       "genId": 5,
@@ -67444,6 +67730,13 @@
         }
       },
       "quickMoves": {
+        "203": {
+          "moveId": 203,
+          "moveName": "Sucker Punch",
+          "proto": "SUCKER_PUNCH_FAST",
+          "type": 17,
+          "power": 5
+        },
         "213": {
           "moveId": 213,
           "moveName": "Shadow Claw",
@@ -67511,6 +67804,22 @@
             "defense": 128,
             "stamina": 146
           },
+          "quickMoves": {
+            "213": {
+              "moveId": 213,
+              "moveName": "Shadow Claw",
+              "proto": "SHADOW_CLAW_FAST",
+              "type": 8,
+              "power": 6
+            },
+            "278": {
+              "moveId": 278,
+              "moveName": "Snarl",
+              "proto": "SNARL_FAST",
+              "type": 17,
+              "power": 11
+            }
+          },
           "chargedMoves": {
             "24": {
               "moveId": 24,
@@ -67532,6 +67841,13 @@
               "proto": "SLUDGE_BOMB",
               "type": 4,
               "power": 85
+            },
+            "125": {
+              "moveId": 125,
+              "moveName": "Swift",
+              "proto": "SWIFT",
+              "type": 1,
+              "power": 65
             },
             "280": {
               "moveId": 280,
@@ -71382,6 +71698,13 @@
         }
       },
       "quickMoves": {
+        "263": {
+          "moveId": 263,
+          "moveName": "Astonish",
+          "proto": "ASTONISH_FAST",
+          "type": 8,
+          "power": 7
+        },
         "264": {
           "moveId": 264,
           "moveName": "Hex",
@@ -94388,6 +94711,13 @@
           "type": 13,
           "power": 50
         },
+        "246": {
+          "moveId": 246,
+          "moveName": "Dynamic Punch",
+          "proto": "DYNAMIC_PUNCH",
+          "type": 2,
+          "power": 85
+        },
         "251": {
           "moveId": 251,
           "moveName": "Wild Charge",
@@ -98442,12 +98772,86 @@
         "2463": {
           "name": "Low Key Form",
           "proto": "TOXTRICITY_LOW_KEY",
-          "form": 2463
+          "form": 2463,
+          "chargedMoves": {
+            "35": {
+              "moveId": 35,
+              "moveName": "Discharge",
+              "proto": "DISCHARGE",
+              "type": 13,
+              "power": 65
+            },
+            "125": {
+              "moveId": 125,
+              "moveName": "Swift",
+              "proto": "SWIFT",
+              "type": 1,
+              "power": 65
+            },
+            "251": {
+              "moveId": 251,
+              "moveName": "Wild Charge",
+              "proto": "WILD_CHARGE",
+              "type": 13,
+              "power": 90
+            },
+            "303": {
+              "moveId": 303,
+              "moveName": "Acid Spray",
+              "proto": "ACID_SPRAY",
+              "type": 4,
+              "power": 20
+            },
+            "319": {
+              "moveId": 319,
+              "moveName": "Power-Up Punch",
+              "proto": "POWER_UP_PUNCH",
+              "type": 2,
+              "power": 50
+            }
+          }
         },
         "2464": {
           "name": "Amped Form",
           "proto": "TOXTRICITY_AMPED",
-          "form": 2464
+          "form": 2464,
+          "chargedMoves": {
+            "35": {
+              "moveId": 35,
+              "moveName": "Discharge",
+              "proto": "DISCHARGE",
+              "type": 13,
+              "power": 65
+            },
+            "125": {
+              "moveId": 125,
+              "moveName": "Swift",
+              "proto": "SWIFT",
+              "type": 1,
+              "power": 65
+            },
+            "251": {
+              "moveId": 251,
+              "moveName": "Wild Charge",
+              "proto": "WILD_CHARGE",
+              "type": 13,
+              "power": 90
+            },
+            "303": {
+              "moveId": 303,
+              "moveName": "Acid Spray",
+              "proto": "ACID_SPRAY",
+              "type": 4,
+              "power": 20
+            },
+            "319": {
+              "moveId": 319,
+              "moveName": "Power-Up Punch",
+              "proto": "POWER_UP_PUNCH",
+              "type": 2,
+              "power": 50
+            }
+          }
         }
       },
       "stats": {
@@ -99655,6 +100059,13 @@
           "proto": "DARK_PULSE",
           "type": 17,
           "power": 80
+        },
+        "85": {
+          "moveId": 85,
+          "moveName": "Draining Kiss",
+          "proto": "DRAINING_KISS",
+          "type": 18,
+          "power": 60
         },
         "88": {
           "moveId": 88,
@@ -103914,6 +104325,13 @@
         }
       },
       "quickMoves": {
+        "220": {
+          "moveId": 220,
+          "moveName": "Scratch",
+          "proto": "SCRATCH_FAST",
+          "type": 1,
+          "power": 6
+        },
         "221": {
           "moveId": 221,
           "moveName": "Tackle",
@@ -108692,6 +109110,13 @@
         }
       },
       "quickMoves": {
+        "220": {
+          "moveId": 220,
+          "moveName": "Scratch",
+          "proto": "SCRATCH_FAST",
+          "type": 1,
+          "power": 6
+        },
         "224": {
           "moveId": 224,
           "moveName": "Poison Jab",
@@ -108721,6 +109146,13 @@
           "proto": "SLUDGE_BOMB",
           "type": 4,
           "power": 85
+        },
+        "280": {
+          "moveId": 280,
+          "moveName": "Foul Play",
+          "proto": "FOUL_PLAY",
+          "type": 17,
+          "power": 70
         },
         "303": {
           "moveId": 303,
@@ -110376,6 +110808,13 @@
           "type": 3,
           "power": 55
         },
+        "46": {
+          "moveId": 46,
+          "moveName": "Drill Run",
+          "proto": "DRILL_RUN",
+          "type": 5,
+          "power": 85
+        },
         "63": {
           "moveId": 63,
           "moveName": "Rock Tomb",
@@ -111471,6 +111910,13 @@
           "type": 3,
           "power": 10
         },
+        "211": {
+          "moveId": 211,
+          "moveName": "Peck",
+          "proto": "PECK_FAST",
+          "type": 3,
+          "power": 10
+        },
         "356": {
           "moveId": 356,
           "moveName": "Double Kick",
@@ -112499,6 +112945,13 @@
         }
       },
       "quickMoves": {
+        "207": {
+          "moveId": 207,
+          "moveName": "Low Kick",
+          "proto": "LOW_KICK_FAST",
+          "type": 2,
+          "power": 5
+        },
         "228": {
           "moveId": 228,
           "moveName": "Metal Claw",
@@ -120146,7 +120599,8 @@
       "stamina": 137,
       "quickMoves": [
         234,
-        243
+        243,
+        207
       ],
       "chargedMoves": [
         288,
@@ -120350,7 +120804,8 @@
         272,
         392,
         284,
-        60
+        60,
+        399
       ],
       "eliteChargedMoves": [],
       "types": [
@@ -121021,7 +121476,9 @@
         16,
         92,
         91,
-        303
+        303,
+        33,
+        367
       ],
       "eliteQuickMoves": [],
       "types": [
@@ -130011,13 +130468,27 @@
       "formName": "Low Key Form",
       "proto": "TOXTRICITY_LOW_KEY",
       "formId": 2463,
-      "gmaxMove": 446
+      "gmaxMove": 446,
+      "chargedMoves": [
+        303,
+        35,
+        251,
+        319,
+        125
+      ]
     },
     "2464": {
       "formName": "Amped Form",
       "proto": "TOXTRICITY_AMPED",
       "formId": 2464,
-      "gmaxMove": 446
+      "gmaxMove": 446,
+      "chargedMoves": [
+        303,
+        35,
+        251,
+        319,
+        125
+      ]
     },
     "2477": {
       "formName": "Phony Form",
@@ -132307,6 +132778,12 @@
       "formName": "S",
       "proto": "LUGIA_S",
       "formId": 2729,
+      "chargedMoves": [
+        257,
+        107,
+        275,
+        341
+      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -133325,11 +133802,16 @@
       "attack": 261,
       "defense": 128,
       "stamina": 146,
+      "quickMoves": [
+        213,
+        278
+      ],
       "chargedMoves": [
         280,
         90,
         24,
-        70
+        70,
+        125
       ],
       "types": [
         1,
@@ -134051,6 +134533,10 @@
       "proto": "SNORLAX_WILDAREA_2024",
       "formId": 2849,
       "isCostume": true,
+      "quickMoves": [
+        234,
+        212
+      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -134421,6 +134907,13 @@
       "proto": "AERODACTYL_SUMMER_2023",
       "formId": 3001,
       "isCostume": true,
+      "chargedMoves": [
+        62,
+        74,
+        14,
+        64,
+        304
+      ],
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -142110,7 +142603,7 @@
       "id": 288,
       "name": "Psycho Boost",
       "proto": "PSYCHO_BOOST",
-      "power": 70
+      "power": 130
     },
     "289": {
       "id": 289,

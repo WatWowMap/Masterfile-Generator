@@ -800,7 +800,9 @@
         16,
         91,
         92,
-        303
+        303,
+        13,
+        367
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -1256,7 +1258,8 @@
         251,
         302,
         392,
-        284
+        284,
+        399
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -1278,7 +1281,8 @@
             272,
             392,
             284,
-            60
+            60,
+            399
           ],
           "types": [
             13,
@@ -1571,7 +1575,8 @@
         91,
         22,
         304,
-        258
+        258,
+        254
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -2882,7 +2887,8 @@
       ],
       "quickMoves": [
         215,
-        225
+        225,
+        203
       ],
       "chargedMoves": [
         117,
@@ -3646,7 +3652,9 @@
             16,
             92,
             91,
-            303
+            303,
+            33,
+            367
           ],
           "types": [
             4,
@@ -5497,7 +5505,8 @@
         74,
         14,
         64,
-        304
+        304,
+        367
       ],
       "genId": 1,
       "generation": "Kanto",
@@ -5507,7 +5516,14 @@
         },
         "3001": {
           "name": "Summer 2023",
-          "isCostume": true
+          "isCostume": true,
+          "chargedMoves": [
+            62,
+            74,
+            14,
+            64,
+            304
+          ]
         }
       },
       "height": 1.8,
@@ -5529,7 +5545,8 @@
       ],
       "quickMoves": [
         234,
-        212
+        212,
+        401
       ],
       "chargedMoves": [
         268,
@@ -5548,7 +5565,11 @@
         },
         "2849": {
           "name": "Wildarea 2024",
-          "isCostume": true
+          "isCostume": true,
+          "quickMoves": [
+            234,
+            212
+          ]
         }
       },
       "height": 2.1,
@@ -6469,7 +6490,8 @@
         22,
         89,
         306,
-        392
+        392,
+        280
       ],
       "genId": 2,
       "generation": "Johto",
@@ -6495,7 +6517,8 @@
       ],
       "quickMoves": [
         255,
-        202
+        202,
+        345
       ],
       "chargedMoves": [
         70,
@@ -8557,7 +8580,8 @@
       "chargedMoves": [
         256,
         257,
-        36
+        36,
+        46
       ],
       "genId": 2,
       "generation": "Johto",
@@ -8617,13 +8641,15 @@
       ],
       "quickMoves": [
         278,
-        240
+        240,
+        346
       ],
       "chargedMoves": [
         279,
         103,
         280,
-        24
+        24,
+        392
       ],
       "genId": 2,
       "generation": "Johto",
@@ -9218,7 +9244,8 @@
         131,
         267,
         79,
-        39
+        39,
+        377
       ],
       "genId": 2,
       "generation": "Johto",
@@ -9486,7 +9513,8 @@
         257,
         107,
         275,
-        341
+        341,
+        304
       ],
       "genId": 2,
       "generation": "Johto",
@@ -9495,7 +9523,13 @@
           "name": "Normal"
         },
         "2729": {
-          "name": "S"
+          "name": "S",
+          "chargedMoves": [
+            257,
+            107,
+            275,
+            341
+          ]
         }
       },
       "height": 5.21,
@@ -11341,7 +11375,8 @@
         32,
         268,
         63,
-        372
+        372,
+        123
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -11563,12 +11598,14 @@
       ],
       "quickMoves": [
         261,
-        221
+        221,
+        260
       ],
       "chargedMoves": [
         99,
         49,
-        79
+        79,
+        306
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -11593,12 +11630,14 @@
       ],
       "quickMoves": [
         261,
-        221
+        221,
+        260
       ],
       "chargedMoves": [
         262,
         49,
-        86
+        86,
+        70
       ],
       "genId": 3,
       "generation": "Hoenn",
@@ -14054,7 +14093,8 @@
           "name": "Defense",
           "quickMoves": [
             234,
-            243
+            243,
+            207
           ],
           "chargedMoves": [
             288,
@@ -15478,7 +15518,8 @@
       "chargedMoves": [
         70,
         16,
-        86
+        86,
+        382
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -16968,7 +17009,8 @@
       "chargedMoves": [
         245,
         108,
-        117
+        117,
+        330
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -17552,12 +17594,14 @@
       ],
       "quickMoves": [
         278,
-        238
+        238,
+        203
       ],
       "chargedMoves": [
         247,
         70,
-        16
+        16,
+        280
       ],
       "genId": 4,
       "generation": "Sinnoh",
@@ -18926,7 +18970,8 @@
       ],
       "quickMoves": [
         222,
-        234
+        234,
+        249
       ],
       "chargedMoves": [
         84,
@@ -20034,7 +20079,8 @@
       "chargedMoves": [
         70,
         16,
-        108
+        108,
+        273
       ],
       "genId": 5,
       "generation": "Unova",
@@ -20292,7 +20338,8 @@
       ],
       "quickMoves": [
         213,
-        278
+        278,
+        203
       ],
       "chargedMoves": [
         280,
@@ -20308,11 +20355,16 @@
         },
         "2797": {
           "name": "Hisuian",
+          "quickMoves": [
+            213,
+            278
+          ],
           "chargedMoves": [
             280,
             90,
             24,
-            70
+            70,
+            125
           ],
           "types": [
             1,
@@ -21513,7 +21565,8 @@
       "quickMoves": [
         264,
         269,
-        346
+        346,
+        263
       ],
       "chargedMoves": [
         273,
@@ -28635,7 +28688,8 @@
         77,
         35,
         251,
-        497
+        497,
+        246
       ],
       "genId": 7,
       "generation": "Alola",
@@ -29920,10 +29974,24 @@
       "generation": "Galar",
       "forms": {
         "2463": {
-          "name": "Low Key"
+          "name": "Low Key",
+          "chargedMoves": [
+            303,
+            35,
+            251,
+            319,
+            125
+          ]
         },
         "2464": {
-          "name": "Amped"
+          "name": "Amped",
+          "chargedMoves": [
+            303,
+            35,
+            251,
+            319,
+            125
+          ]
         }
       },
       "height": 1.6,
@@ -30307,7 +30375,8 @@
         280,
         16,
         88,
-        319
+        319,
+        85
       ],
       "genId": 8,
       "generation": "Galar",
@@ -31677,7 +31746,8 @@
       "quickMoves": [
         221,
         241,
-        297
+        297,
+        220
       ],
       "chargedMoves": [
         115,
@@ -33107,12 +33177,14 @@
       ],
       "quickMoves": [
         233,
-        224
+        224,
+        220
       ],
       "chargedMoves": [
         303,
         50,
-        90
+        90,
+        280
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -33642,7 +33714,8 @@
         333,
         45,
         341,
-        63
+        63,
+        46
       ],
       "genId": 9,
       "generation": "Paldea",
@@ -33989,7 +34062,8 @@
       ],
       "quickMoves": [
         210,
-        356
+        356,
+        211
       ],
       "chargedMoves": [
         45,
@@ -34326,7 +34400,8 @@
       "quickMoves": [
         278,
         228,
-        402
+        402,
+        207
       ],
       "chargedMoves": [
         16,
