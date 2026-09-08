@@ -39055,6 +39055,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -39114,6 +39115,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -39234,6 +39236,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -39293,6 +39296,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -39414,6 +39418,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -39473,6 +39478,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -65421,9 +65427,20 @@
     },
     "502": {
       "id": 502,
-      "name": "Vm Move Temp Evolution Mega V0015 Pokemon Beedrill",
+      "name": "Fell Stinger+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
-      "fast": false
+      "fast": false,
+      "type": "Bug",
+      "pvpPower": 40,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 140,
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "503": {
       "id": 503,

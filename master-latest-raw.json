@@ -1285,7 +1285,8 @@
           "height": 1.4,
           "weight": 40.5,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 502
         }
       ],
       "purificationDust": 1000,
@@ -49766,6 +49767,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -49843,6 +49845,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -50005,6 +50008,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -50082,6 +50086,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -50245,6 +50250,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -50322,6 +50328,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 3,
+      "buddyMegaEnergy": 15,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -80995,7 +81002,8 @@
           "height": 1.4,
           "weight": 40.5,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 502
         }
       ],
       "purificationDust": 1000,
@@ -103081,9 +103089,19 @@
     },
     "502": {
       "moveId": 502,
-      "moveName": "Vm Move Temp Evolution Mega V0015 Pokemon Beedrill",
+      "moveName": "Fell Stinger+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
-      "fast": false
+      "fast": false,
+      "type": 7,
+      "pvpPower": 40,
+      "pvpEnergyDelta": -35,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "buffActivationChance": 1
+      },
+      "power": 140,
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "503": {
       "moveId": 503,

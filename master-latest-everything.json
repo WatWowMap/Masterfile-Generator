@@ -76167,6 +76167,7 @@
       "misc": {
         "buddyGroupNumber": 1,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76270,6 +76271,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76499,6 +76501,7 @@
       "misc": {
         "buddyGroupNumber": 1,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76602,6 +76605,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76838,6 +76842,7 @@
       "misc": {
         "buddyGroupNumber": 1,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -76941,6 +76946,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 3,
+        "buddyMegaEnergy": 15,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -123173,7 +123179,8 @@
           "height": 1.4,
           "weight": 40.5,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 502
         }
       ],
       "purificationDust": 1000,
@@ -143374,7 +143381,8 @@
     "502": {
       "id": 502,
       "name": "Fell Stinger+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0015_POKEMON_BEEDRILL",
+      "power": 140
     },
     "503": {
       "id": 503,
