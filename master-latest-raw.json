@@ -43906,8 +43906,7 @@
       ],
       "quickMoves": [
         213,
-        278,
-        203
+        278
       ],
       "chargedMoves": [
         280,
@@ -50387,7 +50386,8 @@
         51,
         45,
         284,
-        107
+        107,
+        367
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -90175,12 +90175,6 @@
       "formName": "S",
       "proto": "LUGIA_S",
       "formId": 2729,
-      "chargedMoves": [
-        257,
-        107,
-        275,
-        341
-      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -91197,10 +91191,6 @@
       "attack": 261,
       "defense": 128,
       "stamina": 146,
-      "quickMoves": [
-        213,
-        278
-      ],
       "chargedMoves": [
         280,
         90,
@@ -91928,10 +91918,6 @@
       "proto": "SNORLAX_WILDAREA_2024",
       "formId": 2849,
       "isCostume": true,
-      "quickMoves": [
-        234,
-        212
-      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -92301,13 +92287,6 @@
       "proto": "AERODACTYL_SUMMER_2023",
       "formId": 3001,
       "isCostume": true,
-      "chargedMoves": [
-        62,
-        74,
-        14,
-        64,
-        304
-      ],
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -97957,6 +97936,20 @@
       "itemId": 2255,
       "itemName": "Event Ticket S24 Sep 19 Megaraid",
       "proto": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2269": {
+      "itemId": 2269,
+      "itemName": "Event Ticket S24 Nov9 Gowaol",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2270": {
+      "itemId": 2270,
+      "itemName": "Event Ticket S24 Nov9 Gowaol To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

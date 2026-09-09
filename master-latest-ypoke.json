@@ -9922,14 +9922,7 @@
         "3001": {
           "formName": "Summer 2023",
           "formId": 3001,
-          "isCostume": true,
-          "chargedMoves": [
-            62,
-            74,
-            14,
-            64,
-            304
-          ]
+          "isCostume": true
         }
       },
       "stats": {
@@ -9996,11 +9989,7 @@
         "2849": {
           "formName": "Wildarea 2024",
           "formId": 2849,
-          "isCostume": true,
-          "quickMoves": [
-            234,
-            212
-          ]
+          "isCostume": true
         }
       },
       "stats": {
@@ -16553,13 +16542,7 @@
         },
         "2729": {
           "formName": "S",
-          "formId": 2729,
-          "chargedMoves": [
-            257,
-            107,
-            275,
-            341
-          ]
+          "formId": 2729
         }
       },
       "stats": {
@@ -34677,8 +34660,7 @@
       ],
       "quickMoves": [
         213,
-        278,
-        203
+        278
       ],
       "chargedMoves": [
         280,
@@ -34702,10 +34684,6 @@
             "defense": 128,
             "stamina": 146
           },
-          "quickMoves": [
-            213,
-            278
-          ],
           "chargedMoves": [
             280,
             90,
@@ -39563,7 +39541,8 @@
         51,
         45,
         284,
-        107
+        107,
+        367
       ],
       "eliteQuickMoves": [],
       "eliteChargedMoves": [
@@ -60253,6 +60232,14 @@
     },
     "2255": {
       "name": "Event Ticket S24 Sep 19 Megaraid",
+      "type": "Global Event Ticket"
+    },
+    "2269": {
+      "name": "Event Ticket S24 Nov9 Gowaol",
+      "type": "Global Event Ticket"
+    },
+    "2270": {
+      "name": "Event Ticket S24 Nov9 Gowaol To Gift",
       "type": "Global Event Ticket"
     }
   },

@@ -18459,43 +18459,6 @@
           "proto": "AERODACTYL_SUMMER_2023",
           "form": 3001,
           "isCostume": true,
-          "chargedMoves": {
-            "14": {
-              "moveId": 14,
-              "moveName": "Hyper Beam",
-              "proto": "HYPER_BEAM",
-              "type": 1,
-              "power": 150
-            },
-            "62": {
-              "moveId": 62,
-              "moveName": "Ancient Power",
-              "proto": "ANCIENT_POWER",
-              "type": 6,
-              "power": 70
-            },
-            "64": {
-              "moveId": 64,
-              "moveName": "Rock Slide",
-              "proto": "ROCK_SLIDE",
-              "type": 6,
-              "power": 75
-            },
-            "74": {
-              "moveId": 74,
-              "moveName": "Iron Head",
-              "proto": "IRON_HEAD",
-              "type": 9,
-              "power": 60
-            },
-            "304": {
-              "moveId": 304,
-              "moveName": "Earth Power",
-              "proto": "EARTH_POWER",
-              "type": 5,
-              "power": 100
-            }
-          },
           "tempEvolutions": {
             "1": {
               "tempEvoId": 1
@@ -18640,23 +18603,7 @@
           "name": "Wildarea 2024",
           "proto": "SNORLAX_WILDAREA_2024",
           "form": 2849,
-          "isCostume": true,
-          "quickMoves": {
-            "212": {
-              "moveId": 212,
-              "moveName": "Lick",
-              "proto": "LICK_FAST",
-              "type": 8,
-              "power": 5
-            },
-            "234": {
-              "moveId": 234,
-              "moveName": "Zen Headbutt",
-              "proto": "ZEN_HEADBUTT_FAST",
-              "type": 14,
-              "power": 11
-            }
-          }
+          "isCostume": true
         }
       },
       "stats": {
@@ -32600,37 +32547,7 @@
         "2729": {
           "name": "S",
           "proto": "LUGIA_S",
-          "form": 2729,
-          "chargedMoves": {
-            "107": {
-              "moveId": 107,
-              "moveName": "Hydro Pump",
-              "proto": "HYDRO_PUMP",
-              "type": 11,
-              "power": 135
-            },
-            "257": {
-              "moveId": 257,
-              "moveName": "Sky Attack",
-              "proto": "SKY_ATTACK",
-              "type": 3,
-              "power": 80
-            },
-            "275": {
-              "moveId": 275,
-              "moveName": "Future Sight",
-              "proto": "FUTURESIGHT",
-              "type": 14,
-              "power": 115
-            },
-            "341": {
-              "moveId": 341,
-              "moveName": "Fly",
-              "proto": "FLY",
-              "type": 3,
-              "power": 90
-            }
-          }
+          "form": 2729
         }
       },
       "stats": {
@@ -67730,13 +67647,6 @@
         }
       },
       "quickMoves": {
-        "203": {
-          "moveId": 203,
-          "moveName": "Sucker Punch",
-          "proto": "SUCKER_PUNCH_FAST",
-          "type": 17,
-          "power": 5
-        },
         "213": {
           "moveId": 213,
           "moveName": "Shadow Claw",
@@ -67803,22 +67713,6 @@
             "attack": 261,
             "defense": 128,
             "stamina": 146
-          },
-          "quickMoves": {
-            "213": {
-              "moveId": 213,
-              "moveName": "Shadow Claw",
-              "proto": "SHADOW_CLAW_FAST",
-              "type": 8,
-              "power": 6
-            },
-            "278": {
-              "moveId": 278,
-              "moveName": "Snarl",
-              "proto": "SNARL_FAST",
-              "type": 17,
-              "power": 11
-            }
           },
           "chargedMoves": {
             "24": {
@@ -77349,6 +77243,13 @@
           "proto": "SURF",
           "type": 11,
           "power": 60
+        },
+        "367": {
+          "moveId": 367,
+          "moveName": "Brutal Swing",
+          "proto": "BRUTAL_SWING",
+          "type": 17,
+          "power": 65
         }
       },
       "genId": 6,
@@ -132778,12 +132679,6 @@
       "formName": "S",
       "proto": "LUGIA_S",
       "formId": 2729,
-      "chargedMoves": [
-        257,
-        107,
-        275,
-        341
-      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -133802,10 +133697,6 @@
       "attack": 261,
       "defense": 128,
       "stamina": 146,
-      "quickMoves": [
-        213,
-        278
-      ],
       "chargedMoves": [
         280,
         90,
@@ -134533,10 +134424,6 @@
       "proto": "SNORLAX_WILDAREA_2024",
       "formId": 2849,
       "isCostume": true,
-      "quickMoves": [
-        234,
-        212
-      ],
       "purificationDust": 5000,
       "purificationCandy": 5
     },
@@ -134907,13 +134794,6 @@
       "proto": "AERODACTYL_SUMMER_2023",
       "formId": 3001,
       "isCostume": true,
-      "chargedMoves": [
-        62,
-        74,
-        14,
-        64,
-        304
-      ],
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -141284,6 +141164,20 @@
       "id": 2255,
       "name": "Event Ticket S24 Sep 19 Megaraid",
       "proto": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2269": {
+      "id": 2269,
+      "name": "Event Ticket S24 Nov9 Gowaol",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2270": {
+      "id": 2270,
+      "name": "Event Ticket S24 Nov9 Gowaol To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }

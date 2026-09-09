@@ -8318,13 +8318,6 @@
           "name": "Summer 2023",
           "proto": "AERODACTYL_SUMMER_2023",
           "is_costume": true,
-          "charged_moves": [
-            "Ancient Power",
-            "Iron Head",
-            "Hyper Beam",
-            "Rock Slide",
-            "Earth Power"
-          ],
           "temp_evolutions": {
             "1": {}
           }
@@ -8384,11 +8377,7 @@
         "2849": {
           "name": "Wildarea 2024",
           "proto": "SNORLAX_WILDAREA_2024",
-          "is_costume": true,
-          "quick_moves": [
-            "Zen Headbutt",
-            "Lick"
-          ]
+          "is_costume": true
         }
       },
       "attack": 190,
@@ -14059,13 +14048,7 @@
         },
         "2729": {
           "name": "S",
-          "proto": "LUGIA_S",
-          "charged_moves": [
-            "Sky Attack",
-            "Hydro Pump",
-            "Futuresight",
-            "Fly"
-          ]
+          "proto": "LUGIA_S"
         }
       },
       "attack": 193,
@@ -29800,8 +29783,7 @@
       ],
       "quick_moves": [
         "Shadow Claw",
-        "Snarl",
-        "Sucker Punch"
+        "Snarl"
       ],
       "charged_moves": [
         "Foul Play",
@@ -29822,10 +29804,6 @@
           "attack": 261,
           "defense": 128,
           "stamina": 146,
-          "quick_moves": [
-            "Shadow Claw",
-            "Snarl"
-          ],
           "charged_moves": [
             "Foul Play",
             "Sludge Bomb",
@@ -34033,7 +34011,8 @@
         "Night Slash",
         "Aerial Ace",
         "Surf",
-        "Hydro Pump"
+        "Hydro Pump",
+        "Brutal Swing"
       ],
       "gen_id": 6,
       "generation": "Kalos",
@@ -53781,6 +53760,18 @@
     "2255": {
       "name": "Event Ticket S24 Sep 19 Megaraid",
       "proto": "ITEM_EVENT_TICKET_S24_SEP_19_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2269": {
+      "name": "Event Ticket S24 Nov9 Gowaol",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2270": {
+      "name": "Event Ticket S24 Nov9 Gowaol To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
