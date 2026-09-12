@@ -60234,12 +60234,12 @@
       "name": "Event Ticket S24 Sep 19 Megaraid",
       "type": "Global Event Ticket"
     },
-    "2269": {
-      "name": "Event Ticket S24 Nov9 Gowaol",
+    "2257": {
+      "name": "Event Ticket S24 Sep 26 Catch",
       "type": "Global Event Ticket"
     },
-    "2270": {
-      "name": "Event Ticket S24 Nov9 Gowaol To Gift",
+    "2269": {
+      "name": "Event Ticket S24 Nov9 Gowaol",
       "type": "Global Event Ticket"
     }
   },
@@ -65689,9 +65689,15 @@
     },
     "523": {
       "id": 523,
-      "name": "Vm Move Temp Evolution Mega V0229 Pokemon Houndoom",
+      "name": "Dark Pulse+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
-      "fast": false
+      "fast": false,
+      "type": "Dark",
+      "pvpPower": 60,
+      "pvpEnergyDelta": -40,
+      "power": 150,
+      "durationMs": 3000,
+      "energyDelta": -100
     },
     "524": {
       "id": 524,

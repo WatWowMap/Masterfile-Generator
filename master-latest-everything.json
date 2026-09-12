@@ -122889,7 +122889,8 @@
           "height": 1.9,
           "weight": 49.5,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 523
         }
       ],
       "purificationDust": 3000,
@@ -141167,17 +141168,17 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2257": {
+      "id": 2257,
+      "name": "Event Ticket S24 Sep 26 Catch",
+      "proto": "ITEM_EVENT_TICKET_S24_SEP_26_CATCH",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2269": {
       "id": 2269,
       "name": "Event Ticket S24 Nov9 Gowaol",
       "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
-      "type": "Global Event Ticket",
-      "category": "Global Event Ticket"
-    },
-    "2270": {
-      "id": 2270,
-      "name": "Event Ticket S24 Nov9 Gowaol To Gift",
-      "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
@@ -143880,7 +143881,8 @@
     "523": {
       "id": 523,
       "name": "Dark Pulse+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0229_POKEMON_HOUNDOOM",
+      "power": 150
     },
     "524": {
       "id": 524,
@@ -149098,6 +149100,12 @@
       "formatted": "2026 Jp Red",
       "imageUrl": "lc_2026_jp_red"
     },
+    "310": {
+      "id": 310,
+      "proto": "LC_2026_JP_GREEN",
+      "formatted": "2026 Jp Green",
+      "imageUrl": "lc_2026_jp_green"
+    },
     "312": {
       "id": 312,
       "proto": "LC_JAPAN_STAMP_RALLY_1",
@@ -149232,25 +149240,61 @@
       "id": 334,
       "proto": "LC_TPC30_MY",
       "formatted": "Tpc30 My",
-      "imageUrl": "lc_tpc30_my"
+      "imageUrl": "lc_tpc30th_malaysia"
     },
     "335": {
       "id": 335,
       "proto": "LC_TPC30_TW",
       "formatted": "Tpc30 Tw",
-      "imageUrl": "lc_tpc30_tw"
+      "imageUrl": "lc_tpc30th_taiwan"
     },
     "336": {
       "id": 336,
       "proto": "LC_TPC30_SG",
       "formatted": "Tpc30 Sg",
-      "imageUrl": "lc_tpc30_sg"
+      "imageUrl": "lc_tpc30th_singapore"
     },
     "337": {
       "id": 337,
       "proto": "LC_TPC30_PH",
       "formatted": "Tpc30 Ph",
-      "imageUrl": "lc_tpc30_ph"
+      "imageUrl": "lc_tpc30th_philippines"
+    },
+    "342": {
+      "id": 342,
+      "proto": "LC_SAFARI_2026_BRISBANE",
+      "formatted": "Safari 2026 Brisbane",
+      "imageUrl": "lc_CitySafari2026_brisbane"
+    },
+    "343": {
+      "id": 343,
+      "proto": "LC_SAFARI_2026_MUNICH",
+      "formatted": "Safari 2026 Munich",
+      "imageUrl": "lc_CitySafari2026_munich"
+    },
+    "344": {
+      "id": 344,
+      "proto": "LC_SAFARI_2026_MARSEILLE",
+      "formatted": "Safari 2026 Marseille",
+      "imageUrl": "lc_CitySafari2026_marseille"
+    },
+    "345": {
+      "id": 345,
+      "proto": "LC_SAFARI_2026_LISBON",
+      "formatted": "Safari 2026 Lisbon",
+      "imageUrl": "lc_CitySafari2026_lisbon"
+    },
+    "346": {
+      "id": 346,
+      "proto": "LC_SAFARI_2026_RDJ",
+      "formatted": "Safari 2026 Rdj",
+      "imageUrl": "lc_CitySafari2026_rio"
+    },
+    "347": {
+      "id": 347,
+      "proto": "LC_SAFARI_2026_BOSTON",
+      "formatted": "Safari 2026 Boston",
+      "imageUrl": "lc_CitySafari2026_boston"
     },
     "349": {
       "id": 349,
