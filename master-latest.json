@@ -53769,6 +53769,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2259": {
+      "name": "Event Ticket S24 Oct 3 Maxbattle",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2269": {
       "name": "Event Ticket S24 Nov9 Gowaol",
       "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
@@ -56503,8 +56509,10 @@
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0384_POKEMON_RAYQUAZA"
     },
     "547": {
-      "name": "Vm Move Temp Evolution Mega V0398 Pokemon Staraptor",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR"
+      "name": "Brave Bird+",
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
+      "type": "Flying",
+      "power": 150
     },
     "548": {
       "name": "Vm Move Temp Evolution Mega V0428 Pokemon Lopunny",

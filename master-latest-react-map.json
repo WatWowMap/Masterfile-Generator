@@ -36391,6 +36391,7 @@
     "2254": "Event Ticket S24 Sep 12 Community To Gift",
     "2255": "Event Ticket S24 Sep 19 Megaraid",
     "2257": "Event Ticket S24 Sep 26 Catch",
+    "2259": "Event Ticket S24 Oct 3 Maxbattle",
     "2269": "Event Ticket S24 Nov9 Gowaol"
   },
   "moves": {
@@ -38245,7 +38246,8 @@
       "name": "Vm Move Temp Evolution Mega V0384 Pokemon Rayquaza"
     },
     "547": {
-      "name": "Vm Move Temp Evolution Mega V0398 Pokemon Staraptor"
+      "name": "Brave Bird+",
+      "type": 3
     },
     "548": {
       "name": "Vm Move Temp Evolution Mega V0428 Pokemon Lopunny"
@@ -41452,7 +41454,13 @@
     },
     "350": {
       "proto": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
-      "formatted": "Midautumn 2026"
+      "formatted": "Midautumn 2026",
+      "cardType": "SPECIAL_BACKGROUND"
+    },
+    "406": {
+      "proto": "LC_SPECIALBACKGROUND_BATIK_2026",
+      "formatted": "Batik 2026",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "407": {
       "proto": "LC_SPECIALBACKGROUND_2026_10TH_ANNIVERSARY_001",

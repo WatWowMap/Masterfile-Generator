@@ -60238,6 +60238,10 @@
       "name": "Event Ticket S24 Sep 26 Catch",
       "type": "Global Event Ticket"
     },
+    "2259": {
+      "name": "Event Ticket S24 Oct 3 Maxbattle",
+      "type": "Global Event Ticket"
+    },
     "2269": {
       "name": "Event Ticket S24 Nov9 Gowaol",
       "type": "Global Event Ticket"
@@ -65839,9 +65843,20 @@
     },
     "547": {
       "id": 547,
-      "name": "Vm Move Temp Evolution Mega V0398 Pokemon Staraptor",
+      "name": "Brave Bird+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
-      "fast": false
+      "fast": false,
+      "type": "Flying",
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 1
+        }
+      ],
+      "power": 150,
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "548": {
       "id": 548,

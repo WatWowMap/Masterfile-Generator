@@ -31156,7 +31156,8 @@
             3
           ],
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 547
         }
       ],
       "purificationDust": 1000,
@@ -85145,7 +85146,8 @@
             3
           ],
           "firstEnergyCost": 300,
-          "subsequentEnergyCost": 60
+          "subsequentEnergyCost": 60,
+          "specialMove": 547
         }
       ],
       "purificationDust": 1000,
@@ -97948,6 +97950,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2259": {
+      "itemId": 2259,
+      "itemName": "Event Ticket S24 Oct 3 Maxbattle",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2269": {
       "itemId": 2269,
       "itemName": "Event Ticket S24 Nov9 Gowaol",
@@ -103501,9 +103510,19 @@
     },
     "547": {
       "moveId": 547,
-      "moveName": "Vm Move Temp Evolution Mega V0398 Pokemon Staraptor",
+      "moveName": "Brave Bird+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0398_POKEMON_STARAPTOR",
-      "fast": false
+      "fast": false,
+      "type": 3,
+      "pvpPower": 70,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": {
+        "attackerDefenseStatStageChange": -3,
+        "buffActivationChance": 1
+      },
+      "power": 150,
+      "durationMs": 2000,
+      "energyDelta": -100
     },
     "548": {
       "moveId": 548,
@@ -110118,7 +110137,17 @@
       "id": 350,
       "proto": "LC_SPECIALBACKGROUND_MIDAUTUMN_2026",
       "formatted": "Midautumn 2026",
-      "imageUrl": "lc_specialbackground_midautumn_2026"
+      "imageUrl": "sb_MidAutumn",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_MidAutumn"
+    },
+    "406": {
+      "id": 406,
+      "proto": "LC_SPECIALBACKGROUND_BATIK_2026",
+      "formatted": "Batik 2026",
+      "imageUrl": "sb_PatternWild",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_PatternsWild"
     },
     "407": {
       "id": 407,
