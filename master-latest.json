@@ -1754,7 +1754,8 @@
         },
         "3357": {
           "name": "Glass Helmet 2026",
-          "proto": "PIKACHU_GLASS_HELMET_2026"
+          "proto": "PIKACHU_GLASS_HELMET_2026",
+          "is_costume": true
         },
         "3358": {
           "name": "Anniversary 2026 Malaysia 01",
@@ -53776,6 +53777,18 @@
     "2259": {
       "name": "Event Ticket S24 Oct 3 Maxbattle",
       "proto": "ITEM_EVENT_TICKET_S24_OCT_3_MAXBATTLE",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2261": {
+      "name": "Event Ticket S24 Oct 10 Community",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2262": {
+      "name": "Event Ticket S24 Oct 10 Community To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
