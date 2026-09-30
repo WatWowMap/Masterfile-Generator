@@ -49305,7 +49305,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "645": {
       "pokemonName": "Landorus",
@@ -51741,6 +51743,8 @@
           "questRequirement": "PANCHAM_EVOLUTION_QUEST"
         }
       ],
+      "purificationDust": 5000,
+      "purificationCandy": 5,
       "little": true
     },
     "675": {
@@ -51812,7 +51816,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "676": {
       "pokemonName": "Furfrou",
@@ -57666,6 +57672,8 @@
           "onlyDaytime": true
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "754": {
@@ -57737,7 +57745,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "755": {
       "pokemonName": "Morelull",
@@ -58674,6 +58684,8 @@
           "candyCost": 400
         }
       ],
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "little": true
     },
     "768": {
@@ -58748,6 +58760,8 @@
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -58836,6 +58850,8 @@
           "candyCost": 50
         }
       ],
+      "purificationDust": 3000,
+      "purificationCandy": 3,
       "little": true
     },
     "770": {
@@ -58907,7 +58923,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "771": {
       "pokemonName": "Pyukumuku",
@@ -71802,7 +71820,8 @@
       "evolutions": [
         {
           "evoId": 947,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": "BRAMBLEGHAST_EVOLUTION_QUEST"
         }
       ],
       "little": true
@@ -87327,7 +87346,9 @@
     "2318": {
       "formName": "Normal",
       "proto": "ZEKROM_NORMAL",
-      "formId": 2318
+      "formId": 2318,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "2321": {
       "formName": "Normal",
@@ -92768,12 +92789,16 @@
           "candyCost": 50,
           "questRequirement": "PANCHAM_EVOLUTION_QUEST"
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "3040": {
       "formName": "Normal",
       "proto": "PANGORO_NORMAL",
-      "formId": 3040
+      "formId": 3040,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "3041": {
       "formName": "Normal",
@@ -93446,12 +93471,16 @@
           "candyCost": 50,
           "onlyDaytime": true
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3103": {
       "formName": "Normal",
       "proto": "LURANTIS_NORMAL",
-      "formId": 3103
+      "formId": 3103,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3104": {
       "formName": "Normal",
@@ -93560,12 +93589,16 @@
           "formId": 3116,
           "candyCost": 400
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3116": {
       "formName": "Normal",
       "proto": "GOLISOPOD_NORMAL",
       "formId": 3116,
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -93590,12 +93623,16 @@
           "formId": 3118,
           "candyCost": 50
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3118": {
       "formName": "Normal",
       "proto": "PALOSSAND_NORMAL",
-      "formId": 3118
+      "formId": 3118,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3119": {
       "formName": "Normal",
@@ -94829,7 +94866,8 @@
         {
           "evoId": 947,
           "formId": 3260,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": "BRAMBLEGHAST_EVOLUTION_QUEST"
         }
       ]
     },
@@ -97975,6 +98013,13 @@
       "itemId": 2262,
       "itemName": "Event Ticket S24 Oct 10 Community To Gift",
       "proto": "ITEM_EVENT_TICKET_S24_OCT_10_COMMUNITY_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2263": {
+      "itemId": 2263,
+      "itemName": "Event Ticket S24 Oct 17 Hatch",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_17_HATCH",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -102242,477 +102287,371 @@
       "moveName": "Max Flare",
       "proto": "VN_BM_001",
       "fast": false,
-      "type": 10,
-      "power": 350,
-      "durationMs": 2500
+      "type": 10
     },
     "410": {
       "moveId": 410,
       "moveName": "Max Flutterby",
       "proto": "VN_BM_002",
       "fast": false,
-      "type": 7,
-      "power": 350,
-      "durationMs": 2500
+      "type": 7
     },
     "411": {
       "moveId": 411,
       "moveName": "Max Lightning",
       "proto": "VN_BM_003",
       "fast": false,
-      "type": 13,
-      "power": 350,
-      "durationMs": 2500
+      "type": 13
     },
     "412": {
       "moveId": 412,
       "moveName": "Max Strike",
       "proto": "VN_BM_004",
       "fast": false,
-      "type": 1,
-      "power": 350,
-      "durationMs": 2500
+      "type": 1
     },
     "413": {
       "moveId": 413,
       "moveName": "Max Knuckle",
       "proto": "VN_BM_005",
       "fast": false,
-      "type": 2,
-      "power": 350,
-      "durationMs": 2500
+      "type": 2
     },
     "414": {
       "moveId": 414,
       "moveName": "Max Phantasm",
       "proto": "VN_BM_006",
       "fast": false,
-      "type": 8,
-      "power": 350,
-      "durationMs": 2500
+      "type": 8
     },
     "415": {
       "moveId": 415,
       "moveName": "Max Hailstorm",
       "proto": "VN_BM_007",
       "fast": false,
-      "type": 15,
-      "power": 350,
-      "durationMs": 2500
+      "type": 15
     },
     "416": {
       "moveId": 416,
       "moveName": "Max Ooze",
       "proto": "VN_BM_008",
       "fast": false,
-      "type": 4,
-      "power": 350,
-      "durationMs": 2500
+      "type": 4
     },
     "417": {
       "moveId": 417,
       "moveName": "Max Geyser",
       "proto": "VN_BM_009",
       "fast": false,
-      "type": 11,
-      "power": 350,
-      "durationMs": 2500
+      "type": 11
     },
     "418": {
       "moveId": 418,
       "moveName": "Max Airstream",
       "proto": "VN_BM_010",
       "fast": false,
-      "type": 3,
-      "power": 350,
-      "durationMs": 2500
+      "type": 3
     },
     "419": {
       "moveId": 419,
       "moveName": "Max Starfall",
       "proto": "VN_BM_011",
       "fast": false,
-      "type": 18,
-      "power": 350,
-      "durationMs": 2500
+      "type": 18
     },
     "420": {
       "moveId": 420,
       "moveName": "Max Wyrmwind",
       "proto": "VN_BM_012",
       "fast": false,
-      "type": 16,
-      "power": 350,
-      "durationMs": 2500
+      "type": 16
     },
     "421": {
       "moveId": 421,
       "moveName": "Max Mindstorm",
       "proto": "VN_BM_013",
       "fast": false,
-      "type": 14,
-      "power": 350,
-      "durationMs": 2500
+      "type": 14
     },
     "422": {
       "moveId": 422,
       "moveName": "Max Rockfall",
       "proto": "VN_BM_014",
       "fast": false,
-      "type": 6,
-      "power": 350,
-      "durationMs": 2500
+      "type": 6
     },
     "423": {
       "moveId": 423,
       "moveName": "Max Quake",
       "proto": "VN_BM_015",
       "fast": false,
-      "type": 5,
-      "power": 350,
-      "durationMs": 2500
+      "type": 5
     },
     "424": {
       "moveId": 424,
       "moveName": "Max Darkness",
       "proto": "VN_BM_016",
       "fast": false,
-      "type": 17,
-      "power": 350,
-      "durationMs": 2500
+      "type": 17
     },
     "425": {
       "moveId": 425,
       "moveName": "Max Overgrowth",
       "proto": "VN_BM_017",
       "fast": false,
-      "type": 12,
-      "power": 350,
-      "durationMs": 2500
+      "type": 12
     },
     "426": {
       "moveId": 426,
       "moveName": "Max Steelspike",
       "proto": "VN_BM_018",
       "fast": false,
-      "type": 9,
-      "power": 350,
-      "durationMs": 2500
+      "type": 9
     },
     "427": {
       "moveId": 427,
       "moveName": "Gmax Wildfire",
       "proto": "VN_BM_019",
       "fast": false,
-      "type": 10,
-      "power": 450,
-      "durationMs": 2500
+      "type": 10
     },
     "428": {
       "moveId": 428,
       "moveName": "Gmax Befuddle",
       "proto": "VN_BM_020",
       "fast": false,
-      "type": 7,
-      "power": 450,
-      "durationMs": 2500
+      "type": 7
     },
     "429": {
       "moveId": 429,
       "moveName": "Gmax Voltcrash",
       "proto": "VN_BM_021",
       "fast": false,
-      "type": 13,
-      "power": 450,
-      "durationMs": 2500
+      "type": 13
     },
     "430": {
       "moveId": 430,
       "moveName": "Gmax Goldrush",
       "proto": "VN_BM_022",
       "fast": false,
-      "type": 1,
-      "power": 450,
-      "durationMs": 2500
+      "type": 1
     },
     "431": {
       "moveId": 431,
       "moveName": "Gmax Chistrike",
       "proto": "VN_BM_023",
       "fast": false,
-      "type": 2,
-      "power": 450,
-      "durationMs": 2500
+      "type": 2
     },
     "432": {
       "moveId": 432,
       "moveName": "Gmax Terror",
       "proto": "VN_BM_024",
       "fast": false,
-      "type": 8,
-      "power": 450,
-      "durationMs": 2500
+      "type": 8
     },
     "433": {
       "moveId": 433,
       "moveName": "Gmax Foamburst",
       "proto": "VN_BM_025",
       "fast": false,
-      "type": 11,
-      "power": 450,
-      "durationMs": 2500
+      "type": 11
     },
     "434": {
       "moveId": 434,
       "moveName": "Gmax Resonance",
       "proto": "VN_BM_026",
       "fast": false,
-      "type": 15,
-      "power": 450,
-      "durationMs": 2500
+      "type": 15
     },
     "435": {
       "moveId": 435,
       "moveName": "Gmax Cuddle",
       "proto": "VN_BM_027",
       "fast": false,
-      "type": 1,
-      "power": 450,
-      "durationMs": 2500
+      "type": 1
     },
     "436": {
       "moveId": 436,
       "moveName": "Gmax Replenish",
       "proto": "VN_BM_028",
       "fast": false,
-      "type": 1,
-      "power": 450,
-      "durationMs": 2500
+      "type": 1
     },
     "437": {
       "moveId": 437,
       "moveName": "Gmax Malodor",
       "proto": "VN_BM_029",
       "fast": false,
-      "type": 4,
-      "power": 450,
-      "durationMs": 2500
+      "type": 4
     },
     "438": {
       "moveId": 438,
       "moveName": "Gmax Meltdown",
       "proto": "VN_BM_030",
       "fast": false,
-      "type": 9,
-      "power": 450,
-      "durationMs": 2500
+      "type": 9
     },
     "439": {
       "moveId": 439,
       "moveName": "Gmax Windrage",
       "proto": "VN_BM_031",
       "fast": false,
-      "type": 3,
-      "power": 450,
-      "durationMs": 2500
+      "type": 3
     },
     "440": {
       "moveId": 440,
       "moveName": "Gmax Gravitas",
       "proto": "VN_BM_032",
       "fast": false,
-      "type": 14,
-      "power": 450,
-      "durationMs": 2500
+      "type": 14
     },
     "441": {
       "moveId": 441,
       "moveName": "Gmax Stonesurge",
       "proto": "VN_BM_033",
       "fast": false,
-      "type": 11,
-      "power": 450,
-      "durationMs": 2500
+      "type": 11
     },
     "442": {
       "moveId": 442,
       "moveName": "Gmax Volcalith",
       "proto": "VN_BM_034",
       "fast": false,
-      "type": 6,
-      "power": 450,
-      "durationMs": 2500
+      "type": 6
     },
     "443": {
       "moveId": 443,
       "moveName": "Gmax Tartness",
       "proto": "VN_BM_035",
       "fast": false,
-      "type": 12,
-      "power": 450,
-      "durationMs": 2500
+      "type": 12
     },
     "444": {
       "moveId": 444,
       "moveName": "Gmax Sweetness",
       "proto": "VN_BM_036",
       "fast": false,
-      "type": 12,
-      "power": 450,
-      "durationMs": 2500
+      "type": 12
     },
     "445": {
       "moveId": 445,
       "moveName": "Gmax Sandblast",
       "proto": "VN_BM_037",
       "fast": false,
-      "type": 5,
-      "power": 450,
-      "durationMs": 2500
+      "type": 5
     },
     "446": {
       "moveId": 446,
       "moveName": "Gmax Stun Shock",
       "proto": "VN_BM_038",
       "fast": false,
-      "type": 13,
-      "power": 450,
-      "durationMs": 2500
+      "type": 13
     },
     "447": {
       "moveId": 447,
       "moveName": "Gmax Centiferno",
       "proto": "VN_BM_039",
       "fast": false,
-      "type": 10,
-      "power": 450,
-      "durationMs": 2500
+      "type": 10
     },
     "448": {
       "moveId": 448,
       "moveName": "Gmax Smite",
       "proto": "VN_BM_040",
       "fast": false,
-      "type": 18,
-      "power": 450,
-      "durationMs": 2500
+      "type": 18
     },
     "449": {
       "moveId": 449,
       "moveName": "Gmax Snooze",
       "proto": "VN_BM_041",
       "fast": false,
-      "type": 17,
-      "power": 450,
-      "durationMs": 2500
+      "type": 17
     },
     "450": {
       "moveId": 450,
       "moveName": "Gmax Finale",
       "proto": "VN_BM_042",
       "fast": false,
-      "type": 18,
-      "power": 450,
-      "durationMs": 2500
+      "type": 18
     },
     "451": {
       "moveId": 451,
       "moveName": "Gmax Steelsurge",
       "proto": "VN_BM_043",
       "fast": false,
-      "type": 9,
-      "power": 450,
-      "durationMs": 2500
+      "type": 9
     },
     "452": {
       "moveId": 452,
       "moveName": "Gmax Depletion",
       "proto": "VN_BM_044",
       "fast": false,
-      "type": 16,
-      "power": 450,
-      "durationMs": 2500
+      "type": 16
     },
     "453": {
       "moveId": 453,
       "moveName": "Gmax Vinelash",
       "proto": "VN_BM_045",
       "fast": false,
-      "type": 12,
-      "power": 450,
-      "durationMs": 2500
+      "type": 12
     },
     "454": {
       "moveId": 454,
       "moveName": "Gmax Cannonade",
       "proto": "VN_BM_046",
       "fast": false,
-      "type": 11,
-      "power": 450,
-      "durationMs": 2500
+      "type": 11
     },
     "455": {
       "moveId": 455,
       "moveName": "Gmax Drumsolo",
       "proto": "VN_BM_047",
       "fast": false,
-      "type": 12,
-      "power": 450,
-      "durationMs": 2500
+      "type": 12
     },
     "456": {
       "moveId": 456,
       "moveName": "Gmax Fireball",
       "proto": "VN_BM_048",
       "fast": false,
-      "type": 10,
-      "power": 450,
-      "durationMs": 2500
+      "type": 10
     },
     "457": {
       "moveId": 457,
       "moveName": "Gmax Hydrosnipe",
       "proto": "VN_BM_049",
       "fast": false,
-      "type": 11,
-      "power": 450,
-      "durationMs": 2500
+      "type": 11
     },
     "458": {
       "moveId": 458,
       "moveName": "Gmax Oneblow",
       "proto": "VN_BM_050",
       "fast": false,
-      "type": 17,
-      "power": 450,
-      "durationMs": 2500
+      "type": 17
     },
     "459": {
       "moveId": 459,
       "moveName": "Gmax Rapidflow",
       "proto": "VN_BM_051",
       "fast": false,
-      "type": 11,
-      "power": 450,
-      "durationMs": 2500
+      "type": 11
     },
     "460": {
       "moveId": 460,
       "moveName": "Max Shield",
       "proto": "VN_BM_052",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "461": {
       "moveId": 461,
       "moveName": "Max Heal",
       "proto": "VN_BM_053",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "462": {
       "moveId": 462,
@@ -102880,72 +102819,56 @@
       "moveName": "Max Shield",
       "proto": "VN_BM_054",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "474": {
       "moveId": 474,
       "moveName": "Max Heal",
       "proto": "VN_BM_055",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "475": {
       "moveId": 475,
       "moveName": "Max Shield",
       "proto": "VN_BM_056",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "476": {
       "moveId": 476,
       "moveName": "Max Heal",
       "proto": "VN_BM_057",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "477": {
       "moveId": 477,
       "moveName": "Max Shield",
       "proto": "VN_BM_058",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "478": {
       "moveId": 478,
       "moveName": "Max Heal",
       "proto": "VN_BM_059",
       "fast": false,
-      "type": 1,
-      "power": 0,
-      "durationMs": 2500
+      "type": 1
     },
     "479": {
       "moveId": 479,
       "moveName": "Max Behemoth Blade",
       "proto": "VN_BM_060",
       "fast": false,
-      "type": 9,
-      "power": 350,
-      "durationMs": 2500
+      "type": 9
     },
     "480": {
       "moveId": 480,
       "moveName": "Max Behemoth Bash",
       "proto": "VN_BM_061",
       "fast": false,
-      "type": 9,
-      "power": 350,
-      "durationMs": 2500
+      "type": 9
     },
     "481": {
       "moveId": 481,
@@ -102970,9 +102893,7 @@
       "moveName": "Max Dynamax Cannon",
       "proto": "VN_BM_062",
       "fast": false,
-      "type": 16,
-      "power": 450,
-      "durationMs": 2500
+      "type": 16
     },
     "484": {
       "moveId": 484,
@@ -110193,6 +110114,12 @@
       "imageUrl": "sb_GoTour2025_black",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_10thAnniGlobe"
+    },
+    "416": {
+      "id": 416,
+      "proto": "LC_2026_COMICCON_MALAGA",
+      "formatted": "2026 Comiccon Malaga",
+      "imageUrl": "lc_2026_ComicCon_Malaga"
     }
   },
   "routeTypes": {

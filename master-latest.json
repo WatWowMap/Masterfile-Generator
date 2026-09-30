@@ -53792,6 +53792,12 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2263": {
+      "name": "Event Ticket S24 Oct 17 Hatch",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_17_HATCH",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2269": {
       "name": "Event Ticket S24 Nov9 Gowaol",
       "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
@@ -55784,320 +55790,267 @@
     "409": {
       "name": "Max Flare",
       "proto": "VN_BM_001",
-      "type": "Fire",
-      "power": 350
+      "type": "Fire"
     },
     "410": {
       "name": "Max Flutterby",
       "proto": "VN_BM_002",
-      "type": "Bug",
-      "power": 350
+      "type": "Bug"
     },
     "411": {
       "name": "Max Lightning",
       "proto": "VN_BM_003",
-      "type": "Electric",
-      "power": 350
+      "type": "Electric"
     },
     "412": {
       "name": "Max Strike",
       "proto": "VN_BM_004",
-      "type": "Normal",
-      "power": 350
+      "type": "Normal"
     },
     "413": {
       "name": "Max Knuckle",
       "proto": "VN_BM_005",
-      "type": "Fighting",
-      "power": 350
+      "type": "Fighting"
     },
     "414": {
       "name": "Max Phantasm",
       "proto": "VN_BM_006",
-      "type": "Ghost",
-      "power": 350
+      "type": "Ghost"
     },
     "415": {
       "name": "Max Hailstorm",
       "proto": "VN_BM_007",
-      "type": "Ice",
-      "power": 350
+      "type": "Ice"
     },
     "416": {
       "name": "Max Ooze",
       "proto": "VN_BM_008",
-      "type": "Poison",
-      "power": 350
+      "type": "Poison"
     },
     "417": {
       "name": "Max Geyser",
       "proto": "VN_BM_009",
-      "type": "Water",
-      "power": 350
+      "type": "Water"
     },
     "418": {
       "name": "Max Airstream",
       "proto": "VN_BM_010",
-      "type": "Flying",
-      "power": 350
+      "type": "Flying"
     },
     "419": {
       "name": "Max Starfall",
       "proto": "VN_BM_011",
-      "type": "Fairy",
-      "power": 350
+      "type": "Fairy"
     },
     "420": {
       "name": "Max Wyrmwind",
       "proto": "VN_BM_012",
-      "type": "Dragon",
-      "power": 350
+      "type": "Dragon"
     },
     "421": {
       "name": "Max Mindstorm",
       "proto": "VN_BM_013",
-      "type": "Psychic",
-      "power": 350
+      "type": "Psychic"
     },
     "422": {
       "name": "Max Rockfall",
       "proto": "VN_BM_014",
-      "type": "Rock",
-      "power": 350
+      "type": "Rock"
     },
     "423": {
       "name": "Max Quake",
       "proto": "VN_BM_015",
-      "type": "Ground",
-      "power": 350
+      "type": "Ground"
     },
     "424": {
       "name": "Max Darkness",
       "proto": "VN_BM_016",
-      "type": "Dark",
-      "power": 350
+      "type": "Dark"
     },
     "425": {
       "name": "Max Overgrowth",
       "proto": "VN_BM_017",
-      "type": "Grass",
-      "power": 350
+      "type": "Grass"
     },
     "426": {
       "name": "Max Steelspike",
       "proto": "VN_BM_018",
-      "type": "Steel",
-      "power": 350
+      "type": "Steel"
     },
     "427": {
       "name": "Gmax Wildfire",
       "proto": "VN_BM_019",
-      "type": "Fire",
-      "power": 450
+      "type": "Fire"
     },
     "428": {
       "name": "Gmax Befuddle",
       "proto": "VN_BM_020",
-      "type": "Bug",
-      "power": 450
+      "type": "Bug"
     },
     "429": {
       "name": "Gmax Voltcrash",
       "proto": "VN_BM_021",
-      "type": "Electric",
-      "power": 450
+      "type": "Electric"
     },
     "430": {
       "name": "Gmax Goldrush",
       "proto": "VN_BM_022",
-      "type": "Normal",
-      "power": 450
+      "type": "Normal"
     },
     "431": {
       "name": "Gmax Chistrike",
       "proto": "VN_BM_023",
-      "type": "Fighting",
-      "power": 450
+      "type": "Fighting"
     },
     "432": {
       "name": "Gmax Terror",
       "proto": "VN_BM_024",
-      "type": "Ghost",
-      "power": 450
+      "type": "Ghost"
     },
     "433": {
       "name": "Gmax Foamburst",
       "proto": "VN_BM_025",
-      "type": "Water",
-      "power": 450
+      "type": "Water"
     },
     "434": {
       "name": "Gmax Resonance",
       "proto": "VN_BM_026",
-      "type": "Ice",
-      "power": 450
+      "type": "Ice"
     },
     "435": {
       "name": "Gmax Cuddle",
       "proto": "VN_BM_027",
-      "type": "Normal",
-      "power": 450
+      "type": "Normal"
     },
     "436": {
       "name": "Gmax Replenish",
       "proto": "VN_BM_028",
-      "type": "Normal",
-      "power": 450
+      "type": "Normal"
     },
     "437": {
       "name": "Gmax Malodor",
       "proto": "VN_BM_029",
-      "type": "Poison",
-      "power": 450
+      "type": "Poison"
     },
     "438": {
       "name": "Gmax Meltdown",
       "proto": "VN_BM_030",
-      "type": "Steel",
-      "power": 450
+      "type": "Steel"
     },
     "439": {
       "name": "Gmax Windrage",
       "proto": "VN_BM_031",
-      "type": "Flying",
-      "power": 450
+      "type": "Flying"
     },
     "440": {
       "name": "Gmax Gravitas",
       "proto": "VN_BM_032",
-      "type": "Psychic",
-      "power": 450
+      "type": "Psychic"
     },
     "441": {
       "name": "Gmax Stonesurge",
       "proto": "VN_BM_033",
-      "type": "Water",
-      "power": 450
+      "type": "Water"
     },
     "442": {
       "name": "Gmax Volcalith",
       "proto": "VN_BM_034",
-      "type": "Rock",
-      "power": 450
+      "type": "Rock"
     },
     "443": {
       "name": "Gmax Tartness",
       "proto": "VN_BM_035",
-      "type": "Grass",
-      "power": 450
+      "type": "Grass"
     },
     "444": {
       "name": "Gmax Sweetness",
       "proto": "VN_BM_036",
-      "type": "Grass",
-      "power": 450
+      "type": "Grass"
     },
     "445": {
       "name": "Gmax Sandblast",
       "proto": "VN_BM_037",
-      "type": "Ground",
-      "power": 450
+      "type": "Ground"
     },
     "446": {
       "name": "Gmax Stun Shock",
       "proto": "VN_BM_038",
-      "type": "Electric",
-      "power": 450
+      "type": "Electric"
     },
     "447": {
       "name": "Gmax Centiferno",
       "proto": "VN_BM_039",
-      "type": "Fire",
-      "power": 450
+      "type": "Fire"
     },
     "448": {
       "name": "Gmax Smite",
       "proto": "VN_BM_040",
-      "type": "Fairy",
-      "power": 450
+      "type": "Fairy"
     },
     "449": {
       "name": "Gmax Snooze",
       "proto": "VN_BM_041",
-      "type": "Dark",
-      "power": 450
+      "type": "Dark"
     },
     "450": {
       "name": "Gmax Finale",
       "proto": "VN_BM_042",
-      "type": "Fairy",
-      "power": 450
+      "type": "Fairy"
     },
     "451": {
       "name": "Gmax Steelsurge",
       "proto": "VN_BM_043",
-      "type": "Steel",
-      "power": 450
+      "type": "Steel"
     },
     "452": {
       "name": "Gmax Depletion",
       "proto": "VN_BM_044",
-      "type": "Dragon",
-      "power": 450
+      "type": "Dragon"
     },
     "453": {
       "name": "Gmax Vinelash",
       "proto": "VN_BM_045",
-      "type": "Grass",
-      "power": 450
+      "type": "Grass"
     },
     "454": {
       "name": "Gmax Cannonade",
       "proto": "VN_BM_046",
-      "type": "Water",
-      "power": 450
+      "type": "Water"
     },
     "455": {
       "name": "Gmax Drumsolo",
       "proto": "VN_BM_047",
-      "type": "Grass",
-      "power": 450
+      "type": "Grass"
     },
     "456": {
       "name": "Gmax Fireball",
       "proto": "VN_BM_048",
-      "type": "Fire",
-      "power": 450
+      "type": "Fire"
     },
     "457": {
       "name": "Gmax Hydrosnipe",
       "proto": "VN_BM_049",
-      "type": "Water",
-      "power": 450
+      "type": "Water"
     },
     "458": {
       "name": "Gmax Oneblow",
       "proto": "VN_BM_050",
-      "type": "Dark",
-      "power": 450
+      "type": "Dark"
     },
     "459": {
       "name": "Gmax Rapidflow",
       "proto": "VN_BM_051",
-      "type": "Water",
-      "power": 450
+      "type": "Water"
     },
     "460": {
       "name": "Max Shield",
       "proto": "VN_BM_052",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "461": {
       "name": "Max Heal",
       "proto": "VN_BM_053",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "462": {
       "name": "Force Palm",
@@ -56168,50 +56121,42 @@
     "473": {
       "name": "Max Shield",
       "proto": "VN_BM_054",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "474": {
       "name": "Max Heal",
       "proto": "VN_BM_055",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "475": {
       "name": "Max Shield",
       "proto": "VN_BM_056",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "476": {
       "name": "Max Heal",
       "proto": "VN_BM_057",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "477": {
       "name": "Max Shield",
       "proto": "VN_BM_058",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "478": {
       "name": "Max Heal",
       "proto": "VN_BM_059",
-      "type": "Normal",
-      "power": 0
+      "type": "Normal"
     },
     "479": {
       "name": "Max Behemoth Blade",
       "proto": "VN_BM_060",
-      "type": "Steel",
-      "power": 350
+      "type": "Steel"
     },
     "480": {
       "name": "Max Behemoth Bash",
       "proto": "VN_BM_061",
-      "type": "Steel",
-      "power": 350
+      "type": "Steel"
     },
     "481": {
       "name": "Thunder Cage",
@@ -56226,8 +56171,7 @@
     "483": {
       "name": "Max Dynamax Cannon",
       "proto": "VN_BM_062",
-      "type": "Dragon",
-      "power": 450
+      "type": "Dragon"
     },
     "484": {
       "name": "Clanging Scales",

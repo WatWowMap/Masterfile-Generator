@@ -64039,7 +64039,11 @@
         {
           "evoId": 947,
           "id": 0,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "target": 20,
+            "i18n": "Walk {{amount}} km with your buddy"
+          }
         }
       ]
     },
@@ -64071,7 +64075,11 @@
         {
           "evoId": 947,
           "id": 3260,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "target": 20,
+            "i18n": "Walk {{amount}} km with your buddy"
+          }
         }
       ]
     },
@@ -70199,6 +70207,9 @@
     },
     "2262": {
       "name": "Event Ticket S24 Oct 10 Community To Gift"
+    },
+    "2263": {
+      "name": "Event Ticket S24 Oct 17 Hatch"
     },
     "2269": {
       "name": "Event Ticket S24 Nov9 Gowaol"

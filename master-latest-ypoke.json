@@ -38690,7 +38690,9 @@
       "thirdMoveStardust": 100000,
       "thirdMoveCandy": 100,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "645": {
       "pokemonName": "Landorus",
@@ -41107,7 +41109,9 @@
             }
           ]
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "675": {
       "pokemonName": "Pangoro",
@@ -41154,7 +41158,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "676": {
       "pokemonName": "Furfrou",
@@ -45648,7 +45654,9 @@
           "candyCost": 50,
           "onlyDaytime": true
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "754": {
       "pokemonName": "Lurantis",
@@ -45695,7 +45703,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "755": {
       "pokemonName": "Morelull",
@@ -46362,7 +46372,9 @@
           "evoId": 768,
           "candyCost": 400
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "768": {
       "pokemonName": "Golisopod",
@@ -46411,7 +46423,9 @@
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "769": {
       "pokemonName": "Sandygast",
@@ -46469,7 +46483,9 @@
           "evoId": 770,
           "candyCost": 50
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "770": {
       "pokemonName": "Palossand",
@@ -46516,7 +46532,9 @@
       "thirdMoveCandy": 50,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "771": {
       "pokemonName": "Pyukumuku",
@@ -55826,7 +55844,13 @@
             {
               "evoId": 947,
               "formId": 3260,
-              "candyCost": 50
+              "candyCost": 50,
+              "questRequirement": [
+                {
+                  "questType": 50,
+                  "target": 20
+                }
+              ]
             }
           ]
         }
@@ -55849,7 +55873,13 @@
       "evolutions": [
         {
           "evoId": 947,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": [
+            {
+              "questType": 50,
+              "target": 20
+            }
+          ]
         }
       ]
     },
@@ -60255,6 +60285,10 @@
       "name": "Event Ticket S24 Oct 10 Community To Gift",
       "type": "Global Event Ticket"
     },
+    "2263": {
+      "name": "Event Ticket S24 Oct 17 Hatch",
+      "type": "Global Event Ticket"
+    },
     "2269": {
       "name": "Event Ticket S24 Nov9 Gowaol",
       "type": "Global Event Ticket"
@@ -64543,477 +64577,371 @@
       "name": "Max Flare",
       "proto": "VN_BM_001",
       "fast": false,
-      "type": "Fire",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Fire"
     },
     "410": {
       "id": 410,
       "name": "Max Flutterby",
       "proto": "VN_BM_002",
       "fast": false,
-      "type": "Bug",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Bug"
     },
     "411": {
       "id": 411,
       "name": "Max Lightning",
       "proto": "VN_BM_003",
       "fast": false,
-      "type": "Electric",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Electric"
     },
     "412": {
       "id": 412,
       "name": "Max Strike",
       "proto": "VN_BM_004",
       "fast": false,
-      "type": "Normal",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "413": {
       "id": 413,
       "name": "Max Knuckle",
       "proto": "VN_BM_005",
       "fast": false,
-      "type": "Fighting",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Fighting"
     },
     "414": {
       "id": 414,
       "name": "Max Phantasm",
       "proto": "VN_BM_006",
       "fast": false,
-      "type": "Ghost",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Ghost"
     },
     "415": {
       "id": 415,
       "name": "Max Hailstorm",
       "proto": "VN_BM_007",
       "fast": false,
-      "type": "Ice",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Ice"
     },
     "416": {
       "id": 416,
       "name": "Max Ooze",
       "proto": "VN_BM_008",
       "fast": false,
-      "type": "Poison",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Poison"
     },
     "417": {
       "id": 417,
       "name": "Max Geyser",
       "proto": "VN_BM_009",
       "fast": false,
-      "type": "Water",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Water"
     },
     "418": {
       "id": 418,
       "name": "Max Airstream",
       "proto": "VN_BM_010",
       "fast": false,
-      "type": "Flying",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Flying"
     },
     "419": {
       "id": 419,
       "name": "Max Starfall",
       "proto": "VN_BM_011",
       "fast": false,
-      "type": "Fairy",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Fairy"
     },
     "420": {
       "id": 420,
       "name": "Max Wyrmwind",
       "proto": "VN_BM_012",
       "fast": false,
-      "type": "Dragon",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Dragon"
     },
     "421": {
       "id": 421,
       "name": "Max Mindstorm",
       "proto": "VN_BM_013",
       "fast": false,
-      "type": "Psychic",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Psychic"
     },
     "422": {
       "id": 422,
       "name": "Max Rockfall",
       "proto": "VN_BM_014",
       "fast": false,
-      "type": "Rock",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Rock"
     },
     "423": {
       "id": 423,
       "name": "Max Quake",
       "proto": "VN_BM_015",
       "fast": false,
-      "type": "Ground",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Ground"
     },
     "424": {
       "id": 424,
       "name": "Max Darkness",
       "proto": "VN_BM_016",
       "fast": false,
-      "type": "Dark",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Dark"
     },
     "425": {
       "id": 425,
       "name": "Max Overgrowth",
       "proto": "VN_BM_017",
       "fast": false,
-      "type": "Grass",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Grass"
     },
     "426": {
       "id": 426,
       "name": "Max Steelspike",
       "proto": "VN_BM_018",
       "fast": false,
-      "type": "Steel",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Steel"
     },
     "427": {
       "id": 427,
       "name": "Gmax Wildfire",
       "proto": "VN_BM_019",
       "fast": false,
-      "type": "Fire",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Fire"
     },
     "428": {
       "id": 428,
       "name": "Gmax Befuddle",
       "proto": "VN_BM_020",
       "fast": false,
-      "type": "Bug",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Bug"
     },
     "429": {
       "id": 429,
       "name": "Gmax Voltcrash",
       "proto": "VN_BM_021",
       "fast": false,
-      "type": "Electric",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Electric"
     },
     "430": {
       "id": 430,
       "name": "Gmax Goldrush",
       "proto": "VN_BM_022",
       "fast": false,
-      "type": "Normal",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "431": {
       "id": 431,
       "name": "Gmax Chistrike",
       "proto": "VN_BM_023",
       "fast": false,
-      "type": "Fighting",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Fighting"
     },
     "432": {
       "id": 432,
       "name": "Gmax Terror",
       "proto": "VN_BM_024",
       "fast": false,
-      "type": "Ghost",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Ghost"
     },
     "433": {
       "id": 433,
       "name": "Gmax Foamburst",
       "proto": "VN_BM_025",
       "fast": false,
-      "type": "Water",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Water"
     },
     "434": {
       "id": 434,
       "name": "Gmax Resonance",
       "proto": "VN_BM_026",
       "fast": false,
-      "type": "Ice",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Ice"
     },
     "435": {
       "id": 435,
       "name": "Gmax Cuddle",
       "proto": "VN_BM_027",
       "fast": false,
-      "type": "Normal",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "436": {
       "id": 436,
       "name": "Gmax Replenish",
       "proto": "VN_BM_028",
       "fast": false,
-      "type": "Normal",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "437": {
       "id": 437,
       "name": "Gmax Malodor",
       "proto": "VN_BM_029",
       "fast": false,
-      "type": "Poison",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Poison"
     },
     "438": {
       "id": 438,
       "name": "Gmax Meltdown",
       "proto": "VN_BM_030",
       "fast": false,
-      "type": "Steel",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Steel"
     },
     "439": {
       "id": 439,
       "name": "Gmax Windrage",
       "proto": "VN_BM_031",
       "fast": false,
-      "type": "Flying",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Flying"
     },
     "440": {
       "id": 440,
       "name": "Gmax Gravitas",
       "proto": "VN_BM_032",
       "fast": false,
-      "type": "Psychic",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Psychic"
     },
     "441": {
       "id": 441,
       "name": "Gmax Stonesurge",
       "proto": "VN_BM_033",
       "fast": false,
-      "type": "Water",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Water"
     },
     "442": {
       "id": 442,
       "name": "Gmax Volcalith",
       "proto": "VN_BM_034",
       "fast": false,
-      "type": "Rock",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Rock"
     },
     "443": {
       "id": 443,
       "name": "Gmax Tartness",
       "proto": "VN_BM_035",
       "fast": false,
-      "type": "Grass",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Grass"
     },
     "444": {
       "id": 444,
       "name": "Gmax Sweetness",
       "proto": "VN_BM_036",
       "fast": false,
-      "type": "Grass",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Grass"
     },
     "445": {
       "id": 445,
       "name": "Gmax Sandblast",
       "proto": "VN_BM_037",
       "fast": false,
-      "type": "Ground",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Ground"
     },
     "446": {
       "id": 446,
       "name": "Gmax Stun Shock",
       "proto": "VN_BM_038",
       "fast": false,
-      "type": "Electric",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Electric"
     },
     "447": {
       "id": 447,
       "name": "Gmax Centiferno",
       "proto": "VN_BM_039",
       "fast": false,
-      "type": "Fire",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Fire"
     },
     "448": {
       "id": 448,
       "name": "Gmax Smite",
       "proto": "VN_BM_040",
       "fast": false,
-      "type": "Fairy",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Fairy"
     },
     "449": {
       "id": 449,
       "name": "Gmax Snooze",
       "proto": "VN_BM_041",
       "fast": false,
-      "type": "Dark",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Dark"
     },
     "450": {
       "id": 450,
       "name": "Gmax Finale",
       "proto": "VN_BM_042",
       "fast": false,
-      "type": "Fairy",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Fairy"
     },
     "451": {
       "id": 451,
       "name": "Gmax Steelsurge",
       "proto": "VN_BM_043",
       "fast": false,
-      "type": "Steel",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Steel"
     },
     "452": {
       "id": 452,
       "name": "Gmax Depletion",
       "proto": "VN_BM_044",
       "fast": false,
-      "type": "Dragon",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Dragon"
     },
     "453": {
       "id": 453,
       "name": "Gmax Vinelash",
       "proto": "VN_BM_045",
       "fast": false,
-      "type": "Grass",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Grass"
     },
     "454": {
       "id": 454,
       "name": "Gmax Cannonade",
       "proto": "VN_BM_046",
       "fast": false,
-      "type": "Water",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Water"
     },
     "455": {
       "id": 455,
       "name": "Gmax Drumsolo",
       "proto": "VN_BM_047",
       "fast": false,
-      "type": "Grass",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Grass"
     },
     "456": {
       "id": 456,
       "name": "Gmax Fireball",
       "proto": "VN_BM_048",
       "fast": false,
-      "type": "Fire",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Fire"
     },
     "457": {
       "id": 457,
       "name": "Gmax Hydrosnipe",
       "proto": "VN_BM_049",
       "fast": false,
-      "type": "Water",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Water"
     },
     "458": {
       "id": 458,
       "name": "Gmax Oneblow",
       "proto": "VN_BM_050",
       "fast": false,
-      "type": "Dark",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Dark"
     },
     "459": {
       "id": 459,
       "name": "Gmax Rapidflow",
       "proto": "VN_BM_051",
       "fast": false,
-      "type": "Water",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Water"
     },
     "460": {
       "id": 460,
       "name": "Max Shield",
       "proto": "VN_BM_052",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "461": {
       "id": 461,
       "name": "Max Heal",
       "proto": "VN_BM_053",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "462": {
       "id": 462,
@@ -65190,72 +65118,56 @@
       "name": "Max Shield",
       "proto": "VN_BM_054",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "474": {
       "id": 474,
       "name": "Max Heal",
       "proto": "VN_BM_055",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "475": {
       "id": 475,
       "name": "Max Shield",
       "proto": "VN_BM_056",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "476": {
       "id": 476,
       "name": "Max Heal",
       "proto": "VN_BM_057",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "477": {
       "id": 477,
       "name": "Max Shield",
       "proto": "VN_BM_058",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "478": {
       "id": 478,
       "name": "Max Heal",
       "proto": "VN_BM_059",
       "fast": false,
-      "type": "Normal",
-      "power": 0,
-      "durationMs": 2500
+      "type": "Normal"
     },
     "479": {
       "id": 479,
       "name": "Max Behemoth Blade",
       "proto": "VN_BM_060",
       "fast": false,
-      "type": "Steel",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Steel"
     },
     "480": {
       "id": 480,
       "name": "Max Behemoth Bash",
       "proto": "VN_BM_061",
       "fast": false,
-      "type": "Steel",
-      "power": 350,
-      "durationMs": 2500
+      "type": "Steel"
     },
     "481": {
       "id": 481,
@@ -65280,9 +65192,7 @@
       "name": "Max Dynamax Cannon",
       "proto": "VN_BM_062",
       "fast": false,
-      "type": "Dragon",
-      "power": 450,
-      "durationMs": 2500
+      "type": "Dragon"
     },
     "484": {
       "id": 484,

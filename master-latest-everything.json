@@ -109177,7 +109177,14 @@
             "947": {
               "pokemon": 947,
               "form": 3260,
-              "candyCost": 50
+              "candyCost": 50,
+              "questRequirement": {
+                "questType": 50,
+                "target": 20,
+                "assetsRef": "quest_buddy_walk_km_plural",
+                "i18n": "Walk {{amount}} km with your buddy",
+                "translated": "Walk 20 km with your buddy"
+              }
             }
           }
         }
@@ -109205,7 +109212,14 @@
         "947": {
           "pokemon": 947,
           "form": 0,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": {
+            "questType": 50,
+            "target": 20,
+            "assetsRef": "quest_buddy_walk_km_plural",
+            "i18n": "Walk {{amount}} km with your buddy",
+            "translated": "Walk 20 km with your buddy"
+          }
         }
       },
       "little": true
@@ -129834,7 +129848,9 @@
     "2318": {
       "formName": "Normal",
       "proto": "ZEKROM_NORMAL",
-      "formId": 2318
+      "formId": 2318,
+      "purificationDust": 20000,
+      "purificationCandy": 20
     },
     "2321": {
       "formName": "Normal",
@@ -135279,12 +135295,16 @@
           "candyCost": 50,
           "questRequirement": "PANCHAM_EVOLUTION_QUEST"
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "3040": {
       "formName": "Normal",
       "proto": "PANGORO_NORMAL",
-      "formId": 3040
+      "formId": 3040,
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "3041": {
       "formName": "Normal",
@@ -135957,12 +135977,16 @@
           "candyCost": 50,
           "onlyDaytime": true
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3103": {
       "formName": "Normal",
       "proto": "LURANTIS_NORMAL",
-      "formId": 3103
+      "formId": 3103,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3104": {
       "formName": "Normal",
@@ -136071,12 +136095,16 @@
           "formId": 3116,
           "candyCost": 400
         }
-      ]
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3116": {
       "formName": "Normal",
       "proto": "GOLISOPOD_NORMAL",
       "formId": 3116,
+      "purificationDust": 1000,
+      "purificationCandy": 1,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
@@ -136101,12 +136129,16 @@
           "formId": 3118,
           "candyCost": 50
         }
-      ]
+      ],
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3118": {
       "formName": "Normal",
       "proto": "PALOSSAND_NORMAL",
-      "formId": 3118
+      "formId": 3118,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3119": {
       "formName": "Normal",
@@ -137340,7 +137372,8 @@
         {
           "evoId": 947,
           "formId": 3260,
-          "candyCost": 50
+          "candyCost": 50,
+          "questRequirement": "BRAMBLEGHAST_EVOLUTION_QUEST"
         }
       ]
     },
@@ -141209,6 +141242,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2263": {
+      "id": 2263,
+      "name": "Event Ticket S24 Oct 17 Hatch",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_17_HATCH",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2269": {
       "id": 2269,
       "name": "Event Ticket S24 Nov9 Gowaol",
@@ -143250,320 +143290,267 @@
     "409": {
       "id": 409,
       "name": "Max Flare",
-      "proto": "VN_BM_001",
-      "power": 350
+      "proto": "VN_BM_001"
     },
     "410": {
       "id": 410,
       "name": "Max Flutterby",
-      "proto": "VN_BM_002",
-      "power": 350
+      "proto": "VN_BM_002"
     },
     "411": {
       "id": 411,
       "name": "Max Lightning",
-      "proto": "VN_BM_003",
-      "power": 350
+      "proto": "VN_BM_003"
     },
     "412": {
       "id": 412,
       "name": "Max Strike",
-      "proto": "VN_BM_004",
-      "power": 350
+      "proto": "VN_BM_004"
     },
     "413": {
       "id": 413,
       "name": "Max Knuckle",
-      "proto": "VN_BM_005",
-      "power": 350
+      "proto": "VN_BM_005"
     },
     "414": {
       "id": 414,
       "name": "Max Phantasm",
-      "proto": "VN_BM_006",
-      "power": 350
+      "proto": "VN_BM_006"
     },
     "415": {
       "id": 415,
       "name": "Max Hailstorm",
-      "proto": "VN_BM_007",
-      "power": 350
+      "proto": "VN_BM_007"
     },
     "416": {
       "id": 416,
       "name": "Max Ooze",
-      "proto": "VN_BM_008",
-      "power": 350
+      "proto": "VN_BM_008"
     },
     "417": {
       "id": 417,
       "name": "Max Geyser",
-      "proto": "VN_BM_009",
-      "power": 350
+      "proto": "VN_BM_009"
     },
     "418": {
       "id": 418,
       "name": "Max Airstream",
-      "proto": "VN_BM_010",
-      "power": 350
+      "proto": "VN_BM_010"
     },
     "419": {
       "id": 419,
       "name": "Max Starfall",
-      "proto": "VN_BM_011",
-      "power": 350
+      "proto": "VN_BM_011"
     },
     "420": {
       "id": 420,
       "name": "Max Wyrmwind",
-      "proto": "VN_BM_012",
-      "power": 350
+      "proto": "VN_BM_012"
     },
     "421": {
       "id": 421,
       "name": "Max Mindstorm",
-      "proto": "VN_BM_013",
-      "power": 350
+      "proto": "VN_BM_013"
     },
     "422": {
       "id": 422,
       "name": "Max Rockfall",
-      "proto": "VN_BM_014",
-      "power": 350
+      "proto": "VN_BM_014"
     },
     "423": {
       "id": 423,
       "name": "Max Quake",
-      "proto": "VN_BM_015",
-      "power": 350
+      "proto": "VN_BM_015"
     },
     "424": {
       "id": 424,
       "name": "Max Darkness",
-      "proto": "VN_BM_016",
-      "power": 350
+      "proto": "VN_BM_016"
     },
     "425": {
       "id": 425,
       "name": "Max Overgrowth",
-      "proto": "VN_BM_017",
-      "power": 350
+      "proto": "VN_BM_017"
     },
     "426": {
       "id": 426,
       "name": "Max Steelspike",
-      "proto": "VN_BM_018",
-      "power": 350
+      "proto": "VN_BM_018"
     },
     "427": {
       "id": 427,
       "name": "G-Max Wildfire",
-      "proto": "VN_BM_019",
-      "power": 450
+      "proto": "VN_BM_019"
     },
     "428": {
       "id": 428,
       "name": "G-Max Befuddle",
-      "proto": "VN_BM_020",
-      "power": 450
+      "proto": "VN_BM_020"
     },
     "429": {
       "id": 429,
       "name": "G-Max Volt Crash",
-      "proto": "VN_BM_021",
-      "power": 450
+      "proto": "VN_BM_021"
     },
     "430": {
       "id": 430,
       "name": "G-Max Gold Rush",
-      "proto": "VN_BM_022",
-      "power": 450
+      "proto": "VN_BM_022"
     },
     "431": {
       "id": 431,
       "name": "G-Max Chi Strike",
-      "proto": "VN_BM_023",
-      "power": 450
+      "proto": "VN_BM_023"
     },
     "432": {
       "id": 432,
       "name": "G-Max Terror",
-      "proto": "VN_BM_024",
-      "power": 450
+      "proto": "VN_BM_024"
     },
     "433": {
       "id": 433,
       "name": "G-Max Foam Burst",
-      "proto": "VN_BM_025",
-      "power": 450
+      "proto": "VN_BM_025"
     },
     "434": {
       "id": 434,
       "name": "G-Max Resonance",
-      "proto": "VN_BM_026",
-      "power": 450
+      "proto": "VN_BM_026"
     },
     "435": {
       "id": 435,
       "name": "G-Max Cuddle",
-      "proto": "VN_BM_027",
-      "power": 450
+      "proto": "VN_BM_027"
     },
     "436": {
       "id": 436,
       "name": "G-Max Replenish",
-      "proto": "VN_BM_028",
-      "power": 450
+      "proto": "VN_BM_028"
     },
     "437": {
       "id": 437,
       "name": "G-Max Malodor",
-      "proto": "VN_BM_029",
-      "power": 450
+      "proto": "VN_BM_029"
     },
     "438": {
       "id": 438,
       "name": "G-Max Meltdown",
-      "proto": "VN_BM_030",
-      "power": 450
+      "proto": "VN_BM_030"
     },
     "439": {
       "id": 439,
       "name": "G-Max Wind Rage",
-      "proto": "VN_BM_031",
-      "power": 450
+      "proto": "VN_BM_031"
     },
     "440": {
       "id": 440,
       "name": "G-Max Gravitas",
-      "proto": "VN_BM_032",
-      "power": 450
+      "proto": "VN_BM_032"
     },
     "441": {
       "id": 441,
       "name": "G-Max Stonesurge",
-      "proto": "VN_BM_033",
-      "power": 450
+      "proto": "VN_BM_033"
     },
     "442": {
       "id": 442,
       "name": "G-Max Volcalith",
-      "proto": "VN_BM_034",
-      "power": 450
+      "proto": "VN_BM_034"
     },
     "443": {
       "id": 443,
       "name": "G-Max Tartness",
-      "proto": "VN_BM_035",
-      "power": 450
+      "proto": "VN_BM_035"
     },
     "444": {
       "id": 444,
       "name": "G-Max Sweetness",
-      "proto": "VN_BM_036",
-      "power": 450
+      "proto": "VN_BM_036"
     },
     "445": {
       "id": 445,
       "name": "G-Max Sandblast",
-      "proto": "VN_BM_037",
-      "power": 450
+      "proto": "VN_BM_037"
     },
     "446": {
       "id": 446,
       "name": "G-Max Stun Shock",
-      "proto": "VN_BM_038",
-      "power": 450
+      "proto": "VN_BM_038"
     },
     "447": {
       "id": 447,
       "name": "G-Max Centiferno",
-      "proto": "VN_BM_039",
-      "power": 450
+      "proto": "VN_BM_039"
     },
     "448": {
       "id": 448,
       "name": "G-Max Smite",
-      "proto": "VN_BM_040",
-      "power": 450
+      "proto": "VN_BM_040"
     },
     "449": {
       "id": 449,
       "name": "G-Max Snooze",
-      "proto": "VN_BM_041",
-      "power": 450
+      "proto": "VN_BM_041"
     },
     "450": {
       "id": 450,
       "name": "G-Max Finale",
-      "proto": "VN_BM_042",
-      "power": 450
+      "proto": "VN_BM_042"
     },
     "451": {
       "id": 451,
       "name": "G-Max Steelsurge",
-      "proto": "VN_BM_043",
-      "power": 450
+      "proto": "VN_BM_043"
     },
     "452": {
       "id": 452,
       "name": "G-Max Depletion",
-      "proto": "VN_BM_044",
-      "power": 450
+      "proto": "VN_BM_044"
     },
     "453": {
       "id": 453,
       "name": "G-Max Vine Lash",
-      "proto": "VN_BM_045",
-      "power": 450
+      "proto": "VN_BM_045"
     },
     "454": {
       "id": 454,
       "name": "G-Max Cannonade",
-      "proto": "VN_BM_046",
-      "power": 450
+      "proto": "VN_BM_046"
     },
     "455": {
       "id": 455,
       "name": "G-Max Drum Solo",
-      "proto": "VN_BM_047",
-      "power": 450
+      "proto": "VN_BM_047"
     },
     "456": {
       "id": 456,
       "name": "G-Max Fireball",
-      "proto": "VN_BM_048",
-      "power": 450
+      "proto": "VN_BM_048"
     },
     "457": {
       "id": 457,
       "name": "G-Max Hydrosnipe",
-      "proto": "VN_BM_049",
-      "power": 450
+      "proto": "VN_BM_049"
     },
     "458": {
       "id": 458,
       "name": "G-Max One Blow",
-      "proto": "VN_BM_050",
-      "power": 450
+      "proto": "VN_BM_050"
     },
     "459": {
       "id": 459,
       "name": "G-Max Rapid Flow",
-      "proto": "VN_BM_051",
-      "power": 450
+      "proto": "VN_BM_051"
     },
     "460": {
       "id": 460,
       "name": "Max Shield",
-      "proto": "VN_BM_052",
-      "power": 0
+      "proto": "VN_BM_052"
     },
     "461": {
       "id": 461,
       "name": "Max Heal",
-      "proto": "VN_BM_053",
-      "power": 0
+      "proto": "VN_BM_053"
     },
     "462": {
       "id": 462,
@@ -143634,50 +143621,42 @@
     "473": {
       "id": 473,
       "name": "Guard",
-      "proto": "VN_BM_054",
-      "power": 0
+      "proto": "VN_BM_054"
     },
     "474": {
       "id": 474,
       "name": "Spirit",
-      "proto": "VN_BM_055",
-      "power": 0
+      "proto": "VN_BM_055"
     },
     "475": {
       "id": 475,
       "name": "Guard",
-      "proto": "VN_BM_056",
-      "power": 0
+      "proto": "VN_BM_056"
     },
     "476": {
       "id": 476,
       "name": "Spirit",
-      "proto": "VN_BM_057",
-      "power": 0
+      "proto": "VN_BM_057"
     },
     "477": {
       "id": 477,
       "name": "Guard",
-      "proto": "VN_BM_058",
-      "power": 0
+      "proto": "VN_BM_058"
     },
     "478": {
       "id": 478,
       "name": "Spirit",
-      "proto": "VN_BM_059",
-      "power": 0
+      "proto": "VN_BM_059"
     },
     "479": {
       "id": 479,
       "name": "Behemoth Blade",
-      "proto": "VN_BM_060",
-      "power": 350
+      "proto": "VN_BM_060"
     },
     "480": {
       "id": 480,
       "name": "Behemoth Bash",
-      "proto": "VN_BM_061",
-      "power": 350
+      "proto": "VN_BM_061"
     },
     "481": {
       "id": 481,
@@ -143693,8 +143672,7 @@
     "483": {
       "id": 483,
       "name": "Dynamax Cannon",
-      "proto": "VN_BM_062",
-      "power": 450
+      "proto": "VN_BM_062"
     },
     "484": {
       "id": 484,
@@ -149378,6 +149356,12 @@
       "imageUrl": "sb_GoTour2025_black",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_10thAnniGlobe"
+    },
+    "416": {
+      "id": 416,
+      "proto": "LC_2026_COMICCON_MALAGA",
+      "formatted": "2026 Comiccon Malaga",
+      "imageUrl": "lc_2026_ComicCon_Malaga"
     }
   },
   "routeTypes": {
