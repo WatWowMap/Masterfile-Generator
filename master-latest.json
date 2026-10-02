@@ -4207,7 +4207,8 @@
         },
         "3369": {
           "name": "Wildarea 2026 01",
-          "proto": "MACHAMP_WILDAREA_2026_01"
+          "proto": "MACHAMP_WILDAREA_2026_01",
+          "is_costume": true
         }
       },
       "attack": 234,
@@ -53795,6 +53796,12 @@
     "2263": {
       "name": "Event Ticket S24 Oct 17 Hatch",
       "proto": "ITEM_EVENT_TICKET_S24_OCT_17_HATCH",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2265": {
+      "name": "Event Ticket S24 Oct 24 Maxbattle",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_24_MAXBATTLE",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },

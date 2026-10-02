@@ -95667,7 +95667,10 @@
     "3369": {
       "formName": "Wildarea 2026 01",
       "proto": "MACHAMP_WILDAREA_2026_01",
-      "formId": 3369
+      "formId": 3369,
+      "isCostume": true,
+      "purificationDust": 3000,
+      "purificationCandy": 3
     },
     "3375": {
       "formName": "Anniversary 2026 Philippine 01",
@@ -98020,6 +98023,13 @@
       "itemId": 2263,
       "itemName": "Event Ticket S24 Oct 17 Hatch",
       "proto": "ITEM_EVENT_TICKET_S24_OCT_17_HATCH",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2265": {
+      "itemId": 2265,
+      "itemName": "Event Ticket S24 Oct 24 Maxbattle",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT_24_MAXBATTLE",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
@@ -110111,6 +110121,42 @@
       "imageUrl": "sb_GoTour2025_black",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_10thAnniGlobe"
+    },
+    "410": {
+      "id": 410,
+      "proto": "LC_EMEA_MUSEUM_01",
+      "formatted": "Emea Museum 01",
+      "imageUrl": "lc_ESA_spaceExpoNL"
+    },
+    "411": {
+      "id": 411,
+      "proto": "LC_EMEA_MUSEUM_02",
+      "formatted": "Emea Museum 02",
+      "imageUrl": "lc_ESA_spaceCenterGermany"
+    },
+    "412": {
+      "id": 412,
+      "proto": "LC_EMEA_MUSEUM_03",
+      "formatted": "Emea Museum 03",
+      "imageUrl": "lc_ESA_scienceMuseumLondon"
+    },
+    "413": {
+      "id": 413,
+      "proto": "LC_EMEA_MUSEUM_04",
+      "formatted": "Emea Museum 04",
+      "imageUrl": "lc_ESA_euroSpaceCenter"
+    },
+    "414": {
+      "id": 414,
+      "proto": "LC_EMEA_MUSEUM_05",
+      "formatted": "Emea Museum 05",
+      "imageUrl": "lc_ESA_ciudadDeLasArtes"
+    },
+    "415": {
+      "id": 415,
+      "proto": "LC_EMEA_MUSEUM_06",
+      "formatted": "Emea Museum 06",
+      "imageUrl": "lc_ESA_citeDeEspace"
     },
     "416": {
       "id": 416,
