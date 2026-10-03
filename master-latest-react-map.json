@@ -25057,7 +25057,21 @@
       "generation": "Kalos",
       "forms": {
         "2790": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            221,
+            230
+          ],
+          "chargedMoves": [
+            268,
+            82,
+            91,
+            105
+          ],
+          "types": [
+            9,
+            16
+          ]
         },
         "2810": {
           "name": "Normal"
@@ -25092,7 +25106,22 @@
       "generation": "Kalos",
       "forms": {
         "2791": {
-          "name": "Hisuian"
+          "name": "Hisuian",
+          "quickMoves": [
+            253,
+            266,
+            230
+          ],
+          "chargedMoves": [
+            268,
+            285,
+            91,
+            107
+          ],
+          "types": [
+            9,
+            16
+          ]
         },
         "2811": {
           "name": "Normal"
@@ -39497,6 +39526,9 @@
         "first": [
           {
             "id": 129
+          },
+          {
+            "id": 349
           }
         ],
         "second": [

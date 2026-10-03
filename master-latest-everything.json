@@ -83107,8 +83107,64 @@
           "form": 2790,
           "stats": {
             "attack": 153,
-            "defense": 201,
+            "defense": 190,
             "stamina": 151
+          },
+          "quickMoves": {
+            "221": {
+              "moveId": 221,
+              "moveName": "Tackle",
+              "proto": "TACKLE_FAST",
+              "type": 1,
+              "power": 5
+            },
+            "230": {
+              "moveId": 230,
+              "moveName": "Water Gun",
+              "proto": "WATER_GUN_FAST",
+              "type": 11,
+              "power": 5
+            }
+          },
+          "chargedMoves": {
+            "82": {
+              "moveId": 82,
+              "moveName": "Dragon Pulse",
+              "proto": "DRAGON_PULSE",
+              "type": 16,
+              "power": 90
+            },
+            "91": {
+              "moveId": 91,
+              "moveName": "Sludge Wave",
+              "proto": "SLUDGE_WAVE",
+              "type": 4,
+              "power": 105
+            },
+            "105": {
+              "moveId": 105,
+              "moveName": "Water Pulse",
+              "proto": "WATER_PULSE",
+              "type": 11,
+              "power": 65
+            },
+            "268": {
+              "moveId": 268,
+              "moveName": "Heavy Slam",
+              "proto": "HEAVY_SLAM",
+              "type": 9,
+              "power": 70
+            }
+          },
+          "types": {
+            "9": {
+              "typeId": 9,
+              "typeName": "Steel"
+            },
+            "16": {
+              "typeId": 16,
+              "typeName": "Dragon"
+            }
           },
           "evolutions": {
             "706": {
@@ -83241,6 +83297,69 @@
             "attack": 211,
             "defense": 255,
             "stamina": 190
+          },
+          "quickMoves": {
+            "230": {
+              "moveId": 230,
+              "moveName": "Water Gun",
+              "proto": "WATER_GUN_FAST",
+              "type": 11,
+              "power": 5
+            },
+            "253": {
+              "moveId": 253,
+              "moveName": "Dragon Tail",
+              "proto": "DRAGON_TAIL_FAST",
+              "type": 16,
+              "power": 14
+            },
+            "266": {
+              "moveId": 266,
+              "moveName": "Iron Tail",
+              "proto": "IRON_TAIL_FAST",
+              "type": 9,
+              "power": 14
+            }
+          },
+          "chargedMoves": {
+            "91": {
+              "moveId": 91,
+              "moveName": "Sludge Wave",
+              "proto": "SLUDGE_WAVE",
+              "type": 4,
+              "power": 105
+            },
+            "107": {
+              "moveId": 107,
+              "moveName": "Hydro Pump",
+              "proto": "HYDRO_PUMP",
+              "type": 11,
+              "power": 135
+            },
+            "268": {
+              "moveId": 268,
+              "moveName": "Heavy Slam",
+              "proto": "HEAVY_SLAM",
+              "type": 9,
+              "power": 70
+            },
+            "285": {
+              "moveId": 285,
+              "moveName": "Draco Meteor",
+              "proto": "DRACO_METEOR",
+              "type": 16,
+              "power": 150
+            }
+          },
+          "types": {
+            "9": {
+              "typeId": 9,
+              "typeName": "Steel"
+            },
+            "16": {
+              "typeId": 16,
+              "typeName": "Dragon"
+            }
           }
         },
         "2811": {
@@ -133476,8 +133595,22 @@
       "proto": "SLIGGOO_HISUIAN",
       "formId": 2790,
       "attack": 153,
-      "defense": 201,
+      "defense": 190,
       "stamina": 151,
+      "quickMoves": [
+        221,
+        230
+      ],
+      "chargedMoves": [
+        268,
+        82,
+        91,
+        105
+      ],
+      "types": [
+        9,
+        16
+      ],
       "evolutions": [
         {
           "evoId": 706,
@@ -133492,7 +133625,23 @@
       "formId": 2791,
       "attack": 211,
       "defense": 255,
-      "stamina": 190
+      "stamina": 190,
+      "quickMoves": [
+        253,
+        266,
+        230
+      ],
+      "chargedMoves": [
+        268,
+        285,
+        91,
+        107
+      ],
+      "eliteChargedMoves": [],
+      "types": [
+        9,
+        16
+      ]
     },
     "2792": {
       "sizeSettings": [
@@ -146477,6 +146626,9 @@
         "first": [
           {
             "id": 129
+          },
+          {
+            "id": 349
           }
         ],
         "second": [

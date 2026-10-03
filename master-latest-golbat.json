@@ -23464,8 +23464,22 @@
       "forms": {
         "2790": {
           "attack": 153,
-          "defense": 201,
+          "defense": 190,
           "stamina": 151,
+          "quick_moves": [
+            221,
+            230
+          ],
+          "charged_moves": [
+            268,
+            82,
+            91,
+            105
+          ],
+          "types": [
+            9,
+            16
+          ],
           "evolutions": [
             {
               "pokemon": 706,
@@ -23510,7 +23524,22 @@
         "2791": {
           "attack": 211,
           "defense": 255,
-          "stamina": 190
+          "stamina": 190,
+          "quick_moves": [
+            253,
+            266,
+            230
+          ],
+          "charged_moves": [
+            268,
+            285,
+            91,
+            107
+          ],
+          "types": [
+            9,
+            16
+          ]
         },
         "2811": {}
       },

@@ -15340,8 +15340,12 @@
       "forms": {
         "2790": {
           "attack": 153,
-          "defense": 201,
+          "defense": 190,
           "stamina": 151,
+          "types": [
+            9,
+            16
+          ],
           "evolutions": [
             {
               "pokemon": 706,
@@ -15375,7 +15379,11 @@
         "2791": {
           "attack": 211,
           "defense": 255,
-          "stamina": 190
+          "stamina": 190,
+          "types": [
+            9,
+            16
+          ]
         },
         "2811": {}
       },

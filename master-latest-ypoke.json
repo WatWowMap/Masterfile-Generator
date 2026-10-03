@@ -42790,9 +42790,23 @@
           "formId": 2790,
           "stats": {
             "attack": 153,
-            "defense": 201,
+            "defense": 190,
             "stamina": 151
           },
+          "quickMoves": [
+            221,
+            230
+          ],
+          "chargedMoves": [
+            268,
+            82,
+            91,
+            105
+          ],
+          "types": [
+            "Steel",
+            "Dragon"
+          ],
           "evolutions": [
             {
               "evoId": 706,
@@ -42868,7 +42882,23 @@
             "attack": 211,
             "defense": 255,
             "stamina": 190
-          }
+          },
+          "quickMoves": [
+            253,
+            266,
+            230
+          ],
+          "chargedMoves": [
+            268,
+            285,
+            91,
+            107
+          ],
+          "eliteChargedMoves": [],
+          "types": [
+            "Steel",
+            "Dragon"
+          ]
         },
         "2811": {
           "formName": "Normal",
