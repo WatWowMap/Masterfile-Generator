@@ -36876,8 +36876,22 @@
           "name": "Hisuian",
           "proto": "SLIGGOO_HISUIAN",
           "attack": 153,
-          "defense": 201,
+          "defense": 190,
           "stamina": 151,
+          "quick_moves": [
+            "Tackle",
+            "Water Gun"
+          ],
+          "charged_moves": [
+            "Heavy Slam",
+            "Dragon Pulse",
+            "Sludge Wave",
+            "Water Pulse"
+          ],
+          "types": [
+            "Steel",
+            "Dragon"
+          ],
           "evolutions": [
             {
               "pokemon": 706,
@@ -36940,7 +36954,22 @@
           "proto": "GOODRA_HISUIAN",
           "attack": 211,
           "defense": 255,
-          "stamina": 190
+          "stamina": 190,
+          "quick_moves": [
+            "Dragon Tail",
+            "Iron Tail",
+            "Water Gun"
+          ],
+          "charged_moves": [
+            "Heavy Slam",
+            "Draco Meteor",
+            "Sludge Wave",
+            "Hydro Pump"
+          ],
+          "types": [
+            "Steel",
+            "Dragon"
+          ]
         },
         "2811": {
           "name": "Normal",
@@ -58057,7 +58086,8 @@
       "second_reward": true,
       "encounters": {
         "first": [
-          129
+          129,
+          349
         ],
         "second": [
           129
