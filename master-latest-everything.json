@@ -91006,7 +91006,7 @@
     "774": {
       "name": "Minior",
       "pokedexId": 774,
-      "defaultFormId": 2708,
+      "defaultFormId": 2712,
       "types": {
         "3": {
           "typeId": 3,
@@ -91067,17 +91067,19 @@
         "2707": {
           "name": "Meteor Blue",
           "proto": "MINIOR_METEOR_BLUE",
-          "form": 2707
+          "form": 2707,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "2708": {
           "name": "Blue Plumage",
           "proto": "MINIOR_BLUE",
           "form": 2708,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
@@ -91085,11 +91087,6 @@
           "name": "Green Plumage",
           "proto": "MINIOR_GREEN",
           "form": 2709,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
@@ -91097,11 +91094,6 @@
           "name": "Indigo",
           "proto": "MINIOR_INDIGO",
           "form": 2710,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
@@ -91109,11 +91101,6 @@
           "name": "Orange",
           "proto": "MINIOR_ORANGE",
           "form": 2711,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
@@ -91121,11 +91108,6 @@
           "name": "Red",
           "proto": "MINIOR_RED",
           "form": 2712,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
@@ -91133,11 +91115,6 @@
           "name": "Violet",
           "proto": "MINIOR_VIOLET",
           "form": 2713,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
@@ -91145,58 +91122,105 @@
           "name": "Yellow Plumage",
           "proto": "MINIOR_YELLOW",
           "form": 2714,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          },
           "height": 0.3,
           "weight": 0.3
         },
         "2739": {
           "name": "Meteor Green",
           "proto": "MINIOR_METEOR_GREEN",
-          "form": 2739
+          "form": 2739,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "2740": {
           "name": "Meteor Indigo",
           "proto": "MINIOR_METEOR_INDIGO",
-          "form": 2740
+          "form": 2740,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "2741": {
           "name": "Meteor Orange",
           "proto": "MINIOR_METEOR_ORANGE",
-          "form": 2741
+          "form": 2741,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "2742": {
           "name": "Meteor Red",
           "proto": "MINIOR_METEOR_RED",
-          "form": 2742
+          "form": 2742,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "2743": {
           "name": "Meteor Violet",
           "proto": "MINIOR_METEOR_VIOLET",
-          "form": 2743
+          "form": 2743,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "2744": {
           "name": "Meteor Yellow",
           "proto": "MINIOR_METEOR_YELLOW",
-          "form": 2744
+          "form": 2744,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         },
         "3380": {
           "name": "Meteor Form",
           "proto": "MINIOR_METEOR",
-          "form": 3380
+          "form": 3380,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          },
+          "height": 0.3,
+          "weight": 0.3
         }
       },
       "stats": {
-        "attack": 116,
-        "defense": 194,
+        "attack": 218,
+        "defense": 131,
         "stamina": 155
       },
       "height": 0.3,
       "weight": 40,
       "family": 774,
+      "encounter": {
+        "bonusStardustCapture": 900
+      },
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
@@ -132386,15 +132410,17 @@
     "2707": {
       "formName": "Meteor Blue",
       "proto": "MINIOR_METEOR_BLUE",
-      "formId": 2707
+      "formId": 2707,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2708": {
       "formName": "Blue Plumage",
       "proto": "MINIOR_BLUE",
       "formId": 2708,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132402,9 +132428,6 @@
       "formName": "Green Plumage",
       "proto": "MINIOR_GREEN",
       "formId": 2709,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132412,9 +132435,6 @@
       "formName": "Indigo",
       "proto": "MINIOR_INDIGO",
       "formId": 2710,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132422,9 +132442,6 @@
       "formName": "Orange",
       "proto": "MINIOR_ORANGE",
       "formId": 2711,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132432,9 +132449,6 @@
       "formName": "Red",
       "proto": "MINIOR_RED",
       "formId": 2712,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132442,9 +132456,6 @@
       "formName": "Violet",
       "proto": "MINIOR_VIOLET",
       "formId": 2713,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132452,9 +132463,6 @@
       "formName": "Yellow Plumage",
       "proto": "MINIOR_YELLOW",
       "formId": 2714,
-      "attack": 218,
-      "defense": 131,
-      "stamina": 155,
       "height": 0.3,
       "weight": 0.3
     },
@@ -132917,32 +132925,62 @@
     "2739": {
       "formName": "Meteor Green",
       "proto": "MINIOR_METEOR_GREEN",
-      "formId": 2739
+      "formId": 2739,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2740": {
       "formName": "Meteor Indigo",
       "proto": "MINIOR_METEOR_INDIGO",
-      "formId": 2740
+      "formId": 2740,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2741": {
       "formName": "Meteor Orange",
       "proto": "MINIOR_METEOR_ORANGE",
-      "formId": 2741
+      "formId": 2741,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2742": {
       "formName": "Meteor Red",
       "proto": "MINIOR_METEOR_RED",
-      "formId": 2742
+      "formId": 2742,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2743": {
       "formName": "Meteor Violet",
       "proto": "MINIOR_METEOR_VIOLET",
-      "formId": 2743
+      "formId": 2743,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2744": {
       "formName": "Meteor Yellow",
       "proto": "MINIOR_METEOR_YELLOW",
-      "formId": 2744
+      "formId": 2744,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     },
     "2745": {
       "formName": "Archipelago",
@@ -138357,7 +138395,12 @@
     "3380": {
       "formName": "Meteor Form",
       "proto": "MINIOR_METEOR",
-      "formId": 3380
+      "formId": 3380,
+      "attack": 116,
+      "defense": 194,
+      "stamina": 155,
+      "height": 0.3,
+      "weight": 0.3
     }
   },
   "types": {

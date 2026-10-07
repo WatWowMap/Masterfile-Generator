@@ -40471,7 +40471,7 @@
     "774": {
       "name": "Minior",
       "pokedex_id": 774,
-      "default_form_id": 2708,
+      "default_form_id": 2712,
       "types": [
         "Flying",
         "Rock"
@@ -40490,102 +40490,121 @@
       "forms": {
         "2707": {
           "name": "Meteor Blue",
-          "proto": "MINIOR_METEOR_BLUE"
+          "proto": "MINIOR_METEOR_BLUE",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "2708": {
           "name": "Blue",
           "proto": "MINIOR_BLUE",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2709": {
           "name": "Green",
           "proto": "MINIOR_GREEN",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2710": {
           "name": "Indigo",
           "proto": "MINIOR_INDIGO",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2711": {
           "name": "Orange",
           "proto": "MINIOR_ORANGE",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2712": {
           "name": "Red",
           "proto": "MINIOR_RED",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2713": {
           "name": "Violet",
           "proto": "MINIOR_VIOLET",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2714": {
           "name": "Yellow",
           "proto": "MINIOR_YELLOW",
-          "attack": 218,
-          "defense": 131,
-          "stamina": 155,
           "height": 0.3,
           "weight": 0.3
         },
         "2739": {
           "name": "Meteor Green",
-          "proto": "MINIOR_METEOR_GREEN"
+          "proto": "MINIOR_METEOR_GREEN",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "2740": {
           "name": "Meteor Indigo",
-          "proto": "MINIOR_METEOR_INDIGO"
+          "proto": "MINIOR_METEOR_INDIGO",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "2741": {
           "name": "Meteor Orange",
-          "proto": "MINIOR_METEOR_ORANGE"
+          "proto": "MINIOR_METEOR_ORANGE",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "2742": {
           "name": "Meteor Red",
-          "proto": "MINIOR_METEOR_RED"
+          "proto": "MINIOR_METEOR_RED",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "2743": {
           "name": "Meteor Violet",
-          "proto": "MINIOR_METEOR_VIOLET"
+          "proto": "MINIOR_METEOR_VIOLET",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "2744": {
           "name": "Meteor Yellow",
-          "proto": "MINIOR_METEOR_YELLOW"
+          "proto": "MINIOR_METEOR_YELLOW",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         },
         "3380": {
           "name": "Meteor",
-          "proto": "MINIOR_METEOR"
+          "proto": "MINIOR_METEOR",
+          "attack": 116,
+          "defense": 194,
+          "stamina": 155,
+          "height": 0.3,
+          "weight": 0.3
         }
       },
-      "attack": 116,
-      "defense": 194,
+      "attack": 218,
+      "defense": 131,
       "stamina": 155,
       "height": 0.3,
       "weight": 40,

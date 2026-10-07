@@ -46828,7 +46828,7 @@
     "774": {
       "pokemonName": "Minior",
       "pokedexId": 774,
-      "defaultFormId": 2708,
+      "defaultFormId": 2712,
       "types": [
         "Flying",
         "Rock"
@@ -46848,106 +46848,112 @@
       "forms": {
         "2707": {
           "formName": "Meteor Blue",
-          "formId": 2707
+          "formId": 2707,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "2708": {
           "formName": "Blue",
-          "formId": 2708,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2708
         },
         "2709": {
           "formName": "Green",
-          "formId": 2709,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2709
         },
         "2710": {
           "formName": "Indigo",
-          "formId": 2710,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2710
         },
         "2711": {
           "formName": "Orange",
-          "formId": 2711,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2711
         },
         "2712": {
           "formName": "Red",
-          "formId": 2712,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2712
         },
         "2713": {
           "formName": "Violet",
-          "formId": 2713,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2713
         },
         "2714": {
           "formName": "Yellow",
-          "formId": 2714,
-          "stats": {
-            "attack": 218,
-            "defense": 131,
-            "stamina": 155
-          }
+          "formId": 2714
         },
         "2739": {
           "formName": "Meteor Green",
-          "formId": 2739
+          "formId": 2739,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "2740": {
           "formName": "Meteor Indigo",
-          "formId": 2740
+          "formId": 2740,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "2741": {
           "formName": "Meteor Orange",
-          "formId": 2741
+          "formId": 2741,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "2742": {
           "formName": "Meteor Red",
-          "formId": 2742
+          "formId": 2742,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "2743": {
           "formName": "Meteor Violet",
-          "formId": 2743
+          "formId": 2743,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "2744": {
           "formName": "Meteor Yellow",
-          "formId": 2744
+          "formId": 2744,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         },
         "3380": {
           "formName": "Meteor",
-          "formId": 3380
+          "formId": 3380,
+          "stats": {
+            "attack": 116,
+            "defense": 194,
+            "stamina": 155
+          }
         }
       },
       "stats": {
-        "attack": 116,
-        "defense": 194,
+        "attack": 218,
+        "defense": 131,
         "stamina": 155
       },
       "family": 774,
+      "bonusStardustCapture": 900,
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
