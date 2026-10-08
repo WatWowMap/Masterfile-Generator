@@ -1230,7 +1230,8 @@
           "name": "Anniversary 2026 Indonesia 01"
         },
         "3379": {
-          "name": "Halloween 2026"
+          "name": "Halloween 2026",
+          "isCostume": true
         }
       },
       "height": 0.4,
@@ -1855,7 +1856,8 @@
           "name": "Normal"
         },
         "3362": {
-          "name": "Halloween 2026 01"
+          "name": "Halloween 2026 01",
+          "isCostume": true
         }
       },
       "height": 0.8,
@@ -1889,7 +1891,8 @@
           "name": "Normal"
         },
         "3363": {
-          "name": "Halloween 2026 01"
+          "name": "Halloween 2026 01",
+          "isCostume": true
         }
       },
       "height": 1.6,
@@ -6528,7 +6531,12 @@
           "name": "Normal"
         },
         "3364": {
-          "name": "Halloween 2026 01"
+          "name": "Halloween 2026 01",
+          "isCostume": true,
+          "quickMoves": [
+            255,
+            202
+          ]
         }
       },
       "height": 1.8,
@@ -30163,10 +30171,12 @@
           "name": "Antique"
         },
         "3365": {
-          "name": "P Halloween 2026 01"
+          "name": "P Halloween 2026 01",
+          "isCostume": true
         },
         "3366": {
-          "name": "A Halloween 2026 01"
+          "name": "A Halloween 2026 01",
+          "isCostume": true
         }
       },
       "height": 0.1,
@@ -30203,10 +30213,12 @@
           "name": "Antique"
         },
         "3367": {
-          "name": "P Halloween 2026 01"
+          "name": "P Halloween 2026 01",
+          "isCostume": true
         },
         "3368": {
-          "name": "A Halloween 2026 01"
+          "name": "A Halloween 2026 01",
+          "isCostume": true
         }
       },
       "height": 0.2,
@@ -41102,6 +41114,10 @@
       "proto": "LC_2025_NFL_001",
       "formatted": "2025 Nfl 001"
     },
+    "226": {
+      "proto": "LC_2025_NFL_002",
+      "formatted": "2025 Nfl 002"
+    },
     "240": {
       "proto": "LC_ID_CAR_FREE_DAY",
       "formatted": "Id Car Free Day"
@@ -41539,6 +41555,21 @@
     "416": {
       "proto": "LC_2026_COMICCON_MALAGA",
       "formatted": "2026 Comiccon Malaga"
+    },
+    "418": {
+      "proto": "LC_2026_GOWA_SENDAI",
+      "formatted": "2026 Gowa Sendai",
+      "cardType": "LOCATION_CARD"
+    },
+    "419": {
+      "proto": "LC_2026_GOWA_MEXICOCITY",
+      "formatted": "2026 Gowa Mexicocity",
+      "cardType": "LOCATION_CARD"
+    },
+    "420": {
+      "proto": "LC_SPECIALBACKGROUND_2026_GOWA",
+      "formatted": "2026 Gowa",
+      "cardType": "SPECIAL_BACKGROUND"
     }
   },
   "routeTypes": {

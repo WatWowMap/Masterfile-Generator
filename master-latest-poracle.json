@@ -4711,7 +4711,14 @@
         "baseStamina": 120
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 42,
+          "id": 3363,
+          "candyCost": 25
+        }
+      ]
     },
     "42_0": {
       "name": "Golbat",
@@ -4800,7 +4807,14 @@
         "baseStamina": 181
       },
       "thirdMoveStardust": 10000,
-      "thirdMoveCandy": 25
+      "thirdMoveCandy": 25,
+      "evolutions": [
+        {
+          "evoId": 169,
+          "id": 3364,
+          "candyCost": 100
+        }
+      ]
     },
     "43_0": {
       "name": "Oddish",
@@ -58752,7 +58766,14 @@
         "baseStamina": 120
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 855,
+          "id": 3367,
+          "candyCost": 50
+        }
+      ]
     },
     "854_3366": {
       "name": "Sinistea",
@@ -58773,7 +58794,14 @@
         "baseStamina": 120
       },
       "thirdMoveStardust": 50000,
-      "thirdMoveCandy": 50
+      "thirdMoveCandy": 50,
+      "evolutions": [
+        {
+          "evoId": 855,
+          "id": 3368,
+          "candyCost": 400
+        }
+      ]
     },
     "855_0": {
       "name": "Polteageist",

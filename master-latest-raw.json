@@ -71812,6 +71812,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -71888,6 +71889,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -95677,37 +95679,82 @@
     "3362": {
       "formName": "Halloween 2026 01",
       "proto": "ZUBAT_HALLOWEEN_2026_01",
-      "formId": 3362
+      "formId": 3362,
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 42,
+          "formId": 3363,
+          "candyCost": 25
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3363": {
       "formName": "Halloween 2026 01",
       "proto": "GOLBAT_HALLOWEEN_2026_01",
-      "formId": 3363
+      "formId": 3363,
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 169,
+          "formId": 3364,
+          "candyCost": 100
+        }
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3364": {
       "formName": "Halloween 2026 01",
       "proto": "CROBAT_HALLOWEEN_2026_01",
-      "formId": 3364
+      "formId": 3364,
+      "isCostume": true,
+      "quickMoves": [
+        255,
+        202
+      ],
+      "purificationDust": 1000,
+      "purificationCandy": 1
     },
     "3365": {
       "formName": "P Halloween 2026 01",
       "proto": "SINISTEA_P_HALLOWEEN_2026_01",
-      "formId": 3365
+      "formId": 3365,
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 855,
+          "formId": 3367,
+          "candyCost": 50
+        }
+      ]
     },
     "3366": {
       "formName": "A Halloween 2026 01",
       "proto": "SINISTEA_A_HALLOWEEN_2026_01",
-      "formId": 3366
+      "formId": 3366,
+      "isCostume": true,
+      "evolutions": [
+        {
+          "evoId": 855,
+          "formId": 3368,
+          "candyCost": 400
+        }
+      ]
     },
     "3367": {
       "formName": "P Halloween 2026 01",
       "proto": "POLTEAGEIST_P_HALLOWEEN_2026_01",
-      "formId": 3367
+      "formId": 3367,
+      "isCostume": true
     },
     "3368": {
       "formName": "A Halloween 2026 01",
       "proto": "POLTEAGEIST_A_HALLOWEEN_2026_01",
-      "formId": 3368
+      "formId": 3368,
+      "isCostume": true
     },
     "3369": {
       "formName": "Wildarea 2026 01",
@@ -95741,7 +95788,8 @@
     "3379": {
       "formName": "Halloween 2026",
       "proto": "PIKACHU_HALLOWEEN_2026",
-      "formId": 3379
+      "formId": 3379,
+      "isCostume": true
     },
     "3380": {
       "formName": "Meteor",
@@ -109558,6 +109606,12 @@
       "formatted": "2025 Nfl 001",
       "imageUrl": "lc_NFL_cardinals"
     },
+    "226": {
+      "id": 226,
+      "proto": "LC_2025_NFL_002",
+      "formatted": "2025 Nfl 002",
+      "imageUrl": "lc_NFL_cardinals_2026"
+    },
     "240": {
       "id": 240,
       "proto": "LC_ID_CAR_FREE_DAY",
@@ -110217,6 +110271,28 @@
       "proto": "LC_2026_COMICCON_MALAGA",
       "formatted": "2026 Comiccon Malaga",
       "imageUrl": "lc_2026_ComicCon_Malaga"
+    },
+    "418": {
+      "id": 418,
+      "proto": "LC_2026_GOWA_SENDAI",
+      "formatted": "2026 Gowa Sendai",
+      "imageUrl": "lc_2026_gowa_sendai",
+      "cardType": "LOCATION_CARD"
+    },
+    "419": {
+      "id": 419,
+      "proto": "LC_2026_GOWA_MEXICOCITY",
+      "formatted": "2026 Gowa Mexicocity",
+      "imageUrl": "lc_2026_gowa_mexicocity",
+      "cardType": "LOCATION_CARD"
+    },
+    "420": {
+      "id": 420,
+      "proto": "LC_SPECIALBACKGROUND_2026_GOWA",
+      "formatted": "2026 Gowa",
+      "imageUrl": "sb_black",
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_gowa_2026"
     }
   },
   "routeTypes": {

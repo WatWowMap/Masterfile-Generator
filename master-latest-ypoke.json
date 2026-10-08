@@ -2070,7 +2070,8 @@
         },
         "3379": {
           "formName": "Halloween 2026",
-          "formId": 3379
+          "formId": 3379,
+          "isCostume": true
         }
       },
       "stats": {
@@ -3133,7 +3134,15 @@
         },
         "3362": {
           "formName": "Halloween 2026 01",
-          "formId": 3362
+          "formId": 3362,
+          "isCostume": true,
+          "evolutions": [
+            {
+              "evoId": 42,
+              "formId": 3363,
+              "candyCost": 25
+            }
+          ]
         }
       },
       "stats": {
@@ -3198,7 +3207,15 @@
         },
         "3363": {
           "formName": "Halloween 2026 01",
-          "formId": 3363
+          "formId": 3363,
+          "isCostume": true,
+          "evolutions": [
+            {
+              "evoId": 169,
+              "formId": 3364,
+              "candyCost": 100
+            }
+          ]
         }
       },
       "stats": {
@@ -11574,7 +11591,12 @@
         },
         "3364": {
           "formName": "Halloween 2026 01",
-          "formId": 3364
+          "formId": 3364,
+          "isCostume": true,
+          "quickMoves": [
+            255,
+            202
+          ]
         }
       },
       "stats": {
@@ -51019,11 +51041,27 @@
         },
         "3365": {
           "formName": "P Halloween 2026 01",
-          "formId": 3365
+          "formId": 3365,
+          "isCostume": true,
+          "evolutions": [
+            {
+              "evoId": 855,
+              "formId": 3367,
+              "candyCost": 50
+            }
+          ]
         },
         "3366": {
           "formName": "A Halloween 2026 01",
-          "formId": 3366
+          "formId": 3366,
+          "isCostume": true,
+          "evolutions": [
+            {
+              "evoId": 855,
+              "formId": 3368,
+              "candyCost": 400
+            }
+          ]
         }
       },
       "stats": {
@@ -51080,11 +51118,13 @@
         },
         "3367": {
           "formName": "P Halloween 2026 01",
-          "formId": 3367
+          "formId": 3367,
+          "isCostume": true
         },
         "3368": {
           "formName": "A Halloween 2026 01",
-          "formId": 3368
+          "formId": 3368,
+          "isCostume": true
         }
       },
       "stats": {
@@ -55901,6 +55941,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
@@ -55957,6 +55998,7 @@
       "legendary": false,
       "mythic": false,
       "ultraBeast": false,
+      "buddyGroupNumber": 2,
       "buddyDistance": 5,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
