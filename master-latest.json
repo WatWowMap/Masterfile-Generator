@@ -1796,7 +1796,8 @@
         },
         "3379": {
           "name": "Halloween 2026",
-          "proto": "PIKACHU_HALLOWEEN_2026"
+          "proto": "PIKACHU_HALLOWEEN_2026",
+          "is_costume": true
         }
       },
       "attack": 112,
@@ -2724,7 +2725,14 @@
         },
         "3362": {
           "name": "Halloween 2026 01",
-          "proto": "ZUBAT_HALLOWEEN_2026_01"
+          "proto": "ZUBAT_HALLOWEEN_2026_01",
+          "is_costume": true,
+          "evolutions": [
+            {
+              "pokemon": 42,
+              "form": 3363
+            }
+          ]
         }
       },
       "attack": 83,
@@ -2780,7 +2788,14 @@
         },
         "3363": {
           "name": "Halloween 2026 01",
-          "proto": "GOLBAT_HALLOWEEN_2026_01"
+          "proto": "GOLBAT_HALLOWEEN_2026_01",
+          "is_costume": true,
+          "evolutions": [
+            {
+              "pokemon": 169,
+              "form": 3364
+            }
+          ]
         }
       },
       "attack": 161,
@@ -9773,7 +9788,12 @@
         },
         "3364": {
           "name": "Halloween 2026 01",
-          "proto": "CROBAT_HALLOWEEN_2026_01"
+          "proto": "CROBAT_HALLOWEEN_2026_01",
+          "is_costume": true,
+          "quick_moves": [
+            "Air Slash",
+            "Bite"
+          ]
         }
       },
       "attack": 194,
@@ -44242,11 +44262,25 @@
         },
         "3365": {
           "name": "P Halloween 2026 01",
-          "proto": "SINISTEA_P_HALLOWEEN_2026_01"
+          "proto": "SINISTEA_P_HALLOWEEN_2026_01",
+          "is_costume": true,
+          "evolutions": [
+            {
+              "pokemon": 855,
+              "form": 3367
+            }
+          ]
         },
         "3366": {
           "name": "A Halloween 2026 01",
-          "proto": "SINISTEA_A_HALLOWEEN_2026_01"
+          "proto": "SINISTEA_A_HALLOWEEN_2026_01",
+          "is_costume": true,
+          "evolutions": [
+            {
+              "pokemon": 855,
+              "form": 3368
+            }
+          ]
         }
       },
       "attack": 134,
@@ -44299,11 +44333,13 @@
         },
         "3367": {
           "name": "P Halloween 2026 01",
-          "proto": "POLTEAGEIST_P_HALLOWEEN_2026_01"
+          "proto": "POLTEAGEIST_P_HALLOWEEN_2026_01",
+          "is_costume": true
         },
         "3368": {
           "name": "A Halloween 2026 01",
-          "proto": "POLTEAGEIST_A_HALLOWEEN_2026_01"
+          "proto": "POLTEAGEIST_A_HALLOWEEN_2026_01",
+          "is_costume": true
         }
       },
       "attack": 248,
@@ -48541,6 +48577,7 @@
       "family": 946,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
@@ -48585,6 +48622,7 @@
       "family": 946,
       "legendary": false,
       "mythic": false,
+      "buddy_group_number": 2,
       "buddy_distance": 5,
       "third_move_stardust": 75000,
       "third_move_candy": 75,
