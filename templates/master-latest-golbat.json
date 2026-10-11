@@ -9,7 +9,8 @@
       "keys": {
         "main": "pokedexId",
         "forms": "formId",
-        "tempEvolutions": "tempEvoId"
+        "tempEvolutions": "tempEvoId",
+        "sizeSettings": "name"
       },
       "customFields": {
         "evoId": "pokemon",
@@ -37,7 +38,10 @@
           "genderRequirement": true
         },
         "little": true,
-        "costumeOverrideEvos": "costumeId"
+        "costumeOverrideEvos": "costumeId",
+        "height": true,
+        "weight": true,
+        "sizeSettings": "value"
       },
       "evolutions": {
         "evoId": true,
@@ -57,7 +61,10 @@
       "quickMoves": "moveId",
       "chargedMoves": "moveId",
       "little": true,
-      "costumeOverrideEvos": "costumeId"
+      "costumeOverrideEvos": "costumeId",
+      "height": true,
+      "weight": true,
+      "sizeSettings": "value"
     }
   },
   "costumes": {
