@@ -65768,9 +65768,15 @@
     },
     "533": {
       "id": 533,
-      "name": "Vm Move Temp Evolution Mega V0310 Pokemon Manectric",
+      "name": "Discharge+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
-      "fast": false
+      "fast": false,
+      "type": "Electric",
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
+      "power": 150,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "534": {
       "id": 534,

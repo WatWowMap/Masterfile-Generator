@@ -127232,7 +127232,8 @@
           "height": 1.8,
           "weight": 44,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 533
         }
       ],
       "purificationDust": 3000,
@@ -144248,7 +144249,8 @@
     "533": {
       "id": 533,
       "name": "Discharge+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
+      "power": 150
     },
     "534": {
       "id": 534,

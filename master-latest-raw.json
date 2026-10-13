@@ -24451,7 +24451,8 @@
           "height": 1.8,
           "weight": 44,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 533
         }
       ],
       "purificationDust": 3000,
@@ -84537,7 +84538,8 @@
           "height": 1.8,
           "weight": 44,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 533
         }
       ],
       "purificationDust": 3000,
@@ -103479,9 +103481,15 @@
     },
     "533": {
       "moveId": 533,
-      "moveName": "Vm Move Temp Evolution Mega V0310 Pokemon Manectric",
+      "moveName": "Discharge+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0310_POKEMON_MANECTRIC",
-      "fast": false
+      "fast": false,
+      "type": 13,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -35,
+      "power": 150,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "534": {
       "moveId": 534,
