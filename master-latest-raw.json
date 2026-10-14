@@ -46599,6 +46599,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -46677,6 +46678,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
@@ -46760,22 +46762,27 @@
       "ultraBeast": false,
       "buddyGroupNumber": 4,
       "buddyDistance": 5,
+      "buddyMegaEnergy": 25,
       "thirdMoveStardust": 75000,
       "thirdMoveCandy": 75,
       "gymDefenderEligible": true,
       "tradable": true,
       "transferable": true,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 335,
           "defense": 227,
           "stamina": 155,
-          "unreleased": true
+          "height": 2.5,
+          "weight": 69.6,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60,
+          "specialMove": 564
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "610": {
       "pokemonName": "Axew",
@@ -87047,17 +87054,21 @@
       "formName": "Normal",
       "proto": "CHANDELURE_NORMAL",
       "formId": 2219,
-      "purificationDust": 5000,
-      "purificationCandy": 5,
       "tempEvolutions": [
         {
           "tempEvoId": 1,
           "attack": 335,
           "defense": 227,
           "stamina": 155,
-          "unreleased": true
+          "height": 2.5,
+          "weight": 69.6,
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60,
+          "specialMove": 564
         }
-      ]
+      ],
+      "purificationDust": 5000,
+      "purificationCandy": 5
     },
     "2222": {
       "formName": "Normal",
@@ -98136,6 +98147,13 @@
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     },
+    "2267": {
+      "itemId": 2267,
+      "itemName": "Event Ticket S24 Oct31 Megaraid",
+      "proto": "ITEM_EVENT_TICKET_S24_OCT31_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
     "2269": {
       "itemId": 2269,
       "itemName": "Event Ticket S24 Nov9 Gowaol",
@@ -103683,9 +103701,20 @@
     },
     "564": {
       "moveId": 564,
-      "moveName": "Vm Move Temp Evolution Mega V0609 Pokemon Chandelure",
+      "moveName": "Ominous Wind+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0609_POKEMON_CHANDELURE",
-      "fast": false
+      "fast": false,
+      "type": 8,
+      "pvpPower": 50,
+      "pvpEnergyDelta": -40,
+      "pvpBuffs": {
+        "attackerAttackStatStageChange": 1,
+        "attackerDefenseStatStageChange": 1,
+        "buffActivationChance": 0.1
+      },
+      "power": 145,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "565": {
       "moveId": 565,
