@@ -39100,7 +39100,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
+        "buddyMegaEnergy": 75,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -39223,7 +39223,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 3,
-        "buddyMegaEnergy": 15,
+        "buddyMegaEnergy": 75,
         "thirdMoveStardust": 50000,
         "thirdMoveCandy": 50,
         "gymDefenderEligible": true,
@@ -149740,6 +149740,12 @@
       "formatted": "2026 Comiccon Malaga",
       "imageUrl": "lc_2026_ComicCon_Malaga"
     },
+    "417": {
+      "id": 417,
+      "proto": "LC_2026_FC_SEOUL",
+      "formatted": "2026 Fc Seoul",
+      "imageUrl": "lc_fc2026_seoul"
+    },
     "418": {
       "id": 418,
       "proto": "LC_2026_GOWA_SENDAI",
@@ -149761,6 +149767,18 @@
       "imageUrl": "sb_black",
       "cardType": "SPECIAL_BACKGROUND",
       "vfxAddress": "bgfx_gowa_2026"
+    },
+    "421": {
+      "id": 421,
+      "proto": "LC_2026_LOSANGELES_NO_001",
+      "formatted": "2026 Losangeles No 001",
+      "imageUrl": "lc_nightOut2026_LA"
+    },
+    "422": {
+      "id": 422,
+      "proto": "LC_2026_LONDON_NO_001",
+      "formatted": "2026 London No 001",
+      "imageUrl": "lc_nightOut2026_London"
     }
   },
   "routeTypes": {
