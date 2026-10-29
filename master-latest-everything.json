@@ -22012,23 +22012,7 @@
           "name": "Halloween 2026 01",
           "proto": "CROBAT_HALLOWEEN_2026_01",
           "form": 3364,
-          "isCostume": true,
-          "quickMoves": {
-            "202": {
-              "moveId": 202,
-              "moveName": "Bite",
-              "proto": "BITE_FAST",
-              "type": 17,
-              "power": 6
-            },
-            "255": {
-              "moveId": 255,
-              "moveName": "Air Slash",
-              "proto": "AIR_SLASH_FAST",
-              "type": 3,
-              "power": 12
-            }
-          }
+          "isCostume": true
         }
       },
       "stats": {
@@ -138424,10 +138408,6 @@
       "proto": "CROBAT_HALLOWEEN_2026_01",
       "formId": 3364,
       "isCostume": true,
-      "quickMoves": [
-        255,
-        202
-      ],
       "purificationDust": 1000,
       "purificationCandy": 1
     },
@@ -141577,6 +141557,20 @@
       "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2271": {
+      "id": 2271,
+      "name": "Event Ticket S24 Nov21 Community",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2272": {
+      "id": 2272,
+      "name": "Event Ticket S24 Nov21 Community To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -144592,7 +144586,8 @@
     "615": {
       "id": 615,
       "name": "Kowtow Cleave",
-      "proto": "KOWTOW_CLEAVE"
+      "proto": "KOWTOW_CLEAVE",
+      "power": 85
     },
     "616": {
       "id": 616,

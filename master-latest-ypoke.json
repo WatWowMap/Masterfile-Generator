@@ -11592,11 +11592,7 @@
         "3364": {
           "formName": "Halloween 2026 01",
           "formId": 3364,
-          "isCostume": true,
-          "quickMoves": [
-            255,
-            202
-          ]
+          "isCostume": true
         }
       },
       "stats": {
@@ -60395,6 +60391,14 @@
     "2269": {
       "name": "Event Ticket S24 Nov9 Gowaol",
       "type": "Global Event Ticket"
+    },
+    "2271": {
+      "name": "Event Ticket S24 Nov21 Community",
+      "type": "Global Event Ticket"
+    },
+    "2272": {
+      "name": "Event Ticket S24 Nov21 Community To Gift",
+      "type": "Global Event Ticket"
     }
   },
   "moves": {
@@ -66277,7 +66281,13 @@
       "id": 615,
       "name": "Kowtow Cleave",
       "proto": "KOWTOW_CLEAVE",
-      "fast": false
+      "fast": false,
+      "type": "Dark",
+      "pvpPower": 75,
+      "pvpEnergyDelta": -40,
+      "power": 85,
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "616": {
       "id": 616,

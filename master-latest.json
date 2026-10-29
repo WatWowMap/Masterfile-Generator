@@ -9789,11 +9789,7 @@
         "3364": {
           "name": "Halloween 2026 01",
           "proto": "CROBAT_HALLOWEEN_2026_01",
-          "is_costume": true,
-          "quick_moves": [
-            "Air Slash",
-            "Bite"
-          ]
+          "is_costume": true
         }
       },
       "attack": 194,
@@ -53903,6 +53899,18 @@
       "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2271": {
+      "name": "Event Ticket S24 Nov21 Community",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2272": {
+      "name": "Event Ticket S24 Nov21 Community To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -56791,7 +56799,9 @@
     },
     "615": {
       "name": "Kowtow Cleave",
-      "proto": "KOWTOW_CLEAVE"
+      "proto": "KOWTOW_CLEAVE",
+      "type": "Dark",
+      "power": 85
     },
     "616": {
       "name": "Soak",

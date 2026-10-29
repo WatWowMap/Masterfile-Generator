@@ -95727,10 +95727,6 @@
       "proto": "CROBAT_HALLOWEEN_2026_01",
       "formId": 3364,
       "isCostume": true,
-      "quickMoves": [
-        255,
-        202
-      ],
       "purificationDust": 1000,
       "purificationCandy": 1
     },
@@ -98158,6 +98154,20 @@
       "itemId": 2269,
       "itemName": "Event Ticket S24 Nov9 Gowaol",
       "proto": "ITEM_EVENT_TICKET_S24_NOV9_GOWAOL",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2271": {
+      "itemId": 2271,
+      "itemName": "Event Ticket S24 Nov21 Community",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
+    },
+    "2272": {
+      "itemId": 2272,
+      "itemName": "Event Ticket S24 Nov21 Community To Gift",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
     }
@@ -103982,7 +103992,13 @@
       "moveId": 615,
       "moveName": "Kowtow Cleave",
       "proto": "KOWTOW_CLEAVE",
-      "fast": false
+      "fast": false,
+      "type": 17,
+      "pvpPower": 75,
+      "pvpEnergyDelta": -40,
+      "power": 85,
+      "durationMs": 2000,
+      "energyDelta": -50
     },
     "616": {
       "moveId": 616,
