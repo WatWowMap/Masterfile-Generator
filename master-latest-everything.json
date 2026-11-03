@@ -124981,7 +124981,8 @@
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 529
         }
       ],
       "purificationDust": 5000,
@@ -132037,7 +132038,8 @@
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 529
         }
       ],
       "purificationDust": 5000,
@@ -144240,7 +144242,8 @@
     "529": {
       "id": 529,
       "name": "Night Shade+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
+      "power": 160
     },
     "530": {
       "id": 530,

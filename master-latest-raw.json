@@ -23794,7 +23794,8 @@
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 529
         }
       ],
       "purificationDust": 5000,
@@ -82312,7 +82313,8 @@
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 529
         }
       ],
       "purificationDust": 5000,
@@ -89360,7 +89362,8 @@
           "height": 0.5,
           "weight": 161,
           "firstEnergyCost": 100,
-          "subsequentEnergyCost": 20
+          "subsequentEnergyCost": 20,
+          "specialMove": 529
         }
       ],
       "purificationDust": 5000,
@@ -103485,9 +103488,15 @@
     },
     "529": {
       "moveId": 529,
-      "moveName": "Vm Move Temp Evolution Mega V0302 Pokemon Sableye",
+      "moveName": "Night Shade+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0302_POKEMON_SABLEYE",
-      "fast": false
+      "fast": false,
+      "type": 8,
+      "pvpPower": 55,
+      "pvpEnergyDelta": -45,
+      "power": 160,
+      "durationMs": 2500,
+      "energyDelta": -100
     },
     "530": {
       "moveId": 530,
