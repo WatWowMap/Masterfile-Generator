@@ -97873,6 +97873,13 @@
       "type": "Event Pass Point",
       "category": "Event Pass Point"
     },
+    "2042": {
+      "itemId": 2042,
+      "itemName": "Event Pass Point Go Wild Area 02",
+      "proto": "ITEM_EVENT_PASS_POINT_GO_WILD_AREA_02",
+      "type": "Event Pass Point",
+      "category": "Event Pass Point"
+    },
     "2101": {
       "itemId": 2101,
       "itemName": "Event Pass Point Live Ops 01",
@@ -103731,7 +103738,7 @@
         "attackerDefenseStatStageChange": 1,
         "buffActivationChance": 0.1
       },
-      "power": 145,
+      "power": 174,
       "durationMs": 2500,
       "energyDelta": -100
     },
