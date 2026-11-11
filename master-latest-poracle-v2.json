@@ -4313,7 +4313,8 @@
               "name": "Fairy"
             }
           ],
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -4355,7 +4356,8 @@
               "name": "Fairy"
             }
           ],
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       ]
     },
@@ -71829,6 +71831,10 @@
       "name": "Zap Cannon+",
       "type": "Electric"
     },
+    "506": {
+      "name": "Moonblast+",
+      "type": "Fairy"
+    },
     "508": {
       "name": "Acid Spray+",
       "type": "Poison"
@@ -71908,6 +71914,10 @@
     "615": {
       "name": "Kowtow Cleave",
       "type": "Dark"
+    },
+    "616": {
+      "name": "Soak",
+      "type": "Water"
     }
   },
   "questTypes": {
@@ -78705,7 +78715,7 @@
         "move_595": "Gulp Missile Gorging",
         "move_596": "Vm Move Temp Evolution Ultra V0800 Pokemon Necrozma",
         "move_615": "Kowtow Cleave",
-        "move_616": "Soak Fast",
+        "move_616": "Soak",
         "move_619": "Rock Slide+"
       },
       "items": {
@@ -88001,7 +88011,7 @@
         "move_595": "Gulp Missile Gorging",
         "move_596": "Vm Move Temp Evolution Ultra V0800 Pokemon Necrozma",
         "move_615": "Kniefallspalter",
-        "move_616": "Soak Fast",
+        "move_616": "Soak",
         "move_619": "Steinhagel+"
       },
       "items": {
@@ -97264,7 +97274,7 @@
         "move_595": "Gulp Missile Gorging",
         "move_596": "Vm Move Temp Evolution Ultra V0800 Pokemon Necrozma",
         "move_615": "Genufendiente",
-        "move_616": "Soak Fast",
+        "move_616": "Soak",
         "move_619": "Avalancha+"
       },
       "items": {
@@ -107770,7 +107780,7 @@
         "move_595": "Gulp Missile Gorging",
         "move_596": "Vm Move Temp Evolution Ultra V0800 Pokemon Necrozma",
         "move_615": "Génusection",
-        "move_616": "Soak Fast",
+        "move_616": "Soak",
         "move_619": "Éboulement +"
       },
       "items": {
@@ -117022,7 +117032,7 @@
         "move_595": "Gulp Missile Gorging",
         "move_596": "Vm Move Temp Evolution Ultra V0800 Pokemon Necrozma",
         "move_615": "Genufendente",
-        "move_616": "Soak Fast",
+        "move_616": "Soak",
         "move_619": "Frana+"
       },
       "items": {
@@ -129750,7 +129760,7 @@
         "move_595": "Gulp Missile Gorging",
         "move_596": "Vm Move Temp Evolution Ultra V0800 Pokemon Necrozma",
         "move_615": "Предательский Удар",
-        "move_616": "Soak Fast",
+        "move_616": "Soak",
         "move_619": "Сдвиг Скалы+"
       },
       "items": {

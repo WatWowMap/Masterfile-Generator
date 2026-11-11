@@ -2932,6 +2932,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 1,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -3013,6 +3014,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 1,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -3024,11 +3026,15 @@
           "attack": 253,
           "defense": 205,
           "stamina": 216,
+          "height": 1.7,
+          "weight": 42.3,
           "types": [
             3,
             18
           ],
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60,
+          "specialMove": 506
         }
       ]
     },
@@ -13769,6 +13775,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 1,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -82686,11 +82693,15 @@
           "attack": 253,
           "defense": 205,
           "stamina": 216,
+          "height": 1.7,
+          "weight": 42.3,
           "types": [
             3,
             18
           ],
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60,
+          "specialMove": 506
         }
       ]
     },
@@ -103319,9 +103330,19 @@
     },
     "506": {
       "moveId": 506,
-      "moveName": "Vm Move Temp Evolution Mega V0036 Pokemon Clefable",
+      "moveName": "Moonblast+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
-      "fast": false
+      "fast": false,
+      "type": 18,
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": {
+        "targetAttackStatStageChange": -1,
+        "buffActivationChance": 0.1
+      },
+      "power": 160,
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "507": {
       "moveId": 507,
@@ -104020,7 +104041,14 @@
       "moveId": 616,
       "moveName": "Soak",
       "proto": "SOAK_FAST",
-      "fast": true
+      "fast": true,
+      "type": 11,
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
+      "pvpDurationTurns": 1,
+      "power": 6,
+      "durationMs": 1000,
+      "energyDelta": 18
     },
     "619": {
       "moveId": 619,

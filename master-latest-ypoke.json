@@ -2758,6 +2758,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 2,
       "buddyDistance": 1,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -2815,11 +2816,26 @@
       "ultraBeast": false,
       "buddyGroupNumber": 3,
       "buddyDistance": 1,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
       "tradable": true,
-      "transferable": true
+      "transferable": true,
+      "tempEvolutions": {
+        "1": {
+          "tempEvoId": 1,
+          "stats": {
+            "attack": 253,
+            "defense": 205,
+            "stamina": 216
+          },
+          "types": [
+            "Flying",
+            "Fairy"
+          ]
+        }
+      }
     },
     "37": {
       "pokemonName": "Vulpix",
@@ -11820,6 +11836,7 @@
       "ultraBeast": false,
       "buddyGroupNumber": 1,
       "buddyDistance": 1,
+      "buddyMegaEnergy": 5,
       "thirdMoveStardust": 10000,
       "thirdMoveCandy": 25,
       "gymDefenderEligible": true,
@@ -65589,9 +65606,20 @@
     },
     "506": {
       "id": 506,
-      "name": "Vm Move Temp Evolution Mega V0036 Pokemon Clefable",
+      "name": "Moonblast+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
-      "fast": false
+      "fast": false,
+      "type": "Fairy",
+      "pvpPower": 80,
+      "pvpEnergyDelta": -50,
+      "pvpBuffs": [
+        {
+          "buffActivationChance": 0.1
+        }
+      ],
+      "power": 160,
+      "durationMs": 4000,
+      "energyDelta": -100
     },
     "507": {
       "id": 507,
@@ -66303,7 +66331,13 @@
       "id": 616,
       "name": "Soak",
       "proto": "SOAK_FAST",
-      "fast": true
+      "fast": true,
+      "type": "Water",
+      "pvpPower": 6,
+      "pvpEnergyDelta": 8,
+      "power": 6,
+      "durationMs": 1000,
+      "energyDelta": 18
     },
     "619": {
       "id": 619,

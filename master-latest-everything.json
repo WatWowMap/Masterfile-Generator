@@ -5022,6 +5022,7 @@
       "misc": {
         "buddyGroupNumber": 2,
         "buddyDistance": 1,
+        "buddyMegaEnergy": 5,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -5157,6 +5158,7 @@
       "misc": {
         "buddyGroupNumber": 3,
         "buddyDistance": 1,
+        "buddyMegaEnergy": 5,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -5171,6 +5173,8 @@
             "defense": 205,
             "stamina": 216
           },
+          "height": 1.7,
+          "weight": 42.3,
           "types": {
             "3": {
               "typeId": 3,
@@ -5181,7 +5185,8 @@
               "typeName": "Fairy"
             }
           },
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60
         }
       }
     },
@@ -22432,6 +22437,7 @@
       "misc": {
         "buddyGroupNumber": 1,
         "buddyDistance": 1,
+        "buddyMegaEnergy": 5,
         "thirdMoveStardust": 10000,
         "thirdMoveCandy": 25,
         "gymDefenderEligible": true,
@@ -125354,11 +125360,15 @@
           "attack": 253,
           "defense": 205,
           "stamina": 216,
+          "height": 1.7,
+          "weight": 42.3,
           "types": [
             3,
             18
           ],
-          "unreleased": true
+          "firstEnergyCost": 300,
+          "subsequentEnergyCost": 60,
+          "specialMove": 506
         }
       ]
     },
@@ -144129,7 +144139,8 @@
     "506": {
       "id": 506,
       "name": "Moonblast+",
-      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE"
+      "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0036_POKEMON_CLEFABLE",
+      "power": 160
     },
     "507": {
       "id": 507,
@@ -144602,7 +144613,8 @@
     "616": {
       "id": 616,
       "name": "Soak",
-      "proto": "SOAK_FAST"
+      "proto": "SOAK_FAST",
+      "power": 6
     },
     "619": {
       "id": 619,
