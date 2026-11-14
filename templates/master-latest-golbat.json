@@ -64,7 +64,11 @@
       "costumeOverrideEvos": "costumeId",
       "height": true,
       "weight": true,
-      "sizeSettings": "value"
+      "sizeSettings": "value",
+      "ibfc": {
+        "defaultForms": "formId",
+        "alternateForms": "formId"
+      }
     }
   },
   "costumes": {
