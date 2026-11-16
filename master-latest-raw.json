@@ -35920,7 +35920,9 @@
         309
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        72
+      ],
       "genId": 4,
       "generation": "Sinnoh",
       "forms": [
@@ -98238,6 +98240,13 @@
       "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2273": {
+      "itemId": 2273,
+      "itemName": "Event Ticket S24 Nov28 Megaraid",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV28_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -103806,7 +103815,7 @@
         "attackerDefenseStatStageChange": 1,
         "buffActivationChance": 0.1
       },
-      "power": 174,
+      "power": 145,
       "durationMs": 2500,
       "energyDelta": -100
     },
@@ -110488,6 +110497,13 @@
       "proto": "LC_2026_LONDON_NO_001",
       "formatted": "2026 London No 001",
       "imageUrl": "lc_nightOut2026_London"
+    },
+    "423": {
+      "id": 423,
+      "proto": "LC_SPECIALBACKGROUND_PTR_001",
+      "formatted": "Ptr 001",
+      "imageUrl": "sb_PTR_001",
+      "cardType": "SPECIAL_BACKGROUND"
     },
     "424": {
       "id": 424,

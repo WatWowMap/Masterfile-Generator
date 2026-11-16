@@ -28609,7 +28609,9 @@
         309
       ],
       "eliteQuickMoves": [],
-      "eliteChargedMoves": [],
+      "eliteChargedMoves": [
+        72
+      ],
       "generation": "Sinnoh",
       "forms": {
         "661": {
@@ -60420,6 +60422,10 @@
     "2272": {
       "name": "Event Ticket S24 Nov21 Community To Gift",
       "type": "Global Event Ticket"
+    },
+    "2273": {
+      "name": "Event Ticket S24 Nov28 Megaraid",
+      "type": "Global Event Ticket"
     }
   },
   "moves": {
@@ -66041,7 +66047,7 @@
           "buffActivationChance": 0.1
         }
       ],
-      "power": 174,
+      "power": 145,
       "durationMs": 2500,
       "energyDelta": -100
     },
