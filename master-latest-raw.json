@@ -2098,7 +2098,11 @@
         3376,
         3377,
         3378,
-        3379
+        3379,
+        3381,
+        3382,
+        3383,
+        3384
       ],
       "sizeSettings": [
         {
@@ -9090,7 +9094,8 @@
       "genId": 1,
       "generation": "Kanto",
       "forms": [
-        1059
+        1059,
+        3372
       ],
       "sizeSettings": [
         {
@@ -15345,7 +15350,8 @@
       "generation": "Johto",
       "forms": [
         1226,
-        3009
+        3009,
+        3370
       ],
       "sizeSettings": [
         {
@@ -36147,7 +36153,8 @@
       "genId": 4,
       "generation": "Sinnoh",
       "forms": [
-        1823
+        1823,
+        3373
       ],
       "sizeSettings": [
         {
@@ -74278,7 +74285,8 @@
       "genId": 9,
       "generation": "Paldea",
       "forms": [
-        3291
+        3291,
+        3371
       ],
       "sizeSettings": [
         {
@@ -95839,6 +95847,26 @@
       "purificationDust": 3000,
       "purificationCandy": 3
     },
+    "3370": {
+      "formName": "Paldea Winter 2026 01",
+      "proto": "WOOPER_PALDEA_WINTER_2026_01",
+      "formId": 3370
+    },
+    "3371": {
+      "formName": "Winter 2026 01",
+      "proto": "CLODSIRE_WINTER_2026_01",
+      "formId": 3371
+    },
+    "3372": {
+      "formName": "Winter 2026 01",
+      "proto": "TANGELA_WINTER_2026_01",
+      "formId": 3372
+    },
+    "3373": {
+      "formName": "Winter 2026 01",
+      "proto": "TANGROWTH_WINTER_2026_01",
+      "formId": 3373
+    },
     "3375": {
       "formName": "Anniversary 2026 Philippine 01",
       "proto": "PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
@@ -95875,6 +95903,26 @@
       "stamina": 155,
       "height": 0.3,
       "weight": 0.3
+    },
+    "3381": {
+      "formName": "Gotour 2027 A",
+      "proto": "PIKACHU_GOTOUR_2027_A",
+      "formId": 3381
+    },
+    "3382": {
+      "formName": "Gotour 2027 B",
+      "proto": "PIKACHU_GOTOUR_2027_B",
+      "formId": 3382
+    },
+    "3383": {
+      "formName": "Gotour 2027 A 02",
+      "proto": "PIKACHU_GOTOUR_2027_A_02",
+      "formId": 3383
+    },
+    "3384": {
+      "formName": "Gotour 2027 B 02",
+      "proto": "PIKACHU_GOTOUR_2027_B_02",
+      "formId": 3384
     }
   },
   "types": {
@@ -110503,7 +110551,8 @@
       "proto": "LC_SPECIALBACKGROUND_PTR_001",
       "formatted": "Ptr 001",
       "imageUrl": "sb_PTR_001",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Duolingo"
     },
     "424": {
       "id": 424,

@@ -1798,6 +1798,22 @@
           "name": "Halloween 2026",
           "proto": "PIKACHU_HALLOWEEN_2026",
           "is_costume": true
+        },
+        "3381": {
+          "name": "Gotour 2027 A",
+          "proto": "PIKACHU_GOTOUR_2027_A"
+        },
+        "3382": {
+          "name": "Gotour 2027 B",
+          "proto": "PIKACHU_GOTOUR_2027_B"
+        },
+        "3383": {
+          "name": "Gotour 2027 A 02",
+          "proto": "PIKACHU_GOTOUR_2027_A_02"
+        },
+        "3384": {
+          "name": "Gotour 2027 B 02",
+          "proto": "PIKACHU_GOTOUR_2027_B_02"
         }
       },
       "attack": 112,
@@ -6839,6 +6855,10 @@
               "form": 1823
             }
           ]
+        },
+        "3372": {
+          "name": "Winter 2026 01",
+          "proto": "TANGELA_WINTER_2026_01"
         }
       },
       "attack": 183,
@@ -11010,6 +11030,10 @@
               "pokemon": 980
             }
           ]
+        },
+        "3370": {
+          "name": "Paldea Winter 2026 01",
+          "proto": "WOOPER_PALDEA_WINTER_2026_01"
         }
       },
       "attack": 75,
@@ -24640,6 +24664,10 @@
         "1823": {
           "name": "Normal",
           "proto": "TANGROWTH_NORMAL"
+        },
+        "3373": {
+          "name": "Winter 2026 01",
+          "proto": "TANGROWTH_WINTER_2026_01"
         }
       },
       "attack": 207,
@@ -50088,6 +50116,10 @@
         "3291": {
           "name": "Normal",
           "proto": "CLODSIRE_NORMAL"
+        },
+        "3371": {
+          "name": "Winter 2026 01",
+          "proto": "CLODSIRE_WINTER_2026_01"
         }
       },
       "attack": 127,
@@ -53918,6 +53950,12 @@
       "proto": "ITEM_EVENT_TICKET_S24_NOV21_COMMUNITY_TO_GIFT",
       "type": "Global Event Ticket",
       "category": "Global Event Ticket"
+    },
+    "2273": {
+      "name": "Event Ticket S24 Nov28 Megaraid",
+      "proto": "ITEM_EVENT_TICKET_S24_NOV28_MEGARAID",
+      "type": "Global Event Ticket",
+      "category": "Global Event Ticket"
     }
   },
   "moves": {
@@ -56664,7 +56702,7 @@
       "name": "Ominous Wind+",
       "proto": "VM_MOVE_TEMP_EVOLUTION_MEGA_V0609_POKEMON_CHANDELURE",
       "type": "Ghost",
-      "power": 174
+      "power": 145
     },
     "565": {
       "name": "Vm Move Temp Evolution Mega V0623 Pokemon Golurk",

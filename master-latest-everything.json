@@ -3613,6 +3613,26 @@
           "proto": "PIKACHU_HALLOWEEN_2026",
           "form": 3379,
           "isCostume": true
+        },
+        "3381": {
+          "name": "Gotour 2027 A",
+          "proto": "PIKACHU_GOTOUR_2027_A",
+          "form": 3381
+        },
+        "3382": {
+          "name": "Gotour 2027 B",
+          "proto": "PIKACHU_GOTOUR_2027_B",
+          "form": 3382
+        },
+        "3383": {
+          "name": "Gotour 2027 A 02",
+          "proto": "PIKACHU_GOTOUR_2027_A_02",
+          "form": 3383
+        },
+        "3384": {
+          "name": "Gotour 2027 B 02",
+          "proto": "PIKACHU_GOTOUR_2027_B_02",
+          "form": 3384
         }
       },
       "stats": {
@@ -15154,6 +15174,11 @@
               "itemRequirement": "Sinnoh Stone"
             }
           }
+        },
+        "3372": {
+          "name": "Winter 2026 01",
+          "proto": "TANGELA_WINTER_2026_01",
+          "form": 3372
         }
       },
       "stats": {
@@ -24736,6 +24761,11 @@
               "candyCost": 50
             }
           }
+        },
+        "3370": {
+          "name": "Paldea Winter 2026 01",
+          "proto": "WOOPER_PALDEA_WINTER_2026_01",
+          "form": 3370
         }
       },
       "stats": {
@@ -56163,6 +56193,11 @@
           "name": "Normal",
           "proto": "TANGROWTH_NORMAL",
           "form": 1823
+        },
+        "3373": {
+          "name": "Winter 2026 01",
+          "proto": "TANGROWTH_WINTER_2026_01",
+          "form": 3373
         }
       },
       "stats": {
@@ -112798,6 +112833,11 @@
           "name": "Normal",
           "proto": "CLODSIRE_NORMAL",
           "form": 3291
+        },
+        "3371": {
+          "name": "Winter 2026 01",
+          "proto": "CLODSIRE_WINTER_2026_01",
+          "form": 3371
         }
       },
       "stats": {
@@ -138469,6 +138509,26 @@
       "purificationDust": 3000,
       "purificationCandy": 3
     },
+    "3370": {
+      "formName": "Paldea Winter 2026 01",
+      "proto": "WOOPER_PALDEA_WINTER_2026_01",
+      "formId": 3370
+    },
+    "3371": {
+      "formName": "Winter 2026 01",
+      "proto": "CLODSIRE_WINTER_2026_01",
+      "formId": 3371
+    },
+    "3372": {
+      "formName": "Winter 2026 01",
+      "proto": "TANGELA_WINTER_2026_01",
+      "formId": 3372
+    },
+    "3373": {
+      "formName": "Winter 2026 01",
+      "proto": "TANGROWTH_WINTER_2026_01",
+      "formId": 3373
+    },
     "3375": {
       "formName": "Anniversary 2026 Philippine 01",
       "proto": "PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01",
@@ -138505,6 +138565,26 @@
       "stamina": 155,
       "height": 0.3,
       "weight": 0.3
+    },
+    "3381": {
+      "formName": "Gotour 2027 A",
+      "proto": "PIKACHU_GOTOUR_2027_A",
+      "formId": 3381
+    },
+    "3382": {
+      "formName": "Gotour 2027 B",
+      "proto": "PIKACHU_GOTOUR_2027_B",
+      "formId": 3382
+    },
+    "3383": {
+      "formName": "Gotour 2027 A 02",
+      "proto": "PIKACHU_GOTOUR_2027_A_02",
+      "formId": 3383
+    },
+    "3384": {
+      "formName": "Gotour 2027 B 02",
+      "proto": "PIKACHU_GOTOUR_2027_B_02",
+      "formId": 3384
     }
   },
   "types": {
@@ -149825,7 +149905,8 @@
       "proto": "LC_SPECIALBACKGROUND_PTR_001",
       "formatted": "Ptr 001",
       "imageUrl": "sb_PTR_001",
-      "cardType": "SPECIAL_BACKGROUND"
+      "cardType": "SPECIAL_BACKGROUND",
+      "vfxAddress": "bgfx_Duolingo"
     },
     "424": {
       "id": 424,
